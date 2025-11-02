@@ -27,7 +27,7 @@ BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
 SUCCESS_PKGS=$2
 FAILED_PKGS=$3
 BIOC_POD="bioc-${BUILD_ID_SHORT}"
-NAMESPACE="ns-${BUILD_ID_SHORT}"
+NAMESPACE="ns-${BUILD_ID}"
 
 # Create directory structure
 mkdir -p "logs"

@@ -28,7 +28,7 @@ CONTAINER=$2
 PVC=$3
 BUILD_ID=$(sanitize_name "$4")
 BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
-NAMESPACE="ns-${BUILD_ID_SHORT}"
+NAMESPACE="ns-${BUILD_ID}"
 
 # Record dispatched package
 mkdir -p "logs"

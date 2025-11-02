@@ -24,7 +24,7 @@ BUILD_ID=$(sanitize_name "$1")
 BUILD_ID_SHORT=$(truncate_build_id "$BUILD_ID")
 OLD_URL=$2
 CONTAINER=$3
-NAMESPACE="ns-${BUILD_ID_SHORT}"
+NAMESPACE="ns-${BUILD_ID}"
 PVC_NAME="pvc-${BUILD_ID_SHORT}"
 
 # First create rclone config secret if not exists

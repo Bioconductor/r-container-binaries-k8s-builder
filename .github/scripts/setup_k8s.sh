@@ -25,8 +25,9 @@ truncate_build_id() {
 STORAGE_CLASS=$1
 SIZE=$2
 BUILD_ID=$3
-BUILD_ID_SHORT=$(truncate_build_id "$(sanitize_name ${BUILD_ID})")
-NAMESPACE="ns-${BUILD_ID_SHORT}"
+BUILD_ID_CLEAN=$(sanitize_name "${BUILD_ID}")
+BUILD_ID_SHORT=$(truncate_build_id "${BUILD_ID_CLEAN}")
+NAMESPACE="ns-${BUILD_ID_CLEAN}"
 PVC_NAME="pvc-${BUILD_ID_SHORT}"
 BIOC_POD="bioc-${BUILD_ID_SHORT}"
 

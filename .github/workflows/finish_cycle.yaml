@@ -70,13 +70,9 @@ jobs:
           OLD_PACKAGES_URL="https://storage.googleapis.com/bioconductor-packages/${BIOC_VERSION}/container-binaries/${CONTAINER_NAME}/src/contrib/PACKAGES"
           echo "Using packages URL: ${OLD_PACKAGES_URL}"
           
-          # Calculate truncated build ID for namespace
+          # Calculate namespace with full timestamp
           BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-')
-          VERSION_SUFFIX="${BUILD_ID_CLEAN: -3}"
-          DATE_PART=$(echo "$BUILD_ID_CLEAN" | cut -d'-' -f1-3 | tr -d '-')
-          CONTAINER_HINT=$(echo "$BUILD_ID_CLEAN" | sed 's/^[0-9-]*-[0-9]*-//' | sed 's/-[^-]*$//' | cut -c1-4)
-          BUILD_ID_SHORT="${DATE_PART}-${CONTAINER_HINT}-${VERSION_SUFFIX}"
-          NAMESPACE="ns-${BUILD_ID_SHORT}"
+          NAMESPACE="ns-${BUILD_ID_CLEAN}"
           
           # Check for running jobs before finishing
           RUNNING_JOBS=$(kubectl get jobs -n "${NAMESPACE}" -l app=bioc-builder -o name 2>/dev/null | wc -l || echo "0")
