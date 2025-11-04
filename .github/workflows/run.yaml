@@ -180,6 +180,9 @@ jobs:
           if bash ./.github/scripts/check_cycle_complete.sh > /tmp/cycle-check-output.txt 2>&1; then
             echo "notify=yes" >> $GITHUB_OUTPUT
             
+            # Get container name for notification
+            CONTAINER=$(cat CONTAINER_BASE_IMAGE.bioc)
+            
             # Get stats for notification
             SUCCESSFUL=$(wc -l < logs/successful-packages.txt 2>/dev/null || echo 0)
             FAILED=$(wc -l < logs/failed-packages.txt 2>/dev/null || echo 0)
@@ -187,7 +190,7 @@ jobs:
             REMAINING=$(python3 -c "import json; remaining = json.load(open('remaining-packages.json')); failed = set(line.strip() for line in open('logs/failed-packages.txt') if line.strip()); blocked = [pkg for pkg in remaining if pkg not in failed]; print(len(blocked))" 2>/dev/null || echo 0)
             
             # Create simple single-line notification message (avoid quotes to prevent JSON escaping issues)
-            MSG="Build cycle ready: ${SUCCESSFUL} successful, ${FAILED} failed, ${REMAINING} blocked. Run finish_cycle: https://github.com/${{ github.repository }}/actions/workflows/finish_cycle.yaml"
+            MSG="Build cycle ready for ${CONTAINER}: ${SUCCESSFUL} successful, ${FAILED} failed, ${REMAINING} blocked. Run finish_cycle: https://github.com/${{ github.repository }}/actions/workflows/finish_cycle.yaml"
             
             # Replace any double quotes with single quotes to avoid JSON issues
             MSG="${MSG//\"/\'}"
