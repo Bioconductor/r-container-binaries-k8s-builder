@@ -70,6 +70,8 @@ spec:
           # Handle old packages if URL provided
           if [ -n "${OLD_URL}" ] && curl -sfL "${OLD_URL}" -o /tmp/old_packages; then
             mkdir -p /tmp/pkglinks
+            # Remove pattern where there is a newline between the 'File:' and filename
+            sed -i -z 's/\n[[:space:]]\+/ /g' /tmp/old_packages
         
             grep "^Package:" /tmp/old_packages | cut -d' ' -f2 > /tmp/old_packages.txt
         
