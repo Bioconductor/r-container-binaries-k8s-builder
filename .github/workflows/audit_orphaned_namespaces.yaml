@@ -1,0 +1,128 @@
+name: Audit Orphaned Namespaces
+
+on:
+  workflow_dispatch:
+
+jobs:
+  audit-orphaned-namespaces:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Save kubeconfig
+        shell: bash
+        run: mkdir -p ~/.kube && echo "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+
+      - name: Install kubectl
+        run: |
+          curl -LO 'https://dl.k8s.io/release/v1.34.1/bin/linux/amd64/kubectl'
+          chmod +x ./kubectl
+          sudo mv ./kubectl /usr/local/bin/kubectl
+          kubectl version --client
+
+      - name: Fetch all remote branches
+        run: |
+          git fetch --all --prune
+
+      - name: Audit namespaces against branches
+        id: audit
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          sanitize_name() {
+            echo "$1" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-'
+          }
+
+          mkdir -p /tmp/orphan-audit
+
+          # Collect namespaces from the cluster
+          kubectl get namespaces -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
+            | grep '^ns-' \
+            | sort -u > /tmp/orphan-audit/all_namespaces.txt || true
+
+          # Collect relevant remote branches and map them to expected namespaces
+          git for-each-ref --format='%(refname:short)' refs/remotes/origin \
+            | sed 's|^origin/||' \
+            | grep -E '^(build|done)/' \
+            | sort -u > /tmp/orphan-audit/all_branches.txt || true
+
+          : > /tmp/orphan-audit/expected_namespaces.txt
+
+          while IFS= read -r branch; do
+            [ -z "$branch" ] && continue
+
+            build_id="$branch"
+            build_id="${build_id#build/}"
+            build_id="${build_id#done/}"
+            build_id="${build_id//\//-}"
+
+            build_id_clean="$(sanitize_name "$build_id")"
+            echo "ns-${build_id_clean}" >> /tmp/orphan-audit/expected_namespaces.txt
+          done < /tmp/orphan-audit/all_branches.txt
+
+          sort -u /tmp/orphan-audit/expected_namespaces.txt -o /tmp/orphan-audit/expected_namespaces.txt
+
+          # Orphaned namespaces = namespaces in cluster that do not map to any current build/done branch
+          comm -23 \
+            /tmp/orphan-audit/all_namespaces.txt \
+            /tmp/orphan-audit/expected_namespaces.txt \
+            > /tmp/orphan-audit/orphaned_namespaces.txt || true
+
+          TOTAL_NAMESPACES=$(wc -l < /tmp/orphan-audit/all_namespaces.txt | tr -d ' ')
+          TOTAL_BRANCHES=$(wc -l < /tmp/orphan-audit/all_branches.txt | tr -d ' ')
+          TOTAL_EXPECTED=$(wc -l < /tmp/orphan-audit/expected_namespaces.txt | tr -d ' ')
+          TOTAL_ORPHANS=$(wc -l < /tmp/orphan-audit/orphaned_namespaces.txt | tr -d ' ')
+
+          echo "total_namespaces=${TOTAL_NAMESPACES}" >> "$GITHUB_OUTPUT"
+          echo "total_branches=${TOTAL_BRANCHES}" >> "$GITHUB_OUTPUT"
+          echo "total_expected=${TOTAL_EXPECTED}" >> "$GITHUB_OUTPUT"
+          echo "total_orphans=${TOTAL_ORPHANS}" >> "$GITHUB_OUTPUT"
+
+          echo "=== Namespace Audit Summary ==="
+          echo "Cluster namespaces matching ns-*: ${TOTAL_NAMESPACES}"
+          echo "Remote build/done branches: ${TOTAL_BRANCHES}"
+          echo "Expected namespaces from branches: ${TOTAL_EXPECTED}"
+          echo "Orphaned namespaces: ${TOTAL_ORPHANS}"
+          echo
+
+          if [[ "${TOTAL_ORPHANS}" -gt 0 ]]; then
+            echo "=== Orphaned namespaces ==="
+            cat /tmp/orphan-audit/orphaned_namespaces.txt
+          else
+            echo "No orphaned namespaces found."
+          fi
+
+      - name: Upload audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: orphaned-namespace-audit
+          path: /tmp/orphan-audit/
+
+      - name: Job summary
+        shell: bash
+        run: |
+          {
+            echo "## Orphaned Namespace Audit"
+            echo
+            echo "- Cluster namespaces matching \`ns-*\`: ${{ steps.audit.outputs.total_namespaces }}"
+            echo "- Remote \`build/*\` + \`done/*\` branches: ${{ steps.audit.outputs.total_branches }}"
+            echo "- Expected namespaces from branches: ${{ steps.audit.outputs.total_expected }}"
+            echo "- Orphaned namespaces: ${{ steps.audit.outputs.total_orphans }}"
+            echo
+
+            if [[ "${{ steps.audit.outputs.total_orphans }}" != "0" ]]; then
+              echo "### Orphaned namespaces"
+              echo '```text'
+              cat /tmp/orphan-audit/orphaned_namespaces.txt
+              echo '```'
+            else
+              echo "No orphaned namespaces found."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
