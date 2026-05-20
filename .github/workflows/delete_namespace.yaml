@@ -2,6 +2,15 @@ name: Delete Build Namespace
 
 on:
   workflow_dispatch:
+    inputs:
+      namespace:
+        description: "Namespace to delete (with or without ns- prefix)"
+        required: false
+        type: string
+      branch_name:
+        description: "Branch name to map to namespace (e.g. build/2026-01-01-120000-image-tag)"
+        required: false
+        type: string
 
 jobs:
   delete-namespace:
@@ -25,30 +34,46 @@ jobs:
           mv ./kubectl /usr/local/bin/kubectl && \
           kubectl version
 
-      - name: Get build identifier
-        id: get_build_id
+      - name: Resolve target namespace
+        id: resolve_target
+        shell: bash
         run: |
-          # Extract build ID from branch name
-          BRANCH_NAME=${GITHUB_REF#refs/heads/}
-          BUILD_ID=$(echo "${BRANCH_NAME}" | sed 's|build/||' | tr '/' '-')
-          echo "build_id=${BUILD_ID}" >> $GITHUB_OUTPUT
-          echo "Using Build ID: ${BUILD_ID}"
+          set -euo pipefail
 
-      - name: Calculate namespace
-        id: calc_namespace
-        run: |
-          BUILD_ID="${{ steps.get_build_id.outputs.build_id }}"
-          
-          # Calculate namespace with full timestamp
-          BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-')
-          NAMESPACE="ns-${BUILD_ID_CLEAN}"
-          
-          echo "namespace=${NAMESPACE}" >> $GITHUB_OUTPUT
-          echo "Calculated namespace: ${NAMESPACE}"
+          sanitize_name() {
+            echo "$1" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-'
+          }
+
+          INPUT_NAMESPACE="${{ inputs.namespace }}"
+          INPUT_BRANCH="${{ inputs.branch_name }}"
+          REF_BRANCH="${GITHUB_REF#refs/heads/}"
+
+          TARGET_BRANCH="${INPUT_BRANCH:-$REF_BRANCH}"
+          BUILD_ID=""
+
+          if [[ -n "${INPUT_NAMESPACE}" ]]; then
+            if [[ "${INPUT_NAMESPACE}" == ns-* ]]; then
+              NAMESPACE=$(sanitize_name "${INPUT_NAMESPACE}")
+            else
+              NAMESPACE="ns-$(sanitize_name "${INPUT_NAMESPACE}")"
+            fi
+            echo "Using namespace from workflow input: ${NAMESPACE}"
+          else
+            BUILD_ID="${TARGET_BRANCH#build/}"
+            BUILD_ID="${BUILD_ID#done/}"
+            BUILD_ID="${BUILD_ID//\//-}"
+            BUILD_ID_CLEAN=$(sanitize_name "${BUILD_ID}")
+            NAMESPACE="ns-${BUILD_ID_CLEAN}"
+            echo "Derived namespace ${NAMESPACE} from branch ${TARGET_BRANCH}"
+          fi
+
+          echo "target_branch=${TARGET_BRANCH}" >> "$GITHUB_OUTPUT"
+          echo "build_id=${BUILD_ID}" >> "$GITHUB_OUTPUT"
+          echo "namespace=${NAMESPACE}" >> "$GITHUB_OUTPUT"
 
       - name: Delete namespace
         run: |
-          NAMESPACE="${{ steps.calc_namespace.outputs.namespace }}"
+          NAMESPACE="${{ steps.resolve_target.outputs.namespace }}"
           
           echo "Checking if namespace ${NAMESPACE} exists..."
           if kubectl get namespace "${NAMESPACE}" >/dev/null 2>&1; then
@@ -61,17 +86,35 @@ jobs:
 
       - name: Rename branch to archive
         run: |
-          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          TARGET_BRANCH="${{ steps.resolve_target.outputs.target_branch }}"
+          
+          if [[ -z "${TARGET_BRANCH}" ]]; then
+            echo "No branch specified, skipping rename"
+            exit 0
+          fi
+          
+          if ! git ls-remote --exit-code --heads origin "${TARGET_BRANCH}" >/dev/null 2>&1; then
+            echo "Branch ${TARGET_BRANCH} does not exist on origin, skipping rename"
+            exit 0
+          fi
           
           # Check if branch starts with build/
-          if [[ "${BRANCH_NAME}" == build/* ]]; then
+          if [[ "${TARGET_BRANCH}" == build/* ]]; then
             # Create new branch name with done/ prefix
-            ARCHIVE_BRANCH=$(echo "${BRANCH_NAME}" | sed 's|^build/|done/|')
+            ARCHIVE_BRANCH=$(echo "${TARGET_BRANCH}" | sed 's|^build/|done/|')
             
-            echo "Renaming branch from ${BRANCH_NAME} to ${ARCHIVE_BRANCH}"
+            echo "Renaming branch from ${TARGET_BRANCH} to ${ARCHIVE_BRANCH}"
+            
+            if git ls-remote --exit-code --heads origin "${ARCHIVE_BRANCH}" >/dev/null 2>&1; then
+              echo "Archive branch ${ARCHIVE_BRANCH} already exists, skipping rename"
+              exit 0
+            fi
             
             git config --global user.name 'GitHub Actions'
             git config --global user.email 'actions@github.com'
+
+            git fetch origin "${TARGET_BRANCH}:${TARGET_BRANCH}"
+            git checkout "${TARGET_BRANCH}"
             
             # Create the archive branch from current HEAD
             git checkout -b "${ARCHIVE_BRANCH}"
@@ -80,15 +123,18 @@ jobs:
             git push origin "${ARCHIVE_BRANCH}"
             
             # Delete the old build branch
-            git push origin --delete "${BRANCH_NAME}"
+            git push origin --delete "${TARGET_BRANCH}"
             
             echo "Branch renamed successfully"
           else
-            echo "Branch does not start with build/, skipping rename"
+            echo "Branch ${TARGET_BRANCH} does not start with build/, skipping rename"
           fi
 
       - name: Summary
         run: |
           echo "Build namespace cleanup completed"
-          echo "Build ID: ${{ steps.get_build_id.outputs.build_id }}"
-          echo "Namespace: ${{ steps.calc_namespace.outputs.namespace }}"
+          echo "Input namespace: ${{ inputs.namespace }}"
+          echo "Input branch_name: ${{ inputs.branch_name }}"
+          echo "Target branch: ${{ steps.resolve_target.outputs.target_branch }}"
+          echo "Build ID: ${{ steps.resolve_target.outputs.build_id }}"
+          echo "Namespace: ${{ steps.resolve_target.outputs.namespace }}"
