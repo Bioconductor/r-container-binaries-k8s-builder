@@ -75,6 +75,11 @@ jobs:
             /tmp/orphan-audit/expected_namespaces.txt \
             > /tmp/orphan-audit/orphaned_namespaces.txt || true
 
+          # Convert orphaned namespaces to refs that can be used with Delete Build Namespace.
+          # Example: ns-2026-03-04-170945-bioconductordocker-devel -> build/2026-03-04-170945-bioconductordocker-devel
+          sed -E 's/^ns-/build\//' /tmp/orphan-audit/orphaned_namespaces.txt \
+            > /tmp/orphan-audit/orphaned_delete_refs.txt || true
+
           TOTAL_NAMESPACES=$(wc -l < /tmp/orphan-audit/all_namespaces.txt | tr -d ' ')
           TOTAL_BRANCHES=$(wc -l < /tmp/orphan-audit/all_branches.txt | tr -d ' ')
           TOTAL_EXPECTED=$(wc -l < /tmp/orphan-audit/expected_namespaces.txt | tr -d ' ')
@@ -95,6 +100,9 @@ jobs:
           if [[ "${TOTAL_ORPHANS}" -gt 0 ]]; then
             echo "=== Orphaned namespaces ==="
             cat /tmp/orphan-audit/orphaned_namespaces.txt
+            echo
+            echo "=== Delete Build Namespace refs ==="
+            cat /tmp/orphan-audit/orphaned_delete_refs.txt
           else
             echo "No orphaned namespaces found."
           fi
@@ -121,6 +129,11 @@ jobs:
               echo "### Orphaned namespaces"
               echo '```text'
               cat /tmp/orphan-audit/orphaned_namespaces.txt
+              echo '```'
+              echo
+              echo "### Delete Build Namespace refs"
+              echo '```text'
+              cat /tmp/orphan-audit/orphaned_delete_refs.txt
               echo '```'
             else
               echo "No orphaned namespaces found."
