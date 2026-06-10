@@ -1,0 +1,170 @@
+name: Disk Usage Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  disk-usage-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.PAT }}
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Save kubeconfig
+        shell: bash
+        run: |
+          mkdir -p ~/.kube
+          echo "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+          chmod 600 ~/.kube/config
+
+      - name: Install kubectl
+        run: |
+          curl -LO 'https://dl.k8s.io/release/v1.34.1/bin/linux/amd64/kubectl'
+          chmod +x ./kubectl
+          sudo mv ./kubectl /usr/local/bin/kubectl
+          kubectl version --client
+
+      - name: Fetch all remote branches
+        run: |
+          git fetch --all --prune
+
+      - name: Collect disk usage
+        id: disk_usage
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p /tmp/disk-usage
+
+          # Collect all ns-* namespaces from the cluster
+          kubectl get namespaces \
+            -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
+            | grep '^ns-' \
+            | sort -u > /tmp/disk-usage/namespaces.txt || true
+
+          TOTAL_NAMESPACES=$(wc -l < /tmp/disk-usage/namespaces.txt | tr -d ' ')
+          echo "Found ${TOTAL_NAMESPACES} namespace(s) matching ns-*"
+
+          # Header for the data file
+          echo "NAMESPACE|BRANCH|ALLOCATED|USED|USED_PCT" > /tmp/disk-usage/usage_data.txt
+
+          TOTAL_ALLOCATED_GIB=0
+          TOTAL_USED_GIB=0
+
+          while IFS= read -r ns; do
+            [ -z "$ns" ] && continue
+
+            build_id="${ns#ns-}"
+
+            # Map namespace back to its branch
+            branch="unknown"
+            if git ls-remote --exit-code --heads origin "build/${build_id}" >/dev/null 2>&1; then
+              branch="build/${build_id}"
+            elif git ls-remote --exit-code --heads origin "done/${build_id}" >/dev/null 2>&1; then
+              branch="done/${build_id}"
+            fi
+
+            # Sum requested capacity across all PVCs in the namespace
+            allocated="N/A"
+            ns_allocated_gib=0
+            while IFS= read -r pvc_size; do
+              [ -z "${pvc_size}" ] && continue
+              if [[ "${pvc_size}" =~ ^([0-9]+)Gi$ ]]; then
+                ns_allocated_gib=$(( ns_allocated_gib + ${BASH_REMATCH[1]} ))
+              fi
+            done < <(kubectl get pvc -n "${ns}" \
+              --no-headers \
+              -o custom-columns=":spec.resources.requests.storage" \
+              2>/dev/null | grep -v '^$' || true)
+            if [[ "${ns_allocated_gib}" -gt 0 ]]; then
+              allocated="${ns_allocated_gib}Gi"
+              TOTAL_ALLOCATED_GIB=$(( TOTAL_ALLOCATED_GIB + ns_allocated_gib ))
+            fi
+
+            # Attempt to get actual disk usage from a running pod
+            used="N/A"
+            used_pct="N/A"
+            pod=$(kubectl get pods -n "${ns}" \
+              --field-selector=status.phase=Running \
+              --no-headers \
+              -o custom-columns=":metadata.name" \
+              2>/dev/null | head -1 || true)
+
+            if [[ -n "${pod}" ]]; then
+              # Detect the first available container in the pod
+              container=$(kubectl get pod "${pod}" -n "${ns}" \
+                -o jsonpath='{.spec.containers[0].name}' 2>/dev/null || echo "")
+              if [[ -n "${container}" ]]; then
+                raw_df=$(kubectl exec -n "${ns}" "${pod}" -c "${container}" \
+                  -- df -h /mnt \
+                  2>/tmp/disk-usage/exec_err_${ns}.txt || true)
+                df_output=$(echo "${raw_df}" | awk 'NR==2{print $3"|"$5}')
+                if [[ -n "${df_output}" ]]; then
+                  used="${df_output%%|*}"
+                  used_pct="${df_output##*|}"
+
+                  # Accumulate used total (strip unit suffix)
+                  if [[ "${used}" =~ ^([0-9]+(\.[0-9]+)?)G$ ]]; then
+                    used_int=$(printf "%.0f" "${BASH_REMATCH[1]}")
+                    TOTAL_USED_GIB=$(( TOTAL_USED_GIB + used_int ))
+                  fi
+                else
+                  exec_err=$(cat /tmp/disk-usage/exec_err_${ns}.txt 2>/dev/null || true)
+                  echo "  [warn] exec into ${pod}/${container} failed: ${exec_err}"
+                  used="exec-failed"
+                fi
+              else
+                echo "  [warn] could not determine container name for pod ${pod} in ${ns}"
+              fi
+            fi
+
+            echo "${ns}|${branch}|${allocated}|${used}|${used_pct}" \
+              >> /tmp/disk-usage/usage_data.txt
+          done < /tmp/disk-usage/namespaces.txt
+
+          echo "total_namespaces=${TOTAL_NAMESPACES}" >> "$GITHUB_OUTPUT"
+          echo "total_allocated_gib=${TOTAL_ALLOCATED_GIB}" >> "$GITHUB_OUTPUT"
+          echo "total_used_gib=${TOTAL_USED_GIB}" >> "$GITHUB_OUTPUT"
+
+          echo "=== Disk Usage Summary ==="
+          echo "Namespaces: ${TOTAL_NAMESPACES}"
+          echo "Total allocated: ${TOTAL_ALLOCATED_GIB} GiB"
+          echo "Total used: ${TOTAL_USED_GIB} GiB"
+          echo
+          column -t -s '|' /tmp/disk-usage/usage_data.txt
+
+      - name: Upload disk usage artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: disk-usage-report
+          path: /tmp/disk-usage/
+
+      - name: Job summary
+        shell: bash
+        run: |
+          {
+            echo "## Kubernetes Disk Usage Report"
+            echo
+            echo "| Stat | Value |"
+            echo "| --- | --- |"
+            echo "| Namespaces | ${{ steps.disk_usage.outputs.total_namespaces }} |"
+            echo "| Total allocated | ${{ steps.disk_usage.outputs.total_allocated_gib }} GiB |"
+            echo "| Total used | ${{ steps.disk_usage.outputs.total_used_gib }} GiB |"
+            echo
+            echo "### Per-namespace breakdown"
+            echo
+            echo "| Namespace | Branch | Allocated | Used | Used % |"
+            echo "| --- | --- | --- | --- | --- |"
+
+            # Skip header line, then emit one markdown table row per namespace
+            tail -n +2 /tmp/disk-usage/usage_data.txt | while IFS='|' read -r ns branch alloc used pct; do
+              echo "| \`${ns}\` | \`${branch}\` | ${alloc} | ${used} | ${pct} |"
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
