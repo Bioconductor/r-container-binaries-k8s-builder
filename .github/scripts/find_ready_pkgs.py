@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import json
 import argparse
+import os
+import sys
 
 def find_independent_packages(input_file, output_file, dispatched_file, successful_file, remaining_file):
     """
@@ -14,6 +16,14 @@ def find_independent_packages(input_file, output_file, dispatched_file, successf
         remaining_file (str): Path to write remaining dependencies JSON
     """
     try:
+        if not os.path.exists(input_file):
+            print(f"Error: dependency file not found: {input_file}")
+            sys.exit(1)
+
+        if os.path.getsize(input_file) == 0:
+            print(f"Error: dependency file is empty: {input_file}")
+            sys.exit(1)
+
         # Load dispatched packages (these stay in graph but can't be ready)
         dispatched = set()
         try:
@@ -58,6 +68,10 @@ def find_independent_packages(input_file, output_file, dispatched_file, successf
         print(f"Found {len(independent)} ready packages")
         print(f"Excluded {len(successful)} successful packages")
         print(f"Blocked {len(dispatched)} dispatched packages")
+
+    except json.JSONDecodeError as e:
+        print(f"Error: invalid JSON in {input_file}: {e}")
+        sys.exit(1)
 
     except Exception as e:
         print(f"Error: {str(e)}")
