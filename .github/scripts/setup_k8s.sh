@@ -106,7 +106,26 @@ EOF
 
 # Wait for pod to be ready
 echo "Waiting for pod to be ready..."
-kubectl wait --for=condition=Ready pod/${BIOC_POD} -n ${NAMESPACE} --timeout=240s
+if ! kubectl wait --for=condition=Ready pod/${BIOC_POD} -n ${NAMESPACE} --timeout=240s; then
+  echo "ERROR: Pod did not become Ready within timeout"
+
+  echo "--- Pod summary ---"
+  kubectl get pod "${BIOC_POD}" -n "${NAMESPACE}" -o wide || true
+
+  echo "--- Pod describe ---"
+  kubectl describe pod "${BIOC_POD}" -n "${NAMESPACE}" || true
+
+  echo "--- PVC summary ---"
+  kubectl get pvc "${PVC_NAME}" -n "${NAMESPACE}" || true
+
+  echo "--- PVC describe ---"
+  kubectl describe pvc "${PVC_NAME}" -n "${NAMESPACE}" || true
+
+  echo "--- Namespace events ---"
+  kubectl get events -n "${NAMESPACE}" --sort-by=.lastTimestamp || true
+
+  exit 1
+fi
 
 # Copy the generated files from the pod to root directory
 echo "Copying generated files from pod..."
