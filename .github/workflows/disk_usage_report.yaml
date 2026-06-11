@@ -76,16 +76,16 @@ jobs:
 
           sort -u /tmp/disk-usage/expected_namespaces.txt -o /tmp/disk-usage/expected_namespaces.txt
 
-          # Orphaned namespaces = in cluster but not mapped to any build/done branch
+          # Idle namespaces = in cluster but not mapped to any build/done branch
           comm -23 \
             /tmp/disk-usage/namespaces.txt \
             /tmp/disk-usage/expected_namespaces.txt \
-            > /tmp/disk-usage/orphaned_namespaces.txt || true
+            > /tmp/disk-usage/idle_namespaces.txt || true
 
-          TOTAL_ORPHANS=$(wc -l < /tmp/disk-usage/orphaned_namespaces.txt | tr -d ' ')
+          TOTAL_IDLE=$(wc -l < /tmp/disk-usage/idle_namespaces.txt | tr -d ' ')
 
           # Header for the data file
-          echo "NAMESPACE|BRANCH|ALLOCATED|USED|USED_PCT|ORPHANED" > /tmp/disk-usage/usage_data.txt
+          echo "NAMESPACE|BRANCH|ALLOCATED|USED|USED_PCT|IDLE" > /tmp/disk-usage/usage_data.txt
 
           TOTAL_ALLOCATED_GIB=0
           TOTAL_USED_GIB=0
@@ -103,10 +103,10 @@ jobs:
               branch="done/${build_id}"
             fi
 
-            # Check if this namespace is orphaned
-            orphaned="No"
-            if grep -qxF "${ns}" /tmp/disk-usage/orphaned_namespaces.txt 2>/dev/null; then
-              orphaned="Yes"
+            # Check if this namespace is idle
+            idle="No"
+            if grep -qxF "${ns}" /tmp/disk-usage/idle_namespaces.txt 2>/dev/null; then
+              idle="Yes"
             fi
 
             # Sum requested capacity across all PVCs in the namespace
@@ -163,20 +163,20 @@ jobs:
               fi
             fi
 
-            echo "${ns}|${branch}|${allocated}|${used}|${used_pct}|${orphaned}" \
+            echo "${ns}|${branch}|${allocated}|${used}|${used_pct}|${idle}" \
               >> /tmp/disk-usage/usage_data.txt
           done < /tmp/disk-usage/namespaces.txt
 
           echo "total_namespaces=${TOTAL_NAMESPACES}" >> "$GITHUB_OUTPUT"
           echo "total_allocated_gib=${TOTAL_ALLOCATED_GIB}" >> "$GITHUB_OUTPUT"
           echo "total_used_gib=${TOTAL_USED_GIB}" >> "$GITHUB_OUTPUT"
-          echo "total_orphans=${TOTAL_ORPHANS}" >> "$GITHUB_OUTPUT"
+          echo "total_idle=${TOTAL_IDLE}" >> "$GITHUB_OUTPUT"
 
           echo "=== Disk Usage Summary ==="
           echo "Namespaces: ${TOTAL_NAMESPACES}"
           echo "Total allocated: ${TOTAL_ALLOCATED_GIB} GiB"
           echo "Total used: ${TOTAL_USED_GIB} GiB"
-          echo "Orphaned namespaces: ${TOTAL_ORPHANS}"
+          echo "Idle namespaces: ${TOTAL_IDLE}"
           echo
           column -t -s '|' /tmp/disk-usage/usage_data.txt
 
@@ -197,26 +197,26 @@ jobs:
             echo "| Namespaces | ${{ steps.disk_usage.outputs.total_namespaces }} |"
             echo "| Total allocated | ${{ steps.disk_usage.outputs.total_allocated_gib }} GiB |"
             echo "| Total used | ${{ steps.disk_usage.outputs.total_used_gib }} GiB |"
-            echo "| Orphaned namespaces | ${{ steps.disk_usage.outputs.total_orphans }} |"
+            echo "| Idle namespaces | ${{ steps.disk_usage.outputs.total_idle }} |"
             echo
             echo "### Per-namespace breakdown"
             echo
-            echo "| Namespace | Branch | Allocated | Used | Used % | Orphaned |"
+            echo "| Namespace | Branch | Allocated | Used | Used % | Idle |"
             echo "| --- | --- | --- | --- | --- | --- |"
 
             # Skip header line, then emit one markdown table row per namespace
-            tail -n +2 /tmp/disk-usage/usage_data.txt | while IFS='|' read -r ns branch alloc used pct orphaned; do
-              echo "| \`${ns}\` | \`${branch}\` | ${alloc} | ${used} | ${pct} | ${orphaned} |"
+            tail -n +2 /tmp/disk-usage/usage_data.txt | while IFS='|' read -r ns branch alloc used pct idle; do
+              echo "| \`${ns}\` | \`${branch}\` | ${alloc} | ${used} | ${pct} | ${idle} |"
             done
 
-            if [[ "${{ steps.disk_usage.outputs.total_orphans }}" != "0" ]]; then
+            if [[ "${{ steps.disk_usage.outputs.total_idle }}" != "0" ]]; then
               echo
-              echo "### Orphaned namespaces"
+              echo "### Idle namespaces"
               echo
               echo "These namespaces have no corresponding \`build/*\` or \`done/*\` branch:"
               echo
               echo '```text'
-              cat /tmp/disk-usage/orphaned_namespaces.txt
+              cat /tmp/disk-usage/idle_namespaces.txt
               echo '```'
             fi
           } >> "$GITHUB_STEP_SUMMARY"
