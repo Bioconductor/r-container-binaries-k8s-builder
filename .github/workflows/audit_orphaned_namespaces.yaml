@@ -1,10 +1,10 @@
-name: Audit Orphaned Namespaces
+name: Audit Idle Namespaces
 
 on:
   workflow_dispatch:
 
 jobs:
-  audit-orphaned-namespaces:
+  audit-idle-namespaces:
     runs-on: ubuntu-latest
 
     steps:
@@ -40,20 +40,20 @@ jobs:
             echo "$1" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-'
           }
 
-          mkdir -p /tmp/orphan-audit
+          mkdir -p /tmp/idle-audit
 
           # Collect namespaces from the cluster
           kubectl get namespaces -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
             | grep '^ns-' \
-            | sort -u > /tmp/orphan-audit/all_namespaces.txt || true
+            | sort -u > /tmp/idle-audit/all_namespaces.txt || true
 
           # Collect relevant remote branches and map them to expected namespaces
           git for-each-ref --format='%(refname:short)' refs/remotes/origin \
             | sed 's|^origin/||' \
             | grep -E '^(build|done)/' \
-            | sort -u > /tmp/orphan-audit/all_branches.txt || true
+            | sort -u > /tmp/idle-audit/all_branches.txt || true
 
-          : > /tmp/orphan-audit/expected_namespaces.txt
+          : > /tmp/idle-audit/expected_namespaces.txt
 
           while IFS= read -r branch; do
             [ -z "$branch" ] && continue
@@ -64,78 +64,78 @@ jobs:
             build_id="${build_id//\//-}"
 
             build_id_clean="$(sanitize_name "$build_id")"
-            echo "ns-${build_id_clean}" >> /tmp/orphan-audit/expected_namespaces.txt
-          done < /tmp/orphan-audit/all_branches.txt
+            echo "ns-${build_id_clean}" >> /tmp/idle-audit/expected_namespaces.txt
+          done < /tmp/idle-audit/all_branches.txt
 
-          sort -u /tmp/orphan-audit/expected_namespaces.txt -o /tmp/orphan-audit/expected_namespaces.txt
+          sort -u /tmp/idle-audit/expected_namespaces.txt -o /tmp/idle-audit/expected_namespaces.txt
 
-          # Orphaned namespaces = namespaces in cluster that do not map to any current build/done branch
+          # Idle namespaces = namespaces in cluster that do not map to any current build/done branch
           comm -23 \
-            /tmp/orphan-audit/all_namespaces.txt \
-            /tmp/orphan-audit/expected_namespaces.txt \
-            > /tmp/orphan-audit/orphaned_namespaces.txt || true
+            /tmp/idle-audit/all_namespaces.txt \
+            /tmp/idle-audit/expected_namespaces.txt \
+            > /tmp/idle-audit/idle_namespaces.txt || true
 
-          # Convert orphaned namespaces to refs that can be used with Delete Build Namespace.
+          # Convert idle namespaces to refs that can be used with Delete Build Namespace.
           # Example: ns-2026-03-04-170945-bioconductordocker-devel -> build/2026-03-04-170945-bioconductordocker-devel
-          sed -E 's/^ns-/build\//' /tmp/orphan-audit/orphaned_namespaces.txt \
-            > /tmp/orphan-audit/orphaned_delete_refs.txt || true
+          sed -E 's/^ns-/build\//' /tmp/idle-audit/idle_namespaces.txt \
+            > /tmp/idle-audit/idle_delete_refs.txt || true
 
-          TOTAL_NAMESPACES=$(wc -l < /tmp/orphan-audit/all_namespaces.txt | tr -d ' ')
-          TOTAL_BRANCHES=$(wc -l < /tmp/orphan-audit/all_branches.txt | tr -d ' ')
-          TOTAL_EXPECTED=$(wc -l < /tmp/orphan-audit/expected_namespaces.txt | tr -d ' ')
-          TOTAL_ORPHANS=$(wc -l < /tmp/orphan-audit/orphaned_namespaces.txt | tr -d ' ')
+          TOTAL_NAMESPACES=$(wc -l < /tmp/idle-audit/all_namespaces.txt | tr -d ' ')
+          TOTAL_BRANCHES=$(wc -l < /tmp/idle-audit/all_branches.txt | tr -d ' ')
+          TOTAL_EXPECTED=$(wc -l < /tmp/idle-audit/expected_namespaces.txt | tr -d ' ')
+          TOTAL_IDLE=$(wc -l < /tmp/idle-audit/idle_namespaces.txt | tr -d ' ')
 
           echo "total_namespaces=${TOTAL_NAMESPACES}" >> "$GITHUB_OUTPUT"
           echo "total_branches=${TOTAL_BRANCHES}" >> "$GITHUB_OUTPUT"
           echo "total_expected=${TOTAL_EXPECTED}" >> "$GITHUB_OUTPUT"
-          echo "total_orphans=${TOTAL_ORPHANS}" >> "$GITHUB_OUTPUT"
+          echo "total_idle=${TOTAL_IDLE}" >> "$GITHUB_OUTPUT"
 
           echo "=== Namespace Audit Summary ==="
           echo "Cluster namespaces matching ns-*: ${TOTAL_NAMESPACES}"
           echo "Remote build/done branches: ${TOTAL_BRANCHES}"
           echo "Expected namespaces from branches: ${TOTAL_EXPECTED}"
-          echo "Orphaned namespaces: ${TOTAL_ORPHANS}"
+          echo "Idle namespaces: ${TOTAL_IDLE}"
           echo
 
-          if [[ "${TOTAL_ORPHANS}" -gt 0 ]]; then
-            echo "=== Orphaned namespaces ==="
-            cat /tmp/orphan-audit/orphaned_namespaces.txt
+          if [[ "${TOTAL_IDLE}" -gt 0 ]]; then
+            echo "=== Idle namespaces ==="
+            cat /tmp/idle-audit/idle_namespaces.txt
             echo
             echo "=== Delete Build Namespace refs ==="
-            cat /tmp/orphan-audit/orphaned_delete_refs.txt
+            cat /tmp/idle-audit/idle_delete_refs.txt
           else
-            echo "No orphaned namespaces found."
+            echo "No idle namespaces found."
           fi
 
       - name: Upload audit artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: orphaned-namespace-audit
-          path: /tmp/orphan-audit/
+          name: idle-namespace-audit
+          path: /tmp/idle-audit/
 
       - name: Job summary
         shell: bash
         run: |
           {
-            echo "## Orphaned Namespace Audit"
+            echo "## Idle Namespace Audit"
             echo
             echo "- Cluster namespaces matching \`ns-*\`: ${{ steps.audit.outputs.total_namespaces }}"
             echo "- Remote \`build/*\` + \`done/*\` branches: ${{ steps.audit.outputs.total_branches }}"
             echo "- Expected namespaces from branches: ${{ steps.audit.outputs.total_expected }}"
-            echo "- Orphaned namespaces: ${{ steps.audit.outputs.total_orphans }}"
+            echo "- Idle namespaces: ${{ steps.audit.outputs.total_idle }}"
             echo
 
-            if [[ "${{ steps.audit.outputs.total_orphans }}" != "0" ]]; then
-              echo "### Orphaned namespaces"
+            if [[ "${{ steps.audit.outputs.total_idle }}" != "0" ]]; then
+              echo "### Idle namespaces"
               echo '```text'
-              cat /tmp/orphan-audit/orphaned_namespaces.txt
+              cat /tmp/idle-audit/idle_namespaces.txt
               echo '```'
               echo
               echo "### Delete Build Namespace refs"
               echo '```text'
-              cat /tmp/orphan-audit/orphaned_delete_refs.txt
+              cat /tmp/idle-audit/idle_delete_refs.txt
               echo '```'
             else
-              echo "No orphaned namespaces found."
+              echo "No idle namespaces found."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
