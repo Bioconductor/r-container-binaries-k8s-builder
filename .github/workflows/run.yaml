@@ -38,6 +38,17 @@ jobs:
           mv ./kubectl /usr/local/bin/kubectl && \
           kubectl version
 
+      - name: K8s Storage Info
+        run: |
+          echo "=== CLUSTER INFO ==="
+          kubectl cluster-info
+          echo "=== NFS STORAGE CLASS ==="
+          kubectl describe sc nfs-client
+          echo "=== ALL NFS SERVER IPs IN USE ==="
+          kubectl get pv -o yaml | awk '/nfs:/{y=1;next} y&&/server:/{print;y=0}' | sort | uniq
+          echo "=== ALL NFS PATHS IN USE ==="
+          kubectl get pv -o yaml | awk '/nfs:/{y=1;next} y&&/path:/{print;y=0}' | sort | uniq
+
       - name: Check for completed cycle
         id: cycle_check
         run: |
