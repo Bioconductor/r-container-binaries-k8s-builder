@@ -148,11 +148,22 @@ jobs:
                   used="${df_output%%|*}"
                   used_pct="${df_output##*|}"
 
-                  # Accumulate used total (strip unit suffix)
-                  if [[ "${used}" =~ ^([0-9]+(\.[0-9]+)?)G$ ]]; then
-                    used_int=$(printf "%.0f" "${BASH_REMATCH[1]}")
+                  # Accumulate used total (handling T, G, and M suffixes)
+                  if [[ "${used}" =~ ^([0-9]+(\.[0-9]+)?)([TGM])$ ]]; then
+                    val="${BASH_REMATCH[1]}"
+                    unit="${BASH_REMATCH[3]}"
+
+                    if [[ "$unit" == "T" ]]; then
+                      used_int=$(awk "BEGIN {printf \"%.0f\", $val * 1024}")
+                    elif [[ "$unit" == "G" ]]; then
+                      used_int=$(awk "BEGIN {printf \"%.0f\", $val}")
+                    else
+                      used_int=0 # Megabytes are negligible for the GiB integer total
+                    fi
+
                     TOTAL_USED_GIB=$(( TOTAL_USED_GIB + used_int ))
                   fi
+
                 else
                   exec_err=$(cat /tmp/disk-usage/exec_err_${ns}.txt 2>/dev/null || true)
                   echo "  [warn] exec into ${pod}/${container} failed: ${exec_err}"
