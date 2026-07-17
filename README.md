@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2204 (94%)
+- **Successfully Built:** 2216 (94%)
 - **Failed:** 15 (0%)
-- **In Progress:** 61
-- **Not Started:** 64
+- **In Progress:** 52
+- **Not Started:** 61
 
-**Progress:** 94%
+**Progress:** 95%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2204)
+## Successfully Built Packages (2216)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2154 more ...*
+*... and 2166 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,31 +96,27 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (61)
+## In Progress (52)
 - ⏳ `AllelicImbalance`
 - ⏳ `BOBaFIT`
 - ⏳ `CAFE`
-- ⏳ `CNVfilteR`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `Damsel`
 - ⏳ `DuplexDiscovereR`
-- ⏳ `GARS`
 - ⏳ `GUIDEseq`
-- ⏳ `GeneStructureTools`
 - ⏳ `GenomicInteractions`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
+- ⏳ `NADfinder`
 - ⏳ `NanoMethViz`
 - ⏳ `PostChicago`
 - ⏳ `Pviz`
 - ⏳ `R3CPET`
 - ⏳ `RBedMethyl`
 - ⏳ `REDseq`
-- ⏳ `RNAmodR.AlkAnilineSeq`
 - ⏳ `RNAmodR.ML`
-- ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `RadioGx`
 - ⏳ `ReportingTools`
 - ⏳ `SCANVIS`
@@ -130,27 +126,31 @@
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `TVTB`
+- ⏳ `annoLinker`
 - ⏳ `annotatr`
-- ⏳ `canceR`
 - ⏳ `comapr`
-- ⏳ `derfinderPlot`
 - ⏳ `epivizrChart`
-- ⏳ `epivizrStandalone`
 - ⏳ `fourSynergy`
 - ⏳ `geneAttribution`
+- ⏳ `geomeTriD`
 - ⏳ `gmoviz`
-- ⏳ `intansv`
 - ⏳ `mCSEA`
 - ⏳ `maser`
 - ⏳ `methylPipe`
 - ⏳ `minfi`
 - ⏳ `motifbreakR`
-- ⏳ `msgbsR`
 - ⏳ `multicrispr`
+- ⏳ `octad`
+- ⏳ `qpgraph`
+- ⏳ `rCGH`
+- ⏳ `rGREAT`
+- ⏳ `recount`
+- ⏳ `ribosomeProfilingQC`
+- ⏳ `scTreeViz`
 
-... and 11 more ...
+... and 2 more ...
 
-## Not Yet Started (64)
+## Not Yet Started (61)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
@@ -166,7 +166,6 @@
 - ⏸️ `MEAT`
 - ⏸️ `MOSClip`
 - ⏸️ `MethylAid`
-- ⏸️ `NADfinder`
 - ⏸️ `REMP`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `RnBeads`
@@ -177,7 +176,6 @@
 - ⏸️ `SpatialOmicsOverlay`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
-- ⏸️ `annoLinker`
 - ⏸️ `arrayMvout`
 - ⏸️ `bigmelon`
 - ⏸️ `biscuiteer`
@@ -191,7 +189,6 @@
 - ⏸️ `epimutacions`
 - ⏸️ `ffpe`
 - ⏸️ `funtooNorm`
-- ⏸️ `geomeTriD`
 - ⏸️ `iCheck`
 - ⏸️ `iNETgrate`
 - ⏸️ `imcRtools`
@@ -201,9 +198,12 @@
 - ⏸️ `methylGSA`
 - ⏸️ `methylclock`
 - ⏸️ `methylumi`
+- ⏸️ `missMethyl`
+- ⏸️ `preciseTAD`
+- ⏸️ `profileplyr`
 
-... and 14 more ...
+... and 11 more ...
 
 ---
-*Last updated: 2026-07-17 22:24:34 UTC*
+*Last updated: 2026-07-17 22:25:15 UTC*
 *Packages with verified BBS status: 159*
