@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 276 (11%)
+- **Successfully Built:** 309 (12%)
 - **Failed:** 2 (0%)
-- **In Progress:** 115
-- **Not Started:** 1991
+- **In Progress:** 84
+- **Not Started:** 1989
 
-**Progress:** 11%
+**Progress:** 13%
 ```
-█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (276)
+## Successfully Built Packages (309)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -27,26 +27,26 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
+| [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
 | [BiocMaintainerApp](https://bioconductor.org/packages/3.23/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocMaintainerApp) |
 | [BiocVersion](https://bioconductor.org/packages/3.23/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocVersion) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
+| [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
+| [CGEN](https://bioconductor.org/packages/3.23/bioc/html/CGEN.html) | [log](logs/CGEN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CGEN) |
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
+| [CONSTANd](https://bioconductor.org/packages/3.23/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CONSTANd) |
 | [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 | [ClusterSignificance](https://bioconductor.org/packages/3.23/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterSignificance) |
 | [ComPrAn](https://bioconductor.org/packages/3.23/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ComPrAn) |
 | [DART](https://bioconductor.org/packages/3.23/bioc/html/DART.html) | [log](logs/DART/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DART) |
-| [DCATS](https://bioconductor.org/packages/3.23/bioc/html/DCATS.html) | [log](logs/DCATS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DCATS) |
-| [DEGseq](https://bioconductor.org/packages/3.23/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEGseq) |
-| [DNAcopy](https://bioconductor.org/packages/3.23/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcopy) |
-| [DNAcycP2](https://bioconductor.org/packages/3.23/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcycP2) |
 
-*... and 226 more ...*
+*... and 259 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,13 +83,12 @@
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
 
-## In Progress (115)
+## In Progress (84)
 - ⏳ `ANCOMBC`
 - ⏳ `ASGSCA`
 - ⏳ `ASSET`
 - ⏳ `AWAggregator`
 - ⏳ `AnVILBase`
-- ⏳ `BUS`
 - ⏳ `BeadDataPackR`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -97,47 +96,48 @@
 - ⏳ `BiocParallel`
 - ⏳ `BiocStyle`
 - ⏳ `BridgeDbR`
-- ⏳ `CARNIVAL`
-- ⏳ `CGEN`
-- ⏳ `CONSTANd`
 - ⏳ `COSNet`
 - ⏳ `Chicago`
-- ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
-- ⏳ `DynDoc`
-- ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
-- ⏳ `FRGEpistasis`
-- ⏳ `FitHiC`
-- ⏳ `GAprediction`
-- ⏳ `GEM`
-- ⏳ `GGPA`
-- ⏳ `GenProSeq`
-- ⏳ `GraphAlignment`
-- ⏳ `HDTD`
-- ⏳ `HGC`
+- ⏳ `GSCA`
 - ⏳ `HIBAG`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `INPower`
-- ⏳ `INTACT`
-- ⏳ `ISAnalytics`
-- ⏳ `ISoLDE`
-- ⏳ `Icens`
 - ⏳ `MACSQuantifyR`
 - ⏳ `MBAmethyl`
 - ⏳ `MSstatsConvert`
 - ⏳ `MassArray`
 - ⏳ `MassSpecWavelet`
-- ⏳ `MatrixGenerics`
 - ⏳ `MeLSI`
 - ⏳ `Mergeomics`
 - ⏳ `ModCon`
 - ⏳ `MultiMed`
+- ⏳ `NTW`
+- ⏳ `NetPathMiner`
+- ⏳ `NuPoP`
+- ⏳ `OSAT`
+- ⏳ `Omixer`
+- ⏳ `OmnipathR`
+- ⏳ `ProtGenerics`
+- ⏳ `RDRToolbox`
+- ⏳ `RImmPort`
+- ⏳ `RLMM`
+- ⏳ `RLassoCox`
+- ⏳ `RNASeqPower`
+- ⏳ `RNAdecay`
+- ⏳ `RTCGA`
+- ⏳ `RankProd`
+- ⏳ `Rarr`
+- ⏳ `Rbowtie`
+- ⏳ `RbowtieCuda`
+- ⏳ `Rbwa`
+- ⏳ `Rcollectl`
+- ⏳ `Rdisop`
 
-... and 65 more ...
+... and 34 more ...
 
-## Not Yet Started (1991)
+## Not Yet Started (1989)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -189,8 +189,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1941 more ...
+... and 1939 more ...
 
 ---
-*Last updated: 2026-07-17 20:42:54 UTC*
-*Packages with verified BBS status: 98*
+*Last updated: 2026-07-17 20:44:35 UTC*
+*Packages with verified BBS status: 102*

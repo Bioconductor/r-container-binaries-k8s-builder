@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''FRGEpistasis'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'FRGEpistasis'
+also installing the dependencies ‘ash’, ‘multicool’, ‘hdrcde’, ‘ks’, ‘rainbow’, ‘fds’, ‘fda’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ash_1.0-15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/multicool_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hdrcde_3.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ks_1.15.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rainbow_3.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fds_1.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fda_6.3.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/FRGEpistasis_1.48.0.tar.gz'
+* installing *binary* package ‘ash’ ...
+* package ‘ash’ successfully unpacked and SHA256 sums checked
+* ‘ash’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ash’ as ‘ash_1.0-15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ash)
+* installing *binary* package ‘multicool’ ...
+* package ‘multicool’ successfully unpacked and SHA256 sums checked
+* ‘multicool’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multicool’ as ‘multicool_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multicool)
+* installing *binary* package ‘ks’ ...
+* package ‘ks’ successfully unpacked and SHA256 sums checked
+* ‘ks’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ks’ as ‘ks_1.15.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ks)
+* installing *binary* package ‘hdrcde’ ...
+* package ‘hdrcde’ successfully unpacked and SHA256 sums checked
+* ‘hdrcde’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hdrcde’ as ‘hdrcde_3.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hdrcde)
+* installing *binary* package ‘rainbow’ ...
+* package ‘rainbow’ successfully unpacked and SHA256 sums checked
+* ‘rainbow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rainbow’ as ‘rainbow_3.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rainbow)
+* installing *binary* package ‘fds’ ...
+* package ‘fds’ successfully unpacked and SHA256 sums checked
+* ‘fds’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fds’ as ‘fds_1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fds)
+* installing *binary* package ‘fda’ ...
+* package ‘fda’ successfully unpacked and SHA256 sums checked
+* ‘fda’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fda’ as ‘fda_6.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fda)
+* installing *source* package ‘FRGEpistasis’ ...
+** this is package ‘FRGEpistasis’ version ‘1.48.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FRGEpistasis’ as ‘FRGEpistasis_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FRGEpistasis)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0csMw6/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m17.938s
+user	0m11.261s
+sys	0m4.402s

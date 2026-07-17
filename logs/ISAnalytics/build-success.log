@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ISAnalytics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ISAnalytics'
+also installing the dependencies ‘extraDistr’, ‘ggalluvial’, ‘flexdashboard’, ‘eulerr’, ‘doFuture’, ‘Rcapture’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/extraDistr_1.10.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggalluvial_0.12.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flexdashboard_0.6.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/eulerr_8.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/doFuture_1.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rcapture_1.4-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ISAnalytics_1.22.0.tar.gz'
+* installing *binary* package ‘extraDistr’ ...
+* package ‘extraDistr’ successfully unpacked and SHA256 sums checked
+* ‘extraDistr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘extraDistr’ as ‘extraDistr_1.10.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (extraDistr)
+* installing *binary* package ‘ggalluvial’ ...
+* package ‘ggalluvial’ successfully unpacked and SHA256 sums checked
+* ‘ggalluvial’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggalluvial’ as ‘ggalluvial_0.12.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggalluvial)
+* installing *binary* package ‘flexdashboard’ ...
+* package ‘flexdashboard’ successfully unpacked and SHA256 sums checked
+* ‘flexdashboard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flexdashboard’ as ‘flexdashboard_0.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexdashboard)
+* installing *binary* package ‘eulerr’ ...
+* package ‘eulerr’ successfully unpacked and SHA256 sums checked
+* ‘eulerr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘eulerr’ as ‘eulerr_8.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (eulerr)
+* installing *binary* package ‘doFuture’ ...
+* package ‘doFuture’ successfully unpacked and SHA256 sums checked
+* ‘doFuture’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘doFuture’ as ‘doFuture_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doFuture)
+* installing *binary* package ‘Rcapture’ ...
+* package ‘Rcapture’ successfully unpacked and SHA256 sums checked
+* ‘Rcapture’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rcapture’ as ‘Rcapture_1.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rcapture)
+* installing *source* package ‘ISAnalytics’ ...
+** this is package ‘ISAnalytics’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ISAnalytics’ as ‘ISAnalytics_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ISAnalytics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRUPrHB/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m39.325s
+user	0m19.049s
+sys	0m5.345s
