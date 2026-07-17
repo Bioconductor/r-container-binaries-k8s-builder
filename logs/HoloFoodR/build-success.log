@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HoloFoodR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HoloFoodR'
+also installing the dependencies ‘MGnifyR’, ‘miaViz’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MGnifyR_1.8.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/miaViz_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/HoloFoodR_1.6.0.tar.gz'
+* installing *source* package ‘MGnifyR’ ...
+** this is package ‘MGnifyR’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: ... may be used in an incorrect context 
+Note: ... may be used in an incorrect context 
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MGnifyR’ as ‘MGnifyR_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MGnifyR)
+* installing *source* package ‘miaViz’ ...
+** this is package ‘miaViz’ version ‘1.20.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miaViz’ as ‘miaViz_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miaViz)
+* installing *source* package ‘HoloFoodR’ ...
+** this is package ‘HoloFoodR’ version ‘1.6.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HoloFoodR’ as ‘HoloFoodR_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HoloFoodR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGvinSg/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m1.038s
+user	1m41.878s
+sys	0m12.279s
