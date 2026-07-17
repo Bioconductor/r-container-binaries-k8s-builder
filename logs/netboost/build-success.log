@@ -1,0 +1,79 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''netboost'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'netboost'
+also installing the dependencies ‘dynamicTreeCut’, ‘WGCNA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dynamicTreeCut_1.63-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/WGCNA_1.74.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/netboost_2.21.5.tar.gz'
+* installing *binary* package ‘dynamicTreeCut’ ...
+* package ‘dynamicTreeCut’ successfully unpacked and SHA256 sums checked
+* ‘dynamicTreeCut’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dynamicTreeCut’ as ‘dynamicTreeCut_1.63-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dynamicTreeCut)
+* installing *binary* package ‘WGCNA’ ...
+* package ‘WGCNA’ successfully unpacked and SHA256 sums checked
+* ‘WGCNA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘WGCNA’ as ‘WGCNA_1.74_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WGCNA)
+* installing *source* package ‘netboost’ ...
+** this is package ‘netboost’ version ‘2.21.5’
+** package ‘netboost’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boosting.cpp -o boosting.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dist_tom.cpp -o dist_tom.o
+In file included from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:29,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from dist_tom.cpp:15:
+/usr/local/lib/R/site-library/Rcpp/include/Rcpp/r/check_r_headers.h:27:21: note: ‘#pragma message: R.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410’
+   27 |     #pragma message "R.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410"
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mcupgma_cluster.cpp -o mcupgma_cluster.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tree_sort.cpp -o tree_sort.o
+In file included from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:29,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from tree_sort.cpp:12:
+/usr/local/lib/R/site-library/Rcpp/include/Rcpp/r/check_r_headers.h:27:21: note: ‘#pragma message: R.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410’
+   27 |     #pragma message "R.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410"
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o netboost.so RcppExports.o boosting.o dist_tom.o mcupgma_cluster.o tree_sort.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-netboost/00new/netboost/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘netboost’ as ‘netboost_2.21.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (netboost)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPlSa9t/downloaded_packages’
+
+real	1m31.599s
+user	0m30.195s
+sys	0m5.741s

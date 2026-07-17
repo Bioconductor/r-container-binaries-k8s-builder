@@ -1,0 +1,160 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''OSTA.data'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'OSTA.data'
+also installing the dependencies ‘triebeard’, ‘urltools’, ‘httpcode’, ‘crul’, ‘TENxIO’, ‘osfr’, ‘DropletUtils’, ‘VisiumIO’, ‘SpatialExperimentIO’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/triebeard_0.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/urltools_1.7.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httpcode_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/crul_1.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TENxIO_1.15.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/osfr_0.2.9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DropletUtils_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/VisiumIO_1.9.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SpatialExperimentIO_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/OSTA.data_1.5.0.tar.gz'
+* installing *binary* package ‘triebeard’ ...
+* package ‘triebeard’ successfully unpacked and SHA256 sums checked
+* ‘triebeard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘triebeard’ as ‘triebeard_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (triebeard)
+* installing *binary* package ‘httpcode’ ...
+* package ‘httpcode’ successfully unpacked and SHA256 sums checked
+* ‘httpcode’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘httpcode’ as ‘httpcode_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httpcode)
+* installing *source* package ‘TENxIO’ ...
+** this is package ‘TENxIO’ version ‘1.15.0’
+** package ‘TENxIO’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TENxIO’ as ‘TENxIO_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENxIO)
+* installing *source* package ‘DropletUtils’ ...
+** this is package ‘DropletUtils’ version ‘1.33.0’
+** package ‘DropletUtils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c downsample_run.cpp -o downsample_run.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c encode_sequences.cpp -o encode_sequences.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c find_chimeric.cpp -o find_chimeric.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c find_swapped.cpp -o find_swapped.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c get_cell_barcodes.cpp -o get_cell_barcodes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c group_cells.cpp -o group_cells.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c hashed_deltas.cpp -o hashed_deltas.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c montecarlo_pval.cpp -o montecarlo_pval.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rand_custom.cpp -o rand_custom.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read_mm.cpp -o read_mm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/BH/include' -I'/mnt/library/dqrng/include' -I'/mnt/library/scuttle/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DropletUtils.so RcppExports.o downsample_run.o encode_sequences.o find_chimeric.o find_swapped.o get_cell_barcodes.o group_cells.o hashed_deltas.o montecarlo_pval.o rand_custom.o read_mm.o utils.o /mnt/library/Rhdf5lib/lib/libhdf5_cpp.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DropletUtils/00new/DropletUtils/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x2690, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘DropletUtils’
+* removing ‘/tmp/library/DropletUtils’
+* installing *binary* package ‘urltools’ ...
+* package ‘urltools’ successfully unpacked and SHA256 sums checked
+* ‘urltools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘urltools’ as ‘urltools_1.7.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (urltools)
+* installing *source* package ‘VisiumIO’ ...
+** this is package ‘VisiumIO’ version ‘1.9.5’
+** package ‘VisiumIO’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VisiumIO’ as ‘VisiumIO_1.9.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VisiumIO)
+ERROR: dependency ‘DropletUtils’ is not available for package ‘SpatialExperimentIO’
+Perhaps try a variation of:
+install.packages('DropletUtils')
+* removing ‘/tmp/library/SpatialExperimentIO’
+* installing *binary* package ‘crul’ ...
+* package ‘crul’ successfully unpacked and SHA256 sums checked
+* ‘crul’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘crul’ as ‘crul_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crul)
+* installing *binary* package ‘osfr’ ...
+* package ‘osfr’ successfully unpacked and SHA256 sums checked
+* ‘osfr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘osfr’ as ‘osfr_0.2.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (osfr)
+* installing *source* package ‘OSTA.data’ ...
+** this is package ‘OSTA.data’ version ‘1.5.0’
+** package ‘OSTA.data’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OSTA.data’ as ‘OSTA.data_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OSTA.data)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7V3VRE/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘DropletUtils’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘SpatialExperimentIO’ had non-zero exit status
+
+real	3m34.585s
+user	1m47.336s
+sys	0m16.753s

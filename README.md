@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 255 (10%)
+- **Successfully Built:** 261 (11%)
 - **Failed:** 0 (0%)
-- **In Progress:** 157
+- **In Progress:** 151
 - **Not Started:** 1932
 
-**Progress:** 10%
+**Progress:** 11%
 ```
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (255)
+## Successfully Built Packages (261)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,11 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BridgeDbR](https://bioconductor.org/packages/3.24/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BridgeDbR) |
 
-*... and 205 more ...*
+*... and 211 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [snm](https://bioconductor.org/packages/3.24/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snm) |
+| [sparseMatrixStats](https://bioconductor.org/packages/3.24/bioc/html/sparseMatrixStats.html) | [log](logs/sparseMatrixStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparseMatrixStats) |
 | [sparsenetgls](https://bioconductor.org/packages/3.24/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.24/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/specL) |
 | [spikeLI](https://bioconductor.org/packages/3.24/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/spikeLI) |
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (157)
+## In Progress (151)
 - ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
 - ⏳ `BenchHub`
@@ -116,19 +116,19 @@
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsLOBD`
 - ⏳ `Mergeomics`
-- ⏳ `MethylMix`
 - ⏳ `ModCon`
 - ⏳ `MsStash`
 - ⏳ `MultiMed`
 - ⏳ `NTW`
-- ⏳ `OSTA.data`
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
 - ⏳ `PTMods`
 - ⏳ `Path2PPI`
 - ⏳ `PathNet`
+- ⏳ `QUBIC`
+- ⏳ `QuaternaryProd`
 
-... and 107 more ...
+... and 101 more ...
 
 ## Not Yet Started (1932)
 - ⏸️ `ABarray`
@@ -185,5 +185,5 @@
 ... and 1882 more ...
 
 ---
-*Last updated: 2026-07-17 20:31:37 UTC*
-*Packages with verified BBS status: 63*
+*Last updated: 2026-07-17 20:33:08 UTC*
+*Packages with verified BBS status: 64*
