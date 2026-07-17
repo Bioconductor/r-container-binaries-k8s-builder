@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''derfinder'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'derfinder'
+also installing the dependencies ‘derfinderData’, ‘derfinderPlot’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/derfinderData_2.30.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/derfinderPlot_1.46.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/derfinder_1.46.0.tar.gz'
+* installing *source* package ‘derfinderData’ ...
+** this is package ‘derfinderData’ version ‘2.30.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘derfinderData’ as ‘derfinderData_2.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (derfinderData)
+* installing *source* package ‘derfinder’ ...
+** this is package ‘derfinder’ version ‘1.46.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘derfinder’ as ‘derfinder_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (derfinder)
+* installing *source* package ‘derfinderPlot’ ...
+** this is package ‘derfinderPlot’ version ‘1.46.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘derfinderPlot’ as ‘derfinderPlot_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (derfinderPlot)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpf23s3v/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m4.121s
+user	1m34.114s
+sys	0m11.511s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2087 (87%)
+- **Successfully Built:** 2110 (88%)
 - **Failed:** 24 (1%)
-- **In Progress:** 27
-- **Not Started:** 246
+- **In Progress:** 38
+- **Not Started:** 212
 
-**Progress:** 88%
+**Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2087)
+## Successfully Built Packages (2110)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2037 more ...*
+*... and 2060 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -105,44 +105,52 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [tLOH](https://bioconductor.org/packages/3.23/bioc/html/tLOH.html) | [log](logs/tLOH/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tLOH) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 
-## In Progress (27)
+## In Progress (38)
+- ⏳ `ATACseqTFEA`
+- ⏳ `Aerith`
+- ⏳ `BatChef`
 - ⏳ `ChIPXpress`
+- ⏳ `ChIPexoQual`
 - ⏳ `ChIPpeakAnno`
+- ⏳ `CluMSID`
+- ⏳ `DAPAR`
 - ⏳ `GRaNIE`
-- ⏳ `HiCExperiment`
-- ⏳ `HiCcompare`
+- ⏳ `Gviz`
+- ⏳ `IsoformSwitchAnalyzeR`
+- ⏳ `MSstatsQC`
 - ⏳ `MungeSumstats`
+- ⏳ `RMassBank`
+- ⏳ `Rqc`
 - ⏳ `SingleMoleculeFootprinting`
-- ⏳ `VariantTools`
-- ⏳ `alabaster`
-- ⏳ `chromVAR`
+- ⏳ `atSNP`
+- ⏳ `chevreulPlot`
 - ⏳ `conumee`
-- ⏳ `derfinder`
-- ⏳ `diffHic`
-- ⏳ `dmrseq`
-- ⏳ `epivizrData`
-- ⏳ `extraChIPs`
-- ⏳ `iSEEde`
-- ⏳ `iSEEhub`
-- ⏳ `iSEEindex`
-- ⏳ `iSEEpathways`
-- ⏳ `mariner`
-- ⏳ `methylclock`
-- ⏳ `methylumi`
-- ⏳ `nullranges`
-- ⏳ `plyinteractions`
-- ⏳ `scFeatures`
-- ⏳ `scanMiRApp`
+- ⏳ `dagLogo`
+- ⏳ `dreamlet`
+- ⏳ `enhancerHomologSearch`
+- ⏳ `epiregulon`
+- ⏳ `gDR`
+- ⏳ `ggbio`
+- ⏳ `iSEEu`
+- ⏳ `karyoploteR`
+- ⏳ `msmsEDA`
+- ⏳ `omXplore`
+- ⏳ `pRoloc`
+- ⏳ `pageRank`
+- ⏳ `peakPantheR`
+- ⏳ `ptairMS`
+- ⏳ `qPLEXanalyzer`
+- ⏳ `ribosomeProfilingQC`
+- ⏳ `topdownr`
+- ⏳ `xcms`
+- ⏳ `yarn`
 
-## Not Yet Started (246)
+## Not Yet Started (212)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
-- ⏸️ `ATACseqTFEA`
-- ⏸️ `Aerith`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BatChef`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -155,11 +163,8 @@
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPseeker`
-- ⏸️ `CluMSID`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `DAPAR`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
@@ -177,7 +182,6 @@
 - ⏸️ `GenomicCoordinates`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
-- ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCDOC`
 - ⏸️ `HiCaptuRe`
@@ -185,9 +189,16 @@
 - ⏸️ `HiCool`
 - ⏸️ `HiSpaR`
 - ⏸️ `IPO`
+- ⏸️ `LOBSTAHS`
+- ⏸️ `LymphoSeq`
+- ⏸️ `MAGAR`
+- ⏸️ `MAIT`
+- ⏸️ `MEAL`
+- ⏸️ `MEAT`
+- ⏸️ `MIRit`
 
-... and 196 more ...
+... and 162 more ...
 
 ---
-*Last updated: 2026-07-17 22:42:46 UTC*
+*Last updated: 2026-07-17 22:44:23 UTC*
 *Packages with verified BBS status: 210*

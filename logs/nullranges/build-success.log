@@ -1,0 +1,112 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''nullranges'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'nullranges'
+also installing the dependencies ‘arg’, ‘RcppHMM’, ‘nullrangesData’, ‘cobalt’, ‘MatchIt’, ‘mariner’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/arg_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppHMM_1.2.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/nullrangesData_1.18.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cobalt_4.6.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MatchIt_4.7.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mariner_1.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/nullranges_1.18.0.tar.gz'
+* installing *binary* package ‘arg’ ...
+* package ‘arg’ successfully unpacked and SHA256 sums checked
+* ‘arg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘arg’ as ‘arg_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (arg)
+* installing *binary* package ‘RcppHMM’ ...
+* package ‘RcppHMM’ successfully unpacked and SHA256 sums checked
+* ‘RcppHMM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppHMM’ as ‘RcppHMM_1.2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppHMM)
+* installing *source* package ‘nullrangesData’ ...
+** this is package ‘nullrangesData’ version ‘1.18.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nullrangesData’ as ‘nullrangesData_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nullrangesData)
+* installing *binary* package ‘MatchIt’ ...
+* package ‘MatchIt’ successfully unpacked and SHA256 sums checked
+* ‘MatchIt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatchIt’ as ‘MatchIt_4.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatchIt)
+* installing *source* package ‘mariner’ ...
+** this is package ‘mariner’ version ‘1.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mariner’ as ‘mariner_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mariner)
+* installing *source* package ‘nullranges’ ...
+** this is package ‘nullranges’ version ‘1.18.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nullranges’ as ‘nullranges_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nullranges)
+* installing *binary* package ‘cobalt’ ...
+* package ‘cobalt’ successfully unpacked and SHA256 sums checked
+* ‘cobalt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cobalt’ as ‘cobalt_4.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cobalt)
+
+The downloaded source packages are in
+	‘/tmp/RtmpvFYvHI/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m6.576s
+user	1m48.500s
+sys	0m12.716s

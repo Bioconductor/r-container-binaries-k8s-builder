@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HiCcompare'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HiCcompare'
+also installing the dependency ‘multiHiCcompare’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/multiHiCcompare_1.30.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/HiCcompare_1.34.0.tar.gz'
+* installing *source* package ‘HiCcompare’ ...
+** this is package ‘HiCcompare’ version ‘1.34.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to 'ceiling' 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HiCcompare’ as ‘HiCcompare_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HiCcompare)
+* installing *source* package ‘multiHiCcompare’ ...
+** this is package ‘multiHiCcompare’ version ‘1.30.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multiHiCcompare’ as ‘multiHiCcompare_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multiHiCcompare)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7sat2E/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m10.902s
+user	0m59.668s
+sys	0m7.649s
