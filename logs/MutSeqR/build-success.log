@@ -1,0 +1,85 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MutSeqR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MutSeqR'
+also installing the dependencies ‘MutSeqRData’, ‘packcircles’, ‘trackViewer’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/MutSeqRData_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/packcircles_0.3.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/trackViewer_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MutSeqR_1.1.0.tar.gz'
+* installing *source* package ‘MutSeqRData’ ...
+** this is package ‘MutSeqRData’ version ‘1.1.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MutSeqRData’ as ‘MutSeqRData_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MutSeqRData)
+* installing *binary* package ‘packcircles’ ...
+* package ‘packcircles’ successfully unpacked and SHA256 sums checked
+* ‘packcircles’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘packcircles’ as ‘packcircles_0.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (packcircles)
+* installing *source* package ‘trackViewer’ ...
+** this is package ‘trackViewer’ version ‘1.49.0’
+** package ‘trackViewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘trackViewer’ as ‘trackViewer_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (trackViewer)
+* installing *source* package ‘MutSeqR’ ...
+** this is package ‘MutSeqR’ version ‘1.1.0’
+** package ‘MutSeqR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MutSeqR’ as ‘MutSeqR_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MutSeqR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQWdB5F/downloaded_packages’
+
+real	2m3.187s
+user	1m47.279s
+sys	0m12.171s

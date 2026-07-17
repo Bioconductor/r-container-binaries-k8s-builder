@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2029 (86%)
+- **Successfully Built:** 2048 (87%)
 - **Failed:** 12 (0%)
-- **In Progress:** 92
-- **Not Started:** 211
+- **In Progress:** 85
+- **Not Started:** 199
 
 **Progress:** 87%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (2029)
+## Successfully Built Packages (2048)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 1979 more ...*
+*... and 1998 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
 | [visiumStitched](https://bioconductor.org/packages/3.24/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
@@ -73,6 +72,7 @@
 | [yamss](https://bioconductor.org/packages/3.24/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
+| [zenith](https://bioconductor.org/packages/3.24/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zenith) |
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
@@ -93,38 +93,35 @@
 | [miRspongeR](https://bioconductor.org/packages/3.24/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (92)
+## In Progress (85)
 - ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CSSQ`
 - ⏳ `ChIPseeker`
-- ⏳ `DMCFB`
 - ⏳ `DNAfusion`
+- ⏳ `DrugVsDisease`
 - ⏳ `EDASeq`
-- ⏳ `EGSEA`
 - ⏳ `EpiMix`
-- ⏳ `ExCluster`
 - ⏳ `FindIT2`
-- ⏳ `GOstats`
-- ⏳ `GeneTonic`
+- ⏳ `GenomicCoordinates`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `HelloRanges`
 - ⏳ `INSPEcT`
-- ⏳ `ITALICS`
 - ⏳ `IVAS`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
+- ⏳ `IntEREst`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
-- ⏳ `MutSeqR`
 - ⏳ `NanoMethViz`
 - ⏳ `PostChicago`
 - ⏳ `ProteoDisco`
 - ⏳ `PureCN`
+- ⏳ `QuasR`
 - ⏳ `RBedMethyl`
+- ⏳ `RESOLVE`
 - ⏳ `RadioGx`
-- ⏳ `RareVariantVis`
 - ⏳ `Rhisat2`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
@@ -133,7 +130,9 @@
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `TCGAutils`
+- ⏳ `TFutils`
 - ⏳ `UPDhmm`
+- ⏳ `VCFArray`
 - ⏳ `VanillaICE`
 - ⏳ `VariantTools`
 - ⏳ `ZygosityPredictor`
@@ -144,10 +143,11 @@
 - ⏳ `atena`
 - ⏳ `benchdamic`
 - ⏳ `bumphunter`
+- ⏳ `cardelino`
 
-... and 42 more ...
+... and 35 more ...
 
-## Not Yet Started (211)
+## Not Yet Started (199)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -171,7 +171,6 @@
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
-- ⏸️ `DrugVsDisease`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
 - ⏸️ `EpiCompare`
@@ -180,7 +179,6 @@
 - ⏸️ `GRaNIE`
 - ⏸️ `GUIDEseq`
 - ⏸️ `GeneStructureTools`
-- ⏸️ `GenomicCoordinates`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `GeoDiff`
@@ -190,7 +188,6 @@
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `HistoImagePlot`
-- ⏸️ `IntEREst`
 - ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
@@ -198,9 +195,12 @@
 - ⏸️ `MOSClip`
 - ⏸️ `MetaboSignal`
 - ⏸️ `MethylAid`
+- ⏸️ `MinimumDistance`
+- ⏸️ `Moonlight2R`
+- ⏸️ `NADfinder`
 
-... and 161 more ...
+... and 149 more ...
 
 ---
-*Last updated: 2026-07-17 22:08:07 UTC*
-*Packages with verified BBS status: 152*
+*Last updated: 2026-07-17 22:09:15 UTC*
+*Packages with verified BBS status: 153*
