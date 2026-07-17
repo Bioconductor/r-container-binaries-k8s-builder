@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1641 (68%)
-- **Failed:** 16 (0%)
-- **In Progress:** 62
-- **Not Started:** 665
+- **Successfully Built:** 1725 (72%)
+- **Failed:** 17 (0%)
+- **In Progress:** 91
+- **Not Started:** 551
 
-**Progress:** 69%
+**Progress:** 73%
 ```
-██████████████████████████████████░░░░░░░░░░░░░░░░
+████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1641)
+## Successfully Built Packages (1725)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 
-*... and 1591 more ...*
+*... and 1675 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [velociraptor](https://bioconductor.org/packages/3.23/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
@@ -67,6 +66,7 @@
 | [wiggleplotr](https://bioconductor.org/packages/3.23/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.23/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
+| [xCell2](https://bioconductor.org/packages/3.23/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xCell2) |
 | [xcore](https://bioconductor.org/packages/3.23/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.23/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (16)
+## Failed Packages (17)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -87,6 +87,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Build failed with unknown error |
 | [gep2pep](https://bioconductor.org/packages/3.23/bioc/html/gep2pep.html) | [log](logs/gep2pep/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/gep2pep) | Missing dependency: repo<br>[CRAN Package 'repo'](https://cran.r-project.org/web/packages/repo/index.html) archived on 2026-03-21 as issues were not corrected despite reminders. |
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
@@ -97,61 +98,61 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (62)
-- ⏳ `CellBarcode`
+## In Progress (91)
+- ⏳ `BSgenomeForge`
+- ⏳ `BindingSiteFinder`
+- ⏳ `ChIPComp`
 - ⏳ `ChIPsim`
 - ⏳ `CytoPipeline`
 - ⏳ `EnrichmentBrowser`
+- ⏳ `EpiMix`
+- ⏳ `GOTHiC`
 - ⏳ `GeoTcgaData`
 - ⏳ `GlobalAncova`
 - ⏳ `IFAA`
 - ⏳ `InteractionSet`
 - ⏳ `LipidTrend`
+- ⏳ `MMDiff2`
+- ⏳ `MethylSeekR`
+- ⏳ `Motif2Site`
+- ⏳ `MotifPeeker`
 - ⏳ `MsExperiment`
 - ⏳ `MultiDataSet`
+- ⏳ `NoRCE`
+- ⏳ `ORFhunteR`
+- ⏳ `OrganismDbi`
+- ⏳ `OutSplice`
 - ⏳ `PDATK`
 - ⏳ `PSMatch`
+- ⏳ `RJMCMCNucleosomes`
 - ⏳ `RSVSim`
 - ⏳ `RadioGx`
-- ⏳ `XeniumIO`
-- ⏳ `amplican`
-- ⏳ `basecallQC`
-- ⏳ `bayNorm`
-- ⏳ `beachmat.hdf5`
-- ⏳ `benchdamic`
+- ⏳ `SCOPE`
+- ⏳ `SGSeq`
+- ⏳ `SPICEY`
+- ⏳ `SparseSignatures`
+- ⏳ `SpatialFeatureExperiment`
+- ⏳ `SpliceWiz`
+- ⏳ `SplicingGraphs`
+- ⏳ `SpotSweeper`
+- ⏳ `TAPseq`
+- ⏳ `TENET`
+- ⏳ `TFBSTools`
+- ⏳ `TRESS`
+- ⏳ `VariantAnnotation`
+- ⏳ `Xeva`
+- ⏳ `attract`
+- ⏳ `bambu`
+- ⏳ `batchelor`
 - ⏳ `biotmle`
-- ⏳ `breakpointR`
-- ⏳ `ccfindR`
-- ⏳ `celaref`
-- ⏳ `chipenrich`
-- ⏳ `chipseq`
-- ⏳ `corral`
-- ⏳ `coseq`
-- ⏳ `countsimQC`
-- ⏳ `dada2`
-- ⏳ `dominoSignal`
-- ⏳ `easier`
-- ⏳ `easyRNASeq`
-- ⏳ `fishpond`
-- ⏳ `fraq`
-- ⏳ `gDRutils`
-- ⏳ `geneXtendeR`
-- ⏳ `gg4way`
-- ⏳ `ggsc`
-- ⏳ `glmGamPoi`
-- ⏳ `hdxmsqc`
-- ⏳ `hermes`
-- ⏳ `hipathia`
-- ⏳ `iSEE`
-- ⏳ `immApex`
-- ⏳ `infercnv`
-- ⏳ `isomiRs`
-- ⏳ `metabinR`
-- ⏳ `metabolomicsWorkbenchR`
+- ⏳ `blacksheepr`
+- ⏳ `bluster`
+- ⏳ `branchpointer`
+- ⏳ `bsseq`
 
-... and 12 more ...
+... and 41 more ...
 
-## Not Yet Started (665)
+## Not Yet Started (551)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASICS`
@@ -166,17 +167,13 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BEAT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Basic4Cseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
-- ⏸️ `BindingSiteFinder`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
@@ -191,20 +188,24 @@
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CODEX`
-- ⏸️ `CRISPRseek`
-- ⏸️ `CSSQ`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
 - ⏸️ `CellMixS`
 - ⏸️ `CelliD`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPComp`
 - ⏸️ `ChIPQC`
+- ⏸️ `ChIPXpress`
+- ⏸️ `ChIPexoQual`
+- ⏸️ `ChIPpeakAnno`
+- ⏸️ `ChIPseeker`
+- ⏸️ `ChromSCape`
+- ⏸️ `CircSeqAlignTk`
+- ⏸️ `CiteFuse`
+- ⏸️ `CleanUpRNAseq`
 
-... and 615 more ...
+... and 501 more ...
 
 ---
-*Last updated: 2026-07-17 22:19:09 UTC*
-*Packages with verified BBS status: 193*
+*Last updated: 2026-07-17 22:23:42 UTC*
+*Packages with verified BBS status: 195*

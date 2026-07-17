@@ -1,0 +1,113 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''dada2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'dada2'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/dada2_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 2885970 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *source* package ‘dada2’ ...
+** this is package ‘dada2’ version ‘1.40.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rmain.cpp -o Rmain.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c chimera.cpp -o chimera.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cluster.cpp -o cluster.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c containers.cpp -o containers.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c error.cpp -o error.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c evaluate.cpp -o evaluate.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c filter.cpp -o filter.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kmers.cpp -o kmers.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c misc.cpp -o misc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c nwalign_endsfree.cpp -o nwalign_endsfree.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c nwalign_vectorized.cpp -o nwalign_vectorized.o
+nwalign_vectorized.cpp: In function ‘char** nwalign_vectorized2(const char*, size_t, const char*, size_t, int16_t, int16_t, int16_t, int16_t, int)’:
+nwalign_vectorized.cpp:279:27: warning: format ‘%i’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                          ~^                                                                         ~~~~
+      |                           |                                                                         |
+      |                           int                                                                       size_t {aka long unsigned int}
+      |                          %li
+nwalign_vectorized.cpp:279:31: warning: format ‘%i’ expects argument of type ‘int’, but argument 3 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                              ~^                                                                           ~~~~
+      |                               |                                                                           |
+      |                               int                                                                         size_t {aka long unsigned int}
+      |                              %li
+nwalign_vectorized.cpp:279:47: warning: format ‘%i’ expects argument of type ‘int’, but argument 4 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                                              ~^                                                                 ~~~~
+      |                                               |                                                                 |
+      |                                               int                                                               size_t {aka long unsigned int}
+      |                                              %li
+nwalign_vectorized.cpp:279:50: warning: format ‘%i’ expects argument of type ‘int’, but argument 5 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                                                 ~^                                                                    ~~~~
+      |                                                  |                                                                    |
+      |                                                  int                                                                  size_t {aka long unsigned int}
+      |                                                 %li
+nwalign_vectorized.cpp:279:59: warning: format ‘%i’ expects argument of type ‘int’, but argument 6 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                                                          ~^                                                                 ~
+      |                                                           |                                                                 |
+      |                                                           int                                                               size_t {aka long unsigned int}
+      |                                                          %li
+nwalign_vectorized.cpp:279:62: warning: format ‘%i’ expects argument of type ‘int’, but argument 7 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                                                             ~^                                                                ~
+      |                                                              |                                                                |
+      |                                                              int                                                              size_t {aka long unsigned int}
+      |                                                             %li
+nwalign_vectorized.cpp:279:71: warning: format ‘%i’ expects argument of type ‘int’, but argument 8 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                                                                      ~^                                                         ~~~
+      |                                                                       |                                                          |
+      |                                                                       int                                                        size_t {aka long unsigned int}
+      |                                                                      %li
+nwalign_vectorized.cpp:279:74: warning: format ‘%i’ expects argument of type ‘int’, but argument 9 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  279 |         Rprintf("len1/2=(%i, %i), nrow,ncol=(%i,%i), ij=(%i,%i), rc=(%i,%i), d[][]=%i, p[][]=%i\n", len1, len2, nrow, ncol, i,j,i+j,(2*start_col+j-i)/2, d[(i+j)*ncol + (2*start_col+j-i)/2], p[(i+j)*ncol + (2*start_col+j-i)/2]);
+      |                                                                         ~^                                                          ~~~~~~~~~~~~~~~~~~~
+      |                                                                          |                                                                           |
+      |                                                                          int                                                                         size_t {aka long unsigned int}
+      |                                                                         %li
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pval.cpp -o pval.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c taxonomy.cpp -o taxonomy.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o dada2.so RcppExports.o Rmain.o chimera.o cluster.o containers.o error.o evaluate.o filter.o kmers.o misc.o nwalign_endsfree.o nwalign_vectorized.o pval.o taxonomy.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-dada2/00new/dada2/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dada2’ as ‘dada2_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dada2)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5Oo1yt/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m39.473s
+user	1m21.967s
+sys	0m11.315s
