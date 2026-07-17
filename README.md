@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 205 (8%)
+- **Successfully Built:** 217 (9%)
 - **Failed:** 0 (0%)
-- **In Progress:** 172
-- **Not Started:** 1967
+- **In Progress:** 175
+- **Not Started:** 1952
 
-**Progress:** 8%
+**Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (205)
+## Successfully Built Packages (217)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [CGEN](https://bioconductor.org/packages/3.24/bioc/html/CGEN.html) | [log](logs/CGEN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CGEN) |
 | [CONSTANd](https://bioconductor.org/packages/3.24/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CONSTANd) |
 
-*... and 155 more ...*
+*... and 167 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [similaRpeak](https://bioconductor.org/packages/3.24/bioc/html/similaRpeak.html) | [log](logs/similaRpeak/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/similaRpeak) |
 | [sincell](https://bioconductor.org/packages/3.24/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sincell) |
 | [sizepower](https://bioconductor.org/packages/3.24/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.24/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snm) |
@@ -64,6 +63,7 @@
 | [swfdr](https://bioconductor.org/packages/3.24/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) |
+| [systemPipeShiny](https://bioconductor.org/packages/3.24/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/systemPipeShiny) |
 | [tidysbml](https://bioconductor.org/packages/3.24/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [topconfects](https://bioconductor.org/packages/3.24/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/topconfects) |
@@ -76,27 +76,26 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (172)
+## In Progress (175)
+- ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
+- ⏳ `BUS`
 - ⏳ `BaseSpaceR`
 - ⏳ `BenchHub`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocParallel`
 - ⏳ `CNAnorm`
-- ⏳ `COSNet`
 - ⏳ `Chicago`
 - ⏳ `DEGseq`
+- ⏳ `DEqMS`
 - ⏳ `DeepPINCS`
 - ⏳ `DiffLogo`
-- ⏳ `EBSeq`
 - ⏳ `EnhancedVolcano`
-- ⏳ `FGNet`
 - ⏳ `GCPtools`
-- ⏳ `GEOfastq`
-- ⏳ `GSAR`
 - ⏳ `GSEAmining`
+- ⏳ `GWAS.BAYES`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
 - ⏳ `GladiaTOX`
@@ -115,10 +114,12 @@
 - ⏳ `Icens`
 - ⏳ `Informeasure`
 - ⏳ `IsoCorrectoR`
+- ⏳ `Linnorm`
 - ⏳ `M3C`
 - ⏳ `MACSQuantifyR`
 - ⏳ `MANOR`
 - ⏳ `MBAmethyl`
+- ⏳ `MBCB`
 - ⏳ `MBttest`
 - ⏳ `MPFE`
 - ⏳ `MSTree`
@@ -126,12 +127,10 @@
 - ⏳ `MSstatsLOBD`
 - ⏳ `MassArray`
 - ⏳ `MassSpecWavelet`
-- ⏳ `MatrixGenerics`
 
-... and 122 more ...
+... and 125 more ...
 
-## Not Yet Started (1967)
-- ⏸️ `ABSSeq`
+## Not Yet Started (1952)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -181,9 +180,10 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
+- ⏸️ `BEclear`
 
-... and 1917 more ...
+... and 1902 more ...
 
 ---
-*Last updated: 2026-07-17 20:17:17 UTC*
-*Packages with verified BBS status: 54*
+*Last updated: 2026-07-17 20:19:33 UTC*
+*Packages with verified BBS status: 55*

@@ -1,0 +1,302 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''planet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'planet'
+also installing the dependencies ‘GenomicFeatures’, ‘sparseMatrixStats’, ‘h5mread’, ‘rARPACK’, ‘bumphunter’, ‘beanplot’, ‘DelayedMatrixStats’, ‘genefilter’, ‘HDF5Array’, ‘mixOmics’, ‘minfi’, ‘EpiDISH’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomicFeatures_1.65.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/sparseMatrixStats_1.25.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/h5mread_1.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rARPACK_0.11-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/bumphunter_1.55.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/beanplot_1.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DelayedMatrixStats_1.35.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/genefilter_1.95.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HDF5Array_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mixOmics_6.37.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/minfi_1.59.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EpiDISH_2.29.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/planet_1.21.0.tar.gz'
+* installing *source* package ‘GenomicFeatures’ ...
+** this is package ‘GenomicFeatures’ version ‘1.65.0’
+** package ‘GenomicFeatures’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicFeatures.c -o R_init_GenomicFeatures.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transcriptLocs2refLocs.c -o transcriptLocs2refLocs.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicFeatures.so IRanges_stubs.o R_init_GenomicFeatures.o S4Vectors_stubs.o transcriptLocs2refLocs.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GenomicFeatures/00new/GenomicFeatures/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicFeatures’ as ‘GenomicFeatures_1.65.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicFeatures)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘sparseMatrixStats’ ...
+** this is package ‘sparseMatrixStats’ version ‘1.25.0’
+** package ‘sparseMatrixStats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c SparseMatrixView.cpp -o SparseMatrixView.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c methods.cpp -o methods.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c row_methods.cpp -o row_methods.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sparseMatrixStats.so RcppExports.o SparseMatrixView.o methods.o row_methods.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-sparseMatrixStats/00new/sparseMatrixStats/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sparseMatrixStats’ as ‘sparseMatrixStats_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparseMatrixStats)
+* installing *source* package ‘h5mread’ ...
+** this is package ‘h5mread’ version ‘1.5.0’
+** package ‘h5mread’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5File.c -o H5File.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c global_errmsg_buf.c -o global_errmsg_buf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5DSetDescriptor.c -o H5DSetDescriptor.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5dimscales.c -o h5dimscales.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uaselection.c -o uaselection.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_helpers.c -o h5mread_helpers.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_startscounts.c -o h5mread_startscounts.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c TouchedChunks.c -o TouchedChunks.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_index.c -o h5mread_index.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_sparse.c -o h5mread_sparse.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread.c -o h5mread.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5summarize.c -o h5summarize.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_h5mread.c -o R_init_h5mread.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o h5mread.so S4Vectors_stubs.o H5File.o global_errmsg_buf.o H5DSetDescriptor.o h5dimscales.o uaselection.o h5mread_helpers.o h5mread_startscounts.o TouchedChunks.o h5mread_index.o h5mread_sparse.o h5mread.o h5summarize.o R_init_h5mread.o /mnt/library/Rhdf5lib/lib/libhdf5_hl.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-h5mread/00new/h5mread/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘h5mread’ as ‘h5mread_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (h5mread)
+* installing *binary* package ‘rARPACK’ ...
+* package ‘rARPACK’ successfully unpacked and SHA256 sums checked
+* ‘rARPACK’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rARPACK’ as ‘rARPACK_0.11-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rARPACK)
+* installing *binary* package ‘beanplot’ ...
+* package ‘beanplot’ successfully unpacked and SHA256 sums checked
+* ‘beanplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘beanplot’ as ‘beanplot_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beanplot)
+* installing *source* package ‘genefilter’ ...
+** this is package ‘genefilter’ version ‘1.95.0’
+** package ‘genefilter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c half_range_mode.cpp -o half_range_mode.o
+half_range_mode.cpp: In function ‘double half_range_mode(double*, double*, double, int)’:
+half_range_mode.cpp:100:60: warning: format ‘%i’ expects argument of type ‘int’, but argument 5 has type ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wformat=]
+  100 |     if (diag) Rprintf( "N = %i, N'' = %i, w = %.4f, |J| = %i\n", N, N_double_prime, w, J.size() );
+      |                                                           ~^                           ~~~~~~~~
+      |                                                            |                                 |
+      |                                                            int                               std::vector<int>::size_type {aka long unsigned int}
+      |                                                           %li
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nd.c -o nd.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pAUC.c -o pAUC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowPAUCs.c -o rowPAUCs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowttests.c -o rowttests.o
+gfortran  -fpic  -g -O2  -c ttest.f -o ttest.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o genefilter.so half_range_mode.o init.o nd.o pAUC.o rowPAUCs.o rowttests.o ttest.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-genefilter/00new/genefilter/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+
+ *** caught segfault ***
+address 0x6e50, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: loading failed
+* removing ‘/tmp/library/genefilter’
+* installing *source* package ‘planet’ ...
+** this is package ‘planet’ version ‘1.21.0’
+** package ‘planet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘planet’ as ‘planet_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (planet)
+* installing *source* package ‘bumphunter’ ...
+** this is package ‘bumphunter’ version ‘1.55.1’
+** package ‘bumphunter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/mnt/library/png/libs/png.so':
+  /mnt/library/png/libs/png.so: file too short
+Calls: <Anonymous> ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+ERROR: lazy loading failed for package ‘bumphunter’
+* removing ‘/tmp/library/bumphunter’
+* installing *source* package ‘DelayedMatrixStats’ ...
+** this is package ‘DelayedMatrixStats’ version ‘1.35.0’
+** package ‘DelayedMatrixStats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x81a0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘DelayedMatrixStats’
+* removing ‘/tmp/library/DelayedMatrixStats’
+* installing *source* package ‘HDF5Array’ ...
+** this is package ‘HDF5Array’ version ‘1.41.0’
+** package ‘HDF5Array’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HDF5Array’ as ‘HDF5Array_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HDF5Array)
+* installing *source* package ‘mixOmics’ ...
+** this is package ‘mixOmics’ version ‘6.37.0’
+** package ‘mixOmics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mixOmics’ as ‘mixOmics_6.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mixOmics)
+* installing *source* package ‘EpiDISH’ ...
+** this is package ‘EpiDISH’ version ‘2.29.0’
+** package ‘EpiDISH’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EpiDISH’ as ‘EpiDISH_2.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EpiDISH)
+ERROR: dependencies ‘bumphunter’, ‘DelayedMatrixStats’ are not available for package ‘minfi’
+Perhaps try a variation of:
+install.packages(c('bumphunter', 'DelayedMatrixStats'))
+* removing ‘/tmp/library/minfi’
+
+The downloaded source packages are in
+	‘/tmp/RtmpZAPUsY/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘genefilter’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘bumphunter’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘DelayedMatrixStats’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘minfi’ had non-zero exit status
+
+real	4m48.706s
+user	2m48.668s
+sys	0m22.147s

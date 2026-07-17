@@ -1,0 +1,217 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mirTarRnaSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mirTarRnaSeq'
+also installing the dependencies ‘numbers’, ‘insight’, ‘bayestestR’, ‘datawizard’, ‘groupdata2’, ‘MuMIn’, ‘parameters’, ‘rearrr’, ‘GetoptLong’, ‘clue’, ‘ppcor’, ‘gRbase’, ‘cvms’, ‘ComplexHeatmap’, ‘MetBrewer’, ‘tnet’, ‘pscl’, ‘R.cache’, ‘SPONGE’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/numbers_0.9-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/insight_1.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bayestestR_0.18.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/datawizard_1.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/groupdata2_2.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MuMIn_1.48.19.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parameters_0.29.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rearrr_0.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GetoptLong_1.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clue_0.3-68.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ppcor_1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gRbase_2.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cvms_2.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ComplexHeatmap_2.29.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MetBrewer_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tnet_3.0.16.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pscl_1.5.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.cache_0.17.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SPONGE_1.35.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mirTarRnaSeq_1.21.0.tar.gz'
+* installing *binary* package ‘numbers’ ...
+* package ‘numbers’ successfully unpacked and SHA256 sums checked
+* ‘numbers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘numbers’ as ‘numbers_0.9-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numbers)
+* installing *binary* package ‘insight’ ...
+* package ‘insight’ successfully unpacked and SHA256 sums checked
+* ‘insight’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘insight’ as ‘insight_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (insight)
+* installing *binary* package ‘rearrr’ ...
+* package ‘rearrr’ successfully unpacked and SHA256 sums checked
+* ‘rearrr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rearrr’ as ‘rearrr_0.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rearrr)
+* installing *binary* package ‘GetoptLong’ ...
+* package ‘GetoptLong’ successfully unpacked and SHA256 sums checked
+* ‘GetoptLong’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GetoptLong’ as ‘GetoptLong_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GetoptLong)
+* installing *binary* package ‘clue’ ...
+* package ‘clue’ successfully unpacked and SHA256 sums checked
+* ‘clue’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clue’ as ‘clue_0.3-68_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clue)
+* installing *binary* package ‘ppcor’ ...
+* package ‘ppcor’ successfully unpacked and SHA256 sums checked
+* ‘ppcor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ppcor’ as ‘ppcor_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ppcor)
+* installing *binary* package ‘gRbase’ ...
+* package ‘gRbase’ successfully unpacked and SHA256 sums checked
+* ‘gRbase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gRbase’ as ‘gRbase_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gRbase)
+* installing *binary* package ‘MetBrewer’ ...
+* package ‘MetBrewer’ successfully unpacked and SHA256 sums checked
+* ‘MetBrewer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MetBrewer’ as ‘MetBrewer_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MetBrewer)
+* installing *binary* package ‘tnet’ ...
+* package ‘tnet’ successfully unpacked and SHA256 sums checked
+* ‘tnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tnet’ as ‘tnet_3.0.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tnet)
+* installing *binary* package ‘pscl’ ...
+* package ‘pscl’ successfully unpacked and SHA256 sums checked
+* ‘pscl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pscl’ as ‘pscl_1.5.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pscl)
+* installing *binary* package ‘R.cache’ ...
+* package ‘R.cache’ successfully unpacked and SHA256 sums checked
+* ‘R.cache’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.cache’ as ‘R.cache_0.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.cache)
+* installing *binary* package ‘datawizard’ ...
+* package ‘datawizard’ successfully unpacked and SHA256 sums checked
+* ‘datawizard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘datawizard’ as ‘datawizard_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (datawizard)
+* installing *binary* package ‘groupdata2’ ...
+* package ‘groupdata2’ successfully unpacked and SHA256 sums checked
+* ‘groupdata2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘groupdata2’ as ‘groupdata2_2.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (groupdata2)
+* installing *binary* package ‘MuMIn’ ...
+* package ‘MuMIn’ successfully unpacked and SHA256 sums checked
+* ‘MuMIn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MuMIn’ as ‘MuMIn_1.48.19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MuMIn)
+* installing *source* package ‘ComplexHeatmap’ ...
+** this is package ‘ComplexHeatmap’ version ‘2.29.0’
+** package ‘ComplexHeatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ComplexHeatmap’ as ‘ComplexHeatmap_2.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ComplexHeatmap)
+* installing *source* package ‘mirTarRnaSeq’ ...
+** this is package ‘mirTarRnaSeq’ version ‘1.21.0’
+** package ‘mirTarRnaSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mirTarRnaSeq’ as ‘mirTarRnaSeq_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mirTarRnaSeq)
+* installing *binary* package ‘bayestestR’ ...
+* package ‘bayestestR’ successfully unpacked and SHA256 sums checked
+* ‘bayestestR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bayestestR’ as ‘bayestestR_0.18.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bayestestR)
+* installing *binary* package ‘parameters’ ...
+* package ‘parameters’ successfully unpacked and SHA256 sums checked
+* ‘parameters’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parameters’ as ‘parameters_0.29.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parameters)
+* installing *binary* package ‘cvms’ ...
+* package ‘cvms’ successfully unpacked and SHA256 sums checked
+* ‘cvms’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cvms’ as ‘cvms_2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cvms)
+* installing *source* package ‘SPONGE’ ...
+** this is package ‘SPONGE’ version ‘1.35.3’
+** package ‘SPONGE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x29d0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘SPONGE’
+* removing ‘/tmp/library/SPONGE’
+
+The downloaded source packages are in
+	‘/tmp/Rtmplyw2kj/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘SPONGE’ had non-zero exit status
+
+real	2m15.191s
+user	1m13.997s
+sys	0m10.987s
