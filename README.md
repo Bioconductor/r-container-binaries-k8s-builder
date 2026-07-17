@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 157 (6%)
+- **Successfully Built:** 170 (7%)
 - **Failed:** 0 (0%)
-- **In Progress:** 215
-- **Not Started:** 2012
+- **In Progress:** 204
+- **Not Started:** 2010
 
-**Progress:** 6%
+**Progress:** 7%
 ```
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (157)
+## Successfully Built Packages (170)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -42,15 +42,15 @@
 | [DTA](https://bioconductor.org/packages/3.23/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DTA) |
 | [DeMAND](https://bioconductor.org/packages/3.23/bioc/html/DeMAND.html) | [log](logs/DeMAND/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeMAND) |
 | [DriverNet](https://bioconductor.org/packages/3.23/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DriverNet) |
+| [GEOfastq](https://bioconductor.org/packages/3.23/bioc/html/GEOfastq.html) | [log](logs/GEOfastq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GEOfastq) |
 | [GLAD](https://bioconductor.org/packages/3.23/bioc/html/GLAD.html) | [log](logs/GLAD/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GLAD) |
 | [GPA](https://bioconductor.org/packages/3.23/bioc/html/GPA.html) | [log](logs/GPA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GPA) |
-| [GRENITS](https://bioconductor.org/packages/3.23/bioc/html/GRENITS.html) | [log](logs/GRENITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GRENITS) |
 
-*... and 107 more ...*
+*... and 120 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sights](https://bioconductor.org/packages/3.23/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sights) |
+| [sincell](https://bioconductor.org/packages/3.23/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sincell) |
 | [sizepower](https://bioconductor.org/packages/3.23/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.23/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/snm) |
 | [sparsenetgls](https://bioconductor.org/packages/3.23/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sparsenetgls) |
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (215)
+## In Progress (204)
 - ⏳ `ANCOMBC`
 - ⏳ `ASGSCA`
 - ⏳ `ASSET`
@@ -101,6 +101,7 @@
 - ⏳ `DCATS`
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
+- ⏳ `DeepPINCS`
 - ⏳ `DiffLogo`
 - ⏳ `DynDoc`
 - ⏳ `EBSeq`
@@ -112,7 +113,6 @@
 - ⏳ `GAprediction`
 - ⏳ `GEM`
 - ⏳ `GENIE3`
-- ⏳ `GEOfastq`
 - ⏳ `GEOmetadb`
 - ⏳ `GEWIST`
 - ⏳ `GGPA`
@@ -128,9 +128,9 @@
 - ⏳ `HIREewas`
 - ⏳ `HMMcopy`
 
-... and 165 more ...
+... and 154 more ...
 
-## Not Yet Started (2012)
+## Not Yet Started (2010)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -182,8 +182,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1962 more ...
+... and 1960 more ...
 
 ---
-*Last updated: 2026-07-17 20:32:52 UTC*
-*Packages with verified BBS status: 82*
+*Last updated: 2026-07-17 20:34:08 UTC*
+*Packages with verified BBS status: 84*

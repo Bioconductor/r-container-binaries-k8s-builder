@@ -1,0 +1,163 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''sincell'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'sincell'
+also installing the dependencies ‘DDRTree’, ‘HSMMSingleCell’, ‘leidenbase’, ‘slam’, ‘biocViews’, ‘RANN’, ‘TSP’, ‘fastICA’, ‘monocle’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DDRTree_0.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/HSMMSingleCell_1.32.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/leidenbase_0.1.37.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/slam_0.1-56.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biocViews_1.80.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RANN_2.6.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TSP_1.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fastICA_1.2-7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/monocle_2.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/sincell_1.44.0.tar.gz'
+* installing *binary* package ‘DDRTree’ ...
+* package ‘DDRTree’ successfully unpacked and SHA256 sums checked
+* ‘DDRTree’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DDRTree’ as ‘DDRTree_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DDRTree)
+* installing *source* package ‘HSMMSingleCell’ ...
+** this is package ‘HSMMSingleCell’ version ‘1.32.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HSMMSingleCell’ as ‘HSMMSingleCell_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HSMMSingleCell)
+* installing *binary* package ‘leidenbase’ ...
+* package ‘leidenbase’ successfully unpacked and SHA256 sums checked
+* ‘leidenbase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leidenbase’ as ‘leidenbase_0.1.37_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leidenbase)
+* installing *binary* package ‘slam’ ...
+* package ‘slam’ successfully unpacked and SHA256 sums checked
+* ‘slam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘slam’ as ‘slam_0.1-56_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (slam)
+* installing *source* package ‘biocViews’ ...
+** this is package ‘biocViews’ version ‘1.80.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biocViews’ as ‘biocViews_1.80.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biocViews)
+* installing *binary* package ‘RANN’ ...
+* package ‘RANN’ successfully unpacked and SHA256 sums checked
+* ‘RANN’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RANN’ as ‘RANN_2.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RANN)
+* installing *binary* package ‘TSP’ ...
+* package ‘TSP’ successfully unpacked and SHA256 sums checked
+* ‘TSP’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TSP’ as ‘TSP_1.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TSP)
+* installing *binary* package ‘fastICA’ ...
+* package ‘fastICA’ successfully unpacked and SHA256 sums checked
+* ‘fastICA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastICA’ as ‘fastICA_1.2-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastICA)
+* installing *source* package ‘monocle’ ...
+** this is package ‘monocle’ version ‘2.40.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c clustering.cpp -o clustering.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o monocle.so RcppExports.o clustering.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-monocle/00new/monocle/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘monocle’ as ‘monocle_2.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (monocle)
+* installing *source* package ‘sincell’ ...
+** this is package ‘sincell’ version ‘1.44.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pseudoreplicatesbymodel.cpp -o pseudoreplicatesbymodel.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pseudoreplicatesbynoise.cpp -o pseudoreplicatesbynoise.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pseudoreplicatesbynoise_cv2.cpp -o pseudoreplicatesbynoise_cv2.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sstalgorithm.cpp -o sstalgorithm.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sincell.so RcppExports.o pseudoreplicatesbymodel.o pseudoreplicatesbynoise.o pseudoreplicatesbynoise_cv2.o sstalgorithm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-sincell/00new/sincell/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sincell’ as ‘sincell_1.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sincell)
+
+The downloaded source packages are in
+	‘/tmp/RtmpX493Ve/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m49.295s
+user	0m49.604s
+sys	0m10.600s
