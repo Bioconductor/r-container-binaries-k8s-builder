@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2243 (94%)
+- **Successfully Built:** 2252 (94%)
 - **Failed:** 27 (1%)
-- **In Progress:** 14
-- **Not Started:** 100
+- **In Progress:** 9
+- **Not Started:** 96
 
 **Progress:** 95%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2243)
+## Successfully Built Packages (2252)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,14 +46,14 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2193 more ...*
+*... and 2202 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.23/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.23/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vulcan) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
+| [wateRmelon](https://bioconductor.org/packages/3.23/bioc/html/wateRmelon.html) | [log](logs/wateRmelon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wateRmelon) |
 | [wavClusteR](https://bioconductor.org/packages/3.23/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavClusteR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
@@ -108,33 +108,25 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [tLOH](https://bioconductor.org/packages/3.23/bioc/html/tLOH.html) | [log](logs/tLOH/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tLOH) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 
-## In Progress (14)
+## In Progress (9)
+- ⏳ `AgiMicroRna`
+- ⏳ `CAGEr`
+- ⏳ `DMRcate`
 - ⏳ `LOBSTAHS`
-- ⏳ `MAIT`
+- ⏳ `MEAL`
 - ⏳ `MungeSumstats`
-- ⏳ `NADfinder`
-- ⏳ `RNAmodR.ML`
-- ⏳ `annoLinker`
 - ⏳ `arrayMvout`
-- ⏳ `compEpiTools`
-- ⏳ `crisprShiny`
-- ⏳ `crisprVerse`
 - ⏳ `flagme`
-- ⏳ `geomeTriD`
 - ⏳ `metaMS`
-- ⏳ `wateRmelon`
 
-## Not Yet Started (100)
-- ⏸️ `AgiMicroRna`
+## Not Yet Started (96)
 - ⏸️ `BulkSignalR`
-- ⏸️ `CAGEr`
 - ⏸️ `CBNplot`
 - ⏸️ `CEMiTool`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPseeker`
-- ⏸️ `DMRcate`
 - ⏸️ `DspikeIn`
 - ⏸️ `EWCE`
 - ⏸️ `EasyCellType`
@@ -143,7 +135,6 @@
 - ⏸️ `GOaGO`
 - ⏸️ `GeneTonic`
 - ⏸️ `LymphoSeq`
-- ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MIRit`
 - ⏸️ `MSstats`
@@ -175,9 +166,13 @@
 - ⏸️ `bioCancer`
 - ⏸️ `broadSeq`
 - ⏸️ `cardelino`
+- ⏸️ `carnation`
+- ⏸️ `cellmig`
+- ⏸️ `clusterProfiler`
+- ⏸️ `cogeqc`
 
-... and 50 more ...
+... and 46 more ...
 
 ---
-*Last updated: 2026-07-17 22:51:18 UTC*
-*Packages with verified BBS status: 216*
+*Last updated: 2026-07-17 22:52:09 UTC*
+*Packages with verified BBS status: 217*
