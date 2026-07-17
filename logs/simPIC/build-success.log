@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''simPIC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'simPIC'
+also installing the dependencies ‘expint’, ‘actuar’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/expint_0.2-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/actuar_3.3-7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/simPIC_1.8.0.tar.gz'
+* installing *binary* package ‘expint’ ...
+* package ‘expint’ successfully unpacked and SHA256 sums checked
+* ‘expint’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘expint’ as ‘expint_0.2-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (expint)
+* installing *binary* package ‘actuar’ ...
+* package ‘actuar’ successfully unpacked and SHA256 sums checked
+* ‘actuar’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘actuar’ as ‘actuar_3.3-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (actuar)
+* installing *source* package ‘simPIC’ ...
+** this is package ‘simPIC’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘simPIC’ as ‘simPIC_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (simPIC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpI1pBCj/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m39.099s
+user	0m28.488s
+sys	0m4.979s

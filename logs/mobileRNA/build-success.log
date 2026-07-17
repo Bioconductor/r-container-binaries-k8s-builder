@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mobileRNA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mobileRNA'
+also installing the dependencies ‘audio’, ‘beepr’, ‘SimDesign’, ‘bioseq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/audio_0.1-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/beepr_2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SimDesign_2.25.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bioseq_0.1.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mobileRNA_1.8.0.tar.gz'
+* installing *binary* package ‘audio’ ...
+* package ‘audio’ successfully unpacked and SHA256 sums checked
+* ‘audio’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘audio’ as ‘audio_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (audio)
+* installing *binary* package ‘bioseq’ ...
+* package ‘bioseq’ successfully unpacked and SHA256 sums checked
+* ‘bioseq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bioseq’ as ‘bioseq_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bioseq)
+* installing *binary* package ‘beepr’ ...
+* package ‘beepr’ successfully unpacked and SHA256 sums checked
+* ‘beepr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘beepr’ as ‘beepr_2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beepr)
+* installing *binary* package ‘SimDesign’ ...
+* package ‘SimDesign’ successfully unpacked and SHA256 sums checked
+* ‘SimDesign’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SimDesign’ as ‘SimDesign_2.25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SimDesign)
+* installing *source* package ‘mobileRNA’ ...
+** this is package ‘mobileRNA’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mobileRNA’ as ‘mobileRNA_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mobileRNA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0ji8hZ/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m1.269s
+user	0m42.314s
+sys	0m6.948s

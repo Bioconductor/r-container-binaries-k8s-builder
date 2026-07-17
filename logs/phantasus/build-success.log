@@ -1,0 +1,66 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''phantasus'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'phantasus'
+also installing the dependencies ‘webutils’, ‘protolite’, ‘opencpu’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/webutils_1.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/protolite_2.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/opencpu_2.2.15.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/phantasus_1.32.0.tar.gz'
+* installing *binary* package ‘webutils’ ...
+* package ‘webutils’ successfully unpacked and SHA256 sums checked
+* ‘webutils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘webutils’ as ‘webutils_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (webutils)
+* installing *binary* package ‘protolite’ ...
+* package ‘protolite’ successfully unpacked and SHA256 sums checked
+* ‘protolite’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘protolite’ as ‘protolite_2.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (protolite)
+* installing *binary* package ‘opencpu’ ...
+* package ‘opencpu’ successfully unpacked and SHA256 sums checked
+* ‘opencpu’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘opencpu’ as ‘opencpu_2.2.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (opencpu)
+* installing *source* package ‘phantasus’ ...
+** this is package ‘phantasus’ version ‘1.32.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phantasus’ as ‘phantasus_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phantasus)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqKfCc2/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m59.807s
+user	0m39.346s
+sys	0m7.550s
