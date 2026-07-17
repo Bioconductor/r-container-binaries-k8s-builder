@@ -1,0 +1,104 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CONFESS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CONFESS'
+also installing the dependencies ‘bmp’, ‘contrast’, ‘ecp’, ‘outliers’, ‘readbitmap’, ‘CONFESSdata’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bmp_0.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/contrast_0.24.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ecp_3.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/outliers_0.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readbitmap_0.1.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/CONFESSdata_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CONFESS_1.41.0.tar.gz'
+* installing *binary* package ‘bmp’ ...
+* package ‘bmp’ successfully unpacked and SHA256 sums checked
+* ‘bmp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bmp’ as ‘bmp_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bmp)
+* installing *binary* package ‘contrast’ ...
+* package ‘contrast’ successfully unpacked and SHA256 sums checked
+* ‘contrast’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘contrast’ as ‘contrast_0.24.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (contrast)
+* installing *binary* package ‘ecp’ ...
+* package ‘ecp’ successfully unpacked and SHA256 sums checked
+* ‘ecp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ecp’ as ‘ecp_3.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ecp)
+* installing *binary* package ‘outliers’ ...
+* package ‘outliers’ successfully unpacked and SHA256 sums checked
+* ‘outliers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘outliers’ as ‘outliers_0.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (outliers)
+* installing *source* package ‘CONFESSdata’ ...
+** this is package ‘CONFESSdata’ version ‘1.41.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CONFESSdata’ as ‘CONFESSdata_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CONFESSdata)
+* installing *binary* package ‘readbitmap’ ...
+* package ‘readbitmap’ successfully unpacked and SHA256 sums checked
+* ‘readbitmap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readbitmap’ as ‘readbitmap_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readbitmap)
+* installing *source* package ‘CONFESS’ ...
+** this is package ‘CONFESS’ version ‘1.41.0’
+** package ‘CONFESS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+Warning: replacing previous import ‘stats::BIC’ by ‘flowMerge::BIC’ when loading ‘CONFESS’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+Warning: replacing previous import ‘stats::BIC’ by ‘flowMerge::BIC’ when loading ‘CONFESS’
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+Warning: replacing previous import ‘stats::BIC’ by ‘flowMerge::BIC’ when loading ‘CONFESS’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CONFESS’ as ‘CONFESS_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CONFESS)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpqpf4mK/downloaded_packages’
+
+real	1m58.562s
+user	1m22.214s
+sys	0m20.895s

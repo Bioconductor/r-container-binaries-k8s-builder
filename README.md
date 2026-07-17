@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 824 (35%)
+- **Successfully Built:** 866 (36%)
 - **Failed:** 2 (0%)
-- **In Progress:** 7
-- **Not Started:** 1511
+- **In Progress:** 12
+- **Not Started:** 1464
 
-**Progress:** 35%
+**Progress:** 37%
 ```
-█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (824)
+## Successfully Built Packages (866)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 774 more ...*
+*... and 816 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,16 +83,21 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (7)
-- ⏳ `CONFESS`
+## In Progress (12)
 - ⏳ `GenomicRanges`
-- ⏳ `beachmat`
-- ⏳ `flowWorkspace`
-- ⏳ `frmaTools`
+- ⏳ `MEDME`
+- ⏳ `NanoStringNCTools`
+- ⏳ `Structstrings`
+- ⏳ `alabaster.matrix`
+- ⏳ `chihaya`
+- ⏳ `fraq`
+- ⏳ `idpr`
+- ⏳ `kebabs`
 - ⏳ `msPurity`
-- ⏳ `sketchR`
+- ⏳ `muscle`
+- ⏳ `universalmotif`
 
-## Not Yet Started (1511)
+## Not Yet Started (1464)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -125,12 +130,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
@@ -143,9 +146,11 @@
 - ⏸️ `BamScale`
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
+- ⏸️ `BasicSTARRseq`
+- ⏸️ `BatChef`
 
-... and 1461 more ...
+... and 1414 more ...
 
 ---
-*Last updated: 2026-07-17 21:05:07 UTC*
+*Last updated: 2026-07-17 21:07:00 UTC*
 *Packages with verified BBS status: 103*

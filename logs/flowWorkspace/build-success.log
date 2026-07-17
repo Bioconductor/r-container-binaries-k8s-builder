@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''flowWorkspace'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'flowWorkspace'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/flowWorkspace_4.25.1.tar.gz'
+Content type 'application/x-gzip' length 5337913 bytes (5.1 MB)
+==================================================
+downloaded 5.1 MB
+
+* installing *source* package ‘flowWorkspace’ ...
+** this is package ‘flowWorkspace’ version ‘4.25.1’
+** package ‘flowWorkspace’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c R_API.cpp -o R_API.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c R_GatingHierarchy.cpp -o R_GatingHierarchy.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c R_GatingSet.cpp -o R_GatingSet.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cytoframeAPI.cpp -o cytoframeAPI.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cytosetAPI.cpp -o cytosetAPI.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c getDescendants.cpp -o getDescendants.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c getPopStats.cpp -o getPopStats.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c getSingleCellExpression.cpp -o getSingleCellExpression.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c h5_error_r_handler.cpp -o h5_error_r_handler.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -DBOOST_NO_AUTO_PTR -Wno-pedantic  -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/cytolib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c setCounts.cpp -o setCounts.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o flowWorkspace.so R_API.o R_GatingHierarchy.o R_GatingSet.o cpp11.o cytoframeAPI.o cytosetAPI.o getDescendants.o getPopStats.o getSingleCellExpression.o h5_error_r_handler.o setCounts.o /mnt/library/cytolib/lib/libcytolib.a /mnt/library/Rhdf5lib/lib/libhdf5_cpp.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -llapack -lblas -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-flowWorkspace/00new/flowWorkspace/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowWorkspace’ as ‘flowWorkspace_4.25.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowWorkspace)
+
+The downloaded source packages are in
+	‘/tmp/RtmptqbX0o/downloaded_packages’
+
+real	2m37.356s
+user	2m9.523s
+sys	0m19.131s
