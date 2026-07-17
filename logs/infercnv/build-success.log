@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''infercnv'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'infercnv'
+also installing the dependencies ‘findpython’, ‘phyclust’, ‘HiddenMarkov’, ‘argparse’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/findpython_1.0.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phyclust_0.1-34.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/HiddenMarkov_1.8-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/argparse_2.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/infercnv_1.28.0.tar.gz'
+* installing *binary* package ‘findpython’ ...
+* package ‘findpython’ successfully unpacked and SHA256 sums checked
+* ‘findpython’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘findpython’ as ‘findpython_1.0.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (findpython)
+* installing *binary* package ‘phyclust’ ...
+* package ‘phyclust’ successfully unpacked and SHA256 sums checked
+* ‘phyclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phyclust’ as ‘phyclust_0.1-34_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phyclust)
+* installing *binary* package ‘HiddenMarkov’ ...
+* package ‘HiddenMarkov’ successfully unpacked and SHA256 sums checked
+* ‘HiddenMarkov’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HiddenMarkov’ as ‘HiddenMarkov_1.8-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HiddenMarkov)
+* installing *binary* package ‘argparse’ ...
+* package ‘argparse’ successfully unpacked and SHA256 sums checked
+* ‘argparse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘argparse’ as ‘argparse_2.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (argparse)
+* installing *source* package ‘infercnv’ ...
+** this is package ‘infercnv’ version ‘1.28.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘infercnv’ as ‘infercnv_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (infercnv)
+
+The downloaded source packages are in
+	‘/tmp/RtmpInNuiu/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m6.902s
+user	0m46.248s
+sys	0m6.921s
