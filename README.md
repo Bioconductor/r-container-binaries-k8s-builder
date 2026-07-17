@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1998 (85%)
-- **Failed:** 10 (0%)
-- **In Progress:** 94
-- **Not Started:** 242
+- **Successfully Built:** 2029 (86%)
+- **Failed:** 12 (0%)
+- **In Progress:** 92
+- **Not Started:** 211
 
-**Progress:** 85%
+**Progress:** 87%
 ```
-██████████████████████████████████████████░░░░░░░░
+███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1998)
+## Successfully Built Packages (2029)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 1948 more ...*
+*... and 1979 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,11 +76,12 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (10)
+## Failed Packages (12)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [GenomAutomorphism](https://bioconductor.org/packages/3.24/bioc/html/GenomAutomorphism.html) | [log](logs/GenomAutomorphism/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GenomAutomorphism) | Error: unable to load R code in package ‘GenomAutomorphism’ |
+| [HiTC](https://bioconductor.org/packages/3.24/bioc/html/HiTC.html) | [log](logs/HiTC/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HiTC) | Error: unable to load R code in package ‘HiTC’ |
 | [IFAA](https://bioconductor.org/packages/3.24/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [NanoStringNCTools](https://bioconductor.org/packages/3.24/bioc/html/NanoStringNCTools.html) | [log](logs/NanoStringNCTools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/NanoStringNCTools) | Error: unable to load R code in package ‘NanoStringNCTools’ |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
@@ -89,35 +90,34 @@
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [miRSM](https://bioconductor.org/packages/3.24/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRSM) | Build failed with unknown error |
+| [miRspongeR](https://bioconductor.org/packages/3.24/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (94)
+## In Progress (92)
+- ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CSSQ`
 - ⏳ `ChIPseeker`
 - ⏳ `DMCFB`
 - ⏳ `DNAfusion`
-- ⏳ `DominoEffect`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
 - ⏳ `EpiMix`
-- ⏳ `EventPointer`
 - ⏳ `ExCluster`
-- ⏳ `FRASER`
 - ⏳ `FindIT2`
-- ⏳ `G4SNVHunter`
 - ⏳ `GOstats`
-- ⏳ `GenomicFiles`
+- ⏳ `GeneTonic`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `HelloRanges`
-- ⏳ `HiTC`
 - ⏳ `INSPEcT`
+- ⏳ `ITALICS`
 - ⏳ `IVAS`
 - ⏳ `IdeoViz`
+- ⏳ `InPAS`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
-- ⏳ `MutationalPatterns`
+- ⏳ `MutSeqR`
 - ⏳ `NanoMethViz`
 - ⏳ `PostChicago`
 - ⏳ `ProteoDisco`
@@ -128,6 +128,7 @@
 - ⏳ `Rhisat2`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
+- ⏳ `STADyUM`
 - ⏳ `SigsPack`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
@@ -136,22 +137,21 @@
 - ⏳ `VanillaICE`
 - ⏳ `VariantTools`
 - ⏳ `ZygosityPredictor`
-- ⏳ `a4`
 - ⏳ `alabaster.vcf`
 - ⏳ `annotatr`
 - ⏳ `appreci8R`
+- ⏳ `atSNP`
 - ⏳ `atena`
 - ⏳ `benchdamic`
+- ⏳ `bumphunter`
 
-... and 44 more ...
+... and 42 more ...
 
-## Not Yet Started (242)
+## Not Yet Started (211)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
-- ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `ArrayExpress`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
 - ⏸️ `CAFE`
@@ -175,17 +175,14 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
 - ⏸️ `EpiCompare`
-- ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GRaNIE`
 - ⏸️ `GUIDEseq`
 - ⏸️ `GeneStructureTools`
-- ⏸️ `GeneTonic`
 - ⏸️ `GenomicCoordinates`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
-- ⏸️ `GenomicPlot`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
 - ⏸️ `GmicR`
@@ -193,12 +190,17 @@
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `HistoImagePlot`
-- ⏸️ `ITALICS`
-- ⏸️ `InPAS`
 - ⏸️ `IntEREst`
+- ⏸️ `IsoformSwitchAnalyzeR`
+- ⏸️ `MAGAR`
+- ⏸️ `MEAL`
+- ⏸️ `MEAT`
+- ⏸️ `MOSClip`
+- ⏸️ `MetaboSignal`
+- ⏸️ `MethylAid`
 
-... and 192 more ...
+... and 161 more ...
 
 ---
-*Last updated: 2026-07-17 22:06:16 UTC*
-*Packages with verified BBS status: 150*
+*Last updated: 2026-07-17 22:08:07 UTC*
+*Packages with verified BBS status: 152*

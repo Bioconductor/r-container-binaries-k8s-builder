@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''G4SNVHunter'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'G4SNVHunter'
+also installing the dependency ‘ggdensity’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggdensity_1.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/G4SNVHunter_1.5.0.tar.gz'
+* installing *binary* package ‘ggdensity’ ...
+* package ‘ggdensity’ successfully unpacked and SHA256 sums checked
+* ‘ggdensity’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggdensity’ as ‘ggdensity_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdensity)
+* installing *source* package ‘G4SNVHunter’ ...
+** this is package ‘G4SNVHunter’ version ‘1.5.0’
+** package ‘G4SNVHunter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c G4HTranslate.cpp -o G4HTranslate.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o G4SNVHunter.so G4HTranslate.o RcppExports.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-G4SNVHunter/00new/G4SNVHunter/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘G4SNVHunter’ as ‘G4SNVHunter_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (G4SNVHunter)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLM4H8N/downloaded_packages’
+
+real	1m2.089s
+user	0m50.461s
+sys	0m7.584s

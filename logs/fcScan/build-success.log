@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''fcScan'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'fcScan'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/fcScan_1.27.0.tar.gz'
+Content type 'application/x-gzip' length 248025 bytes (242 KB)
+==================================================
+downloaded 242 KB
+
+* installing *source* package ‘fcScan’ ...
+** this is package ‘fcScan’ version ‘1.27.0’
+** package ‘fcScan’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fcScan’ as ‘fcScan_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fcScan)
+
+The downloaded source packages are in
+	‘/tmp/RtmppAPfJ2/downloaded_packages’
+
+real	0m52.372s
+user	0m40.739s
+sys	0m6.308s
