@@ -212,6 +212,25 @@ jobs:
             cat /tmp/cycle-check-output.txt || true
           fi
 
+      - name: Build lifecycle summary
+        if: steps.cycle_check.outputs.skip != 'true'
+        run: |
+          SUCCESSFUL=$(wc -l < logs/successful-packages.txt 2>/dev/null || echo 0)
+          FAILED=$(wc -l < logs/failed-packages.txt 2>/dev/null || echo 0)
+          TOTAL=$((SUCCESSFUL + FAILED))
+          READY="${{ steps.check_complete.outputs.notify }}"
+          {
+            echo "## Build cycle status"
+            echo "- Successful packages: ${SUCCESSFUL}"
+            echo "- Failed packages: ${FAILED}"
+            echo "- Processed total: ${TOTAL}"
+            echo "- Ready for stop: ${READY}"
+            if [[ "${READY}" == "yes" ]]; then
+              echo ""
+              echo "> **Action required:** Run **Stop Build Cycle** workflow next, then run **Finish Build Cycle**."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Notify slack channel
         uses: slackapi/slack-github-action@v2.1.1
         with:
