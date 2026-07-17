@@ -12,11 +12,27 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           persist-credentials: true
+          ref: ${{ github.ref_name }}
 
       - name: Update to latest
         run: |
-          git pull --rebase
-          git reset --hard HEAD
+          set -euxo pipefail
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          git fetch origin "${BRANCH_NAME}"
+          git checkout "${BRANCH_NAME}"
+          git pull --rebase origin "${BRANCH_NAME}"
+          git reset --hard "origin/${BRANCH_NAME}"
+
+      - name: Diagnose checkout state
+        run: |
+          set -euxo pipefail
+          echo "PWD: $(pwd)"
+          echo "Branch: $(git branch --show-current)"
+          echo "HEAD: $(git rev-parse HEAD)"
+          echo "Top-level files:"
+          ls -la
+          echo "Required files:"
+          find . -maxdepth 2 \( -name 'CONTAINER_BASE_IMAGE.bioc' -o -name 'bioc_version' -o -name 'r_version' -o -name 'container_name' \) -print
 
       - name: Save kubeconfig
         shell: bash
@@ -48,6 +64,10 @@ jobs:
           # Verify required files exist
           if [[ ! -f "CONTAINER_BASE_IMAGE.bioc" ]]; then
             echo "Error: CONTAINER_BASE_IMAGE.bioc not found"
+            echo "Current branch: $(git branch --show-current)"
+            echo "HEAD: $(git rev-parse HEAD)"
+            echo "Files in repo root:"
+            ls -la
             exit 1
           fi
           
@@ -89,13 +109,17 @@ jobs:
 
       - name: Commit and Push Results
         run: |
+          set -euxo pipefail
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+          git fetch origin "${BRANCH_NAME}"
+          git rebase "origin/${BRANCH_NAME}"
           git add . || true
           
           if ! git diff --staged --quiet; then
             git commit -m "Finish build cycle: ${{ steps.get_build_id.outputs.build_id }}"
-            git push || (git pull --rebase && git push)
+            git push origin "HEAD:${BRANCH_NAME}"
           else
             echo "No changes to commit"
           fi
