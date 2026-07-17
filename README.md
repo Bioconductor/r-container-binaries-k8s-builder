@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 481 (20%)
+- **Successfully Built:** 499 (21%)
 - **Failed:** 2 (0%)
-- **In Progress:** 17
-- **Not Started:** 1844
+- **In Progress:** 7
+- **Not Started:** 1836
 
-**Progress:** 20%
+**Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (481)
+## Successfully Built Packages (499)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -38,15 +38,15 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
+| [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
+| [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 | [BADER](https://bioconductor.org/packages/3.24/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BADER) |
 | [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
-| [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
-| [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 
-*... and 431 more ...*
+*... and 449 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,26 +83,16 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (17)
+## In Progress (7)
 - ⏳ `BiocGenerics`
-- ⏳ `GenProSeq`
+- ⏳ `GSCA`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `IMPCdata`
-- ⏳ `INDEED`
-- ⏳ `Icens`
-- ⏳ `PLSDAbatch`
 - ⏳ `RNAdecay`
 - ⏳ `cytolib`
-- ⏳ `diffuStats`
 - ⏳ `flowPeaks`
-- ⏳ `flowPlots`
-- ⏳ `genomes`
-- ⏳ `graper`
-- ⏳ `philr`
-- ⏳ `sitePath`
 
-## Not Yet Started (1844)
+## Not Yet Started (1836)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -129,8 +119,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnVILPublish`
-- ⏸️ `AnVILVRS`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
@@ -153,9 +141,11 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
+- ⏸️ `BUScorrect`
+- ⏸️ `BUSpaRse`
 
-... and 1794 more ...
+... and 1786 more ...
 
 ---
-*Last updated: 2026-07-17 20:46:49 UTC*
-*Packages with verified BBS status: 84*
+*Last updated: 2026-07-17 20:48:00 UTC*
+*Packages with verified BBS status: 86*
