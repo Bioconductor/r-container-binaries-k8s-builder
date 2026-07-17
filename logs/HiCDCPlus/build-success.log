@@ -1,0 +1,67 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HiCDCPlus'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HiCDCPlus'
+also installing the dependency ‘HiTC’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HiTC_1.57.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HiCDCPlus_1.21.0.tar.gz'
+* installing *source* package ‘HiTC’ ...
+** this is package ‘HiTC’ version ‘1.57.0’
+** package ‘HiTC’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘Biostrings’ for request: ‘detail’ when loading ‘HiTC’
+Error in matchSignature(signature, fdef, where) : 
+  there are named arguments (‘x’) in the method signature that are missing from the generic signature, for function ‘detail’
+Error: unable to load R code in package ‘HiTC’
+Execution halted
+ERROR: lazy loading failed for package ‘HiTC’
+* removing ‘/tmp/library/HiTC’
+* installing *source* package ‘HiCDCPlus’ ...
+** this is package ‘HiCDCPlus’ version ‘1.21.0’
+** package ‘HiCDCPlus’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c straw.cpp -o straw.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o HiCDCPlus.so RcppExports.o straw.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-HiCDCPlus/00new/HiCDCPlus/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HiCDCPlus’ as ‘HiCDCPlus_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HiCDCPlus)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2SbqKO/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘HiTC’ had non-zero exit status
+
+real	1m9.428s
+user	0m53.943s
+sys	0m7.495s

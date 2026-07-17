@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2278 (97%)
+- **Successfully Built:** 2302 (98%)
 - **Failed:** 16 (0%)
-- **In Progress:** 25
+- **In Progress:** 1
 - **Not Started:** 25
 
-**Progress:** 97%
+**Progress:** 98%
 ```
-████████████████████████████████████████████████░░
+█████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2278)
+## Successfully Built Packages (2302)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2228 more ...*
+*... and 2252 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.24/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.24/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vulcan) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
+| [wateRmelon](https://bioconductor.org/packages/3.24/bioc/html/wateRmelon.html) | [log](logs/wateRmelon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wateRmelon) |
 | [wavClusteR](https://bioconductor.org/packages/3.24/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavClusteR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
@@ -97,32 +97,8 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (25)
-- ⏳ `CAGEr`
-- ⏳ `ENmix`
-- ⏳ `HiCDCPlus`
-- ⏳ `HiCaptuRe`
-- ⏳ `IdeoViz`
-- ⏳ `MoonlightR`
+## In Progress (1)
 - ⏳ `MungeSumstats`
-- ⏳ `NanoMethViz`
-- ⏳ `PostChicago`
-- ⏳ `RBedMethyl`
-- ⏳ `RadioGx`
-- ⏳ `SCANVIS`
-- ⏳ `SCArray.sat`
-- ⏳ `SpaNorm`
-- ⏳ `SpatialExperimentIO`
-- ⏳ `YAPSA`
-- ⏳ `annotatr`
-- ⏳ `arrayMvout`
-- ⏳ `ffpe`
-- ⏳ `iCheck`
-- ⏳ `missMethyl`
-- ⏳ `motifbreakR`
-- ⏳ `qpgraph`
-- ⏳ `strandCheckR`
-- ⏳ `wateRmelon`
 
 ## Not Yet Started (25)
 - ⏸️ `ChAMP`
@@ -152,5 +128,5 @@
 - ⏸️ `spicyR`
 
 ---
-*Last updated: 2026-07-17 22:35:45 UTC*
-*Packages with verified BBS status: 161*
+*Last updated: 2026-07-17 22:48:53 UTC*
+*Packages with verified BBS status: 162*

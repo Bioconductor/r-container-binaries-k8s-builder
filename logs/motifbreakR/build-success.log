@@ -1,0 +1,66 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''motifbreakR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'motifbreakR'
+also installing the dependency ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP155.GRCh37_0.99.24.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/motifbreakR_2.27.2.tar.gz'
+* installing *source* package ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’ ...
+** this is package ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’ version ‘0.99.24’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SNPlocs.Hsapiens.dbSNP155.GRCh37’ as ‘SNPlocs.Hsapiens.dbSNP155.GRCh37_0.99.24_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SNPlocs.Hsapiens.dbSNP155.GRCh37)
+* installing *source* package ‘motifbreakR’ ...
+** this is package ‘motifbreakR’ version ‘2.27.2’
+** package ‘motifbreakR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package can be loaded from final location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘motifbreakR’ as ‘motifbreakR_2.27.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (motifbreakR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpII0UF2/downloaded_packages’
+
+real	12m31.694s
+user	11m8.663s
+sys	1m2.577s
