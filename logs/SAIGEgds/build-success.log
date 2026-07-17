@@ -1,0 +1,109 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SAIGEgds'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SAIGEgds'
+also installing the dependencies ‘prismatic’, ‘SPAtest’, ‘paletteer’, ‘SKAT’, ‘ggmanh’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/prismatic_1.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SPAtest_3.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paletteer_1.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SKAT_2.2.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ggmanh_1.16.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SAIGEgds_2.12.0.tar.gz'
+* installing *binary* package ‘prismatic’ ...
+* package ‘prismatic’ successfully unpacked and SHA256 sums checked
+* ‘prismatic’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘prismatic’ as ‘prismatic_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prismatic)
+* installing *binary* package ‘SPAtest’ ...
+* package ‘SPAtest’ successfully unpacked and SHA256 sums checked
+* ‘SPAtest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SPAtest’ as ‘SPAtest_3.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SPAtest)
+* installing *binary* package ‘paletteer’ ...
+* package ‘paletteer’ successfully unpacked and SHA256 sums checked
+* ‘paletteer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paletteer’ as ‘paletteer_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paletteer)
+* installing *binary* package ‘SKAT’ ...
+* package ‘SKAT’ successfully unpacked and SHA256 sums checked
+* ‘SKAT’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SKAT’ as ‘SKAT_2.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SKAT)
+* installing *source* package ‘ggmanh’ ...
+** this is package ‘ggmanh’ version ‘1.16.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘binned_manhattan_plot’ with signature ‘"GRanges"’: no definition for class “GRanges”
+in method for ‘binned_manhattan_preprocess’ with signature ‘"GRanges"’: no definition for class “GRanges”
+in method for ‘manhattan_plot’ with signature ‘"GRanges"’: no definition for class “GRanges”
+in method for ‘manhattan_data_preprocess’ with signature ‘"GRanges"’: no definition for class “GRanges”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggmanh’ as ‘ggmanh_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggmanh)
+* installing *source* package ‘SAIGEgds’ ...
+** this is package ‘SAIGEgds’ version ‘2.12.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c SPATest.cpp -o SPATest.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gpu_opencl.cpp -o gpu_opencl.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c saige_fitnull.cpp -o saige_fitnull.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c saige_main.cpp -o saige_main.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c saige_misc.cpp -o saige_misc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c saige_permu.cpp -o saige_permu.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c vec_ext_avx2.cpp -o vec_ext_avx2.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c vec_ext_avx512bw.cpp -o vec_ext_avx512bw.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c vec_ext_def.cpp -o vec_ext_def.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppParallel/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c vectorization.cpp -o vectorization.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SAIGEgds.so SPATest.o gpu_opencl.o saige_fitnull.o saige_main.o saige_misc.o saige_permu.o vec_ext_avx2.o vec_ext_avx512bw.o vec_ext_def.o vectorization.o -lm -llapack -lblas -lgfortran -lm -lquadmath -lgcc -ldl -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SAIGEgds/00new/SAIGEgds/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SAIGEgds’ as ‘SAIGEgds_2.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SAIGEgds)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpr9pjdx/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m35.718s
+user	1m21.485s
+sys	0m10.878s

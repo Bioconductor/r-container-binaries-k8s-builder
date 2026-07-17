@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 881 (36%)
+- **Successfully Built:** 949 (39%)
 - **Failed:** 10 (0%)
-- **In Progress:** 46
-- **Not Started:** 1447
+- **In Progress:** 9
+- **Not Started:** 1416
 
-**Progress:** 37%
+**Progress:** 40%
 ```
-██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (881)
+## Successfully Built Packages (949)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 831 more ...*
+*... and 899 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [toppgene](https://bioconductor.org/packages/3.23/bioc/html/toppgene.html) | [log](logs/toppgene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/toppgene) |
 | [transite](https://bioconductor.org/packages/3.23/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.23/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
@@ -64,6 +63,7 @@
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
+| [universalmotif](https://bioconductor.org/packages/3.23/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
@@ -91,59 +91,21 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (46)
-- ⏳ `AnnotationDbi`
+## In Progress (9)
+- ⏳ `ADAPT`
 - ⏳ `AnnotationFilter`
-- ⏳ `AssessORF`
-- ⏳ `BANDITS`
 - ⏳ `BREW3R.r`
-- ⏳ `BiFET`
-- ⏳ `CNVMetrics`
-- ⏳ `CSAR`
-- ⏳ `CytoDx`
-- ⏳ `DMRScan`
 - ⏳ `DNAshapeR`
-- ⏳ `DelayedArray`
-- ⏳ `EnrichedHeatmap`
-- ⏳ `GBScleanR`
-- ⏳ `GenomicDistributions`
-- ⏳ `GenomicTuples`
-- ⏳ `GeomxTools`
-- ⏳ `HilbertCurve`
-- ⏳ `IWTomics`
-- ⏳ `SAIGEgds`
-- ⏳ `Sconify`
+- ⏳ `Rbowtie2`
 - ⏳ `affyPLM`
-- ⏳ `alabaster.string`
-- ⏳ `altcdfenvs`
-- ⏳ `bcSeq`
 - ⏳ `cytoMEM`
-- ⏳ `flowBeads`
-- ⏳ `flowClean`
-- ⏳ `flowMatch`
-- ⏳ `flowMeans`
-- ⏳ `flowMerge`
-- ⏳ `ggmanh`
-- ⏳ `heatmaps`
-- ⏳ `idpr`
-- ⏳ `idr2d`
-- ⏳ `megadepth`
-- ⏳ `methimpute`
-- ⏳ `microRNA`
-- ⏳ `motifcounter`
 - ⏳ `msa`
-- ⏳ `muscle`
-- ⏳ `ncdfFlow`
-- ⏳ `nempi`
 - ⏳ `pepStat`
-- ⏳ `ramr`
-- ⏳ `universalmotif`
 
-## Not Yet Started (1447)
+## Not Yet Started (1416)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
-- ⏸️ `ADAPT`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -190,9 +152,10 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 - ⏸️ `Battlefield`
+- ⏸️ `BayesSpace`
 
-... and 1397 more ...
+... and 1366 more ...
 
 ---
-*Last updated: 2026-07-17 21:33:41 UTC*
-*Packages with verified BBS status: 158*
+*Last updated: 2026-07-17 21:36:21 UTC*
+*Packages with verified BBS status: 159*

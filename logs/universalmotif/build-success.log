@@ -1,0 +1,131 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''universalmotif'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'universalmotif'
+also installing the dependencies ‘TFBSTools’, ‘motifStack’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TFBSTools_1.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/motifStack_1.56.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/universalmotif_1.30.1.tar.gz'
+* installing *source* package ‘TFBSTools’ ...
+** this is package ‘TFBSTools’ version ‘1.50.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrixAlignerDynamic.c -o matrixAlignerDynamic.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_TFBSTools.c -o R_init_TFBSTools.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o TFBSTools.so matrixAlignerDynamic.o R_init_TFBSTools.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-TFBSTools/00new/TFBSTools/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘seqLogo’ in package ‘TFBSTools’
+Creating a new generic function for ‘pattern’ in package ‘TFBSTools’
+Creating a generic function for ‘colSums’ from package ‘base’ in package ‘TFBSTools’
+Creating a generic function for ‘rowSums’ from package ‘base’ in package ‘TFBSTools’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TFBSTools’ as ‘TFBSTools_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFBSTools)
+* installing *source* package ‘universalmotif’ ...
+** this is package ‘universalmotif’ version ‘1.30.1’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+In file included from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:29,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from RcppExports.cpp:5:
+/usr/local/lib/R/site-library/Rcpp/include/Rcpp/r/check_r_headers.h:27:21: note: ‘#pragma message: R.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410’
+   27 |     #pragma message "R.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410"
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/lib/R/site-library/Rcpp/include/Rcpp/r/check_r_headers.h:35:21: note: ‘#pragma message: Rinternals.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410’
+   35 |     #pragma message "Rinternals.h has been included before any Rcpp headers. This can lead to hard-to-debug errors, and is not necessary. See https://github.com/RcppCore/Rcpp/issues/1410"
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c add_multifreq.cpp -o add_multifreq.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c calc_complexity.cpp -o calc_complexity.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c compare_motifs.cpp -o compare_motifs.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c get_bkg.cpp -o get_bkg.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c motif_finder.cpp -o motif_finder.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c motif_peaks.cpp -o motif_peaks.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c motif_pvalue.cpp -o motif_pvalue.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c scan_sequences.cpp -o scan_sequences.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c shuffle_sequences.cpp -o shuffle_sequences.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c trim_motifs.cpp -o trim_motifs.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c universalmotif-class.cpp -o universalmotif-class.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils-exported.cpp -o utils-exported.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppThread/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils-internal.cpp -o utils-internal.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o universalmotif.so RcppExports.o add_multifreq.o calc_complexity.o compare_motifs.o get_bkg.o motif_finder.o motif_peaks.o motif_pvalue.o scan_sequences.o shuffle_sequences.o trim_motifs.o universalmotif-class.o utils-exported.o utils-internal.o -latomic -lpthread -L/usr/local/lib/R/lib -lR
+if test -e "/usr/bin/strip" & test -e "/bin/uname" & [[ `uname` == "Linux" ]] ; then /usr/bin/strip --strip-debug universalmotif.so; fi
+installing to /tmp/library/00LOCK-universalmotif/00new/universalmotif/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘convert_motifs’ with signature ‘motifs="MotifList"’: no definition for class “MotifList”
+in method for ‘convert_motifs’ with signature ‘motifs="TFFMFirst"’: no definition for class “TFFMFirst”
+in method for ‘convert_motifs’ with signature ‘motifs="PFMatrix"’: no definition for class “PFMatrix”
+in method for ‘convert_motifs’ with signature ‘motifs="PWMatrix"’: no definition for class “PWMatrix”
+in method for ‘convert_motifs’ with signature ‘motifs="ICMatrix"’: no definition for class “ICMatrix”
+in method for ‘convert_motifs’ with signature ‘motifs="XMatrixList"’: no definition for class “XMatrixList”
+in method for ‘convert_motifs’ with signature ‘motifs="pwm"’: no definition for class “pwm”
+in method for ‘convert_motifs’ with signature ‘motifs="pcm"’: no definition for class “pcm”
+in method for ‘convert_motifs’ with signature ‘motifs="pfm"’: no definition for class “pfm”
+in method for ‘convert_motifs’ with signature ‘motifs="PWM"’: no definition for class “PWM”
+in method for ‘convert_motifs’ with signature ‘motifs="Motif"’: no definition for class “Motif”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘universalmotif’ as ‘universalmotif_1.30.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (universalmotif)
+* installing *source* package ‘motifStack’ ...
+** this is package ‘motifStack’ version ‘1.56.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘motifStack’ as ‘motifStack_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (motifStack)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp86ENEc/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	3m21.253s
+user	2m59.067s
+sys	0m19.301s
