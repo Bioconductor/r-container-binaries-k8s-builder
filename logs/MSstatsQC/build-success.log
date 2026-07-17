@@ -1,0 +1,104 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MSstatsQC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MSstatsQC'
+also installing the dependencies ‘conf.design’, ‘partitions’, ‘DoE.base’, ‘h2o’, ‘FrF2’, ‘RforProteomics’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/conf.design_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/partitions_1.10-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DoE.base_1.2-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/h2o_3.44.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FrF2_2.3-5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RforProteomics_1.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MSstatsQC_2.30.0.tar.gz'
+* installing *binary* package ‘conf.design’ ...
+* package ‘conf.design’ successfully unpacked and SHA256 sums checked
+* ‘conf.design’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘conf.design’ as ‘conf.design_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (conf.design)
+* installing *binary* package ‘partitions’ ...
+* package ‘partitions’ successfully unpacked and SHA256 sums checked
+* ‘partitions’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘partitions’ as ‘partitions_1.10-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (partitions)
+* installing *binary* package ‘h2o’ ...
+* package ‘h2o’ successfully unpacked and SHA256 sums checked
+* ‘h2o’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘h2o’ as ‘h2o_3.44.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (h2o)
+* installing *source* package ‘RforProteomics’ ...
+** this is package ‘RforProteomics’ version ‘1.50.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘MSnbase::plot’ by ‘graphics::plot’ when loading ‘RforProteomics’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘MSnbase::plot’ by ‘graphics::plot’ when loading ‘RforProteomics’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘MSnbase::plot’ by ‘graphics::plot’ when loading ‘RforProteomics’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RforProteomics’ as ‘RforProteomics_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RforProteomics)
+* installing *binary* package ‘DoE.base’ ...
+* package ‘DoE.base’ successfully unpacked and SHA256 sums checked
+* ‘DoE.base’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DoE.base’ as ‘DoE.base_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DoE.base)
+* installing *binary* package ‘FrF2’ ...
+* package ‘FrF2’ successfully unpacked and SHA256 sums checked
+* ‘FrF2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FrF2’ as ‘FrF2_2.3-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FrF2)
+* installing *source* package ‘MSstatsQC’ ...
+** this is package ‘MSstatsQC’ version ‘2.30.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MSstatsQC’ as ‘MSstatsQC_2.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MSstatsQC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUUFNEP/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m58.291s
+user	1m40.110s
+sys	0m12.969s

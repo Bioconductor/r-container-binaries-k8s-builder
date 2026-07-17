@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2110 (88%)
+- **Successfully Built:** 2137 (89%)
 - **Failed:** 24 (1%)
-- **In Progress:** 38
-- **Not Started:** 212
+- **In Progress:** 27
+- **Not Started:** 196
 
-**Progress:** 89%
+**Progress:** 90%
 ```
-████████████████████████████████████████████░░░░░░
+█████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2110)
+## Successfully Built Packages (2137)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2060 more ...*
+*... and 2087 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [visiumStitched](https://bioconductor.org/packages/3.23/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.23/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.23/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vmrseq) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
@@ -70,6 +69,7 @@
 | [xenLite](https://bioconductor.org/packages/3.23/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
+| [yarn](https://bioconductor.org/packages/3.23/bioc/html/yarn.html) | [log](logs/yarn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yarn) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 | [zenith](https://bioconductor.org/packages/3.23/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zenith) |
@@ -105,47 +105,36 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [tLOH](https://bioconductor.org/packages/3.23/bioc/html/tLOH.html) | [log](logs/tLOH/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tLOH) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 
-## In Progress (38)
-- ⏳ `ATACseqTFEA`
+## In Progress (27)
 - ⏳ `Aerith`
-- ⏳ `BatChef`
 - ⏳ `ChIPXpress`
-- ⏳ `ChIPexoQual`
-- ⏳ `ChIPpeakAnno`
 - ⏳ `CluMSID`
-- ⏳ `DAPAR`
 - ⏳ `GRaNIE`
-- ⏳ `Gviz`
-- ⏳ `IsoformSwitchAnalyzeR`
-- ⏳ `MSstatsQC`
+- ⏳ `GenomicCoordinates`
+- ⏳ `HiContacts`
+- ⏳ `HiCool`
+- ⏳ `HiSpaR`
 - ⏳ `MungeSumstats`
-- ⏳ `RMassBank`
-- ⏳ `Rqc`
+- ⏳ `RnBeads`
 - ⏳ `SingleMoleculeFootprinting`
-- ⏳ `atSNP`
-- ⏳ `chevreulPlot`
-- ⏳ `conumee`
-- ⏳ `dagLogo`
-- ⏳ `dreamlet`
+- ⏳ `SpectralTAD`
+- ⏳ `TADCompare`
+- ⏳ `biscuiteer`
 - ⏳ `enhancerHomologSearch`
-- ⏳ `epiregulon`
-- ⏳ `gDR`
-- ⏳ `ggbio`
-- ⏳ `iSEEu`
-- ⏳ `karyoploteR`
-- ⏳ `msmsEDA`
-- ⏳ `omXplore`
-- ⏳ `pRoloc`
-- ⏳ `pageRank`
+- ⏳ `epivizr`
+- ⏳ `epivizrChart`
+- ⏳ `lumi`
+- ⏳ `missMethyl`
+- ⏳ `multiHiCcompare`
 - ⏳ `peakPantheR`
 - ⏳ `ptairMS`
-- ⏳ `qPLEXanalyzer`
-- ⏳ `ribosomeProfilingQC`
+- ⏳ `recount`
+- ⏳ `regionReport`
+- ⏳ `scHiCcompare`
 - ⏳ `topdownr`
 - ⏳ `xcms`
-- ⏳ `yarn`
 
-## Not Yet Started (212)
+## Not Yet Started (196)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -179,15 +168,11 @@
 - ⏸️ `GUIDEseq`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
-- ⏸️ `GenomicCoordinates`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCDOC`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `HiContacts`
-- ⏸️ `HiCool`
-- ⏸️ `HiSpaR`
 - ⏸️ `IPO`
 - ⏸️ `LOBSTAHS`
 - ⏸️ `LymphoSeq`
@@ -196,9 +181,13 @@
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MIRit`
+- ⏸️ `MSnID`
+- ⏸️ `MSstats`
+- ⏸️ `MSstatsBig`
+- ⏸️ `MSstatsBioNet`
 
-... and 162 more ...
+... and 146 more ...
 
 ---
-*Last updated: 2026-07-17 22:44:23 UTC*
-*Packages with verified BBS status: 210*
+*Last updated: 2026-07-17 22:45:35 UTC*
+*Packages with verified BBS status: 211*
