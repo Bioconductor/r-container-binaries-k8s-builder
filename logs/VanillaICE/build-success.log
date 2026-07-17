@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''VanillaICE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'VanillaICE'
+also installing the dependency ‘human610quadv1bCrlmm’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/human610quadv1bCrlmm_1.0.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/VanillaICE_1.75.0.tar.gz'
+* installing *source* package ‘human610quadv1bCrlmm’ ...
+** this is package ‘human610quadv1bCrlmm’ version ‘1.0.3’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Welcome to human610quadv1bCrlmm version 1.0.3
+** testing if installed package can be loaded from final location
+Welcome to human610quadv1bCrlmm version 1.0.3
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘human610quadv1bCrlmm’ as ‘human610quadv1bCrlmm_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (human610quadv1bCrlmm)
+* installing *source* package ‘VanillaICE’ ...
+** this is package ‘VanillaICE’ version ‘1.75.0’
+** package ‘VanillaICE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rinit.c -o rinit.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c viterbi.c -o viterbi.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o VanillaICE.so rinit.o viterbi.o -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-VanillaICE/00new/VanillaICE/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘oligoClasses’ for request: ‘mean’ when loading ‘crlmm’
+Creating a new generic function for ‘distance’ in package ‘VanillaICE’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘oligoClasses’ for request: ‘mean’ when loading ‘crlmm’
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+No methods found in package ‘oligoClasses’ for request: ‘mean’ when loading ‘crlmm’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VanillaICE’ as ‘VanillaICE_1.75.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VanillaICE)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp97bRTi/downloaded_packages’
+
+real	1m5.627s
+user	0m48.743s
+sys	0m7.173s
