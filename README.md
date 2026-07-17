@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1776 (75%)
+- **Successfully Built:** 1840 (78%)
 - **Failed:** 9 (0%)
-- **In Progress:** 110
-- **Not Started:** 449
+- **In Progress:** 149
+- **Not Started:** 346
 
-**Progress:** 76%
+**Progress:** 78%
 ```
-██████████████████████████████████████░░░░░░░░░░░░
+███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1776)
+## Successfully Built Packages (1840)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1726 more ...*
+*... and 1790 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [velociraptor](https://bioconductor.org/packages/3.24/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
@@ -59,6 +58,7 @@
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
+| [wavClusteR](https://bioconductor.org/packages/3.24/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavClusteR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.24/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/webbioc) |
@@ -90,9 +90,11 @@
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (110)
+## In Progress (149)
 - ⏳ `BASiCStan`
+- ⏳ `Basic4Cseq`
 - ⏳ `BindingSiteFinder`
+- ⏳ `CODEX`
 - ⏳ `CSSQ`
 - ⏳ `ChIPseeker`
 - ⏳ `CluMSID`
@@ -114,15 +116,18 @@
 - ⏳ `IVAS`
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
-- ⏳ `M3Drop`
 - ⏳ `MBECS`
 - ⏳ `MEB`
 - ⏳ `MICSQTL`
 - ⏳ `MPAC`
 - ⏳ `MatrixQCvis`
+- ⏳ `MetaboAnnotatoR`
+- ⏳ `MethylSeekR`
+- ⏳ `MicrobiomeProfiler`
+- ⏳ `MoonlightR`
+- ⏳ `MotifPeeker`
 - ⏳ `MsQuality`
-- ⏳ `NoRCE`
-- ⏳ `OrganismDbi`
+- ⏳ `OUTRIDER`
 - ⏳ `OutSplice`
 - ⏳ `PAST`
 - ⏳ `PDATK`
@@ -131,20 +136,15 @@
 - ⏳ `PostChicago`
 - ⏳ `RJMCMCNucleosomes`
 - ⏳ `RadioGx`
+- ⏳ `ReducedExperiment`
 - ⏳ `RegionalST`
-- ⏳ `Rmmquant`
+- ⏳ `RiboDiPA`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
-- ⏳ `SGSeq`
-- ⏳ `SIM`
-- ⏳ `SigCheck`
-- ⏳ `SpaNorm`
-- ⏳ `Spaniel`
-- ⏳ `SpatialExperimentIO`
 
-... and 60 more ...
+... and 99 more ...
 
-## Not Yet Started (449)
+## Not Yet Started (346)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -154,33 +154,21 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BEAT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Basic4Cseq`
 - ⏸️ `BatChef`
-- ⏸️ `BgeeCall`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CAMERA`
-- ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
-- ⏸️ `CEMiTool`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CODEX`
-- ⏸️ `CRISPRseek`
-- ⏸️ `CaMutQC`
-- ⏸️ `CeTF`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
-- ⏸️ `ChIPanalyser`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
@@ -189,15 +177,27 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
-- ⏸️ `DMRcaller`
 - ⏸️ `DMRcate`
-- ⏸️ `DOTSeq`
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
+- ⏸️ `Damsel`
+- ⏸️ `DegCre`
+- ⏸️ `DiffBind`
+- ⏸️ `DominoEffect`
+- ⏸️ `DrugVsDisease`
+- ⏸️ `DuplexDiscovereR`
+- ⏸️ `ENmix`
+- ⏸️ `EpiCompare`
+- ⏸️ `EventPointer`
+- ⏸️ `ExperimentHubData`
+- ⏸️ `FLAMES`
+- ⏸️ `FRASER`
+- ⏸️ `G4SNVHunter`
+- ⏸️ `GA4GHclient`
 
-... and 399 more ...
+... and 296 more ...
 
 ---
-*Last updated: 2026-07-17 21:54:28 UTC*
-*Packages with verified BBS status: 146*
+*Last updated: 2026-07-17 21:58:20 UTC*
+*Packages with verified BBS status: 147*

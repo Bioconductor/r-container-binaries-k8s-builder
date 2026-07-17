@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''M3Drop'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'M3Drop'
+also installing the dependency ‘M3DExampleData’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/M3DExampleData_1.39.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/M3Drop_1.39.0.tar.gz'
+* installing *source* package ‘M3DExampleData’ ...
+** this is package ‘M3DExampleData’ version ‘1.39.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘M3DExampleData’ as ‘M3DExampleData_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (M3DExampleData)
+* installing *source* package ‘M3Drop’ ...
+** this is package ‘M3Drop’ version ‘1.39.0’
+** package ‘M3Drop’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘M3Drop’ as ‘M3Drop_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (M3Drop)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKvlzqU/downloaded_packages’
+
+real	0m34.670s
+user	0m24.450s
+sys	0m5.833s

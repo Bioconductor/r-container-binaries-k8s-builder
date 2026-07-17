@@ -1,0 +1,105 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SpliceWiz'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SpliceWiz'
+also installing the dependencies ‘fstcore’, ‘NxtIRFdata’, ‘fst’, ‘DoubleExpSeq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fstcore_0.10.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/NxtIRFdata_1.19.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fst_0.9.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DoubleExpSeq_1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SpliceWiz_1.15.0.tar.gz'
+* installing *binary* package ‘fstcore’ ...
+* package ‘fstcore’ successfully unpacked and SHA256 sums checked
+* ‘fstcore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fstcore’ as ‘fstcore_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fstcore)
+* installing *source* package ‘NxtIRFdata’ ...
+** this is package ‘NxtIRFdata’ version ‘1.19.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NxtIRFdata’ as ‘NxtIRFdata_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NxtIRFdata)
+* installing *binary* package ‘DoubleExpSeq’ ...
+* package ‘DoubleExpSeq’ successfully unpacked and SHA256 sums checked
+* ‘DoubleExpSeq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DoubleExpSeq’ as ‘DoubleExpSeq_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DoubleExpSeq)
+* installing *binary* package ‘fst’ ...
+* package ‘fst’ successfully unpacked and SHA256 sums checked
+* ‘fst’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fst’ as ‘fst_0.9.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fst)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘SpliceWiz’ ...
+** this is package ‘SpliceWiz’ version ‘1.15.0’
+** package ‘SpliceWiz’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c BAM2blocks.cpp -o BAM2blocks.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c FastaReader.cpp -o FastaReader.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c FragmentBlocks.cpp -o FragmentBlocks.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GZTools.cpp -o GZTools.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ReadBlockProcessor.cpp -o ReadBlockProcessor.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ReadBlockProcessor_CoverageBlocks.cpp -o ReadBlockProcessor_CoverageBlocks.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ReadBlockProcessor_FragmentsMap.cpp -o ReadBlockProcessor_FragmentsMap.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ReadBlockProcessor_TandemJunctions.cpp -o ReadBlockProcessor_TandemJunctions.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c covTools.cpp -o covTools.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c main.cpp -o main.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c swEngine.cpp -o swEngine.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/ompBAM/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp -DSPLICEWIZ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c synthReadGenerator.cpp -o synthReadGenerator.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SpliceWiz.so BAM2blocks.o FastaReader.o FragmentBlocks.o GZTools.o RcppExports.o ReadBlockProcessor.o ReadBlockProcessor_CoverageBlocks.o ReadBlockProcessor_FragmentsMap.o ReadBlockProcessor_TandemJunctions.o covTools.o main.o swEngine.o synthReadGenerator.o -fopenmp -DSPLICEWIZ -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SpliceWiz/00new/SpliceWiz/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead.
+ℹ The deprecated feature was likely used in the SpliceWiz package.
+  Please report the issue at <https://support.bioconductor.org/>.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpliceWiz’ as ‘SpliceWiz_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpliceWiz)
+
+The downloaded source packages are in
+	‘/tmp/RtmpoCh6MA/downloaded_packages’
+
+real	2m10.191s
+user	1m44.521s
+sys	0m13.287s
