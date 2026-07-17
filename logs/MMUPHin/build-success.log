@@ -1,0 +1,86 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MMUPHin'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MMUPHin'
+also installing the dependencies ‘metadat’, ‘mathjaxr’, ‘metafor’, ‘curatedMetagenomicData’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metadat_1.6-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mathjaxr_2.0-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metafor_5.0-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/curatedMetagenomicData_3.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MMUPHin_2.0.0.tar.gz'
+* installing *binary* package ‘mathjaxr’ ...
+* package ‘mathjaxr’ successfully unpacked and SHA256 sums checked
+* ‘mathjaxr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mathjaxr’ as ‘mathjaxr_2.0-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mathjaxr)
+* installing *source* package ‘curatedMetagenomicData’ ...
+** this is package ‘curatedMetagenomicData’ version ‘3.20.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘curatedMetagenomicData’ as ‘curatedMetagenomicData_3.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (curatedMetagenomicData)
+* installing *binary* package ‘metadat’ ...
+* package ‘metadat’ successfully unpacked and SHA256 sums checked
+* ‘metadat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metadat’ as ‘metadat_1.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metadat)
+* installing *binary* package ‘metafor’ ...
+* package ‘metafor’ successfully unpacked and SHA256 sums checked
+* ‘metafor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metafor’ as ‘metafor_5.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metafor)
+* installing *source* package ‘MMUPHin’ ...
+** this is package ‘MMUPHin’ version ‘2.0.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MMUPHin’ as ‘MMUPHin_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MMUPHin)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWPI1IL/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m1.093s
+user	0m49.482s
+sys	0m7.885s

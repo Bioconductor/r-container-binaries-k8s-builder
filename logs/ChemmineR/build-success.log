@@ -1,0 +1,642 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ChemmineR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ChemmineR'
+also installing the dependencies ‘rsvg’, ‘fmcsR’, ‘RPostgreSQL’, ‘knitrBootstrap’, ‘ChemmineDrugs’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rsvg_2.7.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/fmcsR_1.54.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RPostgreSQL_0.7-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/knitrBootstrap_1.0.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/ChemmineDrugs_1.0.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ChemmineR_3.64.0.tar.gz'
+* installing *binary* package ‘rsvg’ ...
+* package ‘rsvg’ successfully unpacked and SHA256 sums checked
+* ‘rsvg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rsvg’ as ‘rsvg_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsvg)
+* installing *source* package ‘RPostgreSQL’ ...
+** this is package ‘RPostgreSQL’ version ‘0.7-8’
+** package ‘RPostgreSQL’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for pg_config... /usr/bin/pg_config
+PG_CONFIG_BINDIR = /usr/lib/postgresql/16/bin
+PG_CONFIG_DOCDIR = /usr/share/doc/postgresql-doc-16
+PG_CONFIG_HTMLDIR = /usr/share/doc/postgresql-doc-16
+PG_CONFIG_INCLUDEDIR = /usr/include/postgresql
+PG_CONFIG_PKGINCLUDEDIR = /usr/include/postgresql
+PG_CONFIG_INCLUDEDIR-SERVER = /usr/include/postgresql/16/server
+PG_CONFIG_LIBDIR = /usr/lib/x86_64-linux-gnu
+PG_CONFIG_PKGLIBDIR = /usr/lib/postgresql/16/lib
+PG_CONFIG_LOCALEDIR = /usr/share/locale
+PG_CONFIG_MANDIR = /usr/share/postgresql/16/man
+PG_CONFIG_SHAREDIR = /usr/share/postgresql/16
+PG_CONFIG_SYSCONFDIR = /etc/postgresql-common
+PG_CONFIG_PGXS = /usr/lib/postgresql/16/lib/pgxs/src/makefiles/pgxs.mk
+PG_CONFIG_CONFIGURE =  '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-option-checking' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--with-tcl' '--with-perl' '--with-python' '--with-pam' '--with-openssl' '--with-libxml' '--with-libxslt' '--mandir=/usr/share/postgresql/16/man' '--docdir=/usr/share/doc/postgresql-doc-16' '--sysconfdir=/etc/postgresql-common' '--datarootdir=/usr/share/' '--datadir=/usr/share/postgresql/16' '--bindir=/usr/lib/postgresql/16/bin' '--libdir=/usr/lib/x86_64-linux-gnu/' '--libexecdir=/usr/lib/postgresql/' '--includedir=/usr/include/postgresql/' '--with-extra-version= (Ubuntu 16.14-0ubuntu0.24.04.1)' '--enable-nls' '--enable-thread-safety' '--enable-debug' '--enable-dtrace' '--disable-rpath' '--with-uuid=e2fs' '--with-gnu-ld' '--with-gssapi' '--with-ldap' '--with-pgport=5432' '--with-system-tzdata=/usr/share/zoneinfo' 'AWK=mawk' 'MKDIR_P=/bin/mkdir -p' 'PROVE=/usr/bin/prove' 'PYTHON=/usr/bin/python3' 'TAR=/bin/tar' 'XSLTPROC=xsltproc --nonet' 'CFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection cflwarnformat cflwarnerror=format-security -fcf-protection -fno-omit-frame-pointer' 'LDFLAGS=cflwarnl,-Bsymbolic-functions -flto=auto -ffat-lto-objects cflwarnl,-z,relro cflwarnl,-z,now' '--enable-tap-tests' '--with-icu' '--with-llvm' 'LLVM_CONFIG=/usr/bin/llvm-config-17' 'CLANG=/usr/bin/clang-17' '--with-lz4' '--with-zstd' '--with-systemd' '--with-selinux' 'build_alias=x86_64-linux-gnu' 'CPPFLAGS=cflwarndate-time -D_FORTIFY_SOURCE=3' 'CXXFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection cflwarnformat cflwarnerror=format-security -fcf-protection'
+PG_CONFIG_CC = gcc
+PG_CONFIG_CPPFLAGS = cflwarndate-time -D_FORTIFY_SOURCE=3 -D_GNU_SOURCE -I/usr/include/libxml2
+PG_CONFIG_CFLAGS = cflwarnall cflwarnmissing-prototypes cflwarnpointer-arith cflwarndeclaration-after-statement cflwarnerror=vla cflwarnendif-labels cflwarnmissing-format-attribute cflwarnimplicit-fallthrough=3 cflwarncast-function-type cflwarnshadow=compatible-local cflwarnformat-security -fno-strict-aliasing -fwrapv -fexcess-precision=standard cflwarnno-format-truncation cflwarnno-stringop-truncation -g -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection cflwarnformat cflwarnerror=format-security -fcf-protection -fno-omit-frame-pointer
+PG_CONFIG_CFLAGS_SL = -fPIC
+PG_CONFIG_LDFLAGS = cflwarnl,-Bsymbolic-functions -flto=auto -ffat-lto-objects cflwarnl,-z,relro cflwarnl,-z,now cflwarnl,--as-needed
+PG_CONFIG_LDFLAGS_EX = 
+PG_CONFIG_LDFLAGS_SL = 
+PG_CONFIG_LIBS = -lpgcommon -lpgport -lselinux -lzstd -llz4 -lxslt -lxml2 -lpam -lssl -lcrypto -lgssapi_krb5 -lz -lreadline -lm 
+PG_CONFIG_VERSION = PostgreSQL 16.14 (Ubuntu 16.14-0ubuntu0.24.04.1)
+configure: checking for PostgreSQL header files
+/usr/lib/x86_64-linux-gnu
+/usr/include/postgresql
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -I/usr/include/postgresql -L/usr/lib/x86_64-linux-gnu conftest.c -lpq -o pqconftest
+./pqconftest
+160014...runs fine
+checking for "/usr/include/postgresql/libpq-fe.h"... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/postgresql  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RS-DBI.c -o RS-DBI.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/postgresql  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RS-PQescape.c -o RS-PQescape.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/postgresql  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RS-PostgreSQL.c -o RS-PostgreSQL.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/postgresql  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-copy.c -o RS-pgsql-copy.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/postgresql  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-getResult.c -o RS-pgsql-getResult.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/postgresql  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-pqexec.c -o RS-pgsql-pqexec.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/postgresql  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RS-pgsql-pqexecparams.c -o RS-pgsql-pqexecparams.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RPostgreSQL.so RS-DBI.o RS-PQescape.o RS-PostgreSQL.o RS-pgsql-copy.o RS-pgsql-getResult.o RS-pgsql-pqexec.o RS-pgsql-pqexecparams.o -L/usr/lib/x86_64-linux-gnu -lpq -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-RPostgreSQL/00new/RPostgreSQL/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RPostgreSQL’ as ‘RPostgreSQL_0.7-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RPostgreSQL)
+* installing *binary* package ‘knitrBootstrap’ ...
+* package ‘knitrBootstrap’ successfully unpacked and SHA256 sums checked
+* ‘knitrBootstrap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘knitrBootstrap’ as ‘knitrBootstrap_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (knitrBootstrap)
+* installing *source* package ‘ChemmineR’ ...
+** this is package ‘ChemmineR’ version ‘3.64.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c DisjointSets.cpp -o DisjointSets.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cluster.cc -o cluster.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cstrsplit.cc -o cstrsplit.o
+In file included from /mnt/library/BH/include/boost/bind/mem_fn.hpp:23,
+                 from /mnt/library/BH/include/boost/mem_fn.hpp:22,
+                 from /mnt/library/BH/include/boost/function/function_template.hpp:16,
+                 from /mnt/library/BH/include/boost/function.hpp:16,
+                 from /mnt/library/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /mnt/library/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /mnt/library/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /mnt/library/BH/include/boost/algorithm/string.hpp:23,
+                 from cstrsplit.cc:7:
+/mnt/library/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   48 | template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+      |                                        ^~~~~~~~
+In file included from /usr/include/c++/13/memory:78,
+                 from /mnt/library/BH/include/boost/iterator/iterator_facade.hpp:11,
+                 from /mnt/library/BH/include/boost/range/iterator_range_core.hpp:27,
+                 from /mnt/library/BH/include/boost/range/iterator_range.hpp:13,
+                 from /mnt/library/BH/include/boost/range/as_literal.hpp:18,
+                 from /mnt/library/BH/include/boost/algorithm/string/trim.hpp:19,
+                 from /mnt/library/BH/include/boost/algorithm/string.hpp:19:
+/usr/include/c++/13/bits/unique_ptr.h:65:28: note: declared here
+   65 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /mnt/library/BH/include/boost/concept/assert.hpp:35,
+                 from /mnt/library/BH/include/boost/concept_check.hpp:20,
+                 from /mnt/library/BH/include/boost/range/concepts.hpp:19,
+                 from /mnt/library/BH/include/boost/range/size_type.hpp:20,
+                 from /mnt/library/BH/include/boost/range/size.hpp:21,
+                 from /mnt/library/BH/include/boost/range/functions.hpp:20,
+                 from /mnt/library/BH/include/boost/range/iterator_range_core.hpp:41:
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::constraint<Model>::failed() [with Model = boost::algorithm::FinderConcept<boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char> >, const char*>]’:
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:81:13:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:65:52: warning: ‘this’ pointer is null [-Wnonnull]
+   65 |     static void failed() { ((Model*)0)->constraints(); }
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:26:
+/mnt/library/BH/include/boost/algorithm/string/concept.hpp:40:18: note: in a call to non-static member function ‘void boost::algorithm::FinderConcept<FinderT, IteratorT>::constraints() [with FinderT = boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char> >; IteratorT = const char*]’
+   40 |             void constraints()
+      |                  ^~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::CopyConstructible<const char*> >]’:
+/mnt/library/BH/include/boost/concept_check.hpp:167:5:   required from ‘struct boost::CopyConstructible<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:127:16:   required from ‘struct boost::range_detail::IncrementableIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:149:16:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   [ skipping 14 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+In file included from /mnt/library/BH/include/boost/concept_check.hpp:31:
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::CopyConstructible<const char*>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag> >]’:
+/mnt/library/BH/include/boost/concept_check.hpp:208:5:   required from ‘struct boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>)>’
+/mnt/library/BH/include/boost/iterator/iterator_concepts.hpp:106:7:   [ skipping 18 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>]’:
+/mnt/library/BH/include/boost/iterator/iterator_concepts.hpp:106:7:   required from ‘struct boost::range_detail::IncrementableIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:149:16:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   [ skipping 13 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::Convertible<X, Y>::~Convertible() [with X = boost::iterators::random_access_traversal_tag; Y = boost::iterators::incrementable_traversal_tag]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:208:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  208 |     BOOST_CONCEPT_USAGE(Convertible) {
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::range_detail::IncrementableIteratorConcept<const char*> >]’:
+/mnt/library/BH/include/boost/range/concepts.hpp:138:13:   required from ‘struct boost::range_detail::IncrementableIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:149:16:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   [ skipping 13 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::range_detail::IncrementableIteratorConcept<const char*>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::EqualityComparable<const char*> >]’:
+/mnt/library/BH/include/boost/concept_check.hpp:233:5:   required from ‘struct boost::EqualityComparable<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:149:16:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   [ skipping 13 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::EqualityComparable<const char*>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag> >]’:
+/mnt/library/BH/include/boost/concept_check.hpp:208:5:   required from ‘struct boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>)>’
+/mnt/library/BH/include/boost/range/concepts.hpp:154:13:   [ skipping 17 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>]’:
+/mnt/library/BH/include/boost/range/concepts.hpp:154:13:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::range_detail::SinglePassIteratorConcept<const char*>)>’
+/mnt/library/BH/include/boost/range/concepts.hpp:280:9:   [ skipping 12 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::Convertible<X, Y>::~Convertible() [with X = boost::iterators::random_access_traversal_tag; Y = boost::iterators::single_pass_traversal_tag]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:208:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  208 |     BOOST_CONCEPT_USAGE(Convertible) {
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::range_detail::SinglePassIteratorConcept<const char*> >]’:
+/mnt/library/BH/include/boost/range/concepts.hpp:160:13:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::range_detail::SinglePassIteratorConcept<const char*>)>’
+/mnt/library/BH/include/boost/range/concepts.hpp:280:9:   [ skipping 12 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’:
+/mnt/library/BH/include/boost/range/concepts.hpp:280:9:   required from ‘struct boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >)>’
+/mnt/library/BH/include/boost/range/algorithm/equal.hpp:174:13:   [ skipping 7 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::range_detail::SinglePassIteratorConcept<Iterator>::~SinglePassIteratorConcept() [with Iterator = const char*]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/range/concepts.hpp:160:13: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  160 |             BOOST_CONCEPT_USAGE(SinglePassIteratorConcept)
+      |             ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >]’:
+/mnt/library/BH/include/boost/range/concepts.hpp:286:9:   required from ‘struct boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >)>’
+/mnt/library/BH/include/boost/range/algorithm/equal.hpp:174:13:   [ skipping 7 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >]’:
+/mnt/library/BH/include/boost/range/algorithm/equal.hpp:174:13:   required from ‘bool boost::range::equal(const SinglePassRange1&, const SinglePassRange2&) [with SinglePassRange1 = boost::iterator_range<const char*>; SinglePassRange2 = boost::iterator_range<const char*>]’
+/mnt/library/BH/include/boost/range/iterator_range_core.hpp:647:32:   required from ‘bool boost::operator==(const iterator_range<IteratorT>&, const iterator_range<Iterator2T>&) [with Iterator1T = const char*; Iterator2T = const char*]’
+/mnt/library/BH/include/boost/algorithm/string/find_iterator.hpp:359:32:   required from ‘bool boost::algorithm::split_iterator<IteratorT>::equal(const boost::algorithm::split_iterator<IteratorT>&) const [with IteratorT = const char*]’
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:518:24:   required from ‘static bool boost::iterators::iterator_core_access::equal(const Facade1&, const Facade2&, std::true_type) [with Facade1 = boost::algorithm::split_iterator<const char*>; Facade2 = boost::algorithm::split_iterator<const char*>; std::true_type = std::integral_constant<bool, true>]’
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:823:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator==(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = boost::algorithm::split_iterator<const char*>; V1 = const boost::iterator_range<const char*>; TC1 = forward_traversal_tag; Reference1 = const boost::iterator_range<const char*>&; Difference1 = long int; Derived2 = boost::algorithm::split_iterator<const char*>; V2 = const boost::iterator_range<const char*>; TC2 = forward_traversal_tag; Reference2 = const boost::iterator_range<const char*>&; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/mnt/library/BH/include/boost/iterator/iterator_adaptor.hpp:166:27:   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::SinglePassRangeConcept<T>::~SinglePassRangeConcept() [with T = const boost::iterator_range<const char*>]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/range/concepts.hpp:286:9: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  286 |         BOOST_CONCEPT_USAGE(SinglePassRangeConcept)
+      |         ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::CopyConstructible<const char*>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::CopyConstructible<const char*> >]’
+/mnt/library/BH/include/boost/concept_check.hpp:167:5:   required from ‘struct boost::CopyConstructible<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:127:16:   required from ‘struct boost::range_detail::IncrementableIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:149:16:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   [ skipping 15 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::CopyConstructible<TT>::~CopyConstructible() [with TT = const char*]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:167:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  167 |     BOOST_CONCEPT_USAGE(CopyConstructible) {
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag> >]’
+/mnt/library/BH/include/boost/concept_check.hpp:208:5:   required from ‘struct boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::incrementable_traversal_tag> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   [ skipping 19 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::Convertible<X, Y>::~Convertible() [with X = boost::iterators::random_access_traversal_tag; Y = boost::iterators::incrementable_traversal_tag]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:208:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  208 |     BOOST_CONCEPT_USAGE(Convertible) {
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::range_detail::IncrementableIteratorConcept<const char*>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::range_detail::IncrementableIteratorConcept<const char*> >]’
+/mnt/library/BH/include/boost/range/concepts.hpp:138:13:   required from ‘struct boost::range_detail::IncrementableIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:149:16:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   [ skipping 14 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::range_detail::IncrementableIteratorConcept<Iterator>::~IncrementableIteratorConcept() [with Iterator = const char*]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/range/concepts.hpp:138:13: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  138 |             BOOST_CONCEPT_USAGE(IncrementableIteratorConcept)
+      |             ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::EqualityComparable<const char*>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::EqualityComparable<const char*> >]’
+/mnt/library/BH/include/boost/concept_check.hpp:233:5:   required from ‘struct boost::EqualityComparable<const char*>’
+/mnt/library/BH/include/boost/range/concepts.hpp:149:16:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   [ skipping 14 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::EqualityComparable<TT>::~EqualityComparable() [with TT = const char*]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:233:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  233 |     BOOST_CONCEPT_USAGE(EqualityComparable) {
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag> >]’
+/mnt/library/BH/include/boost/concept_check.hpp:208:5:   required from ‘struct boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::Convertible<boost::iterators::random_access_traversal_tag, boost::iterators::single_pass_traversal_tag> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   [ skipping 18 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::Convertible<X, Y>::~Convertible() [with X = boost::iterators::random_access_traversal_tag; Y = boost::iterators::single_pass_traversal_tag]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:208:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  208 |     BOOST_CONCEPT_USAGE(Convertible) {
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::range_detail::SinglePassIteratorConcept<const char*> >]’
+/mnt/library/BH/include/boost/range/concepts.hpp:160:13:   required from ‘struct boost::range_detail::SinglePassIteratorConcept<const char*>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::range_detail::SinglePassIteratorConcept<const char*>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::range_detail::SinglePassIteratorConcept<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   [ skipping 13 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::range_detail::SinglePassIteratorConcept<Iterator>::~SinglePassIteratorConcept() [with Iterator = const char*]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/range/concepts.hpp:160:13: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  160 |             BOOST_CONCEPT_USAGE(SinglePassIteratorConcept)
+      |             ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >]’
+/mnt/library/BH/include/boost/range/concepts.hpp:286:9:   required from ‘struct boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::SinglePassRangeConcept<const boost::iterator_range<const char*> >]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::SinglePassRangeConcept<const boost::iterator_range<const char*> > >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   [ skipping 8 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/iterator/iterator_facade.hpp:824:1:   required from ‘typename boost::iterators::detail::enable_if_interoperable<Derived1, Derived2, boost::iterators::detail::always_bool_t<Derived1, Derived2> >::type boost::iterators::operator!=(const iterator_facade<Derived1, V1, TC1, Reference1, Difference1>&, const iterator_facade<Derived2, V2, TC2, Reference2, Difference2>&) [with Derived1 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V1 = std::__cxx11::basic_string<char>; TC1 = forward_traversal_tag; Reference1 = std::__cxx11::basic_string<char>; Difference1 = long int; Derived2 = transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; V2 = std::__cxx11::basic_string<char>; TC2 = forward_traversal_tag; Reference2 = std::__cxx11::basic_string<char>; Difference2 = long int; typename detail::enable_if_interoperable<Derived1, Derived2, detail::always_bool_t<Derived1, Derived2> >::type = bool; detail::always_bool_t<Derived1, Derived2> = bool]’
+/usr/include/c++/13/bits/stl_vector.h:1671:21:   required from ‘constexpr void std::vector<_Tp, _Alloc>::_M_range_initialize(_InputIterator, _InputIterator, std::input_iterator_tag) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >]’
+/usr/include/c++/13/bits/stl_vector.h:711:23:   required from ‘constexpr std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = boost::iterators::transform_iterator<boost::algorithm::detail::copy_iterator_rangeF<std::__cxx11::basic_string<char>, const char*>, boost::algorithm::split_iterator<const char*>, boost::use_default, boost::use_default>; <template-parameter-2-2> = void; _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; allocator_type = std::allocator<std::__cxx11::basic_string<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/iter_find.hpp:186:31:   required from ‘SequenceSequenceT& boost::algorithm::iter_split(SequenceSequenceT&, RangeT&&, FinderT) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; FinderT = detail::token_finderF<detail::is_any_ofF<char> >]’
+/mnt/library/BH/include/boost/algorithm/string/split.hpp:158:50:   required from ‘SequenceSequenceT& boost::algorithm::split(SequenceSequenceT&, RangeT&&, PredicateT, token_compress_mode_type) [with SequenceSequenceT = std::vector<std::__cxx11::basic_string<char> >; RangeT = const char*&; PredicateT = detail::is_any_ofF<char>]’
+cstrsplit.cc:14:15:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::SinglePassRangeConcept<T>::~SinglePassRangeConcept() [with T = const boost::iterator_range<const char*>]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/range/concepts.hpp:286:9: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  286 |         BOOST_CONCEPT_USAGE(SinglePassRangeConcept)
+      |         ^~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c desc.cc -o desc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fingerprints.cc -o fingerprints.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c formats.cc -o formats.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c molecule.cc -o molecule.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c r_wrap.cc -o r_wrap.o
+r_wrap.cc:758: warning: "R_NO_REMAP" redefined
+  758 | # define R_NO_REMAP
+      | 
+<command-line>: note: this is the location of the previous definition
+r_wrap.cc:761: warning: "STRICT_R_HEADERS" redefined
+  761 | # define STRICT_R_HEADERS
+      | 
+<command-line>: note: this is the location of the previous definition
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c script.cc -o script.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c similarity.cc -o similarity.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ChemmineR.so DisjointSets.o cluster.o cstrsplit.o desc.o fingerprints.o formats.o molecule.o r_wrap.o script.o similarity.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ChemmineR/00new/ChemmineR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChemmineR’ as ‘ChemmineR_3.64.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemmineR)
+* installing *source* package ‘fmcsR’ ...
+** this is package ‘fmcsR’ version ‘1.54.0’
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking for gcc... gcc -std=gnu2x
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -std=gnu2x -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... yes
+checking for inline... inline
+checking for size_t... yes
+checking for alarm... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating config.h
+config.status: config.h is unchanged
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MCS.cpp -o MCS.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MCSCompound.cpp -o MCSCompound.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MCSMap.cpp -o MCSMap.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MCSRingDetector.cpp -o MCSRingDetector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fmcs_R_wrap.cpp -o fmcs_R_wrap.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c util.cpp -o util.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fmcsR.so MCS.o MCSCompound.o MCSMap.o MCSRingDetector.o fmcs_R_wrap.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-fmcsR/00new/fmcsR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fmcsR’ as ‘fmcsR_1.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fmcsR)
+* installing *source* package ‘ChemmineDrugs’ ...
+** this is package ‘ChemmineDrugs’ version ‘1.0.2’
+** using staged installation
+unzipping drugbank.db.gz if it exists
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChemmineDrugs’ as ‘ChemmineDrugs_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemmineDrugs)
+
+The downloaded source packages are in
+	‘/tmp/RtmpnesG6y/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m8.780s
+user	0m55.806s
+sys	0m12.263s
