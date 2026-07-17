@@ -1,0 +1,43 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pairedGSEA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pairedGSEA'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/pairedGSEA_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 580277 bytes (566 KB)
+==================================================
+downloaded 566 KB
+
+* installing *source* package ‘pairedGSEA’ ...
+** this is package ‘pairedGSEA’ version ‘1.13.0’
+** package ‘pairedGSEA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pairedGSEA’ as ‘pairedGSEA_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pairedGSEA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7Q0cWm/downloaded_packages’
+
+real	1m1.135s
+user	0m35.493s
+sys	0m6.225s

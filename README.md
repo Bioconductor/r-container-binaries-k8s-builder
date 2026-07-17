@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1731 (73%)
+- **Successfully Built:** 1745 (74%)
 - **Failed:** 9 (0%)
-- **In Progress:** 104
-- **Not Started:** 500
+- **In Progress:** 103
+- **Not Started:** 487
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1731)
+## Successfully Built Packages (1745)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1681 more ...*
+*... and 1695 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,19 +90,18 @@
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (104)
+## In Progress (103)
 - ⏳ `BASiCStan`
 - ⏳ `BSgenome`
-- ⏳ `ChromSCape`
+- ⏳ `CluMSID`
+- ⏳ `DAPAR`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DeMixT`
 - ⏳ `Dino`
 - ⏳ `EGSEA`
 - ⏳ `ExCluster`
-- ⏳ `FEAST`
 - ⏳ `GOstats`
-- ⏳ `GenomicFeatures`
 - ⏳ `GlobalAncova`
 - ⏳ `HiCPotts`
 - ⏳ `HiTC`
@@ -113,6 +112,7 @@
 - ⏳ `MEB`
 - ⏳ `MICSQTL`
 - ⏳ `MPAC`
+- ⏳ `MSstatsQC`
 - ⏳ `MatrixQCvis`
 - ⏳ `MsQuality`
 - ⏳ `PAST`
@@ -120,7 +120,9 @@
 - ⏳ `POMA`
 - ⏳ `PROPS`
 - ⏳ `PostChicago`
+- ⏳ `PrInCE`
 - ⏳ `RJMCMCNucleosomes`
+- ⏳ `RMassBank`
 - ⏳ `RadioGx`
 - ⏳ `Rbec`
 - ⏳ `RegionalST`
@@ -133,18 +135,16 @@
 - ⏳ `SpatialExperimentIO`
 - ⏳ `SpliceImpactR`
 - ⏳ `TBSignatureProfiler`
-- ⏳ `Voyager`
 - ⏳ `XDE`
 - ⏳ `XeniumIO`
-- ⏳ `Xeva`
 - ⏳ `a4`
 - ⏳ `airpart`
 - ⏳ `alabaster.sfe`
 - ⏳ `benchdamic`
 
-... and 54 more ...
+... and 53 more ...
 
-## Not Yet Started (500)
+## Not Yet Started (487)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -189,15 +189,15 @@
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `ClonalSim`
-- ⏸️ `CluMSID`
 - ⏸️ `Cogito`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
-- ⏸️ `DAPAR`
 - ⏸️ `DEScan2`
+- ⏸️ `DMRcaller`
+- ⏸️ `DMRcate`
 
-... and 450 more ...
+... and 437 more ...
 
 ---
-*Last updated: 2026-07-17 21:50:38 UTC*
+*Last updated: 2026-07-17 21:52:25 UTC*
 *Packages with verified BBS status: 145*

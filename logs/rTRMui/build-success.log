@@ -1,0 +1,44 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rTRMui'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rTRMui'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rTRMui_1.51.0.tar.gz'
+Content type 'application/x-gzip' length 1164681 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+* installing *source* package ‘rTRMui’ ...
+** this is package ‘rTRMui’ version ‘1.51.0’
+** package ‘rTRMui’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package can be loaded from final location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rTRMui’ as ‘rTRMui_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rTRMui)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpc5QLmv/downloaded_packages’
+
+real	1m19.483s
+user	0m50.768s
+sys	0m7.072s
