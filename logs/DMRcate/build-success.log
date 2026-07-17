@@ -1,0 +1,87 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DMRcate'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DMRcate'
+also installing the dependencies ‘tissueTreg’, ‘DMRcatedata’, ‘EPICv2manifest’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/tissueTreg_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/DMRcatedata_2.31.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/EPICv2manifest_0.99.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DMRcate_3.9.0.tar.gz'
+* installing *source* package ‘tissueTreg’ ...
+** this is package ‘tissueTreg’ version ‘1.33.0’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tissueTreg’ as ‘tissueTreg_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tissueTreg)
+* installing *source* package ‘DMRcatedata’ ...
+** this is package ‘DMRcatedata’ version ‘2.31.0’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DMRcatedata’ as ‘DMRcatedata_2.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DMRcatedata)
+* installing *source* package ‘EPICv2manifest’ ...
+** this is package ‘EPICv2manifest’ version ‘0.99.7’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EPICv2manifest’ as ‘EPICv2manifest_0.99.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EPICv2manifest)
+* installing *source* package ‘DMRcate’ ...
+** this is package ‘DMRcate’ version ‘3.9.0’
+** package ‘DMRcate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DMRcate’ as ‘DMRcate_3.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DMRcate)
+
+The downloaded source packages are in
+	‘/tmp/Rtmphcw0JP/downloaded_packages’
+
+real	2m23.928s
+user	1m46.067s
+sys	0m14.579s
