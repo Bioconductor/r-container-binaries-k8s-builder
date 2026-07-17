@@ -8,8 +8,8 @@
 - **Total Packages:** 2344
 - **Successfully Built:** 222 (9%)
 - **Failed:** 0 (0%)
-- **In Progress:** 172
-- **Not Started:** 1950
+- **In Progress:** 174
+- **Not Started:** 1948
 
 **Progress:** 9%
 ```
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (172)
+## In Progress (174)
 - ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
@@ -84,6 +84,7 @@
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocParallel`
+- ⏳ `CIMICE`
 - ⏳ `CNAnorm`
 - ⏳ `Chicago`
 - ⏳ `DEGseq`
@@ -126,11 +127,10 @@
 - ⏳ `MassArray`
 - ⏳ `MassSpecWavelet`
 - ⏳ `MatrixGenerics`
-- ⏳ `Mergeomics`
 
-... and 122 more ...
+... and 124 more ...
 
-## Not Yet Started (1950)
+## Not Yet Started (1948)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -182,8 +182,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BEclear`
 
-... and 1900 more ...
+... and 1898 more ...
 
 ---
-*Last updated: 2026-07-17 20:22:19 UTC*
+*Last updated: 2026-07-17 20:23:54 UTC*
 *Packages with verified BBS status: 58*
