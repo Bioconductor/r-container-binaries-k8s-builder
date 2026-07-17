@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       stop_confirmed:
-        description: "Confirm stop workflow has been run and all build jobs are quiesced"
+        description: "Confirm Stop Build Jobs workflow has been run and all build jobs are quiesced"
         required: true
         default: "false"
         type: choice
@@ -19,8 +19,8 @@ jobs:
       - name: Validate stop confirmation
         run: |
           if [[ "${{ inputs.stop_confirmed }}" != "true" ]]; then
-            echo "stop_confirmed must be set to 'true' (select it from the dropdown) before finishing cycle."
-            echo "Run the 'Stop Build Cycle' workflow first, then rerun this workflow with stop_confirmed=true."
+            echo "stop_confirmed must be set to 'true' before finishing cycle."
+            echo "Run the 'Stop Build Jobs' workflow first to quiesce all build jobs, then rerun this workflow with stop_confirmed=true."
             exit 1
           fi
 
@@ -68,8 +68,12 @@ jobs:
           # Extract build ID from branch name
           BRANCH_NAME=${GITHUB_REF#refs/heads/}
           BUILD_ID=$(echo "${BRANCH_NAME}" | sed 's|build/||' | tr '/' '-')
+          BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-')
+          NAMESPACE="ns-${BUILD_ID_CLEAN}"
           echo "build_id=${BUILD_ID}" >> $GITHUB_OUTPUT
+          echo "namespace=${NAMESPACE}" >> $GITHUB_OUTPUT
           echo "Using Build ID: ${BUILD_ID}"
+          echo "Using Namespace: ${NAMESPACE}"
 
       - name: Finish Build Cycle
         env:
@@ -108,17 +112,7 @@ jobs:
           echo "Using packages URL: ${OLD_PACKAGES_URL}"
           
           # Calculate namespace with full timestamp
-          BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-')
-          NAMESPACE="ns-${BUILD_ID_CLEAN}"
-          
-          # Check for running jobs before finishing
-          RUNNING_JOBS=$(kubectl get jobs -n "${NAMESPACE}" -l app=bioc-builder -o name 2>/dev/null | wc -l || echo "0")
-          
-          if [[ "${RUNNING_JOBS}" != "0" ]]; then
-            echo "Error: ${RUNNING_JOBS} jobs are still running in ${NAMESPACE}."
-            echo "Run the 'Stop Build Cycle' workflow first to quiesce all jobs, then rerun this workflow."
-            exit 1
-          fi
+          NAMESPACE="${{ steps.get_build_id.outputs.namespace }}"
           
           # Execute finish cycle script
           bash ./.github/scripts/finish_cycle.sh "${BUILD_ID}" "${OLD_PACKAGES_URL}" "${CONTAINER}"

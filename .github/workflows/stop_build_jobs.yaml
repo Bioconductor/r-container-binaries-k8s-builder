@@ -1,0 +1,122 @@
+name: Stop Build Jobs
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_branch:
+        description: "Build branch to stop (build/*). Use dropdown or enter manually if needed."
+        required: true
+        type: string
+      namespace:
+        description: "Optional namespace override (advanced). Leave empty to derive from build branch."
+        required: false
+        default: ""
+        type: string
+      stop_timeout:
+        description: "Timeout for stopping build jobs and pods (e.g. 300s, 10m)"
+        required: false
+        default: "300s"
+        type: string
+
+jobs:
+  stop-build-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Save kubeconfig
+        shell: bash
+        run: mkdir -p ~/.kube && echo "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+
+      - name: Install Kubectl
+        run: |
+          curl -LO 'https://dl.k8s.io/release/v1.34.1/bin/linux/amd64/kubectl' && \
+          chmod +x ./kubectl && \
+          mv ./kubectl /usr/local/bin/kubectl && \
+          kubectl version
+
+      - name: Resolve target namespace
+        id: resolve_target
+        run: |
+          set -euo pipefail
+
+          BRANCH_NAME="${{ inputs.build_branch }}"
+          OVERRIDE_NAMESPACE="${{ inputs.namespace }}"
+
+          if [[ -z "${BRANCH_NAME}" ]]; then
+            echo "Error: build_branch input is required"
+            exit 1
+          fi
+
+          if [[ "${BRANCH_NAME}" != build/* ]]; then
+            echo "Error: build_branch must start with 'build/' (got '${BRANCH_NAME}')"
+            exit 1
+          fi
+
+          BUILD_ID=$(echo "${BRANCH_NAME}" | sed 's|build/||' | tr '/' '-')
+          BUILD_ID_CLEAN=$(echo "${BUILD_ID}" | tr '[:upper:]' '[:lower:]' | tr '.' '-' | tr -cd '[:alnum:]-')
+          DERIVED_NAMESPACE="ns-${BUILD_ID_CLEAN}"
+
+          if [[ -n "${OVERRIDE_NAMESPACE}" ]]; then
+            NAMESPACE="${OVERRIDE_NAMESPACE}"
+            echo "Using namespace override: ${NAMESPACE}"
+          else
+            NAMESPACE="${DERIVED_NAMESPACE}"
+            echo "Using derived namespace from branch: ${NAMESPACE}"
+          fi
+
+          echo "build_branch=${BRANCH_NAME}" >> $GITHUB_OUTPUT
+          echo "build_id=${BUILD_ID}" >> $GITHUB_OUTPUT
+          echo "derived_namespace=${DERIVED_NAMESPACE}" >> $GITHUB_OUTPUT
+          echo "namespace=${NAMESPACE}" >> $GITHUB_OUTPUT
+
+          echo "Resolved Build Branch: ${BRANCH_NAME}"
+          echo "Resolved Build ID: ${BUILD_ID}"
+          echo "Resolved Namespace: ${NAMESPACE}"
+
+      - name: Stop build jobs
+        run: |
+          set -euo pipefail
+          NAMESPACE="${{ steps.resolve_target.outputs.namespace }}"
+          STOP_TIMEOUT="${{ inputs.stop_timeout }}"
+
+          echo "Stopping all build jobs in namespace ${NAMESPACE}..."
+
+          if ! kubectl get namespace "${NAMESPACE}" >/dev/null 2>&1; then
+            echo "Namespace ${NAMESPACE} does not exist - nothing to stop"
+          else
+            # Namespace exists and kubectl is functional; suppress "no resources found" noise
+            # by redirecting stderr — real auth/API errors would have failed the namespace check above.
+
+            # Delete all build jobs; --wait=true ensures their pods are terminated before proceeding
+            JOB_COUNT=$(kubectl get jobs -n "${NAMESPACE}" -l app=bioc-builder --no-headers 2>/dev/null | wc -l)
+
+            if [[ "${JOB_COUNT}" -gt 0 ]]; then
+              echo "Deleting ${JOB_COUNT} build job(s) and waiting for pods to terminate..."
+              if ! kubectl delete jobs -n "${NAMESPACE}" -l app=bioc-builder \
+                   --wait=true --timeout="${STOP_TIMEOUT}"; then
+                echo "Error: timed out waiting for jobs to delete. Remaining jobs:"
+                kubectl get jobs -n "${NAMESPACE}" -l app=bioc-builder || true
+                echo "Remaining pods:"
+                kubectl get pods -n "${NAMESPACE}" -l app=bioc-builder || true
+                exit 1
+              fi
+              echo "All build jobs deleted"
+            else
+              echo "No active build jobs found"
+            fi
+
+            # Delete any remaining bioc-builder pods (e.g., the setup pod from setup_k8s.sh)
+            POD_COUNT=$(kubectl get pods -n "${NAMESPACE}" -l app=bioc-builder --no-headers 2>/dev/null | wc -l)
+
+            if [[ "${POD_COUNT}" -gt 0 ]]; then
+              echo "Deleting ${POD_COUNT} remaining build pod(s)..."
+              if ! kubectl delete pods -n "${NAMESPACE}" -l app=bioc-builder \
+                   --wait=true --timeout="${STOP_TIMEOUT}"; then
+                echo "Error: timed out waiting for pods to delete. Remaining pods:"
+                kubectl get pods -n "${NAMESPACE}" -l app=bioc-builder || true
+                exit 1
+              fi
+              echo "All build pods deleted"
+            fi
+          fi
+
+          echo "Build jobs stopped successfully"
