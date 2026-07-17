@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2216 (94%)
-- **Failed:** 15 (0%)
-- **In Progress:** 52
+- **Successfully Built:** 2222 (94%)
+- **Failed:** 16 (0%)
+- **In Progress:** 45
 - **Not Started:** 61
 
 **Progress:** 95%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2216)
+## Successfully Built Packages (2222)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2166 more ...*
+*... and 2172 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,13 +76,14 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (15)
+## Failed Packages (16)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [GenomAutomorphism](https://bioconductor.org/packages/3.24/bioc/html/GenomAutomorphism.html) | [log](logs/GenomAutomorphism/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GenomAutomorphism) | Error: unable to load R code in package ‘GenomAutomorphism’ |
 | [HiTC](https://bioconductor.org/packages/3.24/bioc/html/HiTC.html) | [log](logs/HiTC/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HiTC) | Error: unable to load R code in package ‘HiTC’ |
 | [IFAA](https://bioconductor.org/packages/3.24/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [InPAS](https://bioconductor.org/packages/3.24/bioc/html/InPAS.html) | [log](logs/InPAS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/InPAS) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 | [NanoStringNCTools](https://bioconductor.org/packages/3.24/bioc/html/NanoStringNCTools.html) | [log](logs/NanoStringNCTools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/NanoStringNCTools) | Error: unable to load R code in package ‘NanoStringNCTools’ |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SpectralTAD](https://bioconductor.org/packages/3.24/bioc/html/SpectralTAD.html) | [log](logs/SpectralTAD/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SpectralTAD) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
@@ -96,17 +97,14 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (52)
+## In Progress (45)
 - ⏳ `AllelicImbalance`
 - ⏳ `BOBaFIT`
 - ⏳ `CAFE`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `Damsel`
-- ⏳ `DuplexDiscovereR`
 - ⏳ `GUIDEseq`
-- ⏳ `GenomicInteractions`
 - ⏳ `IdeoViz`
-- ⏳ `InPAS`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NADfinder`
@@ -116,7 +114,6 @@
 - ⏳ `R3CPET`
 - ⏳ `RBedMethyl`
 - ⏳ `REDseq`
-- ⏳ `RNAmodR.ML`
 - ⏳ `RadioGx`
 - ⏳ `ReportingTools`
 - ⏳ `SCANVIS`
@@ -137,18 +134,15 @@
 - ⏳ `mCSEA`
 - ⏳ `maser`
 - ⏳ `methylPipe`
-- ⏳ `minfi`
 - ⏳ `motifbreakR`
 - ⏳ `multicrispr`
 - ⏳ `octad`
 - ⏳ `qpgraph`
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
-- ⏳ `recount`
 - ⏳ `ribosomeProfilingQC`
-- ⏳ `scTreeViz`
-
-... and 2 more ...
+- ⏳ `shinyDSP`
+- ⏳ `strandCheckR`
 
 ## Not Yet Started (61)
 - ⏸️ `AgiMicroRna`
@@ -205,5 +199,5 @@
 ... and 11 more ...
 
 ---
-*Last updated: 2026-07-17 22:25:15 UTC*
-*Packages with verified BBS status: 159*
+*Last updated: 2026-07-17 22:26:13 UTC*
+*Packages with verified BBS status: 160*
