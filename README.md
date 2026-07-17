@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 771 (32%)
+- **Successfully Built:** 795 (33%)
 - **Failed:** 10 (0%)
-- **In Progress:** 23
-- **Not Started:** 1580
+- **In Progress:** 40
+- **Not Started:** 1539
 
-**Progress:** 32%
+**Progress:** 33%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (771)
+## Successfully Built Packages (795)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 721 more ...*
+*... and 745 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,32 +91,49 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (23)
+## In Progress (40)
+- ⏳ `BCRANK`
 - ⏳ `CytoDx`
+- ⏳ `DECIPHER`
 - ⏳ `DelayedArray`
-- ⏳ `FlowSOM`
-- ⏳ `GenomicRanges`
-- ⏳ `MAPFX`
+- ⏳ `GeneRegionScan`
+- ⏳ `KEGGREST`
+- ⏳ `MEDME`
+- ⏳ `PhyloProfile`
+- ⏳ `R4RNA`
 - ⏳ `Sconify`
+- ⏳ `Structstrings`
+- ⏳ `SynMut`
+- ⏳ `alabaster.string`
+- ⏳ `altcdfenvs`
+- ⏳ `bcSeq`
 - ⏳ `cytoMEM`
 - ⏳ `flowBeads`
-- ⏳ `flowCHIC`
 - ⏳ `flowClean`
 - ⏳ `flowClust`
 - ⏳ `flowMatch`
 - ⏳ `flowMeans`
-- ⏳ `flowPloidy`
-- ⏳ `flowSpecs`
-- ⏳ `flowTime`
 - ⏳ `flowViz`
+- ⏳ `idpr`
+- ⏳ `igblastr`
+- ⏳ `immReferent`
 - ⏳ `immunoClust`
 - ⏳ `infinityFlow`
+- ⏳ `kebabs`
+- ⏳ `microRNA`
+- ⏳ `motifcounter`
 - ⏳ `msPurity`
+- ⏳ `msa`
+- ⏳ `muscle`
 - ⏳ `ncdfFlow`
 - ⏳ `nempi`
-- ⏳ `tidyFlowCore`
+- ⏳ `phyloseq`
+- ⏳ `rfaRm`
+- ⏳ `rprimer`
+- ⏳ `scoup`
+- ⏳ `universalmotif`
 
-## Not Yet Started (1580)
+## Not Yet Started (1539)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -152,12 +169,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
@@ -167,9 +182,11 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
+- ⏸️ `Banksy`
+- ⏸️ `Basic4Cseq`
 
-... and 1530 more ...
+... and 1489 more ...
 
 ---
-*Last updated: 2026-07-17 21:28:03 UTC*
+*Last updated: 2026-07-17 21:29:35 UTC*
 *Packages with verified BBS status: 155*

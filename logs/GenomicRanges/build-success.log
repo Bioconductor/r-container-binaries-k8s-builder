@@ -1,0 +1,143 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GenomicRanges'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GenomicRanges'
+also installing the dependencies ‘txdbmaker’, ‘hgu95av2probe’, ‘BSgenome.Scerevisiae.UCSC.sacCer2’, ‘BSgenome.Mmusculus.UCSC.mm10’, ‘TxDb.Athaliana.BioMart.plantsmart51’, ‘TxDb.Mmusculus.UCSC.mm10.knownGene’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/txdbmaker_1.8.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/hgu95av2probe_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer2_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm10_1.4.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Athaliana.BioMart.plantsmart51_0.99.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm10.knownGene_3.10.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomicRanges_1.64.0.tar.gz'
+* installing *source* package ‘hgu95av2probe’ ...
+** this is package ‘hgu95av2probe’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hgu95av2probe’ as ‘hgu95av2probe_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu95av2probe)
+* installing *source* package ‘BSgenome.Scerevisiae.UCSC.sacCer2’ ...
+** this is package ‘BSgenome.Scerevisiae.UCSC.sacCer2’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Scerevisiae.UCSC.sacCer2’ as ‘BSgenome.Scerevisiae.UCSC.sacCer2_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Scerevisiae.UCSC.sacCer2)
+* installing *source* package ‘BSgenome.Mmusculus.UCSC.mm10’ ...
+** this is package ‘BSgenome.Mmusculus.UCSC.mm10’ version ‘1.4.3’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Mmusculus.UCSC.mm10’ as ‘BSgenome.Mmusculus.UCSC.mm10_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Mmusculus.UCSC.mm10)
+* installing *source* package ‘TxDb.Athaliana.BioMart.plantsmart51’ ...
+** this is package ‘TxDb.Athaliana.BioMart.plantsmart51’ version ‘0.99.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Athaliana.BioMart.plantsmart51’ as ‘TxDb.Athaliana.BioMart.plantsmart51_0.99.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Athaliana.BioMart.plantsmart51)
+* installing *source* package ‘TxDb.Mmusculus.UCSC.mm10.knownGene’ ...
+** this is package ‘TxDb.Mmusculus.UCSC.mm10.knownGene’ version ‘3.10.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Mmusculus.UCSC.mm10.knownGene’ as ‘TxDb.Mmusculus.UCSC.mm10.knownGene_3.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Mmusculus.UCSC.mm10.knownGene)
+* installing *source* package ‘GenomicRanges’ ...
+** this is package ‘GenomicRanges’ version ‘1.64.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicRanges’ as ‘GenomicRanges_1.64.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicRanges)
+* installing *source* package ‘txdbmaker’ ...
+** this is package ‘txdbmaker’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘txdbmaker’ as ‘txdbmaker_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (txdbmaker)
+
+The downloaded source packages are in
+	‘/tmp/RtmpaY5Y33/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	4m26.374s
+user	3m59.693s
+sys	0m23.810s
