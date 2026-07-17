@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1309 (54%)
+- **Successfully Built:** 1331 (55%)
 - **Failed:** 15 (0%)
-- **In Progress:** 132
-- **Not Started:** 928
+- **In Progress:** 148
+- **Not Started:** 890
 
-**Progress:** 55%
+**Progress:** 56%
 ```
-███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1309)
+## Successfully Built Packages (1331)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -41,12 +41,12 @@
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.23/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
+| [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
-| [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 
-*... and 1259 more ...*
+*... and 1281 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,14 +96,17 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (132)
+## In Progress (148)
+- ⏳ `BERT`
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
+- ⏳ `BgeeDB`
 - ⏳ `BiocNeighbors`
 - ⏳ `CCPROMISE`
 - ⏳ `CHETAH`
 - ⏳ `CHRONOS`
 - ⏳ `CNVRanger`
+- ⏳ `COTAN`
 - ⏳ `CPSM`
 - ⏳ `CSOA`
 - ⏳ `CTexploreR`
@@ -115,13 +118,14 @@
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
+- ⏳ `DExMA`
 - ⏳ `DNEA`
+- ⏳ `DeMixT`
 - ⏳ `Dune`
 - ⏳ `EGAD`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `ExpoRiskR`
 - ⏳ `ExpressionAtlas`
-- ⏳ `FeatSeekR`
 - ⏳ `FuseSOM`
 - ⏳ `GRmetrics`
 - ⏳ `GeoTcgaData`
@@ -130,32 +134,27 @@
 - ⏳ `IFAA`
 - ⏳ `IgGeneUsage`
 - ⏳ `InteractionSet`
+- ⏳ `KnowSeq`
 - ⏳ `LRDE`
 - ⏳ `LipidTrend`
 - ⏳ `MAST`
-- ⏳ `MBASED`
+- ⏳ `MBECS`
 - ⏳ `MBQN`
 - ⏳ `MGFR`
 - ⏳ `MPRAnalyze`
+- ⏳ `MSPrep`
+- ⏳ `MatrixQCvis`
 - ⏳ `MetMashR`
+- ⏳ `MetaProViz`
 - ⏳ `MouseFM`
-- ⏳ `MultiAssayExperiment`
-- ⏳ `MultiDataSet`
-- ⏳ `PICB`
-- ⏳ `PhIPData`
-- ⏳ `PlinkMatrix`
-- ⏳ `PolySTest`
-- ⏳ `RCSL`
-- ⏳ `SBGNview`
 
-... and 82 more ...
+... and 98 more ...
 
-## Not Yet Started (928)
+## Not Yet Started (890)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASICS`
-- ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -170,7 +169,6 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
-- ⏸️ `BERT`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
@@ -183,10 +181,8 @@
 - ⏸️ `BatchSVG`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
-- ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
-- ⏸️ `BioNERO`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
@@ -201,9 +197,13 @@
 - ⏸️ `CEMiTool`
 - ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
+- ⏸️ `CNViz`
+- ⏸️ `CNVrd2`
+- ⏸️ `COCOA`
+- ⏸️ `CODEX`
 
-... and 878 more ...
+... and 840 more ...
 
 ---
-*Last updated: 2026-07-17 21:56:04 UTC*
-*Packages with verified BBS status: 184*
+*Last updated: 2026-07-17 21:58:55 UTC*
+*Packages with verified BBS status: 185*
