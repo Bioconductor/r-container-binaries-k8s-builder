@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 478 (20%)
+- **Successfully Built:** 481 (20%)
 - **Failed:** 4 (0%)
-- **In Progress:** 13
-- **Not Started:** 1889
+- **In Progress:** 14
+- **Not Started:** 1885
 
 **Progress:** 20%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (478)
+## Successfully Built Packages (481)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 428 more ...*
+*... and 431 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,22 +85,23 @@
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
 
-## In Progress (13)
-- ⏳ `BiocAzul`
+## In Progress (14)
+- ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
+- ⏳ `DepecheR`
 - ⏳ `EnMCB`
 - ⏳ `Harman`
 - ⏳ `IntramiRExploreR`
 - ⏳ `PCAN`
+- ⏳ `PLSDAbatch`
 - ⏳ `RTCGA`
-- ⏳ `SuperCellCyto`
 - ⏳ `decoupleR`
 - ⏳ `fgsea`
 - ⏳ `scRecover`
-- ⏳ `scShapes`
+- ⏳ `timeOmics`
 
-## Not Yet Started (1889)
+## Not Yet Started (1885)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -129,7 +130,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AlpsNMR`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
@@ -151,9 +151,10 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
+- ⏸️ `BSgenomeForge`
 
-... and 1839 more ...
+... and 1835 more ...
 
 ---
-*Last updated: 2026-07-17 20:51:52 UTC*
+*Last updated: 2026-07-17 20:52:27 UTC*
 *Packages with verified BBS status: 131*
