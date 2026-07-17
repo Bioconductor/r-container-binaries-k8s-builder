@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 233 (9%)
+- **Successfully Built:** 239 (10%)
 - **Failed:** 0 (0%)
-- **In Progress:** 163
-- **Not Started:** 1948
+- **In Progress:** 166
+- **Not Started:** 1939
 
-**Progress:** 9%
+**Progress:** 10%
 ```
-████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (233)
+## Successfully Built Packages (239)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
 | [CARNIVAL](https://bioconductor.org/packages/3.24/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CARNIVAL) |
 
-*... and 183 more ...*
+*... and 189 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,11 +76,13 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (163)
+## In Progress (166)
 - ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
+- ⏳ `AlphaMissenseR`
 - ⏳ `BADER`
 - ⏳ `BenchHub`
+- ⏳ `BiocBuildReporter`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocParallel`
 - ⏳ `CIMICE`
@@ -88,6 +90,7 @@
 - ⏳ `Chicago`
 - ⏳ `DEGseq`
 - ⏳ `DeepPINCS`
+- ⏳ `EnMCB`
 - ⏳ `EnhancedVolcano`
 - ⏳ `GCPtools`
 - ⏳ `GWAS.BAYES`
@@ -110,7 +113,6 @@
 - ⏳ `Informeasure`
 - ⏳ `IntramiRExploreR`
 - ⏳ `IsoCorrectoR`
-- ⏳ `Linnorm`
 - ⏳ `M3C`
 - ⏳ `MACSQuantifyR`
 - ⏳ `MANOR`
@@ -125,12 +127,10 @@
 - ⏳ `MatrixGenerics`
 - ⏳ `Mergeomics`
 - ⏳ `ModCon`
-- ⏳ `MsStash`
-- ⏳ `MultiMed`
 
-... and 113 more ...
+... and 116 more ...
 
-## Not Yet Started (1948)
+## Not Yet Started (1939)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -159,7 +159,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AlphaBeta`
-- ⏸️ `AlphaMissenseR`
 - ⏸️ `AlpsNMR`
 - ⏸️ `AnVIL`
 - ⏸️ `AnVILGCP`
@@ -181,9 +180,10 @@
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BEclear`
+- ⏸️ `BLMA`
 
-... and 1898 more ...
+... and 1889 more ...
 
 ---
-*Last updated: 2026-07-17 20:27:39 UTC*
+*Last updated: 2026-07-17 20:29:34 UTC*
 *Packages with verified BBS status: 59*
