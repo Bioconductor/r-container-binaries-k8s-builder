@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ReactomeGSA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ReactomeGSA'
+also installing the dependency ‘ReactomeGSA.data’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/ReactomeGSA.data_1.26.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ReactomeGSA_1.26.0.tar.gz'
+* installing *source* package ‘ReactomeGSA’ ...
+** this is package ‘ReactomeGSA’ version ‘1.26.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘analyse_sc_clusters’ with signature ‘object="Seurat"’: no definition for class “Seurat”
+in method for ‘analyse_sc_clusters’ with signature ‘object="SingleCellExperiment"’: no definition for class “SingleCellExperiment”
+in method for ‘add_dataset’ with signature ‘request="ReactomeAnalysisRequest",expression_values="EList"’: no definition for class “EList”
+in method for ‘add_dataset’ with signature ‘request="ReactomeAnalysisRequest",expression_values="DGEList"’: no definition for class “DGEList”
+in method for ‘generate_pseudo_bulk_data’ with signature ‘object="Seurat"’: no definition for class “Seurat”
+in method for ‘generate_pseudo_bulk_data’ with signature ‘object="SingleCellExperiment"’: no definition for class “SingleCellExperiment”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ReactomeGSA’ as ‘ReactomeGSA_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ReactomeGSA)
+* installing *source* package ‘ReactomeGSA.data’ ...
+** this is package ‘ReactomeGSA.data’ version ‘1.26.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ReactomeGSA.data’ as ‘ReactomeGSA.data_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ReactomeGSA.data)
+
+The downloaded source packages are in
+	‘/tmp/RtmpalHU9c/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m58.285s
+user	1m41.208s
+sys	0m6.506s
