@@ -1,0 +1,117 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''spicyR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'spicyR'
+also installing the dependencies ‘RTriangle’, ‘coxme’, ‘scam’, ‘SpatialDatasets’, ‘imcRtools’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RTriangle_1.6-0.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/coxme_2.2-22.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scam_1.2-22.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/SpatialDatasets_1.10.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/imcRtools_1.18.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/spicyR_1.24.0.tar.gz'
+* installing *binary* package ‘RTriangle’ ...
+* package ‘RTriangle’ successfully unpacked and SHA256 sums checked
+* ‘RTriangle’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTriangle’ as ‘RTriangle_1.6-0.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTriangle)
+* installing *binary* package ‘coxme’ ...
+* package ‘coxme’ successfully unpacked and SHA256 sums checked
+* ‘coxme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘coxme’ as ‘coxme_2.2-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coxme)
+* installing *binary* package ‘scam’ ...
+* package ‘scam’ successfully unpacked and SHA256 sums checked
+* ‘scam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scam’ as ‘scam_1.2-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scam)
+* installing *source* package ‘SpatialDatasets’ ...
+** this is package ‘SpatialDatasets’ version ‘1.10.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+Warning: /tmp/RtmpGnTlUc/R.INSTALL67358a1245/SpatialDatasets/man/SpatialDatasets.Rd:52: unexpected section header '\value'
+Warning: /tmp/RtmpGnTlUc/R.INSTALL67358a1245/SpatialDatasets/man/SpatialDatasets.Rd:55: unexpected section header '\examples'
+Warning: /tmp/RtmpGnTlUc/R.INSTALL67358a1245/SpatialDatasets/man/SpatialDatasets.Rd:60: unexpected END_OF_INPUT '
+'
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: previous export '‘Ferguson_Images’' is being replaced
+Warning: previous export '‘spe_Ferguson_2022’' is being replaced
+Warning: previous export '‘fergusonClinical’' is being replaced
+Warning: previous export '‘spe_Schurch_2020’' is being replaced
+Warning: previous export '‘spe_Ali_2020’' is being replaced
+** testing if installed package can be loaded from final location
+Warning: previous export '‘Ferguson_Images’' is being replaced
+Warning: previous export '‘spe_Ferguson_2022’' is being replaced
+Warning: previous export '‘fergusonClinical’' is being replaced
+Warning: previous export '‘spe_Schurch_2020’' is being replaced
+Warning: previous export '‘spe_Ali_2020’' is being replaced
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpatialDatasets’ as ‘SpatialDatasets_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialDatasets)
+* installing *source* package ‘imcRtools’ ...
+** this is package ‘imcRtools’ version ‘1.18.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+Warning: bad markup (extra space?) at readSCEfromTIFF.Rd:27:79
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imcRtools’ as ‘imcRtools_1.18.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imcRtools)
+* installing *source* package ‘spicyR’ ...
+** this is package ‘spicyR’ version ‘1.24.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spicyR’ as ‘spicyR_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spicyR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpowKYyo/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m41.265s
+user	2m5.383s
+sys	0m14.730s
