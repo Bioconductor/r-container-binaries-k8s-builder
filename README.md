@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2317 (98%)
+- **Successfully Built:** 2319 (98%)
 - **Failed:** 16 (0%)
-- **In Progress:** 2
+- **In Progress:** 0
 - **Not Started:** 9
 
 **Progress:** 99%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2317)
+## Successfully Built Packages (2319)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2267 more ...*
+*... and 2269 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,10 +97,6 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (2)
-- ⏳ `ChAMP`
-- ⏳ `biscuiteer`
-
 ## Not Yet Started (9)
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
@@ -113,5 +109,5 @@
 - ⏸️ `spicyR`
 
 ---
-*Last updated: 2026-07-17 23:12:09 UTC*
+*Last updated: 2026-07-17 23:35:05 UTC*
 *Packages with verified BBS status: 162*
