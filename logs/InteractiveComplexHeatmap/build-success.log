@@ -1,0 +1,243 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''InteractiveComplexHeatmap'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'InteractiveComplexHeatmap'
+also installing the dependencies ‘Polychrome’, ‘simona’, ‘skmeans’, ‘polylabelr’, ‘tidyHeatmap’, ‘simplifyEnrichment’, ‘SC3’, ‘GOexpress’, ‘cola’, ‘HilbertCurve’, ‘pkgndep’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Polychrome_1.6.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/simona_1.11.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/skmeans_0.2-20.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/polylabelr_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyHeatmap_1.13.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/simplifyEnrichment_2.7.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SC3_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GOexpress_1.47.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/cola_2.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HilbertCurve_2.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pkgndep_2.0.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/InteractiveComplexHeatmap_1.21.0.tar.gz'
+* installing *binary* package ‘Polychrome’ ...
+* package ‘Polychrome’ successfully unpacked and SHA256 sums checked
+* ‘Polychrome’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Polychrome’ as ‘Polychrome_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Polychrome)
+* installing *binary* package ‘skmeans’ ...
+* package ‘skmeans’ successfully unpacked and SHA256 sums checked
+* ‘skmeans’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘skmeans’ as ‘skmeans_0.2-20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (skmeans)
+* installing *binary* package ‘polylabelr’ ...
+* package ‘polylabelr’ successfully unpacked and SHA256 sums checked
+* ‘polylabelr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polylabelr’ as ‘polylabelr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polylabelr)
+* installing *binary* package ‘tidyHeatmap’ ...
+* package ‘tidyHeatmap’ successfully unpacked and SHA256 sums checked
+* ‘tidyHeatmap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyHeatmap’ as ‘tidyHeatmap_1.13.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyHeatmap)
+* installing *source* package ‘SC3’ ...
+** this is package ‘SC3’ version ‘1.41.0’
+** package ‘SC3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cppFunctions.cpp -o cppFunctions.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SC3.so RcppExports.o cppFunctions.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SC3/00new/SC3/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SC3’ as ‘SC3_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SC3)
+* installing *source* package ‘GOexpress’ ...
+** this is package ‘GOexpress’ version ‘1.47.0’
+** package ‘GOexpress’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GOexpress’ as ‘GOexpress_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOexpress)
+* installing *binary* package ‘pkgndep’ ...
+* package ‘pkgndep’ successfully unpacked and SHA256 sums checked
+* ‘pkgndep’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pkgndep’ as ‘pkgndep_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pkgndep)
+* installing *source* package ‘InteractiveComplexHeatmap’ ...
+** this is package ‘InteractiveComplexHeatmap’ version ‘1.21.0’
+** package ‘InteractiveComplexHeatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘InteractiveComplexHeatmap’ as ‘InteractiveComplexHeatmap_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (InteractiveComplexHeatmap)
+* installing *source* package ‘simona’ ...
+** this is package ‘simona’ version ‘1.11.0’
+** package ‘simona’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c annotation.cpp -o annotation.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c common_ancestor.cpp -o common_ancestor.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dist.cpp -o dist.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c intersectToList_logical.cpp -o intersectToList_logical.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c partition.cpp -o partition.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c permutation.cpp -o permutation.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c plot.cpp -o plot.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c reorder.cpp -o reorder.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sim.cpp -o sim.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c term.cpp -o term.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c traverse.cpp -o traverse.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tree.cpp -o tree.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o simona.so RcppExports.o annotation.o common_ancestor.o dist.o intersectToList_logical.o partition.o permutation.o plot.o reorder.o sim.o term.o traverse.o tree.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-simona/00new/simona/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘simona’ as ‘simona_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (simona)
+* installing *source* package ‘cola’ ...
+** this is package ‘cola’ version ‘2.19.0’
+** package ‘cola’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c atc.cpp -o atc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cal_consensus_mat.cpp -o cal_consensus_mat.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pdist.cpp -o pdist.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o cola.so RcppExports.o atc.o cal_consensus_mat.o pdist.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-cola/00new/cola/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cola’ as ‘cola_2.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cola)
+* installing *source* package ‘HilbertCurve’ ...
+** this is package ‘HilbertCurve’ version ‘2.7.0’
+** package ‘HilbertCurve’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c std_hilbert_curve.cpp -o std_hilbert_curve.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c std_utils.cpp -o std_utils.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o HilbertCurve.so RcppExports.o std_hilbert_curve.o std_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-HilbertCurve/00new/HilbertCurve/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HilbertCurve’ as ‘HilbertCurve_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HilbertCurve)
+* installing *source* package ‘simplifyEnrichment’ ...
+** this is package ‘simplifyEnrichment’ version ‘2.7.0’
+** package ‘simplifyEnrichment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘simplifyEnrichment’ as ‘simplifyEnrichment_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (simplifyEnrichment)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpepu1J7/downloaded_packages’
+
+real	3m49.483s
+user	3m15.429s
+sys	0m27.858s

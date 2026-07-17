@@ -1,0 +1,117 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''orthogene'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'orthogene'
+also installing the dependencies ‘httpcache’, ‘PlotTools’, ‘homologene’, ‘repmis’, ‘piggyback’, ‘rphylopic’, ‘TreeTools’, ‘OmaDB’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httpcache_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/PlotTools_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/homologene_1.4.68.19.3.27.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/repmis_0.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/piggyback_0.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rphylopic_1.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TreeTools_2.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/OmaDB_2.29.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/orthogene_1.19.3.tar.gz'
+* installing *binary* package ‘httpcache’ ...
+* package ‘httpcache’ successfully unpacked and SHA256 sums checked
+* ‘httpcache’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘httpcache’ as ‘httpcache_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httpcache)
+* installing *binary* package ‘PlotTools’ ...
+* package ‘PlotTools’ successfully unpacked and SHA256 sums checked
+* ‘PlotTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PlotTools’ as ‘PlotTools_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PlotTools)
+* installing *binary* package ‘homologene’ ...
+* package ‘homologene’ successfully unpacked and SHA256 sums checked
+* ‘homologene’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘homologene’ as ‘homologene_1.4.68.19.3.27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (homologene)
+* installing *binary* package ‘repmis’ ...
+* package ‘repmis’ successfully unpacked and SHA256 sums checked
+* ‘repmis’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘repmis’ as ‘repmis_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (repmis)
+* installing *binary* package ‘piggyback’ ...
+* package ‘piggyback’ successfully unpacked and SHA256 sums checked
+* ‘piggyback’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘piggyback’ as ‘piggyback_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (piggyback)
+* installing *source* package ‘OmaDB’ ...
+** this is package ‘OmaDB’ version ‘2.29.0’
+** package ‘OmaDB’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OmaDB’ as ‘OmaDB_2.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OmaDB)
+* installing *binary* package ‘rphylopic’ ...
+* package ‘rphylopic’ successfully unpacked and SHA256 sums checked
+* ‘rphylopic’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rphylopic’ as ‘rphylopic_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rphylopic)
+* installing *binary* package ‘TreeTools’ ...
+* package ‘TreeTools’ successfully unpacked and SHA256 sums checked
+* ‘TreeTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TreeTools’ as ‘TreeTools_2.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TreeTools)
+* installing *source* package ‘orthogene’ ...
+** this is package ‘orthogene’ version ‘1.19.3’
+** package ‘orthogene’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘orthogene’ as ‘orthogene_1.19.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (orthogene)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOoQfEL/downloaded_packages’
+
+real	0m36.571s
+user	0m28.350s
+sys	0m6.608s

@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GenomeInfoDb'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GenomeInfoDb'
+also installing the dependencies ‘BSgenome.Scerevisiae.UCSC.sacCer2’, ‘BSgenome.Hsapiens.NCBI.GRCh38’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer2_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Hsapiens.NCBI.GRCh38_1.3.1000.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomeInfoDb_1.49.1.tar.gz'
+* installing *source* package ‘BSgenome.Scerevisiae.UCSC.sacCer2’ ...
+** this is package ‘BSgenome.Scerevisiae.UCSC.sacCer2’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Scerevisiae.UCSC.sacCer2’ as ‘BSgenome.Scerevisiae.UCSC.sacCer2_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Scerevisiae.UCSC.sacCer2)
+* installing *source* package ‘BSgenome.Hsapiens.NCBI.GRCh38’ ...
+** this is package ‘BSgenome.Hsapiens.NCBI.GRCh38’ version ‘1.3.1000’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.NCBI.GRCh38’ as ‘BSgenome.Hsapiens.NCBI.GRCh38_1.3.1000_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.NCBI.GRCh38)
+* installing *source* package ‘GenomeInfoDb’ ...
+** this is package ‘GenomeInfoDb’ version ‘1.49.1’
+** package ‘GenomeInfoDb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomeInfoDb’ as ‘GenomeInfoDb_1.49.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDb)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTSXXlQ/downloaded_packages’
+
+real	2m46.615s
+user	2m1.227s
+sys	0m16.206s
