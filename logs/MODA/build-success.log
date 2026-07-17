@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MODA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MODA'
+also installing the dependencies ‘WGCNA’, ‘dynamicTreeCut’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/WGCNA_1.74.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dynamicTreeCut_1.63-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MODA_1.39.0.tar.gz'
+* installing *binary* package ‘dynamicTreeCut’ ...
+* package ‘dynamicTreeCut’ successfully unpacked and SHA256 sums checked
+* ‘dynamicTreeCut’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dynamicTreeCut’ as ‘dynamicTreeCut_1.63-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dynamicTreeCut)
+* installing *binary* package ‘WGCNA’ ...
+* package ‘WGCNA’ successfully unpacked and SHA256 sums checked
+* ‘WGCNA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘WGCNA’ as ‘WGCNA_1.74_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WGCNA)
+* installing *source* package ‘MODA’ ...
+** this is package ‘MODA’ version ‘1.39.0’
+** package ‘MODA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MODA’ as ‘MODA_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MODA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpi1Qwp4/downloaded_packages’
+
+real	1m31.006s
+user	0m11.444s
+sys	0m3.589s

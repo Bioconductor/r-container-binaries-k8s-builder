@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''statTarget'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'statTarget'
+also installing the dependencies ‘pdist’, ‘rrcov’, ‘pls’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pdist_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rrcov_1.7-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pls_2.9-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/statTarget_1.43.0.tar.gz'
+* installing *binary* package ‘pdist’ ...
+* package ‘pdist’ successfully unpacked and SHA256 sums checked
+* ‘pdist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pdist’ as ‘pdist_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pdist)
+* installing *binary* package ‘rrcov’ ...
+* package ‘rrcov’ successfully unpacked and SHA256 sums checked
+* ‘rrcov’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rrcov’ as ‘rrcov_1.7-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rrcov)
+* installing *binary* package ‘pls’ ...
+* package ‘pls’ successfully unpacked and SHA256 sums checked
+* ‘pls’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pls’ as ‘pls_2.9-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pls)
+* installing *source* package ‘statTarget’ ...
+** this is package ‘statTarget’ version ‘1.43.0’
+** package ‘statTarget’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘statTarget’ as ‘statTarget_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statTarget)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKSlOI9/downloaded_packages’
+
+real	0m45.164s
+user	0m9.418s
+sys	0m3.283s
