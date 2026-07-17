@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2256 (94%)
+- **Successfully Built:** 2258 (94%)
 - **Failed:** 27 (1%)
-- **In Progress:** 8
+- **In Progress:** 6
 - **Not Started:** 93
 
 **Progress:** 95%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2256)
+## Successfully Built Packages (2258)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2206 more ...*
+*... and 2208 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -108,9 +108,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [tLOH](https://bioconductor.org/packages/3.23/bioc/html/tLOH.html) | [log](logs/tLOH/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tLOH) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 
-## In Progress (8)
-- ⏳ `AgiMicroRna`
-- ⏳ `CAGEr`
+## In Progress (6)
 - ⏳ `DMRcate`
 - ⏳ `MEAT`
 - ⏳ `MungeSumstats`
@@ -173,5 +171,5 @@
 ... and 43 more ...
 
 ---
-*Last updated: 2026-07-17 22:52:41 UTC*
+*Last updated: 2026-07-17 22:53:06 UTC*
 *Packages with verified BBS status: 217*
