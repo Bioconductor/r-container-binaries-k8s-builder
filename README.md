@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2222 (94%)
+- **Successfully Built:** 2232 (95%)
 - **Failed:** 16 (0%)
-- **In Progress:** 45
-- **Not Started:** 61
+- **In Progress:** 55
+- **Not Started:** 41
 
 **Progress:** 95%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2222)
+## Successfully Built Packages (2232)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2172 more ...*
+*... and 2182 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,25 +97,26 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (45)
-- ⏳ `AllelicImbalance`
-- ⏳ `BOBaFIT`
-- ⏳ `CAFE`
+## In Progress (55)
+- ⏳ `CAGEfightR`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `Damsel`
+- ⏳ `ENmix`
 - ⏳ `GUIDEseq`
+- ⏳ `HiCDCPlus`
+- ⏳ `HiCaptuRe`
 - ⏳ `IdeoViz`
+- ⏳ `MethylAid`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
-- ⏳ `NADfinder`
 - ⏳ `NanoMethViz`
 - ⏳ `PostChicago`
-- ⏳ `Pviz`
-- ⏳ `R3CPET`
 - ⏳ `RBedMethyl`
 - ⏳ `REDseq`
+- ⏳ `REMP`
+- ⏳ `RNAAgeCalc`
 - ⏳ `RadioGx`
 - ⏳ `ReportingTools`
+- ⏳ `RnaSeqSampleSize`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
 - ⏳ `SPLINTER`
@@ -123,47 +124,45 @@
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `TVTB`
-- ⏳ `annoLinker`
 - ⏳ `annotatr`
 - ⏳ `comapr`
+- ⏳ `conumee`
+- ⏳ `epimutacions`
 - ⏳ `epivizrChart`
 - ⏳ `fourSynergy`
+- ⏳ `funtooNorm`
 - ⏳ `geneAttribution`
-- ⏳ `geomeTriD`
 - ⏳ `gmoviz`
+- ⏳ `iNETgrate`
 - ⏳ `mCSEA`
 - ⏳ `maser`
+- ⏳ `methylCC`
 - ⏳ `methylPipe`
+- ⏳ `methylclock`
+- ⏳ `methylumi`
 - ⏳ `motifbreakR`
 - ⏳ `multicrispr`
 - ⏳ `octad`
+- ⏳ `psichomics`
 - ⏳ `qpgraph`
+- ⏳ `quantro`
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
-- ⏳ `ribosomeProfilingQC`
-- ⏳ `shinyDSP`
-- ⏳ `strandCheckR`
 
-## Not Yet Started (61)
+... and 5 more ...
+
+## Not Yet Started (41)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `ChAMP`
 - ⏸️ `DMRcate`
-- ⏸️ `ENmix`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
-- ⏸️ `HiCDCPlus`
-- ⏸️ `HiCaptuRe`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MOSClip`
-- ⏸️ `MethylAid`
-- ⏸️ `REMP`
-- ⏸️ `RNAAgeCalc`
 - ⏸️ `RnBeads`
-- ⏸️ `RnaSeqSampleSize`
 - ⏸️ `SOMNiBUS`
 - ⏸️ `SpaceTrooper`
 - ⏸️ `SpatialDecon`
@@ -175,29 +174,26 @@
 - ⏸️ `biscuiteer`
 - ⏸️ `clipper`
 - ⏸️ `compEpiTools`
-- ⏸️ `conumee`
 - ⏸️ `cytoviewer`
 - ⏸️ `dmrseq`
 - ⏸️ `dnaEPICO`
 - ⏸️ `epiRomics`
-- ⏸️ `epimutacions`
 - ⏸️ `ffpe`
-- ⏸️ `funtooNorm`
 - ⏸️ `iCheck`
-- ⏸️ `iNETgrate`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
 - ⏸️ `lumi`
-- ⏸️ `methylCC`
 - ⏸️ `methylGSA`
-- ⏸️ `methylclock`
-- ⏸️ `methylumi`
 - ⏸️ `missMethyl`
 - ⏸️ `preciseTAD`
 - ⏸️ `profileplyr`
-
-... and 11 more ...
+- ⏸️ `scmeth`
+- ⏸️ `simpleSeg`
+- ⏸️ `skewr`
+- ⏸️ `spicyR`
+- ⏸️ `wateRmelon`
+- ⏸️ `yarn`
 
 ---
-*Last updated: 2026-07-17 22:26:13 UTC*
+*Last updated: 2026-07-17 22:27:51 UTC*
 *Packages with verified BBS status: 160*
