@@ -1,0 +1,1553 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scFeatureFilter'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scFeatureFilter'
+also installing the dependencies ‘dir.expiry’, ‘UCSC.utils’, ‘GenomicAlignments’, ‘rhdf5filters’, ‘biocmake’, ‘h5mread’, ‘alabaster.ranges’, ‘AnnotationFilter’, ‘GenomeInfoDb’, ‘rtracklayer’, ‘rhdf5’, ‘assorthead’, ‘Rhdf5lib’, ‘HDF5Array’, ‘alabaster.se’, ‘ensembldb’, ‘GenomicFeatures’, ‘alabaster.base’, ‘alabaster.matrix’, ‘alabaster.sce’, ‘gypsum’, ‘SingleCellExperiment’, ‘scRNAseq’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/dir.expiry_1.21.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/UCSC.utils_1.9.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomicAlignments_1.49.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rhdf5filters_1.25.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/biocmake_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/h5mread_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/alabaster.ranges_1.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnnotationFilter_1.37.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomeInfoDb_1.49.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rtracklayer_1.73.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rhdf5_2.57.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/assorthead_1.7.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Rhdf5lib_2.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HDF5Array_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/alabaster.se_1.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ensembldb_2.37.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomicFeatures_1.65.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/alabaster.base_1.13.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/alabaster.matrix_1.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/alabaster.sce_1.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/gypsum_1.9.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SingleCellExperiment_1.35.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/scRNAseq_2.27.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/scFeatureFilter_1.33.0.tar.gz'
+* installing *source* package ‘dir.expiry’ ...
+** this is package ‘dir.expiry’ version ‘1.21.0’
+** package ‘dir.expiry’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dir.expiry’ as ‘dir.expiry_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dir.expiry)
+* installing *source* package ‘UCSC.utils’ ...
+** this is package ‘UCSC.utils’ version ‘1.9.0’
+** package ‘UCSC.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘UCSC.utils’ as ‘UCSC.utils_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UCSC.utils)
+* installing *source* package ‘GenomicAlignments’ ...
+** this is package ‘GenomicAlignments’ version ‘1.49.1’
+** package ‘GenomicAlignments’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicAlignments.c -o R_init_GenomicAlignments.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encodeOverlaps_methods.c -o encodeOverlaps_methods.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicAlignments.so IRanges_stubs.o R_init_GenomicAlignments.o S4Vectors_stubs.o encodeOverlaps_methods.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GenomicAlignments/00new/GenomicAlignments/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicAlignments’ as ‘GenomicAlignments_1.49.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicAlignments)
+* installing *source* package ‘AnnotationFilter’ ...
+** this is package ‘AnnotationFilter’ version ‘1.37.0’
+** package ‘AnnotationFilter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnnotationFilter’ as ‘AnnotationFilter_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationFilter)
+* installing *source* package ‘assorthead’ ...
+** this is package ‘assorthead’ version ‘1.7.7’
+** package ‘assorthead’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘assorthead’ as ‘assorthead_1.7.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assorthead)
+* installing *source* package ‘gypsum’ ...
+** this is package ‘gypsum’ version ‘1.9.0’
+** package ‘gypsum’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gypsum’ as ‘gypsum_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gypsum)
+* installing *source* package ‘SingleCellExperiment’ ...
+** this is package ‘SingleCellExperiment’ version ‘1.35.2’
+** package ‘SingleCellExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SingleCellExperiment’ as ‘SingleCellExperiment_1.35.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SingleCellExperiment)
+* installing *source* package ‘scFeatureFilter’ ...
+** this is package ‘scFeatureFilter’ version ‘1.33.0’
+** package ‘scFeatureFilter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scFeatureFilter’ as ‘scFeatureFilter_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scFeatureFilter)
+* installing *source* package ‘biocmake’ ...
+** this is package ‘biocmake’ version ‘1.5.0’
+** package ‘biocmake’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biocmake’ as ‘biocmake_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biocmake)
+* installing *source* package ‘GenomeInfoDb’ ...
+** this is package ‘GenomeInfoDb’ version ‘1.49.1’
+** package ‘GenomeInfoDb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomeInfoDb’ as ‘GenomeInfoDb_1.49.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDb)
+* installing *source* package ‘rtracklayer’ ...
+** this is package ‘rtracklayer’ version ‘1.73.0’
+** package ‘rtracklayer’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for OPENSSL... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_rtracklayer.c -o R_init_rtracklayer.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readGFF.c -o readGFF.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bbiHelper.c -o bbiHelper.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigWig.c -o bigWig.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigBedHelper.c -o bigBedHelper.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigBed.c -o bigBed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chain_io.c -o chain_io.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c twoBit.c -o twoBit.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c handlers.c -o handlers.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/memgfx.c -o ucsc/memgfx.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/binRange.c -o ucsc/binRange.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/htmlColor.c -o ucsc/htmlColor.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/sqlList.c -o ucsc/sqlList.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/tokenizer.c -o ucsc/tokenizer.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/asParse.c -o ucsc/asParse.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/basicBed.c -o ucsc/basicBed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bigBed.c -o ucsc/bigBed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bPlusTree.c -o ucsc/bPlusTree.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bbiRead.c -o ucsc/bbiRead.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bbiWrite.c -o ucsc/bbiWrite.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bwgCreate.c -o ucsc/bwgCreate.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bwgQuery.c -o ucsc/bwgQuery.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/cirTree.c -o ucsc/cirTree.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/common.c -o ucsc/common.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dnaseq.c -o ucsc/dnaseq.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dnautil.c -o ucsc/dnautil.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/errAbort.c -o ucsc/errAbort.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/hash.c -o ucsc/hash.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/linefile.c -o ucsc/linefile.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/localmem.c -o ucsc/localmem.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/sqlNum.c -o ucsc/sqlNum.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/zlibFace.c -o ucsc/zlibFace.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dystring.c -o ucsc/dystring.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/hmmstats.c -o ucsc/hmmstats.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/obscure.c -o ucsc/obscure.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/rangeTree.c -o ucsc/rangeTree.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/rbTree.c -o ucsc/rbTree.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/memalloc.c -o ucsc/memalloc.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dlist.c -o ucsc/dlist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/filePath.c -o ucsc/filePath.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/htmlPage.c -o ucsc/htmlPage.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/udc.c -o ucsc/udc.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/net.c -o ucsc/net.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bits.c -o ucsc/bits.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/twoBit.c -o ucsc/twoBit.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/_cheapcgi.c -o ucsc/_cheapcgi.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/https.c -o ucsc/https.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/base64.c -o ucsc/base64.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/verbose.c -o ucsc/verbose.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/os.c -o ucsc/os.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/wildcmp.c -o ucsc/wildcmp.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/_portimpl.c -o ucsc/_portimpl.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rtracklayer.so S4Vectors_stubs.o IRanges_stubs.o XVector_stubs.o R_init_rtracklayer.o readGFF.o bbiHelper.o bigWig.o bigBedHelper.o bigBed.o chain_io.o twoBit.o handlers.o utils.o ucsc/memgfx.o ucsc/binRange.o ucsc/htmlColor.o ucsc/sqlList.o ucsc/tokenizer.o ucsc/asParse.o ucsc/basicBed.o ucsc/bigBed.o ucsc/bPlusTree.o ucsc/bbiRead.o ucsc/bbiWrite.o ucsc/bwgCreate.o ucsc/bwgQuery.o ucsc/cirTree.o ucsc/common.o ucsc/dnaseq.o ucsc/dnautil.o ucsc/errAbort.o ucsc/hash.o ucsc/linefile.o ucsc/localmem.o ucsc/sqlNum.o ucsc/zlibFace.o ucsc/dystring.o ucsc/hmmstats.o ucsc/obscure.o ucsc/rangeTree.o ucsc/rbTree.o ucsc/memalloc.o ucsc/dlist.o ucsc/filePath.o ucsc/htmlPage.o ucsc/udc.o ucsc/net.o ucsc/bits.o ucsc/twoBit.o ucsc/_cheapcgi.o ucsc/https.o ucsc/base64.o ucsc/verbose.o ucsc/os.o ucsc/wildcmp.o ucsc/_portimpl.o -lz -pthread -lssl -lcrypto -lcurl -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-rtracklayer/00new/rtracklayer/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘offset’ from package ‘stats’ in package ‘rtracklayer’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rtracklayer’ as ‘rtracklayer_1.73.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rtracklayer)
+* installing *source* package ‘Rhdf5lib’ ...
+** this is package ‘Rhdf5lib’ version ‘2.1.0’
+** package ‘Rhdf5lib’ successfully unpacked and MD5 sums checked
+** using staged installation
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_DECL___BUILTIN_CLZLL
+-- Performing Test HAVE_DECL___BUILTIN_CLZLL - Success
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/_build_libaec
+[ 11%] Building C object src/CMakeFiles/aec-static-objects.dir/encode.c.o
+[ 22%] Building C object src/CMakeFiles/aec-static-objects.dir/encode_accessors.c.o
+[ 33%] Building C object src/CMakeFiles/aec-static-objects.dir/decode.c.o
+[ 44%] Building C object src/CMakeFiles/aec-static-objects.dir/vector.c.o
+[ 44%] Built target aec-static-objects
+[ 55%] Linking C static library libaec.a
+[ 55%] Built target aec-static
+[ 66%] Building C object src/CMakeFiles/sz-static-objects.dir/sz_compat.c.o
+[ 66%] Built target sz-static-objects
+[ 77%] Linking C static library libsz.a
+[ 77%] Built target sz-static
+[ 88%] Building C object src/CMakeFiles/graec.dir/graec.c.o
+[100%] Linking C executable graec
+[100%] Built target graec
+-- Install configuration: "Release"
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/cmake/libaec/libaec-config.cmake
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/cmake/libaec/libaec-config-version.cmake
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/libaec.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/szlib.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/libaec.a
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/libsz.a
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/cmake/libaec/libaec-targets.cmake
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/cmake/libaec/libaec-targets-release.cmake
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Final: share
+-- Looking for include file sys/file.h
+-- Looking for include file sys/file.h - found
+-- Looking for include files sys/file.h, sys/ioctl.h
+-- Looking for include files sys/file.h, sys/ioctl.h - found
+-- Looking for 3 include files sys/file.h, ..., sys/resource.h
+-- Looking for 3 include files sys/file.h, ..., sys/resource.h - found
+-- Looking for 4 include files sys/file.h, ..., sys/socket.h
+-- Looking for 4 include files sys/file.h, ..., sys/socket.h - found
+-- Looking for 5 include files sys/file.h, ..., sys/stat.h
+-- Looking for 5 include files sys/file.h, ..., sys/stat.h - found
+-- Looking for 6 include files sys/file.h, ..., sys/time.h
+-- Looking for 6 include files sys/file.h, ..., sys/time.h - found
+-- Looking for 7 include files sys/file.h, ..., sys/types.h
+-- Looking for 7 include files sys/file.h, ..., sys/types.h - found
+-- Looking for 8 include files sys/file.h, ..., features.h
+-- Looking for 8 include files sys/file.h, ..., features.h - found
+-- Looking for 9 include files sys/file.h, ..., dirent.h
+-- Looking for 9 include files sys/file.h, ..., dirent.h - found
+-- Looking for 10 include files sys/file.h, ..., unistd.h
+-- Looking for 10 include files sys/file.h, ..., unistd.h - found
+-- Looking for 11 include files sys/file.h, ..., pwd.h
+-- Looking for 11 include files sys/file.h, ..., pwd.h - found
+-- Looking for 12 include files sys/file.h, ..., pthread.h
+-- Looking for 12 include files sys/file.h, ..., pthread.h - found
+-- Looking for 13 include files sys/file.h, ..., dlfcn.h
+-- Looking for 13 include files sys/file.h, ..., dlfcn.h - found
+-- Looking for 14 include files sys/file.h, ..., netinet/in.h
+-- Looking for 14 include files sys/file.h, ..., netinet/in.h - found
+-- Looking for 15 include files sys/file.h, ..., netdb.h
+-- Looking for 15 include files sys/file.h, ..., netdb.h - found
+-- Looking for 16 include files sys/file.h, ..., arpa/inet.h
+-- Looking for 16 include files sys/file.h, ..., arpa/inet.h - found
+-- Looking for include file quadmath.h
+-- Looking for include file quadmath.h - found
+-- Looking for ceil in m;
+-- Looking for ceil in m; - found
+-- Looking for dlopen in dl;m
+-- Looking for dlopen in dl;m - found
+-- Looking for WSAStartup in ws2_32;m;dl
+-- Looking for WSAStartup in ws2_32;m;dl - not found
+-- Looking for gethostbyname in wsock32;m;dl
+-- Looking for gethostbyname in wsock32;m;dl - not found
+-- Looking for gethostname in ucb;m;dl
+-- Looking for gethostname in ucb;m;dl - not found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of float
+-- Check size of float - done
+-- Check size of double
+-- Check size of double - done
+-- Check size of long double
+-- Check size of long double - done
+-- Check size of int8_t
+-- Check size of int8_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of int_least8_t
+-- Check size of int_least8_t - done
+-- Check size of uint_least8_t
+-- Check size of uint_least8_t - done
+-- Check size of int_fast8_t
+-- Check size of int_fast8_t - done
+-- Check size of uint_fast8_t
+-- Check size of uint_fast8_t - done
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of int_least16_t
+-- Check size of int_least16_t - done
+-- Check size of uint_least16_t
+-- Check size of uint_least16_t - done
+-- Check size of int_fast16_t
+-- Check size of int_fast16_t - done
+-- Check size of uint_fast16_t
+-- Check size of uint_fast16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of int_least32_t
+-- Check size of int_least32_t - done
+-- Check size of uint_least32_t
+-- Check size of uint_least32_t - done
+-- Check size of int_fast32_t
+-- Check size of int_fast32_t - done
+-- Check size of uint_fast32_t
+-- Check size of uint_fast32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of int_least64_t
+-- Check size of int_least64_t - done
+-- Check size of uint_least64_t
+-- Check size of uint_least64_t - done
+-- Check size of int_fast64_t
+-- Check size of int_fast64_t - done
+-- Check size of uint_fast64_t
+-- Check size of uint_fast64_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of ptrdiff_t
+-- Check size of ptrdiff_t - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Check size of _Bool
+-- Check size of _Bool - done
+-- Looking for CLOCK_MONOTONIC
+-- Looking for CLOCK_MONOTONIC - not found
+-- Performing Test H5_HAVE_TM_GMTOFF
+-- Performing Test H5_HAVE_TM_GMTOFF - Success
+-- Performing Test H5_HAVE___TM_GMTOFF
+-- Performing Test H5_HAVE___TM_GMTOFF - Failed
+-- Performing Test H5_HAVE_STRUCT_TIMEZONE
+-- Performing Test H5_HAVE_STRUCT_TIMEZONE - Failed
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Performing Test H5_HAVE_STAT_ST_BLOCKS
+-- Performing Test H5_HAVE_STAT_ST_BLOCKS - Success
+-- Looking for ioctl
+-- Looking for ioctl - found
+-- Performing Test H5_HAVE_STRUCT_VIDEOCONFIG
+-- Performing Test H5_HAVE_STRUCT_VIDEOCONFIG - Failed
+-- Performing Test H5_HAVE_STRUCT_TEXT_INFO
+-- Performing Test H5_HAVE_STRUCT_TEXT_INFO - Failed
+-- Looking for _getvideoconfig
+-- Looking for _getvideoconfig - not found
+-- Looking for gettextinfo
+-- Looking for gettextinfo - not found
+-- Looking for _scrsize
+-- Looking for _scrsize - not found
+-- Looking for GetConsoleScreenBufferInfo
+-- Looking for GetConsoleScreenBufferInfo - not found
+-- Looking for TIOCGWINSZ
+-- Looking for TIOCGWINSZ - found
+-- Looking for TIOCGETD
+-- Looking for TIOCGETD - found
+-- Looking for alarm
+-- Looking for alarm - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for flock
+-- Looking for flock - found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for gethostname
+-- Looking for gethostname - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for pread
+-- Looking for pread - found
+-- Looking for pwrite
+-- Looking for pwrite - found
+-- Looking for rand_r
+-- Looking for rand_r - found
+-- Looking for random
+-- Looking for random - found
+-- Looking for strcasestr
+-- Looking for strcasestr - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for symlink
+-- Looking for symlink - found
+-- Looking for tmpfile
+-- Looking for tmpfile - found
+-- Looking for asprintf
+-- Looking for asprintf - found
+-- Looking for vasprintf
+-- Looking for vasprintf - found
+-- Looking for waitpid
+-- Looking for waitpid - found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for clock_gettime in posix4
+-- Looking for clock_gettime in posix4 - not found
+-- Check size of CLOCK_MONOTONIC_COARSE
+-- Check size of CLOCK_MONOTONIC_COARSE - done
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Checking if _Float16 support is available
+-- Check size of _Float16
+-- Check size of _Float16 - done
+-- Looking for FLT16_EPSILON
+-- Looking for FLT16_EPSILON - found
+-- Looking for FLT16_MIN
+-- Looking for FLT16_MIN - found
+-- Looking for FLT16_MAX
+-- Looking for FLT16_MAX - found
+-- Looking for FLT16_MIN_10_EXP
+-- Looking for FLT16_MIN_10_EXP - found
+-- Looking for FLT16_MAX_10_EXP
+-- Looking for FLT16_MAX_10_EXP - found
+-- Looking for FLT16_MANT_DIG
+-- Looking for FLT16_MANT_DIG - found
+-- Looking for fabsf16
+-- Looking for fabsf16 - not found
+-- Found Perl: /usr/bin/perl (found version "5.38.2") 
+-- ... disable color and URL extended diagnostic messages
+-- ....All Warnings are enabled
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ... disable color and URL extended diagnostic messages
+-- ....All Warnings are enabled
+-- Configuring done (16.6s)
+-- Generating done (0.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    HDF5_BUILD_EXAMPLES
+
+
+-- Build files have been written to: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/_build_hdf5
+[  0%] Building C object src/CMakeFiles/hdf5-static.dir/H5.c.o
+[  0%] Building C object src/CMakeFiles/hdf5-static.dir/H5build_settings.c.o
+[  0%] Building C object src/CMakeFiles/hdf5-static.dir/H5checksum.c.o
+[  1%] Building C object src/CMakeFiles/hdf5-static.dir/H5dbg.c.o
+[  1%] Building C object src/CMakeFiles/hdf5-static.dir/H5mpi.c.o
+[  1%] Building C object src/CMakeFiles/hdf5-static.dir/H5system.c.o
+[  1%] Building C object src/CMakeFiles/hdf5-static.dir/H5timer.c.o
+[  2%] Building C object src/CMakeFiles/hdf5-static.dir/H5trace.c.o
+[  2%] Building C object src/CMakeFiles/hdf5-static.dir/H5A.c.o
+[  2%] Building C object src/CMakeFiles/hdf5-static.dir/H5Abtree2.c.o
+[  2%] Building C object src/CMakeFiles/hdf5-static.dir/H5Adense.c.o
+[  3%] Building C object src/CMakeFiles/hdf5-static.dir/H5Adeprec.c.o
+[  3%] Building C object src/CMakeFiles/hdf5-static.dir/H5Aint.c.o
+[  3%] Building C object src/CMakeFiles/hdf5-static.dir/H5Atest.c.o
+[  3%] Building C object src/CMakeFiles/hdf5-static.dir/H5AC.c.o
+[  4%] Building C object src/CMakeFiles/hdf5-static.dir/H5ACdbg.c.o
+[  4%] Building C object src/CMakeFiles/hdf5-static.dir/H5ACmpio.c.o
+[  4%] Building C object src/CMakeFiles/hdf5-static.dir/H5ACproxy_entry.c.o
+[  4%] Building C object src/CMakeFiles/hdf5-static.dir/H5B.c.o
+[  5%] Building C object src/CMakeFiles/hdf5-static.dir/H5Bcache.c.o
+[  5%] Building C object src/CMakeFiles/hdf5-static.dir/H5Bdbg.c.o
+[  5%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2.c.o
+[  5%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2cache.c.o
+[  6%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2dbg.c.o
+[  6%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2hdr.c.o
+[  6%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2int.c.o
+[  6%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2internal.c.o
+[  7%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2leaf.c.o
+[  7%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2stat.c.o
+[  7%] Building C object src/CMakeFiles/hdf5-static.dir/H5B2test.c.o
+[  7%] Building C object src/CMakeFiles/hdf5-static.dir/H5C.c.o
+[  8%] Building C object src/CMakeFiles/hdf5-static.dir/H5Cdbg.c.o
+[  8%] Building C object src/CMakeFiles/hdf5-static.dir/H5Centry.c.o
+[  8%] Building C object src/CMakeFiles/hdf5-static.dir/H5Cepoch.c.o
+[  8%] Building C object src/CMakeFiles/hdf5-static.dir/H5Cimage.c.o
+[  9%] Building C object src/CMakeFiles/hdf5-static.dir/H5Cint.c.o
+[  9%] Building C object src/CMakeFiles/hdf5-static.dir/H5Clog.c.o
+[  9%] Building C object src/CMakeFiles/hdf5-static.dir/H5Clog_json.c.o
+[  9%] Building C object src/CMakeFiles/hdf5-static.dir/H5Clog_trace.c.o
+[ 10%] Building C object src/CMakeFiles/hdf5-static.dir/H5Cmpio.c.o
+[ 10%] Building C object src/CMakeFiles/hdf5-static.dir/H5Cprefetched.c.o
+[ 10%] Building C object src/CMakeFiles/hdf5-static.dir/H5Cquery.c.o
+[ 10%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ctag.c.o
+[ 11%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ctest.c.o
+[ 11%] Building C object src/CMakeFiles/hdf5-static.dir/H5CX.c.o
+[ 11%] Building C object src/CMakeFiles/hdf5-static.dir/H5D.c.o
+[ 11%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dbtree.c.o
+[ 12%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dbtree2.c.o
+[ 12%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dchunk.c.o
+[ 12%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dcompact.c.o
+[ 12%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dcontig.c.o
+[ 13%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ddbg.c.o
+[ 13%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ddeprec.c.o
+[ 13%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dearray.c.o
+[ 13%] Building C object src/CMakeFiles/hdf5-static.dir/H5Defl.c.o
+[ 14%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dfarray.c.o
+[ 14%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dfill.c.o
+[ 14%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dint.c.o
+[ 14%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dio.c.o
+[ 15%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dlayout.c.o
+[ 15%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dmpio.c.o
+[ 15%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dnone.c.o
+[ 15%] Building C object src/CMakeFiles/hdf5-static.dir/H5Doh.c.o
+[ 16%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dscatgath.c.o
+[ 16%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dselect.c.o
+[ 16%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dsingle.c.o
+[ 17%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dtest.c.o
+[ 17%] Building C object src/CMakeFiles/hdf5-static.dir/H5Dvirtual.c.o
+[ 17%] Building C object src/CMakeFiles/hdf5-static.dir/H5E.c.o
+[ 17%] Building C object src/CMakeFiles/hdf5-static.dir/H5Edeprec.c.o
+[ 18%] Building C object src/CMakeFiles/hdf5-static.dir/H5Eint.c.o
+[ 18%] Building C object src/CMakeFiles/hdf5-static.dir/H5EA.c.o
+[ 18%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAcache.c.o
+[ 18%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAdbg.c.o
+[ 19%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAdblkpage.c.o
+[ 19%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAdblock.c.o
+[ 19%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAhdr.c.o
+[ 19%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAiblock.c.o
+[ 20%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAint.c.o
+[ 20%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAsblock.c.o
+[ 20%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAstat.c.o
+[ 20%] Building C object src/CMakeFiles/hdf5-static.dir/H5EAtest.c.o
+[ 21%] Building C object src/CMakeFiles/hdf5-static.dir/H5ES.c.o
+[ 21%] Building C object src/CMakeFiles/hdf5-static.dir/H5ESevent.c.o
+[ 21%] Building C object src/CMakeFiles/hdf5-static.dir/H5ESint.c.o
+[ 21%] Building C object src/CMakeFiles/hdf5-static.dir/H5ESlist.c.o
+[ 22%] Building C object src/CMakeFiles/hdf5-static.dir/H5F.c.o
+[ 22%] Building C object src/CMakeFiles/hdf5-static.dir/H5Faccum.c.o
+[ 22%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fcwfs.c.o
+[ 22%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fdbg.c.o
+[ 23%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fdeprec.c.o
+[ 23%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fefc.c.o
+[ 23%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ffake.c.o
+[ 23%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fint.c.o
+[ 24%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fio.c.o
+[ 24%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fmount.c.o
+[ 24%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fmpi.c.o
+[ 24%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fquery.c.o
+[ 25%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fsfile.c.o
+[ 25%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fspace.c.o
+[ 25%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fsuper.c.o
+[ 25%] Building C object src/CMakeFiles/hdf5-static.dir/H5Fsuper_cache.c.o
+[ 26%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ftest.c.o
+[ 26%] Building C object src/CMakeFiles/hdf5-static.dir/H5FA.c.o
+[ 26%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAcache.c.o
+[ 26%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAdbg.c.o
+[ 27%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAdblkpage.c.o
+[ 27%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAdblock.c.o
+[ 27%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAhdr.c.o
+[ 27%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAint.c.o
+[ 28%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAstat.c.o
+[ 28%] Building C object src/CMakeFiles/hdf5-static.dir/H5FAtest.c.o
+[ 28%] Building C object src/CMakeFiles/hdf5-static.dir/H5FD.c.o
+[ 28%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDcore.c.o
+[ 29%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDdirect.c.o
+[ 29%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDfamily.c.o
+[ 29%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDhdfs.c.o
+[ 29%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDint.c.o
+[ 30%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDlog.c.o
+[ 30%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDmirror.c.o
+[ 30%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDmpi.c.o
+[ 30%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDmpio.c.o
+[ 31%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDmulti.c.o
+[ 31%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDonion.c.o
+[ 31%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDonion_header.c.o
+[ 31%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDonion_history.c.o
+[ 32%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDonion_index.c.o
+[ 32%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDperform.c.o
+[ 32%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDros3.c.o
+[ 32%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDs3comms.c.o
+/tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/src/H5FDs3comms.c: In function ‘H5FD__s3comms_load_aws_creds_from_file’:
+/tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/src/H5FDs3comms.c:1825:17: warning: ‘__builtin_strncpy’ specified bound depends on the length of the source argument [-Wstringop-truncation]
+ 1825 |                 strncpy(setting_pointers[setting_i], (const char *)line_buffer, strlen(line_buffer));
+      |                 ^
+/tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/src/H5FDs3comms.c:1825:17: note: length computed here
+ 1825 |                 strncpy(setting_pointers[setting_i], (const char *)line_buffer, strlen(line_buffer));
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:548,
+                 from /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/src/H5private.h:34,
+                 from /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/src/H5FDs3comms.c:38:
+In function ‘strncpy’,
+    inlined from ‘H5FD_s3comms_parse_url’ at /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/src/H5FDs3comms.c:2008:5:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:10: warning: ‘__builtin_strncpy’ destination unchanged after copying no bytes [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 33%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDsec2.c.o
+[ 33%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDspace.c.o
+[ 33%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDsplitter.c.o
+[ 34%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDstdio.c.o
+[ 34%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDtest.c.o
+[ 34%] Building C object src/CMakeFiles/hdf5-static.dir/H5FDwindows.c.o
+[ 34%] Building C object src/CMakeFiles/hdf5-static.dir/H5FL.c.o
+[ 35%] Building C object src/CMakeFiles/hdf5-static.dir/H5FO.c.o
+[ 35%] Building C object src/CMakeFiles/hdf5-static.dir/H5FS.c.o
+[ 35%] Building C object src/CMakeFiles/hdf5-static.dir/H5FScache.c.o
+[ 35%] Building C object src/CMakeFiles/hdf5-static.dir/H5FSdbg.c.o
+[ 36%] Building C object src/CMakeFiles/hdf5-static.dir/H5FSint.c.o
+[ 36%] Building C object src/CMakeFiles/hdf5-static.dir/H5FSsection.c.o
+[ 36%] Building C object src/CMakeFiles/hdf5-static.dir/H5FSstat.c.o
+[ 36%] Building C object src/CMakeFiles/hdf5-static.dir/H5FStest.c.o
+[ 37%] Building C object src/CMakeFiles/hdf5-static.dir/H5G.c.o
+[ 37%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gbtree2.c.o
+[ 37%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gcache.c.o
+[ 37%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gcompact.c.o
+[ 38%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gdense.c.o
+[ 38%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gdeprec.c.o
+[ 38%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gent.c.o
+[ 38%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gint.c.o
+[ 39%] Building C object src/CMakeFiles/hdf5-static.dir/H5Glink.c.o
+[ 39%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gloc.c.o
+[ 39%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gname.c.o
+[ 39%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gnode.c.o
+[ 40%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gobj.c.o
+[ 40%] Building C object src/CMakeFiles/hdf5-static.dir/H5Goh.c.o
+[ 40%] Building C object src/CMakeFiles/hdf5-static.dir/H5Groot.c.o
+[ 40%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gstab.c.o
+[ 41%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gtest.c.o
+[ 41%] Building C object src/CMakeFiles/hdf5-static.dir/H5Gtraverse.c.o
+[ 41%] Building C object src/CMakeFiles/hdf5-static.dir/H5HF.c.o
+[ 41%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFbtree2.c.o
+[ 42%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFcache.c.o
+[ 42%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFdbg.c.o
+[ 42%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFdblock.c.o
+[ 42%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFdtable.c.o
+[ 43%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFhdr.c.o
+[ 43%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFhuge.c.o
+[ 43%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFiblock.c.o
+[ 43%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFiter.c.o
+[ 44%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFman.c.o
+[ 44%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFsection.c.o
+[ 44%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFspace.c.o
+[ 44%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFstat.c.o
+[ 45%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFtest.c.o
+[ 45%] Building C object src/CMakeFiles/hdf5-static.dir/H5HFtiny.c.o
+[ 45%] Building C object src/CMakeFiles/hdf5-static.dir/H5HG.c.o
+[ 45%] Building C object src/CMakeFiles/hdf5-static.dir/H5HGcache.c.o
+[ 46%] Building C object src/CMakeFiles/hdf5-static.dir/H5HGdbg.c.o
+[ 46%] Building C object src/CMakeFiles/hdf5-static.dir/H5HGquery.c.o
+[ 46%] Building C object src/CMakeFiles/hdf5-static.dir/H5HL.c.o
+[ 46%] Building C object src/CMakeFiles/hdf5-static.dir/H5HLcache.c.o
+[ 47%] Building C object src/CMakeFiles/hdf5-static.dir/H5HLdbg.c.o
+[ 47%] Building C object src/CMakeFiles/hdf5-static.dir/H5HLdblk.c.o
+[ 47%] Building C object src/CMakeFiles/hdf5-static.dir/H5HLint.c.o
+[ 47%] Building C object src/CMakeFiles/hdf5-static.dir/H5HLprfx.c.o
+[ 48%] Building C object src/CMakeFiles/hdf5-static.dir/H5I.c.o
+[ 48%] Building C object src/CMakeFiles/hdf5-static.dir/H5Idbg.c.o
+[ 48%] Building C object src/CMakeFiles/hdf5-static.dir/H5Iint.c.o
+[ 48%] Building C object src/CMakeFiles/hdf5-static.dir/H5Itest.c.o
+[ 49%] Building C object src/CMakeFiles/hdf5-static.dir/H5L.c.o
+[ 49%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ldeprec.c.o
+[ 49%] Building C object src/CMakeFiles/hdf5-static.dir/H5Lexternal.c.o
+[ 50%] Building C object src/CMakeFiles/hdf5-static.dir/H5Lint.c.o
+[ 50%] Building C object src/CMakeFiles/hdf5-static.dir/H5M.c.o
+[ 50%] Building C object src/CMakeFiles/hdf5-static.dir/H5MF.c.o
+[ 50%] Building C object src/CMakeFiles/hdf5-static.dir/H5MFaggr.c.o
+[ 51%] Building C object src/CMakeFiles/hdf5-static.dir/H5MFdbg.c.o
+[ 51%] Building C object src/CMakeFiles/hdf5-static.dir/H5MFsection.c.o
+[ 51%] Building C object src/CMakeFiles/hdf5-static.dir/H5MM.c.o
+[ 51%] Building C object src/CMakeFiles/hdf5-static.dir/H5O.c.o
+[ 52%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oainfo.c.o
+[ 52%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oalloc.c.o
+[ 52%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oattr.c.o
+[ 52%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oattribute.c.o
+[ 53%] Building C object src/CMakeFiles/hdf5-static.dir/H5Obogus.c.o
+[ 53%] Building C object src/CMakeFiles/hdf5-static.dir/H5Obtreek.c.o
+[ 53%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ocache.c.o
+[ 53%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ocache_image.c.o
+[ 54%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ochunk.c.o
+[ 54%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ocont.c.o
+[ 54%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ocopy.c.o
+[ 54%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ocopy_ref.c.o
+[ 55%] Building C object src/CMakeFiles/hdf5-static.dir/H5Odbg.c.o
+[ 55%] Building C object src/CMakeFiles/hdf5-static.dir/H5Odeprec.c.o
+[ 55%] Building C object src/CMakeFiles/hdf5-static.dir/H5Odrvinfo.c.o
+[ 55%] Building C object src/CMakeFiles/hdf5-static.dir/H5Odtype.c.o
+[ 56%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oefl.c.o
+[ 56%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ofill.c.o
+[ 56%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oflush.c.o
+[ 56%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ofsinfo.c.o
+[ 57%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oginfo.c.o
+[ 57%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oint.c.o
+[ 57%] Building C object src/CMakeFiles/hdf5-static.dir/H5Olayout.c.o
+[ 57%] Building C object src/CMakeFiles/hdf5-static.dir/H5Olinfo.c.o
+[ 58%] Building C object src/CMakeFiles/hdf5-static.dir/H5Olink.c.o
+[ 58%] Building C object src/CMakeFiles/hdf5-static.dir/H5Omessage.c.o
+[ 58%] Building C object src/CMakeFiles/hdf5-static.dir/H5Omtime.c.o
+[ 58%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oname.c.o
+[ 59%] Building C object src/CMakeFiles/hdf5-static.dir/H5Onull.c.o
+[ 59%] Building C object src/CMakeFiles/hdf5-static.dir/H5Opline.c.o
+[ 59%] Building C object src/CMakeFiles/hdf5-static.dir/H5Orefcount.c.o
+[ 59%] Building C object src/CMakeFiles/hdf5-static.dir/H5Osdspace.c.o
+[ 60%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oshared.c.o
+[ 60%] Building C object src/CMakeFiles/hdf5-static.dir/H5Oshmesg.c.o
+[ 60%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ostab.c.o
+[ 60%] Building C object src/CMakeFiles/hdf5-static.dir/H5Otest.c.o
+[ 61%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ounknown.c.o
+[ 61%] Building C object src/CMakeFiles/hdf5-static.dir/H5P.c.o
+[ 61%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pacpl.c.o
+[ 61%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pdapl.c.o
+[ 62%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pdcpl.c.o
+[ 62%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pdeprec.c.o
+[ 62%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pdxpl.c.o
+[ 62%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pencdec.c.o
+[ 63%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pfapl.c.o
+[ 63%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pfcpl.c.o
+[ 63%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pfmpl.c.o
+[ 63%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pgcpl.c.o
+[ 64%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pint.c.o
+[ 64%] Building C object src/CMakeFiles/hdf5-static.dir/H5Plapl.c.o
+[ 64%] Building C object src/CMakeFiles/hdf5-static.dir/H5Plcpl.c.o
+[ 64%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pmapl.c.o
+[ 65%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pmcpl.c.o
+[ 65%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pocpl.c.o
+[ 65%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pocpypl.c.o
+[ 65%] Building C object src/CMakeFiles/hdf5-static.dir/H5Pstrcpl.c.o
+[ 66%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ptest.c.o
+[ 66%] Building C object src/CMakeFiles/hdf5-static.dir/H5PB.c.o
+[ 66%] Building C object src/CMakeFiles/hdf5-static.dir/H5PL.c.o
+[ 67%] Building C object src/CMakeFiles/hdf5-static.dir/H5PLint.c.o
+[ 67%] Building C object src/CMakeFiles/hdf5-static.dir/H5PLpath.c.o
+[ 67%] Building C object src/CMakeFiles/hdf5-static.dir/H5PLplugin_cache.c.o
+[ 67%] Building C object src/CMakeFiles/hdf5-static.dir/H5R.c.o
+[ 68%] Building C object src/CMakeFiles/hdf5-static.dir/H5Rdeprec.c.o
+[ 68%] Building C object src/CMakeFiles/hdf5-static.dir/H5Rint.c.o
+[ 68%] Building C object src/CMakeFiles/hdf5-static.dir/H5UC.c.o
+[ 68%] Building C object src/CMakeFiles/hdf5-static.dir/H5RS.c.o
+[ 69%] Building C object src/CMakeFiles/hdf5-static.dir/H5S.c.o
+[ 69%] Building C object src/CMakeFiles/hdf5-static.dir/H5Sall.c.o
+[ 69%] Building C object src/CMakeFiles/hdf5-static.dir/H5Sdbg.c.o
+[ 69%] Building C object src/CMakeFiles/hdf5-static.dir/H5Sdeprec.c.o
+[ 70%] Building C object src/CMakeFiles/hdf5-static.dir/H5Shyper.c.o
+[ 70%] Building C object src/CMakeFiles/hdf5-static.dir/H5Smpio.c.o
+[ 70%] Building C object src/CMakeFiles/hdf5-static.dir/H5Snone.c.o
+[ 70%] Building C object src/CMakeFiles/hdf5-static.dir/H5Spoint.c.o
+[ 71%] Building C object src/CMakeFiles/hdf5-static.dir/H5Sselect.c.o
+[ 71%] Building C object src/CMakeFiles/hdf5-static.dir/H5Stest.c.o
+[ 71%] Building C object src/CMakeFiles/hdf5-static.dir/H5SL.c.o
+[ 71%] Building C object src/CMakeFiles/hdf5-static.dir/H5SM.c.o
+[ 72%] Building C object src/CMakeFiles/hdf5-static.dir/H5SMbtree2.c.o
+[ 72%] Building C object src/CMakeFiles/hdf5-static.dir/H5SMcache.c.o
+[ 72%] Building C object src/CMakeFiles/hdf5-static.dir/H5SMmessage.c.o
+[ 72%] Building C object src/CMakeFiles/hdf5-static.dir/H5SMtest.c.o
+[ 73%] Building C object src/CMakeFiles/hdf5-static.dir/H5T.c.o
+[ 73%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tarray.c.o
+[ 73%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tbit.c.o
+[ 73%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tcommit.c.o
+[ 74%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tcompound.c.o
+[ 74%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv.c.o
+[ 74%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_integer.c.o
+[ 74%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_float.c.o
+[ 75%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_string.c.o
+[ 75%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_bitfield.c.o
+[ 75%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_compound.c.o
+[ 75%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_reference.c.o
+[ 76%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_enum.c.o
+[ 76%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_vlen.c.o
+[ 76%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tconv_array.c.o
+[ 76%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tcset.c.o
+[ 77%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tdbg.c.o
+[ 77%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tdeprec.c.o
+[ 77%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tenum.c.o
+[ 77%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tfields.c.o
+[ 78%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tfixed.c.o
+[ 78%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tfloat.c.o
+[ 78%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tinit_float.c.o
+[ 78%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tnative.c.o
+[ 79%] Building C object src/CMakeFiles/hdf5-static.dir/H5Toffset.c.o
+[ 79%] Building C object src/CMakeFiles/hdf5-static.dir/H5Toh.c.o
+[ 79%] Building C object src/CMakeFiles/hdf5-static.dir/H5Topaque.c.o
+[ 79%] Building C object src/CMakeFiles/hdf5-static.dir/H5Torder.c.o
+[ 80%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tpad.c.o
+[ 80%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tprecis.c.o
+[ 80%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tref.c.o
+[ 80%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tstrpad.c.o
+[ 81%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tvisit.c.o
+[ 81%] Building C object src/CMakeFiles/hdf5-static.dir/H5Tvlen.c.o
+[ 81%] Building C object src/CMakeFiles/hdf5-static.dir/H5TS.c.o
+[ 81%] Building C object src/CMakeFiles/hdf5-static.dir/H5VL.c.o
+[ 82%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLcallback.c.o
+[ 82%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLdyn_ops.c.o
+[ 82%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLint.c.o
+[ 82%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative.c.o
+[ 83%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_attr.c.o
+[ 83%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_blob.c.o
+[ 83%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_dataset.c.o
+[ 84%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_datatype.c.o
+[ 84%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_file.c.o
+[ 84%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_group.c.o
+[ 84%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_link.c.o
+[ 85%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_introspect.c.o
+[ 85%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_object.c.o
+[ 85%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLnative_token.c.o
+[ 85%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLpassthru.c.o
+[ 86%] Building C object src/CMakeFiles/hdf5-static.dir/H5VLtest.c.o
+[ 86%] Building C object src/CMakeFiles/hdf5-static.dir/H5VM.c.o
+[ 86%] Building C object src/CMakeFiles/hdf5-static.dir/H5WB.c.o
+[ 86%] Building C object src/CMakeFiles/hdf5-static.dir/H5Z.c.o
+[ 87%] Building C object src/CMakeFiles/hdf5-static.dir/H5Zdeflate.c.o
+[ 87%] Building C object src/CMakeFiles/hdf5-static.dir/H5Zfletcher32.c.o
+[ 87%] Building C object src/CMakeFiles/hdf5-static.dir/H5Znbit.c.o
+[ 87%] Building C object src/CMakeFiles/hdf5-static.dir/H5Zscaleoffset.c.o
+[ 88%] Building C object src/CMakeFiles/hdf5-static.dir/H5Zshuffle.c.o
+[ 88%] Building C object src/CMakeFiles/hdf5-static.dir/H5Zszip.c.o
+[ 88%] Building C object src/CMakeFiles/hdf5-static.dir/H5Ztrans.c.o
+[ 88%] Linking C static library ../bin/libhdf5.a
+[ 88%] Built target hdf5-static
+[ 89%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5DO.c.o
+[ 89%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5DS.c.o
+[ 89%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5IM.c.o
+[ 89%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5LT.c.o
+[ 90%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5LTanalyze.c.o
+[ 90%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5LTparse.c.o
+[ 90%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5PT.c.o
+[ 90%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5TB.c.o
+[ 91%] Building C object hl/src/CMakeFiles/hdf5_hl-static.dir/H5LD.c.o
+[ 91%] Linking C static library ../../bin/libhdf5_hl.a
+[ 91%] Built target hdf5_hl-static
+[ 92%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5AbstractDs.cpp.o
+[ 92%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5ArrayType.cpp.o
+[ 92%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5AtomType.cpp.o
+[ 92%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5Attribute.cpp.o
+[ 93%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5CommonFG.cpp.o
+[ 93%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5CompType.cpp.o
+[ 93%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5DataSet.cpp.o
+[ 93%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5DataSpace.cpp.o
+[ 94%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5DataType.cpp.o
+[ 94%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5DaccProp.cpp.o
+[ 94%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5DcreatProp.cpp.o
+[ 94%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5DxferProp.cpp.o
+[ 95%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5EnumType.cpp.o
+[ 95%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5Exception.cpp.o
+[ 95%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5FaccProp.cpp.o
+[ 95%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5FcreatProp.cpp.o
+[ 96%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5File.cpp.o
+[ 96%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5FloatType.cpp.o
+[ 96%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5Group.cpp.o
+[ 96%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5IdComponent.cpp.o
+[ 97%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5IntType.cpp.o
+[ 97%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5LaccProp.cpp.o
+[ 97%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5LcreatProp.cpp.o
+[ 97%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5Library.cpp.o
+[ 98%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5Location.cpp.o
+/tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/c++/src/H5Location.cpp: In member function ‘std::string H5::H5Location::getObjnameByIdx(hsize_t) const’:
+/tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/c++/src/H5Location.cpp:2001:46: warning: argument 1 range [9223372036854775809, 18446744073709551615] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+ 2001 |     char *name_C = new char[actual_name_len]();
+      |                                              ^
+In file included from /usr/include/c++/13/bits/exception_ptr.h:38,
+                 from /usr/include/c++/13/exception:164,
+                 from /usr/include/c++/13/ios:41,
+                 from /usr/include/c++/13/ostream:40,
+                 from /usr/include/c++/13/iostream:41,
+                 from /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/vendor/hdf5/c++/src/H5Location.cpp:13:
+/usr/include/c++/13/new:128:26: note: in a call to allocation function ‘void* operator new [](std::size_t)’ declared here
+  128 | _GLIBCXX_NODISCARD void* operator new[](std::size_t) _GLIBCXX_THROW (std::bad_alloc)
+      |                          ^~~~~~~~
+[ 98%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5Object.cpp.o
+[ 98%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5OcreatProp.cpp.o
+[ 98%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5PredType.cpp.o
+[ 99%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5PropList.cpp.o
+[ 99%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5StrType.cpp.o
+[ 99%] Building CXX object c++/src/CMakeFiles/hdf5_cpp-static.dir/H5VarLenType.cpp.o
+[ 99%] Linking CXX static library ../../bin/libhdf5_cpp.a
+[ 99%] Built target hdf5_cpp-static
+[ 99%] Building CXX object hl/c++/src/CMakeFiles/hdf5_hl_cpp-static.dir/H5PacketTable.cpp.o
+[100%] Linking CXX static library ../../../bin/libhdf5_hl_cpp.a
+[100%] Built target hdf5_hl_cpp-static
+-- Install configuration: "Release"
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/hdf5.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5api_adpt.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5encode.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5public.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Apublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5ACpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Cpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Dpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Epubgen.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Epublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5ESdevelop.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5ESpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Fpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDcore.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDdevelop.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDdirect.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDfamily.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDhdfs.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDlog.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDmirror.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDmpi.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDmpio.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDmulti.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDonion.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDros3.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDs3comms.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDsec2.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDsplitter.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDstdio.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDwindows.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDsubfiling.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FDioc.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Gpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Idevelop.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Ipublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Ldevelop.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Lpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Mpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5MMpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Opublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Ppublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5PLextern.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5PLpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Rpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Spublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Tdevelop.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Tpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5TSdevelop.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5VLconnector.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5VLconnector_passthru.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5VLnative.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5VLpassthru.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5VLpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Zdevelop.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Zpublic.h
+-- Up-to-date: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Epubgen.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5version.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5overflow.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5pubconf.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/libhdf5.a
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/pkgconfig/hdf5.pc
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/bin/h5cc
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DOpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DSpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5IMpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5LTpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5PTpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5TBpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5LDpublic.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/hdf5_hl.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/libhdf5_hl.a
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/pkgconfig/hdf5_hl.pc
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/bin/h5hlcc
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5AbstractDs.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Alltypes.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5ArrayType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5AtomType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Attribute.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Classes.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5CommonFG.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5CompType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Cpp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5CppDoc.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DataSet.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DataSpace.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DataType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DaccProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DcreatProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5DxferProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5EnumType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Exception.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FaccProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FcreatProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5File.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5FloatType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Group.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5IdComponent.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Include.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5IntType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5LaccProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5LcreatProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Library.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Location.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5Object.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5OcreatProp.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5PredType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5PropList.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5StrType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5VarLenType.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/libhdf5_cpp.a
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/pkgconfig/hdf5_cpp.pc
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/bin/h5c++
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/include/H5PacketTable.h
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/libhdf5_hl_cpp.a
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/pkgconfig/hdf5_hl_cpp.pc
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/bin/h5hlc++
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/cmake/hdf5-targets.cmake
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/cmake/hdf5-targets-release.cmake
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/cmake/hdf5-config.cmake
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/cmake/hdf5-config-version.cmake
+-- Installing: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/lib/libhdf5.settings
+-- Up-to-date: /tmp/RtmpBYWiGE/R.INSTALL54474a627c6/Rhdf5lib/inst/share/COPYING
+
+ *** caught segfault ***
+address 0x2570, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: configuration failed for package ‘Rhdf5lib’
+* removing ‘/tmp/library/Rhdf5lib’
+* installing *source* package ‘GenomicFeatures’ ...
+** this is package ‘GenomicFeatures’ version ‘1.65.0’
+** package ‘GenomicFeatures’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicFeatures.c -o R_init_GenomicFeatures.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transcriptLocs2refLocs.c -o transcriptLocs2refLocs.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicFeatures.so IRanges_stubs.o R_init_GenomicFeatures.o S4Vectors_stubs.o transcriptLocs2refLocs.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GenomicFeatures/00new/GenomicFeatures/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x1a9e0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘GenomicFeatures’
+* removing ‘/tmp/library/GenomicFeatures’
+* installing *source* package ‘rhdf5filters’ ...
+** this is package ‘rhdf5filters’ version ‘1.25.0’
+** package ‘rhdf5filters’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to enable C11 features... none needed
+configure: is NOT Bioc build machine
+configure: configuring the Zstd filter...
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for zstd.h... yes
+checking for ZSTD_decompress in -lzstd... yes
+configure: Using system Zstd library
+configure: configuring the BLOSC filter...
+checking for blosc.h... yes
+checking for blosc_compress in -lblosc... yes
+configure: Using system BLOSC library
+configure: configuring the VBZ filter
+checking whether C compiler accepts -mavx... yes
+checking for x86 avx instruction support... yes
+configure: creating ./config.status
+config.status: creating src/zstd/Makefile
+config.status: creating src/blosc/lib/blosc-1.20.1/Makefile
+config.status: creating src/blosc/Makefile
+config.status: creating src/vbz/Makefile
+config.status: creating src/vbz/vbz/Makefile
+config.status: creating src/vbz/third_party/streamvbyte/Makefile
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+make -C zstd
+make[1]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/zstd'
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -shared H5Zzstd.c -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" \
+ -lzstd -L/usr/local/lib -o libH5Zzstd.so
+make[1]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/zstd'
+make -C blosc
+make[1]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/blosc'
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -shared -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" H5Zblosc.cpp \
+-L/usr/local/lib  -lblosc -lzstd -lz -o libH5Zblosc.so 
+make[1]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/blosc'
+make -C bzip2
+make[1]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/bzip2'
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -shared H5Zbzip2.c -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" \
+-lbz2 -L/usr/local/lib -o libH5Zbz2.so
+make[1]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/bzip2'
+make -C lzf
+make[1]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/lzf'
+make -C lzf
+make[2]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/lzf/lzf'
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -c lzf_c.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -c lzf_d.c
+rm -f liblzf.a
+ar cq liblzf.a lzf_c.o lzf_d.o
+ranlib liblzf.a
+make[2]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/lzf/lzf'
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -shared H5Zlzf.c -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" \
+-I./lzf/ ./lzf/liblzf.a -L/usr/local/lib -o libH5Zlzf.so
+make[1]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/lzf'
+make -C vbz
+make[1]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/vbz'
+make -C third_party/streamvbyte
+make[2]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/vbz/third_party/streamvbyte'
+gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -Iinclude -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -mavx  -c ./src/streamvbyte_decode.c
+gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -Iinclude -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -mavx  -c ./src/streamvbyte_encode.c
+gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -Iinclude -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -mavx  -c ./src/streamvbytedelta_decode.c
+gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -Iinclude -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -mavx  -c ./src/streamvbytedelta_encode.c
+gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -Iinclude -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -mavx  -c ./src/streamvbyte_0124_encode.c
+gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -Iinclude -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -mavx  -c ./src/streamvbyte_0124_decode.c
+gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -Iinclude -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -mavx  -c ./src/streamvbyte_zigzag.c
+rm -f libstreamvbyte.a
+ar cq libstreamvbyte.a streamvbyte_decode.o streamvbyte_encode.o streamvbytedelta_decode.o streamvbytedelta_encode.o streamvbyte_0124_encode.o streamvbyte_0124_decode.o streamvbyte_zigzag.o
+ranlib libstreamvbyte.a 
+make[2]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/vbz/third_party/streamvbyte'
+make -C vbz
+make[2]: Entering directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/vbz/vbz'
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -I../third_party/streamvbyte/include/ -I../third_party/ -I../../zstd/ -mssse3 -c vbz.cpp -o vbz.o
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -I../third_party/streamvbyte/include/ -I../third_party/ -I../../zstd/ -mssse3 -c v0/vbz_streamvbyte.cpp -o v0/vbz_streamvbyte.o
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -I../third_party/streamvbyte/include/ -I../third_party/ -I../../zstd/ -mssse3 -c v1/vbz_streamvbyte.cpp -o v1/vbz_streamvbyte.o
+make[2]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/vbz/vbz'
+rm -f libvbz.a
+ar cq libvbz.a vbz/vbz.o vbz/v0/vbz_streamvbyte.o vbz/v1/vbz_streamvbyte.o
+ranlib libvbz.a
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -shared vbz_plugin.cpp \
+libvbz.a -L/usr/local/lib -lzstd third_party/streamvbyte/libstreamvbyte.a -o libH5Zvbz.so
+make[1]: Leaving directory '/tmp/Rtmp6xWlFF/R.INSTALL1a1c4ead2572/rhdf5filters/src/vbz'
+mkdir -p "/tmp/library/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp bzip2/libH5Zbz2.so blosc/libH5Zblosc.so lzf/libH5Zlzf.so zstd/libH5Zzstd.so vbz/libH5Zvbz.so "/tmp/library/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -I"/mnt/library/Rhdf5lib/include" -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhdf5filters.c -o rhdf5filters.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rhdf5filters.so rhdf5filters.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-rhdf5filters/00new/rhdf5filters/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rhdf5filters’ as ‘rhdf5filters_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhdf5filters)
+ERROR: dependency ‘GenomicFeatures’ is not available for package ‘ensembldb’
+Perhaps try a variation of:
+install.packages('GenomicFeatures')
+* removing ‘/tmp/library/ensembldb’
+* installing *source* package ‘rhdf5’ ...
+** this is package ‘rhdf5’ version ‘2.57.1’
+** package ‘rhdf5’ successfully unpacked and MD5 sums checked
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/external_filters.h
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5.c -o H5.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5A.c -o H5A.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5D.c -o H5D.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5E.c -o H5E.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5F.c -o H5F.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5G.c -o H5G.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5I.c -o H5I.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5L.c -o H5L.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5O.c -o H5O.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5P.c -o H5P.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5PL.c -o H5PL.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5R.c -o H5R.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5S.c -o H5S.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5S_extras.c -o H5S_extras.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5T.c -o H5T.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5T_extras.c -o H5T_extras.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5Z.c -o H5Z.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5constants.c -o H5constants.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c HandleList.cpp -o HandleList.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HandleListWrap.c -o HandleListWrap.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bit64conversion.c -o bit64conversion.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c external_filters.c -o external_filters.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5dump.c -o h5dump.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5ls.c -o h5ls.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5testLock.c -o h5testLock.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5writeDataFrame.c -o h5writeDataFrame.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c printdatatype.c -o printdatatype.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrap.c -o wrap.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rhdf5.so H5.o H5A.o H5D.o H5E.o H5F.o H5G.o H5I.o H5L.o H5O.o H5P.o H5PL.o H5R.o H5S.o H5S_extras.o H5T.o H5T_extras.o H5Z.o H5constants.o HandleList.o HandleListWrap.o bit64conversion.o external_filters.o h5dump.o h5ls.o h5testLock.o h5writeDataFrame.o printdatatype.o utils.o wrap.o /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-rhdf5/00new/rhdf5/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rhdf5’ as ‘rhdf5_2.57.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhdf5)
+* installing *source* package ‘h5mread’ ...
+** this is package ‘h5mread’ version ‘1.5.0’
+** package ‘h5mread’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5File.c -o H5File.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c global_errmsg_buf.c -o global_errmsg_buf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5DSetDescriptor.c -o H5DSetDescriptor.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5dimscales.c -o h5dimscales.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uaselection.c -o uaselection.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_helpers.c -o h5mread_helpers.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_startscounts.c -o h5mread_startscounts.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c TouchedChunks.c -o TouchedChunks.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_index.c -o h5mread_index.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_sparse.c -o h5mread_sparse.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread.c -o h5mread.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5summarize.c -o h5summarize.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_h5mread.c -o R_init_h5mread.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o h5mread.so S4Vectors_stubs.o H5File.o global_errmsg_buf.o H5DSetDescriptor.o h5dimscales.o uaselection.o h5mread_helpers.o h5mread_startscounts.o TouchedChunks.o h5mread_index.o h5mread_sparse.o h5mread.o h5summarize.o R_init_h5mread.o /mnt/library/Rhdf5lib/lib/libhdf5_hl.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-h5mread/00new/h5mread/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘h5mread’ as ‘h5mread_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (h5mread)
+* installing *source* package ‘alabaster.base’ ...
+** this is package ‘alabaster.base’ version ‘1.13.1’
+** package ‘alabaster.base’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check_csv.cpp -o check_csv.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check_list.cpp -o check_list.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c choose_numeric_missing_placeholder.cpp -o choose_numeric_missing_placeholder.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c is_rfc3339.cpp -o is_rfc3339.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c load_csv.cpp -o load_csv.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c load_list.cpp -o load_list.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c validate.cpp -o validate.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/library/assorthead/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c vls.cpp -o vls.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o alabaster.base.so RcppExports.o check_csv.o check_list.o choose_numeric_missing_placeholder.o is_rfc3339.o load_csv.o load_list.o validate.o vls.o /mnt/library/Rhdf5lib/lib/libhdf5_cpp.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-alabaster.base/00new/alabaster.base/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alabaster.base’ as ‘alabaster.base_1.13.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.base)
+* installing *source* package ‘alabaster.ranges’ ...
+** this is package ‘alabaster.ranges’ version ‘1.13.0’
+** package ‘alabaster.ranges’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alabaster.ranges’ as ‘alabaster.ranges_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.ranges)
+* installing *source* package ‘HDF5Array’ ...
+** this is package ‘HDF5Array’ version ‘1.41.0’
+** package ‘HDF5Array’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HDF5Array’ as ‘HDF5Array_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HDF5Array)
+* installing *source* package ‘alabaster.matrix’ ...
+** this is package ‘alabaster.matrix’ version ‘1.13.0’
+** package ‘alabaster.matrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c collect_attributes.cpp -o collect_attributes.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o alabaster.matrix.so RcppExports.o collect_attributes.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-alabaster.matrix/00new/alabaster.matrix/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alabaster.matrix’ as ‘alabaster.matrix_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.matrix)
+* installing *source* package ‘alabaster.se’ ...
+** this is package ‘alabaster.se’ version ‘1.13.0’
+** package ‘alabaster.se’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alabaster.se’ as ‘alabaster.se_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.se)
+* installing *source* package ‘alabaster.sce’ ...
+** this is package ‘alabaster.sce’ version ‘1.13.0’
+** package ‘alabaster.sce’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alabaster.sce’ as ‘alabaster.sce_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.sce)
+ERROR: dependency ‘ensembldb’ is not available for package ‘scRNAseq’
+Perhaps try a variation of:
+install.packages('ensembldb')
+* removing ‘/tmp/library/scRNAseq’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1IPER0/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘Rhdf5lib’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘GenomicFeatures’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘ensembldb’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘scRNAseq’ had non-zero exit status
+
+real	11m51.545s
+user	8m19.578s
+sys	1m36.914s

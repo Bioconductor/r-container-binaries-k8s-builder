@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 223 (9%)
+- **Successfully Built:** 233 (9%)
 - **Failed:** 0 (0%)
-- **In Progress:** 173
+- **In Progress:** 163
 - **Not Started:** 1948
 
 **Progress:** 9%
@@ -16,7 +16,7 @@
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (223)
+## Successfully Built Packages (233)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -36,6 +36,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
+| [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
 | [BiocMaintainerApp](https://bioconductor.org/packages/3.24/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocMaintainerApp) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocVersion](https://bioconductor.org/packages/3.24/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocVersion) |
@@ -44,9 +45,8 @@
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
 | [CARNIVAL](https://bioconductor.org/packages/3.24/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CARNIVAL) |
-| [CFAssay](https://bioconductor.org/packages/3.24/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CFAssay) |
 
-*... and 173 more ...*
+*... and 183 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,12 +76,11 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (173)
+## In Progress (163)
 - ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
 - ⏳ `BenchHub`
-- ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocParallel`
 - ⏳ `CIMICE`
@@ -89,10 +88,8 @@
 - ⏳ `Chicago`
 - ⏳ `DEGseq`
 - ⏳ `DeepPINCS`
-- ⏳ `DiffLogo`
 - ⏳ `EnhancedVolcano`
 - ⏳ `GCPtools`
-- ⏳ `GSEAmining`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
@@ -118,7 +115,6 @@
 - ⏳ `MACSQuantifyR`
 - ⏳ `MANOR`
 - ⏳ `MBAmethyl`
-- ⏳ `MBCB`
 - ⏳ `MBttest`
 - ⏳ `MPFE`
 - ⏳ `MSTree`
@@ -127,8 +123,12 @@
 - ⏳ `MassArray`
 - ⏳ `MassSpecWavelet`
 - ⏳ `MatrixGenerics`
+- ⏳ `Mergeomics`
+- ⏳ `ModCon`
+- ⏳ `MsStash`
+- ⏳ `MultiMed`
 
-... and 123 more ...
+... and 113 more ...
 
 ## Not Yet Started (1948)
 - ⏸️ `ABarray`
@@ -185,5 +185,5 @@
 ... and 1898 more ...
 
 ---
-*Last updated: 2026-07-17 20:25:54 UTC*
-*Packages with verified BBS status: 58*
+*Last updated: 2026-07-17 20:27:39 UTC*
+*Packages with verified BBS status: 59*
