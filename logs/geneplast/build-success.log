@@ -1,0 +1,204 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''geneplast'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'geneplast'
+also installing the dependencies ‘minet’, ‘viper’, ‘mixtools’, ‘pwr’, ‘Fletcher2013a’, ‘RTN’, ‘Fletcher2013b’, ‘geneplast.data’, ‘geneplast.data.string.v91’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/minet_3.70.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/viper_1.46.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mixtools_2.0.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pwr_1.3-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/Fletcher2013a_1.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/RTN_2.36.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/Fletcher2013b_1.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/geneplast.data_0.99.9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/geneplast.data.string.v91_0.99.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/geneplast_1.38.0.tar.gz'
+* installing *source* package ‘minet’ ...
+** this is package ‘minet’ version ‘3.70.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c aracne.cpp -o aracne.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c clr.cpp -o clr.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c minet.cpp -o minet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mrnet.cpp -o mrnet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c validate.cpp -o validate.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o minet.so aracne.o clr.o minet.o mrnet.o validate.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-minet/00new/minet/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minet’ as ‘minet_3.70.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minet)
+* installing *binary* package ‘mixtools’ ...
+* package ‘mixtools’ successfully unpacked and SHA256 sums checked
+* ‘mixtools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mixtools’ as ‘mixtools_2.0.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mixtools)
+* installing *binary* package ‘pwr’ ...
+* package ‘pwr’ successfully unpacked and SHA256 sums checked
+* ‘pwr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pwr’ as ‘pwr_1.3-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pwr)
+* installing *source* package ‘Fletcher2013a’ ...
+** this is package ‘Fletcher2013a’ version ‘1.48.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Fletcher2013a’ as ‘Fletcher2013a_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Fletcher2013a)
+* installing *source* package ‘geneplast.data.string.v91’ ...
+** this is package ‘geneplast.data.string.v91’ version ‘0.99.6’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geneplast.data.string.v91’ as ‘geneplast.data.string.v91_0.99.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneplast.data.string.v91)
+* installing *source* package ‘geneplast’ ...
+** this is package ‘geneplast’ version ‘1.38.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geneplast’ as ‘geneplast_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneplast)
+* installing *source* package ‘viper’ ...
+** this is package ‘viper’ version ‘1.46.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘viper’ as ‘viper_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viper)
+* installing *source* package ‘geneplast.data’ ...
+** this is package ‘geneplast.data’ version ‘0.99.9’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geneplast.data’ as ‘geneplast.data_0.99.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneplast.data)
+* installing *source* package ‘RTN’ ...
+** this is package ‘RTN’ version ‘2.36.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTN’ as ‘RTN_2.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTN)
+* installing *source* package ‘Fletcher2013b’ ...
+** this is package ‘Fletcher2013b’ version ‘1.48.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Note: possible error in 'att.setv(g = g, from = "degree", ': unused argument (roundleg = 1) 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning in fun(libname, pkgname) :
+  Package 'Fletcher2013b' is deprecated and will be removed from
+  Bioconductor version 3.24
+** testing if installed package can be loaded from final location
+Warning in fun(libname, pkgname) :
+  Package 'Fletcher2013b' is deprecated and will be removed from
+  Bioconductor version 3.24
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Fletcher2013b’ as ‘Fletcher2013b_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Fletcher2013b)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXhRaH2/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	3m22.962s
+user	2m20.543s
+sys	0m19.708s

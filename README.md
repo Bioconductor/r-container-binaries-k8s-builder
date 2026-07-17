@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 203 (8%)
+- **Successfully Built:** 205 (8%)
 - **Failed:** 0 (0%)
-- **In Progress:** 183
+- **In Progress:** 181
 - **Not Started:** 1998
 
 **Progress:** 8%
@@ -16,7 +16,7 @@
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (203)
+## Successfully Built Packages (205)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DeepPINCS](https://bioconductor.org/packages/3.23/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeepPINCS) |
 | [DriverNet](https://bioconductor.org/packages/3.23/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DriverNet) |
 
-*... and 153 more ...*
+*... and 155 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (183)
+## In Progress (181)
 - ⏳ `ANCOMBC`
 - ⏳ `ASGSCA`
 - ⏳ `ASSET`
@@ -128,7 +128,7 @@
 - ⏳ `HMMcopy`
 - ⏳ `HPAanalyze`
 
-... and 133 more ...
+... and 131 more ...
 
 ## Not Yet Started (1998)
 - ⏸️ `ABSSeq`
@@ -185,5 +185,5 @@
 ... and 1948 more ...
 
 ---
-*Last updated: 2026-07-17 20:36:33 UTC*
+*Last updated: 2026-07-17 20:37:27 UTC*
 *Packages with verified BBS status: 89*
