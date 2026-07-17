@@ -2,11 +2,28 @@ name: Finish Build Cycle
 
 on:
   workflow_dispatch:
+    inputs:
+      stop_confirmed:
+        description: "Confirm stop workflow has been run and all build jobs are quiesced"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 jobs:
   finish-cycle:
     runs-on: ubuntu-latest
     steps:
+      - name: Validate stop confirmation
+        run: |
+          if [[ "${{ inputs.stop_confirmed }}" != "true" ]]; then
+            echo "stop_confirmed must be set to 'true' (select it from the dropdown) before finishing cycle."
+            echo "Run the 'Stop Build Cycle' workflow first, then rerun this workflow with stop_confirmed=true."
+            exit 1
+          fi
+
       - name: Checkout code
         uses: actions/checkout@v6
         with:
@@ -98,7 +115,9 @@ jobs:
           RUNNING_JOBS=$(kubectl get jobs -n "${NAMESPACE}" -l app=bioc-builder -o name 2>/dev/null | wc -l || echo "0")
           
           if [[ "${RUNNING_JOBS}" != "0" ]]; then
-            echo "Warning: ${RUNNING_JOBS} jobs are still running. Proceeding with finish anyway..."
+            echo "Error: ${RUNNING_JOBS} jobs are still running in ${NAMESPACE}."
+            echo "Run the 'Stop Build Cycle' workflow first to quiesce all jobs, then rerun this workflow."
+            exit 1
           fi
           
           # Execute finish cycle script
