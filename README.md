@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2192 (93%)
-- **Failed:** 14 (0%)
-- **In Progress:** 66
-- **Not Started:** 72
+- **Successfully Built:** 2196 (93%)
+- **Failed:** 15 (0%)
+- **In Progress:** 64
+- **Not Started:** 69
 
 **Progress:** 94%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2192)
+## Successfully Built Packages (2196)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2142 more ...*
+*... and 2146 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (14)
+## Failed Packages (15)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -90,12 +90,13 @@
 | [VariantTools](https://bioconductor.org/packages/3.24/bioc/html/VariantTools.html) | [log](logs/VariantTools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/VariantTools) | Error: object ‘detail’ is not exported by 'namespace:Biostrings' |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
+| [metaseqR2](https://bioconductor.org/packages/3.24/bioc/html/metaseqR2.html) | [log](logs/metaseqR2/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metaseqR2) | Missing dependency: log4r<br>[CRAN Package 'log4r'](https://cran.r-project.org/web/packages/log4r/index.html) archived on 2026-07-14 as issues were not corrected in time despite reminder. |
 | [miRSM](https://bioconductor.org/packages/3.24/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRSM) | Build failed with unknown error |
 | [miRspongeR](https://bioconductor.org/packages/3.24/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (66)
+## In Progress (64)
 - ⏳ `AllelicImbalance`
 - ⏳ `BOBaFIT`
 - ⏳ `CAFE`
@@ -117,7 +118,6 @@
 - ⏳ `R3CPET`
 - ⏳ `RBedMethyl`
 - ⏳ `REDseq`
-- ⏳ `RNAmodR`
 - ⏳ `RadioGx`
 - ⏳ `ReportingTools`
 - ⏳ `SCANVIS`
@@ -131,9 +131,9 @@
 - ⏳ `canceR`
 - ⏳ `cbaf`
 - ⏳ `comapr`
-- ⏳ `decontX`
+- ⏳ `crisprShiny`
+- ⏳ `crisprVerse`
 - ⏳ `derfinderPlot`
-- ⏳ `epivizr`
 - ⏳ `epivizrChart`
 - ⏳ `fourSynergy`
 - ⏳ `geneAttribution`
@@ -141,15 +141,16 @@
 - ⏳ `intansv`
 - ⏳ `mCSEA`
 - ⏳ `maser`
-- ⏳ `metaseqR2`
 - ⏳ `methylPipe`
 - ⏳ `minfi`
 - ⏳ `motifbreakR`
 - ⏳ `msgbsR`
+- ⏳ `multicrispr`
+- ⏳ `octad`
 
-... and 16 more ...
+... and 14 more ...
 
-## Not Yet Started (72)
+## Not Yet Started (69)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
@@ -186,8 +187,6 @@
 - ⏸️ `clipper`
 - ⏸️ `compEpiTools`
 - ⏸️ `conumee`
-- ⏸️ `crisprShiny`
-- ⏸️ `crisprVerse`
 - ⏸️ `cytoviewer`
 - ⏸️ `dmrseq`
 - ⏸️ `dnaEPICO`
@@ -200,9 +199,11 @@
 - ⏸️ `iCheck`
 - ⏸️ `iNETgrate`
 - ⏸️ `imcRtools`
+- ⏸️ `lisaClust`
+- ⏸️ `lumi`
 
-... and 22 more ...
+... and 19 more ...
 
 ---
-*Last updated: 2026-07-17 22:22:23 UTC*
-*Packages with verified BBS status: 158*
+*Last updated: 2026-07-17 22:23:14 UTC*
+*Packages with verified BBS status: 159*
