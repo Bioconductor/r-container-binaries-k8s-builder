@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ffpe'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ffpe'
+also installing the dependency ‘ffpeExampleData’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/ffpeExampleData_1.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ffpe_1.56.0.tar.gz'
+* installing *source* package ‘ffpeExampleData’ ...
+** this is package ‘ffpeExampleData’ version ‘1.50.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ffpeExampleData’ as ‘ffpeExampleData_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ffpeExampleData)
+* installing *source* package ‘ffpe’ ...
+** this is package ‘ffpe’ version ‘1.56.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ffpe’ as ‘ffpe_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ffpe)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAcCYHj/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m32.742s
+user	1m13.563s
+sys	0m9.078s
