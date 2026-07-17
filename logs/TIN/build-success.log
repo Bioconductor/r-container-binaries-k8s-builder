@@ -1,0 +1,112 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TIN'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TIN'
+also installing the dependencies ‘R.rsp’, ‘PSCBS’, ‘R.huge’, ‘aroma.core’, ‘R.devices’, ‘R.filesets’, ‘aroma.apd’, ‘aroma.affymetrix’, ‘squash’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.rsp_0.46.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/PSCBS_0.68.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.huge_0.10.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/aroma.core_3.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.devices_2.17.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.filesets_2.15.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/aroma.apd_0.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/aroma.affymetrix_3.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/squash_1.0.9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TIN_1.45.0.tar.gz'
+* installing *binary* package ‘R.rsp’ ...
+* package ‘R.rsp’ successfully unpacked and SHA256 sums checked
+* ‘R.rsp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.rsp’ as ‘R.rsp_0.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.rsp)
+* installing *binary* package ‘PSCBS’ ...
+* package ‘PSCBS’ successfully unpacked and SHA256 sums checked
+* ‘PSCBS’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PSCBS’ as ‘PSCBS_0.68.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PSCBS)
+* installing *binary* package ‘R.huge’ ...
+* package ‘R.huge’ successfully unpacked and SHA256 sums checked
+* ‘R.huge’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.huge’ as ‘R.huge_0.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.huge)
+* installing *binary* package ‘R.devices’ ...
+* package ‘R.devices’ successfully unpacked and SHA256 sums checked
+* ‘R.devices’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.devices’ as ‘R.devices_2.17.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.devices)
+* installing *binary* package ‘R.filesets’ ...
+* package ‘R.filesets’ successfully unpacked and SHA256 sums checked
+* ‘R.filesets’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.filesets’ as ‘R.filesets_2.15.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.filesets)
+* installing *binary* package ‘squash’ ...
+* package ‘squash’ successfully unpacked and SHA256 sums checked
+* ‘squash’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘squash’ as ‘squash_1.0.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (squash)
+* installing *binary* package ‘aroma.core’ ...
+* package ‘aroma.core’ successfully unpacked and SHA256 sums checked
+* ‘aroma.core’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘aroma.core’ as ‘aroma.core_3.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (aroma.core)
+* installing *binary* package ‘aroma.apd’ ...
+* package ‘aroma.apd’ successfully unpacked and SHA256 sums checked
+* ‘aroma.apd’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘aroma.apd’ as ‘aroma.apd_0.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (aroma.apd)
+* installing *binary* package ‘aroma.affymetrix’ ...
+* package ‘aroma.affymetrix’ successfully unpacked and SHA256 sums checked
+* ‘aroma.affymetrix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘aroma.affymetrix’ as ‘aroma.affymetrix_3.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (aroma.affymetrix)
+* installing *source* package ‘TIN’ ...
+** this is package ‘TIN’ version ‘1.45.0’
+** package ‘TIN’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TIN’ as ‘TIN_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TIN)
+
+The downloaded source packages are in
+	‘/tmp/RtmpgndoBx/downloaded_packages’
+
+real	1m14.538s
+user	0m17.630s
+sys	0m6.128s

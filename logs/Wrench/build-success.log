@@ -1,0 +1,61 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Wrench'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Wrench'
+also installing the dependency ‘metagenomeSeq’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/metagenomeSeq_1.55.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Wrench_1.31.0.tar.gz'
+* installing *source* package ‘Wrench’ ...
+** this is package ‘Wrench’ version ‘1.31.0’
+** package ‘Wrench’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Wrench’ as ‘Wrench_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Wrench)
+* installing *source* package ‘metagenomeSeq’ ...
+** this is package ‘metagenomeSeq’ version ‘1.55.0’
+** package ‘metagenomeSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘MRihw’ with signature ‘"fitFeatureModelResults"’: no definition for class “fitFeatureModelResults”
+in method for ‘MRihw’ with signature ‘"fitZigResults"’: no definition for class “fitZigResults”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metagenomeSeq’ as ‘metagenomeSeq_1.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metagenomeSeq)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpd0Ydew/downloaded_packages’
+
+real	0m32.763s
+user	0m13.716s
+sys	0m4.400s

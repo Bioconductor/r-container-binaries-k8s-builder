@@ -1,0 +1,324 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''EnMCB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'EnMCB'
+also installing the dependencies ‘biovizBase’, ‘OrganismDbi’, ‘libcoin’, ‘inum’, ‘Category’, ‘AnnotationForge’, ‘PFAM.db’, ‘ggbio’, ‘polspline’, ‘stabs’, ‘nnls’, ‘partykit’, ‘GOstats’, ‘oligoClasses’, ‘ReportingTools’, ‘Glimma’, ‘gridSVG’, ‘rms’, ‘mboost’, ‘survivalsvm’, ‘affycoretools’, ‘plotROC’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/biovizBase_1.61.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/OrganismDbi_1.55.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/libcoin_1.0-13.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/inum_1.0-5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Category_2.79.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnnotationForge_1.55.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/PFAM.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ggbio_1.61.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/polspline_1.1.25.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stabs_0.7-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nnls_1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/partykit_1.2-28.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GOstats_2.79.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/oligoClasses_1.75.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ReportingTools_2.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Glimma_2.23.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gridSVG_1.7-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rms_8.1-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mboost_2.9-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/survivalsvm_0.0.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/affycoretools_1.85.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plotROC_2.3.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EnMCB_1.25.0.tar.gz'
+* installing *source* package ‘biovizBase’ ...
+** this is package ‘biovizBase’ version ‘1.61.0’
+** package ‘biovizBase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_biovizBase.c -o R_init_biovizBase.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bin_offsets.c -o bin_offsets.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o biovizBase.so R_init_biovizBase.o bin_offsets.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-biovizBase/00new/biovizBase/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x5f90, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘biovizBase’
+* removing ‘/tmp/library/biovizBase’
+* installing *source* package ‘OrganismDbi’ ...
+** this is package ‘OrganismDbi’ version ‘1.55.1’
+** package ‘OrganismDbi’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OrganismDbi’ as ‘OrganismDbi_1.55.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OrganismDbi)
+* installing *binary* package ‘libcoin’ ...
+* package ‘libcoin’ successfully unpacked and SHA256 sums checked
+* ‘libcoin’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘libcoin’ as ‘libcoin_1.0-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (libcoin)
+* installing *source* package ‘Category’ ...
+** this is package ‘Category’ version ‘2.79.0’
+** package ‘Category’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Category’ as ‘Category_2.79.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Category)
+* installing *source* package ‘AnnotationForge’ ...
+** this is package ‘AnnotationForge’ version ‘1.55.0’
+** package ‘AnnotationForge’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnnotationForge’ as ‘AnnotationForge_1.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationForge)
+* installing *source* package ‘PFAM.db’ ...
+** this is package ‘PFAM.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PFAM.db’ as ‘PFAM.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PFAM.db)
+* installing *binary* package ‘polspline’ ...
+* package ‘polspline’ successfully unpacked and SHA256 sums checked
+* ‘polspline’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polspline’ as ‘polspline_1.1.25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polspline)
+* installing *binary* package ‘stabs’ ...
+* package ‘stabs’ successfully unpacked and SHA256 sums checked
+* ‘stabs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stabs’ as ‘stabs_0.7-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stabs)
+* installing *binary* package ‘nnls’ ...
+* package ‘nnls’ successfully unpacked and SHA256 sums checked
+* ‘nnls’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nnls’ as ‘nnls_1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nnls)
+* installing *source* package ‘oligoClasses’ ...
+** this is package ‘oligoClasses’ version ‘1.75.0’
+** package ‘oligoClasses’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+
+ *** caught segfault ***
+address 0x81a0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: installing package indices failed
+* removing ‘/tmp/library/oligoClasses’
+* installing *source* package ‘Glimma’ ...
+** this is package ‘Glimma’ version ‘2.23.1’
+** package ‘Glimma’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0xc370, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘Glimma’
+* removing ‘/tmp/library/Glimma’
+* installing *binary* package ‘gridSVG’ ...
+* package ‘gridSVG’ successfully unpacked and SHA256 sums checked
+* ‘gridSVG’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gridSVG’ as ‘gridSVG_1.7-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridSVG)
+* installing *binary* package ‘survivalsvm’ ...
+* package ‘survivalsvm’ successfully unpacked and SHA256 sums checked
+* ‘survivalsvm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘survivalsvm’ as ‘survivalsvm_0.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survivalsvm)
+* installing *binary* package ‘inum’ ...
+* package ‘inum’ successfully unpacked and SHA256 sums checked
+* ‘inum’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘inum’ as ‘inum_1.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (inum)
+* installing *source* package ‘ggbio’ ...
+** this is package ‘ggbio’ version ‘1.61.0’
+** package ‘ggbio’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for 'rescale' in package 'ggbio'
+Creating a new generic function for 'xlim' in package 'ggbio'
+Creating a new generic function for 'geom_rect' in package 'ggbio'
+Creating a new generic function for 'geom_segment' in package 'ggbio'
+Creating a new generic function for 'geom_bar' in package 'ggbio'
+Creating a new generic function for 'stat_identity' in package 'ggbio'
+Creating a new generic function for 'stat_bin' in package 'ggbio'
+
+ *** caught segfault ***
+address 0x76d0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘ggbio’
+* removing ‘/tmp/library/ggbio’
+* installing *source* package ‘GOstats’ ...
+** this is package ‘GOstats’ version ‘2.79.0’
+** package ‘GOstats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GOstats’ as ‘GOstats_2.79.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOstats)
+* installing *binary* package ‘rms’ ...
+* package ‘rms’ successfully unpacked and SHA256 sums checked
+* ‘rms’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rms’ as ‘rms_8.1-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rms)
+* installing *binary* package ‘plotROC’ ...
+* package ‘plotROC’ successfully unpacked and SHA256 sums checked
+* ‘plotROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plotROC’ as ‘plotROC_2.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotROC)
+* installing *binary* package ‘partykit’ ...
+* package ‘partykit’ successfully unpacked and SHA256 sums checked
+* ‘partykit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘partykit’ as ‘partykit_1.2-28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (partykit)
+ERROR: dependency ‘ggbio’ is not available for package ‘ReportingTools’
+Perhaps try a variation of:
+install.packages('ggbio')
+* removing ‘/tmp/library/ReportingTools’
+* installing *binary* package ‘mboost’ ...
+* package ‘mboost’ successfully unpacked and SHA256 sums checked
+* ‘mboost’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mboost’ as ‘mboost_2.9-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mboost)
+ERROR: dependencies ‘oligoClasses’, ‘ReportingTools’, ‘Glimma’ are not available for package ‘affycoretools’
+Perhaps try a variation of:
+install.packages(c('oligoClasses', 'ReportingTools', 'Glimma'))
+* removing ‘/tmp/library/affycoretools’
+* installing *source* package ‘EnMCB’ ...
+** this is package ‘EnMCB’ version ‘1.25.0’
+** package ‘EnMCB’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnMCB’ as ‘EnMCB_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnMCB)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp14h5Lr/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘biovizBase’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘oligoClasses’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘Glimma’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘ggbio’ had non-zero exit status
+5: In install.packages(...) :
+  installation of package ‘ReportingTools’ had non-zero exit status
+6: In install.packages(...) :
+  installation of package ‘affycoretools’ had non-zero exit status
+
+real	5m2.209s
+user	3m8.005s
+sys	0m25.359s

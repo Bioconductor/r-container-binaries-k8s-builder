@@ -1,0 +1,43 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''NTW'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'NTW'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/NTW_1.63.0.tar.gz'
+Content type 'application/x-gzip' length 893912 bytes (872 KB)
+==================================================
+downloaded 872 KB
+
+* installing *source* package ‘NTW’ ...
+** this is package ‘NTW’ version ‘1.63.0’
+** package ‘NTW’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Note: break used in wrong context: no loop is visible 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NTW’ as ‘NTW_1.63.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NTW)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCGaTYi/downloaded_packages’
+
+real	0m14.137s
+user	0m5.660s
+sys	0m2.317s
