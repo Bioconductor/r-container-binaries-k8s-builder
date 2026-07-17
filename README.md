@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2232 (95%)
+- **Successfully Built:** 2237 (95%)
 - **Failed:** 16 (0%)
-- **In Progress:** 55
+- **In Progress:** 50
 - **Not Started:** 41
 
-**Progress:** 95%
+**Progress:** 96%
 ```
-███████████████████████████████████████████████░░░
+████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2232)
+## Successfully Built Packages (2237)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2182 more ...*
+*... and 2187 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (55)
+## In Progress (50)
 - ⏳ `CAGEfightR`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `ENmix`
@@ -105,7 +105,6 @@
 - ⏳ `HiCDCPlus`
 - ⏳ `HiCaptuRe`
 - ⏳ `IdeoViz`
-- ⏳ `MethylAid`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NanoMethViz`
@@ -133,10 +132,8 @@
 - ⏳ `funtooNorm`
 - ⏳ `geneAttribution`
 - ⏳ `gmoviz`
-- ⏳ `iNETgrate`
 - ⏳ `mCSEA`
 - ⏳ `maser`
-- ⏳ `methylCC`
 - ⏳ `methylPipe`
 - ⏳ `methylclock`
 - ⏳ `methylumi`
@@ -145,11 +142,12 @@
 - ⏳ `octad`
 - ⏳ `psichomics`
 - ⏳ `qpgraph`
-- ⏳ `quantro`
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
-
-... and 5 more ...
+- ⏳ `ribosomeProfilingQC`
+- ⏳ `shinyDSP`
+- ⏳ `shinyepico`
+- ⏳ `strandCheckR`
 
 ## Not Yet Started (41)
 - ⏸️ `AgiMicroRna`
@@ -195,5 +193,5 @@
 - ⏸️ `yarn`
 
 ---
-*Last updated: 2026-07-17 22:27:51 UTC*
+*Last updated: 2026-07-17 22:28:46 UTC*
 *Packages with verified BBS status: 160*
