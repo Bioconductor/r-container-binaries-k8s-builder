@@ -1,0 +1,81 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''biodb'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'biodb'
+also installing the dependencies ‘chk’, ‘fscache’, ‘sched’, ‘sqlq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/chk_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fscache_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sched_1.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sqlq_1.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biodb_1.20.0.tar.gz'
+* installing *binary* package ‘chk’ ...
+* package ‘chk’ successfully unpacked and SHA256 sums checked
+* ‘chk’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘chk’ as ‘chk_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chk)
+* installing *binary* package ‘fscache’ ...
+* package ‘fscache’ successfully unpacked and SHA256 sums checked
+* ‘fscache’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fscache’ as ‘fscache_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fscache)
+* installing *binary* package ‘sqlq’ ...
+* package ‘sqlq’ successfully unpacked and SHA256 sums checked
+* ‘sqlq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sqlq’ as ‘sqlq_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sqlq)
+* installing *binary* package ‘sched’ ...
+* package ‘sched’ successfully unpacked and SHA256 sums checked
+* ‘sched’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sched’ as ‘sched_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sched)
+* installing *source* package ‘biodb’ ...
+** this is package ‘biodb’ version ‘1.20.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c closeMatchPpm.cpp -o closeMatchPpm.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-100-ms_matching.cpp -o test-100-ms_matching.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-runner.cpp -o test-runner.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o biodb.so RcppExports.o closeMatchPpm.o test-100-ms_matching.o test-runner.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-biodb/00new/biodb/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biodb’ as ‘biodb_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biodb)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbAI8zl/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m53.268s
+user	0m43.336s
+sys	0m5.773s

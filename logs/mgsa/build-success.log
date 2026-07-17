@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mgsa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mgsa'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mgsa_1.60.0.tar.gz'
+Content type 'application/x-gzip' length 404818 bytes (395 KB)
+==================================================
+downloaded 395 KB
+
+* installing *source* package ‘mgsa’ ...
+** this is package ‘mgsa’ version ‘1.60.0’
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -I. -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mgsa-core.c -o mgsa-core.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -I. -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mgsa.c -o mgsa.o
+mgsa.c: In function ‘create_parameter_prior_from_R’:
+mgsa.c:67:44: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+   67 |                         error("Parameter '%s' has been requested to be discrete but no values were specified");
+      |                                           ~^
+      |                                            |
+      |                                            char *
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -I. -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mt.c -o mt.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mgsa.so mgsa-core.o mgsa.o mt.o -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mgsa/00new/mgsa/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mgsa’ as ‘mgsa_1.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mgsa)
+
+The downloaded source packages are in
+	‘/tmp/RtmpfH3Fec/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m14.162s
+user	0m6.938s
+sys	0m3.034s

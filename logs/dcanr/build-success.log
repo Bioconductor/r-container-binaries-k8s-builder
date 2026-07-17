@@ -1,0 +1,115 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''dcanr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'dcanr'
+also installing the dependencies ‘longitudinal’, ‘EBcoexpress’, ‘EBarrays’, ‘GeneNet’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/longitudinal_1.1.13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/EBcoexpress_1.56.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/EBarrays_2.76.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GeneNet_1.2.17.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/dcanr_1.28.0.tar.gz'
+* installing *binary* package ‘longitudinal’ ...
+* package ‘longitudinal’ successfully unpacked and SHA256 sums checked
+* ‘longitudinal’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘longitudinal’ as ‘longitudinal_1.1.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (longitudinal)
+* installing *source* package ‘EBarrays’ ...
+** this is package ‘EBarrays’ version ‘2.76.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ebarrays.c -o ebarrays.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o EBarrays.so ebarrays.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-EBarrays/00new/EBarrays/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EBarrays’ as ‘EBarrays_2.76.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EBarrays)
+* installing *source* package ‘dcanr’ ...
+** this is package ‘dcanr’ version ‘1.28.0’
+** using staged installation
+Warning in person1(given = given[[i]], family = family[[i]], middle = middle[[i]],  :
+  It is recommended to use ‘given’ instead of ‘middle’.
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘dcScore’ with signature ‘"Matrix","ANY","ANY"’: no definition for class “Matrix”
+in method for ‘dcScore’ with signature ‘"ExpressionSet","ANY","ANY"’: no definition for class “ExpressionSet”
+in method for ‘dcScore’ with signature ‘"SummarizedExperiment","ANY","ANY"’: no definition for class “SummarizedExperiment”
+in method for ‘dcScore’ with signature ‘"DGEList","ANY","ANY"’: no definition for class “DGEList”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dcanr’ as ‘dcanr_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dcanr)
+* installing *source* package ‘EBcoexpress’ ...
+** this is package ‘EBcoexpress’ version ‘1.56.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c EBcoexpress.c -o EBcoexpress.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o EBcoexpress.so EBcoexpress.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-EBcoexpress/00new/EBcoexpress/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EBcoexpress’ as ‘EBcoexpress_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EBcoexpress)
+* installing *binary* package ‘GeneNet’ ...
+* package ‘GeneNet’ successfully unpacked and SHA256 sums checked
+* ‘GeneNet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeneNet’ as ‘GeneNet_1.2.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeneNet)
+
+The downloaded source packages are in
+	‘/tmp/RtmpK3fI0m/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m21.730s
+user	0m14.446s
+sys	0m5.101s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 350 (14%)
-- **Failed:** 2 (0%)
-- **In Progress:** 50
-- **Not Started:** 1982
+- **Successfully Built:** 387 (16%)
+- **Failed:** 3 (0%)
+- **In Progress:** 15
+- **Not Started:** 1979
 
-**Progress:** 14%
+**Progress:** 16%
 ```
-███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (350)
+## Successfully Built Packages (387)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -24,33 +24,32 @@
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
+| [ASGSCA](https://bioconductor.org/packages/3.23/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASGSCA) |
+| [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
+| [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
+| [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
+| [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
+| [BiocBaseUtils](https://bioconductor.org/packages/3.23/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBaseUtils) |
+| [BiocFileCache](https://bioconductor.org/packages/3.23/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocFileCache) |
 | [BiocMaintainerApp](https://bioconductor.org/packages/3.23/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocMaintainerApp) |
+| [BiocStyle](https://bioconductor.org/packages/3.23/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocStyle) |
 | [BiocVersion](https://bioconductor.org/packages/3.23/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocVersion) |
+| [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
 | [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
-| [CGEN](https://bioconductor.org/packages/3.23/bioc/html/CGEN.html) | [log](logs/CGEN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CGEN) |
-| [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
-| [CONSTANd](https://bioconductor.org/packages/3.23/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CONSTANd) |
-| [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
-| [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
-| [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
-| [ClusterSignificance](https://bioconductor.org/packages/3.23/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterSignificance) |
-| [ComPrAn](https://bioconductor.org/packages/3.23/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ComPrAn) |
-| [DART](https://bioconductor.org/packages/3.23/bioc/html/DART.html) | [log](logs/DART/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DART) |
 
-*... and 300 more ...*
+*... and 337 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [specL](https://bioconductor.org/packages/3.23/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/specL) |
 | [spikeLI](https://bioconductor.org/packages/3.23/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/spikeLI) |
 | [splots](https://bioconductor.org/packages/3.23/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
@@ -60,6 +59,7 @@
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) |
+| [synlet](https://bioconductor.org/packages/3.23/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synlet) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
@@ -76,66 +76,32 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (2)
+## Failed Packages (3)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [MSstatsConvert](https://bioconductor.org/packages/3.23/bioc/html/MSstatsConvert.html) | [log](logs/MSstatsConvert/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MSstatsConvert) | Missing dependency: log4r<br>[CRAN Package 'log4r'](https://cran.r-project.org/web/packages/log4r/index.html) archived on 2026-07-14 as issues were not corrected in time despite reminder. |
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
 
-## In Progress (50)
+## In Progress (15)
 - ⏳ `ANCOMBC`
-- ⏳ `ASGSCA`
-- ⏳ `ASSET`
-- ⏳ `AWAggregator`
-- ⏳ `AnVILBase`
-- ⏳ `BeadDataPackR`
-- ⏳ `BiocBaseUtils`
-- ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocParallel`
-- ⏳ `BiocStyle`
-- ⏳ `BridgeDbR`
-- ⏳ `COSNet`
 - ⏳ `Chicago`
 - ⏳ `FGNet`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `MBAmethyl`
-- ⏳ `MSstatsConvert`
-- ⏳ `MassSpecWavelet`
-- ⏳ `OmnipathR`
 - ⏳ `RNAdecay`
 - ⏳ `RTCGA`
-- ⏳ `Rbowtie`
 - ⏳ `RbowtieCuda`
-- ⏳ `Rfastp`
-- ⏳ `a4Reporting`
-- ⏳ `biodb`
-- ⏳ `biomformat`
-- ⏳ `compSPOT`
-- ⏳ `cytolib`
-- ⏳ `daMA`
-- ⏳ `dcanr`
-- ⏳ `ibh`
-- ⏳ `illuminaio`
 - ⏳ `imageTCGA`
 - ⏳ `immunotation`
 - ⏳ `iscream`
-- ⏳ `levi`
-- ⏳ `lfa`
-- ⏳ `limma`
-- ⏳ `logicFS`
 - ⏳ `maftools`
-- ⏳ `mgsa`
-- ⏳ `phosphonormalizer`
-- ⏳ `pickgene`
 - ⏳ `planet`
-- ⏳ `plasmut`
-- ⏳ `plotGrouper`
-- ⏳ `pmm`
 
-## Not Yet Started (1982)
+## Not Yet Started (1979)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -187,8 +153,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1932 more ...
+... and 1929 more ...
 
 ---
-*Last updated: 2026-07-17 20:46:19 UTC*
-*Packages with verified BBS status: 103*
+*Last updated: 2026-07-17 20:47:11 UTC*
+*Packages with verified BBS status: 114*
