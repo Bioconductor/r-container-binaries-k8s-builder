@@ -1,0 +1,200 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rrvgo'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rrvgo'
+also installing the dependencies ‘treemap’, ‘org.Ag.eg.db’, ‘org.Bt.eg.db’, ‘org.Ce.eg.db’, ‘org.EcK12.eg.db’, ‘org.EcSakai.eg.db’, ‘org.Gg.eg.db’, ‘org.Pt.eg.db’, ‘org.Ss.eg.db’, ‘org.Xl.eg.db’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/treemap_2.4-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Ag.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Bt.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Ce.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.EcK12.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.EcSakai.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Gg.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Pt.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Ss.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Xl.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rrvgo_1.25.0.tar.gz'
+* installing *binary* package ‘treemap’ ...
+* package ‘treemap’ successfully unpacked and SHA256 sums checked
+* ‘treemap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘treemap’ as ‘treemap_2.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treemap)
+* installing *source* package ‘org.Ag.eg.db’ ...
+** this is package ‘org.Ag.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Ag.eg.db’ as ‘org.Ag.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ag.eg.db)
+* installing *source* package ‘org.Bt.eg.db’ ...
+** this is package ‘org.Bt.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Bt.eg.db’ as ‘org.Bt.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Bt.eg.db)
+* installing *source* package ‘org.Ce.eg.db’ ...
+** this is package ‘org.Ce.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Ce.eg.db’ as ‘org.Ce.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ce.eg.db)
+* installing *source* package ‘org.EcK12.eg.db’ ...
+** this is package ‘org.EcK12.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.EcK12.eg.db’ as ‘org.EcK12.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.EcK12.eg.db)
+* installing *source* package ‘org.EcSakai.eg.db’ ...
+** this is package ‘org.EcSakai.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.EcSakai.eg.db’ as ‘org.EcSakai.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.EcSakai.eg.db)
+* installing *source* package ‘org.Gg.eg.db’ ...
+** this is package ‘org.Gg.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Gg.eg.db’ as ‘org.Gg.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Gg.eg.db)
+* installing *source* package ‘org.Pt.eg.db’ ...
+** this is package ‘org.Pt.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Pt.eg.db’ as ‘org.Pt.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Pt.eg.db)
+* installing *source* package ‘org.Ss.eg.db’ ...
+** this is package ‘org.Ss.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Ss.eg.db’ as ‘org.Ss.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ss.eg.db)
+* installing *source* package ‘org.Xl.eg.db’ ...
+** this is package ‘org.Xl.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Xl.eg.db’ as ‘org.Xl.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Xl.eg.db)
+* installing *source* package ‘rrvgo’ ...
+** this is package ‘rrvgo’ version ‘1.25.0’
+** package ‘rrvgo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rrvgo’ as ‘rrvgo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rrvgo)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1fXm3P/downloaded_packages’
+
+real	7m28.144s
+user	6m59.525s
+sys	0m22.669s

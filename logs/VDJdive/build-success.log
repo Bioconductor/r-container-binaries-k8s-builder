@@ -1,0 +1,53 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''VDJdive'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'VDJdive'
+also installing the dependency ‘breakaway’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/breakaway_4.8.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/VDJdive_1.15.1.tar.gz'
+* installing *binary* package ‘breakaway’ ...
+* package ‘breakaway’ successfully unpacked and SHA256 sums checked
+* ‘breakaway’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breakaway’ as ‘breakaway_4.8.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breakaway)
+* installing *source* package ‘VDJdive’ ...
+** this is package ‘VDJdive’ version ‘1.15.1’
+** package ‘VDJdive’ successfully unpacked and MD5 sums checked
+** using non-staged installation via StagedInstall field
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c TCR_EM.cpp -o TCR_EM.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o VDJdive.so RcppExports.o TCR_EM.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/VDJdive/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VDJdive’ as ‘VDJdive_1.15.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VDJdive)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmBTOKY/downloaded_packages’
+
+real	0m36.672s
+user	0m28.169s
+sys	0m4.859s

@@ -1,0 +1,93 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''genefu'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'genefu'
+also installing the dependencies ‘GeneMeta’, ‘breastCancerUNT’, ‘breastCancerNKI’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GeneMeta_1.85.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/breastCancerUNT_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/breastCancerNKI_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/genefu_2.45.0.tar.gz'
+* installing *source* package ‘GeneMeta’ ...
+** this is package ‘GeneMeta’ version ‘1.85.0’
+** package ‘GeneMeta’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeneMeta’ as ‘GeneMeta_1.85.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeneMeta)
+* installing *source* package ‘breastCancerUNT’ ...
+** this is package ‘breastCancerUNT’ version ‘1.51.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breastCancerUNT’ as ‘breastCancerUNT_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerUNT)
+* installing *source* package ‘breastCancerNKI’ ...
+** this is package ‘breastCancerNKI’ version ‘1.51.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breastCancerNKI’ as ‘breastCancerNKI_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerNKI)
+* installing *source* package ‘genefu’ ...
+** this is package ‘genefu’ version ‘2.45.0’
+** package ‘genefu’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘genefu’ as ‘genefu_2.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genefu)
+
+The downloaded source packages are in
+	‘/tmp/RtmpG10OMH/downloaded_packages’
+
+real	0m56.827s
+user	0m45.057s
+sys	0m8.573s

@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''structToolbox'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'structToolbox'
+Warning: dependency ‘ropls’ is not available
+also installing the dependencies ‘AlgDesign’, ‘agricolae’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/AlgDesign_1.2.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/agricolae_1.3-7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/structToolbox_1.25.0.tar.gz'
+* installing *binary* package ‘AlgDesign’ ...
+* package ‘AlgDesign’ successfully unpacked and SHA256 sums checked
+* ‘AlgDesign’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AlgDesign’ as ‘AlgDesign_1.2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AlgDesign)
+* installing *source* package ‘structToolbox’ ...
+** this is package ‘structToolbox’ version ‘1.25.0’
+** package ‘structToolbox’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘structToolbox’ as ‘structToolbox_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (structToolbox)
+* installing *binary* package ‘agricolae’ ...
+* package ‘agricolae’ successfully unpacked and SHA256 sums checked
+* ‘agricolae’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘agricolae’ as ‘agricolae_1.3-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (agricolae)
+
+The downloaded source packages are in
+	‘/tmp/RtmpADdhUG/downloaded_packages’
+
+real	0m53.449s
+user	0m37.374s
+sys	0m5.211s

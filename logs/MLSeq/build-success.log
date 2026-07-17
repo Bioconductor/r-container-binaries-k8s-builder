@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MLSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MLSeq'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MLSeq_2.31.0.tar.gz'
+Content type 'application/x-gzip' length 656624 bytes (641 KB)
+==================================================
+downloaded 641 KB
+
+* installing *source* package ‘MLSeq’ ...
+** this is package ‘MLSeq’ version ‘2.31.0’
+** package ‘MLSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MLSeq’ as ‘MLSeq_2.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MLSeq)
+
+The downloaded source packages are in
+	‘/tmp/RtmprrJKX2/downloaded_packages’
+
+real	0m49.403s
+user	0m32.727s
+sys	0m5.999s

@@ -1,0 +1,122 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''crumblr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'crumblr'
+also installing the dependencies ‘softImpute’, ‘RcppGSL’, ‘mashr’, ‘dirmult’, ‘dreamlet’, ‘muscat’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/softImpute_1.4-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppGSL_0.3.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mashr_0.2.79.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dirmult_0.1.3-5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/dreamlet_1.11.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/muscat_1.27.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/crumblr_1.5.3.tar.gz'
+* installing *binary* package ‘softImpute’ ...
+* package ‘softImpute’ successfully unpacked and SHA256 sums checked
+* ‘softImpute’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘softImpute’ as ‘softImpute_1.4-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (softImpute)
+* installing *binary* package ‘RcppGSL’ ...
+* package ‘RcppGSL’ successfully unpacked and SHA256 sums checked
+* ‘RcppGSL’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppGSL’ as ‘RcppGSL_0.3.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppGSL)
+* installing *binary* package ‘dirmult’ ...
+* package ‘dirmult’ successfully unpacked and SHA256 sums checked
+* ‘dirmult’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dirmult’ as ‘dirmult_0.1.3-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dirmult)
+* installing *source* package ‘muscat’ ...
+** this is package ‘muscat’ version ‘1.27.4’
+** package ‘muscat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘muscat’ as ‘muscat_1.27.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (muscat)
+* installing *binary* package ‘mashr’ ...
+* package ‘mashr’ successfully unpacked and SHA256 sums checked
+* ‘mashr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mashr’ as ‘mashr_0.2.79_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mashr)
+* installing *source* package ‘crumblr’ ...
+** this is package ‘crumblr’ version ‘1.5.3’
+** package ‘crumblr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘crumblr’ as ‘crumblr_1.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crumblr)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘dreamlet’ ...
+** this is package ‘dreamlet’ version ‘1.11.0’
+** package ‘dreamlet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c colsum_beachmat.cpp -o colsum_beachmat.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o dreamlet.so RcppExports.o colsum_beachmat.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-dreamlet/00new/dreamlet/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dreamlet’ as ‘dreamlet_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dreamlet)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzOhq3E/downloaded_packages’
+
+real	2m22.343s
+user	1m53.631s
+sys	0m14.424s

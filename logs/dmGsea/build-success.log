@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''dmGsea'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'dmGsea'
+also installing the dependencies ‘poolr’, ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/poolr_1.2-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/dmGsea_1.3.1.tar.gz'
+* installing *binary* package ‘poolr’ ...
+* package ‘poolr’ successfully unpacked and SHA256 sums checked
+* ‘poolr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘poolr’ as ‘poolr_1.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (poolr)
+* installing *source* package ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ ...
+** this is package ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ version ‘0.6.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ as ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICanno.ilm10b4.hg19)
+* installing *source* package ‘dmGsea’ ...
+** this is package ‘dmGsea’ version ‘1.3.1’
+** package ‘dmGsea’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dmGsea’ as ‘dmGsea_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dmGsea)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHRHBbX/downloaded_packages’
+
+real	3m26.854s
+user	3m8.754s
+sys	0m13.415s

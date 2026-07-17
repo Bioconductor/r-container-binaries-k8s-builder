@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''isobar'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'isobar'
+also installing the dependencies ‘startupmsg’, ‘distr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/startupmsg_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/distr_2.9.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/isobar_1.59.0.tar.gz'
+* installing *binary* package ‘startupmsg’ ...
+* package ‘startupmsg’ successfully unpacked and SHA256 sums checked
+* ‘startupmsg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘startupmsg’ as ‘startupmsg_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (startupmsg)
+* installing *binary* package ‘distr’ ...
+* package ‘distr’ successfully unpacked and SHA256 sums checked
+* ‘distr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘distr’ as ‘distr_2.9.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (distr)
+* installing *source* package ‘isobar’ ...
+** this is package ‘isobar’ version ‘1.59.0’
+** package ‘isobar’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘coerce’ with signature ‘"MSnSet","IBSpectra"’: no definition for class “MSnSet”
+in method for ‘coerce’ with signature ‘"IBSpectra","MSnSet"’: no definition for class “MSnSet”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘isobar’ as ‘isobar_1.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isobar)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSm3G9z/downloaded_packages’
+
+real	0m47.369s
+user	0m30.036s
+sys	0m4.238s

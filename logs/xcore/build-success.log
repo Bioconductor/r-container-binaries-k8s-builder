@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''xcore'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'xcore'
+also installing the dependency ‘xcoredata’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/xcoredata_1.17.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/xcore_1.17.0.tar.gz'
+* installing *source* package ‘xcoredata’ ...
+** this is package ‘xcoredata’ version ‘1.17.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xcoredata’ as ‘xcoredata_1.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xcoredata)
+* installing *source* package ‘xcore’ ...
+** this is package ‘xcore’ version ‘1.17.0’
+** package ‘xcore’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to '>=' 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xcore’ as ‘xcore_1.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xcore)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9XXVJN/downloaded_packages’
+
+real	0m52.370s
+user	0m38.723s
+sys	0m6.737s

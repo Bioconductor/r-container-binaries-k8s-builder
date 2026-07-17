@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''systemPipeTools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'systemPipeTools'
+also installing the dependency ‘systemPipeR’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/systemPipeR_2.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/systemPipeTools_1.21.0.tar.gz'
+* installing *source* package ‘systemPipeR’ ...
+** this is package ‘systemPipeR’ version ‘2.19.0’
+** package ‘systemPipeR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeR’ as ‘systemPipeR_2.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeR)
+* installing *source* package ‘systemPipeTools’ ...
+** this is package ‘systemPipeTools’ version ‘1.21.0’
+** package ‘systemPipeTools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeTools’ as ‘systemPipeTools_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeTools)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpny9AFD/downloaded_packages’
+
+real	1m20.891s
+user	1m5.279s
+sys	0m7.683s
