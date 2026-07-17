@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 309 (13%)
+- **Successfully Built:** 324 (13%)
 - **Failed:** 0 (0%)
-- **In Progress:** 148
-- **Not Started:** 1887
+- **In Progress:** 137
+- **Not Started:** 1883
 
 **Progress:** 13%
 ```
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (309)
+## Successfully Built Packages (324)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -33,6 +33,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BADER](https://bioconductor.org/packages/3.24/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BADER) |
+| [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
@@ -44,9 +45,8 @@
 | [BiocMaintainerApp](https://bioconductor.org/packages/3.24/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocMaintainerApp) |
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
-| [BiocVersion](https://bioconductor.org/packages/3.24/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocVersion) |
 
-*... and 259 more ...*
+*... and 274 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,15 +76,12 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (148)
+## In Progress (137)
 - ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
-- ⏳ `BEclear`
 - ⏳ `BenchHub`
 - ⏳ `BiocGenerics`
 - ⏳ `CNAnorm`
-- ⏳ `Chicago`
-- ⏳ `CytoGLMM`
 - ⏳ `DEGseq`
 - ⏳ `DEsingle`
 - ⏳ `DeepPINCS`
@@ -104,6 +101,7 @@
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `HuBMAPR`
+- ⏳ `HubPub`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INPower`
@@ -124,13 +122,15 @@
 - ⏳ `ModCon`
 - ⏳ `MsStash`
 - ⏳ `MultiMed`
-- ⏳ `NPARC`
 - ⏳ `NTW`
 - ⏳ `OmnipathR`
+- ⏳ `OpenStats`
+- ⏳ `Oscope`
+- ⏳ `PTMods`
 
-... and 98 more ...
+... and 87 more ...
 
-## Not Yet Started (1887)
+## Not Yet Started (1883)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -182,8 +182,8 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
 
-... and 1837 more ...
+... and 1833 more ...
 
 ---
-*Last updated: 2026-07-17 20:38:30 UTC*
-*Packages with verified BBS status: 69*
+*Last updated: 2026-07-17 20:39:29 UTC*
+*Packages with verified BBS status: 70*
