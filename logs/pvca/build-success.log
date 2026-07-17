@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pvca'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pvca'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/pvca_1.53.0.tar.gz'
+Content type 'application/x-gzip' length 223825 bytes (218 KB)
+==================================================
+downloaded 218 KB
+
+* installing *source* package ‘pvca’ ...
+** this is package ‘pvca’ version ‘1.53.0’
+** package ‘pvca’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pvca’ as ‘pvca_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pvca)
+
+The downloaded source packages are in
+	‘/tmp/Rtmphl5pMb/downloaded_packages’
+
+real	0m19.677s
+user	0m14.175s
+sys	0m3.401s

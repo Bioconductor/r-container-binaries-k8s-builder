@@ -1,0 +1,107 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Seqinfo'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Seqinfo'
+also installing the dependencies ‘TxDb.Hsapiens.UCSC.hg38.knownGene’, ‘TxDb.Dmelanogaster.UCSC.dm3.ensGene’, ‘BSgenome.Hsapiens.UCSC.hg38’, ‘BSgenome.Celegans.UCSC.ce2’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/TxDb.Dmelanogaster.UCSC.dm3.ensGene_3.2.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38_1.4.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce2_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Seqinfo_1.3.0.tar.gz'
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ ...
+** this is package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught bus error ***
+address 0x79e5a109a5d0, cause 'non-existent physical address'
+An irrecoverable exception occurred. R is aborting now ...
+Bus error (core dumped)
+ERROR: lazy loading failed for package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’
+* removing ‘/tmp/library/TxDb.Hsapiens.UCSC.hg38.knownGene’
+* installing *source* package ‘TxDb.Dmelanogaster.UCSC.dm3.ensGene’ ...
+** this is package ‘TxDb.Dmelanogaster.UCSC.dm3.ensGene’ version ‘3.2.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Dmelanogaster.UCSC.dm3.ensGene’ as ‘TxDb.Dmelanogaster.UCSC.dm3.ensGene_3.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Dmelanogaster.UCSC.dm3.ensGene)
+* installing *source* package ‘BSgenome.Hsapiens.UCSC.hg38’ ...
+** this is package ‘BSgenome.Hsapiens.UCSC.hg38’ version ‘1.4.5’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.UCSC.hg38’ as ‘BSgenome.Hsapiens.UCSC.hg38_1.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.UCSC.hg38)
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce2’ ...
+** this is package ‘BSgenome.Celegans.UCSC.ce2’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce2’ as ‘BSgenome.Celegans.UCSC.ce2_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce2)
+* installing *source* package ‘Seqinfo’ ...
+** this is package ‘Seqinfo’ version ‘1.3.0’
+** package ‘Seqinfo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Seqinfo’ as ‘Seqinfo_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Seqinfo)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNUYKdX/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ had non-zero exit status
+
+real	3m15.374s
+user	2m52.739s
+sys	0m20.474s
