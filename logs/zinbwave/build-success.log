@@ -1,0 +1,50 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''zinbwave'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'zinbwave'
+also installing the dependency ‘softImpute’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/softImpute_1.4-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/zinbwave_1.34.0.tar.gz'
+* installing *binary* package ‘softImpute’ ...
+* package ‘softImpute’ successfully unpacked and SHA256 sums checked
+* ‘softImpute’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘softImpute’ as ‘softImpute_1.4-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (softImpute)
+* installing *source* package ‘zinbwave’ ...
+** this is package ‘zinbwave’ version ‘1.34.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zinbwave’ as ‘zinbwave_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zinbwave)
+
+The downloaded source packages are in
+	‘/tmp/Rtmppm2Ewx/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m46.559s
+user	0m35.866s
+sys	0m5.360s

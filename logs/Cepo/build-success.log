@@ -1,0 +1,122 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Cepo'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Cepo'
+also installing the dependencies ‘densEstBayes’, ‘reldist’, ‘M3Drop’, ‘cvTools’, ‘scMerge’, ‘escape’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/densEstBayes_1.0-2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reldist_1.7-2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/M3Drop_1.38.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cvTools_0.3.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scMerge_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/escape_2.8.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Cepo_1.18.0.tar.gz'
+* installing *binary* package ‘densEstBayes’ ...
+* package ‘densEstBayes’ successfully unpacked and SHA256 sums checked
+* ‘densEstBayes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘densEstBayes’ as ‘densEstBayes_1.0-2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (densEstBayes)
+* installing *binary* package ‘cvTools’ ...
+* package ‘cvTools’ successfully unpacked and SHA256 sums checked
+* ‘cvTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cvTools’ as ‘cvTools_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cvTools)
+* installing *source* package ‘escape’ ...
+** this is package ‘escape’ version ‘2.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘escape’ as ‘escape_2.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (escape)
+* installing *source* package ‘Cepo’ ...
+** this is package ‘Cepo’ version ‘1.18.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Cepo’ as ‘Cepo_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Cepo)
+* installing *binary* package ‘reldist’ ...
+* package ‘reldist’ successfully unpacked and SHA256 sums checked
+* ‘reldist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reldist’ as ‘reldist_1.7-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reldist)
+* installing *source* package ‘M3Drop’ ...
+** this is package ‘M3Drop’ version ‘1.38.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘M3Drop’ as ‘M3Drop_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (M3Drop)
+* installing *source* package ‘scMerge’ ...
+** this is package ‘scMerge’ version ‘1.28.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scMerge’ as ‘scMerge_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scMerge)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGxeEK7/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m2.938s
+user	1m47.025s
+sys	0m12.966s
