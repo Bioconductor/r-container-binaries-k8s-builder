@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 758 (31%)
+- **Successfully Built:** 762 (31%)
 - **Failed:** 9 (0%)
 - **In Progress:** 12
-- **Not Started:** 1605
+- **Not Started:** 1601
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (758)
+## Successfully Built Packages (762)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 708 more ...*
+*... and 712 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,19 +92,19 @@
 
 ## In Progress (12)
 - ⏳ `Biostrings`
-- ⏳ `Chromatograms`
+- ⏳ `DelayedArray`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `SpectriPy`
-- ⏳ `TargetDecoy`
-- ⏳ `epiNEM`
+- ⏳ `MEIGOR`
 - ⏳ `flowCore`
+- ⏳ `h5mread`
 - ⏳ `ldblock`
 - ⏳ `mosbi`
 - ⏳ `msPurity`
+- ⏳ `uSORT`
 
-## Not Yet Started (1605)
+## Not Yet Started (1601)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -156,8 +156,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1555 more ...
+... and 1551 more ...
 
 ---
-*Last updated: 2026-07-17 21:26:17 UTC*
+*Last updated: 2026-07-17 21:26:48 UTC*
 *Packages with verified BBS status: 153*
