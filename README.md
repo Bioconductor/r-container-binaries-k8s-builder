@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2251 (96%)
+- **Successfully Built:** 2253 (96%)
 - **Failed:** 16 (0%)
-- **In Progress:** 39
-- **Not Started:** 38
+- **In Progress:** 40
+- **Not Started:** 35
 
 **Progress:** 96%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2251)
+## Successfully Built Packages (2253)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2201 more ...*
+*... and 2203 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.24/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.24/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vulcan) |
@@ -70,6 +69,7 @@
 | [xenLite](https://bioconductor.org/packages/3.24/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.24/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yamss) |
+| [yarn](https://bioconductor.org/packages/3.24/bioc/html/yarn.html) | [log](logs/yarn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yarn) |
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
 | [zenith](https://bioconductor.org/packages/3.24/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zenith) |
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (39)
+## In Progress (40)
 - ⏳ `CAGEfightR`
 - ⏳ `ENmix`
 - ⏳ `GUIDEseq`
@@ -112,6 +112,7 @@
 - ⏳ `REDseq`
 - ⏳ `RNAAgeCalc`
 - ⏳ `RadioGx`
+- ⏳ `RnBeads`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
 - ⏳ `SPLINTER`
@@ -121,13 +122,14 @@
 - ⏳ `affycoretools`
 - ⏳ `annotatr`
 - ⏳ `compEpiTools`
-- ⏳ `conumee`
 - ⏳ `epivizrChart`
 - ⏳ `fourSynergy`
 - ⏳ `geneAttribution`
 - ⏳ `gmoviz`
+- ⏳ `lumi`
 - ⏳ `mCSEA`
 - ⏳ `maser`
+- ⏳ `missMethyl`
 - ⏳ `motifbreakR`
 - ⏳ `multicrispr`
 - ⏳ `octad`
@@ -136,9 +138,8 @@
 - ⏳ `rGREAT`
 - ⏳ `ribosomeProfilingQC`
 - ⏳ `strandCheckR`
-- ⏳ `yarn`
 
-## Not Yet Started (38)
+## Not Yet Started (35)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEr`
 - ⏸️ `ChAMP`
@@ -149,7 +150,6 @@
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MOSClip`
-- ⏸️ `RnBeads`
 - ⏸️ `SOMNiBUS`
 - ⏸️ `SpaceTrooper`
 - ⏸️ `SpatialDecon`
@@ -167,9 +167,7 @@
 - ⏸️ `iCheck`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
-- ⏸️ `lumi`
 - ⏸️ `methylGSA`
-- ⏸️ `missMethyl`
 - ⏸️ `preciseTAD`
 - ⏸️ `profileplyr`
 - ⏸️ `scmeth`
@@ -179,5 +177,5 @@
 - ⏸️ `wateRmelon`
 
 ---
-*Last updated: 2026-07-17 22:30:10 UTC*
-*Packages with verified BBS status: 160*
+*Last updated: 2026-07-17 22:30:57 UTC*
+*Packages with verified BBS status: 161*
