@@ -1,0 +1,55 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''adductomicsR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'adductomicsR'
+Warning: dependency ‘smoother’ is not available
+also installing the dependencies ‘adductData’, ‘pastecs’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/adductData_1.28.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pastecs_1.4.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/adductomicsR_1.27.0.tar.gz'
+* installing *source* package ‘adductData’ ...
+** this is package ‘adductData’ version ‘1.28.0’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘adductData’ as ‘adductData_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (adductData)
+* installing *binary* package ‘pastecs’ ...
+* package ‘pastecs’ successfully unpacked and SHA256 sums checked
+* ‘pastecs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pastecs’ as ‘pastecs_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pastecs)
+ERROR: dependency ‘smoother’ is not available for package ‘adductomicsR’
+Perhaps try a variation of:
+install.packages('smoother')
+* removing ‘/tmp/library/adductomicsR’
+
+The downloaded source packages are in
+	‘/tmp/RtmpgCuy8l/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘adductomicsR’ had non-zero exit status
+
+real	0m20.250s
+user	0m13.682s
+sys	0m3.760s

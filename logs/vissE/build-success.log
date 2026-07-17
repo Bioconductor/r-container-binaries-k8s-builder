@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''vissE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'vissE'
+also installing the dependencies ‘scico’, ‘msigdb’, ‘singscore’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scico_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/msigdb_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/singscore_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/vissE_1.20.0.tar.gz'
+* installing *binary* package ‘scico’ ...
+* package ‘scico’ successfully unpacked and SHA256 sums checked
+* ‘scico’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scico’ as ‘scico_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scico)
+* installing *source* package ‘msigdb’ ...
+** this is package ‘msigdb’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘msigdb’ as ‘msigdb_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (msigdb)
+* installing *source* package ‘singscore’ ...
+** this is package ‘singscore’ version ‘1.32.0’
+** using staged installation
+Warning in person1(given = given[[i]], family = family[[i]], middle = middle[[i]],  :
+  It is recommended to use ‘given’ instead of ‘middle’.
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘singscore’ as ‘singscore_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (singscore)
+* installing *source* package ‘vissE’ ...
+** this is package ‘vissE’ version ‘1.20.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘vissE’ as ‘vissE_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vissE)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPTlRRF/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m0.914s
+user	0m39.126s
+sys	0m7.587s
