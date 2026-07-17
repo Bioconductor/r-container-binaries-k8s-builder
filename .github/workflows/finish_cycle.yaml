@@ -19,7 +19,7 @@ jobs:
       - name: Validate stop confirmation
         run: |
           if [[ "${{ inputs.stop_confirmed }}" != "true" ]]; then
-            echo "stop_confirmed must be 'true' before finishing cycle."
+            echo "stop_confirmed must be set to 'true' (select it from the dropdown) before finishing cycle."
             echo "Run the 'Stop Build Cycle' workflow first, then rerun this workflow with stop_confirmed=true."
             exit 1
           fi
