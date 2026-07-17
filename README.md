@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 766 (32%)
-- **Failed:** 9 (0%)
-- **In Progress:** 9
-- **Not Started:** 1600
+- **Successfully Built:** 771 (32%)
+- **Failed:** 10 (0%)
+- **In Progress:** 23
+- **Not Started:** 1580
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (766)
+## Successfully Built Packages (771)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 716 more ...*
+*... and 721 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
@@ -63,6 +62,7 @@
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
@@ -76,7 +76,7 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (9)
+## Failed Packages (10)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -87,21 +87,36 @@
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
+| [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (9)
-- ⏳ `Biostrings`
+## In Progress (23)
+- ⏳ `CytoDx`
 - ⏳ `DelayedArray`
+- ⏳ `FlowSOM`
 - ⏳ `GenomicRanges`
-- ⏳ `h5mread`
-- ⏳ `ldblock`
-- ⏳ `mosbi`
+- ⏳ `MAPFX`
+- ⏳ `Sconify`
+- ⏳ `cytoMEM`
+- ⏳ `flowBeads`
+- ⏳ `flowCHIC`
+- ⏳ `flowClean`
+- ⏳ `flowClust`
+- ⏳ `flowMatch`
+- ⏳ `flowMeans`
+- ⏳ `flowPloidy`
+- ⏳ `flowSpecs`
+- ⏳ `flowTime`
+- ⏳ `flowViz`
+- ⏳ `immunoClust`
+- ⏳ `infinityFlow`
 - ⏳ `msPurity`
+- ⏳ `ncdfFlow`
 - ⏳ `nempi`
-- ⏳ `uSORT`
+- ⏳ `tidyFlowCore`
 
-## Not Yet Started (1600)
+## Not Yet Started (1580)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -153,8 +168,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1550 more ...
+... and 1530 more ...
 
 ---
-*Last updated: 2026-07-17 21:27:10 UTC*
-*Packages with verified BBS status: 153*
+*Last updated: 2026-07-17 21:28:03 UTC*
+*Packages with verified BBS status: 155*

@@ -1,0 +1,77 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''h5mread'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'h5mread'
+also installing the dependency ‘TENxBrainData’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/TENxBrainData_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/h5mread_1.4.0.tar.gz'
+* installing *source* package ‘TENxBrainData’ ...
+** this is package ‘TENxBrainData’ version ‘1.32.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TENxBrainData’ as ‘TENxBrainData_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENxBrainData)
+* installing *source* package ‘h5mread’ ...
+** this is package ‘h5mread’ version ‘1.4.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5File.c -o H5File.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c global_errmsg_buf.c -o global_errmsg_buf.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5DSetDescriptor.c -o H5DSetDescriptor.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5dimscales.c -o h5dimscales.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uaselection.c -o uaselection.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_helpers.c -o h5mread_helpers.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_startscounts.c -o h5mread_startscounts.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c TouchedChunks.c -o TouchedChunks.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_index.c -o h5mread_index.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread_sparse.c -o h5mread_sparse.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5mread.c -o h5mread.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5summarize.c -o h5summarize.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_h5mread.c -o R_init_h5mread.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o h5mread.so S4Vectors_stubs.o H5File.o global_errmsg_buf.o H5DSetDescriptor.o h5dimscales.o uaselection.o h5mread_helpers.o h5mread_startscounts.o TouchedChunks.o h5mread_index.o h5mread_sparse.o h5mread.o h5summarize.o R_init_h5mread.o /mnt/library/Rhdf5lib/lib/libhdf5_hl.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-h5mread/00new/h5mread/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘h5mread’ as ‘h5mread_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (h5mread)
+
+The downloaded source packages are in
+	‘/tmp/RtmpfiJkxI/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m4.165s
+user	0m52.366s
+sys	0m7.286s
