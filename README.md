@@ -8,8 +8,8 @@
 - **Total Packages:** 2344
 - **Successfully Built:** 2317 (98%)
 - **Failed:** 16 (0%)
-- **In Progress:** 0
-- **Not Started:** 11
+- **In Progress:** 2
+- **Not Started:** 9
 
 **Progress:** 99%
 ```
@@ -97,13 +97,15 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## Not Yet Started (11)
-- ⏸️ `ChAMP`
+## In Progress (2)
+- ⏳ `ChAMP`
+- ⏳ `biscuiteer`
+
+## Not Yet Started (9)
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
-- ⏸️ `biscuiteer`
 - ⏸️ `cytoviewer`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
@@ -111,5 +113,5 @@
 - ⏸️ `spicyR`
 
 ---
-*Last updated: 2026-07-17 23:11:37 UTC*
+*Last updated: 2026-07-17 23:12:09 UTC*
 *Packages with verified BBS status: 162*
