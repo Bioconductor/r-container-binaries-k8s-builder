@@ -1,0 +1,48 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''a4Classif'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'a4Classif'
+also installing the dependency ‘varSelRF’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/varSelRF_0.7-9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/a4Classif_1.60.0.tar.gz'
+* installing *binary* package ‘varSelRF’ ...
+* package ‘varSelRF’ successfully unpacked and SHA256 sums checked
+* ‘varSelRF’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘varSelRF’ as ‘varSelRF_0.7-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (varSelRF)
+* installing *source* package ‘a4Classif’ ...
+** this is package ‘a4Classif’ version ‘1.60.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘a4Classif’ as ‘a4Classif_1.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (a4Classif)
+
+The downloaded source packages are in
+	‘/tmp/RtmpB9FVzx/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m19.007s
+user	0m10.467s
+sys	0m3.399s

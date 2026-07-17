@@ -1,0 +1,71 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SharedObject'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SharedObject'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SharedObject_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 2961668 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘SharedObject’ ...
+** this is package ‘SharedObject’ version ‘1.25.0’
+** using staged installation
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to accept ISO C89... none needed
+checking for shm_open in -lrt... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c C_interface.cpp -o C_interface.o
+C_interface.cpp: In function ‘int C_getObject(SEXP)’:
+C_interface.cpp:166:16: error: ‘OBJECT’ was not declared in this scope
+  166 |         return OBJECT(x);
+      |                ^~~~~~
+C_interface.cpp: In function ‘void C_setObject(SEXP, int)’:
+C_interface.cpp:171:9: error: ‘SET_OBJECT’ was not declared in this scope
+  171 |         SET_OBJECT(x, i);
+      |         ^~~~~~~~~~
+C_interface.cpp: In function ‘bool C_ISS4(SEXP)’:
+C_interface.cpp:176:16: error: ‘IS_S4_OBJECT’ was not declared in this scope
+  176 |         return IS_S4_OBJECT(x);
+      |                ^~~~~~~~~~~~
+C_interface.cpp: In function ‘void C_SETS4(SEXP)’:
+C_interface.cpp:181:9: error: ‘SET_S4_OBJECT’ was not declared in this scope
+  181 |         SET_S4_OBJECT(x);
+      |         ^~~~~~~~~~~~~
+C_interface.cpp: In function ‘void C_UNSETS4(SEXP)’:
+C_interface.cpp:186:9: error: ‘UNSET_S4_OBJECT’ was not declared in this scope
+  186 |         UNSET_S4_OBJECT(x);
+      |         ^~~~~~~~~~~~~~~
+make: *** [/usr/local/lib/R/etc/Makeconf:199: C_interface.o] Error 1
+ERROR: compilation failed for package ‘SharedObject’
+* removing ‘/tmp/library/SharedObject’
+
+The downloaded source packages are in
+	‘/tmp/RtmpFt6ZuZ/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘SharedObject’ had non-zero exit status
+
+real	0m10.881s
+user	0m6.474s
+sys	0m2.532s

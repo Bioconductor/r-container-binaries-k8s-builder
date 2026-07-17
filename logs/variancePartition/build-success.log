@@ -1,0 +1,247 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''variancePartition'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'variancePartition'
+also installing the dependencies ‘nortest’, ‘KEGGgraph’, ‘SPIA’, ‘graphite’, ‘pathview’, ‘safe’, ‘EnvStats’, ‘EnrichmentBrowser’, ‘afex’, ‘remaCor’, ‘fANCOVA’, ‘ballgown’, ‘zenith’, ‘r2glmm’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nortest_1.0-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/KEGGgraph_1.72.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SPIA_2.64.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/graphite_1.58.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/pathview_1.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/safe_3.52.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/EnvStats_3.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/EnrichmentBrowser_2.42.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/afex_1.5-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/remaCor_0.0.20.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fANCOVA_0.6-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ballgown_2.43.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/zenith_1.14.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/r2glmm_0.1.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/variancePartition_1.42.0.tar.gz'
+* installing *binary* package ‘nortest’ ...
+* package ‘nortest’ successfully unpacked and SHA256 sums checked
+* ‘nortest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nortest’ as ‘nortest_1.0-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nortest)
+* installing *source* package ‘KEGGgraph’ ...
+** this is package ‘KEGGgraph’ version ‘1.72.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘KEGGgraph’ as ‘KEGGgraph_1.72.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGgraph)
+* installing *source* package ‘graphite’ ...
+** this is package ‘graphite’ version ‘1.58.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘graphite’ as ‘graphite_1.58.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graphite)
+* installing *source* package ‘safe’ ...
+** this is package ‘safe’ version ‘3.52.1’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘safe’ as ‘safe_3.52.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (safe)
+* installing *binary* package ‘afex’ ...
+* package ‘afex’ successfully unpacked and SHA256 sums checked
+* ‘afex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘afex’ as ‘afex_1.5-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (afex)
+* installing *binary* package ‘fANCOVA’ ...
+* package ‘fANCOVA’ successfully unpacked and SHA256 sums checked
+* ‘fANCOVA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fANCOVA’ as ‘fANCOVA_0.6-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fANCOVA)
+* installing *source* package ‘ballgown’ ...
+** this is package ‘ballgown’ version ‘2.43.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘structure’ in package ‘ballgown’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ballgown’ as ‘ballgown_2.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ballgown)
+* installing *source* package ‘SPIA’ ...
+** this is package ‘SPIA’ version ‘2.64.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SPIA’ as ‘SPIA_2.64.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SPIA)
+* installing *source* package ‘pathview’ ...
+** this is package ‘pathview’ version ‘1.52.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pathview’ as ‘pathview_1.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pathview)
+* installing *binary* package ‘EnvStats’ ...
+* package ‘EnvStats’ successfully unpacked and SHA256 sums checked
+* ‘EnvStats’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnvStats’ as ‘EnvStats_3.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnvStats)
+* installing *binary* package ‘r2glmm’ ...
+* package ‘r2glmm’ successfully unpacked and SHA256 sums checked
+* ‘r2glmm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘r2glmm’ as ‘r2glmm_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (r2glmm)
+* installing *source* package ‘EnrichmentBrowser’ ...
+** this is package ‘EnrichmentBrowser’ version ‘2.42.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnrichmentBrowser’ as ‘EnrichmentBrowser_2.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnrichmentBrowser)
+* installing *binary* package ‘remaCor’ ...
+* package ‘remaCor’ successfully unpacked and SHA256 sums checked
+* ‘remaCor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘remaCor’ as ‘remaCor_0.0.20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (remaCor)
+* installing *source* package ‘variancePartition’ ...
+** this is package ‘variancePartition’ version ‘1.42.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘calcVarPart’ with signature ‘"negbin"’: no definition for class “negbin”
+in method for ‘checkModelStatus’ with signature ‘"negbin"’: no definition for class “negbin”
+Creating a new generic function for ‘eBayes’ in package ‘variancePartition’
+Creating a new generic function for ‘classifyTestsF’ in package ‘variancePartition’
+Creating a new generic function for ‘topTable’ in package ‘variancePartition’
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘variancePartition’ as ‘variancePartition_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (variancePartition)
+* installing *source* package ‘zenith’ ...
+** this is package ‘zenith’ version ‘1.14.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zenith’ as ‘zenith_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zenith)
+
+The downloaded source packages are in
+	‘/tmp/RtmpI8wdUq/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m51.885s
+user	2m30.776s
+sys	0m21.565s
