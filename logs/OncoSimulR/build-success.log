@@ -1,0 +1,91 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''OncoSimulR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'OncoSimulR'
+also installing the dependencies ‘smatr’, ‘Oncotree’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/smatr_3.4-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Oncotree_0.3.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/OncoSimulR_4.14.0.tar.gz'
+* installing *binary* package ‘smatr’ ...
+* package ‘smatr’ successfully unpacked and SHA256 sums checked
+* ‘smatr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘smatr’ as ‘smatr_3.4-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (smatr)
+* installing *binary* package ‘Oncotree’ ...
+* package ‘Oncotree’ successfully unpacked and SHA256 sums checked
+* ‘Oncotree’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Oncotree’ as ‘Oncotree_0.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Oncotree)
+* installing *source* package ‘OncoSimulR’ ...
+** this is package ‘OncoSimulR’ version ‘4.14.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/gamma.c -o FitnessLandscape/gamma.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/landscape.c -o FitnessLandscape/landscape.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/random.c -o FitnessLandscape/random.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/sort.c -o FitnessLandscape/sort.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/chain.c -o FitnessLandscape/chain.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/input.c -o FitnessLandscape/input.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/genotypes.c -o FitnessLandscape/genotypes.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/ordered_pairs.c -o FitnessLandscape/ordered_pairs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/calculus.c -o FitnessLandscape/calculus.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/vector.c -o FitnessLandscape/vector.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/generalized_chain.c -o FitnessLandscape/generalized_chain.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/LinearAlgebra.c -o FitnessLandscape/LinearAlgebra.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/summary_statistics.c -o FitnessLandscape/summary_statistics.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/epistasis_type.c -o FitnessLandscape/epistasis_type.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/decomposition.c -o FitnessLandscape/decomposition.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/models.c -o FitnessLandscape/models.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FitnessLandscape/verbose.c -o FitnessLandscape/verbose.o
+ar -r liblandscape.a FitnessLandscape/gamma.o FitnessLandscape/landscape.o FitnessLandscape/random.o FitnessLandscape/sort.o FitnessLandscape/chain.o FitnessLandscape/input.o FitnessLandscape/genotypes.o FitnessLandscape/ordered_pairs.o FitnessLandscape/calculus.o FitnessLandscape/vector.o FitnessLandscape/generalized_chain.o FitnessLandscape/LinearAlgebra.o FitnessLandscape/summary_statistics.o FitnessLandscape/epistasis_type.o FitnessLandscape/decomposition.o FitnessLandscape/models.o FitnessLandscape/verbose.o ;
+ar: creating liblandscape.a
+ranlib liblandscape.a;
+gcc -std=gnu2x -O -Wall -o fl_statistics -I/FitnessLandscape/. -L. FitnessLandscape/main_fl_statistics.c -llandscape -lm;
+gcc -std=gnu2x -O -Wall -o fl_generate -I/FitnessLandscape/. -L. FitnessLandscape/main_fl_generate.c -llandscape -lm;
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c OncoSimulR_init.c -o OncoSimulR_init.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c unity_osimul.cpp -o unity_osimul.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o OncoSimulR.so OncoSimulR_init.o RcppExports.o unity_osimul.o -L/usr/local/lib/R/lib -lR
+installing via 'install.libs.R' to /tmp/library/00LOCK-OncoSimulR/00new/OncoSimulR
+[1] ""
+Installing fl_statistics fl_generate to /tmp/library/00LOCK-OncoSimulR/00new/OncoSimulR/exec
+Installing library OncoSimulR.so to /tmp/library/00LOCK-OncoSimulR/00new/OncoSimulR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OncoSimulR’ as ‘OncoSimulR_4.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OncoSimulR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpU9RgwZ/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m40.303s
+user	2m20.264s
+sys	0m11.023s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 664 (27%)
+- **Successfully Built:** 675 (28%)
 - **Failed:** 9 (0%)
-- **In Progress:** 43
-- **Not Started:** 1668
+- **In Progress:** 51
+- **Not Started:** 1649
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (664)
+## Successfully Built Packages (675)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 614 more ...*
+*... and 625 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
@@ -65,6 +64,7 @@
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
+| [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
@@ -90,12 +90,16 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (43)
+## In Progress (51)
 - ⏳ `CGHcall`
+- ⏳ `CRImage`
 - ⏳ `CardinalIO`
 - ⏳ `CellMapper`
 - ⏳ `CellNOptR`
+- ⏳ `ComplexHeatmap`
 - ⏳ `DFplyr`
+- ⏳ `DirichletMultinomial`
+- ⏳ `Doscheda`
 - ⏳ `EnrichDO`
 - ⏳ `ExiMiR`
 - ⏳ `KEGGgraph`
@@ -103,10 +107,11 @@
 - ⏳ `MsCoreUtils`
 - ⏳ `OCplus`
 - ⏳ `OmicsMLRepoR`
-- ⏳ `OncoSimulR`
 - ⏳ `Pedixplorer`
 - ⏳ `RTopper`
 - ⏳ `RVS`
+- ⏳ `S4Arrays`
+- ⏳ `Seqinfo`
 - ⏳ `TPP`
 - ⏳ `TurboNorm`
 - ⏳ `UCSC.utils`
@@ -118,24 +123,28 @@
 - ⏳ `frmaTools`
 - ⏳ `gaga`
 - ⏳ `hmdbQuery`
+- ⏳ `islify`
 - ⏳ `makecdfenv`
 - ⏳ `metabom8`
 - ⏳ `mnem`
+- ⏳ `monocle`
 - ⏳ `mosbi`
 - ⏳ `mzR`
 - ⏳ `nethet`
 - ⏳ `netresponse`
+- ⏳ `nondetects`
+- ⏳ `nucleoSim`
 - ⏳ `plier`
+- ⏳ `pvca`
 - ⏳ `qpcrNorm`
 - ⏳ `rain`
-- ⏳ `rcellminer`
 - ⏳ `rebook`
 - ⏳ `ribor`
-- ⏳ `scde`
 - ⏳ `siggenes`
-- ⏳ `updateObject`
 
-## Not Yet Started (1668)
+... and 1 more ...
+
+## Not Yet Started (1649)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -187,8 +196,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1618 more ...
+... and 1599 more ...
 
 ---
-*Last updated: 2026-07-17 21:19:24 UTC*
-*Packages with verified BBS status: 150*
+*Last updated: 2026-07-17 21:20:25 UTC*
+*Packages with verified BBS status: 151*
