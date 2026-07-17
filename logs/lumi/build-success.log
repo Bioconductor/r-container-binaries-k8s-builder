@@ -1,0 +1,97 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''lumi'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'lumi'
+also installing the dependencies ‘lumiBarnes’, ‘lumiHumanAll.db’, ‘lumiHumanIDMapping’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/lumiBarnes_1.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/lumiHumanAll.db_1.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/lumiHumanIDMapping_1.10.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/lumi_2.65.0.tar.gz'
+* installing *source* package ‘lumiHumanAll.db’ ...
+** this is package ‘lumiHumanAll.db’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lumiHumanAll.db’ as ‘lumiHumanAll.db_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lumiHumanAll.db)
+* installing *source* package ‘lumi’ ...
+** this is package ‘lumi’ version ‘2.65.0’
+** package ‘lumi’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lumi’ as ‘lumi_2.65.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lumi)
+* installing *source* package ‘lumiBarnes’ ...
+** this is package ‘lumiBarnes’ version ‘1.53.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lumiBarnes’ as ‘lumiBarnes_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lumiBarnes)
+* installing *source* package ‘lumiHumanIDMapping’ ...
+** this is package ‘lumiHumanIDMapping’ version ‘1.10.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lumiHumanIDMapping’ as ‘lumiHumanIDMapping_1.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lumiHumanIDMapping)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1kyWrU/downloaded_packages’
+
+real	2m49.124s
+user	2m20.496s
+sys	0m15.086s

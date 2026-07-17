@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SomaticSignatures'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SomaticSignatures'
+also installing the dependency ‘SomaticCancerAlterations’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/SomaticCancerAlterations_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SomaticSignatures_2.49.0.tar.gz'
+* installing *source* package ‘SomaticCancerAlterations’ ...
+** this is package ‘SomaticCancerAlterations’ version ‘1.49.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SomaticCancerAlterations’ as ‘SomaticCancerAlterations_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SomaticCancerAlterations)
+* installing *source* package ‘SomaticSignatures’ ...
+** this is package ‘SomaticSignatures’ version ‘2.49.0’
+** package ‘SomaticSignatures’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SomaticSignatures’ as ‘SomaticSignatures_2.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SomaticSignatures)
+
+The downloaded source packages are in
+	‘/tmp/RtmpINH4Xm/downloaded_packages’
+
+real	1m34.034s
+user	1m0.603s
+sys	0m8.649s
