@@ -1,0 +1,76 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''plyranges'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'plyranges'
+also installing the dependencies ‘HelloRanges’, ‘HelloRangesData’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/HelloRanges_1.38.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/HelloRangesData_1.38.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/plyranges_1.32.0.tar.gz'
+* installing *source* package ‘HelloRanges’ ...
+** this is package ‘HelloRanges’ version ‘1.38.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HelloRanges’ as ‘HelloRanges_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HelloRanges)
+* installing *source* package ‘HelloRangesData’ ...
+** this is package ‘HelloRangesData’ version ‘1.38.0’
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘HelloRangesData’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HelloRangesData’ as ‘HelloRangesData_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HelloRangesData)
+* installing *source* package ‘plyranges’ ...
+** this is package ‘plyranges’ version ‘1.32.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plyranges’ as ‘plyranges_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyranges)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqcNCpq/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m54.139s
+user	1m37.513s
+sys	0m10.329s

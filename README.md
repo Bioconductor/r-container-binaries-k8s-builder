@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1466 (61%)
+- **Successfully Built:** 1496 (62%)
 - **Failed:** 16 (0%)
-- **In Progress:** 109
-- **Not Started:** 793
+- **In Progress:** 87
+- **Not Started:** 785
 
-**Progress:** 62%
+**Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1466)
+## Successfully Built Packages (1496)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1416 more ...*
+*... and 1446 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,27 +97,19 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (109)
+## In Progress (87)
 - ⏳ `BSgenome`
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
 - ⏳ `BiocNeighbors`
 - ⏳ `CCPROMISE`
 - ⏳ `CNEr`
-- ⏳ `CNVRanger`
-- ⏳ `CaDrA`
-- ⏳ `CalibraCurve`
-- ⏳ `Category`
-- ⏳ `ChromHeatMap`
 - ⏳ `CoverageView`
 - ⏳ `CrispRVariants`
 - ⏳ `CytoPipeline`
-- ⏳ `DESeq2`
-- ⏳ `DMCFB`
-- ⏳ `DMCHMM`
 - ⏳ `EGAD`
+- ⏳ `EGSEA`
 - ⏳ `EnrichmentBrowser`
-- ⏳ `ExCluster`
 - ⏳ `GenomicFeatures`
 - ⏳ `GeoTcgaData`
 - ⏳ `GloScope`
@@ -128,30 +120,38 @@
 - ⏳ `LipidTrend`
 - ⏳ `MAST`
 - ⏳ `MetMashR`
-- ⏳ `MouseFM`
-- ⏳ `MultiAssayExperiment`
 - ⏳ `MultiDataSet`
 - ⏳ `PAST`
-- ⏳ `PICB`
 - ⏳ `PhIPData`
 - ⏳ `PlinkMatrix`
 - ⏳ `PolySTest`
-- ⏳ `RCSL`
 - ⏳ `SCANVIS`
-- ⏳ `SCnorm`
 - ⏳ `SDAMS`
 - ⏳ `SETA`
 - ⏳ `SEraster`
 - ⏳ `SMTrackR`
 - ⏳ `SPOTlight`
-- ⏳ `SPsimSeq`
 - ⏳ `ShortRead`
 - ⏳ `SigCheck`
 - ⏳ `SingleCellAlleleExperiment`
+- ⏳ `SingleR`
+- ⏳ `SpatialArtifacts`
+- ⏳ `SpliceImpactR`
+- ⏳ `SplineDV`
+- ⏳ `VisiumIO`
+- ⏳ `a4`
+- ⏳ `alabaster.spatial`
+- ⏳ `ballgown`
+- ⏳ `bayNorm`
+- ⏳ `beachmat.hdf5`
+- ⏳ `beachmat.tiledb`
+- ⏳ `biotmle`
+- ⏳ `breakpointR`
+- ⏳ `ccfindR`
 
-... and 59 more ...
+... and 37 more ...
 
-## Not Yet Started (793)
+## Not Yet Started (785)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
@@ -203,8 +203,8 @@
 - ⏸️ `CellMentor`
 - ⏸️ `CellMixS`
 
-... and 743 more ...
+... and 735 more ...
 
 ---
-*Last updated: 2026-07-17 22:08:58 UTC*
+*Last updated: 2026-07-17 22:10:56 UTC*
 *Packages with verified BBS status: 189*
