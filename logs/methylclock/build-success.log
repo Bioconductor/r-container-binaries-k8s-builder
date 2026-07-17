@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''methylclock'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'methylclock'
+also installing the dependency ‘methylclockData’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/methylclockData_1.21.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/methylclock_1.19.0.tar.gz'
+* installing *source* package ‘methylclockData’ ...
+** this is package ‘methylclockData’ version ‘1.21.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+[1] Creating log directory /root/.AnnotationHubData
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+** testing if installed package can be loaded from final location
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘methylclockData’ as ‘methylclockData_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (methylclockData)
+* installing *source* package ‘methylclock’ ...
+** this is package ‘methylclock’ version ‘1.19.0’
+** package ‘methylclock’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c NewModel1Clean.cpp -o NewModel1Clean.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c NewModel1Clean_emxAPI.cpp -o NewModel1Clean_emxAPI.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c NewModel1Clean_emxutil.cpp -o NewModel1Clean_emxutil.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c NewModel1Clean_initialize.cpp -o NewModel1Clean_initialize.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c NewModel1Clean_terminate.cpp -o NewModel1Clean_terminate.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bsxfun.cpp -o bsxfun.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c main.cpp -o main.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c repmat.cpp -o repmat.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rtGetInf.cpp -o rtGetInf.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rtGetNaN.cpp -o rtGetNaN.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rt_nonfinite.cpp -o rt_nonfinite.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o methylclock.so NewModel1Clean.o NewModel1Clean_emxAPI.o NewModel1Clean_emxutil.o NewModel1Clean_initialize.o NewModel1Clean_terminate.o RcppExports.o bsxfun.o main.o repmat.o rtGetInf.o rtGetNaN.o rt_nonfinite.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-methylclock/00new/methylclock/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘methylclock’ as ‘methylclock_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (methylclock)
+
+The downloaded source packages are in
+	‘/tmp/RtmpM02Ige/downloaded_packages’
+
+real	2m17.751s
+user	1m44.671s
+sys	0m13.877s
