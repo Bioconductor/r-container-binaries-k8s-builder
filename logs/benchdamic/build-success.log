@@ -1,0 +1,71 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''benchdamic'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'benchdamic'
+also installing the dependencies ‘spacefillr’, ‘mlr3mbo’, ‘MicrobiomeStat’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spacefillr_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3mbo_1.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MicrobiomeStat_1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/benchdamic_1.19.0.tar.gz'
+* installing *binary* package ‘spacefillr’ ...
+* package ‘spacefillr’ successfully unpacked and SHA256 sums checked
+* ‘spacefillr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spacefillr’ as ‘spacefillr_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spacefillr)
+* installing *binary* package ‘mlr3mbo’ ...
+* package ‘mlr3mbo’ successfully unpacked and SHA256 sums checked
+* ‘mlr3mbo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3mbo’ as ‘mlr3mbo_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3mbo)
+* installing *binary* package ‘MicrobiomeStat’ ...
+* package ‘MicrobiomeStat’ successfully unpacked and SHA256 sums checked
+* ‘MicrobiomeStat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MicrobiomeStat’ as ‘MicrobiomeStat_1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MicrobiomeStat)
+* installing *source* package ‘benchdamic’ ...
+** this is package ‘benchdamic’ version ‘1.19.0’
+** package ‘benchdamic’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+** testing if installed package can be loaded from final location
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘benchdamic’ as ‘benchdamic_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchdamic)
+
+The downloaded source packages are in
+	‘/tmp/RtmpJXuBUZ/downloaded_packages’
+
+real	1m36.103s
+user	1m17.337s
+sys	0m9.164s
