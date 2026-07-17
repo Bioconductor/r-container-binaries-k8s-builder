@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 499 (21%)
+- **Successfully Built:** 502 (21%)
 - **Failed:** 2 (0%)
-- **In Progress:** 7
-- **Not Started:** 1836
+- **In Progress:** 6
+- **Not Started:** 1834
 
 **Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (499)
+## Successfully Built Packages (502)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 
-*... and 449 more ...*
+*... and 452 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,16 +83,15 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (7)
+## In Progress (6)
+- ⏳ `BiocAzul`
 - ⏳ `BiocGenerics`
 - ⏳ `GSCA`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `RNAdecay`
 - ⏳ `cytolib`
-- ⏳ `flowPeaks`
 
-## Not Yet Started (1836)
+## Not Yet Started (1834)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -144,8 +143,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1786 more ...
+... and 1784 more ...
 
 ---
-*Last updated: 2026-07-17 20:48:00 UTC*
+*Last updated: 2026-07-17 20:48:30 UTC*
 *Packages with verified BBS status: 86*
