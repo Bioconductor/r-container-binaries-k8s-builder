@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 985 (41%)
+- **Successfully Built:** 1000 (41%)
 - **Failed:** 10 (0%)
-- **In Progress:** 48
-- **Not Started:** 1341
+- **In Progress:** 56
+- **Not Started:** 1318
 
-**Progress:** 41%
+**Progress:** 42%
 ```
-████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (985)
+## Successfully Built Packages (1000)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 
-*... and 935 more ...*
+*... and 950 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,8 +91,9 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (48)
+## In Progress (56)
 - ⏳ `AnnotationForge`
+- ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
 - ⏳ `DelayedDataFrame`
 - ⏳ `DelayedMatrixStats`
@@ -102,46 +103,49 @@
 - ⏳ `GOfan`
 - ⏳ `GOfuncR`
 - ⏳ `GeneBreak`
+- ⏳ `GenomicScores`
 - ⏳ `KEGGlincs`
 - ⏳ `MLP`
 - ⏳ `MesKit`
 - ⏳ `MiRaGE`
-- ⏳ `PADOG`
 - ⏳ `ScaledMatrix`
-- ⏳ `SpatialOmicsOverlay`
-- ⏳ `SubCellBarCode`
 - ⏳ `SummarizedExperiment`
 - ⏳ `adverSCarial`
+- ⏳ `affylmGUI`
+- ⏳ `alabaster.matrix`
 - ⏳ `annaffy`
 - ⏳ `annotate`
 - ⏳ `beachmat`
 - ⏳ `biomaRt`
+- ⏳ `blima`
+- ⏳ `cTRAP`
+- ⏳ `cellity`
+- ⏳ `chihaya`
+- ⏳ `customCMPdb`
 - ⏳ `cyanoFilter`
 - ⏳ `ddPCRclust`
+- ⏳ `fastLiquidAssociation`
 - ⏳ `flowBin`
 - ⏳ `flowCut`
-- ⏳ `flowWorkspace`
 - ⏳ `funOmics`
 - ⏳ `gage`
+- ⏳ `gatom`
+- ⏳ `ginmappeR`
 - ⏳ `goProfiles`
 - ⏳ `goTools`
-- ⏳ `graphite`
 - ⏳ `keggorthology`
 - ⏳ `maPredictDSC`
 - ⏳ `miRNAmeConverter`
-- ⏳ `miRNAtap`
 - ⏳ `mirIntegrator`
 - ⏳ `motifTestR`
 - ⏳ `multiMiR`
+- ⏳ `odseq`
 - ⏳ `panelcn.mops`
 - ⏳ `pathRender`
-- ⏳ `pathview`
-- ⏳ `rTRM`
-- ⏳ `safe`
-- ⏳ `simplifyEnrichment`
-- ⏳ `sketchR`
 
-## Not Yet Started (1341)
+... and 6 more ...
+
+## Not Yet Started (1318)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADImpute`
@@ -193,8 +197,8 @@
 - ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
 
-... and 1291 more ...
+... and 1268 more ...
 
 ---
-*Last updated: 2026-07-17 21:39:44 UTC*
+*Last updated: 2026-07-17 21:41:01 UTC*
 *Packages with verified BBS status: 161*

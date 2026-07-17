@@ -1,0 +1,117 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''graphite'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'graphite'
+also installing the dependencies ‘qtl’, ‘qpgraph’, ‘clipper’, ‘topologyGSA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qtl_1.74.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/qpgraph_2.46.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/clipper_1.52.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/topologyGSA_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/graphite_1.58.0.tar.gz'
+* installing *binary* package ‘qtl’ ...
+* package ‘qtl’ successfully unpacked and SHA256 sums checked
+* ‘qtl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qtl’ as ‘qtl_1.74_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qtl)
+* installing *source* package ‘graphite’ ...
+** this is package ‘graphite’ version ‘1.58.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘graphite’ as ‘graphite_1.58.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graphite)
+* installing *source* package ‘qpgraph’ ...
+** this is package ‘qpgraph’ version ‘2.46.0’
+** using staged installation
+checking for gcc... gcc -std=gnu2x
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to accept ANSI C... none needed
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DUSE_FC_LEN_T  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -Wall -pedantic -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cliquer.c -o cliquer.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DUSE_FC_LEN_T  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -Wall -pedantic -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graph.c -o graph.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DUSE_FC_LEN_T  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -Wall -pedantic -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qpgraph.c -o qpgraph.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DUSE_FC_LEN_T  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -Wall -pedantic -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorder.c -o reorder.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o qpgraph.so cliquer.o graph.o qpgraph.o reorder.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-qpgraph/00new/qpgraph/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘det’ from package ‘Matrix’ in package ‘qpgraph’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qpgraph’ as ‘qpgraph_2.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qpgraph)
+* installing *source* package ‘clipper’ ...
+** this is package ‘clipper’ version ‘1.52.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clipper’ as ‘clipper_1.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clipper)
+* installing *binary* package ‘topologyGSA’ ...
+* package ‘topologyGSA’ successfully unpacked and SHA256 sums checked
+* ‘topologyGSA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘topologyGSA’ as ‘topologyGSA_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (topologyGSA)
+
+The downloaded source packages are in
+	‘/tmp/RtmplQaXGx/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m51.378s
+user	1m35.183s
+sys	0m11.447s
