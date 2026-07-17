@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2237 (95%)
+- **Successfully Built:** 2245 (95%)
 - **Failed:** 16 (0%)
-- **In Progress:** 50
-- **Not Started:** 41
+- **In Progress:** 43
+- **Not Started:** 40
 
 **Progress:** 96%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2237)
+## Successfully Built Packages (2245)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2187 more ...*
+*... and 2195 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (50)
+## In Progress (43)
 - ⏳ `CAGEfightR`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `ENmix`
@@ -114,7 +114,6 @@
 - ⏳ `REMP`
 - ⏳ `RNAAgeCalc`
 - ⏳ `RadioGx`
-- ⏳ `ReportingTools`
 - ⏳ `RnaSeqSampleSize`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
@@ -122,34 +121,28 @@
 - ⏳ `SomaticSignatures`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
-- ⏳ `TVTB`
 - ⏳ `annotatr`
-- ⏳ `comapr`
 - ⏳ `conumee`
-- ⏳ `epimutacions`
 - ⏳ `epivizrChart`
 - ⏳ `fourSynergy`
-- ⏳ `funtooNorm`
 - ⏳ `geneAttribution`
 - ⏳ `gmoviz`
 - ⏳ `mCSEA`
 - ⏳ `maser`
-- ⏳ `methylPipe`
 - ⏳ `methylclock`
 - ⏳ `methylumi`
 - ⏳ `motifbreakR`
 - ⏳ `multicrispr`
 - ⏳ `octad`
-- ⏳ `psichomics`
 - ⏳ `qpgraph`
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
 - ⏳ `ribosomeProfilingQC`
 - ⏳ `shinyDSP`
-- ⏳ `shinyepico`
 - ⏳ `strandCheckR`
+- ⏳ `yarn`
 
-## Not Yet Started (41)
+## Not Yet Started (40)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEr`
 - ⏸️ `ChAMP`
@@ -190,8 +183,7 @@
 - ⏸️ `skewr`
 - ⏸️ `spicyR`
 - ⏸️ `wateRmelon`
-- ⏸️ `yarn`
 
 ---
-*Last updated: 2026-07-17 22:28:46 UTC*
+*Last updated: 2026-07-17 22:29:31 UTC*
 *Packages with verified BBS status: 160*

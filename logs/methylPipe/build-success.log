@@ -1,0 +1,49 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''methylPipe'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'methylPipe'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/methylPipe_1.47.0.tar.gz'
+Content type 'application/x-gzip' length 814723 bytes (795 KB)
+==================================================
+downloaded 795 KB
+
+* installing *source* package ‘methylPipe’ ...
+** this is package ‘methylPipe’ version ‘1.47.0’
+** package ‘methylPipe’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_methylPipe.c -o R_init_methylPipe.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c binning.c -o binning.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o methylPipe.so R_init_methylPipe.o binning.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-methylPipe/00new/methylPipe/libs
+** R
+** exec
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘methylPipe’ as ‘methylPipe_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (methylPipe)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYOubsy/downloaded_packages’
+
+real	1m8.055s
+user	0m52.611s
+sys	0m7.574s
