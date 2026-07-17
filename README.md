@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2221 (93%)
+- **Successfully Built:** 2232 (93%)
 - **Failed:** 27 (1%)
 - **In Progress:** 25
-- **Not Started:** 111
+- **Not Started:** 100
 
 **Progress:** 94%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2221)
+## Successfully Built Packages (2232)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2171 more ...*
+*... and 2182 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -110,32 +110,32 @@
 
 ## In Progress (25)
 - ⏳ `CAGEfightR`
-- ⏳ `CNViz`
 - ⏳ `CluMSID`
-- ⏳ `HiCDCPlus`
-- ⏳ `HiCDOC`
 - ⏳ `HiCaptuRe`
-- ⏳ `MAGAR`
-- ⏳ `MSnID`
+- ⏳ `IPO`
+- ⏳ `LOBSTAHS`
+- ⏳ `MAIT`
 - ⏳ `MungeSumstats`
+- ⏳ `NADfinder`
 - ⏳ `RNAmodR.AlkAnilineSeq`
 - ⏳ `RNAmodR.ML`
 - ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `YAPSA`
 - ⏳ `affycoretools`
+- ⏳ `annoLinker`
 - ⏳ `arrayMvout`
-- ⏳ `cliqueMS`
-- ⏳ `cosmiq`
+- ⏳ `compEpiTools`
+- ⏳ `crisprShiny`
+- ⏳ `crisprVerse`
 - ⏳ `ffpe`
+- ⏳ `flagme`
+- ⏳ `geomeTriD`
 - ⏳ `iCheck`
+- ⏳ `metaMS`
 - ⏳ `missMethyl`
-- ⏳ `ncGTW`
-- ⏳ `psichomics`
-- ⏳ `saseR`
-- ⏳ `scTreeViz`
 - ⏳ `wateRmelon`
 
-## Not Yet Started (111)
+## Not Yet Started (100)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAGEr`
@@ -153,10 +153,7 @@
 - ⏸️ `GDCRNATools`
 - ⏸️ `GOaGO`
 - ⏸️ `GeneTonic`
-- ⏸️ `IPO`
-- ⏸️ `LOBSTAHS`
 - ⏸️ `LymphoSeq`
-- ⏸️ `MAIT`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MIRit`
@@ -173,7 +170,6 @@
 - ⏸️ `MicrobiotaProcess`
 - ⏸️ `Moonlight2R`
 - ⏸️ `MoonlightR`
-- ⏸️ `NADfinder`
 - ⏸️ `NewWave`
 - ⏸️ `PanomiR`
 - ⏸️ `Pigengene`
@@ -185,10 +181,14 @@
 - ⏸️ `SingleCellSignalR`
 - ⏸️ `Statial`
 - ⏸️ `VISTA`
-- ⏸️ `annoLinker`
+- ⏸️ `artMS`
+- ⏸️ `bigmelon`
+- ⏸️ `bioCancer`
+- ⏸️ `broadSeq`
+- ⏸️ `cardelino`
 
-... and 61 more ...
+... and 50 more ...
 
 ---
-*Last updated: 2026-07-17 22:49:54 UTC*
+*Last updated: 2026-07-17 22:50:43 UTC*
 *Packages with verified BBS status: 216*
