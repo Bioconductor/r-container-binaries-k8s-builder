@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GOfan'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GOfan'
+also installing the dependency ‘org.Dr.eg.db’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/org.Dr.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GOfan_1.0.0.tar.gz'
+* installing *source* package ‘org.Dr.eg.db’ ...
+** this is package ‘org.Dr.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Dr.eg.db’ as ‘org.Dr.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Dr.eg.db)
+* installing *source* package ‘GOfan’ ...
+** this is package ‘GOfan’ version ‘1.0.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GOfan’ as ‘GOfan_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOfan)
+
+The downloaded source packages are in
+	‘/tmp/RtmpeihYK3/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m1.270s
+user	1m49.911s
+sys	0m6.082s

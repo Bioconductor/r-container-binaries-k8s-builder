@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AnnotationForge'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AnnotationForge'
+also installing the dependencies ‘human.db0’, ‘Homo.sapiens’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/human.db0_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/Homo.sapiens_1.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/AnnotationForge_1.54.0.tar.gz'
+* installing *source* package ‘human.db0’ ...
+** this is package ‘human.db0’ version ‘3.22.0’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘human.db0’ as ‘human.db0_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (human.db0)
+* installing *source* package ‘Homo.sapiens’ ...
+** this is package ‘Homo.sapiens’ version ‘1.3.1’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Homo.sapiens’ as ‘Homo.sapiens_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Homo.sapiens)
+* installing *source* package ‘AnnotationForge’ ...
+** this is package ‘AnnotationForge’ version ‘1.54.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnnotationForge’ as ‘AnnotationForge_1.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationForge)
+
+The downloaded source packages are in
+	‘/tmp/RtmprpDzOA/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	5m1.575s
+user	4m45.810s
+sys	0m9.719s
