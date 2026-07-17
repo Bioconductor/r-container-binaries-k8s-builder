@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 717 (30%)
+- **Successfully Built:** 736 (30%)
 - **Failed:** 9 (0%)
-- **In Progress:** 24
-- **Not Started:** 1634
+- **In Progress:** 12
+- **Not Started:** 1627
 
-**Progress:** 30%
+**Progress:** 31%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (717)
+## Successfully Built Packages (736)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 667 more ...*
+*... and 686 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,33 +90,21 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (24)
-- ⏳ `CRImage`
-- ⏳ `CellMapper`
-- ⏳ `CellNOptR`
-- ⏳ `DFplyr`
-- ⏳ `DirichletMultinomial`
-- ⏳ `Doscheda`
+## In Progress (12)
+- ⏳ `Biostrings`
+- ⏳ `GenomeInfoDb`
+- ⏳ `GenomicRanges`
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `OmicsMLRepoR`
-- ⏳ `S4Arrays`
+- ⏳ `alabaster.bumpy`
 - ⏳ `cola`
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
-- ⏳ `islify`
-- ⏳ `markeR`
-- ⏳ `metabom8`
-- ⏳ `mnem`
+- ⏳ `ldblock`
 - ⏳ `monocle`
 - ⏳ `mosbi`
-- ⏳ `mzR`
-- ⏳ `nondetects`
-- ⏳ `nucleoSim`
-- ⏳ `ribor`
-- ⏳ `siggenes`
 - ⏳ `simona`
 
-## Not Yet Started (1634)
+## Not Yet Started (1627)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -168,8 +156,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1584 more ...
+... and 1577 more ...
 
 ---
-*Last updated: 2026-07-17 21:23:48 UTC*
+*Last updated: 2026-07-17 21:24:48 UTC*
 *Packages with verified BBS status: 152*

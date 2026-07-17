@@ -1,0 +1,97 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''OmicsMLRepoR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'OmicsMLRepoR'
+also installing the dependencies ‘RTCGAToolbox’, ‘TCGAutils’, ‘cBioPortalData’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/RTCGAToolbox_2.42.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TCGAutils_1.32.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/cBioPortalData_2.24.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/OmicsMLRepoR_1.6.0.tar.gz'
+* installing *source* package ‘TCGAutils’ ...
+** this is package ‘TCGAutils’ version ‘1.32.2’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TCGAutils’ as ‘TCGAutils_1.32.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TCGAutils)
+* installing *source* package ‘OmicsMLRepoR’ ...
+** this is package ‘OmicsMLRepoR’ version ‘1.6.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OmicsMLRepoR’ as ‘OmicsMLRepoR_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OmicsMLRepoR)
+* installing *source* package ‘RTCGAToolbox’ ...
+** this is package ‘RTCGAToolbox’ version ‘2.42.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGAToolbox’ as ‘RTCGAToolbox_2.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGAToolbox)
+* installing *source* package ‘cBioPortalData’ ...
+** this is package ‘cBioPortalData’ version ‘2.24.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cBioPortalData’ as ‘cBioPortalData_2.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cBioPortalData)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1Ak1Dm/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m56.177s
+user	1m36.823s
+sys	0m12.504s

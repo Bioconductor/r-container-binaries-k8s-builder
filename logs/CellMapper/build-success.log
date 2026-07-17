@@ -1,0 +1,83 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CellMapper'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CellMapper'
+also installing the dependencies ‘CellMapperData’, ‘HumanAffyData’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/CellMapperData_1.38.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/HumanAffyData_1.38.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CellMapper_1.38.0.tar.gz'
+* installing *source* package ‘HumanAffyData’ ...
+** this is package ‘HumanAffyData’ version ‘1.38.0’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HumanAffyData’ as ‘HumanAffyData_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HumanAffyData)
+* installing *source* package ‘CellMapper’ ...
+** this is package ‘CellMapper’ version ‘1.38.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘stats::var’ by ‘S4Vectors::var’ when loading ‘CellMapper’
+Warning: replacing previous import ‘stats::sd’ by ‘S4Vectors::sd’ when loading ‘CellMapper’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘stats::var’ by ‘S4Vectors::var’ when loading ‘CellMapper’
+Warning: replacing previous import ‘stats::sd’ by ‘S4Vectors::sd’ when loading ‘CellMapper’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘stats::var’ by ‘S4Vectors::var’ when loading ‘CellMapper’
+Warning: replacing previous import ‘stats::sd’ by ‘S4Vectors::sd’ when loading ‘CellMapper’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CellMapper’ as ‘CellMapper_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CellMapper)
+* installing *source* package ‘CellMapperData’ ...
+** this is package ‘CellMapperData’ version ‘1.38.0’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘stats::var’ by ‘S4Vectors::var’ when loading ‘CellMapper’
+Warning: replacing previous import ‘stats::sd’ by ‘S4Vectors::sd’ when loading ‘CellMapper’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘stats::var’ by ‘S4Vectors::var’ when loading ‘CellMapper’
+Warning: replacing previous import ‘stats::sd’ by ‘S4Vectors::sd’ when loading ‘CellMapper’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CellMapperData’ as ‘CellMapperData_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CellMapperData)
+
+The downloaded source packages are in
+	‘/tmp/RtmplfkwN6/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m29.205s
+user	0m22.524s
+sys	0m4.991s
