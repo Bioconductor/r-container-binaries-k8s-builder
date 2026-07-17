@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 502 (21%)
+- **Successfully Built:** 503 (21%)
 - **Failed:** 2 (0%)
 - **In Progress:** 6
-- **Not Started:** 1834
+- **Not Started:** 1833
 
 **Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (502)
+## Successfully Built Packages (503)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 
-*... and 452 more ...*
+*... and 453 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,14 +84,14 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
 ## In Progress (6)
-- ⏳ `BiocAzul`
 - ⏳ `BiocGenerics`
 - ⏳ `GSCA`
 - ⏳ `HVP`
 - ⏳ `Harman`
+- ⏳ `Polytect`
 - ⏳ `cytolib`
 
-## Not Yet Started (1834)
+## Not Yet Started (1833)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -143,8 +143,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1784 more ...
+... and 1783 more ...
 
 ---
-*Last updated: 2026-07-17 20:48:30 UTC*
+*Last updated: 2026-07-17 20:48:49 UTC*
 *Packages with verified BBS status: 86*
