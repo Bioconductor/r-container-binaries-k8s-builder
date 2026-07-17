@@ -1,0 +1,183 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''fobitools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'fobitools'
+also installing the dependencies ‘corrr’, ‘scrutiny’, ‘dunn.test’, ‘FlexParamCurve’, ‘struct’, ‘FSA’, ‘sva’, ‘RecordLinkage’, ‘tictoc’, ‘metabolomicsWorkbenchR’, ‘POMA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/corrr_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scrutiny_0.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dunn.test_1.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FlexParamCurve_1.5-7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/struct_1.25.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FSA_0.10.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/sva_3.59.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RecordLinkage_0.4-12.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tictoc_1.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/metabolomicsWorkbenchR_1.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/POMA_1.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/fobitools_1.21.0.tar.gz'
+* installing *binary* package ‘corrr’ ...
+* package ‘corrr’ successfully unpacked and SHA256 sums checked
+* ‘corrr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘corrr’ as ‘corrr_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corrr)
+* installing *binary* package ‘FlexParamCurve’ ...
+* package ‘FlexParamCurve’ successfully unpacked and SHA256 sums checked
+* ‘FlexParamCurve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FlexParamCurve’ as ‘FlexParamCurve_1.5-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlexParamCurve)
+* installing *source* package ‘struct’ ...
+** this is package ‘struct’ version ‘1.25.0’
+** package ‘struct’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘struct’ as ‘struct_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (struct)
+* installing *source* package ‘sva’ ...
+** this is package ‘sva’ version ‘3.59.0’
+** package ‘sva’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sva.c -o sva.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sva.so sva.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-sva/00new/sva/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sva’ as ‘sva_3.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sva)
+* installing *binary* package ‘RecordLinkage’ ...
+* package ‘RecordLinkage’ successfully unpacked and SHA256 sums checked
+* ‘RecordLinkage’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RecordLinkage’ as ‘RecordLinkage_0.4-12.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RecordLinkage)
+* installing *binary* package ‘tictoc’ ...
+* package ‘tictoc’ successfully unpacked and SHA256 sums checked
+* ‘tictoc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tictoc’ as ‘tictoc_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tictoc)
+* installing *binary* package ‘scrutiny’ ...
+* package ‘scrutiny’ successfully unpacked and SHA256 sums checked
+* ‘scrutiny’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scrutiny’ as ‘scrutiny_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scrutiny)
+* installing *source* package ‘metabolomicsWorkbenchR’ ...
+** this is package ‘metabolomicsWorkbenchR’ version ‘1.23.0’
+** package ‘metabolomicsWorkbenchR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metabolomicsWorkbenchR’ as ‘metabolomicsWorkbenchR_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metabolomicsWorkbenchR)
+* installing *source* package ‘fobitools’ ...
+** this is package ‘fobitools’ version ‘1.21.0’
+** package ‘fobitools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fobitools’ as ‘fobitools_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fobitools)
+* installing *binary* package ‘dunn.test’ ...
+* package ‘dunn.test’ successfully unpacked and SHA256 sums checked
+* ‘dunn.test’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dunn.test’ as ‘dunn.test_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dunn.test)
+* installing *binary* package ‘FSA’ ...
+* package ‘FSA’ successfully unpacked and SHA256 sums checked
+* ‘FSA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FSA’ as ‘FSA_0.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FSA)
+* installing *source* package ‘POMA’ ...
+** this is package ‘POMA’ version ‘1.23.0’
+** package ‘POMA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘POMA’ as ‘POMA_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (POMA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9peK0x/downloaded_packages’
+
+real	1m39.282s
+user	1m19.995s
+sys	0m13.108s
