@@ -1,0 +1,43 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PLPE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PLPE'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/PLPE_1.73.0.tar.gz'
+Content type 'application/x-gzip' length 270355 bytes (264 KB)
+==================================================
+downloaded 264 KB
+
+* installing *source* package ‘PLPE’ ...
+** this is package ‘PLPE’ version ‘1.73.0’
+** package ‘PLPE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PLPE’ as ‘PLPE_1.73.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PLPE)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpisr4jO/downloaded_packages’
+
+real	0m11.484s
+user	0m6.756s
+sys	0m2.228s

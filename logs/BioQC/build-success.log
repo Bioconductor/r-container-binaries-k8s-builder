@@ -1,0 +1,97 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BioQC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BioQC'
+also installing the dependencies ‘rbenchmark’, ‘hgu133plus2.db’, ‘ineq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rbenchmark_1.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/hgu133plus2.db_3.13.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ineq_0.2-13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BioQC_1.41.0.tar.gz'
+* installing *binary* package ‘rbenchmark’ ...
+* package ‘rbenchmark’ successfully unpacked and SHA256 sums checked
+* ‘rbenchmark’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rbenchmark’ as ‘rbenchmark_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rbenchmark)
+* installing *source* package ‘hgu133plus2.db’ ...
+** this is package ‘hgu133plus2.db’ version ‘3.13.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: Couldn't set cache size: database disk image is malformed
+Use `cache_size` = NULL to turn off this warning.
+Warning: Couldn't set synchronous mode: database disk image is malformed
+Use `synchronous` = NULL to turn off this warning.
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hgu133plus2.db’ as ‘hgu133plus2.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133plus2.db)
+* installing *binary* package ‘ineq’ ...
+* package ‘ineq’ successfully unpacked and SHA256 sums checked
+* ‘ineq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ineq’ as ‘ineq_0.2-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ineq)
+* installing *source* package ‘BioQC’ ...
+** this is package ‘BioQC’ version ‘1.41.0’
+** package ‘BioQC’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e 'Rcpp:::CxxFlags()'` -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gini.c -o gini.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e 'Rcpp:::CxxFlags()'` -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e 'Rcpp:::CxxFlags()'` -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read_gmt.cpp -o read_gmt.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e 'Rcpp:::CxxFlags()'` -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stat_rank.c -o stat_rank.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e 'Rcpp:::CxxFlags()'` -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wmw_test.c -o wmw_test.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'Rcpp:::LdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'RcppLdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BioQC.so gini.o init.o read_gmt.o stat_rank.o wmw_test.o -L/usr/local/lib/R/lib -lR
+'Rcpp:::LdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'RcppLdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+installing to /tmp/library/00LOCK-BioQC/00new/BioQC/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BioQC’ as ‘BioQC_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BioQC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpoSdNE7/downloaded_packages’
+
+real	0m39.590s
+user	0m26.574s
+sys	0m6.340s

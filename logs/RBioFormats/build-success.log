@@ -1,0 +1,46 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RBioFormats'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RBioFormats'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RBioFormats_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 329176 bytes (321 KB)
+==================================================
+downloaded 321 KB
+
+* installing *source* package ‘RBioFormats’ ...
+** this is package ‘RBioFormats’ version ‘1.13.0’
+** package ‘RBioFormats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+trying URL 'https://downloads.openmicroscopy.org/bio-formats/7.3.0/artifacts/bioformats_package.jar'
+Content type 'application/java-archive' length 44926502 bytes (42.8 MB)
+==================================================
+downloaded 42.8 MB
+
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RBioFormats’ as ‘RBioFormats_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RBioFormats)
+
+The downloaded source packages are in
+	‘/tmp/Rtmps1bbEc/downloaded_packages’
+
+real	0m38.246s
+user	0m11.557s
+sys	0m3.884s

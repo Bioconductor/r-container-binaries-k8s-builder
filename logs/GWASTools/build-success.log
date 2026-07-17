@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GWASTools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GWASTools'
+also installing the dependencies ‘GWASExactHW’, ‘logistf’, ‘GWASdata’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GWASExactHW_1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/logistf_1.26.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/GWASdata_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GWASTools_1.59.0.tar.gz'
+* installing *binary* package ‘GWASExactHW’ ...
+* package ‘GWASExactHW’ successfully unpacked and SHA256 sums checked
+* ‘GWASExactHW’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GWASExactHW’ as ‘GWASExactHW_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GWASExactHW)
+* installing *binary* package ‘logistf’ ...
+* package ‘logistf’ successfully unpacked and SHA256 sums checked
+* ‘logistf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘logistf’ as ‘logistf_1.26.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logistf)
+* installing *source* package ‘GWASTools’ ...
+** this is package ‘GWASTools’ version ‘1.59.0’
+** package ‘GWASTools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GWASTools’ as ‘GWASTools_1.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GWASTools)
+* installing *source* package ‘GWASdata’ ...
+** this is package ‘GWASdata’ version ‘1.51.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+Warning in utils::tar(filepath, curPkg, compression = compression, compression_level = compression_level,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘GWASdata/extdata/affy_raw_data/GIGAS_g_GAINmixHapMapAffy2_GenomeWideEx_6_A03_31250.BIRDSEED.ALLELE_SUMMARY.TXT’
+Warning in utils::tar(filepath, curPkg, compression = compression, compression_level = compression_level,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘GWASdata/extdata/affy_raw_data/GIGAS_g_GAINmixHapMapAffy2_GenomeWideEx_6_A05_31282.BIRDSEED.ALLELE_SUMMARY.TXT’
+Warning in utils::tar(filepath, curPkg, compression = compression, compression_level = compression_level,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘GWASdata/extdata/affy_raw_data/GIGAS_g_GAINmixHapMapAffy2_GenomeWideEx_6_B02_31236.BIRDSEED.ALLELE_SUMMARY.TXT’
+packaged installation of ‘GWASdata’ as ‘GWASdata_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GWASdata)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpozab4K/downloaded_packages’
+
+real	0m46.053s
+user	0m35.926s
+sys	0m6.426s

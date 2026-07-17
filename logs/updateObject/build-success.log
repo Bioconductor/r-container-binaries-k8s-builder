@@ -1,0 +1,102 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''updateObject'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'updateObject'
+also installing the dependencies ‘sfsmisc’, ‘betareg’, ‘lokern’, ‘globaltest’, ‘BiSeq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sfsmisc_1.1-24.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/betareg_3.2-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lokern_1.1-12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/globaltest_5.67.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BiSeq_1.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/updateObject_1.17.0.tar.gz'
+* installing *binary* package ‘sfsmisc’ ...
+* package ‘sfsmisc’ successfully unpacked and SHA256 sums checked
+* ‘sfsmisc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sfsmisc’ as ‘sfsmisc_1.1-24_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sfsmisc)
+* installing *binary* package ‘betareg’ ...
+* package ‘betareg’ successfully unpacked and SHA256 sums checked
+* ‘betareg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘betareg’ as ‘betareg_3.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (betareg)
+* installing *source* package ‘globaltest’ ...
+** this is package ‘globaltest’ version ‘5.67.0’
+** package ‘globaltest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘globaltest’ as ‘globaltest_5.67.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globaltest)
+* installing *source* package ‘updateObject’ ...
+** this is package ‘updateObject’ version ‘1.17.0’
+** package ‘updateObject’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘updateObject’ as ‘updateObject_1.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (updateObject)
+* installing *binary* package ‘lokern’ ...
+* package ‘lokern’ successfully unpacked and SHA256 sums checked
+* ‘lokern’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lokern’ as ‘lokern_1.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lokern)
+* installing *source* package ‘BiSeq’ ...
+** this is package ‘BiSeq’ version ‘1.53.0’
+** package ‘BiSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BiSeq’ as ‘BiSeq_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiSeq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpN5U3cI/downloaded_packages’
+
+real	1m17.883s
+user	1m8.387s
+sys	0m9.704s

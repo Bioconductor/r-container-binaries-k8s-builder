@@ -1,0 +1,83 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ecolitk'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ecolitk'
+also installing the dependencies ‘ecoliLeucine’, ‘ecolicdf’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/ecoliLeucine_1.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/ecolicdf_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ecolitk_1.85.0.tar.gz'
+* installing *source* package ‘ecolicdf’ ...
+** this is package ‘ecolicdf’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecolicdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecolicdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecolicdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecolicdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecolicdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecolicdf’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ecolicdf’ as ‘ecolicdf_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ecolicdf)
+* installing *source* package ‘ecolitk’ ...
+** this is package ‘ecolitk’ version ‘1.85.0’
+** package ‘ecolitk’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Note: possible error in 'strsplit(line, "\t", ': unused argument (extended = TRUE) 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ecolitk’ as ‘ecolitk_1.85.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ecolitk)
+* installing *source* package ‘ecoliLeucine’ ...
+** this is package ‘ecoliLeucine’ version ‘1.53.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecolicdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecolicdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ecolicdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘ecolicdf’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ecoliLeucine’ as ‘ecoliLeucine_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ecoliLeucine)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRyuUhi/downloaded_packages’
+
+real	0m30.250s
+user	0m22.019s
+sys	0m5.446s

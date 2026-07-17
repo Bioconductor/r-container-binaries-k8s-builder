@@ -1,0 +1,91 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MsCoreUtils'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MsCoreUtils'
+also installing the dependencies ‘gmm’, ‘tmvtnorm’, ‘imputeLCMD’, ‘norm’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gmm_1.9-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tmvtnorm_1.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/imputeLCMD_2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/norm_1.0-11.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MsCoreUtils_1.25.4.tar.gz'
+* installing *binary* package ‘gmm’ ...
+* package ‘gmm’ successfully unpacked and SHA256 sums checked
+* ‘gmm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gmm’ as ‘gmm_1.9-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gmm)
+* installing *binary* package ‘norm’ ...
+* package ‘norm’ successfully unpacked and SHA256 sums checked
+* ‘norm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘norm’ as ‘norm_1.0-11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (norm)
+* installing *source* package ‘MsCoreUtils’ ...
+** this is package ‘MsCoreUtils’ version ‘1.25.4’
+** package ‘MsCoreUtils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c between.c -o between.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c closest.c -o closest.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gnps.c -o gnps.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c impNeighbourAvg.c -o impNeighbourAvg.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c join.c -o join.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c localMaxima.c -o localMaxima.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lowerConvexHull.c -o lowerConvexHull.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c maxi.c -o maxi.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c morphologicalFilters.c -o morphologicalFilters.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reduce.c -o reduce.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snip.c -o snip.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sumi.c -o sumi.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c which.c -o which.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o MsCoreUtils.so between.o closest.o gnps.o impNeighbourAvg.o init.o join.o localMaxima.o lowerConvexHull.o maxi.o morphologicalFilters.o reduce.o snip.o sumi.o which.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-MsCoreUtils/00new/MsCoreUtils/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MsCoreUtils’ as ‘MsCoreUtils_1.25.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MsCoreUtils)
+* installing *binary* package ‘tmvtnorm’ ...
+* package ‘tmvtnorm’ successfully unpacked and SHA256 sums checked
+* ‘tmvtnorm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tmvtnorm’ as ‘tmvtnorm_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tmvtnorm)
+* installing *binary* package ‘imputeLCMD’ ...
+* package ‘imputeLCMD’ successfully unpacked and SHA256 sums checked
+* ‘imputeLCMD’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imputeLCMD’ as ‘imputeLCMD_2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imputeLCMD)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYv09O2/downloaded_packages’
+
+real	0m23.472s
+user	0m10.969s
+sys	0m3.665s

@@ -1,0 +1,39 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Rcwl'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Rcwl'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Rcwl_1.29.0.tar.gz'
+Content type 'application/x-gzip' length 1076870 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+* installing *source* package ‘Rcwl’ ...
+** this is package ‘Rcwl’ version ‘1.29.0’
+** package ‘Rcwl’ successfully unpacked and MD5 sums checked
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rcwl’ as ‘Rcwl_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rcwl)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBYoh0i/downloaded_packages’
+
+real	0m20.951s
+user	0m13.612s
+sys	0m3.564s
