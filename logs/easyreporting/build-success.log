@@ -1,0 +1,975 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''easyreporting'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'easyreporting'
+also installing the dependencies ‘SparseArray’, ‘MatrixGenerics’, ‘S4Arrays’, ‘DelayedArray’, ‘SummarizedExperiment’, ‘cigarillo’, ‘interp’, ‘BiocIO’, ‘restfulr’, ‘timechange’, ‘BiocParallel’, ‘GenomicAlignments’, ‘Seqinfo’, ‘pwalign’, ‘hwriter’, ‘latticeExtra’, ‘XVector’, ‘Rhtslib’, ‘rtracklayer’, ‘lubridate’, ‘ShortRead’, ‘Rsamtools’, ‘GenomicFeatures’, ‘GenomicRanges’, ‘distill’, ‘edgeR’, ‘limma’, ‘EDASeq’, ‘statmod’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SparseArray_1.12.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MatrixGenerics_1.24.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/S4Arrays_1.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DelayedArray_0.38.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SummarizedExperiment_1.42.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/cigarillo_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/interp_1.1-6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocIO_1.22.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/restfulr_0.0.17.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timechange_0.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocParallel_1.46.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomicAlignments_1.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Seqinfo_1.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/pwalign_1.8.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hwriter_1.3.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/latticeExtra_0.6-31.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/XVector_0.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Rhtslib_3.8.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/rtracklayer_1.72.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lubridate_1.9.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ShortRead_1.70.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Rsamtools_2.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomicFeatures_1.64.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomicRanges_1.64.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/distill_1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/edgeR_4.10.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/limma_3.68.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/EDASeq_2.46.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/statmod_1.5.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/easyreporting_1.24.0.tar.gz'
+* installing *source* package ‘MatrixGenerics’ ...
+** this is package ‘MatrixGenerics’ version ‘1.24.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘rowAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAvgsPerColSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAvgsPerRowSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedVars’ in package ‘MatrixGenerics’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatrixGenerics’ as ‘MatrixGenerics_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixGenerics)
+* installing *source* package ‘S4Arrays’ ...
+** this is package ‘S4Arrays’ version ‘1.12.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_S4Arrays.c -o R_init_S4Arrays.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c abind.c -o abind.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c array_selection.c -o array_selection.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dim_tuning_utils.c -o dim_tuning_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowsum.c -o rowsum.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o S4Arrays.so R_init_S4Arrays.o S4Vectors_stubs.o abind.o array_selection.o dim_tuning_utils.o rowsum.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-S4Arrays/00new/S4Arrays/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘rowsum’ in package ‘S4Arrays’
+Creating a new generic function for ‘abind’ in package ‘S4Arrays’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘S4Arrays’ as ‘S4Arrays_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S4Arrays)
+* installing *source* package ‘cigarillo’ ...
+** this is package ‘cigarillo’ version ‘1.2.1’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_cigarillo.c -o R_init_cigarillo.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cigar_extent.c -o cigar_extent.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cigar_ops_visibility.c -o cigar_ops_visibility.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cigars_as_ranges.c -o cigars_as_ranges.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c explode_cigars.c -o explode_cigars.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c map_ref_ranges_to_query.c -o map_ref_ranges_to_query.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c project_positions.c -o project_positions.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tabulate_cigar_ops.c -o tabulate_cigar_ops.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trim_cigars.c -o trim_cigars.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o cigarillo.so IRanges_stubs.o R_init_cigarillo.o S4Vectors_stubs.o cigar_extent.o cigar_ops_visibility.o cigars_as_ranges.o explode_cigars.o map_ref_ranges_to_query.o project_positions.o tabulate_cigar_ops.o trim_cigars.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-cigarillo/00new/cigarillo/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package ‘XVector’ required by ‘Biostrings’ could not be found
+Execution halted
+ERROR: lazy loading failed for package ‘cigarillo’
+* removing ‘/tmp/library/cigarillo’
+* installing *binary* package ‘interp’ ...
+* package ‘interp’ successfully unpacked and SHA256 sums checked
+* ‘interp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘interp’ as ‘interp_1.1-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (interp)
+* installing *source* package ‘BiocIO’ ...
+** this is package ‘BiocIO’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BiocIO’ as ‘BiocIO_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocIO)
+* installing *binary* package ‘restfulr’ ...
+* package ‘restfulr’ successfully unpacked and SHA256 sums checked
+* ‘restfulr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘restfulr’ as ‘restfulr_0.0.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (restfulr)
+* installing *binary* package ‘timechange’ ...
+* package ‘timechange’ successfully unpacked and SHA256 sums checked
+* ‘timechange’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘BiocParallel’ ...
+** this is package ‘BiocParallel’ version ‘1.46.0’
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking for g++ -std=gnu++20 option to enable C++11 features... none needed
+checking for library containing shm_open... none required
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/mman.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ipcmutex.cpp -o ipcmutex.o
+In file included from ./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:30,
+                 from boost_patch_1_87/interprocess/managed_shared_memory.hpp:25,
+                 from ipcmutex.cpp:14:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In member function ‘typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool)’:
+./boost_patch_1_87/interprocess/segment_manager.hpp:654:28: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+  654 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                            ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:654:57: error: expected primary-expression before ‘>’ token
+  654 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                         ^
+./boost_patch_1_87/interprocess/segment_manager.hpp: In member function ‘typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::priv_anonymous_construct(Proxy, size_type, bool)’:
+./boost_patch_1_87/interprocess/segment_manager.hpp:721:28: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+  721 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                            ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:721:57: error: expected primary-expression before ‘>’ token
+  721 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                         ^
+./boost_patch_1_87/interprocess/segment_manager.hpp: In member function ‘typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::priv_generic_named_construct(Proxy, unsigned char, const CharT*, size_type, bool, bool, IndexType<boost::interprocess::ipcdetail::index_config<CharT, MemoryAlgorithm> >&)’:
+./boost_patch_1_87/interprocess/segment_manager.hpp:1015:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+ 1015 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:32: error: expected primary-expression before ‘...’ token
+ 1022 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+ 1022 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:7: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:36: error: expected ‘;’ before ‘{’ token
+ 1022 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1027:7: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+ 1027 |       BOOST_INTERPROCESS_CATCH_END
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_DOCIGN
+./boost_patch_1_87/interprocess/segment_manager.hpp:1052:31: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+ 1052 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                               ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1052:60: error: expected primary-expression before ‘>’ token
+ 1052 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                            ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1069:31: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+ 1069 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                               ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1069:60: error: expected primary-expression before ‘>’ token
+ 1069 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                            ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1088:29: error: expected ‘;’ before ‘{’ token
+ 1088 |       BOOST_INTERPROCESS_TRY{
+      |                             ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1100:32: error: expected primary-expression before ‘...’ token
+ 1100 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1100:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+ 1100 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1100:36: error: expected ‘;’ before ‘{’ token
+ 1100 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1109:7: error: expected ‘;’ before ‘value_eraser’
+ 1109 |       value_eraser<index_t> v_eraser(index, it);
+      |       ^~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1115:7: error: ‘v_eraser’ was not declared in this scope; did you mean ‘value_eraser’?
+ 1115 |       v_eraser.release();
+      |       ^~~~~~~~
+      |       value_eraser
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In static member function ‘static bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::grow(const CharT*, size_type)’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:117:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  117 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:129:32: error: expected primary-expression before ‘...’ token
+  129 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:129:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+  129 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:129:36: error: expected ‘;’ before ‘{’ token
+  129 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:131:9: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+  131 |       } BOOST_INTERPROCESS_CATCH_END
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         BOOST_INTERPROCESS_DOCIGN
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:133:4: warning: no return statement in function returning non-void [-Wreturn-type]
+  133 |    }
+      |    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In static member function ‘static bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::shrink_to_fit(const CharT*)’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:140:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  140 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:146:32: error: expected primary-expression before ‘...’ token
+  146 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:146:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+  146 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:146:36: error: expected ‘;’ before ‘{’ token
+  146 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:148:9: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+  148 |       } BOOST_INTERPROCESS_CATCH_END
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         BOOST_INTERPROCESS_DOCIGN
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In member function ‘bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::create_impl(void*, size_type)’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:177:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  177 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:32: error: expected primary-expression before ‘...’ token
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:36: error: expected ‘;’ before ‘{’ token
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:184:9: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+  184 |       } BOOST_INTERPROCESS_CATCH_END
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         BOOST_INTERPROCESS_DOCIGN
+In file included from ./boost_patch_1_87/interprocess/segment_manager.hpp:32:
+/usr/include/boost/interprocess/detail/named_proxy.hpp: In instantiation of ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = boost::interprocess::interprocess_mutex; bool is_iterator = false]’:
+ipcmutex.cpp:35:64:   required from here
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30: error: no matching function for call to ‘boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct<boost::interprocess::interprocess_mutex>(const boost::interprocess::ipcdetail::named_proxy<boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>, boost::interprocess::interprocess_mutex, false>::char_type* const&, std::size_t&, const bool&, const bool&, boost::interprocess::ipcdetail::CtorArgN<boost::interprocess::interprocess_mutex, false>&)’
+  131 |       return mp_mngr->template
+      |              ~~~~~~~~~~~~~~~~~
+  132 |          generic_construct<T>(mp_name, m_num, m_find, m_dothrow, ctor_obj);
+      |          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note: candidate: ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index]’
+  647 |    typename Proxy::object_type * generic_construct
+      |                                  ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note:   template argument deduction/substitution failed:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In substitution of ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct(Proxy&, const char*, size_type, bool, bool) [with Proxy = boost::interprocess::interprocess_mutex]’:
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30:   required from ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = boost::interprocess::interprocess_mutex; bool is_iterator = false]’
+ipcmutex.cpp:35:64:   required from here
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: error: no type named ‘object_type’ in ‘class boost::interprocess::interprocess_mutex’
+/usr/include/boost/interprocess/detail/named_proxy.hpp: In instantiation of ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = bool; bool is_iterator = false]’:
+ipcmutex.cpp:36:56:   required from here
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30: error: no matching function for call to ‘boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct<bool>(const boost::interprocess::ipcdetail::named_proxy<boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>, bool, false>::char_type* const&, std::size_t&, const bool&, const bool&, boost::interprocess::ipcdetail::CtorArgN<bool, false>&)’
+  131 |       return mp_mngr->template
+      |              ~~~~~~~~~~~~~~~~~
+  132 |          generic_construct<T>(mp_name, m_num, m_find, m_dothrow, ctor_obj);
+      |          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note: candidate: ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index]’
+  647 |    typename Proxy::object_type * generic_construct
+      |                                  ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note:   template argument deduction/substitution failed:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In substitution of ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct(Proxy&, const char*, size_type, bool, bool) [with Proxy = bool]’:
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30:   required from ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = bool; bool is_iterator = false]’
+ipcmutex.cpp:36:56:   required from here
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: error: ‘bool’ is not a class, struct, or union type
+/usr/include/boost/interprocess/detail/named_proxy.hpp: In instantiation of ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = int; bool is_iterator = false]’:
+ipcmutex.cpp:76:45:   required from here
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30: error: no matching function for call to ‘boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct<int>(const boost::interprocess::ipcdetail::named_proxy<boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>, int, false>::char_type* const&, std::size_t&, const bool&, const bool&, boost::interprocess::ipcdetail::CtorArgN<int, false>&)’
+  131 |       return mp_mngr->template
+      |              ~~~~~~~~~~~~~~~~~
+  132 |          generic_construct<T>(mp_name, m_num, m_find, m_dothrow, ctor_obj);
+      |          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note: candidate: ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index]’
+  647 |    typename Proxy::object_type * generic_construct
+      |                                  ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note:   template argument deduction/substitution failed:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In substitution of ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct(Proxy&, const char*, size_type, bool, bool) [with Proxy = int]’:
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30:   required from ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = int; bool is_iterator = false]’
+ipcmutex.cpp:76:45:   required from here
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: error: ‘int’ is not a class, struct, or union type
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In instantiation of ‘bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::create_impl(void*, size_type) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index; long unsigned int Offset = 16; size_type = long unsigned int]’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:742:40:   required from ‘bool boost::interprocess::ipcdetail::create_open_func<BasicManagedMemoryImpl>::operator()(void*, std::size_t, bool) const [with BasicManagedMemoryImpl = boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16>; std::size_t = long unsigned int]’
+/usr/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:357:30:   required from ‘static void boost::interprocess::ipcdetail::managed_open_or_create_impl<DeviceAbstraction, MemAlignment, FileBased, StoreDevice>::do_map_after_create(DeviceAbstraction&, boost::interprocess::mapped_region&, std::size_t, const void*, ConstructFunc) [with ConstructFunc = boost::interprocess::ipcdetail::create_open_func<boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16> >; DeviceAbstraction = boost::interprocess::shared_memory_object; long unsigned int MemAlignment = 16; bool FileBased = true; bool StoreDevice = false; std::size_t = long unsigned int]’
+/usr/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:502:35:   required from ‘void boost::interprocess::ipcdetail::managed_open_or_create_impl<DeviceAbstraction, MemAlignment, FileBased, StoreDevice>::priv_open_or_create(boost::interprocess::ipcdetail::create_enum_t, const DeviceId&, std::size_t, boost::interprocess::mode_t, const void*, const boost::interprocess::permissions&, ConstructFunc) [with DeviceId = const char*; ConstructFunc = boost::interprocess::ipcdetail::create_open_func<boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16> >; DeviceAbstraction = boost::interprocess::shared_memory_object; long unsigned int MemAlignment = 16; bool FileBased = true; bool StoreDevice = false; std::size_t = long unsigned int]’
+/usr/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:199:10:   required from ‘boost::interprocess::ipcdetail::managed_open_or_create_impl<DeviceAbstraction, MemAlignment, FileBased, StoreDevice>::managed_open_or_create_impl(boost::interprocess::open_or_create_t, const DeviceId&, std::size_t, boost::interprocess::mode_t, const void*, const ConstructFunc&, const boost::interprocess::permissions&) [with DeviceId = const char*; ConstructFunc = boost::interprocess::ipcdetail::create_open_func<boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16> >; DeviceAbstraction = boost::interprocess::shared_memory_object; long unsigned int MemAlignment = 16; bool FileBased = true; bool StoreDevice = false; std::size_t = long unsigned int]’
+boost_patch_1_87/interprocess/managed_shared_memory.hpp:140:49:   required from ‘boost::interprocess::basic_managed_shared_memory<CharType, MemoryAlgorithm, IndexType>::basic_managed_shared_memory(boost::interprocess::open_or_create_t, const char*, size_type, const void*, const boost::interprocess::permissions&) [with CharType = char; AllocationAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index; size_type = long unsigned int]’
+ipcmutex.cpp:34:65:   required from here
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:35: error: ‘BOOST_INTERPROCESS_CATCH’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                   ^
+      |                                   BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In member function ‘bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::create_impl(void*, size_type) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index; long unsigned int Offset = 16]’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:186:4: warning: control reaches end of non-void function [-Wreturn-type]
+  186 |    }
+      |    ^
+make: *** [/usr/local/lib/R/etc/Makeconf:199: ipcmutex.o] Error 1
+ERROR: compilation failed for package ‘BiocParallel’
+* removing ‘/tmp/library/BiocParallel’
+* installing *source* package ‘Seqinfo’ ...
+** this is package ‘Seqinfo’ version ‘1.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Seqinfo’ as ‘Seqinfo_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Seqinfo)
+* installing *binary* package ‘hwriter’ ...
+* package ‘hwriter’ successfully unpacked and SHA256 sums checked
+* ‘hwriter’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hwriter’ as ‘hwriter_1.3.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hwriter)
+* installing *source* package ‘XVector’ ...
+** this is package ‘XVector’ version ‘0.52.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ocopy_byteblocks.c -o Ocopy_byteblocks.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RDS_random_access.c -o RDS_random_access.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_XVector.c -o R_init_XVector.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedDouble_class.c -o SharedDouble_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedInteger_class.c -o SharedInteger_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedRaw_class.c -o SharedRaw_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedVector_class.c -o SharedVector_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XDouble_class.c -o XDouble_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XInteger_class.c -o XInteger_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRawList_comparison.c -o XRawList_comparison.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRaw_class.c -o XRaw_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVectorList_class.c -o XVectorList_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_class.c -o XVector_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_utils.c -o io_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slice_methods.c -o slice_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_copy.c -o vector_copy.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c view_summarization_methods.c -o view_summarization_methods.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o XVector.so IRanges_stubs.o Ocopy_byteblocks.o RDS_random_access.o R_init_XVector.o S4Vectors_stubs.o SharedDouble_class.o SharedInteger_class.o SharedRaw_class.o SharedVector_class.o XDouble_class.o XInteger_class.o XRawList_comparison.o XRaw_class.o XVectorList_class.o XVector_class.o io_utils.o slice_methods.o vector_copy.o view_summarization_methods.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-XVector/00new/XVector/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘XVector’ as ‘XVector_0.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XVector)
+* installing *source* package ‘Rhtslib’ ...
+** this is package ‘Rhtslib’ version ‘3.8.0’
+** using non-staged installation via StagedInstall field
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+cd "htslib-1.18" && make -f "Makefile.Rhtslib"
+make[1]: Entering directory '/tmp/RtmpoITK25/R.INSTALL5007f989246/Rhtslib/src/htslib-1.18'
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kfunc.o kfunc.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kstring.o kstring.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o bcf_sr_sort.o bcf_sr_sort.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o bgzf.o bgzf.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o errmod.o errmod.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o faidx.o faidx.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o header.o header.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o hfile.o hfile.c
+echo '#define HTS_VERSION_TEXT "1.18"' > version.h
+printf '#define HTS_CC "%s"\n#define HTS_CPPFLAGS "%s"\n#define HTS_CFLAGS "%s"\n#define HTS_LDFLAGS "%s"\n#define HTS_LIBS "%s"\n' \
+'gcc -std=gnu2x' \
+'-I/usr/local/include -D_FILE_OFFSET_BITS=64' \
+'-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden' \
+'-L/usr/local/lib -fvisibility=hidden' \
+'-lz -lm -lbz2 -llzma -lcurl' > config_vars.h
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o hts.o hts.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o hts_expr.o hts_expr.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o hts_os.o hts_os.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o md5.o md5.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o multipart.o multipart.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o probaln.o probaln.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o realn.o realn.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o regidx.o regidx.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o region.o region.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o sam.o sam.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o sam_mods.o sam_mods.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o synced_bcf_reader.o synced_bcf_reader.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o vcf_sweep.o vcf_sweep.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o tbx.o tbx.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o textutils.o textutils.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o thread_pool.o thread_pool.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o vcf.o vcf.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o vcfutils.o vcfutils.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/cram_codecs.o cram/cram_codecs.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/cram_decode.o cram/cram_decode.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/cram_encode.o cram/cram_encode.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/cram_external.o cram/cram_external.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/cram_index.o cram/cram_index.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/cram_io.o cram/cram_io.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/cram_stats.o cram/cram_stats.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/mFILE.o cram/mFILE.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/open_trace_file.o cram/open_trace_file.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/pooled_alloc.o cram/pooled_alloc.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o cram/string_alloc.o cram/string_alloc.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/arith_dynamic.o htscodecs/htscodecs/arith_dynamic.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/fqzcomp_qual.o htscodecs/htscodecs/fqzcomp_qual.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/htscodecs.o htscodecs/htscodecs/htscodecs.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/pack.o htscodecs/htscodecs/pack.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rANS_static4x16pr.o htscodecs/htscodecs/rANS_static4x16pr.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rANS_static32x16pr_avx2.o htscodecs/htscodecs/rANS_static32x16pr_avx2.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rANS_static32x16pr_avx512.o htscodecs/htscodecs/rANS_static32x16pr_avx512.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rANS_static32x16pr_sse4.o htscodecs/htscodecs/rANS_static32x16pr_sse4.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rANS_static32x16pr_neon.o htscodecs/htscodecs/rANS_static32x16pr_neon.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rANS_static32x16pr.o htscodecs/htscodecs/rANS_static32x16pr.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rANS_static.o htscodecs/htscodecs/rANS_static.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/rle.o htscodecs/htscodecs/rle.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/tokenise_name3.o htscodecs/htscodecs/tokenise_name3.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o htscodecs/htscodecs/utils.o htscodecs/htscodecs/utils.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o hfile_libcurl.o hfile_libcurl.c
+ar -rc libhts.a kfunc.o kstring.o bcf_sr_sort.o bgzf.o errmod.o faidx.o header.o hfile.o hts.o hts_expr.o hts_os.o md5.o multipart.o probaln.o realn.o regidx.o region.o sam.o sam_mods.o synced_bcf_reader.o vcf_sweep.o tbx.o textutils.o thread_pool.o vcf.o vcfutils.o cram/cram_codecs.o cram/cram_decode.o cram/cram_encode.o cram/cram_external.o cram/cram_index.o cram/cram_io.o cram/cram_stats.o cram/mFILE.o cram/open_trace_file.o cram/pooled_alloc.o cram/string_alloc.o htscodecs/htscodecs/arith_dynamic.o htscodecs/htscodecs/fqzcomp_qual.o htscodecs/htscodecs/htscodecs.o htscodecs/htscodecs/pack.o htscodecs/htscodecs/rANS_static4x16pr.o htscodecs/htscodecs/rANS_static32x16pr_avx2.o htscodecs/htscodecs/rANS_static32x16pr_avx512.o htscodecs/htscodecs/rANS_static32x16pr_sse4.o htscodecs/htscodecs/rANS_static32x16pr_neon.o htscodecs/htscodecs/rANS_static32x16pr.o htscodecs/htscodecs/rANS_static.o htscodecs/htscodecs/rle.o htscodecs/htscodecs/tokenise_name3.o htscodecs/htscodecs/utils.o hfile_libcurl.o
+ranlib libhts.a
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o kfunc.pico kfunc.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o kstring.pico kstring.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o bcf_sr_sort.pico bcf_sr_sort.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o bgzf.pico bgzf.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o errmod.pico errmod.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o faidx.pico faidx.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o header.pico header.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hfile.pico hfile.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hts.pico hts.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hts_expr.pico hts_expr.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hts_os.pico hts_os.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o md5.pico md5.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o multipart.pico multipart.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o probaln.pico probaln.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o realn.pico realn.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o regidx.pico regidx.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o region.pico region.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o sam.pico sam.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o sam_mods.pico sam_mods.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o synced_bcf_reader.pico synced_bcf_reader.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o vcf_sweep.pico vcf_sweep.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o tbx.pico tbx.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o textutils.pico textutils.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o thread_pool.pico thread_pool.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o vcf.pico vcf.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o vcfutils.pico vcfutils.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/cram_codecs.pico cram/cram_codecs.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/cram_decode.pico cram/cram_decode.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/cram_encode.pico cram/cram_encode.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/cram_external.pico cram/cram_external.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/cram_index.pico cram/cram_index.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/cram_io.pico cram/cram_io.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/cram_stats.pico cram/cram_stats.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/mFILE.pico cram/mFILE.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/open_trace_file.pico cram/open_trace_file.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/pooled_alloc.pico cram/pooled_alloc.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o cram/string_alloc.pico cram/string_alloc.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/arith_dynamic.pico htscodecs/htscodecs/arith_dynamic.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/fqzcomp_qual.pico htscodecs/htscodecs/fqzcomp_qual.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/htscodecs.pico htscodecs/htscodecs/htscodecs.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/pack.pico htscodecs/htscodecs/pack.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rANS_static4x16pr.pico htscodecs/htscodecs/rANS_static4x16pr.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rANS_static32x16pr_avx2.pico htscodecs/htscodecs/rANS_static32x16pr_avx2.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rANS_static32x16pr_avx512.pico htscodecs/htscodecs/rANS_static32x16pr_avx512.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rANS_static32x16pr_sse4.pico htscodecs/htscodecs/rANS_static32x16pr_sse4.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rANS_static32x16pr_neon.pico htscodecs/htscodecs/rANS_static32x16pr_neon.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rANS_static32x16pr.pico htscodecs/htscodecs/rANS_static32x16pr.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rANS_static.pico htscodecs/htscodecs/rANS_static.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/rle.pico htscodecs/htscodecs/rle.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/tokenise_name3.pico htscodecs/htscodecs/tokenise_name3.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o htscodecs/htscodecs/utils.pico htscodecs/htscodecs/utils.c
+gcc -std=gnu2x -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hfile_libcurl.pico hfile_libcurl.c
+gcc -std=gnu2x -shared -Wl,-soname,libhts.so.3 -Wl,-version-script,htslib.map -L/usr/local/lib -fvisibility=hidden -o libhts.so kfunc.pico kstring.pico bcf_sr_sort.pico bgzf.pico errmod.pico faidx.pico header.pico hfile.pico hts.pico hts_expr.pico hts_os.pico md5.pico multipart.pico probaln.pico realn.pico regidx.pico region.pico sam.pico sam_mods.pico synced_bcf_reader.pico vcf_sweep.pico tbx.pico textutils.pico thread_pool.pico vcf.pico vcfutils.pico cram/cram_codecs.pico cram/cram_decode.pico cram/cram_encode.pico cram/cram_external.pico cram/cram_index.pico cram/cram_io.pico cram/cram_stats.pico cram/mFILE.pico cram/open_trace_file.pico cram/pooled_alloc.pico cram/string_alloc.pico htscodecs/htscodecs/arith_dynamic.pico htscodecs/htscodecs/fqzcomp_qual.pico htscodecs/htscodecs/htscodecs.pico htscodecs/htscodecs/pack.pico htscodecs/htscodecs/rANS_static4x16pr.pico htscodecs/htscodecs/rANS_static32x16pr_avx2.pico htscodecs/htscodecs/rANS_static32x16pr_avx512.pico htscodecs/htscodecs/rANS_static32x16pr_sse4.pico htscodecs/htscodecs/rANS_static32x16pr_neon.pico htscodecs/htscodecs/rANS_static32x16pr.pico htscodecs/htscodecs/rANS_static.pico htscodecs/htscodecs/rle.pico htscodecs/htscodecs/tokenise_name3.pico htscodecs/htscodecs/utils.pico hfile_libcurl.pico -lz -lm -lbz2 -llzma -lcurl -lpthread
+ln -sf libhts.so libhts.so.3
+make[1]: Leaving directory '/tmp/RtmpoITK25/R.INSTALL5007f989246/Rhtslib/src/htslib-1.18'
+mkdir -p "/tmp/library/Rhtslib/include/htslib"
+cd "htslib-1.18/htslib" && cp * "/tmp/library/Rhtslib/include/htslib"
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I"/tmp/library/Rhtslib/include"  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Rhtslib.c -o R_init_Rhtslib.o
+mkdir -p "/tmp/library/Rhtslib/usrlib"
+cd "htslib-1.18" && cp libhts.so libhts.a "/tmp/library/Rhtslib/usrlib"
+cd "/tmp/library/Rhtslib/usrlib" && ln -s libhts.so libhts.so.2
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rhtslib.so R_init_Rhtslib.o /tmp/library/Rhtslib/usrlib/libhts.a -lcurl -lbz2 -llzma -lz -L/usr/local/lib/R/lib -lR
+mkdir -p "/tmp/library/Rhtslib/testdata/tabix"
+cd "htslib-1.18/test" && (cp *.sam *.bam *.vcf *.bcf *.cram *.fa *.fa.fai *.gff *.bed "/tmp/library/Rhtslib/testdata" 2>/dev/null || true) && cd tabix && (cp *.sam *.bam *.vcf *.bcf *.cram *.fa *.fa.fai *.gff *.bed "/tmp/library/Rhtslib/testdata/tabix" 2>/dev/null || true)
+installing to /tmp/library/Rhtslib/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rhtslib’ as ‘Rhtslib_3.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rhtslib)
+* installing *binary* package ‘statmod’ ...
+* package ‘statmod’ successfully unpacked and SHA256 sums checked
+* ‘statmod’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘statmod’ as ‘statmod_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statmod)
+* installing *source* package ‘easyreporting’ ...
+** this is package ‘easyreporting’ version ‘1.24.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘easyreporting’ as ‘easyreporting_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (easyreporting)
+* installing *source* package ‘SparseArray’ ...
+** this is package ‘SparseArray’ version ‘1.12.2’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ExtendableJaggedArray.c -o ExtendableJaggedArray.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c OPBufTree.c -o OPBufTree.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_SparseArray.c -o R_init_SparseArray.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rvector_summarization.c -o Rvector_summarization.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rvector_utils.c -o Rvector_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SBT_utils.c -o SBT_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SVT_SparseArray_class.c -o SVT_SparseArray_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_Arith_methods.c -o SparseArray_Arith_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_Compare_methods.c -o SparseArray_Compare_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_Complex_methods.c -o SparseArray_Complex_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_Logic_methods.c -o SparseArray_Logic_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_Math_methods.c -o SparseArray_Math_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_abind.c -o SparseArray_abind.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_aperm.c -o SparseArray_aperm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_dim_tuning.c -o SparseArray_dim_tuning.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_matrixStats.c -o SparseArray_matrixStats.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_misc_methods.c -o SparseArray_misc_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_subassignment.c -o SparseArray_subassignment.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_subsetting.c -o SparseArray_subsetting.o
+SparseArray_subsetting.c: In function ‘REC_subset_SVT_as_SVT’:
+SparseArray_subsetting.c:843:26: warning: comparison between pointer and integer
+  843 |                 if (offs != i2 || ans_elt != subSVT)
+      |                          ^~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseArray_summarization.c -o SparseArray_summarization.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseMatrix_mult.c -o SparseMatrix_mult.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec.c -o SparseVec.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec_Arith.c -o SparseVec_Arith.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec_Compare.c -o SparseVec_Compare.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec_Logic.c -o SparseVec_Logic.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec_Math.c -o SparseVec_Math.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec_dotprod.c -o SparseVec_dotprod.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec_subassignment.c -o SparseVec_subassignment.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseVec_subsetting.c -o SparseVec_subsetting.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c argcheck_utils.c -o argcheck_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coerceVector2.c -o coerceVector2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c leaf_utils.c -o leaf_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c misc_utils.c -o misc_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c randomSparseArray.c -o randomSparseArray.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readSparseCSV.c -o readSparseCSV.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowsum_methods.c -o rowsum_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sparseMatrix_utils.c -o sparseMatrix_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test.c -o test.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c thread_control.c -o thread_control.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SparseArray.so ExtendableJaggedArray.o IRanges_stubs.o OPBufTree.o R_init_SparseArray.o Rvector_summarization.o Rvector_utils.o S4Vectors_stubs.o SBT_utils.o SVT_SparseArray_class.o SparseArray_Arith_methods.o SparseArray_Compare_methods.o SparseArray_Complex_methods.o SparseArray_Logic_methods.o SparseArray_Math_methods.o SparseArray_abind.o SparseArray_aperm.o SparseArray_dim_tuning.o SparseArray_matrixStats.o SparseArray_misc_methods.o SparseArray_subassignment.o SparseArray_subsetting.o SparseArray_summarization.o SparseMatrix_mult.o SparseVec.o SparseVec_Arith.o SparseVec_Compare.o SparseVec_Logic.o SparseVec_Math.o SparseVec_dotprod.o SparseVec_subassignment.o SparseVec_subsetting.o XVector_stubs.o argcheck_utils.o coerceVector2.o leaf_utils.o misc_utils.o randomSparseArray.o readSparseCSV.o rowsum_methods.o sparseMatrix_utils.o test.o thread_control.o -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SparseArray/00new/SparseArray/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SparseArray’ as ‘SparseArray_1.12.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseArray)
+* installing *source* package ‘pwalign’ ...
+** this is package ‘pwalign’ version ‘1.8.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I'/mnt/library/Biostrings/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I'/mnt/library/Biostrings/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I'/mnt/library/Biostrings/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_pairwiseAlignment.c -o R_init_pairwiseAlignment.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I'/mnt/library/Biostrings/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I'/mnt/library/Biostrings/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I'/mnt/library/Biostrings/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c align_pairwiseAlignment.c -o align_pairwiseAlignment.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/tmp/library/XVector/include' -I'/mnt/library/Biostrings/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c align_utils.c -o align_utils.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pwalign.so Biostrings_stubs.o IRanges_stubs.o R_init_pairwiseAlignment.o S4Vectors_stubs.o XVector_stubs.o align_pairwiseAlignment.o align_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-pwalign/00new/pwalign/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘pattern’ in package ‘pwalign’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pwalign’ as ‘pwalign_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pwalign)
+* installing *binary* package ‘latticeExtra’ ...
+* package ‘latticeExtra’ successfully unpacked and SHA256 sums checked
+* ‘latticeExtra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘latticeExtra’ as ‘latticeExtra_0.6-31_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (latticeExtra)
+* installing *binary* package ‘lubridate’ ...
+* package ‘lubridate’ successfully unpacked and SHA256 sums checked
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *source* package ‘GenomicRanges’ ...
+** this is package ‘GenomicRanges’ version ‘1.64.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicRanges’ as ‘GenomicRanges_1.64.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicRanges)
+* installing *source* package ‘limma’ ...
+** this is package ‘limma’ version ‘3.68.4’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c normexp.c -o normexp.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c weighted_lowess.c -o weighted_lowess.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o limma.so init.o normexp.o weighted_lowess.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-limma/00new/limma/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘limma’ as ‘limma_3.68.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (limma)
+* installing *source* package ‘DelayedArray’ ...
+** this is package ‘DelayedArray’ version ‘0.38.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘apply’ in package ‘DelayedArray’
+Creating a new generic function for ‘sweep’ in package ‘DelayedArray’
+Creating a new generic function for ‘scale’ in package ‘DelayedArray’
+Creating a generic function for ‘dnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘pnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘pbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dpois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘ppois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qpois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dlogis’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘plogis’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qlogis’ from package ‘stats’ in package ‘DelayedArray’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DelayedArray’ as ‘DelayedArray_0.38.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DelayedArray)
+ERROR: dependency ‘BiocParallel’ is not available for package ‘Rsamtools’
+Perhaps try a variation of:
+install.packages('BiocParallel')
+* removing ‘/tmp/library/Rsamtools’
+* installing *binary* package ‘distill’ ...
+* package ‘distill’ successfully unpacked and SHA256 sums checked
+* ‘distill’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘distill’ as ‘distill_1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (distill)
+* installing *source* package ‘edgeR’ ...
+** this is package ‘edgeR’ version ‘4.10.1’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_exports.c -o R_exports.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_process_hairpin_reads.c -o R_process_hairpin_reads.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c add_prior_count.c -o add_prior_count.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clowess.c -o clowess.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_apl.c -o compute_apl.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_cpm.c -o compute_cpm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_nbdev.c -o compute_nbdev.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exact_test_by_dev.c -o exact_test_by_dev.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fmm_spline.c -o fmm_spline.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c glm.c -o glm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c good_turing.c -o good_turing.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interpolator.c -o interpolator.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loess_by_col.c -o loess_by_col.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c object.c -o object.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ql_glm.c -o ql_glm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ql_weights.c -o ql_weights.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o edgeR.so R_exports.o R_process_hairpin_reads.o add_prior_count.o clowess.o compute_apl.o compute_cpm.o compute_nbdev.o exact_test_by_dev.o fmm_spline.o glm.o good_turing.o init.o interpolator.o loess_by_col.o object.o ql_glm.o ql_weights.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-edgeR/00new/edgeR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘edgeR’ as ‘edgeR_4.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (edgeR)
+* installing *source* package ‘SummarizedExperiment’ ...
+** this is package ‘SummarizedExperiment’ version ‘1.42.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SummarizedExperiment’ as ‘SummarizedExperiment_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SummarizedExperiment)
+ERROR: dependencies ‘Rsamtools’, ‘BiocParallel’, ‘cigarillo’ are not available for package ‘GenomicAlignments’
+Perhaps try a variation of:
+install.packages(c('Rsamtools', 'BiocParallel', 'cigarillo'))
+* removing ‘/tmp/library/GenomicAlignments’
+ERROR: dependencies ‘Rsamtools’, ‘GenomicAlignments’ are not available for package ‘rtracklayer’
+Perhaps try a variation of:
+install.packages(c('Rsamtools', 'GenomicAlignments'))
+* removing ‘/tmp/library/rtracklayer’
+ERROR: dependencies ‘BiocParallel’, ‘Rsamtools’, ‘GenomicAlignments’ are not available for package ‘ShortRead’
+Perhaps try a variation of:
+install.packages(c('BiocParallel', 'Rsamtools', 'GenomicAlignments'))
+* removing ‘/tmp/library/ShortRead’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘GenomicFeatures’
+Perhaps try a variation of:
+install.packages('rtracklayer')
+* removing ‘/tmp/library/GenomicFeatures’
+ERROR: dependencies ‘ShortRead’, ‘Rsamtools’, ‘GenomicFeatures’ are not available for package ‘EDASeq’
+Perhaps try a variation of:
+install.packages(c('ShortRead', 'Rsamtools', 'GenomicFeatures'))
+* removing ‘/tmp/library/EDASeq’
+
+The downloaded source packages are in
+	‘/tmp/RtmpdJUipU/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘cigarillo’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘BiocParallel’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘Rsamtools’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘GenomicAlignments’ had non-zero exit status
+5: In install.packages(...) :
+  installation of package ‘rtracklayer’ had non-zero exit status
+6: In install.packages(...) :
+  installation of package ‘ShortRead’ had non-zero exit status
+7: In install.packages(...) :
+  installation of package ‘GenomicFeatures’ had non-zero exit status
+8: In install.packages(...) :
+  installation of package ‘EDASeq’ had non-zero exit status
+
+real	5m15.836s
+user	3m59.415s
+sys	0m35.398s

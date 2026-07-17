@@ -1,0 +1,117 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''decontam'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'decontam'
+also installing the dependencies ‘biomformat’, ‘multtest’, ‘phyloseq’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biomformat_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/multtest_2.68.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/phyloseq_1.56.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/decontam_1.32.0.tar.gz'
+* installing *source* package ‘biomformat’ ...
+** this is package ‘biomformat’ version ‘1.40.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘nrow’ from package ‘base’ in package ‘biomformat’
+Creating a generic function for ‘ncol’ from package ‘base’ in package ‘biomformat’
+Creating a generic function for ‘rownames’ from package ‘base’ in package ‘biomformat’
+Creating a generic function for ‘colnames’ from package ‘base’ in package ‘biomformat’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biomformat’ as ‘biomformat_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomformat)
+* installing *source* package ‘multtest’ ...
+** this is package ‘multtest’ version ‘2.68.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rpack.c -o Rpack.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c VScount.c -o VScount.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c block_sampling_fixed.c -o block_sampling_fixed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bootloop.c -o bootloop.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mt.c -o mt.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pairt_sampling.c -o pairt_sampling.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pairt_sampling_fixed.c -o pairt_sampling_fixed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c random.c -o random.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampling.c -o sampling.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampling_fixed.c -o sampling_fixed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stat_func.c -o stat_func.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stat_order.c -o stat_order.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o multtest.so Rpack.o VScount.o block_sampling_fixed.o bootloop.o mt.o pairt_sampling.o pairt_sampling_fixed.o random.o sampling.o sampling_fixed.o stat_func.o stat_order.o -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-multtest/00new/multtest/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multtest’ as ‘multtest_2.68.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multtest)
+* installing *source* package ‘decontam’ ...
+** this is package ‘decontam’ version ‘1.32.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘decontam’ as ‘decontam_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (decontam)
+* installing *source* package ‘phyloseq’ ...
+** this is package ‘phyloseq’ version ‘1.56.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phyloseq’ as ‘phyloseq_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phyloseq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQrDGwM/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m44.350s
+user	1m7.077s
+sys	0m10.107s

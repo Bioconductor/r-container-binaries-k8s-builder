@@ -1,0 +1,529 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''chopsticks'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'chopsticks'
+also installing the dependency ‘hexbin’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hexbin_1.28.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/chopsticks_1.78.0.tar.gz'
+* installing *binary* package ‘hexbin’ ...
+* package ‘hexbin’ successfully unpacked and SHA256 sums checked
+* ‘hexbin’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hexbin’ as ‘hexbin_1.28.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hexbin)
+* installing *source* package ‘chopsticks’ ...
+** this is package ‘chopsticks’ version ‘1.78.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c adler32.c -o adler32.o
+adler32.c: In function ‘adler32’:
+adler32.c:57:15: warning: old-style function definition [-Wold-style-definition]
+   57 | uLong ZEXPORT adler32(adler, buf, len)
+      |               ^~~~~~~
+adler32.c: In function ‘adler32_combine’:
+adler32.c:128:15: warning: old-style function definition [-Wold-style-definition]
+  128 | uLong ZEXPORT adler32_combine(adler1, adler2, len2)
+      |               ^~~~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bind.c -o bind.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compress.c -o compress.o
+compress.c: In function ‘compress2’:
+compress.c:22:13: warning: old-style function definition [-Wold-style-definition]
+   22 | int ZEXPORT compress2 (dest, destLen, source, sourceLen, level)
+      |             ^~~~~~~~~
+compress.c: In function ‘compress’:
+compress.c:62:13: warning: old-style function definition [-Wold-style-definition]
+   62 | int ZEXPORT compress (dest, destLen, source, sourceLen)
+      |             ^~~~~~~~
+compress.c: In function ‘compressBound’:
+compress.c:75:15: warning: old-style function definition [-Wold-style-definition]
+   75 | uLong ZEXPORT compressBound (sourceLen)
+      |               ^~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c crc32.c -o crc32.o
+crc32.c: In function ‘crc32’:
+crc32.c:219:23: warning: old-style function definition [-Wold-style-definition]
+  219 | unsigned long ZEXPORT crc32(crc, buf, len)
+      |                       ^~~~~
+crc32.c: In function ‘crc32_little’:
+crc32.c:262:21: warning: old-style function definition [-Wold-style-definition]
+  262 | local unsigned long crc32_little(crc, buf, len)
+      |                     ^~~~~~~~~~~~
+crc32.c: In function ‘crc32_big’:
+crc32.c:302:21: warning: old-style function definition [-Wold-style-definition]
+  302 | local unsigned long crc32_big(crc, buf, len)
+      |                     ^~~~~~~~~
+crc32.c: In function ‘gf2_matrix_times’:
+crc32.c:342:21: warning: old-style function definition [-Wold-style-definition]
+  342 | local unsigned long gf2_matrix_times(mat, vec)
+      |                     ^~~~~~~~~~~~~~~~
+crc32.c: In function ‘gf2_matrix_square’:
+crc32.c:359:12: warning: old-style function definition [-Wold-style-definition]
+  359 | local void gf2_matrix_square(square, mat)
+      |            ^~~~~~~~~~~~~~~~~
+crc32.c: In function ‘crc32_combine’:
+crc32.c:370:15: warning: old-style function definition [-Wold-style-definition]
+  370 | uLong ZEXPORT crc32_combine(crc1, crc2, len2)
+      |               ^~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c deflate.c -o deflate.o
+deflate.c: In function ‘deflateInit_’:
+deflate.c:204:13: warning: old-style function definition [-Wold-style-definition]
+  204 | int ZEXPORT deflateInit_(strm, level, version, stream_size)
+      |             ^~~~~~~~~~~~
+deflate.c: In function ‘deflateInit2_’:
+deflate.c:216:13: warning: old-style function definition [-Wold-style-definition]
+  216 | int ZEXPORT deflateInit2_(strm, level, method, windowBits, memLevel, strategy,
+      |             ^~~~~~~~~~~~~
+deflate.c: In function ‘deflateSetDictionary’:
+deflate.c:315:13: warning: old-style function definition [-Wold-style-definition]
+  315 | int ZEXPORT deflateSetDictionary (strm, dictionary, dictLength)
+      |             ^~~~~~~~~~~~~~~~~~~~
+deflate.c: In function ‘deflateReset’:
+deflate.c:357:13: warning: old-style function definition [-Wold-style-definition]
+  357 | int ZEXPORT deflateReset (strm)
+      |             ^~~~~~~~~~~~
+deflate.c: In function ‘deflateSetHeader’:
+deflate.c:393:13: warning: old-style function definition [-Wold-style-definition]
+  393 | int ZEXPORT deflateSetHeader (strm, head)
+      |             ^~~~~~~~~~~~~~~~
+deflate.c: In function ‘deflatePrime’:
+deflate.c:404:13: warning: old-style function definition [-Wold-style-definition]
+  404 | int ZEXPORT deflatePrime (strm, bits, value)
+      |             ^~~~~~~~~~~~
+deflate.c: In function ‘deflateParams’:
+deflate.c:416:13: warning: old-style function definition [-Wold-style-definition]
+  416 | int ZEXPORT deflateParams(strm, level, strategy)
+      |             ^~~~~~~~~~~~~
+deflate.c: In function ‘deflateTune’:
+deflate.c:454:13: warning: old-style function definition [-Wold-style-definition]
+  454 | int ZEXPORT deflateTune(strm, good_length, max_lazy, nice_length, max_chain)
+      |             ^~~~~~~~~~~
+deflate.c: In function ‘deflateBound’:
+deflate.c:489:15: warning: old-style function definition [-Wold-style-definition]
+  489 | uLong ZEXPORT deflateBound(strm, sourceLen)
+      |               ^~~~~~~~~~~~
+deflate.c: In function ‘putShortMSB’:
+deflate.c:518:12: warning: old-style function definition [-Wold-style-definition]
+  518 | local void putShortMSB (s, b)
+      |            ^~~~~~~~~~~
+deflate.c: In function ‘flush_pending’:
+deflate.c:532:12: warning: old-style function definition [-Wold-style-definition]
+  532 | local void flush_pending(strm)
+      |            ^~~~~~~~~~~~~
+deflate.c: In function ‘deflate’:
+deflate.c:552:13: warning: old-style function definition [-Wold-style-definition]
+  552 | int ZEXPORT deflate (strm, flush)
+      |             ^~~~~~~
+deflate.c: In function ‘deflateEnd’:
+deflate.c:859:13: warning: old-style function definition [-Wold-style-definition]
+  859 | int ZEXPORT deflateEnd (strm)
+      |             ^~~~~~~~~~
+deflate.c: In function ‘deflateCopy’:
+deflate.c:894:13: warning: old-style function definition [-Wold-style-definition]
+  894 | int ZEXPORT deflateCopy (dest, source)
+      |             ^~~~~~~~~~~
+deflate.c: In function ‘read_buf’:
+deflate.c:956:11: warning: old-style function definition [-Wold-style-definition]
+  956 | local int read_buf(strm, buf, size)
+      |           ^~~~~~~~
+deflate.c: In function ‘lm_init’:
+deflate.c:986:12: warning: old-style function definition [-Wold-style-definition]
+  986 | local void lm_init (s)
+      |            ^~~~~~~
+deflate.c: In function ‘longest_match’:
+deflate.c:1027:12: warning: old-style function definition [-Wold-style-definition]
+ 1027 | local uInt longest_match(s, cur_match)
+      |            ^~~~~~~~~~~~~
+deflate.c: In function ‘longest_match_fast’:
+deflate.c:1175:12: warning: old-style function definition [-Wold-style-definition]
+ 1175 | local uInt longest_match_fast(s, cur_match)
+      |            ^~~~~~~~~~~~~~~~~~
+deflate.c: In function ‘fill_window’:
+deflate.c:1266:12: warning: old-style function definition [-Wold-style-definition]
+ 1266 | local void fill_window(s)
+      |            ^~~~~~~~~~~
+deflate.c: In function ‘deflate_stored’:
+deflate.c:1390:19: warning: old-style function definition [-Wold-style-definition]
+ 1390 | local block_state deflate_stored(s, flush)
+      |                   ^~~~~~~~~~~~~~
+deflate.c: In function ‘deflate_fast’:
+deflate.c:1448:19: warning: old-style function definition [-Wold-style-definition]
+ 1448 | local block_state deflate_fast(s, flush)
+      |                   ^~~~~~~~~~~~
+deflate.c: In function ‘deflate_slow’:
+deflate.c:1554:19: warning: old-style function definition [-Wold-style-definition]
+ 1554 | local block_state deflate_slow(s, flush)
+      |                   ^~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c force_hom.c -o force_hom.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c glm_test.c -o glm_test.o
+glm_test.c: In function ‘glm_fit’:
+glm_test.c:107:31: warning: argument 1 range [18446744071562067968, 18446744073709551615] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  107 |       double *yw = (double *) calloc(N, sizeof(double));
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from glm_test.c:1:
+/usr/include/stdlib.h:675:14: note: in a call to allocation function ‘calloc’ declared here
+  675 | extern void *calloc (size_t __nmemb, size_t __size)
+      |              ^~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c glm_test_R.c -o glm_test_R.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gzio.c -o gzio.o
+gzio.c: In function ‘gz_open’:
+gzio.c:93:14: warning: old-style function definition [-Wold-style-definition]
+   93 | local gzFile gz_open (path, mode, fd)
+      |              ^~~~~~~
+gzio.c: In function ‘gzopen’:
+gzio.c:208:16: warning: old-style function definition [-Wold-style-definition]
+  208 | gzFile ZEXPORT gzopen (path, mode)
+      |                ^~~~~~
+gzio.c: In function ‘gzdopen’:
+gzio.c:219:16: warning: old-style function definition [-Wold-style-definition]
+  219 | gzFile ZEXPORT gzdopen (fd, mode)
+      |                ^~~~~~~
+gzio.c: In function ‘gzsetparams’:
+gzio.c:234:13: warning: old-style function definition [-Wold-style-definition]
+  234 | int ZEXPORT gzsetparams (file, level, strategy)
+      |             ^~~~~~~~~~~
+gzio.c: In function ‘get_byte’:
+gzio.c:261:11: warning: old-style function definition [-Wold-style-definition]
+  261 | local int get_byte(s)
+      |           ^~~~~~~~
+gzio.c: In function ‘check_header’:
+gzio.c:288:12: warning: old-style function definition [-Wold-style-definition]
+  288 | local void check_header(s)
+      |            ^~~~~~~~~~~~
+gzio.c: In function ‘destroy’:
+gzio.c:355:11: warning: old-style function definition [-Wold-style-definition]
+  355 | local int destroy (s)
+      |           ^~~~~~~
+gzio.c: In function ‘gzread’:
+gzio.c:394:13: warning: old-style function definition [-Wold-style-definition]
+  394 | int ZEXPORT gzread (file, buf, len)
+      |             ^~~~~~
+gzio.c: In function ‘gzgetc’:
+gzio.c:503:13: warning: old-style function definition [-Wold-style-definition]
+  503 | int ZEXPORT gzgetc(file)
+      |             ^~~~~~
+gzio.c: In function ‘gzungetc’:
+gzio.c:515:13: warning: old-style function definition [-Wold-style-definition]
+  515 | int ZEXPORT gzungetc(c, file)
+      |             ^~~~~~~~
+gzio.c: In function ‘gzgets’:
+gzio.c:540:16: warning: old-style function definition [-Wold-style-definition]
+  540 | char * ZEXPORT gzgets(file, buf, len)
+      |                ^~~~~~
+gzio.c: In function ‘gzwrite’:
+gzio.c:559:13: warning: old-style function definition [-Wold-style-definition]
+  559 | int ZEXPORT gzwrite (file, buf, len)
+      |             ^~~~~~~
+gzio.c: In function ‘gzputc’:
+gzio.c:678:13: warning: old-style function definition [-Wold-style-definition]
+  678 | int ZEXPORT gzputc(file, c)
+      |             ^~~~~~
+gzio.c: In function ‘gzputs’:
+gzio.c:693:13: warning: old-style function definition [-Wold-style-definition]
+  693 | int ZEXPORT gzputs(file, s)
+      |             ^~~~~~
+gzio.c: In function ‘do_flush’:
+gzio.c:705:11: warning: old-style function definition [-Wold-style-definition]
+  705 | local int do_flush (file, flush)
+      |           ^~~~~~~~
+gzio.c: In function ‘gzflush’:
+gzio.c:746:13: warning: old-style function definition [-Wold-style-definition]
+  746 | int ZEXPORT gzflush (file, flush)
+      |             ^~~~~~~
+gzio.c: In function ‘gzseek’:
+gzio.c:767:17: warning: old-style function definition [-Wold-style-definition]
+  767 | z_off_t ZEXPORT gzseek (file, offset, whence)
+      |                 ^~~~~~
+gzio.c: In function ‘gzrewind’:
+gzio.c:857:13: warning: old-style function definition [-Wold-style-definition]
+  857 | int ZEXPORT gzrewind (file)
+      |             ^~~~~~~~
+gzio.c: In function ‘gztell’:
+gzio.c:881:17: warning: old-style function definition [-Wold-style-definition]
+  881 | z_off_t ZEXPORT gztell (file)
+      |                 ^~~~~~
+gzio.c: In function ‘gzeof’:
+gzio.c:891:13: warning: old-style function definition [-Wold-style-definition]
+  891 | int ZEXPORT gzeof (file)
+      |             ^~~~~
+gzio.c: In function ‘gzdirect’:
+gzio.c:908:13: warning: old-style function definition [-Wold-style-definition]
+  908 | int ZEXPORT gzdirect (file)
+      |             ^~~~~~~~
+gzio.c: In function ‘putLong’:
+gzio.c:920:12: warning: old-style function definition [-Wold-style-definition]
+  920 | local void putLong (file, x)
+      |            ^~~~~~~
+gzio.c: In function ‘getLong’:
+gzio.c:935:13: warning: old-style function definition [-Wold-style-definition]
+  935 | local uLong getLong (s)
+      |             ^~~~~~~
+gzio.c: In function ‘gzclose’:
+gzio.c:953:13: warning: old-style function definition [-Wold-style-definition]
+  953 | int ZEXPORT gzclose (file)
+      |             ^~~~~~~
+gzio.c: In function ‘gzerror’:
+gzio.c:987:22: warning: old-style function definition [-Wold-style-definition]
+  987 | const char * ZEXPORT gzerror (file, errnum)
+      |                      ^~~~~~~
+gzio.c: In function ‘gzclearerr’:
+gzio.c:1017:14: warning: old-style function definition [-Wold-style-definition]
+ 1017 | void ZEXPORT gzclearerr (file)
+      |              ^~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hash_index.c -o hash_index.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ibs.c -o ibs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c in.c -o in.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c infback.c -o infback.o
+infback.c: In function ‘inflateBackInit_’:
+infback.c:28:13: warning: old-style function definition [-Wold-style-definition]
+   28 | int ZEXPORT inflateBackInit_(strm, windowBits, window, version, stream_size)
+      |             ^~~~~~~~~~~~~~~~
+infback.c: In function ‘fixedtables’:
+infback.c:73:12: warning: old-style function definition [-Wold-style-definition]
+   73 | local void fixedtables(state)
+      |            ^~~~~~~~~~~
+infback.c: In function ‘inflateBack’:
+infback.c:241:13: warning: old-style function definition [-Wold-style-definition]
+  241 | int ZEXPORT inflateBack(strm, in, in_desc, out, out_desc)
+      |             ^~~~~~~~~~~
+infback.c: In function ‘inflateBackEnd’:
+infback.c:614:13: warning: old-style function definition [-Wold-style-definition]
+  614 | int ZEXPORT inflateBackEnd(strm)
+      |             ^~~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inffast.c -o inffast.o
+inffast.c: In function ‘inflate_fast’:
+inffast.c:67:6: warning: old-style function definition [-Wold-style-definition]
+   67 | void inflate_fast(strm, start)
+      |      ^~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inflate.c -o inflate.o
+inflate.c: In function ‘inflateReset’:
+inflate.c:103:13: warning: old-style function definition [-Wold-style-definition]
+  103 | int ZEXPORT inflateReset(strm)
+      |             ^~~~~~~~~~~~
+inflate.c: In function ‘inflatePrime’:
+inflate.c:128:13: warning: old-style function definition [-Wold-style-definition]
+  128 | int ZEXPORT inflatePrime(strm, bits, value)
+      |             ^~~~~~~~~~~~
+inflate.c: In function ‘inflateInit2_’:
+inflate.c:144:13: warning: old-style function definition [-Wold-style-definition]
+  144 | int ZEXPORT inflateInit2_(strm, windowBits, version, stream_size)
+      |             ^~~~~~~~~~~~~
+inflate.c: In function ‘inflateInit_’:
+inflate.c:187:13: warning: old-style function definition [-Wold-style-definition]
+  187 | int ZEXPORT inflateInit_(strm, version, stream_size)
+      |             ^~~~~~~~~~~~
+inflate.c: In function ‘fixedtables’:
+inflate.c:205:12: warning: old-style function definition [-Wold-style-definition]
+  205 | local void fixedtables(state)
+      |            ^~~~~~~~~~~
+inflate.c: In function ‘updatewindow’:
+inflate.c:323:11: warning: old-style function definition [-Wold-style-definition]
+  323 | local int updatewindow(strm, out)
+      |           ^~~~~~~~~~~~
+inflate.c: In function ‘inflate’:
+inflate.c:554:13: warning: old-style function definition [-Wold-style-definition]
+  554 | int ZEXPORT inflate(strm, flush)
+      |             ^~~~~~~
+inflate.c: In function ‘inflateEnd’:
+inflate.c:1155:13: warning: old-style function definition [-Wold-style-definition]
+ 1155 | int ZEXPORT inflateEnd(strm)
+      |             ^~~~~~~~~~
+inflate.c: In function ‘inflateSetDictionary’:
+inflate.c:1169:13: warning: old-style function definition [-Wold-style-definition]
+ 1169 | int ZEXPORT inflateSetDictionary(strm, dictionary, dictLength)
+      |             ^~~~~~~~~~~~~~~~~~~~
+inflate.c: In function ‘inflateGetHeader’:
+inflate.c:1211:13: warning: old-style function definition [-Wold-style-definition]
+ 1211 | int ZEXPORT inflateGetHeader(strm, head)
+      |             ^~~~~~~~~~~~~~~~
+inflate.c: In function ‘syncsearch’:
+inflate.c:1239:16: warning: old-style function definition [-Wold-style-definition]
+ 1239 | local unsigned syncsearch(have, buf, len)
+      |                ^~~~~~~~~~
+inflate.c: In function ‘inflateSync’:
+inflate.c:1262:13: warning: old-style function definition [-Wold-style-definition]
+ 1262 | int ZEXPORT inflateSync(strm)
+      |             ^~~~~~~~~~~
+inflate.c: In function ‘inflateSyncPoint’:
+inflate.c:1313:13: warning: old-style function definition [-Wold-style-definition]
+ 1313 | int ZEXPORT inflateSyncPoint(strm)
+      |             ^~~~~~~~~~~~~~~~
+inflate.c: In function ‘inflateCopy’:
+inflate.c:1323:13: warning: old-style function definition [-Wold-style-definition]
+ 1323 | int ZEXPORT inflateCopy(dest, source)
+      |             ^~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inftrees.c -o inftrees.o
+inftrees.c: In function ‘inflate_table’:
+inftrees.c:32:5: warning: old-style function definition [-Wold-style-definition]
+   32 | int inflate_table(type, lens, codes, table, bits, work)
+      |     ^~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c input.c -o input.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inputNew.c -o inputNew.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c input_unsorted.c -o input_unsorted.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ld_graphic_eps.c -o ld_graphic_eps.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ld_with.c -o ld_with.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mla.c -o mla.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c outdata.c -o outdata.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pairwise_linkage.c -o pairwise_linkage.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_chiamo.c -o read_chiamo.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_hapmap.c -o read_hapmap.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_pedfile.c -o read_pedfile.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_signals.c -o read_signals.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readped.c -o readped.o
+readped.c: In function ‘readped’:
+readped.c:233:33: warning: ‘%d’ directive output may be truncated writing between 1 and 11 bytes into a region of size between 0 and 80 [-Wformat-truncation=]
+  233 |     snprintf(fmid, MAX_ID, "%s%c%d", fid, sepchar, memi);
+      |                                 ^~
+In file included from /usr/include/stdio.h:980,
+                 from /usr/local/lib/R/include/R.h:44,
+                 from readped.c:1:
+In function ‘snprintf’,
+    inlined from ‘readped’ at readped.c:233:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 3 and 93 bytes into a destination of size 81
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sdfpw.c -o sdfpw.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c single_snp_tests.c -o single_snp_tests.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snp_summary.c -o snp_summary.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snpmpy.c -o snpmpy.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c solve_cubic.c -o solve_cubic.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c solve_quadratic.c -o solve_quadratic.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c structure.c -o structure.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trees.c -o trees.o
+trees.c: In function ‘_tr_init’:
+trees.c:382:6: warning: old-style function definition [-Wold-style-definition]
+  382 | void _tr_init(s)
+      |      ^~~~~~~~
+trees.c: In function ‘init_block’:
+trees.c:411:12: warning: old-style function definition [-Wold-style-definition]
+  411 | local void init_block(s)
+      |            ^~~~~~~~~~
+trees.c: In function ‘pqdownheap’:
+trees.c:455:12: warning: old-style function definition [-Wold-style-definition]
+  455 | local void pqdownheap(s, tree, k)
+      |            ^~~~~~~~~~
+trees.c: In function ‘gen_bitlen’:
+trees.c:490:12: warning: old-style function definition [-Wold-style-definition]
+  490 | local void gen_bitlen(s, desc)
+      |            ^~~~~~~~~~
+trees.c: In function ‘gen_codes’:
+trees.c:577:12: warning: old-style function definition [-Wold-style-definition]
+  577 | local void gen_codes (tree, max_code, bl_count)
+      |            ^~~~~~~~~
+trees.c: In function ‘build_tree’:
+trees.c:619:12: warning: old-style function definition [-Wold-style-definition]
+  619 | local void build_tree(s, desc)
+      |            ^~~~~~~~~~
+trees.c: In function ‘scan_tree’:
+trees.c:707:12: warning: old-style function definition [-Wold-style-definition]
+  707 | local void scan_tree (s, tree, max_code)
+      |            ^~~~~~~~~
+trees.c: In function ‘send_tree’:
+trees.c:752:12: warning: old-style function definition [-Wold-style-definition]
+  752 | local void send_tree (s, tree, max_code)
+      |            ^~~~~~~~~
+trees.c: In function ‘build_bl_tree’:
+trees.c:803:11: warning: old-style function definition [-Wold-style-definition]
+  803 | local int build_bl_tree(s)
+      |           ^~~~~~~~~~~~~
+trees.c: In function ‘send_all_trees’:
+trees.c:838:12: warning: old-style function definition [-Wold-style-definition]
+  838 | local void send_all_trees(s, lcodes, dcodes, blcodes)
+      |            ^~~~~~~~~~~~~~
+trees.c: In function ‘_tr_stored_block’:
+trees.c:867:6: warning: old-style function definition [-Wold-style-definition]
+  867 | void _tr_stored_block(s, buf, stored_len, eof)
+      |      ^~~~~~~~~~~~~~~~
+trees.c: In function ‘_tr_align’:
+trees.c:892:6: warning: old-style function definition [-Wold-style-definition]
+  892 | void _tr_align(s)
+      |      ^~~~~~~~~
+trees.c: In function ‘_tr_flush_block’:
+trees.c:921:6: warning: old-style function definition [-Wold-style-definition]
+  921 | void _tr_flush_block(s, buf, stored_len, eof)
+      |      ^~~~~~~~~~~~~~~
+trees.c: In function ‘_tr_tally’:
+trees.c:1022:5: warning: old-style function definition [-Wold-style-definition]
+ 1022 | int _tr_tally (s, dist, lc)
+      |     ^~~~~~~~~
+trees.c: In function ‘compress_block’:
+trees.c:1072:12: warning: old-style function definition [-Wold-style-definition]
+ 1072 | local void compress_block(s, ltree, dtree)
+      |            ^~~~~~~~~~~~~~
+trees.c: In function ‘set_data_type’:
+trees.c:1126:12: warning: old-style function definition [-Wold-style-definition]
+ 1126 | local void set_data_type(s)
+      |            ^~~~~~~~~~~~~
+trees.c: In function ‘bi_reverse’:
+trees.c:1146:16: warning: old-style function definition [-Wold-style-definition]
+ 1146 | local unsigned bi_reverse(code, len)
+      |                ^~~~~~~~~~
+trees.c: In function ‘bi_flush’:
+trees.c:1161:12: warning: old-style function definition [-Wold-style-definition]
+ 1161 | local void bi_flush(s)
+      |            ^~~~~~~~
+trees.c: In function ‘bi_windup’:
+trees.c:1178:12: warning: old-style function definition [-Wold-style-definition]
+ 1178 | local void bi_windup(s)
+      |            ^~~~~~~~~
+trees.c: In function ‘copy_block’:
+trees.c:1197:12: warning: old-style function definition [-Wold-style-definition]
+ 1197 | local void copy_block(s, buf, len, header)
+      |            ^~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uncompr.c -o uncompr.o
+uncompr.c: In function ‘uncompress’:
+uncompr.c:26:13: warning: old-style function definition [-Wold-style-definition]
+   26 | int ZEXPORT uncompress (dest, destLen, source, sourceLen)
+      |             ^~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zutil.c -o zutil.o
+zutil.c: In function ‘zError’:
+zutil.c:133:22: warning: old-style function definition [-Wold-style-definition]
+  133 | const char * ZEXPORT zError(err)
+      |                      ^~~~~~
+zutil.c: In function ‘zcalloc’:
+zutil.c:300:8: warning: old-style function definition [-Wold-style-definition]
+  300 | voidpf zcalloc (opaque, items, size)
+      |        ^~~~~~~
+zutil.c: In function ‘zcfree’:
+zutil.c:310:7: warning: old-style function definition [-Wold-style-definition]
+  310 | void  zcfree (opaque, ptr)
+      |       ^~~~~~
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o chopsticks.so adler32.o bind.o compress.o crc32.o deflate.o force_hom.o glm_test.o glm_test_R.o gzio.o hash_index.o ibs.o in.o infback.o inffast.o inflate.o inftrees.o input.o inputNew.o input_unsorted.o ld_graphic_eps.o ld_with.o mla.o outdata.o pairwise_linkage.o read_chiamo.o read_hapmap.o read_pedfile.o read_signals.o readped.o sdfpw.o single_snp_tests.o snp_summary.o snpmpy.o solve_cubic.o solve_quadratic.o structure.o trees.o uncompr.o zutil.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-chopsticks/00new/chopsticks/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘chopsticks’ as ‘chopsticks_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chopsticks)
+
+The downloaded source packages are in
+	‘/tmp/RtmpwevmuI/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m29.192s
+user	0m14.368s
+sys	0m3.900s

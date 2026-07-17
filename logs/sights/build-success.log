@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''sights'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'sights'
+also installing the dependencies ‘xlsxjars’, ‘xlsx’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xlsxjars_0.9.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xlsx_0.6.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/sights_1.38.0.tar.gz'
+* installing *binary* package ‘xlsxjars’ ...
+* package ‘xlsxjars’ successfully unpacked and SHA256 sums checked
+* ‘xlsxjars’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xlsxjars’ as ‘xlsxjars_0.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xlsxjars)
+* installing *source* package ‘sights’ ...
+** this is package ‘sights’ version ‘1.38.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sights’ as ‘sights_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sights)
+* installing *binary* package ‘xlsx’ ...
+* package ‘xlsx’ successfully unpacked and SHA256 sums checked
+* ‘xlsx’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xlsx’ as ‘xlsx_0.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xlsx)
+
+The downloaded source packages are in
+	‘/tmp/RtmptqPCk0/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m27.962s
+user	0m8.896s
+sys	0m2.739s
