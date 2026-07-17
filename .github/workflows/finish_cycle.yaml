@@ -3,16 +3,27 @@ name: Finish Build Cycle
 on:
   workflow_dispatch:
     inputs:
-      stop_timeout:
-        description: "Timeout for stopping build jobs and pods (e.g. 300s, 10m)"
-        required: false
-        default: "300s"
-        type: string
+      stop_confirmed:
+        description: "Confirm Stop Build Jobs workflow has been run and all build jobs are quiesced"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 jobs:
   finish-cycle:
     runs-on: ubuntu-latest
     steps:
+      - name: Validate stop confirmation
+        run: |
+          if [[ "${{ inputs.stop_confirmed }}" != "true" ]]; then
+            echo "stop_confirmed must be set to 'true' before finishing cycle."
+            echo "Run the 'Stop Build Jobs' workflow first to quiesce all build jobs, then rerun this workflow with stop_confirmed=true."
+            exit 1
+          fi
+
       - name: Checkout code
         uses: actions/checkout@v6
         with:
@@ -63,55 +74,6 @@ jobs:
           echo "namespace=${NAMESPACE}" >> $GITHUB_OUTPUT
           echo "Using Build ID: ${BUILD_ID}"
           echo "Using Namespace: ${NAMESPACE}"
-
-      - name: Stop build jobs
-        run: |
-          set -euo pipefail
-          NAMESPACE="${{ steps.get_build_id.outputs.namespace }}"
-          STOP_TIMEOUT="${{ inputs.stop_timeout }}"
-
-          echo "Stopping all build jobs in namespace ${NAMESPACE}..."
-
-          if ! kubectl get namespace "${NAMESPACE}" >/dev/null 2>&1; then
-            echo "Namespace ${NAMESPACE} does not exist - nothing to stop"
-          else
-            # Namespace exists and kubectl is functional; suppress "no resources found" noise
-            # by redirecting stderr — real auth/API errors would have failed the namespace check above.
-
-            # Delete all build jobs; --wait=true ensures their pods are terminated before proceeding
-            JOB_COUNT=$(kubectl get jobs -n "${NAMESPACE}" -l app=bioc-builder --no-headers 2>/dev/null | wc -l)
-
-            if [[ "${JOB_COUNT}" -gt 0 ]]; then
-              echo "Deleting ${JOB_COUNT} build job(s) and waiting for pods to terminate..."
-              if ! kubectl delete jobs -n "${NAMESPACE}" -l app=bioc-builder \
-                   --wait=true --timeout="${STOP_TIMEOUT}"; then
-                echo "Error: timed out waiting for jobs to delete. Remaining jobs:"
-                kubectl get jobs -n "${NAMESPACE}" -l app=bioc-builder || true
-                echo "Remaining pods:"
-                kubectl get pods -n "${NAMESPACE}" -l app=bioc-builder || true
-                exit 1
-              fi
-              echo "All build jobs deleted"
-            else
-              echo "No active build jobs found"
-            fi
-
-            # Delete any remaining bioc-builder pods (e.g., the setup pod from setup_k8s.sh)
-            POD_COUNT=$(kubectl get pods -n "${NAMESPACE}" -l app=bioc-builder --no-headers 2>/dev/null | wc -l)
-
-            if [[ "${POD_COUNT}" -gt 0 ]]; then
-              echo "Deleting ${POD_COUNT} remaining build pod(s)..."
-              if ! kubectl delete pods -n "${NAMESPACE}" -l app=bioc-builder \
-                   --wait=true --timeout="${STOP_TIMEOUT}"; then
-                echo "Error: timed out waiting for pods to delete. Remaining pods:"
-                kubectl get pods -n "${NAMESPACE}" -l app=bioc-builder || true
-                exit 1
-              fi
-              echo "All build pods deleted"
-            fi
-          fi
-
-          echo "Build jobs stopped successfully"
 
       - name: Finish Build Cycle
         env:
