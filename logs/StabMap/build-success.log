@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''StabMap'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'StabMap'
+also installing the dependency ‘SingleCellMultiModal’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/SingleCellMultiModal_1.25.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/StabMap_1.7.0.tar.gz'
+* installing *source* package ‘SingleCellMultiModal’ ...
+** this is package ‘SingleCellMultiModal’ version ‘1.25.3’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SingleCellMultiModal’ as ‘SingleCellMultiModal_1.25.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SingleCellMultiModal)
+* installing *source* package ‘StabMap’ ...
+** this is package ‘StabMap’ version ‘1.7.0’
+** package ‘StabMap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘StabMap’ as ‘StabMap_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (StabMap)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGPV9Ik/downloaded_packages’
+
+real	1m1.540s
+user	0m50.689s
+sys	0m7.378s

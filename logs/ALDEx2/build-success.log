@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ALDEx2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ALDEx2'
+also installing the dependencies ‘NADA’, ‘gridpattern’, ‘zCompositions’, ‘directlabels’, ‘ggpattern’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/NADA_1.6-1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gridpattern_1.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/zCompositions_1.6.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/directlabels_2026.4.23.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggpattern_1.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ALDEx2_1.45.0.tar.gz'
+* installing *binary* package ‘NADA’ ...
+* package ‘NADA’ successfully unpacked and SHA256 sums checked
+* ‘NADA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NADA’ as ‘NADA_1.6-1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NADA)
+* installing *binary* package ‘gridpattern’ ...
+* package ‘gridpattern’ successfully unpacked and SHA256 sums checked
+* ‘gridpattern’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gridpattern’ as ‘gridpattern_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridpattern)
+* installing *binary* package ‘directlabels’ ...
+* package ‘directlabels’ successfully unpacked and SHA256 sums checked
+* ‘directlabels’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘directlabels’ as ‘directlabels_2026.4.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (directlabels)
+* installing *binary* package ‘zCompositions’ ...
+* package ‘zCompositions’ successfully unpacked and SHA256 sums checked
+* ‘zCompositions’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zCompositions’ as ‘zCompositions_1.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zCompositions)
+* installing *binary* package ‘ggpattern’ ...
+* package ‘ggpattern’ successfully unpacked and SHA256 sums checked
+* ‘ggpattern’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggpattern’ as ‘ggpattern_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggpattern)
+* installing *source* package ‘ALDEx2’ ...
+** this is package ‘ALDEx2’ version ‘1.45.0’
+** package ‘ALDEx2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ALDEx2’ as ‘ALDEx2_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ALDEx2)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzQG69w/downloaded_packages’
+
+real	0m38.619s
+user	0m27.220s
+sys	0m5.654s

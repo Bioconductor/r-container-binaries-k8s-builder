@@ -1,0 +1,164 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tidybulk'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tidybulk'
+also installing the dependencies ‘lisp’, ‘HTMLUtils’, ‘EGSEAdata’, ‘mcprogress’, ‘ttservice’, ‘widyr’, ‘functional’, ‘tidySummarizedExperiment’, ‘EGSEA’, ‘glmmSeq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lisp_0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/HTMLUtils_0.1.9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/EGSEAdata_1.41.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mcprogress_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ttservice_0.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/widyr_0.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/functional_0.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/tidySummarizedExperiment_1.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EGSEA_1.41.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/glmmSeq_0.5.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/tidybulk_2.3.0.tar.gz'
+* installing *binary* package ‘lisp’ ...
+* package ‘lisp’ successfully unpacked and SHA256 sums checked
+* ‘lisp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lisp’ as ‘lisp_0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lisp)
+* installing *binary* package ‘HTMLUtils’ ...
+* package ‘HTMLUtils’ successfully unpacked and SHA256 sums checked
+* ‘HTMLUtils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HTMLUtils’ as ‘HTMLUtils_0.1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HTMLUtils)
+* installing *source* package ‘EGSEAdata’ ...
+** this is package ‘EGSEAdata’ version ‘1.41.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EGSEAdata’ as ‘EGSEAdata_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EGSEAdata)
+* installing *binary* package ‘mcprogress’ ...
+* package ‘mcprogress’ successfully unpacked and SHA256 sums checked
+* ‘mcprogress’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mcprogress’ as ‘mcprogress_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mcprogress)
+* installing *binary* package ‘ttservice’ ...
+* package ‘ttservice’ successfully unpacked and SHA256 sums checked
+* ‘ttservice’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ttservice’ as ‘ttservice_0.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ttservice)
+* installing *binary* package ‘widyr’ ...
+* package ‘widyr’ successfully unpacked and SHA256 sums checked
+* ‘widyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘widyr’ as ‘widyr_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (widyr)
+* installing *binary* package ‘functional’ ...
+* package ‘functional’ successfully unpacked and SHA256 sums checked
+* ‘functional’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘functional’ as ‘functional_0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (functional)
+* installing *source* package ‘tidySummarizedExperiment’ ...
+** this is package ‘tidySummarizedExperiment’ version ‘1.23.0’
+** package ‘tidySummarizedExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to '>' 
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidySummarizedExperiment’ as ‘tidySummarizedExperiment_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidySummarizedExperiment)
+* installing *source* package ‘EGSEA’ ...
+** this is package ‘EGSEA’ version ‘1.41.0’
+** package ‘EGSEA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+
+groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+
+groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+** testing if installed package can be loaded from final location
+
+groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EGSEA’ as ‘EGSEA_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EGSEA)
+* installing *binary* package ‘glmmSeq’ ...
+* package ‘glmmSeq’ successfully unpacked and SHA256 sums checked
+* ‘glmmSeq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘glmmSeq’ as ‘glmmSeq_0.5.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmmSeq)
+* installing *source* package ‘tidybulk’ ...
+** this is package ‘tidybulk’ version ‘2.3.0’
+** package ‘tidybulk’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidybulk’ as ‘tidybulk_2.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidybulk)
+
+The downloaded source packages are in
+	‘/tmp/RtmpuqXmkC/downloaded_packages’
+
+real	2m15.398s
+user	1m53.866s
+sys	0m15.001s

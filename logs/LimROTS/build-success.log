@@ -1,0 +1,61 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''LimROTS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'LimROTS'
+also installing the dependency ‘miaTime’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/miaTime_1.3.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/LimROTS_1.5.0.tar.gz'
+* installing *source* package ‘miaTime’ ...
+** this is package ‘miaTime’ version ‘1.3.0’
+** package ‘miaTime’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miaTime’ as ‘miaTime_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miaTime)
+* installing *source* package ‘LimROTS’ ...
+** this is package ‘LimROTS’ version ‘1.5.0’
+** package ‘LimROTS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LimROTS’ as ‘LimROTS_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LimROTS)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEGyV5a/downloaded_packages’
+
+real	1m12.241s
+user	0m58.127s
+sys	0m8.141s

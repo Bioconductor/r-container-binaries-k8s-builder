@@ -1,0 +1,145 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MultiDataSet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MultiDataSet'
+also installing the dependencies ‘IlluminaHumanMethylation450kmanifest’, ‘made4’, ‘qqman’, ‘brgedata’, ‘minfiData’, ‘omicade4’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylation450kmanifest_0.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/made4_1.87.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qqman_0.1.9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/brgedata_1.35.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/minfiData_0.59.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/omicade4_1.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MultiDataSet_1.41.0.tar.gz'
+* installing *source* package ‘IlluminaHumanMethylation450kmanifest’ ...
+** this is package ‘IlluminaHumanMethylation450kmanifest’ version ‘0.4.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylation450kmanifest’ as ‘IlluminaHumanMethylation450kmanifest_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylation450kmanifest)
+* installing *source* package ‘made4’ ...
+** this is package ‘made4’ version ‘1.87.0’
+** package ‘made4’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘made4’ as ‘made4_1.87.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (made4)
+* installing *binary* package ‘qqman’ ...
+* package ‘qqman’ successfully unpacked and SHA256 sums checked
+* ‘qqman’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qqman’ as ‘qqman_0.1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qqman)
+* installing *source* package ‘brgedata’ ...
+** this is package ‘brgedata’ version ‘1.35.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘brgedata’ as ‘brgedata_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (brgedata)
+* installing *source* package ‘minfiData’ ...
+** this is package ‘minfiData’ version ‘0.59.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minfiData’ as ‘minfiData_0.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minfiData)
+* installing *source* package ‘omicade4’ ...
+** this is package ‘omicade4’ version ‘1.53.0’
+** package ‘omicade4’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘omicade4’ as ‘omicade4_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (omicade4)
+* installing *source* package ‘MultiDataSet’ ...
+** this is package ‘MultiDataSet’ version ‘1.41.0’
+** package ‘MultiDataSet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘add_methy’ with signature ‘"MultiDataSet","GenomicRatioSet"’: no definition for class “GenomicRatioSet”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MultiDataSet’ as ‘MultiDataSet_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MultiDataSet)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpz01PT6/downloaded_packages’
+
+real	5m58.418s
+user	5m20.950s
+sys	0m24.978s

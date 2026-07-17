@@ -1,0 +1,62 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''InterCellar'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'InterCellar'
+also installing the dependencies ‘shinyalert’, ‘wordcloud2’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyalert_3.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/wordcloud2_0.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/InterCellar_2.19.0.tar.gz'
+* installing *binary* package ‘shinyalert’ ...
+* package ‘shinyalert’ successfully unpacked and SHA256 sums checked
+* ‘shinyalert’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyalert’ as ‘shinyalert_3.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyalert)
+* installing *binary* package ‘wordcloud2’ ...
+* package ‘wordcloud2’ successfully unpacked and SHA256 sums checked
+* ‘wordcloud2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wordcloud2’ as ‘wordcloud2_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wordcloud2)
+* installing *source* package ‘InterCellar’ ...
+** this is package ‘InterCellar’ version ‘2.19.0’
+** package ‘InterCellar’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning in fun(libname, pkgname) :
+  Package 'InterCellar' is deprecated and will be removed from
+  Bioconductor version 3.24
+** testing if installed package can be loaded from final location
+Warning in fun(libname, pkgname) :
+  Package 'InterCellar' is deprecated and will be removed from
+  Bioconductor version 3.24
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘InterCellar’ as ‘InterCellar_2.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (InterCellar)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9yTuUz/downloaded_packages’
+
+real	0m41.996s
+user	0m27.566s
+sys	0m5.274s

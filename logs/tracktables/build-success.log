@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tracktables'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tracktables'
+also installing the dependencies ‘ore’, ‘RNifti’, ‘reportr’, ‘tractor.base’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ore_1.7.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RNifti_1.9.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reportr_1.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tractor.base_3.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/tracktables_1.47.0.tar.gz'
+* installing *binary* package ‘ore’ ...
+* package ‘ore’ successfully unpacked and SHA256 sums checked
+* ‘ore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ore’ as ‘ore_1.7.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ore)
+* installing *binary* package ‘RNifti’ ...
+* package ‘RNifti’ successfully unpacked and SHA256 sums checked
+* ‘RNifti’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RNifti’ as ‘RNifti_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RNifti)
+* installing *binary* package ‘reportr’ ...
+* package ‘reportr’ successfully unpacked and SHA256 sums checked
+* ‘reportr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reportr’ as ‘reportr_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reportr)
+* installing *binary* package ‘tractor.base’ ...
+* package ‘tractor.base’ successfully unpacked and SHA256 sums checked
+* ‘tractor.base’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tractor.base’ as ‘tractor.base_3.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tractor.base)
+* installing *source* package ‘tracktables’ ...
+** this is package ‘tracktables’ version ‘1.47.0’
+** package ‘tracktables’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tracktables’ as ‘tracktables_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tracktables)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHkIzZP/downloaded_packages’
+
+real	0m29.516s
+user	0m17.951s
+sys	0m4.346s

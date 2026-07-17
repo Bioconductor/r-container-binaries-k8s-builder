@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''FuseSOM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'FuseSOM'
+also installing the dependencies ‘DataVisualizations’, ‘FCPS’, ‘analogue’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DataVisualizations_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FCPS_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/analogue_0.18.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/FuseSOM_1.15.0.tar.gz'
+* installing *binary* package ‘DataVisualizations’ ...
+* package ‘DataVisualizations’ successfully unpacked and SHA256 sums checked
+* ‘DataVisualizations’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DataVisualizations’ as ‘DataVisualizations_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DataVisualizations)
+* installing *binary* package ‘analogue’ ...
+* package ‘analogue’ successfully unpacked and SHA256 sums checked
+* ‘analogue’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘analogue’ as ‘analogue_0.18.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (analogue)
+* installing *binary* package ‘FCPS’ ...
+* package ‘FCPS’ successfully unpacked and SHA256 sums checked
+* ‘FCPS’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FCPS’ as ‘FCPS_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FCPS)
+* installing *source* package ‘FuseSOM’ ...
+** this is package ‘FuseSOM’ version ‘1.15.0’
+** package ‘FuseSOM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FuseSOM.c -o FuseSOM.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bmu.c -o bmu.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c relational.c -o relational.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c som.c -o som.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o FuseSOM.so FuseSOM.o bmu.o relational.o som.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-FuseSOM/00new/FuseSOM/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FuseSOM’ as ‘FuseSOM_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FuseSOM)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdcYnsh/downloaded_packages’
+
+real	0m39.865s
+user	0m29.371s
+sys	0m5.372s

@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GenomAutomorphism'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GenomAutomorphism'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomAutomorphism_1.15.0.tar.gz'
+Content type 'application/x-gzip' length 1489882 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+* installing *source* package ‘GenomAutomorphism’ ...
+** this is package ‘GenomAutomorphism’ version ‘1.15.0’
+** package ‘GenomAutomorphism’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘GenomAutomorphism’
+Error in setClassUnion("DNAStringSet_OR_DNAMultipleAlignment", c("DNAStringSet",  : 
+  the member classes must be defined: not true of "DNAMultipleAlignment"
+Error: unable to load R code in package ‘GenomAutomorphism’
+Execution halted
+ERROR: lazy loading failed for package ‘GenomAutomorphism’
+* removing ‘/tmp/library/GenomAutomorphism’
+
+The downloaded source packages are in
+	‘/tmp/RtmpaS1AXc/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘GenomAutomorphism’ had non-zero exit status
+
+real	0m13.998s
+user	0m9.037s
+sys	0m2.507s

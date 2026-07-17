@@ -1,0 +1,120 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CPSM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CPSM'
+also installing the dependencies ‘cmprsk’, ‘mets’, ‘Publish’, ‘riskRegression’, ‘timereg’, ‘pec’, ‘MTLR’, ‘ggfortify’, ‘randomForestSRC’, ‘SurvMetrics’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cmprsk_2.2-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mets_1.3.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Publish_2025.07.24.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/riskRegression_2026.03.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timereg_2.0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pec_2025.06.24.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MTLR_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggfortify_0.4.19.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/randomForestSRC_3.6.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SurvMetrics_0.5.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CPSM_1.5.0.tar.gz'
+* installing *binary* package ‘cmprsk’ ...
+* package ‘cmprsk’ successfully unpacked and SHA256 sums checked
+* ‘cmprsk’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cmprsk’ as ‘cmprsk_2.2-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cmprsk)
+* installing *binary* package ‘Publish’ ...
+* package ‘Publish’ successfully unpacked and SHA256 sums checked
+* ‘Publish’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Publish’ as ‘Publish_2025.07.24_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Publish)
+* installing *binary* package ‘timereg’ ...
+* package ‘timereg’ successfully unpacked and SHA256 sums checked
+* ‘timereg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timereg’ as ‘timereg_2.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timereg)
+* installing *binary* package ‘MTLR’ ...
+* package ‘MTLR’ successfully unpacked and SHA256 sums checked
+* ‘MTLR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MTLR’ as ‘MTLR_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MTLR)
+* installing *binary* package ‘ggfortify’ ...
+* package ‘ggfortify’ successfully unpacked and SHA256 sums checked
+* ‘ggfortify’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggfortify’ as ‘ggfortify_0.4.19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggfortify)
+* installing *binary* package ‘randomForestSRC’ ...
+* package ‘randomForestSRC’ successfully unpacked and SHA256 sums checked
+* ‘randomForestSRC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘randomForestSRC’ as ‘randomForestSRC_3.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomForestSRC)
+* installing *binary* package ‘mets’ ...
+* package ‘mets’ successfully unpacked and SHA256 sums checked
+* ‘mets’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mets’ as ‘mets_1.3.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mets)
+* installing *binary* package ‘riskRegression’ ...
+* package ‘riskRegression’ successfully unpacked and SHA256 sums checked
+* ‘riskRegression’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘riskRegression’ as ‘riskRegression_2026.03.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (riskRegression)
+* installing *binary* package ‘pec’ ...
+* package ‘pec’ successfully unpacked and SHA256 sums checked
+* ‘pec’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pec’ as ‘pec_2025.06.24_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pec)
+* installing *binary* package ‘SurvMetrics’ ...
+* package ‘SurvMetrics’ successfully unpacked and SHA256 sums checked
+* ‘SurvMetrics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SurvMetrics’ as ‘SurvMetrics_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SurvMetrics)
+* installing *source* package ‘CPSM’ ...
+** this is package ‘CPSM’ version ‘1.5.0’
+** package ‘CPSM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CPSM’ as ‘CPSM_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CPSM)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpw506Rw/downloaded_packages’
+
+real	0m46.955s
+user	0m37.432s
+sys	0m7.025s
