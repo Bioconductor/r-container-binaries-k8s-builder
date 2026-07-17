@@ -1,0 +1,79 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SCAN.UPC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SCAN.UPC'
+also installing the dependency ‘pd.hg.u95a’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/pd.hg.u95a_3.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SCAN.UPC_2.54.0.tar.gz'
+* installing *source* package ‘pd.hg.u95a’ ...
+** this is package ‘pd.hg.u95a’ version ‘3.12.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pd.hg.u95a’ as ‘pd.hg.u95a_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pd.hg.u95a)
+* installing *source* package ‘SCAN.UPC’ ...
+** this is package ‘SCAN.UPC’ version ‘2.54.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Parallel computing support for 'oligo/crlmm': Disabled
+     - Load 'ff'
+     - Load and register a 'foreach' adaptor
+        Example - Using 'multicore' for 2 cores:
+             library(doMC)
+             registerDoMC(2)
+================================================================================
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Parallel computing support for 'oligo/crlmm': Disabled
+     - Load 'ff'
+     - Load and register a 'foreach' adaptor
+        Example - Using 'multicore' for 2 cores:
+             library(doMC)
+             registerDoMC(2)
+================================================================================
+** testing if installed package can be loaded from final location
+Parallel computing support for 'oligo/crlmm': Disabled
+     - Load 'ff'
+     - Load and register a 'foreach' adaptor
+        Example - Using 'multicore' for 2 cores:
+             library(doMC)
+             registerDoMC(2)
+================================================================================
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SCAN.UPC’ as ‘SCAN.UPC_2.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SCAN.UPC)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpk8Mxkm/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m17.355s
+user	1m4.339s
+sys	0m8.409s

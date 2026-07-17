@@ -1,0 +1,77 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''dar'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'dar'
+also installing the dependencies ‘lefser’, ‘roxyglobals’, ‘roxytest’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/lefser_1.22.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/roxyglobals_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/roxytest_0.0.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/dar_1.8.0.tar.gz'
+* installing *source* package ‘lefser’ ...
+** this is package ‘lefser’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lefser’ as ‘lefser_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lefser)
+* installing *binary* package ‘roxyglobals’ ...
+* package ‘roxyglobals’ successfully unpacked and SHA256 sums checked
+* ‘roxyglobals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘roxyglobals’ as ‘roxyglobals_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (roxyglobals)
+* installing *binary* package ‘roxytest’ ...
+* package ‘roxytest’ successfully unpacked and SHA256 sums checked
+* ‘roxytest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘roxytest’ as ‘roxytest_0.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (roxytest)
+* installing *source* package ‘dar’ ...
+** this is package ‘dar’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dar’ as ‘dar_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dar)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOQmWr9/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m20.373s
+user	0m59.476s
+sys	0m8.635s
