@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2269 (96%)
+- **Successfully Built:** 2275 (97%)
 - **Failed:** 16 (0%)
-- **In Progress:** 28
-- **Not Started:** 31
+- **In Progress:** 27
+- **Not Started:** 26
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2269)
+## Successfully Built Packages (2275)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2219 more ...*
+*... and 2225 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,8 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (28)
-- ⏳ `CAGEfightR`
+## In Progress (27)
 - ⏳ `ENmix`
 - ⏳ `GUIDEseq`
 - ⏳ `HiCDCPlus`
@@ -110,24 +109,24 @@
 - ⏳ `NanoMethViz`
 - ⏳ `PostChicago`
 - ⏳ `RBedMethyl`
-- ⏳ `REDseq`
 - ⏳ `RNAAgeCalc`
 - ⏳ `RadioGx`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
+- ⏳ `YAPSA`
 - ⏳ `annotatr`
-- ⏳ `epivizrChart`
+- ⏳ `arrayMvout`
+- ⏳ `ffpe`
+- ⏳ `iCheck`
 - ⏳ `missMethyl`
 - ⏳ `motifbreakR`
-- ⏳ `octad`
-- ⏳ `preciseTAD`
-- ⏳ `profileplyr`
 - ⏳ `qpgraph`
 - ⏳ `strandCheckR`
+- ⏳ `wateRmelon`
 
-## Not Yet Started (31)
+## Not Yet Started (26)
 - ⏸️ `CAGEr`
 - ⏸️ `ChAMP`
 - ⏸️ `DMRcate`
@@ -140,8 +139,6 @@
 - ⏸️ `SpaceTrooper`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
-- ⏸️ `YAPSA`
-- ⏸️ `arrayMvout`
 - ⏸️ `bigmelon`
 - ⏸️ `biscuiteer`
 - ⏸️ `clipper`
@@ -149,8 +146,6 @@
 - ⏸️ `dmrseq`
 - ⏸️ `dnaEPICO`
 - ⏸️ `epiRomics`
-- ⏸️ `ffpe`
-- ⏸️ `iCheck`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
 - ⏸️ `methylGSA`
@@ -158,8 +153,7 @@
 - ⏸️ `simpleSeg`
 - ⏸️ `skewr`
 - ⏸️ `spicyR`
-- ⏸️ `wateRmelon`
 
 ---
-*Last updated: 2026-07-17 22:34:04 UTC*
+*Last updated: 2026-07-17 22:34:43 UTC*
 *Packages with verified BBS status: 161*
