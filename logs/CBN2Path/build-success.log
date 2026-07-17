@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CBN2Path'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CBN2Path'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CBN2Path_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 2383742 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘CBN2Path’ ...
+** this is package ‘CBN2Path’ version ‘1.2.0’
+** using staged installation
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to enable C11 features... none needed
+checking for gsl-config... /usr/bin/gsl-config
+checking if GSL version >= 2.5... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include -I.  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bcbn.c -o bcbn.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include -I.  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ctcbn.c -o ctcbn.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include -I.  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include -I.  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c queue.c -o queue.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o CBN2Path.so bcbn.o ctcbn.o init.o queue.o -L/usr/lib/x86_64-linux-gnu -lgsl -lgslcblas -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-CBN2Path/00new/CBN2Path/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CBN2Path’ as ‘CBN2Path_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CBN2Path)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSNd4q4/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m50.287s
+user	0m38.158s
+sys	0m5.833s

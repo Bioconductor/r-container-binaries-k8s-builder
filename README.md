@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1381 (57%)
+- **Successfully Built:** 1399 (58%)
 - **Failed:** 15 (0%)
-- **In Progress:** 105
-- **Not Started:** 883
+- **In Progress:** 88
+- **Not Started:** 882
 
-**Progress:** 58%
+**Progress:** 59%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1381)
+## Successfully Built Packages (1399)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1331 more ...*
+*... and 1349 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,24 +96,19 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (105)
+## In Progress (88)
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
 - ⏳ `BiocNeighbors`
-- ⏳ `CBN2Path`
 - ⏳ `CCPROMISE`
 - ⏳ `CHETAH`
 - ⏳ `CHRONOS`
 - ⏳ `CNVRanger`
-- ⏳ `CPSM`
-- ⏳ `CRISPRball`
-- ⏳ `CSOA`
 - ⏳ `CTexploreR`
 - ⏳ `CaDrA`
 - ⏳ `CalibraCurve`
 - ⏳ `Category`
 - ⏳ `CrispRVariants`
-- ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
 - ⏳ `Dune`
@@ -147,10 +142,15 @@
 - ⏳ `SigCheck`
 - ⏳ `SingleCellAlleleExperiment`
 - ⏳ `SingleR`
+- ⏳ `TissueEnrich`
+- ⏳ `VegaMC`
+- ⏳ `ViSEAGO`
+- ⏳ `alabaster.se`
+- ⏳ `annmap`
 
-... and 55 more ...
+... and 38 more ...
 
-## Not Yet Started (883)
+## Not Yet Started (882)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
@@ -202,8 +202,8 @@
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
 
-... and 833 more ...
+... and 832 more ...
 
 ---
-*Last updated: 2026-07-17 22:02:10 UTC*
+*Last updated: 2026-07-17 22:03:41 UTC*
 *Packages with verified BBS status: 185*
