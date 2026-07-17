@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1877 (80%)
+- **Successfully Built:** 1911 (81%)
 - **Failed:** 9 (0%)
-- **In Progress:** 132
-- **Not Started:** 326
+- **In Progress:** 114
+- **Not Started:** 310
 
-**Progress:** 80%
+**Progress:** 81%
 ```
 ████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1877)
+## Successfully Built Packages (1911)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1827 more ...*
+*... and 1861 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,49 +90,43 @@
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (132)
-- ⏳ `AnnotationHubData`
+## In Progress (114)
 - ⏳ `BASiCStan`
-- ⏳ `Basic4Cseq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CODEX`
 - ⏳ `CSSQ`
+- ⏳ `CexoR`
 - ⏳ `ChIPseeker`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DNAfusion`
-- ⏳ `DiffBind`
+- ⏳ `DSS`
 - ⏳ `Dino`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
 - ⏳ `EpiMix`
 - ⏳ `ExCluster`
+- ⏳ `FLAMES`
 - ⏳ `FindIT2`
 - ⏳ `GOstats`
-- ⏳ `GSReg`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `GlobalAncova`
 - ⏳ `HiCPotts`
 - ⏳ `HiTC`
 - ⏳ `INSPEcT`
-- ⏳ `IPO`
 - ⏳ `IVAS`
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
-- ⏳ `LOBSTAHS`
-- ⏳ `MAIT`
 - ⏳ `MBECS`
 - ⏳ `MEB`
-- ⏳ `MGnifyR`
-- ⏳ `MICSQTL`
+- ⏳ `MIRA`
 - ⏳ `MPAC`
-- ⏳ `MSnID`
 - ⏳ `MatrixQCvis`
 - ⏳ `MetaboAnnotatoR`
 - ⏳ `MethylSeekR`
-- ⏳ `MicrobiomeProfiler`
 - ⏳ `MoonlightR`
 - ⏳ `MsQuality`
+- ⏳ `NanoMethViz`
 - ⏳ `OUTRIDER`
 - ⏳ `OutSplice`
 - ⏳ `PAST`
@@ -140,11 +134,17 @@
 - ⏳ `POMA`
 - ⏳ `PROPS`
 - ⏳ `PostChicago`
-- ⏳ `RJMCMCNucleosomes`
+- ⏳ `RBedMethyl`
+- ⏳ `RCAS`
+- ⏳ `RadioGx`
+- ⏳ `RegionalST`
+- ⏳ `SCANVIS`
+- ⏳ `SCArray.sat`
+- ⏳ `SCOPE`
 
-... and 82 more ...
+... and 64 more ...
 
-## Not Yet Started (326)
+## Not Yet Started (310)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -164,7 +164,6 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
@@ -178,7 +177,6 @@
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `DOtools`
-- ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
@@ -189,15 +187,17 @@
 - ⏸️ `EpiCompare`
 - ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
-- ⏸️ `FLAMES`
 - ⏸️ `FRASER`
 - ⏸️ `G4SNVHunter`
 - ⏸️ `GA4GHclient`
 - ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
+- ⏸️ `GNOSIS`
+- ⏸️ `GRaNIE`
+- ⏸️ `GUIDEseq`
 
-... and 276 more ...
+... and 260 more ...
 
 ---
-*Last updated: 2026-07-17 22:00:03 UTC*
+*Last updated: 2026-07-17 22:01:31 UTC*
 *Packages with verified BBS status: 148*

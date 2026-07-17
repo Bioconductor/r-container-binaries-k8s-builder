@@ -1,0 +1,49 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mobileRNA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mobileRNA'
+also installing the dependency ‘bioseq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bioseq_0.1.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mobileRNA_1.9.0.tar.gz'
+* installing *binary* package ‘bioseq’ ...
+* package ‘bioseq’ successfully unpacked and SHA256 sums checked
+* ‘bioseq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bioseq’ as ‘bioseq_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bioseq)
+* installing *source* package ‘mobileRNA’ ...
+** this is package ‘mobileRNA’ version ‘1.9.0’
+** package ‘mobileRNA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mobileRNA’ as ‘mobileRNA_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mobileRNA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpw9jb1A/downloaded_packages’
+
+real	0m56.663s
+user	0m42.279s
+sys	0m6.156s

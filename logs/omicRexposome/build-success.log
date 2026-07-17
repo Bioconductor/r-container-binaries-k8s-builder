@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''omicRexposome'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'omicRexposome'
+also installing the dependencies ‘PMA’, ‘SmartSVA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/PMA_1.2-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SmartSVA_0.1.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/omicRexposome_1.35.0.tar.gz'
+* installing *binary* package ‘PMA’ ...
+* package ‘PMA’ successfully unpacked and SHA256 sums checked
+* ‘PMA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PMA’ as ‘PMA_1.2-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PMA)
+* installing *binary* package ‘SmartSVA’ ...
+* package ‘SmartSVA’ successfully unpacked and SHA256 sums checked
+* ‘SmartSVA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SmartSVA’ as ‘SmartSVA_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SmartSVA)
+* installing *source* package ‘omicRexposome’ ...
+** this is package ‘omicRexposome’ version ‘1.35.0’
+** package ‘omicRexposome’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘omicRexposome’ as ‘omicRexposome_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (omicRexposome)
+
+The downloaded source packages are in
+	‘/tmp/RtmplL4B8H/downloaded_packages’
+
+real	1m5.551s
+user	0m49.318s
+sys	0m7.198s

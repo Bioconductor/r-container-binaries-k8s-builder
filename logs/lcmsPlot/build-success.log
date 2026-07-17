@@ -1,0 +1,45 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''lcmsPlot'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'lcmsPlot'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/lcmsPlot_1.1.3.tar.gz'
+Content type 'application/x-gzip' length 5251967 bytes (5.0 MB)
+==================================================
+downloaded 5.0 MB
+
+* installing *source* package ‘lcmsPlot’ ...
+** this is package ‘lcmsPlot’ version ‘1.1.3’
+** package ‘lcmsPlot’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘create_chromatograms’ with signature ‘"DBIConnection","data.frame","list","NULL"’: no definition for class “DBIConnection”
+in method for ‘create_chromatograms’ with signature ‘"MChromatograms","data.frame","list","NULL"’: no definition for class “MChromatograms”
+in method for ‘create_chromatograms’ with signature ‘"XChromatogram","data.frame","list","NULL"’: no definition for class “XChromatogram”
+in method for ‘create_chromatograms’ with signature ‘"XChromatograms","data.frame","list","NULL"’: no definition for class “XChromatograms”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lcmsPlot’ as ‘lcmsPlot_1.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lcmsPlot)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7eLPzK/downloaded_packages’
+
+real	0m27.970s
+user	0m15.403s
+sys	0m3.619s

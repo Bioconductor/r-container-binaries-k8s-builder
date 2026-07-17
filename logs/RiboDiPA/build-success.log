@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RiboDiPA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RiboDiPA'
+also installing the dependency ‘elitism’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/elitism_1.1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RiboDiPA_1.21.0.tar.gz'
+* installing *binary* package ‘elitism’ ...
+* package ‘elitism’ successfully unpacked and SHA256 sums checked
+* ‘elitism’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘elitism’ as ‘elitism_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (elitism)
+* installing *source* package ‘RiboDiPA’ ...
+** this is package ‘RiboDiPA’ version ‘1.21.0’
+** package ‘RiboDiPA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c centerCPP.cpp -o centerCPP.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RiboDiPA.so RcppExports.o centerCPP.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-RiboDiPA/00new/RiboDiPA/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RiboDiPA’ as ‘RiboDiPA_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RiboDiPA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpg0Vs0r/downloaded_packages’
+
+real	1m3.712s
+user	0m52.126s
+sys	0m7.722s
