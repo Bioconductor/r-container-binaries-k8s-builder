@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 469 (19%)
+- **Successfully Built:** 478 (20%)
 - **Failed:** 4 (0%)
-- **In Progress:** 20
-- **Not Started:** 1891
+- **In Progress:** 13
+- **Not Started:** 1889
 
-**Progress:** 19%
+**Progress:** 20%
 ```
-█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (469)
+## Successfully Built Packages (478)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 419 more ...*
+*... and 428 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,29 +85,22 @@
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
 
-## In Progress (20)
+## In Progress (13)
+- ⏳ `BiocAzul`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `EnMCB`
-- ⏳ `HVP`
 - ⏳ `Harman`
+- ⏳ `IntramiRExploreR`
 - ⏳ `PCAN`
-- ⏳ `RNAdecay`
 - ⏳ `RTCGA`
-- ⏳ `SUITOR`
 - ⏳ `SuperCellCyto`
-- ⏳ `abseqR`
-- ⏳ `brendaDb`
 - ⏳ `decoupleR`
-- ⏳ `epistasisGA`
 - ⏳ `fgsea`
-- ⏳ `iPath`
-- ⏳ `mixOmics`
-- ⏳ `ppcseq`
 - ⏳ `scRecover`
 - ⏳ `scShapes`
 
-## Not Yet Started (1891)
+## Not Yet Started (1889)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -159,8 +152,8 @@
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 
-... and 1841 more ...
+... and 1839 more ...
 
 ---
-*Last updated: 2026-07-17 20:51:24 UTC*
+*Last updated: 2026-07-17 20:51:52 UTC*
 *Packages with verified BBS status: 131*
