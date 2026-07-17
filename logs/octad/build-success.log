@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''octad'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'octad'
+also installing the dependency ‘octad.db’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/octad.db_1.14.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/octad_1.14.0.tar.gz'
+* installing *source* package ‘octad.db’ ...
+** this is package ‘octad.db’ version ‘1.14.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘octad.db’ as ‘octad.db_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (octad.db)
+* installing *source* package ‘octad’ ...
+** this is package ‘octad’ version ‘1.14.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘octad’ as ‘octad_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (octad)
+
+The downloaded source packages are in
+	‘/tmp/RtmpyA1jOE/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m42.446s
+user	1m8.641s
+sys	0m8.886s

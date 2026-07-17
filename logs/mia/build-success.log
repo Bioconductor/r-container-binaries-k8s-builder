@@ -1,0 +1,113 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mia'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mia'
+also installing the dependencies ‘mediation’, ‘microbiomeDataSets’, ‘philr’, ‘topicdoc’, ‘topicmodels’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mediation_4.5.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/microbiomeDataSets_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/philr_1.38.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/topicdoc_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/topicmodels_0.2-17.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mia_1.20.0.tar.gz'
+* installing *binary* package ‘mediation’ ...
+* package ‘mediation’ successfully unpacked and SHA256 sums checked
+* ‘mediation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mediation’ as ‘mediation_4.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mediation)
+* installing *source* package ‘microbiomeDataSets’ ...
+** this is package ‘microbiomeDataSets’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘microbiomeDataSets’ as ‘microbiomeDataSets_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (microbiomeDataSets)
+* installing *source* package ‘philr’ ...
+** this is package ‘philr’ version ‘1.38.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘philr’ as ‘philr_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (philr)
+* installing *binary* package ‘topicmodels’ ...
+* package ‘topicmodels’ successfully unpacked and SHA256 sums checked
+* ‘topicmodels’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘topicmodels’ as ‘topicmodels_0.2-17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (topicmodels)
+* installing *source* package ‘mia’ ...
+** this is package ‘mia’ version ‘1.20.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c assay.cpp -o assay.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c faith_R.cpp -o faith_R.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c propmap.cpp -o propmap.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c transformCounts.cpp -o transformCounts.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tree.cpp -o tree.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mia.so RcppExports.o assay.o faith_R.o propmap.o transformCounts.o tree.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mia/00new/mia/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mia’ as ‘mia_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mia)
+* installing *binary* package ‘topicdoc’ ...
+* package ‘topicdoc’ successfully unpacked and SHA256 sums checked
+* ‘topicdoc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘topicdoc’ as ‘topicdoc_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (topicdoc)
+
+The downloaded source packages are in
+	‘/tmp/RtmphTNpre/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m58.994s
+user	1m38.764s
+sys	0m13.121s
