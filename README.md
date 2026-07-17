@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1997 (83%)
-- **Failed:** 21 (0%)
-- **In Progress:** 23
-- **Not Started:** 343
+- **Successfully Built:** 2044 (85%)
+- **Failed:** 22 (0%)
+- **In Progress:** 44
+- **Not Started:** 274
 
-**Progress:** 84%
+**Progress:** 86%
 ```
-██████████████████████████████████████████░░░░░░░░
+███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1997)
+## Successfully Built Packages (2044)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [ADImpute](https://bioconductor.org/packages/3.23/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADImpute) |
 | [ADaCGH2](https://bioconductor.org/packages/3.23/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADaCGH2) |
 | [AGDEX](https://bioconductor.org/packages/3.23/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AGDEX) |
+| [AHMassBank](https://bioconductor.org/packages/3.23/bioc/html/AHMassBank.html) | [log](logs/AHMassBank/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AHMassBank) |
 | [AIMS](https://bioconductor.org/packages/3.23/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.23/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ALDEx2) |
 | [AMARETTO](https://bioconductor.org/packages/3.23/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMARETTO) |
@@ -44,9 +45,8 @@
 | [ASGSCA](https://bioconductor.org/packages/3.23/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASGSCA) |
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
-| [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 1947 more ...*
+*... and 1994 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (21)
+## Failed Packages (22)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,6 +84,7 @@
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [ChIPComp](https://bioconductor.org/packages/3.23/bioc/html/ChIPComp.html) | [log](logs/ChIPComp/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ChIPComp) | Compilation failed:  ‘ChIPComp’ |
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
+| [InPAS](https://bioconductor.org/packages/3.23/bioc/html/InPAS.html) | [log](logs/InPAS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/InPAS) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 | [MSstatsConvert](https://bioconductor.org/packages/3.23/bioc/html/MSstatsConvert.html) | [log](logs/MSstatsConvert/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MSstatsConvert) | Missing dependency: log4r<br>[CRAN Package 'log4r'](https://cran.r-project.org/web/packages/log4r/index.html) archived on 2026-07-14 as issues were not corrected in time despite reminder. |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
@@ -102,33 +103,53 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (23)
-- ⏳ `BASiCStan`
-- ⏳ `EnrichmentBrowser`
-- ⏳ `GlobalAncova`
+## In Progress (44)
+- ⏳ `ChIPXpress`
+- ⏳ `FLAMES`
+- ⏳ `GRaNIE`
 - ⏳ `IFAA`
-- ⏳ `InPAS`
-- ⏳ `InteractionSet`
-- ⏳ `LipidTrend`
+- ⏳ `MSnbase`
+- ⏳ `MethReg`
 - ⏳ `MungeSumstats`
-- ⏳ `NanoMethViz`
-- ⏳ `RareVariantVis`
+- ⏳ `OMICsPCA`
 - ⏳ `VariantTools`
-- ⏳ `alabaster.vcf`
-- ⏳ `annotatr`
 - ⏳ `appreci8R`
-- ⏳ `atacInferCnv`
-- ⏳ `biosigner`
-- ⏳ `cn.farms`
-- ⏳ `crisprDesign`
-- ⏳ `decontX`
+- ⏳ `biovizBase`
+- ⏳ `chevreulProcess`
+- ⏳ `chromVAR`
+- ⏳ `circRNAprofiler`
+- ⏳ `conumee`
+- ⏳ `deconvR`
+- ⏳ `demuxSNP`
+- ⏳ `derfinder`
+- ⏳ `diffUTR`
+- ⏳ `drugTargetInteractions`
+- ⏳ `epivizrData`
+- ⏳ `gDNAx`
+- ⏳ `gDRimport`
 - ⏳ `gmapR`
-- ⏳ `iSEE`
-- ⏳ `signeR`
+- ⏳ `methylCC`
+- ⏳ `methylumi`
+- ⏳ `mitoClone2`
+- ⏳ `monaLisa`
+- ⏳ `motifStack`
+- ⏳ `motifmatchr`
+- ⏳ `musicatk`
+- ⏳ `preciseTAD`
+- ⏳ `quantro`
+- ⏳ `scFeatures`
+- ⏳ `scMerge`
+- ⏳ `scanMiRApp`
+- ⏳ `shinyMethyl`
+- ⏳ `shinyepico`
+- ⏳ `signifinder`
+- ⏳ `svaNUMT`
+- ⏳ `svaRetro`
 - ⏳ `tLOH`
+- ⏳ `tximeta`
+- ⏳ `vtpnet`
 
-## Not Yet Started (343)
-- ⏸️ `AHMassBank`
+## Not Yet Started (274)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -136,7 +157,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BUSpaRse`
 - ⏸️ `BatChef`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
@@ -147,17 +167,12 @@
 - ⏸️ `CEMiTool`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `COCOA`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `ChIPseeker`
-- ⏸️ `ChromSCape`
-- ⏸️ `CircSeqAlignTk`
-- ⏸️ `CleanUpRNAseq`
 - ⏸️ `CluMSID`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAPAR`
@@ -166,21 +181,28 @@
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
-- ⏸️ `DrugVsDisease`
 - ⏸️ `DspikeIn`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EDIRquery`
 - ⏸️ `ELMER`
-- ⏸️ `ENmix`
 - ⏸️ `EWCE`
 - ⏸️ `EasyCellType`
 - ⏸️ `EpiCompare`
-- ⏸️ `ExperimentHubData`
-- ⏸️ `FLAMES`
-- ⏸️ `FRASER`
+- ⏸️ `GDCRNATools`
+- ⏸️ `GOaGO`
+- ⏸️ `GSEABenchmarkeR`
+- ⏸️ `GUIDEseq`
+- ⏸️ `GeneStructureTools`
+- ⏸️ `GeneTonic`
+- ⏸️ `GenomicCoordinates`
+- ⏸️ `GenomicInteractions`
+- ⏸️ `GenomicOZone`
+- ⏸️ `Gviz`
+- ⏸️ `HiCDCPlus`
+- ⏸️ `HiCDOC`
 
-... and 293 more ...
+... and 224 more ...
 
 ---
-*Last updated: 2026-07-17 22:37:45 UTC*
-*Packages with verified BBS status: 204*
+*Last updated: 2026-07-17 22:40:32 UTC*
+*Packages with verified BBS status: 206*

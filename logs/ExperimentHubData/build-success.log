@@ -1,0 +1,49 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ExperimentHubData'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ExperimentHubData'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ExperimentHubData_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 228285 bytes (222 KB)
+==================================================
+downloaded 222 KB
+
+* installing *source* package ‘ExperimentHubData’ ...
+** this is package ‘ExperimentHubData’ version ‘1.38.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+[1] Creating log directory /root/.AnnotationHubData
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘ExperimentHubData’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘ExperimentHubData’
+** testing if installed package can be loaded from final location
+No methods found in package ‘rtracklayer’ for request: ‘trackName<-’ when loading ‘AnnotationHubData’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘ExperimentHubData’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ExperimentHubData’ as ‘ExperimentHubData_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExperimentHubData)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEGcYks/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m1.251s
+user	0m44.087s
+sys	0m6.875s
