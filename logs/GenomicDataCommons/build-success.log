@@ -1,0 +1,47 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GenomicDataCommons'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GenomicDataCommons'
+also installing the dependency ‘listviewer’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/listviewer_4.0.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomicDataCommons_1.37.0.tar.gz'
+* installing *binary* package ‘listviewer’ ...
+* package ‘listviewer’ successfully unpacked and SHA256 sums checked
+* ‘listviewer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘listviewer’ as ‘listviewer_4.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listviewer)
+* installing *source* package ‘GenomicDataCommons’ ...
+** this is package ‘GenomicDataCommons’ version ‘1.37.0’
+** package ‘GenomicDataCommons’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicDataCommons’ as ‘GenomicDataCommons_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicDataCommons)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpdmwoso/downloaded_packages’
+
+real	0m20.154s
+user	0m14.188s
+sys	0m3.821s

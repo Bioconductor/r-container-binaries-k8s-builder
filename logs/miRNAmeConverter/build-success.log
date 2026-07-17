@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''miRNAmeConverter'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'miRNAmeConverter'
+also installing the dependency ‘miRBaseVersions.db’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/miRBaseVersions.db_1.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/miRNAmeConverter_1.41.0.tar.gz'
+* installing *source* package ‘miRBaseVersions.db’ ...
+** this is package ‘miRBaseVersions.db’ version ‘1.1.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miRBaseVersions.db’ as ‘miRBaseVersions.db_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miRBaseVersions.db)
+* installing *source* package ‘miRNAmeConverter’ ...
+** this is package ‘miRNAmeConverter’ version ‘1.41.0’
+** package ‘miRNAmeConverter’ successfully unpacked and MD5 sums checked
+** using staged installation
+Warning in person1(given = given[[i]], family = family[[i]], middle = middle[[i]],  :
+  It is recommended to use ‘given’ instead of ‘middle’.
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function ‘MiRNANameConverter’ in package ‘miRNAmeConverter’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miRNAmeConverter’ as ‘miRNAmeConverter_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miRNAmeConverter)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjwRozL/downloaded_packages’
+
+real	0m53.932s
+user	0m45.904s
+sys	0m5.561s

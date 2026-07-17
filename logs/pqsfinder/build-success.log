@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pqsfinder'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pqsfinder'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/pqsfinder_2.29.0.tar.gz'
+Content type 'application/x-gzip' length 381997 bytes (373 KB)
+==================================================
+downloaded 373 KB
+
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘pqsfinder’ ...
+** this is package ‘pqsfinder’ version ‘2.29.0’
+** package ‘pqsfinder’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pqsfinder.cpp -o pqsfinder.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost_regex/posix_api.cpp -o boost_regex/posix_api.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost_regex/regex.cpp -o boost_regex/regex.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost_regex/regex_debug.cpp -o boost_regex/regex_debug.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost_regex/static_mutex.cpp -o boost_regex/static_mutex.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost_regex/wide_posix_api.cpp -o boost_regex/wide_posix_api.o
+mkdir -p "/tmp/library/00LOCK-pqsfinder/00new/pqsfinder/lib"
+ar rs "/tmp/library/00LOCK-pqsfinder/00new/pqsfinder/lib/libboost_regex.a" boost_regex/posix_api.o boost_regex/regex.o boost_regex/regex_debug.o boost_regex/static_mutex.o boost_regex/wide_posix_api.o
+ar: creating /tmp/library/00LOCK-pqsfinder/00new/pqsfinder/lib/libboost_regex.a
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o pqsfinder.so RcppExports.o pqsfinder.o /tmp/library/00LOCK-pqsfinder/00new/pqsfinder/lib/libboost_regex.a -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-pqsfinder/00new/pqsfinder/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pqsfinder’ as ‘pqsfinder_2.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pqsfinder)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCZeIwU/downloaded_packages’
+
+real	0m52.312s
+user	0m43.631s
+sys	0m6.091s

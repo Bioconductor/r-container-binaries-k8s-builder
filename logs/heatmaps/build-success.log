@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''heatmaps'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'heatmaps'
+also installing the dependency ‘BSgenome.Drerio.UCSC.danRer7’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Drerio.UCSC.danRer7_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/heatmaps_1.37.0.tar.gz'
+* installing *source* package ‘BSgenome.Drerio.UCSC.danRer7’ ...
+** this is package ‘BSgenome.Drerio.UCSC.danRer7’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Drerio.UCSC.danRer7’ as ‘BSgenome.Drerio.UCSC.danRer7_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Drerio.UCSC.danRer7)
+* installing *source* package ‘heatmaps’ ...
+** this is package ‘heatmaps’ version ‘1.37.0’
+** package ‘heatmaps’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘scale’ in package ‘heatmaps’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘heatmaps’ as ‘heatmaps_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (heatmaps)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLqTUjl/downloaded_packages’
+
+real	1m25.461s
+user	1m11.962s
+sys	0m9.611s
