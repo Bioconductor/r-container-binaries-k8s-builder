@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 196 (8%)
+- **Successfully Built:** 203 (8%)
 - **Failed:** 0 (0%)
-- **In Progress:** 189
-- **Not Started:** 1999
+- **In Progress:** 183
+- **Not Started:** 1998
 
 **Progress:** 8%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (196)
+## Successfully Built Packages (203)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -40,13 +40,13 @@
 | [DCATS](https://bioconductor.org/packages/3.23/bioc/html/DCATS.html) | [log](logs/DCATS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DCATS) |
 | [DEGseq](https://bioconductor.org/packages/3.23/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEGseq) |
 | [DNAcopy](https://bioconductor.org/packages/3.23/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcopy) |
+| [DNAcycP2](https://bioconductor.org/packages/3.23/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcycP2) |
 | [DTA](https://bioconductor.org/packages/3.23/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DTA) |
 | [DeMAND](https://bioconductor.org/packages/3.23/bioc/html/DeMAND.html) | [log](logs/DeMAND/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeMAND) |
 | [DeepPINCS](https://bioconductor.org/packages/3.23/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeepPINCS) |
 | [DriverNet](https://bioconductor.org/packages/3.23/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DriverNet) |
-| [GEOfastq](https://bioconductor.org/packages/3.23/bioc/html/GEOfastq.html) | [log](logs/GEOfastq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GEOfastq) |
 
-*... and 146 more ...*
+*... and 153 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (189)
+## In Progress (183)
 - ⏳ `ANCOMBC`
 - ⏳ `ASGSCA`
 - ⏳ `ASSET`
@@ -100,7 +100,6 @@
 - ⏳ `Chicago`
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
-- ⏳ `DNAcycP2`
 - ⏳ `DiffLogo`
 - ⏳ `DynDoc`
 - ⏳ `EBSeq`
@@ -118,6 +117,7 @@
 - ⏳ `GIGSEA`
 - ⏳ `GSALightning`
 - ⏳ `GSEAmining`
+- ⏳ `GenProSeq`
 - ⏳ `GeneticsPed`
 - ⏳ `GladiaTOX`
 - ⏳ `GraphAlignment`
@@ -128,9 +128,9 @@
 - ⏳ `HMMcopy`
 - ⏳ `HPAanalyze`
 
-... and 139 more ...
+... and 133 more ...
 
-## Not Yet Started (1999)
+## Not Yet Started (1998)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -182,8 +182,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1949 more ...
+... and 1948 more ...
 
 ---
-*Last updated: 2026-07-17 20:35:34 UTC*
-*Packages with verified BBS status: 88*
+*Last updated: 2026-07-17 20:36:33 UTC*
+*Packages with verified BBS status: 89*
