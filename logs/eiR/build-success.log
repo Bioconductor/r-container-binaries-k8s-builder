@@ -1,0 +1,48 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''eiR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'eiR'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/eiR_1.53.0.tar.gz'
+Content type 'application/x-gzip' length 452836 bytes (442 KB)
+==================================================
+downloaded 442 KB
+
+* installing *source* package ‘eiR’ ...
+** this is package ‘eiR’ version ‘1.53.0’
+** package ‘eiR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DNO_MAIN -DNO_DEBUG -DSTRICT_R_HEADERS -DR_NO_REMAP -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c optimFunctions.cc -o optimFunctions.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o eiR.so optimFunctions.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-eiR/00new/eiR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘eiR’ as ‘eiR_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (eiR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHm5EfK/downloaded_packages’
+
+real	0m23.604s
+user	0m12.857s
+sys	0m3.854s

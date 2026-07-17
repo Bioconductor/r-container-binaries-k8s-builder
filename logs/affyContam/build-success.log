@@ -1,0 +1,47 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''affyContam'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'affyContam'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/affyContam_1.71.0.tar.gz'
+Content type 'application/x-gzip' length 515110 bytes (503 KB)
+==================================================
+downloaded 503 KB
+
+* installing *source* package ‘affyContam’ ...
+** this is package ‘affyContam’ version ‘1.71.0’
+** package ‘affyContam’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+     Package    LibPath        Item       Title                        
+[1,] "affydata" "/mnt/library" "Dilution" "AffyBatch instance Dilution"
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+     Package    LibPath        Item       Title                        
+[1,] "affydata" "/mnt/library" "Dilution" "AffyBatch instance Dilution"
+** testing if installed package can be loaded from final location
+     Package    LibPath        Item       Title                        
+[1,] "affydata" "/mnt/library" "Dilution" "AffyBatch instance Dilution"
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘affyContam’ as ‘affyContam_1.71.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (affyContam)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp76eG4Y/downloaded_packages’
+
+real	0m12.455s
+user	0m7.454s
+sys	0m3.005s

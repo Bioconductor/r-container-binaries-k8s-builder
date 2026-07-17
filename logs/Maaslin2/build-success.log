@@ -1,0 +1,71 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Maaslin2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Maaslin2'
+also installing the dependencies ‘som’, ‘tweedie’, ‘chemometrics’, ‘cplm’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/som_0.3-5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tweedie_3.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/chemometrics_1.4.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cplm_0.7-12.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Maaslin2_1.27.0.tar.gz'
+* installing *binary* package ‘som’ ...
+* package ‘som’ successfully unpacked and SHA256 sums checked
+* ‘som’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘som’ as ‘som_0.3-5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (som)
+* installing *binary* package ‘tweedie’ ...
+* package ‘tweedie’ successfully unpacked and SHA256 sums checked
+* ‘tweedie’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tweedie’ as ‘tweedie_3.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tweedie)
+* installing *binary* package ‘chemometrics’ ...
+* package ‘chemometrics’ successfully unpacked and SHA256 sums checked
+* ‘chemometrics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘chemometrics’ as ‘chemometrics_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chemometrics)
+* installing *binary* package ‘cplm’ ...
+* package ‘cplm’ successfully unpacked and SHA256 sums checked
+* ‘cplm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cplm’ as ‘cplm_0.7-12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cplm)
+* installing *source* package ‘Maaslin2’ ...
+** this is package ‘Maaslin2’ version ‘1.27.0’
+** package ‘Maaslin2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Maaslin2’ as ‘Maaslin2_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Maaslin2)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5xAomw/downloaded_packages’
+
+real	0m17.899s
+user	0m13.151s
+sys	0m4.054s
