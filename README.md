@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2102 (89%)
+- **Successfully Built:** 2104 (89%)
 - **Failed:** 12 (0%)
-- **In Progress:** 67
-- **Not Started:** 163
+- **In Progress:** 70
+- **Not Started:** 158
 
 **Progress:** 90%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2102)
+## Successfully Built Packages (2104)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2052 more ...*
+*... and 2054 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,13 +93,12 @@
 | [miRspongeR](https://bioconductor.org/packages/3.24/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (67)
+## In Progress (70)
 - ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
 - ⏳ `ChIPXpress`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `EDASeq`
-- ⏳ `EpiCompare`
 - ⏳ `GRaNIE`
 - ⏳ `HelloRanges`
 - ⏳ `INSPEcT`
@@ -109,6 +108,7 @@
 - ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `MetaboSignal`
 - ⏳ `MinimumDistance`
+- ⏳ `Moonlight2R`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NanoMethViz`
@@ -118,6 +118,7 @@
 - ⏳ `RAIDS`
 - ⏳ `RBedMethyl`
 - ⏳ `RITAN`
+- ⏳ `RTCGAToolbox`
 - ⏳ `RadioGx`
 - ⏳ `Rhisat2`
 - ⏳ `SCANVIS`
@@ -143,11 +144,10 @@
 - ⏳ `consensusOV`
 - ⏳ `crisprDesign`
 - ⏳ `damidBind`
-- ⏳ `dbSequence`
 
-... and 17 more ...
+... and 20 more ...
 
-## Not Yet Started (163)
+## Not Yet Started (158)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -185,7 +185,6 @@
 - ⏸️ `MEAT`
 - ⏸️ `MOSClip`
 - ⏸️ `MethylAid`
-- ⏸️ `Moonlight2R`
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
 - ⏸️ `OMICsPCA`
@@ -198,9 +197,10 @@
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
+- ⏸️ `RUVSeq`
 
-... and 113 more ...
+... and 108 more ...
 
 ---
-*Last updated: 2026-07-17 22:13:07 UTC*
+*Last updated: 2026-07-17 22:13:50 UTC*
 *Packages with verified BBS status: 154*

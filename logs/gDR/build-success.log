@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''gDR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'gDR'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/gDR_1.11.3.tar.gz'
+Content type 'application/x-gzip' length 283818 bytes (277 KB)
+==================================================
+downloaded 277 KB
+
+* installing *source* package ‘gDR’ ...
+** this is package ‘gDR’ version ‘1.11.3’
+** package ‘gDR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gDR’ as ‘gDR_1.11.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gDR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1HVGtm/downloaded_packages’
+
+real	0m42.135s
+user	0m28.909s
+sys	0m4.768s
