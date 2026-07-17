@@ -1,0 +1,200 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RTCGA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RTCGA'
+also installing the dependencies ‘RTCGA.rnaseq’, ‘RTCGA.clinical’, ‘RTCGA.mutations’, ‘RTCGA.RPPA’, ‘RTCGA.mRNA’, ‘RTCGA.miRNASeq’, ‘RTCGA.methylation’, ‘RTCGA.CNV’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.rnaseq_20151101.42.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.clinical_20151101.42.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.mutations_20151101.42.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.RPPA_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.mRNA_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.miRNASeq_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.methylation_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/RTCGA.CNV_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/RTCGA_1.41.0.tar.gz'
+* installing *source* package ‘RTCGA’ ...
+** this is package ‘RTCGA’ version ‘1.41.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA’ as ‘RTCGA_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA)
+* installing *source* package ‘RTCGA.rnaseq’ ...
+** this is package ‘RTCGA.rnaseq’ version ‘20151101.42.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.rnaseq’ as ‘RTCGA.rnaseq_20151101.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.rnaseq)
+* installing *source* package ‘RTCGA.clinical’ ...
+** this is package ‘RTCGA.clinical’ version ‘20151101.42.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.clinical’ as ‘RTCGA.clinical_20151101.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.clinical)
+* installing *source* package ‘RTCGA.mutations’ ...
+** this is package ‘RTCGA.mutations’ version ‘20151101.42.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.mutations’ as ‘RTCGA.mutations_20151101.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.mutations)
+* installing *source* package ‘RTCGA.RPPA’ ...
+** this is package ‘RTCGA.RPPA’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.RPPA’ as ‘RTCGA.RPPA_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.RPPA)
+* installing *source* package ‘RTCGA.mRNA’ ...
+** this is package ‘RTCGA.mRNA’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.mRNA’ as ‘RTCGA.mRNA_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.mRNA)
+* installing *source* package ‘RTCGA.miRNASeq’ ...
+** this is package ‘RTCGA.miRNASeq’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.miRNASeq’ as ‘RTCGA.miRNASeq_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.miRNASeq)
+* installing *source* package ‘RTCGA.methylation’ ...
+** this is package ‘RTCGA.methylation’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.methylation’ as ‘RTCGA.methylation_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.methylation)
+* installing *source* package ‘RTCGA.CNV’ ...
+** this is package ‘RTCGA.CNV’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RTCGA.CNV’ as ‘RTCGA.CNV_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.CNV)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1Jk2kt/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	13m4.777s
+user	11m43.130s
+sys	1m7.133s

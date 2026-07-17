@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 488 (20%)
-- **Failed:** 4 (0%)
-- **In Progress:** 7
+- **Successfully Built:** 493 (20%)
+- **Failed:** 6 (0%)
+- **In Progress:** 0
 - **Not Started:** 1885
 
 **Progress:** 20%
@@ -16,7 +16,7 @@
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (488)
+## Successfully Built Packages (493)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 
-*... and 438 more ...*
+*... and 443 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,23 +76,16 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (4)
+## Failed Packages (6)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [MSstatsConvert](https://bioconductor.org/packages/3.23/bioc/html/MSstatsConvert.html) | [log](logs/MSstatsConvert/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MSstatsConvert) | Missing dependency: log4r<br>[CRAN Package 'log4r'](https://cran.r-project.org/web/packages/log4r/index.html) archived on 2026-07-14 as issues were not corrected in time despite reminder. |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
-
-## In Progress (7)
-- ⏳ `BiocGenerics`
-- ⏳ `COMPASS`
-- ⏳ `Harman`
-- ⏳ `PCAN`
-- ⏳ `RTCGA`
-- ⏳ `fgsea`
-- ⏳ `scRecover`
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
 ## Not Yet Started (1885)
 - ⏸️ `ABarray`
@@ -149,5 +142,5 @@
 ... and 1835 more ...
 
 ---
-*Last updated: 2026-07-17 20:53:47 UTC*
-*Packages with verified BBS status: 133*
+*Last updated: 2026-07-17 21:11:47 UTC*
+*Packages with verified BBS status: 135*
