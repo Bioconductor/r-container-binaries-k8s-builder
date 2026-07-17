@@ -1,0 +1,81 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ggmsa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ggmsa'
+also installing the dependencies ‘shades’, ‘ggfittext’, ‘seqmagick’, ‘gggenes’, ‘statebins’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shades_1.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggfittext_0.10.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/seqmagick_0.1.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gggenes_0.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/statebins_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ggmsa_1.19.1.tar.gz'
+* installing *binary* package ‘shades’ ...
+* package ‘shades’ successfully unpacked and SHA256 sums checked
+* ‘shades’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shades’ as ‘shades_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shades)
+* installing *binary* package ‘seqmagick’ ...
+* package ‘seqmagick’ successfully unpacked and SHA256 sums checked
+* ‘seqmagick’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seqmagick’ as ‘seqmagick_0.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqmagick)
+* installing *binary* package ‘statebins’ ...
+* package ‘statebins’ successfully unpacked and SHA256 sums checked
+* ‘statebins’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘statebins’ as ‘statebins_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statebins)
+* installing *binary* package ‘ggfittext’ ...
+* package ‘ggfittext’ successfully unpacked and SHA256 sums checked
+* ‘ggfittext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggfittext’ as ‘ggfittext_0.10.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggfittext)
+* installing *source* package ‘ggmsa’ ...
+** this is package ‘ggmsa’ version ‘1.19.1’
+** package ‘ggmsa’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to 'seq_len' 
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggmsa’ as ‘ggmsa_1.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggmsa)
+* installing *binary* package ‘gggenes’ ...
+* package ‘gggenes’ successfully unpacked and SHA256 sums checked
+* ‘gggenes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gggenes’ as ‘gggenes_0.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gggenes)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpg7Ze8c/downloaded_packages’
+
+real	0m27.772s
+user	0m19.680s
+sys	0m5.021s

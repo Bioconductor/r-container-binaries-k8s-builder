@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 866 (36%)
+- **Successfully Built:** 905 (38%)
 - **Failed:** 2 (0%)
-- **In Progress:** 12
-- **Not Started:** 1464
+- **In Progress:** 9
+- **Not Started:** 1428
 
-**Progress:** 37%
+**Progress:** 38%
 ```
-██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (866)
+## Successfully Built Packages (905)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 816 more ...*
+*... and 855 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.24/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.24/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.24/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/topconfects) |
 | [toppgene](https://bioconductor.org/packages/3.24/bioc/html/toppgene.html) | [log](logs/toppgene/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/toppgene) |
+| [transomics2cytoscape](https://bioconductor.org/packages/3.24/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.24/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.24/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.24/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tripr) |
@@ -83,25 +83,21 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (12)
-- ⏳ `GenomicRanges`
-- ⏳ `MEDME`
+## In Progress (9)
+- ⏳ `ADAPT`
+- ⏳ `BiocNeighbors`
 - ⏳ `NanoStringNCTools`
-- ⏳ `Structstrings`
-- ⏳ `alabaster.matrix`
-- ⏳ `chihaya`
-- ⏳ `fraq`
+- ⏳ `affyILM`
+- ⏳ `beachmat.hdf5`
+- ⏳ `beachmat.tiledb`
 - ⏳ `idpr`
-- ⏳ `kebabs`
-- ⏳ `msPurity`
-- ⏳ `muscle`
+- ⏳ `msa`
 - ⏳ `universalmotif`
 
-## Not Yet Started (1464)
+## Not Yet Started (1428)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
-- ⏸️ `ADAPT`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -119,7 +115,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
@@ -148,9 +143,11 @@
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
+- ⏸️ `BatchQC`
+- ⏸️ `BatchSVG`
 
-... and 1414 more ...
+... and 1378 more ...
 
 ---
-*Last updated: 2026-07-17 21:07:00 UTC*
-*Packages with verified BBS status: 103*
+*Last updated: 2026-07-17 21:08:58 UTC*
+*Packages with verified BBS status: 104*

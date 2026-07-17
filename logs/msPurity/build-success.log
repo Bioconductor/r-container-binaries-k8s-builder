@@ -1,0 +1,191 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''msPurity'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'msPurity'
+also installing the dependencies ‘MsFeatures’, ‘MsExperiment’, ‘xcms’, ‘msPurityData’, ‘CAMERA’, ‘RPostgres’, ‘RMySQL’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MsFeatures_1.21.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MsExperiment_1.15.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/xcms_4.11.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/msPurityData_1.41.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CAMERA_1.69.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RPostgres_1.4.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RMySQL_0.11.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/msPurity_1.39.0.tar.gz'
+* installing *source* package ‘MsFeatures’ ...
+** this is package ‘MsFeatures’ version ‘1.21.0’
+** package ‘MsFeatures’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MsFeatures’ as ‘MsFeatures_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MsFeatures)
+* installing *source* package ‘MsExperiment’ ...
+** this is package ‘MsExperiment’ version ‘1.15.0’
+** package ‘MsExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MsExperiment’ as ‘MsExperiment_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MsExperiment)
+* installing *source* package ‘msPurityData’ ...
+** this is package ‘msPurityData’ version ‘1.41.1’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘msPurityData’ as ‘msPurityData_1.41.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (msPurityData)
+* installing *binary* package ‘RPostgres’ ...
+* package ‘RPostgres’ successfully unpacked and SHA256 sums checked
+* ‘RPostgres’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RPostgres’ as ‘RPostgres_1.4.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RPostgres)
+* installing *binary* package ‘RMySQL’ ...
+* package ‘RMySQL’ successfully unpacked and SHA256 sums checked
+* ‘RMySQL’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RMySQL’ as ‘RMySQL_0.11.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RMySQL)
+* installing *source* package ‘msPurity’ ...
+** this is package ‘msPurity’ version ‘1.39.0’
+** package ‘msPurity’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘msPurity’ as ‘msPurity_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (msPurity)
+* installing *source* package ‘xcms’ ...
+** this is package ‘xcms’ version ‘4.11.1’
+** package ‘xcms’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+rm -f massifquant/xcms_massifquant.o massifquant/TrMgr.o massifquant/Tracker.o massifquant/SegProc.o massifquant/DataKeeper.o massifquant/OpOverload.o obiwarp/mat.o obiwarp/vec.o obiwarp/xcms_dynprog.o obiwarp/xcms_lmat.o xcms_obiwarp.o fastMatch.o mzClust_hclust.o mzROI.o util.o xcms.o binners.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c massifquant/xcms_massifquant.cpp -o massifquant/xcms_massifquant.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c massifquant/TrMgr.cpp -o massifquant/TrMgr.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c massifquant/Tracker.cpp -o massifquant/Tracker.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c massifquant/SegProc.cpp -o massifquant/SegProc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c massifquant/DataKeeper.cpp -o massifquant/DataKeeper.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c massifquant/OpOverload.cpp -o massifquant/OpOverload.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c obiwarp/mat.cpp -o obiwarp/mat.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c obiwarp/vec.cpp -o obiwarp/vec.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c obiwarp/xcms_dynprog.cpp -o obiwarp/xcms_dynprog.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c obiwarp/xcms_lmat.cpp -o obiwarp/xcms_lmat.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c xcms_obiwarp.cpp -o xcms_obiwarp.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastMatch.c -o fastMatch.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mzClust_hclust.c -o mzClust_hclust.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mzROI.c -o mzROI.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xcms.c -o xcms.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c binners.c -o binners.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o xcms.so massifquant/xcms_massifquant.o massifquant/TrMgr.o massifquant/Tracker.o massifquant/SegProc.o massifquant/DataKeeper.o massifquant/OpOverload.o obiwarp/mat.o obiwarp/vec.o obiwarp/xcms_dynprog.o obiwarp/xcms_lmat.o xcms_obiwarp.o fastMatch.o mzClust_hclust.o mzROI.o util.o xcms.o binners.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-xcms/00new/xcms/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘group’ in package ‘xcms’
+Creating a new generic function for ‘sigma’ in package ‘xcms’
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xcms’ as ‘xcms_4.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xcms)
+* installing *source* package ‘CAMERA’ ...
+** this is package ‘CAMERA’ version ‘1.69.0’
+** package ‘CAMERA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastMatch.c -o fastMatch.o
+fastMatch.c: In function ‘fastMatch’:
+fastMatch.c:65:68: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   65 |         error("fastMatch/calloc: memory could not be allocated ! (%d bytes)\n", nx  * sizeof(struct idxStruct) );
+      |                                                                   ~^            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                    |                |
+      |                                                                    int              long unsigned int
+      |                                                                   %ld
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o CAMERA.so fastMatch.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-CAMERA/00new/CAMERA/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CAMERA’ as ‘CAMERA_1.69.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CAMERA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpneH2Up/downloaded_packages’
+
+real	3m42.316s
+user	3m20.012s
+sys	0m20.530s

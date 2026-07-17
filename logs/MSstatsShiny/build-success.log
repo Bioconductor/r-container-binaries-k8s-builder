@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MSstatsShiny'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MSstatsShiny'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MSstatsShiny_1.15.2.tar.gz'
+Content type 'application/x-gzip' length 3866748 bytes (3.7 MB)
+==================================================
+downloaded 3.7 MB
+
+* installing *source* package ‘MSstatsShiny’ ...
+** this is package ‘MSstatsShiny’ version ‘1.15.2’
+** package ‘MSstatsShiny’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘MSstatsConvert::OpenMStoMSstatsTMTFormat’ by ‘MSstatsTMT::OpenMStoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::MaxQtoMSstatsTMTFormat’ by ‘MSstatsTMT::MaxQtoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::PDtoMSstatsTMTFormat’ by ‘MSstatsTMT::PDtoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::PhilosophertoMSstatsTMTFormat’ by ‘MSstatsTMT::PhilosophertoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::SpectroMinetoMSstatsTMTFormat’ by ‘MSstatsTMT::SpectroMinetoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘MSstatsConvert::OpenMStoMSstatsTMTFormat’ by ‘MSstatsTMT::OpenMStoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::MaxQtoMSstatsTMTFormat’ by ‘MSstatsTMT::MaxQtoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::PDtoMSstatsTMTFormat’ by ‘MSstatsTMT::PDtoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::PhilosophertoMSstatsTMTFormat’ by ‘MSstatsTMT::PhilosophertoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::SpectroMinetoMSstatsTMTFormat’ by ‘MSstatsTMT::SpectroMinetoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘MSstatsConvert::OpenMStoMSstatsTMTFormat’ by ‘MSstatsTMT::OpenMStoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::MaxQtoMSstatsTMTFormat’ by ‘MSstatsTMT::MaxQtoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::PDtoMSstatsTMTFormat’ by ‘MSstatsTMT::PDtoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::PhilosophertoMSstatsTMTFormat’ by ‘MSstatsTMT::PhilosophertoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+Warning: replacing previous import ‘MSstatsConvert::SpectroMinetoMSstatsTMTFormat’ by ‘MSstatsTMT::SpectroMinetoMSstatsTMTFormat’ when loading ‘MSstatsShiny’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MSstatsShiny’ as ‘MSstatsShiny_1.15.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MSstatsShiny)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDK9Dzh/downloaded_packages’
+
+real	0m43.082s
+user	0m31.435s
+sys	0m5.235s

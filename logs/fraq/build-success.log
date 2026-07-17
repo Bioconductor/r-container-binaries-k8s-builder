@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''fraq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'fraq'
+also installing the dependency ‘edlibR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/edlibR_1.0.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/fraq_1.1.1.tar.gz'
+* installing *binary* package ‘edlibR’ ...
+* package ‘edlibR’ successfully unpacked and SHA256 sums checked
+* ‘edlibR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘edlibR’ as ‘edlibR_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (edlibR)
+* installing *source* package ‘fraq’ ...
+** this is package ‘fraq’ version ‘1.1.1’
+** package ‘fraq’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking for g++ -std=gnu++20 option to enable C++11 features... -std=gnu++11
+C++ compiler: g++ -std=gnu++20
+zstd 1.5.5 library detected but is lower than bundled version (1.5.7) -- compiling from source
+Does not require -latomic flag
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DRCPP_USE_UNWIND_PROTECT -DRCPP_NO_RTTI -DRCPP_NO_SUGAR -I../inst/include -I. -IZSTD -IZSTD/common -IZSTD/decompress -IZSTD/compress -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/edlibR/include' -I/usr/local/include   -DRCPP_PARALLEL_USE_TBB=1  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DRCPP_USE_UNWIND_PROTECT -DRCPP_NO_RTTI -DRCPP_NO_SUGAR -I../inst/include -I. -IZSTD -IZSTD/common -IZSTD/decompress -IZSTD/compress -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/edlibR/include' -I/usr/local/include   -DRCPP_PARALLEL_USE_TBB=1  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fraq_functions.cpp -o fraq_functions.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DRCPP_USE_UNWIND_PROTECT -DRCPP_NO_RTTI -DRCPP_NO_SUGAR -I../inst/include -I. -IZSTD -IZSTD/common -IZSTD/decompress -IZSTD/compress -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I'/tmp/library/edlibR/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ZSTD/zstd.c -o ZSTD/zstd.o
+ar rcs libQSZSTD.a ZSTD/zstd.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fraq.so RcppExports.o fraq_functions.o -L. -lQSZSTD -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-fraq/00new/fraq/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fraq’ as ‘fraq_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fraq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSnR0PW/downloaded_packages’
+
+real	1m20.375s
+user	1m8.595s
+sys	0m7.819s
