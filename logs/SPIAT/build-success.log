@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SPIAT'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SPIAT'
+also installing the dependencies ‘mmand’, ‘alphahull’, ‘elsa’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mmand_1.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/alphahull_2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/elsa_1.1-28.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SPIAT_1.15.0.tar.gz'
+* installing *binary* package ‘mmand’ ...
+* package ‘mmand’ successfully unpacked and SHA256 sums checked
+* ‘mmand’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mmand’ as ‘mmand_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mmand)
+* installing *binary* package ‘alphahull’ ...
+* package ‘alphahull’ successfully unpacked and SHA256 sums checked
+* ‘alphahull’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alphahull’ as ‘alphahull_2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alphahull)
+* installing *binary* package ‘elsa’ ...
+* package ‘elsa’ successfully unpacked and SHA256 sums checked
+* ‘elsa’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘elsa’ as ‘elsa_1.1-28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (elsa)
+* installing *source* package ‘SPIAT’ ...
+** this is package ‘SPIAT’ version ‘1.15.0’
+** package ‘SPIAT’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SPIAT’ as ‘SPIAT_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SPIAT)
+
+The downloaded source packages are in
+	‘/tmp/RtmpflHLoG/downloaded_packages’
+
+real	0m48.644s
+user	0m33.294s
+sys	0m5.382s

@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''a4Base'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'a4Base'
+also installing the dependencies ‘threejs’, ‘MLInterfaces’, ‘nlcv’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/threejs_0.3.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MLInterfaces_1.93.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nlcv_0.3.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/a4Base_1.61.1.tar.gz'
+* installing *binary* package ‘threejs’ ...
+* package ‘threejs’ successfully unpacked and SHA256 sums checked
+* ‘threejs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘threejs’ as ‘threejs_0.3.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (threejs)
+* installing *source* package ‘a4Base’ ...
+** this is package ‘a4Base’ version ‘1.61.1’
+** package ‘a4Base’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘a4Core::topTable’ by ‘limma::topTable’ when loading ‘a4Base’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘a4Core::topTable’ by ‘limma::topTable’ when loading ‘a4Base’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘a4Core::topTable’ by ‘limma::topTable’ when loading ‘a4Base’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘a4Base’ as ‘a4Base_1.61.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (a4Base)
+* installing *source* package ‘MLInterfaces’ ...
+** this is package ‘MLInterfaces’ version ‘1.93.0’
+** package ‘MLInterfaces’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MLInterfaces’ as ‘MLInterfaces_1.93.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MLInterfaces)
+* installing *binary* package ‘nlcv’ ...
+* package ‘nlcv’ successfully unpacked and SHA256 sums checked
+* ‘nlcv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nlcv’ as ‘nlcv_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nlcv)
+
+The downloaded source packages are in
+	‘/tmp/RtmphXw6Ng/downloaded_packages’
+
+real	0m59.051s
+user	0m47.452s
+sys	0m7.096s

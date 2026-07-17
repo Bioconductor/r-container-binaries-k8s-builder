@@ -1,0 +1,62 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''slalom'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'slalom'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/slalom_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 18443442 bytes (17.6 MB)
+==================================================
+downloaded 17.6 MB
+
+* installing *source* package ‘slalom’ ...
+** this is package ‘slalom’ version ‘1.35.0’
+** package ‘slalom’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c slalom-classes.cpp -o slalom-classes.o
+slalom-classes.cpp: In member function ‘void SlalomModel::update()’:
+slalom-classes.cpp:262:28: warning: ‘void std::random_shuffle(_RAIter, _RAIter, _Generator&&) [with _RAIter = unsigned int*; _Generator = int (&)(int)]’ is deprecated: use 'std::shuffle' instead [-Wdeprecated-declarations]
+  262 |         std::random_shuffle(kunfix.begin(), kunfix.end(), randWrapper);
+      |         ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/functional:67,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:66,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:26,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from slalom-classes.cpp:10:
+/usr/include/c++/13/bits/stl_algo.h:4620:5: note: declared here
+ 4620 |     random_shuffle(_RandomAccessIterator __first, _RandomAccessIterator __last,
+      |     ^~~~~~~~~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o slalom.so RcppExports.o slalom-classes.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-slalom/00new/slalom/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘slalom’ as ‘slalom_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (slalom)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp3GjeNV/downloaded_packages’
+
+real	1m19.238s
+user	0m58.760s
+sys	0m7.783s

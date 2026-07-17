@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CatsCradle'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CatsCradle'
+also installing the dependencies ‘shapefiles’, ‘rdist’, ‘fossil’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shapefiles_0.7.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rdist_0.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fossil_0.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CatsCradle_1.7.1.tar.gz'
+* installing *binary* package ‘shapefiles’ ...
+* package ‘shapefiles’ successfully unpacked and SHA256 sums checked
+* ‘shapefiles’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shapefiles’ as ‘shapefiles_0.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shapefiles)
+* installing *binary* package ‘rdist’ ...
+* package ‘rdist’ successfully unpacked and SHA256 sums checked
+* ‘rdist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rdist’ as ‘rdist_0.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rdist)
+* installing *binary* package ‘fossil’ ...
+* package ‘fossil’ successfully unpacked and SHA256 sums checked
+* ‘fossil’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fossil’ as ‘fossil_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fossil)
+* installing *source* package ‘CatsCradle’ ...
+** this is package ‘CatsCradle’ version ‘1.7.1’
+** package ‘CatsCradle’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CatsCradle’ as ‘CatsCradle_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CatsCradle)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZg6NXQ/downloaded_packages’
+
+real	0m53.337s
+user	0m41.828s
+sys	0m7.098s

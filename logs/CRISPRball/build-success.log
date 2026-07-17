@@ -1,0 +1,68 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CRISPRball'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CRISPRball'
+also installing the dependencies ‘pool’, ‘mygene’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pool_1.0.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mygene_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CRISPRball_1.9.0.tar.gz'
+* installing *binary* package ‘pool’ ...
+* package ‘pool’ successfully unpacked and SHA256 sums checked
+* ‘pool’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pool’ as ‘pool_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pool)
+* installing *source* package ‘mygene’ ...
+** this is package ‘mygene’ version ‘1.49.0’
+** package ‘mygene’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mygene’ as ‘mygene_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mygene)
+* installing *source* package ‘CRISPRball’ ...
+** this is package ‘CRISPRball’ version ‘1.9.0’
+** package ‘CRISPRball’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CRISPRball’ as ‘CRISPRball_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CRISPRball)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBVGObr/downloaded_packages’
+
+real	1m26.471s
+user	1m10.253s
+sys	0m9.080s

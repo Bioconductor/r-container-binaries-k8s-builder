@@ -1,0 +1,226 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''imageTCGAutils'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'imageTCGAutils'
+also installing the dependencies ‘geometries’, ‘LearnBayes’, ‘paws.analytics’, ‘paws.application.integration’, ‘paws.compute’, ‘paws.cost.management’, ‘paws.customer.engagement’, ‘paws.database’, ‘paws.developer.tools’, ‘paws.end.user.computing’, ‘paws.machine.learning’, ‘paws.management’, ‘paws.networking’, ‘paws.security.identity’, ‘sfheaders’, ‘spatialreg’, ‘imageFeatureTCGA’, ‘paws’, ‘sfdep’, ‘SpatialFeatureExperiment’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/geometries_0.2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/LearnBayes_2.15.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.analytics_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.application.integration_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.compute_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.cost.management_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.customer.engagement_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.database_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.developer.tools_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.end.user.computing_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.machine.learning_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.management_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.networking_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.security.identity_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sfheaders_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatialreg_1.4-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/imageFeatureTCGA_1.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sfdep_0.2.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SpatialFeatureExperiment_1.15.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/imageTCGAutils_1.1.5.tar.gz'
+* installing *binary* package ‘geometries’ ...
+* package ‘geometries’ successfully unpacked and SHA256 sums checked
+* ‘geometries’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geometries’ as ‘geometries_0.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geometries)
+* installing *binary* package ‘LearnBayes’ ...
+* package ‘LearnBayes’ successfully unpacked and SHA256 sums checked
+* ‘LearnBayes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LearnBayes’ as ‘LearnBayes_2.15.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LearnBayes)
+* installing *binary* package ‘paws.analytics’ ...
+* package ‘paws.analytics’ successfully unpacked and SHA256 sums checked
+* ‘paws.analytics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.analytics’ as ‘paws.analytics_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.analytics)
+* installing *binary* package ‘paws.application.integration’ ...
+* package ‘paws.application.integration’ successfully unpacked and SHA256 sums checked
+* ‘paws.application.integration’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.application.integration’ as ‘paws.application.integration_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.application.integration)
+* installing *binary* package ‘paws.compute’ ...
+* package ‘paws.compute’ successfully unpacked and SHA256 sums checked
+* ‘paws.compute’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.compute’ as ‘paws.compute_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.compute)
+* installing *binary* package ‘paws.cost.management’ ...
+* package ‘paws.cost.management’ successfully unpacked and SHA256 sums checked
+* ‘paws.cost.management’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.cost.management’ as ‘paws.cost.management_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.cost.management)
+* installing *binary* package ‘paws.customer.engagement’ ...
+* package ‘paws.customer.engagement’ successfully unpacked and SHA256 sums checked
+* ‘paws.customer.engagement’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.customer.engagement’ as ‘paws.customer.engagement_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.customer.engagement)
+* installing *binary* package ‘paws.database’ ...
+* package ‘paws.database’ successfully unpacked and SHA256 sums checked
+* ‘paws.database’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.database’ as ‘paws.database_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.database)
+* installing *binary* package ‘paws.developer.tools’ ...
+* package ‘paws.developer.tools’ successfully unpacked and SHA256 sums checked
+* ‘paws.developer.tools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.developer.tools’ as ‘paws.developer.tools_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.developer.tools)
+* installing *binary* package ‘paws.end.user.computing’ ...
+* package ‘paws.end.user.computing’ successfully unpacked and SHA256 sums checked
+* ‘paws.end.user.computing’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.end.user.computing’ as ‘paws.end.user.computing_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.end.user.computing)
+* installing *binary* package ‘paws.machine.learning’ ...
+* package ‘paws.machine.learning’ successfully unpacked and SHA256 sums checked
+* ‘paws.machine.learning’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.machine.learning’ as ‘paws.machine.learning_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.machine.learning)
+* installing *binary* package ‘paws.management’ ...
+* package ‘paws.management’ successfully unpacked and SHA256 sums checked
+* ‘paws.management’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.management’ as ‘paws.management_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.management)
+* installing *binary* package ‘paws.networking’ ...
+* package ‘paws.networking’ successfully unpacked and SHA256 sums checked
+* ‘paws.networking’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.networking’ as ‘paws.networking_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.networking)
+* installing *binary* package ‘paws.security.identity’ ...
+* package ‘paws.security.identity’ successfully unpacked and SHA256 sums checked
+* ‘paws.security.identity’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.security.identity’ as ‘paws.security.identity_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.security.identity)
+* installing *source* package ‘imageFeatureTCGA’ ...
+** this is package ‘imageFeatureTCGA’ version ‘1.1.6’
+** package ‘imageFeatureTCGA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imageFeatureTCGA’ as ‘imageFeatureTCGA_1.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imageFeatureTCGA)
+* installing *binary* package ‘sfdep’ ...
+* package ‘sfdep’ successfully unpacked and SHA256 sums checked
+* ‘sfdep’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sfdep’ as ‘sfdep_0.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sfdep)
+* installing *source* package ‘imageTCGAutils’ ...
+** this is package ‘imageTCGAutils’ version ‘1.1.5’
+** package ‘imageTCGAutils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imageTCGAutils’ as ‘imageTCGAutils_1.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imageTCGAutils)
+* installing *binary* package ‘sfheaders’ ...
+* package ‘sfheaders’ successfully unpacked and SHA256 sums checked
+* ‘sfheaders’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sfheaders’ as ‘sfheaders_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sfheaders)
+* installing *binary* package ‘spatialreg’ ...
+* package ‘spatialreg’ successfully unpacked and SHA256 sums checked
+* ‘spatialreg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatialreg’ as ‘spatialreg_1.4-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatialreg)
+* installing *binary* package ‘paws’ ...
+* package ‘paws’ successfully unpacked and SHA256 sums checked
+* ‘paws’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws’ as ‘paws_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws)
+* installing *source* package ‘SpatialFeatureExperiment’ ...
+** this is package ‘SpatialFeatureExperiment’ version ‘1.15.0’
+** package ‘SpatialFeatureExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘toSpatialFeatureExperiment’ with signature ‘"Seurat"’: no definition for class “Seurat”
+Creating a generic function for ‘NROW’ from package ‘base’ in package ‘SpatialFeatureExperiment’
+Creating a generic function for ‘NCOL’ from package ‘base’ in package ‘SpatialFeatureExperiment’
+Creating a generic function for ‘readRDS’ from package ‘base’ in package ‘SpatialFeatureExperiment’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpatialFeatureExperiment’ as ‘SpatialFeatureExperiment_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialFeatureExperiment)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZ25pB2/downloaded_packages’
+
+real	2m11.257s
+user	1m52.588s
+sys	0m15.750s

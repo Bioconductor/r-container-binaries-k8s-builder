@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''spatialHeatmap'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'spatialHeatmap'
+also installing the dependencies ‘av’, ‘sparkline’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/av_0.9.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sparkline_2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/spatialHeatmap_2.19.2.tar.gz'
+* installing *binary* package ‘av’ ...
+* package ‘av’ successfully unpacked and SHA256 sums checked
+* ‘av’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘av’ as ‘av_0.9.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (av)
+* installing *binary* package ‘sparkline’ ...
+* package ‘sparkline’ successfully unpacked and SHA256 sums checked
+* ‘sparkline’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sparkline’ as ‘sparkline_2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparkline)
+* installing *source* package ‘spatialHeatmap’ ...
+** this is package ‘spatialHeatmap’ version ‘2.19.2’
+** package ‘spatialHeatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘svg’ in package ‘spatialHeatmap’
+Creating a new generic function for ‘match’ in package ‘spatialHeatmap’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatialHeatmap’ as ‘spatialHeatmap_2.19.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatialHeatmap)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGKRLun/downloaded_packages’
+
+real	1m2.986s
+user	0m49.829s
+sys	0m6.600s
