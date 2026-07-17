@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2155 (91%)
+- **Successfully Built:** 2168 (92%)
 - **Failed:** 14 (0%)
-- **In Progress:** 48
-- **Not Started:** 127
+- **In Progress:** 44
+- **Not Started:** 118
 
-**Progress:** 92%
+**Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2155)
+## Successfully Built Packages (2168)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2105 more ...*
+*... and 2118 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,16 +95,13 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (48)
+## In Progress (44)
 - ⏳ `BASiCStan`
-- ⏳ `ChIPexoQual`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `DAMEfinder`
-- ⏳ `DaMiRseq`
+- ⏳ `CopyNumberPlots`
 - ⏳ `GNOSIS`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
-- ⏳ `Gviz`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
 - ⏳ `MoonlightR`
@@ -118,34 +115,33 @@
 - ⏳ `SCArray.sat`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
-- ⏳ `ZygosityPredictor`
 - ⏳ `alabaster`
 - ⏳ `annotatr`
-- ⏳ `bioCancer`
 - ⏳ `canceR`
-- ⏳ `cardelino`
 - ⏳ `cbaf`
 - ⏳ `chevreulShiny`
 - ⏳ `coMethDMR`
-- ⏳ `dbSequence`
+- ⏳ `decontX`
 - ⏳ `derfinder`
 - ⏳ `epivizrData`
+- ⏳ `fourSynergy`
 - ⏳ `geneAttribution`
-- ⏳ `ggbio`
 - ⏳ `gmoviz`
 - ⏳ `metaseqR2`
 - ⏳ `minfi`
-- ⏳ `netSmooth`
+- ⏳ `multicrispr`
+- ⏳ `octad`
 - ⏳ `qpgraph`
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
-- ⏳ `rnaEditr`
+- ⏳ `ribosomeProfilingQC`
 - ⏳ `scFeatures`
-- ⏳ `segmenter`
+- ⏳ `scone`
+- ⏳ `singleCellTK`
+- ⏳ `standR`
 - ⏳ `strandCheckR`
-- ⏳ `vmrseq`
 
-## Not Yet Started (127)
+## Not Yet Started (118)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -155,7 +151,6 @@
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `ChAMP`
-- ⏸️ `CopyNumberPlots`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
@@ -196,9 +191,10 @@
 - ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
+- ⏸️ `annoLinker`
 
-... and 77 more ...
+... and 68 more ...
 
 ---
-*Last updated: 2026-07-17 22:18:58 UTC*
+*Last updated: 2026-07-17 22:19:59 UTC*
 *Packages with verified BBS status: 158*

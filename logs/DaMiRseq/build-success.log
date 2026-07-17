@@ -1,0 +1,81 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DaMiRseq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DaMiRseq'
+also installing the dependencies ‘RWekajars’, ‘praznik’, ‘RWeka’, ‘plsVarSel’, ‘FSelector’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RWekajars_3.9.3-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/praznik_12.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RWeka_0.4-49.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plsVarSel_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FSelector_0.34.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DaMiRseq_2.25.0.tar.gz'
+* installing *binary* package ‘RWekajars’ ...
+* package ‘RWekajars’ successfully unpacked and SHA256 sums checked
+* ‘RWekajars’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RWekajars’ as ‘RWekajars_3.9.3-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RWekajars)
+* installing *binary* package ‘praznik’ ...
+* package ‘praznik’ successfully unpacked and SHA256 sums checked
+* ‘praznik’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘praznik’ as ‘praznik_12.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (praznik)
+* installing *binary* package ‘RWeka’ ...
+* package ‘RWeka’ successfully unpacked and SHA256 sums checked
+* ‘RWeka’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RWeka’ as ‘RWeka_0.4-49_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RWeka)
+* installing *binary* package ‘plsVarSel’ ...
+* package ‘plsVarSel’ successfully unpacked and SHA256 sums checked
+* ‘plsVarSel’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plsVarSel’ as ‘plsVarSel_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plsVarSel)
+* installing *binary* package ‘FSelector’ ...
+* package ‘FSelector’ successfully unpacked and SHA256 sums checked
+* ‘FSelector’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FSelector’ as ‘FSelector_0.34_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FSelector)
+* installing *source* package ‘DaMiRseq’ ...
+** this is package ‘DaMiRseq’ version ‘2.25.0’
+** package ‘DaMiRseq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DaMiRseq’ as ‘DaMiRseq_2.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DaMiRseq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTgSP8I/downloaded_packages’
+
+real	1m30.187s
+user	1m1.861s
+sys	0m9.458s
