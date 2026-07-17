@@ -1,0 +1,46 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''timeOmics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'timeOmics'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/timeOmics_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 4169938 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+* installing *source* package ‘timeOmics’ ...
+** this is package ‘timeOmics’ version ‘1.25.0’
+** package ‘timeOmics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to '*' 
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timeOmics’ as ‘timeOmics_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timeOmics)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpjj5rNI/downloaded_packages’
+Error in readRDS(file) : error reading from connection
+
+real	0m34.081s
+user	0m12.845s
+sys	0m3.242s
