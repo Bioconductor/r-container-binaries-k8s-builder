@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2259 (96%)
+- **Successfully Built:** 2263 (96%)
 - **Failed:** 16 (0%)
-- **In Progress:** 35
-- **Not Started:** 34
+- **In Progress:** 33
+- **Not Started:** 32
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2259)
+## Successfully Built Packages (2263)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2209 more ...*
+*... and 2213 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (35)
+## In Progress (33)
 - ⏳ `AgiMicroRna`
 - ⏳ `CAGEfightR`
 - ⏳ `ENmix`
@@ -113,10 +113,8 @@
 - ⏳ `REDseq`
 - ⏳ `RNAAgeCalc`
 - ⏳ `RadioGx`
-- ⏳ `RnBeads`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
-- ⏳ `SPLINTER`
 - ⏳ `SomaticSignatures`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
@@ -124,17 +122,17 @@
 - ⏳ `epivizrChart`
 - ⏳ `fourSynergy`
 - ⏳ `lumi`
-- ⏳ `mCSEA`
-- ⏳ `maser`
 - ⏳ `missMethyl`
 - ⏳ `motifbreakR`
 - ⏳ `multicrispr`
 - ⏳ `octad`
+- ⏳ `preciseTAD`
+- ⏳ `profileplyr`
 - ⏳ `qpgraph`
 - ⏳ `ribosomeProfilingQC`
 - ⏳ `strandCheckR`
 
-## Not Yet Started (34)
+## Not Yet Started (32)
 - ⏸️ `CAGEr`
 - ⏸️ `ChAMP`
 - ⏸️ `DMRcate`
@@ -162,8 +160,6 @@
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
 - ⏸️ `methylGSA`
-- ⏸️ `preciseTAD`
-- ⏸️ `profileplyr`
 - ⏸️ `scmeth`
 - ⏸️ `simpleSeg`
 - ⏸️ `skewr`
@@ -171,5 +167,5 @@
 - ⏸️ `wateRmelon`
 
 ---
-*Last updated: 2026-07-17 22:32:35 UTC*
+*Last updated: 2026-07-17 22:33:13 UTC*
 *Packages with verified BBS status: 161*
