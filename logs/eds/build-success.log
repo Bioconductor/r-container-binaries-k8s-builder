@@ -1,0 +1,66 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''eds'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'eds'
+also installing the dependency ‘tximportData’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/tximportData_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/eds_1.14.0.tar.gz'
+* installing *source* package ‘tximportData’ ...
+** this is package ‘tximportData’ version ‘1.40.0’
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘tximportData’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tximportData’ as ‘tximportData_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tximportData)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘eds’ ...
+** this is package ‘eds’ version ‘1.14.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c readEDS.cpp -o readEDS.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o eds.so RcppExports.o readEDS.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-eds/00new/eds/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘eds’ as ‘eds_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (eds)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpl9BILI/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m57.193s
+user	2m30.270s
+sys	0m9.397s
