@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2134 (91%)
+- **Successfully Built:** 2146 (91%)
 - **Failed:** 14 (0%)
 - **In Progress:** 48
-- **Not Started:** 148
+- **Not Started:** 136
 
-**Progress:** 91%
+**Progress:** 92%
 ```
-█████████████████████████████████████████████░░░░░
+██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2134)
+## Successfully Built Packages (2146)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,14 +46,14 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2084 more ...*
+*... and 2096 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
 | [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.24/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vtpnet) |
+| [vulcan](https://bioconductor.org/packages/3.24/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vulcan) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
 | [wavClusteR](https://bioconductor.org/packages/3.24/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavClusteR) |
@@ -96,17 +96,17 @@
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
 ## In Progress (48)
-- ⏳ `ATACseqQC`
-- ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
 - ⏳ `ChIPXpress`
+- ⏳ `ChIPexoQual`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `DEScan2`
+- ⏳ `DaMiRseq`
+- ⏳ `GNOSIS`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
+- ⏳ `Gviz`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
-- ⏳ `MetaboSignal`
 - ⏳ `MinimumDistance`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
@@ -115,37 +115,37 @@
 - ⏳ `PostChicago`
 - ⏳ `RBedMethyl`
 - ⏳ `REDseq`
+- ⏳ `RUVSeq`
 - ⏳ `RadioGx`
+- ⏳ `Rqc`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `ZygosityPredictor`
-- ⏳ `alabaster.vcf`
 - ⏳ `annotatr`
 - ⏳ `atena`
-- ⏳ `bumphunter`
+- ⏳ `bioCancer`
+- ⏳ `canceR`
 - ⏳ `cardelino`
+- ⏳ `cbaf`
 - ⏳ `celda`
-- ⏳ `chevreulPlot`
 - ⏳ `chipenrich`
-- ⏳ `clusterExperiment`
-- ⏳ `cn.farms`
-- ⏳ `crisprDesign`
 - ⏳ `dbSequence`
 - ⏳ `epivizrData`
 - ⏳ `geneAttribution`
+- ⏳ `ggbio`
 - ⏳ `gmoviz`
+- ⏳ `karyoploteR`
+- ⏳ `metaseqR2`
 - ⏳ `qpgraph`
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
 - ⏳ `scFeatures`
 - ⏳ `segmenter`
 - ⏳ `strandCheckR`
-- ⏳ `tricycle`
-- ⏳ `vulcan`
 
-## Not Yet Started (148)
+## Not Yet Started (136)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -155,22 +155,18 @@
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPexoQual`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DMRcate`
-- ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
 - ⏸️ `GARS`
-- ⏸️ `GNOSIS`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
-- ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `MAGAR`
@@ -188,17 +184,21 @@
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
-- ⏸️ `RUVSeq`
 - ⏸️ `ReportingTools`
 - ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
-- ⏸️ `Rqc`
 - ⏸️ `SOMNiBUS`
 - ⏸️ `SPLINTER`
 - ⏸️ `SomaticSignatures`
+- ⏸️ `SpaceTrooper`
+- ⏸️ `SpatialDecon`
+- ⏸️ `SpatialOmicsOverlay`
+- ⏸️ `TVTB`
+- ⏸️ `VariantFiltering`
+- ⏸️ `YAPSA`
 
-... and 98 more ...
+... and 86 more ...
 
 ---
-*Last updated: 2026-07-17 22:17:14 UTC*
-*Packages with verified BBS status: 157*
+*Last updated: 2026-07-17 22:18:16 UTC*
+*Packages with verified BBS status: 158*
