@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BADER'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BADER'
+also installing the dependencies ‘DEXSeq’, ‘pasilla’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DEXSeq_1.58.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/pasilla_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BADER_1.50.0.tar.gz'
+* installing *source* package ‘DEXSeq’ ...
+** this is package ‘DEXSeq’ version ‘1.58.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0xa350, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘DEXSeq’
+* removing ‘/tmp/library/DEXSeq’
+* installing *source* package ‘BADER’ ...
+** this is package ‘BADER’ version ‘1.50.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c meth.cpp -o meth.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BADER.so meth.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-BADER/00new/BADER/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BADER’ as ‘BADER_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BADER)
+ERROR: dependency ‘DEXSeq’ is not available for package ‘pasilla’
+Perhaps try a variation of:
+install.packages('DEXSeq')
+* removing ‘/tmp/library/pasilla’
+
+The downloaded source packages are in
+	‘/tmp/RtmpPawCf6/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘DEXSeq’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘pasilla’ had non-zero exit status
+
+real	0m26.529s
+user	0m18.942s
+sys	0m3.987s

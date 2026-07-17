@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''LedPred'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'LedPred'
+also installing the dependencies ‘akima’, ‘irr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/akima_0.6-3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/irr_0.85.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/LedPred_1.46.0.tar.gz'
+* installing *binary* package ‘akima’ ...
+* package ‘akima’ successfully unpacked and SHA256 sums checked
+* ‘akima’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘akima’ as ‘akima_0.6-3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (akima)
+* installing *binary* package ‘irr’ ...
+* package ‘irr’ successfully unpacked and SHA256 sums checked
+* ‘irr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘irr’ as ‘irr_0.85_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (irr)
+* installing *source* package ‘LedPred’ ...
+** this is package ‘LedPred’ version ‘1.46.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘LedPred’
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘LedPred’
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘LedPred’
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LedPred’ as ‘LedPred_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LedPred)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxmrquN/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m20.598s
+user	0m12.422s
+sys	0m4.810s
