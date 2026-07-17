@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1363 (57%)
+- **Successfully Built:** 1381 (57%)
 - **Failed:** 15 (0%)
-- **In Progress:** 119
-- **Not Started:** 887
+- **In Progress:** 105
+- **Not Started:** 883
 
-**Progress:** 57%
+**Progress:** 58%
 ```
-████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1363)
+## Successfully Built Packages (1381)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1313 more ...*
+*... and 1331 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,18 +96,17 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (119)
-- ⏳ `BERT`
+## In Progress (105)
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
-- ⏳ `BatchSVG`
-- ⏳ `BgeeDB`
 - ⏳ `BiocNeighbors`
+- ⏳ `CBN2Path`
 - ⏳ `CCPROMISE`
 - ⏳ `CHETAH`
 - ⏳ `CHRONOS`
 - ⏳ `CNVRanger`
 - ⏳ `CPSM`
+- ⏳ `CRISPRball`
 - ⏳ `CSOA`
 - ⏳ `CTexploreR`
 - ⏳ `CaDrA`
@@ -117,14 +116,10 @@
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
-- ⏳ `DExMA`
-- ⏳ `DNEA`
 - ⏳ `Dune`
 - ⏳ `EGAD`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `ExpoRiskR`
-- ⏳ `ExpressionAtlas`
-- ⏳ `FEAST`
 - ⏳ `FuseSOM`
 - ⏳ `GRmetrics`
 - ⏳ `GeoTcgaData`
@@ -134,8 +129,6 @@
 - ⏳ `InteractionSet`
 - ⏳ `LipidTrend`
 - ⏳ `MAST`
-- ⏳ `MBQN`
-- ⏳ `MGFR`
 - ⏳ `MetMashR`
 - ⏳ `MouseFM`
 - ⏳ `MultiAssayExperiment`
@@ -145,12 +138,19 @@
 - ⏳ `PlinkMatrix`
 - ⏳ `PolySTest`
 - ⏳ `RCSL`
-- ⏳ `SBGNview`
 - ⏳ `SCnorm`
+- ⏳ `SDAMS`
+- ⏳ `SETA`
+- ⏳ `SPOTlight`
+- ⏳ `SPsimSeq`
+- ⏳ `ShortRead`
+- ⏳ `SigCheck`
+- ⏳ `SingleCellAlleleExperiment`
+- ⏳ `SingleR`
 
-... and 69 more ...
+... and 55 more ...
 
-## Not Yet Started (887)
+## Not Yet Started (883)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
@@ -190,7 +190,6 @@
 - ⏸️ `CAMERA`
 - ⏸️ `CARDspa`
 - ⏸️ `CATALYST`
-- ⏸️ `CBN2Path`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
 - ⏸️ `CEMiTool`
@@ -200,10 +199,11 @@
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CODEX`
-- ⏸️ `CRISPRball`
+- ⏸️ `CRISPRseek`
+- ⏸️ `CSSQ`
 
-... and 837 more ...
+... and 833 more ...
 
 ---
-*Last updated: 2026-07-17 22:00:59 UTC*
+*Last updated: 2026-07-17 22:02:10 UTC*
 *Packages with verified BBS status: 185*
