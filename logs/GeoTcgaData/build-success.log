@@ -1,0 +1,371 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GeoTcgaData'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GeoTcgaData'
+also installing the dependencies ‘bsseq’, ‘IlluminaHumanMethylationEPICv2anno.20a1.hg38’, ‘IlluminaHumanMethylationEPICv2manifest’, ‘JADE’, ‘ChAMPdata’, ‘DMRcate’, ‘Illumina450ProbeVariants.db’, ‘IlluminaHumanMethylationEPICmanifest’, ‘IlluminaHumanMethylation450kmanifest’, ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’, ‘wateRmelon’, ‘missMethyl’, ‘isva’, ‘TCGAbiolinksGUI.data’, ‘ChAMP’, ‘CATT’, ‘TCGAbiolinks’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/bsseq_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylationEPICv2anno.20a1.hg38_1.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylationEPICv2manifest_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/JADE_2.0-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/ChAMPdata_2.45.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DMRcate_3.9.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/Illumina450ProbeVariants.db_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylationEPICmanifest_0.3.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylation450kmanifest_0.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/wateRmelon_2.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/missMethyl_1.47.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/isva_1.10.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/TCGAbiolinksGUI.data_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ChAMP_2.43.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/CATT_2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TCGAbiolinks_2.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GeoTcgaData_2.13.0.tar.gz'
+* installing *source* package ‘bsseq’ ...
+** this is package ‘bsseq’ version ‘1.49.0’
+** package ‘bsseq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check_M_and_Cov.cpp -o check_M_and_Cov.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c init.cpp -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bsseq.so check_M_and_Cov.o init.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-bsseq/00new/bsseq/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bsseq’ as ‘bsseq_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bsseq)
+* installing *source* package ‘IlluminaHumanMethylationEPICv2anno.20a1.hg38’ ...
+** this is package ‘IlluminaHumanMethylationEPICv2anno.20a1.hg38’ version ‘1.0.1’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICv2anno.20a1.hg38’ as ‘IlluminaHumanMethylationEPICv2anno.20a1.hg38_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICv2anno.20a1.hg38)
+* installing *source* package ‘IlluminaHumanMethylationEPICv2manifest’ ...
+** this is package ‘IlluminaHumanMethylationEPICv2manifest’ version ‘1.0.1’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICv2manifest’ as ‘IlluminaHumanMethylationEPICv2manifest_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICv2manifest)
+* installing *binary* package ‘JADE’ ...
+* package ‘JADE’ successfully unpacked and SHA256 sums checked
+* ‘JADE’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘JADE’ as ‘JADE_2.0-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (JADE)
+* installing *source* package ‘ChAMPdata’ ...
+** this is package ‘ChAMPdata’ version ‘2.45.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChAMPdata’ as ‘ChAMPdata_2.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChAMPdata)
+* installing *source* package ‘Illumina450ProbeVariants.db’ ...
+** this is package ‘Illumina450ProbeVariants.db’ version ‘1.49.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Illumina450ProbeVariants.db’ as ‘Illumina450ProbeVariants.db_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Illumina450ProbeVariants.db)
+* installing *source* package ‘IlluminaHumanMethylationEPICmanifest’ ...
+** this is package ‘IlluminaHumanMethylationEPICmanifest’ version ‘0.3.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICmanifest’ as ‘IlluminaHumanMethylationEPICmanifest_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICmanifest)
+* installing *source* package ‘IlluminaHumanMethylation450kmanifest’ ...
+** this is package ‘IlluminaHumanMethylation450kmanifest’ version ‘0.4.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylation450kmanifest’ as ‘IlluminaHumanMethylation450kmanifest_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylation450kmanifest)
+* installing *source* package ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ ...
+** this is package ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ version ‘0.6.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ as ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICanno.ilm10b4.hg19)
+* installing *source* package ‘wateRmelon’ ...
+** this is package ‘wateRmelon’ version ‘2.19.0’
+** package ‘wateRmelon’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Creating a generic function from function ‘as.methylumi’ in package ‘wateRmelon’
+Creating a generic function from function ‘smokp’ in package ‘wateRmelon’
+Creating a generic function from function ‘adjustedDasen’ in package ‘wateRmelon’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wateRmelon’ as ‘wateRmelon_2.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wateRmelon)
+* installing *source* package ‘TCGAbiolinksGUI.data’ ...
+** this is package ‘TCGAbiolinksGUI.data’ version ‘1.33.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TCGAbiolinksGUI.data’ as ‘TCGAbiolinksGUI.data_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TCGAbiolinksGUI.data)
+* installing *binary* package ‘CATT’ ...
+* package ‘CATT’ successfully unpacked and SHA256 sums checked
+* ‘CATT’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CATT’ as ‘CATT_2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CATT)
+* installing *source* package ‘GeoTcgaData’ ...
+** this is package ‘GeoTcgaData’ version ‘2.13.0’
+** package ‘GeoTcgaData’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeoTcgaData’ as ‘GeoTcgaData_2.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeoTcgaData)
+* installing *source* package ‘missMethyl’ ...
+** this is package ‘missMethyl’ version ‘1.47.0’
+** package ‘missMethyl’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘missMethyl’ as ‘missMethyl_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (missMethyl)
+* installing *binary* package ‘isva’ ...
+* package ‘isva’ successfully unpacked and SHA256 sums checked
+* ‘isva’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘isva’ as ‘isva_1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isva)
+* installing *source* package ‘TCGAbiolinks’ ...
+** this is package ‘TCGAbiolinks’ version ‘2.41.0’
+** package ‘TCGAbiolinks’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TCGAbiolinks’ as ‘TCGAbiolinks_2.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TCGAbiolinks)
+* installing *source* package ‘DMRcate’ ...
+** this is package ‘DMRcate’ version ‘3.9.0’
+** package ‘DMRcate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DMRcate’ as ‘DMRcate_3.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DMRcate)
+* installing *source* package ‘ChAMP’ ...
+** this is package ‘ChAMP’ version ‘2.43.0’
+** package ‘ChAMP’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package 'RSQLite' for request: 'dbListFields' when loading 'lumi'
+Warning: replacing previous import 'plyr::mutate' by 'plotly::mutate' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::rename' by 'plotly::rename' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::arrange' by 'plotly::arrange' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::summarise' by 'plotly::summarise' when loading 'ChAMP'
+Warning: replacing previous import 'plotly::subplot' by 'Hmisc::subplot' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::summarize' by 'Hmisc::summarize' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::is.discrete' by 'Hmisc::is.discrete' when loading 'ChAMP'
+Warning: replacing previous import 'plotly::last_plot' by 'ggplot2::last_plot' when loading 'ChAMP'
+Warning: replacing previous import 'globaltest::model.matrix' by 'stats::model.matrix' when loading 'ChAMP'
+Warning: replacing previous import 'globaltest::p.adjust' by 'stats::p.adjust' when loading 'ChAMP'
+Note: possible error in 'dmrcate(myannotation, ': unused argument (mc.cores = cores) 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package 'RSQLite' for request: 'dbListFields' when loading 'lumi'
+Warning: replacing previous import 'plyr::mutate' by 'plotly::mutate' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::rename' by 'plotly::rename' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::arrange' by 'plotly::arrange' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::summarise' by 'plotly::summarise' when loading 'ChAMP'
+Warning: replacing previous import 'plotly::subplot' by 'Hmisc::subplot' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::summarize' by 'Hmisc::summarize' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::is.discrete' by 'Hmisc::is.discrete' when loading 'ChAMP'
+Warning: replacing previous import 'plotly::last_plot' by 'ggplot2::last_plot' when loading 'ChAMP'
+Warning: replacing previous import 'globaltest::model.matrix' by 'stats::model.matrix' when loading 'ChAMP'
+Warning: replacing previous import 'globaltest::p.adjust' by 'stats::p.adjust' when loading 'ChAMP'
+** testing if installed package can be loaded from final location
+No methods found in package 'RSQLite' for request: 'dbListFields' when loading 'lumi'
+Warning: replacing previous import 'plyr::mutate' by 'plotly::mutate' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::rename' by 'plotly::rename' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::arrange' by 'plotly::arrange' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::summarise' by 'plotly::summarise' when loading 'ChAMP'
+Warning: replacing previous import 'plotly::subplot' by 'Hmisc::subplot' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::summarize' by 'Hmisc::summarize' when loading 'ChAMP'
+Warning: replacing previous import 'plyr::is.discrete' by 'Hmisc::is.discrete' when loading 'ChAMP'
+Warning: replacing previous import 'plotly::last_plot' by 'ggplot2::last_plot' when loading 'ChAMP'
+Warning: replacing previous import 'globaltest::model.matrix' by 'stats::model.matrix' when loading 'ChAMP'
+Warning: replacing previous import 'globaltest::p.adjust' by 'stats::p.adjust' when loading 'ChAMP'
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChAMP’ as ‘ChAMP_2.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChAMP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXevAhR/downloaded_packages’
+
+real	31m0.963s
+user	28m44.876s
+sys	1m33.609s

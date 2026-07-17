@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1635 (69%)
-- **Failed:** 6 (0%)
-- **In Progress:** 20
-- **Not Started:** 683
+- **Successfully Built:** 1726 (73%)
+- **Failed:** 9 (0%)
+- **In Progress:** 86
+- **Not Started:** 523
 
-**Progress:** 70%
+**Progress:** 74%
 ```
-███████████████████████████████████░░░░░░░░░░░░░░░
+█████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1635)
+## Successfully Built Packages (1726)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -28,6 +28,7 @@
 | [ADAMgui](https://bioconductor.org/packages/3.24/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADAMgui) |
 | [ADAPT](https://bioconductor.org/packages/3.24/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADAPT) |
 | [ADImpute](https://bioconductor.org/packages/3.24/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADImpute) |
+| [ADaCGH2](https://bioconductor.org/packages/3.24/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADaCGH2) |
 | [AGDEX](https://bioconductor.org/packages/3.24/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AGDEX) |
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.24/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ALDEx2) |
@@ -41,22 +42,20 @@
 | [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.24/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
+| [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
-| [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
-| [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1585 more ...*
+*... and 1676 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
-| [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.24/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vbmp) |
 | [velociraptor](https://bioconductor.org/packages/3.24/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
+| [visiumStitched](https://bioconductor.org/packages/3.24/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
@@ -66,6 +65,7 @@
 | [webbioc](https://bioconductor.org/packages/3.24/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.24/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
+| [wiggleplotr](https://bioconductor.org/packages/3.24/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.24/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wpm) |
 | [xcore](https://bioconductor.org/packages/3.24/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.24/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xenLite) |
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (6)
+## Failed Packages (9)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,35 +84,68 @@
 | [IFAA](https://bioconductor.org/packages/3.24/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [NanoStringNCTools](https://bioconductor.org/packages/3.24/bioc/html/NanoStringNCTools.html) | [log](logs/NanoStringNCTools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/NanoStringNCTools) | Error: unable to load R code in package ‘NanoStringNCTools’ |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
+| [SpectralTAD](https://bioconductor.org/packages/3.24/bioc/html/SpectralTAD.html) | [log](logs/SpectralTAD/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SpectralTAD) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
+| [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
+| [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (20)
-- ⏳ `GeoTcgaData`
-- ⏳ `MetaboAnnotation`
-- ⏳ `SpatialArtifacts`
-- ⏳ `SpectralTAD`
-- ⏳ `TADCompare`
-- ⏳ `TSCAN`
-- ⏳ `TissueEnrich`
-- ⏳ `anansi`
-- ⏳ `annmap`
-- ⏳ `batchelor`
-- ⏳ `concordexR`
-- ⏳ `cytomapper`
-- ⏳ `dada2`
-- ⏳ `easyRNASeq`
-- ⏳ `ggspavis`
-- ⏳ `hdxmsqc`
-- ⏳ `immLynx`
-- ⏳ `jazzPanda`
-- ⏳ `mastR`
-- ⏳ `oligoClasses`
+## In Progress (86)
+- ⏳ `BSgenome`
+- ⏳ `DMCFB`
+- ⏳ `DMCHMM`
+- ⏳ `DeMixT`
+- ⏳ `Dino`
+- ⏳ `EGSEA`
+- ⏳ `ExCluster`
+- ⏳ `GOstats`
+- ⏳ `GSEABenchmarkeR`
+- ⏳ `GenomicFeatures`
+- ⏳ `GlobalAncova`
+- ⏳ `HiCPotts`
+- ⏳ `HiTC`
+- ⏳ `Ibex`
+- ⏳ `IdeoViz`
+- ⏳ `M3Drop`
+- ⏳ `MBECS`
+- ⏳ `MEB`
+- ⏳ `MPAC`
+- ⏳ `MSnbase`
+- ⏳ `MatrixQCvis`
+- ⏳ `MsQuality`
+- ⏳ `PAST`
+- ⏳ `PDATK`
+- ⏳ `POMA`
+- ⏳ `PROPS`
+- ⏳ `PostChicago`
+- ⏳ `RadioGx`
+- ⏳ `SCANVIS`
+- ⏳ `SCArray.sat`
+- ⏳ `SIM`
+- ⏳ `SigCheck`
+- ⏳ `SpaNorm`
+- ⏳ `Spaniel`
+- ⏳ `SpatialExperimentIO`
+- ⏳ `SpliceImpactR`
+- ⏳ `XDE`
+- ⏳ `XeniumIO`
+- ⏳ `a4`
+- ⏳ `airpart`
+- ⏳ `benchdamic`
+- ⏳ `biocGraph`
+- ⏳ `celda`
+- ⏳ `cghMCR`
+- ⏳ `chipenrich`
+- ⏳ `clustSIGNAL`
+- ⏳ `clusterExperiment`
+- ⏳ `clusterProfiler`
+- ⏳ `consensusOV`
+- ⏳ `coseq`
 
-## Not Yet Started (683)
-- ⏸️ `ADaCGH2`
+... and 36 more ...
+
+## Not Yet Started (523)
 - ⏸️ `AHMassBank`
-- ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -120,35 +153,24 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
-- ⏸️ `BERT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BatChef`
-- ⏸️ `BatchQC`
-- ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
-- ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
-- ⏸️ `BioNERO`
-- ⏸️ `BioTIP`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
-- ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
-- ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
-- ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
@@ -157,12 +179,25 @@
 - ⏸️ `CSSQ`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
-- ⏸️ `CellMixS`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
+- ⏸️ `ChIPQC`
+- ⏸️ `ChIPXpress`
+- ⏸️ `ChIPanalyser`
+- ⏸️ `ChIPexoQual`
+- ⏸️ `ChIPpeakAnno`
+- ⏸️ `ChIPseeker`
+- ⏸️ `ChromSCape`
+- ⏸️ `CircSeqAlignTk`
+- ⏸️ `CleanUpRNAseq`
+- ⏸️ `ClonalSim`
+- ⏸️ `CluMSID`
+- ⏸️ `Cogito`
+- ⏸️ `CopyNumberPlots`
+- ⏸️ `DAMEfinder`
 
-... and 633 more ...
+... and 473 more ...
 
 ---
-*Last updated: 2026-07-17 21:43:43 UTC*
-*Packages with verified BBS status: 138*
+*Last updated: 2026-07-17 21:49:30 UTC*
+*Packages with verified BBS status: 145*

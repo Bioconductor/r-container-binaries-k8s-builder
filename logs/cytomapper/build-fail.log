@@ -1,0 +1,33 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''cytomapper'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'cytomapper'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/cytomapper_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 21994467 bytes (21.0 MB)
+==================================================
+downloaded 21.0 MB
+
+* installing *source* package ‘cytomapper’ ...
+** this is package ‘cytomapper’ version ‘1.25.0’
+** package ‘cytomapper’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found
+Error: unable to load R code in package ‘cytomapper’
+Execution halted
+ERROR: lazy loading failed for package ‘cytomapper’
+* removing ‘/tmp/library/cytomapper’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpk2ENZK/downloaded_packages’
