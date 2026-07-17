@@ -1,0 +1,75 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scanMiRApp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scanMiRApp'
+also installing the dependencies ‘scanMiRData’, ‘BSgenome.Rnorvegicus.UCSC.rn6’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/scanMiRData_1.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Rnorvegicus.UCSC.rn6_1.4.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/scanMiRApp_1.19.0.tar.gz'
+* installing *source* package ‘scanMiRData’ ...
+** this is package ‘scanMiRData’ version ‘1.19.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scanMiRData’ as ‘scanMiRData_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scanMiRData)
+* installing *source* package ‘BSgenome.Rnorvegicus.UCSC.rn6’ ...
+** this is package ‘BSgenome.Rnorvegicus.UCSC.rn6’ version ‘1.4.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Rnorvegicus.UCSC.rn6’ as ‘BSgenome.Rnorvegicus.UCSC.rn6_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Rnorvegicus.UCSC.rn6)
+* installing *source* package ‘scanMiRApp’ ...
+** this is package ‘scanMiRApp’ version ‘1.19.0’
+** package ‘scanMiRApp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scanMiRApp’ as ‘scanMiRApp_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scanMiRApp)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXlNsle/downloaded_packages’
+
+real	3m10.817s
+user	2m21.323s
+sys	0m15.137s

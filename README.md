@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2104 (89%)
+- **Successfully Built:** 2112 (90%)
 - **Failed:** 12 (0%)
-- **In Progress:** 70
+- **In Progress:** 62
 - **Not Started:** 158
 
 **Progress:** 90%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2104)
+## Successfully Built Packages (2112)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2054 more ...*
+*... and 2062 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [visiumStitched](https://bioconductor.org/packages/3.24/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
 | [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
@@ -65,6 +64,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wiggleplotr](https://bioconductor.org/packages/3.24/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.24/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wpm) |
+| [xCell2](https://bioconductor.org/packages/3.24/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xCell2) |
 | [xcms](https://bioconductor.org/packages/3.24/bioc/html/xcms.html) | [log](logs/xcms/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcms) |
 | [xcore](https://bioconductor.org/packages/3.24/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.24/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xenLite) |
@@ -93,7 +93,7 @@
 | [miRspongeR](https://bioconductor.org/packages/3.24/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (70)
+## In Progress (62)
 - ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
 - ⏳ `ChIPXpress`
@@ -105,7 +105,6 @@
 - ⏳ `IVAS`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
-- ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `MetaboSignal`
 - ⏳ `MinimumDistance`
 - ⏳ `Moonlight2R`
@@ -118,7 +117,6 @@
 - ⏳ `RAIDS`
 - ⏳ `RBedMethyl`
 - ⏳ `RITAN`
-- ⏳ `RTCGAToolbox`
 - ⏳ `RadioGx`
 - ⏳ `Rhisat2`
 - ⏳ `SCANVIS`
@@ -144,8 +142,10 @@
 - ⏳ `consensusOV`
 - ⏳ `crisprDesign`
 - ⏳ `damidBind`
+- ⏳ `dbSequence`
+- ⏳ `epivizrData`
 
-... and 20 more ...
+... and 12 more ...
 
 ## Not Yet Started (158)
 - ⏸️ `ASpli`
@@ -202,5 +202,5 @@
 ... and 108 more ...
 
 ---
-*Last updated: 2026-07-17 22:13:50 UTC*
-*Packages with verified BBS status: 154*
+*Last updated: 2026-07-17 22:14:52 UTC*
+*Packages with verified BBS status: 155*
