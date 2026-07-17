@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 762 (31%)
+- **Successfully Built:** 766 (32%)
 - **Failed:** 9 (0%)
-- **In Progress:** 12
-- **Not Started:** 1601
+- **In Progress:** 9
+- **Not Started:** 1600
 
 **Progress:** 32%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (762)
+## Successfully Built Packages (766)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 712 more ...*
+*... and 716 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,21 +90,18 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (12)
+## In Progress (9)
 - ⏳ `Biostrings`
 - ⏳ `DelayedArray`
-- ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
-- ⏳ `InteractiveComplexHeatmap`
-- ⏳ `MEIGOR`
-- ⏳ `flowCore`
 - ⏳ `h5mread`
 - ⏳ `ldblock`
 - ⏳ `mosbi`
 - ⏳ `msPurity`
+- ⏳ `nempi`
 - ⏳ `uSORT`
 
-## Not Yet Started (1601)
+## Not Yet Started (1600)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -156,8 +153,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1551 more ...
+... and 1550 more ...
 
 ---
-*Last updated: 2026-07-17 21:26:48 UTC*
+*Last updated: 2026-07-17 21:27:10 UTC*
 *Packages with verified BBS status: 153*
