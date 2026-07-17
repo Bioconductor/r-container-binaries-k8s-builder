@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1764 (73%)
+- **Successfully Built:** 1795 (75%)
 - **Failed:** 19 (0%)
-- **In Progress:** 103
-- **Not Started:** 498
+- **In Progress:** 97
+- **Not Started:** 473
 
-**Progress:** 74%
+**Progress:** 76%
 ```
-█████████████████████████████████████░░░░░░░░░░░░░
+██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1764)
+## Successfully Built Packages (1795)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,18 +46,18 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 
-*... and 1714 more ...*
+*... and 1745 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
-| [velociraptor](https://bioconductor.org/packages/3.23/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.23/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
+| [visiumStitched](https://bioconductor.org/packages/3.23/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.23/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vissE) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
+| [wavClusteR](https://bioconductor.org/packages/3.23/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavClusteR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.23/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/webbioc) |
@@ -100,7 +100,7 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (103)
+## In Progress (97)
 - ⏳ `BSgenomeForge`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CellMixS`
@@ -108,18 +108,20 @@
 - ⏳ `CexoR`
 - ⏳ `ChIPsim`
 - ⏳ `DOTSeq`
+- ⏳ `DSS`
 - ⏳ `DaMiRseq`
-- ⏳ `DiffBind`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiMix`
-- ⏳ `EpiTxDb`
 - ⏳ `GOTHiC`
+- ⏳ `GenomicPlot`
 - ⏳ `GeoTcgaData`
 - ⏳ `GlobalAncova`
 - ⏳ `IFAA`
+- ⏳ `InPAS`
 - ⏳ `InteractionSet`
 - ⏳ `LipidTrend`
 - ⏳ `MEB`
+- ⏳ `MIRA`
 - ⏳ `MMDiff2`
 - ⏳ `MOSClip`
 - ⏳ `MethylSeekR`
@@ -127,6 +129,7 @@
 - ⏳ `MotifPeeker`
 - ⏳ `MsExperiment`
 - ⏳ `MultiDataSet`
+- ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
 - ⏳ `ORFhunteR`
 - ⏳ `ORFik`
@@ -135,26 +138,23 @@
 - ⏳ `OutSplice`
 - ⏳ `PDATK`
 - ⏳ `PSMatch`
+- ⏳ `RBedMethyl`
 - ⏳ `RJMCMCNucleosomes`
 - ⏳ `RSVSim`
-- ⏳ `RTCGAToolbox`
-- ⏳ `RUVSeq`
 - ⏳ `RadioGx`
 - ⏳ `Rbec`
 - ⏳ `SCOPE`
-- ⏳ `SGSeq`
-- ⏳ `SPICEY`
+- ⏳ `SMITE`
 - ⏳ `SparseSignatures`
-- ⏳ `SpatialFeatureExperiment`
-- ⏳ `SpliceWiz`
 - ⏳ `SplicingGraphs`
-- ⏳ `SpotSweeper`
-- ⏳ `TAPseq`
 - ⏳ `TENET`
+- ⏳ `TFBSTools`
+- ⏳ `TRESS`
+- ⏳ `VariantAnnotation`
 
-... and 53 more ...
+... and 47 more ...
 
-## Not Yet Started (498)
+## Not Yet Started (473)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASICS`
@@ -204,10 +204,10 @@
 - ⏸️ `CluMSID`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `Coralysis`
-- ⏸️ `CytoMDS`
+- ⏸️ `DAMEfinder`
 
-... and 448 more ...
+... and 423 more ...
 
 ---
-*Last updated: 2026-07-17 22:26:08 UTC*
-*Packages with verified BBS status: 197*
+*Last updated: 2026-07-17 22:27:33 UTC*
+*Packages with verified BBS status: 199*

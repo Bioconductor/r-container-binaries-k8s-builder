@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''proBAMr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'proBAMr'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/proBAMr_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 833649 bytes (814 KB)
+==================================================
+downloaded 814 KB
+
+* installing *source* package ‘proBAMr’ ...
+** this is package ‘proBAMr’ version ‘1.46.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘proBAMr’ as ‘proBAMr_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proBAMr)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4RknuB/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m15.586s
+user	0m39.476s
+sys	0m6.824s
