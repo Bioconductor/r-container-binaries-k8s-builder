@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MethReg'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MethReg'
+also installing the dependencies ‘JASPAR2024’, ‘motifmatchr’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/JASPAR2024_0.99.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/motifmatchr_1.34.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MethReg_1.21.0.tar.gz'
+* installing *source* package ‘JASPAR2024’ ...
+** this is package ‘JASPAR2024’ version ‘0.99.7’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘JASPAR2024’ as ‘JASPAR2024_0.99.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (JASPAR2024)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘motifmatchr’ ...
+** this is package ‘motifmatchr’ version ‘1.34.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c r_interface.cpp -o r_interface.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/scanner.cpp -o MOODS/scanner.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/motif_h.cpp -o MOODS/motif_h.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/motif_0.cpp -o MOODS/motif_0.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/moods_tools.cpp -o MOODS/moods_tools.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/moods_scan.cpp -o MOODS/moods_scan.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/moods_parsers.cpp -o MOODS/moods_parsers.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/moods_misc.cpp -o MOODS/moods_misc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I. -I./MOODS/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MOODS/match_types.cpp -o MOODS/match_types.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o motifmatchr.so ./RcppExports.o ./r_interface.o ./MOODS/scanner.o ./MOODS/motif_h.o ./MOODS/motif_0.o ./MOODS/moods_tools.o ./MOODS/moods_scan.o ./MOODS/moods_parsers.o ./MOODS/moods_misc.o ./MOODS/match_types.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-motifmatchr/00new/motifmatchr/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘motifmatchr’ as ‘motifmatchr_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (motifmatchr)
+* installing *source* package ‘MethReg’ ...
+** this is package ‘MethReg’ version ‘1.21.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MethReg’ as ‘MethReg_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MethReg)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp53pyRM/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m19.767s
+user	1m48.789s
+sys	0m12.870s

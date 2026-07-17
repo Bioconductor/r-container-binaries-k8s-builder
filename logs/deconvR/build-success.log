@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''deconvR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'deconvR'
+Warning: dependency ‘granulator’ is not available
+also installing the dependencies ‘robslopes’, ‘deming’, ‘mcr’, ‘rsq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/robslopes_1.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/deming_1.4-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mcr_1.3.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rsq_2.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/deconvR_1.18.0.tar.gz'
+* installing *binary* package ‘robslopes’ ...
+* package ‘robslopes’ successfully unpacked and SHA256 sums checked
+* ‘robslopes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘robslopes’ as ‘robslopes_1.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (robslopes)
+* installing *binary* package ‘deming’ ...
+* package ‘deming’ successfully unpacked and SHA256 sums checked
+* ‘deming’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘deming’ as ‘deming_1.4-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deming)
+* installing *binary* package ‘mcr’ ...
+* package ‘mcr’ successfully unpacked and SHA256 sums checked
+* ‘mcr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mcr’ as ‘mcr_1.3.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mcr)
+* installing *binary* package ‘rsq’ ...
+* package ‘rsq’ successfully unpacked and SHA256 sums checked
+* ‘rsq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rsq’ as ‘rsq_2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsq)
+* installing *source* package ‘deconvR’ ...
+** this is package ‘deconvR’ version ‘1.18.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘deconvR’ as ‘deconvR_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deconvR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpp3cGgB/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m10.501s
+user	0m50.939s
+sys	0m7.013s
