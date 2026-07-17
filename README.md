@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1947 (83%)
-- **Failed:** 9 (0%)
-- **In Progress:** 91
-- **Not Started:** 297
+- **Successfully Built:** 1998 (85%)
+- **Failed:** 10 (0%)
+- **In Progress:** 94
+- **Not Started:** 242
 
-**Progress:** 83%
+**Progress:** 85%
 ```
-█████████████████████████████████████████░░░░░░░░░
+██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (1947)
+## Successfully Built Packages (1998)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [ADImpute](https://bioconductor.org/packages/3.24/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADImpute) |
 | [ADaCGH2](https://bioconductor.org/packages/3.24/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADaCGH2) |
 | [AGDEX](https://bioconductor.org/packages/3.24/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AGDEX) |
+| [AHMassBank](https://bioconductor.org/packages/3.24/bioc/html/AHMassBank.html) | [log](logs/AHMassBank/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AHMassBank) |
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.24/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ALDEx2) |
 | [AMARETTO](https://bioconductor.org/packages/3.24/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMARETTO) |
@@ -44,9 +45,8 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
-| [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1897 more ...*
+*... and 1948 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (9)
+## Failed Packages (10)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -88,116 +88,117 @@
 | [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
+| [miRSM](https://bioconductor.org/packages/3.24/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRSM) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (91)
-- ⏳ `AHMassBank`
+## In Progress (94)
 - ⏳ `BASiCStan`
-- ⏳ `BatChef`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CSSQ`
-- ⏳ `ChIPQC`
 - ⏳ `ChIPseeker`
 - ⏳ `DMCFB`
-- ⏳ `DMCHMM`
 - ⏳ `DNAfusion`
+- ⏳ `DominoEffect`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
 - ⏳ `EpiMix`
+- ⏳ `EventPointer`
 - ⏳ `ExCluster`
-- ⏳ `ExperimentHubData`
+- ⏳ `FRASER`
 - ⏳ `FindIT2`
+- ⏳ `G4SNVHunter`
 - ⏳ `GOstats`
+- ⏳ `GenomicFiles`
 - ⏳ `GenomicInteractionNodes`
+- ⏳ `HelloRanges`
 - ⏳ `HiTC`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
-- ⏳ `Ibex`
 - ⏳ `IdeoViz`
-- ⏳ `MEB`
-- ⏳ `MatrixQCvis`
-- ⏳ `MatrixRider`
 - ⏳ `MoonlightR`
-- ⏳ `MsQuality`
+- ⏳ `MungeSumstats`
+- ⏳ `MutationalPatterns`
 - ⏳ `NanoMethViz`
-- ⏳ `OutSplice`
-- ⏳ `PAST`
-- ⏳ `PDATK`
 - ⏳ `PostChicago`
+- ⏳ `ProteoDisco`
+- ⏳ `PureCN`
 - ⏳ `RBedMethyl`
 - ⏳ `RadioGx`
+- ⏳ `RareVariantVis`
+- ⏳ `Rhisat2`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
+- ⏳ `SigsPack`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `TCGAutils`
+- ⏳ `UPDhmm`
+- ⏳ `VanillaICE`
+- ⏳ `VariantTools`
+- ⏳ `ZygosityPredictor`
 - ⏳ `a4`
+- ⏳ `alabaster.vcf`
 - ⏳ `annotatr`
+- ⏳ `appreci8R`
 - ⏳ `atena`
 - ⏳ `benchdamic`
-- ⏳ `bumphunter`
-- ⏳ `celda`
-- ⏳ `chipenrich`
-- ⏳ `chromVAR`
-- ⏳ `clustSIGNAL`
-- ⏳ `clusterExperiment`
 
-... and 41 more ...
+... and 44 more ...
 
-## Not Yet Started (297)
+## Not Yet Started (242)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `ArrayExpress`
-- ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BadRegionFinder`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CCAFE`
 - ⏸️ `CNVfilteR`
-- ⏸️ `CNVrd2`
-- ⏸️ `COCOA`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
-- ⏸️ `ClonalSim`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
-- ⏸️ `DOtools`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
-- ⏸️ `DominoEffect`
 - ⏸️ `DrugVsDisease`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
 - ⏸️ `EpiCompare`
-- ⏸️ `EventPointer`
-- ⏸️ `FRASER`
-- ⏸️ `G4SNVHunter`
-- ⏸️ `GA4GHclient`
 - ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GRaNIE`
 - ⏸️ `GUIDEseq`
-- ⏸️ `GenVisR`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
 - ⏸️ `GenomicCoordinates`
+- ⏸️ `GenomicInteractions`
+- ⏸️ `GenomicOZone`
+- ⏸️ `GenomicPlot`
+- ⏸️ `GeoDiff`
+- ⏸️ `GeomxTools`
+- ⏸️ `GmicR`
+- ⏸️ `Gviz`
+- ⏸️ `HiCDCPlus`
+- ⏸️ `HiCaptuRe`
+- ⏸️ `HistoImagePlot`
+- ⏸️ `ITALICS`
+- ⏸️ `InPAS`
+- ⏸️ `IntEREst`
 
-... and 247 more ...
+... and 192 more ...
 
 ---
-*Last updated: 2026-07-17 22:03:38 UTC*
-*Packages with verified BBS status: 148*
+*Last updated: 2026-07-17 22:06:16 UTC*
+*Packages with verified BBS status: 150*

@@ -1,0 +1,108 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''methrix'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'methrix'
+also installing the dependencies ‘DSS’, ‘MafDb.1Kgenomes.phase3.GRCh38’, ‘MafDb.1Kgenomes.phase3.hs37d5’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DSS_2.61.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/MafDb.1Kgenomes.phase3.GRCh38_3.10.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/MafDb.1Kgenomes.phase3.hs37d5_3.10.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/methrix_1.27.0.tar.gz'
+* installing *source* package ‘DSS’ ...
+** this is package ‘DSS’ version ‘2.61.0’
+** package ‘DSS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_var_smooth.c -o compute_var_smooth.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c filter.c -o filter.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nitem.c -o nitem.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DSS.so compute_var_smooth.o filter.o nitem.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DSS/00new/DSS/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DSS’ as ‘DSS_2.61.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DSS)
+* installing *source* package ‘MafDb.1Kgenomes.phase3.GRCh38’ ...
+** this is package ‘MafDb.1Kgenomes.phase3.GRCh38’ version ‘3.10.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.GRCh38’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.GRCh38’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.GRCh38’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MafDb.1Kgenomes.phase3.GRCh38’ as ‘MafDb.1Kgenomes.phase3.GRCh38_3.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MafDb.1Kgenomes.phase3.GRCh38)
+* installing *source* package ‘MafDb.1Kgenomes.phase3.hs37d5’ ...
+** this is package ‘MafDb.1Kgenomes.phase3.hs37d5’ version ‘3.10.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MafDb.1Kgenomes.phase3.hs37d5’ as ‘MafDb.1Kgenomes.phase3.hs37d5_3.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MafDb.1Kgenomes.phase3.hs37d5)
+* installing *source* package ‘methrix’ ...
+** this is package ‘methrix’ version ‘1.27.0’
+** package ‘methrix’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘methrix’ as ‘methrix_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (methrix)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp47iC3K/downloaded_packages’
+
+real	8m21.443s
+user	6m45.134s
+sys	0m44.448s

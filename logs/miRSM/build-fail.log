@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''miRSM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'miRSM'
+also installing the dependencies ‘kpeaks’, ‘inaparc’, ‘GFA’, ‘isa2’, ‘SOMbrero’, ‘ppclust’, ‘MatrixCorrelation’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/kpeaks_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/inaparc_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GFA_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/isa2_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SOMbrero_1.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ppclust_1.1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MatrixCorrelation_0.10.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/miRSM_2.9.0.tar.gz'
+* installing *binary* package ‘kpeaks’ ...
+* package ‘kpeaks’ successfully unpacked and SHA256 sums checked
+* ‘kpeaks’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘kpeaks’ as ‘kpeaks_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kpeaks)
+* installing *binary* package ‘GFA’ ...
+* package ‘GFA’ successfully unpacked and SHA256 sums checked
+* ‘GFA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GFA’ as ‘GFA_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GFA)
+* installing *binary* package ‘isa2’ ...
+* package ‘isa2’ successfully unpacked and SHA256 sums checked
+* ‘isa2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘isa2’ as ‘isa2_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isa2)
+* installing *binary* package ‘SOMbrero’ ...
+* package ‘SOMbrero’ successfully unpacked and SHA256 sums checked
+* ‘SOMbrero’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SOMbrero’ as ‘SOMbrero_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SOMbrero)
+* installing *binary* package ‘MatrixCorrelation’ ...
+* package ‘MatrixCorrelation’ successfully unpacked and SHA256 sums checked
+* ‘MatrixCorrelation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatrixCorrelation’ as ‘MatrixCorrelation_0.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixCorrelation)
+* installing *binary* package ‘inaparc’ ...
+* package ‘inaparc’ successfully unpacked and SHA256 sums checked
+* ‘inaparc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘inaparc’ as ‘inaparc_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (inaparc)
+* installing *binary* package ‘ppclust’ ...
+* package ‘ppclust’ successfully unpacked and SHA256 sums checked
+* ‘ppclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ppclust’ as ‘ppclust_1.1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ppclust)

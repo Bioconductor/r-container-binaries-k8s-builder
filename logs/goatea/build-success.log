@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''goatea'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'goatea'
+also installing the dependencies ‘goat’, ‘upsetjs’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/goat_1.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/upsetjs_1.11.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/goatea_2.1.0.tar.gz'
+* installing *binary* package ‘goat’ ...
+* package ‘goat’ successfully unpacked and SHA256 sums checked
+* ‘goat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘goat’ as ‘goat_1.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goat)
+* installing *binary* package ‘upsetjs’ ...
+* package ‘upsetjs’ successfully unpacked and SHA256 sums checked
+* ‘upsetjs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘upsetjs’ as ‘upsetjs_1.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (upsetjs)
+* installing *source* package ‘goatea’ ...
+** this is package ‘goatea’ version ‘2.1.0’
+** package ‘goatea’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘goatea’ as ‘goatea_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goatea)
+
+The downloaded source packages are in
+	‘/tmp/RtmpwkoqVr/downloaded_packages’
+
+real	0m55.567s
+user	0m38.408s
+sys	0m6.704s

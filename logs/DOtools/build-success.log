@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DOtools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DOtools'
+also installing the dependencies ‘mycor’, ‘ggiraphExtra’, ‘SCpubr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mycor_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggiraphExtra_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SCpubr_3.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DOtools_1.3.3.tar.gz'
+* installing *binary* package ‘mycor’ ...
+* package ‘mycor’ successfully unpacked and SHA256 sums checked
+* ‘mycor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mycor’ as ‘mycor_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mycor)
+* installing *binary* package ‘SCpubr’ ...
+* package ‘SCpubr’ successfully unpacked and SHA256 sums checked
+* ‘SCpubr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SCpubr’ as ‘SCpubr_3.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SCpubr)
+* installing *binary* package ‘ggiraphExtra’ ...
+* package ‘ggiraphExtra’ successfully unpacked and SHA256 sums checked
+* ‘ggiraphExtra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggiraphExtra’ as ‘ggiraphExtra_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggiraphExtra)
+* installing *source* package ‘DOtools’ ...
+** this is package ‘DOtools’ version ‘1.3.3’
+** package ‘DOtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DOtools’ as ‘DOtools_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DOtools)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKGbMp9/downloaded_packages’
+
+real	1m24.644s
+user	0m52.127s
+sys	0m8.762s

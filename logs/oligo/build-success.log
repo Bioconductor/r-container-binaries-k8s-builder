@@ -1,0 +1,155 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''oligo'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'oligo'
+also installing the dependencies ‘hapmap100kxba’, ‘pd.hg.u95av2’, ‘pd.hg18.60mer.expr’, ‘maqcExpression4plex’, ‘oligoData’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/hapmap100kxba_1.55.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/pd.hg.u95av2_3.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/pd.hg18.60mer.expr_3.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/maqcExpression4plex_1.57.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/oligoData_1.8.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/oligo_1.77.0.tar.gz'
+* installing *source* package ‘hapmap100kxba’ ...
+** this is package ‘hapmap100kxba’ version ‘1.55.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hapmap100kxba’ as ‘hapmap100kxba_1.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hapmap100kxba)
+* installing *source* package ‘maqcExpression4plex’ ...
+** this is package ‘maqcExpression4plex’ version ‘1.57.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘maqcExpression4plex’ as ‘maqcExpression4plex_1.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maqcExpression4plex)
+* installing *source* package ‘oligo’ ...
+** this is package ‘oligo’ version ‘1.77.0’
+** package ‘oligo’ successfully unpacked and MD5 sums checked
+** using staged installation
+creating cache ./config.cache
+checking how to run the C preprocessor... gcc -std=gnu2x -E
+checking for main in -lz... yes
+checking for zlib.h... yes
+checking if zlib version >= 1.1.3... yes
+updating cache ./config.cache
+creating ./config.status
+creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DABG.c -o DABG.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ParserGzXYS.c -o ParserGzXYS.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ParserXYS.c -o ParserXYS.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c baseProfile.c -o baseProfile.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c basecontent.c -o basecontent.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chipbackground.c -o chipbackground.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mas5calls.c -o mas5calls.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rma2.c -o rma2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rma_common.c -o rma_common.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -DHAVE_ZLIB=1  -I'/mnt/library/preprocessCore/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trimmed.c -o trimmed.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o oligo.so DABG.o ParserGzXYS.o ParserXYS.o baseProfile.o basecontent.o chipbackground.o mas5calls.o rma2.o rma_common.o trimmed.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-oligo/00new/oligo/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: in method for ‘pm<-’ with signature
+‘object="TilingFeatureSet",subset="ANY",target="ANY",value="array"’:
+expanding the signature to include omitted arguments in definition:
+subset = "missing", target = "missing"
+Note: in method for ‘mm<-’ with signature
+‘object="TilingFeatureSet",subset="ANY",target="ANY",value="array"’:
+expanding the signature to include omitted arguments in definition:
+subset = "missing", target = "missing"
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘oligo’ as ‘oligo_1.77.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (oligo)
+* installing *source* package ‘pd.hg.u95av2’ ...
+** this is package ‘pd.hg.u95av2’ version ‘3.12.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pd.hg.u95av2’ as ‘pd.hg.u95av2_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pd.hg.u95av2)
+* installing *source* package ‘pd.hg18.60mer.expr’ ...
+** this is package ‘pd.hg18.60mer.expr’ version ‘3.12.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pd.hg18.60mer.expr’ as ‘pd.hg18.60mer.expr_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pd.hg18.60mer.expr)
+* installing *source* package ‘oligoData’ ...
+** this is package ‘oligoData’ version ‘1.8.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘oligoData’ as ‘oligoData_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (oligoData)
+
+The downloaded source packages are in
+	‘/tmp/RtmpsCevOz/downloaded_packages’
+
+real	3m43.351s
+user	3m0.927s
+sys	0m20.005s

@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''motifStack'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'motifStack'
+also installing the dependency ‘JASPAR2020’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/JASPAR2020_0.99.10.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/motifStack_1.57.0.tar.gz'
+* installing *source* package ‘JASPAR2020’ ...
+** this is package ‘JASPAR2020’ version ‘0.99.10’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘JASPAR2020’ as ‘JASPAR2020_0.99.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (JASPAR2020)
+* installing *source* package ‘motifStack’ ...
+** this is package ‘motifStack’ version ‘1.57.0’
+** package ‘motifStack’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘motifStack’ as ‘motifStack_1.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (motifStack)
+
+The downloaded source packages are in
+	‘/tmp/RtmplIvlwB/downloaded_packages’
+
+real	1m10.452s
+user	0m54.646s
+sys	0m6.557s
