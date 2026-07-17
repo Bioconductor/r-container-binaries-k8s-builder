@@ -8,8 +8,8 @@
 - **Total Packages:** 2384
 - **Successfully Built:** 2264 (94%)
 - **Failed:** 27 (1%)
-- **In Progress:** 0
-- **Not Started:** 93
+- **In Progress:** 1
+- **Not Started:** 92
 
 **Progress:** 96%
 ```
@@ -108,13 +108,15 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [tLOH](https://bioconductor.org/packages/3.23/bioc/html/tLOH.html) | [log](logs/tLOH/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tLOH) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 
-## Not Yet Started (93)
+## In Progress (1)
+- ⏳ `ChAMP`
+
+## Not Yet Started (92)
 - ⏸️ `BulkSignalR`
 - ⏸️ `CBNplot`
 - ⏸️ `CEMiTool`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
-- ⏸️ `ChAMP`
 - ⏸️ `ChIPseeker`
 - ⏸️ `DspikeIn`
 - ⏸️ `EWCE`
@@ -159,9 +161,10 @@
 - ⏸️ `cogeqc`
 - ⏸️ `crumblr`
 - ⏸️ `damidBind`
+- ⏸️ `debrowser`
 
-... and 43 more ...
+... and 42 more ...
 
 ---
-*Last updated: 2026-07-17 23:11:45 UTC*
+*Last updated: 2026-07-17 23:12:16 UTC*
 *Packages with verified BBS status: 217*
