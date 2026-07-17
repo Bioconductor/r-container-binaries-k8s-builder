@@ -1,0 +1,169 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''topconfects'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'topconfects'
+also installing the dependencies ‘truncnorm’, ‘mixsqp’, ‘etrunct’, ‘invgamma’, ‘edgeR’, ‘DESeq2’, ‘ashr’, ‘NBPSeq’, ‘org.At.tair.db’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/truncnorm_1.0-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mixsqp_0.3-54.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/etrunct_0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/invgamma_1.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/edgeR_4.11.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DESeq2_1.53.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ashr_2.2-63.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/NBPSeq_0.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.At.tair.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/topconfects_1.29.0.tar.gz'
+* installing *binary* package ‘truncnorm’ ...
+* package ‘truncnorm’ successfully unpacked and SHA256 sums checked
+* ‘truncnorm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘truncnorm’ as ‘truncnorm_1.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (truncnorm)
+* installing *binary* package ‘mixsqp’ ...
+* package ‘mixsqp’ successfully unpacked and SHA256 sums checked
+* ‘mixsqp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mixsqp’ as ‘mixsqp_0.3-54_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mixsqp)
+* installing *binary* package ‘etrunct’ ...
+* package ‘etrunct’ successfully unpacked and SHA256 sums checked
+* ‘etrunct’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘etrunct’ as ‘etrunct_0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (etrunct)
+* installing *binary* package ‘invgamma’ ...
+* package ‘invgamma’ successfully unpacked and SHA256 sums checked
+* ‘invgamma’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘invgamma’ as ‘invgamma_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (invgamma)
+* installing *source* package ‘edgeR’ ...
+** this is package ‘edgeR’ version ‘4.11.4’
+** package ‘edgeR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_exports.c -o R_exports.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_process_hairpin_reads.c -o R_process_hairpin_reads.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c add_prior_count.c -o add_prior_count.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clowess.c -o clowess.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_apl.c -o compute_apl.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_cpm.c -o compute_cpm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_nbdev.c -o compute_nbdev.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exact_test_by_dev.c -o exact_test_by_dev.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fmm_spline.c -o fmm_spline.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c glm.c -o glm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c good_turing.c -o good_turing.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interpolator.c -o interpolator.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loess_by_col.c -o loess_by_col.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c object.c -o object.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ql_glm.c -o ql_glm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ql_weights.c -o ql_weights.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o edgeR.so R_exports.o R_process_hairpin_reads.o add_prior_count.o clowess.o compute_apl.o compute_cpm.o compute_nbdev.o exact_test_by_dev.o fmm_spline.o glm.o good_turing.o init.o interpolator.o loess_by_col.o object.o ql_glm.o ql_weights.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-edgeR/00new/edgeR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘edgeR’ as ‘edgeR_4.11.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (edgeR)
+* installing *source* package ‘DESeq2’ ...
+** this is package ‘DESeq2’ version ‘1.53.0’
+** package ‘DESeq2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c DESeq2.cpp -o DESeq2.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DESeq2.so DESeq2.o RcppExports.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DESeq2/00new/DESeq2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x9260, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘DESeq2’
+* removing ‘/tmp/library/DESeq2’
+* installing *binary* package ‘NBPSeq’ ...
+* package ‘NBPSeq’ successfully unpacked and SHA256 sums checked
+* ‘NBPSeq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NBPSeq’ as ‘NBPSeq_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NBPSeq)
+* installing *source* package ‘org.At.tair.db’ ...
+** this is package ‘org.At.tair.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.At.tair.db’ as ‘org.At.tair.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.At.tair.db)
+* installing *source* package ‘topconfects’ ...
+** this is package ‘topconfects’ version ‘1.29.0’
+** package ‘topconfects’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘topconfects’ as ‘topconfects_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (topconfects)
+* installing *binary* package ‘ashr’ ...
+* package ‘ashr’ successfully unpacked and SHA256 sums checked
+* ‘ashr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ashr’ as ‘ashr_2.2-63_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ashr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpJeeyWJ/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘DESeq2’ had non-zero exit status
+
+real	3m55.638s
+user	2m51.735s
+sys	0m11.327s

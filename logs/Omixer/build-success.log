@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Omixer'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Omixer'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Omixer_1.23.0.tar.gz'
+Content type 'application/x-gzip' length 1497892 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+* installing *source* package ‘Omixer’ ...
+** this is package ‘Omixer’ version ‘1.23.0’
+** package ‘Omixer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Omixer’ as ‘Omixer_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Omixer)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpbhhu3i/downloaded_packages’
+
+real	0m11.003s
+user	0m5.733s
+sys	0m2.197s

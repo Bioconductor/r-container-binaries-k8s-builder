@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SANTA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SANTA'
+also installing the dependencies ‘RBGL’, ‘BioNet’, ‘org.Sc.sgd.db’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RBGL_1.89.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BioNet_1.73.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Sc.sgd.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SANTA_2.49.0.tar.gz'
+* installing *source* package ‘RBGL’ ...
+** this is package ‘RBGL’ version ‘1.89.0’
+** package ‘RBGL’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bbc.cpp -o bbc.o
+In file included from RBGL.hpp:18,
+                 from bbc.cpp:1:
+/mnt/library/BH/include/boost/generator_iterator.hpp:12:10: fatal error: boost/iterator/generator_iterator.hpp: No such file or directory
+   12 | #include <boost/iterator/generator_iterator.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [/usr/local/lib/R/etc/Makeconf:199: bbc.o] Error 1
+ERROR: compilation failed for package ‘RBGL’
+* removing ‘/tmp/library/RBGL’
+* installing *source* package ‘org.Sc.sgd.db’ ...
+** this is package ‘org.Sc.sgd.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘AnnotationDbi’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
+ there is no package called ‘KEGGREST’
+Execution halted
+ERROR: lazy loading failed for package ‘org.Sc.sgd.db’
+* removing ‘/tmp/library/org.Sc.sgd.db’
+* installing *source* package ‘SANTA’ ...
+** this is package ‘SANTA’ version ‘2.49.0’
+** package ‘SANTA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c computenetK_fewzeros.c -o computenetK_fewzeros.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c computenodeAUK.c -o computenodeAUK.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c computeweights.c -o computeweights.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SANTA.so computenetK_fewzeros.o computenodeAUK.o computeweights.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SANTA/00new/SANTA/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SANTA’ as ‘SANTA_2.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SANTA)
+ERROR: dependency ‘RBGL’ is not available for package ‘BioNet’
+Perhaps try a variation of:
+install.packages('RBGL')
+* removing ‘/tmp/library/BioNet’
+
+The downloaded source packages are in
+	‘/tmp/RtmpEyjnAF/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘RBGL’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘org.Sc.sgd.db’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘BioNet’ had non-zero exit status
+
+real	0m33.188s
+user	0m12.100s
+sys	0m3.686s

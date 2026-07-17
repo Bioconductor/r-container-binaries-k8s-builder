@@ -1,0 +1,79 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GAprediction'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GAprediction'
+also installing the dependencies ‘iterators’, ‘foreach’, ‘shape’, ‘RcppEigen’, ‘glmnet’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/iterators_1.0.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/foreach_1.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shape_1.4.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppEigen_0.3.4.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/glmnet_5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GAprediction_1.39.0.tar.gz'
+* installing *binary* package ‘iterators’ ...
+* package ‘iterators’ successfully unpacked and SHA256 sums checked
+* ‘iterators’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *binary* package ‘shape’ ...
+* package ‘shape’ successfully unpacked and SHA256 sums checked
+* ‘shape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *binary* package ‘RcppEigen’ ...
+* package ‘RcppEigen’ successfully unpacked and SHA256 sums checked
+* ‘RcppEigen’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.4.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *binary* package ‘foreach’ ...
+* package ‘foreach’ successfully unpacked and SHA256 sums checked
+* ‘foreach’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *binary* package ‘glmnet’ ...
+* package ‘glmnet’ successfully unpacked and SHA256 sums checked
+* ‘glmnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘glmnet’ as ‘glmnet_5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmnet)
+* installing *source* package ‘GAprediction’ ...
+** this is package ‘GAprediction’ version ‘1.39.0’
+** package ‘GAprediction’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GAprediction’ as ‘GAprediction_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GAprediction)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpbm1dtt/downloaded_packages’
+
+real	0m15.976s
+user	0m11.606s
+sys	0m4.365s

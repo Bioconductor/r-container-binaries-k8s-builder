@@ -1,0 +1,97 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HPiP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HPiP'
+also installing the dependencies ‘corrplot’, ‘PRROC’, ‘protr’, ‘MCL’, ‘randomForest’, ‘gprofiler2’, ‘ggthemes’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/corrplot_0.95.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/PRROC_1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/protr_1.7-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MCL_1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/randomForest_4.7-1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gprofiler2_0.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggthemes_5.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HPiP_1.19.0.tar.gz'
+* installing *binary* package ‘corrplot’ ...
+* package ‘corrplot’ successfully unpacked and SHA256 sums checked
+* ‘corrplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘corrplot’ as ‘corrplot_0.95_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corrplot)
+* installing *binary* package ‘PRROC’ ...
+* package ‘PRROC’ successfully unpacked and SHA256 sums checked
+* ‘PRROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PRROC’ as ‘PRROC_1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PRROC)
+* installing *binary* package ‘protr’ ...
+* package ‘protr’ successfully unpacked and SHA256 sums checked
+* ‘protr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘protr’ as ‘protr_1.7-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (protr)
+* installing *binary* package ‘MCL’ ...
+* package ‘MCL’ successfully unpacked and SHA256 sums checked
+* ‘MCL’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MCL’ as ‘MCL_1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MCL)
+* installing *binary* package ‘randomForest’ ...
+* package ‘randomForest’ successfully unpacked and SHA256 sums checked
+* ‘randomForest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘randomForest’ as ‘randomForest_4.7-1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomForest)
+* installing *binary* package ‘gprofiler2’ ...
+* package ‘gprofiler2’ successfully unpacked and SHA256 sums checked
+* ‘gprofiler2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gprofiler2’ as ‘gprofiler2_0.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gprofiler2)
+* installing *binary* package ‘ggthemes’ ...
+* package ‘ggthemes’ successfully unpacked and SHA256 sums checked
+* ‘ggthemes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggthemes’ as ‘ggthemes_5.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggthemes)
+* installing *source* package ‘HPiP’ ...
+** this is package ‘HPiP’ version ‘1.19.0’
+** package ‘HPiP’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HPiP’ as ‘HPiP_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HPiP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUctWNW/downloaded_packages’
+Error in readRDS(file) : error reading from connection
+
+real	0m39.423s
+user	0m15.458s
+sys	0m4.552s

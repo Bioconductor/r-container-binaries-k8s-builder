@@ -1,0 +1,248 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''synergyfinder'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'synergyfinder'
+also installing the dependencies ‘ucminf’, ‘ordinal’, ‘TH.data’, ‘sandwich’, ‘intervals’, ‘pan’, ‘jomo’, ‘operator.tools’, ‘multcomp’, ‘plotrix’, ‘tweenr’, ‘polyclip’, ‘sftime’, ‘spacetime’, ‘stars’, ‘mitml’, ‘formula.tools’, ‘drc’, ‘furrr’, ‘ggforce’, ‘gstat’, ‘SpatialExtremes’, ‘kriging’, ‘mice’, ‘nleqslv’, ‘metR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ucminf_1.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ordinal_2025.12-29.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TH.data_1.1-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sandwich_3.1-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/intervals_0.15.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pan_2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/jomo_2.7-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/operator.tools_1.6.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/multcomp_1.4-31.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plotrix_3.8-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tweenr_2.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/polyclip_1.10-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sftime_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spacetime_1.3-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stars_0.7-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mitml_0.4-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/formula.tools_1.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/drc_3.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/furrr_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggforce_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gstat_2.1-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SpatialExtremes_2.1-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/kriging_1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mice_3.19.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nleqslv_3.3.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metR_0.18.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/synergyfinder_3.21.0.tar.gz'
+* installing *binary* package ‘ucminf’ ...
+* package ‘ucminf’ successfully unpacked and SHA256 sums checked
+* ‘ucminf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ucminf’ as ‘ucminf_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ucminf)
+* installing *binary* package ‘TH.data’ ...
+* package ‘TH.data’ successfully unpacked and SHA256 sums checked
+* ‘TH.data’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TH.data’ as ‘TH.data_1.1-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TH.data)
+* installing *binary* package ‘sandwich’ ...
+* package ‘sandwich’ successfully unpacked and SHA256 sums checked
+* ‘sandwich’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sandwich’ as ‘sandwich_3.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sandwich)
+* installing *binary* package ‘intervals’ ...
+* package ‘intervals’ successfully unpacked and SHA256 sums checked
+* ‘intervals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘intervals’ as ‘intervals_0.15.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (intervals)
+* installing *binary* package ‘pan’ ...
+* package ‘pan’ successfully unpacked and SHA256 sums checked
+* ‘pan’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pan’ as ‘pan_2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pan)
+* installing *binary* package ‘operator.tools’ ...
+* package ‘operator.tools’ successfully unpacked and SHA256 sums checked
+* ‘operator.tools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘operator.tools’ as ‘operator.tools_1.6.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (operator.tools)
+* installing *binary* package ‘plotrix’ ...
+* package ‘plotrix’ successfully unpacked and SHA256 sums checked
+* ‘plotrix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *binary* package ‘tweenr’ ...
+* package ‘tweenr’ successfully unpacked and SHA256 sums checked
+* ‘tweenr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tweenr’ as ‘tweenr_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tweenr)
+* installing *binary* package ‘polyclip’ ...
+* package ‘polyclip’ successfully unpacked and SHA256 sums checked
+* ‘polyclip’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polyclip’ as ‘polyclip_1.10-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polyclip)
+* installing *binary* package ‘sftime’ ...
+* package ‘sftime’ successfully unpacked and SHA256 sums checked
+* ‘sftime’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sftime’ as ‘sftime_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sftime)
+* installing *binary* package ‘stars’ ...
+* package ‘stars’ successfully unpacked and SHA256 sums checked
+* ‘stars’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stars’ as ‘stars_0.7-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stars)
+* installing *binary* package ‘furrr’ ...
+* package ‘furrr’ successfully unpacked and SHA256 sums checked
+* ‘furrr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘furrr’ as ‘furrr_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (furrr)
+* installing *binary* package ‘SpatialExtremes’ ...
+* package ‘SpatialExtremes’ successfully unpacked and SHA256 sums checked
+* ‘SpatialExtremes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpatialExtremes’ as ‘SpatialExtremes_2.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialExtremes)
+* installing *binary* package ‘kriging’ ...
+* package ‘kriging’ successfully unpacked and SHA256 sums checked
+* ‘kriging’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘kriging’ as ‘kriging_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kriging)
+* installing *binary* package ‘nleqslv’ ...
+* package ‘nleqslv’ successfully unpacked and SHA256 sums checked
+* ‘nleqslv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nleqslv’ as ‘nleqslv_3.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nleqslv)
+* installing *binary* package ‘ordinal’ ...
+* package ‘ordinal’ successfully unpacked and SHA256 sums checked
+* ‘ordinal’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ordinal’ as ‘ordinal_2025.12-29_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ordinal)
+* installing *binary* package ‘multcomp’ ...
+* package ‘multcomp’ successfully unpacked and SHA256 sums checked
+* ‘multcomp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multcomp’ as ‘multcomp_1.4-31_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcomp)
+* installing *binary* package ‘spacetime’ ...
+* package ‘spacetime’ successfully unpacked and SHA256 sums checked
+* ‘spacetime’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spacetime’ as ‘spacetime_1.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spacetime)
+* installing *binary* package ‘formula.tools’ ...
+* package ‘formula.tools’ successfully unpacked and SHA256 sums checked
+* ‘formula.tools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘formula.tools’ as ‘formula.tools_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formula.tools)
+* installing *binary* package ‘ggforce’ ...
+* package ‘ggforce’ successfully unpacked and SHA256 sums checked
+* ‘ggforce’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggforce’ as ‘ggforce_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggforce)
+* installing *binary* package ‘jomo’ ...
+* package ‘jomo’ successfully unpacked and SHA256 sums checked
+* ‘jomo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘jomo’ as ‘jomo_2.7-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jomo)
+* installing *binary* package ‘drc’ ...
+* package ‘drc’ successfully unpacked and SHA256 sums checked
+* ‘drc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘drc’ as ‘drc_3.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (drc)
+* installing *binary* package ‘gstat’ ...
+* package ‘gstat’ successfully unpacked and SHA256 sums checked
+* ‘gstat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gstat’ as ‘gstat_2.1-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gstat)
+* installing *binary* package ‘metR’ ...
+* package ‘metR’ successfully unpacked and SHA256 sums checked
+* ‘metR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metR’ as ‘metR_0.18.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metR)
+* installing *binary* package ‘mitml’ ...
+* package ‘mitml’ successfully unpacked and SHA256 sums checked
+* ‘mitml’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mitml’ as ‘mitml_0.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitml)
+* installing *binary* package ‘mice’ ...
+* package ‘mice’ successfully unpacked and SHA256 sums checked
+* ‘mice’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mice’ as ‘mice_3.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mice)
+* installing *source* package ‘synergyfinder’ ...
+** this is package ‘synergyfinder’ version ‘3.21.0’
+** package ‘synergyfinder’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘synergyfinder’ as ‘synergyfinder_3.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (synergyfinder)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqSJ5iS/downloaded_packages’
+
+real	0m54.467s
+user	0m19.311s
+sys	0m7.768s

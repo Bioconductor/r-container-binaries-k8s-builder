@@ -1,0 +1,424 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BG2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BG2'
+also installing the dependencies ‘listenv’, ‘parallelly’, ‘future’, ‘globals’, ‘shape’, ‘future.apply’, ‘numDeriv’, ‘progressr’, ‘SQUAREM’, ‘diagram’, ‘lava’, ‘farver’, ‘labeling’, ‘RColorBrewer’, ‘viridisLite’, ‘tzdb’, ‘prodlim’, ‘timechange’, ‘gtable’, ‘isoband’, ‘S7’, ‘scales’, ‘proxy’, ‘data.table’, ‘clock’, ‘gower’, ‘hardhat’, ‘ipred’, ‘lubridate’, ‘sparsevctrs’, ‘tidyr’, ‘tidyselect’, ‘timeDate’, ‘stringr’, ‘foreach’, ‘iterators’, ‘RcppArmadillo’, ‘ggplot2’, ‘e1071’, ‘ModelMetrics’, ‘plyr’, ‘pROC’, ‘recipes’, ‘reshape2’, ‘GA’, ‘caret’, ‘formatR’, ‘rrBLUP’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/listenv_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parallelly_1.48.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/future_1.70.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/globals_0.19.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shape_1.4.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/future.apply_1.20.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/progressr_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SQUAREM_2026.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/diagram_1.6.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lava_1.9.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/farver_2.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/labeling_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/viridisLite_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tzdb_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/prodlim_2026.03.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timechange_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gtable_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/isoband_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/S7_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scales_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/proxy_0.4-29.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/data.table_1.18.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clock_0.7.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gower_1.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hardhat_1.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ipred_0.9-15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lubridate_1.9.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sparsevctrs_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyr_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyselect_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timeDate_4052.112.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stringr_1.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/foreach_1.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/iterators_1.0.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppArmadillo_15.4.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggplot2_4.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/e1071_1.7-17.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ModelMetrics_1.2.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plyr_1.8.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pROC_1.19.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/recipes_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reshape2_1.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GA_3.2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/caret_7.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/formatR_1.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rrBLUP_4.6.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BG2_1.13.0.tar.gz'
+* installing *binary* package ‘listenv’ ...
+* package ‘listenv’ successfully unpacked and SHA256 sums checked
+* ‘listenv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘listenv’ as ‘listenv_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listenv)
+* installing *binary* package ‘parallelly’ ...
+* package ‘parallelly’ successfully unpacked and SHA256 sums checked
+* ‘parallelly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parallelly’ as ‘parallelly_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelly)
+* installing *binary* package ‘globals’ ...
+* package ‘globals’ successfully unpacked and SHA256 sums checked
+* ‘globals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘shape’ ...
+* package ‘shape’ successfully unpacked and SHA256 sums checked
+* ‘shape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *binary* package ‘numDeriv’ ...
+* package ‘numDeriv’ successfully unpacked and SHA256 sums checked
+* ‘numDeriv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *binary* package ‘progressr’ ...
+* package ‘progressr’ successfully unpacked and SHA256 sums checked
+* ‘progressr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘progressr’ as ‘progressr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progressr)
+* installing *binary* package ‘SQUAREM’ ...
+* package ‘SQUAREM’ successfully unpacked and SHA256 sums checked
+* ‘SQUAREM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SQUAREM’ as ‘SQUAREM_2026.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SQUAREM)
+* installing *binary* package ‘farver’ ...
+* package ‘farver’ successfully unpacked and SHA256 sums checked
+* ‘farver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
+* installing *binary* package ‘labeling’ ...
+* package ‘labeling’ successfully unpacked and SHA256 sums checked
+* ‘labeling’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘labeling’ as ‘labeling_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labeling)
+* installing *binary* package ‘RColorBrewer’ ...
+* package ‘RColorBrewer’ successfully unpacked and SHA256 sums checked
+* ‘RColorBrewer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *binary* package ‘viridisLite’ ...
+* package ‘viridisLite’ successfully unpacked and SHA256 sums checked
+* ‘viridisLite’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘viridisLite’ as ‘viridisLite_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridisLite)
+* installing *binary* package ‘tzdb’ ...
+* package ‘tzdb’ successfully unpacked and SHA256 sums checked
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘timechange’ ...
+* package ‘timechange’ successfully unpacked and SHA256 sums checked
+* ‘timechange’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *binary* package ‘gtable’ ...
+* package ‘gtable’ successfully unpacked and SHA256 sums checked
+* ‘gtable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gtable’ as ‘gtable_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtable)
+* installing *binary* package ‘isoband’ ...
+* package ‘isoband’ successfully unpacked and SHA256 sums checked
+* ‘isoband’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘isoband’ as ‘isoband_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isoband)
+* installing *binary* package ‘S7’ ...
+* package ‘S7’ successfully unpacked and SHA256 sums checked
+* ‘S7’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘S7’ as ‘S7_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S7)
+* installing *binary* package ‘proxy’ ...
+* package ‘proxy’ successfully unpacked and SHA256 sums checked
+* ‘proxy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-29_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *binary* package ‘data.table’ ...
+* package ‘data.table’ successfully unpacked and SHA256 sums checked
+* ‘data.table’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.18.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘gower’ ...
+* package ‘gower’ successfully unpacked and SHA256 sums checked
+* ‘gower’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gower’ as ‘gower_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gower)
+* installing *binary* package ‘sparsevctrs’ ...
+* package ‘sparsevctrs’ successfully unpacked and SHA256 sums checked
+* ‘sparsevctrs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sparsevctrs’ as ‘sparsevctrs_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparsevctrs)
+* installing *binary* package ‘tidyselect’ ...
+* package ‘tidyselect’ successfully unpacked and SHA256 sums checked
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *binary* package ‘timeDate’ ...
+* package ‘timeDate’ successfully unpacked and SHA256 sums checked
+* ‘timeDate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timeDate’ as ‘timeDate_4052.112_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timeDate)
+* installing *binary* package ‘stringr’ ...
+* package ‘stringr’ successfully unpacked and SHA256 sums checked
+* ‘stringr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stringr’ as ‘stringr_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stringr)
+* installing *binary* package ‘iterators’ ...
+* package ‘iterators’ successfully unpacked and SHA256 sums checked
+* ‘iterators’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *binary* package ‘RcppArmadillo’ ...
+* package ‘RcppArmadillo’ successfully unpacked and SHA256 sums checked
+* ‘RcppArmadillo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_15.4.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *binary* package ‘plyr’ ...
+* package ‘plyr’ successfully unpacked and SHA256 sums checked
+* ‘plyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *binary* package ‘pROC’ ...
+* package ‘pROC’ successfully unpacked and SHA256 sums checked
+* ‘pROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pROC’ as ‘pROC_1.19.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pROC)
+* installing *binary* package ‘formatR’ ...
+* package ‘formatR’ successfully unpacked and SHA256 sums checked
+* ‘formatR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘formatR’ as ‘formatR_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formatR)
+* installing *binary* package ‘rrBLUP’ ...
+* package ‘rrBLUP’ successfully unpacked and SHA256 sums checked
+* ‘rrBLUP’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rrBLUP’ as ‘rrBLUP_4.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rrBLUP)
+* installing *binary* package ‘future’ ...
+* package ‘future’ successfully unpacked and SHA256 sums checked
+* ‘future’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘future’ as ‘future_1.70.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future)
+* installing *binary* package ‘diagram’ ...
+* package ‘diagram’ successfully unpacked and SHA256 sums checked
+* ‘diagram’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *binary* package ‘scales’ ...
+* package ‘scales’ successfully unpacked and SHA256 sums checked
+* ‘scales’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scales’ as ‘scales_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scales)
+* installing *binary* package ‘clock’ ...
+* package ‘clock’ successfully unpacked and SHA256 sums checked
+* ‘clock’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clock’ as ‘clock_0.7.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clock)
+* installing *binary* package ‘hardhat’ ...
+* package ‘hardhat’ successfully unpacked and SHA256 sums checked
+* ‘hardhat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hardhat’ as ‘hardhat_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hardhat)
+* installing *binary* package ‘lubridate’ ...
+* package ‘lubridate’ successfully unpacked and SHA256 sums checked
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *binary* package ‘tidyr’ ...
+* package ‘tidyr’ successfully unpacked and SHA256 sums checked
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
+* installing *binary* package ‘foreach’ ...
+* package ‘foreach’ successfully unpacked and SHA256 sums checked
+* ‘foreach’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *binary* package ‘e1071’ ...
+* package ‘e1071’ successfully unpacked and SHA256 sums checked
+* ‘e1071’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *binary* package ‘ModelMetrics’ ...
+* package ‘ModelMetrics’ successfully unpacked and SHA256 sums checked
+* ‘ModelMetrics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ModelMetrics’ as ‘ModelMetrics_1.2.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ModelMetrics)
+* installing *binary* package ‘reshape2’ ...
+* package ‘reshape2’ successfully unpacked and SHA256 sums checked
+* ‘reshape2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *binary* package ‘future.apply’ ...
+* package ‘future.apply’ successfully unpacked and SHA256 sums checked
+* ‘future.apply’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘future.apply’ as ‘future.apply_1.20.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future.apply)
+* installing *binary* package ‘ggplot2’ ...
+* package ‘ggplot2’ successfully unpacked and SHA256 sums checked
+* ‘ggplot2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggplot2’ as ‘ggplot2_4.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggplot2)
+* installing *binary* package ‘GA’ ...
+* package ‘GA’ successfully unpacked and SHA256 sums checked
+* ‘GA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GA’ as ‘GA_3.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GA)
+* installing *binary* package ‘lava’ ...
+* package ‘lava’ successfully unpacked and SHA256 sums checked
+* ‘lava’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lava’ as ‘lava_1.9.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lava)
+* installing *binary* package ‘prodlim’ ...
+* package ‘prodlim’ successfully unpacked and SHA256 sums checked
+* ‘prodlim’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘prodlim’ as ‘prodlim_2026.03.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prodlim)
+* installing *binary* package ‘ipred’ ...
+* package ‘ipred’ successfully unpacked and SHA256 sums checked
+* ‘ipred’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ipred’ as ‘ipred_0.9-15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ipred)
+* installing *binary* package ‘recipes’ ...
+* package ‘recipes’ successfully unpacked and SHA256 sums checked
+* ‘recipes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘recipes’ as ‘recipes_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (recipes)
+* installing *binary* package ‘caret’ ...
+* package ‘caret’ successfully unpacked and SHA256 sums checked
+* ‘caret’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘caret’ as ‘caret_7.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caret)
+* installing *source* package ‘BG2’ ...
+** this is package ‘BG2’ version ‘1.13.0’
+** package ‘BG2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BG2’ as ‘BG2_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BG2)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKVf05f/downloaded_packages’
+
+real	0m36.205s
+user	0m25.772s
+sys	0m12.383s

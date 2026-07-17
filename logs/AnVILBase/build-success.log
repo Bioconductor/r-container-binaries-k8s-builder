@@ -1,0 +1,212 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AnVILBase'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AnVILBase'
+also installing the dependencies ‘formatR’, ‘lambda.r’, ‘futile.options’, ‘filelock’, ‘stringr’, ‘tidyselect’, ‘futile.logger’, ‘keyring’, ‘rapiclient’, ‘rjsoncons’, ‘tidyr’, ‘httr’, ‘AnVIL’, ‘AnVILAz’, ‘AnVILGCP’, ‘GCPtools’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/formatR_1.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lambda.r_1.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/futile.options_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/filelock_1.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stringr_1.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyselect_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/futile.logger_1.4.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/keyring_1.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rapiclient_0.1.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rjsoncons_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyr_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httr_1.4.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnVIL_1.25.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnVILAz_1.7.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnVILGCP_1.7.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GCPtools_1.3.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnVILBase_1.7.0.tar.gz'
+* installing *binary* package ‘formatR’ ...
+* package ‘formatR’ successfully unpacked and SHA256 sums checked
+* ‘formatR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘formatR’ as ‘formatR_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formatR)
+* installing *binary* package ‘futile.options’ ...
+* package ‘futile.options’ successfully unpacked and SHA256 sums checked
+* ‘futile.options’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘futile.options’ as ‘futile.options_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.options)
+* installing *binary* package ‘filelock’ ...
+* package ‘filelock’ successfully unpacked and SHA256 sums checked
+* ‘filelock’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘filelock’ as ‘filelock_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (filelock)
+* installing *binary* package ‘stringr’ ...
+* package ‘stringr’ successfully unpacked and SHA256 sums checked
+* ‘stringr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stringr’ as ‘stringr_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stringr)
+* installing *binary* package ‘tidyselect’ ...
+* package ‘tidyselect’ successfully unpacked and SHA256 sums checked
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *binary* package ‘rjsoncons’ ...
+* package ‘rjsoncons’ successfully unpacked and SHA256 sums checked
+* ‘rjsoncons’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rjsoncons’ as ‘rjsoncons_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjsoncons)
+* installing *binary* package ‘httr’ ...
+* package ‘httr’ successfully unpacked and SHA256 sums checked
+* ‘httr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘httr’ as ‘httr_1.4.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httr)
+* installing *binary* package ‘lambda.r’ ...
+* package ‘lambda.r’ successfully unpacked and SHA256 sums checked
+* ‘lambda.r’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lambda.r’ as ‘lambda.r_1.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lambda.r)
+* installing *binary* package ‘keyring’ ...
+* package ‘keyring’ successfully unpacked and SHA256 sums checked
+* ‘keyring’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘keyring’ as ‘keyring_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (keyring)
+* installing *binary* package ‘rapiclient’ ...
+* package ‘rapiclient’ successfully unpacked and SHA256 sums checked
+* ‘rapiclient’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rapiclient’ as ‘rapiclient_0.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rapiclient)
+* installing *binary* package ‘tidyr’ ...
+* package ‘tidyr’ successfully unpacked and SHA256 sums checked
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
+* installing *source* package ‘AnVILBase’ ...
+** this is package ‘AnVILBase’ version ‘1.7.0’
+** package ‘AnVILBase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnVILBase’ as ‘AnVILBase_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnVILBase)
+* installing *binary* package ‘futile.logger’ ...
+* package ‘futile.logger’ successfully unpacked and SHA256 sums checked
+* ‘futile.logger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘futile.logger’ as ‘futile.logger_1.4.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.logger)
+* installing *source* package ‘AnVILAz’ ...
+** this is package ‘AnVILAz’ version ‘1.7.2’
+** package ‘AnVILAz’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnVILAz’ as ‘AnVILAz_1.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnVILAz)
+* installing *source* package ‘GCPtools’ ...
+** this is package ‘GCPtools’ version ‘1.3.2’
+** package ‘GCPtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GCPtools’ as ‘GCPtools_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GCPtools)
+* installing *source* package ‘AnVIL’ ...
+** this is package ‘AnVIL’ version ‘1.25.1’
+** package ‘AnVIL’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnVIL’ as ‘AnVIL_1.25.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnVIL)
+* installing *source* package ‘AnVILGCP’ ...
+** this is package ‘AnVILGCP’ version ‘1.7.3’
+** package ‘AnVILGCP’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnVILGCP’ as ‘AnVILGCP_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnVILGCP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpepEJDb/downloaded_packages’
+
+real	0m32.359s
+user	0m20.736s
+sys	0m9.357s

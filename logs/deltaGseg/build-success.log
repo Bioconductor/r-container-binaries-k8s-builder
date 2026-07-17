@@ -1,0 +1,144 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''deltaGseg'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'deltaGseg'
+also installing the dependencies ‘xts’, ‘TTR’, ‘zoo’, ‘quantmod’, ‘timeSeries’, ‘gss’, ‘stabledist’, ‘changepoint’, ‘wavethresh’, ‘tseries’, ‘pvclust’, ‘fBasics’, ‘reshape’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xts_0.14.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TTR_0.24.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/zoo_1.8-15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/quantmod_0.4.29.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timeSeries_4052.112.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gss_2.2-10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stabledist_0.7-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/changepoint_2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/wavethresh_4.7.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tseries_0.10-62.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pvclust_2.2-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fBasics_4052.98.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reshape_0.8.10.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/deltaGseg_1.53.0.tar.gz'
+* installing *binary* package ‘zoo’ ...
+* package ‘zoo’ successfully unpacked and SHA256 sums checked
+* ‘zoo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘timeSeries’ ...
+* package ‘timeSeries’ successfully unpacked and SHA256 sums checked
+* ‘timeSeries’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timeSeries’ as ‘timeSeries_4052.112_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timeSeries)
+* installing *binary* package ‘gss’ ...
+* package ‘gss’ successfully unpacked and SHA256 sums checked
+* ‘gss’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gss’ as ‘gss_2.2-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gss)
+* installing *binary* package ‘stabledist’ ...
+* package ‘stabledist’ successfully unpacked and SHA256 sums checked
+* ‘stabledist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stabledist’ as ‘stabledist_0.7-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stabledist)
+* installing *binary* package ‘wavethresh’ ...
+* package ‘wavethresh’ successfully unpacked and SHA256 sums checked
+* ‘wavethresh’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wavethresh’ as ‘wavethresh_4.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wavethresh)
+* installing *binary* package ‘pvclust’ ...
+* package ‘pvclust’ successfully unpacked and SHA256 sums checked
+* ‘pvclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pvclust’ as ‘pvclust_2.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pvclust)
+* installing *binary* package ‘reshape’ ...
+* package ‘reshape’ successfully unpacked and SHA256 sums checked
+* ‘reshape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reshape’ as ‘reshape_0.8.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape)
+* installing *binary* package ‘xts’ ...
+* package ‘xts’ successfully unpacked and SHA256 sums checked
+* ‘xts’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xts’ as ‘xts_0.14.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xts)
+* installing *binary* package ‘changepoint’ ...
+* package ‘changepoint’ successfully unpacked and SHA256 sums checked
+* ‘changepoint’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘changepoint’ as ‘changepoint_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (changepoint)
+* installing *binary* package ‘fBasics’ ...
+* package ‘fBasics’ successfully unpacked and SHA256 sums checked
+* ‘fBasics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fBasics’ as ‘fBasics_4052.98_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fBasics)
+* installing *binary* package ‘TTR’ ...
+* package ‘TTR’ successfully unpacked and SHA256 sums checked
+* ‘TTR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TTR’ as ‘TTR_0.24.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TTR)
+* installing *binary* package ‘quantmod’ ...
+* package ‘quantmod’ successfully unpacked and SHA256 sums checked
+* ‘quantmod’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘quantmod’ as ‘quantmod_0.4.29_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantmod)
+* installing *binary* package ‘tseries’ ...
+* package ‘tseries’ successfully unpacked and SHA256 sums checked
+* ‘tseries’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tseries’ as ‘tseries_0.10-62_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tseries)
+* installing *source* package ‘deltaGseg’ ...
+** this is package ‘deltaGseg’ version ‘1.53.0’
+** package ‘deltaGseg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘deltaGseg’ as ‘deltaGseg_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deltaGseg)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpq22gKC/downloaded_packages’
+
+real	0m27.912s
+user	0m15.059s
+sys	0m4.987s

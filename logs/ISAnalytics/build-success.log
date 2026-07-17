@@ -1,0 +1,237 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ISAnalytics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ISAnalytics'
+also installing the dependencies ‘reactR’, ‘classInt’, ‘phosphoricons’, ‘reactable’, ‘toastui’, ‘shinybusy’, ‘GlobalOptions’, ‘snow’, ‘shinyWidgets’, ‘datamods’, ‘extraDistr’, ‘ggalluvial’, ‘flexdashboard’, ‘circlize’, ‘eulerr’, ‘pheatmap’, ‘BiocParallel’, ‘doFuture’, ‘Rcapture’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactR_0.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/classInt_0.4-11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phosphoricons_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactable_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/toastui_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinybusy_0.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GlobalOptions_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/snow_0.4-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyWidgets_0.9.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/datamods_1.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/extraDistr_1.10.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggalluvial_0.12.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flexdashboard_0.6.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/circlize_0.4.18.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/eulerr_8.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pheatmap_1.0.13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BiocParallel_1.47.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/doFuture_1.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rcapture_1.4-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ISAnalytics_1.23.1.tar.gz'
+* installing *binary* package ‘reactR’ ...
+* package ‘reactR’ successfully unpacked and SHA256 sums checked
+* ‘reactR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactR’ as ‘reactR_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactR)
+* installing *binary* package ‘classInt’ ...
+* package ‘classInt’ successfully unpacked and SHA256 sums checked
+* ‘classInt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘classInt’ as ‘classInt_0.4-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (classInt)
+* installing *binary* package ‘phosphoricons’ ...
+* package ‘phosphoricons’ successfully unpacked and SHA256 sums checked
+* ‘phosphoricons’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phosphoricons’ as ‘phosphoricons_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phosphoricons)
+* installing *binary* package ‘shinybusy’ ...
+* package ‘shinybusy’ successfully unpacked and SHA256 sums checked
+* ‘shinybusy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinybusy’ as ‘shinybusy_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinybusy)
+* installing *binary* package ‘GlobalOptions’ ...
+* package ‘GlobalOptions’ successfully unpacked and SHA256 sums checked
+* ‘GlobalOptions’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GlobalOptions’ as ‘GlobalOptions_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GlobalOptions)
+* installing *binary* package ‘snow’ ...
+* package ‘snow’ successfully unpacked and SHA256 sums checked
+* ‘snow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘snow’ as ‘snow_0.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snow)
+* installing *binary* package ‘shinyWidgets’ ...
+* package ‘shinyWidgets’ successfully unpacked and SHA256 sums checked
+* ‘shinyWidgets’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyWidgets’ as ‘shinyWidgets_0.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyWidgets)
+* installing *binary* package ‘extraDistr’ ...
+* package ‘extraDistr’ successfully unpacked and SHA256 sums checked
+* ‘extraDistr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘extraDistr’ as ‘extraDistr_1.10.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (extraDistr)
+* installing *binary* package ‘ggalluvial’ ...
+* package ‘ggalluvial’ successfully unpacked and SHA256 sums checked
+* ‘ggalluvial’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggalluvial’ as ‘ggalluvial_0.12.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggalluvial)
+* installing *binary* package ‘flexdashboard’ ...
+* package ‘flexdashboard’ successfully unpacked and SHA256 sums checked
+* ‘flexdashboard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flexdashboard’ as ‘flexdashboard_0.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexdashboard)
+* installing *binary* package ‘eulerr’ ...
+* package ‘eulerr’ successfully unpacked and SHA256 sums checked
+* ‘eulerr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘eulerr’ as ‘eulerr_8.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (eulerr)
+* installing *binary* package ‘pheatmap’ ...
+* package ‘pheatmap’ successfully unpacked and SHA256 sums checked
+* ‘pheatmap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pheatmap’ as ‘pheatmap_1.0.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pheatmap)
+* installing *binary* package ‘doFuture’ ...
+* package ‘doFuture’ successfully unpacked and SHA256 sums checked
+* ‘doFuture’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘doFuture’ as ‘doFuture_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doFuture)
+* installing *binary* package ‘Rcapture’ ...
+* package ‘Rcapture’ successfully unpacked and SHA256 sums checked
+* ‘Rcapture’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rcapture’ as ‘Rcapture_1.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rcapture)
+* installing *binary* package ‘reactable’ ...
+* package ‘reactable’ successfully unpacked and SHA256 sums checked
+* ‘reactable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactable’ as ‘reactable_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactable)
+* installing *binary* package ‘toastui’ ...
+* package ‘toastui’ successfully unpacked and SHA256 sums checked
+* ‘toastui’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘toastui’ as ‘toastui_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (toastui)
+* installing *binary* package ‘circlize’ ...
+* package ‘circlize’ successfully unpacked and SHA256 sums checked
+* ‘circlize’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘circlize’ as ‘circlize_0.4.18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (circlize)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘BiocParallel’ ...
+** this is package ‘BiocParallel’ version ‘1.47.0’
+** package ‘BiocParallel’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking for g++ -std=gnu++20 option to enable C++11 features... none needed
+checking for library containing shm_open... none required
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/mman.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ipcmutex.cpp -o ipcmutex.o
+In file included from /mnt/library/BH/include/boost/intrusive/detail/hook_traits.hpp:26,
+                 from /mnt/library/BH/include/boost/intrusive/detail/get_value_traits.hpp:26,
+                 from /mnt/library/BH/include/boost/intrusive/bstree.hpp:39,
+                 from /mnt/library/BH/include/boost/intrusive/rbtree.hpp:23,
+                 from /mnt/library/BH/include/boost/intrusive/set.hpp:20,
+                 from /mnt/library/BH/include/boost/interprocess/indexes/iset_index.hpp:30,
+                 from ./boost_patch_1_87/interprocess/segment_manager.hpp:35,
+                 from ./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:30,
+                 from boost_patch_1_87/interprocess/managed_shared_memory.hpp:25,
+                 from ipcmutex.cpp:14:
+/mnt/library/BH/include/boost/intrusive/detail/parent_from_member.hpp:25:10: fatal error: boost/move/detail/launder.hpp: No such file or directory
+   25 | #include <boost/move/detail/launder.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [/usr/local/lib/R/etc/Makeconf:199: ipcmutex.o] Error 1
+ERROR: compilation failed for package ‘BiocParallel’
+* removing ‘/tmp/library/BiocParallel’
+* installing *binary* package ‘datamods’ ...
+* package ‘datamods’ successfully unpacked and SHA256 sums checked
+* ‘datamods’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘datamods’ as ‘datamods_1.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (datamods)
+* installing *source* package ‘ISAnalytics’ ...
+** this is package ‘ISAnalytics’ version ‘1.23.1’
+** package ‘ISAnalytics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ISAnalytics’ as ‘ISAnalytics_1.23.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ISAnalytics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpkP5ftW/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘BiocParallel’ had non-zero exit status
+
+real	0m47.314s
+user	0m24.257s
+sys	0m8.897s

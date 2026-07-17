@@ -1,0 +1,87 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RImmPort'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RImmPort'
+also installing the dependencies ‘gsubfn’, ‘proto’, ‘chron’, ‘blob’, ‘sqldf’, ‘RSQLite’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gsubfn_0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/proto_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/chron_2.3-63.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/blob_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sqldf_0.4-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RSQLite_3.53.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RImmPort_1.41.0.tar.gz'
+* installing *binary* package ‘proto’ ...
+* package ‘proto’ successfully unpacked and SHA256 sums checked
+* ‘proto’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘proto’ as ‘proto_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proto)
+* installing *binary* package ‘chron’ ...
+* package ‘chron’ successfully unpacked and SHA256 sums checked
+* ‘chron’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘chron’ as ‘chron_2.3-63_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chron)
+* installing *binary* package ‘blob’ ...
+* package ‘blob’ successfully unpacked and SHA256 sums checked
+* ‘blob’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘blob’ as ‘blob_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (blob)
+* installing *binary* package ‘gsubfn’ ...
+* package ‘gsubfn’ successfully unpacked and SHA256 sums checked
+* ‘gsubfn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gsubfn’ as ‘gsubfn_0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gsubfn)
+* installing *binary* package ‘RSQLite’ ...
+* package ‘RSQLite’ successfully unpacked and SHA256 sums checked
+* ‘RSQLite’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RSQLite’ as ‘RSQLite_3.53.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RSQLite)
+* installing *binary* package ‘sqldf’ ...
+* package ‘sqldf’ successfully unpacked and SHA256 sums checked
+* ‘sqldf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sqldf’ as ‘sqldf_0.4-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sqldf)
+* installing *source* package ‘RImmPort’ ...
+** this is package ‘RImmPort’ version ‘1.41.0’
+** package ‘RImmPort’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RImmPort’ as ‘RImmPort_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RImmPort)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzziuvZ/downloaded_packages’
+
+real	0m17.639s
+user	0m9.912s
+sys	0m3.002s

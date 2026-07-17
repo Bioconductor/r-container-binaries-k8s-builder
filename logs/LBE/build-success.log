@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''LBE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'LBE'
+also installing the dependency ‘qvalue’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/qvalue_2.45.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/LBE_1.81.0.tar.gz'
+* installing *source* package ‘qvalue’ ...
+** this is package ‘qvalue’ version ‘2.45.0’
+** package ‘qvalue’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qvalue’ as ‘qvalue_2.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qvalue)
+* installing *source* package ‘LBE’ ...
+** this is package ‘LBE’ version ‘1.81.0’
+** package ‘LBE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LBE’ as ‘LBE_1.81.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LBE)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWvTNKx/downloaded_packages’
+
+real	0m24.464s
+user	0m7.254s
+sys	0m3.092s

@@ -1,0 +1,351 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ComPrAn'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ComPrAn'
+also installing the dependencies ‘bit’, ‘formatR’, ‘rematch’, ‘bit64’, ‘lambda.r’, ‘futile.options’, ‘hms’, ‘cellranger’, ‘progress’, ‘R.oo’, ‘R.methodsS3’, ‘vroom’, ‘tzdb’, ‘generics’, ‘tidyselect’, ‘gtable’, ‘isoband’, ‘S7’, ‘futile.logger’, ‘haven’, ‘readxl’, ‘writexl’, ‘R.utils’, ‘readr’, ‘farver’, ‘labeling’, ‘viridisLite’, ‘data.table’, ‘dplyr’, ‘forcats’, ‘ggplot2’, ‘tidyr’, ‘stringr’, ‘RColorBrewer’, ‘VennDiagram’, ‘rio’, ‘scales’, ‘shinydashboard’, ‘shinyjs’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bit_4.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/formatR_1.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rematch_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bit64_4.8.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lambda.r_1.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/futile.options_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hms_1.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cellranger_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/progress_1.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.oo_1.27.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.methodsS3_1.8.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/vroom_1.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tzdb_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/generics_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyselect_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gtable_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/isoband_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/S7_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/futile.logger_1.4.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/haven_2.5.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readxl_1.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/writexl_1.5.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/R.utils_2.13.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readr_2.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/farver_2.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/labeling_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/viridisLite_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/data.table_1.18.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dplyr_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/forcats_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggplot2_4.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyr_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stringr_1.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/VennDiagram_1.8.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rio_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scales_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinydashboard_0.7.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyjs_2.1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ComPrAn_1.21.0.tar.gz'
+* installing *binary* package ‘bit’ ...
+* package ‘bit’ successfully unpacked and SHA256 sums checked
+* ‘bit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bit’ as ‘bit_4.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit)
+* installing *binary* package ‘formatR’ ...
+* package ‘formatR’ successfully unpacked and SHA256 sums checked
+* ‘formatR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘formatR’ as ‘formatR_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formatR)
+* installing *binary* package ‘rematch’ ...
+* package ‘rematch’ successfully unpacked and SHA256 sums checked
+* ‘rematch’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rematch’ as ‘rematch_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rematch)
+* installing *binary* package ‘futile.options’ ...
+* package ‘futile.options’ successfully unpacked and SHA256 sums checked
+* ‘futile.options’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘futile.options’ as ‘futile.options_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.options)
+* installing *binary* package ‘hms’ ...
+* package ‘hms’ successfully unpacked and SHA256 sums checked
+* ‘hms’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hms’ as ‘hms_1.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hms)
+* installing *binary* package ‘R.methodsS3’ ...
+* package ‘R.methodsS3’ successfully unpacked and SHA256 sums checked
+* ‘R.methodsS3’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *binary* package ‘tzdb’ ...
+* package ‘tzdb’ successfully unpacked and SHA256 sums checked
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘generics’ ...
+* package ‘generics’ successfully unpacked and SHA256 sums checked
+* ‘generics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *binary* package ‘tidyselect’ ...
+* package ‘tidyselect’ successfully unpacked and SHA256 sums checked
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *binary* package ‘gtable’ ...
+* package ‘gtable’ successfully unpacked and SHA256 sums checked
+* ‘gtable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gtable’ as ‘gtable_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtable)
+* installing *binary* package ‘isoband’ ...
+* package ‘isoband’ successfully unpacked and SHA256 sums checked
+* ‘isoband’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘isoband’ as ‘isoband_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isoband)
+* installing *binary* package ‘S7’ ...
+* package ‘S7’ successfully unpacked and SHA256 sums checked
+* ‘S7’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘S7’ as ‘S7_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S7)
+* installing *binary* package ‘writexl’ ...
+* package ‘writexl’ successfully unpacked and SHA256 sums checked
+* ‘writexl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘writexl’ as ‘writexl_1.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (writexl)
+* installing *binary* package ‘farver’ ...
+* package ‘farver’ successfully unpacked and SHA256 sums checked
+* ‘farver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
+* installing *binary* package ‘labeling’ ...
+* package ‘labeling’ successfully unpacked and SHA256 sums checked
+* ‘labeling’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘labeling’ as ‘labeling_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labeling)
+* installing *binary* package ‘viridisLite’ ...
+* package ‘viridisLite’ successfully unpacked and SHA256 sums checked
+* ‘viridisLite’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘viridisLite’ as ‘viridisLite_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridisLite)
+* installing *binary* package ‘data.table’ ...
+* package ‘data.table’ successfully unpacked and SHA256 sums checked
+* ‘data.table’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.18.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘forcats’ ...
+* package ‘forcats’ successfully unpacked and SHA256 sums checked
+* ‘forcats’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘forcats’ as ‘forcats_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (forcats)
+* installing *binary* package ‘stringr’ ...
+* package ‘stringr’ successfully unpacked and SHA256 sums checked
+* ‘stringr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stringr’ as ‘stringr_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stringr)
+* installing *binary* package ‘RColorBrewer’ ...
+* package ‘RColorBrewer’ successfully unpacked and SHA256 sums checked
+* ‘RColorBrewer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *binary* package ‘shinydashboard’ ...
+* package ‘shinydashboard’ successfully unpacked and SHA256 sums checked
+* ‘shinydashboard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinydashboard’ as ‘shinydashboard_0.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinydashboard)
+* installing *binary* package ‘shinyjs’ ...
+* package ‘shinyjs’ successfully unpacked and SHA256 sums checked
+* ‘shinyjs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyjs’ as ‘shinyjs_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyjs)
+* installing *binary* package ‘bit64’ ...
+* package ‘bit64’ successfully unpacked and SHA256 sums checked
+* ‘bit64’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bit64’ as ‘bit64_4.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit64)
+* installing *binary* package ‘lambda.r’ ...
+* package ‘lambda.r’ successfully unpacked and SHA256 sums checked
+* ‘lambda.r’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lambda.r’ as ‘lambda.r_1.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lambda.r)
+* installing *binary* package ‘cellranger’ ...
+* package ‘cellranger’ successfully unpacked and SHA256 sums checked
+* ‘cellranger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cellranger’ as ‘cellranger_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellranger)
+* installing *binary* package ‘progress’ ...
+* package ‘progress’ successfully unpacked and SHA256 sums checked
+* ‘progress’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘progress’ as ‘progress_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progress)
+* installing *binary* package ‘R.oo’ ...
+* package ‘R.oo’ successfully unpacked and SHA256 sums checked
+* ‘R.oo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.27.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *binary* package ‘dplyr’ ...
+* package ‘dplyr’ successfully unpacked and SHA256 sums checked
+* ‘dplyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dplyr)
+* installing *binary* package ‘scales’ ...
+* package ‘scales’ successfully unpacked and SHA256 sums checked
+* ‘scales’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scales’ as ‘scales_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scales)
+* installing *binary* package ‘vroom’ ...
+* package ‘vroom’ successfully unpacked and SHA256 sums checked
+* ‘vroom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘vroom’ as ‘vroom_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vroom)
+* installing *binary* package ‘futile.logger’ ...
+* package ‘futile.logger’ successfully unpacked and SHA256 sums checked
+* ‘futile.logger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘futile.logger’ as ‘futile.logger_1.4.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.logger)
+* installing *binary* package ‘readxl’ ...
+* package ‘readxl’ successfully unpacked and SHA256 sums checked
+* ‘readxl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readxl’ as ‘readxl_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readxl)
+* installing *binary* package ‘R.utils’ ...
+* package ‘R.utils’ successfully unpacked and SHA256 sums checked
+* ‘R.utils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *binary* package ‘ggplot2’ ...
+* package ‘ggplot2’ successfully unpacked and SHA256 sums checked
+* ‘ggplot2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggplot2’ as ‘ggplot2_4.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggplot2)
+* installing *binary* package ‘tidyr’ ...
+* package ‘tidyr’ successfully unpacked and SHA256 sums checked
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
+* installing *binary* package ‘readr’ ...
+* package ‘readr’ successfully unpacked and SHA256 sums checked
+* ‘readr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readr’ as ‘readr_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readr)
+* installing *binary* package ‘VennDiagram’ ...
+* package ‘VennDiagram’ successfully unpacked and SHA256 sums checked
+* ‘VennDiagram’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VennDiagram)
+* installing *binary* package ‘haven’ ...
+* package ‘haven’ successfully unpacked and SHA256 sums checked
+* ‘haven’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘haven’ as ‘haven_2.5.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (haven)
+* installing *binary* package ‘rio’ ...
+* package ‘rio’ successfully unpacked and SHA256 sums checked
+* ‘rio’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rio’ as ‘rio_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rio)
+* installing *source* package ‘ComPrAn’ ...
+** this is package ‘ComPrAn’ version ‘1.21.0’
+** package ‘ComPrAn’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ComPrAn’ as ‘ComPrAn_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ComPrAn)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpi7Zsnd/downloaded_packages’
+
+real	0m28.474s
+user	0m21.068s
+sys	0m10.023s

@@ -1,0 +1,515 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MeLSI'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MeLSI'
+also installing the dependencies ‘DEoptimR’, ‘S4Vectors’, ‘IRanges’, ‘XVector’, ‘Seqinfo’, ‘tensorA’, ‘robustbase’, ‘bayesm’, ‘snow’, ‘Biostrings’, ‘compositions’, ‘Rtsne’, ‘ape’, ‘biomformat’, ‘multtest’, ‘BiocParallel’, ‘microbiome’, ‘phyloseq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DEoptimR_1.2-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/S4Vectors_0.51.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/IRanges_2.47.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/XVector_0.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Seqinfo_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tensorA_0.36.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/robustbase_0.99-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bayesm_3.1-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/snow_0.4-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Biostrings_2.81.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/compositions_2.0-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rtsne_0.17.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ape_5.8-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/biomformat_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/multtest_2.69.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BiocParallel_1.47.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/microbiome_1.35.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/phyloseq_1.57.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MeLSI_1.1.7.tar.gz'
+* installing *binary* package ‘DEoptimR’ ...
+* package ‘DEoptimR’ successfully unpacked and SHA256 sums checked
+* ‘DEoptimR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DEoptimR’ as ‘DEoptimR_1.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEoptimR)
+* installing *source* package ‘S4Vectors’ ...
+** this is package ‘S4Vectors’ version ‘0.51.5’
+** package ‘S4Vectors’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c AEbufs.c -o AEbufs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DFrame_class.c -o DFrame_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Hits_class.c -o Hits_class.o
+In file included from /usr/include/string.h:548,
+                 from /usr/local/lib/R/include/R_ext/RS.h:34,
+                 from /usr/local/lib/R/include/Rdefines.h:38,
+                 from ../inst/include/S4Vectors_defines.h:18,
+                 from S4Vectors.h:1,
+                 from Hits_class.c:4:
+In function ‘memcpy’,
+    inlined from ‘tsort_hits’ at Hits_class.c:113:3:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:10: warning: ‘__builtin_memcpy’ specified bound between 18446744065119617024 and 18446744073709551612 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LLint_class.c -o LLint_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c List_class.c -o List_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_S4Vectors.c -o R_init_S4Vectors.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_class.c -o Rle_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_utils.c -o Rle_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SEXP_utils.c -o SEXP_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleList_class.c -o SimpleList_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c character_utils.c -o character_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hash_utils.c -o hash_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integer_utils.c -o integer_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logical_utils.c -o logical_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c map_ranges_to_runs.c -o map_ranges_to_runs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raw_utils.c -o raw_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c safe_arithm.c -o safe_arithm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sort_utils.c -o sort_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subsetting_utils.c -o subsetting_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_utils.c -o vector_utils.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o S4Vectors.so AEbufs.o DFrame_class.o Hits_class.o LLint_class.o List_class.o R_init_S4Vectors.o Rle_class.o Rle_utils.o SEXP_utils.o SimpleList_class.o character_utils.o hash_utils.o integer_utils.o logical_utils.o map_ranges_to_runs.o raw_utils.o safe_arithm.o sort_utils.o subsetting_utils.o vector_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-S4Vectors/00new/S4Vectors/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘normalizeSingleBracketReplacementValue’ with signature ‘"List"’: no definition for class “List”
+Creating a new generic function for ‘unname’ in package ‘S4Vectors’
+Creating a new generic function for ‘expand.grid’ in package ‘S4Vectors’
+Creating a new generic function for ‘findMatches’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"Hits","DFrame"’: no definition for class “DFrame”
+Creating a generic function for ‘as.factor’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tabulate’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘cov’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘cor’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘nchar’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substring’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘nlevels’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"data.table","DFrame"’: no definition for class “data.table”
+Creating a generic function for ‘complete.cases’ from package ‘stats’ in package ‘S4Vectors’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘S4Vectors’ as ‘S4Vectors_0.51.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S4Vectors)
+* installing *binary* package ‘tensorA’ ...
+* package ‘tensorA’ successfully unpacked and SHA256 sums checked
+* ‘tensorA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tensorA’ as ‘tensorA_0.36.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensorA)
+* installing *binary* package ‘bayesm’ ...
+* package ‘bayesm’ successfully unpacked and SHA256 sums checked
+* ‘bayesm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bayesm’ as ‘bayesm_3.1-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bayesm)
+* installing *binary* package ‘snow’ ...
+* package ‘snow’ successfully unpacked and SHA256 sums checked
+* ‘snow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘snow’ as ‘snow_0.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snow)
+* installing *binary* package ‘Rtsne’ ...
+* package ‘Rtsne’ successfully unpacked and SHA256 sums checked
+* ‘Rtsne’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rtsne’ as ‘Rtsne_0.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rtsne)
+* installing *binary* package ‘ape’ ...
+* package ‘ape’ successfully unpacked and SHA256 sums checked
+* ‘ape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ape’ as ‘ape_5.8-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ape)
+* installing *source* package ‘biomformat’ ...
+** this is package ‘biomformat’ version ‘1.41.0’
+** package ‘biomformat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘nrow’ from package ‘base’ in package ‘biomformat’
+Creating a generic function for ‘ncol’ from package ‘base’ in package ‘biomformat’
+Creating a generic function for ‘rownames’ from package ‘base’ in package ‘biomformat’
+Creating a generic function for ‘colnames’ from package ‘base’ in package ‘biomformat’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biomformat’ as ‘biomformat_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomformat)
+* installing *source* package ‘multtest’ ...
+** this is package ‘multtest’ version ‘2.69.0’
+** package ‘multtest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rpack.c -o Rpack.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c VScount.c -o VScount.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c block_sampling_fixed.c -o block_sampling_fixed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bootloop.c -o bootloop.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mt.c -o mt.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pairt_sampling.c -o pairt_sampling.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pairt_sampling_fixed.c -o pairt_sampling_fixed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c random.c -o random.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampling.c -o sampling.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampling_fixed.c -o sampling_fixed.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stat_func.c -o stat_func.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -DUSEDOUBLE -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stat_order.c -o stat_order.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o multtest.so Rpack.o VScount.o block_sampling_fixed.o bootloop.o mt.o pairt_sampling.o pairt_sampling_fixed.o random.o sampling.o sampling_fixed.o stat_func.o stat_order.o -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-multtest/00new/multtest/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multtest’ as ‘multtest_2.69.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multtest)
+* installing *source* package ‘MeLSI’ ...
+** this is package ‘MeLSI’ version ‘1.1.7’
+** package ‘MeLSI’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c melsi_fstat.cpp -o melsi_fstat.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o MeLSI.so RcppExports.o melsi_fstat.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-MeLSI/00new/MeLSI/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MeLSI’ as ‘MeLSI_1.1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MeLSI)
+* installing *source* package ‘IRanges’ ...
+** this is package ‘IRanges’ version ‘2.47.2’
+** package ‘IRanges’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedAtomicList_utils.c -o CompressedAtomicList_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedIRangesList_class.c -o CompressedIRangesList_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedList_class.c -o CompressedList_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Grouping_class.c -o Grouping_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IPosRanges_comparison.c -o IPosRanges_comparison.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_class.c -o IRanges_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_constructor.c -o IRanges_constructor.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NCList.c -o NCList.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_IRanges.c -o R_init_IRanges.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ranges_class.c -o Ranges_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RleViews_summarization.c -o RleViews_summarization.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleIRangesList_class.c -o SimpleIRangesList_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coverage_methods.c -o coverage_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extractListFragments.c -o extractListFragments.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inter_range_methods.c -o inter_range_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c thread_control.c -o thread_control.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o IRanges.so CompressedAtomicList_utils.o CompressedIRangesList_class.o CompressedList_class.o Grouping_class.o IPosRanges_comparison.o IRanges_class.o IRanges_constructor.o NCList.o R_init_IRanges.o Ranges_class.o RleViews_summarization.o S4Vectors_stubs.o SimpleIRangesList_class.o coverage_methods.o extractListFragments.o inter_range_methods.o thread_control.o -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-IRanges/00new/IRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘drop’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘IRanges’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘startsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘endsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘IRanges’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IRanges’ as ‘IRanges_2.47.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IRanges)
+* installing *binary* package ‘robustbase’ ...
+* package ‘robustbase’ successfully unpacked and SHA256 sums checked
+* ‘robustbase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘robustbase’ as ‘robustbase_0.99-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (robustbase)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘BiocParallel’ ...
+** this is package ‘BiocParallel’ version ‘1.47.0’
+** package ‘BiocParallel’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking for g++ -std=gnu++20 option to enable C++11 features... none needed
+checking for library containing shm_open... none required
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/mman.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ipcmutex.cpp -o ipcmutex.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocParallel.so cpp11.o ipcmutex.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-BiocParallel/00new/BiocParallel/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BiocParallel’ as ‘BiocParallel_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocParallel)
+* installing *source* package ‘XVector’ ...
+** this is package ‘XVector’ version ‘0.53.0’
+** package ‘XVector’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ocopy_byteblocks.c -o Ocopy_byteblocks.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RDS_random_access.c -o RDS_random_access.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_XVector.c -o R_init_XVector.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedDouble_class.c -o SharedDouble_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedInteger_class.c -o SharedInteger_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedRaw_class.c -o SharedRaw_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedVector_class.c -o SharedVector_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XDouble_class.c -o XDouble_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XInteger_class.c -o XInteger_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRawList_comparison.c -o XRawList_comparison.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRaw_class.c -o XRaw_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVectorList_class.c -o XVectorList_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_class.c -o XVector_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_utils.c -o io_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slice_methods.c -o slice_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_copy.c -o vector_copy.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c view_summarization_methods.c -o view_summarization_methods.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o XVector.so IRanges_stubs.o Ocopy_byteblocks.o RDS_random_access.o R_init_XVector.o S4Vectors_stubs.o SharedDouble_class.o SharedInteger_class.o SharedRaw_class.o SharedVector_class.o XDouble_class.o XInteger_class.o XRawList_comparison.o XRaw_class.o XVectorList_class.o XVector_class.o io_utils.o slice_methods.o vector_copy.o view_summarization_methods.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-XVector/00new/XVector/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘XVector’ as ‘XVector_0.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XVector)
+* installing *source* package ‘Seqinfo’ ...
+** this is package ‘Seqinfo’ version ‘1.3.0’
+** package ‘Seqinfo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Seqinfo’ as ‘Seqinfo_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Seqinfo)
+* installing *binary* package ‘compositions’ ...
+* package ‘compositions’ successfully unpacked and SHA256 sums checked
+* ‘compositions’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘compositions’ as ‘compositions_2.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (compositions)
+* installing *source* package ‘Biostrings’ ...
+** this is package ‘Biostrings’ version ‘2.81.5’
+** package ‘Biostrings’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c BAB_class.c -o BAB_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c BitMatrix.c -o BitMatrix.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MIndex_class.c -o MIndex_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PreprocessedTB_class.c -o PreprocessedTB_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Biostrings.c -o R_init_Biostrings.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RoSeqs_utils.c -o RoSeqs_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XStringSetList_class.c -o XStringSetList_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XStringSet_class.c -o XStringSet_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XString_class.c -o XString_class.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_palindromes.c -o find_palindromes.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gtestsim.c -o gtestsim.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inject_code.c -o inject_code.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lcsuffix.c -o lcsuffix.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c letter_frequency.c -o letter_frequency.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lowlevel_matching.c -o lowlevel_matching.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_PWM.c -o match_PWM.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pattern.c -o match_pattern.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pattern_boyermoore.c -o match_pattern_boyermoore.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pattern_indels.c -o match_pattern_indels.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pattern_shiftor.c -o match_pattern_shiftor.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pdict.c -o match_pdict.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pdict_ACtree2.c -o match_pdict_ACtree2.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pdict_Twobit.c -o match_pdict_Twobit.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_pdict_utils.c -o match_pdict_utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c match_reporting.c -o match_reporting.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_fasta_files.c -o read_fasta_files.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_fastq_files.c -o read_fastq_files.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c replaceAt.c -o replaceAt.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c replace_letter_at.c -o replace_letter_at.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c strutils.c -o strutils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c translate.c -o translate.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c unstrsplit_methods.c -o unstrsplit_methods.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/library/S4Vectors/include' -I'/tmp/library/IRanges/include' -I'/tmp/library/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xscat.c -o xscat.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Biostrings.so BAB_class.o BitMatrix.o IRanges_stubs.o MIndex_class.o PreprocessedTB_class.o R_init_Biostrings.o RoSeqs_utils.o S4Vectors_stubs.o XStringSetList_class.o XStringSet_class.o XString_class.o XVector_stubs.o find_palindromes.o gtestsim.o inject_code.o lcsuffix.o letter_frequency.o lowlevel_matching.o match_PWM.o match_pattern.o match_pattern_boyermoore.o match_pattern_indels.o match_pattern_shiftor.o match_pdict.o match_pdict_ACtree2.o match_pdict_Twobit.o match_pdict_utils.o match_reporting.o read_fasta_files.o read_fastq_files.o replaceAt.o replace_letter_at.o strutils.o translate.o unstrsplit_methods.o utils.o xscat.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-Biostrings/00new/Biostrings/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘twoWayAlphabetFrequencyByQuality’ with signature ‘"QualityScaledXStringSet"’: no definition for class “QualityScaledXStringSet”
+Creating a new generic function for ‘strsplit’ in package ‘Biostrings’
+Creating a new generic function for ‘offset’ in package ‘Biostrings’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Biostrings’ as ‘Biostrings_2.81.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Biostrings)
+* installing *source* package ‘phyloseq’ ...
+** this is package ‘phyloseq’ version ‘1.57.0’
+** package ‘phyloseq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phyloseq’ as ‘phyloseq_1.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phyloseq)
+* installing *source* package ‘microbiome’ ...
+** this is package ‘microbiome’ version ‘1.35.0’
+** package ‘microbiome’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘microbiome’ as ‘microbiome_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (microbiome)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp6Ofcsv/downloaded_packages’
+
+real	3m54.734s
+user	3m0.119s
+sys	0m25.292s

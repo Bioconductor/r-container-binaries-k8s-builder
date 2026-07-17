@@ -1,0 +1,40 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ProtGenerics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ProtGenerics'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ProtGenerics_1.45.0.tar.gz'
+Content type 'application/x-gzip' length 11774 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+* installing *source* package ‘ProtGenerics’ ...
+** this is package ‘ProtGenerics’ version ‘1.45.0’
+** package ‘ProtGenerics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘smooth’ in package ‘ProtGenerics’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ProtGenerics’ as ‘ProtGenerics_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ProtGenerics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRD88Dp/downloaded_packages’
+
+real	0m9.607s
+user	0m3.961s
+sys	0m1.680s

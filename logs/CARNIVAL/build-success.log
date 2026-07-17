@@ -1,0 +1,232 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CARNIVAL'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CARNIVAL'
+also installing the dependencies ‘bit’, ‘bit64’, ‘progress’, ‘timechange’, ‘backports’, ‘hms’, ‘vroom’, ‘tzdb’, ‘generics’, ‘tidyselect’, ‘plyr’, ‘httr’, ‘lubridate’, ‘bibtex’, ‘rex’, ‘readr’, ‘stringr’, ‘lpSolve’, ‘igraph’, ‘dplyr’, ‘tidyr’, ‘rjson’, ‘RefManageR’, ‘covr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bit_4.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bit64_4.8.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/progress_1.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timechange_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/backports_1.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hms_1.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/vroom_1.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tzdb_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/generics_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyselect_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plyr_1.8.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httr_1.4.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lubridate_1.9.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bibtex_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rex_1.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readr_2.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stringr_1.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lpSolve_5.6.23.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/igraph_2.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dplyr_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyr_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rjson_0.2.23.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RefManageR_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/covr_3.6.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CARNIVAL_2.23.0.tar.gz'
+* installing *binary* package ‘bit’ ...
+* package ‘bit’ successfully unpacked and SHA256 sums checked
+* ‘bit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bit’ as ‘bit_4.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit)
+* installing *binary* package ‘timechange’ ...
+* package ‘timechange’ successfully unpacked and SHA256 sums checked
+* ‘timechange’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *binary* package ‘backports’ ...
+* package ‘backports’ successfully unpacked and SHA256 sums checked
+* ‘backports’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
+* installing *binary* package ‘hms’ ...
+* package ‘hms’ successfully unpacked and SHA256 sums checked
+* ‘hms’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hms’ as ‘hms_1.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hms)
+* installing *binary* package ‘tzdb’ ...
+* package ‘tzdb’ successfully unpacked and SHA256 sums checked
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘generics’ ...
+* package ‘generics’ successfully unpacked and SHA256 sums checked
+* ‘generics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *binary* package ‘tidyselect’ ...
+* package ‘tidyselect’ successfully unpacked and SHA256 sums checked
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *binary* package ‘plyr’ ...
+* package ‘plyr’ successfully unpacked and SHA256 sums checked
+* ‘plyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *binary* package ‘httr’ ...
+* package ‘httr’ successfully unpacked and SHA256 sums checked
+* ‘httr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘httr’ as ‘httr_1.4.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httr)
+* installing *binary* package ‘rex’ ...
+* package ‘rex’ successfully unpacked and SHA256 sums checked
+* ‘rex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rex’ as ‘rex_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rex)
+* installing *binary* package ‘stringr’ ...
+* package ‘stringr’ successfully unpacked and SHA256 sums checked
+* ‘stringr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stringr’ as ‘stringr_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stringr)
+* installing *binary* package ‘lpSolve’ ...
+* package ‘lpSolve’ successfully unpacked and SHA256 sums checked
+* ‘lpSolve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lpSolve’ as ‘lpSolve_5.6.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lpSolve)
+* installing *binary* package ‘igraph’ ...
+* package ‘igraph’ successfully unpacked and SHA256 sums checked
+* ‘igraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_2.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘rjson’ ...
+* package ‘rjson’ successfully unpacked and SHA256 sums checked
+* ‘rjson’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rjson’ as ‘rjson_0.2.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjson)
+* installing *binary* package ‘bit64’ ...
+* package ‘bit64’ successfully unpacked and SHA256 sums checked
+* ‘bit64’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bit64’ as ‘bit64_4.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit64)
+* installing *binary* package ‘progress’ ...
+* package ‘progress’ successfully unpacked and SHA256 sums checked
+* ‘progress’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘progress’ as ‘progress_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progress)
+* installing *binary* package ‘lubridate’ ...
+* package ‘lubridate’ successfully unpacked and SHA256 sums checked
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *binary* package ‘bibtex’ ...
+* package ‘bibtex’ successfully unpacked and SHA256 sums checked
+* ‘bibtex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bibtex’ as ‘bibtex_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bibtex)
+* installing *binary* package ‘dplyr’ ...
+* package ‘dplyr’ successfully unpacked and SHA256 sums checked
+* ‘dplyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dplyr)
+* installing *binary* package ‘covr’ ...
+* package ‘covr’ successfully unpacked and SHA256 sums checked
+* ‘covr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘covr’ as ‘covr_3.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (covr)
+* installing *binary* package ‘vroom’ ...
+* package ‘vroom’ successfully unpacked and SHA256 sums checked
+* ‘vroom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘vroom’ as ‘vroom_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vroom)
+* installing *binary* package ‘tidyr’ ...
+* package ‘tidyr’ successfully unpacked and SHA256 sums checked
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
+* installing *binary* package ‘RefManageR’ ...
+* package ‘RefManageR’ successfully unpacked and SHA256 sums checked
+* ‘RefManageR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RefManageR’ as ‘RefManageR_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RefManageR)
+* installing *binary* package ‘readr’ ...
+* package ‘readr’ successfully unpacked and SHA256 sums checked
+* ‘readr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readr’ as ‘readr_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readr)
+* installing *source* package ‘CARNIVAL’ ...
+** this is package ‘CARNIVAL’ version ‘2.23.0’
+** package ‘CARNIVAL’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CARNIVAL’ as ‘CARNIVAL_2.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CARNIVAL)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2ybNTW/downloaded_packages’
+
+real	0m18.955s
+user	0m14.606s
+sys	0m7.009s

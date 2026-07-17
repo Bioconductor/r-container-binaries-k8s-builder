@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ASGSCA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ASGSCA'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ASGSCA_1.47.0.tar.gz'
+Content type 'application/x-gzip' length 1356501 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+* installing *source* package ‘ASGSCA’ ...
+** this is package ‘ASGSCA’ version ‘1.47.0’
+** package ‘ASGSCA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ASGSCA’ as ‘ASGSCA_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ASGSCA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHQeK6U/downloaded_packages’
+
+real	0m7.506s
+user	0m5.202s
+sys	0m2.677s

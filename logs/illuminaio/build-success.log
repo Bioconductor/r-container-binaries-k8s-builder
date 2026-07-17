@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''illuminaio'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'illuminaio'
+also installing the dependencies ‘base64’, ‘IlluminaDataTestFiles’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/base64_2.0.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/IlluminaDataTestFiles_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/illuminaio_0.55.0.tar.gz'
+* installing *binary* package ‘base64’ ...
+* package ‘base64’ successfully unpacked and SHA256 sums checked
+* ‘base64’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘base64’ as ‘base64_2.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (base64)
+* installing *source* package ‘IlluminaDataTestFiles’ ...
+** this is package ‘IlluminaDataTestFiles’ version ‘1.51.0’
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaDataTestFiles’ as ‘IlluminaDataTestFiles_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaDataTestFiles)
+* installing *source* package ‘illuminaio’ ...
+** this is package ‘illuminaio’ version ‘0.55.0’
+** package ‘illuminaio’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c 000.init.c -o 000.init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c des.c -o des.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c local_des.c -o local_des.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o illuminaio.so 000.init.o des.o local_des.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-illuminaio/00new/illuminaio/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘illuminaio’ as ‘illuminaio_0.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (illuminaio)
+
+The downloaded source packages are in
+	‘/tmp/RtmppfLI9k/downloaded_packages’
+
+real	0m23.279s
+user	0m7.683s
+sys	0m3.164s
