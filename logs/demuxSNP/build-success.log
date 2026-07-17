@@ -1,0 +1,43 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''demuxSNP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'demuxSNP'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/demuxSNP_1.11.0.tar.gz'
+Content type 'application/x-gzip' length 2060677 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+* installing *source* package ‘demuxSNP’ ...
+** this is package ‘demuxSNP’ version ‘1.11.0’
+** package ‘demuxSNP’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘demuxSNP’ as ‘demuxSNP_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (demuxSNP)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpkwinra/downloaded_packages’
+
+real	1m9.785s
+user	0m49.077s
+sys	0m6.067s

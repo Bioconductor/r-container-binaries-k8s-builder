@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2090 (89%)
+- **Successfully Built:** 2102 (89%)
 - **Failed:** 12 (0%)
-- **In Progress:** 74
-- **Not Started:** 168
+- **In Progress:** 67
+- **Not Started:** 163
 
-**Progress:** 89%
+**Progress:** 90%
 ```
-████████████████████████████████████████████░░░░░░
+█████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2090)
+## Successfully Built Packages (2102)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2040 more ...*
+*... and 2052 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,22 +93,22 @@
 | [miRspongeR](https://bioconductor.org/packages/3.24/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (74)
+## In Progress (67)
 - ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
-- ⏳ `BUSpaRse`
 - ⏳ `ChIPXpress`
 - ⏳ `ChIPpeakAnno`
-- ⏳ `CleanUpRNAseq`
 - ⏳ `EDASeq`
-- ⏳ `EpiMix`
+- ⏳ `EpiCompare`
 - ⏳ `GRaNIE`
 - ⏳ `HelloRanges`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
+- ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `MetaboSignal`
+- ⏳ `MinimumDistance`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NanoMethViz`
@@ -123,10 +123,8 @@
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
 - ⏳ `STADyUM`
-- ⏳ `SigsPack`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
-- ⏳ `TCGAutils`
 - ⏳ `VariantTools`
 - ⏳ `ZygosityPredictor`
 - ⏳ `alabaster.vcf`
@@ -137,17 +135,19 @@
 - ⏳ `bumphunter`
 - ⏳ `cardelino`
 - ⏳ `celda`
-- ⏳ `cfDNAPro`
 - ⏳ `chevreulProcess`
 - ⏳ `chipenrich`
 - ⏳ `clustSIGNAL`
 - ⏳ `clusterExperiment`
 - ⏳ `cn.farms`
 - ⏳ `consensusOV`
+- ⏳ `crisprDesign`
+- ⏳ `damidBind`
+- ⏳ `dbSequence`
 
-... and 24 more ...
+... and 17 more ...
 
-## Not Yet Started (168)
+## Not Yet Started (163)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -168,7 +168,6 @@
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
-- ⏸️ `EpiCompare`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GUIDEseq`
@@ -181,13 +180,11 @@
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `HistoImagePlot`
-- ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MOSClip`
 - ⏸️ `MethylAid`
-- ⏸️ `MinimumDistance`
 - ⏸️ `Moonlight2R`
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
@@ -198,9 +195,12 @@
 - ⏸️ `REMP`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `RNAmodR`
+- ⏸️ `RNAmodR.AlkAnilineSeq`
+- ⏸️ `RNAmodR.ML`
+- ⏸️ `RNAmodR.RiboMethSeq`
 
-... and 118 more ...
+... and 113 more ...
 
 ---
-*Last updated: 2026-07-17 22:12:08 UTC*
+*Last updated: 2026-07-17 22:13:07 UTC*
 *Packages with verified BBS status: 154*
