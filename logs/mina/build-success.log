@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mina'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mina'
+also installing the dependencies ‘bigmemory.sri’, ‘apcluster’, ‘bigmemory’, ‘parallelDist’, ‘biganalytics’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bigmemory.sri_0.1.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/apcluster_1.4.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bigmemory_4.6.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parallelDist_0.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/biganalytics_1.1.22.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mina_1.20.0.tar.gz'
+* installing *binary* package ‘bigmemory.sri’ ...
+* package ‘bigmemory.sri’ successfully unpacked and SHA256 sums checked
+* ‘bigmemory.sri’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bigmemory.sri’ as ‘bigmemory.sri_0.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bigmemory.sri)
+* installing *binary* package ‘apcluster’ ...
+* package ‘apcluster’ successfully unpacked and SHA256 sums checked
+* ‘apcluster’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘apcluster’ as ‘apcluster_1.4.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (apcluster)
+* installing *binary* package ‘parallelDist’ ...
+* package ‘parallelDist’ successfully unpacked and SHA256 sums checked
+* ‘parallelDist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parallelDist’ as ‘parallelDist_0.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelDist)
+* installing *binary* package ‘bigmemory’ ...
+* package ‘bigmemory’ successfully unpacked and SHA256 sums checked
+* ‘bigmemory’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bigmemory’ as ‘bigmemory_4.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bigmemory)
+* installing *binary* package ‘biganalytics’ ...
+* package ‘biganalytics’ successfully unpacked and SHA256 sums checked
+* ‘biganalytics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biganalytics’ as ‘biganalytics_1.1.22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biganalytics)
+* installing *source* package ‘mina’ ...
+** this is package ‘mina’ version ‘1.20.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppParallel/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cp_cor.cpp -o cp_cor.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mina.so RcppExports.o cp_cor.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mina/00new/mina/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘norm’ in package ‘mina’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mina’ as ‘mina_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mina)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOxPUTz/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m49.211s
+user	0m29.503s
+sys	0m7.026s

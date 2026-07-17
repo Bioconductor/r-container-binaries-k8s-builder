@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 216 (9%)
+- **Successfully Built:** 228 (9%)
 - **Failed:** 2 (0%)
-- **In Progress:** 169
-- **Not Started:** 1997
+- **In Progress:** 160
+- **Not Started:** 1994
 
 **Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (216)
+## Successfully Built Packages (228)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DeepPINCS](https://bioconductor.org/packages/3.23/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeepPINCS) |
 | [DiffLogo](https://bioconductor.org/packages/3.23/bioc/html/DiffLogo.html) | [log](logs/DiffLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DiffLogo) |
 
-*... and 166 more ...*
+*... and 178 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
 
-## In Progress (169)
+## In Progress (160)
 - ⏳ `ANCOMBC`
 - ⏳ `ASGSCA`
 - ⏳ `ASSET`
@@ -135,9 +135,9 @@
 - ⏳ `HVP`
 - ⏳ `Harman`
 
-... and 119 more ...
+... and 110 more ...
 
-## Not Yet Started (1997)
+## Not Yet Started (1994)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -189,8 +189,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1947 more ...
+... and 1944 more ...
 
 ---
-*Last updated: 2026-07-17 20:40:11 UTC*
+*Last updated: 2026-07-17 20:41:31 UTC*
 *Packages with verified BBS status: 94*

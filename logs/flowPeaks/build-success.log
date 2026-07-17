@@ -1,0 +1,172 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''flowPeaks'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'flowPeaks'
+also installing the dependencies ‘cytolib’, ‘flowCore’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/cytolib_2.24.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowCore_2.24.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowPeaks_1.58.0.tar.gz'
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘cytolib’ ...
+** this is package ‘cytolib’ version ‘2.24.0’
+** using staged installation
+checking for a sed that does not truncate output... /usr/bin/sed
+'config' variable 'CXX11FLAGS' is defunct
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking how to run the C++ preprocessor... g++ -std=gnu++20 -E
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ -std=gnu++20 accepts -g... (cached) yes
+configure: Parsing cytolib version info ...
+configure: CYTOLIB_VERSION=2.24.0
+configure: creating ./config.status
+config.status: creating inst/include/cytolib/cytolibConfig.h
+config.status: creating src/Makevars
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dummy.cpp -o dummy.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/system/src/error_code.cpp -o boost/libs/system/src/error_code.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/codecvt_error_category.cpp -o boost/libs/filesystem/src/codecvt_error_category.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/directory.cpp -o boost/libs/filesystem/src/directory.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/exception.cpp -o boost/libs/filesystem/src/exception.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/operations.cpp -o boost/libs/filesystem/src/operations.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/path.cpp -o boost/libs/filesystem/src/path.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/path_traits.cpp -o boost/libs/filesystem/src/path_traits.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/portability.cpp -o boost/libs/filesystem/src/portability.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/unique_path.cpp -o boost/libs/filesystem/src/unique_path.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/utf8_codecvt_facet.cpp -o boost/libs/filesystem/src/utf8_codecvt_facet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/windows_file_codecvt.cpp -o boost/libs/filesystem/src/windows_file_codecvt.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CytoFrame.cpp -o CytoFrame.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CytoFrameView.cpp -o CytoFrameView.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CytoVFS.cpp -o CytoVFS.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GatingHierarchy.cpp -o GatingHierarchy.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GatingSet.cpp -o GatingSet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c H5CytoFrame.cpp -o H5CytoFrame.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c MemCytoFrame.cpp -o MemCytoFrame.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c POPINDICES.cpp -o POPINDICES.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c calibrationTable.cpp -o calibrationTable.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c compensation.cpp -o compensation.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ellipse2points.cpp -o ellipse2points.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gate.cpp -o gate.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c global.cpp -o global.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c in_polygon.cpp -o in_polygon.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c nodeProperties.cpp -o nodeProperties.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c spline.cpp -o spline.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c trans_group.cpp -o trans_group.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c transformation.cpp -o transformation.o
+mkdir -p "/tmp/library/00LOCK-cytolib/00new/cytolib/lib"
+ar rs "/tmp/library/00LOCK-cytolib/00new/cytolib/lib/libcytolib.a" CytoFrame.o CytoFrameView.o CytoVFS.o GatingHierarchy.o GatingSet.o H5CytoFrame.o MemCytoFrame.o POPINDICES.o calibrationTable.o compensation.o dummy.o ellipse2points.o gate.o global.o in_polygon.o nodeProperties.o spline.o trans_group.o transformation.o boost/libs/filesystem/src/codecvt_error_category.o boost/libs/filesystem/src/directory.o boost/libs/filesystem/src/exception.o boost/libs/filesystem/src/operations.o boost/libs/filesystem/src/path.o boost/libs/filesystem/src/path_traits.o boost/libs/filesystem/src/portability.o boost/libs/filesystem/src/unique_path.o boost/libs/filesystem/src/utf8_codecvt_facet.o boost/libs/filesystem/src/windows_file_codecvt.o boost/libs/system/src/error_code.o
+ar: creating /tmp/library/00LOCK-cytolib/00new/cytolib/lib/libcytolib.a
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o cytolib.so dummy.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-cytolib/00new/cytolib/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cytolib’ as ‘cytolib_2.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cytolib)
+* installing *source* package ‘flowPeaks’ ...
+** this is package ‘flowPeaks’ version ‘1.58.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rpack.cpp -o Rpack.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Rregistrate.cpp -o Rregistrate.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c VoronoiDiagramGenerator.cpp -o VoronoiDiagramGenerator.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c flowPeaks.cpp -o flowPeaks.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c func_collect.cpp -o func_collect.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c func_collect_supp.cpp -o func_collect_supp.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gvector_gmatrix.cpp -o gvector_gmatrix.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kd_tree.cpp -o kd_tree.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags`  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kmns.cpp -o kmns.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o flowPeaks.so Rpack.o Rregistrate.o VoronoiDiagramGenerator.o flowPeaks.o func_collect.o func_collect_supp.o gvector_gmatrix.o kd_tree.o kmns.o -L/usr/lib/x86_64-linux-gnu -lgsl -lgslcblas -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-flowPeaks/00new/flowPeaks/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowPeaks’ as ‘flowPeaks_1.58.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowPeaks)
+* installing *source* package ‘flowCore’ ...
+** this is package ‘flowCore’ version ‘2.24.0’
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c FastLogicle.cpp -o FastLogicle.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Hyperlog.cpp -o Hyperlog.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Logicle.cpp -o Logicle.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c biexponential.cpp -o biexponential.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c convertRawBytes.cpp -o convertRawBytes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fcsTextParse.cpp -o fcsTextParse.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c hyperlogTransform.cpp -o hyperlogTransform.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c inPolygon.cpp -o inPolygon.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c inPolytope.cpp -o inPolytope.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c logicleTransform.cpp -o logicleTransform.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c poly_centroid.cpp -o poly_centroid.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sortBytes.cpp -o sortBytes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c uint2double.cpp -o uint2double.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_NO_AUTO_PTR -w -Wfatal-errors -I'/usr/local/lib/R/site-library/cpp11/include' -I'/mnt/library/BH/include' -I'/tmp/library/cytolib/include' -I'/mnt/library/RProtoBufLib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c zeroin.cpp -o zeroin.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o flowCore.so FastLogicle.o Hyperlog.o Logicle.o biexponential.o convertRawBytes.o cpp11.o fcsTextParse.o hyperlogTransform.o inPolygon.o inPolytope.o logicleTransform.o poly_centroid.o sortBytes.o uint2double.o zeroin.o /tmp/library/cytolib/lib/libcytolib.a /mnt/library/Rhdf5lib/lib/libhdf5_cpp.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -llapack -lblas -L/usr/local/lib/R/lib -lR
+if [ `uname -s` = 'Darwin' ]; then install_name_tool -change /usr/local/clang4/lib/libc++.1.dylib /usr/lib/libc++.1.dylib flowCore.so; fi
+installing to /tmp/library/00LOCK-flowCore/00new/flowCore/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowCore’ as ‘flowCore_2.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowCore)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPOb7KC/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	5m47.031s
+user	3m45.746s
+sys	0m27.805s

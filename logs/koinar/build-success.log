@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''koinar'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'koinar'
+also installing the dependencies ‘httptest’, ‘OrgMassSpecR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httptest_4.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/OrgMassSpecR_0.5-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/koinar_1.6.0.tar.gz'
+* installing *binary* package ‘httptest’ ...
+* package ‘httptest’ successfully unpacked and SHA256 sums checked
+* ‘httptest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘httptest’ as ‘httptest_4.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httptest)
+* installing *binary* package ‘OrgMassSpecR’ ...
+* package ‘OrgMassSpecR’ successfully unpacked and SHA256 sums checked
+* ‘OrgMassSpecR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OrgMassSpecR’ as ‘OrgMassSpecR_0.5-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OrgMassSpecR)
+* installing *source* package ‘koinar’ ...
+** this is package ‘koinar’ version ‘1.6.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘koinar’ as ‘koinar_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (koinar)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOT5JBk/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m13.094s
+user	0m5.586s
+sys	0m2.548s
