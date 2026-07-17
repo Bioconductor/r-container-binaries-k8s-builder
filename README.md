@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2171 (91%)
+- **Successfully Built:** 2198 (92%)
 - **Failed:** 25 (1%)
-- **In Progress:** 47
-- **Not Started:** 141
+- **In Progress:** 37
+- **Not Started:** 124
 
-**Progress:** 92%
+**Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2171)
+## Successfully Built Packages (2198)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,13 +46,13 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2121 more ...*
+*... and 2148 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vmrseq](https://bioconductor.org/packages/3.23/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vmrseq) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.23/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vtpnet) |
+| [vulcan](https://bioconductor.org/packages/3.23/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vulcan) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
 | [wavClusteR](https://bioconductor.org/packages/3.23/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavClusteR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
@@ -106,65 +106,52 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [tLOH](https://bioconductor.org/packages/3.23/bioc/html/tLOH.html) | [log](logs/tLOH/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tLOH) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 
-## In Progress (47)
-- ⏳ `CAFE`
-- ⏳ `ChIPXpress`
+## In Progress (37)
+- ⏳ `CAMERA`
+- ⏳ `CNVfilteR`
+- ⏳ `CNViz`
 - ⏳ `CluMSID`
-- ⏳ `DuplexDiscovereR`
-- ⏳ `ELMER`
-- ⏳ `GenomicInteractions`
+- ⏳ `HiCDOC`
+- ⏳ `MAGAR`
+- ⏳ `MetaboAnnotatoR`
 - ⏳ `MungeSumstats`
-- ⏳ `Pviz`
-- ⏳ `R3CPET`
-- ⏳ `RNAmodR`
-- ⏳ `ReportingTools`
-- ⏳ `SomaticSignatures`
+- ⏳ `RNAAgeCalc`
+- ⏳ `RnaSeqSampleSize`
 - ⏳ `SpectralTAD`
 - ⏳ `TADCompare`
-- ⏳ `VariantFiltering`
-- ⏳ `bandle`
-- ⏳ `biomvRCNS`
-- ⏳ `cageminer`
 - ⏳ `chevreulShiny`
 - ⏳ `chimeraviz`
 - ⏳ `cicero`
+- ⏳ `cliqueMS`
 - ⏳ `comapr`
+- ⏳ `cosmiq`
 - ⏳ `crisprViz`
 - ⏳ `derfinderPlot`
-- ⏳ `enhancerHomologSearch`
 - ⏳ `epimutacions`
+- ⏳ `epivizrStandalone`
 - ⏳ `fourSynergy`
 - ⏳ `iSEEfier`
-- ⏳ `intansv`
-- ⏳ `lumi`
-- ⏳ `mCSEA`
+- ⏳ `lcmsPlot`
 - ⏳ `maser`
 - ⏳ `methylPipe`
 - ⏳ `missMethyl`
-- ⏳ `msgbsR`
-- ⏳ `msmsTests`
-- ⏳ `multicrispr`
+- ⏳ `ncGTW`
 - ⏳ `pRolocGUI`
 - ⏳ `primirTSS`
-- ⏳ `regutools`
-- ⏳ `scafari`
-- ⏳ `scruff`
+- ⏳ `psichomics`
+- ⏳ `saseR`
+- ⏳ `scTreeViz`
+- ⏳ `squallms`
 - ⏳ `srnadiff`
-- ⏳ `tadar`
 - ⏳ `trackViewer`
-- ⏳ `uncoverappLib`
-- ⏳ `vulcan`
 
-## Not Yet Started (141)
+## Not Yet Started (124)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BulkSignalR`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CAMERA`
 - ⏸️ `CBNplot`
 - ⏸️ `CEMiTool`
-- ⏸️ `CNVfilteR`
-- ⏸️ `CNViz`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
 - ⏸️ `ChAMP`
@@ -178,12 +165,10 @@
 - ⏸️ `GOaGO`
 - ⏸️ `GeneTonic`
 - ⏸️ `HiCDCPlus`
-- ⏸️ `HiCDOC`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `IPO`
 - ⏸️ `LOBSTAHS`
 - ⏸️ `LymphoSeq`
-- ⏸️ `MAGAR`
 - ⏸️ `MAIT`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
@@ -197,7 +182,6 @@
 - ⏸️ `MSstatsShiny`
 - ⏸️ `MSstatsTMT`
 - ⏸️ `MetaPhOR`
-- ⏸️ `MetaboAnnotatoR`
 - ⏸️ `MetaboDynamics`
 - ⏸️ `MicrobiomeProfiler`
 - ⏸️ `MicrobiotaProcess`
@@ -206,9 +190,15 @@
 - ⏸️ `NADfinder`
 - ⏸️ `NewWave`
 - ⏸️ `PanomiR`
+- ⏸️ `Pigengene`
+- ⏸️ `RFLOMICS`
+- ⏸️ `RNAmodR.AlkAnilineSeq`
+- ⏸️ `RNAmodR.ML`
+- ⏸️ `RNAmodR.RiboMethSeq`
+- ⏸️ `ReactomePA`
 
-... and 91 more ...
+... and 74 more ...
 
 ---
-*Last updated: 2026-07-17 22:47:50 UTC*
-*Packages with verified BBS status: 213*
+*Last updated: 2026-07-17 22:48:53 UTC*
+*Packages with verified BBS status: 214*

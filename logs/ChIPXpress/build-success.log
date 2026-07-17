@@ -1,0 +1,95 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ChIPXpress'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ChIPXpress'
+also installing the dependencies ‘ChIPXpressData’, ‘mouse4302frmavecs’, ‘mouse4302cdf’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/ChIPXpressData_1.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/mouse4302frmavecs_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/mouse4302cdf_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ChIPXpress_1.56.0.tar.gz'
+* installing *source* package ‘ChIPXpressData’ ...
+** this is package ‘ChIPXpressData’ version ‘1.50.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChIPXpressData’ as ‘ChIPXpressData_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChIPXpressData)
+* installing *source* package ‘mouse4302frmavecs’ ...
+** this is package ‘mouse4302frmavecs’ version ‘1.5.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mouse4302frmavecs’ as ‘mouse4302frmavecs_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mouse4302frmavecs)
+* installing *source* package ‘mouse4302cdf’ ...
+** this is package ‘mouse4302cdf’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘mouse4302cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘mouse4302cdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘mouse4302cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘mouse4302cdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘mouse4302cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘mouse4302cdf’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mouse4302cdf’ as ‘mouse4302cdf_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mouse4302cdf)
+* installing *source* package ‘ChIPXpress’ ...
+** this is package ‘ChIPXpress’ version ‘1.56.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChIPXpress’ as ‘ChIPXpress_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChIPXpress)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpi3VG1G/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	9m25.961s
+user	7m12.210s
+sys	0m43.751s
