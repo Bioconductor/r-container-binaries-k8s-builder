@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1430 (59%)
-- **Failed:** 15 (0%)
-- **In Progress:** 101
-- **Not Started:** 838
+- **Successfully Built:** 1466 (61%)
+- **Failed:** 16 (0%)
+- **In Progress:** 109
+- **Not Started:** 793
 
-**Progress:** 60%
+**Progress:** 62%
 ```
-██████████████████████████████░░░░░░░░░░░░░░░░░░░░
+███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1430)
+## Successfully Built Packages (1466)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1380 more ...*
+*... and 1416 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
-| [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [universalmotif](https://bioconductor.org/packages/3.23/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
@@ -68,15 +66,17 @@
 | [webbioc](https://bioconductor.org/packages/3.23/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.23/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
+| [wiggleplotr](https://bioconductor.org/packages/3.23/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.23/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
+| [xenLite](https://bioconductor.org/packages/3.23/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 
-## Failed Packages (15)
+## Failed Packages (16)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -92,65 +92,66 @@
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
 | [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [partCNV](https://bioconductor.org/packages/3.23/bioc/html/partCNV.html) | [log](logs/partCNV/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/partCNV) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (101)
+## In Progress (109)
+- ⏳ `BSgenome`
 - ⏳ `BaalChIP`
 - ⏳ `BasicSTARRseq`
 - ⏳ `BiocNeighbors`
-- ⏳ `CARDspa`
 - ⏳ `CCPROMISE`
-- ⏳ `CHETAH`
+- ⏳ `CNEr`
 - ⏳ `CNVRanger`
-- ⏳ `CTexploreR`
 - ⏳ `CaDrA`
 - ⏳ `CalibraCurve`
 - ⏳ `Category`
-- ⏳ `CatsCradle`
-- ⏳ `ClusterGVis`
-- ⏳ `CrcBiomeScreen`
+- ⏳ `ChromHeatMap`
+- ⏳ `CoverageView`
 - ⏳ `CrispRVariants`
 - ⏳ `CytoPipeline`
 - ⏳ `DESeq2`
-- ⏳ `DESpace`
-- ⏳ `DropletUtils`
+- ⏳ `DMCFB`
+- ⏳ `DMCHMM`
 - ⏳ `EGAD`
 - ⏳ `EnrichmentBrowser`
-- ⏳ `ExperimentSubset`
-- ⏳ `GSVA`
+- ⏳ `ExCluster`
+- ⏳ `GenomicFeatures`
 - ⏳ `GeoTcgaData`
 - ⏳ `GloScope`
 - ⏳ `GlobalAncova`
+- ⏳ `HiCPotts`
 - ⏳ `IFAA`
 - ⏳ `InteractionSet`
 - ⏳ `LipidTrend`
 - ⏳ `MAST`
 - ⏳ `MetMashR`
-- ⏳ `MoleculeExperiment`
 - ⏳ `MouseFM`
 - ⏳ `MultiAssayExperiment`
 - ⏳ `MultiDataSet`
+- ⏳ `PAST`
 - ⏳ `PICB`
 - ⏳ `PhIPData`
 - ⏳ `PlinkMatrix`
 - ⏳ `PolySTest`
 - ⏳ `RCSL`
+- ⏳ `SCANVIS`
 - ⏳ `SCnorm`
 - ⏳ `SDAMS`
 - ⏳ `SETA`
 - ⏳ `SEraster`
-- ⏳ `SPIAT`
+- ⏳ `SMTrackR`
 - ⏳ `SPOTlight`
 - ⏳ `SPsimSeq`
-- ⏳ `SanityR`
 - ⏳ `ShortRead`
 - ⏳ `SigCheck`
+- ⏳ `SingleCellAlleleExperiment`
 
-... and 51 more ...
+... and 59 more ...
 
-## Not Yet Started (838)
+## Not Yet Started (793)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
@@ -170,7 +171,6 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
@@ -179,7 +179,6 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
-- ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioTIP`
 - ⏸️ `BulkSignalR`
@@ -191,7 +190,6 @@
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
 - ⏸️ `CEMiTool`
-- ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
@@ -201,9 +199,12 @@
 - ⏸️ `CSSQ`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
+- ⏸️ `CellBarcode`
+- ⏸️ `CellMentor`
+- ⏸️ `CellMixS`
 
-... and 788 more ...
+... and 743 more ...
 
 ---
-*Last updated: 2026-07-17 22:05:55 UTC*
-*Packages with verified BBS status: 186*
+*Last updated: 2026-07-17 22:08:58 UTC*
+*Packages with verified BBS status: 189*

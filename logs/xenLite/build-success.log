@@ -1,0 +1,123 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''xenLite'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'xenLite'
+also installing the dependencies ‘geometries’, ‘LearnBayes’, ‘marginaleffects’, ‘sfheaders’, ‘spatialreg’, ‘SpatialFeatureExperiment’, ‘SFEData’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/geometries_0.2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/LearnBayes_2.15.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/marginaleffects_0.32.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sfheaders_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatialreg_1.4-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SpatialFeatureExperiment_1.14.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/SFEData_1.14.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/xenLite_1.6.0.tar.gz'
+* installing *binary* package ‘geometries’ ...
+* package ‘geometries’ successfully unpacked and SHA256 sums checked
+* ‘geometries’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geometries’ as ‘geometries_0.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geometries)
+* installing *binary* package ‘LearnBayes’ ...
+* package ‘LearnBayes’ successfully unpacked and SHA256 sums checked
+* ‘LearnBayes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LearnBayes’ as ‘LearnBayes_2.15.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LearnBayes)
+* installing *binary* package ‘marginaleffects’ ...
+* package ‘marginaleffects’ successfully unpacked and SHA256 sums checked
+* ‘marginaleffects’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘marginaleffects’ as ‘marginaleffects_0.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (marginaleffects)
+* installing *source* package ‘SFEData’ ...
+** this is package ‘SFEData’ version ‘1.14.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SFEData’ as ‘SFEData_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SFEData)
+* installing *source* package ‘xenLite’ ...
+** this is package ‘xenLite’ version ‘1.6.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xenLite’ as ‘xenLite_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xenLite)
+* installing *binary* package ‘sfheaders’ ...
+* package ‘sfheaders’ successfully unpacked and SHA256 sums checked
+* ‘sfheaders’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sfheaders’ as ‘sfheaders_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sfheaders)
+* installing *binary* package ‘spatialreg’ ...
+* package ‘spatialreg’ successfully unpacked and SHA256 sums checked
+* ‘spatialreg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatialreg’ as ‘spatialreg_1.4-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatialreg)
+* installing *source* package ‘SpatialFeatureExperiment’ ...
+** this is package ‘SpatialFeatureExperiment’ version ‘1.14.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘toSpatialFeatureExperiment’ with signature ‘"Seurat"’: no definition for class “Seurat”
+Creating a generic function for ‘NROW’ from package ‘base’ in package ‘SpatialFeatureExperiment’
+Creating a generic function for ‘NCOL’ from package ‘base’ in package ‘SpatialFeatureExperiment’
+Creating a generic function for ‘readRDS’ from package ‘base’ in package ‘SpatialFeatureExperiment’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpatialFeatureExperiment’ as ‘SpatialFeatureExperiment_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialFeatureExperiment)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWTiD4x/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	2m4.872s
+user	1m39.555s
+sys	0m11.740s
