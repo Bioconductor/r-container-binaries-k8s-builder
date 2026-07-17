@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2180 (93%)
+- **Successfully Built:** 2192 (93%)
 - **Failed:** 14 (0%)
-- **In Progress:** 71
-- **Not Started:** 79
+- **In Progress:** 66
+- **Not Started:** 72
 
-**Progress:** 93%
+**Progress:** 94%
 ```
-██████████████████████████████████████████████░░░░
+███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2180)
+## Successfully Built Packages (2192)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2130 more ...*
+*... and 2142 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,12 +95,11 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (71)
-- ⏳ `ASpli`
+## In Progress (66)
 - ⏳ `AllelicImbalance`
-- ⏳ `BASiCStan`
 - ⏳ `BOBaFIT`
 - ⏳ `CAFE`
+- ⏳ `CNVfilteR`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `Damsel`
 - ⏳ `DuplexDiscovereR`
@@ -108,13 +107,11 @@
 - ⏳ `GUIDEseq`
 - ⏳ `GeneStructureTools`
 - ⏳ `GenomicInteractions`
-- ⏳ `GenomicOZone`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NanoMethViz`
-- ⏳ `OGRE`
 - ⏳ `PostChicago`
 - ⏳ `Pviz`
 - ⏳ `R3CPET`
@@ -130,30 +127,32 @@
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `TVTB`
-- ⏳ `VariantFiltering`
 - ⏳ `annotatr`
-- ⏳ `biomvRCNS`
-- ⏳ `cageminer`
 - ⏳ `canceR`
 - ⏳ `cbaf`
-- ⏳ `chimeraviz`
-- ⏳ `cicero`
 - ⏳ `comapr`
-- ⏳ `crisprViz`
 - ⏳ `decontX`
+- ⏳ `derfinderPlot`
+- ⏳ `epivizr`
+- ⏳ `epivizrChart`
 - ⏳ `fourSynergy`
 - ⏳ `geneAttribution`
 - ⏳ `gmoviz`
 - ⏳ `intansv`
 - ⏳ `mCSEA`
+- ⏳ `maser`
+- ⏳ `metaseqR2`
+- ⏳ `methylPipe`
+- ⏳ `minfi`
+- ⏳ `motifbreakR`
+- ⏳ `msgbsR`
 
-... and 21 more ...
+... and 16 more ...
 
-## Not Yet Started (79)
+## Not Yet Started (72)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CNVfilteR`
 - ⏸️ `ChAMP`
 - ⏸️ `DMRcate`
 - ⏸️ `ENmix`
@@ -190,19 +189,20 @@
 - ⏸️ `crisprShiny`
 - ⏸️ `crisprVerse`
 - ⏸️ `cytoviewer`
-- ⏸️ `derfinderPlot`
 - ⏸️ `dmrseq`
 - ⏸️ `dnaEPICO`
 - ⏸️ `epiRomics`
 - ⏸️ `epimutacions`
-- ⏸️ `epivizr`
-- ⏸️ `epivizrChart`
 - ⏸️ `epivizrStandalone`
 - ⏸️ `ffpe`
 - ⏸️ `funtooNorm`
+- ⏸️ `geomeTriD`
+- ⏸️ `iCheck`
+- ⏸️ `iNETgrate`
+- ⏸️ `imcRtools`
 
-... and 29 more ...
+... and 22 more ...
 
 ---
-*Last updated: 2026-07-17 22:21:30 UTC*
+*Last updated: 2026-07-17 22:22:23 UTC*
 *Packages with verified BBS status: 158*
