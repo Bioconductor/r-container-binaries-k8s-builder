@@ -1,0 +1,109 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''dar'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'dar'
+also installing the dependencies ‘ROI’, ‘ROI.plugin.lpsolve’, ‘detectseparation’, ‘corncob’, ‘lefser’, ‘roxyglobals’, ‘roxytest’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ROI_1.0-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ROI.plugin.lpsolve_1.0-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/detectseparation_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/corncob_0.4.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/lefser_1.23.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/roxyglobals_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/roxytest_0.0.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/dar_1.9.0.tar.gz'
+* installing *binary* package ‘ROI’ ...
+* package ‘ROI’ successfully unpacked and SHA256 sums checked
+* ‘ROI’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ROI’ as ‘ROI_1.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROI)
+* installing *source* package ‘lefser’ ...
+** this is package ‘lefser’ version ‘1.23.0’
+** package ‘lefser’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lefser’ as ‘lefser_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lefser)
+* installing *binary* package ‘roxyglobals’ ...
+* package ‘roxyglobals’ successfully unpacked and SHA256 sums checked
+* ‘roxyglobals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘roxyglobals’ as ‘roxyglobals_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (roxyglobals)
+* installing *binary* package ‘roxytest’ ...
+* package ‘roxytest’ successfully unpacked and SHA256 sums checked
+* ‘roxytest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘roxytest’ as ‘roxytest_0.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (roxytest)
+* installing *source* package ‘dar’ ...
+** this is package ‘dar’ version ‘1.9.0’
+** package ‘dar’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dar’ as ‘dar_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dar)
+* installing *binary* package ‘ROI.plugin.lpsolve’ ...
+* package ‘ROI.plugin.lpsolve’ successfully unpacked and SHA256 sums checked
+* ‘ROI.plugin.lpsolve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ROI.plugin.lpsolve’ as ‘ROI.plugin.lpsolve_1.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROI.plugin.lpsolve)
+* installing *binary* package ‘detectseparation’ ...
+* package ‘detectseparation’ successfully unpacked and SHA256 sums checked
+* ‘detectseparation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘detectseparation’ as ‘detectseparation_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (detectseparation)
+* installing *binary* package ‘corncob’ ...
+* package ‘corncob’ successfully unpacked and SHA256 sums checked
+* ‘corncob’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘corncob’ as ‘corncob_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corncob)
+
+The downloaded source packages are in
+	‘/tmp/RtmpgK0LZd/downloaded_packages’
+
+real	1m2.616s
+user	0m49.229s
+sys	0m8.680s

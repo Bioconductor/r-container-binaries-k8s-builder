@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1911 (81%)
+- **Successfully Built:** 1947 (83%)
 - **Failed:** 9 (0%)
-- **In Progress:** 114
-- **Not Started:** 310
+- **In Progress:** 91
+- **Not Started:** 297
 
-**Progress:** 81%
+**Progress:** 83%
 ```
-████████████████████████████████████████░░░░░░░░░░
+█████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1911)
+## Successfully Built Packages (1947)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1861 more ...*
+*... and 1897 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,62 +90,61 @@
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (114)
+## In Progress (91)
+- ⏳ `AHMassBank`
 - ⏳ `BASiCStan`
+- ⏳ `BatChef`
 - ⏳ `BindingSiteFinder`
-- ⏳ `CODEX`
 - ⏳ `CSSQ`
-- ⏳ `CexoR`
+- ⏳ `ChIPQC`
 - ⏳ `ChIPseeker`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DNAfusion`
-- ⏳ `DSS`
-- ⏳ `Dino`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
 - ⏳ `EpiMix`
 - ⏳ `ExCluster`
-- ⏳ `FLAMES`
+- ⏳ `ExperimentHubData`
 - ⏳ `FindIT2`
 - ⏳ `GOstats`
 - ⏳ `GenomicInteractionNodes`
-- ⏳ `GlobalAncova`
-- ⏳ `HiCPotts`
 - ⏳ `HiTC`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
-- ⏳ `MBECS`
 - ⏳ `MEB`
-- ⏳ `MIRA`
-- ⏳ `MPAC`
 - ⏳ `MatrixQCvis`
-- ⏳ `MetaboAnnotatoR`
-- ⏳ `MethylSeekR`
+- ⏳ `MatrixRider`
 - ⏳ `MoonlightR`
 - ⏳ `MsQuality`
 - ⏳ `NanoMethViz`
-- ⏳ `OUTRIDER`
 - ⏳ `OutSplice`
 - ⏳ `PAST`
 - ⏳ `PDATK`
-- ⏳ `POMA`
-- ⏳ `PROPS`
 - ⏳ `PostChicago`
 - ⏳ `RBedMethyl`
-- ⏳ `RCAS`
 - ⏳ `RadioGx`
-- ⏳ `RegionalST`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
-- ⏳ `SCOPE`
+- ⏳ `SpaNorm`
+- ⏳ `SpatialExperimentIO`
+- ⏳ `TCGAutils`
+- ⏳ `a4`
+- ⏳ `annotatr`
+- ⏳ `atena`
+- ⏳ `benchdamic`
+- ⏳ `bumphunter`
+- ⏳ `celda`
+- ⏳ `chipenrich`
+- ⏳ `chromVAR`
+- ⏳ `clustSIGNAL`
+- ⏳ `clusterExperiment`
 
-... and 64 more ...
+... and 41 more ...
 
-## Not Yet Started (310)
-- ⏸️ `AHMassBank`
+## Not Yet Started (297)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -156,7 +155,6 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `BatChef`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
@@ -165,7 +163,6 @@
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
@@ -186,7 +183,6 @@
 - ⏸️ `ENmix`
 - ⏸️ `EpiCompare`
 - ⏸️ `EventPointer`
-- ⏸️ `ExperimentHubData`
 - ⏸️ `FRASER`
 - ⏸️ `G4SNVHunter`
 - ⏸️ `GA4GHclient`
@@ -195,9 +191,13 @@
 - ⏸️ `GNOSIS`
 - ⏸️ `GRaNIE`
 - ⏸️ `GUIDEseq`
+- ⏸️ `GenVisR`
+- ⏸️ `GeneStructureTools`
+- ⏸️ `GeneTonic`
+- ⏸️ `GenomicCoordinates`
 
-... and 260 more ...
+... and 247 more ...
 
 ---
-*Last updated: 2026-07-17 22:01:31 UTC*
+*Last updated: 2026-07-17 22:03:38 UTC*
 *Packages with verified BBS status: 148*
