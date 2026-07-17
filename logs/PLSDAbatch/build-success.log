@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PLSDAbatch'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PLSDAbatch'
+also installing the dependencies ‘dlstats’, ‘rvcheck’, ‘performance’, ‘badger’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dlstats_0.1.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rvcheck_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/performance_0.17.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/badger_0.2.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/PLSDAbatch_2.0.0.tar.gz'
+* installing *binary* package ‘dlstats’ ...
+* package ‘dlstats’ successfully unpacked and SHA256 sums checked
+* ‘dlstats’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dlstats’ as ‘dlstats_0.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dlstats)
+* installing *binary* package ‘rvcheck’ ...
+* package ‘rvcheck’ successfully unpacked and SHA256 sums checked
+* ‘rvcheck’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rvcheck’ as ‘rvcheck_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rvcheck)
+* installing *binary* package ‘performance’ ...
+* package ‘performance’ successfully unpacked and SHA256 sums checked
+* ‘performance’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘performance’ as ‘performance_0.17.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (performance)
+* installing *binary* package ‘badger’ ...
+* package ‘badger’ successfully unpacked and SHA256 sums checked
+* ‘badger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘badger’ as ‘badger_0.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (badger)
+* installing *source* package ‘PLSDAbatch’ ...
+** this is package ‘PLSDAbatch’ version ‘2.0.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PLSDAbatch’ as ‘PLSDAbatch_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PLSDAbatch)
+
+The downloaded source packages are in
+	‘/tmp/RtmpVqoKGL/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m21.048s
+user	0m13.878s
+sys	0m3.832s
