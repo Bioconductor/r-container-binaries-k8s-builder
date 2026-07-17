@@ -1,0 +1,143 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Chicago'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Chicago'
+also installing the dependencies ‘InteractionSet’, ‘Gviz’, ‘Delaporte’, ‘argparser’, ‘PCHiCdata’, ‘GenomicInteractions’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/InteractionSet_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Gviz_1.56.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Delaporte_8.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/argparser_0.7.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/PCHiCdata_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomicInteractions_1.46.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Chicago_1.40.0.tar.gz'
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘InteractionSet’ ...
+** this is package ‘InteractionSet’ version ‘1.40.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c box_bounds.cpp -o box_bounds.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c detect_overlaps.cpp -o detect_overlaps.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c init.cpp -o init.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c link_overlaps.cpp -o link_overlaps.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c overlap_utils.cpp -o overlap_utils.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o InteractionSet.so box_bounds.o detect_overlaps.o init.o link_overlaps.o overlap_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-InteractionSet/00new/InteractionSet/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘InteractionSet’ as ‘InteractionSet_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (InteractionSet)
+* installing *source* package ‘Gviz’ ...
+** this is package ‘Gviz’ version ‘1.56.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Gviz’ as ‘Gviz_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Gviz)
+* installing *binary* package ‘Delaporte’ ...
+* package ‘Delaporte’ successfully unpacked and SHA256 sums checked
+* ‘Delaporte’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Delaporte’ as ‘Delaporte_8.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Delaporte)
+* installing *binary* package ‘argparser’ ...
+* package ‘argparser’ successfully unpacked and SHA256 sums checked
+* ‘argparser’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘argparser’ as ‘argparser_0.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (argparser)
+* installing *source* package ‘GenomicInteractions’ ...
+** this is package ‘GenomicInteractions’ version ‘1.46.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicInteractions’ as ‘GenomicInteractions_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicInteractions)
+* installing *source* package ‘Chicago’ ...
+** this is package ‘Chicago’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Chicago’ as ‘Chicago_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Chicago)
+* installing *source* package ‘PCHiCdata’ ...
+** this is package ‘PCHiCdata’ version ‘1.40.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PCHiCdata’ as ‘PCHiCdata_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PCHiCdata)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAoLfPT/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	5m27.681s
+user	4m39.975s
+sys	0m23.658s
