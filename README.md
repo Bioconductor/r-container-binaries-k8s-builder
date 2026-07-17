@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 309 (12%)
+- **Successfully Built:** 350 (14%)
 - **Failed:** 2 (0%)
-- **In Progress:** 84
-- **Not Started:** 1989
+- **In Progress:** 50
+- **Not Started:** 1982
 
-**Progress:** 13%
+**Progress:** 14%
 ```
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (309)
+## Successfully Built Packages (350)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ComPrAn](https://bioconductor.org/packages/3.23/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ComPrAn) |
 | [DART](https://bioconductor.org/packages/3.23/bioc/html/DART.html) | [log](logs/DART/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DART) |
 
-*... and 259 more ...*
+*... and 300 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sparsenetgls](https://bioconductor.org/packages/3.23/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.23/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/specL) |
 | [spikeLI](https://bioconductor.org/packages/3.23/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/spikeLI) |
 | [splots](https://bioconductor.org/packages/3.23/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/splots) |
@@ -64,6 +63,7 @@
 | [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
+| [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
@@ -83,7 +83,7 @@
 | [ggtree](https://bioconductor.org/packages/3.23/bioc/html/ggtree.html) | [log](logs/ggtree/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggtree) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Build failed with unknown error |
 
-## In Progress (84)
+## In Progress (50)
 - ⏳ `ANCOMBC`
 - ⏳ `ASGSCA`
 - ⏳ `ASSET`
@@ -98,46 +98,44 @@
 - ⏳ `BridgeDbR`
 - ⏳ `COSNet`
 - ⏳ `Chicago`
-- ⏳ `DNABarcodes`
 - ⏳ `FGNet`
-- ⏳ `GSCA`
-- ⏳ `HIBAG`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `MACSQuantifyR`
 - ⏳ `MBAmethyl`
 - ⏳ `MSstatsConvert`
-- ⏳ `MassArray`
 - ⏳ `MassSpecWavelet`
-- ⏳ `MeLSI`
-- ⏳ `Mergeomics`
-- ⏳ `ModCon`
-- ⏳ `MultiMed`
-- ⏳ `NTW`
-- ⏳ `NetPathMiner`
-- ⏳ `NuPoP`
-- ⏳ `OSAT`
-- ⏳ `Omixer`
 - ⏳ `OmnipathR`
-- ⏳ `ProtGenerics`
-- ⏳ `RDRToolbox`
-- ⏳ `RImmPort`
-- ⏳ `RLMM`
-- ⏳ `RLassoCox`
-- ⏳ `RNASeqPower`
 - ⏳ `RNAdecay`
 - ⏳ `RTCGA`
-- ⏳ `RankProd`
-- ⏳ `Rarr`
 - ⏳ `Rbowtie`
 - ⏳ `RbowtieCuda`
-- ⏳ `Rbwa`
-- ⏳ `Rcollectl`
-- ⏳ `Rdisop`
+- ⏳ `Rfastp`
+- ⏳ `a4Reporting`
+- ⏳ `biodb`
+- ⏳ `biomformat`
+- ⏳ `compSPOT`
+- ⏳ `cytolib`
+- ⏳ `daMA`
+- ⏳ `dcanr`
+- ⏳ `ibh`
+- ⏳ `illuminaio`
+- ⏳ `imageTCGA`
+- ⏳ `immunotation`
+- ⏳ `iscream`
+- ⏳ `levi`
+- ⏳ `lfa`
+- ⏳ `limma`
+- ⏳ `logicFS`
+- ⏳ `maftools`
+- ⏳ `mgsa`
+- ⏳ `phosphonormalizer`
+- ⏳ `pickgene`
+- ⏳ `planet`
+- ⏳ `plasmut`
+- ⏳ `plotGrouper`
+- ⏳ `pmm`
 
-... and 34 more ...
-
-## Not Yet Started (1989)
+## Not Yet Started (1982)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -189,8 +187,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1939 more ...
+... and 1932 more ...
 
 ---
-*Last updated: 2026-07-17 20:44:35 UTC*
-*Packages with verified BBS status: 102*
+*Last updated: 2026-07-17 20:46:19 UTC*
+*Packages with verified BBS status: 103*

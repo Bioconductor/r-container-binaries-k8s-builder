@@ -1,0 +1,280 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TaxSEA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TaxSEA'
+also installing the dependencies ‘ScaledMatrix’, ‘scuttle’, ‘BiocSingular’, ‘TreeSummarizedExperiment’, ‘DECIPHER’, ‘ecodive’, ‘scater’, ‘bugsigdbr’, ‘mia’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ScaledMatrix_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scuttle_1.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocSingular_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TreeSummarizedExperiment_2.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DECIPHER_3.8.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ecodive_2.2.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scater_1.40.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/bugsigdbr_1.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mia_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TaxSEA_1.4.0.tar.gz'
+* installing *source* package ‘ScaledMatrix’ ...
+** this is package ‘ScaledMatrix’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ScaledMatrix’ as ‘ScaledMatrix_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ScaledMatrix)
+* installing *source* package ‘scuttle’ ...
+** this is package ‘scuttle’ version ‘1.22.0’
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c aggregate_across_cells.cpp -o aggregate_across_cells.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cumulative_prop.cpp -o cumulative_prop.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c downsample_counts.cpp -o downsample_counts.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fit_linear_model.cpp -o fit_linear_model.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pool_size_factors.cpp -o pool_size_factors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c set_executor.cpp -o set_executor.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sum_counts.cpp -o sum_counts.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o scuttle.so RcppExports.o aggregate_across_cells.o cumulative_prop.o downsample_counts.o fit_linear_model.o pool_size_factors.o set_executor.o sum_counts.o utils.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-scuttle/00new/scuttle/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x6e50, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘scuttle’
+* removing ‘/tmp/library/scuttle’
+* installing *source* package ‘TreeSummarizedExperiment’ ...
+** this is package ‘TreeSummarizedExperiment’ version ‘2.20.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TreeSummarizedExperiment’ as ‘TreeSummarizedExperiment_2.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TreeSummarizedExperiment)
+* installing *source* package ‘DECIPHER’ ...
+** this is package ‘DECIPHER’ version ‘3.8.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c AlignProfiles.c -o AlignProfiles.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c AssignIndels.c -o AssignIndels.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CalculateDeltaG.c -o CalculateDeltaG.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CalculateFISH.c -o CalculateFISH.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ChainSegments.c -o ChainSegments.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Cluster.c -o Cluster.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ClusterME.c -o ClusterME.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ClusterML.c -o ClusterML.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ClusterMP.c -o ClusterMP.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Compositions.c -o Compositions.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Compression.c -o Compression.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ConsensusSequence.c -o ConsensusSequence.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DesignProbes.c -o DesignProbes.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Diff.c -o Diff.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DistanceMatrix.c -o DistanceMatrix.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c EnumerateSequence.c -o EnumerateSequence.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ExpandAmbiguities.c -o ExpandAmbiguities.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FindFrameshifts.c -o FindFrameshifts.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GeneFinding.c -o GeneFinding.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GetPools.c -o GetPools.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Import.c -o Import.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c InformationContent.c -o InformationContent.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IntDist.c -o IntDist.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ManipulateXStringSet.c -o ManipulateXStringSet.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MeltPolymer.c -o MeltPolymer.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MovingAverage.c -o MovingAverage.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NNLS.c -o NNLS.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Order.c -o Order.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PairwiseAlignment.c -o PairwiseAlignment.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PopulationGenetics.c -o PopulationGenetics.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PredictDBN.c -o PredictDBN.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PredictHEC.c -o PredictHEC.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_decipher.c -o R_init_decipher.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Search.c -o Search.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c TerminalMismatch.c -o TerminalMismatch.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Translate.c -o Translate.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utils.c -o Utils.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c VectorSums.c -o VectorSums.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/Biostrings/include' -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DECIPHER.so AlignProfiles.o AssignIndels.o Biostrings_stubs.o CalculateDeltaG.o CalculateFISH.o ChainSegments.o Cluster.o ClusterME.o ClusterML.o ClusterMP.o Compositions.o Compression.o ConsensusSequence.o DesignProbes.o Diff.o DistanceMatrix.o EnumerateSequence.o ExpandAmbiguities.o FindFrameshifts.o GeneFinding.o GetPools.o Import.o InformationContent.o IntDist.o ManipulateXStringSet.o MeltPolymer.o MovingAverage.o NNLS.o Order.o PairwiseAlignment.o PopulationGenetics.o PredictDBN.o PredictHEC.o R_init_decipher.o S4Vectors_stubs.o Search.o TerminalMismatch.o Translate.o Utils.o VectorSums.o XVector_stubs.o -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DECIPHER/00new/DECIPHER/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x9260, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘DECIPHER’
+* removing ‘/tmp/library/DECIPHER’
+* installing *binary* package ‘ecodive’ ...
+* package ‘ecodive’ successfully unpacked and SHA256 sums checked
+* ‘ecodive’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ecodive’ as ‘ecodive_2.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ecodive)
+* installing *source* package ‘bugsigdbr’ ...
+** this is package ‘bugsigdbr’ version ‘1.18.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bugsigdbr’ as ‘bugsigdbr_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bugsigdbr)
+* installing *source* package ‘TaxSEA’ ...
+** this is package ‘TaxSEA’ version ‘1.4.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TaxSEA’ as ‘TaxSEA_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TaxSEA)
+* installing *source* package ‘BiocSingular’ ...
+** this is package ‘BiocSingular’ version ‘1.28.0’
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c compute_scale.cpp -o compute_scale.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocSingular.so RcppExports.o compute_scale.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-BiocSingular/00new/BiocSingular/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BiocSingular’ as ‘BiocSingular_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocSingular)
+* installing *source* package ‘scater’ ...
+** this is package ‘scater’ version ‘1.40.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+Error: package or namespace load failed for ‘ggplot2’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘gtable’
+Error : package ‘ggplot2’ could not be loaded
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/tmp/library/scater’
+* installing *source* package ‘mia’ ...
+** this is package ‘mia’ version ‘1.20.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c assay.cpp -o assay.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c faith_R.cpp -o faith_R.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c propmap.cpp -o propmap.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c transformCounts.cpp -o transformCounts.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tree.cpp -o tree.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mia.so RcppExports.o assay.o faith_R.o propmap.o transformCounts.o tree.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mia/00new/mia/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mia’ as ‘mia_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mia)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpt4VbRo/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘scuttle’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘DECIPHER’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘scater’ had non-zero exit status
+
+real	4m32.261s
+user	3m46.107s
+sys	0m27.765s

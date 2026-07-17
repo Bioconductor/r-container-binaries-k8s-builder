@@ -1,0 +1,100 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''dearseq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'dearseq'
+also installing the dependencies ‘mitools’, ‘ontologyIndex’, ‘CompQuadForm’, ‘survey’, ‘BiocSet’, ‘GSA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mitools_2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ontologyIndex_2.12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/CompQuadForm_1.4.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/survey_4.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocSet_1.25.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GSA_1.03.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/dearseq_1.24.0.tar.gz'
+* installing *binary* package ‘mitools’ ...
+* package ‘mitools’ successfully unpacked and SHA256 sums checked
+* ‘mitools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mitools’ as ‘mitools_2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitools)
+* installing *binary* package ‘ontologyIndex’ ...
+* package ‘ontologyIndex’ successfully unpacked and SHA256 sums checked
+* ‘ontologyIndex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ontologyIndex’ as ‘ontologyIndex_2.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ontologyIndex)
+* installing *binary* package ‘CompQuadForm’ ...
+* package ‘CompQuadForm’ successfully unpacked and SHA256 sums checked
+* ‘CompQuadForm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CompQuadForm’ as ‘CompQuadForm_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CompQuadForm)
+* installing *binary* package ‘GSA’ ...
+* package ‘GSA’ successfully unpacked and SHA256 sums checked
+* ‘GSA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSA’ as ‘GSA_1.03.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSA)
+* installing *binary* package ‘survey’ ...
+* package ‘survey’ successfully unpacked and SHA256 sums checked
+* ‘survey’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘survey’ as ‘survey_4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survey)
+* installing *source* package ‘BiocSet’ ...
+** this is package ‘BiocSet’ version ‘1.25.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BiocSet’ as ‘BiocSet_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocSet)
+* installing *source* package ‘dearseq’ ...
+** this is package ‘dearseq’ version ‘1.24.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dearseq’ as ‘dearseq_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dearseq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUNgAqk/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m41.087s
+user	0m24.624s
+sys	0m5.678s
