@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2198 (92%)
-- **Failed:** 25 (1%)
-- **In Progress:** 37
-- **Not Started:** 124
+- **Successfully Built:** 2221 (93%)
+- **Failed:** 27 (1%)
+- **In Progress:** 25
+- **Not Started:** 111
 
-**Progress:** 93%
+**Progress:** 94%
 ```
-██████████████████████████████████████████████░░░░
+███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2198)
+## Successfully Built Packages (2221)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2148 more ...*
+*... and 2171 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (25)
+## Failed Packages (27)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -90,6 +90,8 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
 | [SingleMoleculeFootprinting](https://bioconductor.org/packages/3.23/bioc/html/SingleMoleculeFootprinting.html) | [log](logs/SingleMoleculeFootprinting/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SingleMoleculeFootprinting) | Missing dependency: qs<br>[CRAN Package 'qs'](https://cran.r-project.org/web/packages/qs/index.html) archived on 2026-01-17 as issues were not corrected despite reminders. |
+| [SpectralTAD](https://bioconductor.org/packages/3.23/bioc/html/SpectralTAD.html) | [log](logs/SpectralTAD/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpectralTAD) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
+| [TADCompare](https://bioconductor.org/packages/3.23/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [biotmle](https://bioconductor.org/packages/3.23/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Build failed with unknown error |
@@ -106,49 +108,36 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [tLOH](https://bioconductor.org/packages/3.23/bioc/html/tLOH.html) | [log](logs/tLOH/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tLOH) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 
-## In Progress (37)
-- ⏳ `CAMERA`
-- ⏳ `CNVfilteR`
+## In Progress (25)
+- ⏳ `CAGEfightR`
 - ⏳ `CNViz`
 - ⏳ `CluMSID`
+- ⏳ `HiCDCPlus`
 - ⏳ `HiCDOC`
+- ⏳ `HiCaptuRe`
 - ⏳ `MAGAR`
-- ⏳ `MetaboAnnotatoR`
+- ⏳ `MSnID`
 - ⏳ `MungeSumstats`
-- ⏳ `RNAAgeCalc`
-- ⏳ `RnaSeqSampleSize`
-- ⏳ `SpectralTAD`
-- ⏳ `TADCompare`
-- ⏳ `chevreulShiny`
-- ⏳ `chimeraviz`
-- ⏳ `cicero`
+- ⏳ `RNAmodR.AlkAnilineSeq`
+- ⏳ `RNAmodR.ML`
+- ⏳ `RNAmodR.RiboMethSeq`
+- ⏳ `YAPSA`
+- ⏳ `affycoretools`
+- ⏳ `arrayMvout`
 - ⏳ `cliqueMS`
-- ⏳ `comapr`
 - ⏳ `cosmiq`
-- ⏳ `crisprViz`
-- ⏳ `derfinderPlot`
-- ⏳ `epimutacions`
-- ⏳ `epivizrStandalone`
-- ⏳ `fourSynergy`
-- ⏳ `iSEEfier`
-- ⏳ `lcmsPlot`
-- ⏳ `maser`
-- ⏳ `methylPipe`
+- ⏳ `ffpe`
+- ⏳ `iCheck`
 - ⏳ `missMethyl`
 - ⏳ `ncGTW`
-- ⏳ `pRolocGUI`
-- ⏳ `primirTSS`
 - ⏳ `psichomics`
 - ⏳ `saseR`
 - ⏳ `scTreeViz`
-- ⏳ `squallms`
-- ⏳ `srnadiff`
-- ⏳ `trackViewer`
+- ⏳ `wateRmelon`
 
-## Not Yet Started (124)
+## Not Yet Started (111)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `BulkSignalR`
-- ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CBNplot`
 - ⏸️ `CEMiTool`
@@ -164,8 +153,6 @@
 - ⏸️ `GDCRNATools`
 - ⏸️ `GOaGO`
 - ⏸️ `GeneTonic`
-- ⏸️ `HiCDCPlus`
-- ⏸️ `HiCaptuRe`
 - ⏸️ `IPO`
 - ⏸️ `LOBSTAHS`
 - ⏸️ `LymphoSeq`
@@ -173,7 +160,6 @@
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MIRit`
-- ⏸️ `MSnID`
 - ⏸️ `MSstats`
 - ⏸️ `MSstatsBig`
 - ⏸️ `MSstatsBioNet`
@@ -192,13 +178,17 @@
 - ⏸️ `PanomiR`
 - ⏸️ `Pigengene`
 - ⏸️ `RFLOMICS`
-- ⏸️ `RNAmodR.AlkAnilineSeq`
-- ⏸️ `RNAmodR.ML`
-- ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `ReactomePA`
+- ⏸️ `ReducedExperiment`
+- ⏸️ `SEMPLR`
+- ⏸️ `SVP`
+- ⏸️ `SingleCellSignalR`
+- ⏸️ `Statial`
+- ⏸️ `VISTA`
+- ⏸️ `annoLinker`
 
-... and 74 more ...
+... and 61 more ...
 
 ---
-*Last updated: 2026-07-17 22:48:53 UTC*
-*Packages with verified BBS status: 214*
+*Last updated: 2026-07-17 22:49:54 UTC*
+*Packages with verified BBS status: 216*
