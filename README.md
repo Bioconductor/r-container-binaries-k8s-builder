@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 790 (33%)
+- **Successfully Built:** 813 (34%)
 - **Failed:** 2 (0%)
-- **In Progress:** 12
-- **Not Started:** 1540
+- **In Progress:** 14
+- **Not Started:** 1515
 
-**Progress:** 33%
+**Progress:** 34%
 ```
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (790)
+## Successfully Built Packages (813)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 740 more ...*
+*... and 763 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timecourse](https://bioconductor.org/packages/3.24/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.24/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.24/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tomoseqr) |
@@ -64,6 +63,7 @@
 | [twilight](https://bioconductor.org/packages/3.24/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.24/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.24/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.24/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
@@ -83,21 +83,23 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (12)
+## In Progress (14)
+- ⏳ `Aerith`
 - ⏳ `Biostrings`
-- ⏳ `Chromatograms`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `MetaCyto`
-- ⏳ `SpectriPy`
-- ⏳ `cola`
+- ⏳ `TileDBArray`
+- ⏳ `adverSCarial`
+- ⏳ `beachmat`
+- ⏳ `flowWorkspace`
 - ⏳ `frmaTools`
-- ⏳ `h5mread`
 - ⏳ `ldblock`
-- ⏳ `optimalFlow`
+- ⏳ `msPurity`
+- ⏳ `orthogene`
+- ⏳ `sketchR`
 
-## Not Yet Started (1540)
+## Not Yet Started (1515)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -115,7 +117,6 @@
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
-- ⏸️ `Aerith`
 - ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -148,9 +149,10 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
 - ⏸️ `Banksy`
+- ⏸️ `Basic4Cseq`
 
-... and 1490 more ...
+... and 1465 more ...
 
 ---
-*Last updated: 2026-07-17 21:02:30 UTC*
-*Packages with verified BBS status: 101*
+*Last updated: 2026-07-17 21:03:55 UTC*
+*Packages with verified BBS status: 102*

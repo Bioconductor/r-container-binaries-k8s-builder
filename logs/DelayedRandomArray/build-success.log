@@ -1,0 +1,52 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DelayedRandomArray'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DelayedRandomArray'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DelayedRandomArray_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 328054 bytes (320 KB)
+==================================================
+downloaded 320 KB
+
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘DelayedRandomArray’ ...
+** this is package ‘DelayedRandomArray’ version ‘1.21.0’
+** package ‘DelayedRandomArray’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/dqrng/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/dqrng/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c index_server.cpp -o index_server.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/dqrng/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c recycle_vector.cpp -o recycle_vector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/dqrng/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sample_standard_uniform.cpp -o sample_standard_uniform.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DelayedRandomArray.so RcppExports.o index_server.o recycle_vector.o sample_standard_uniform.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DelayedRandomArray/00new/DelayedRandomArray/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DelayedRandomArray’ as ‘DelayedRandomArray_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DelayedRandomArray)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9KE1H2/downloaded_packages’
+
+real	0m36.755s
+user	0m30.417s
+sys	0m5.196s

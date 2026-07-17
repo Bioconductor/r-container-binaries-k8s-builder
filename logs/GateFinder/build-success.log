@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GateFinder'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GateFinder'
+also installing the dependencies ‘splancs’, ‘mvoutlier’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/splancs_2.01-45.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mvoutlier_2.1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GateFinder_1.33.0.tar.gz'
+* installing *binary* package ‘splancs’ ...
+* package ‘splancs’ successfully unpacked and SHA256 sums checked
+* ‘splancs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘splancs’ as ‘splancs_2.01-45_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splancs)
+* installing *binary* package ‘mvoutlier’ ...
+* package ‘mvoutlier’ successfully unpacked and SHA256 sums checked
+* ‘mvoutlier’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mvoutlier’ as ‘mvoutlier_2.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvoutlier)
+* installing *source* package ‘GateFinder’ ...
+** this is package ‘GateFinder’ version ‘1.33.0’
+** package ‘GateFinder’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GateFinder’ as ‘GateFinder_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GateFinder)
+
+The downloaded source packages are in
+	‘/tmp/RtmpJFsla8/downloaded_packages’
+
+real	0m25.746s
+user	0m14.504s
+sys	0m3.787s

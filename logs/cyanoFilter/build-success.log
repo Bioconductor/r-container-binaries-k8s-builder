@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''cyanoFilter'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'cyanoFilter'
+also installing the dependencies ‘GoFKernel’, ‘cytometree’, ‘mrfDepth’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GoFKernel_2.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cytometree_2.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mrfDepth_1.0.17.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/cyanoFilter_1.21.0.tar.gz'
+* installing *binary* package ‘GoFKernel’ ...
+* package ‘GoFKernel’ successfully unpacked and SHA256 sums checked
+* ‘GoFKernel’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GoFKernel’ as ‘GoFKernel_2.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GoFKernel)
+* installing *binary* package ‘mrfDepth’ ...
+* package ‘mrfDepth’ successfully unpacked and SHA256 sums checked
+* ‘mrfDepth’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mrfDepth’ as ‘mrfDepth_1.0.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mrfDepth)
+* installing *binary* package ‘cytometree’ ...
+* package ‘cytometree’ successfully unpacked and SHA256 sums checked
+* ‘cytometree’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cytometree’ as ‘cytometree_2.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cytometree)
+* installing *source* package ‘cyanoFilter’ ...
+** this is package ‘cyanoFilter’ version ‘1.21.0’
+** package ‘cyanoFilter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cyanoFilter’ as ‘cyanoFilter_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cyanoFilter)
+
+The downloaded source packages are in
+	‘/tmp/RtmpspCick/downloaded_packages’
+
+real	0m17.128s
+user	0m13.393s
+sys	0m3.456s
