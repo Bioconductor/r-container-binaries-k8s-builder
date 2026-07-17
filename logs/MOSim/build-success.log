@@ -1,0 +1,83 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MOSim'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MOSim'
+also installing the dependencies ‘HiddenMarkov’, ‘Signac’, ‘decor’, ‘leiden’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/HiddenMarkov_1.8-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Signac_1.17.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/decor_1.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/leiden_0.4.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MOSim_2.8.0.tar.gz'
+* installing *binary* package ‘HiddenMarkov’ ...
+* package ‘HiddenMarkov’ successfully unpacked and SHA256 sums checked
+* ‘HiddenMarkov’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HiddenMarkov’ as ‘HiddenMarkov_1.8-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HiddenMarkov)
+* installing *binary* package ‘Signac’ ...
+* package ‘Signac’ successfully unpacked and SHA256 sums checked
+* ‘Signac’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Signac’ as ‘Signac_1.17.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Signac)
+* installing *binary* package ‘decor’ ...
+* package ‘decor’ successfully unpacked and SHA256 sums checked
+* ‘decor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘decor’ as ‘decor_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (decor)
+* installing *binary* package ‘leiden’ ...
+* package ‘leiden’ successfully unpacked and SHA256 sums checked
+* ‘leiden’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leiden’ as ‘leiden_0.4.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leiden)
+* installing *source* package ‘MOSim’ ...
+** this is package ‘MOSim’ version ‘2.8.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Random_number.cpp -o Random_number.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o MOSim.so Random_number.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-MOSim/00new/MOSim/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘dplyr::count’ by ‘matrixStats::count’ when loading ‘MOSim’
+Creating a new generic function for ‘simulate’ in package ‘MOSim’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘dplyr::count’ by ‘matrixStats::count’ when loading ‘MOSim’
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘dplyr::count’ by ‘matrixStats::count’ when loading ‘MOSim’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MOSim’ as ‘MOSim_2.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MOSim)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpf4d7ox/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m9.194s
+user	0m45.840s
+sys	0m7.209s

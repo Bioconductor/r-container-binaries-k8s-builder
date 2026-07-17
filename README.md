@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1845 (77%)
+- **Successfully Built:** 1878 (78%)
 - **Failed:** 20 (0%)
-- **In Progress:** 88
-- **Not Started:** 431
+- **In Progress:** 68
+- **Not Started:** 418
 
-**Progress:** 78%
+**Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1845)
+## Successfully Built Packages (1878)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 
-*... and 1795 more ...*
+*... and 1828 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,61 +101,61 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (88)
-- ⏳ `BASiCS`
-- ⏳ `BSgenomeForge`
-- ⏳ `BatchQC`
+## In Progress (68)
 - ⏳ `BayesSpace`
 - ⏳ `BindingSiteFinder`
-- ⏳ `BioTIP`
-- ⏳ `CellMixS`
 - ⏳ `CelliD`
 - ⏳ `CexoR`
-- ⏳ `ChIPQC`
 - ⏳ `CiteFuse`
 - ⏳ `Coralysis`
 - ⏳ `DOTSeq`
 - ⏳ `DaMiRseq`
 - ⏳ `DeconvoBuddies`
-- ⏳ `Dino`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiMix`
-- ⏳ `GOTHiC`
+- ⏳ `GNOSIS`
 - ⏳ `GlobalAncova`
 - ⏳ `IFAA`
 - ⏳ `InPAS`
 - ⏳ `InteractionSet`
 - ⏳ `LipidTrend`
 - ⏳ `MEB`
+- ⏳ `MGnifyR`
 - ⏳ `MIRA`
 - ⏳ `MMDiff2`
 - ⏳ `MOSClip`
-- ⏳ `MOSim`
-- ⏳ `MPAC`
-- ⏳ `MethylSeekR`
-- ⏳ `Motif2Site`
 - ⏳ `MotifPeeker`
-- ⏳ `MultiDataSet`
+- ⏳ `MsQuality`
 - ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
-- ⏳ `ORFhunteR`
 - ⏳ `ORFik`
 - ⏳ `OUTRIDER`
 - ⏳ `OrganismDbi`
-- ⏳ `OutSplice`
 - ⏳ `PSMatch`
 - ⏳ `RBedMethyl`
-- ⏳ `RJMCMCNucleosomes`
 - ⏳ `RSVSim`
 - ⏳ `RadioGx`
 - ⏳ `Rhisat2`
-- ⏳ `Spaniel`
-- ⏳ `SplicingGraphs`
 - ⏳ `TFBSTools`
+- ⏳ `UMI4Cats`
+- ⏳ `VanillaICE`
+- ⏳ `VariantAnnotation`
+- ⏳ `annotatr`
+- ⏳ `attract`
+- ⏳ `bambu`
+- ⏳ `batchelor`
+- ⏳ `canceR`
+- ⏳ `cbaf`
+- ⏳ `celda`
+- ⏳ `concordexR`
+- ⏳ `dar`
+- ⏳ `ensembldb`
+- ⏳ `gDRutils`
+- ⏳ `ggsc`
 
-... and 38 more ...
+... and 18 more ...
 
-## Not Yet Started (431)
+## Not Yet Started (418)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASICS`
@@ -207,8 +207,8 @@
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
 
-... and 381 more ...
+... and 368 more ...
 
 ---
-*Last updated: 2026-07-17 22:30:43 UTC*
+*Last updated: 2026-07-17 22:31:50 UTC*
 *Packages with verified BBS status: 201*

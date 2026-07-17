@@ -1,0 +1,47 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''alabaster.sfe'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'alabaster.sfe'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/alabaster.sfe_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 2872969 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+* installing *source* package ‘alabaster.sfe’ ...
+** this is package ‘alabaster.sfe’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+trying URL 'https://downloads.openmicroscopy.org/bio-formats/7.3.0/artifacts/bioformats_package.jar'
+Content type 'application/java-archive' length 44926502 bytes (42.8 MB)
+==================================================
+downloaded 42.8 MB
+
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alabaster.sfe’ as ‘alabaster.sfe_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.sfe)
+
+The downloaded source packages are in
+	‘/tmp/RtmpfzkHb0/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m38.633s
+user	0m58.033s
+sys	0m7.366s
