@@ -1,0 +1,91 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TileDBArray'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TileDBArray'
+also installing the dependencies ‘RcppCCTZ’, ‘RcppDate’, ‘nanotime’, ‘nanoarrow’, ‘RcppInt64’, ‘tiledb’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppCCTZ_0.2.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppDate_0.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nanotime_0.3.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nanoarrow_0.8.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppInt64_0.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tiledb_0.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TileDBArray_1.22.0.tar.gz'
+* installing *binary* package ‘RcppCCTZ’ ...
+* package ‘RcppCCTZ’ successfully unpacked and SHA256 sums checked
+* ‘RcppCCTZ’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppCCTZ’ as ‘RcppCCTZ_0.2.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppCCTZ)
+* installing *binary* package ‘RcppDate’ ...
+* package ‘RcppDate’ successfully unpacked and SHA256 sums checked
+* ‘RcppDate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppDate’ as ‘RcppDate_0.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppDate)
+* installing *binary* package ‘nanoarrow’ ...
+* package ‘nanoarrow’ successfully unpacked and SHA256 sums checked
+* ‘nanoarrow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nanoarrow’ as ‘nanoarrow_0.8.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nanoarrow)
+* installing *binary* package ‘RcppInt64’ ...
+* package ‘RcppInt64’ successfully unpacked and SHA256 sums checked
+* ‘RcppInt64’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppInt64’ as ‘RcppInt64_0.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppInt64)
+* installing *binary* package ‘nanotime’ ...
+* package ‘nanotime’ successfully unpacked and SHA256 sums checked
+* ‘nanotime’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nanotime’ as ‘nanotime_0.3.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nanotime)
+* installing *binary* package ‘tiledb’ ...
+* package ‘tiledb’ successfully unpacked and SHA256 sums checked
+* ‘tiledb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+Warning in utils::tar(filepath, curPkg, compression = compression, compression_level = compression_level,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘tiledb/tiledb/include/tiledb/api/c_api/array_schema_evolution/array_schema_evolution_api_experimental.h’
+packaged installation of ‘tiledb’ as ‘tiledb_0.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiledb)
+* installing *source* package ‘TileDBArray’ ...
+** this is package ‘TileDBArray’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TileDBArray’ as ‘TileDBArray_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TileDBArray)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxwBJLt/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m52.243s
+user	0m42.803s
+sys	0m5.725s

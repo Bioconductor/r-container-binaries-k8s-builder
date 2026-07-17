@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BioNAR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BioNAR'
+also installing the dependencies ‘poweRlaw’, ‘rSpectral’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/poweRlaw_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rSpectral_1.0.0.16.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BioNAR_1.14.0.tar.gz'
+* installing *binary* package ‘poweRlaw’ ...
+* package ‘poweRlaw’ successfully unpacked and SHA256 sums checked
+* ‘poweRlaw’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘poweRlaw’ as ‘poweRlaw_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (poweRlaw)
+* installing *binary* package ‘rSpectral’ ...
+* package ‘rSpectral’ successfully unpacked and SHA256 sums checked
+* ‘rSpectral’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rSpectral’ as ‘rSpectral_1.0.0.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rSpectral)
+* installing *source* package ‘BioNAR’ ...
+** this is package ‘BioNAR’ version ‘1.14.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BioNAR’ as ‘BioNAR_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BioNAR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpnfUHGl/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m38.306s
+user	0m27.248s
+sys	0m4.249s

@@ -6,23 +6,25 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 949 (39%)
+- **Successfully Built:** 985 (41%)
 - **Failed:** 10 (0%)
-- **In Progress:** 9
-- **Not Started:** 1416
+- **In Progress:** 48
+- **Not Started:** 1341
 
-**Progress:** 40%
+**Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (949)
+## Successfully Built Packages (985)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.23/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABarray) |
+| [ACE](https://bioconductor.org/packages/3.23/bioc/html/ACE.html) | [log](logs/ACE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACE) |
 | [ACME](https://bioconductor.org/packages/3.23/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACME) |
+| [ADAPT](https://bioconductor.org/packages/3.23/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.23/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
@@ -43,10 +45,8 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
-| [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
-| [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 899 more ...*
+*... and 935 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,19 +91,57 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (9)
-- ⏳ `ADAPT`
-- ⏳ `AnnotationFilter`
-- ⏳ `BREW3R.r`
-- ⏳ `DNAshapeR`
-- ⏳ `Rbowtie2`
-- ⏳ `affyPLM`
-- ⏳ `cytoMEM`
-- ⏳ `msa`
-- ⏳ `pepStat`
+## In Progress (48)
+- ⏳ `AnnotationForge`
+- ⏳ `CoCiteStats`
+- ⏳ `DelayedDataFrame`
+- ⏳ `DelayedMatrixStats`
+- ⏳ `DelayedRandomArray`
+- ⏳ `GDSArray`
+- ⏳ `GOSemSim`
+- ⏳ `GOfan`
+- ⏳ `GOfuncR`
+- ⏳ `GeneBreak`
+- ⏳ `KEGGlincs`
+- ⏳ `MLP`
+- ⏳ `MesKit`
+- ⏳ `MiRaGE`
+- ⏳ `PADOG`
+- ⏳ `ScaledMatrix`
+- ⏳ `SpatialOmicsOverlay`
+- ⏳ `SubCellBarCode`
+- ⏳ `SummarizedExperiment`
+- ⏳ `adverSCarial`
+- ⏳ `annaffy`
+- ⏳ `annotate`
+- ⏳ `beachmat`
+- ⏳ `biomaRt`
+- ⏳ `cyanoFilter`
+- ⏳ `ddPCRclust`
+- ⏳ `flowBin`
+- ⏳ `flowCut`
+- ⏳ `flowWorkspace`
+- ⏳ `funOmics`
+- ⏳ `gage`
+- ⏳ `goProfiles`
+- ⏳ `goTools`
+- ⏳ `graphite`
+- ⏳ `keggorthology`
+- ⏳ `maPredictDSC`
+- ⏳ `miRNAmeConverter`
+- ⏳ `miRNAtap`
+- ⏳ `mirIntegrator`
+- ⏳ `motifTestR`
+- ⏳ `multiMiR`
+- ⏳ `panelcn.mops`
+- ⏳ `pathRender`
+- ⏳ `pathview`
+- ⏳ `rTRM`
+- ⏳ `safe`
+- ⏳ `simplifyEnrichment`
+- ⏳ `sketchR`
 
-## Not Yet Started (1416)
-- ⏸️ `ACE`
+## Not Yet Started (1341)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADImpute`
@@ -126,8 +164,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationForge`
-- ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
@@ -153,9 +189,12 @@
 - ⏸️ `BatchSVG`
 - ⏸️ `Battlefield`
 - ⏸️ `BayesSpace`
+- ⏸️ `BgeeCall`
+- ⏸️ `BgeeDB`
+- ⏸️ `BiSeq`
 
-... and 1366 more ...
+... and 1291 more ...
 
 ---
-*Last updated: 2026-07-17 21:36:21 UTC*
-*Packages with verified BBS status: 159*
+*Last updated: 2026-07-17 21:39:44 UTC*
+*Packages with verified BBS status: 161*
