@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 222 (9%)
+- **Successfully Built:** 223 (9%)
 - **Failed:** 0 (0%)
-- **In Progress:** 174
+- **In Progress:** 173
 - **Not Started:** 1948
 
 **Progress:** 9%
@@ -16,7 +16,7 @@
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (222)
+## Successfully Built Packages (223)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [CARNIVAL](https://bioconductor.org/packages/3.24/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CARNIVAL) |
 | [CFAssay](https://bioconductor.org/packages/3.24/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CFAssay) |
 
-*... and 172 more ...*
+*... and 173 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (174)
+## In Progress (173)
 - ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
@@ -128,7 +128,7 @@
 - ⏳ `MassSpecWavelet`
 - ⏳ `MatrixGenerics`
 
-... and 124 more ...
+... and 123 more ...
 
 ## Not Yet Started (1948)
 - ⏸️ `ABarray`
@@ -185,5 +185,5 @@
 ... and 1898 more ...
 
 ---
-*Last updated: 2026-07-17 20:23:54 UTC*
+*Last updated: 2026-07-17 20:25:54 UTC*
 *Packages with verified BBS status: 58*
