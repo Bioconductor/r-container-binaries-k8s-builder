@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2168 (92%)
+- **Successfully Built:** 2180 (93%)
 - **Failed:** 14 (0%)
-- **In Progress:** 44
-- **Not Started:** 118
+- **In Progress:** 71
+- **Not Started:** 79
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2168)
+## Successfully Built Packages (2180)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2118 more ...*
+*... and 2130 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,70 +95,68 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (44)
+## In Progress (71)
+- ⏳ `ASpli`
+- ⏳ `AllelicImbalance`
 - ⏳ `BASiCStan`
+- ⏳ `BOBaFIT`
+- ⏳ `CAFE`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `CopyNumberPlots`
-- ⏳ `GNOSIS`
-- ⏳ `GRaNIE`
+- ⏳ `Damsel`
+- ⏳ `DuplexDiscovereR`
+- ⏳ `GARS`
 - ⏳ `GUIDEseq`
+- ⏳ `GeneStructureTools`
+- ⏳ `GenomicInteractions`
+- ⏳ `GenomicOZone`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NanoMethViz`
+- ⏳ `OGRE`
 - ⏳ `PostChicago`
+- ⏳ `Pviz`
+- ⏳ `R3CPET`
 - ⏳ `RBedMethyl`
 - ⏳ `REDseq`
+- ⏳ `RNAmodR`
 - ⏳ `RadioGx`
+- ⏳ `ReportingTools`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
+- ⏳ `SPLINTER`
+- ⏳ `SomaticSignatures`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
-- ⏳ `alabaster`
+- ⏳ `TVTB`
+- ⏳ `VariantFiltering`
 - ⏳ `annotatr`
+- ⏳ `biomvRCNS`
+- ⏳ `cageminer`
 - ⏳ `canceR`
 - ⏳ `cbaf`
-- ⏳ `chevreulShiny`
-- ⏳ `coMethDMR`
+- ⏳ `chimeraviz`
+- ⏳ `cicero`
+- ⏳ `comapr`
+- ⏳ `crisprViz`
 - ⏳ `decontX`
-- ⏳ `derfinder`
-- ⏳ `epivizrData`
 - ⏳ `fourSynergy`
 - ⏳ `geneAttribution`
 - ⏳ `gmoviz`
-- ⏳ `metaseqR2`
-- ⏳ `minfi`
-- ⏳ `multicrispr`
-- ⏳ `octad`
-- ⏳ `qpgraph`
-- ⏳ `rCGH`
-- ⏳ `rGREAT`
-- ⏳ `ribosomeProfilingQC`
-- ⏳ `scFeatures`
-- ⏳ `scone`
-- ⏳ `singleCellTK`
-- ⏳ `standR`
-- ⏳ `strandCheckR`
+- ⏳ `intansv`
+- ⏳ `mCSEA`
 
-## Not Yet Started (118)
-- ⏸️ `ASpli`
+... and 21 more ...
+
+## Not Yet Started (79)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `AllelicImbalance`
-- ⏸️ `BOBaFIT`
-- ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `ChAMP`
 - ⏸️ `DMRcate`
-- ⏸️ `Damsel`
-- ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
-- ⏸️ `GARS`
-- ⏸️ `GeneStructureTools`
-- ⏸️ `GenomicInteractions`
-- ⏸️ `GenomicOZone`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
 - ⏸️ `HiCDCPlus`
@@ -169,32 +167,42 @@
 - ⏸️ `MOSClip`
 - ⏸️ `MethylAid`
 - ⏸️ `NADfinder`
-- ⏸️ `OGRE`
-- ⏸️ `Pviz`
-- ⏸️ `R3CPET`
 - ⏸️ `REMP`
 - ⏸️ `RNAAgeCalc`
-- ⏸️ `RNAmodR`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
-- ⏸️ `ReportingTools`
 - ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
 - ⏸️ `SOMNiBUS`
-- ⏸️ `SPLINTER`
-- ⏸️ `SomaticSignatures`
 - ⏸️ `SpaceTrooper`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
-- ⏸️ `TVTB`
-- ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `annoLinker`
+- ⏸️ `arrayMvout`
+- ⏸️ `bigmelon`
+- ⏸️ `biscuiteer`
+- ⏸️ `clipper`
+- ⏸️ `compEpiTools`
+- ⏸️ `conumee`
+- ⏸️ `crisprShiny`
+- ⏸️ `crisprVerse`
+- ⏸️ `cytoviewer`
+- ⏸️ `derfinderPlot`
+- ⏸️ `dmrseq`
+- ⏸️ `dnaEPICO`
+- ⏸️ `epiRomics`
+- ⏸️ `epimutacions`
+- ⏸️ `epivizr`
+- ⏸️ `epivizrChart`
+- ⏸️ `epivizrStandalone`
+- ⏸️ `ffpe`
+- ⏸️ `funtooNorm`
 
-... and 68 more ...
+... and 29 more ...
 
 ---
-*Last updated: 2026-07-17 22:19:59 UTC*
+*Last updated: 2026-07-17 22:21:30 UTC*
 *Packages with verified BBS status: 158*

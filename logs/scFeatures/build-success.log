@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scFeatures'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scFeatures'
+also installing the dependency ‘EnsDb.Mmusculus.v79’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/EnsDb.Mmusculus.v79_2.99.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/scFeatures_1.13.0.tar.gz'
+* installing *source* package ‘EnsDb.Mmusculus.v79’ ...
+** this is package ‘EnsDb.Mmusculus.v79’ version ‘2.99.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnsDb.Mmusculus.v79’ as ‘EnsDb.Mmusculus.v79_2.99.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnsDb.Mmusculus.v79)
+* installing *source* package ‘scFeatures’ ...
+** this is package ‘scFeatures’ version ‘1.13.0’
+** package ‘scFeatures’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scFeatures’ as ‘scFeatures_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scFeatures)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpx2AQ63/downloaded_packages’
+
+real	2m29.509s
+user	2m9.179s
+sys	0m10.854s
