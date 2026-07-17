@@ -1,0 +1,126 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''garfield'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+Error in readRDS(file) : error reading from connection
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'garfield'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/garfield_1.41.0.tar.gz'
+Content type 'application/x-gzip' length 312979 bytes (305 KB)
+==================================================
+downloaded 305 KB
+
+* installing *source* package ‘garfield’ ...
+** this is package ‘garfield’ version ‘1.41.0’
+** package ‘garfield’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c garfield_init.c -o garfield_init.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c garfield_perm.cpp -o garfield_perm.o
+garfield_perm.cpp: In function ‘void batchfeep(std::vector<std::vector<double> >&, std::vector<std::vector<double> >&, const std::vector<bin>&, const std::vector<double>&, int, int, bool, int, double, int, std::vector<bool>)’:
+garfield_perm.cpp:306:29: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘long int’ [-Wformat=]
+  306 |                 Rprintf("\r%s/%s\t\t%s\%\t\t%s annotations/s\t\t Time remaining: %s s",j+1,nannot, 100.0 * (j+1) / nannot, nannot,1.0 * (nannot - (j+1)) / perms_per_sec   );
+      |                            ~^                                                          ~~~
+      |                             |                                                           |
+      |                             char*                                                       long int
+      |                            %ld
+garfield_perm.cpp:306:32: warning: format ‘%s’ expects argument of type ‘char*’, but argument 3 has type ‘int’ [-Wformat=]
+  306 |                 Rprintf("\r%s/%s\t\t%s\%\t\t%s annotations/s\t\t Time remaining: %s s",j+1,nannot, 100.0 * (j+1) / nannot, nannot,1.0 * (nannot - (j+1)) / perms_per_sec   );
+      |                               ~^                                                           ~~~~~~
+      |                                |                                                           |
+      |                                char*                                                       int
+      |                               %d
+garfield_perm.cpp:306:38: warning: format ‘%s’ expects argument of type ‘char*’, but argument 4 has type ‘double’ [-Wformat=]
+  306 |                 Rprintf("\r%s/%s\t\t%s\%\t\t%s annotations/s\t\t Time remaining: %s s",j+1,nannot, 100.0 * (j+1) / nannot, nannot,1.0 * (nannot - (j+1)) / perms_per_sec   );
+      |                                     ~^                                                             ~~~~~~~~~~~~~~~~~~~~~~
+      |                                      |                                                                           |
+      |                                      char*                                                                       double
+      |                                     %f
+garfield_perm.cpp:306:41: warning: unknown conversion type character ‘\x09’ in format [-Wformat=]
+  306 |                 Rprintf("\r%s/%s\t\t%s\%\t\t%s annotations/s\t\t Time remaining: %s s",j+1,nannot, 100.0 * (j+1) / nannot, nannot,1.0 * (nannot - (j+1)) / perms_per_sec   );
+      |                                         ^~
+garfield_perm.cpp:306:46: warning: format ‘%s’ expects argument of type ‘char*’, but argument 5 has type ‘int’ [-Wformat=]
+  306 |                 Rprintf("\r%s/%s\t\t%s\%\t\t%s annotations/s\t\t Time remaining: %s s",j+1,nannot, 100.0 * (j+1) / nannot, nannot,1.0 * (nannot - (j+1)) / perms_per_sec   );
+      |                                             ~^                                                                             ~~~~~~
+      |                                              |                                                                             |
+      |                                              char*                                                                         int
+      |                                             %d
+garfield_perm.cpp:306:83: warning: format ‘%s’ expects argument of type ‘char*’, but argument 6 has type ‘double’ [-Wformat=]
+  306 |                 Rprintf("\r%s/%s\t\t%s\%\t\t%s annotations/s\t\t Time remaining: %s s",j+1,nannot, 100.0 * (j+1) / nannot, nannot,1.0 * (nannot - (j+1)) / perms_per_sec   );
+      |                                                                                  ~^                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                   |                                                                      |
+      |                                                                                   char*                                                                  double
+      |                                                                                  %f
+garfield_perm.cpp: In function ‘int garfield_perm(char**, char**, char**, char**, char**, char**, char**, char**, char**, char**, char**, char**, char**)’:
+garfield_perm.cpp:356:27: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘int’ [-Wformat=]
+  356 |                 Rprintf("%s",nannot);
+      |                          ~^  ~~~~~~
+      |                           |  |
+      |                           |  int
+      |                           char*
+      |                          %d
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c garfield_prep.cpp -o garfield_prep.o
+garfield_prep.cpp:144:28: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  144 | struct Enumerator : public iterator<input_iterator_tag, typename Iterator::value_type>  {
+      |                            ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from garfield_prep.cpp:19:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+garfield_prep.cpp:225:37: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  225 | struct TagsOutputIterator1 : public iterator<output_iterator_tag,void,void,void,void> {
+      |                                     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+garfield_prep.cpp:234:37: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  234 | struct TagsOutputIterator2 : public iterator<output_iterator_tag,void,void,void,void> {
+      |                                     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+garfield_prep.cpp:245:38: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  245 | struct TagRefOutputIterator : public iterator<output_iterator_tag,void,void,void,void> {
+      |                                      ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+garfield_prep.cpp:273:37: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  273 | struct PrintOutputIterator : public iterator<output_iterator_tag,void,void,void,void> {
+      |                                     ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o garfield.so garfield_init.o garfield_perm.o garfield_prep.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-garfield/00new/garfield/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘garfield’ as ‘garfield_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (garfield)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzFKr7O/downloaded_packages’
+
+real	0m20.457s
+user	0m11.932s
+sys	0m3.525s

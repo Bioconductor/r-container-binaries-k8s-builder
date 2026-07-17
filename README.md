@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 437 (18%)
-- **Failed:** 1 (0%)
-- **In Progress:** 48
-- **Not Started:** 1858
+- **Successfully Built:** 464 (19%)
+- **Failed:** 2 (0%)
+- **In Progress:** 30
+- **Not Started:** 1848
 
-**Progress:** 18%
+**Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (437)
+## Successfully Built Packages (464)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -42,17 +42,17 @@
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
+| [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
-| [BiocBuildReporter](https://bioconductor.org/packages/3.24/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBuildReporter) |
 
-*... and 387 more ...*
+*... and 414 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssize](https://bioconductor.org/packages/3.24/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.24/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/statTarget) |
+| [stepNorm](https://bioconductor.org/packages/3.24/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.24/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.24/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
@@ -76,53 +76,36 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (1)
+## Failed Packages (2)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (48)
-- ⏳ `BenchHub`
+## In Progress (30)
 - ⏳ `BiocGenerics`
-- ⏳ `CNAnorm`
-- ⏳ `DEGseq`
-- ⏳ `DeepPINCS`
-- ⏳ `GCPtools`
 - ⏳ `GWAS.BAYES`
-- ⏳ `GladiaTOX`
-- ⏳ `GraphAlignment`
-- ⏳ `HGC`
-- ⏳ `HIBAG`
-- ⏳ `HIREewas`
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
-- ⏳ `INPower`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
+- ⏳ `MSstats`
 - ⏳ `PLSDAbatch`
-- ⏳ `PROPER`
 - ⏳ `RLassoCox`
 - ⏳ `RNAdecay`
-- ⏳ `RbowtieCuda`
-- ⏳ `barmixR`
+- ⏳ `arrayQuality`
 - ⏳ `clstutils`
-- ⏳ `compcodeR`
+- ⏳ `cytolib`
 - ⏳ `demuxmix`
-- ⏳ `diffGeneAnalysis`
 - ⏳ `diffuStats`
 - ⏳ `flowPeaks`
 - ⏳ `flowPlots`
-- ⏳ `fmrs`
 - ⏳ `fobitools`
-- ⏳ `frenchFISH`
-- ⏳ `garfield`
 - ⏳ `genomes`
 - ⏳ `graper`
-- ⏳ `les`
-- ⏳ `limmaGUI`
 - ⏳ `mzID`
 - ⏳ `philr`
 - ⏳ `ppcseq`
@@ -132,7 +115,7 @@
 - ⏳ `tkWidgets`
 - ⏳ `wavFeatExt`
 
-## Not Yet Started (1858)
+## Not Yet Started (1848)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -184,8 +167,8 @@
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 
-... and 1808 more ...
+... and 1798 more ...
 
 ---
-*Last updated: 2026-07-17 20:44:50 UTC*
-*Packages with verified BBS status: 77*
+*Last updated: 2026-07-17 20:45:52 UTC*
+*Packages with verified BBS status: 79*
