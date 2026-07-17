@@ -6,20 +6,21 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 393 (16%)
+- **Successfully Built:** 405 (17%)
 - **Failed:** 0 (0%)
-- **In Progress:** 79
-- **Not Started:** 1872
+- **In Progress:** 68
+- **Not Started:** 1871
 
-**Progress:** 16%
+**Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (393)
+## Successfully Built Packages (405)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
+| [ABSSeq](https://bioconductor.org/packages/3.24/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABSSeq) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.24/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
@@ -44,9 +45,8 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.24/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBuildReporter) |
 | [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
-| [BiocMaintainerApp](https://bioconductor.org/packages/3.24/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocMaintainerApp) |
 
-*... and 343 more ...*
+*... and 355 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,8 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (79)
-- ⏳ `ABSSeq`
+## In Progress (68)
 - ⏳ `BenchHub`
 - ⏳ `BiocGenerics`
 - ⏳ `CNAnorm`
@@ -92,18 +91,14 @@
 - ⏳ `HIREewas`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `HuBMAPR`
-- ⏳ `HubPub`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INPower`
-- ⏳ `ISoLDE`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
 - ⏳ `IsoCorrectoR`
 - ⏳ `MANOR`
 - ⏳ `MSTree`
-- ⏳ `MSstatsConvert`
 - ⏳ `MsStash`
 - ⏳ `PLSDAbatch`
 - ⏳ `REBET`
@@ -114,23 +109,28 @@
 - ⏳ `Rigraphlib`
 - ⏳ `barmixR`
 - ⏳ `clstutils`
-- ⏳ `ctsGE`
 - ⏳ `demuxmix`
 - ⏳ `diffGeneAnalysis`
 - ⏳ `diffuStats`
-- ⏳ `dupRadar`
-- ⏳ `edgeR`
 - ⏳ `fastreeR`
 - ⏳ `fdrame`
-- ⏳ `fgsea`
 - ⏳ `flowCyBar`
 - ⏳ `flowGraph`
 - ⏳ `flowPeaks`
 - ⏳ `flowPlots`
+- ⏳ `fmrs`
+- ⏳ `frenchFISH`
+- ⏳ `garfield`
+- ⏳ `gemini`
+- ⏳ `genArise`
+- ⏳ `genomes`
+- ⏳ `geva`
+- ⏳ `globalSeq`
+- ⏳ `gpls`
 
-... and 29 more ...
+... and 18 more ...
 
-## Not Yet Started (1872)
+## Not Yet Started (1871)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -182,8 +182,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1822 more ...
+... and 1821 more ...
 
 ---
-*Last updated: 2026-07-17 20:42:27 UTC*
-*Packages with verified BBS status: 73*
+*Last updated: 2026-07-17 20:43:14 UTC*
+*Packages with verified BBS status: 74*
