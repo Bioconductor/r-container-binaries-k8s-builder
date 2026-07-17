@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2125 (90%)
-- **Failed:** 12 (0%)
-- **In Progress:** 51
-- **Not Started:** 156
+- **Successfully Built:** 2134 (91%)
+- **Failed:** 14 (0%)
+- **In Progress:** 48
+- **Not Started:** 148
 
 **Progress:** 91%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2125)
+## Successfully Built Packages (2134)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2075 more ...*
+*... and 2084 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (12)
+## Failed Packages (14)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -87,19 +87,23 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SpectralTAD](https://bioconductor.org/packages/3.24/bioc/html/SpectralTAD.html) | [log](logs/SpectralTAD/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SpectralTAD) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
+| [VariantTools](https://bioconductor.org/packages/3.24/bioc/html/VariantTools.html) | [log](logs/VariantTools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/VariantTools) | Error: object ‘detail’ is not exported by 'namespace:Biostrings' |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [miRSM](https://bioconductor.org/packages/3.24/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRSM) | Build failed with unknown error |
 | [miRspongeR](https://bioconductor.org/packages/3.24/bioc/html/miRspongeR.html) | [log](logs/miRspongeR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRspongeR) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Build failed with unknown error |
 
-## In Progress (51)
+## In Progress (48)
+- ⏳ `ATACseqQC`
 - ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
 - ⏳ `ChIPXpress`
-- ⏳ `EDASeq`
+- ⏳ `CircSeqAlignTk`
+- ⏳ `DEScan2`
 - ⏳ `GRaNIE`
-- ⏳ `HistoImagePlot`
+- ⏳ `GUIDEseq`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
 - ⏳ `MetaboSignal`
@@ -107,31 +111,26 @@
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NanoMethViz`
+- ⏳ `OMICsPCA`
 - ⏳ `PostChicago`
 - ⏳ `RBedMethyl`
-- ⏳ `RITAN`
+- ⏳ `REDseq`
 - ⏳ `RadioGx`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
-- ⏳ `STADyUM`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
-- ⏳ `VariantTools`
 - ⏳ `ZygosityPredictor`
 - ⏳ `alabaster.vcf`
 - ⏳ `annotatr`
-- ⏳ `appreci8R`
 - ⏳ `atena`
-- ⏳ `biovizBase`
 - ⏳ `bumphunter`
-- ⏳ `cBioPortalData`
 - ⏳ `cardelino`
 - ⏳ `celda`
+- ⏳ `chevreulPlot`
 - ⏳ `chipenrich`
-- ⏳ `clustSIGNAL`
 - ⏳ `clusterExperiment`
 - ⏳ `cn.farms`
-- ⏳ `consensusOV`
 - ⏳ `crisprDesign`
 - ⏳ `dbSequence`
 - ⏳ `epivizrData`
@@ -141,15 +140,13 @@
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
 - ⏳ `scFeatures`
-- ⏳ `scTensor`
 - ⏳ `segmenter`
 - ⏳ `strandCheckR`
+- ⏳ `tricycle`
+- ⏳ `vulcan`
 
-... and 1 more ...
-
-## Not Yet Started (156)
+## Not Yet Started (148)
 - ⏸️ `ASpli`
-- ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `BOBaFIT`
@@ -159,10 +156,8 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPexoQual`
-- ⏸️ `CircSeqAlignTk`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
-- ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
@@ -170,7 +165,6 @@
 - ⏸️ `ENmix`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
-- ⏸️ `GUIDEseq`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
@@ -186,10 +180,8 @@
 - ⏸️ `MethylAid`
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
-- ⏸️ `OMICsPCA`
 - ⏸️ `Pviz`
 - ⏸️ `R3CPET`
-- ⏸️ `REDseq`
 - ⏸️ `REMP`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `RNAmodR`
@@ -198,9 +190,15 @@
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `RUVSeq`
 - ⏸️ `ReportingTools`
+- ⏸️ `RnBeads`
+- ⏸️ `RnaSeqSampleSize`
+- ⏸️ `Rqc`
+- ⏸️ `SOMNiBUS`
+- ⏸️ `SPLINTER`
+- ⏸️ `SomaticSignatures`
 
-... and 106 more ...
+... and 98 more ...
 
 ---
-*Last updated: 2026-07-17 22:15:59 UTC*
-*Packages with verified BBS status: 155*
+*Last updated: 2026-07-17 22:17:14 UTC*
+*Packages with verified BBS status: 157*
