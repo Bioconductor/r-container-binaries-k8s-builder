@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 217 (9%)
+- **Successfully Built:** 220 (9%)
 - **Failed:** 0 (0%)
-- **In Progress:** 175
-- **Not Started:** 1952
+- **In Progress:** 174
+- **Not Started:** 1950
 
 **Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (217)
+## Successfully Built Packages (220)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -31,6 +31,8 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
+| [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
+| [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
@@ -43,10 +45,8 @@
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
 | [CARNIVAL](https://bioconductor.org/packages/3.24/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CARNIVAL) |
 | [CFAssay](https://bioconductor.org/packages/3.24/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CFAssay) |
-| [CGEN](https://bioconductor.org/packages/3.24/bioc/html/CGEN.html) | [log](logs/CGEN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CGEN) |
-| [CONSTANd](https://bioconductor.org/packages/3.24/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CONSTANd) |
 
-*... and 167 more ...*
+*... and 170 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,12 +76,10 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (175)
+## In Progress (174)
 - ⏳ `ABSSeq`
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
-- ⏳ `BUS`
-- ⏳ `BaseSpaceR`
 - ⏳ `BenchHub`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
@@ -89,7 +87,6 @@
 - ⏳ `CNAnorm`
 - ⏳ `Chicago`
 - ⏳ `DEGseq`
-- ⏳ `DEqMS`
 - ⏳ `DeepPINCS`
 - ⏳ `DiffLogo`
 - ⏳ `EnhancedVolcano`
@@ -113,6 +110,7 @@
 - ⏳ `ISoLDE`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
+- ⏳ `IntramiRExploreR`
 - ⏳ `IsoCorrectoR`
 - ⏳ `Linnorm`
 - ⏳ `M3C`
@@ -127,10 +125,12 @@
 - ⏳ `MSstatsLOBD`
 - ⏳ `MassArray`
 - ⏳ `MassSpecWavelet`
+- ⏳ `MatrixGenerics`
+- ⏳ `Mergeomics`
 
-... and 125 more ...
+... and 124 more ...
 
-## Not Yet Started (1952)
+## Not Yet Started (1950)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -182,8 +182,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BEclear`
 
-... and 1902 more ...
+... and 1900 more ...
 
 ---
-*Last updated: 2026-07-17 20:19:33 UTC*
-*Packages with verified BBS status: 55*
+*Last updated: 2026-07-17 20:21:19 UTC*
+*Packages with verified BBS status: 57*
