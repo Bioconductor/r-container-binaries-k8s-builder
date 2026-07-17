@@ -1,0 +1,225 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DCATS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DCATS'
+also installing the dependencies ‘tensor’, ‘sitmo’, ‘spatstat.data’, ‘spatstat.univar’, ‘spatstat.random’, ‘spatstat.utils’, ‘spatstat.sparse’, ‘goftest’, ‘dqrng’, ‘fastDummies’, ‘fitdistrplus’, ‘ggridges’, ‘RANN’, ‘RcppAnnoy’, ‘RcppHNSW’, ‘ROCR’, ‘scattermore’, ‘sctransform’, ‘spatstat.explore’, ‘spatstat.geom’, ‘uwot’, ‘Seurat’, ‘SeuratObject’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tensor_1.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sitmo_2.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.data_3.1-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.univar_3.2-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.random_3.5-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.utils_3.2-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.sparse_3.2-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/goftest_1.2-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dqrng_0.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fastDummies_1.7.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fitdistrplus_1.2-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggridges_0.5.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RANN_2.6.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppAnnoy_0.0.23.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppHNSW_0.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ROCR_1.0-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scattermore_1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sctransform_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.explore_3.8-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.geom_3.8-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/uwot_0.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Seurat_5.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SeuratObject_5.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DCATS_1.10.0.tar.gz'
+* installing *binary* package ‘tensor’ ...
+* package ‘tensor’ successfully unpacked and SHA256 sums checked
+* ‘tensor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tensor’ as ‘tensor_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensor)
+* installing *binary* package ‘sitmo’ ...
+* package ‘sitmo’ successfully unpacked and SHA256 sums checked
+* ‘sitmo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sitmo’ as ‘sitmo_2.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sitmo)
+* installing *binary* package ‘spatstat.utils’ ...
+* package ‘spatstat.utils’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.utils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.utils’ as ‘spatstat.utils_3.2-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.utils)
+* installing *binary* package ‘goftest’ ...
+* package ‘goftest’ successfully unpacked and SHA256 sums checked
+* ‘goftest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘goftest’ as ‘goftest_1.2-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goftest)
+* installing *binary* package ‘fastDummies’ ...
+* package ‘fastDummies’ successfully unpacked and SHA256 sums checked
+* ‘fastDummies’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastDummies’ as ‘fastDummies_1.7.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastDummies)
+* installing *binary* package ‘fitdistrplus’ ...
+* package ‘fitdistrplus’ successfully unpacked and SHA256 sums checked
+* ‘fitdistrplus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fitdistrplus’ as ‘fitdistrplus_1.2-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fitdistrplus)
+* installing *binary* package ‘ggridges’ ...
+* package ‘ggridges’ successfully unpacked and SHA256 sums checked
+* ‘ggridges’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggridges’ as ‘ggridges_0.5.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggridges)
+* installing *binary* package ‘RANN’ ...
+* package ‘RANN’ successfully unpacked and SHA256 sums checked
+* ‘RANN’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RANN’ as ‘RANN_2.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RANN)
+* installing *binary* package ‘RcppAnnoy’ ...
+* package ‘RcppAnnoy’ successfully unpacked and SHA256 sums checked
+* ‘RcppAnnoy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppAnnoy’ as ‘RcppAnnoy_0.0.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppAnnoy)
+* installing *binary* package ‘RcppHNSW’ ...
+* package ‘RcppHNSW’ successfully unpacked and SHA256 sums checked
+* ‘RcppHNSW’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppHNSW’ as ‘RcppHNSW_0.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppHNSW)
+* installing *binary* package ‘ROCR’ ...
+* package ‘ROCR’ successfully unpacked and SHA256 sums checked
+* ‘ROCR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ROCR’ as ‘ROCR_1.0-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROCR)
+* installing *binary* package ‘scattermore’ ...
+* package ‘scattermore’ successfully unpacked and SHA256 sums checked
+* ‘scattermore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scattermore’ as ‘scattermore_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scattermore)
+* installing *binary* package ‘sctransform’ ...
+* package ‘sctransform’ successfully unpacked and SHA256 sums checked
+* ‘sctransform’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sctransform’ as ‘sctransform_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sctransform)
+* installing *binary* package ‘SeuratObject’ ...
+* package ‘SeuratObject’ successfully unpacked and SHA256 sums checked
+* ‘SeuratObject’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SeuratObject’ as ‘SeuratObject_5.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SeuratObject)
+* installing *source* package ‘DCATS’ ...
+** this is package ‘DCATS’ version ‘1.10.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DCATS’ as ‘DCATS_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DCATS)
+* installing *binary* package ‘spatstat.data’ ...
+* package ‘spatstat.data’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.data’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.data’ as ‘spatstat.data_3.1-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.data)
+* installing *binary* package ‘spatstat.univar’ ...
+* package ‘spatstat.univar’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.univar’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.univar’ as ‘spatstat.univar_3.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.univar)
+* installing *binary* package ‘spatstat.sparse’ ...
+* package ‘spatstat.sparse’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.sparse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.sparse’ as ‘spatstat.sparse_3.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.sparse)
+* installing *binary* package ‘dqrng’ ...
+* package ‘dqrng’ successfully unpacked and SHA256 sums checked
+* ‘dqrng’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dqrng’ as ‘dqrng_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dqrng)
+* installing *binary* package ‘spatstat.geom’ ...
+* package ‘spatstat.geom’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.geom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.geom’ as ‘spatstat.geom_3.8-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.geom)
+* installing *binary* package ‘uwot’ ...
+* package ‘uwot’ successfully unpacked and SHA256 sums checked
+* ‘uwot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘uwot’ as ‘uwot_0.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (uwot)
+* installing *binary* package ‘spatstat.random’ ...
+* package ‘spatstat.random’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.random’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.random’ as ‘spatstat.random_3.5-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.random)
+* installing *binary* package ‘spatstat.explore’ ...
+* package ‘spatstat.explore’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.explore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.explore’ as ‘spatstat.explore_3.8-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.explore)
+* installing *binary* package ‘Seurat’ ...
+* package ‘Seurat’ successfully unpacked and SHA256 sums checked
+* ‘Seurat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Seurat’ as ‘Seurat_5.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Seurat)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZkwqqO/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	1m0.799s
+user	0m16.368s
+sys	0m7.637s

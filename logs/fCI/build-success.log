@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''fCI'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'fCI'
+also installing the dependency ‘rgl’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rgl_1.3.36.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/fCI_1.42.0.tar.gz'
+* installing *binary* package ‘rgl’ ...
+* package ‘rgl’ successfully unpacked and SHA256 sums checked
+* ‘rgl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rgl’ as ‘rgl_1.3.36_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rgl)
+* installing *source* package ‘fCI’ ...
+** this is package ‘fCI’ version ‘1.42.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning messages:
+1: In rgl.init(initValue, onlyNULL) : RGL: unable to open X11 display
+2: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning. 
+in method for ‘initialize’ with signature ‘"NPCI"’: no definition for class “NPCI”
+in method for ‘normalization’ with signature ‘"NPCI"’: no definition for class “NPCI”
+in method for ‘setfCI’ with signature ‘"NPCI"’: no definition for class “NPCI”
+in method for ‘populate’ with signature ‘"NPCI"’: no definition for class “NPCI”
+in method for ‘find.fci.targets’ with signature ‘"NPCI"’: no definition for class “NPCI”
+in method for ‘show.targets’ with signature ‘"NPCI"’: no definition for class “NPCI”
+in method for ‘call.npci’ with signature ‘"NPCI"’: no definition for class “NPCI”
+in method for ‘compute’ with signature ‘"NPCI"’: no definition for class “NPCI”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package can be loaded from final location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fCI’ as ‘fCI_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fCI)
+
+The downloaded source packages are in
+	‘/tmp/RtmpO8tTvB/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m42.197s
+user	0m9.990s
+sys	0m2.767s

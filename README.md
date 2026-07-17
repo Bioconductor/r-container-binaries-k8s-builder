@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 170 (7%)
+- **Successfully Built:** 196 (8%)
 - **Failed:** 0 (0%)
-- **In Progress:** 204
-- **Not Started:** 2010
+- **In Progress:** 189
+- **Not Started:** 1999
 
-**Progress:** 7%
+**Progress:** 8%
 ```
-███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (170)
+## Successfully Built Packages (196)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -37,21 +37,20 @@
 | [ClusterSignificance](https://bioconductor.org/packages/3.23/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterSignificance) |
 | [ComPrAn](https://bioconductor.org/packages/3.23/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ComPrAn) |
 | [DART](https://bioconductor.org/packages/3.23/bioc/html/DART.html) | [log](logs/DART/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DART) |
+| [DCATS](https://bioconductor.org/packages/3.23/bioc/html/DCATS.html) | [log](logs/DCATS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DCATS) |
 | [DEGseq](https://bioconductor.org/packages/3.23/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEGseq) |
 | [DNAcopy](https://bioconductor.org/packages/3.23/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcopy) |
 | [DTA](https://bioconductor.org/packages/3.23/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DTA) |
 | [DeMAND](https://bioconductor.org/packages/3.23/bioc/html/DeMAND.html) | [log](logs/DeMAND/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeMAND) |
+| [DeepPINCS](https://bioconductor.org/packages/3.23/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeepPINCS) |
 | [DriverNet](https://bioconductor.org/packages/3.23/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DriverNet) |
 | [GEOfastq](https://bioconductor.org/packages/3.23/bioc/html/GEOfastq.html) | [log](logs/GEOfastq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GEOfastq) |
-| [GLAD](https://bioconductor.org/packages/3.23/bioc/html/GLAD.html) | [log](logs/GLAD/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GLAD) |
-| [GPA](https://bioconductor.org/packages/3.23/bioc/html/GPA.html) | [log](logs/GPA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GPA) |
 
-*... and 120 more ...*
+*... and 146 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sincell](https://bioconductor.org/packages/3.23/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sincell) |
-| [sizepower](https://bioconductor.org/packages/3.23/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sizepower) |
+| [snifter](https://bioconductor.org/packages/3.23/bioc/html/snifter.html) | [log](logs/snifter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/snifter) |
 | [snm](https://bioconductor.org/packages/3.23/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/snm) |
 | [sparsenetgls](https://bioconductor.org/packages/3.23/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.23/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/specL) |
@@ -59,6 +58,7 @@
 | [splots](https://bioconductor.org/packages/3.23/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
+| [statTarget](https://bioconductor.org/packages/3.23/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/statTarget) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (204)
+## In Progress (189)
 - ⏳ `ANCOMBC`
 - ⏳ `ASGSCA`
 - ⏳ `ASSET`
@@ -98,10 +98,9 @@
 - ⏳ `CONSTANd`
 - ⏳ `COSNet`
 - ⏳ `Chicago`
-- ⏳ `DCATS`
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
-- ⏳ `DeepPINCS`
+- ⏳ `DNAcycP2`
 - ⏳ `DiffLogo`
 - ⏳ `DynDoc`
 - ⏳ `EBSeq`
@@ -127,10 +126,11 @@
 - ⏳ `HIBAG`
 - ⏳ `HIREewas`
 - ⏳ `HMMcopy`
+- ⏳ `HPAanalyze`
 
-... and 154 more ...
+... and 139 more ...
 
-## Not Yet Started (2010)
+## Not Yet Started (1999)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -182,8 +182,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1960 more ...
+... and 1949 more ...
 
 ---
-*Last updated: 2026-07-17 20:34:08 UTC*
-*Packages with verified BBS status: 84*
+*Last updated: 2026-07-17 20:35:34 UTC*
+*Packages with verified BBS status: 88*

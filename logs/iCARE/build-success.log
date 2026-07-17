@@ -1,0 +1,146 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''iCARE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'iCARE'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/iCARE_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 1488603 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+* installing *source* package ‘iCARE’ ...
+** this is package ‘iCARE’ version ‘1.40.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c source.c -o source.o
+source.c: In function ‘dVec_alloc’:
+source.c:45:10: warning: old-style function definition [-Wold-style-definition]
+   45 | double * dVec_alloc(n, initFlag, initVal)
+      |          ^~~~~~~~~~
+source.c: In function ‘iVec_alloc’:
+source.c:64:7: warning: old-style function definition [-Wold-style-definition]
+   64 | int * iVec_alloc(n, initFlag, initVal)
+      |       ^~~~~~~~~~
+source.c: In function ‘dMat_alloc’:
+source.c:81:11: warning: old-style function definition [-Wold-style-definition]
+   81 | double ** dMat_alloc(nrow, ncol, initFlag, initVal)
+      |           ^~~~~~~~~~
+source.c: In function ‘matrix_free’:
+source.c:98:6: warning: old-style function definition [-Wold-style-definition]
+   98 | void matrix_free(x, n)
+      |      ^~~~~~~~~~~
+source.c: In function ‘get_non_miss’:
+source.c:114:12: warning: old-style function definition [-Wold-style-definition]
+  114 | static int get_non_miss(vec, n, ovec)
+      |            ^~~~~~~~~~~~
+source.c: In function ‘X_y’:
+source.c:135:13: warning: old-style function definition [-Wold-style-definition]
+  135 | static void X_y(X, nr, nc, y, index, ni, ret)
+      |             ^~~
+source.c: In function ‘X_y2’:
+source.c:155:13: warning: old-style function definition [-Wold-style-definition]
+  155 | static void X_y2(X, nc, y, z, index, ni, ret)
+      |             ^~~~
+source.c: In function ‘vec_mult’:
+source.c:185:15: warning: old-style function definition [-Wold-style-definition]
+  185 | static double vec_mult(x, y, index, ni)
+      |               ^~~~~~~~
+source.c: In function ‘vec_lteq_c’:
+source.c:203:12: warning: old-style function definition [-Wold-style-definition]
+  203 | static int vec_lteq_c(vec, n, c)
+      |            ^~~~~~~~~~
+source.c: In function ‘mean_2val’:
+source.c:224:15: warning: old-style function definition [-Wold-style-definition]
+  224 | static double mean_2val(vec, subvec, nsub, weights)
+      |               ^~~~~~~~~
+source.c: In function ‘mat_from_vec’:
+source.c:241:13: warning: old-style function definition [-Wold-style-definition]
+  241 | static void mat_from_vec(vec, nr, nc, mat)
+      |             ^~~~~~~~~~~~
+source.c: In function ‘quant_vecs’:
+source.c:256:12: warning: old-style function definition [-Wold-style-definition]
+  256 | static int quant_vecs(probs, nprobs, n, ivec, lo, hi, h)
+      |            ^~~~~~~~~~
+source.c: In function ‘quantile’:
+source.c:284:13: warning: old-style function definition [-Wold-style-definition]
+  284 | static void quantile(x, n, probs, nprobs, lo, hi, h, ivec, ni, qs)
+      |             ^~~~~~~~
+source.c: In function ‘var_dvec’:
+source.c:338:15: warning: old-style function definition [-Wold-style-definition]
+  338 | static double var_dvec(vec, n)
+      |               ^~~~~~~~
+source.c: In function ‘get_cutpoints’:
+source.c:358:12: warning: old-style function definition [-Wold-style-definition]
+  358 | static int get_cutpoints(quantiles, nq, ref_LP, nref)
+      |            ^~~~~~~~~~~~~
+source.c: In function ‘get_miss_perc’:
+source.c:406:12: warning: old-style function definition [-Wold-style-definition]
+  406 | static int get_miss_perc(cutpoints, ncuts, miss_LP)
+      |            ^~~~~~~~~~~~~
+source.c: In function ‘vec_ab’:
+source.c:427:12: warning: old-style function definition [-Wold-style-definition]
+  427 | static int vec_ab(x, n, a, b)
+      |            ^~~~~~
+source.c: In function ‘get_newEndpoints’:
+source.c:444:13: warning: old-style function definition [-Wold-style-definition]
+  444 | static void get_newEndpoints(cutpoints, ncuts, miss_LP, miss_perc, ref_LP, nref, rcut1, rcut2)
+      |             ^~~~~~~~~~~~~~~~
+source.c: In function ‘get_subs_2cut’:
+source.c:471:12: warning: old-style function definition [-Wold-style-definition]
+  471 | static int get_subs_2cut(x, n, a, b, ret)
+      |            ^~~~~~~~~~~~~
+source.c: In function ‘get_wgts’:
+source.c:493:13: warning: old-style function definition [-Wold-style-definition]
+  493 | static void get_wgts(weights, subvec, nsub, retvec)
+      |             ^~~~~~~~
+source.c: In function ‘ref_risk1’:
+source.c:511:6: warning: old-style function definition [-Wold-style-definition]
+  511 | void ref_risk1(ref_risks, betavec, zmat, refmat, n_beta, nr_z, nc_z, nr_ref, nc_ref,
+      |      ^~~~~~~~~
+source.c: In function ‘get_int’:
+source.c:619:13: warning: old-style function definition [-Wold-style-definition]
+  619 | static void get_int(nsub, age_new, t, aexp_rr, lambda, comp, zbeta, holder)
+      |             ^~~~~~~
+source.c: In function ‘finalVal’:
+source.c:645:15: warning: old-style function definition [-Wold-style-definition]
+  645 | static double finalVal(nsub, zbeta, expzbeta, age_new, age_int, lambda, loglambda, compRates, holder, tempv, weights)
+      |               ^~~~~~~~
+source.c: In function ‘ref_risk2’:
+source.c:684:6: warning: old-style function definition [-Wold-style-definition]
+  684 | void ref_risk2(betavec, zmat, refmat, n_beta, nr_z, nc_z, nr_ref, nc_ref,
+      |      ^~~~~~~~~
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o iCARE.so source.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-iCARE/00new/iCARE/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iCARE’ as ‘iCARE_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iCARE)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTZmRo0/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m58.148s
+user	0m9.241s
+sys	0m3.086s
