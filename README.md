@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 2146 (91%)
+- **Successfully Built:** 2155 (91%)
 - **Failed:** 14 (0%)
 - **In Progress:** 48
-- **Not Started:** 136
+- **Not Started:** 127
 
 **Progress:** 92%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2146)
+## Successfully Built Packages (2155)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2096 more ...*
+*... and 2105 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,9 +97,9 @@
 
 ## In Progress (48)
 - ⏳ `BASiCStan`
-- ⏳ `ChIPXpress`
 - ⏳ `ChIPexoQual`
 - ⏳ `CircSeqAlignTk`
+- ⏳ `DAMEfinder`
 - ⏳ `DaMiRseq`
 - ⏳ `GNOSIS`
 - ⏳ `GRaNIE`
@@ -107,45 +107,45 @@
 - ⏳ `Gviz`
 - ⏳ `IdeoViz`
 - ⏳ `InPAS`
-- ⏳ `MinimumDistance`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `NanoMethViz`
-- ⏳ `OMICsPCA`
 - ⏳ `PostChicago`
 - ⏳ `RBedMethyl`
 - ⏳ `REDseq`
-- ⏳ `RUVSeq`
 - ⏳ `RadioGx`
-- ⏳ `Rqc`
 - ⏳ `SCANVIS`
 - ⏳ `SCArray.sat`
 - ⏳ `SpaNorm`
 - ⏳ `SpatialExperimentIO`
 - ⏳ `ZygosityPredictor`
+- ⏳ `alabaster`
 - ⏳ `annotatr`
-- ⏳ `atena`
 - ⏳ `bioCancer`
 - ⏳ `canceR`
 - ⏳ `cardelino`
 - ⏳ `cbaf`
-- ⏳ `celda`
-- ⏳ `chipenrich`
+- ⏳ `chevreulShiny`
+- ⏳ `coMethDMR`
 - ⏳ `dbSequence`
+- ⏳ `derfinder`
 - ⏳ `epivizrData`
 - ⏳ `geneAttribution`
 - ⏳ `ggbio`
 - ⏳ `gmoviz`
-- ⏳ `karyoploteR`
 - ⏳ `metaseqR2`
+- ⏳ `minfi`
+- ⏳ `netSmooth`
 - ⏳ `qpgraph`
 - ⏳ `rCGH`
 - ⏳ `rGREAT`
+- ⏳ `rnaEditr`
 - ⏳ `scFeatures`
 - ⏳ `segmenter`
 - ⏳ `strandCheckR`
+- ⏳ `vmrseq`
 
-## Not Yet Started (136)
+## Not Yet Started (127)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -156,7 +156,6 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `ChAMP`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `DAMEfinder`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
@@ -196,9 +195,10 @@
 - ⏸️ `TVTB`
 - ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
+- ⏸️ `affycoretools`
 
-... and 86 more ...
+... and 77 more ...
 
 ---
-*Last updated: 2026-07-17 22:18:16 UTC*
+*Last updated: 2026-07-17 22:18:58 UTC*
 *Packages with verified BBS status: 158*
