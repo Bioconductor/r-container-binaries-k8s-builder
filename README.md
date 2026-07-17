@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 782 (33%)
+- **Successfully Built:** 790 (33%)
 - **Failed:** 2 (0%)
-- **In Progress:** 18
-- **Not Started:** 1542
+- **In Progress:** 12
+- **Not Started:** 1540
 
 **Progress:** 33%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (782)
+## Successfully Built Packages (790)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 732 more ...*
+*... and 740 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,27 +83,21 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (18)
+## In Progress (12)
 - ⏳ `Biostrings`
 - ⏳ `Chromatograms`
-- ⏳ `DelayedArray`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
 - ⏳ `InteractiveComplexHeatmap`
+- ⏳ `MetaCyto`
 - ⏳ `SpectriPy`
 - ⏳ `cola`
-- ⏳ `flowClust`
-- ⏳ `flowDensity`
-- ⏳ `flowFP`
 - ⏳ `frmaTools`
 - ⏳ `h5mread`
 - ⏳ `ldblock`
-- ⏳ `monocle`
-- ⏳ `mzR`
-- ⏳ `nempi`
-- ⏳ `simona`
+- ⏳ `optimalFlow`
 
-## Not Yet Started (1542)
+## Not Yet Started (1540)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -155,8 +149,8 @@
 - ⏸️ `BamScale`
 - ⏸️ `Banksy`
 
-... and 1492 more ...
+... and 1490 more ...
 
 ---
-*Last updated: 2026-07-17 21:02:03 UTC*
+*Last updated: 2026-07-17 21:02:30 UTC*
 *Packages with verified BBS status: 101*
