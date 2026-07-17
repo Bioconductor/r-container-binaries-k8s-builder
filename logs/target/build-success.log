@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''target'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'target'
+also installing the dependencies ‘showimage’, ‘debugme’, ‘parsedate’, ‘webdriver’, ‘shinytest’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/showimage_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/debugme_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parsedate_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/webdriver_1.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinytest_1.6.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/target_1.26.0.tar.gz'
+* installing *binary* package ‘showimage’ ...
+* package ‘showimage’ successfully unpacked and SHA256 sums checked
+* ‘showimage’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘showimage’ as ‘showimage_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showimage)
+* installing *binary* package ‘debugme’ ...
+* package ‘debugme’ successfully unpacked and SHA256 sums checked
+* ‘debugme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘debugme’ as ‘debugme_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (debugme)
+* installing *binary* package ‘parsedate’ ...
+* package ‘parsedate’ successfully unpacked and SHA256 sums checked
+* ‘parsedate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parsedate’ as ‘parsedate_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parsedate)
+* installing *source* package ‘target’ ...
+** this is package ‘target’ version ‘1.26.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘target’ as ‘target_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (target)
+* installing *binary* package ‘webdriver’ ...
+* package ‘webdriver’ successfully unpacked and SHA256 sums checked
+* ‘webdriver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘webdriver’ as ‘webdriver_1.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (webdriver)
+* installing *binary* package ‘shinytest’ ...
+* package ‘shinytest’ successfully unpacked and SHA256 sums checked
+* ‘shinytest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinytest’ as ‘shinytest_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinytest)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpkktn9k/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m21.149s
+user	0m14.106s
+sys	0m4.369s

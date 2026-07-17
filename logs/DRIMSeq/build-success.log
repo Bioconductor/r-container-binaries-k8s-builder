@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DRIMSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DRIMSeq'
+also installing the dependencies ‘PasillaTranscriptExpr’, ‘GeuvadisTranscriptExpr’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/PasillaTranscriptExpr_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/GeuvadisTranscriptExpr_1.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DRIMSeq_1.40.0.tar.gz'
+* installing *source* package ‘PasillaTranscriptExpr’ ...
+** this is package ‘PasillaTranscriptExpr’ version ‘1.40.0’
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘PasillaTranscriptExpr’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PasillaTranscriptExpr’ as ‘PasillaTranscriptExpr_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PasillaTranscriptExpr)
+* installing *source* package ‘GeuvadisTranscriptExpr’ ...
+** this is package ‘GeuvadisTranscriptExpr’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeuvadisTranscriptExpr’ as ‘GeuvadisTranscriptExpr_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeuvadisTranscriptExpr)
+* installing *source* package ‘DRIMSeq’ ...
+** this is package ‘DRIMSeq’ version ‘1.40.0’
+** using staged installation
+** R
+** inst
+** preparing package for lazy loading
+Creating a new generic function for ‘proportions’ in package ‘DRIMSeq’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DRIMSeq’ as ‘DRIMSeq_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DRIMSeq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXEQOV8/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m39.842s
+user	0m31.940s
+sys	0m4.737s
