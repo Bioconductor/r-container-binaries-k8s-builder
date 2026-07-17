@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''nuCpos'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'nuCpos'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/nuCpos_1.31.0.tar.gz'
+Content type 'application/x-gzip' length 2508950 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+* installing *source* package ‘nuCpos’ ...
+** this is package ‘nuCpos’ version ‘1.31.0’
+** package ‘nuCpos’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nuCpos’ as ‘nuCpos_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nuCpos)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRD9CM6/downloaded_packages’
+
+real	0m31.365s
+user	0m7.825s
+sys	0m2.419s

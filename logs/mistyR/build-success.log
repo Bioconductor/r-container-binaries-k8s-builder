@@ -1,0 +1,104 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mistyR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mistyR'
+also installing the dependencies ‘plotmo’, ‘Metrics’, ‘distances’, ‘ridge’, ‘earth’, ‘iml’, ‘RSNNS’, ‘xgboost’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plotmo_3.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Metrics_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/distances_0.1.13.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ridge_3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/earth_5.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/iml_0.11.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RSNNS_0.4-18.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xgboost_3.2.1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mistyR_1.21.0.tar.gz'
+* installing *binary* package ‘plotmo’ ...
+* package ‘plotmo’ successfully unpacked and SHA256 sums checked
+* ‘plotmo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plotmo’ as ‘plotmo_3.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotmo)
+* installing *binary* package ‘Metrics’ ...
+* package ‘Metrics’ successfully unpacked and SHA256 sums checked
+* ‘Metrics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Metrics’ as ‘Metrics_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Metrics)
+* installing *binary* package ‘distances’ ...
+* package ‘distances’ successfully unpacked and SHA256 sums checked
+* ‘distances’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘distances’ as ‘distances_0.1.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (distances)
+* installing *binary* package ‘ridge’ ...
+* package ‘ridge’ successfully unpacked and SHA256 sums checked
+* ‘ridge’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ridge’ as ‘ridge_3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ridge)
+* installing *binary* package ‘RSNNS’ ...
+* package ‘RSNNS’ successfully unpacked and SHA256 sums checked
+* ‘RSNNS’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RSNNS’ as ‘RSNNS_0.4-18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RSNNS)
+* installing *binary* package ‘xgboost’ ...
+* package ‘xgboost’ successfully unpacked and SHA256 sums checked
+* ‘xgboost’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xgboost’ as ‘xgboost_3.2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xgboost)
+* installing *binary* package ‘earth’ ...
+* package ‘earth’ successfully unpacked and SHA256 sums checked
+* ‘earth’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘earth’ as ‘earth_5.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (earth)
+* installing *binary* package ‘iml’ ...
+* package ‘iml’ successfully unpacked and SHA256 sums checked
+* ‘iml’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iml’ as ‘iml_0.11.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iml)
+* installing *source* package ‘mistyR’ ...
+** this is package ‘mistyR’ version ‘1.21.0’
+** package ‘mistyR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mistyR’ as ‘mistyR_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mistyR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRCJrxo/downloaded_packages’
+
+real	0m26.940s
+user	0m11.045s
+sys	0m3.936s
