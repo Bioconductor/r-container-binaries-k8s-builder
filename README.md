@@ -1,154 +1,189 @@
-# R Binaries Kubernetes Builder
+# Build Cycle: 2026-07-17-151344-bioconductordocker-release323
+**Status:** In Progress
+**Container:** `ghcr.io/bioconductor/bioconductor_docker:RELEASE_3_23`
+**Bioconductor Version:** 3.23
+**R Version:** 4.6.1.
 
-A branch-based system for building Bioconductor R package binaries using Kubernetes.
+## Summary
+- **Total Packages:** 2384
+- **Successfully Built:** 85 (3%)
+- **Failed:** 0 (0%)
+- **In Progress:** 266
+- **Not Started:** 2033
 
-## Overview
-
-This system uses a **branch-based approach** where each build cycle runs on its own Git branch. This keeps the main branch clean with only the core code, while build branches contain all build state and artifacts.
-
-## How It Works
-
-### 1. Starting a New Build Cycle
-
-Run the **Start New Build Cycle** workflow from the GitHub Actions UI:
-
-1. Go to Actions → Start New Build Cycle
-2. Click "Run workflow"
-3. Enter the container image (e.g., `ghcr.io/bioconductor/bioconductor_docker:RELEASE_3_20`)
-4. Click "Run workflow"
-
-This will:
-- Create a new branch named `build/YYYY-MM-DD-HHMMSS-container-tag`
-- Initialize all required files and directories
-- Set up the build environment
-- Automatically trigger the first build run
-
-### 2. Build Process
-
-The **Build R Packages** workflow runs automatically on build branches:
-
-- **On main branch**: Schedule is disabled (commented out)
-- **On build branches**: Schedule is active (runs every 5 minutes)
-  - Edit the workflow on the build branch to uncomment the schedule trigger
-
-The build workflow:
-1. Sets up Kubernetes resources (namespace, PVC, init container for dependencies)
-2. Identifies packages that are ready to build (dependencies satisfied)
-3. Dispatches Kubernetes jobs for each ready package
-4. Monitors job completion and updates package status
-5. Commits progress to the branch
-
-### 3. Finishing a Build Cycle
-
-When all packages are built, run the **Finish Build Cycle** workflow:
-
-1. Switch to the build branch in GitHub
-2. Go to Actions → Finish Build Cycle
-3. Click "Run workflow"
-
-This will:
-- Create the PACKAGES index file
-- Preserve old packages from previous builds
-- Sync packages to the remote repository (via rclone)
-- Mark the cycle as complete
-
-## Branch Structure
-
-### Main Branch
-- Contains only the core code and workflows
-- No build artifacts or state files
-- Clean and minimal
-
-### Build Branches (build/*)
+**Progress:** 3%
 ```
-build/2025-10-30-123456-bioconductor-docker-release-3-20/
-├── .gitignore                    # Ignores large log files
-├── CONTAINER_BASE_IMAGE.bioc     # Container image used
-├── biocdeps.json                 # Package dependencies
-├── uniquedeps.json               # Unique dependency list
-├── ready_packages.txt            # Packages ready to build
-├── remaining-packages.json       # Remaining dependency graph
-├── bioc_version                  # Bioconductor version
-├── r_version                     # R version
-├── container_name                # Container name
-├── null_push_counter             # Counter for no-activity cycles
-├── reset_attempts_counter        # Counter for reset attempts
-├── logs/                         # Package build logs
-│   ├── dispatched-packages.txt   # Packages sent to build
-│   ├── successful-packages.txt   # Successfully built packages
-│   ├── failed-packages.txt       # Failed packages
-│   └── PackageName/              # Per-package logs
-│       ├── build-success.log     # Success log (committed)
-│       └── build-fail.log        # Failure log (committed)
-├── cache/                        # Build cache (not committed)
-├── PACKAGES                      # Final package index (after finish)
-├── indexed_packages_count        # Total packages in index
-└── cycle_complete_time           # Completion timestamp
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Key Files
+## Successfully Built Packages (85)
 
-- **CONTAINER_BASE_IMAGE.bioc**: The Docker container image used for builds
-- **biocdeps.json**: Complete dependency graph for all packages
-- **ready_packages.txt**: Packages with satisfied dependencies, ready to build
-- **logs/dispatched-packages.txt**: All packages that have been dispatched
-- **logs/successful-packages.txt**: Successfully built packages
-- **logs/failed-packages.txt**: Failed packages
-- **PACKAGES**: Final package index (created by finish_cycle)
+| Package | Log | BBS Status |
+|---------|-----|------------|
+| [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
+| [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
+| [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
+| [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
+| [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
+| [BiocMaintainerApp](https://bioconductor.org/packages/3.23/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocMaintainerApp) |
+| [BiocVersion](https://bioconductor.org/packages/3.23/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocVersion) |
+| [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
+| [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
+| [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
+| [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
+| [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
+| [ClusterSignificance](https://bioconductor.org/packages/3.23/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterSignificance) |
+| [ComPrAn](https://bioconductor.org/packages/3.23/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ComPrAn) |
+| [DART](https://bioconductor.org/packages/3.23/bioc/html/DART.html) | [log](logs/DART/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DART) |
+| [DNAcopy](https://bioconductor.org/packages/3.23/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcopy) |
+| [DTA](https://bioconductor.org/packages/3.23/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DTA) |
+| [DeMAND](https://bioconductor.org/packages/3.23/bioc/html/DeMAND.html) | [log](logs/DeMAND/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DeMAND) |
+| [DriverNet](https://bioconductor.org/packages/3.23/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DriverNet) |
+| [GLAD](https://bioconductor.org/packages/3.23/bioc/html/GLAD.html) | [log](logs/GLAD/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GLAD) |
+| [GPA](https://bioconductor.org/packages/3.23/bioc/html/GPA.html) | [log](logs/GPA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GPA) |
+| [GRENITS](https://bioconductor.org/packages/3.23/bioc/html/GRENITS.html) | [log](logs/GRENITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GRENITS) |
+| [GeneGA](https://bioconductor.org/packages/3.23/bioc/html/GeneGA.html) | [log](logs/GeneGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GeneGA) |
+| [GeneOverlap](https://bioconductor.org/packages/3.23/bioc/html/GeneOverlap.html) | [log](logs/GeneOverlap/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GeneOverlap) |
+| [Herper](https://bioconductor.org/packages/3.23/bioc/html/Herper.html) | [log](logs/Herper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Herper) |
 
-## Workflows
+*... and 35 more ...*
 
-### start_cycle.yaml
-Creates a new build branch and initializes the build environment.
+| Package | Log | BBS Status |
+|---------|-----|------------|
+| [mdqc](https://bioconductor.org/packages/3.23/bioc/html/mdqc.html) | [log](logs/mdqc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mdqc) |
+| [messina](https://bioconductor.org/packages/3.23/bioc/html/messina.html) | [log](logs/messina/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/messina) |
+| [metaCCA](https://bioconductor.org/packages/3.23/bioc/html/metaCCA.html) | [log](logs/metaCCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metaCCA) |
+| [metapod](https://bioconductor.org/packages/3.23/bioc/html/metapod.html) | [log](logs/metapod/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metapod) |
+| [mistyR](https://bioconductor.org/packages/3.23/bioc/html/mistyR.html) | [log](logs/mistyR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mistyR) |
+| [netprioR](https://bioconductor.org/packages/3.23/bioc/html/netprioR.html) | [log](logs/netprioR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/netprioR) |
+| [occugene](https://bioconductor.org/packages/3.23/bioc/html/occugene.html) | [log](logs/occugene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/occugene) |
+| [parody](https://bioconductor.org/packages/3.23/bioc/html/parody.html) | [log](logs/parody/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/parody) |
+| [pathwayPCA](https://bioconductor.org/packages/3.23/bioc/html/pathwayPCA.html) | [log](logs/pathwayPCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pathwayPCA) |
+| [pepXMLTab](https://bioconductor.org/packages/3.23/bioc/html/pepXMLTab.html) | [log](logs/pepXMLTab/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pepXMLTab) |
+| [pfamAnalyzeR](https://bioconductor.org/packages/3.23/bioc/html/pfamAnalyzeR.html) | [log](logs/pfamAnalyzeR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pfamAnalyzeR) |
+| [pgca](https://bioconductor.org/packages/3.23/bioc/html/pgca.html) | [log](logs/pgca/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pgca) |
+| [quantsmooth](https://bioconductor.org/packages/3.23/bioc/html/quantsmooth.html) | [log](logs/quantsmooth/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/quantsmooth) |
+| [rsemmed](https://bioconductor.org/packages/3.23/bioc/html/rsemmed.html) | [log](logs/rsemmed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rsemmed) |
+| [sSeq](https://bioconductor.org/packages/3.23/bioc/html/sSeq.html) | [log](logs/sSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sSeq) |
+| [seq.hotSPOT](https://bioconductor.org/packages/3.23/bioc/html/seq.hotSPOT.html) | [log](logs/seq.hotSPOT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seq.hotSPOT) |
+| [seqLogo](https://bioconductor.org/packages/3.23/bioc/html/seqLogo.html) | [log](logs/seqLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seqLogo) |
+| [shinybiocloader](https://bioconductor.org/packages/3.23/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shinybiocloader) |
+| [spikeLI](https://bioconductor.org/packages/3.23/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/spikeLI) |
+| [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
+| [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
+| [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
+| [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
+| [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
+| [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-**Trigger**: Manual (workflow_dispatch)
+## In Progress (266)
+- ⏳ `ANCOMBC`
+- ⏳ `ASGSCA`
+- ⏳ `ASSET`
+- ⏳ `AWAggregator`
+- ⏳ `AnVILBase`
+- ⏳ `AnVILBilling`
+- ⏳ `BADER`
+- ⏳ `BG2`
+- ⏳ `BaseSpaceR`
+- ⏳ `BeadDataPackR`
+- ⏳ `BiocBaseUtils`
+- ⏳ `BiocFileCache`
+- ⏳ `BiocGenerics`
+- ⏳ `BiocParallel`
+- ⏳ `BiocStyle`
+- ⏳ `BridgeDbR`
+- ⏳ `CARNIVAL`
+- ⏳ `CGEN`
+- ⏳ `CONSTANd`
+- ⏳ `COSNet`
+- ⏳ `Chicago`
+- ⏳ `DCATS`
+- ⏳ `DNABarcodeCompatibility`
+- ⏳ `DNABarcodes`
+- ⏳ `DiffLogo`
+- ⏳ `DynDoc`
+- ⏳ `EBSeq`
+- ⏳ `EmpiricalBrownsMethod`
+- ⏳ `EnhancedVolcano`
+- ⏳ `FGNet`
+- ⏳ `FRGEpistasis`
+- ⏳ `FitHiC`
+- ⏳ `GAprediction`
+- ⏳ `GEM`
+- ⏳ `GENIE3`
+- ⏳ `GEOfastq`
+- ⏳ `GEOmetadb`
+- ⏳ `GEWIST`
+- ⏳ `GGPA`
+- ⏳ `GIGSEA`
+- ⏳ `GSALightning`
+- ⏳ `GSAR`
+- ⏳ `GSEAmining`
+- ⏳ `GSgalgoR`
+- ⏳ `GeneticsPed`
+- ⏳ `GladiaTOX`
+- ⏳ `GraphAlignment`
+- ⏳ `HDTD`
+- ⏳ `HGC`
+- ⏳ `HIBAG`
 
-**Inputs**:
-- `container_image`: Docker container image for the build
+... and 216 more ...
 
-### run.yaml
-Main build orchestration workflow.
+## Not Yet Started (2033)
+- ⏸️ `ABSSeq`
+- ⏸️ `ABarray`
+- ⏸️ `ACE`
+- ⏸️ `ACME`
+- ⏸️ `ADAM`
+- ⏸️ `ADAMgui`
+- ⏸️ `ADAPT`
+- ⏸️ `ADImpute`
+- ⏸️ `ADaCGH2`
+- ⏸️ `AGDEX`
+- ⏸️ `AHMassBank`
+- ⏸️ `AIMS`
+- ⏸️ `ALDEx2`
+- ⏸️ `AMARETTO`
+- ⏸️ `ANF`
+- ⏸️ `APAlyzer`
+- ⏸️ `APL`
+- ⏸️ `ASICS`
+- ⏸️ `ASSIGN`
+- ⏸️ `ASURAT`
+- ⏸️ `ASpli`
+- ⏸️ `ATACseqQC`
+- ⏸️ `ATACseqTFEA`
+- ⏸️ `AUCell`
+- ⏸️ `AWFisher`
+- ⏸️ `Aerith`
+- ⏸️ `AffiXcan`
+- ⏸️ `AffyRNADegradation`
+- ⏸️ `AgiMicroRna`
+- ⏸️ `AllelicImbalance`
+- ⏸️ `AlphaBeta`
+- ⏸️ `AlphaMissenseR`
+- ⏸️ `AlpsNMR`
+- ⏸️ `AnVIL`
+- ⏸️ `AnVILAz`
+- ⏸️ `AnVILGCP`
+- ⏸️ `AnVILPublish`
+- ⏸️ `AnVILWorkflow`
+- ⏸️ `Anaquin`
+- ⏸️ `AnnotationDbi`
+- ⏸️ `AnnotationFilter`
+- ⏸️ `AnnotationForge`
+- ⏸️ `AnnotationHub`
+- ⏸️ `AnnotationHubData`
+- ⏸️ `ArrayExpress`
+- ⏸️ `AssessORF`
+- ⏸️ `BAGS`
+- ⏸️ `BANDITS`
+- ⏸️ `BASiCS`
+- ⏸️ `BASiCStan`
 
-**Triggers**:
-- Manual (workflow_dispatch)
-- Schedule (every 5 minutes) - **Commented out on main, active on build branches**
-- Push to logs files (triggers next iteration)
+... and 1983 more ...
 
-**On main branch**: Does not run automatically  
-**On build branches**: Edit to uncomment the schedule trigger
-
-### finish_cycle.yaml
-Finalizes the build cycle and publishes packages.
-
-**Trigger**: Manual (workflow_dispatch)
-
-## Kubernetes Resources
-
-Each build cycle creates:
-- **Namespace**: `ns-YYYY-MM-DD-HHMMSS-container-tag`
-- **PVC**: `bioc-pvc-YYYY-MM-DD-HHMMSS-container-tag` (500Gi NFS)
-- **Init Pod**: Runs deps_json.R to generate dependency graphs
-- **Build Jobs**: One job per package, labeled with `app=bioc-builder`
-
-## Monitoring Progress
-
-1. Check the build branch for updated files
-2. View logs in `logs/PackageName/`
-3. Check `logs/successful-packages.txt` for completed packages
-4. Check `logs/failed-packages.txt` for failures
-
-## Tips
-
-- Keep build branches until you're sure you don't need them
-- Delete old build branches to clean up the repository
-- The `null_push_counter` tracks cycles with no activity (helps identify stuck builds)
-- Build artifacts (logs) are committed to preserve history
-- Large log files are gitignored to keep branch size manageable
-
-## Quick Start
-
-See [QUICKSTART.md](QUICKSTART.md) for a quick reference guide.
-
-## Migration Guide
-
-Migrating from the old subdirectory-based system? See [MIGRATION.md](MIGRATION.md) for detailed instructions.
+---
+*Last updated: 2026-07-17 20:26:06 UTC*
+*Packages with verified BBS status: 50*

@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''hierGWAS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'hierGWAS'
+also installing the dependencies ‘shape’, ‘fastcluster’, ‘glmnet’, ‘fmsb’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shape_1.4.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fastcluster_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/glmnet_5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fmsb_0.7.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/hierGWAS_1.42.0.tar.gz'
+* installing *binary* package ‘shape’ ...
+* package ‘shape’ successfully unpacked and SHA256 sums checked
+* ‘shape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *binary* package ‘fastcluster’ ...
+* package ‘fastcluster’ successfully unpacked and SHA256 sums checked
+* ‘fastcluster’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastcluster’ as ‘fastcluster_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastcluster)
+* installing *binary* package ‘fmsb’ ...
+* package ‘fmsb’ successfully unpacked and SHA256 sums checked
+* ‘fmsb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fmsb’ as ‘fmsb_0.7.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fmsb)
+* installing *binary* package ‘glmnet’ ...
+* package ‘glmnet’ successfully unpacked and SHA256 sums checked
+* ‘glmnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘glmnet’ as ‘glmnet_5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmnet)
+* installing *source* package ‘hierGWAS’ ...
+** this is package ‘hierGWAS’ version ‘1.42.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hierGWAS’ as ‘hierGWAS_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hierGWAS)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp8UHHzI/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m29.538s
+user	0m7.363s
+sys	0m3.235s

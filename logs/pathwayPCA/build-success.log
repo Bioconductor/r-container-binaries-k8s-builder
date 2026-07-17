@@ -1,0 +1,274 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pathwayPCA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pathwayPCA'
+also installing the dependencies ‘ggsci’, ‘ggsignif’, ‘polynom’, ‘rstatix’, ‘exactRankTests’, ‘gridtext’, ‘gargle’, ‘uuid’, ‘ids’, ‘rematch2’, ‘timechange’, ‘selectr’, ‘GlobalOptions’, ‘ggpubr’, ‘maxstat’, ‘ggtext’, ‘conflicted’, ‘dtplyr’, ‘googledrive’, ‘googlesheets4’, ‘lubridate’, ‘reprex’, ‘rvest’, ‘lars’, ‘airway’, ‘circlize’, ‘survminer’, ‘tidyverse’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggsci_5.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggsignif_0.6.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/polynom_1.4-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rstatix_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/exactRankTests_0.8-37.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gridtext_0.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gargle_1.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/uuid_1.2-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ids_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rematch2_2.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timechange_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/selectr_0.6-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GlobalOptions_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggpubr_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/maxstat_0.7-26.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggtext_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/conflicted_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dtplyr_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/googledrive_2.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/googlesheets4_1.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lubridate_1.9.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reprex_2.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rvest_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lars_1.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/airway_1.32.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/circlize_0.4.18.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/survminer_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyverse_2.0.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/pathwayPCA_1.28.0.tar.gz'
+* installing *binary* package ‘ggsci’ ...
+* package ‘ggsci’ successfully unpacked and SHA256 sums checked
+* ‘ggsci’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsci’ as ‘ggsci_5.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsci)
+* installing *binary* package ‘ggsignif’ ...
+* package ‘ggsignif’ successfully unpacked and SHA256 sums checked
+* ‘ggsignif’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsignif’ as ‘ggsignif_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsignif)
+* installing *binary* package ‘polynom’ ...
+* package ‘polynom’ successfully unpacked and SHA256 sums checked
+* ‘polynom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polynom’ as ‘polynom_1.4-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polynom)
+* installing *binary* package ‘rstatix’ ...
+* package ‘rstatix’ successfully unpacked and SHA256 sums checked
+* ‘rstatix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rstatix’ as ‘rstatix_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rstatix)
+* installing *binary* package ‘exactRankTests’ ...
+* package ‘exactRankTests’ successfully unpacked and SHA256 sums checked
+* ‘exactRankTests’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘exactRankTests’ as ‘exactRankTests_0.8-37_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (exactRankTests)
+* installing *binary* package ‘gridtext’ ...
+* package ‘gridtext’ successfully unpacked and SHA256 sums checked
+* ‘gridtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gridtext’ as ‘gridtext_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridtext)
+* installing *binary* package ‘gargle’ ...
+* package ‘gargle’ successfully unpacked and SHA256 sums checked
+* ‘gargle’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gargle’ as ‘gargle_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gargle)
+* installing *binary* package ‘uuid’ ...
+* package ‘uuid’ successfully unpacked and SHA256 sums checked
+* ‘uuid’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘uuid’ as ‘uuid_1.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (uuid)
+* installing *binary* package ‘rematch2’ ...
+* package ‘rematch2’ successfully unpacked and SHA256 sums checked
+* ‘rematch2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rematch2’ as ‘rematch2_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rematch2)
+* installing *binary* package ‘timechange’ ...
+* package ‘timechange’ successfully unpacked and SHA256 sums checked
+* ‘timechange’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *binary* package ‘selectr’ ...
+* package ‘selectr’ successfully unpacked and SHA256 sums checked
+* ‘selectr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘selectr’ as ‘selectr_0.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (selectr)
+* installing *binary* package ‘GlobalOptions’ ...
+* package ‘GlobalOptions’ successfully unpacked and SHA256 sums checked
+* ‘GlobalOptions’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GlobalOptions’ as ‘GlobalOptions_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GlobalOptions)
+* installing *binary* package ‘conflicted’ ...
+* package ‘conflicted’ successfully unpacked and SHA256 sums checked
+* ‘conflicted’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘conflicted’ as ‘conflicted_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (conflicted)
+* installing *binary* package ‘dtplyr’ ...
+* package ‘dtplyr’ successfully unpacked and SHA256 sums checked
+* ‘dtplyr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dtplyr’ as ‘dtplyr_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dtplyr)
+* installing *binary* package ‘reprex’ ...
+* package ‘reprex’ successfully unpacked and SHA256 sums checked
+* ‘reprex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reprex’ as ‘reprex_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reprex)
+* installing *binary* package ‘lars’ ...
+* package ‘lars’ successfully unpacked and SHA256 sums checked
+* ‘lars’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lars’ as ‘lars_1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lars)
+* installing *source* package ‘airway’ ...
+** this is package ‘airway’ version ‘1.32.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘airway’ as ‘airway_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (airway)
+* installing *binary* package ‘ids’ ...
+* package ‘ids’ successfully unpacked and SHA256 sums checked
+* ‘ids’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ids’ as ‘ids_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ids)
+* installing *binary* package ‘ggpubr’ ...
+* package ‘ggpubr’ successfully unpacked and SHA256 sums checked
+* ‘ggpubr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggpubr’ as ‘ggpubr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggpubr)
+* installing *binary* package ‘maxstat’ ...
+* package ‘maxstat’ successfully unpacked and SHA256 sums checked
+* ‘maxstat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘maxstat’ as ‘maxstat_0.7-26_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maxstat)
+* installing *binary* package ‘ggtext’ ...
+* package ‘ggtext’ successfully unpacked and SHA256 sums checked
+* ‘ggtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggtext’ as ‘ggtext_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtext)
+* installing *binary* package ‘googledrive’ ...
+* package ‘googledrive’ successfully unpacked and SHA256 sums checked
+* ‘googledrive’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘googledrive’ as ‘googledrive_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (googledrive)
+* installing *binary* package ‘lubridate’ ...
+* package ‘lubridate’ successfully unpacked and SHA256 sums checked
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *binary* package ‘rvest’ ...
+* package ‘rvest’ successfully unpacked and SHA256 sums checked
+* ‘rvest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rvest’ as ‘rvest_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rvest)
+* installing *binary* package ‘circlize’ ...
+* package ‘circlize’ successfully unpacked and SHA256 sums checked
+* ‘circlize’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘circlize’ as ‘circlize_0.4.18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (circlize)
+* installing *source* package ‘pathwayPCA’ ...
+** this is package ‘pathwayPCA’ version ‘1.28.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pathwayPCA’ as ‘pathwayPCA_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pathwayPCA)
+* installing *binary* package ‘googlesheets4’ ...
+* package ‘googlesheets4’ successfully unpacked and SHA256 sums checked
+* ‘googlesheets4’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘googlesheets4’ as ‘googlesheets4_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (googlesheets4)
+* installing *binary* package ‘survminer’ ...
+* package ‘survminer’ successfully unpacked and SHA256 sums checked
+* ‘survminer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘survminer’ as ‘survminer_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survminer)
+* installing *binary* package ‘tidyverse’ ...
+* package ‘tidyverse’ successfully unpacked and SHA256 sums checked
+* ‘tidyverse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyverse’ as ‘tidyverse_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyverse)
+
+The downloaded source packages are in
+	‘/tmp/RtmpVsbWAG/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m59.340s
+user	0m30.492s
+sys	0m10.131s

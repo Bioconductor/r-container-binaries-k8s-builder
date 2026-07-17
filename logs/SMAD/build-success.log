@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SMAD'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SMAD'
+also installing the dependencies ‘gmp’, ‘RcppAlgos’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gmp_0.7-5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppAlgos_2.10.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SMAD_1.28.0.tar.gz'
+* installing *binary* package ‘gmp’ ...
+* package ‘gmp’ successfully unpacked and SHA256 sums checked
+* ‘gmp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gmp’ as ‘gmp_0.7-5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gmp)
+* installing *binary* package ‘RcppAlgos’ ...
+* package ‘RcppAlgos’ successfully unpacked and SHA256 sums checked
+* ‘RcppAlgos’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppAlgos’ as ‘RcppAlgos_2.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppAlgos)
+* installing *source* package ‘SMAD’ ...
+** this is package ‘SMAD’ version ‘1.28.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GetDICE.cpp -o GetDICE.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GetPPN.cpp -o GetPPN.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SMAD.so GetDICE.o GetPPN.o RcppExports.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SMAD/00new/SMAD/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SMAD’ as ‘SMAD_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SMAD)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp6CUPlz/downloaded_packages’
+Old packages: 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun', 'zip', 'MASS',
+  'nlme', 'survival'
+
+real	0m28.191s
+user	0m13.652s
+sys	0m3.482s
