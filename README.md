@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2344
-- **Successfully Built:** 1840 (78%)
+- **Successfully Built:** 1877 (80%)
 - **Failed:** 9 (0%)
-- **In Progress:** 149
-- **Not Started:** 346
+- **In Progress:** 132
+- **Not Started:** 326
 
-**Progress:** 78%
+**Progress:** 80%
 ```
-███████████████████████████████████████░░░░░░░░░░░
+████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1840)
+## Successfully Built Packages (1877)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1790 more ...*
+*... and 1827 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
 | [visiumStitched](https://bioconductor.org/packages/3.24/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
+| [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
@@ -90,17 +90,18 @@
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (149)
+## In Progress (132)
+- ⏳ `AnnotationHubData`
 - ⏳ `BASiCStan`
 - ⏳ `Basic4Cseq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CODEX`
 - ⏳ `CSSQ`
 - ⏳ `ChIPseeker`
-- ⏳ `CluMSID`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DNAfusion`
+- ⏳ `DiffBind`
 - ⏳ `Dino`
 - ⏳ `EDASeq`
 - ⏳ `EGSEA`
@@ -108,24 +109,29 @@
 - ⏳ `ExCluster`
 - ⏳ `FindIT2`
 - ⏳ `GOstats`
+- ⏳ `GSReg`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `GlobalAncova`
 - ⏳ `HiCPotts`
 - ⏳ `HiTC`
 - ⏳ `INSPEcT`
+- ⏳ `IPO`
 - ⏳ `IVAS`
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
+- ⏳ `LOBSTAHS`
+- ⏳ `MAIT`
 - ⏳ `MBECS`
 - ⏳ `MEB`
+- ⏳ `MGnifyR`
 - ⏳ `MICSQTL`
 - ⏳ `MPAC`
+- ⏳ `MSnID`
 - ⏳ `MatrixQCvis`
 - ⏳ `MetaboAnnotatoR`
 - ⏳ `MethylSeekR`
 - ⏳ `MicrobiomeProfiler`
 - ⏳ `MoonlightR`
-- ⏳ `MotifPeeker`
 - ⏳ `MsQuality`
 - ⏳ `OUTRIDER`
 - ⏳ `OutSplice`
@@ -135,23 +141,16 @@
 - ⏳ `PROPS`
 - ⏳ `PostChicago`
 - ⏳ `RJMCMCNucleosomes`
-- ⏳ `RadioGx`
-- ⏳ `ReducedExperiment`
-- ⏳ `RegionalST`
-- ⏳ `RiboDiPA`
-- ⏳ `SCANVIS`
-- ⏳ `SCArray.sat`
 
-... and 99 more ...
+... and 82 more ...
 
-## Not Yet Started (346)
+## Not Yet Started (326)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
@@ -183,7 +182,6 @@
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
-- ⏸️ `DiffBind`
 - ⏸️ `DominoEffect`
 - ⏸️ `DrugVsDisease`
 - ⏸️ `DuplexDiscovereR`
@@ -195,9 +193,11 @@
 - ⏸️ `FRASER`
 - ⏸️ `G4SNVHunter`
 - ⏸️ `GA4GHclient`
+- ⏸️ `GA4GHshiny`
+- ⏸️ `GARS`
 
-... and 296 more ...
+... and 276 more ...
 
 ---
-*Last updated: 2026-07-17 21:58:20 UTC*
-*Packages with verified BBS status: 147*
+*Last updated: 2026-07-17 22:00:03 UTC*
+*Packages with verified BBS status: 148*

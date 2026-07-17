@@ -1,0 +1,100 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TENET'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TENET'
+also installing the dependencies ‘pastecs’, ‘RCircos’, ‘TENET.ExperimentHub’, ‘BAMMtools’, ‘TENET.AnnotationHub’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pastecs_1.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RCircos_1.2.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/TENET.ExperimentHub_1.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/BAMMtools_2.1.12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/TENET.AnnotationHub_1.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TENET_1.5.0.tar.gz'
+* installing *binary* package ‘pastecs’ ...
+* package ‘pastecs’ successfully unpacked and SHA256 sums checked
+* ‘pastecs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pastecs’ as ‘pastecs_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pastecs)
+* installing *binary* package ‘RCircos’ ...
+* package ‘RCircos’ successfully unpacked and SHA256 sums checked
+* ‘RCircos’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RCircos’ as ‘RCircos_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RCircos)
+* installing *source* package ‘TENET.ExperimentHub’ ...
+** this is package ‘TENET.ExperimentHub’ version ‘1.5.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TENET.ExperimentHub’ as ‘TENET.ExperimentHub_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENET.ExperimentHub)
+* installing *binary* package ‘BAMMtools’ ...
+* package ‘BAMMtools’ successfully unpacked and SHA256 sums checked
+* ‘BAMMtools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BAMMtools’ as ‘BAMMtools_2.1.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BAMMtools)
+* installing *source* package ‘TENET.AnnotationHub’ ...
+** this is package ‘TENET.AnnotationHub’ version ‘1.1.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TENET.AnnotationHub’ as ‘TENET.AnnotationHub_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENET.AnnotationHub)
+* installing *source* package ‘TENET’ ...
+** this is package ‘TENET’ version ‘1.5.0’
+** package ‘TENET’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TENET’ as ‘TENET_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENET)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2uNUyk/downloaded_packages’
+
+real	1m18.553s
+user	1m5.034s
+sys	0m9.287s
