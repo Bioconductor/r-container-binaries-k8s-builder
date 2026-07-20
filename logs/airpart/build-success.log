@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''airpart'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'airpart'
+also installing the dependencies ‘catdata’, ‘smurf’, ‘forestplot’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/catdata_1.2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/smurf_1.1.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/forestplot_3.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/airpart_1.20.0.tar.gz'
+* installing *binary* package ‘catdata’ ...
+* package ‘catdata’ successfully unpacked and SHA256 sums checked
+* ‘catdata’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘catdata’ as ‘catdata_1.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (catdata)
+* installing *binary* package ‘forestplot’ ...
+* package ‘forestplot’ successfully unpacked and SHA256 sums checked
+* ‘forestplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘forestplot’ as ‘forestplot_3.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (forestplot)
+* installing *binary* package ‘smurf’ ...
+* package ‘smurf’ successfully unpacked and SHA256 sums checked
+* ‘smurf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘smurf’ as ‘smurf_1.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (smurf)
+* installing *source* package ‘airpart’ ...
+** this is package ‘airpart’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘airpart’ as ‘airpart_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (airpart)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYEIPy8/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m51.364s
+user	0m36.761s
+sys	0m6.863s

@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2170 (91%)
+- **Successfully Built:** 2179 (91%)
 - **Failed:** 53 (2%)
-- **In Progress:** 57
+- **In Progress:** 48
 - **Not Started:** 104
 
 **Progress:** 93%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2170)
+## Successfully Built Packages (2179)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2120 more ...*
+*... and 2129 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -134,7 +134,7 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (57)
+## In Progress (48)
 - ⏳ `ATACseqQC`
 - ⏳ `DEScan2`
 - ⏳ `FRASER`
@@ -146,16 +146,12 @@
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `RUVSeq`
-- ⏳ `RiboCrypt`
 - ⏳ `RnBeads`
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `SpaceTrooper`
-- ⏳ `TFHAZ`
 - ⏳ `UPDhmm`
 - ⏳ `Uniquorn`
 - ⏳ `VariantTools`
-- ⏳ `a4Base`
-- ⏳ `airpart`
 - ⏳ `alabaster`
 - ⏳ `appreci8R`
 - ⏳ `atSNP`
@@ -166,27 +162,27 @@
 - ⏳ `carnation`
 - ⏳ `cbaf`
 - ⏳ `chevreulProcess`
-- ⏳ `conumee`
-- ⏳ `damidBind`
 - ⏳ `decontX`
 - ⏳ `deconvR`
 - ⏳ `derfinder`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `epiregulon`
-- ⏳ `epivizrData`
-- ⏳ `famat`
 - ⏳ `iSEEtree`
 - ⏳ `ideal`
 - ⏳ `lumi`
 - ⏳ `magpie`
 - ⏳ `metaseqR2`
 - ⏳ `missMethyl`
-- ⏳ `mitoClone2`
 - ⏳ `pcaExplorer`
 - ⏳ `scCB2`
 - ⏳ `scPipe`
-
-... and 7 more ...
+- ⏳ `scider`
+- ⏳ `singleCellTK`
+- ⏳ `svaNUMT`
+- ⏳ `svaRetro`
+- ⏳ `visiumStitched`
+- ⏳ `vulcan`
+- ⏳ `yarn`
 
 ## Not Yet Started (104)
 - ⏸️ `ASpli`
@@ -243,5 +239,5 @@
 ... and 54 more ...
 
 ---
-*Last updated: 2026-07-20 21:41:31 UTC*
+*Last updated: 2026-07-20 21:42:22 UTC*
 *Packages with verified BBS status: 239*
