@@ -6,22 +6,23 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1609 (67%)
-- **Failed:** 30 (1%)
-- **In Progress:** 127
-- **Not Started:** 618
+- **Successfully Built:** 1645 (69%)
+- **Failed:** 31 (1%)
+- **In Progress:** 116
+- **Not Started:** 592
 
-**Progress:** 68%
+**Progress:** 70%
 ```
-██████████████████████████████████░░░░░░░░░░░░░░░░
+███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1609)
+## Successfully Built Packages (1645)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.23/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABarray) |
+| [ACE](https://bioconductor.org/packages/3.23/bioc/html/ACE.html) | [log](logs/ACE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACE) |
 | [ACME](https://bioconductor.org/packages/3.23/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACME) |
 | [ADAM](https://bioconductor.org/packages/3.23/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAM) |
 | [ADAMgui](https://bioconductor.org/packages/3.23/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAMgui) |
@@ -44,9 +45,8 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
-| [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1559 more ...*
+*... and 1595 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (30)
+## Failed Packages (31)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -107,68 +107,68 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scAnnotatR](https://bioconductor.org/packages/3.23/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [squallms](https://bioconductor.org/packages/3.23/bioc/html/squallms.html) | [log](logs/squallms/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/squallms) | Missing R dependency: ModelMetrics |
 | [supersigs](https://bioconductor.org/packages/3.23/bioc/html/supersigs.html) | [log](logs/supersigs/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/supersigs) | Missing R dependency: ModelMetrics |
 | [tidyexposomics](https://bioconductor.org/packages/3.23/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (127)
-- ⏳ `ACE`
+## In Progress (116)
+- ⏳ `ASICS`
 - ⏳ `BSgenome`
-- ⏳ `CAMERA`
 - ⏳ `CARDspa`
 - ⏳ `CNEr`
 - ⏳ `CNVRanger`
-- ⏳ `CRISPRball`
 - ⏳ `CoGAPS`
+- ⏳ `DESpace`
 - ⏳ `DMCHMM`
-- ⏳ `DNEA`
 - ⏳ `DOSE`
 - ⏳ `DeepTarget`
+- ⏳ `DropletUtils`
 - ⏳ `DspikeIn`
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
 - ⏳ `EGSEA`
 - ⏳ `EWCE`
-- ⏳ `EnrichmentBrowser`
 - ⏳ `GOfuncR`
 - ⏳ `GOstats`
 - ⏳ `GeneBreak`
 - ⏳ `GenomicFeatures`
 - ⏳ `GenomicScores`
-- ⏳ `HTSFilter`
 - ⏳ `HiCParser`
 - ⏳ `HiCPotts`
-- ⏳ `HiCcompare`
+- ⏳ `HiContacts`
+- ⏳ `HiSpaR`
 - ⏳ `HiTC`
 - ⏳ `HoloFoodR`
-- ⏳ `HybridExpress`
 - ⏳ `IdeoViz`
 - ⏳ `KnowSeq`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `MBECS`
+- ⏳ `MDSvis`
 - ⏳ `MSPrep`
-- ⏳ `MSnID`
+- ⏳ `MsQuality`
+- ⏳ `MultiBaC`
 - ⏳ `PAST`
 - ⏳ `PDATK`
 - ⏳ `PMScanR`
-- ⏳ `POMA`
 - ⏳ `PROPS`
 - ⏳ `PharmacoGx`
-- ⏳ `Prostar`
 - ⏳ `RUCova`
 - ⏳ `Rcpi`
 - ⏳ `SCANVIS`
 - ⏳ `SEraster`
 - ⏳ `SMTrackR`
 - ⏳ `SPIAT`
+- ⏳ `SPsimSeq`
+- ⏳ `STADyUM`
+- ⏳ `SVP`
 
-... and 77 more ...
+... and 66 more ...
 
-## Not Yet Started (618)
+## Not Yet Started (592)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
-- ⏸️ `ASICS`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -216,9 +216,10 @@
 - ⏸️ `ChIPComp`
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
+- ⏸️ `ChIPanalyser`
 
-... and 568 more ...
+... and 542 more ...
 
 ---
-*Last updated: 2026-07-20 21:03:57 UTC*
-*Packages with verified BBS status: 205*
+*Last updated: 2026-07-20 21:06:52 UTC*
+*Packages with verified BBS status: 207*
