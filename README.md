@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1722 (73%)
-- **Failed:** 25 (1%)
-- **In Progress:** 68
-- **Not Started:** 531
+- **Successfully Built:** 1739 (74%)
+- **Failed:** 27 (1%)
+- **In Progress:** 50
+- **Not Started:** 530
 
-**Progress:** 74%
+**Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1722)
+## Successfully Built Packages (1739)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1672 more ...*
+*... and 1689 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (25)
+## Failed Packages (27)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -95,6 +95,7 @@
 | [SpectralTAD](https://bioconductor.org/packages/3.24/bioc/html/SpectralTAD.html) | [log](logs/SpectralTAD/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SpectralTAD) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [SubCellBarCode](https://bioconductor.org/packages/3.24/bioc/html/SubCellBarCode.html) | [log](logs/SubCellBarCode/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SubCellBarCode) | Missing R dependency: ModelMetrics |
 | [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
+| [TOP](https://bioconductor.org/packages/3.24/bioc/html/TOP.html) | [log](logs/TOP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TOP) | Missing R dependency: ModelMetrics |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [condiments](https://bioconductor.org/packages/3.24/bioc/html/condiments.html) | [log](logs/condiments/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/condiments) | Missing R dependency: ModelMetrics |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
@@ -104,47 +105,35 @@
 | [scAnnotatR](https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
 | [scGPS](https://bioconductor.org/packages/3.24/bioc/html/scGPS.html) | [log](logs/scGPS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scGPS) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [squallms](https://bioconductor.org/packages/3.24/bioc/html/squallms.html) | [log](logs/squallms/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/squallms) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (68)
+## In Progress (50)
 - ⏳ `AUCell`
-- ⏳ `BicARE`
-- ⏳ `BioCor`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
-- ⏳ `CBNplot`
 - ⏳ `CNVRanger`
 - ⏳ `CTSV`
 - ⏳ `CTdata`
-- ⏳ `Category`
 - ⏳ `CatsCradle`
 - ⏳ `CeTF`
 - ⏳ `CellTrails`
-- ⏳ `Cepo`
 - ⏳ `CoGAPS`
 - ⏳ `DAssemble`
 - ⏳ `DEXSeq`
 - ⏳ `ExperimentSubset`
 - ⏳ `GDCRNATools`
-- ⏳ `GOaGO`
 - ⏳ `IPO`
 - ⏳ `MAIT`
-- ⏳ `MICSQTL`
 - ⏳ `MIRit`
-- ⏳ `MultiDataSet`
 - ⏳ `NetActivity`
 - ⏳ `PREDA`
-- ⏳ `QDNAseq`
-- ⏳ `RadioGx`
 - ⏳ `Rbowtie2`
 - ⏳ `SC3`
-- ⏳ `TOP`
-- ⏳ `alabaster.sfe`
 - ⏳ `apeglm`
 - ⏳ `barbieQ`
 - ⏳ `bnbc`
-- ⏳ `dada2`
-- ⏳ `destiny`
+- ⏳ `decontX`
 - ⏳ `divergence`
 - ⏳ `dmGsea`
 - ⏳ `gDRcore`
@@ -153,14 +142,25 @@
 - ⏳ `globaltest`
 - ⏳ `hdxmsqc`
 - ⏳ `iSEEhex`
-- ⏳ `iSEEhub`
 - ⏳ `iSEEindex`
 - ⏳ `immApex`
 - ⏳ `looking4clusters`
+- ⏳ `mbkmeans`
+- ⏳ `miQC`
+- ⏳ `mia`
+- ⏳ `mumosa`
+- ⏳ `oligoClasses`
+- ⏳ `omXplore`
+- ⏳ `pRoloc`
+- ⏳ `ptairMS`
+- ⏳ `rtracklayer`
+- ⏳ `sSNAPPY`
+- ⏳ `scCB2`
+- ⏳ `scider`
+- ⏳ `splatter`
+- ⏳ `tidyexposomics`
 
-... and 18 more ...
-
-## Not Yet Started (531)
+## Not Yet Started (530)
 - ⏸️ `ACE`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
@@ -212,8 +212,8 @@
 - ⏸️ `CoverageView`
 - ⏸️ `CyTOFpower`
 
-... and 481 more ...
+... and 480 more ...
 
 ---
-*Last updated: 2026-07-20 21:16:38 UTC*
-*Packages with verified BBS status: 224*
+*Last updated: 2026-07-20 21:17:52 UTC*
+*Packages with verified BBS status: 226*
