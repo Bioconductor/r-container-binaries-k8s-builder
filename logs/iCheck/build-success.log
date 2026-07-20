@@ -1,0 +1,51 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''iCheck'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'iCheck'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/iCheck_1.42.0.tar.gz'
+Content type 'application/x-gzip' length 572703 bytes (559 KB)
+==================================================
+downloaded 559 KB
+
+* installing *source* package ‘iCheck’ ...
+** this is package ‘iCheck’ version ‘1.42.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iCheck’ as ‘iCheck_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iCheck)
+
+The downloaded source packages are in
+	‘/tmp/RtmprON956/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m5.444s
+user	0m47.652s
+sys	0m6.252s

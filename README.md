@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2191 (91%)
+- **Successfully Built:** 2198 (92%)
 - **Failed:** 53 (2%)
-- **In Progress:** 45
-- **Not Started:** 95
+- **In Progress:** 44
+- **Not Started:** 89
 
 **Progress:** 94%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2191)
+## Successfully Built Packages (2198)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2141 more ...*
+*... and 2148 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -134,13 +134,9 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (45)
-- ⏳ `ATACseqQC`
-- ⏳ `DEScan2`
+## In Progress (44)
 - ⏳ `FRASER`
-- ⏳ `GUIDEseq`
 - ⏳ `Guitar`
-- ⏳ `MAGAR`
 - ⏳ `MungeSumstats`
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
@@ -164,24 +160,27 @@
 - ⏳ `derfinder`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `epiregulon`
-- ⏳ `ffpe`
-- ⏳ `iCheck`
+- ⏳ `epivizrStandalone`
 - ⏳ `ideal`
 - ⏳ `magpie`
 - ⏳ `metaseqR2`
-- ⏳ `miaDash`
 - ⏳ `missMethyl`
+- ⏳ `octad`
 - ⏳ `pcaExplorer`
+- ⏳ `ribosomeProfilingQC`
 - ⏳ `scCB2`
 - ⏳ `scPipe`
+- ⏳ `scTreeViz`
 - ⏳ `scider`
+- ⏳ `scone`
+- ⏳ `standR`
 - ⏳ `svaNUMT`
 - ⏳ `svaRetro`
 - ⏳ `visiumStitched`
 - ⏳ `wateRmelon`
 - ⏳ `yarn`
 
-## Not Yet Started (95)
+## Not Yet Started (89)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -233,8 +232,8 @@
 - ⏸️ `biomvRCNS`
 - ⏸️ `cageminer`
 
-... and 45 more ...
+... and 39 more ...
 
 ---
-*Last updated: 2026-07-20 21:44:52 UTC*
+*Last updated: 2026-07-20 21:46:15 UTC*
 *Packages with verified BBS status: 240*
