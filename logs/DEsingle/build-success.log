@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DEsingle'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DEsingle'
+also installing the dependencies ‘miscTools’, ‘maxLik’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/miscTools_0.6-30.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/maxLik_1.5-2.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DEsingle_1.33.0.tar.gz'
+* installing *binary* package ‘miscTools’ ...
+* package ‘miscTools’ successfully unpacked and SHA256 sums checked
+* ‘miscTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miscTools’ as ‘miscTools_0.6-30_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miscTools)
+* installing *binary* package ‘maxLik’ ...
+* package ‘maxLik’ successfully unpacked and SHA256 sums checked
+* ‘maxLik’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘maxLik’ as ‘maxLik_1.5-2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maxLik)
+* installing *source* package ‘DEsingle’ ...
+** this is package ‘DEsingle’ version ‘1.33.0’
+** package ‘DEsingle’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DEsingle’ as ‘DEsingle_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEsingle)
+
+The downloaded source packages are in
+	‘/tmp/RtmpnCrcjL/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m15.468s
+user	0m10.539s
+sys	0m3.712s

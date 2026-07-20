@@ -1,0 +1,310 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rgoslin'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rgoslin'
+Warning: dependency ‘lipidr’ is not available
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rgoslin_1.17.0.tar.gz'
+Content type 'application/x-gzip' length 751114 bytes (733 KB)
+==================================================
+downloaded 733 KB
+
+* installing *source* package ‘rgoslin’ ...
+** this is package ‘rgoslin’ version ‘1.17.0’
+** package ‘rgoslin’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+The name of the shared library to be created is: rgoslin.so
+make[1]: Entering directory '/tmp/RtmpqGwHZa/R.INSTALL3571187671/rgoslin/src/cppgoslin'
+rm -f "cppgoslin/parser/KnownGrammars.h"
+rm -f "src/domain/LipidClasses.cpp"
+rm -f "cppgoslin/domain/ClassesEnum.h"
+rm -f cppgoslin/domain/*.o
+rm -f cppgoslin/parser/*.o
+rm -f cppgoslin/tests/*.o
+rm -f libcppGoslin.so
+rm -f *Test
+rm -f writeGrammarsHeader
+rm -f writeLipidEnums
+rm -f libcppGoslin.a
+make[1]: Leaving directory '/tmp/RtmpqGwHZa/R.INSTALL3571187671/rgoslin/src/cppgoslin'
+make[1]: Entering directory '/tmp/RtmpqGwHZa/R.INSTALL3571187671/rgoslin/src/cppgoslin'
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I . -o writeGrammarsHeader writeGrammarsHeader.cpp && "./writeGrammarsHeader" "cppgoslin/parser/KnownGrammars.h"
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I . -o writeLipidEnums writeLipidEnums.cpp src/domain/StringFunctions.cpp src/parser/SumFormulaParserEventHandler.cpp src/parser/ParserClasses.cpp && "./writeLipidEnums" "src/domain/LipidClasses.cpp"
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from cppgoslin/parser/Parser.h:30,
+                 from writeLipidEnums.cpp:31:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/ios:42,
+                 from /usr/include/c++/13/istream:40,
+                 from /usr/include/c++/13/fstream:40,
+                 from writeLipidEnums.cpp:26:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/SumFormulaParserEventHandler.h:30,
+                 from src/parser/SumFormulaParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from ./cppgoslin/domain/Element.h:31,
+                 from ./cppgoslin/parser/SumFormulaParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/Parser.h:30,
+                 from src/parser/ParserClasses.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/bits/stl_tree.h:63,
+                 from /usr/include/c++/13/set:62,
+                 from ./cppgoslin/parser/BaseParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/Adduct.o -c src/domain/Adduct.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidMolecularSpecies.o -c src/domain/LipidMolecularSpecies.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidSnPosition.o -c src/domain/LipidSnPosition.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidStructureDefined.o -c src/domain/LipidStructureDefined.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/FattyAcid.o -c src/domain/FattyAcid.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidAdduct.o -c src/domain/LipidAdduct.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidSpecies.o -c src/domain/LipidSpecies.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidFullStructure.o -c src/domain/LipidFullStructure.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidCompleteStructure.o -c src/domain/LipidCompleteStructure.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidSpeciesInfo.o -c src/domain/LipidSpeciesInfo.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/StringFunctions.o -c src/domain/StringFunctions.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/LipidClasses.o -c src/domain/LipidClasses.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/DoubleBonds.o -c src/domain/DoubleBonds.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/FunctionalGroup.o -c src/domain/FunctionalGroup.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/Headgroup.o -c src/domain/Headgroup.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/Cycle.o -c src/domain/Cycle.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/domain/GenericDatastructures.o -c src/domain/GenericDatastructures.cpp
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/ParserClasses.o -c src/parser/ParserClasses.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/Parser.h:30,
+                 from src/parser/ParserClasses.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/bits/stl_tree.h:63,
+                 from /usr/include/c++/13/set:62,
+                 from ./cppgoslin/parser/BaseParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/KnownParsers.o -c src/parser/KnownParsers.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/FattyAcidParserEventHandler.h:37,
+                 from ./cppgoslin/parser/KnownParsers.h:30,
+                 from src/parser/KnownParsers.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/FattyAcidParserEventHandler.h:28:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/GoslinParserEventHandler.o -c src/parser/GoslinParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/LipidBaseParserEventHandler.h:37,
+                 from ./cppgoslin/parser/GoslinParserEventHandler.h:37,
+                 from src/parser/GoslinParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/GoslinParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/LipidMapsParserEventHandler.o -c src/parser/LipidMapsParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/LipidBaseParserEventHandler.h:37,
+                 from ./cppgoslin/parser/LipidMapsParserEventHandler.h:37,
+                 from src/parser/LipidMapsParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/LipidMapsParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/SwissLipidsParserEventHandler.o -c src/parser/SwissLipidsParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/LipidBaseParserEventHandler.h:37,
+                 from ./cppgoslin/parser/SwissLipidsParserEventHandler.h:37,
+                 from src/parser/SwissLipidsParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/SwissLipidsParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/HmdbParserEventHandler.o -c src/parser/HmdbParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/LipidBaseParserEventHandler.h:37,
+                 from ./cppgoslin/parser/HmdbParserEventHandler.h:38,
+                 from src/parser/HmdbParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/HmdbParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/SumFormulaParserEventHandler.o -c src/parser/SumFormulaParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/SumFormulaParserEventHandler.h:30,
+                 from src/parser/SumFormulaParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from ./cppgoslin/domain/Element.h:31,
+                 from ./cppgoslin/parser/SumFormulaParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/SumFormulaParser.o -c src/parser/SumFormulaParser.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/SumFormulaParserEventHandler.h:30,
+                 from ./cppgoslin/parser/SumFormulaParser.h:29,
+                 from src/parser/SumFormulaParser.cpp:25:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from ./cppgoslin/domain/Element.h:31,
+                 from ./cppgoslin/parser/SumFormulaParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/ShorthandParserEventHandler.o -c src/parser/ShorthandParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/LipidBaseParserEventHandler.h:37,
+                 from ./cppgoslin/parser/ShorthandParserEventHandler.h:38,
+                 from src/parser/ShorthandParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/ShorthandParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/FattyAcidParserEventHandler.o -c src/parser/FattyAcidParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/FattyAcidParserEventHandler.h:37,
+                 from src/parser/FattyAcidParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/FattyAcidParserEventHandler.h:28:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I. -fPIC -o src/parser/LipidBaseParserEventHandler.o -c src/parser/LipidBaseParserEventHandler.cpp
+In file included from ./cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/parser/LipidBaseParserEventHandler.h:37,
+                 from src/parser/LipidBaseParserEventHandler.cpp:26:
+./cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/vector:62,
+                 from ./cppgoslin/domain/LipidEnums.h:31,
+                 from ./cppgoslin/parser/LipidBaseParserEventHandler.h:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+ar rcs libcppGoslin.a src/domain/Adduct.o src/domain/LipidMolecularSpecies.o src/domain/LipidSnPosition.o src/domain/LipidStructureDefined.o src/domain/FattyAcid.o src/domain/LipidAdduct.o src/domain/LipidSpecies.o src/domain/LipidFullStructure.o src/domain/LipidCompleteStructure.o src/domain/LipidSpeciesInfo.o src/domain/StringFunctions.o src/domain/LipidClasses.o src/domain/DoubleBonds.o src/domain/FunctionalGroup.o src/domain/Headgroup.o src/domain/Cycle.o src/domain/GenericDatastructures.o src/parser/ParserClasses.o src/parser/KnownParsers.o src/parser/GoslinParserEventHandler.o src/parser/LipidMapsParserEventHandler.o src/parser/SwissLipidsParserEventHandler.o src/parser/HmdbParserEventHandler.o src/parser/SumFormulaParserEventHandler.o src/parser/SumFormulaParser.o src/parser/ShorthandParserEventHandler.o src/parser/FattyAcidParserEventHandler.o src/parser/LipidBaseParserEventHandler.o
+make[1]: Leaving directory '/tmp/RtmpqGwHZa/R.INSTALL3571187671/rgoslin/src/cppgoslin'
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"." -I"./cppgoslin" -I"./cppgoslin/cppgoslin" -I"./cppgoslin/cppgoslin/domain" -I"./cppgoslin/cppgoslin/parser" -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"." -I"./cppgoslin" -I"./cppgoslin/cppgoslin" -I"./cppgoslin/cppgoslin/domain" -I"./cppgoslin/cppgoslin/parser" -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rgoslin.cpp -o rgoslin.o
+In file included from ./cppgoslin/cppgoslin/parser/BaseParserEventHandler.h:35,
+                 from ./cppgoslin/cppgoslin/parser/LipidBaseParserEventHandler.h:37,
+                 from ./cppgoslin/cppgoslin/cppgoslin.h:49,
+                 from rgoslin.cpp:3:
+./cppgoslin/cppgoslin/parser/ParserClasses.h:115:30: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+  115 |     class iter : public std::iterator<std::output_iterator_tag, int>{
+      |                              ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/bits/specfun.h:43,
+                 from /usr/include/c++/13/cmath:3699,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp/platform/compiler.h:37,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp/r/headers.h:67,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:30,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from rgoslin.cpp:2:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rgoslin.so RcppExports.o rgoslin.o cppgoslin/libcppGoslin.a -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-rgoslin/00new/rgoslin/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rgoslin’ as ‘rgoslin_1.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rgoslin)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSUtfR9/downloaded_packages’
+Old packages: 'diffobj'
+
+real	2m48.998s
+user	2m27.361s
+sys	0m16.540s

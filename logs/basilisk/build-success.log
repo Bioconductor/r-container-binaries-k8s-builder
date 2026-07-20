@@ -1,0 +1,40 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''basilisk'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'basilisk'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/basilisk_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 270157 bytes (263 KB)
+==================================================
+downloaded 263 KB
+
+* installing *source* package ‘basilisk’ ...
+** this is package ‘basilisk’ version ‘1.25.0’
+** package ‘basilisk’ successfully unpacked and MD5 sums checked
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* SHA256 sums
+* creating tarball
+packaged installation of ‘basilisk’ as ‘basilisk_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmrKxdY/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m10.189s
+user	0m7.387s
+sys	0m2.652s
