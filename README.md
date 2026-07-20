@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1330 (55%)
-- **Failed:** 23 (0%)
-- **In Progress:** 244
-- **Not Started:** 787
+- **Successfully Built:** 1377 (57%)
+- **Failed:** 25 (1%)
+- **In Progress:** 226
+- **Not Started:** 756
 
-**Progress:** 56%
+**Progress:** 58%
 ```
-████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1330)
+## Successfully Built Packages (1377)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1280 more ...*
+*... and 1327 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
-| [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [universalmotif](https://bioconductor.org/packages/3.23/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/universalmotif) |
@@ -61,6 +59,7 @@
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.23/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
+| [vissE](https://bioconductor.org/packages/3.23/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vissE) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
@@ -69,6 +68,7 @@
 | [wpm](https://bioconductor.org/packages/3.23/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xCell2](https://bioconductor.org/packages/3.23/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xCell2) |
+| [xenLite](https://bioconductor.org/packages/3.23/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (23)
+## Failed Packages (25)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -94,7 +94,9 @@
 | [SPONGE](https://bioconductor.org/packages/3.23/bioc/html/SPONGE.html) | [log](logs/SPONGE/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SPONGE) | Build failed with unknown error |
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
 | [biotmle](https://bioconductor.org/packages/3.23/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
+| [gep2pep](https://bioconductor.org/packages/3.23/bioc/html/gep2pep.html) | [log](logs/gep2pep/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/gep2pep) | Missing dependency: repo<br>[CRAN Package 'repo'](https://cran.r-project.org/web/packages/repo/index.html) archived on 2026-03-21 as issues were not corrected despite reminders. |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [maPredictDSC](https://bioconductor.org/packages/3.23/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.23/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -104,8 +106,9 @@
 | [supersigs](https://bioconductor.org/packages/3.23/bioc/html/supersigs.html) | [log](logs/supersigs/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/supersigs) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (244)
+## In Progress (226)
 - ⏳ `ADaCGH2`
+- ⏳ `AMARETTO`
 - ⏳ `ASSIGN`
 - ⏳ `AffiXcan`
 - ⏳ `BUSseq`
@@ -125,6 +128,7 @@
 - ⏳ `DExMA`
 - ⏳ `DOSE`
 - ⏳ `DeMixT`
+- ⏳ `DeepTarget`
 - ⏳ `DenoIST`
 - ⏳ `DifferentialRegulation`
 - ⏳ `DiscoRhythm`
@@ -132,6 +136,7 @@
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
 - ⏳ `EGAD`
+- ⏳ `EWCE`
 - ⏳ `EpiDISH`
 - ⏳ `ExpoRiskR`
 - ⏳ `ExpressionAtlas`
@@ -142,6 +147,7 @@
 - ⏳ `GOfan`
 - ⏳ `GOfuncR`
 - ⏳ `GOpro`
+- ⏳ `GOstats`
 - ⏳ `GSVA`
 - ⏳ `GWENA`
 - ⏳ `GeneMeta`
@@ -151,17 +157,12 @@
 - ⏳ `HTSFilter`
 - ⏳ `HarmonizR`
 - ⏳ `HiCExperiment`
-- ⏳ `HiCParser`
-- ⏳ `HiCcompare`
-- ⏳ `HybridExpress`
-- ⏳ `InterCellar`
 
-... and 194 more ...
+... and 176 more ...
 
-## Not Yet Started (787)
+## Not Yet Started (756)
 - ⏸️ `ACE`
 - ⏸️ `AHMassBank`
-- ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
 - ⏸️ `APL`
 - ⏸️ `ASICS`
@@ -193,8 +194,6 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioTIP`
-- ⏸️ `BiocHubsShiny`
-- ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
@@ -209,9 +208,12 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
+- ⏸️ `COCOA`
+- ⏸️ `CODEX`
+- ⏸️ `CRISPRball`
 
-... and 737 more ...
+... and 706 more ...
 
 ---
-*Last updated: 2026-07-20 20:46:22 UTC*
-*Packages with verified BBS status: 189*
+*Last updated: 2026-07-20 20:49:34 UTC*
+*Packages with verified BBS status: 193*

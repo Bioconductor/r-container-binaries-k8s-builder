@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CTdata'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CTdata'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CTdata_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 7308873 bytes (7.0 MB)
+==================================================
+downloaded 7.0 MB
+
+* installing *source* package ‘CTdata’ ...
+** this is package ‘CTdata’ version ‘1.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CTdata’ as ‘CTdata_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CTdata)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzOsaRN/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m21.881s
+user	0m17.463s
+sys	0m3.408s
