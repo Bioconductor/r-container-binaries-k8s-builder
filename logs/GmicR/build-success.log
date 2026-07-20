@@ -1,0 +1,45 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GmicR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GmicR'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GmicR_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 3655420 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+* installing *source* package ‘GmicR’ ...
+** this is package ‘GmicR’ version ‘1.26.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘ape::degree’ by ‘bnlearn::degree’ when loading ‘GmicR’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘ape::degree’ by ‘bnlearn::degree’ when loading ‘GmicR’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘ape::degree’ by ‘bnlearn::degree’ when loading ‘GmicR’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GmicR’ as ‘GmicR_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GmicR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqulKPx/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m40.423s
+user	0m30.798s
+sys	0m5.404s

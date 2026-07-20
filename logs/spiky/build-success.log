@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''spiky'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'spiky'
+also installing the dependencies ‘distributions3’, ‘MBA’, ‘bamlss’, ‘BlandAltmanLeh’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/distributions3_0.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MBA_0.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bamlss_1.2-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/BlandAltmanLeh_0.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/spiky_1.18.0.tar.gz'
+* installing *binary* package ‘distributions3’ ...
+* package ‘distributions3’ successfully unpacked and SHA256 sums checked
+* ‘distributions3’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘distributions3’ as ‘distributions3_0.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (distributions3)
+* installing *binary* package ‘MBA’ ...
+* package ‘MBA’ successfully unpacked and SHA256 sums checked
+* ‘MBA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MBA’ as ‘MBA_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MBA)
+* installing *binary* package ‘BlandAltmanLeh’ ...
+* package ‘BlandAltmanLeh’ successfully unpacked and SHA256 sums checked
+* ‘BlandAltmanLeh’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BlandAltmanLeh’ as ‘BlandAltmanLeh_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BlandAltmanLeh)
+* installing *binary* package ‘bamlss’ ...
+* package ‘bamlss’ successfully unpacked and SHA256 sums checked
+* ‘bamlss’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bamlss’ as ‘bamlss_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bamlss)
+* installing *source* package ‘spiky’ ...
+** this is package ‘spiky’ version ‘1.18.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spiky’ as ‘spiky_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spiky)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYXhste/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m0.479s
+user	0m46.084s
+sys	0m7.474s

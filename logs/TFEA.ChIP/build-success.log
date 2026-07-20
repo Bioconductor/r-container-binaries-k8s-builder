@@ -1,0 +1,66 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TFEA.ChIP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TFEA.ChIP'
+also installing the dependencies ‘metabook’, ‘meta’, ‘rcompanion’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metabook_0.2-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/meta_8.5-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rcompanion_2.5.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TFEA.ChIP_1.32.0.tar.gz'
+* installing *binary* package ‘metabook’ ...
+* package ‘metabook’ successfully unpacked and SHA256 sums checked
+* ‘metabook’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metabook’ as ‘metabook_0.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metabook)
+* installing *binary* package ‘rcompanion’ ...
+* package ‘rcompanion’ successfully unpacked and SHA256 sums checked
+* ‘rcompanion’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rcompanion’ as ‘rcompanion_2.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rcompanion)
+* installing *source* package ‘TFEA.ChIP’ ...
+** this is package ‘TFEA.ChIP’ version ‘1.32.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TFEA.ChIP’ as ‘TFEA.ChIP_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFEA.ChIP)
+* installing *binary* package ‘meta’ ...
+* package ‘meta’ successfully unpacked and SHA256 sums checked
+* ‘meta’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘meta’ as ‘meta_8.5-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (meta)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqRw70m/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m19.292s
+user	0m59.778s
+sys	0m7.861s

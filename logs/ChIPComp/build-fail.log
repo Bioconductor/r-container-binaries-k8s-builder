@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ChIPComp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ChIPComp'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ChIPComp_1.41.0.tar.gz'
+Content type 'application/x-gzip' length 611182 bytes (596 KB)
+==================================================
+downloaded 596 KB
+
+* installing *source* package ‘ChIPComp’ ...
+** this is package ‘ChIPComp’ version ‘1.41.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mva.c -o mva.o
+mva.c:3:10: fatal error: R_ext/PrtUtil.h: No such file or directory
+    3 | #include <R_ext/PrtUtil.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [/usr/local/lib/R/etc/Makeconf:190: mva.o] Error 1
+ERROR: compilation failed for package ‘ChIPComp’
+* removing ‘/tmp/library/ChIPComp’
+
+The downloaded source packages are in
+	‘/tmp/RtmptSuWSG/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘ChIPComp’ had non-zero exit status
+
+real	0m19.211s
+user	0m8.272s
+sys	0m2.949s

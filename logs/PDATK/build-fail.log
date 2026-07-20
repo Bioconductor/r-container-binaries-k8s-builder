@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PDATK'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PDATK'
+also installing the dependencies ‘clusterRepro’, ‘reportROC’, ‘verification’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clusterRepro_0.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reportROC_3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/verification_1.45.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/PDATK_1.20.0.tar.gz'
+* installing *binary* package ‘clusterRepro’ ...
+* package ‘clusterRepro’ successfully unpacked and SHA256 sums checked
+* ‘clusterRepro’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clusterRepro’ as ‘clusterRepro_0.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clusterRepro)
+* installing *binary* package ‘reportROC’ ...
+* package ‘reportROC’ successfully unpacked and SHA256 sums checked
+* ‘reportROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reportROC’ as ‘reportROC_3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reportROC)
+* installing *binary* package ‘verification’ ...
+* package ‘verification’ successfully unpacked and SHA256 sums checked
+* ‘verification’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘verification’ as ‘verification_1.45_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (verification)
+* installing *source* package ‘PDATK’ ...
+** this is package ‘PDATK’ version ‘1.20.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘survival::brier’ by ‘verification::brier’ when loading ‘PDATK’
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ModelMetrics’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘PDATK’
+* removing ‘/tmp/library/PDATK’
+
+The downloaded source packages are in
+	‘/tmp/RtmpfExBWK/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘PDATK’ had non-zero exit status
+
+real	0m29.612s
+user	0m19.165s
+sys	0m4.627s
