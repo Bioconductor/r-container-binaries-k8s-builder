@@ -1,0 +1,102 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MultiDataSet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MultiDataSet'
+also installing the dependencies ‘made4’, ‘brgedata’, ‘omicade4’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/made4_1.86.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/brgedata_1.34.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/omicade4_1.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MultiDataSet_1.40.0.tar.gz'
+* installing *source* package ‘made4’ ...
+** this is package ‘made4’ version ‘1.86.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘made4’ as ‘made4_1.86.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (made4)
+* installing *source* package ‘brgedata’ ...
+** this is package ‘brgedata’ version ‘1.34.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘brgedata’ as ‘brgedata_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (brgedata)
+* installing *source* package ‘MultiDataSet’ ...
+** this is package ‘MultiDataSet’ version ‘1.40.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘add_methy’ with signature ‘"MultiDataSet","GenomicRatioSet"’: no definition for class “GenomicRatioSet”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MultiDataSet’ as ‘MultiDataSet_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MultiDataSet)
+* installing *source* package ‘omicade4’ ...
+** this is package ‘omicade4’ version ‘1.52.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘omicade4’ as ‘omicade4_1.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (omicade4)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKbbN1o/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	4m17.019s
+user	3m57.741s
+sys	0m16.179s

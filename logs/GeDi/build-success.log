@@ -1,0 +1,165 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GeDi'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GeDi'
+also installing the dependencies ‘geneLenDataBase’, ‘goseq’, ‘backbone’, ‘ComplexUpset’, ‘tippy’, ‘bs4Dash’, ‘wordcloud2’, ‘mosdef’, ‘GeneTonic’, ‘macrophage’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/geneLenDataBase_1.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/goseq_1.64.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/backbone_3.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ComplexUpset_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tippy_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bs4Dash_2.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/wordcloud2_0.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mosdef_1.8.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GeneTonic_3.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/macrophage_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GeDi_1.7.1.tar.gz'
+* installing *source* package ‘geneLenDataBase’ ...
+** this is package ‘geneLenDataBase’ version ‘1.48.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geneLenDataBase’ as ‘geneLenDataBase_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneLenDataBase)
+* installing *binary* package ‘backbone’ ...
+* package ‘backbone’ successfully unpacked and SHA256 sums checked
+* ‘backbone’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘backbone’ as ‘backbone_3.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backbone)
+* installing *binary* package ‘ComplexUpset’ ...
+* package ‘ComplexUpset’ successfully unpacked and SHA256 sums checked
+* ‘ComplexUpset’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ComplexUpset’ as ‘ComplexUpset_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ComplexUpset)
+* installing *binary* package ‘tippy’ ...
+* package ‘tippy’ successfully unpacked and SHA256 sums checked
+* ‘tippy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tippy’ as ‘tippy_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tippy)
+* installing *binary* package ‘bs4Dash’ ...
+* package ‘bs4Dash’ successfully unpacked and SHA256 sums checked
+* ‘bs4Dash’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bs4Dash’ as ‘bs4Dash_2.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bs4Dash)
+* installing *binary* package ‘wordcloud2’ ...
+* package ‘wordcloud2’ successfully unpacked and SHA256 sums checked
+* ‘wordcloud2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wordcloud2’ as ‘wordcloud2_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wordcloud2)
+* installing *source* package ‘macrophage’ ...
+** this is package ‘macrophage’ version ‘1.28.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘macrophage’ as ‘macrophage_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (macrophage)
+* installing *source* package ‘goseq’ ...
+** this is package ‘goseq’ version ‘1.64.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘goseq’ as ‘goseq_1.64.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goseq)
+* installing *source* package ‘GeDi’ ...
+** this is package ‘GeDi’ version ‘1.7.1’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeDi’ as ‘GeDi_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeDi)
+* installing *source* package ‘mosdef’ ...
+** this is package ‘mosdef’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+
+ *** caught segfault ***
+address 0xbb20, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: loading failed
+* removing ‘/tmp/library/mosdef’
+ERROR: dependency ‘mosdef’ is not available for package ‘GeneTonic’
+Perhaps try a variation of:
+install.packages('mosdef')
+* removing ‘/tmp/library/GeneTonic’
+
+The downloaded source packages are in
+	‘/tmp/RtmpApwTqc/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘mosdef’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘GeneTonic’ had non-zero exit status
+
+real	3m14.040s
+user	2m39.038s
+sys	0m20.449s

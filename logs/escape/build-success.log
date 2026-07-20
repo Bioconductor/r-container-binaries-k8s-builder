@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''escape'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'escape'
+also installing the dependencies ‘msigdb’, ‘UCell’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/msigdb_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/UCell_2.16.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/escape_2.8.0.tar.gz'
+* installing *source* package ‘msigdb’ ...
+** this is package ‘msigdb’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘msigdb’ as ‘msigdb_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (msigdb)
+* installing *source* package ‘UCell’ ...
+** this is package ‘UCell’ version ‘2.16.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘UCell’ as ‘UCell_2.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UCell)
+* installing *source* package ‘escape’ ...
+** this is package ‘escape’ version ‘2.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘escape’ as ‘escape_2.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (escape)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzoL6Pp/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m55.976s
+user	0m45.617s
+sys	0m7.096s

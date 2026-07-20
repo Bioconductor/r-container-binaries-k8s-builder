@@ -1,0 +1,40 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SimBu'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SimBu'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SimBu_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 220767 bytes (215 KB)
+==================================================
+downloaded 215 KB
+
+* installing *source* package ‘SimBu’ ...
+** this is package ‘SimBu’ version ‘1.14.0’
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SimBu’ as ‘SimBu_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SimBu)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKmuXI1/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m18.738s
+user	0m9.700s
+sys	0m2.426s

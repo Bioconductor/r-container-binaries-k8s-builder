@@ -1,0 +1,98 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''seqPattern'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'seqPattern'
+also installing the dependencies ‘CAGEfightR’, ‘BSgenome.Drerio.UCSC.danRer7’, ‘CAGEr’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CAGEfightR_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/BSgenome.Drerio.UCSC.danRer7_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CAGEr_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/seqPattern_1.44.0.tar.gz'
+* installing *source* package ‘CAGEfightR’ ...
+** this is package ‘CAGEfightR’ version ‘1.32.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CAGEfightR’ as ‘CAGEfightR_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CAGEfightR)
+* installing *source* package ‘BSgenome.Drerio.UCSC.danRer7’ ...
+** this is package ‘BSgenome.Drerio.UCSC.danRer7’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Drerio.UCSC.danRer7’ as ‘BSgenome.Drerio.UCSC.danRer7_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Drerio.UCSC.danRer7)
+* installing *source* package ‘seqPattern’ ...
+** this is package ‘seqPattern’ version ‘1.44.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seqPattern’ as ‘seqPattern_1.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqPattern)
+* installing *source* package ‘CAGEr’ ...
+** this is package ‘CAGEr’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CAGEr’ as ‘CAGEr_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CAGEr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSkSjdy/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	3m7.549s
+user	2m45.920s
+sys	0m17.868s
