@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''miRcomp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'miRcomp'
+also installing the dependency ‘miRcompData’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/miRcompData_1.43.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/miRcomp_1.43.0.tar.gz'
+* installing *source* package ‘miRcompData’ ...
+** this is package ‘miRcompData’ version ‘1.43.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miRcompData’ as ‘miRcompData_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miRcompData)
+* installing *source* package ‘miRcomp’ ...
+** this is package ‘miRcomp’ version ‘1.43.0’
+** package ‘miRcomp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miRcomp’ as ‘miRcomp_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miRcomp)
+
+The downloaded source packages are in
+	‘/tmp/RtmpcbbWpp/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m18.889s
+user	0m9.567s
+sys	0m3.163s

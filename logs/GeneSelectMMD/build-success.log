@@ -1,0 +1,61 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GeneSelectMMD'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GeneSelectMMD'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GeneSelectMMD_2.57.0.tar.gz'
+Content type 'application/x-gzip' length 467039 bytes (456 KB)
+==================================================
+downloaded 456 KB
+
+* installing *source* package ‘GeneSelectMMD’ ...
+** this is package ‘GeneSelectMMD’ version ‘2.57.0’
+** package ‘GeneSelectMMD’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GeneSelectMMD_init.c -o GeneSelectMMD_init.o
+gfortran  -fpic  -g -O2  -c Qfunc.f -o Qfunc.o
+gfortran  -fpic  -g -O2  -c blas.f -o blas.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isnan.c -o isnan.o
+gfortran  -fpic  -g -O2  -c lbfgsb.f -o lbfgsb.o
+gfortran  -fpic  -g -O2  -c lbfgsbDriver.f -o lbfgsbDriver.o
+gfortran  -fpic  -g -O2  -c linpack.f -o linpack.o
+gfortran  -fpic  -g -O2  -c llkhFun.f -o llkhFun.o
+gfortran  -fpic  -g -O2  -c myTtest.f -o myTtest.o
+gfortran  -fpic  -g -O2  -c paraEstLoop.f -o paraEstLoop.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pt.c -o pt.o
+gfortran  -fpic  -g -O2  -c timer.f -o timer.o
+gfortran  -fpic  -g -O2  -c wiFun.f -o wiFun.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GeneSelectMMD.so GeneSelectMMD_init.o Qfunc.o blas.o isnan.o lbfgsb.o lbfgsbDriver.o linpack.o llkhFun.o myTtest.o paraEstLoop.o pt.o timer.o wiFun.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GeneSelectMMD/00new/GeneSelectMMD/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeneSelectMMD’ as ‘GeneSelectMMD_2.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeneSelectMMD)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpbf9ySy/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m14.717s
+user	0m9.366s
+sys	0m2.981s

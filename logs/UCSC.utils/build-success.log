@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''UCSC.utils'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'UCSC.utils'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/UCSC.utils_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 237490 bytes (231 KB)
+==================================================
+downloaded 231 KB
+
+* installing *source* package ‘UCSC.utils’ ...
+** this is package ‘UCSC.utils’ version ‘1.9.0’
+** package ‘UCSC.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘UCSC.utils’ as ‘UCSC.utils_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UCSC.utils)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1ShvOA/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m14.295s
+user	0m8.614s
+sys	0m2.941s

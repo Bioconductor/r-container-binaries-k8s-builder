@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RUVcorr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RUVcorr'
+also installing the dependencies ‘snowfall’, ‘hgu133a2.db’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/snowfall_1.84-6.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/hgu133a2.db_3.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RUVcorr_1.45.0.tar.gz'
+* installing *binary* package ‘snowfall’ ...
+* package ‘snowfall’ successfully unpacked and SHA256 sums checked
+* ‘snowfall’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘snowfall’ as ‘snowfall_1.84-6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snowfall)
+* installing *source* package ‘hgu133a2.db’ ...
+** this is package ‘hgu133a2.db’ version ‘3.13.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hgu133a2.db’ as ‘hgu133a2.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133a2.db)
+* installing *source* package ‘RUVcorr’ ...
+** this is package ‘RUVcorr’ version ‘1.45.0’
+** package ‘RUVcorr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RUVcorr’ as ‘RUVcorr_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RUVcorr)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpc3Tkon/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m25.438s
+user	0m18.262s
+sys	0m5.102s
