@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 407 (17%)
-- **Failed:** 6 (0%)
-- **In Progress:** 52
-- **Not Started:** 1919
+- **Successfully Built:** 420 (17%)
+- **Failed:** 7 (0%)
+- **In Progress:** 41
+- **Not Started:** 1916
 
 **Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (407)
+## Successfully Built Packages (420)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
 
-*... and 357 more ...*
+*... and 370 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.23/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/statTarget) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
@@ -74,9 +73,10 @@
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
+| [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (6)
+## Failed Packages (7)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,41 +84,35 @@
 | [ISAnalytics](https://bioconductor.org/packages/3.23/bioc/html/ISAnalytics.html) | [log](logs/ISAnalytics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ISAnalytics) | Build failed with unknown error |
 | [LedPred](https://bioconductor.org/packages/3.23/bioc/html/LedPred.html) | [log](logs/LedPred/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/LedPred) | Missing R dependency: proxy |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
+| [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (52)
+## In Progress (41)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
 - ⏳ `EnMCB`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `Herper`
-- ⏳ `HilbertVis`
-- ⏳ `Informeasure`
 - ⏳ `IsoCorrectoR`
-- ⏳ `MACSQuantifyR`
-- ⏳ `REBET`
 - ⏳ `RProtoBufLib`
 - ⏳ `SCFA`
 - ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
-- ⏳ `TIN`
 - ⏳ `TreeAndLeaf`
 - ⏳ `XINA`
 - ⏳ `basilisk`
 - ⏳ `basilisk.utils`
-- ⏳ `csdR`
 - ⏳ `decoupleR`
 - ⏳ `epistasisGA`
 - ⏳ `faers`
+- ⏳ `fobitools`
 - ⏳ `globalSeq`
 - ⏳ `gpls`
 - ⏳ `hierGWAS`
 - ⏳ `hierinf`
 - ⏳ `iASeq`
-- ⏳ `iBBiG`
 - ⏳ `iCARE`
 - ⏳ `iClusterPlus`
 - ⏳ `ibh`
@@ -128,20 +122,16 @@
 - ⏳ `levi`
 - ⏳ `lfa`
 - ⏳ `limma`
-- ⏳ `logicFS`
-- ⏳ `lpsymphony`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `mitch`
-- ⏳ `netboost`
 - ⏳ `proteinProfiles`
 - ⏳ `rgoslin`
 - ⏳ `rmelting`
 - ⏳ `rnaseqcomp`
 - ⏳ `rsemmed`
+- ⏳ `timeOmics`
 
-... and 2 more ...
-
-## Not Yet Started (1919)
+## Not Yet Started (1916)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -193,8 +183,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1869 more ...
+... and 1866 more ...
 
 ---
-*Last updated: 2026-07-20 19:40:09 UTC*
-*Packages with verified BBS status: 129*
+*Last updated: 2026-07-20 19:41:12 UTC*
+*Packages with verified BBS status: 131*
