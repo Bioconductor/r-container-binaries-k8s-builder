@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1744 (74%)
+- **Successfully Built:** 1750 (74%)
 - **Failed:** 27 (1%)
-- **In Progress:** 56
+- **In Progress:** 50
 - **Not Started:** 519
 
 **Progress:** 75%
@@ -16,7 +16,7 @@
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1744)
+## Successfully Built Packages (1750)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1694 more ...*
+*... and 1700 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -108,7 +108,7 @@
 | [squallms](https://bioconductor.org/packages/3.24/bioc/html/squallms.html) | [log](logs/squallms/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/squallms) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (56)
+## In Progress (50)
 - ⏳ `ACE`
 - ⏳ `AUCell`
 - ⏳ `BulkSignalR`
@@ -128,7 +128,6 @@
 - ⏳ `NetActivity`
 - ⏳ `PREDA`
 - ⏳ `Rbec`
-- ⏳ `Rbowtie2`
 - ⏳ `SC3`
 - ⏳ `apeglm`
 - ⏳ `barbieQ`
@@ -146,9 +145,7 @@
 - ⏳ `iSEEindex`
 - ⏳ `immApex`
 - ⏳ `looking4clusters`
-- ⏳ `mbkmeans`
 - ⏳ `meshr`
-- ⏳ `miQC`
 - ⏳ `miRSM`
 - ⏳ `mia`
 - ⏳ `mumosa`
@@ -158,9 +155,10 @@
 - ⏳ `pRoloc`
 - ⏳ `phenoTest`
 - ⏳ `ptairMS`
-- ⏳ `rtracklayer`
-
-... and 6 more ...
+- ⏳ `sSNAPPY`
+- ⏳ `scCB2`
+- ⏳ `scider`
+- ⏳ `tidyexposomics`
 
 ## Not Yet Started (519)
 - ⏸️ `AHMassBank`
@@ -217,5 +215,5 @@
 ... and 469 more ...
 
 ---
-*Last updated: 2026-07-20 21:19:07 UTC*
+*Last updated: 2026-07-20 21:20:26 UTC*
 *Packages with verified BBS status: 226*
