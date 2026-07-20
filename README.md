@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2315 (97%)
+- **Successfully Built:** 2318 (97%)
 - **Failed:** 55 (2%)
-- **In Progress:** 6
-- **Not Started:** 8
+- **In Progress:** 4
+- **Not Started:** 7
 
 **Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2315)
+## Successfully Built Packages (2318)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2265 more ...*
+*... and 2268 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -136,17 +136,14 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (6)
-- ⏳ `CNVfilteR`
-- ⏳ `CNViz`
+## In Progress (4)
+- ⏳ `CAGEr`
 - ⏳ `MungeSumstats`
-- ⏳ `RNAmodR.ML`
 - ⏳ `YAPSA`
 - ⏳ `affycoretools`
 
-## Not Yet Started (8)
+## Not Yet Started (7)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `CAGEr`
 - ⏸️ `CyTOFpower`
 - ⏸️ `GARS`
 - ⏸️ `NewWave`
@@ -155,5 +152,5 @@
 - ⏸️ `pRolocGUI`
 
 ---
-*Last updated: 2026-07-20 21:58:02 UTC*
+*Last updated: 2026-07-20 21:58:52 UTC*
 *Packages with verified BBS status: 244*
