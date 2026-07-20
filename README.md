@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2270 (96%)
+- **Successfully Built:** 2273 (96%)
 - **Failed:** 40 (1%)
 - **In Progress:** 6
-- **Not Started:** 30
+- **Not Started:** 27
 
 **Progress:** 98%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2270)
+## Successfully Built Packages (2273)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2220 more ...*
+*... and 2223 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vmrseq](https://bioconductor.org/packages/3.24/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.24/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vtpnet) |
@@ -70,6 +69,7 @@
 | [xenLite](https://bioconductor.org/packages/3.24/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.24/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yamss) |
+| [yarn](https://bioconductor.org/packages/3.24/bioc/html/yarn.html) | [log](logs/yarn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yarn) |
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
 | [zenith](https://bioconductor.org/packages/3.24/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zenith) |
@@ -124,12 +124,12 @@
 ## In Progress (6)
 - ⏳ `ChIPXpress`
 - ⏳ `MungeSumstats`
-- ⏳ `biscuiteer`
-- ⏳ `conumee`
+- ⏳ `RnBeads`
+- ⏳ `lumi`
+- ⏳ `missMethyl`
 - ⏳ `motifbreakR`
-- ⏳ `yarn`
 
-## Not Yet Started (30)
+## Not Yet Started (27)
 - ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
@@ -139,7 +139,6 @@
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
-- ⏸️ `RnBeads`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
 - ⏸️ `arrayMvout`
@@ -151,10 +150,8 @@
 - ⏸️ `iCheck`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
-- ⏸️ `lumi`
 - ⏸️ `methylGSA`
 - ⏸️ `miRspongeR`
-- ⏸️ `missMethyl`
 - ⏸️ `pRolocGUI`
 - ⏸️ `simpleSeg`
 - ⏸️ `skewr`
@@ -162,5 +159,5 @@
 - ⏸️ `wateRmelon`
 
 ---
-*Last updated: 2026-07-20 22:00:01 UTC*
-*Packages with verified BBS status: 251*
+*Last updated: 2026-07-20 22:01:05 UTC*
+*Packages with verified BBS status: 252*
