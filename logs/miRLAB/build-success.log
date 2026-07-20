@@ -1,0 +1,50 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''miRLAB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'miRLAB'
+also installing the dependency ‘InvariantCausalPrediction’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/InvariantCausalPrediction_0.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/miRLAB_1.42.0.tar.gz'
+* installing *binary* package ‘InvariantCausalPrediction’ ...
+* package ‘InvariantCausalPrediction’ successfully unpacked and SHA256 sums checked
+* ‘InvariantCausalPrediction’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘InvariantCausalPrediction’ as ‘InvariantCausalPrediction_0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (InvariantCausalPrediction)
+* installing *source* package ‘miRLAB’ ...
+** this is package ‘miRLAB’ version ‘1.42.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: possible error in 'GDCquery(project = project, ': unused arguments (file.type = file_type, legacy = TRUE) 
+Note: possible error in 'GDCquery(project = project, ': unused arguments (file.type = file_type, legacy = TRUE) 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miRLAB’ as ‘miRLAB_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miRLAB)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQhfps8/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m52.510s
+user	0m36.987s
+sys	0m6.201s
