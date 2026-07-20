@@ -1,0 +1,38 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''nearBynding'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'nearBynding'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/nearBynding_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 3504556 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+* installing *source* package ‘nearBynding’ ...
+** this is package ‘nearBynding’ version ‘1.21.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: object ‘filter’ is not exported by 'namespace:plyranges'
+Execution halted
+ERROR: lazy loading failed for package ‘nearBynding’
+* removing ‘/tmp/library/nearBynding’
+
+The downloaded source packages are in
+	‘/tmp/RtmpFH198P/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘nearBynding’ had non-zero exit status
+
+real	0m24.630s
+user	0m18.061s
+sys	0m3.586s

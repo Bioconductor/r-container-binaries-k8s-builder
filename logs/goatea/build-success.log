@@ -1,0 +1,66 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''goatea'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'goatea'
+also installing the dependencies ‘MonoPoly’, ‘goat’, ‘upsetjs’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MonoPoly_0.3-10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/goat_1.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/upsetjs_1.11.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/goatea_2.0.0.tar.gz'
+* installing *binary* package ‘MonoPoly’ ...
+* package ‘MonoPoly’ successfully unpacked and SHA256 sums checked
+* ‘MonoPoly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MonoPoly’ as ‘MonoPoly_0.3-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MonoPoly)
+* installing *binary* package ‘upsetjs’ ...
+* package ‘upsetjs’ successfully unpacked and SHA256 sums checked
+* ‘upsetjs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘upsetjs’ as ‘upsetjs_1.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (upsetjs)
+* installing *binary* package ‘goat’ ...
+* package ‘goat’ successfully unpacked and SHA256 sums checked
+* ‘goat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘goat’ as ‘goat_1.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goat)
+* installing *source* package ‘goatea’ ...
+** this is package ‘goatea’ version ‘2.0.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘goatea’ as ‘goatea_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goatea)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4maSYV/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m47.527s
+user	0m35.918s
+sys	0m6.532s

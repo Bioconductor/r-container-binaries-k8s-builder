@@ -1,0 +1,178 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''annotatr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'annotatr'
+also installing the dependencies ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’, ‘TxDb.Drerio.UCSC.danRer11.refGene’, ‘TxDb.Ggallus.UCSC.galGal5.refGene’, ‘TxDb.Mmusculus.UCSC.mm39.knownGene’, ‘TxDb.Rnorvegicus.UCSC.rn4.ensGene’, ‘TxDb.Rnorvegicus.UCSC.rn5.refGene’, ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’, ‘TxDb.Rnorvegicus.UCSC.rn7.refGene’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Dmelanogaster.UCSC.dm6.ensGene_3.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Drerio.UCSC.danRer11.refGene_3.4.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Ggallus.UCSC.galGal5.refGene_3.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm39.knownGene_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn4.ensGene_3.2.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn5.refGene_3.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn6.refGene_3.4.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn7.refGene_3.15.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/annotatr_1.38.0.tar.gz'
+* installing *source* package ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’ ...
+** this is package ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’ version ‘3.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’ as ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Dmelanogaster.UCSC.dm6.ensGene)
+* installing *source* package ‘TxDb.Drerio.UCSC.danRer11.refGene’ ...
+** this is package ‘TxDb.Drerio.UCSC.danRer11.refGene’ version ‘3.4.6’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Drerio.UCSC.danRer11.refGene’ as ‘TxDb.Drerio.UCSC.danRer11.refGene_3.4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Drerio.UCSC.danRer11.refGene)
+* installing *source* package ‘TxDb.Ggallus.UCSC.galGal5.refGene’ ...
+** this is package ‘TxDb.Ggallus.UCSC.galGal5.refGene’ version ‘3.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Ggallus.UCSC.galGal5.refGene’ as ‘TxDb.Ggallus.UCSC.galGal5.refGene_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Ggallus.UCSC.galGal5.refGene)
+* installing *source* package ‘TxDb.Mmusculus.UCSC.mm39.knownGene’ ...
+** this is package ‘TxDb.Mmusculus.UCSC.mm39.knownGene’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Mmusculus.UCSC.mm39.knownGene’ as ‘TxDb.Mmusculus.UCSC.mm39.knownGene_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Mmusculus.UCSC.mm39.knownGene)
+* installing *source* package ‘TxDb.Rnorvegicus.UCSC.rn4.ensGene’ ...
+** this is package ‘TxDb.Rnorvegicus.UCSC.rn4.ensGene’ version ‘3.2.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Rnorvegicus.UCSC.rn4.ensGene’ as ‘TxDb.Rnorvegicus.UCSC.rn4.ensGene_3.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Rnorvegicus.UCSC.rn4.ensGene)
+* installing *source* package ‘TxDb.Rnorvegicus.UCSC.rn5.refGene’ ...
+** this is package ‘TxDb.Rnorvegicus.UCSC.rn5.refGene’ version ‘3.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Rnorvegicus.UCSC.rn5.refGene’ as ‘TxDb.Rnorvegicus.UCSC.rn5.refGene_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Rnorvegicus.UCSC.rn5.refGene)
+* installing *source* package ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’ ...
+** this is package ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’ version ‘3.4.6’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’ as ‘TxDb.Rnorvegicus.UCSC.rn6.refGene_3.4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Rnorvegicus.UCSC.rn6.refGene)
+* installing *source* package ‘TxDb.Rnorvegicus.UCSC.rn7.refGene’ ...
+** this is package ‘TxDb.Rnorvegicus.UCSC.rn7.refGene’ version ‘3.15.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Rnorvegicus.UCSC.rn7.refGene’ as ‘TxDb.Rnorvegicus.UCSC.rn7.refGene_3.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Rnorvegicus.UCSC.rn7.refGene)
+* installing *source* package ‘annotatr’ ...
+** this is package ‘annotatr’ version ‘1.38.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘annotatr’ as ‘annotatr_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (annotatr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPfeDLw/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	5m45.802s
+user	5m10.445s
+sys	0m30.615s

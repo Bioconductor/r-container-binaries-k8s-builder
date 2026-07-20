@@ -1,0 +1,46 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''KnowSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'KnowSeq'
+also installing the dependency ‘praznik’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/praznik_12.0.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/KnowSeq_1.25.0.tar.gz'
+* installing *binary* package ‘praznik’ ...
+* package ‘praznik’ successfully unpacked and SHA256 sums checked
+* ‘praznik’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘praznik’ as ‘praznik_12.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (praznik)
+* installing *source* package ‘KnowSeq’ ...
+** this is package ‘KnowSeq’ version ‘1.25.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ModelMetrics’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘KnowSeq’
+* removing ‘/tmp/library/KnowSeq’
+
+The downloaded source packages are in
+	‘/tmp/RtmpRSmlGQ/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘KnowSeq’ had non-zero exit status
+
+real	0m26.442s
+user	0m15.773s
+sys	0m3.331s
