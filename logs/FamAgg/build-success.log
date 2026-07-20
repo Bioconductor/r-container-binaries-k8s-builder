@@ -1,0 +1,93 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''FamAgg'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'FamAgg'
+also installing the dependencies ‘gap.datasets’, ‘kinship2’, ‘gap’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gap.datasets_0.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/kinship2_1.9.6.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gap_1.15.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/FamAgg_1.40.0.tar.gz'
+* installing *binary* package ‘gap.datasets’ ...
+* package ‘gap.datasets’ successfully unpacked and SHA256 sums checked
+* ‘gap.datasets’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gap.datasets’ as ‘gap.datasets_0.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gap.datasets)
+* installing *binary* package ‘kinship2’ ...
+* package ‘kinship2’ successfully unpacked and SHA256 sums checked
+* ‘kinship2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘kinship2’ as ‘kinship2_1.9.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kinship2)
+* installing *binary* package ‘gap’ ...
+* package ‘gap’ successfully unpacked and SHA256 sums checked
+* ‘gap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gap’ as ‘gap_1.15.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gap)
+* installing *source* package ‘FamAgg’ ...
+** this is package ‘FamAgg’ version ‘1.40.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘pedigree’ in package ‘FamAgg’
+in method for ‘countGenerations’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘countGenerations’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘estimateGenerations’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘estimateGenerations’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘findFounders’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘findFounders’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘generationsFrom’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘generationsFrom’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAncestors’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAncestors’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getChildren’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getChildren’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getCommonAncestor’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getCommonAncestor’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getMissingMate’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getMissingMate’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getSiblings’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getSiblings’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getAll’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAll’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getExternalMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getExternalMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getGenerationMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getGenerationMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getGenerationSexMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getGenerationSexMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getSexMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getSexMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FamAgg’ as ‘FamAgg_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FamAgg)
+
+The downloaded source packages are in
+	‘/tmp/RtmphcYVRa/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m19.274s
+user	0m15.155s
+sys	0m4.296s

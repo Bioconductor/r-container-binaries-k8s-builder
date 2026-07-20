@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 504 (21%)
+- **Successfully Built:** 517 (21%)
 - **Failed:** 9 (0%)
-- **In Progress:** 0
-- **Not Started:** 1871
+- **In Progress:** 6
+- **Not Started:** 1852
 
-**Progress:** 21%
+**Progress:** 22%
 ```
-██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (504)
+## Successfully Built Packages (517)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 
-*... and 454 more ...*
+*... and 467 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) |
@@ -69,6 +68,7 @@
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.23/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tweeDEseq) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
+| [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
@@ -90,7 +90,15 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## Not Yet Started (1871)
+## In Progress (6)
+- ⏳ `ChemmineOB`
+- ⏳ `ChemmineR`
+- ⏳ `SharedObject`
+- ⏳ `matter`
+- ⏳ `parglms`
+- ⏳ `snpStats`
+
+## Not Yet Started (1852)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -142,8 +150,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1821 more ...
+... and 1802 more ...
 
 ---
-*Last updated: 2026-07-20 20:00:28 UTC*
-*Packages with verified BBS status: 137*
+*Last updated: 2026-07-20 20:01:27 UTC*
+*Packages with verified BBS status: 138*
