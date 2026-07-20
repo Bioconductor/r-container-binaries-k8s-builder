@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 455 (19%)
-- **Failed:** 7 (0%)
-- **In Progress:** 24
+- **Successfully Built:** 467 (19%)
+- **Failed:** 8 (0%)
+- **In Progress:** 11
 - **Not Started:** 1898
 
 **Progress:** 19%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (455)
+## Successfully Built Packages (467)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 405 more ...*
+*... and 417 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,10 +76,11 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (7)
+## Failed Packages (8)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [CytoGLMM](https://bioconductor.org/packages/3.23/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CytoGLMM) | Missing R dependency: recipes |
 | [HPiP](https://bioconductor.org/packages/3.23/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPiP) | Build failed with unknown error |
 | [ISAnalytics](https://bioconductor.org/packages/3.23/bioc/html/ISAnalytics.html) | [log](logs/ISAnalytics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ISAnalytics) | Build failed with unknown error |
 | [LedPred](https://bioconductor.org/packages/3.23/bioc/html/LedPred.html) | [log](logs/LedPred/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/LedPred) | Missing R dependency: proxy |
@@ -88,31 +89,18 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (24)
+## In Progress (11)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
-- ⏳ `CytoGLMM`
-- ⏳ `GWAS.BAYES`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `Linnorm`
 - ⏳ `RProtoBufLib`
 - ⏳ `SuperCellCyto`
-- ⏳ `TreeAndLeaf`
-- ⏳ `XINA`
-- ⏳ `basilisk`
 - ⏳ `basilisk.utils`
-- ⏳ `ctsGE`
 - ⏳ `decoupleR`
-- ⏳ `edgeR`
-- ⏳ `epistasisGA`
 - ⏳ `fobitools`
-- ⏳ `iCOBRA`
 - ⏳ `limmaGUI`
-- ⏳ `limpa`
-- ⏳ `marray`
 - ⏳ `mirTarRnaSeq`
-- ⏳ `mitch`
 
 ## Not Yet Started (1898)
 - ⏸️ `ABarray`
@@ -169,5 +157,5 @@
 ... and 1848 more ...
 
 ---
-*Last updated: 2026-07-20 19:42:32 UTC*
-*Packages with verified BBS status: 133*
+*Last updated: 2026-07-20 19:43:02 UTC*
+*Packages with verified BBS status: 134*

@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''epistasisGA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'epistasisGA'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/epistasisGA_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 2132268 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+* installing *source* package ‘epistasisGA’ ...
+** this is package ‘epistasisGA’ version ‘1.14.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/BH/include' -I'/mnt/library/bigmemory/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/BH/include' -I'/mnt/library/bigmemory/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c epistasisGA.cpp -o epistasisGA.o
+In file included from /mnt/library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /mnt/library/BH/include/boost/shared_ptr.hpp:17,
+                 from /mnt/library/bigmemory/include/bigmemory/BigMatrix.h:10,
+                 from epistasisGA.cpp:7:
+/mnt/library/BH/include/boost/smart_ptr/detail/shared_count.hpp:294:33: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  294 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /usr/include/c++/13/memory:78,
+                 from /mnt/library/RcppArmadillo/include/armadillo:38,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:51,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from epistasisGA.cpp:1:
+/usr/include/c++/13/bits/unique_ptr.h:65:28: note: declared here
+   65 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+/mnt/library/BH/include/boost/smart_ptr/shared_ptr.hpp:354:31: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  354 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:65:28: note: declared here
+   65 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+/mnt/library/BH/include/boost/smart_ptr/shared_ptr.hpp:365:22: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  365 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:65:28: note: declared here
+   65 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+/mnt/library/BH/include/boost/smart_ptr/shared_ptr.hpp:423:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  423 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:65:28: note: declared here
+   65 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+/mnt/library/BH/include/boost/smart_ptr/shared_ptr.hpp:430:34: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  430 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:65:28: note: declared here
+   65 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+/mnt/library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/mnt/library/BH/include/boost/smart_ptr/shared_ptr.hpp:432:38: warning: ‘template<class> class std::auto_ptr’ is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  432 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+/usr/include/c++/13/bits/unique_ptr.h:65:28: note: declared here
+   65 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o epistasisGA.so RcppExports.o epistasisGA.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-epistasisGA/00new/epistasisGA/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘epistasisGA’ as ‘epistasisGA_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (epistasisGA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKTpEWv/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m3.616s
+user	0m47.798s
+sys	0m5.681s
