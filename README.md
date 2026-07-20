@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 810 (33%)
+- **Successfully Built:** 818 (34%)
 - **Failed:** 14 (0%)
-- **In Progress:** 16
-- **Not Started:** 1544
+- **In Progress:** 10
+- **Not Started:** 1542
 
 **Progress:** 34%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (810)
+## Successfully Built Packages (818)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 760 more ...*
+*... and 768 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
@@ -64,6 +63,7 @@
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
@@ -95,25 +95,19 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (16)
+## In Progress (10)
 - ⏳ `Biostrings`
-- ⏳ `DelayedDataFrame`
-- ⏳ `DelayedRandomArray`
-- ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
-- ⏳ `TileDBArray`
+- ⏳ `HDF5Array`
 - ⏳ `adverSCarial`
 - ⏳ `beachmat`
-- ⏳ `flowMerge`
 - ⏳ `flowWorkspace`
 - ⏳ `ldblock`
 - ⏳ `msPurity`
-- ⏳ `orthogene`
-- ⏳ `rhdf5client`
+- ⏳ `scPCA`
 - ⏳ `sketchR`
-- ⏳ `uSORT`
 
-## Not Yet Started (1544)
+## Not Yet Started (1542)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -165,8 +159,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1494 more ...
+... and 1492 more ...
 
 ---
-*Last updated: 2026-07-20 20:17:00 UTC*
-*Packages with verified BBS status: 157*
+*Last updated: 2026-07-20 20:17:34 UTC*
+*Packages with verified BBS status: 158*

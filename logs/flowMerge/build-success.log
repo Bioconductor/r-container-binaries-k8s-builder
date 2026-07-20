@@ -1,0 +1,47 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''flowMerge'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'flowMerge'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowMerge_2.60.0.tar.gz'
+Content type 'application/x-gzip' length 610832 bytes (596 KB)
+==================================================
+downloaded 596 KB
+
+* installing *source* package ‘flowMerge’ ...
+** this is package ‘flowMerge’ version ‘2.60.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowMerge’ as ‘flowMerge_2.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowMerge)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1CiPck/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m31.172s
+user	0m19.361s
+sys	0m7.294s
