@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2226 (93%)
+- **Successfully Built:** 2239 (93%)
 - **Failed:** 54 (2%)
-- **In Progress:** 21
-- **Not Started:** 83
+- **In Progress:** 10
+- **Not Started:** 81
 
-**Progress:** 95%
+**Progress:** 96%
 ```
-███████████████████████████████████████████████░░░
+████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2226)
+## Successfully Built Packages (2239)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2176 more ...*
+*... and 2189 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -135,30 +135,19 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (21)
-- ⏳ `MEAT`
+## In Progress (10)
 - ⏳ `MungeSumstats`
-- ⏳ `REMP`
-- ⏳ `RESOLVE`
 - ⏳ `SingleMoleculeFootprinting`
-- ⏳ `VariantTools`
 - ⏳ `appreci8R`
-- ⏳ `atSNP`
-- ⏳ `bigmelon`
-- ⏳ `biovizBase`
-- ⏳ `carnation`
-- ⏳ `chevreulProcess`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `pcaExplorer`
+- ⏳ `recount`
+- ⏳ `regionReport`
 - ⏳ `scCB2`
 - ⏳ `scider`
-- ⏳ `skewr`
-- ⏳ `stPipe`
 - ⏳ `svaNUMT`
-- ⏳ `svaRetro`
-- ⏳ `visiumStitched`
 
-## Not Yet Started (83)
+## Not Yet Started (81)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -210,8 +199,8 @@
 - ⏸️ `chevreulPlot`
 - ⏸️ `chevreulShiny`
 
-... and 33 more ...
+... and 31 more ...
 
 ---
-*Last updated: 2026-07-20 21:48:59 UTC*
+*Last updated: 2026-07-20 21:50:31 UTC*
 *Packages with verified BBS status: 243*
