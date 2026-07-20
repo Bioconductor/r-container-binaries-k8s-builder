@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 420 (17%)
+- **Successfully Built:** 436 (18%)
 - **Failed:** 7 (0%)
-- **In Progress:** 41
-- **Not Started:** 1916
+- **In Progress:** 26
+- **Not Started:** 1915
 
-**Progress:** 17%
+**Progress:** 18%
 ```
-████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (420)
+## Successfully Built Packages (436)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
 
-*... and 370 more ...*
+*... and 386 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.23/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/statTarget) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
@@ -61,6 +60,7 @@
 | [tanggle](https://bioconductor.org/packages/3.23/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
+| [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
@@ -88,14 +88,14 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (41)
+## In Progress (26)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
 - ⏳ `EnMCB`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `IsoCorrectoR`
+- ⏳ `HilbertVisGUI`
 - ⏳ `RProtoBufLib`
 - ⏳ `SCFA`
 - ⏳ `SpaceMarkers`
@@ -108,30 +108,15 @@
 - ⏳ `epistasisGA`
 - ⏳ `faers`
 - ⏳ `fobitools`
-- ⏳ `globalSeq`
 - ⏳ `gpls`
-- ⏳ `hierGWAS`
-- ⏳ `hierinf`
-- ⏳ `iASeq`
-- ⏳ `iCARE`
 - ⏳ `iClusterPlus`
-- ⏳ `ibh`
-- ⏳ `interacCircos`
-- ⏳ `iterativeBMAsurv`
 - ⏳ `les`
 - ⏳ `levi`
-- ⏳ `lfa`
-- ⏳ `limma`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `mitch`
 - ⏳ `proteinProfiles`
-- ⏳ `rgoslin`
-- ⏳ `rmelting`
-- ⏳ `rnaseqcomp`
-- ⏳ `rsemmed`
-- ⏳ `timeOmics`
 
-## Not Yet Started (1916)
+## Not Yet Started (1915)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -183,8 +168,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1866 more ...
+... and 1865 more ...
 
 ---
-*Last updated: 2026-07-20 19:41:12 UTC*
-*Packages with verified BBS status: 131*
+*Last updated: 2026-07-20 19:41:42 UTC*
+*Packages with verified BBS status: 132*
