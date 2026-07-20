@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''flowGraph'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'flowGraph'
+also installing the dependencies ‘fontBitstreamVera’, ‘fontLiberation’, ‘fontquiver’, ‘gdtools’, ‘effsize’, ‘ggiraph’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontBitstreamVera_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontLiberation_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontquiver_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gdtools_0.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/effsize_0.8.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggiraph_0.9.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowGraph_1.20.0.tar.gz'
+* installing *binary* package ‘fontBitstreamVera’ ...
+* package ‘fontBitstreamVera’ successfully unpacked and SHA256 sums checked
+* ‘fontBitstreamVera’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontBitstreamVera’ as ‘fontBitstreamVera_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontBitstreamVera)
+* installing *binary* package ‘fontLiberation’ ...
+* package ‘fontLiberation’ successfully unpacked and SHA256 sums checked
+* ‘fontLiberation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontLiberation’ as ‘fontLiberation_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontLiberation)
+* installing *binary* package ‘effsize’ ...
+* package ‘effsize’ successfully unpacked and SHA256 sums checked
+* ‘effsize’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘effsize’ as ‘effsize_0.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (effsize)
+* installing *binary* package ‘fontquiver’ ...
+* package ‘fontquiver’ successfully unpacked and SHA256 sums checked
+* ‘fontquiver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontquiver’ as ‘fontquiver_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontquiver)
+* installing *binary* package ‘gdtools’ ...
+* package ‘gdtools’ successfully unpacked and SHA256 sums checked
+* ‘gdtools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gdtools’ as ‘gdtools_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gdtools)
+* installing *binary* package ‘ggiraph’ ...
+* package ‘ggiraph’ successfully unpacked and SHA256 sums checked
+* ‘ggiraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggiraph’ as ‘ggiraph_0.9.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggiraph)
+* installing *source* package ‘flowGraph’ ...
+** this is package ‘flowGraph’ version ‘1.20.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowGraph’ as ‘flowGraph_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowGraph)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqxCWPx/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m47.916s
+user	0m16.647s
+sys	0m4.547s

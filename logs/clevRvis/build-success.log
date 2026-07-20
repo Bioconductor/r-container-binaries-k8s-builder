@@ -1,0 +1,113 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''clevRvis'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'clevRvis'
+also installing the dependencies ‘fontBitstreamVera’, ‘fontLiberation’, ‘fontquiver’, ‘gdtools’, ‘ggiraph’, ‘shinyWidgets’, ‘shinyhelper’, ‘ggnewscale’, ‘colourpicker’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontBitstreamVera_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontLiberation_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontquiver_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gdtools_0.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggiraph_0.9.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyWidgets_0.9.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyhelper_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggnewscale_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/colourpicker_1.3.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/clevRvis_1.12.0.tar.gz'
+* installing *binary* package ‘fontBitstreamVera’ ...
+* package ‘fontBitstreamVera’ successfully unpacked and SHA256 sums checked
+* ‘fontBitstreamVera’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontBitstreamVera’ as ‘fontBitstreamVera_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontBitstreamVera)
+* installing *binary* package ‘fontLiberation’ ...
+* package ‘fontLiberation’ successfully unpacked and SHA256 sums checked
+* ‘fontLiberation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontLiberation’ as ‘fontLiberation_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontLiberation)
+* installing *binary* package ‘shinyWidgets’ ...
+* package ‘shinyWidgets’ successfully unpacked and SHA256 sums checked
+* ‘shinyWidgets’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyWidgets’ as ‘shinyWidgets_0.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyWidgets)
+* installing *binary* package ‘shinyhelper’ ...
+* package ‘shinyhelper’ successfully unpacked and SHA256 sums checked
+* ‘shinyhelper’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyhelper’ as ‘shinyhelper_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyhelper)
+* installing *binary* package ‘ggnewscale’ ...
+* package ‘ggnewscale’ successfully unpacked and SHA256 sums checked
+* ‘ggnewscale’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggnewscale’ as ‘ggnewscale_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggnewscale)
+* installing *binary* package ‘colourpicker’ ...
+* package ‘colourpicker’ successfully unpacked and SHA256 sums checked
+* ‘colourpicker’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘colourpicker’ as ‘colourpicker_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colourpicker)
+* installing *binary* package ‘fontquiver’ ...
+* package ‘fontquiver’ successfully unpacked and SHA256 sums checked
+* ‘fontquiver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontquiver’ as ‘fontquiver_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontquiver)
+* installing *binary* package ‘gdtools’ ...
+* package ‘gdtools’ successfully unpacked and SHA256 sums checked
+* ‘gdtools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gdtools’ as ‘gdtools_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gdtools)
+* installing *binary* package ‘ggiraph’ ...
+* package ‘ggiraph’ successfully unpacked and SHA256 sums checked
+* ‘ggiraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggiraph’ as ‘ggiraph_0.9.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggiraph)
+* installing *source* package ‘clevRvis’ ...
+** this is package ‘clevRvis’ version ‘1.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘col’ in package ‘clevRvis’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clevRvis’ as ‘clevRvis_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clevRvis)
+
+The downloaded source packages are in
+	‘/tmp/RtmpvEqFok/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m21.680s
+user	0m17.514s
+sys	0m5.830s

@@ -1,0 +1,169 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''anndataR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'anndataR'
+also installing the dependencies ‘tensor’, ‘spatstat.data’, ‘spatstat.univar’, ‘spatstat.random’, ‘spatstat.utils’, ‘spatstat.sparse’, ‘ROCR’, ‘RSpectra’, ‘sctransform’, ‘spatstat.explore’, ‘spatstat.geom’, ‘uwot’, ‘hunspell’, ‘Seurat’, ‘SeuratObject’, ‘spelling’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tensor_1.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.data_3.1-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.univar_3.2-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.random_3.5-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.utils_3.2-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.sparse_3.2-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ROCR_1.0-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RSpectra_0.16-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sctransform_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.explore_3.8-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.geom_3.8-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/uwot_0.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hunspell_3.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Seurat_5.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SeuratObject_5.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spelling_2.3.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/anndataR_1.2.0.tar.gz'
+* installing *binary* package ‘tensor’ ...
+* package ‘tensor’ successfully unpacked and SHA256 sums checked
+* ‘tensor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tensor’ as ‘tensor_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensor)
+* installing *binary* package ‘spatstat.utils’ ...
+* package ‘spatstat.utils’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.utils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.utils’ as ‘spatstat.utils_3.2-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.utils)
+* installing *binary* package ‘ROCR’ ...
+* package ‘ROCR’ successfully unpacked and SHA256 sums checked
+* ‘ROCR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ROCR’ as ‘ROCR_1.0-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROCR)
+* installing *binary* package ‘RSpectra’ ...
+* package ‘RSpectra’ successfully unpacked and SHA256 sums checked
+* ‘RSpectra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RSpectra’ as ‘RSpectra_0.16-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RSpectra)
+* installing *binary* package ‘sctransform’ ...
+* package ‘sctransform’ successfully unpacked and SHA256 sums checked
+* ‘sctransform’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sctransform’ as ‘sctransform_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sctransform)
+* installing *binary* package ‘hunspell’ ...
+* package ‘hunspell’ successfully unpacked and SHA256 sums checked
+* ‘hunspell’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hunspell’ as ‘hunspell_3.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hunspell)
+* installing *binary* package ‘SeuratObject’ ...
+* package ‘SeuratObject’ successfully unpacked and SHA256 sums checked
+* ‘SeuratObject’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SeuratObject’ as ‘SeuratObject_5.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SeuratObject)
+* installing *source* package ‘anndataR’ ...
+** this is package ‘anndataR’ version ‘1.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘anndataR’ as ‘anndataR_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (anndataR)
+* installing *binary* package ‘spatstat.data’ ...
+* package ‘spatstat.data’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.data’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.data’ as ‘spatstat.data_3.1-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.data)
+* installing *binary* package ‘spatstat.univar’ ...
+* package ‘spatstat.univar’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.univar’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.univar’ as ‘spatstat.univar_3.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.univar)
+* installing *binary* package ‘spatstat.sparse’ ...
+* package ‘spatstat.sparse’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.sparse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.sparse’ as ‘spatstat.sparse_3.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.sparse)
+* installing *binary* package ‘uwot’ ...
+* package ‘uwot’ successfully unpacked and SHA256 sums checked
+* ‘uwot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘uwot’ as ‘uwot_0.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (uwot)
+* installing *binary* package ‘spelling’ ...
+* package ‘spelling’ successfully unpacked and SHA256 sums checked
+* ‘spelling’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spelling’ as ‘spelling_2.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spelling)
+* installing *binary* package ‘spatstat.geom’ ...
+* package ‘spatstat.geom’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.geom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.geom’ as ‘spatstat.geom_3.8-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.geom)
+* installing *binary* package ‘spatstat.random’ ...
+* package ‘spatstat.random’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.random’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.random’ as ‘spatstat.random_3.5-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.random)
+* installing *binary* package ‘spatstat.explore’ ...
+* package ‘spatstat.explore’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.explore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.explore’ as ‘spatstat.explore_3.8-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.explore)
+* installing *binary* package ‘Seurat’ ...
+* package ‘Seurat’ successfully unpacked and SHA256 sums checked
+* ‘Seurat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Seurat’ as ‘Seurat_5.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Seurat)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXiIzZV/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m7.961s
+user	0m18.742s
+sys	0m7.115s

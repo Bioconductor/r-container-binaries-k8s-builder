@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tidysbml'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tidysbml'
+also installing the dependencies ‘repr’, ‘pbdZMQ’, ‘IRkernel’, ‘IRdisplay’, ‘RCy3’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/repr_1.1.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pbdZMQ_0.3-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/IRkernel_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/IRdisplay_1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/RCy3_2.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/tidysbml_1.6.0.tar.gz'
+* installing *binary* package ‘repr’ ...
+* package ‘repr’ successfully unpacked and SHA256 sums checked
+* ‘repr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘repr’ as ‘repr_1.1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (repr)
+* installing *binary* package ‘pbdZMQ’ ...
+* package ‘pbdZMQ’ successfully unpacked and SHA256 sums checked
+* ‘pbdZMQ’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pbdZMQ’ as ‘pbdZMQ_0.3-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbdZMQ)
+* installing *source* package ‘tidysbml’ ...
+** this is package ‘tidysbml’ version ‘1.6.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidysbml’ as ‘tidysbml_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidysbml)
+* installing *binary* package ‘IRdisplay’ ...
+* package ‘IRdisplay’ successfully unpacked and SHA256 sums checked
+* ‘IRdisplay’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IRdisplay’ as ‘IRdisplay_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IRdisplay)
+* installing *binary* package ‘IRkernel’ ...
+* package ‘IRkernel’ successfully unpacked and SHA256 sums checked
+* ‘IRkernel’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IRkernel’ as ‘IRkernel_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IRkernel)
+* installing *source* package ‘RCy3’ ...
+** this is package ‘RCy3’ version ‘2.32.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RCy3’ as ‘RCy3_2.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RCy3)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQ5oRUw/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m59.001s
+user	0m16.046s
+sys	0m4.014s

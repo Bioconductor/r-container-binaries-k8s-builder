@@ -1,0 +1,155 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''fastreeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'fastreeR'
+also installing the dependencies ‘fontBitstreamVera’, ‘fontLiberation’, ‘fontquiver’, ‘gdtools’, ‘ggfun’, ‘ggiraph’, ‘tidytree’, ‘treeio’, ‘yulab.utils’, ‘dynamicTreeCut’, ‘ggtree’, ‘memuse’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontBitstreamVera_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontLiberation_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fontquiver_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gdtools_0.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggfun_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggiraph_0.9.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidytree_0.4.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/treeio_1.36.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/yulab.utils_0.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dynamicTreeCut_1.63-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ggtree_4.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/memuse_4.2-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/fastreeR_2.2.0.tar.gz'
+* installing *binary* package ‘fontBitstreamVera’ ...
+* package ‘fontBitstreamVera’ successfully unpacked and SHA256 sums checked
+* ‘fontBitstreamVera’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontBitstreamVera’ as ‘fontBitstreamVera_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontBitstreamVera)
+* installing *binary* package ‘fontLiberation’ ...
+* package ‘fontLiberation’ successfully unpacked and SHA256 sums checked
+* ‘fontLiberation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontLiberation’ as ‘fontLiberation_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontLiberation)
+* installing *binary* package ‘yulab.utils’ ...
+* package ‘yulab.utils’ successfully unpacked and SHA256 sums checked
+* ‘yulab.utils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘yulab.utils’ as ‘yulab.utils_0.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (yulab.utils)
+* installing *binary* package ‘dynamicTreeCut’ ...
+* package ‘dynamicTreeCut’ successfully unpacked and SHA256 sums checked
+* ‘dynamicTreeCut’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dynamicTreeCut’ as ‘dynamicTreeCut_1.63-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dynamicTreeCut)
+* installing *binary* package ‘memuse’ ...
+* package ‘memuse’ successfully unpacked and SHA256 sums checked
+* ‘memuse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘memuse’ as ‘memuse_4.2-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (memuse)
+* installing *binary* package ‘fontquiver’ ...
+* package ‘fontquiver’ successfully unpacked and SHA256 sums checked
+* ‘fontquiver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontquiver’ as ‘fontquiver_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontquiver)
+* installing *binary* package ‘ggfun’ ...
+* package ‘ggfun’ successfully unpacked and SHA256 sums checked
+* ‘ggfun’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggfun’ as ‘ggfun_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggfun)
+* installing *binary* package ‘tidytree’ ...
+* package ‘tidytree’ successfully unpacked and SHA256 sums checked
+* ‘tidytree’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidytree’ as ‘tidytree_0.4.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidytree)
+* installing *source* package ‘fastreeR’ ...
+** this is package ‘fastreeR’ version ‘2.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastreeR’ as ‘fastreeR_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastreeR)
+* installing *binary* package ‘gdtools’ ...
+* package ‘gdtools’ successfully unpacked and SHA256 sums checked
+* ‘gdtools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gdtools’ as ‘gdtools_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gdtools)
+* installing *source* package ‘treeio’ ...
+** this is package ‘treeio’ version ‘1.36.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘treeio’ as ‘treeio_1.36.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treeio)
+* installing *binary* package ‘ggiraph’ ...
+* package ‘ggiraph’ successfully unpacked and SHA256 sums checked
+* ‘ggiraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggiraph’ as ‘ggiraph_0.9.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggiraph)
+* installing *source* package ‘ggtree’ ...
+** this is package ‘ggtree’ version ‘4.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ggplotify’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘ggtree’
+* removing ‘/tmp/library/ggtree’
+
+The downloaded source packages are in
+	‘/tmp/RtmpxwLEE4/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘ggtree’ had non-zero exit status
+
+real	1m12.281s
+user	0m16.684s
+sys	0m6.464s

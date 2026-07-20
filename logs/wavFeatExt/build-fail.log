@@ -1,0 +1,38 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''wavFeatExt'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'wavFeatExt'
+also installing the dependencies ‘randomForest’, ‘neuralnet’, ‘pls’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/randomForest_4.7-1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/neuralnet_1.44.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pls_2.9-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/wavFeatExt_1.0.0.tar.gz'
+* installing *binary* package ‘randomForest’ ...
+* package ‘randomForest’ successfully unpacked and SHA256 sums checked
+* ‘randomForest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘randomForest’ as ‘randomForest_4.7-1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomForest)
+* installing *binary* package ‘neuralnet’ ...
+* package ‘neuralnet’ successfully unpacked and SHA256 sums checked
+* ‘neuralnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘neuralnet’ as ‘neuralnet_1.44.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (neuralnet)
+* installing *binary* package ‘pls’ ...
+* package ‘pls’ successfully unpacked and SHA256 sums checked
+* ‘pls’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pls’ as ‘pls_2.9-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pls)
