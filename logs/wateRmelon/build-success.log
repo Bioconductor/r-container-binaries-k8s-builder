@@ -1,0 +1,67 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''wateRmelon'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'wateRmelon'
+also installing the dependency ‘FlowSorted.Blood.EPIC’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/FlowSorted.Blood.EPIC_2.17.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/wateRmelon_2.19.0.tar.gz'
+* installing *source* package ‘FlowSorted.Blood.EPIC’ ...
+** this is package ‘FlowSorted.Blood.EPIC’ version ‘2.17.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FlowSorted.Blood.EPIC’ as ‘FlowSorted.Blood.EPIC_2.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlowSorted.Blood.EPIC)
+* installing *source* package ‘wateRmelon’ ...
+** this is package ‘wateRmelon’ version ‘2.19.0’
+** package ‘wateRmelon’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+Creating a generic function from function ‘as.methylumi’ in package ‘wateRmelon’
+Creating a generic function from function ‘smokp’ in package ‘wateRmelon’
+Creating a generic function from function ‘adjustedDasen’ in package ‘wateRmelon’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wateRmelon’ as ‘wateRmelon_2.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wateRmelon)
+
+The downloaded source packages are in
+	‘/tmp/RtmpiSVesc/downloaded_packages’
+Old packages: 'diffobj'
+
+real	2m1.292s
+user	1m43.790s
+sys	0m12.479s

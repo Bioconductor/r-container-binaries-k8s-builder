@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2277 (97%)
+- **Successfully Built:** 2287 (97%)
 - **Failed:** 40 (1%)
-- **In Progress:** 10
+- **In Progress:** 0
 - **Not Started:** 19
 
-**Progress:** 98%
+**Progress:** 99%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2277)
+## Successfully Built Packages (2287)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2227 more ...*
+*... and 2237 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.24/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.24/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vulcan) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
+| [wateRmelon](https://bioconductor.org/packages/3.24/bioc/html/wateRmelon.html) | [log](logs/wateRmelon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wateRmelon) |
 | [wavClusteR](https://bioconductor.org/packages/3.24/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.24/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/webbioc) |
@@ -121,18 +121,6 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (10)
-- ⏳ `DMRcate`
-- ⏳ `MAGAR`
-- ⏳ `MEAL`
-- ⏳ `MungeSumstats`
-- ⏳ `arrayMvout`
-- ⏳ `ffpe`
-- ⏳ `iCheck`
-- ⏳ `methylGSA`
-- ⏳ `motifbreakR`
-- ⏳ `wateRmelon`
-
 ## Not Yet Started (19)
 - ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
@@ -155,5 +143,5 @@
 - ⏸️ `spicyR`
 
 ---
-*Last updated: 2026-07-20 22:09:11 UTC*
-*Packages with verified BBS status: 252*
+*Last updated: 2026-07-20 22:32:53 UTC*
+*Packages with verified BBS status: 253*
