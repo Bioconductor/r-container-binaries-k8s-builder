@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2104 (88%)
-- **Failed:** 52 (2%)
-- **In Progress:** 73
-- **Not Started:** 155
+- **Successfully Built:** 2135 (89%)
+- **Failed:** 53 (2%)
+- **In Progress:** 71
+- **Not Started:** 125
 
-**Progress:** 90%
+**Progress:** 91%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2104)
+## Successfully Built Packages (2135)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2054 more ...*
+*... and 2085 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (52)
+## Failed Packages (53)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -90,6 +90,7 @@
 | [HPiP](https://bioconductor.org/packages/3.23/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPiP) | Build failed with unknown error |
 | [IFAA](https://bioconductor.org/packages/3.23/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [ISAnalytics](https://bioconductor.org/packages/3.23/bioc/html/ISAnalytics.html) | [log](logs/ISAnalytics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ISAnalytics) | Build failed with unknown error |
+| [InPAS](https://bioconductor.org/packages/3.23/bioc/html/InPAS.html) | [log](logs/InPAS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/InPAS) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 | [KnowSeq](https://bioconductor.org/packages/3.23/bioc/html/KnowSeq.html) | [log](logs/KnowSeq/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/KnowSeq) | Missing R dependency: ModelMetrics |
 | [LedPred](https://bioconductor.org/packages/3.23/bioc/html/LedPred.html) | [log](logs/LedPred/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/LedPred) | Missing R dependency: proxy |
 | [MAI](https://bioconductor.org/packages/3.23/bioc/html/MAI.html) | [log](logs/MAI/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MAI) | Missing R dependency: ModelMetrics |
@@ -133,64 +134,63 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (73)
+## In Progress (71)
+- ⏳ `ATACseqTFEA`
 - ⏳ `BASiCStan`
-- ⏳ `BatChef`
-- ⏳ `CEMiTool`
 - ⏳ `ChIPpeakAnno`
-- ⏳ `DegCre`
-- ⏳ `DegNorm`
-- ⏳ `EDASeq`
-- ⏳ `EpiTxDb`
-- ⏳ `GDCRNATools`
+- ⏳ `ENmix`
 - ⏳ `GRaNIE`
 - ⏳ `GSABenchmark`
 - ⏳ `GSReg`
 - ⏳ `Guitar`
-- ⏳ `InPAS`
 - ⏳ `MIRit`
 - ⏳ `MetaPhOR`
+- ⏳ `MethylAid`
 - ⏳ `MoonlightR`
 - ⏳ `MungeSumstats`
 - ⏳ `ORFik`
 - ⏳ `OUTRIDER`
+- ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `RiboDiPA`
+- ⏳ `SingleMoleculeFootprinting`
+- ⏳ `SpaceTrooper`
 - ⏳ `UPDhmm`
 - ⏳ `Uniquorn`
 - ⏳ `VariantTools`
+- ⏳ `Voyager`
 - ⏳ `a4Base`
 - ⏳ `airpart`
 - ⏳ `alabaster`
+- ⏳ `alabaster.sfe`
 - ⏳ `appreci8R`
-- ⏳ `bioCancer`
+- ⏳ `atSNP`
 - ⏳ `biovizBase`
+- ⏳ `borealis`
 - ⏳ `broadSeq`
 - ⏳ `canceR`
-- ⏳ `cardelino`
+- ⏳ `carnation`
 - ⏳ `cbaf`
 - ⏳ `celda`
 - ⏳ `chevreulProcess`
-- ⏳ `crisprDesign`
-- ⏳ `customProDB`
+- ⏳ `conumee`
+- ⏳ `dagLogo`
 - ⏳ `damidBind`
-- ⏳ `dar`
 - ⏳ `decemedip`
+- ⏳ `deconvR`
 - ⏳ `derfinder`
-- ⏳ `dmrseq`
-- ⏳ `epiSeeker`
-- ⏳ `epigraHMM`
-- ⏳ `epiregulon.extra`
+- ⏳ `enhancerHomologSearch`
+- ⏳ `epiregulon`
 - ⏳ `epivizrData`
-- ⏳ `fCCAC`
+- ⏳ `esATAC`
 - ⏳ `famat`
+- ⏳ `funtooNorm`
 
-... and 23 more ...
+... and 21 more ...
 
-## Not Yet Started (155)
+## Not Yet Started (125)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
-- ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `BOBaFIT`
@@ -209,7 +209,6 @@
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `ENmix`
 - ⏸️ `FRASER`
 - ⏸️ `GARS`
 - ⏸️ `GUIDEseq`
@@ -222,14 +221,12 @@
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
-- ⏸️ `MethylAid`
 - ⏸️ `NADfinder`
 - ⏸️ `NewWave`
 - ⏸️ `OGRE`
 - ⏸️ `Pviz`
 - ⏸️ `R3CPET`
 - ⏸️ `REDseq`
-- ⏸️ `REMP`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `RNAmodR`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
@@ -238,9 +235,13 @@
 - ⏸️ `RUVSeq`
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboCrypt`
+- ⏸️ `RnBeads`
+- ⏸️ `RnaSeqSampleSize`
+- ⏸️ `Rqc`
+- ⏸️ `SPLINTER`
 
-... and 105 more ...
+... and 75 more ...
 
 ---
-*Last updated: 2026-07-20 21:36:17 UTC*
-*Packages with verified BBS status: 237*
+*Last updated: 2026-07-20 21:38:04 UTC*
+*Packages with verified BBS status: 238*
