@@ -1,0 +1,85 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MIRit'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MIRit'
+also installing the dependencies ‘genekitr’, ‘geneset’, ‘gwasrapidd’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/genekitr_1.2.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/geneset_0.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gwasrapidd_0.99.18.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MIRit_1.8.0.tar.gz'
+* installing *binary* package ‘geneset’ ...
+* package ‘geneset’ successfully unpacked and SHA256 sums checked
+* ‘geneset’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geneset’ as ‘geneset_0.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneset)
+* installing *binary* package ‘gwasrapidd’ ...
+* package ‘gwasrapidd’ successfully unpacked and SHA256 sums checked
+* ‘gwasrapidd’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gwasrapidd’ as ‘gwasrapidd_0.99.18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gwasrapidd)
+* installing *source* package ‘genekitr’ ...
+** this is package ‘genekitr’ version ‘1.2.8’
+** package ‘genekitr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘genekitr’ as ‘genekitr_1.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genekitr)
+* installing *source* package ‘MIRit’ ...
+** this is package ‘MIRit’ version ‘1.8.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pathwayScore.cpp -o pathwayScore.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o MIRit.so RcppExports.o pathwayScore.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-MIRit/00new/MIRit/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MIRit’ as ‘MIRit_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MIRit)
+
+The downloaded source packages are in
+	‘/tmp/RtmptIHMS8/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m21.325s
+user	1m3.790s
+sys	0m9.850s

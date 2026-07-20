@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''shinyepico'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'shinyepico'
+also installing the dependencies ‘mCSEAdata’, ‘mCSEA’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/mCSEAdata_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mCSEA_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/shinyepico_1.20.0.tar.gz'
+* installing *source* package ‘mCSEAdata’ ...
+** this is package ‘mCSEAdata’ version ‘1.32.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mCSEAdata’ as ‘mCSEAdata_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mCSEAdata)
+* installing *source* package ‘shinyepico’ ...
+** this is package ‘shinyepico’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyepico’ as ‘shinyepico_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyepico)
+* installing *source* package ‘mCSEA’ ...
+** this is package ‘mCSEA’ version ‘1.32.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mCSEA’ as ‘mCSEA_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mCSEA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFqsNZH/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m23.351s
+user	1m59.908s
+sys	0m9.875s

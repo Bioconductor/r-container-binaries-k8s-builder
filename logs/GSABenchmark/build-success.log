@@ -1,0 +1,88 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GSABenchmark'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GSABenchmark'
+also installing the dependencies ‘drat’, ‘N2R’, ‘fabR’, ‘jaccard’, ‘pagoda2’, ‘VAM’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/drat_0.2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/N2R_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fabR_2.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/jaccard_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pagoda2_1.0.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/VAM_1.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GSABenchmark_1.0.0.tar.gz'
+* installing *binary* package ‘drat’ ...
+* package ‘drat’ successfully unpacked and SHA256 sums checked
+* ‘drat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘drat’ as ‘drat_0.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (drat)
+* installing *binary* package ‘N2R’ ...
+* package ‘N2R’ successfully unpacked and SHA256 sums checked
+* ‘N2R’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘N2R’ as ‘N2R_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (N2R)
+* installing *binary* package ‘fabR’ ...
+* package ‘fabR’ successfully unpacked and SHA256 sums checked
+* ‘fabR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fabR’ as ‘fabR_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fabR)
+* installing *binary* package ‘jaccard’ ...
+* package ‘jaccard’ successfully unpacked and SHA256 sums checked
+* ‘jaccard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘jaccard’ as ‘jaccard_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jaccard)
+* installing *binary* package ‘VAM’ ...
+* package ‘VAM’ successfully unpacked and SHA256 sums checked
+* ‘VAM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VAM’ as ‘VAM_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VAM)
+* installing *binary* package ‘pagoda2’ ...
+* package ‘pagoda2’ successfully unpacked and SHA256 sums checked
+* ‘pagoda2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pagoda2’ as ‘pagoda2_1.0.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pagoda2)
+* installing *source* package ‘GSABenchmark’ ...
+** this is package ‘GSABenchmark’ version ‘1.0.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSABenchmark’ as ‘GSABenchmark_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSABenchmark)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmxA2kh/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m26.478s
+user	1m4.471s
+sys	0m9.504s
