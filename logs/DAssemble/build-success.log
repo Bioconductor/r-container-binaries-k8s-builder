@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DAssemble'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DAssemble'
+also installing the dependencies ‘dfadjust’, ‘LOCOM2’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dfadjust_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/LOCOM2_1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DAssemble_0.99.3.tar.gz'
+* installing *binary* package ‘dfadjust’ ...
+* package ‘dfadjust’ successfully unpacked and SHA256 sums checked
+* ‘dfadjust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dfadjust’ as ‘dfadjust_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dfadjust)
+* installing *binary* package ‘LOCOM2’ ...
+* package ‘LOCOM2’ successfully unpacked and SHA256 sums checked
+* ‘LOCOM2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LOCOM2’ as ‘LOCOM2_1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LOCOM2)
+* installing *source* package ‘DAssemble’ ...
+** this is package ‘DAssemble’ version ‘0.99.3’
+** package ‘DAssemble’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DAssemble’ as ‘DAssemble_0.99.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DAssemble)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTuze6j/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m21.434s
+user	0m11.142s
+sys	0m3.910s

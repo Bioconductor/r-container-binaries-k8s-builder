@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1835 (78%)
-- **Failed:** 31 (1%)
-- **In Progress:** 50
-- **Not Started:** 430
+- **Successfully Built:** 1845 (78%)
+- **Failed:** 32 (1%)
+- **In Progress:** 44
+- **Not Started:** 425
 
-**Progress:** 79%
+**Progress:** 80%
 ```
-███████████████████████████████████████░░░░░░░░░░░
+████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1835)
+## Successfully Built Packages (1845)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1785 more ...*
+*... and 1795 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (31)
+## Failed Packages (32)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -85,6 +85,7 @@
 | [CytoGLMM](https://bioconductor.org/packages/3.24/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CytoGLMM) | Missing R dependency: ModelMetrics |
 | [GenomAutomorphism](https://bioconductor.org/packages/3.24/bioc/html/GenomAutomorphism.html) | [log](logs/GenomAutomorphism/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GenomAutomorphism) | Error: unable to load R code in package ‘GenomAutomorphism’ |
 | [HPiP](https://bioconductor.org/packages/3.24/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HPiP) | Missing R dependency: SparseArray<br>Missing R dependency: recipes |
+| [HiTC](https://bioconductor.org/packages/3.24/bioc/html/HiTC.html) | [log](logs/HiTC/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HiTC) | Build failed with unknown error |
 | [IFAA](https://bioconductor.org/packages/3.24/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [MAI](https://bioconductor.org/packages/3.24/bioc/html/MAI.html) | [log](logs/MAI/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/MAI) | Missing R dependency: ModelMetrics |
 | [MAIT](https://bioconductor.org/packages/3.24/bioc/html/MAIT.html) | [log](logs/MAIT/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/MAIT) | Missing R dependency: ModelMetrics |
@@ -112,44 +113,39 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (50)
+## In Progress (44)
 - ⏳ `BSgenome`
 - ⏳ `CARDspa`
 - ⏳ `CNVRanger`
 - ⏳ `CTSV`
+- ⏳ `CTexploreR`
 - ⏳ `CatsCradle`
 - ⏳ `CoGAPS`
 - ⏳ `CoverageView`
-- ⏳ `DAssemble`
 - ⏳ `DMCHMM`
 - ⏳ `DeconvoBuddies`
 - ⏳ `ExCluster`
 - ⏳ `ExperimentSubset`
-- ⏳ `GenomicFeatures`
-- ⏳ `HiTC`
-- ⏳ `NetActivity`
+- ⏳ `FEAST`
+- ⏳ `Ibex`
 - ⏳ `PMScanR`
-- ⏳ `PREDA`
 - ⏳ `SCANVIS`
-- ⏳ `STADyUM`
 - ⏳ `decontX`
 - ⏳ `divergence`
 - ⏳ `easylift`
 - ⏳ `epidecodeR`
+- ⏳ `gDR`
 - ⏳ `gVenn`
 - ⏳ `hicVennDiagram`
 - ⏳ `iSEEhex`
 - ⏳ `iSEEindex`
+- ⏳ `iSEEtree`
 - ⏳ `metagene2`
 - ⏳ `methylKit`
 - ⏳ `mist`
 - ⏳ `mobileRNA`
-- ⏳ `netSmooth`
 - ⏳ `nullranges`
 - ⏳ `oligoClasses`
-- ⏳ `plotgardener`
-- ⏳ `plyinteractions`
-- ⏳ `r3Cseq`
 - ⏳ `recount3`
 - ⏳ `rifi`
 - ⏳ `rifiComparative`
@@ -159,12 +155,11 @@
 - ⏳ `scTensor`
 - ⏳ `seqsetvis`
 - ⏳ `sevenC`
-- ⏳ `stPipe`
 - ⏳ `tidyCoverage`
 - ⏳ `tidyomics`
 - ⏳ `visiumStitched`
 
-## Not Yet Started (430)
+## Not Yet Started (425)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -192,7 +187,6 @@
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
-- ⏸️ `CTexploreR`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
@@ -215,9 +209,10 @@
 - ⏸️ `DOTSeq`
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
+- ⏸️ `DaMiRseq`
 
-... and 380 more ...
+... and 375 more ...
 
 ---
-*Last updated: 2026-07-20 21:26:52 UTC*
-*Packages with verified BBS status: 233*
+*Last updated: 2026-07-20 21:27:59 UTC*
+*Packages with verified BBS status: 234*
