@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2252 (94%)
+- **Successfully Built:** 2282 (95%)
 - **Failed:** 55 (2%)
-- **In Progress:** 34
-- **Not Started:** 43
+- **In Progress:** 21
+- **Not Started:** 26
 
-**Progress:** 96%
+**Progress:** 98%
 ```
-████████████████████████████████████████████████░░
+█████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2252)
+## Successfully Built Packages (2282)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2202 more ...*
+*... and 2232 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -136,87 +136,57 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (34)
-- ⏳ `ASpli`
-- ⏳ `AllelicImbalance`
-- ⏳ `DMRcate`
-- ⏳ `DuplexDiscovereR`
-- ⏳ `ELMER`
-- ⏳ `GeneStructureTools`
-- ⏳ `GenomicInteractions`
-- ⏳ `MEAL`
+## In Progress (21)
+- ⏳ `BOBaFIT`
+- ⏳ `CAFE`
+- ⏳ `CopyNumberPlots`
+- ⏳ `GenomicOZone`
 - ⏳ `MungeSumstats`
-- ⏳ `OGRE`
-- ⏳ `Pviz`
-- ⏳ `RNAAgeCalc`
-- ⏳ `RNAmodR`
-- ⏳ `RnaSeqSampleSize`
-- ⏳ `SPLINTER`
-- ⏳ `TVTB`
-- ⏳ `VariantFiltering`
-- ⏳ `appreci8R`
-- ⏳ `biomvRCNS`
+- ⏳ `R3CPET`
+- ⏳ `ReportingTools`
+- ⏳ `SomaticSignatures`
+- ⏳ `cageminer`
+- ⏳ `chevreulShiny`
 - ⏳ `chimeraviz`
 - ⏳ `cicero`
-- ⏳ `comapr`
-- ⏳ `crisprViz`
+- ⏳ `derfinderPlot`
 - ⏳ `epimutacions`
-- ⏳ `mCSEA`
-- ⏳ `maser`
-- ⏳ `methylPipe`
-- ⏳ `primirTSS`
+- ⏳ `fourSynergy`
+- ⏳ `intansv`
+- ⏳ `msgbsR`
+- ⏳ `multicrispr`
 - ⏳ `psichomics`
-- ⏳ `regutools`
-- ⏳ `srnadiff`
-- ⏳ `tadar`
-- ⏳ `trackViewer`
-- ⏳ `uncoverappLib`
+- ⏳ `scafari`
+- ⏳ `scruff`
 
-## Not Yet Started (43)
+## Not Yet Started (26)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `BOBaFIT`
-- ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `ChAMP`
-- ⏸️ `CopyNumberPlots`
 - ⏸️ `CyTOFpower`
-- ⏸️ `Damsel`
 - ⏸️ `GARS`
-- ⏸️ `GenomicOZone`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `NADfinder`
 - ⏸️ `NewWave`
-- ⏸️ `R3CPET`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
-- ⏸️ `ReportingTools`
-- ⏸️ `SomaticSignatures`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `annoLinker`
 - ⏸️ `bandle`
-- ⏸️ `cageminer`
-- ⏸️ `chevreulShiny`
 - ⏸️ `compEpiTools`
 - ⏸️ `crisprShiny`
 - ⏸️ `crisprVerse`
-- ⏸️ `derfinderPlot`
-- ⏸️ `fourSynergy`
 - ⏸️ `geomeTriD`
-- ⏸️ `intansv`
 - ⏸️ `miRspongeR`
-- ⏸️ `msgbsR`
-- ⏸️ `multicrispr`
 - ⏸️ `pRolocGUI`
 - ⏸️ `saseR`
-- ⏸️ `scafari`
-- ⏸️ `scruff`
 
 ---
-*Last updated: 2026-07-20 21:54:11 UTC*
+*Last updated: 2026-07-20 21:55:31 UTC*
 *Packages with verified BBS status: 244*

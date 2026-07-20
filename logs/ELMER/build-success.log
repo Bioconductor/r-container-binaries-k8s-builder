@@ -1,0 +1,46 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ELMER'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ELMER'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ELMER_2.35.1.tar.gz'
+Content type 'application/x-gzip' length 45705687 bytes (43.6 MB)
+==================================================
+downloaded 43.6 MB
+
+* installing *source* package ‘ELMER’ ...
+** this is package ‘ELMER’ version ‘2.35.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: possible error in 'write_tsv(sampleMap, ': unused argument (path = "elmer_example_sample_mapping.tsv") 
+Note: possible error in 'write_tsv(colData, path = "elmer_example_sample_metadata.tsv")': unused argument (path = "elmer_example_sample_metadata.tsv") 
+Note: possible error in 'write_tsv(cbind(as.data.frame(pairs)[, ': unused argument (path = file.name.table) 
+Note: possible error in 'write_tsv(cbind(as.data.frame(pairs)[, ': unused argument (path = file.name.table) 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ELMER’ as ‘ELMER_2.35.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ELMER)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp8MSaoi/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m23.045s
+user	1m7.492s
+sys	0m7.203s

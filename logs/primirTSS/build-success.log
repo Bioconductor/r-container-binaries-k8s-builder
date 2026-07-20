@@ -1,0 +1,48 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''primirTSS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'primirTSS'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/primirTSS_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 3840379 bytes (3.7 MB)
+==================================================
+downloaded 3.7 MB
+
+* installing *source* package ‘primirTSS’ ...
+** this is package ‘primirTSS’ version ‘1.30.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘BiocGenerics::setequal’ by ‘dplyr::setequal’ when loading ‘primirTSS’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg38’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘BiocGenerics::setequal’ by ‘dplyr::setequal’ when loading ‘primirTSS’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg38’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘BiocGenerics::setequal’ by ‘dplyr::setequal’ when loading ‘primirTSS’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg38’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘primirTSS’ as ‘primirTSS_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (primirTSS)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpsk1vFz/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m2.799s
+user	0m43.780s
+sys	0m6.149s
