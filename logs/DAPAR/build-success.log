@@ -1,0 +1,91 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DAPAR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DAPAR'
+also installing the dependencies ‘Iso’, ‘missRanger’, ‘DAPARdata’, ‘cp4p’, ‘imp4p’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Iso_0.0-21.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/missRanger_2.6.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/DAPARdata_1.42.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cp4p_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/imp4p_1.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DAPAR_1.44.0.tar.gz'
+* installing *binary* package ‘Iso’ ...
+* package ‘Iso’ successfully unpacked and SHA256 sums checked
+* ‘Iso’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Iso’ as ‘Iso_0.0-21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Iso)
+* installing *binary* package ‘missRanger’ ...
+* package ‘missRanger’ successfully unpacked and SHA256 sums checked
+* ‘missRanger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘missRanger’ as ‘missRanger_2.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (missRanger)
+* installing *source* package ‘DAPARdata’ ...
+** this is package ‘DAPARdata’ version ‘1.42.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DAPARdata’ as ‘DAPARdata_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DAPARdata)
+* installing *binary* package ‘cp4p’ ...
+* package ‘cp4p’ successfully unpacked and SHA256 sums checked
+* ‘cp4p’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cp4p’ as ‘cp4p_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cp4p)
+* installing *binary* package ‘imp4p’ ...
+* package ‘imp4p’ successfully unpacked and SHA256 sums checked
+* ‘imp4p’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imp4p’ as ‘imp4p_1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imp4p)
+* installing *source* package ‘DAPAR’ ...
+** this is package ‘DAPAR’ version ‘1.44.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DAPAR’ as ‘DAPAR_1.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DAPAR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHuvdQE/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m33.321s
+user	1m19.746s
+sys	0m9.947s

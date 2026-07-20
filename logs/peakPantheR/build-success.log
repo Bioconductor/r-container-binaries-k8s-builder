@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''peakPantheR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'peakPantheR'
+also installing the dependency ‘faahKO’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/faahKO_1.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/peakPantheR_1.26.0.tar.gz'
+* installing *source* package ‘faahKO’ ...
+** this is package ‘faahKO’ version ‘1.52.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘faahKO’ as ‘faahKO_1.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (faahKO)
+* installing *source* package ‘peakPantheR’ ...
+** this is package ‘peakPantheR’ version ‘1.26.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘peakPantheR’ as ‘peakPantheR_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (peakPantheR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEim7jm/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m53.129s
+user	1m38.879s
+sys	0m7.889s

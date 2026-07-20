@@ -1,0 +1,86 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''notame'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'notame'
+also installing the dependencies ‘devEMF’, ‘notameViz’, ‘notameStats’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/devEMF_4.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/notameViz_1.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/notameStats_1.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/notame_1.2.0.tar.gz'
+* installing *binary* package ‘devEMF’ ...
+* package ‘devEMF’ successfully unpacked and SHA256 sums checked
+* ‘devEMF’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘devEMF’ as ‘devEMF_4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (devEMF)
+* installing *source* package ‘notame’ ...
+** this is package ‘notame’ version ‘1.2.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘notame’ as ‘notame_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (notame)
+* installing *source* package ‘notameViz’ ...
+** this is package ‘notameViz’ version ‘1.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘notameViz’ as ‘notameViz_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (notameViz)
+* installing *source* package ‘notameStats’ ...
+** this is package ‘notameStats’ version ‘1.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘notameStats’ as ‘notameStats_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (notameStats)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKKeW6i/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m25.368s
+user	1m8.655s
+sys	0m10.224s
