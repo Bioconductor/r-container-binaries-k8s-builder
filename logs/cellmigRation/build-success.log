@@ -1,0 +1,105 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''cellmigRation'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'cellmigRation'
+also installing the dependencies ‘estimability’, ‘spBayes’, ‘emmeans’, ‘flashClust’, ‘multcompView’, ‘FME’, ‘SpatialTools’, ‘FactoMineR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/estimability_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spBayes_0.4-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/emmeans_2.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flashClust_1.1-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/multcompView_0.1-11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FME_1.3.6.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SpatialTools_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FactoMineR_2.16.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/cellmigRation_1.21.0.tar.gz'
+* installing *binary* package ‘estimability’ ...
+* package ‘estimability’ successfully unpacked and SHA256 sums checked
+* ‘estimability’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘estimability’ as ‘estimability_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (estimability)
+* installing *binary* package ‘spBayes’ ...
+* package ‘spBayes’ successfully unpacked and SHA256 sums checked
+* ‘spBayes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spBayes’ as ‘spBayes_0.4-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spBayes)
+* installing *binary* package ‘flashClust’ ...
+* package ‘flashClust’ successfully unpacked and SHA256 sums checked
+* ‘flashClust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flashClust’ as ‘flashClust_1.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flashClust)
+* installing *binary* package ‘multcompView’ ...
+* package ‘multcompView’ successfully unpacked and SHA256 sums checked
+* ‘multcompView’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multcompView’ as ‘multcompView_0.1-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcompView)
+* installing *binary* package ‘FME’ ...
+* package ‘FME’ successfully unpacked and SHA256 sums checked
+* ‘FME’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FME’ as ‘FME_1.3.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FME)
+* installing *binary* package ‘emmeans’ ...
+* package ‘emmeans’ successfully unpacked and SHA256 sums checked
+* ‘emmeans’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘emmeans’ as ‘emmeans_2.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emmeans)
+* installing *binary* package ‘SpatialTools’ ...
+* package ‘SpatialTools’ successfully unpacked and SHA256 sums checked
+* ‘SpatialTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpatialTools’ as ‘SpatialTools_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialTools)
+* installing *binary* package ‘FactoMineR’ ...
+* package ‘FactoMineR’ successfully unpacked and SHA256 sums checked
+* ‘FactoMineR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FactoMineR’ as ‘FactoMineR_2.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FactoMineR)
+* installing *source* package ‘cellmigRation’ ...
+** this is package ‘cellmigRation’ version ‘1.21.0’
+** package ‘cellmigRation’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cellmigRation’ as ‘cellmigRation_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellmigRation)
+
+The downloaded source packages are in
+	‘/tmp/RtmpyBqYFO/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m28.284s
+user	0m19.948s
+sys	0m4.984s

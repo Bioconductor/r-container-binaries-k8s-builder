@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ClusterSignificance'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ClusterSignificance'
+also installing the dependency ‘plsgenomics’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plsgenomics_1.5-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ClusterSignificance_1.41.0.tar.gz'
+* installing *binary* package ‘plsgenomics’ ...
+* package ‘plsgenomics’ successfully unpacked and SHA256 sums checked
+* ‘plsgenomics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plsgenomics’ as ‘plsgenomics_1.5-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plsgenomics)
+* installing *source* package ‘ClusterSignificance’ ...
+** this is package ‘ClusterSignificance’ version ‘1.41.0’
+** package ‘ClusterSignificance’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found the following possibly unsafe calls:
+  0 - 2 - 5778 - 7014
+  0 - 2 - 5778
+  0 - 2
+Please only use calls to ‘person’, ‘as.person’, ‘c’, ‘list’, ‘paste’, ‘paste0’.
+Warning in .canonicalize(comment) :
+  Arguments of person() should be character or NULL
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ClusterSignificance’ as ‘ClusterSignificance_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ClusterSignificance)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZUO7XU/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m16.079s
+user	0m7.180s
+sys	0m2.518s

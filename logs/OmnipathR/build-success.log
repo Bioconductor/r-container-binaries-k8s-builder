@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''OmnipathR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'OmnipathR'
+also installing the dependencies ‘mlr’, ‘lhs’, ‘mlrMBO’, ‘parallelMap’, ‘ParamHelpers’, ‘sigmajs’, ‘smoof’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr_2.19.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lhs_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlrMBO_1.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parallelMap_1.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ParamHelpers_1.14.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sigmajs_0.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/smoof_1.7.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/OmnipathR_4.1.0.tar.gz'
+* installing *binary* package ‘lhs’ ...
+* package ‘lhs’ successfully unpacked and SHA256 sums checked
+* ‘lhs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lhs’ as ‘lhs_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lhs)
+* installing *binary* package ‘parallelMap’ ...
+* package ‘parallelMap’ successfully unpacked and SHA256 sums checked
+* ‘parallelMap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parallelMap’ as ‘parallelMap_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelMap)
+* installing *binary* package ‘ParamHelpers’ ...
+* package ‘ParamHelpers’ successfully unpacked and SHA256 sums checked
+* ‘ParamHelpers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ParamHelpers’ as ‘ParamHelpers_1.14.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ParamHelpers)
+* installing *binary* package ‘sigmajs’ ...
+* package ‘sigmajs’ successfully unpacked and SHA256 sums checked
+* ‘sigmajs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sigmajs’ as ‘sigmajs_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sigmajs)
+* installing *source* package ‘OmnipathR’ ...
+** this is package ‘OmnipathR’ version ‘4.1.0’
+** package ‘OmnipathR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OmnipathR’ as ‘OmnipathR_4.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OmnipathR)
+* installing *binary* package ‘mlr’ ...
+* package ‘mlr’ successfully unpacked and SHA256 sums checked
+* ‘mlr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr’ as ‘mlr_2.19.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr)
+* installing *binary* package ‘smoof’ ...
+* package ‘smoof’ successfully unpacked and SHA256 sums checked
+* ‘smoof’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘smoof’ as ‘smoof_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (smoof)
+* installing *binary* package ‘mlrMBO’ ...
+* package ‘mlrMBO’ successfully unpacked and SHA256 sums checked
+* ‘mlrMBO’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlrMBO’ as ‘mlrMBO_1.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlrMBO)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbDYbTP/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m37.839s
+user	0m22.734s
+sys	0m4.958s

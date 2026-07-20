@@ -1,0 +1,69 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DiffLogo'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DiffLogo'
+also installing the dependencies ‘cba’, ‘MotifDb’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cba_0.2-25.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MotifDb_1.55.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DiffLogo_2.37.0.tar.gz'
+* installing *binary* package ‘cba’ ...
+* package ‘cba’ successfully unpacked and SHA256 sums checked
+* ‘cba’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cba’ as ‘cba_0.2-25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cba)
+* installing *source* package ‘MotifDb’ ...
+** this is package ‘MotifDb’ version ‘1.55.0’
+** package ‘MotifDb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package can be loaded from final location
+See system.file("LICENSE", package="MotifDb") for use restrictions.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MotifDb’ as ‘MotifDb_1.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MotifDb)
+* installing *source* package ‘DiffLogo’ ...
+** this is package ‘DiffLogo’ version ‘2.37.0’
+** package ‘DiffLogo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DiffLogo’ as ‘DiffLogo_2.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiffLogo)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLBpxdw/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m52.278s
+user	0m43.888s
+sys	0m6.330s
