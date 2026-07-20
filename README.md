@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2276 (97%)
+- **Successfully Built:** 2277 (97%)
 - **Failed:** 40 (1%)
-- **In Progress:** 3
-- **Not Started:** 27
+- **In Progress:** 7
+- **Not Started:** 22
 
 **Progress:** 98%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2276)
+## Successfully Built Packages (2277)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2226 more ...*
+*... and 2227 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -121,30 +121,30 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (3)
+## In Progress (7)
+- ⏳ `MAGAR`
 - ⏳ `MungeSumstats`
-- ⏳ `missMethyl`
+- ⏳ `arrayMvout`
+- ⏳ `ffpe`
+- ⏳ `iCheck`
 - ⏳ `motifbreakR`
+- ⏳ `wateRmelon`
 
-## Not Yet Started (27)
+## Not Yet Started (22)
 - ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
 - ⏸️ `GARS`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
-- ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
-- ⏸️ `arrayMvout`
 - ⏸️ `bandle`
 - ⏸️ `bigmelon`
 - ⏸️ `cytoviewer`
 - ⏸️ `dnaEPICO`
-- ⏸️ `ffpe`
-- ⏸️ `iCheck`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
 - ⏸️ `methylGSA`
@@ -153,8 +153,7 @@
 - ⏸️ `simpleSeg`
 - ⏸️ `skewr`
 - ⏸️ `spicyR`
-- ⏸️ `wateRmelon`
 
 ---
-*Last updated: 2026-07-20 22:07:07 UTC*
+*Last updated: 2026-07-20 22:08:05 UTC*
 *Packages with verified BBS status: 252*
