@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2259 (96%)
+- **Successfully Built:** 2268 (96%)
 - **Failed:** 40 (1%)
-- **In Progress:** 15
-- **Not Started:** 32
+- **In Progress:** 7
+- **Not Started:** 31
 
-**Progress:** 97%
+**Progress:** 98%
 ```
-████████████████████████████████████████████████░░
+█████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2259)
+## Successfully Built Packages (2268)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2209 more ...*
+*... and 2218 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -121,24 +121,16 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (15)
+## In Progress (7)
 - ⏳ `ChIPXpress`
-- ⏳ `ENmix`
-- ⏳ `MethylAid`
 - ⏳ `MungeSumstats`
-- ⏳ `REMP`
+- ⏳ `biscuiteer`
 - ⏳ `conumee`
-- ⏳ `epimutacions`
-- ⏳ `funtooNorm`
-- ⏳ `iNETgrate`
-- ⏳ `methylCC`
 - ⏳ `methylclock`
 - ⏳ `methylumi`
 - ⏳ `motifbreakR`
-- ⏳ `quantro`
-- ⏳ `shinyMethyl`
 
-## Not Yet Started (32)
+## Not Yet Started (31)
 - ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
@@ -154,7 +146,6 @@
 - ⏸️ `arrayMvout`
 - ⏸️ `bandle`
 - ⏸️ `bigmelon`
-- ⏸️ `biscuiteer`
 - ⏸️ `cytoviewer`
 - ⏸️ `dnaEPICO`
 - ⏸️ `ffpe`
@@ -173,5 +164,5 @@
 - ⏸️ `yarn`
 
 ---
-*Last updated: 2026-07-20 21:57:53 UTC*
+*Last updated: 2026-07-20 21:59:05 UTC*
 *Packages with verified BBS status: 251*
