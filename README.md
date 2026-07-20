@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 504 (21%)
+- **Successfully Built:** 517 (22%)
 - **Failed:** 5 (0%)
-- **In Progress:** 0
-- **Not Started:** 1837
+- **In Progress:** 7
+- **Not Started:** 1817
 
-**Progress:** 21%
+**Progress:** 22%
 ```
-██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (504)
+## Successfully Built Packages (517)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 
-*... and 454 more ...*
+*... and 467 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [stepNorm](https://bioconductor.org/packages/3.24/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.24/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.24/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
@@ -70,6 +69,7 @@
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.24/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tweeDEseq) |
 | [tximport](https://bioconductor.org/packages/3.24/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tximport) |
+| [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [vbmp](https://bioconductor.org/packages/3.24/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
@@ -86,7 +86,16 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## Not Yet Started (1837)
+## In Progress (7)
+- ⏳ `ChemmineOB`
+- ⏳ `ChemmineR`
+- ⏳ `GSCA`
+- ⏳ `matter`
+- ⏳ `parglms`
+- ⏳ `scMitoMut`
+- ⏳ `snpStats`
+
+## Not Yet Started (1817)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -138,8 +147,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1787 more ...
+... and 1767 more ...
 
 ---
-*Last updated: 2026-07-20 20:00:50 UTC*
-*Packages with verified BBS status: 152*
+*Last updated: 2026-07-20 20:02:09 UTC*
+*Packages with verified BBS status: 153*
