@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 785 (33%)
+- **Successfully Built:** 802 (34%)
 - **Failed:** 6 (0%)
-- **In Progress:** 16
-- **Not Started:** 1539
+- **In Progress:** 8
+- **Not Started:** 1530
 
-**Progress:** 33%
+**Progress:** 34%
 ```
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (785)
+## Successfully Built Packages (802)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 735 more ...*
+*... and 752 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timeOmics](https://bioconductor.org/packages/3.24/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.24/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.24/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tkWidgets) |
@@ -65,6 +64,7 @@
 | [twilight](https://bioconductor.org/packages/3.24/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.24/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.24/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.24/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
@@ -87,25 +87,17 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (16)
+## In Progress (8)
 - ⏳ `Aerith`
 - ⏳ `Biostrings`
-- ⏳ `Chromatograms`
-- ⏳ `DelayedArray`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
-- ⏳ `InteractiveComplexHeatmap`
-- ⏳ `SpectriPy`
-- ⏳ `TargetDecoy`
-- ⏳ `cola`
+- ⏳ `flowMerge`
 - ⏳ `frmaTools`
-- ⏳ `h5mread`
 - ⏳ `ldblock`
 - ⏳ `msPurity`
-- ⏳ `nempi`
-- ⏳ `optimalFlow`
 
-## Not Yet Started (1539)
+## Not Yet Started (1530)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -157,8 +149,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1489 more ...
+... and 1480 more ...
 
 ---
-*Last updated: 2026-07-20 20:16:06 UTC*
-*Packages with verified BBS status: 168*
+*Last updated: 2026-07-20 20:17:26 UTC*
+*Packages with verified BBS status: 169*

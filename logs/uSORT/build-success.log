@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''uSORT'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'uSORT'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/uSORT_1.39.0.tar.gz'
+Content type 'application/x-gzip' length 2953178 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *source* package ‘uSORT’ ...
+** this is package ‘uSORT’ version ‘1.39.0’
+** package ‘uSORT’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+No methods found in package ‘BiocGenerics’ for request: ‘clusterEvalQ’ when loading ‘uSORT’
+No methods found in package ‘BiocGenerics’ for request: ‘parCapply’ when loading ‘uSORT’
+No methods found in package ‘BiocGenerics’ for request: ‘parRapply’ when loading ‘uSORT’
+Note: break used in wrong context: no loop is visible 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+No methods found in package ‘BiocGenerics’ for request: ‘clusterEvalQ’ when loading ‘uSORT’
+No methods found in package ‘BiocGenerics’ for request: ‘parCapply’ when loading ‘uSORT’
+No methods found in package ‘BiocGenerics’ for request: ‘parRapply’ when loading ‘uSORT’
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+No methods found in package ‘BiocGenerics’ for request: ‘clusterEvalQ’ when loading ‘uSORT’
+No methods found in package ‘BiocGenerics’ for request: ‘parCapply’ when loading ‘uSORT’
+No methods found in package ‘BiocGenerics’ for request: ‘parRapply’ when loading ‘uSORT’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘uSORT’ as ‘uSORT_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (uSORT)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPLr7KW/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m36.289s
+user	0m22.030s
+sys	0m9.345s
