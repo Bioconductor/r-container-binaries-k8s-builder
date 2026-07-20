@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scDesign3'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scDesign3'
+also installing the dependencies ‘rngWELL’, ‘randtoolbox’, ‘kde1d’, ‘wdm’, ‘rvinecopulib’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rngWELL_0.10-10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/randtoolbox_2.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/kde1d_1.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/wdm_0.2.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rvinecopulib_0.7.3.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scDesign3_1.10.0.tar.gz'
+* installing *binary* package ‘rngWELL’ ...
+* package ‘rngWELL’ successfully unpacked and SHA256 sums checked
+* ‘rngWELL’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rngWELL’ as ‘rngWELL_0.10-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rngWELL)
+* installing *binary* package ‘wdm’ ...
+* package ‘wdm’ successfully unpacked and SHA256 sums checked
+* ‘wdm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wdm’ as ‘wdm_0.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wdm)
+* installing *source* package ‘scDesign3’ ...
+** this is package ‘scDesign3’ version ‘1.10.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scDesign3’ as ‘scDesign3_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scDesign3)
+* installing *binary* package ‘randtoolbox’ ...
+* package ‘randtoolbox’ successfully unpacked and SHA256 sums checked
+* ‘randtoolbox’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘randtoolbox’ as ‘randtoolbox_2.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randtoolbox)
+* installing *binary* package ‘kde1d’ ...
+* package ‘kde1d’ successfully unpacked and SHA256 sums checked
+* ‘kde1d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘kde1d’ as ‘kde1d_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kde1d)
+* installing *binary* package ‘rvinecopulib’ ...
+* package ‘rvinecopulib’ successfully unpacked and SHA256 sums checked
+* ‘rvinecopulib’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rvinecopulib’ as ‘rvinecopulib_0.7.3.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rvinecopulib)
+
+The downloaded source packages are in
+	‘/tmp/RtmpaDwB0T/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m27.551s
+user	0m20.570s
+sys	0m4.322s

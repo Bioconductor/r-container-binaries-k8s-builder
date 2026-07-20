@@ -1,0 +1,79 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MAST'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MAST'
+Error in readRDS(file) : error reading from connection
+also installing the dependencies ‘softImpute’, ‘blme’, ‘zinbwave’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/softImpute_1.4-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/blme_1.0-7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/zinbwave_1.34.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MAST_1.38.0.tar.gz'
+* installing *binary* package ‘softImpute’ ...
+* package ‘softImpute’ successfully unpacked and SHA256 sums checked
+* ‘softImpute’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘softImpute’ as ‘softImpute_1.4-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (softImpute)
+* installing *binary* package ‘blme’ ...
+* package ‘blme’ successfully unpacked and SHA256 sums checked
+* ‘blme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘blme’ as ‘blme_1.0-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (blme)
+* installing *source* package ‘MAST’ ...
+** this is package ‘MAST’ version ‘1.38.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MAST’ as ‘MAST_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MAST)
+* installing *source* package ‘zinbwave’ ...
+** this is package ‘zinbwave’ version ‘1.34.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zinbwave’ as ‘zinbwave_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zinbwave)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFjtpNg/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m24.799s
+user	1m7.814s
+sys	0m8.998s

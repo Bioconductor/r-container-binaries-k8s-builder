@@ -1,0 +1,110 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''annotate'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'annotate'
+also installing the dependencies ‘org.Rn.eg.db’, ‘rae230a.db’, ‘rae230aprobe’, ‘humanCHRLOC’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/org.Rn.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/rae230a.db_3.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/rae230aprobe_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/humanCHRLOC_2.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/annotate_1.90.0.tar.gz'
+* installing *source* package ‘org.Rn.eg.db’ ...
+** this is package ‘org.Rn.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Rn.eg.db’ as ‘org.Rn.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Rn.eg.db)
+* installing *source* package ‘rae230aprobe’ ...
+** this is package ‘rae230aprobe’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rae230aprobe’ as ‘rae230aprobe_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rae230aprobe)
+* installing *source* package ‘humanCHRLOC’ ...
+** this is package ‘humanCHRLOC’ version ‘2.1.6’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘humanCHRLOC’ as ‘humanCHRLOC_2.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (humanCHRLOC)
+* installing *source* package ‘annotate’ ...
+** this is package ‘annotate’ version ‘1.90.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘annotate’ as ‘annotate_1.90.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (annotate)
+* installing *source* package ‘rae230a.db’ ...
+** this is package ‘rae230a.db’ version ‘3.13.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rae230a.db’ as ‘rae230a.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rae230a.db)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5LwjgL/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	3m47.155s
+user	3m25.147s
+sys	0m11.008s

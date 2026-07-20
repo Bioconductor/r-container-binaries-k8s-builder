@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''breakpointR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'breakpointR'
+also installing the dependency ‘breakpointRdata’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/breakpointRdata_1.30.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/breakpointR_1.30.0.tar.gz'
+* installing *source* package ‘breakpointRdata’ ...
+** this is package ‘breakpointRdata’ version ‘1.30.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breakpointRdata’ as ‘breakpointRdata_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breakpointRdata)
+* installing *source* package ‘breakpointR’ ...
+** this is package ‘breakpointR’ version ‘1.30.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breakpointR’ as ‘breakpointR_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breakpointR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpa3BaET/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m50.471s
+user	0m42.026s
+sys	0m5.657s
