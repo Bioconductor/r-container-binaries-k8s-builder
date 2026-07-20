@@ -6,20 +6,21 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 436 (18%)
+- **Successfully Built:** 455 (19%)
 - **Failed:** 7 (0%)
-- **In Progress:** 26
-- **Not Started:** 1915
+- **In Progress:** 24
+- **Not Started:** 1898
 
-**Progress:** 18%
+**Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (436)
+## Successfully Built Packages (455)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
+| [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
@@ -44,9 +45,8 @@
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
-| [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
 
-*... and 386 more ...*
+*... and 405 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,36 +88,33 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (26)
+## In Progress (24)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
-- ⏳ `EnMCB`
+- ⏳ `GWAS.BAYES`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `HilbertVisGUI`
+- ⏳ `Linnorm`
 - ⏳ `RProtoBufLib`
-- ⏳ `SCFA`
-- ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
 - ⏳ `TreeAndLeaf`
 - ⏳ `XINA`
 - ⏳ `basilisk`
 - ⏳ `basilisk.utils`
+- ⏳ `ctsGE`
 - ⏳ `decoupleR`
+- ⏳ `edgeR`
 - ⏳ `epistasisGA`
-- ⏳ `faers`
 - ⏳ `fobitools`
-- ⏳ `gpls`
-- ⏳ `iClusterPlus`
-- ⏳ `les`
-- ⏳ `levi`
+- ⏳ `iCOBRA`
+- ⏳ `limmaGUI`
+- ⏳ `limpa`
+- ⏳ `marray`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `mitch`
-- ⏳ `proteinProfiles`
 
-## Not Yet Started (1915)
-- ⏸️ `ABSSeq`
+## Not Yet Started (1898)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -167,9 +164,10 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
+- ⏸️ `BSgenome`
 
-... and 1865 more ...
+... and 1848 more ...
 
 ---
-*Last updated: 2026-07-20 19:41:42 UTC*
-*Packages with verified BBS status: 132*
+*Last updated: 2026-07-20 19:42:32 UTC*
+*Packages with verified BBS status: 133*

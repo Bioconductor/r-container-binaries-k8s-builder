@@ -1,0 +1,153 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SpaceMarkers'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SpaceMarkers'
+also installing the dependencies ‘bmp’, ‘matrixTests’, ‘hdf5r’, ‘readbitmap’, ‘CoGAPS’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bmp_0.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/matrixTests_0.2.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hdf5r_1.3.12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readbitmap_0.1.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CoGAPS_3.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SpaceMarkers_2.2.0.tar.gz'
+* installing *binary* package ‘bmp’ ...
+* package ‘bmp’ successfully unpacked and SHA256 sums checked
+* ‘bmp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bmp’ as ‘bmp_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bmp)
+* installing *binary* package ‘matrixTests’ ...
+* package ‘matrixTests’ successfully unpacked and SHA256 sums checked
+* ‘matrixTests’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘matrixTests’ as ‘matrixTests_0.2.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (matrixTests)
+* installing *binary* package ‘hdf5r’ ...
+* package ‘hdf5r’ successfully unpacked and SHA256 sums checked
+* ‘hdf5r’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hdf5r’ as ‘hdf5r_1.3.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hdf5r)
+* installing *source* package ‘CoGAPS’ ...
+** this is package ‘CoGAPS’ version ‘3.32.0’
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking for g++ -std=gnu++20 option to enable C++11 features... -std=gnu++11
+checking how to run the C++ preprocessor... g++ -std=gnu++20 -std=gnu++11 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether g++ -std=gnu++20 -std=gnu++11 accepts -g... (cached) yes
+checking for g++ -std=gnu++20 -std=gnu++11 option to enable C++11 features... (cached) -std=gnu++11
+./configure: line 3289: AX_COMPILER_VENDOR: command not found
+./configure: line 3290: AX_COMPILER_VERSION: command not found
+./configure: line 3303: AX_OPENMP: command not found
+building on  compiler version 
+Enabling C++ Unit Tests
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Cogaps.cpp -o Cogaps.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GapsParameters.cpp -o GapsParameters.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GapsResult.cpp -o GapsResult.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GapsRunner.cpp -o GapsRunner.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GapsStatistics.cpp -o GapsStatistics.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-runner.cpp -o test-runner.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c atomic/Atom.cpp -o atomic/Atom.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c atomic/ConcurrentAtom.cpp -o atomic/ConcurrentAtom.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c atomic/AtomicDomain.cpp -o atomic/AtomicDomain.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c atomic/ConcurrentAtomicDomain.cpp -o atomic/ConcurrentAtomicDomain.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c atomic/ProposalQueue.cpp -o atomic/ProposalQueue.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/HashSets.cpp -o data_structures/HashSets.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/HybridMatrix.cpp -o data_structures/HybridMatrix.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/HybridVector.cpp -o data_structures/HybridVector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/Matrix.cpp -o data_structures/Matrix.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/SparseIterator.cpp -o data_structures/SparseIterator.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/SparseMatrix.cpp -o data_structures/SparseMatrix.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/SparseVector.cpp -o data_structures/SparseVector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c data_structures/Vector.cpp -o data_structures/Vector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c file_parser/CharacterDelimitedParser.cpp -o file_parser/CharacterDelimitedParser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c file_parser/FileParser.cpp -o file_parser/FileParser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c file_parser/MatrixElement.cpp -o file_parser/MatrixElement.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c file_parser/MtxParser.cpp -o file_parser/MtxParser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gibbs_sampler/AlphaParameters.cpp -o gibbs_sampler/AlphaParameters.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gibbs_sampler/DenseNormalModel.cpp -o gibbs_sampler/DenseNormalModel.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gibbs_sampler/SparseNormalModel.cpp -o gibbs_sampler/SparseNormalModel.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c math/Math.cpp -o math/Math.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c math/MatrixMath.cpp -o math/MatrixMath.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c math/Random.cpp -o math/Random.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c math/VectorMath.cpp -o math/VectorMath.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp_tests/testVector.cpp -o cpp_tests/testVector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp_tests/testSparseVector.cpp -o cpp_tests/testSparseVector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp_tests/testHashSets.cpp -o cpp_tests/testHashSets.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp_tests/testHybridMatrix.cpp -o cpp_tests/testHybridMatrix.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp_tests/testHybridVector.cpp -o cpp_tests/testHybridVector.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DBOOST_MATH_PROMOTE_DOUBLE_POLICY=0 -DGAPS_DISABLE_CHECKPOINTS -D__GAPS_R_BUILD__ -DGAPS_CPP_UNIT_TESTS  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp_tests/testSparseIterator.cpp -o cpp_tests/testSparseIterator.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o CoGAPS.so Cogaps.o GapsParameters.o GapsResult.o GapsRunner.o GapsStatistics.o RcppExports.o test-runner.o atomic/Atom.o atomic/ConcurrentAtom.o atomic/AtomicDomain.o atomic/ConcurrentAtomicDomain.o atomic/ProposalQueue.o data_structures/HashSets.o data_structures/HybridMatrix.o data_structures/HybridVector.o data_structures/Matrix.o data_structures/SparseIterator.o data_structures/SparseMatrix.o data_structures/SparseVector.o data_structures/Vector.o file_parser/CharacterDelimitedParser.o file_parser/FileParser.o file_parser/MatrixElement.o file_parser/MtxParser.o gibbs_sampler/AlphaParameters.o gibbs_sampler/DenseNormalModel.o gibbs_sampler/SparseNormalModel.o math/Math.o math/MatrixMath.o math/Random.o math/VectorMath.o cpp_tests/testVector.o cpp_tests/testSparseVector.o cpp_tests/testHashSets.o cpp_tests/testHybridMatrix.o cpp_tests/testHybridVector.o cpp_tests/testSparseIterator.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-CoGAPS/00new/CoGAPS/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CoGAPS’ as ‘CoGAPS_3.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CoGAPS)
+* installing *binary* package ‘readbitmap’ ...
+* package ‘readbitmap’ successfully unpacked and SHA256 sums checked
+* ‘readbitmap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readbitmap’ as ‘readbitmap_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readbitmap)
+* installing *source* package ‘SpaceMarkers’ ...
+** this is package ‘SpaceMarkers’ version ‘2.2.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpaceMarkers’ as ‘SpaceMarkers_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpaceMarkers)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4XmzhM/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m36.291s
+user	2m10.293s
+sys	0m19.540s
