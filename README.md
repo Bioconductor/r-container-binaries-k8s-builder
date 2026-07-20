@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 794 (33%)
+- **Successfully Built:** 810 (33%)
 - **Failed:** 14 (0%)
-- **In Progress:** 11
-- **Not Started:** 1565
+- **In Progress:** 16
+- **Not Started:** 1544
 
-**Progress:** 33%
+**Progress:** 34%
 ```
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (794)
+## Successfully Built Packages (810)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 744 more ...*
+*... and 760 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,20 +95,25 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (11)
+## In Progress (16)
 - ⏳ `Biostrings`
-- ⏳ `Chromatograms`
+- ⏳ `DelayedDataFrame`
+- ⏳ `DelayedRandomArray`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicRanges`
-- ⏳ `InteractiveComplexHeatmap`
-- ⏳ `SpectriPy`
-- ⏳ `frmaTools`
-- ⏳ `h5mread`
+- ⏳ `TileDBArray`
+- ⏳ `adverSCarial`
+- ⏳ `beachmat`
+- ⏳ `flowMerge`
+- ⏳ `flowWorkspace`
 - ⏳ `ldblock`
 - ⏳ `msPurity`
-- ⏳ `optimalFlow`
+- ⏳ `orthogene`
+- ⏳ `rhdf5client`
+- ⏳ `sketchR`
+- ⏳ `uSORT`
 
-## Not Yet Started (1565)
+## Not Yet Started (1544)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -160,8 +165,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1515 more ...
+... and 1494 more ...
 
 ---
-*Last updated: 2026-07-20 20:15:50 UTC*
+*Last updated: 2026-07-20 20:17:00 UTC*
 *Packages with verified BBS status: 157*
