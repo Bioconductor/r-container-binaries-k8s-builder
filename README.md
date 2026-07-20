@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1999 (85%)
+- **Successfully Built:** 2037 (86%)
 - **Failed:** 35 (1%)
-- **In Progress:** 112
-- **Not Started:** 200
+- **In Progress:** 88
+- **Not Started:** 186
 
-**Progress:** 86%
+**Progress:** 88%
 ```
-███████████████████████████████████████████░░░░░░░
+████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1999)
+## Successfully Built Packages (2037)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1949 more ...*
+*... and 1987 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
 | [visiumStitched](https://bioconductor.org/packages/3.24/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.24/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vmrseq) |
@@ -58,6 +57,7 @@
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
+| [wavClusteR](https://bioconductor.org/packages/3.24/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.24/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/webbioc) |
 | [weitrix](https://bioconductor.org/packages/3.24/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weitrix) |
@@ -116,12 +116,12 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (112)
+## In Progress (88)
+- ⏳ `ATACseqTFEA`
 - ⏳ `AnnotationHubData`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CNVrd2`
 - ⏳ `CSSQ`
-- ⏳ `ChIPQC`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CleanUpRNAseq`
 - ⏳ `Cogito`
@@ -135,46 +135,45 @@
 - ⏳ `EventPointer`
 - ⏳ `FLAMES`
 - ⏳ `G4SNVHunter`
-- ⏳ `GA4GHclient`
 - ⏳ `GRaNIE`
 - ⏳ `GSReg`
 - ⏳ `GenVisR`
-- ⏳ `GenomicFiles`
 - ⏳ `InPAS`
 - ⏳ `MIRA`
 - ⏳ `MOSClip`
 - ⏳ `Moonlight2R`
 - ⏳ `MungeSumstats`
-- ⏳ `MutSeqR`
-- ⏳ `MutationalPatterns`
-- ⏳ `ORFik`
-- ⏳ `OUTRIDER`
-- ⏳ `ProteoDisco`
-- ⏳ `PureCN`
+- ⏳ `OMICsPCA`
 - ⏳ `RBedMethyl`
-- ⏳ `RCAS`
 - ⏳ `RareVariantVis`
 - ⏳ `Rhisat2`
-- ⏳ `SEMPLR`
-- ⏳ `SigsPack`
-- ⏳ `StructuralVariantAnnotation`
 - ⏳ `UMI4Cats`
-- ⏳ `UPDhmm`
-- ⏳ `Uniquorn`
 - ⏳ `VariantTools`
-- ⏳ `ZygosityPredictor`
-- ⏳ `alabaster.vcf`
 - ⏳ `annotatr`
 - ⏳ `appreci8R`
+- ⏳ `atSNP`
 - ⏳ `biovizBase`
+- ⏳ `borealis`
+- ⏳ `cBioPortalData`
+- ⏳ `cardelino`
+- ⏳ `casper`
+- ⏳ `chevreulProcess`
+- ⏳ `chromVAR`
+- ⏳ `clipper`
+- ⏳ `coMethDMR`
+- ⏳ `crisprDesign`
+- ⏳ `dagLogo`
+- ⏳ `damidBind`
+- ⏳ `decemedip`
+- ⏳ `enhancerHomologSearch`
+- ⏳ `epiSeeker`
 
-... and 62 more ...
+... and 38 more ...
 
-## Not Yet Started (200)
+## Not Yet Started (186)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
-- ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `ArrayExpress`
@@ -221,9 +220,10 @@
 - ⏸️ `MEAT`
 - ⏸️ `MetaboSignal`
 - ⏸️ `MethylAid`
+- ⏸️ `MinimumDistance`
 
-... and 150 more ...
+... and 136 more ...
 
 ---
-*Last updated: 2026-07-20 21:40:59 UTC*
-*Packages with verified BBS status: 239*
+*Last updated: 2026-07-20 21:42:52 UTC*
+*Packages with verified BBS status: 240*

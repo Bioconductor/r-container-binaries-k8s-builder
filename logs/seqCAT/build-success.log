@@ -1,0 +1,44 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''seqCAT'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'seqCAT'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/seqCAT_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 1984499 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+* installing *source* package ‘seqCAT’ ...
+** this is package ‘seqCAT’ version ‘1.35.0’
+** package ‘seqCAT’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seqCAT’ as ‘seqCAT_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqCAT)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYpydzq/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m7.753s
+user	0m40.657s
+sys	0m6.114s

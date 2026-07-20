@@ -12,7 +12,6 @@
   "ATACseqTFEA": [],
   "AgiMicroRna": [
     "affycoretools",
-    "oligoClasses",
     "ReportingTools",
     "ggbio",
     "biovizBase"
@@ -23,8 +22,7 @@
   ],
   "AnnotationHubData": [],
   "ArrayExpress": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "BOBaFIT": [
     "ggbio",
@@ -36,14 +34,12 @@
     "ggbio"
   ],
   "CAGEfightR": [
-    "GenomicFiles",
     "Gviz",
     "GenomicInteractions",
     "biovizBase"
   ],
   "CAGEr": [
     "CAGEfightR",
-    "GenomicFiles",
     "Gviz",
     "GenomicInteractions",
     "biovizBase"
@@ -63,18 +59,15 @@
     "minfi",
     "DMRcate",
     "wateRmelon",
-    "goseq",
     "missMethyl",
     "Gviz",
     "methylumi",
     "lumi",
     "biovizBase"
   ],
-  "ChIPQC": [],
   "ChIPXpress": [
     "frma",
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "ChIPexoQual": [
     "biovizBase"
@@ -109,15 +102,13 @@
   "DaMiRseq": [],
   "Damsel": [
     "ggbio",
-    "goseq",
     "biovizBase"
   ],
   "DegCre": [],
   "DominoEffect": [],
   "DrugVsDisease": [
     "ArrayExpress",
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "DuplexDiscovereR": [
     "Gviz",
@@ -133,14 +124,9 @@
     "AnnotationHubData"
   ],
   "FLAMES": [],
-  "FRASER": [
-    "OUTRIDER"
-  ],
+  "FRASER": [],
   "G4SNVHunter": [],
-  "GA4GHclient": [],
-  "GA4GHshiny": [
-    "GA4GHclient"
-  ],
+  "GA4GHshiny": [],
   "GARS": [
     "DaMiRseq",
     "MLSeq"
@@ -159,11 +145,9 @@
     "biovizBase"
   ],
   "GeneTonic": [
-    "mosdef",
-    "goseq"
+    "mosdef"
   ],
   "GenomAutomorphism": [],
-  "GenomicFiles": [],
   "GenomicInteractions": [
     "Gviz",
     "biovizBase"
@@ -172,9 +156,7 @@
     "ggbio",
     "biovizBase"
   ],
-  "GenomicPlot": [
-    "RCAS"
-  ],
+  "GenomicPlot": [],
   "GeoDiff": [
     "GeomxTools",
     "NanoStringNCTools"
@@ -202,20 +184,14 @@
   ],
   "IFAA": [],
   "ITALICS": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "InPAS": [],
-  "IntEREst": [
-    "GenomicFiles"
-  ],
-  "IsoformSwitchAnalyzeR": [
-    "tximeta"
-  ],
+  "IntEREst": [],
+  "IsoformSwitchAnalyzeR": [],
   "MAGAR": [
     "RnBeads",
     "crlmm",
-    "oligoClasses",
     "methylumi",
     "minfi"
   ],
@@ -245,13 +221,10 @@
   ],
   "MinimumDistance": [
     "VanillaICE",
-    "oligoClasses",
     "crlmm"
   ],
   "Moonlight2R": [],
   "MungeSumstats": [],
-  "MutSeqR": [],
-  "MutationalPatterns": [],
   "NADfinder": [
     "trackViewer",
     "ATACseqQC",
@@ -265,37 +238,27 @@
     "biovizBase"
   ],
   "OMICsPCA": [],
-  "ORFik": [],
-  "OUTRIDER": [],
   "PDATK": [],
-  "ProteoDisco": [],
-  "PureCN": [],
   "Pviz": [
     "Gviz",
     "biovizBase"
   ],
-  "QuasR": [
-    "GenomicFiles"
-  ],
+  "QuasR": [],
   "R3CPET": [
     "ggbio",
     "biovizBase"
   ],
   "RBedMethyl": [],
-  "RCAS": [],
   "REDseq": [
     "ChIPpeakAnno"
   ],
   "REMP": [
     "minfi"
   ],
-  "RESOLVE": [
-    "MutationalPatterns"
-  ],
+  "RESOLVE": [],
   "RNAAgeCalc": [
     "recount",
-    "derfinder",
-    "GenomicFiles"
+    "derfinder"
   ],
   "RNAmodR": [
     "Gviz",
@@ -323,30 +286,22 @@
     "biovizBase"
   ],
   "Rhisat2": [],
-  "RiboCrypt": [
-    "ORFik"
-  ],
+  "RiboCrypt": [],
   "RnBeads": [
     "methylumi",
     "minfi"
   ],
   "RnaSeqSampleSize": [
     "recount",
-    "derfinder",
-    "GenomicFiles"
+    "derfinder"
   ],
   "Rqc": [
-    "biovizBase",
-    "GenomicFiles"
+    "biovizBase"
   ],
   "SCAN.UPC": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
-  "SEMPLR": [],
-  "SMITE": [
-    "goseq"
-  ],
+  "SMITE": [],
   "SOMNiBUS": [
     "annotatr"
   ],
@@ -355,7 +310,6 @@
     "biovizBase"
   ],
   "SPONGE": [],
-  "SigsPack": [],
   "SomaticSignatures": [
     "ggbio",
     "biovizBase"
@@ -369,28 +323,18 @@
     "NanoStringNCTools"
   ],
   "SpectralTAD": [],
-  "StructuralVariantAnnotation": [],
   "SubCellBarCode": [],
   "TADCompare": [],
-  "TFHAZ": [
-    "ORFik"
-  ],
-  "TFutils": [
-    "GenomicFiles"
-  ],
+  "TFHAZ": [],
+  "TFutils": [],
   "TOP": [],
   "TVTB": [
     "Gviz",
     "biovizBase"
   ],
   "UMI4Cats": [],
-  "UPDhmm": [],
-  "Uniquorn": [],
-  "VCFArray": [
-    "GenomicFiles"
-  ],
+  "VCFArray": [],
   "VanillaICE": [
-    "oligoClasses",
     "crlmm"
   ],
   "VariantFiltering": [
@@ -403,17 +347,12 @@
     "ggbio",
     "biovizBase"
   ],
-  "ZygosityPredictor": [],
   "affycoretools": [
-    "oligoClasses",
     "ReportingTools",
     "ggbio",
     "biovizBase"
   ],
-  "alabaster": [
-    "alabaster.vcf"
-  ],
-  "alabaster.vcf": [],
+  "alabaster": [],
   "annoLinker": [
     "trackViewer",
     "Gviz",
@@ -462,8 +401,7 @@
   "cardelino": [],
   "carnation": [
     "GeneTonic",
-    "mosdef",
-    "goseq"
+    "mosdef"
   ],
   "casper": [],
   "cbaf": [
@@ -486,12 +424,9 @@
     "Gviz",
     "biovizBase"
   ],
-  "circRNAprofiler": [
-    "gwascat"
-  ],
+  "circRNAprofiler": [],
   "clipper": [],
   "cn.farms": [
-    "oligoClasses",
     "oligo"
   ],
   "coMethDMR": [],
@@ -526,30 +461,20 @@
     "Gviz",
     "biovizBase"
   ],
-  "crlmm": [
-    "oligoClasses"
-  ],
+  "crlmm": [],
   "cytomapper": [],
   "cytoviewer": [
     "cytomapper"
   ],
   "dagLogo": [],
   "damidBind": [],
-  "dbSequence": [],
   "decemedip": [],
-  "decompTumor2Sig": [],
-  "deepSNV": [],
-  "demuxSNP": [],
-  "derfinder": [
-    "GenomicFiles"
-  ],
+  "derfinder": [],
   "derfinderPlot": [
     "derfinder",
     "ggbio",
-    "GenomicFiles",
     "biovizBase"
   ],
-  "diffUTR": [],
   "dmrseq": [
     "annotatr"
   ],
@@ -560,7 +485,6 @@
     "methylumi",
     "lumi"
   ],
-  "drugTargetInteractions": [],
   "enhancerHomologSearch": [],
   "epiRomics": [
     "annotatr"
@@ -599,15 +523,12 @@
     "biovizBase"
   ],
   "frma": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "funtooNorm": [
     "minfi"
   ],
-  "gDNAx": [
-    "GenomicFiles"
-  ],
+  "gDNAx": [],
   "geomeTriD": [
     "trackViewer",
     "Gviz",
@@ -617,8 +538,6 @@
     "biovizBase"
   ],
   "gmapR": [],
-  "goseq": [],
-  "gwascat": [],
   "gwasurvivr": [],
   "iCheck": [
     "lumi",
@@ -631,8 +550,7 @@
   "iSEEfier": [],
   "icetea": [],
   "ideal": [
-    "mosdef",
-    "goseq"
+    "mosdef"
   ],
   "igvR": [],
   "imageFeatureTCGA": [],
@@ -660,9 +578,7 @@
     "minfi"
   ],
   "m6Aboost": [],
-  "mBPCR": [
-    "oligoClasses"
-  ],
+  "mBPCR": [],
   "mCSEA": [
     "Gviz",
     "biovizBase"
@@ -705,21 +621,16 @@
   ],
   "miaDash": [],
   "mimager": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "minfi": [],
   "missMethyl": [
     "methylumi",
     "minfi"
   ],
-  "mitoClone2": [
-    "deepSNV"
-  ],
+  "mitoClone2": [],
   "monaLisa": [],
-  "mosdef": [
-    "goseq"
-  ],
+  "mosdef": [],
   "motifbreakR": [
     "Gviz",
     "biovizBase"
@@ -732,16 +643,11 @@
     "karyoploteR",
     "biovizBase"
   ],
-  "musicatk": [
-    "decompTumor2Sig"
-  ],
+  "musicatk": [],
   "mygene": [],
   "myvariant": [],
   "octad": [],
-  "oligo": [
-    "oligoClasses"
-  ],
-  "oligoClasses": [],
+  "oligo": [],
   "pRoloc": [],
   "pRolocGUI": [
     "pRoloc"
@@ -749,12 +655,10 @@
   "pageRank": [],
   "parati": [],
   "pcaExplorer": [
-    "mosdef",
-    "goseq"
+    "mosdef"
   ],
   "pdInfoBuilder": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "preciseTAD": [
     "rCGH"
@@ -764,41 +668,32 @@
     "biovizBase"
   ],
   "proActiv": [],
-  "proBAMr": [],
-  "profileplyr": [],
   "psichomics": [
     "recount",
-    "derfinder",
-    "GenomicFiles"
+    "derfinder"
   ],
   "puma": [
-    "oligo",
-    "oligoClasses"
+    "oligo"
   ],
   "quantro": [
     "minfi"
   ],
   "rCGH": [],
   "recount": [
-    "derfinder",
-    "GenomicFiles"
+    "derfinder"
   ],
   "recountmethylation": [
     "minfi"
   ],
-  "recoup": [],
   "regionReport": [
-    "derfinder",
-    "GenomicFiles"
+    "derfinder"
   ],
   "regioneReloaded": [],
   "regutools": [
     "Gviz",
     "biovizBase"
   ],
-  "rgsepd": [
-    "goseq"
-  ],
+  "rgsepd": [],
   "ribosomeProfilingQC": [],
   "saseR": [
     "ASpli",
@@ -823,12 +718,10 @@
     "annotatr"
   ],
   "scone": [],
-  "scoreInvHap": [],
   "scruff": [
     "ggbio",
     "biovizBase"
   ],
-  "seqCAT": [],
   "shinyDSP": [
     "standR"
   ],
@@ -838,12 +731,10 @@
   "shinyepico": [
     "minfi"
   ],
-  "signeR": [],
   "simpleSeg": [
     "cytomapper"
   ],
   "singleCellTK": [],
-  "sitadela": [],
   "skewr": [
     "methylumi",
     "wateRmelon",
@@ -860,33 +751,23 @@
     "biovizBase"
   ],
   "standR": [],
-  "svaNUMT": [
-    "StructuralVariantAnnotation"
-  ],
-  "svaRetro": [
-    "StructuralVariantAnnotation"
-  ],
+  "svaNUMT": [],
+  "svaRetro": [],
   "tadar": [
     "Gviz",
     "biovizBase"
   ],
-  "terraTCGAdata": [],
   "tidyexposomics": [],
   "trackViewer": [
     "Gviz",
     "biovizBase"
   ],
   "transcriptR": [],
-  "transmogR": [],
-  "txcutr": [],
-  "tximeta": [],
   "uncoverappLib": [
     "Gviz",
     "biovizBase"
   ],
-  "vtpnet": [
-    "gwascat"
-  ],
+  "vtpnet": [],
   "vulcan": [
     "ChIPpeakAnno"
   ],
@@ -895,7 +776,6 @@
     "lumi",
     "minfi"
   ],
-  "wavClusteR": [],
   "wavFeatExt": [],
   "yarn": [
     "quantro",
