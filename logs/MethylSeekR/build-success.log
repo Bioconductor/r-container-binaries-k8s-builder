@@ -1,0 +1,48 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MethylSeekR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MethylSeekR'
+also installing the dependency ‘mhsmm’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mhsmm_0.4.21.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MethylSeekR_1.53.0.tar.gz'
+* installing *binary* package ‘mhsmm’ ...
+* package ‘mhsmm’ successfully unpacked and SHA256 sums checked
+* ‘mhsmm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mhsmm’ as ‘mhsmm_0.4.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mhsmm)
+* installing *source* package ‘MethylSeekR’ ...
+** this is package ‘MethylSeekR’ version ‘1.53.0’
+** package ‘MethylSeekR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MethylSeekR’ as ‘MethylSeekR_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MethylSeekR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4Q1SZh/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m53.236s
+user	0m34.660s
+sys	0m5.599s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1861 (79%)
+- **Successfully Built:** 1903 (81%)
 - **Failed:** 32 (1%)
-- **In Progress:** 69
-- **Not Started:** 384
+- **In Progress:** 76
+- **Not Started:** 335
 
-**Progress:** 80%
+**Progress:** 82%
 ```
-████████████████████████████████████████░░░░░░░░░░
+█████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1861)
+## Successfully Built Packages (1903)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1811 more ...*
+*... and 1853 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -113,61 +113,61 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (69)
+## In Progress (76)
+- ⏳ `Basic4Cseq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CARDspa`
-- ⏳ `CNVRanger`
+- ⏳ `CODEX`
+- ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
-- ⏳ `CTSV`
-- ⏳ `CatsCradle`
+- ⏳ `ChIPanalyser`
 - ⏳ `Cogito`
 - ⏳ `CoverageView`
 - ⏳ `DMCHMM`
 - ⏳ `DNAfusion`
 - ⏳ `DeconvoBuddies`
 - ⏳ `DegCre`
-- ⏳ `EDASeq`
-- ⏳ `EpiMix`
 - ⏳ `ExCluster`
 - ⏳ `FindIT2`
 - ⏳ `GenomicCoordinates`
 - ⏳ `Guitar`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
-- ⏳ `Ibex`
+- ⏳ `MMDiff2`
+- ⏳ `MotifPeeker`
 - ⏳ `NoRCE`
-- ⏳ `OrganismDbi`
 - ⏳ `PMScanR`
 - ⏳ `Rmmquant`
 - ⏳ `SCANVIS`
 - ⏳ `SPICEY`
+- ⏳ `SparseSignatures`
+- ⏳ `SpliceWiz`
 - ⏳ `SplicingGraphs`
 - ⏳ `TCGAutils`
+- ⏳ `TENET`
+- ⏳ `TFBSTools`
 - ⏳ `TFEA.ChIP`
 - ⏳ `TRESS`
+- ⏳ `VariantAnnotation`
 - ⏳ `atena`
-- ⏳ `bumphunter`
-- ⏳ `cpvSNP`
+- ⏳ `bambu`
+- ⏳ `branchpointer`
+- ⏳ `bsseq`
+- ⏳ `cleanUpdTSeq`
+- ⏳ `cliProfiler`
+- ⏳ `crisprBowtie`
+- ⏳ `crisprBwa`
 - ⏳ `crupR`
-- ⏳ `decontX`
+- ⏳ `diffHic`
 - ⏳ `divergence`
 - ⏳ `doubletrouble`
 - ⏳ `ensembldb`
 - ⏳ `factR`
 - ⏳ `gINTomics`
-- ⏳ `gVenn`
-- ⏳ `geneAttribution`
-- ⏳ `gmoviz`
-- ⏳ `hicVennDiagram`
-- ⏳ `iSEEtree`
-- ⏳ `mariner`
-- ⏳ `metagene2`
-- ⏳ `methylKit`
-- ⏳ `mist`
 
-... and 19 more ...
+... and 26 more ...
 
-## Not Yet Started (384)
+## Not Yet Started (335)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -177,12 +177,9 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BEAT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Basic4Cseq`
 - ⏸️ `BgeeCall`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -191,13 +188,10 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CODEX`
-- ⏸️ `CRISPRseek`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
-- ⏸️ `ChIPanalyser`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
@@ -207,7 +201,6 @@
 - ⏸️ `CyTOFpower`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
-- ⏸️ `DMRcaller`
 - ⏸️ `DMRcate`
 - ⏸️ `DOTSeq`
 - ⏸️ `DOtools`
@@ -218,9 +211,16 @@
 - ⏸️ `DiffBind`
 - ⏸️ `DominoEffect`
 - ⏸️ `DrugVsDisease`
+- ⏸️ `DuplexDiscovereR`
+- ⏸️ `ELViS`
+- ⏸️ `ENmix`
+- ⏸️ `EpiCompare`
+- ⏸️ `EpiTxDb`
+- ⏸️ `EventPointer`
+- ⏸️ `ExperimentHubData`
 
-... and 334 more ...
+... and 285 more ...
 
 ---
-*Last updated: 2026-07-20 21:30:09 UTC*
+*Last updated: 2026-07-20 21:33:32 UTC*
 *Packages with verified BBS status: 234*

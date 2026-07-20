@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rifi'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rifi'
+also installing the dependencies ‘doMC’, ‘nls2’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/doMC_1.3.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nls2_0.3-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rifi_1.17.1.tar.gz'
+* installing *binary* package ‘doMC’ ...
+* package ‘doMC’ successfully unpacked and SHA256 sums checked
+* ‘doMC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘doMC’ as ‘doMC_1.3.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doMC)
+* installing *binary* package ‘nls2’ ...
+* package ‘nls2’ successfully unpacked and SHA256 sums checked
+* ‘nls2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nls2’ as ‘nls2_0.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nls2)
+* installing *source* package ‘rifi’ ...
+** this is package ‘rifi’ version ‘1.17.1’
+** package ‘rifi’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Note: next used in wrong context: no loop is visible 
+** help
+Warning: /tmp/RtmpXd51RF/R.INSTALL573e0ed741/rifi/man/apply_Ttest_delay.Rd:55: unexpected '}'
+Warning: /tmp/RtmpXd51RF/R.INSTALL573e0ed741/rifi/man/predict_ps_itss.Rd:57: unexpected '}'
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rifi’ as ‘rifi_1.17.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rifi)
+
+The downloaded source packages are in
+	‘/tmp/RtmplPXm8r/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m51.838s
+user	0m39.549s
+sys	0m5.744s
