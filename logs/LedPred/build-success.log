@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''LedPred'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'LedPred'
+also installing the dependencies ‘lpSolve’, ‘misc3d’, ‘akima’, ‘irr’, ‘plot3D’, ‘ROCR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lpSolve_5.6.23.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/misc3d_0.9-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/akima_0.6-3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/irr_0.85.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plot3D_1.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ROCR_1.0-12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/LedPred_1.47.0.tar.gz'
+* installing *binary* package ‘lpSolve’ ...
+* package ‘lpSolve’ successfully unpacked and SHA256 sums checked
+* ‘lpSolve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lpSolve’ as ‘lpSolve_5.6.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lpSolve)
+* installing *binary* package ‘misc3d’ ...
+* package ‘misc3d’ successfully unpacked and SHA256 sums checked
+* ‘misc3d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘misc3d’ as ‘misc3d_0.9-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (misc3d)
+* installing *binary* package ‘akima’ ...
+* package ‘akima’ successfully unpacked and SHA256 sums checked
+* ‘akima’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘akima’ as ‘akima_0.6-3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (akima)
+* installing *binary* package ‘ROCR’ ...
+* package ‘ROCR’ successfully unpacked and SHA256 sums checked
+* ‘ROCR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ROCR’ as ‘ROCR_1.0-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROCR)
+* installing *binary* package ‘irr’ ...
+* package ‘irr’ successfully unpacked and SHA256 sums checked
+* ‘irr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘irr’ as ‘irr_0.85_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (irr)
+* installing *binary* package ‘plot3D’ ...
+* package ‘plot3D’ successfully unpacked and SHA256 sums checked
+* ‘plot3D’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plot3D’ as ‘plot3D_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plot3D)
+* installing *source* package ‘LedPred’ ...
+** this is package ‘LedPred’ version ‘1.47.0’
+** package ‘LedPred’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘LedPred’
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘LedPred’
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘LedPred’
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LedPred’ as ‘LedPred_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LedPred)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpwrwo7j/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m42.769s
+user	0m13.585s
+sys	0m6.240s
