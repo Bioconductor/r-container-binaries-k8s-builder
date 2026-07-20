@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 892 (37%)
+- **Successfully Built:** 969 (40%)
 - **Failed:** 14 (0%)
-- **In Progress:** 15
-- **Not Started:** 1463
+- **In Progress:** 13
+- **Not Started:** 1388
 
-**Progress:** 38%
+**Progress:** 41%
 ```
-███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (892)
+## Successfully Built Packages (969)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,14 +46,13 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 
-*... and 842 more ...*
+*... and 919 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
-| [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [toppgene](https://bioconductor.org/packages/3.23/bioc/html/toppgene.html) | [log](logs/toppgene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/toppgene) |
+| [transite](https://bioconductor.org/packages/3.23/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.23/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.23/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/trio) |
@@ -65,6 +64,7 @@
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
+| [universalmotif](https://bioconductor.org/packages/3.23/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
@@ -95,24 +95,22 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (15)
-- ⏳ `AnnotationDbi`
-- ⏳ `BiocNeighbors`
-- ⏳ `GeomxTools`
-- ⏳ `beachmat.hdf5`
-- ⏳ `beachmat.tiledb`
-- ⏳ `flowStats`
-- ⏳ `ggcyto`
-- ⏳ `ggmsa`
-- ⏳ `idpr`
-- ⏳ `microbiome`
-- ⏳ `microbiomeDASim`
+## In Progress (13)
+- ⏳ `epialleleR`
+- ⏳ `heatmaps`
+- ⏳ `megadepth`
+- ⏳ `methimpute`
 - ⏳ `msa`
-- ⏳ `openCyto`
-- ⏳ `reconsi`
-- ⏳ `universalmotif`
+- ⏳ `openPrimeR`
+- ⏳ `pepStat`
+- ⏳ `pqsfinder`
+- ⏳ `ramr`
+- ⏳ `rigvf`
+- ⏳ `seqPattern`
+- ⏳ `syntenet`
+- ⏳ `triplex`
 
-## Not Yet Started (1463)
+## Not Yet Started (1388)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -136,12 +134,10 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationFilter`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `AssessORF`
 - ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
@@ -150,7 +146,6 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
@@ -163,9 +158,12 @@
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
+- ⏸️ `BatchQC`
+- ⏸️ `BatchSVG`
+- ⏸️ `Battlefield`
 
-... and 1413 more ...
+... and 1338 more ...
 
 ---
-*Last updated: 2026-07-20 20:21:56 UTC*
-*Packages with verified BBS status: 160*
+*Last updated: 2026-07-20 20:24:24 UTC*
+*Packages with verified BBS status: 162*
