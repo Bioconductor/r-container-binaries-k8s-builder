@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1500 (62%)
+- **Successfully Built:** 1551 (65%)
 - **Failed:** 28 (1%)
-- **In Progress:** 153
-- **Not Started:** 703
+- **In Progress:** 111
+- **Not Started:** 694
 
-**Progress:** 64%
+**Progress:** 66%
 ```
-████████████████████████████████░░░░░░░░░░░░░░░░░░
+█████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1500)
+## Successfully Built Packages (1551)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1450 more ...*
+*... and 1501 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -109,37 +109,26 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.23/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (153)
+## In Progress (111)
 - ⏳ `AffiXcan`
 - ⏳ `CAMERA`
 - ⏳ `CARDspa`
-- ⏳ `CTSV`
-- ⏳ `CatsCradle`
-- ⏳ `ClassifyR`
-- ⏳ `CluMSID`
 - ⏳ `CoGAPS`
-- ⏳ `CoreGx`
 - ⏳ `CrcBiomeScreen`
-- ⏳ `DEXSeq`
+- ⏳ `CytoMDS`
 - ⏳ `DNEA`
 - ⏳ `DOSE`
 - ⏳ `DeepTarget`
-- ⏳ `DenoIST`
-- ⏳ `DifferentialRegulation`
 - ⏳ `DspikeIn`
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
 - ⏳ `EGAD`
 - ⏳ `EWCE`
 - ⏳ `EnrichmentBrowser`
-- ⏳ `EpiDISH`
-- ⏳ `GDSArray`
 - ⏳ `GENESIS`
 - ⏳ `GOexpress`
 - ⏳ `GOfuncR`
-- ⏳ `GOpro`
 - ⏳ `GOstats`
-- ⏳ `GSVA`
 - ⏳ `GenomicScores`
 - ⏳ `HIPPO`
 - ⏳ `HTSFilter`
@@ -152,18 +141,29 @@
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `MBECS`
-- ⏳ `MGFM`
 - ⏳ `MSPrep`
 - ⏳ `MSnID`
 - ⏳ `MatrixQCvis`
 - ⏳ `MetaProViz`
 - ⏳ `MsDataHub`
-- ⏳ `PADOG`
-- ⏳ `PAIRADISE`
+- ⏳ `POMA`
+- ⏳ `PROPS`
+- ⏳ `Prostar`
+- ⏳ `RUCova`
+- ⏳ `Rcpi`
+- ⏳ `SEraster`
+- ⏳ `SIM`
+- ⏳ `SPsimSeq`
+- ⏳ `SVP`
+- ⏳ `SWATH2stats`
+- ⏳ `SemDist`
+- ⏳ `SeqSQC`
+- ⏳ `ShortRead`
+- ⏳ `SiPSiC`
 
-... and 103 more ...
+... and 61 more ...
 
-## Not Yet Started (703)
+## Not Yet Started (694)
 - ⏸️ `ACE`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -200,7 +200,6 @@
 - ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
-- ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
 - ⏸️ `CNEr`
 - ⏸️ `CNVRanger`
@@ -214,9 +213,10 @@
 - ⏸️ `CSSQ`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
+- ⏸️ `CellBarcode`
 
-... and 653 more ...
+... and 644 more ...
 
 ---
-*Last updated: 2026-07-20 20:58:23 UTC*
+*Last updated: 2026-07-20 21:00:06 UTC*
 *Packages with verified BBS status: 202*

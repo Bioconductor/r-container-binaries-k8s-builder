@@ -1,0 +1,66 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PIUMA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PIUMA'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/PIUMA_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 5467277 bytes (5.2 MB)
+==================================================
+downloaded 5.2 MB
+
+* installing *source* package ‘PIUMA’ ...
+** this is package ‘PIUMA’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘getOrigData’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setOrigData’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getScaledData’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setScaledData’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getOutcomeFact’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setOutcomeFact’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getOutcome’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setOutcome’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getComp’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setComp’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getDistMat’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setDistMat’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getDfMapper’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setDfMapper’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getJacc’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setJacc’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getGraph’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setGraph’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getClusters’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getMetrics’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘getNodeDataMat’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+in method for ‘setNodeDataMat’ with signature ‘x="TDAobj"’: no definition for class “TDAobj”
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PIUMA’ as ‘PIUMA_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PIUMA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpnlpuPJ/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m45.517s
+user	0m29.614s
+sys	0m5.311s
