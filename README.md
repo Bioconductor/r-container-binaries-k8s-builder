@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1207 (50%)
-- **Failed:** 17 (0%)
-- **In Progress:** 202
-- **Not Started:** 958
+- **Successfully Built:** 1257 (52%)
+- **Failed:** 19 (0%)
+- **In Progress:** 232
+- **Not Started:** 876
 
-**Progress:** 51%
+**Progress:** 53%
 ```
-█████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1207)
+## Successfully Built Packages (1257)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.23/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 
-*... and 1157 more ...*
+*... and 1207 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (17)
+## Failed Packages (19)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -87,8 +87,10 @@
 | [HPiP](https://bioconductor.org/packages/3.23/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPiP) | Build failed with unknown error |
 | [ISAnalytics](https://bioconductor.org/packages/3.23/bioc/html/ISAnalytics.html) | [log](logs/ISAnalytics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ISAnalytics) | Build failed with unknown error |
 | [LedPred](https://bioconductor.org/packages/3.23/bioc/html/LedPred.html) | [log](logs/LedPred/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/LedPred) | Missing R dependency: proxy |
+| [MLSeq](https://bioconductor.org/packages/3.23/bioc/html/MLSeq.html) | [log](logs/MLSeq/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MLSeq) | Missing R dependency: ModelMetrics |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
+| [biotmle](https://bioconductor.org/packages/3.23/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [metabCombiner](https://bioconductor.org/packages/3.23/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -98,19 +100,20 @@
 | [supersigs](https://bioconductor.org/packages/3.23/bioc/html/supersigs.html) | [log](logs/supersigs/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/supersigs) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (202)
+## In Progress (232)
+- ⏳ `AffiXcan`
 - ⏳ `BUSseq`
-- ⏳ `CDI`
-- ⏳ `CHETAH`
-- ⏳ `CHRONOS`
+- ⏳ `CARDspa`
 - ⏳ `COTAN`
-- ⏳ `CellBench`
+- ⏳ `CTSV`
+- ⏳ `CatsCradle`
 - ⏳ `CellTrails`
 - ⏳ `CoGAPS`
+- ⏳ `CoreGx`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
-- ⏳ `DELocal`
 - ⏳ `DOSE`
+- ⏳ `DenoIST`
 - ⏳ `DifferentialRegulation`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
@@ -126,6 +129,7 @@
 - ⏳ `GOexpress`
 - ⏳ `GOfan`
 - ⏳ `GOfuncR`
+- ⏳ `GOpro`
 - ⏳ `GWENA`
 - ⏳ `GenomicScores`
 - ⏳ `GeoTcgaData`
@@ -142,17 +146,15 @@
 - ⏳ `LACE`
 - ⏳ `LRBaseDbi`
 - ⏳ `LRDE`
-- ⏳ `LipidTrend`
-- ⏳ `LiquidAssociation`
+- ⏳ `Lheuristic`
 - ⏳ `MAI`
-- ⏳ `MBQN`
-- ⏳ `MDTS`
+- ⏳ `MGFM`
+- ⏳ `MGFR`
 - ⏳ `MLP`
-- ⏳ `MLSeq`
 
-... and 152 more ...
+... and 182 more ...
 
-## Not Yet Started (958)
+## Not Yet Started (876)
 - ⏸️ `ACE`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -167,7 +169,6 @@
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
 - ⏸️ `Aerith`
-- ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
@@ -183,7 +184,6 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
@@ -199,13 +199,15 @@
 - ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
-- ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
+- ⏸️ `CAMERA`
+- ⏸️ `CATALYST`
+- ⏸️ `CBNplot`
 
-... and 908 more ...
+... and 826 more ...
 
 ---
-*Last updated: 2026-07-20 20:37:39 UTC*
-*Packages with verified BBS status: 179*
+*Last updated: 2026-07-20 20:41:22 UTC*
+*Packages with verified BBS status: 181*

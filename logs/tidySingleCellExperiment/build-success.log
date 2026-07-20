@@ -1,0 +1,110 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tidySingleCellExperiment'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tidySingleCellExperiment'
+also installing the dependencies ‘BulkSignalR’, ‘SingleCellSignalR’, ‘dittoSeq’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BulkSignalR_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SingleCellSignalR_2.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/dittoSeq_1.24.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/tidySingleCellExperiment_1.22.0.tar.gz'
+* installing *source* package ‘BulkSignalR’ ...
+** this is package ‘BulkSignalR’ version ‘1.4.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+ℹ /root/.cache/R/BulkSignalR first set up.
+
+ℹ "GO-BP" added to cache with success.
+
+ℹ "Reactome" added to cache with success.
+
+ℹ "Network" added to cache with success.
+
+ℹ "LRdb" added to cache with success.
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BulkSignalR’ as ‘BulkSignalR_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BulkSignalR)
+* installing *source* package ‘dittoSeq’ ...
+** this is package ‘dittoSeq’ version ‘1.24.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dittoSeq’ as ‘dittoSeq_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dittoSeq)
+* installing *source* package ‘tidySingleCellExperiment’ ...
+** this is package ‘tidySingleCellExperiment’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidySingleCellExperiment’ as ‘tidySingleCellExperiment_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidySingleCellExperiment)
+* installing *source* package ‘SingleCellSignalR’ ...
+** this is package ‘SingleCellSignalR’ version ‘2.2.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SingleCellSignalR’ as ‘SingleCellSignalR_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SingleCellSignalR)
+
+The downloaded source packages are in
+	‘/tmp/RtmptWmZeg/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m37.830s
+user	2m5.474s
+sys	0m15.243s

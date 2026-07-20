@@ -1,0 +1,67 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''biotmle'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'biotmle'
+Warning: dependency ‘superheat’ is not available
+also installing the dependencies ‘crs’, ‘np’, ‘gam’, ‘cvAUC’, ‘drtmle’, ‘SuperLearner’, ‘biotmleData’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/crs_0.15-45.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/np_0.70-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gam_1.22-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cvAUC_1.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/drtmle_1.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SuperLearner_2.0-40.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/biotmleData_1.36.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biotmle_1.36.0.tar.gz'
+* installing *binary* package ‘crs’ ...
+* package ‘crs’ successfully unpacked and SHA256 sums checked
+* ‘crs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘crs’ as ‘crs_0.15-45_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crs)
+* installing *binary* package ‘gam’ ...
+* package ‘gam’ successfully unpacked and SHA256 sums checked
+* ‘gam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gam’ as ‘gam_1.22-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gam)
+* installing *binary* package ‘cvAUC’ ...
+* package ‘cvAUC’ successfully unpacked and SHA256 sums checked
+* ‘cvAUC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cvAUC’ as ‘cvAUC_1.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cvAUC)
+* installing *source* package ‘biotmleData’ ...
+** this is package ‘biotmleData’ version ‘1.36.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biotmleData’ as ‘biotmleData_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biotmleData)
+* installing *binary* package ‘np’ ...
+* package ‘np’ successfully unpacked and SHA256 sums checked
+* ‘np’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘np’ as ‘np_0.70-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (np)

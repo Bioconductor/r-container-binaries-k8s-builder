@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''smoppix'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'smoppix'
+also installing the dependencies ‘spatstat.model’, ‘polyCub’, ‘RImageJROI’, ‘funkycells’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spatstat.model_3.7-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/polyCub_0.9.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RImageJROI_0.1.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/funkycells_1.1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/smoppix_1.4.0.tar.gz'
+* installing *binary* package ‘spatstat.model’ ...
+* package ‘spatstat.model’ successfully unpacked and SHA256 sums checked
+* ‘spatstat.model’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatstat.model’ as ‘spatstat.model_3.7-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatstat.model)
+* installing *binary* package ‘polyCub’ ...
+* package ‘polyCub’ successfully unpacked and SHA256 sums checked
+* ‘polyCub’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polyCub’ as ‘polyCub_0.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polyCub)
+* installing *binary* package ‘RImageJROI’ ...
+* package ‘RImageJROI’ successfully unpacked and SHA256 sums checked
+* ‘RImageJROI’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RImageJROI’ as ‘RImageJROI_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RImageJROI)
+* installing *binary* package ‘funkycells’ ...
+* package ‘funkycells’ successfully unpacked and SHA256 sums checked
+* ‘funkycells’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘funkycells’ as ‘funkycells_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (funkycells)
+* installing *source* package ‘smoppix’ ...
+** this is package ‘smoppix’ version ‘1.4.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c crossdistFast.cpp -o crossdistFast.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c findRanksDist.cpp -o findRanksDist.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c negative-hypergeometric-distribution.cpp -o negative-hypergeometric-distribution.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o smoppix.so RcppExports.o crossdistFast.o findRanksDist.o negative-hypergeometric-distribution.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-smoppix/00new/smoppix/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘smoppix’ as ‘smoppix_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (smoppix)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp3KbSwB/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m56.051s
+user	0m44.409s
+sys	0m7.257s

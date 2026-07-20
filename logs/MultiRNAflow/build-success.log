@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MultiRNAflow'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MultiRNAflow'
+also installing the dependency ‘plot3Drgl’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plot3Drgl_1.0.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MultiRNAflow_1.10.0.tar.gz'
+* installing *binary* package ‘plot3Drgl’ ...
+* package ‘plot3Drgl’ successfully unpacked and SHA256 sums checked
+* ‘plot3Drgl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plot3Drgl’ as ‘plot3Drgl_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plot3Drgl)
+* installing *source* package ‘MultiRNAflow’ ...
+** this is package ‘MultiRNAflow’ version ‘1.10.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MultiRNAflow’ as ‘MultiRNAflow_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MultiRNAflow)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpk1w5j7/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m7.221s
+user	0m40.917s
+sys	0m16.407s
