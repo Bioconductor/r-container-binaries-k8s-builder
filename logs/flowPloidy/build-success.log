@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''flowPloidy'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'flowPloidy'
+also installing the dependency ‘flowPloidyData’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/flowPloidyData_1.39.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/flowPloidy_1.39.0.tar.gz'
+* installing *source* package ‘flowPloidyData’ ...
+** this is package ‘flowPloidyData’ version ‘1.39.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowPloidyData’ as ‘flowPloidyData_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowPloidyData)
+* installing *source* package ‘flowPloidy’ ...
+** this is package ‘flowPloidy’ version ‘1.39.0’
+** package ‘flowPloidy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowPloidy’ as ‘flowPloidy_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowPloidy)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4V9U42/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m22.198s
+user	0m15.607s
+sys	0m4.281s

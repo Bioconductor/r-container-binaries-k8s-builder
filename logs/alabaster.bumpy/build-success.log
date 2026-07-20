@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''alabaster.bumpy'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'alabaster.bumpy'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/alabaster.bumpy_1.13.0.tar.gz'
+Content type 'application/x-gzip' length 241835 bytes (236 KB)
+==================================================
+downloaded 236 KB
+
+* installing *source* package ‘alabaster.bumpy’ ...
+** this is package ‘alabaster.bumpy’ version ‘1.13.0’
+** package ‘alabaster.bumpy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘alabaster.bumpy’ as ‘alabaster.bumpy_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alabaster.bumpy)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4lVT5o/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m25.482s
+user	0m14.998s
+sys	0m3.731s
