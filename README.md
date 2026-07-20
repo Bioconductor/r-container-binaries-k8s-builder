@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2133 (90%)
+- **Successfully Built:** 2199 (93%)
 - **Failed:** 37 (1%)
-- **In Progress:** 41
-- **Not Started:** 135
+- **In Progress:** 32
+- **Not Started:** 78
 
-**Progress:** 92%
+**Progress:** 95%
 ```
-██████████████████████████████████████████████░░░░
+███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2133)
+## Successfully Built Packages (2199)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,9 +44,9 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
-| [ATACseqQC](https://bioconductor.org/packages/3.24/bioc/html/ATACseqQC.html) | [log](logs/ATACseqQC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqQC) |
+| [ASpli](https://bioconductor.org/packages/3.24/bioc/html/ASpli.html) | [log](logs/ASpli/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASpli) |
 
-*... and 2083 more ...*
+*... and 2149 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -118,103 +118,94 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (41)
-- ⏳ `AnnotationHubData`
-- ⏳ `BindingSiteFinder`
-- ⏳ `CSSQ`
-- ⏳ `Cogito`
-- ⏳ `DNAfusion`
+## In Progress (32)
 - ⏳ `DaMiRseq`
-- ⏳ `DegCre`
-- ⏳ `EpiCompare`
-- ⏳ `FLAMES`
-- ⏳ `GRaNIE`
-- ⏳ `GeneTonic`
-- ⏳ `HistoImagePlot`
+- ⏳ `Damsel`
+- ⏳ `ITALICS`
 - ⏳ `InPAS`
-- ⏳ `IntEREst`
-- ⏳ `MIRA`
-- ⏳ `MetaboSignal`
 - ⏳ `MungeSumstats`
-- ⏳ `RBedMethyl`
 - ⏳ `UMI4Cats`
 - ⏳ `VariantTools`
 - ⏳ `annotatr`
-- ⏳ `appreci8R`
-- ⏳ `bioCancer`
-- ⏳ `canceR`
-- ⏳ `chromVAR`
-- ⏳ `coMethDMR`
+- ⏳ `biomvRCNS`
+- ⏳ `chevreulShiny`
+- ⏳ `chimeraviz`
+- ⏳ `cicero`
+- ⏳ `comapr`
+- ⏳ `crisprViz`
 - ⏳ `decemedip`
-- ⏳ `epiSeeker`
-- ⏳ `iSEEfier`
-- ⏳ `ideal`
-- ⏳ `methodical`
-- ⏳ `miaDash`
+- ⏳ `derfinderPlot`
+- ⏳ `epivizrStandalone`
+- ⏳ `fourSynergy`
+- ⏳ `frma`
+- ⏳ `intansv`
+- ⏳ `mCSEA`
+- ⏳ `maser`
+- ⏳ `methylPipe`
+- ⏳ `mimager`
 - ⏳ `minfi`
-- ⏳ `monaLisa`
-- ⏳ `octad`
-- ⏳ `pcaExplorer`
-- ⏳ `rCGH`
-- ⏳ `regioneReloaded`
-- ⏳ `scFeatures`
-- ⏳ `scone`
-- ⏳ `singleCellTK`
+- ⏳ `motifbreakR`
+- ⏳ `msgbsR`
+- ⏳ `primirTSS`
+- ⏳ `puma`
+- ⏳ `recount`
+- ⏳ `scTreeViz`
+- ⏳ `srnadiff`
 
-## Not Yet Started (135)
+## Not Yet Started (78)
 - ⏸️ `AHMassBank`
-- ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
-- ⏸️ `AllelicImbalance`
-- ⏸️ `ArrayExpress`
-- ⏸️ `BOBaFIT`
-- ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `COCOA`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
-- ⏸️ `CopyNumberPlots`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
-- ⏸️ `Damsel`
 - ⏸️ `DrugVsDisease`
-- ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `GARS`
-- ⏸️ `GeneStructureTools`
-- ⏸️ `GenomicInteractions`
-- ⏸️ `GenomicOZone`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `ITALICS`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MethylAid`
-- ⏸️ `MinimumDistance`
 - ⏸️ `NADfinder`
-- ⏸️ `OGRE`
-- ⏸️ `Pviz`
-- ⏸️ `R3CPET`
 - ⏸️ `REMP`
 - ⏸️ `RNAAgeCalc`
-- ⏸️ `RNAmodR`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
-- ⏸️ `ReportingTools`
 - ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
-- ⏸️ `SCAN.UPC`
 - ⏸️ `SOMNiBUS`
+- ⏸️ `SpatialDecon`
+- ⏸️ `SpatialOmicsOverlay`
+- ⏸️ `YAPSA`
+- ⏸️ `affycoretools`
+- ⏸️ `annoLinker`
+- ⏸️ `arrayMvout`
+- ⏸️ `bandle`
+- ⏸️ `bigmelon`
+- ⏸️ `biscuiteer`
+- ⏸️ `carnation`
+- ⏸️ `compEpiTools`
+- ⏸️ `conumee`
+- ⏸️ `crisprShiny`
+- ⏸️ `crisprVerse`
+- ⏸️ `cytoviewer`
+- ⏸️ `dmrseq`
+- ⏸️ `dnaEPICO`
+- ⏸️ `epiRomics`
+- ⏸️ `epimutacions`
 
-... and 85 more ...
+... and 28 more ...
 
 ---
-*Last updated: 2026-07-20 21:48:20 UTC*
-*Packages with verified BBS status: 246*
+*Last updated: 2026-07-20 21:51:53 UTC*
+*Packages with verified BBS status: 247*

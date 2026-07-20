@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''monaLisa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'monaLisa'
+also installing the dependency ‘JASPAR2024’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/JASPAR2024_0.99.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/monaLisa_1.19.0.tar.gz'
+* installing *source* package ‘JASPAR2024’ ...
+** this is package ‘JASPAR2024’ version ‘0.99.7’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘JASPAR2024’ as ‘JASPAR2024_0.99.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (JASPAR2024)
+* installing *source* package ‘monaLisa’ ...
+** this is package ‘monaLisa’ version ‘1.19.0’
+** package ‘monaLisa’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘monaLisa’ as ‘monaLisa_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (monaLisa)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPD9buL/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m15.435s
+user	0m50.671s
+sys	0m7.571s
