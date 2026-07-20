@@ -1,0 +1,185 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ceRNAnetsim'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ceRNAnetsim'
+also installing the dependencies ‘tweenr’, ‘polyclip’, ‘gridExtra’, ‘RcppArmadillo’, ‘globals’, ‘ggforce’, ‘ggrepel’, ‘viridis’, ‘graphlayouts’, ‘listenv’, ‘parallelly’, ‘rex’, ‘httr’, ‘tidygraph’, ‘furrr’, ‘ggraph’, ‘future’, ‘covr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tweenr_2.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/polyclip_1.10-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gridExtra_2.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppArmadillo_15.4.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/globals_0.19.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggforce_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggrepel_0.9.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/viridis_0.6.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/graphlayouts_1.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/listenv_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parallelly_1.48.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rex_1.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httr_1.4.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidygraph_1.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/furrr_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggraph_2.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/future_1.70.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/covr_3.6.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ceRNAnetsim_1.25.0.tar.gz'
+* installing *binary* package ‘tweenr’ ...
+* package ‘tweenr’ successfully unpacked and SHA256 sums checked
+* ‘tweenr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tweenr’ as ‘tweenr_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tweenr)
+* installing *binary* package ‘polyclip’ ...
+* package ‘polyclip’ successfully unpacked and SHA256 sums checked
+* ‘polyclip’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polyclip’ as ‘polyclip_1.10-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polyclip)
+* installing *binary* package ‘gridExtra’ ...
+* package ‘gridExtra’ successfully unpacked and SHA256 sums checked
+* ‘gridExtra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *binary* package ‘RcppArmadillo’ ...
+* package ‘RcppArmadillo’ successfully unpacked and SHA256 sums checked
+* ‘RcppArmadillo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_15.4.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *binary* package ‘globals’ ...
+* package ‘globals’ successfully unpacked and SHA256 sums checked
+* ‘globals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘ggrepel’ ...
+* package ‘ggrepel’ successfully unpacked and SHA256 sums checked
+* ‘ggrepel’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *binary* package ‘listenv’ ...
+* package ‘listenv’ successfully unpacked and SHA256 sums checked
+* ‘listenv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘listenv’ as ‘listenv_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listenv)
+* installing *binary* package ‘parallelly’ ...
+* package ‘parallelly’ successfully unpacked and SHA256 sums checked
+* ‘parallelly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parallelly’ as ‘parallelly_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelly)
+* installing *binary* package ‘rex’ ...
+* package ‘rex’ successfully unpacked and SHA256 sums checked
+* ‘rex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rex’ as ‘rex_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rex)
+* installing *binary* package ‘httr’ ...
+* package ‘httr’ successfully unpacked and SHA256 sums checked
+* ‘httr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘httr’ as ‘httr_1.4.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httr)
+* installing *binary* package ‘tidygraph’ ...
+* package ‘tidygraph’ successfully unpacked and SHA256 sums checked
+* ‘tidygraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidygraph’ as ‘tidygraph_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidygraph)
+* installing *binary* package ‘ggforce’ ...
+* package ‘ggforce’ successfully unpacked and SHA256 sums checked
+* ‘ggforce’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggforce’ as ‘ggforce_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggforce)
+* installing *binary* package ‘viridis’ ...
+* package ‘viridis’ successfully unpacked and SHA256 sums checked
+* ‘viridis’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘viridis’ as ‘viridis_0.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridis)
+* installing *binary* package ‘graphlayouts’ ...
+* package ‘graphlayouts’ successfully unpacked and SHA256 sums checked
+* ‘graphlayouts’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘graphlayouts’ as ‘graphlayouts_1.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graphlayouts)
+* installing *binary* package ‘future’ ...
+* package ‘future’ successfully unpacked and SHA256 sums checked
+* ‘future’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘future’ as ‘future_1.70.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future)
+* installing *binary* package ‘covr’ ...
+* package ‘covr’ successfully unpacked and SHA256 sums checked
+* ‘covr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘covr’ as ‘covr_3.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (covr)
+* installing *binary* package ‘furrr’ ...
+* package ‘furrr’ successfully unpacked and SHA256 sums checked
+* ‘furrr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘furrr’ as ‘furrr_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (furrr)
+* installing *binary* package ‘ggraph’ ...
+* package ‘ggraph’ successfully unpacked and SHA256 sums checked
+* ‘ggraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggraph’ as ‘ggraph_2.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggraph)
+* installing *source* package ‘ceRNAnetsim’ ...
+** this is package ‘ceRNAnetsim’ version ‘1.25.0’
+** package ‘ceRNAnetsim’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ceRNAnetsim’ as ‘ceRNAnetsim_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ceRNAnetsim)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNVD2DY/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m56.497s
+user	0m16.336s
+sys	0m7.386s
