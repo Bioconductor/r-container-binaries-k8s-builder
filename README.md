@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2168 (90%)
+- **Successfully Built:** 2170 (91%)
 - **Failed:** 53 (2%)
-- **In Progress:** 54
-- **Not Started:** 109
+- **In Progress:** 57
+- **Not Started:** 104
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2168)
+## Successfully Built Packages (2170)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2118 more ...*
+*... and 2120 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -134,10 +134,9 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (54)
+## In Progress (57)
 - ⏳ `ATACseqQC`
 - ⏳ `DEScan2`
-- ⏳ `DaMiRseq`
 - ⏳ `FRASER`
 - ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
@@ -147,8 +146,11 @@
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `RUVSeq`
+- ⏳ `RiboCrypt`
+- ⏳ `RnBeads`
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `SpaceTrooper`
+- ⏳ `TFHAZ`
 - ⏳ `UPDhmm`
 - ⏳ `Uniquorn`
 - ⏳ `VariantTools`
@@ -158,7 +160,6 @@
 - ⏳ `appreci8R`
 - ⏳ `atSNP`
 - ⏳ `biovizBase`
-- ⏳ `biscuiteer`
 - ⏳ `borealis`
 - ⏳ `broadSeq`
 - ⏳ `canceR`
@@ -176,19 +177,18 @@
 - ⏳ `famat`
 - ⏳ `iSEEtree`
 - ⏳ `ideal`
+- ⏳ `lumi`
 - ⏳ `magpie`
 - ⏳ `metaseqR2`
+- ⏳ `missMethyl`
 - ⏳ `mitoClone2`
 - ⏳ `pcaExplorer`
 - ⏳ `scCB2`
 - ⏳ `scPipe`
-- ⏳ `scider`
-- ⏳ `singleCellTK`
-- ⏳ `svaNUMT`
 
-... and 4 more ...
+... and 7 more ...
 
-## Not Yet Started (109)
+## Not Yet Started (104)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -227,21 +227,21 @@
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `ReportingTools`
-- ⏸️ `RiboCrypt`
-- ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
 - ⏸️ `Rqc`
 - ⏸️ `SPLINTER`
 - ⏸️ `SomaticSignatures`
-- ⏸️ `TFHAZ`
 - ⏸️ `TVTB`
 - ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
 - ⏸️ `a4`
 - ⏸️ `affycoretools`
+- ⏸️ `annoLinker`
+- ⏸️ `arrayMvout`
+- ⏸️ `bandle`
 
-... and 59 more ...
+... and 54 more ...
 
 ---
-*Last updated: 2026-07-20 21:40:18 UTC*
+*Last updated: 2026-07-20 21:41:31 UTC*
 *Packages with verified BBS status: 239*
