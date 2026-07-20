@@ -1,0 +1,61 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RDRToolbox'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RDRToolbox'
+also installing the dependency ‘golubEsets’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/golubEsets_1.55.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RDRToolbox_1.63.0.tar.gz'
+* installing *source* package ‘golubEsets’ ...
+** this is package ‘golubEsets’ version ‘1.55.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘golubEsets’ as ‘golubEsets_1.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (golubEsets)
+* installing *source* package ‘RDRToolbox’ ...
+** this is package ‘RDRToolbox’ version ‘1.63.0’
+** package ‘RDRToolbox’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package can be loaded from final location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RDRToolbox’ as ‘RDRToolbox_1.63.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RDRToolbox)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBq4aKM/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m19.570s
+user	0m6.071s
+sys	0m2.749s

@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Rdisop'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Rdisop'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Rdisop_1.73.0.tar.gz'
+Content type 'application/x-gzip' length 738565 bytes (721 KB)
+==================================================
+downloaded 721 KB
+
+* installing *source* package ‘Rdisop’ ...
+** this is package ‘Rdisop’ version ‘1.73.0’
+** package ‘Rdisop’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c disop.cpp -o disop.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/element.cpp -o imslib/src/ims/element.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/composedelement.cpp -o imslib/src/ims/composedelement.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/isotopedistribution.cpp -o imslib/src/ims/isotopedistribution.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/alphabet.cpp -o imslib/src/ims/alphabet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/weights.cpp -o imslib/src/ims/weights.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/distributedalphabet.cpp -o imslib/src/ims/distributedalphabet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/transformation.cpp -o imslib/src/ims/transformation.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/isotopespecies.cpp -o imslib/src/ims/isotopespecies.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/base/parser/alphabettextparser.cpp -o imslib/src/ims/base/parser/alphabettextparser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/base/parser/distributedalphabettextparser.cpp -o imslib/src/ims/base/parser/distributedalphabettextparser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/base/parser/massestextparser.cpp -o imslib/src/ims/base/parser/massestextparser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/base/parser/moleculesequenceparser.cpp -o imslib/src/ims/base/parser/moleculesequenceparser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/base/parser/standardmoleculesequenceparser.cpp -o imslib/src/ims/base/parser/standardmoleculesequenceparser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/base/parser/keggligandcompoundsparser.cpp -o imslib/src/ims/base/parser/keggligandcompoundsparser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/base/parser/moleculeionchargemodificationparser.cpp -o imslib/src/ims/base/parser/moleculeionchargemodificationparser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/calib/linepairstabber.cpp -o imslib/src/ims/calib/linepairstabber.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/calib/matchmatrix.cpp -o imslib/src/ims/calib/matchmatrix.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/calib/linearpointsetmatcher.cpp -o imslib/src/ims/calib/linearpointsetmatcher.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/decomp/realmassdecomposer.cpp -o imslib/src/ims/decomp/realmassdecomposer.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/utils/distribution.cpp -o imslib/src/ims/utils/distribution.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/distributionprobabilityscorer.cpp -o imslib/src/ims/distributionprobabilityscorer.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/characteralphabet.cpp -o imslib/src/ims/characteralphabet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -I./imslib/src/ -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c imslib/src/ims/nitrogenrulefilter.cpp -o imslib/src/ims/nitrogenrulefilter.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Rdisop.so disop.o imslib/src/ims/element.o imslib/src/ims/composedelement.o imslib/src/ims/isotopedistribution.o imslib/src/ims/alphabet.o imslib/src/ims/weights.o imslib/src/ims/distributedalphabet.o imslib/src/ims/transformation.o imslib/src/ims/isotopespecies.o imslib/src/ims/base/parser/alphabettextparser.o imslib/src/ims/base/parser/distributedalphabettextparser.o imslib/src/ims/base/parser/massestextparser.o imslib/src/ims/base/parser/moleculesequenceparser.o imslib/src/ims/base/parser/standardmoleculesequenceparser.o imslib/src/ims/base/parser/keggligandcompoundsparser.o imslib/src/ims/base/parser/moleculeionchargemodificationparser.o imslib/src/ims/calib/linepairstabber.o imslib/src/ims/calib/matchmatrix.o imslib/src/ims/calib/linearpointsetmatcher.o imslib/src/ims/decomp/realmassdecomposer.o imslib/src/ims/utils/distribution.o imslib/src/ims/distributionprobabilityscorer.o imslib/src/ims/characteralphabet.o imslib/src/ims/nitrogenrulefilter.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-Rdisop/00new/Rdisop/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rdisop’ as ‘Rdisop_1.73.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rdisop)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOVidoA/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m49.275s
+user	0m33.400s
+sys	0m6.848s
