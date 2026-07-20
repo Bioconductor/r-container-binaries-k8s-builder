@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''R453Plus1Toolbox'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'R453Plus1Toolbox'
+also installing the dependency ‘TeachingDemos’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TeachingDemos_2.13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/R453Plus1Toolbox_1.63.2.tar.gz'
+* installing *binary* package ‘TeachingDemos’ ...
+* package ‘TeachingDemos’ successfully unpacked and SHA256 sums checked
+* ‘TeachingDemos’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TeachingDemos’ as ‘TeachingDemos_2.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TeachingDemos)
+* installing *source* package ‘R453Plus1Toolbox’ ...
+** this is package ‘R453Plus1Toolbox’ version ‘1.63.2’
+** package ‘R453Plus1Toolbox’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readSFF.c -o readSFF.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c writeSFF.c -o writeSFF.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o R453Plus1Toolbox.so readSFF.o writeSFF.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-R453Plus1Toolbox/00new/R453Plus1Toolbox/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R453Plus1Toolbox’ as ‘R453Plus1Toolbox_1.63.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R453Plus1Toolbox)
+
+The downloaded source packages are in
+	‘/tmp/RtmpD5pQgP/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m33.796s
+user	1m4.552s
+sys	0m6.357s

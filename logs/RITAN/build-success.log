@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RITAN'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RITAN'
+also installing the dependency ‘RITANdata’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/RITANdata_1.37.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RITAN_1.37.0.tar.gz'
+* installing *source* package ‘RITANdata’ ...
+** this is package ‘RITANdata’ version ‘1.37.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RITANdata’ as ‘RITANdata_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RITANdata)
+* installing *source* package ‘RITAN’ ...
+** this is package ‘RITAN’ version ‘1.37.0’
+** package ‘RITAN’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import 'ensembldb::filter' by 'stats::filter' when loading 'RITAN'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import 'ensembldb::filter' by 'stats::filter' when loading 'RITAN'
+** testing if installed package can be loaded from final location
+Warning: replacing previous import 'ensembldb::filter' by 'stats::filter' when loading 'RITAN'
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RITAN’ as ‘RITAN_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RITAN)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRmL1Ff/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m34.980s
+user	1m9.153s
+sys	0m7.500s

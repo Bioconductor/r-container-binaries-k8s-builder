@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BgeeCall'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BgeeCall'
+also installing the dependencies ‘sjlabelled’, ‘sjmisc’, ‘rslurm’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sjlabelled_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sjmisc_2.8.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rslurm_0.6.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BgeeCall_1.29.3.tar.gz'
+* installing *binary* package ‘sjlabelled’ ...
+* package ‘sjlabelled’ successfully unpacked and SHA256 sums checked
+* ‘sjlabelled’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sjlabelled’ as ‘sjlabelled_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sjlabelled)
+* installing *binary* package ‘rslurm’ ...
+* package ‘rslurm’ successfully unpacked and SHA256 sums checked
+* ‘rslurm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rslurm’ as ‘rslurm_0.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rslurm)
+* installing *binary* package ‘sjmisc’ ...
+* package ‘sjmisc’ successfully unpacked and SHA256 sums checked
+* ‘sjmisc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sjmisc’ as ‘sjmisc_2.8.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sjmisc)
+* installing *source* package ‘BgeeCall’ ...
+** this is package ‘BgeeCall’ version ‘1.29.3’
+** package ‘BgeeCall’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BgeeCall’ as ‘BgeeCall_1.29.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BgeeCall)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRYABtg/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m58.718s
+user	0m45.574s
+sys	0m7.103s

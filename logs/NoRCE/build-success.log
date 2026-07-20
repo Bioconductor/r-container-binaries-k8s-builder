@@ -1,0 +1,93 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''NoRCE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'NoRCE'
+also installing the dependencies ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’, ‘TxDb.Celegans.UCSC.ce11.refGene’, ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/TxDb.Dmelanogaster.UCSC.dm6.ensGene_3.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/TxDb.Celegans.UCSC.ce11.refGene_3.4.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/TxDb.Rnorvegicus.UCSC.rn6.refGene_3.4.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/NoRCE_1.25.0.tar.gz'
+* installing *source* package ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’ ...
+** this is package ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’ version ‘3.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene’ as ‘TxDb.Dmelanogaster.UCSC.dm6.ensGene_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Dmelanogaster.UCSC.dm6.ensGene)
+* installing *source* package ‘TxDb.Celegans.UCSC.ce11.refGene’ ...
+** this is package ‘TxDb.Celegans.UCSC.ce11.refGene’ version ‘3.4.6’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Celegans.UCSC.ce11.refGene’ as ‘TxDb.Celegans.UCSC.ce11.refGene_3.4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Celegans.UCSC.ce11.refGene)
+* installing *source* package ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’ ...
+** this is package ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’ version ‘3.4.6’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Rnorvegicus.UCSC.rn6.refGene’ as ‘TxDb.Rnorvegicus.UCSC.rn6.refGene_3.4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Rnorvegicus.UCSC.rn6.refGene)
+* installing *source* package ‘NoRCE’ ...
+** this is package ‘NoRCE’ version ‘1.25.0’
+** package ‘NoRCE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NoRCE’ as ‘NoRCE_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NoRCE)
+
+The downloaded source packages are in
+	‘/tmp/RtmplQazol/downloaded_packages’
+Old packages: 'diffobj'
+
+real	2m34.622s
+user	2m15.288s
+sys	0m14.090s

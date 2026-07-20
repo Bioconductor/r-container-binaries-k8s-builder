@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1966 (83%)
+- **Successfully Built:** 1999 (85%)
 - **Failed:** 35 (1%)
-- **In Progress:** 50
-- **Not Started:** 295
+- **In Progress:** 112
+- **Not Started:** 200
 
-**Progress:** 85%
+**Progress:** 86%
 ```
-██████████████████████████████████████████░░░░░░░░
+███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (1966)
+## Successfully Built Packages (1999)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,12 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1916 more ...*
+*... and 1949 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
+| [visiumStitched](https://bioconductor.org/packages/3.24/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.24/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
@@ -116,59 +116,61 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (50)
+## In Progress (112)
 - ⏳ `AnnotationHubData`
 - ⏳ `BindingSiteFinder`
+- ⏳ `CNVrd2`
 - ⏳ `CSSQ`
-- ⏳ `CexoR`
+- ⏳ `ChIPQC`
+- ⏳ `ChIPpeakAnno`
+- ⏳ `CleanUpRNAseq`
 - ⏳ `Cogito`
 - ⏳ `DNAfusion`
-- ⏳ `DSS`
+- ⏳ `DOtools`
 - ⏳ `DaMiRseq`
 - ⏳ `DegCre`
+- ⏳ `DominoEffect`
 - ⏳ `EpiCompare`
+- ⏳ `EpiTxDb`
+- ⏳ `EventPointer`
 - ⏳ `FLAMES`
+- ⏳ `G4SNVHunter`
+- ⏳ `GA4GHclient`
+- ⏳ `GRaNIE`
 - ⏳ `GSReg`
+- ⏳ `GenVisR`
+- ⏳ `GenomicFiles`
 - ⏳ `InPAS`
 - ⏳ `MIRA`
 - ⏳ `MOSClip`
-- ⏳ `MatrixRider`
 - ⏳ `Moonlight2R`
-- ⏳ `NanoMethViz`
-- ⏳ `NoRCE`
+- ⏳ `MungeSumstats`
+- ⏳ `MutSeqR`
+- ⏳ `MutationalPatterns`
+- ⏳ `ORFik`
+- ⏳ `OUTRIDER`
+- ⏳ `ProteoDisco`
+- ⏳ `PureCN`
 - ⏳ `RBedMethyl`
+- ⏳ `RCAS`
+- ⏳ `RareVariantVis`
+- ⏳ `Rhisat2`
+- ⏳ `SEMPLR`
+- ⏳ `SigsPack`
+- ⏳ `StructuralVariantAnnotation`
 - ⏳ `UMI4Cats`
+- ⏳ `UPDhmm`
+- ⏳ `Uniquorn`
+- ⏳ `VariantTools`
+- ⏳ `ZygosityPredictor`
+- ⏳ `alabaster.vcf`
 - ⏳ `annotatr`
-- ⏳ `chromVAR`
-- ⏳ `clipper`
-- ⏳ `coMethDMR`
-- ⏳ `decemedip`
-- ⏳ `epiSeeker`
-- ⏳ `fCCAC`
-- ⏳ `hicVennDiagram`
-- ⏳ `iCNV`
-- ⏳ `iSEEfier`
-- ⏳ `methodical`
-- ⏳ `methrix`
-- ⏳ `miaDash`
-- ⏳ `minfi`
-- ⏳ `monaLisa`
-- ⏳ `motifStack`
-- ⏳ `motifmatchr`
-- ⏳ `octad`
-- ⏳ `oligoClasses`
-- ⏳ `rCGH`
-- ⏳ `regioneReloaded`
-- ⏳ `roar`
-- ⏳ `scone`
-- ⏳ `seqsetvis`
-- ⏳ `sevenC`
-- ⏳ `standR`
-- ⏳ `tidyCoverage`
-- ⏳ `transcriptR`
-- ⏳ `visiumStitched`
+- ⏳ `appreci8R`
+- ⏳ `biovizBase`
 
-## Not Yet Started (295)
+... and 62 more ...
+
+## Not Yet Started (200)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -176,52 +178,52 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `ArrayExpress`
-- ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BUSpaRse`
-- ⏸️ `BadRegionFinder`
-- ⏸️ `BgeeCall`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CCAFE`
 - ⏸️ `CNVfilteR`
-- ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
-- ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
-- ⏸️ `CleanUpRNAseq`
-- ⏸️ `ClonalSim`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `CyTOFpower`
-- ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
-- ⏸️ `DOTSeq`
-- ⏸️ `DOtools`
 - ⏸️ `Damsel`
-- ⏸️ `DegNorm`
-- ⏸️ `DominoEffect`
 - ⏸️ `DrugVsDisease`
 - ⏸️ `DuplexDiscovereR`
-- ⏸️ `ELViS`
 - ⏸️ `ENmix`
-- ⏸️ `EpiTxDb`
-- ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
 - ⏸️ `FRASER`
-- ⏸️ `G4SNVHunter`
-- ⏸️ `GA4GHclient`
 - ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
+- ⏸️ `GUIDEseq`
+- ⏸️ `GeneStructureTools`
+- ⏸️ `GeneTonic`
+- ⏸️ `GenomicInteractions`
+- ⏸️ `GenomicOZone`
+- ⏸️ `GenomicPlot`
+- ⏸️ `GeoDiff`
+- ⏸️ `GeomxTools`
+- ⏸️ `Gviz`
+- ⏸️ `HiCDCPlus`
+- ⏸️ `HiCaptuRe`
+- ⏸️ `HistoImagePlot`
+- ⏸️ `ITALICS`
+- ⏸️ `IntEREst`
+- ⏸️ `IsoformSwitchAnalyzeR`
+- ⏸️ `MAGAR`
+- ⏸️ `MEAL`
+- ⏸️ `MEAT`
+- ⏸️ `MetaboSignal`
+- ⏸️ `MethylAid`
 
-... and 245 more ...
+... and 150 more ...
 
 ---
-*Last updated: 2026-07-20 21:37:49 UTC*
-*Packages with verified BBS status: 238*
+*Last updated: 2026-07-20 21:40:59 UTC*
+*Packages with verified BBS status: 239*

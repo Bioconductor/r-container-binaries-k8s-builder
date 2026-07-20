@@ -1,0 +1,61 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''hicVennDiagram'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'hicVennDiagram'
+also installing the dependency ‘ChIPpeakAnno’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ChIPpeakAnno_3.47.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/hicVennDiagram_1.11.0.tar.gz'
+* installing *source* package ‘ChIPpeakAnno’ ...
+** this is package ‘ChIPpeakAnno’ version ‘3.47.2’
+** package ‘ChIPpeakAnno’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChIPpeakAnno’ as ‘ChIPpeakAnno_3.47.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChIPpeakAnno)
+* installing *source* package ‘hicVennDiagram’ ...
+** this is package ‘hicVennDiagram’ version ‘1.11.0’
+** package ‘hicVennDiagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hicVennDiagram’ as ‘hicVennDiagram_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hicVennDiagram)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpcdlqhu/downloaded_packages’
+Old packages: 'diffobj'
+
+real	2m23.398s
+user	2m2.101s
+sys	0m11.172s
