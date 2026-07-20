@@ -6,21 +6,24 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 73 (3%)
+- **Successfully Built:** 77 (3%)
 - **Failed:** 1 (0%)
 - **In Progress:** 281
-- **Not Started:** 1991
+- **Not Started:** 1987
 
 **Progress:** 3%
 ```
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (73)
+## Successfully Built Packages (77)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
+| [ASAFE](https://bioconductor.org/packages/3.24/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASAFE) |
+| [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.24/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASGSCA) |
+| [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [Clomial](https://bioconductor.org/packages/3.24/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Clomial) |
 | [ComPrAn](https://bioconductor.org/packages/3.24/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ComPrAn) |
 | [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
@@ -42,11 +45,8 @@
 | [Rega](https://bioconductor.org/packages/3.24/bioc/html/Rega.html) | [log](logs/Rega/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rega) |
 | [SwathXtend](https://bioconductor.org/packages/3.24/bioc/html/SwathXtend.html) | [log](logs/SwathXtend/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SwathXtend) |
 | [TSAR](https://bioconductor.org/packages/3.24/bioc/html/TSAR.html) | [log](logs/TSAR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TSAR) |
-| [TrIdent](https://bioconductor.org/packages/3.24/bioc/html/TrIdent.html) | [log](logs/TrIdent/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TrIdent) |
-| [TrajectoryGeometry](https://bioconductor.org/packages/3.24/bioc/html/TrajectoryGeometry.html) | [log](logs/TrajectoryGeometry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TrajectoryGeometry) |
-| [VERSO](https://bioconductor.org/packages/3.24/bioc/html/VERSO.html) | [log](logs/VERSO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/VERSO) |
 
-*... and 23 more ...*
+*... and 27 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,8 +86,6 @@
 - ⏳ `AMOUNTAIN`
 - ⏳ `ANCOMBC`
 - ⏳ `ARRmNormalization`
-- ⏳ `ASAFE`
-- ⏳ `ASEB`
 - ⏳ `ASSET`
 - ⏳ `AWAggregator`
 - ⏳ `AnVILBase`
@@ -95,7 +93,6 @@
 - ⏳ `BADER`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
-- ⏳ `BeadDataPackR`
 - ⏳ `BenchHub`
 - ⏳ `BioCartaImage`
 - ⏳ `BiocBaseUtils`
@@ -133,10 +130,13 @@
 - ⏳ `GAprediction`
 - ⏳ `GEM`
 - ⏳ `GENIE3`
+- ⏳ `GEOfastq`
+- ⏳ `GEOmetadb`
+- ⏳ `GEWIST`
 
 ... and 231 more ...
 
-## Not Yet Started (1991)
+## Not Yet Started (1987)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 
-... and 1941 more ...
+... and 1937 more ...
 
 ---
-*Last updated: 2026-07-20 19:21:01 UTC*
-*Packages with verified BBS status: 67*
+*Last updated: 2026-07-20 19:22:39 UTC*
+*Packages with verified BBS status: 70*
