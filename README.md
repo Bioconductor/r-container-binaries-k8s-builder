@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1939 (82%)
-- **Failed:** 33 (1%)
-- **In Progress:** 58
-- **Not Started:** 316
+- **Successfully Built:** 1966 (83%)
+- **Failed:** 35 (1%)
+- **In Progress:** 50
+- **Not Started:** 295
 
-**Progress:** 84%
+**Progress:** 85%
 ```
 ██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (1939)
+## Successfully Built Packages (1966)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1889 more ...*
+*... and 1916 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (33)
+## Failed Packages (35)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -99,9 +99,11 @@
 | [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [TOP](https://bioconductor.org/packages/3.24/bioc/html/TOP.html) | [log](logs/TOP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TOP) | Missing R dependency: ModelMetrics |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
+| [branchpointer](https://bioconductor.org/packages/3.24/bioc/html/branchpointer.html) | [log](logs/branchpointer/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/branchpointer) | Missing R dependency: ModelMetrics |
 | [condiments](https://bioconductor.org/packages/3.24/bioc/html/condiments.html) | [log](logs/condiments/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/condiments) | Missing R dependency: ModelMetrics |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [jazzPanda](https://bioconductor.org/packages/3.24/bioc/html/jazzPanda.html) | [log](logs/jazzPanda/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/jazzPanda) | Build failed with unknown error |
+| [m6Aboost](https://bioconductor.org/packages/3.24/bioc/html/m6Aboost.html) | [log](logs/m6Aboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/m6Aboost) | Missing R dependency: ModelMetrics |
 | [maPredictDSC](https://bioconductor.org/packages/3.24/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.24/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
 | [miRSM](https://bioconductor.org/packages/3.24/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRSM) | Build failed with unknown error |
@@ -114,61 +116,59 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (58)
+## In Progress (50)
 - ⏳ `AnnotationHubData`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CSSQ`
+- ⏳ `CexoR`
 - ⏳ `Cogito`
 - ⏳ `DNAfusion`
+- ⏳ `DSS`
 - ⏳ `DaMiRseq`
 - ⏳ `DegCre`
-- ⏳ `DiffBind`
-- ⏳ `FindIT2`
+- ⏳ `EpiCompare`
+- ⏳ `FLAMES`
 - ⏳ `GSReg`
-- ⏳ `GenomicCoordinates`
-- ⏳ `Guitar`
-- ⏳ `INSPEcT`
-- ⏳ `IVAS`
+- ⏳ `InPAS`
+- ⏳ `MIRA`
 - ⏳ `MOSClip`
+- ⏳ `MatrixRider`
 - ⏳ `Moonlight2R`
+- ⏳ `NanoMethViz`
 - ⏳ `NoRCE`
-- ⏳ `Rmmquant`
-- ⏳ `SPICEY`
-- ⏳ `SplicingGraphs`
-- ⏳ `TCGAutils`
-- ⏳ `TFEA.ChIP`
-- ⏳ `TRESS`
+- ⏳ `RBedMethyl`
 - ⏳ `UMI4Cats`
-- ⏳ `VariantAnnotation`
 - ⏳ `annotatr`
-- ⏳ `atena`
-- ⏳ `branchpointer`
+- ⏳ `chromVAR`
 - ⏳ `clipper`
 - ⏳ `coMethDMR`
-- ⏳ `crupR`
 - ⏳ `decemedip`
-- ⏳ `doubletrouble`
-- ⏳ `ensembldb`
-- ⏳ `epigraHMM`
-- ⏳ `gINTomics`
-- ⏳ `gVenn`
-- ⏳ `geneAttribution`
-- ⏳ `gmoviz`
+- ⏳ `epiSeeker`
+- ⏳ `fCCAC`
 - ⏳ `hicVennDiagram`
+- ⏳ `iCNV`
 - ⏳ `iSEEfier`
-- ⏳ `m6Aboost`
+- ⏳ `methodical`
 - ⏳ `methrix`
-- ⏳ `methylKit`
+- ⏳ `miaDash`
 - ⏳ `minfi`
+- ⏳ `monaLisa`
+- ⏳ `motifStack`
+- ⏳ `motifmatchr`
+- ⏳ `octad`
 - ⏳ `oligoClasses`
 - ⏳ `rCGH`
 - ⏳ `regioneReloaded`
-- ⏳ `rmspc`
 - ⏳ `roar`
+- ⏳ `scone`
+- ⏳ `seqsetvis`
+- ⏳ `sevenC`
+- ⏳ `standR`
+- ⏳ `tidyCoverage`
+- ⏳ `transcriptR`
+- ⏳ `visiumStitched`
 
-... and 8 more ...
-
-## Not Yet Started (316)
+## Not Yet Started (295)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -188,7 +188,6 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
@@ -204,7 +203,6 @@
 - ⏸️ `DMRcate`
 - ⏸️ `DOTSeq`
 - ⏸️ `DOtools`
-- ⏸️ `DSS`
 - ⏸️ `Damsel`
 - ⏸️ `DegNorm`
 - ⏸️ `DominoEffect`
@@ -212,16 +210,18 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELViS`
 - ⏸️ `ENmix`
-- ⏸️ `EpiCompare`
 - ⏸️ `EpiTxDb`
 - ⏸️ `EventPointer`
 - ⏸️ `ExperimentHubData`
-- ⏸️ `FLAMES`
 - ⏸️ `FRASER`
 - ⏸️ `G4SNVHunter`
+- ⏸️ `GA4GHclient`
+- ⏸️ `GA4GHshiny`
+- ⏸️ `GARS`
+- ⏸️ `GNOSIS`
 
-... and 266 more ...
+... and 245 more ...
 
 ---
-*Last updated: 2026-07-20 21:36:09 UTC*
-*Packages with verified BBS status: 236*
+*Last updated: 2026-07-20 21:37:49 UTC*
+*Packages with verified BBS status: 238*

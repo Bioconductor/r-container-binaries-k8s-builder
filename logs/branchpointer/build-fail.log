@@ -1,0 +1,39 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''branchpointer'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'branchpointer'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/branchpointer_1.39.0.tar.gz'
+Content type 'application/x-gzip' length 5038554 bytes (4.8 MB)
+==================================================
+downloaded 4.8 MB
+
+* installing *source* package ‘branchpointer’ ...
+** this is package ‘branchpointer’ version ‘1.39.0’
+** package ‘branchpointer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘caret’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
+ there is no package called ‘ModelMetrics’
+Execution halted
+ERROR: lazy loading failed for package ‘branchpointer’
+* removing ‘/tmp/library/branchpointer’
+
+The downloaded source packages are in
+	‘/tmp/RtmpeJT1Fy/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘branchpointer’ had non-zero exit status
+
+real	0m25.730s
+user	0m15.396s
+sys	0m3.107s
