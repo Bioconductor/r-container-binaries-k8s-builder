@@ -1,0 +1,83 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MicrobiotaProcess'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MicrobiotaProcess'
+also installing the dependencies ‘coin’, ‘ggupset’, ‘ggVennDiagram’, ‘ggpp’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/coin_1.4-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggupset_0.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggVennDiagram_1.5.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggpp_0.6.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MicrobiotaProcess_1.25.0.tar.gz'
+* installing *binary* package ‘coin’ ...
+* package ‘coin’ successfully unpacked and SHA256 sums checked
+* ‘coin’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘coin’ as ‘coin_1.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coin)
+* installing *binary* package ‘ggupset’ ...
+* package ‘ggupset’ successfully unpacked and SHA256 sums checked
+* ‘ggupset’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggupset’ as ‘ggupset_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggupset)
+* installing *binary* package ‘ggVennDiagram’ ...
+* package ‘ggVennDiagram’ successfully unpacked and SHA256 sums checked
+* ‘ggVennDiagram’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggVennDiagram’ as ‘ggVennDiagram_1.5.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggVennDiagram)
+* installing *binary* package ‘ggpp’ ...
+* package ‘ggpp’ successfully unpacked and SHA256 sums checked
+* ‘ggpp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggpp’ as ‘ggpp_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggpp)
+* installing *source* package ‘MicrobiotaProcess’ ...
+** this is package ‘MicrobiotaProcess’ version ‘1.25.0’
+** package ‘MicrobiotaProcess’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘taxonomy<-’ with signature ‘x="MPSE",value="taxonomyTable"’: no definition for class “taxonomyTable”
+Creating a generic function for ‘rownames<-’ from package ‘base’ in package ‘MicrobiotaProcess’
+in method for ‘get_alltaxadf’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_taxadf’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_alphaindex’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_NRI_NTI’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_rarecurve’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_upset’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_vennlist’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘drop_taxa’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MicrobiotaProcess’ as ‘MicrobiotaProcess_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MicrobiotaProcess)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxVT5xJ/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m10.530s
+user	0m59.124s
+sys	0m6.266s

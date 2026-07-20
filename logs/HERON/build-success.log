@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HERON'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HERON'
+also installing the dependencies ‘TFisher’, ‘qqconf’, ‘mutoss’, ‘spData’, ‘metap’, ‘spdep’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TFisher_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qqconf_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mutoss_0.1-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spData_2.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metap_1.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spdep_1.4-2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HERON_1.11.0.tar.gz'
+* installing *binary* package ‘TFisher’ ...
+* package ‘TFisher’ successfully unpacked and SHA256 sums checked
+* ‘TFisher’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TFisher’ as ‘TFisher_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFisher)
+* installing *binary* package ‘qqconf’ ...
+* package ‘qqconf’ successfully unpacked and SHA256 sums checked
+* ‘qqconf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qqconf’ as ‘qqconf_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qqconf)
+* installing *binary* package ‘mutoss’ ...
+* package ‘mutoss’ successfully unpacked and SHA256 sums checked
+* ‘mutoss’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mutoss’ as ‘mutoss_0.1-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mutoss)
+* installing *binary* package ‘spData’ ...
+* package ‘spData’ successfully unpacked and SHA256 sums checked
+* ‘spData’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spData’ as ‘spData_2.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spData)
+* installing *binary* package ‘metap’ ...
+* package ‘metap’ successfully unpacked and SHA256 sums checked
+* ‘metap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metap’ as ‘metap_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metap)
+* installing *binary* package ‘spdep’ ...
+* package ‘spdep’ successfully unpacked and SHA256 sums checked
+* ‘spdep’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spdep’ as ‘spdep_1.4-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spdep)
+* installing *source* package ‘HERON’ ...
+** this is package ‘HERON’ version ‘1.11.0’
+** package ‘HERON’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HERON’ as ‘HERON_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HERON)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpl16uiY/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m39.810s
+user	0m26.334s
+sys	0m5.315s

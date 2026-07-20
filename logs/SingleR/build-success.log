@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SingleR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SingleR'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SingleR_2.15.2.tar.gz'
+Content type 'application/x-gzip' length 694682 bytes (678 KB)
+==================================================
+downloaded 678 KB
+
+* installing *source* package ‘SingleR’ ...
+** this is package ‘SingleR’ version ‘2.15.2’
+** package ‘SingleR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classify_integrated.cpp -o classify_integrated.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classify_single.cpp -o classify_single.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c find_classic_markers.cpp -o find_classic_markers.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c set_executor.cpp -o set_executor.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c train_integrated.cpp -o train_integrated.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c train_single.cpp -o train_single.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SingleR.so RcppExports.o classify_integrated.o classify_single.o find_classic_markers.o set_executor.o train_integrated.o train_single.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SingleR/00new/SingleR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SingleR’ as ‘SingleR_2.15.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SingleR)
+
+The downloaded source packages are in
+	‘/tmp/RtmphdnkTh/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m9.757s
+user	0m58.113s
+sys	0m7.373s

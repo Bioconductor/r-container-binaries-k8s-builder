@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PhosR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PhosR'
+also installing the dependencies ‘ClueR’, ‘directPA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ClueR_1.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/directPA_1.5.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/PhosR_1.23.0.tar.gz'
+* installing *binary* package ‘ClueR’ ...
+* package ‘ClueR’ successfully unpacked and SHA256 sums checked
+* ‘ClueR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ClueR’ as ‘ClueR_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ClueR)
+* installing *binary* package ‘directPA’ ...
+* package ‘directPA’ successfully unpacked and SHA256 sums checked
+* ‘directPA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘directPA’ as ‘directPA_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (directPA)
+* installing *source* package ‘PhosR’ ...
+** this is package ‘PhosR’ version ‘1.23.0’
+** package ‘PhosR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PhosR’ as ‘PhosR_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PhosR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMmlJ7D/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m37.743s
+user	0m29.885s
+sys	0m5.123s

@@ -1,0 +1,108 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MLP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MLP'
+also installing the dependencies ‘org.Rn.eg.db’, ‘org.Cf.eg.db’, ‘org.Mmu.eg.db’, ‘mouse4302.db’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Rn.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Cf.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Mmu.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/mouse4302.db_3.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MLP_1.61.0.tar.gz'
+* installing *source* package ‘org.Rn.eg.db’ ...
+** this is package ‘org.Rn.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Rn.eg.db’ as ‘org.Rn.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Rn.eg.db)
+* installing *source* package ‘org.Cf.eg.db’ ...
+** this is package ‘org.Cf.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Cf.eg.db’ as ‘org.Cf.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Cf.eg.db)
+* installing *source* package ‘org.Mmu.eg.db’ ...
+** this is package ‘org.Mmu.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Mmu.eg.db’ as ‘org.Mmu.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Mmu.eg.db)
+* installing *source* package ‘mouse4302.db’ ...
+** this is package ‘mouse4302.db’ version ‘3.13.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mouse4302.db’ as ‘mouse4302.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mouse4302.db)
+* installing *source* package ‘MLP’ ...
+** this is package ‘MLP’ version ‘1.61.0’
+** package ‘MLP’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MLP’ as ‘MLP_1.61.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MLP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpsAQLh8/downloaded_packages’
+Old packages: 'diffobj'
+
+real	6m4.828s
+user	5m45.229s
+sys	0m13.605s
