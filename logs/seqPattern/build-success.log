@@ -1,0 +1,106 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''seqPattern'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'seqPattern'
+also installing the dependencies ‘GenomicInteractions’, ‘CAGEfightR’, ‘CAGEr’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomicInteractions_1.47.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CAGEfightR_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/CAGEr_2.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/seqPattern_1.45.0.tar.gz'
+* installing *source* package ‘GenomicInteractions’ ...
+** this is package ‘GenomicInteractions’ version ‘1.47.0’
+** package ‘GenomicInteractions’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicInteractions’ as ‘GenomicInteractions_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicInteractions)
+* installing *source* package ‘seqPattern’ ...
+** this is package ‘seqPattern’ version ‘1.45.0’
+** package ‘seqPattern’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seqPattern’ as ‘seqPattern_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqPattern)
+* installing *source* package ‘CAGEfightR’ ...
+** this is package ‘CAGEfightR’ version ‘1.33.0’
+** package ‘CAGEfightR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CAGEfightR’ as ‘CAGEfightR_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CAGEfightR)
+* installing *source* package ‘CAGEr’ ...
+** this is package ‘CAGEr’ version ‘2.19.0’
+** package ‘CAGEr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import 'BiocGenerics::data' by 'utils::data' when loading 'CAGEr'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import 'BiocGenerics::data' by 'utils::data' when loading 'CAGEr'
+** testing if installed package can be loaded from final location
+Warning: replacing previous import 'BiocGenerics::data' by 'utils::data' when loading 'CAGEr'
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CAGEr’ as ‘CAGEr_2.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CAGEr)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5nwv5I/downloaded_packages’
+Old packages: 'diffobj'
+
+real	3m50.267s
+user	3m19.453s
+sys	0m17.547s

@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''spatialFDA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'spatialFDA'
+also installing the dependencies ‘gamm4’, ‘RLRsim’, ‘grpreg’, ‘pbs’, ‘refund’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gamm4_0.2-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RLRsim_3.1-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/grpreg_3.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pbs_1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/refund_0.1-40.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/spatialFDA_1.5.0.tar.gz'
+* installing *binary* package ‘gamm4’ ...
+* package ‘gamm4’ successfully unpacked and SHA256 sums checked
+* ‘gamm4’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gamm4’ as ‘gamm4_0.2-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gamm4)
+* installing *binary* package ‘RLRsim’ ...
+* package ‘RLRsim’ successfully unpacked and SHA256 sums checked
+* ‘RLRsim’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RLRsim’ as ‘RLRsim_3.1-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RLRsim)
+* installing *binary* package ‘grpreg’ ...
+* package ‘grpreg’ successfully unpacked and SHA256 sums checked
+* ‘grpreg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘grpreg’ as ‘grpreg_3.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (grpreg)
+* installing *binary* package ‘pbs’ ...
+* package ‘pbs’ successfully unpacked and SHA256 sums checked
+* ‘pbs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pbs’ as ‘pbs_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbs)
+* installing *binary* package ‘refund’ ...
+* package ‘refund’ successfully unpacked and SHA256 sums checked
+* ‘refund’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘refund’ as ‘refund_0.1-40_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (refund)
+* installing *source* package ‘spatialFDA’ ...
+** this is package ‘spatialFDA’ version ‘1.5.0’
+** package ‘spatialFDA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatialFDA’ as ‘spatialFDA_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatialFDA)
+
+The downloaded source packages are in
+	‘/tmp/RtmplB4A3s/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m50.895s
+user	0m38.026s
+sys	0m6.728s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1384 (58%)
-- **Failed:** 17 (0%)
-- **In Progress:** 185
-- **Not Started:** 760
+- **Successfully Built:** 1477 (62%)
+- **Failed:** 20 (0%)
+- **In Progress:** 139
+- **Not Started:** 710
 
-**Progress:** 59%
+**Progress:** 63%
 ```
-█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
+███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1384)
+## Successfully Built Packages (1477)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1334 more ...*
+*... and 1427 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tweeDEseq](https://bioconductor.org/packages/3.24/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.24/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.24/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.24/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tximport) |
@@ -74,9 +73,10 @@
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
+| [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (17)
+## Failed Packages (20)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -85,6 +85,8 @@
 | [CytoGLMM](https://bioconductor.org/packages/3.24/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CytoGLMM) | Missing R dependency: ModelMetrics |
 | [GenomAutomorphism](https://bioconductor.org/packages/3.24/bioc/html/GenomAutomorphism.html) | [log](logs/GenomAutomorphism/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GenomAutomorphism) | Error: unable to load R code in package ‘GenomAutomorphism’ |
 | [HPiP](https://bioconductor.org/packages/3.24/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HPiP) | Missing R dependency: SparseArray<br>Missing R dependency: recipes |
+| [IFAA](https://bioconductor.org/packages/3.24/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [MAI](https://bioconductor.org/packages/3.24/bioc/html/MAI.html) | [log](logs/MAI/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/MAI) | Missing R dependency: ModelMetrics |
 | [NanoStringNCTools](https://bioconductor.org/packages/3.24/bioc/html/NanoStringNCTools.html) | [log](logs/NanoStringNCTools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/NanoStringNCTools) | Error: unable to load R code in package ‘NanoStringNCTools’ |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SPONGE](https://bioconductor.org/packages/3.24/bioc/html/SPONGE.html) | [log](logs/SPONGE/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SPONGE) | Build failed with unknown error |
@@ -92,73 +94,72 @@
 | [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
+| [jazzPanda](https://bioconductor.org/packages/3.24/bioc/html/jazzPanda.html) | [log](logs/jazzPanda/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/jazzPanda) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.24/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
 | [scAnnotatR](https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
 | [scGPS](https://bioconductor.org/packages/3.24/bioc/html/scGPS.html) | [log](logs/scGPS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scGPS) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (185)
-- ⏳ `BASiCS`
+## In Progress (139)
+- ⏳ `AMARETTO`
+- ⏳ `APL`
 - ⏳ `BUMHMM`
-- ⏳ `BUScorrect`
-- ⏳ `BaalChIP`
 - ⏳ `BamScale`
 - ⏳ `BasicSTARRseq`
 - ⏳ `BayesSpace`
+- ⏳ `BgeeDB`
+- ⏳ `BiocHubsShiny`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
-- ⏳ `CNVPanelizer`
+- ⏳ `CNTools`
 - ⏳ `CNVRanger`
 - ⏳ `CTSV`
+- ⏳ `CTdata`
 - ⏳ `CatsCradle`
-- ⏳ `CellMixS`
 - ⏳ `CellTrails`
 - ⏳ `CoGAPS`
-- ⏳ `Coralysis`
-- ⏳ `CytoPipeline`
 - ⏳ `DAssemble`
-- ⏳ `DMRScan`
-- ⏳ `DelayedTensor`
+- ⏳ `DEXSeq`
+- ⏳ `DNEA`
+- ⏳ `DeepTarget`
 - ⏳ `Dino`
-- ⏳ `DropletUtils`
-- ⏳ `DspikeIn`
-- ⏳ `EBSEA`
+- ⏳ `EpipwR`
 - ⏳ `ExperimentSubset`
-- ⏳ `GOfan`
 - ⏳ `GSEABase`
-- ⏳ `GenomicDataCommons`
-- ⏳ `GenomicDistributions`
+- ⏳ `GeneMeta`
 - ⏳ `GeoTcgaData`
-- ⏳ `GloScope`
-- ⏳ `GraphExperiment`
-- ⏳ `HIPPO`
-- ⏳ `HybridExpress`
-- ⏳ `IFAA`
-- ⏳ `MAI`
-- ⏳ `MAST`
+- ⏳ `LRcell`
 - ⏳ `MLSeq`
-- ⏳ `MSnbase`
 - ⏳ `MetMashR`
+- ⏳ `MsDataHub`
 - ⏳ `MultiDataSet`
-- ⏳ `MultiRNAflow`
 - ⏳ `NetActivity`
+- ⏳ `PDATK`
+- ⏳ `PECA`
 - ⏳ `PREDA`
-- ⏳ `PathoStat`
 - ⏳ `ProteoMM`
 - ⏳ `QDNAseq`
 - ⏳ `RNAshapeQC`
 - ⏳ `RUCova`
+- ⏳ `RadioGx`
+- ⏳ `Rbowtie2`
+- ⏳ `RolDE`
+- ⏳ `SAIGEgds`
+- ⏳ `SC3`
+- ⏳ `SCArray`
+- ⏳ `SCnorm`
+- ⏳ `SPsimSeq`
+- ⏳ `SeqSQC`
+- ⏳ `ShortRead`
 
-... and 135 more ...
+... and 89 more ...
 
-## Not Yet Started (760)
+## Not Yet Started (710)
 - ⏸️ `ACE`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
-- ⏸️ `AMARETTO`
-- ⏸️ `APL`
 - ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -181,14 +182,11 @@
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BgeeCall`
-- ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioCor`
 - ⏸️ `BioNERO`
-- ⏸️ `BiocHubsShiny`
-- ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
@@ -198,14 +196,19 @@
 - ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
 - ⏸️ `CNEr`
-- ⏸️ `CNTools`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CODEX`
+- ⏸️ `CRISPRball`
+- ⏸️ `CRISPRseek`
+- ⏸️ `CSSQ`
+- ⏸️ `CTexploreR`
+- ⏸️ `CaMutQC`
+- ⏸️ `Category`
 
-... and 710 more ...
+... and 660 more ...
 
 ---
-*Last updated: 2026-07-20 20:54:32 UTC*
-*Packages with verified BBS status: 201*
+*Last updated: 2026-07-20 20:59:32 UTC*
+*Packages with verified BBS status: 205*

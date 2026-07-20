@@ -1,0 +1,52 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ViSEAGO'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ViSEAGO'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ViSEAGO_1.27.0.tar.gz'
+Content type 'application/x-gzip' length 9047542 bytes (8.6 MB)
+==================================================
+downloaded 8.6 MB
+
+* installing *source* package ‘ViSEAGO’ ...
+** this is package ‘ViSEAGO’ version ‘1.27.0’
+** package ‘ViSEAGO’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘data.table::set’ by ‘dendextend::set’ when loading ‘ViSEAGO’
+Warning: replacing previous import ‘dendextend::cutree’ by ‘stats::cutree’ when loading ‘ViSEAGO’
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ViSEAGO’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘data.table::set’ by ‘dendextend::set’ when loading ‘ViSEAGO’
+Warning: replacing previous import ‘dendextend::cutree’ by ‘stats::cutree’ when loading ‘ViSEAGO’
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ViSEAGO’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘data.table::set’ by ‘dendextend::set’ when loading ‘ViSEAGO’
+Warning: replacing previous import ‘dendextend::cutree’ by ‘stats::cutree’ when loading ‘ViSEAGO’
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘ViSEAGO’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ViSEAGO’ as ‘ViSEAGO_1.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ViSEAGO)
+
+The downloaded source packages are in
+	‘/tmp/RtmpsI6BJX/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m45.552s
+user	0m36.083s
+sys	0m4.540s

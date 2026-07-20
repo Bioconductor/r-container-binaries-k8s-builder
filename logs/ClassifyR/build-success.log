@@ -1,0 +1,114 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ClassifyR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ClassifyR'
+also installing the dependencies ‘Rmixmod’, ‘randomForestSRC’, ‘TOP’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rmixmod_2.1.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/randomForestSRC_3.6.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TOP_1.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ClassifyR_3.17.0.tar.gz'
+* installing *binary* package ‘Rmixmod’ ...
+* package ‘Rmixmod’ successfully unpacked and SHA256 sums checked
+* ‘Rmixmod’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rmixmod’ as ‘Rmixmod_2.1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rmixmod)
+* installing *binary* package ‘randomForestSRC’ ...
+* package ‘randomForestSRC’ successfully unpacked and SHA256 sums checked
+* ‘randomForestSRC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘randomForestSRC’ as ‘randomForestSRC_3.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomForestSRC)
+* installing *source* package ‘ClassifyR’ ...
+** this is package ‘ClassifyR’ version ‘3.17.0’
+** package ‘ClassifyR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c coxformatrices.cpp -o coxformatrices.o
+coxformatrices.cpp: In function ‘void chsolve2(double**, int, double*)’:
+coxformatrices.cpp:528:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  528 |     register int i,j;
+      |                  ^
+coxformatrices.cpp:528:20: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  528 |     register int i,j;
+      |                    ^
+coxformatrices.cpp:529:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  529 |     register double temp;
+      |                     ^~~~
+coxformatrices.cpp: In function ‘void chinv2(double**, int)’:
+coxformatrices.cpp:569:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  569 |     register double temp;
+      |                     ^~~~
+coxformatrices.cpp:570:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                  ^
+coxformatrices.cpp:570:20: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                    ^
+coxformatrices.cpp:570:22: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                      ^
+coxformatrices.cpp: In function ‘double** dmatrix(double*, int, int)’:
+coxformatrices.cpp:656:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  656 |     register int i;
+      |                  ^
+coxformatrices.cpp:657:23: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  657 |     register double **pointer;
+      |                       ^~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ClassifyR.so coxformatrices.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ClassifyR/00new/ClassifyR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘ROCplot’ with signature ‘"ClassifyResult"’: no definition for class “ClassifyResult”
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ClassifyR’ as ‘ClassifyR_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ClassifyR)
+* installing *source* package ‘TOP’ ...
+** this is package ‘TOP’ version ‘1.13.0’
+** package ‘TOP’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ModelMetrics’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘TOP’
+* removing ‘/tmp/library/TOP’
+
+The downloaded source packages are in
+	‘/tmp/RtmptnIUIm/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘TOP’ had non-zero exit status
+
+real	1m2.136s
+user	0m44.781s
+sys	0m6.754s

@@ -1,0 +1,55 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DelayedTensor'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DelayedTensor'
+also installing the dependency ‘einsum’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/einsum_0.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DelayedTensor_1.19.0.tar.gz'
+* installing *binary* package ‘einsum’ ...
+* package ‘einsum’ successfully unpacked and SHA256 sums checked
+* ‘einsum’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘einsum’ as ‘einsum_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (einsum)
+* installing *source* package ‘DelayedTensor’ ...
+** this is package ‘DelayedTensor’ version ‘1.19.0’
+** package ‘DelayedTensor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘kronecker’ in package ‘DelayedTensor’
+Creating a new generic function for ‘diag’ in package ‘DelayedTensor’
+Creating a new generic function for ‘diag<-’ in package ‘DelayedTensor’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: multiple methods tables found for ‘kronecker’
+** testing if installed package can be loaded from final location
+Warning: multiple methods tables found for ‘kronecker’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DelayedTensor’ as ‘DelayedTensor_1.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DelayedTensor)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp90Iy50/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m38.032s
+user	0m28.795s
+sys	0m4.385s
