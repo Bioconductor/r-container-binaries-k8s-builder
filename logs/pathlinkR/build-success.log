@@ -1,0 +1,51 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pathlinkR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pathlinkR'
+also installing the dependency ‘sigora’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sigora_3.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/pathlinkR_1.8.0.tar.gz'
+* installing *binary* package ‘sigora’ ...
+* package ‘sigora’ successfully unpacked and SHA256 sums checked
+* ‘sigora’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sigora’ as ‘sigora_3.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sigora)
+* installing *source* package ‘pathlinkR’ ...
+** this is package ‘pathlinkR’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pathlinkR’ as ‘pathlinkR_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pathlinkR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmfoNLA/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m44.137s
+user	0m24.755s
+sys	0m5.506s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1948 (81%)
+- **Successfully Built:** 2054 (86%)
 - **Failed:** 51 (2%)
-- **In Progress:** 80
-- **Not Started:** 305
+- **In Progress:** 83
+- **Not Started:** 196
 
-**Progress:** 83%
+**Progress:** 88%
 ```
-█████████████████████████████████████████░░░░░░░░░
+████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (1948)
+## Successfully Built Packages (2054)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -36,6 +36,7 @@
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.23/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANF) |
+| [APAlyzer](https://bioconductor.org/packages/3.23/bioc/html/APAlyzer.html) | [log](logs/APAlyzer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/APAlyzer) |
 | [APL](https://bioconductor.org/packages/3.23/bioc/html/APL.html) | [log](logs/APL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/APL) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
@@ -44,9 +45,8 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
-| [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1898 more ...*
+*... and 2004 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -132,114 +132,114 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (80)
-- ⏳ `AnnotationHubData`
-- ⏳ `BUSpaRse`
-- ⏳ `BgeeCall`
-- ⏳ `BindingSiteFinder`
+## In Progress (83)
+- ⏳ `BadRegionFinder`
 - ⏳ `CEMiTool`
-- ⏳ `CRISPRseek`
+- ⏳ `CNVrd2`
 - ⏳ `CaMutQC`
+- ⏳ `CexoR`
 - ⏳ `ChIPXpress`
-- ⏳ `ChIPanalyser`
 - ⏳ `ChIPpeakAnno`
+- ⏳ `CiteFuse`
 - ⏳ `CleanUpRNAseq`
+- ⏳ `ClonalSim`
+- ⏳ `Coralysis`
+- ⏳ `DAMEfinder`
 - ⏳ `DOTSeq`
+- ⏳ `DSS`
+- ⏳ `DeconvoBuddies`
 - ⏳ `DegCre`
 - ⏳ `DegNorm`
-- ⏳ `DropletUtils`
+- ⏳ `Dino`
+- ⏳ `DominoEffect`
 - ⏳ `EDASeq`
-- ⏳ `ELViS`
-- ⏳ `ERSSA`
-- ⏳ `EasyCellType`
-- ⏳ `EpiMix`
 - ⏳ `EpiTxDb`
 - ⏳ `GDCRNATools`
 - ⏳ `GRaNIE`
 - ⏳ `GSABenchmark`
 - ⏳ `GSReg`
 - ⏳ `Guitar`
-- ⏳ `HiContacts`
 - ⏳ `HiLDA`
-- ⏳ `IVAS`
-- ⏳ `MDSvis`
-- ⏳ `MEDIPS`
+- ⏳ `InPAS`
 - ⏳ `MIRit`
 - ⏳ `MetaPhOR`
 - ⏳ `MoonlightR`
+- ⏳ `MungeSumstats`
 - ⏳ `ORFik`
 - ⏳ `OUTRIDER`
-- ⏳ `OutSplice`
+- ⏳ `RAIDS`
+- ⏳ `RBedMethyl`
 - ⏳ `RUCova`
 - ⏳ `RiboDiPA`
-- ⏳ `SCAN.UPC`
-- ⏳ `SEraster`
-- ⏳ `SVP`
-- ⏳ `SemDist`
-- ⏳ `TRESS`
-- ⏳ `VAExprs`
+- ⏳ `UPDhmm`
+- ⏳ `Uniquorn`
+- ⏳ `VariantTools`
+- ⏳ `ZygosityPredictor`
 - ⏳ `a4Base`
 - ⏳ `airpart`
-- ⏳ `basecallQC`
+- ⏳ `appreci8R`
+- ⏳ `biovizBase`
 - ⏳ `broadSeq`
-- ⏳ `categoryCompare`
+- ⏳ `cardelino`
+- ⏳ `celda`
+- ⏳ `chevreulProcess`
 
-... and 30 more ...
+... and 33 more ...
 
-## Not Yet Started (305)
+## Not Yet Started (196)
 - ⏸️ `AHMassBank`
-- ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
-- ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BadRegionFinder`
 - ⏸️ `BatChef`
-- ⏸️ `BatchQC`
-- ⏸️ `BayesSpace`
-- ⏸️ `BioTIP`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CCAFE`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CexoR`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPQC`
 - ⏸️ `ChIPexoQual`
-- ⏸️ `ChromSCape`
-- ⏸️ `CircSeqAlignTk`
-- ⏸️ `CiteFuse`
-- ⏸️ `ClonalSim`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `Coralysis`
 - ⏸️ `CyTOFpower`
-- ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `DOtools`
-- ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
-- ⏸️ `DeconvoBuddies`
-- ⏸️ `Dino`
-- ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
 - ⏸️ `ENmix`
-- ⏸️ `EpiCompare`
 - ⏸️ `ExperimentHubData`
+- ⏸️ `FRASER`
+- ⏸️ `GA4GHshiny`
+- ⏸️ `GARS`
+- ⏸️ `GNOSIS`
+- ⏸️ `GUIDEseq`
+- ⏸️ `GeneStructureTools`
+- ⏸️ `GeneTonic`
+- ⏸️ `GenomicInteractions`
+- ⏸️ `GenomicOZone`
+- ⏸️ `GenomicPlot`
+- ⏸️ `Gviz`
+- ⏸️ `HiCDCPlus`
+- ⏸️ `HiCaptuRe`
+- ⏸️ `HistoImagePlot`
+- ⏸️ `IntEREst`
+- ⏸️ `MAGAR`
+- ⏸️ `MEAL`
+- ⏸️ `MEAT`
+- ⏸️ `MetaboSignal`
+- ⏸️ `MethylAid`
+- ⏸️ `Moonlight2R`
+- ⏸️ `NADfinder`
 
-... and 255 more ...
+... and 146 more ...
 
 ---
-*Last updated: 2026-07-20 21:26:34 UTC*
-*Packages with verified BBS status: 234*
+*Last updated: 2026-07-20 21:32:52 UTC*
+*Packages with verified BBS status: 235*

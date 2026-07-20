@@ -1,0 +1,61 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mosdef'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mosdef'
+also installing the dependency ‘GeneTonic’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GeneTonic_3.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mosdef_1.8.0.tar.gz'
+* installing *source* package ‘mosdef’ ...
+** this is package ‘mosdef’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mosdef’ as ‘mosdef_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mosdef)
+* installing *source* package ‘GeneTonic’ ...
+** this is package ‘GeneTonic’ version ‘3.6.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeneTonic’ as ‘GeneTonic_3.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeneTonic)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1ESdES/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m56.516s
+user	1m35.244s
+sys	0m11.133s

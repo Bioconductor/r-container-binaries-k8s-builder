@@ -1,0 +1,113 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''FLAMES'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'FLAMES'
+also installing the dependency ‘crew’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/crew_1.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/FLAMES_2.6.0.tar.gz'
+* installing *binary* package ‘crew’ ...
+* package ‘crew’ successfully unpacked and SHA256 sums checked
+* ‘crew’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘crew’ as ‘crew_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crew)
+* installing *source* package ‘FLAMES’ ...
+** this is package ‘FLAMES’ version ‘2.6.0’
+** using non-staged installation via StagedInstall field
+** libs
+specified C++17
+/bin/sh: 1: rustc: not found
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+/bin/sh: 1: rustc: not found
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppFunctions.cpp -o RcppFunctions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classes/BamRecord.cpp -o classes/BamRecord.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classes/GFFRecord.cpp -o classes/GFFRecord.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classes/GeneAnnotationParser.cpp -o classes/GeneAnnotationParser.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classes/Isoforms.cpp -o classes/Isoforms.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classes/junctions.cpp -o classes/junctions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c main-functions/find_isoform.cpp -o main-functions/find_isoform.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c main-functions/flexiplex.cpp -o main-functions/flexiplex.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c main-functions/get_transcript_seq.cpp -o main-functions/get_transcript_seq.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c main-functions/group_bam2isoform.cpp -o main-functions/group_bam2isoform.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c main-functions/pileup_readid.cpp -o main-functions/pileup_readid.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tests/test-junctions.cpp -o tests/test-junctions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tests/test-parsing.cpp -o tests/test-parsing.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utility/cigars.cpp -o utility/cigars.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utility/edlib-1.2.7/edlib.cpp -o utility/edlib-1.2.7/edlib.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -pthread -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utility/bam.c -o utility/bam.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o FLAMES.so RcppExports.o RcppFunctions.o classes/BamRecord.o classes/GFFRecord.o classes/GeneAnnotationParser.o classes/Isoforms.o classes/junctions.o main-functions/find_isoform.o main-functions/flexiplex.o main-functions/get_transcript_seq.o main-functions/group_bam2isoform.o main-functions/pileup_readid.o tests/test-junctions.o tests/test-parsing.o utility/cigars.o utility/edlib-1.2.7/edlib.o utility/bam.o -pthread -lz /mnt/library/Rhtslib/usrlib/libhts.a -lcurl -lbz2 -llzma -lz -L/usr/local/lib/R/lib -lR
+if test -e "/usr/bin/strip" & test -e "/bin/uname" & [[ `uname` == "Linux" ]] ; then /usr/bin/strip --strip-debug FLAMES.so; fi
+Building for x86_64
+(cd submodule/minimap2 && make -f Makefile CFLAGS="-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result" minimap2)
+make[1]: Entering directory '/tmp/Rtmp8868R2/R.INSTALL475fdc0f0f/FLAMES/src/submodule/minimap2'
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  main.c -o main.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  kthread.c -o kthread.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  kalloc.c -o kalloc.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  misc.c -o misc.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  bseq.c -o bseq.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  sketch.c -o sketch.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  sdust.c -o sdust.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  options.c -o options.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  index.c -o index.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  lchain.c -o lchain.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  align.c -o align.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  hit.c -o hit.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  seed.c -o seed.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  jump.c -o jump.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  map.c -o map.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  format.c -o format.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  pe.c -o pe.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  esterr.c -o esterr.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -DHAVE_KALLOC  splitidx.c -o splitidx.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse2 -DHAVE_KALLOC  ksw2_ll_sse.c -o ksw2_ll_sse.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse4.1 -DHAVE_KALLOC -DKSW_CPU_DISPATCH  ksw2_extz2_sse.c -o ksw2_extz2_sse41.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse4.1 -DHAVE_KALLOC -DKSW_CPU_DISPATCH  ksw2_extd2_sse.c -o ksw2_extd2_sse41.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse4.1 -DHAVE_KALLOC -DKSW_CPU_DISPATCH  ksw2_exts2_sse.c -o ksw2_exts2_sse41.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse2 -mno-sse4.1 -DHAVE_KALLOC -DKSW_CPU_DISPATCH -DKSW_SSE2_ONLY  ksw2_extz2_sse.c -o ksw2_extz2_sse2.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse2 -mno-sse4.1 -DHAVE_KALLOC -DKSW_CPU_DISPATCH -DKSW_SSE2_ONLY  ksw2_extd2_sse.c -o ksw2_extd2_sse2.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse2 -mno-sse4.1 -DHAVE_KALLOC -DKSW_CPU_DISPATCH -DKSW_SSE2_ONLY  ksw2_exts2_sse.c -o ksw2_exts2_sse2.o
+cc -c -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result -msse4.1 -DHAVE_KALLOC -DKSW_CPU_DISPATCH  ksw2_dispatch.c -o ksw2_dispatch.o
+ar -csru libminimap2.a kthread.o kalloc.o misc.o bseq.o sketch.o sdust.o options.o index.o lchain.o align.o hit.o seed.o jump.o map.o format.o pe.o esterr.o splitidx.o ksw2_ll_sse.o ksw2_extz2_sse41.o ksw2_extd2_sse41.o ksw2_exts2_sse41.o ksw2_extz2_sse2.o ksw2_extd2_sse2.o ksw2_exts2_sse2.o ksw2_dispatch.o
+ar: `u' modifier ignored since `D' is the default (see `U')
+cc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -Wno-unused-result main.o -o minimap2 -L. -lminimap2 -lm -lz -lpthread
+make[1]: Leaving directory '/tmp/Rtmp8868R2/R.INSTALL475fdc0f0f/FLAMES/src/submodule/minimap2'
+echo "Installing binary to /tmp/Rtmp8868R2/R.INSTALL475fdc0f0f/FLAMES/src/../inst/bin"
+Installing binary to /tmp/Rtmp8868R2/R.INSTALL475fdc0f0f/FLAMES/src/../inst/bin
+mkdir -p ../inst/bin
+cp submodule/minimap2/minimap2 ../inst/bin/
+Cargo not found, skipping oarfish installation.
+installing to /tmp/library/FLAMES/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FLAMES’ as ‘FLAMES_2.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FLAMES)
+
+The downloaded source packages are in
+	‘/tmp/RtmpwZityz/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m3.278s
+user	1m37.484s
+sys	0m18.006s
