@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2186 (91%)
+- **Successfully Built:** 2191 (91%)
 - **Failed:** 53 (2%)
-- **In Progress:** 44
-- **Not Started:** 101
+- **In Progress:** 45
+- **Not Started:** 95
 
-**Progress:** 93%
+**Progress:** 94%
 ```
-██████████████████████████████████████████████░░░░
+███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2186)
+## Successfully Built Packages (2191)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2136 more ...*
+*... and 2141 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -134,17 +134,16 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (44)
+## In Progress (45)
 - ⏳ `ATACseqQC`
 - ⏳ `DEScan2`
 - ⏳ `FRASER`
 - ⏳ `GUIDEseq`
 - ⏳ `Guitar`
+- ⏳ `MAGAR`
 - ⏳ `MungeSumstats`
-- ⏳ `REDseq`
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
-- ⏳ `RUVSeq`
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `SpaceTrooper`
 - ⏳ `UPDhmm`
@@ -152,6 +151,7 @@
 - ⏳ `VariantTools`
 - ⏳ `alabaster`
 - ⏳ `appreci8R`
+- ⏳ `arrayMvout`
 - ⏳ `atSNP`
 - ⏳ `biovizBase`
 - ⏳ `borealis`
@@ -160,16 +160,16 @@
 - ⏳ `carnation`
 - ⏳ `cbaf`
 - ⏳ `chevreulProcess`
-- ⏳ `decontX`
 - ⏳ `deconvR`
 - ⏳ `derfinder`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `epiregulon`
-- ⏳ `epivizr`
-- ⏳ `epivizrChart`
+- ⏳ `ffpe`
+- ⏳ `iCheck`
 - ⏳ `ideal`
 - ⏳ `magpie`
 - ⏳ `metaseqR2`
+- ⏳ `miaDash`
 - ⏳ `missMethyl`
 - ⏳ `pcaExplorer`
 - ⏳ `scCB2`
@@ -178,9 +178,10 @@
 - ⏳ `svaNUMT`
 - ⏳ `svaRetro`
 - ⏳ `visiumStitched`
+- ⏳ `wateRmelon`
 - ⏳ `yarn`
 
-## Not Yet Started (101)
+## Not Yet Started (95)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -205,7 +206,6 @@
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `NADfinder`
@@ -228,12 +228,13 @@
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `annoLinker`
-- ⏸️ `arrayMvout`
 - ⏸️ `bandle`
 - ⏸️ `bigmelon`
+- ⏸️ `biomvRCNS`
+- ⏸️ `cageminer`
 
-... and 51 more ...
+... and 45 more ...
 
 ---
-*Last updated: 2026-07-20 21:43:56 UTC*
+*Last updated: 2026-07-20 21:44:52 UTC*
 *Packages with verified BBS status: 240*
