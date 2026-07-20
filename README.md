@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 209 (8%)
+- **Successfully Built:** 213 (8%)
 - **Failed:** 5 (0%)
-- **In Progress:** 168
-- **Not Started:** 2002
+- **In Progress:** 165
+- **Not Started:** 2001
 
-**Progress:** 8%
+**Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (209)
+## Successfully Built Packages (213)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -32,6 +32,8 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
+| [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
+| [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
@@ -43,16 +45,13 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.23/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocWorkflowTools) |
 | [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
-| [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
-| [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
 
-*... and 159 more ...*
+*... and 163 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [iSeq](https://bioconductor.org/packages/3.23/bioc/html/iSeq.html) | [log](logs/iSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iSeq) |
-| [koinar](https://bioconductor.org/packages/3.23/bioc/html/koinar.html) | [log](logs/koinar/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/koinar) |
 | [messina](https://bioconductor.org/packages/3.23/bioc/html/messina.html) | [log](logs/messina/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/messina) |
+| [metapod](https://bioconductor.org/packages/3.23/bioc/html/metapod.html) | [log](logs/metapod/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metapod) |
 | [mgsa](https://bioconductor.org/packages/3.23/bioc/html/mgsa.html) | [log](logs/mgsa/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mgsa) |
 | [miRNApath](https://bioconductor.org/packages/3.23/bioc/html/miRNApath.html) | [log](logs/miRNApath/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/miRNApath) |
 | [multiClust](https://bioconductor.org/packages/3.23/bioc/html/multiClust.html) | [log](logs/multiClust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/multiClust) |
@@ -74,6 +73,7 @@
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
+| [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 
 ## Failed Packages (5)
@@ -86,10 +86,8 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (168)
+## In Progress (165)
 - ⏳ `ANCOMBC`
-- ⏳ `AnVILPublish`
-- ⏳ `AnVILWorkflow`
 - ⏳ `BADER`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
@@ -137,10 +135,12 @@
 - ⏳ `TaxSEA`
 - ⏳ `TreeAndLeaf`
 - ⏳ `XINA`
+- ⏳ `a4Reporting`
+- ⏳ `acde`
 
-... and 118 more ...
+... and 115 more ...
 
-## Not Yet Started (2002)
+## Not Yet Started (2001)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -192,8 +192,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BEclear`
 
-... and 1952 more ...
+... and 1951 more ...
 
 ---
-*Last updated: 2026-07-20 19:25:41 UTC*
-*Packages with verified BBS status: 83*
+*Last updated: 2026-07-20 19:26:36 UTC*
+*Packages with verified BBS status: 87*
