@@ -1,0 +1,123 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HVP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HVP'
+also installing the dependencies ‘scrapper’, ‘splatter’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scrapper_1.6.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/splatter_1.36.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/HVP_1.2.0.tar.gz'
+* installing *source* package ‘scrapper’ ...
+** this is package ‘scrapper’ version ‘1.6.3’
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c adt_quality_control.cpp -o adt_quality_control.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c aggregate_across_cells.cpp -o aggregate_across_cells.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c aggregate_across_genes.cpp -o aggregate_across_genes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c build_snn_graph.cpp -o build_snn_graph.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c center_size_factors.cpp -o center_size_factors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c choose_highly_variable_genes.cpp -o choose_highly_variable_genes.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c choose_pseudo_count.cpp -o choose_pseudo_count.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cluster_graph.cpp -o cluster_graph.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cluster_kmeans.cpp -o cluster_kmeans.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c combine_factors.cpp -o combine_factors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c compute_block_weights.cpp -o compute_block_weights.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c compute_clrm1_factors.cpp -o compute_clrm1_factors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c correct_mnn.cpp -o correct_mnn.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c crispr_quality_control.cpp -o crispr_quality_control.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fit_variance_trend.cpp -o fit_variance_trend.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c model_gene_variances.cpp -o model_gene_variances.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c normalize_counts.cpp -o normalize_counts.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rna_quality_control.cpp -o rna_quality_control.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c run_pca.cpp -o run_pca.o
+run_pca.cpp: In function ‘Rcpp::List run_pca(SEXP, int, Rcpp::Nullable<Rcpp::Vector<13> >, std::string, Rcpp::NumericVector, bool, bool, Rcpp::Nullable<Rcpp::Vector<13> >, bool, Rcpp::Nullable<Rcpp::Vector<13> >, int, double, double, int)’:
+run_pca.cpp:97:48: warning: alias template deduction only available with ‘-std=c++20’ or ‘-std=gnu++20’
+   97 |             scran_pca::SubsetPcaBlockedOptions opt;
+      |                                                ^~~
+run_pca.cpp:97:48: note: use ‘template<class EigenVector_> struct scran_pca::BlockedPcaOptions’ directly instead
+run_pca.cpp:110:41: warning: alias template deduction only available with ‘-std=c++20’ or ‘-std=gnu++20’
+  110 |             scran_pca::SubsetPcaOptions opt;
+      |                                         ^~~
+run_pca.cpp:110:41: note: use ‘template<class EigenVector_> struct scran_pca::SimplePcaOptions’ directly instead
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c run_tsne.cpp -o run_tsne.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c run_umap.cpp -o run_umap.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sanitize_size_factors.cpp -o sanitize_size_factors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c scale_by_neighbors.cpp -o scale_by_neighbors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c score_gene_set.cpp -o score_gene_set.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c score_markers.cpp -o score_markers.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c set_executor.cpp -o set_executor.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c subsample_by_neighbors.cpp -o subsample_by_neighbors.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c summarize_effects.cpp -o summarize_effects.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I'/mnt/library/Rigraphlib/igraph/include/igraph' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/BiocNeighbors/include' -I'/mnt/library/Rigraphlib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test_enrichment.cpp -o test_enrichment.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o scrapper.so RcppExports.o adt_quality_control.o aggregate_across_cells.o aggregate_across_genes.o build_snn_graph.o center_size_factors.o choose_highly_variable_genes.o choose_pseudo_count.o cluster_graph.o cluster_kmeans.o combine_factors.o compute_block_weights.o compute_clrm1_factors.o correct_mnn.o crispr_quality_control.o fit_variance_trend.o model_gene_variances.o normalize_counts.o rna_quality_control.o run_pca.o run_tsne.o run_umap.o sanitize_size_factors.o scale_by_neighbors.o score_gene_set.o score_markers.o set_executor.o subsample_by_neighbors.o summarize_effects.o test_enrichment.o /mnt/library/Rigraphlib/igraph/lib/libigraph.a -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-scrapper/00new/scrapper/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scrapper’ as ‘scrapper_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scrapper)
+* installing *source* package ‘HVP’ ...
+** this is package ‘HVP’ version ‘1.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘HVP’ with signature ‘"Seurat"’: no definition for class “Seurat”
+in method for ‘HVP’ with signature ‘"SummarizedExperiment"’: no definition for class “SummarizedExperiment”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HVP’ as ‘HVP_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HVP)
+* installing *source* package ‘splatter’ ...
+** this is package ‘splatter’ version ‘1.36.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x6470, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘splatter’
+* removing ‘/tmp/library/splatter’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpfd8U8A/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘splatter’ had non-zero exit status
+
+real	6m26.582s
+user	5m45.974s
+sys	0m38.960s
