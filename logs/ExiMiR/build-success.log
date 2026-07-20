@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ExiMiR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ExiMiR'
+also installing the dependency ‘mirna10cdf’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/mirna10cdf_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ExiMiR_2.54.0.tar.gz'
+* installing *source* package ‘mirna10cdf’ ...
+** this is package ‘mirna10cdf’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘mirna10cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘mirna10cdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘mirna10cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘mirna10cdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘mirna10cdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘mirna10cdf’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mirna10cdf’ as ‘mirna10cdf_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mirna10cdf)
+* installing *source* package ‘ExiMiR’ ...
+** this is package ‘ExiMiR’ version ‘2.54.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ExiMiR’ as ‘ExiMiR_2.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExiMiR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLjZ0RP/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m22.980s
+user	0m17.921s
+sys	0m4.674s

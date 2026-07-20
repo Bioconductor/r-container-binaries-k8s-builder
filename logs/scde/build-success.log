@@ -1,0 +1,114 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scde'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scde'
+also installing the dependencies ‘Lmoments’, ‘distillery’, ‘Rook’, ‘RMTstat’, ‘extRemes’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Lmoments_1.3-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/distillery_1.2-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rook_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RMTstat_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/extRemes_2.2-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scde_2.40.0.tar.gz'
+* installing *binary* package ‘Lmoments’ ...
+* package ‘Lmoments’ successfully unpacked and SHA256 sums checked
+* ‘Lmoments’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Lmoments’ as ‘Lmoments_1.3-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Lmoments)
+* installing *binary* package ‘distillery’ ...
+* package ‘distillery’ successfully unpacked and SHA256 sums checked
+* ‘distillery’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘distillery’ as ‘distillery_1.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (distillery)
+* installing *binary* package ‘Rook’ ...
+* package ‘Rook’ successfully unpacked and SHA256 sums checked
+* ‘Rook’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rook’ as ‘Rook_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rook)
+* installing *binary* package ‘RMTstat’ ...
+* package ‘RMTstat’ successfully unpacked and SHA256 sums checked
+* ‘RMTstat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RMTstat’ as ‘RMTstat_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RMTstat)
+* installing *binary* package ‘extRemes’ ...
+* package ‘extRemes’ successfully unpacked and SHA256 sums checked
+* ‘extRemes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘extRemes’ as ‘extRemes_2.2-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (extRemes)
+* installing *source* package ‘scde’ ...
+** this is package ‘scde’ version ‘2.40.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bwpca.cpp -o bwpca.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c jpmatLogBoot.cpp -o jpmatLogBoot.o
+jpmatLogBoot.cpp: In function ‘SEXPREC* logBootPosterior(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)’:
+jpmatLogBoot.cpp:200:36: warning: ‘eT arma::Mat<eT>::max(arma::uword&) const [with eT = double; arma::uword = unsigned int]’ is deprecated: use .index_max() instead [-Wdeprecated-declarations]
+  200 |                 double maxv=nbp.max(maxij);
+      |                             ~~~~~~~^~~~~~~
+In file included from /mnt/library/RcppArmadillo/include/armadillo:201,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:51,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from jpmatLogBoot.h:4,
+                 from jpmatLogBoot.cpp:1:
+/mnt/library/RcppArmadillo/include/armadillo_bits/Mat_bones.hpp:570:56: note: declared here
+  570 |   [[deprecated("use .index_max() instead")]] inline eT max(uword& index_of_max_val) const;
+      |                                                        ^~~
+jpmatLogBoot.cpp: In function ‘SEXPREC* logBootBatchPosterior(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)’:
+jpmatLogBoot.cpp:443:36: warning: ‘eT arma::Mat<eT>::max(arma::uword&) const [with eT = double; arma::uword = unsigned int]’ is deprecated: use .index_max() instead [-Wdeprecated-declarations]
+  443 |                 double maxv=nbp.max(maxij);
+      |                             ~~~~~~~^~~~~~~
+In file included from /mnt/library/RcppArmadillo/include/armadillo:694:
+/mnt/library/RcppArmadillo/include/armadillo_bits/Mat_meat.hpp:8371:1: note: declared here
+ 8371 | Mat<eT>::max(uword& index_of_max_val) const
+      | ^~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c matSlideMult.cpp -o matSlideMult.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pagoda.cpp -o pagoda.o
+'Rcpp:::LdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'RcppLdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o scde.so bwpca.o jpmatLogBoot.o matSlideMult.o pagoda.o -lpthread -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R/lib -lR
+'Rcpp:::LdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'RcppLdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+installing to /tmp/library/00LOCK-scde/00new/scde/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scde’ as ‘scde_2.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scde)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbuNi3M/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m7.074s
+user	0m53.775s
+sys	0m7.566s

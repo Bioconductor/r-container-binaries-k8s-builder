@@ -1,0 +1,43 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BAGS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BAGS'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BAGS_2.51.0.tar.gz'
+Content type 'application/x-gzip' length 281646 bytes (275 KB)
+==================================================
+downloaded 275 KB
+
+* installing *source* package ‘BAGS’ ...
+** this is package ‘BAGS’ version ‘2.51.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c BAGS.c -o BAGS.o
+In file included from FuncionesFast-Final.h:10,
+                 from BAGS.c:8:
+libmat.h:17:10: fatal error: R_ext/PrtUtil.h: No such file or directory
+   17 | #include <R_ext/PrtUtil.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [/usr/local/lib/R/etc/Makeconf:190: BAGS.o] Error 1
+ERROR: compilation failed for package ‘BAGS’
+* removing ‘/tmp/library/BAGS’
+
+The downloaded source packages are in
+	‘/tmp/RtmpbDmQNi/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘BAGS’ had non-zero exit status
+
+real	0m7.997s
+user	0m4.266s
+sys	0m1.633s

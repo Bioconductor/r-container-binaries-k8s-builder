@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''drugfindR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'drugfindR'
+also installing the dependencies ‘codemeta’, ‘codemetar’, ‘httptest2’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/codemeta_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/codemetar_0.3.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/httptest2_1.2.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/drugfindR_1.0.0.tar.gz'
+* installing *binary* package ‘codemeta’ ...
+* package ‘codemeta’ successfully unpacked and SHA256 sums checked
+* ‘codemeta’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘codemeta’ as ‘codemeta_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (codemeta)
+* installing *binary* package ‘httptest2’ ...
+* package ‘httptest2’ successfully unpacked and SHA256 sums checked
+* ‘httptest2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘httptest2’ as ‘httptest2_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (httptest2)
+* installing *source* package ‘drugfindR’ ...
+** this is package ‘drugfindR’ version ‘1.0.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘drugfindR’ as ‘drugfindR_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (drugfindR)
+* installing *binary* package ‘codemetar’ ...
+* package ‘codemetar’ successfully unpacked and SHA256 sums checked
+* ‘codemetar’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘codemetar’ as ‘codemetar_0.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (codemetar)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKCQjIx/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m23.396s
+user	0m12.170s
+sys	0m3.762s

@@ -1,0 +1,68 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rcellminer'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rcellminer'
+also installing the dependencies ‘rcellminerData’, ‘heatmaply’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/rcellminerData_2.34.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/heatmaply_1.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/rcellminer_2.34.0.tar.gz'
+* installing *source* package ‘rcellminerData’ ...
+** this is package ‘rcellminerData’ version ‘2.34.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rcellminerData’ as ‘rcellminerData_2.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rcellminerData)
+* installing *binary* package ‘heatmaply’ ...
+* package ‘heatmaply’ successfully unpacked and SHA256 sums checked
+* ‘heatmaply’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘heatmaply’ as ‘heatmaply_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (heatmaply)
+* installing *source* package ‘rcellminer’ ...
+** this is package ‘rcellminer’ version ‘2.34.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rcellminer’ as ‘rcellminer_2.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rcellminer)
+
+The downloaded source packages are in
+	‘/tmp/RtmpoePuIS/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	4m34.215s
+user	4m13.324s
+sys	0m11.298s
