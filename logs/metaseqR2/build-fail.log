@@ -1,0 +1,32 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''metaseqR2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'metaseqR2'
+Warning: dependency ‘log4r’ is not available
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/metaseqR2_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 2989273 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+ERROR: dependency ‘log4r’ is not available for package ‘metaseqR2’
+Perhaps try a variation of:
+install.packages('log4r')
+* removing ‘/tmp/library/metaseqR2’
+
+The downloaded source packages are in
+	‘/tmp/RtmplJuEPM/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘metaseqR2’ had non-zero exit status
+
+real	0m15.272s
+user	0m8.500s
+sys	0m2.634s

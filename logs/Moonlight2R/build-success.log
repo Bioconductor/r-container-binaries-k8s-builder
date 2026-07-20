@@ -1,0 +1,82 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Moonlight2R'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Moonlight2R'
+also installing the dependencies ‘geosphere’, ‘fuzzyjoin’, ‘seqminer’, ‘easyPubMed’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/geosphere_1.6-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fuzzyjoin_0.1.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/seqminer_9.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/easyPubMed_3.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Moonlight2R_1.11.3.tar.gz'
+* installing *binary* package ‘geosphere’ ...
+* package ‘geosphere’ successfully unpacked and SHA256 sums checked
+* ‘geosphere’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geosphere’ as ‘geosphere_1.6-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geosphere)
+* installing *binary* package ‘seqminer’ ...
+* package ‘seqminer’ successfully unpacked and SHA256 sums checked
+* ‘seqminer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seqminer’ as ‘seqminer_9.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqminer)
+* installing *binary* package ‘easyPubMed’ ...
+* package ‘easyPubMed’ successfully unpacked and SHA256 sums checked
+* ‘easyPubMed’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘easyPubMed’ as ‘easyPubMed_3.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (easyPubMed)
+* installing *binary* package ‘fuzzyjoin’ ...
+* package ‘fuzzyjoin’ successfully unpacked and SHA256 sums checked
+* ‘fuzzyjoin’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fuzzyjoin’ as ‘fuzzyjoin_0.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fuzzyjoin)
+* installing *source* package ‘Moonlight2R’ ...
+** this is package ‘Moonlight2R’ version ‘1.11.3’
+** package ‘Moonlight2R’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: 'rgl.init' failed, will use the null device.
+See '?rgl.useNULL' for ways to avoid this warning.
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Moonlight2R’ as ‘Moonlight2R_1.11.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Moonlight2R)
+
+The downloaded source packages are in
+	‘/tmp/RtmpsJS6FZ/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m13.844s
+user	0m52.253s
+sys	0m10.284s

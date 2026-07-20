@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2103 (89%)
-- **Failed:** 36 (1%)
-- **In Progress:** 66
-- **Not Started:** 141
+- **Successfully Built:** 2133 (90%)
+- **Failed:** 37 (1%)
+- **In Progress:** 41
+- **Not Started:** 135
 
-**Progress:** 91%
+**Progress:** 92%
 ```
-█████████████████████████████████████████████░░░░░
+██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2103)
+## Successfully Built Packages (2133)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,17 +44,17 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
-| [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
+| [ATACseqQC](https://bioconductor.org/packages/3.24/bioc/html/ATACseqQC.html) | [log](logs/ATACseqQC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqQC) |
 
-*... and 2053 more ...*
+*... and 2083 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.24/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.24/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vtpnet) |
+| [vulcan](https://bioconductor.org/packages/3.24/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vulcan) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
 | [wavClusteR](https://bioconductor.org/packages/3.24/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavClusteR) |
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (36)
+## Failed Packages (37)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -106,6 +106,7 @@
 | [m6Aboost](https://bioconductor.org/packages/3.24/bioc/html/m6Aboost.html) | [log](logs/m6Aboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/m6Aboost) | Missing R dependency: ModelMetrics |
 | [maPredictDSC](https://bioconductor.org/packages/3.24/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.24/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
+| [metaseqR2](https://bioconductor.org/packages/3.24/bioc/html/metaseqR2.html) | [log](logs/metaseqR2/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metaseqR2) | Missing dependency: log4r<br>[CRAN Package 'log4r'](https://cran.r-project.org/web/packages/log4r/index.html) archived on 2026-07-14 as issues were not corrected in time despite reminder. |
 | [miRSM](https://bioconductor.org/packages/3.24/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRSM) | Build failed with unknown error |
 | [pRoloc](https://bioconductor.org/packages/3.24/bioc/html/pRoloc.html) | [log](logs/pRoloc/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/pRoloc) | Build failed with unknown error |
 | [scAnnotatR](https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
@@ -117,61 +118,50 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (66)
-- ⏳ `ATACseqQC`
+## In Progress (41)
 - ⏳ `AnnotationHubData`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CSSQ`
-- ⏳ `ChIPexoQual`
-- ⏳ `CircSeqAlignTk`
 - ⏳ `Cogito`
-- ⏳ `DEScan2`
 - ⏳ `DNAfusion`
 - ⏳ `DaMiRseq`
 - ⏳ `DegCre`
 - ⏳ `EpiCompare`
 - ⏳ `FLAMES`
-- ⏳ `GNOSIS`
 - ⏳ `GRaNIE`
-- ⏳ `GSReg`
-- ⏳ `GUIDEseq`
-- ⏳ `GenomicPlot`
-- ⏳ `Gviz`
+- ⏳ `GeneTonic`
+- ⏳ `HistoImagePlot`
 - ⏳ `InPAS`
 - ⏳ `IntEREst`
 - ⏳ `MIRA`
-- ⏳ `MOSClip`
-- ⏳ `Moonlight2R`
+- ⏳ `MetaboSignal`
 - ⏳ `MungeSumstats`
 - ⏳ `RBedMethyl`
-- ⏳ `REDseq`
-- ⏳ `Rqc`
 - ⏳ `UMI4Cats`
 - ⏳ `VariantTools`
 - ⏳ `annotatr`
 - ⏳ `appreci8R`
 - ⏳ `bioCancer`
 - ⏳ `canceR`
-- ⏳ `cbaf`
-- ⏳ `chevreulPlot`
 - ⏳ `chromVAR`
-- ⏳ `clipper`
 - ⏳ `coMethDMR`
 - ⏳ `decemedip`
-- ⏳ `derfinder`
-- ⏳ `enhancerHomologSearch`
 - ⏳ `epiSeeker`
-- ⏳ `epiregulon.extra`
-- ⏳ `epivizr`
-- ⏳ `epivizrChart`
-- ⏳ `ggbio`
-- ⏳ `gmapR`
 - ⏳ `iSEEfier`
-- ⏳ `karyoploteR`
+- ⏳ `ideal`
+- ⏳ `methodical`
+- ⏳ `miaDash`
+- ⏳ `minfi`
+- ⏳ `monaLisa`
+- ⏳ `octad`
+- ⏳ `pcaExplorer`
+- ⏳ `rCGH`
+- ⏳ `regioneReloaded`
+- ⏳ `scFeatures`
+- ⏳ `scone`
+- ⏳ `singleCellTK`
 
-... and 16 more ...
-
-## Not Yet Started (141)
+## Not Yet Started (135)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
@@ -195,19 +185,16 @@
 - ⏸️ `ExperimentHubData`
 - ⏸️ `GARS`
 - ⏸️ `GeneStructureTools`
-- ⏸️ `GeneTonic`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `HistoImagePlot`
 - ⏸️ `ITALICS`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
-- ⏸️ `MetaboSignal`
 - ⏸️ `MethylAid`
 - ⏸️ `MinimumDistance`
 - ⏸️ `NADfinder`
@@ -222,9 +209,12 @@
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `ReportingTools`
 - ⏸️ `RnBeads`
+- ⏸️ `RnaSeqSampleSize`
+- ⏸️ `SCAN.UPC`
+- ⏸️ `SOMNiBUS`
 
-... and 91 more ...
+... and 85 more ...
 
 ---
-*Last updated: 2026-07-20 21:46:20 UTC*
-*Packages with verified BBS status: 243*
+*Last updated: 2026-07-20 21:48:20 UTC*
+*Packages with verified BBS status: 246*
