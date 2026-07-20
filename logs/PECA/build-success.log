@@ -1,0 +1,55 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PECA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PECA'
+also installing the dependency ‘SpikeIn’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/SpikeIn_1.54.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/PECA_1.48.0.tar.gz'
+* installing *source* package ‘SpikeIn’ ...
+** this is package ‘SpikeIn’ version ‘1.54.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpikeIn’ as ‘SpikeIn_1.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpikeIn)
+* installing *source* package ‘PECA’ ...
+** this is package ‘PECA’ version ‘1.48.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PECA’ as ‘PECA_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PECA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5dLuCX/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m40.073s
+user	0m30.072s
+sys	0m5.501s

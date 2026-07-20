@@ -1,0 +1,51 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tidySpatialExperiment'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tidySpatialExperiment'
+also installing the dependency ‘tidygate’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidygate_1.0.19.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/tidySpatialExperiment_1.8.0.tar.gz'
+* installing *binary* package ‘tidygate’ ...
+* package ‘tidygate’ successfully unpacked and SHA256 sums checked
+* ‘tidygate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidygate’ as ‘tidygate_1.0.19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidygate)
+* installing *source* package ‘tidySpatialExperiment’ ...
+** this is package ‘tidySpatialExperiment’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidySpatialExperiment’ as ‘tidySpatialExperiment_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidySpatialExperiment)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9tDwDG/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m38.858s
+user	0m31.352s
+sys	0m4.783s
