@@ -1,0 +1,114 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''iscream'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'iscream'
+also installing the dependencies ‘stringfish’, ‘bsseq’, ‘microbenchmark’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stringfish_0.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/bsseq_1.48.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/microbenchmark_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/iscream_1.2.0.tar.gz'
+* installing *binary* package ‘stringfish’ ...
+* package ‘stringfish’ successfully unpacked and SHA256 sums checked
+* ‘stringfish’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stringfish’ as ‘stringfish_0.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stringfish)
+* installing *source* package ‘bsseq’ ...
+** this is package ‘bsseq’ version ‘1.48.0’
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check_M_and_Cov.cpp -o check_M_and_Cov.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c init.cpp -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bsseq.so check_M_and_Cov.o init.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-bsseq/00new/bsseq/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bsseq’ as ‘bsseq_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bsseq)
+* installing *binary* package ‘microbenchmark’ ...
+* package ‘microbenchmark’ successfully unpacked and SHA256 sums checked
+* ‘microbenchmark’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘microbenchmark’ as ‘microbenchmark_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (microbenchmark)
+* installing *source* package ‘iscream’ ...
+** this is package ‘iscream’ version ‘1.2.0’
+** using staged installation
+*** Configuring for package installation...
+**** Trying pkg-config to use system htslib headers...
+     Falling back to Rhtslib
+     Using Rhtslib cflags and libs for htslib!
+**** Checking GCC version
+     gcc -std=gnu2x version 13.3.0 meets minimum requirements!
+**** Compilation flags
+     Using PKG_CFLAGS=-D_FILE_OFFSET_BITS=64
+     Using PKG_LIBS='/mnt/library/Rhtslib/usrlib/libhts.a' -lcurl -lbz2 -llzma -lz
+**** Checking if htslib was compiled with libdeflate
+     NOTE: iscream queries may be slower with Rhtslib than with htslib compiled with libdeflate
+     See <https://huishenlab.github.io/iscream/articles/htslib.html> for more information
+**** Success!
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c decode_mat.cpp -o decode_mat.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c get_threads.cpp -o get_threads.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c log.cpp -o log.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c parsers.cpp -o parsers.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c query.cpp -o query.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c query_all.cpp -o query_all.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I'/mnt/library/RcppSpdlog/include' -I'/mnt/library/Rhtslib/include' -I'/tmp/library/stringfish/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c summarize_regions.cpp -o summarize_regions.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o iscream.so RcppExports.o decode_mat.o get_threads.o log.o parsers.o query.o query_all.o summarize_regions.o /mnt/library/Rhtslib/usrlib/libhts.a -lcurl -lbz2 -llzma -lz -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-iscream/00new/iscream/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iscream’ as ‘iscream_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iscream)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNE4Tzm/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	3m1.462s
+user	2m23.108s
+sys	0m16.105s

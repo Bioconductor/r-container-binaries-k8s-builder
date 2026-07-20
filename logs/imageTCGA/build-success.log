@@ -1,0 +1,98 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''imageTCGA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'imageTCGA'
+also installing the dependencies ‘terra’, ‘leaflet.providers’, ‘raster’, ‘bsicons’, ‘leaflet’, ‘GenomicDataCommons’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/terra_1.9-34.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/leaflet.providers_3.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/raster_3.6-32.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bsicons_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/leaflet_2.2.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomicDataCommons_1.36.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/imageTCGA_1.4.0.tar.gz'
+* installing *binary* package ‘terra’ ...
+* package ‘terra’ successfully unpacked and SHA256 sums checked
+* ‘terra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘terra’ as ‘terra_1.9-34_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (terra)
+* installing *binary* package ‘leaflet.providers’ ...
+* package ‘leaflet.providers’ successfully unpacked and SHA256 sums checked
+* ‘leaflet.providers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leaflet.providers’ as ‘leaflet.providers_3.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leaflet.providers)
+* installing *binary* package ‘bsicons’ ...
+* package ‘bsicons’ successfully unpacked and SHA256 sums checked
+* ‘bsicons’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bsicons’ as ‘bsicons_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bsicons)
+* installing *source* package ‘GenomicDataCommons’ ...
+** this is package ‘GenomicDataCommons’ version ‘1.36.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicDataCommons’ as ‘GenomicDataCommons_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicDataCommons)
+* installing *binary* package ‘raster’ ...
+* package ‘raster’ successfully unpacked and SHA256 sums checked
+* ‘raster’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘raster’ as ‘raster_3.6-32_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (raster)
+* installing *binary* package ‘leaflet’ ...
+* package ‘leaflet’ successfully unpacked and SHA256 sums checked
+* ‘leaflet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leaflet’ as ‘leaflet_2.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leaflet)
+* installing *source* package ‘imageTCGA’ ...
+** this is package ‘imageTCGA’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imageTCGA’ as ‘imageTCGA_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imageTCGA)
+
+The downloaded source packages are in
+	‘/tmp/RtmprImtu4/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m33.201s
+user	0m21.486s
+sys	0m5.025s

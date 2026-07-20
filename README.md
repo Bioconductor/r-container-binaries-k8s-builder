@@ -6,21 +6,22 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 353 (14%)
+- **Successfully Built:** 373 (15%)
 - **Failed:** 5 (0%)
-- **In Progress:** 95
-- **Not Started:** 1931
+- **In Progress:** 76
+- **Not Started:** 1930
 
 **Progress:** 15%
 ```
 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (353)
+## Successfully Built Packages (373)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
+| [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
@@ -44,13 +45,11 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
 | [BiocAzul](https://bioconductor.org/packages/3.23/bioc/html/BiocAzul.html) | [log](logs/BiocAzul/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocAzul) |
-| [BiocBaseUtils](https://bioconductor.org/packages/3.23/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBaseUtils) |
 
-*... and 303 more ...*
+*... and 323 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [splots](https://bioconductor.org/packages/3.23/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.23/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/statTarget) |
@@ -64,6 +63,7 @@
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
+| [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
@@ -86,14 +86,12 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (95)
-- ⏳ `ANCOMBC`
+## In Progress (76)
 - ⏳ `AlpsNMR`
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
 - ⏳ `DEsingle`
-- ⏳ `DepecheR`
 - ⏳ `EnMCB`
 - ⏳ `HVP`
 - ⏳ `Harman`
@@ -107,8 +105,6 @@
 - ⏳ `OSAT`
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
-- ⏳ `PCAN`
-- ⏳ `PLSDAbatch`
 - ⏳ `PTMods`
 - ⏳ `QUBIC`
 - ⏳ `RDRToolbox`
@@ -119,7 +115,6 @@
 - ⏳ `RRHO`
 - ⏳ `RSeqAn`
 - ⏳ `SCFA`
-- ⏳ `SUITOR`
 - ⏳ `SuperCellCyto`
 - ⏳ `TreeAndLeaf`
 - ⏳ `XINA`
@@ -137,10 +132,15 @@
 - ⏳ `flowPlots`
 - ⏳ `fmrs`
 - ⏳ `frenchFISH`
+- ⏳ `globalSeq`
+- ⏳ `gpls`
+- ⏳ `graper`
+- ⏳ `hierGWAS`
+- ⏳ `hierinf`
 
-... and 45 more ...
+... and 26 more ...
 
-## Not Yet Started (1931)
+## Not Yet Started (1930)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -192,8 +192,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1881 more ...
+... and 1880 more ...
 
 ---
-*Last updated: 2026-07-20 19:37:34 UTC*
-*Packages with verified BBS status: 125*
+*Last updated: 2026-07-20 19:39:00 UTC*
+*Packages with verified BBS status: 127*

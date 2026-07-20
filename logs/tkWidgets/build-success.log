@@ -1,0 +1,62 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tkWidgets'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tkWidgets'
+also installing the dependency ‘hgu95av2’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/hgu95av2_2.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/tkWidgets_1.90.0.tar.gz'
+* installing *source* package ‘hgu95av2’ ...
+** this is package ‘hgu95av2’ version ‘2.2.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hgu95av2’ as ‘hgu95av2_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu95av2)
+* installing *source* package ‘tkWidgets’ ...
+** this is package ‘tkWidgets’ version ‘1.90.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+no DISPLAY variable so Tk is not available 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tkWidgets’ as ‘tkWidgets_1.90.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tkWidgets)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHVmkpu/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m18.090s
+user	0m10.404s
+sys	0m4.574s

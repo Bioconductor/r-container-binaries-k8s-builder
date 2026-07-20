@@ -1,0 +1,214 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SUITOR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SUITOR'
+also installing the dependencies ‘ggalluvial’, ‘MutationalPatterns’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggalluvial_0.12.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MutationalPatterns_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SUITOR_1.14.0.tar.gz'
+* installing *binary* package ‘ggalluvial’ ...
+* package ‘ggalluvial’ successfully unpacked and SHA256 sums checked
+* ‘ggalluvial’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggalluvial’ as ‘ggalluvial_0.12.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggalluvial)
+* installing *source* package ‘SUITOR’ ...
+** this is package ‘SUITOR’ version ‘1.14.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SUITOR_init.c -o SUITOR_init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c source.c -o source.o
+source.c: In function ‘dVec_alloc’:
+source.c:166:17: warning: old-style function definition [-Wold-style-definition]
+  166 | static double * dVec_alloc(n, initFlag, initVal)
+      |                 ^~~~~~~~~~
+source.c: In function ‘iVec_alloc’:
+source.c:185:14: warning: old-style function definition [-Wold-style-definition]
+  185 | static int * iVec_alloc(n, initFlag, initVal)
+      |              ^~~~~~~~~~
+source.c: In function ‘cVec_alloc’:
+source.c:203:15: warning: old-style function definition [-Wold-style-definition]
+  203 | static char * cVec_alloc(n, initFlag, initVal)
+      |               ^~~~~~~~~~
+source.c: In function ‘copy_dVec’:
+source.c:222:13: warning: old-style function definition [-Wold-style-definition]
+  222 | static void copy_dVec(v, n, ret)
+      |             ^~~~~~~~~
+source.c: In function ‘matrixMult’:
+source.c:233:13: warning: old-style function definition [-Wold-style-definition]
+  233 | static void matrixMult(m1, m1_nr, m1_nc, m2, m2_nc, ret)
+      |             ^~~~~~~~~~
+source.c: In function ‘which_max’:
+source.c:256:12: warning: old-style function definition [-Wold-style-definition]
+  256 | static int which_max(v, n)
+      |            ^~~~~~~~~
+source.c: In function ‘which_max_cols’:
+source.c:280:13: warning: old-style function definition [-Wold-style-definition]
+  280 | static void which_max_cols(mat, nr, nc, ret)
+      |             ^~~~~~~~~~~~~~
+source.c: In function ‘update_cons’:
+source.c:292:12: warning: old-style function definition [-Wold-style-definition]
+  292 | static int update_cons(cons, cons_len, index, nc)
+      |            ^~~~~~~~~~~
+source.c: In function ‘myStopFun’:
+source.c:323:12: warning: old-style function definition [-Wold-style-definition]
+  323 | static int myStopFun(cons, cons_len, inc, hMat, hnr, hnc, maxIndex)
+      |            ^~~~~~~~~
+source.c: In function ‘get_runif_vec’:
+source.c:348:13: warning: old-style function definition [-Wold-style-definition]
+  348 | static void get_runif_vec(v, n, a, b)
+      |             ^~~~~~~~~~~~~
+source.c: In function ‘get_idxMat0’:
+source.c:359:12: warning: old-style function definition [-Wold-style-definition]
+  359 | static int get_idxMat0(idx, nr, nc, k, kfold)
+      |            ^~~~~~~~~~~
+source.c: In function ‘loglike’:
+source.c:385:15: warning: old-style function definition [-Wold-style-definition]
+  385 | static double loglike(input, log_input, input_k_hat, idxMat, delta_denom, len, which_idx)
+      |               ^~~~~~~
+source.c: In function ‘replaceZeroVal_dVec’:
+source.c:416:13: warning: old-style function definition [-Wold-style-definition]
+  416 | static void replaceZeroVal_dVec(v, n, minval)
+      |             ^~~~~~~~~~~~~~~~~~~
+source.c: In function ‘get_delta_denom’:
+source.c:428:15: warning: old-style function definition [-Wold-style-definition]
+  428 | static double get_delta_denom(v, n)
+      |               ^~~~~~~~~~~~~~~
+source.c: In function ‘get_max’:
+source.c:444:15: warning: old-style function definition [-Wold-style-definition]
+  444 | static double get_max(v, n)
+      |               ^~~~~~~
+source.c: In function ‘my_update_H’:
+source.c:460:13: warning: old-style function definition [-Wold-style-definition]
+  460 | static void my_update_H(pV, w, h, wnr, wnc, hnc)
+      |             ^~~~~~~~~~~
+source.c: In function ‘my_update_W’:
+source.c:539:13: warning: old-style function definition [-Wold-style-definition]
+  539 | static void my_update_W(pV, w, h, wnr, wnc, hnc)
+      |             ^~~~~~~~~~~
+source.c: In function ‘my_update_brunet’:
+source.c:611:13: warning: old-style function definition [-Wold-style-definition]
+  611 | static void my_update_brunet(i, x, w, h, str)
+      |             ^~~~~~~~~~~~~~~~
+source.c: In function ‘get_init_WH’:
+source.c:636:13: warning: old-style function definition [-Wold-style-definition]
+  636 | static void get_init_WH(runifVec, w, h, wlen, hlen, maxval)
+      |             ^~~~~~~~~~~
+source.c: In function ‘call_nmf’:
+source.c:655:13: warning: old-style function definition [-Wold-style-definition]
+  655 | static void call_nmf(mat, str)
+      |             ^~~~~~~~
+source.c: In function ‘update_x_k’:
+source.c:714:13: warning: old-style function definition [-Wold-style-definition]
+  714 | static void update_x_k(x_k, x_k_hat, idxMat, n)
+      |             ^~~~~~~~~~
+source.c: In function ‘get_median’:
+source.c:838:15: warning: old-style function definition [-Wold-style-definition]
+  838 | static double get_median(v, n)
+      |               ^~~~~~~~~~
+source.c: In function ‘get_init_x_k’:
+source.c:863:13: warning: old-style function definition [-Wold-style-definition]
+  863 | static void get_init_x_k(x, x_k, idxMat, nr, nc, tmpvec, minvalue)
+      |             ^~~~~~~~~~~~
+source.c: In function ‘get_colsums’:
+source.c:916:13: warning: old-style function definition [-Wold-style-definition]
+  916 | static void get_colsums(x, nr, nc, ret)
+      |             ^~~~~~~~~~~
+source.c: In function ‘transpose’:
+source.c:934:13: warning: old-style function definition [-Wold-style-definition]
+  934 | static void transpose(v, nr, nc, ret)
+      |             ^~~~~~~~~
+source.c: In function ‘ECM_update_h’:
+source.c:949:13: warning: old-style function definition [-Wold-style-definition]
+  949 | static void ECM_update_h(h1, h0, w0, x_k, hnr, hnc, wnr, wnc, xnr, xnc, vM, vN, vN2)
+      |             ^~~~~~~~~~~~
+source.c: In function ‘ECM_update_w’:
+source.c:983:13: warning: old-style function definition [-Wold-style-definition]
+  983 | static void ECM_update_w(w1, h1, w0, x_k, hnr, hnc, wnr, wnc, xnr, xnc, vM, vN, vN2)
+      |             ^~~~~~~~~~~~
+source.c: In function ‘ECM_alg’:
+source.c:1017:12: warning: old-style function definition [-Wold-style-definition]
+ 1017 | static int ECM_alg(str)
+      |            ^~~~~~~
+source.c: In function ‘init_wh_rank’:
+source.c:1093:13: warning: old-style function definition [-Wold-style-definition]
+ 1093 | static void init_wh_rank(str, rank)
+      |             ^~~~~~~~~~~~
+source.c: In function ‘suitor_main’:
+source.c:1119:13: warning: old-style function definition [-Wold-style-definition]
+ 1119 | static void suitor_main(str)
+      |             ^~~~~~~~~~~
+source.c: In function ‘init_logx’:
+source.c:1203:13: warning: old-style function definition [-Wold-style-definition]
+ 1203 | static void init_logx(x, logx, n)
+      |             ^~~~~~~~~
+source.c: In function ‘NMFSTR_init’:
+source.c:1221:13: warning: old-style function definition [-Wold-style-definition]
+ 1221 | static void NMFSTR_init(str, iargs, dargs, xmat)
+      |             ^~~~~~~~~~~
+source.c: In function ‘NMFSTR_free’:
+source.c:1311:13: warning: old-style function definition [-Wold-style-definition]
+ 1311 | static void NMFSTR_free(str, EMflag)
+      |             ^~~~~~~~~~~
+source.c: In function ‘C_call_nmf’:
+source.c:1339:6: warning: old-style function definition [-Wold-style-definition]
+ 1339 | void C_call_nmf(mat, iargs, dargs, retW, retH)
+      |      ^~~~~~~~~~
+source.c: In function ‘C_call_suitor’:
+source.c:1361:6: warning: old-style function definition [-Wold-style-definition]
+ 1361 | void C_call_suitor(mat, iargs, dargs, rankVec, kVec, ret_train, ret_test, ret_convVec, ret_EM_niterVec)
+      |      ^~~~~~~~~~~~~
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SUITOR.so SUITOR_init.o source.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SUITOR/00new/SUITOR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SUITOR’ as ‘SUITOR_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SUITOR)
+* installing *source* package ‘MutationalPatterns’ ...
+** this is package ‘MutationalPatterns’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MutationalPatterns’ as ‘MutationalPatterns_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MutationalPatterns)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDWavQc/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m29.229s
+user	0m22.744s
+sys	0m4.960s
