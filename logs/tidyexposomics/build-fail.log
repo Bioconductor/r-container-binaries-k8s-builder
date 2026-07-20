@@ -1,0 +1,119 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tidyexposomics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tidyexposomics'
+also installing the dependencies ‘audio’, ‘beepr’, ‘visdat’, ‘splines2’, ‘dcurver’, ‘SimDesign’, ‘naniar’, ‘RGCCA’, ‘densityClust’, ‘mirt’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/audio_0.1-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/beepr_2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/visdat_0.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/splines2_0.5.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dcurver_0.9.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SimDesign_2.25.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/naniar_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RGCCA_3.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/densityClust_0.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mirt_1.46.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/tidyexposomics_1.1.1.tar.gz'
+* installing *binary* package ‘audio’ ...
+* package ‘audio’ successfully unpacked and SHA256 sums checked
+* ‘audio’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘audio’ as ‘audio_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (audio)
+* installing *binary* package ‘visdat’ ...
+* package ‘visdat’ successfully unpacked and SHA256 sums checked
+* ‘visdat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘visdat’ as ‘visdat_0.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (visdat)
+* installing *binary* package ‘splines2’ ...
+* package ‘splines2’ successfully unpacked and SHA256 sums checked
+* ‘splines2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘splines2’ as ‘splines2_0.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splines2)
+* installing *binary* package ‘dcurver’ ...
+* package ‘dcurver’ successfully unpacked and SHA256 sums checked
+* ‘dcurver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dcurver’ as ‘dcurver_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dcurver)
+* installing *binary* package ‘RGCCA’ ...
+* package ‘RGCCA’ successfully unpacked and SHA256 sums checked
+* ‘RGCCA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RGCCA’ as ‘RGCCA_3.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RGCCA)
+* installing *binary* package ‘densityClust’ ...
+* package ‘densityClust’ successfully unpacked and SHA256 sums checked
+* ‘densityClust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘densityClust’ as ‘densityClust_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (densityClust)
+* installing *binary* package ‘beepr’ ...
+* package ‘beepr’ successfully unpacked and SHA256 sums checked
+* ‘beepr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘beepr’ as ‘beepr_2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beepr)
+* installing *binary* package ‘naniar’ ...
+* package ‘naniar’ successfully unpacked and SHA256 sums checked
+* ‘naniar’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘naniar’ as ‘naniar_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (naniar)
+* installing *binary* package ‘SimDesign’ ...
+* package ‘SimDesign’ successfully unpacked and SHA256 sums checked
+* ‘SimDesign’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SimDesign’ as ‘SimDesign_2.25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SimDesign)
+* installing *source* package ‘tidyexposomics’ ...
+** this is package ‘tidyexposomics’ version ‘1.1.1’
+** package ‘tidyexposomics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ModelMetrics’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘tidyexposomics’
+* removing ‘/tmp/library/tidyexposomics’
+* installing *binary* package ‘mirt’ ...
+* package ‘mirt’ successfully unpacked and SHA256 sums checked
+* ‘mirt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mirt’ as ‘mirt_1.46.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mirt)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNdUCsh/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘tidyexposomics’ had non-zero exit status
+
+real	0m29.831s
+user	0m20.148s
+sys	0m5.344s

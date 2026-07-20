@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''bedbaser'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'bedbaser'
+also installing the dependency ‘liftOver’
+
+trying URL 'https://bioconductor.org/packages/3.24/workflows/src/contrib/liftOver_1.37.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/bedbaser_1.5.0.tar.gz'
+* installing *source* package ‘liftOver’ ...
+** this is package ‘liftOver’ version ‘1.37.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+No man pages found in package  ‘liftOver’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘liftOver’ as ‘liftOver_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (liftOver)
+* installing *source* package ‘bedbaser’ ...
+** this is package ‘bedbaser’ version ‘1.5.0’
+** package ‘bedbaser’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘tags’ from package ‘AnVIL’ in package ‘bedbaser’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bedbaser’ as ‘bedbaser_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bedbaser)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBxljWZ/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m52.503s
+user	0m39.104s
+sys	0m6.227s
