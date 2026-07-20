@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1683 (71%)
+- **Successfully Built:** 1695 (72%)
 - **Failed:** 24 (1%)
-- **In Progress:** 85
-- **Not Started:** 554
+- **In Progress:** 95
+- **Not Started:** 532
 
-**Progress:** 72%
+**Progress:** 73%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1683)
+## Successfully Built Packages (1695)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1633 more ...*
+*... and 1645 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -105,7 +105,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (85)
+## In Progress (95)
 - ⏳ `AUCell`
 - ⏳ `BicARE`
 - ⏳ `BioCor`
@@ -118,48 +118,48 @@
 - ⏳ `Category`
 - ⏳ `CatsCradle`
 - ⏳ `CeTF`
+- ⏳ `CellBarcode`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
+- ⏳ `ChIPseqR`
 - ⏳ `CoGAPS`
 - ⏳ `DAssemble`
 - ⏳ `DEXSeq`
 - ⏳ `EpipwR`
 - ⏳ `ExperimentSubset`
+- ⏳ `FastqCleaner`
 - ⏳ `GDCRNATools`
 - ⏳ `GOaGO`
+- ⏳ `IPO`
+- ⏳ `LOBSTAHS`
+- ⏳ `MAIT`
 - ⏳ `MICSQTL`
 - ⏳ `MIRit`
 - ⏳ `MultiDataSet`
 - ⏳ `NetActivity`
+- ⏳ `OTUbase`
 - ⏳ `PREDA`
 - ⏳ `QDNAseq`
 - ⏳ `RNAshapeQC`
+- ⏳ `RSVSim`
 - ⏳ `RadioGx`
 - ⏳ `Rbowtie2`
-- ⏳ `SAIGEgds`
 - ⏳ `SC3`
 - ⏳ `TOP`
-- ⏳ `Xeva`
-- ⏳ `alabaster.spatial`
+- ⏳ `XDE`
+- ⏳ `amplican`
 - ⏳ `apeglm`
-- ⏳ `augere.gsea`
-- ⏳ `augere.screen`
-- ⏳ `augere.solo`
 - ⏳ `barbieQ`
 - ⏳ `bnbc`
 - ⏳ `celda`
-- ⏳ `cytofQC`
+- ⏳ `chipseq`
+- ⏳ `dada2`
 - ⏳ `destiny`
 - ⏳ `divergence`
-- ⏳ `dmGsea`
-- ⏳ `gDRcore`
-- ⏳ `gDRimport`
-- ⏳ `geneRxCluster`
-- ⏳ `globaltest`
 
-... and 35 more ...
+... and 45 more ...
 
-## Not Yet Started (554)
+## Not Yet Started (532)
 - ⏸️ `ACE`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
@@ -193,7 +193,6 @@
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
 - ⏸️ `CTexploreR`
-- ⏸️ `CellBarcode`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
@@ -202,17 +201,18 @@
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `ChIPseeker`
-- ⏸️ `ChIPseqR`
-- ⏸️ `ChIPsim`
 - ⏸️ `ChromHeatMap`
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `ClonalSim`
 - ⏸️ `Cogito`
+- ⏸️ `CopyNumberPlots`
+- ⏸️ `CoverageView`
+- ⏸️ `CyTOFpower`
 
-... and 504 more ...
+... and 482 more ...
 
 ---
-*Last updated: 2026-07-20 21:13:32 UTC*
+*Last updated: 2026-07-20 21:15:14 UTC*
 *Packages with verified BBS status: 223*
