@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 484 (20%)
+- **Successfully Built:** 494 (20%)
 - **Failed:** 8 (0%)
-- **In Progress:** 15
-- **Not Started:** 1877
+- **In Progress:** 6
+- **Not Started:** 1876
 
-**Progress:** 20%
+**Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (484)
+## Successfully Built Packages (494)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 
-*... and 434 more ...*
+*... and 444 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,24 +89,15 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (15)
+## In Progress (6)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `MSstats`
-- ⏳ `PROPER`
-- ⏳ `RProtoBufLib`
-- ⏳ `SuperCellCyto`
-- ⏳ `arrayQuality`
-- ⏳ `cbpManager`
 - ⏳ `compcodeR`
-- ⏳ `densvis`
-- ⏳ `methylMnM`
-- ⏳ `nnNorm`
 - ⏳ `ppcseq`
 
-## Not Yet Started (1877)
+## Not Yet Started (1876)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -158,8 +149,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1827 more ...
+... and 1826 more ...
 
 ---
-*Last updated: 2026-07-20 19:44:00 UTC*
+*Last updated: 2026-07-20 19:44:36 UTC*
 *Packages with verified BBS status: 136*
