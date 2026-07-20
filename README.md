@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2251 (95%)
-- **Failed:** 39 (1%)
-- **In Progress:** 10
-- **Not Started:** 46
+- **Successfully Built:** 2259 (96%)
+- **Failed:** 40 (1%)
+- **In Progress:** 15
+- **Not Started:** 32
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2251)
+## Successfully Built Packages (2259)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2201 more ...*
+*... and 2209 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (39)
+## Failed Packages (40)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -100,6 +100,7 @@
 | [SubCellBarCode](https://bioconductor.org/packages/3.24/bioc/html/SubCellBarCode.html) | [log](logs/SubCellBarCode/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SubCellBarCode) | Missing R dependency: ModelMetrics |
 | [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [TOP](https://bioconductor.org/packages/3.24/bioc/html/TOP.html) | [log](logs/TOP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TOP) | Missing R dependency: ModelMetrics |
+| [VariantTools](https://bioconductor.org/packages/3.24/bioc/html/VariantTools.html) | [log](logs/VariantTools/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/VariantTools) | Error: object ‘detail’ is not exported by 'namespace:Biostrings' |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [branchpointer](https://bioconductor.org/packages/3.24/bioc/html/branchpointer.html) | [log](logs/branchpointer/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/branchpointer) | Missing R dependency: ModelMetrics |
 | [condiments](https://bioconductor.org/packages/3.24/bioc/html/condiments.html) | [log](logs/condiments/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/condiments) | Missing R dependency: ModelMetrics |
@@ -120,31 +121,33 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (10)
-- ⏳ `AgiMicroRna`
-- ⏳ `CAGEr`
+## In Progress (15)
 - ⏳ `ChIPXpress`
+- ⏳ `ENmix`
+- ⏳ `MethylAid`
 - ⏳ `MungeSumstats`
-- ⏳ `SOMNiBUS`
-- ⏳ `VariantTools`
-- ⏳ `dmrseq`
-- ⏳ `epiRomics`
+- ⏳ `REMP`
+- ⏳ `conumee`
+- ⏳ `epimutacions`
+- ⏳ `funtooNorm`
+- ⏳ `iNETgrate`
+- ⏳ `methylCC`
+- ⏳ `methylclock`
+- ⏳ `methylumi`
 - ⏳ `motifbreakR`
-- ⏳ `scmeth`
+- ⏳ `quantro`
+- ⏳ `shinyMethyl`
 
-## Not Yet Started (46)
+## Not Yet Started (32)
 - ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
-- ⏸️ `ENmix`
 - ⏸️ `GARS`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
-- ⏸️ `MethylAid`
-- ⏸️ `REMP`
 - ⏸️ `RnBeads`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
@@ -152,28 +155,17 @@
 - ⏸️ `bandle`
 - ⏸️ `bigmelon`
 - ⏸️ `biscuiteer`
-- ⏸️ `conumee`
 - ⏸️ `cytoviewer`
 - ⏸️ `dnaEPICO`
-- ⏸️ `epimutacions`
 - ⏸️ `ffpe`
-- ⏸️ `funtooNorm`
 - ⏸️ `iCheck`
-- ⏸️ `iNETgrate`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
 - ⏸️ `lumi`
-- ⏸️ `methylCC`
 - ⏸️ `methylGSA`
-- ⏸️ `methylclock`
-- ⏸️ `methylumi`
 - ⏸️ `miRspongeR`
 - ⏸️ `missMethyl`
 - ⏸️ `pRolocGUI`
-- ⏸️ `quantro`
-- ⏸️ `recountmethylation`
-- ⏸️ `shinyMethyl`
-- ⏸️ `shinyepico`
 - ⏸️ `simpleSeg`
 - ⏸️ `skewr`
 - ⏸️ `spicyR`
@@ -181,5 +173,5 @@
 - ⏸️ `yarn`
 
 ---
-*Last updated: 2026-07-20 21:56:02 UTC*
-*Packages with verified BBS status: 250*
+*Last updated: 2026-07-20 21:57:53 UTC*
+*Packages with verified BBS status: 251*
