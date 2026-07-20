@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 905 (38%)
+- **Successfully Built:** 966 (41%)
 - **Failed:** 7 (0%)
-- **In Progress:** 7
-- **Not Started:** 1427
+- **In Progress:** 66
+- **Not Started:** 1307
 
-**Progress:** 38%
+**Progress:** 41%
 ```
-███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (905)
+## Successfully Built Packages (966)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,14 +46,14 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 
-*... and 855 more ...*
+*... and 916 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tkWidgets](https://bioconductor.org/packages/3.24/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.24/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.24/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/topconfects) |
 | [toppgene](https://bioconductor.org/packages/3.24/bioc/html/toppgene.html) | [log](logs/toppgene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/toppgene) |
+| [transite](https://bioconductor.org/packages/3.24/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transite) |
 | [transomics2cytoscape](https://bioconductor.org/packages/3.24/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.24/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.24/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/trio) |
@@ -88,16 +88,61 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (7)
-- ⏳ `BiocNeighbors`
-- ⏳ `beachmat.hdf5`
-- ⏳ `beachmat.tiledb`
-- ⏳ `msa`
-- ⏳ `openCyto`
-- ⏳ `procoil`
-- ⏳ `sangeranalyseR`
+## In Progress (66)
+- ⏳ `AnnotationForge`
+- ⏳ `CytoPipeline`
+- ⏳ `DMRScan`
+- ⏳ `DRIMSeq`
+- ⏳ `DelayedTensor`
+- ⏳ `EMMA`
+- ⏳ `EnrichedHeatmap`
+- ⏳ `GOfan`
+- ⏳ `GenomAutomorphism`
+- ⏳ `GenomicDataCommons`
+- ⏳ `GenomicDistributions`
+- ⏳ `GrafGen`
+- ⏳ `HiCBricks`
+- ⏳ `HilbertCurve`
+- ⏳ `MCbiclust`
+- ⏳ `MLP`
+- ⏳ `MiRaGE`
+- ⏳ `Modstrings`
+- ⏳ `PCAtools`
+- ⏳ `PinPath`
+- ⏳ `Qtlizer`
+- ⏳ `Rsamtools`
+- ⏳ `Site2Target`
+- ⏳ `SubCellBarCode`
+- ⏳ `TFARM`
+- ⏳ `UniProt.ws`
+- ⏳ `adSplit`
+- ⏳ `affylmGUI`
+- ⏳ `annaffy`
+- ⏳ `annotate`
+- ⏳ `baySeq`
+- ⏳ `beadarray`
+- ⏳ `cnvGSA`
+- ⏳ `crisprBase`
+- ⏳ `fastRanges`
+- ⏳ `funOmics`
+- ⏳ `gage`
+- ⏳ `geneRxCluster`
+- ⏳ `goProfiles`
+- ⏳ `graphite`
+- ⏳ `gtrellis`
+- ⏳ `heatmaps`
+- ⏳ `idr2d`
+- ⏳ `igvShiny`
+- ⏳ `lncRna`
+- ⏳ `maPredictDSC`
+- ⏳ `memes`
+- ⏳ `miRNAmeConverter`
+- ⏳ `miRNAtap`
+- ⏳ `mirIntegrator`
 
-## Not Yet Started (1427)
+... and 16 more ...
+
+## Not Yet Started (1307)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -118,12 +163,8 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationFilter`
-- ⏸️ `AnnotationForge`
-- ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `AssessORF`
 - ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
@@ -132,7 +173,6 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
@@ -148,9 +188,14 @@
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
+- ⏸️ `Battlefield`
+- ⏸️ `BayesSpace`
+- ⏸️ `BgeeCall`
+- ⏸️ `BgeeDB`
+- ⏸️ `BiSeq`
 
-... and 1377 more ...
+... and 1257 more ...
 
 ---
-*Last updated: 2026-07-20 20:24:31 UTC*
-*Packages with verified BBS status: 174*
+*Last updated: 2026-07-20 20:30:02 UTC*
+*Packages with verified BBS status: 175*

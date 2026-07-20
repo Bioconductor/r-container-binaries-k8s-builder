@@ -1,0 +1,200 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''beachmat.tiledb'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'beachmat.tiledb'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/beachmat.tiledb_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 330975 bytes (323 KB)
+==================================================
+downloaded 323 KB
+
+* installing *source* package ‘beachmat.tiledb’ ...
+** this is package ‘beachmat.tiledb’ version ‘1.5.1’
+** package ‘beachmat.tiledb’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking if tiledb-R downloaded its own TileDB... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/mnt/library/tiledb/tiledb/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/mnt/library/tiledb/tiledb/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c initialize.cpp -o initialize.o
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:38,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/array.h:38,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb:49,
+                 from /mnt/library/assorthead/include/tatami_tiledb/utils.hpp:10,
+                 from /mnt/library/assorthead/include/tatami_tiledb/DenseMatrix.hpp:5,
+                 from /mnt/library/assorthead/include/tatami_tiledb/tatami_tiledb.hpp:5,
+                 from initialize.cpp:3:
+/mnt/library/tiledb/tiledb/include/tiledb/attribute.h: In member function ‘void tiledb::Attribute::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/attribute.h:489:30: warning: ‘int32_t tiledb_attribute_dump(tiledb_ctx_t*, const tiledb_attribute_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  489 |         tiledb_attribute_dump(ctx_.get().ptr().get(), attr_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/array_schema_api_external.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/array_api_external.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb.h:58,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/core_interface.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/exception.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/capi_string.h:39,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/attribute.h:38:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../attribute/attribute_api_external.h:309:34: note: declared here
+  309 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_attribute_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/domain.h:41,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:40:
+/mnt/library/tiledb/tiledb/include/tiledb/dimension.h: In member function ‘void tiledb::Dimension::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/dimension.h:409:30: warning: ‘int32_t tiledb_dimension_dump(tiledb_ctx_t*, const tiledb_dimension_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  409 |         tiledb_dimension_dump(ctx_.get().ptr().get(), dim_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/domain_api_external.h:34,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/array_schema_api_external.h:39:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/../dimension/dimension_api_external.h:292:34: note: declared here
+  292 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_dimension_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/domain.h: In member function ‘void tiledb::Domain::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/domain.h:167:40: warning: ‘int32_t tiledb_domain_dump(tiledb_ctx_t*, const tiledb_domain_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  167 |     ctx.handle_error(tiledb_domain_dump(ctx.ptr().get(), domain_.get(), out));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/domain_api_external.h:227:34: note: declared here
+  227 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_domain_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/array_schema.h: In member function ‘virtual void tiledb::ArraySchema::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:170:33: warning: ‘capi_return_t tiledb_array_schema_dump(tiledb_ctx_t*, const tiledb_array_schema_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  170 |         tiledb_array_schema_dump(ctx.ptr().get(), schema_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/tiledb_deprecated.h:39,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb.h:1529:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array_schema/array_schema_api_deprecated.h:59:40: note: declared here
+   59 | TILEDB_DEPRECATED_EXPORT capi_return_t tiledb_array_schema_dump(
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/mnt/library/tiledb/tiledb/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c load_dense.cpp -o load_dense.o
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:38,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/array.h:38,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb:49,
+                 from /mnt/library/assorthead/include/tatami_tiledb/utils.hpp:10,
+                 from /mnt/library/assorthead/include/tatami_tiledb/DenseMatrix.hpp:5,
+                 from /mnt/library/assorthead/include/tatami_tiledb/tatami_tiledb.hpp:5,
+                 from load_dense.cpp:2:
+/mnt/library/tiledb/tiledb/include/tiledb/attribute.h: In member function ‘void tiledb::Attribute::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/attribute.h:489:30: warning: ‘int32_t tiledb_attribute_dump(tiledb_ctx_t*, const tiledb_attribute_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  489 |         tiledb_attribute_dump(ctx_.get().ptr().get(), attr_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/array_schema_api_external.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/array_api_external.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb.h:58,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/core_interface.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/exception.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/capi_string.h:39,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/attribute.h:38:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../attribute/attribute_api_external.h:309:34: note: declared here
+  309 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_attribute_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/domain.h:41,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:40:
+/mnt/library/tiledb/tiledb/include/tiledb/dimension.h: In member function ‘void tiledb::Dimension::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/dimension.h:409:30: warning: ‘int32_t tiledb_dimension_dump(tiledb_ctx_t*, const tiledb_dimension_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  409 |         tiledb_dimension_dump(ctx_.get().ptr().get(), dim_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/domain_api_external.h:34,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/array_schema_api_external.h:39:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/../dimension/dimension_api_external.h:292:34: note: declared here
+  292 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_dimension_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/domain.h: In member function ‘void tiledb::Domain::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/domain.h:167:40: warning: ‘int32_t tiledb_domain_dump(tiledb_ctx_t*, const tiledb_domain_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  167 |     ctx.handle_error(tiledb_domain_dump(ctx.ptr().get(), domain_.get(), out));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/domain_api_external.h:227:34: note: declared here
+  227 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_domain_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/array_schema.h: In member function ‘virtual void tiledb::ArraySchema::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:170:33: warning: ‘capi_return_t tiledb_array_schema_dump(tiledb_ctx_t*, const tiledb_array_schema_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  170 |         tiledb_array_schema_dump(ctx.ptr().get(), schema_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/tiledb_deprecated.h:39,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb.h:1529:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array_schema/array_schema_api_deprecated.h:59:40: note: declared here
+   59 | TILEDB_DEPRECATED_EXPORT capi_return_t tiledb_array_schema_dump(
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/mnt/library/tiledb/tiledb/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/assorthead/include' -I'/mnt/library/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c load_sparse.cpp -o load_sparse.o
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:38,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/array.h:38,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb:49,
+                 from /mnt/library/assorthead/include/tatami_tiledb/utils.hpp:10,
+                 from /mnt/library/assorthead/include/tatami_tiledb/DenseMatrix.hpp:5,
+                 from /mnt/library/assorthead/include/tatami_tiledb/tatami_tiledb.hpp:5,
+                 from load_sparse.cpp:2:
+/mnt/library/tiledb/tiledb/include/tiledb/attribute.h: In member function ‘void tiledb::Attribute::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/attribute.h:489:30: warning: ‘int32_t tiledb_attribute_dump(tiledb_ctx_t*, const tiledb_attribute_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  489 |         tiledb_attribute_dump(ctx_.get().ptr().get(), attr_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/array_schema_api_external.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/array_api_external.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb.h:58,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/core_interface.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/exception.h:37,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/capi_string.h:39,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/attribute.h:38:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../attribute/attribute_api_external.h:309:34: note: declared here
+  309 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_attribute_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/domain.h:41,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:40:
+/mnt/library/tiledb/tiledb/include/tiledb/dimension.h: In member function ‘void tiledb::Dimension::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/dimension.h:409:30: warning: ‘int32_t tiledb_dimension_dump(tiledb_ctx_t*, const tiledb_dimension_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  409 |         tiledb_dimension_dump(ctx_.get().ptr().get(), dim_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/domain_api_external.h:34,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/array_schema_api_external.h:39:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/../dimension/dimension_api_external.h:292:34: note: declared here
+  292 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_dimension_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/domain.h: In member function ‘void tiledb::Domain::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/domain.h:167:40: warning: ‘int32_t tiledb_domain_dump(tiledb_ctx_t*, const tiledb_domain_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  167 |     ctx.handle_error(tiledb_domain_dump(ctx.ptr().get(), domain_.get(), out));
+      |                      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array/../array_schema/../domain/domain_api_external.h:227:34: note: declared here
+  227 | TILEDB_DEPRECATED_EXPORT int32_t tiledb_domain_dump(
+      |                                  ^~~~~~~~~~~~~~~~~~
+/mnt/library/tiledb/tiledb/include/tiledb/array_schema.h: In member function ‘virtual void tiledb::ArraySchema::dump(FILE*) const’:
+/mnt/library/tiledb/tiledb/include/tiledb/array_schema.h:170:33: warning: ‘capi_return_t tiledb_array_schema_dump(tiledb_ctx_t*, const tiledb_array_schema_t*, FILE*)’ is deprecated [-Wdeprecated-declarations]
+  170 |         tiledb_array_schema_dump(ctx.ptr().get(), schema_.get(), out));
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/library/tiledb/tiledb/include/tiledb/tiledb_deprecated.h:39,
+                 from /mnt/library/tiledb/tiledb/include/tiledb/tiledb.h:1529:
+/mnt/library/tiledb/tiledb/include/tiledb/api/c_api/array_schema/array_schema_api_deprecated.h:59:40: note: declared here
+   59 | TILEDB_DEPRECATED_EXPORT capi_return_t tiledb_array_schema_dump(
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o beachmat.tiledb.so RcppExports.o initialize.o load_dense.o load_sparse.o -ltiledb -L/mnt/library/tiledb/lib -L/mnt/library/tiledb/tiledb/lib -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-beachmat.tiledb/00new/beachmat.tiledb/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘beachmat.tiledb’ as ‘beachmat.tiledb_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beachmat.tiledb)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpq1vfp3/downloaded_packages’
+Old packages: 'diffobj'
+
+real	2m3.732s
+user	1m50.349s
+sys	0m10.240s

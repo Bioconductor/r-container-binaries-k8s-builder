@@ -1,0 +1,64 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pathRender'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pathRender'
+also installing the dependency ‘cMAP’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/cMAP_1.15.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/pathRender_1.81.1.tar.gz'
+* installing *source* package ‘cMAP’ ...
+** this is package ‘cMAP’ version ‘1.15.1’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cMAP’ as ‘cMAP_1.15.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cMAP)
+* installing *source* package ‘pathRender’ ...
+** this is package ‘pathRender’ version ‘1.81.1’
+** package ‘pathRender’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning in fun(libname, pkgname) :
+  Package 'pathRender' is deprecated and will be removed from
+  Bioconductor version 3.25
+** testing if installed package can be loaded from final location
+Warning in fun(libname, pkgname) :
+  Package 'pathRender' is deprecated and will be removed from
+  Bioconductor version 3.25
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pathRender’ as ‘pathRender_1.81.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pathRender)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLtGwCi/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m21.868s
+user	0m16.007s
+sys	0m3.710s

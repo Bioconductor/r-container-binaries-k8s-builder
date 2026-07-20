@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''packFinder'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'packFinder'
+also installing the dependencies ‘poorman’, ‘phylogram’, ‘downloader’, ‘philentropy’, ‘kmer’, ‘biomartr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/poorman_0.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phylogram_2.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/downloader_0.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/philentropy_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/kmer_1.1.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/biomartr_1.0.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/packFinder_1.25.0.tar.gz'
+* installing *binary* package ‘poorman’ ...
+* package ‘poorman’ successfully unpacked and SHA256 sums checked
+* ‘poorman’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘poorman’ as ‘poorman_0.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (poorman)
+* installing *binary* package ‘phylogram’ ...
+* package ‘phylogram’ successfully unpacked and SHA256 sums checked
+* ‘phylogram’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phylogram’ as ‘phylogram_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phylogram)
+* installing *binary* package ‘downloader’ ...
+* package ‘downloader’ successfully unpacked and SHA256 sums checked
+* ‘downloader’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘downloader’ as ‘downloader_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (downloader)
+* installing *binary* package ‘philentropy’ ...
+* package ‘philentropy’ successfully unpacked and SHA256 sums checked
+* ‘philentropy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘philentropy’ as ‘philentropy_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (philentropy)
+* installing *binary* package ‘kmer’ ...
+* package ‘kmer’ successfully unpacked and SHA256 sums checked
+* ‘kmer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘kmer’ as ‘kmer_1.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kmer)
+* installing *binary* package ‘biomartr’ ...
+* package ‘biomartr’ successfully unpacked and SHA256 sums checked
+* ‘biomartr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biomartr’ as ‘biomartr_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomartr)
+* installing *source* package ‘packFinder’ ...
+** this is package ‘packFinder’ version ‘1.25.0’
+** package ‘packFinder’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘packFinder’ as ‘packFinder_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (packFinder)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpnuo6cy/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m13.313s
+user	0m8.153s
+sys	0m3.132s

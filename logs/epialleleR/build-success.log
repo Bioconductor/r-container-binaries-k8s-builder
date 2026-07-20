@@ -1,0 +1,197 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''epialleleR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'epialleleR'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/epialleleR_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 4419207 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+* installing *source* package ‘epialleleR’ ...
+** this is package ‘epialleleR’ version ‘1.21.0’
+** package ‘epialleleR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_call_methylation.cpp -o rcpp_call_methylation.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_check_bam.cpp -o rcpp_check_bam.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_cx_report.cpp -o rcpp_cx_report.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_extract_patterns.cpp -o rcpp_extract_patterns.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_fep.cpp -o rcpp_fep.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_get_base_freqs.cpp -o rcpp_get_base_freqs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_get_xm_beta.cpp -o rcpp_get_xm_beta.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_match_target.cpp -o rcpp_match_target.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_mhl_report.cpp -o rcpp_mhl_report.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_read_bam.cpp -o rcpp_read_bam.o
+In file included from /mnt/library/BH/include/boost/concept/assert.hpp:35,
+                 from /mnt/library/BH/include/boost/icl/continuous_interval.hpp:13,
+                 from /mnt/library/BH/include/boost/icl/type_traits/interval_type_default.hpp:13,
+                 from /mnt/library/BH/include/boost/icl/interval.hpp:12,
+                 from rcpp_read_bam.cpp:2:
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::DefaultConstructible<int> >]’:
+/mnt/library/BH/include/boost/concept_check.hpp:137:5:   required from ‘struct boost::DefaultConstructible<int>’
+/mnt/library/BH/include/boost/concept_check.hpp:135:3:   required from ‘struct boost::DefaultConstructibleConcept<int>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::DefaultConstructibleConcept<int>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::DefaultConstructibleConcept<int> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::DefaultConstructibleConcept<int> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::DefaultConstructibleConcept<int>)>’
+/mnt/library/BH/include/boost/icl/continuous_interval.hpp:45:9:   required from ‘boost::icl::discrete_interval<DomainT, Compare>::discrete_interval(const DomainT&, const DomainT&, boost::icl::interval_bounds, boost::icl::discrete_interval<DomainT, Compare>*) [with DomainT = int; Compare = std::less]’
+/mnt/library/BH/include/boost/icl/discrete_interval.hpp:120:16:   required from ‘static boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::interval_type boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::construct(const domain_type&, const domain_type&, boost::icl::interval_bounds) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>; domain_type = int]’
+/mnt/library/BH/include/boost/icl/concept/interval.hpp:254:52:   required from ‘typename boost::enable_if<boost::icl::has_dynamic_bounds<Type>, Type>::type boost::icl::construct(const typename interval_traits<Type>::domain_type&, const typename interval_traits<Type>::domain_type&, interval_bounds) [with Type = discrete_interval<int, std::less>; typename boost::enable_if<has_dynamic_bounds<Type>, Type>::type = discrete_interval<int, std::less>; typename interval_traits<Type>::domain_type = int]’
+/mnt/library/BH/include/boost/icl/interval.hpp:91:47:   required from ‘static boost::icl::interval<DomainT, Compare>::interval_type boost::icl::interval<DomainT, Compare>::closed(const DomainT&, const DomainT&) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>]’
+rcpp_read_bam.cpp:73:58:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+In file included from /mnt/library/BH/include/boost/concept_check.hpp:31,
+                 from /mnt/library/BH/include/boost/icl/detail/concept_check.hpp:11,
+                 from /mnt/library/BH/include/boost/icl/continuous_interval.hpp:14:
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::DefaultConstructible<int>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::DefaultConstructibleConcept<int>]’:
+/mnt/library/BH/include/boost/icl/continuous_interval.hpp:45:9:   required from ‘boost::icl::discrete_interval<DomainT, Compare>::discrete_interval(const DomainT&, const DomainT&, boost::icl::interval_bounds, boost::icl::discrete_interval<DomainT, Compare>*) [with DomainT = int; Compare = std::less]’
+/mnt/library/BH/include/boost/icl/discrete_interval.hpp:120:16:   required from ‘static boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::interval_type boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::construct(const domain_type&, const domain_type&, boost::icl::interval_bounds) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>; domain_type = int]’
+/mnt/library/BH/include/boost/icl/concept/interval.hpp:254:52:   required from ‘typename boost::enable_if<boost::icl::has_dynamic_bounds<Type>, Type>::type boost::icl::construct(const typename interval_traits<Type>::domain_type&, const typename interval_traits<Type>::domain_type&, interval_bounds) [with Type = discrete_interval<int, std::less>; typename boost::enable_if<has_dynamic_bounds<Type>, Type>::type = discrete_interval<int, std::less>; typename interval_traits<Type>::domain_type = int]’
+/mnt/library/BH/include/boost/icl/interval.hpp:91:47:   required from ‘static boost::icl::interval<DomainT, Compare>::interval_type boost::icl::interval<DomainT, Compare>::closed(const DomainT&, const DomainT&) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>]’
+rcpp_read_bam.cpp:73:58:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+In file included from /mnt/library/BH/include/boost/mpl/aux_/integral_wrapper.hpp:22,
+                 from /mnt/library/BH/include/boost/mpl/int.hpp:20,
+                 from /mnt/library/BH/include/boost/mpl/lambda_fwd.hpp:23,
+                 from /mnt/library/BH/include/boost/mpl/aux_/na_spec.hpp:18,
+                 from /mnt/library/BH/include/boost/mpl/if.hpp:19,
+                 from /mnt/library/BH/include/boost/icl/type_traits/interval_type_default.hpp:11:
+/mnt/library/BH/include/boost/concept_check.hpp:135:17: note: in a call to non-static member function ‘boost::DefaultConstructibleConcept<int>::~DefaultConstructibleConcept()’
+  135 |   BOOST_concept(DefaultConstructible,(TT))
+      |                 ^~~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+   29 | #    define BOOST_PP_CAT_I(a, b) a ## b
+      |                                  ^
+/mnt/library/BH/include/boost/concept/detail/concept_def.hpp:23:12: note: in expansion of macro ‘BOOST_PP_CAT’
+   23 |     struct BOOST_PP_CAT(name,Concept)                                           \
+      |            ^~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept_check.hpp:135:3: note: in expansion of macro ‘BOOST_concept’
+  135 |   BOOST_concept(DefaultConstructible,(TT))
+      |   ^~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::LessThanComparable<int> >]’:
+/mnt/library/BH/include/boost/concept_check.hpp:243:5:   required from ‘struct boost::LessThanComparable<int>’
+/mnt/library/BH/include/boost/concept_check.hpp:241:3:   required from ‘struct boost::LessThanComparableConcept<int>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::LessThanComparableConcept<int>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   required from ‘const bool boost::concepts::not_satisfied<boost::LessThanComparableConcept<int> >::value’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:45:51:   required from ‘struct boost::concepts::not_satisfied<boost::LessThanComparableConcept<int> >’
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::LessThanComparableConcept<int>)>’
+/mnt/library/BH/include/boost/icl/continuous_interval.hpp:46:9:   required from ‘boost::icl::discrete_interval<DomainT, Compare>::discrete_interval(const DomainT&, const DomainT&, boost::icl::interval_bounds, boost::icl::discrete_interval<DomainT, Compare>*) [with DomainT = int; Compare = std::less]’
+/mnt/library/BH/include/boost/icl/discrete_interval.hpp:120:16:   required from ‘static boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::interval_type boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::construct(const domain_type&, const domain_type&, boost::icl::interval_bounds) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>; domain_type = int]’
+/mnt/library/BH/include/boost/icl/concept/interval.hpp:254:52:   required from ‘typename boost::enable_if<boost::icl::has_dynamic_bounds<Type>, Type>::type boost::icl::construct(const typename interval_traits<Type>::domain_type&, const typename interval_traits<Type>::domain_type&, interval_bounds) [with Type = discrete_interval<int, std::less>; typename boost::enable_if<has_dynamic_bounds<Type>, Type>::type = discrete_interval<int, std::less>; typename interval_traits<Type>::domain_type = int]’
+/mnt/library/BH/include/boost/icl/interval.hpp:91:47:   required from ‘static boost::icl::interval<DomainT, Compare>::interval_type boost::icl::interval<DomainT, Compare>::closed(const DomainT&, const DomainT&) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>]’
+rcpp_read_bam.cpp:73:58:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:20:5: note: in a call to non-static member function ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::LessThanComparable<int>]’
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |     ^
+/mnt/library/BH/include/boost/concept/detail/general.hpp: In instantiation of ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::LessThanComparableConcept<int>]’:
+/mnt/library/BH/include/boost/icl/continuous_interval.hpp:46:9:   required from ‘boost::icl::discrete_interval<DomainT, Compare>::discrete_interval(const DomainT&, const DomainT&, boost::icl::interval_bounds, boost::icl::discrete_interval<DomainT, Compare>*) [with DomainT = int; Compare = std::less]’
+/mnt/library/BH/include/boost/icl/discrete_interval.hpp:120:16:   required from ‘static boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::interval_type boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::construct(const domain_type&, const domain_type&, boost::icl::interval_bounds) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>; domain_type = int]’
+/mnt/library/BH/include/boost/icl/concept/interval.hpp:254:52:   required from ‘typename boost::enable_if<boost::icl::has_dynamic_bounds<Type>, Type>::type boost::icl::construct(const typename interval_traits<Type>::domain_type&, const typename interval_traits<Type>::domain_type&, interval_bounds) [with Type = discrete_interval<int, std::less>; typename boost::enable_if<has_dynamic_bounds<Type>, Type>::type = discrete_interval<int, std::less>; typename interval_traits<Type>::domain_type = int]’
+/mnt/library/BH/include/boost/icl/interval.hpp:91:47:   required from ‘static boost::icl::interval<DomainT, Compare>::interval_type boost::icl::interval<DomainT, Compare>::closed(const DomainT&, const DomainT&) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>]’
+rcpp_read_bam.cpp:73:58:   required from here
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47: warning: ‘this’ pointer is null [-Wnonnull]
+   50 |     static void failed() { ((Model*)0)->~Model(); }
+      |                            ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept_check.hpp:241:17: note: in a call to non-static member function ‘boost::LessThanComparableConcept<int>::~LessThanComparableConcept()’
+  241 |   BOOST_concept(LessThanComparable,(TT))
+      |                 ^~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+   29 | #    define BOOST_PP_CAT_I(a, b) a ## b
+      |                                  ^
+/mnt/library/BH/include/boost/concept/detail/concept_def.hpp:23:12: note: in expansion of macro ‘BOOST_PP_CAT’
+   23 |     struct BOOST_PP_CAT(name,Concept)                                           \
+      |            ^~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept_check.hpp:241:3: note: in expansion of macro ‘BOOST_concept’
+  241 |   BOOST_concept(LessThanComparable,(TT))
+      |   ^~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::DefaultConstructible<int>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::DefaultConstructible<int> >]’
+/mnt/library/BH/include/boost/concept_check.hpp:137:5:   required from ‘struct boost::DefaultConstructible<int>’
+/mnt/library/BH/include/boost/concept_check.hpp:135:3:   required from ‘struct boost::DefaultConstructibleConcept<int>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::DefaultConstructibleConcept<int>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::DefaultConstructibleConcept<int>)>’
+/mnt/library/BH/include/boost/icl/continuous_interval.hpp:45:9:   required from ‘boost::icl::discrete_interval<DomainT, Compare>::discrete_interval(const DomainT&, const DomainT&, boost::icl::interval_bounds, boost::icl::discrete_interval<DomainT, Compare>*) [with DomainT = int; Compare = std::less]’
+/mnt/library/BH/include/boost/icl/discrete_interval.hpp:120:16:   required from ‘static boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::interval_type boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::construct(const domain_type&, const domain_type&, boost::icl::interval_bounds) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>; domain_type = int]’
+/mnt/library/BH/include/boost/icl/concept/interval.hpp:254:52:   required from ‘typename boost::enable_if<boost::icl::has_dynamic_bounds<Type>, Type>::type boost::icl::construct(const typename interval_traits<Type>::domain_type&, const typename interval_traits<Type>::domain_type&, interval_bounds) [with Type = discrete_interval<int, std::less>; typename boost::enable_if<has_dynamic_bounds<Type>, Type>::type = discrete_interval<int, std::less>; typename interval_traits<Type>::domain_type = int]’
+/mnt/library/BH/include/boost/icl/interval.hpp:91:47:   required from ‘static boost::icl::interval<DomainT, Compare>::interval_type boost::icl::interval<DomainT, Compare>::closed(const DomainT&, const DomainT&) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>]’
+rcpp_read_bam.cpp:73:58:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::DefaultConstructible<TT>::~DefaultConstructible() [with TT = int]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:137:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  137 |     BOOST_CONCEPT_USAGE(DefaultConstructible) {
+      |     ^~~~~~~~~~~~~~~~~~~
+/mnt/library/BH/include/boost/concept/usage.hpp: In instantiation of ‘boost::concepts::usage_requirements<Model>::~usage_requirements() [with Model = boost::LessThanComparable<int>]’:
+/mnt/library/BH/include/boost/concept/detail/general.hpp:50:47:   required from ‘static void boost::concepts::requirement<boost::concepts::failed************ Model::************>::failed() [with Model = boost::concepts::usage_requirements<boost::LessThanComparable<int> >]’
+/mnt/library/BH/include/boost/concept_check.hpp:243:5:   required from ‘struct boost::LessThanComparable<int>’
+/mnt/library/BH/include/boost/concept_check.hpp:241:3:   required from ‘struct boost::LessThanComparableConcept<int>’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:32:62:   required by substitution of ‘template<class Model> boost::concepts::detail::yes boost::concepts::detail::has_constraints_(Model*, wrap_constraints<Model, (& Model::constraints)>*) [with Model = boost::LessThanComparableConcept<int>]’
+/mnt/library/BH/include/boost/concept/detail/has_constraints.hpp:42:5:   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+/mnt/library/BH/include/boost/concept/detail/general.hpp:72:8:   required from ‘struct boost::concepts::requirement_<void (*)(boost::LessThanComparableConcept<int>)>’
+/mnt/library/BH/include/boost/icl/continuous_interval.hpp:46:9:   required from ‘boost::icl::discrete_interval<DomainT, Compare>::discrete_interval(const DomainT&, const DomainT&, boost::icl::interval_bounds, boost::icl::discrete_interval<DomainT, Compare>*) [with DomainT = int; Compare = std::less]’
+/mnt/library/BH/include/boost/icl/discrete_interval.hpp:120:16:   required from ‘static boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::interval_type boost::icl::dynamic_interval_traits<boost::icl::discrete_interval<DomainT, Compare> >::construct(const domain_type&, const domain_type&, boost::icl::interval_bounds) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>; domain_type = int]’
+/mnt/library/BH/include/boost/icl/concept/interval.hpp:254:52:   required from ‘typename boost::enable_if<boost::icl::has_dynamic_bounds<Type>, Type>::type boost::icl::construct(const typename interval_traits<Type>::domain_type&, const typename interval_traits<Type>::domain_type&, interval_bounds) [with Type = discrete_interval<int, std::less>; typename boost::enable_if<has_dynamic_bounds<Type>, Type>::type = discrete_interval<int, std::less>; typename interval_traits<Type>::domain_type = int]’
+/mnt/library/BH/include/boost/icl/interval.hpp:91:47:   required from ‘static boost::icl::interval<DomainT, Compare>::interval_type boost::icl::interval<DomainT, Compare>::closed(const DomainT&, const DomainT&) [with DomainT = int; Compare = std::less; interval_type = boost::icl::discrete_interval<int, std::less>]’
+rcpp_read_bam.cpp:73:58:   required from here
+/mnt/library/BH/include/boost/concept/usage.hpp:20:48: warning: ‘this’ pointer is null [-Wnonnull]
+   20 |     ~usage_requirements() { ((Model*)0)->~Model(); }
+      |                             ~~~~~~~~~~~~~~~~~~~^~
+/mnt/library/BH/include/boost/concept/usage.hpp:37:7: note: in a call to non-static member function ‘boost::LessThanComparable<TT>::~LessThanComparable() [with TT = int]’
+   37 |       ~model()
+      |       ^
+/mnt/library/BH/include/boost/concept_check.hpp:243:5: note: in expansion of macro ‘BOOST_CONCEPT_USAGE’
+  243 |     BOOST_CONCEPT_USAGE(LessThanComparable) {
+      |     ^~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_read_genome.cpp -o rcpp_read_genome.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_simulate_bam.cpp -o rcpp_simulate_bam.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_threshold_reads.cpp -o rcpp_threshold_reads.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o epialleleR.so RcppExports.o rcpp_call_methylation.o rcpp_check_bam.o rcpp_cx_report.o rcpp_extract_patterns.o rcpp_fep.o rcpp_get_base_freqs.o rcpp_get_xm_beta.o rcpp_match_target.o rcpp_mhl_report.o rcpp_read_bam.o rcpp_read_genome.o rcpp_simulate_bam.o rcpp_threshold_reads.o /mnt/library/Rhtslib/usrlib/libhts.a -lcurl -lbz2 -llzma -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-epialleleR/00new/epialleleR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘epialleleR’ as ‘epialleleR_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (epialleleR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQplFDL/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m10.908s
+user	0m57.235s
+sys	0m10.897s

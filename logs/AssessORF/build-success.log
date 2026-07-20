@@ -1,0 +1,59 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AssessORF'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AssessORF'
+also installing the dependency ‘AssessORFData’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/AssessORFData_1.31.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AssessORF_1.31.0.tar.gz'
+* installing *source* package ‘AssessORFData’ ...
+** this is package ‘AssessORFData’ version ‘1.31.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AssessORFData’ as ‘AssessORFData_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AssessORFData)
+* installing *source* package ‘AssessORF’ ...
+** this is package ‘AssessORF’ version ‘1.31.0’
+** package ‘AssessORF’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AssessORF’ as ‘AssessORF_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AssessORF)
+
+The downloaded source packages are in
+	‘/tmp/RtmpfrFSP3/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m45.640s
+user	0m34.000s
+sys	0m6.041s
