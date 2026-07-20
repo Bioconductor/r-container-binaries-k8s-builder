@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TSAR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TSAR'
+also installing the dependencies ‘rhandsontable’, ‘shinyWidgets’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rhandsontable_0.3.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyWidgets_0.9.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TSAR_1.11.0.tar.gz'
+* installing *binary* package ‘rhandsontable’ ...
+* package ‘rhandsontable’ successfully unpacked and SHA256 sums checked
+* ‘rhandsontable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rhandsontable’ as ‘rhandsontable_0.3.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhandsontable)
+* installing *binary* package ‘shinyWidgets’ ...
+* package ‘shinyWidgets’ successfully unpacked and SHA256 sums checked
+* ‘shinyWidgets’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyWidgets’ as ‘shinyWidgets_0.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyWidgets)
+* installing *source* package ‘TSAR’ ...
+** this is package ‘TSAR’ version ‘1.11.0’
+** package ‘TSAR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TSAR’ as ‘TSAR_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TSAR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpcNZdJi/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m0.705s
+user	0m15.541s
+sys	0m3.730s

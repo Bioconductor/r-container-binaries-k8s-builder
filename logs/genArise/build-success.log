@@ -1,0 +1,102 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''genArise'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'genArise'
+also installing the dependencies ‘locfit’, ‘tkrplot’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/locfit_1.5-9.12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tkrplot_0.0-32.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/genArise_1.89.0.tar.gz'
+* installing *binary* package ‘locfit’ ...
+* package ‘locfit’ successfully unpacked and SHA256 sums checked
+* ‘locfit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘locfit’ as ‘locfit_1.5-9.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (locfit)
+* installing *binary* package ‘tkrplot’ ...
+* package ‘tkrplot’ successfully unpacked and SHA256 sums checked
+* ‘tkrplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tkrplot’ as ‘tkrplot_0.0-32_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tkrplot)
+* installing *source* package ‘genArise’ ...
+** this is package ‘genArise’ version ‘1.89.0’
+** package ‘genArise’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning messages:
+1: no DISPLAY variable so Tk is not available 
+2: loading Rplot failed 
+Note: possible error in 'pdf(paste(name, ".pdf", ': unused argument (horiz = FALSE) 
+Note: possible error in 'pdf(paste(name, ".pdf", ': unused argument (horiz = FALSE) 
+Note: possible error in 'pdf(paste(name, "OriginalCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "OriginalRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "OriginalMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "CorrectedCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "CorrectedRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "CorrectedMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NormalCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NormalRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NormalMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "FilterCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "FilterRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "FilterMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NoDuplicatesCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NoDuplicatesRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NoDuplicatesMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "OriginalCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "OriginalRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "OriginalMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "CorrectedCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "CorrectedRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "CorrectedMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NormalCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NormalRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NormalMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "FilterCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "FilterRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "FilterMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NoDuplicatesCy3vsCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NoDuplicatesRvsI.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "NoDuplicatesMvsA.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(name, horiz = F, ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, ".pdf", ': unused argument (horiz = FALSE) 
+Note: possible error in 'pdf(paste(name, "R&G.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "BgCy5.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "BgCy3.pdf", ': unused argument (horiz = F) 
+Note: possible error in 'pdf(paste(name, "Swap.pdf", ': unused argument (horiz = F) 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+Warning: loading Rplot failed
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+Warning: loading Rplot failed
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘genArise’ as ‘genArise_1.89.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genArise)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp8vCmVq/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m16.335s
+user	0m7.468s
+sys	0m4.515s

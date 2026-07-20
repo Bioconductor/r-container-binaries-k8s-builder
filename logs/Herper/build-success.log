@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Herper'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Herper'
+also installing the dependencies ‘RcppTOML’, ‘here’, ‘png’, ‘reticulate’, ‘rjson’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppTOML_0.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/here_1.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/png_0.1-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reticulate_1.46.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rjson_0.2.23.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Herper_1.23.0.tar.gz'
+* installing *binary* package ‘RcppTOML’ ...
+* package ‘RcppTOML’ successfully unpacked and SHA256 sums checked
+* ‘RcppTOML’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppTOML’ as ‘RcppTOML_0.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppTOML)
+* installing *binary* package ‘here’ ...
+* package ‘here’ successfully unpacked and SHA256 sums checked
+* ‘here’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘here’ as ‘here_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (here)
+* installing *binary* package ‘png’ ...
+* package ‘png’ successfully unpacked and SHA256 sums checked
+* ‘png’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘png’ as ‘png_0.1-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (png)
+* installing *binary* package ‘rjson’ ...
+* package ‘rjson’ successfully unpacked and SHA256 sums checked
+* ‘rjson’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rjson’ as ‘rjson_0.2.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjson)
+* installing *binary* package ‘reticulate’ ...
+* package ‘reticulate’ successfully unpacked and SHA256 sums checked
+* ‘reticulate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reticulate’ as ‘reticulate_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reticulate)
+* installing *source* package ‘Herper’ ...
+** this is package ‘Herper’ version ‘1.23.0’
+** package ‘Herper’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Herper’ as ‘Herper_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Herper)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMf9Zmq/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m11.315s
+user	0m8.081s
+sys	0m3.546s

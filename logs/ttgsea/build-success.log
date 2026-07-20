@@ -1,0 +1,582 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ttgsea'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ttgsea'
+also installing the dependencies ‘dtt’, ‘config’, ‘tfautograph’, ‘MatrixExtra’, ‘float’, ‘RhpcBLASctl’, ‘sylly.en’, ‘sylly’, ‘syuzhet’, ‘english’, ‘mgsub’, ‘qdapRegex’, ‘snow’, ‘tensorflow’, ‘tfruns’, ‘zeallot’, ‘NLP’, ‘slam’, ‘rsparse’, ‘mlapi’, ‘lgr’, ‘SnowballC’, ‘koRpus.lang.en’, ‘hunspell’, ‘koRpus’, ‘lexicon’, ‘quanteda’, ‘textclean’, ‘textshape’, ‘ISOcodes’, ‘visNetwork’, ‘BiocParallel’, ‘fastmatch’, ‘keras’, ‘tm’, ‘text2vec’, ‘tokenizers’, ‘textstem’, ‘stopwords’, ‘DiagrammeR’, ‘fgsea’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dtt_0.1-2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/config_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tfautograph_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MatrixExtra_0.1.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/float_0.3-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RhpcBLASctl_0.23-42.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sylly.en_0.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sylly_0.1-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/syuzhet_1.0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/english_1.2-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mgsub_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qdapRegex_0.7.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/snow_0.4-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tensorflow_2.20.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tfruns_1.5.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/zeallot_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/NLP_0.3-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/slam_0.1-56.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rsparse_0.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlapi_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lgr_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SnowballC_0.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/koRpus.lang.en_0.1-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hunspell_3.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/koRpus_0.13-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lexicon_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/quanteda_4.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textclean_0.9.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textshape_1.7.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ISOcodes_2026.03.28.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/visNetwork_2.1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BiocParallel_1.47.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fastmatch_1.1-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/keras_2.16.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tm_0.7-18.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/text2vec_0.6.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tokenizers_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textstem_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stopwords_2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DiagrammeR_1.0.12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/fgsea_1.39.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ttgsea_1.21.0.tar.gz'
+* installing *binary* package ‘dtt’ ...
+* package ‘dtt’ successfully unpacked and SHA256 sums checked
+* ‘dtt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dtt’ as ‘dtt_0.1-2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dtt)
+* installing *binary* package ‘config’ ...
+* package ‘config’ successfully unpacked and SHA256 sums checked
+* ‘config’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘config’ as ‘config_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (config)
+* installing *binary* package ‘tfautograph’ ...
+* package ‘tfautograph’ successfully unpacked and SHA256 sums checked
+* ‘tfautograph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tfautograph’ as ‘tfautograph_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tfautograph)
+* installing *binary* package ‘float’ ...
+* package ‘float’ successfully unpacked and SHA256 sums checked
+* ‘float’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘float’ as ‘float_0.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (float)
+* installing *binary* package ‘RhpcBLASctl’ ...
+* package ‘RhpcBLASctl’ successfully unpacked and SHA256 sums checked
+* ‘RhpcBLASctl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RhpcBLASctl’ as ‘RhpcBLASctl_0.23-42_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RhpcBLASctl)
+* installing *binary* package ‘sylly’ ...
+* package ‘sylly’ successfully unpacked and SHA256 sums checked
+* ‘sylly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sylly’ as ‘sylly_0.1-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sylly)
+* installing *binary* package ‘english’ ...
+* package ‘english’ successfully unpacked and SHA256 sums checked
+* ‘english’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘english’ as ‘english_1.2-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (english)
+* installing *binary* package ‘mgsub’ ...
+* package ‘mgsub’ successfully unpacked and SHA256 sums checked
+* ‘mgsub’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mgsub’ as ‘mgsub_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mgsub)
+* installing *binary* package ‘qdapRegex’ ...
+* package ‘qdapRegex’ successfully unpacked and SHA256 sums checked
+* ‘qdapRegex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qdapRegex’ as ‘qdapRegex_0.7.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qdapRegex)
+* installing *binary* package ‘snow’ ...
+* package ‘snow’ successfully unpacked and SHA256 sums checked
+* ‘snow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘snow’ as ‘snow_0.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snow)
+* installing *binary* package ‘zeallot’ ...
+* package ‘zeallot’ successfully unpacked and SHA256 sums checked
+* ‘zeallot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zeallot’ as ‘zeallot_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zeallot)
+* installing *binary* package ‘NLP’ ...
+* package ‘NLP’ successfully unpacked and SHA256 sums checked
+* ‘NLP’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NLP’ as ‘NLP_0.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NLP)
+* installing *binary* package ‘slam’ ...
+* package ‘slam’ successfully unpacked and SHA256 sums checked
+* ‘slam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘slam’ as ‘slam_0.1-56_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (slam)
+* installing *binary* package ‘mlapi’ ...
+* package ‘mlapi’ successfully unpacked and SHA256 sums checked
+* ‘mlapi’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlapi’ as ‘mlapi_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlapi)
+* installing *binary* package ‘lgr’ ...
+* package ‘lgr’ successfully unpacked and SHA256 sums checked
+* ‘lgr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lgr’ as ‘lgr_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lgr)
+* installing *binary* package ‘SnowballC’ ...
+* package ‘SnowballC’ successfully unpacked and SHA256 sums checked
+* ‘SnowballC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SnowballC’ as ‘SnowballC_0.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SnowballC)
+* installing *binary* package ‘hunspell’ ...
+* package ‘hunspell’ successfully unpacked and SHA256 sums checked
+* ‘hunspell’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hunspell’ as ‘hunspell_3.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hunspell)
+* installing *binary* package ‘ISOcodes’ ...
+* package ‘ISOcodes’ successfully unpacked and SHA256 sums checked
+* ‘ISOcodes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ISOcodes’ as ‘ISOcodes_2026.03.28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ISOcodes)
+* installing *binary* package ‘visNetwork’ ...
+* package ‘visNetwork’ successfully unpacked and SHA256 sums checked
+* ‘visNetwork’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘visNetwork’ as ‘visNetwork_2.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (visNetwork)
+* installing *binary* package ‘fastmatch’ ...
+* package ‘fastmatch’ successfully unpacked and SHA256 sums checked
+* ‘fastmatch’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastmatch’ as ‘fastmatch_1.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastmatch)
+* installing *binary* package ‘MatrixExtra’ ...
+* package ‘MatrixExtra’ successfully unpacked and SHA256 sums checked
+* ‘MatrixExtra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatrixExtra’ as ‘MatrixExtra_0.1.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixExtra)
+* installing *binary* package ‘sylly.en’ ...
+* package ‘sylly.en’ successfully unpacked and SHA256 sums checked
+* ‘sylly.en’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sylly.en’ as ‘sylly.en_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sylly.en)
+* installing *binary* package ‘tfruns’ ...
+* package ‘tfruns’ successfully unpacked and SHA256 sums checked
+* ‘tfruns’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tfruns’ as ‘tfruns_1.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tfruns)
+* installing *binary* package ‘koRpus’ ...
+* package ‘koRpus’ successfully unpacked and SHA256 sums checked
+* ‘koRpus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘koRpus’ as ‘koRpus_0.13-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (koRpus)
+* installing *binary* package ‘textshape’ ...
+* package ‘textshape’ successfully unpacked and SHA256 sums checked
+* ‘textshape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘textshape’ as ‘textshape_1.7.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (textshape)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘BiocParallel’ ...
+** this is package ‘BiocParallel’ version ‘1.47.0’
+** package ‘BiocParallel’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking for g++ -std=gnu++20 option to enable C++11 features... none needed
+checking for library containing shm_open... none required
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/mman.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I"./" -I'/mnt/library/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ipcmutex.cpp -o ipcmutex.o
+In file included from ./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:30,
+                 from boost_patch_1_87/interprocess/managed_shared_memory.hpp:25,
+                 from ipcmutex.cpp:14:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In member function ‘typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool)’:
+./boost_patch_1_87/interprocess/segment_manager.hpp:654:28: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+  654 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                            ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:654:57: error: expected primary-expression before ‘>’ token
+  654 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                         ^
+./boost_patch_1_87/interprocess/segment_manager.hpp: In member function ‘typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::priv_anonymous_construct(Proxy, size_type, bool)’:
+./boost_patch_1_87/interprocess/segment_manager.hpp:721:28: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+  721 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                            ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:721:57: error: expected primary-expression before ‘>’ token
+  721 |          return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                         ^
+./boost_patch_1_87/interprocess/segment_manager.hpp: In member function ‘typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::priv_generic_named_construct(Proxy, unsigned char, const CharT*, size_type, bool, bool, IndexType<boost::interprocess::ipcdetail::index_config<CharT, MemoryAlgorithm> >&)’:
+./boost_patch_1_87/interprocess/segment_manager.hpp:1015:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+ 1015 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:32: error: expected primary-expression before ‘...’ token
+ 1022 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+ 1022 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:7: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+./boost_patch_1_87/interprocess/segment_manager.hpp:1022:36: error: expected ‘;’ before ‘{’ token
+ 1022 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1027:7: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+ 1027 |       BOOST_INTERPROCESS_CATCH_END
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_DOCIGN
+./boost_patch_1_87/interprocess/segment_manager.hpp:1052:31: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+ 1052 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                               ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1052:60: error: expected primary-expression before ‘>’ token
+ 1052 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                            ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1069:31: error: ‘null_or_bad_alloc’ is not a member of ‘boost::interprocess::ipcdetail’
+ 1069 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                               ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1069:60: error: expected primary-expression before ‘>’ token
+ 1069 |             return ipcdetail::null_or_bad_alloc<object_type>(dothrow);
+      |                                                            ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1088:29: error: expected ‘;’ before ‘{’ token
+ 1088 |       BOOST_INTERPROCESS_TRY{
+      |                             ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1100:32: error: expected primary-expression before ‘...’ token
+ 1100 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1100:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+ 1100 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1100:36: error: expected ‘;’ before ‘{’ token
+ 1100 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/segment_manager.hpp:1109:7: error: expected ‘;’ before ‘value_eraser’
+ 1109 |       value_eraser<index_t> v_eraser(index, it);
+      |       ^~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:1115:7: error: ‘v_eraser’ was not declared in this scope; did you mean ‘value_eraser’?
+ 1115 |       v_eraser.release();
+      |       ^~~~~~~~
+      |       value_eraser
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In static member function ‘static bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::grow(const CharT*, size_type)’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:117:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  117 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:129:32: error: expected primary-expression before ‘...’ token
+  129 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:129:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+  129 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:129:36: error: expected ‘;’ before ‘{’ token
+  129 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:131:9: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+  131 |       } BOOST_INTERPROCESS_CATCH_END
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         BOOST_INTERPROCESS_DOCIGN
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:133:4: warning: no return statement in function returning non-void [-Wreturn-type]
+  133 |    }
+      |    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In static member function ‘static bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::shrink_to_fit(const CharT*)’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:140:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  140 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:146:32: error: expected primary-expression before ‘...’ token
+  146 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:146:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+  146 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:146:36: error: expected ‘;’ before ‘{’ token
+  146 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:148:9: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+  148 |       } BOOST_INTERPROCESS_CATCH_END
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         BOOST_INTERPROCESS_DOCIGN
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In member function ‘bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::create_impl(void*, size_type)’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:177:7: error: ‘BOOST_INTERPROCESS_TRY’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  177 |       BOOST_INTERPROCESS_TRY{
+      |       ^~~~~~~~~~~~~~~~~~~~~~
+      |       BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:32: error: expected primary-expression before ‘...’ token
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                ^~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:7: error: there are no arguments to ‘BOOST_INTERPROCESS_CATCH’ that depend on a template parameter, so a declaration of ‘BOOST_INTERPROCESS_CATCH’ must be available [-fpermissive]
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:36: error: expected ‘;’ before ‘{’ token
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                    ^
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:184:9: error: ‘BOOST_INTERPROCESS_CATCH_END’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_DOCIGN’?
+  184 |       } BOOST_INTERPROCESS_CATCH_END
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         BOOST_INTERPROCESS_DOCIGN
+In file included from ./boost_patch_1_87/interprocess/segment_manager.hpp:32:
+/usr/include/boost/interprocess/detail/named_proxy.hpp: In instantiation of ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = boost::interprocess::interprocess_mutex; bool is_iterator = false]’:
+ipcmutex.cpp:35:64:   required from here
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30: error: no matching function for call to ‘boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct<boost::interprocess::interprocess_mutex>(const boost::interprocess::ipcdetail::named_proxy<boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>, boost::interprocess::interprocess_mutex, false>::char_type* const&, std::size_t&, const bool&, const bool&, boost::interprocess::ipcdetail::CtorArgN<boost::interprocess::interprocess_mutex, false>&)’
+  131 |       return mp_mngr->template
+      |              ~~~~~~~~~~~~~~~~~
+  132 |          generic_construct<T>(mp_name, m_num, m_find, m_dothrow, ctor_obj);
+      |          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note: candidate: ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index]’
+  647 |    typename Proxy::object_type * generic_construct
+      |                                  ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note:   template argument deduction/substitution failed:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In substitution of ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct(Proxy&, const char*, size_type, bool, bool) [with Proxy = boost::interprocess::interprocess_mutex]’:
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30:   required from ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = boost::interprocess::interprocess_mutex; bool is_iterator = false]’
+ipcmutex.cpp:35:64:   required from here
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: error: no type named ‘object_type’ in ‘class boost::interprocess::interprocess_mutex’
+/usr/include/boost/interprocess/detail/named_proxy.hpp: In instantiation of ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = bool; bool is_iterator = false]’:
+ipcmutex.cpp:36:56:   required from here
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30: error: no matching function for call to ‘boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct<bool>(const boost::interprocess::ipcdetail::named_proxy<boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>, bool, false>::char_type* const&, std::size_t&, const bool&, const bool&, boost::interprocess::ipcdetail::CtorArgN<bool, false>&)’
+  131 |       return mp_mngr->template
+      |              ~~~~~~~~~~~~~~~~~
+  132 |          generic_construct<T>(mp_name, m_num, m_find, m_dothrow, ctor_obj);
+      |          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note: candidate: ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index]’
+  647 |    typename Proxy::object_type * generic_construct
+      |                                  ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note:   template argument deduction/substitution failed:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In substitution of ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct(Proxy&, const char*, size_type, bool, bool) [with Proxy = bool]’:
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30:   required from ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = bool; bool is_iterator = false]’
+ipcmutex.cpp:36:56:   required from here
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: error: ‘bool’ is not a class, struct, or union type
+/usr/include/boost/interprocess/detail/named_proxy.hpp: In instantiation of ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = int; bool is_iterator = false]’:
+ipcmutex.cpp:76:45:   required from here
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30: error: no matching function for call to ‘boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct<int>(const boost::interprocess::ipcdetail::named_proxy<boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>, int, false>::char_type* const&, std::size_t&, const bool&, const bool&, boost::interprocess::ipcdetail::CtorArgN<int, false>&)’
+  131 |       return mp_mngr->template
+      |              ~~~~~~~~~~~~~~~~~
+  132 |          generic_construct<T>(mp_name, m_num, m_find, m_dothrow, ctor_obj);
+      |          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note: candidate: ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<CharType, MemoryAlgorithm, IndexType>::generic_construct(Proxy&, const CharType*, size_type, bool, bool) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index]’
+  647 |    typename Proxy::object_type * generic_construct
+      |                                  ^~~~~~~~~~~~~~~~~
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: note:   template argument deduction/substitution failed:
+./boost_patch_1_87/interprocess/segment_manager.hpp: In substitution of ‘template<class Proxy> typename Proxy::object_type* boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>::generic_construct(Proxy&, const char*, size_type, bool, bool) [with Proxy = int]’:
+/usr/include/boost/interprocess/detail/named_proxy.hpp:132:30:   required from ‘T* boost::interprocess::ipcdetail::named_proxy<SegmentManager, T, is_iterator>::operator()(Args&& ...) const [with Args = {}; SegmentManager = boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index>; T = int; bool is_iterator = false]’
+ipcmutex.cpp:76:45:   required from here
+./boost_patch_1_87/interprocess/segment_manager.hpp:647:34: error: ‘int’ is not a class, struct, or union type
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In instantiation of ‘bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::create_impl(void*, size_type) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index; long unsigned int Offset = 16; size_type = long unsigned int]’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:742:40:   required from ‘bool boost::interprocess::ipcdetail::create_open_func<BasicManagedMemoryImpl>::operator()(void*, std::size_t, bool) const [with BasicManagedMemoryImpl = boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16>; std::size_t = long unsigned int]’
+/usr/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:357:30:   required from ‘static void boost::interprocess::ipcdetail::managed_open_or_create_impl<DeviceAbstraction, MemAlignment, FileBased, StoreDevice>::do_map_after_create(DeviceAbstraction&, boost::interprocess::mapped_region&, std::size_t, const void*, ConstructFunc) [with ConstructFunc = boost::interprocess::ipcdetail::create_open_func<boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16> >; DeviceAbstraction = boost::interprocess::shared_memory_object; long unsigned int MemAlignment = 16; bool FileBased = true; bool StoreDevice = false; std::size_t = long unsigned int]’
+/usr/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:502:35:   required from ‘void boost::interprocess::ipcdetail::managed_open_or_create_impl<DeviceAbstraction, MemAlignment, FileBased, StoreDevice>::priv_open_or_create(boost::interprocess::ipcdetail::create_enum_t, const DeviceId&, std::size_t, boost::interprocess::mode_t, const void*, const boost::interprocess::permissions&, ConstructFunc) [with DeviceId = const char*; ConstructFunc = boost::interprocess::ipcdetail::create_open_func<boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16> >; DeviceAbstraction = boost::interprocess::shared_memory_object; long unsigned int MemAlignment = 16; bool FileBased = true; bool StoreDevice = false; std::size_t = long unsigned int]’
+/usr/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:199:10:   required from ‘boost::interprocess::ipcdetail::managed_open_or_create_impl<DeviceAbstraction, MemAlignment, FileBased, StoreDevice>::managed_open_or_create_impl(boost::interprocess::open_or_create_t, const DeviceId&, std::size_t, boost::interprocess::mode_t, const void*, const ConstructFunc&, const boost::interprocess::permissions&) [with DeviceId = const char*; ConstructFunc = boost::interprocess::ipcdetail::create_open_func<boost::interprocess::ipcdetail::basic_managed_memory_impl<char, boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>, boost::interprocess::iset_index, 16> >; DeviceAbstraction = boost::interprocess::shared_memory_object; long unsigned int MemAlignment = 16; bool FileBased = true; bool StoreDevice = false; std::size_t = long unsigned int]’
+boost_patch_1_87/interprocess/managed_shared_memory.hpp:140:49:   required from ‘boost::interprocess::basic_managed_shared_memory<CharType, MemoryAlgorithm, IndexType>::basic_managed_shared_memory(boost::interprocess::open_or_create_t, const char*, size_type, const void*, const boost::interprocess::permissions&) [with CharType = char; AllocationAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index; size_type = long unsigned int]’
+ipcmutex.cpp:34:65:   required from here
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:182:35: error: ‘BOOST_INTERPROCESS_CATCH’ was not declared in this scope; did you mean ‘BOOST_INTERPROCESS_I’?
+  182 |       BOOST_INTERPROCESS_CATCH(...){
+      |                                   ^
+      |                                   BOOST_INTERPROCESS_I
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp: In member function ‘bool boost::interprocess::ipcdetail::basic_managed_memory_impl<CharType, MemoryAlgorithm, IndexType, Offset>::create_impl(void*, size_type) [with CharType = char; MemoryAlgorithm = boost::interprocess::rbtree_best_fit<boost::interprocess::mutex_family>; IndexType = boost::interprocess::iset_index; long unsigned int Offset = 16]’:
+./boost_patch_1_87/interprocess/detail/managed_memory_impl.hpp:186:4: warning: control reaches end of non-void function [-Wreturn-type]
+  186 |    }
+      |    ^
+make: *** [/usr/local/lib/R/etc/Makeconf:199: ipcmutex.o] Error 1
+ERROR: compilation failed for package ‘BiocParallel’
+* removing ‘/tmp/library/BiocParallel’
+* installing *binary* package ‘tm’ ...
+* package ‘tm’ successfully unpacked and SHA256 sums checked
+* ‘tm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tm’ as ‘tm_0.7-18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tm)
+* installing *binary* package ‘tokenizers’ ...
+* package ‘tokenizers’ successfully unpacked and SHA256 sums checked
+* ‘tokenizers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tokenizers’ as ‘tokenizers_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tokenizers)
+* installing *binary* package ‘stopwords’ ...
+* package ‘stopwords’ successfully unpacked and SHA256 sums checked
+* ‘stopwords’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stopwords’ as ‘stopwords_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stopwords)
+* installing *binary* package ‘DiagrammeR’ ...
+* package ‘DiagrammeR’ successfully unpacked and SHA256 sums checked
+* ‘DiagrammeR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DiagrammeR’ as ‘DiagrammeR_1.0.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiagrammeR)
+* installing *binary* package ‘syuzhet’ ...
+* package ‘syuzhet’ successfully unpacked and SHA256 sums checked
+* ‘syuzhet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘syuzhet’ as ‘syuzhet_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (syuzhet)
+* installing *binary* package ‘tensorflow’ ...
+* package ‘tensorflow’ successfully unpacked and SHA256 sums checked
+* ‘tensorflow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tensorflow’ as ‘tensorflow_2.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensorflow)
+* installing *binary* package ‘rsparse’ ...
+* package ‘rsparse’ successfully unpacked and SHA256 sums checked
+* ‘rsparse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rsparse’ as ‘rsparse_0.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsparse)
+* installing *binary* package ‘koRpus.lang.en’ ...
+* package ‘koRpus.lang.en’ successfully unpacked and SHA256 sums checked
+* ‘koRpus.lang.en’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘koRpus.lang.en’ as ‘koRpus.lang.en_0.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (koRpus.lang.en)
+* installing *binary* package ‘quanteda’ ...
+* package ‘quanteda’ successfully unpacked and SHA256 sums checked
+* ‘quanteda’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘quanteda’ as ‘quanteda_4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quanteda)
+ERROR: dependency ‘BiocParallel’ is not available for package ‘fgsea’
+Perhaps try a variation of:
+install.packages('BiocParallel')
+* removing ‘/tmp/library/fgsea’
+* installing *binary* package ‘lexicon’ ...
+* package ‘lexicon’ successfully unpacked and SHA256 sums checked
+* ‘lexicon’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lexicon’ as ‘lexicon_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lexicon)
+* installing *binary* package ‘keras’ ...
+* package ‘keras’ successfully unpacked and SHA256 sums checked
+* ‘keras’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘keras’ as ‘keras_2.16.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (keras)
+* installing *binary* package ‘text2vec’ ...
+* package ‘text2vec’ successfully unpacked and SHA256 sums checked
+* ‘text2vec’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘text2vec’ as ‘text2vec_0.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (text2vec)
+* installing *binary* package ‘textclean’ ...
+* package ‘textclean’ successfully unpacked and SHA256 sums checked
+* ‘textclean’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘textclean’ as ‘textclean_0.9.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (textclean)
+* installing *binary* package ‘textstem’ ...
+* package ‘textstem’ successfully unpacked and SHA256 sums checked
+* ‘textstem’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘textstem’ as ‘textstem_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (textstem)
+* installing *source* package ‘ttgsea’ ...
+** this is package ‘ttgsea’ version ‘1.21.0’
+** package ‘ttgsea’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ttgsea’ as ‘ttgsea_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ttgsea)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpyv3vPh/downloaded_packages’
+Old packages: 'diffobj'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘BiocParallel’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘fgsea’ had non-zero exit status
+
+real	0m57.391s
+user	0m29.700s
+sys	0m12.829s
