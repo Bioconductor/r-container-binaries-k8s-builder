@@ -1,0 +1,119 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tripr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tripr'
+also installing the dependencies ‘TFMPvalue’, ‘misc3d’, ‘attempt’, ‘TFBSTools’, ‘plot3D’, ‘golem’, ‘motifStack’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TFMPvalue_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/misc3d_0.9-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/attempt_0.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TFBSTools_1.50.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plot3D_1.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/golem_1.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/motifStack_1.56.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/tripr_1.18.0.tar.gz'
+* installing *binary* package ‘TFMPvalue’ ...
+* package ‘TFMPvalue’ successfully unpacked and SHA256 sums checked
+* ‘TFMPvalue’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TFMPvalue’ as ‘TFMPvalue_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFMPvalue)
+* installing *binary* package ‘misc3d’ ...
+* package ‘misc3d’ successfully unpacked and SHA256 sums checked
+* ‘misc3d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘misc3d’ as ‘misc3d_0.9-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (misc3d)
+* installing *binary* package ‘attempt’ ...
+* package ‘attempt’ successfully unpacked and SHA256 sums checked
+* ‘attempt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘attempt’ as ‘attempt_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (attempt)
+* installing *source* package ‘TFBSTools’ ...
+** this is package ‘TFBSTools’ version ‘1.50.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrixAlignerDynamic.c -o matrixAlignerDynamic.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_TFBSTools.c -o R_init_TFBSTools.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o TFBSTools.so matrixAlignerDynamic.o R_init_TFBSTools.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-TFBSTools/00new/TFBSTools/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘seqLogo’ in package ‘TFBSTools’
+Creating a new generic function for ‘pattern’ in package ‘TFBSTools’
+Creating a generic function for ‘colSums’ from package ‘base’ in package ‘TFBSTools’
+Creating a generic function for ‘rowSums’ from package ‘base’ in package ‘TFBSTools’
+
+ *** caught segfault ***
+address 0x81a0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘TFBSTools’
+* removing ‘/tmp/library/TFBSTools’
+* installing *binary* package ‘plot3D’ ...
+* package ‘plot3D’ successfully unpacked and SHA256 sums checked
+* ‘plot3D’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plot3D’ as ‘plot3D_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plot3D)
+* installing *binary* package ‘golem’ ...
+* package ‘golem’ successfully unpacked and SHA256 sums checked
+* ‘golem’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘golem’ as ‘golem_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (golem)
+ERROR: dependency ‘TFBSTools’ is not available for package ‘motifStack’
+Perhaps try a variation of:
+install.packages('TFBSTools')
+* removing ‘/tmp/library/motifStack’
+* installing *source* package ‘tripr’ ...
+** this is package ‘tripr’ version ‘1.18.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tripr’ as ‘tripr_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tripr)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpjavkrv/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘TFBSTools’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘motifStack’ had non-zero exit status
+
+real	1m26.902s
+user	0m53.686s
+sys	0m14.791s

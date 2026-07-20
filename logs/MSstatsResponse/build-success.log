@@ -1,0 +1,119 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MSstatsResponse'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MSstatsResponse'
+also installing the dependencies ‘marray’, ‘MSstats’, ‘MSstatsTMT’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/marray_1.90.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MSstats_4.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MSstatsTMT_2.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MSstatsResponse_1.2.0.tar.gz'
+* installing *source* package ‘marray’ ...
+** this is package ‘marray’ version ‘1.90.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘marray’ as ‘marray_1.90.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (marray)
+* installing *source* package ‘MSstatsResponse’ ...
+** this is package ‘MSstatsResponse’ version ‘1.2.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MSstatsResponse’ as ‘MSstatsResponse_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MSstatsResponse)
+* installing *source* package ‘MSstats’ ...
+** this is package ‘MSstats’ version ‘4.20.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c common.cpp -o common.o
+In file included from /mnt/library/RcppArmadillo/include/armadillo:586,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:51,
+                 from /mnt/library/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from common.cpp:1:
+/mnt/library/RcppArmadillo/include/armadillo_bits/fn_cond_rcond.hpp: In function ‘typename arma::enable_if2<arma::is_blas_type<typename T1::elem_type>::value, typename T1::pod_type>::result arma::cond(const Base<typename T1::elem_type, T1>&)’:
+/mnt/library/RcppArmadillo/include/armadillo_bits/fn_cond_rcond.hpp:36:23: error: ‘op_cond’ has not been declared
+   36 |   const bool status = op_cond::apply(out, X.get_ref());
+      |                       ^~~~~~~
+/mnt/library/RcppArmadillo/include/armadillo_bits/fn_cond_rcond.hpp: In function ‘typename arma::enable_if2<arma::is_blas_type<typename T1::elem_type>::value, bool>::result arma::cond(typename T1::pod_type&, const Base<typename T1::elem_type, T1>&)’:
+/mnt/library/RcppArmadillo/include/armadillo_bits/fn_cond_rcond.hpp:56:10: error: ‘op_cond’ has not been declared
+   56 |   return op_cond::apply(out, X.get_ref());
+      |          ^~~~~~~
+In file included from /mnt/library/RcppArmadillo/include/armadillo:798:
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp: At global scope:
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp:27:1: error: ‘op_cond’ has not been declared
+   27 | op_cond::apply(typename T1::pod_type& out, const Base<typename T1::elem_type, T1>& X)
+      | ^~~~~~~
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp: In function ‘bool arma::apply(typename T1::pod_type&, const Base<typename T1::elem_type, T1>&)’:
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp:42:12: error: ‘op_cond’ has not been declared
+   42 |     return op_cond::apply_diag(out, A);
+      |            ^~~~~~~
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp:60:25: error: ‘op_cond’ has not been declared
+   60 |     const bool status = op_cond::apply_sym(out, A);
+      |                         ^~~~~~~
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp:76:10: error: ‘op_cond’ has not been declared
+   76 |   return op_cond::apply_gen(out, A);
+      |          ^~~~~~~
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp: At global scope:
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp:84:1: error: ‘op_cond’ has not been declared
+   84 | op_cond::apply_diag(typename get_pod_type<eT>::result& out, const Mat<eT>& A)
+      | ^~~~~~~
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp:117:1: error: ‘op_cond’ has not been declared
+  117 | op_cond::apply_sym(typename get_pod_type<eT>::result& out, Mat<eT>& A)
+      | ^~~~~~~
+/mnt/library/RcppArmadillo/include/armadillo_bits/op_cond_meat.hpp:156:1: error: ‘op_cond’ has not been declared
+  156 | op_cond::apply_gen(typename get_pod_type<eT>::result& out, Mat<eT>& A)
+      | ^~~~~~~
+make: *** [/usr/local/lib/R/etc/Makeconf:199: common.o] Error 1
+ERROR: compilation failed for package ‘MSstats’
+* removing ‘/tmp/library/MSstats’
+ERROR: dependency ‘MSstats’ is not available for package ‘MSstatsTMT’
+Perhaps try a variation of:
+install.packages('MSstats')
+* removing ‘/tmp/library/MSstatsTMT’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpjw5r42/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘MSstats’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘MSstatsTMT’ had non-zero exit status
+
+real	0m45.145s
+user	0m27.638s
+sys	0m5.507s

@@ -1,0 +1,133 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AlphaMissenseR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AlphaMissenseR'
+also installing the dependencies ‘RcppSpdlog’, ‘distributional’, ‘duckdb’, ‘spdl’, ‘GenomeInfoDb’, ‘ensembldb’, ‘r3dmol’, ‘bio3d’, ‘ggdist’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppSpdlog_0.0.29.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/distributional_0.8.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/duckdb_1.5.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spdl_0.0.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomeInfoDb_1.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ensembldb_2.36.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/r3dmol_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bio3d_2.4-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggdist_3.3.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/AlphaMissenseR_1.8.0.tar.gz'
+* installing *binary* package ‘RcppSpdlog’ ...
+* package ‘RcppSpdlog’ successfully unpacked and SHA256 sums checked
+* ‘RcppSpdlog’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppSpdlog’ as ‘RcppSpdlog_0.0.29_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppSpdlog)
+* installing *binary* package ‘distributional’ ...
+* package ‘distributional’ successfully unpacked and SHA256 sums checked
+* ‘distributional’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘distributional’ as ‘distributional_0.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (distributional)
+* installing *binary* package ‘duckdb’ ...
+* package ‘duckdb’ successfully unpacked and SHA256 sums checked
+* ‘duckdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘duckdb’ as ‘duckdb_1.5.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (duckdb)
+* installing *source* package ‘GenomeInfoDb’ ...
+** this is package ‘GenomeInfoDb’ version ‘1.48.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomeInfoDb’ as ‘GenomeInfoDb_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDb)
+* installing *binary* package ‘bio3d’ ...
+* package ‘bio3d’ successfully unpacked and SHA256 sums checked
+* ‘bio3d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bio3d’ as ‘bio3d_2.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bio3d)
+* installing *binary* package ‘spdl’ ...
+* package ‘spdl’ successfully unpacked and SHA256 sums checked
+* ‘spdl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spdl’ as ‘spdl_0.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spdl)
+* installing *source* package ‘ensembldb’ ...
+** this is package ‘ensembldb’ version ‘2.36.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function ‘.cds_for_id2’ in package ‘ensembldb’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ensembldb’ as ‘ensembldb_2.36.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ensembldb)
+* installing *binary* package ‘r3dmol’ ...
+* package ‘r3dmol’ successfully unpacked and SHA256 sums checked
+* ‘r3dmol’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘r3dmol’ as ‘r3dmol_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (r3dmol)
+* installing *binary* package ‘ggdist’ ...
+* package ‘ggdist’ successfully unpacked and SHA256 sums checked
+* ‘ggdist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggdist’ as ‘ggdist_3.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdist)
+* installing *source* package ‘AlphaMissenseR’ ...
+** this is package ‘AlphaMissenseR’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AlphaMissenseR’ as ‘AlphaMissenseR_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AlphaMissenseR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHiAT80/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m36.744s
+user	1m8.181s
+sys	0m9.406s

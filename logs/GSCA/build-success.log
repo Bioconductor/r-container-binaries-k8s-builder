@@ -1,0 +1,105 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GSCA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GSCA'
+also installing the dependencies ‘Affyhgu133aExpr’, ‘Affymoe4302Expr’, ‘Affyhgu133A2Expr’, ‘Affyhgu133Plus2Expr’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/Affyhgu133aExpr_1.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/Affymoe4302Expr_1.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/Affyhgu133A2Expr_1.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/Affyhgu133Plus2Expr_1.46.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GSCA_2.42.0.tar.gz'
+* installing *source* package ‘Affyhgu133aExpr’ ...
+** this is package ‘Affyhgu133aExpr’ version ‘1.50.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Affyhgu133aExpr’ as ‘Affyhgu133aExpr_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Affyhgu133aExpr)
+* installing *source* package ‘Affymoe4302Expr’ ...
+** this is package ‘Affymoe4302Expr’ version ‘1.50.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Affymoe4302Expr’ as ‘Affymoe4302Expr_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Affymoe4302Expr)
+* installing *source* package ‘Affyhgu133A2Expr’ ...
+** this is package ‘Affyhgu133A2Expr’ version ‘1.48.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Affyhgu133A2Expr’ as ‘Affyhgu133A2Expr_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Affyhgu133A2Expr)
+* installing *source* package ‘Affyhgu133Plus2Expr’ ...
+** this is package ‘Affyhgu133Plus2Expr’ version ‘1.46.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Affyhgu133Plus2Expr’ as ‘Affyhgu133Plus2Expr_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Affyhgu133Plus2Expr)
+* installing *source* package ‘GSCA’ ...
+** this is package ‘GSCA’ version ‘2.42.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSCA’ as ‘GSCA_2.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSCA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAg1ARZ/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m13.539s
+user	1m34.497s
+sys	0m12.477s

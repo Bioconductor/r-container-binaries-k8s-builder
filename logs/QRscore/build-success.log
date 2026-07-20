@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''QRscore'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'QRscore'
+also installing the dependencies ‘rcdd’, ‘pscl’, ‘arrangements’, ‘hitandrun’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rcdd_1.6-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pscl_1.5.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/arrangements_1.1.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hitandrun_0.5-6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/QRscore_1.4.0.tar.gz'
+* installing *binary* package ‘rcdd’ ...
+* package ‘rcdd’ successfully unpacked and SHA256 sums checked
+* ‘rcdd’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rcdd’ as ‘rcdd_1.6-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rcdd)
+* installing *binary* package ‘pscl’ ...
+* package ‘pscl’ successfully unpacked and SHA256 sums checked
+* ‘pscl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pscl’ as ‘pscl_1.5.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pscl)
+* installing *binary* package ‘arrangements’ ...
+* package ‘arrangements’ successfully unpacked and SHA256 sums checked
+* ‘arrangements’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘arrangements’ as ‘arrangements_1.1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (arrangements)
+* installing *binary* package ‘hitandrun’ ...
+* package ‘hitandrun’ successfully unpacked and SHA256 sums checked
+* ‘hitandrun’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hitandrun’ as ‘hitandrun_0.5-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hitandrun)
+* installing *source* package ‘QRscore’ ...
+** this is package ‘QRscore’ version ‘1.4.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘QRscore’ as ‘QRscore_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (QRscore)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp07pQ9i/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m22.595s
+user	0m8.465s
+sys	0m3.232s

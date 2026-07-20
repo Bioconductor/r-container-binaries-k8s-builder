@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GenProSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GenProSeq'
+also installing the dependencies ‘RcppML’, ‘scater’, ‘word2vec’, ‘VAExprs’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppML_0.3.7.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scater_1.40.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/word2vec_0.4.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/VAExprs_1.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenProSeq_1.16.0.tar.gz'
+* installing *binary* package ‘RcppML’ ...
+* package ‘RcppML’ successfully unpacked and SHA256 sums checked
+* ‘RcppML’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppML’ as ‘RcppML_0.3.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppML)
+* installing *binary* package ‘word2vec’ ...
+* package ‘word2vec’ successfully unpacked and SHA256 sums checked
+* ‘word2vec’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘word2vec’ as ‘word2vec_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (word2vec)
+* installing *source* package ‘scater’ ...
+** this is package ‘scater’ version ‘1.40.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ScaledMatrix’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘scater’
+* removing ‘/tmp/library/scater’
+* installing *source* package ‘GenProSeq’ ...
+** this is package ‘GenProSeq’ version ‘1.16.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenProSeq’ as ‘GenProSeq_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenProSeq)
+ERROR: dependency ‘scater’ is not available for package ‘VAExprs’
+Perhaps try a variation of:
+install.packages('scater')
+* removing ‘/tmp/library/VAExprs’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpaotckf/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘scater’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘VAExprs’ had non-zero exit status
+
+real	1m26.055s
+user	0m21.134s
+sys	0m5.258s
