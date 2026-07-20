@@ -1,0 +1,75 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DExMA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DExMA'
+also installing the dependencies ‘DExMAdata’, ‘swamp’, ‘bnstruct’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/DExMAdata_1.20.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/swamp_1.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bnstruct_1.0.15.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DExMA_1.20.0.tar.gz'
+* installing *source* package ‘DExMAdata’ ...
+** this is package ‘DExMAdata’ version ‘1.20.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DExMAdata’ as ‘DExMAdata_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DExMAdata)
+* installing *binary* package ‘swamp’ ...
+* package ‘swamp’ successfully unpacked and SHA256 sums checked
+* ‘swamp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘swamp’ as ‘swamp_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (swamp)
+* installing *binary* package ‘bnstruct’ ...
+file ‘da995d01db954da754ce6286781d2921cda2be5544c5fd76085ae7a4a6c61791 2e+05 extdata/Child_data_na_5000.data’ is missing
+extraneous file ‘extdata/Child_data_na_5000.data’ 
+* ‘bnstruct’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bnstruct’ as ‘bnstruct_1.0.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bnstruct)
+* installing *source* package ‘DExMA’ ...
+** this is package ‘DExMA’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DExMA’ as ‘DExMA_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DExMA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUaWa9Z/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m27.953s
+user	1m16.643s
+sys	0m7.719s

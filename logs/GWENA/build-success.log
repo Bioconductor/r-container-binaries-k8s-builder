@@ -1,0 +1,48 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GWENA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GWENA'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GWENA_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 5076244 bytes (4.8 MB)
+==================================================
+downloaded 4.8 MB
+
+* installing *source* package ‘GWENA’ ...
+** this is package ‘GWENA’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+Warning: bad markup (extra space?) at compare_conditions.Rd:91:72
+Warning: bad markup (extra space?) at compare_conditions.Rd:96:77
+Warning: bad markup (extra space?) at compare_conditions.Rd:98:74
+Warning: bad markup (extra space?) at compare_conditions.Rd:100:69
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GWENA’ as ‘GWENA_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GWENA)
+
+The downloaded source packages are in
+	‘/tmp/RtmptHue9P/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m45.515s
+user	0m34.311s
+sys	0m5.452s

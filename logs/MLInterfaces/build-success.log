@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MLInterfaces'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MLInterfaces'
+also installing the dependencies ‘ada’, ‘party’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ada_2.0-5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/party_1.3-21.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MLInterfaces_1.92.0.tar.gz'
+* installing *binary* package ‘ada’ ...
+* package ‘ada’ successfully unpacked and SHA256 sums checked
+* ‘ada’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ada’ as ‘ada_2.0-5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ada)
+* installing *binary* package ‘party’ ...
+* package ‘party’ successfully unpacked and SHA256 sums checked
+* ‘party’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘party’ as ‘party_1.3-21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (party)
+* installing *source* package ‘MLInterfaces’ ...
+** this is package ‘MLInterfaces’ version ‘1.92.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MLInterfaces’ as ‘MLInterfaces_1.92.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MLInterfaces)
+
+The downloaded source packages are in
+	‘/tmp/RtmpszaaRf/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m38.498s
+user	0m31.783s
+sys	0m5.151s

@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DiscoRhythm'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DiscoRhythm'
+also installing the dependencies ‘qvcalc’, ‘relimp’, ‘gnm’, ‘MetaCycle’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qvcalc_1.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/relimp_1.0-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gnm_1.1-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MetaCycle_1.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DiscoRhythm_1.28.0.tar.gz'
+* installing *binary* package ‘qvcalc’ ...
+* package ‘qvcalc’ successfully unpacked and SHA256 sums checked
+* ‘qvcalc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qvcalc’ as ‘qvcalc_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qvcalc)
+* installing *binary* package ‘relimp’ ...
+* package ‘relimp’ successfully unpacked and SHA256 sums checked
+* ‘relimp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘relimp’ as ‘relimp_1.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (relimp)
+* installing *binary* package ‘gnm’ ...
+* package ‘gnm’ successfully unpacked and SHA256 sums checked
+* ‘gnm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gnm’ as ‘gnm_1.1-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gnm)
+* installing *binary* package ‘MetaCycle’ ...
+* package ‘MetaCycle’ successfully unpacked and SHA256 sums checked
+* ‘MetaCycle’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MetaCycle’ as ‘MetaCycle_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MetaCycle)
+* installing *source* package ‘DiscoRhythm’ ...
+** this is package ‘DiscoRhythm’ version ‘1.28.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DiscoRhythm’ as ‘DiscoRhythm_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiscoRhythm)
+
+The downloaded source packages are in
+	‘/tmp/RtmpKRoyVO/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m38.110s
+user	0m28.426s
+sys	0m5.828s
