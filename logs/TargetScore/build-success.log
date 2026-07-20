@@ -1,0 +1,85 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TargetScore'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TargetScore'
+also installing the dependencies ‘rentrez’, ‘TargetScoreData’, ‘GEOquery’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rentrez_1.2.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/TargetScoreData_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GEOquery_2.81.28.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TargetScore_1.51.0.tar.gz'
+* installing *binary* package ‘rentrez’ ...
+* package ‘rentrez’ successfully unpacked and SHA256 sums checked
+* ‘rentrez’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rentrez’ as ‘rentrez_1.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rentrez)
+* installing *source* package ‘TargetScoreData’ ...
+** this is package ‘TargetScoreData’ version ‘1.49.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TargetScoreData’ as ‘TargetScoreData_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TargetScoreData)
+* installing *source* package ‘TargetScore’ ...
+** this is package ‘TargetScore’ version ‘1.51.0’
+** package ‘TargetScore’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TargetScore’ as ‘TargetScore_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TargetScore)
+* installing *source* package ‘GEOquery’ ...
+** this is package ‘GEOquery’ version ‘2.81.28’
+** package ‘GEOquery’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GEOquery’ as ‘GEOquery_2.81.28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GEOquery)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp41CQ6v/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m19.201s
+user	0m47.487s
+sys	0m8.587s
