@@ -1,0 +1,123 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''EnhancedVolcano'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'EnhancedVolcano'
+also installing the dependencies ‘geneplotter’, ‘DEXSeq’, ‘ggrastr’, ‘pasilla’, ‘airway’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/geneplotter_1.91.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DEXSeq_1.59.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggrastr_1.0.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/pasilla_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/airway_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EnhancedVolcano_1.31.0.tar.gz'
+* installing *source* package ‘geneplotter’ ...
+** this is package ‘geneplotter’ version ‘1.91.0’
+** package ‘geneplotter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geneplotter’ as ‘geneplotter_1.91.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneplotter)
+* installing *binary* package ‘ggrastr’ ...
+* package ‘ggrastr’ successfully unpacked and SHA256 sums checked
+* ‘ggrastr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggrastr’ as ‘ggrastr_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrastr)
+* installing *source* package ‘airway’ ...
+** this is package ‘airway’ version ‘1.33.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘airway’ as ‘airway_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (airway)
+* installing *source* package ‘EnhancedVolcano’ ...
+** this is package ‘EnhancedVolcano’ version ‘1.31.0’
+** package ‘EnhancedVolcano’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnhancedVolcano’ as ‘EnhancedVolcano_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnhancedVolcano)
+* installing *source* package ‘DEXSeq’ ...
+** this is package ‘DEXSeq’ version ‘1.59.0’
+** package ‘DEXSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DEXSeq’ as ‘DEXSeq_1.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEXSeq)
+* installing *source* package ‘pasilla’ ...
+** this is package ‘pasilla’ version ‘1.41.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pasilla’ as ‘pasilla_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pasilla)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEaIOhY/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m51.583s
+user	1m33.104s
+sys	0m12.717s

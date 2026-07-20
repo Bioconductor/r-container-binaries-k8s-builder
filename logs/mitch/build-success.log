@@ -1,0 +1,159 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mitch'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mitch'
+also installing the dependencies ‘nor1mix’, ‘ggstats’, ‘statnet.common’, ‘splitstackshape’, ‘minfi’, ‘GGally’, ‘echarts4r’, ‘network’, ‘HGNChelper’, ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’, ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nor1mix_1.3-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggstats_0.13.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/statnet.common_4.13.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/splitstackshape_1.4.8.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/minfi_1.59.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GGally_2.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/echarts4r_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/network_1.20.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/HGNChelper_0.8.15.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylation450kanno.ilmn12.hg19_0.6.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mitch_1.25.0.tar.gz'
+* installing *binary* package ‘nor1mix’ ...
+* package ‘nor1mix’ successfully unpacked and SHA256 sums checked
+* ‘nor1mix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nor1mix’ as ‘nor1mix_1.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nor1mix)
+* installing *binary* package ‘ggstats’ ...
+* package ‘ggstats’ successfully unpacked and SHA256 sums checked
+* ‘ggstats’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggstats’ as ‘ggstats_0.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggstats)
+* installing *binary* package ‘statnet.common’ ...
+* package ‘statnet.common’ successfully unpacked and SHA256 sums checked
+* ‘statnet.common’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘statnet.common’ as ‘statnet.common_4.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statnet.common)
+* installing *binary* package ‘splitstackshape’ ...
+* package ‘splitstackshape’ successfully unpacked and SHA256 sums checked
+* ‘splitstackshape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘splitstackshape’ as ‘splitstackshape_1.4.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splitstackshape)
+* installing *binary* package ‘echarts4r’ ...
+* package ‘echarts4r’ successfully unpacked and SHA256 sums checked
+* ‘echarts4r’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘echarts4r’ as ‘echarts4r_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (echarts4r)
+* installing *source* package ‘minfi’ ...
+** this is package ‘minfi’ version ‘1.59.1’
+** package ‘minfi’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘bumphunter’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘rngtools’
+Execution halted
+ERROR: lazy loading failed for package ‘minfi’
+* removing ‘/tmp/library/minfi’
+* installing *binary* package ‘GGally’ ...
+* package ‘GGally’ successfully unpacked and SHA256 sums checked
+* ‘GGally’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GGally’ as ‘GGally_2.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GGally)
+* installing *binary* package ‘network’ ...
+* package ‘network’ successfully unpacked and SHA256 sums checked
+* ‘network’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘network’ as ‘network_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (network)
+* installing *binary* package ‘HGNChelper’ ...
+* package ‘HGNChelper’ successfully unpacked and SHA256 sums checked
+* ‘HGNChelper’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HGNChelper’ as ‘HGNChelper_0.8.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HGNChelper)
+* installing *source* package ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’ ...
+** this is package ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’ version ‘0.6.1’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+
+ *** caught segfault ***
+address 0x3930, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: loading failed
+* removing ‘/tmp/library/IlluminaHumanMethylation450kanno.ilmn12.hg19’
+* installing *source* package ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ ...
+** this is package ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ version ‘0.6.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19’ as ‘IlluminaHumanMethylationEPICanno.ilm10b4.hg19_0.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylationEPICanno.ilm10b4.hg19)
+* installing *source* package ‘mitch’ ...
+** this is package ‘mitch’ version ‘1.25.0’
+** package ‘mitch’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mitch’ as ‘mitch_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitch)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4RmgRN/downloaded_packages’
+Old packages: 'diffobj'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘minfi’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’ had non-zero exit status
+
+real	4m51.966s
+user	4m17.795s
+sys	0m20.286s

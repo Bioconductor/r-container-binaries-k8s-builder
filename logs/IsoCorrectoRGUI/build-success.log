@@ -1,0 +1,45 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''IsoCorrectoRGUI'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'IsoCorrectoRGUI'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/IsoCorrectoRGUI_1.29.0.tar.gz'
+Content type 'application/x-gzip' length 452491 bytes (441 KB)
+==================================================
+downloaded 441 KB
+
+* installing *source* package ‘IsoCorrectoRGUI’ ...
+** this is package ‘IsoCorrectoRGUI’ version ‘1.29.0’
+** package ‘IsoCorrectoRGUI’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IsoCorrectoRGUI’ as ‘IsoCorrectoRGUI_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IsoCorrectoRGUI)
+
+The downloaded source packages are in
+	‘/tmp/RtmpS5P9Of/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m12.741s
+user	0m7.138s
+sys	0m2.879s

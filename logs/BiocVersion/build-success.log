@@ -1,0 +1,38 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BiocVersion'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BiocVersion'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BiocVersion_3.24.0.tar.gz'
+Content type 'application/x-gzip' length 1103 bytes
+==================================================
+downloaded 1103 bytes
+
+* installing *source* package ‘BiocVersion’ ...
+** this is package ‘BiocVersion’ version ‘3.24.0’
+** package ‘BiocVersion’ successfully unpacked and MD5 sums checked
+** using staged installation
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BiocVersion’ as ‘BiocVersion_3.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocVersion)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTGsqj4/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m7.765s
+user	0m4.318s
+sys	0m1.997s
