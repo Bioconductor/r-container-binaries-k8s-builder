@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 280 (11%)
+- **Successfully Built:** 300 (12%)
 - **Failed:** 5 (0%)
-- **In Progress:** 121
-- **Not Started:** 1978
+- **In Progress:** 102
+- **Not Started:** 1977
 
-**Progress:** 11%
+**Progress:** 12%
 ```
-█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (280)
+## Successfully Built Packages (300)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,13 +44,12 @@
 | [BiocBuildReporter](https://bioconductor.org/packages/3.23/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBuildReporter) |
 | [BiocFileCache](https://bioconductor.org/packages/3.23/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocFileCache) |
 | [BiocMaintainerApp](https://bioconductor.org/packages/3.23/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocMaintainerApp) |
-| [BiocStyle](https://bioconductor.org/packages/3.23/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocStyle) |
+| [BiocParallel](https://bioconductor.org/packages/3.23/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocParallel) |
 
-*... and 230 more ...*
+*... and 250 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sitePath](https://bioconductor.org/packages/3.23/bioc/html/sitePath.html) | [log](logs/sitePath/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sitePath) |
 | [sizepower](https://bioconductor.org/packages/3.23/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.23/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/snm) |
 | [sparsenetgls](https://bioconductor.org/packages/3.23/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sparsenetgls) |
@@ -71,6 +70,7 @@
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
+| [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
@@ -86,16 +86,15 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (121)
+## In Progress (102)
 - ⏳ `ANCOMBC`
 - ⏳ `AlphaMissenseR`
 - ⏳ `BiocGenerics`
-- ⏳ `BiocParallel`
 - ⏳ `COMPASS`
 - ⏳ `Chicago`
 - ⏳ `EnMCB`
-- ⏳ `EnhancedVolcano`
 - ⏳ `GSCA`
+- ⏳ `GenProSeq`
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `Herper`
@@ -119,28 +118,29 @@
 - ⏳ `RProtoBufLib`
 - ⏳ `RRHO`
 - ⏳ `RSeqAn`
-- ⏳ `RankProd`
-- ⏳ `Rbowtie`
-- ⏳ `Rdisop`
-- ⏳ `Rhtslib`
-- ⏳ `SIMLR`
 - ⏳ `TaxSEA`
 - ⏳ `TreeAndLeaf`
 - ⏳ `XINA`
-- ⏳ `a4Reporting`
-- ⏳ `acde`
 - ⏳ `affxparser`
-- ⏳ `assorthead`
 - ⏳ `banocc`
 - ⏳ `basilisk`
 - ⏳ `basilisk.utils`
-- ⏳ `biocroxytest`
-- ⏳ `biocthis`
 - ⏳ `cellmig`
+- ⏳ `clstutils`
+- ⏳ `dks`
+- ⏳ `drawProteins`
+- ⏳ `easyreporting`
+- ⏳ `eds`
+- ⏳ `epivizrServer`
+- ⏳ `flowPlots`
+- ⏳ `fmrs`
+- ⏳ `frenchFISH`
+- ⏳ `globalSeq`
+- ⏳ `gpls`
 
-... and 71 more ...
+... and 52 more ...
 
-## Not Yet Started (1978)
+## Not Yet Started (1977)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -192,8 +192,8 @@
 - ⏸️ `BEclear`
 - ⏸️ `BLMA`
 
-... and 1928 more ...
+... and 1927 more ...
 
 ---
-*Last updated: 2026-07-20 19:32:27 UTC*
-*Packages with verified BBS status: 114*
+*Last updated: 2026-07-20 19:33:57 UTC*
+*Packages with verified BBS status: 116*
