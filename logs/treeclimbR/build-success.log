@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''treeclimbR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'treeclimbR'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/treeclimbR_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 694207 bytes (677 KB)
+==================================================
+downloaded 677 KB
+
+* installing *source* package ‘treeclimbR’ ...
+** this is package ‘treeclimbR’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘treeclimbR’ as ‘treeclimbR_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treeclimbR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpbFd7Um/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m54.682s
+user	0m39.830s
+sys	0m6.825s

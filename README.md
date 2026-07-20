@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1671 (70%)
-- **Failed:** 35 (1%)
-- **In Progress:** 110
-- **Not Started:** 568
+- **Successfully Built:** 1720 (72%)
+- **Failed:** 36 (1%)
+- **In Progress:** 98
+- **Not Started:** 530
 
-**Progress:** 71%
+**Progress:** 73%
 ```
-███████████████████████████████████░░░░░░░░░░░░░░░
+████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1671)
+## Successfully Built Packages (1720)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1621 more ...*
+*... and 1670 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (35)
+## Failed Packages (36)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -96,6 +96,7 @@
 | [SPONGE](https://bioconductor.org/packages/3.23/bioc/html/SPONGE.html) | [log](logs/SPONGE/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SPONGE) | Build failed with unknown error |
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
 | [SubCellBarCode](https://bioconductor.org/packages/3.23/bioc/html/SubCellBarCode.html) | [log](logs/SubCellBarCode/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SubCellBarCode) | Missing R dependency: ModelMetrics |
+| [TADCompare](https://bioconductor.org/packages/3.23/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [biotmle](https://bioconductor.org/packages/3.23/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Error: object ‘id’ is not exported by 'namespace:dplyr' |
@@ -116,23 +117,20 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.23/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (110)
-- ⏳ `BSgenome`
+## In Progress (98)
 - ⏳ `CARDspa`
+- ⏳ `CellBarcode`
+- ⏳ `CellMixS`
+- ⏳ `CelliD`
 - ⏳ `CoGAPS`
 - ⏳ `DMCHMM`
-- ⏳ `DOSE`
 - ⏳ `DeepTarget`
 - ⏳ `DropletUtils`
 - ⏳ `DspikeIn`
-- ⏳ `EBSEA`
-- ⏳ `EDIRquery`
 - ⏳ `EGSEA`
-- ⏳ `EWCE`
 - ⏳ `GOstats`
 - ⏳ `GeneBreak`
 - ⏳ `GenomicFeatures`
-- ⏳ `GenomicScores`
 - ⏳ `HiCParser`
 - ⏳ `HiCPotts`
 - ⏳ `HiContacts`
@@ -141,7 +139,6 @@
 - ⏳ `HoloFoodR`
 - ⏳ `IdeoViz`
 - ⏳ `KnowSeq`
-- ⏳ `LOBSTAHS`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `MAIT`
@@ -161,16 +158,20 @@
 - ⏳ `SEraster`
 - ⏳ `SMTrackR`
 - ⏳ `SPIAT`
-- ⏳ `SPsimSeq`
 - ⏳ `STADyUM`
 - ⏳ `SVP`
 - ⏳ `SWATH2stats`
 - ⏳ `SanityR`
 - ⏳ `SemDist`
+- ⏳ `SimFFPE`
+- ⏳ `SpatialArtifacts`
+- ⏳ `SpectralTAD`
+- ⏳ `SpliceImpactR`
+- ⏳ `TBSignatureProfiler`
 
-... and 60 more ...
+... and 48 more ...
 
-## Not Yet Started (568)
+## Not Yet Started (530)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -199,7 +200,6 @@
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
 - ⏸️ `CEMiTool`
@@ -212,18 +212,19 @@
 - ⏸️ `CSSQ`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
-- ⏸️ `CellBarcode`
-- ⏸️ `CellMixS`
-- ⏸️ `CelliD`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPComp`
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPanalyser`
+- ⏸️ `ChIPexoQual`
+- ⏸️ `ChIPpeakAnno`
+- ⏸️ `ChIPseeker`
+- ⏸️ `ChromSCape`
 
-... and 518 more ...
+... and 480 more ...
 
 ---
-*Last updated: 2026-07-20 21:08:51 UTC*
-*Packages with verified BBS status: 213*
+*Last updated: 2026-07-20 21:12:05 UTC*
+*Packages with verified BBS status: 214*

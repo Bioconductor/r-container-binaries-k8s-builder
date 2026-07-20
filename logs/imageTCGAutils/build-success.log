@@ -1,0 +1,170 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''imageTCGAutils'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'imageTCGAutils'
+also installing the dependencies ‘paws.analytics’, ‘paws.application.integration’, ‘paws.compute’, ‘paws.cost.management’, ‘paws.customer.engagement’, ‘paws.database’, ‘paws.developer.tools’, ‘paws.end.user.computing’, ‘paws.machine.learning’, ‘paws.management’, ‘paws.networking’, ‘paws.security.identity’, ‘imageFeatureTCGA’, ‘paws’, ‘sfdep’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.analytics_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.application.integration_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.compute_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.cost.management_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.customer.engagement_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.database_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.developer.tools_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.end.user.computing_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.machine.learning_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.management_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.networking_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws.security.identity_0.10.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/imageFeatureTCGA_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paws_0.10.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sfdep_0.2.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/imageTCGAutils_1.0.0.tar.gz'
+* installing *binary* package ‘paws.analytics’ ...
+* package ‘paws.analytics’ successfully unpacked and SHA256 sums checked
+* ‘paws.analytics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.analytics’ as ‘paws.analytics_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.analytics)
+* installing *binary* package ‘paws.application.integration’ ...
+* package ‘paws.application.integration’ successfully unpacked and SHA256 sums checked
+* ‘paws.application.integration’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.application.integration’ as ‘paws.application.integration_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.application.integration)
+* installing *binary* package ‘paws.compute’ ...
+* package ‘paws.compute’ successfully unpacked and SHA256 sums checked
+* ‘paws.compute’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.compute’ as ‘paws.compute_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.compute)
+* installing *binary* package ‘paws.cost.management’ ...
+* package ‘paws.cost.management’ successfully unpacked and SHA256 sums checked
+* ‘paws.cost.management’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.cost.management’ as ‘paws.cost.management_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.cost.management)
+* installing *binary* package ‘paws.customer.engagement’ ...
+* package ‘paws.customer.engagement’ successfully unpacked and SHA256 sums checked
+* ‘paws.customer.engagement’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.customer.engagement’ as ‘paws.customer.engagement_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.customer.engagement)
+* installing *binary* package ‘paws.database’ ...
+* package ‘paws.database’ successfully unpacked and SHA256 sums checked
+* ‘paws.database’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.database’ as ‘paws.database_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.database)
+* installing *binary* package ‘paws.developer.tools’ ...
+* package ‘paws.developer.tools’ successfully unpacked and SHA256 sums checked
+* ‘paws.developer.tools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.developer.tools’ as ‘paws.developer.tools_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.developer.tools)
+* installing *binary* package ‘paws.end.user.computing’ ...
+* package ‘paws.end.user.computing’ successfully unpacked and SHA256 sums checked
+* ‘paws.end.user.computing’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.end.user.computing’ as ‘paws.end.user.computing_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.end.user.computing)
+* installing *binary* package ‘paws.machine.learning’ ...
+* package ‘paws.machine.learning’ successfully unpacked and SHA256 sums checked
+* ‘paws.machine.learning’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.machine.learning’ as ‘paws.machine.learning_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.machine.learning)
+* installing *binary* package ‘paws.management’ ...
+* package ‘paws.management’ successfully unpacked and SHA256 sums checked
+* ‘paws.management’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.management’ as ‘paws.management_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.management)
+* installing *binary* package ‘paws.networking’ ...
+* package ‘paws.networking’ successfully unpacked and SHA256 sums checked
+* ‘paws.networking’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.networking’ as ‘paws.networking_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.networking)
+* installing *binary* package ‘paws.security.identity’ ...
+* package ‘paws.security.identity’ successfully unpacked and SHA256 sums checked
+* ‘paws.security.identity’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws.security.identity’ as ‘paws.security.identity_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws.security.identity)
+* installing *source* package ‘imageFeatureTCGA’ ...
+** this is package ‘imageFeatureTCGA’ version ‘1.0.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imageFeatureTCGA’ as ‘imageFeatureTCGA_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imageFeatureTCGA)
+* installing *binary* package ‘sfdep’ ...
+* package ‘sfdep’ successfully unpacked and SHA256 sums checked
+* ‘sfdep’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sfdep’ as ‘sfdep_0.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sfdep)
+* installing *source* package ‘imageTCGAutils’ ...
+** this is package ‘imageTCGAutils’ version ‘1.0.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘imageTCGAutils’ as ‘imageTCGAutils_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imageTCGAutils)
+* installing *binary* package ‘paws’ ...
+* package ‘paws’ successfully unpacked and SHA256 sums checked
+* ‘paws’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paws’ as ‘paws_0.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paws)
+
+The downloaded source packages are in
+	‘/tmp/RtmpkC5Hi7/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m21.223s
+user	0m59.290s
+sys	0m11.403s

@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''OTUbase'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'OTUbase'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/OTUbase_1.62.0.tar.gz'
+Content type 'application/x-gzip' length 183524 bytes (179 KB)
+==================================================
+downloaded 179 KB
+
+* installing *source* package ‘OTUbase’ ...
+** this is package ‘OTUbase’ version ‘1.62.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OTUbase’ as ‘OTUbase_1.62.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OTUbase)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPNajxa/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m52.168s
+user	0m33.528s
+sys	0m5.802s
