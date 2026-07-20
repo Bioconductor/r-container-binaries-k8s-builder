@@ -1,0 +1,33 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''partCNV'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'partCNV'
+Warning: dependency ‘depmixS4’ is not available
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/partCNV_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 4858504 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+ERROR: dependency ‘depmixS4’ is not available for package ‘partCNV’
+Perhaps try a variation of:
+install.packages('depmixS4')
+* removing ‘/tmp/library/partCNV’
+
+The downloaded source packages are in
+	‘/tmp/RtmpbPsMA9/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘partCNV’ had non-zero exit status
+
+real	0m15.836s
+user	0m7.433s
+sys	0m2.160s

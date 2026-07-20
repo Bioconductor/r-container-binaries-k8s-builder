@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 1551 (65%)
-- **Failed:** 28 (1%)
-- **In Progress:** 111
-- **Not Started:** 694
+- **Successfully Built:** 1609 (67%)
+- **Failed:** 30 (1%)
+- **In Progress:** 127
+- **Not Started:** 618
 
-**Progress:** 66%
+**Progress:** 68%
 ```
-█████████████████████████████████░░░░░░░░░░░░░░░░░
+██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1551)
+## Successfully Built Packages (1609)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1501 more ...*
+*... and 1559 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [universalmotif](https://bioconductor.org/packages/3.23/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
@@ -63,6 +62,7 @@
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 | [weitrix](https://bioconductor.org/packages/3.23/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weitrix) |
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
+| [wiggleplotr](https://bioconductor.org/packages/3.23/bioc/html/wiggleplotr.html) | [log](logs/wiggleplotr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wiggleplotr) |
 | [wpm](https://bioconductor.org/packages/3.23/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xCell2](https://bioconductor.org/packages/3.23/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xCell2) |
@@ -76,13 +76,14 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (28)
+## Failed Packages (30)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) | Compilation failed:  ‘BAGS’ |
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [CPSM](https://bioconductor.org/packages/3.23/bioc/html/CPSM.html) | [log](logs/CPSM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CPSM) | Missing R dependency: ModelMetrics |
+| [CrcBiomeScreen](https://bioconductor.org/packages/3.23/bioc/html/CrcBiomeScreen.html) | [log](logs/CrcBiomeScreen/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CrcBiomeScreen) | Missing R dependency: ModelMetrics |
 | [CytoGLMM](https://bioconductor.org/packages/3.23/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CytoGLMM) | Missing R dependency: recipes |
 | [HPiP](https://bioconductor.org/packages/3.23/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPiP) | Build failed with unknown error |
 | [IFAA](https://bioconductor.org/packages/3.23/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
@@ -101,6 +102,7 @@
 | [maPredictDSC](https://bioconductor.org/packages/3.23/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.23/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [partCNV](https://bioconductor.org/packages/3.23/bioc/html/partCNV.html) | [log](logs/partCNV/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/partCNV) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scAnnotatR](https://bioconductor.org/packages/3.23/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
@@ -109,62 +111,61 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.23/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (111)
-- ⏳ `AffiXcan`
+## In Progress (127)
+- ⏳ `ACE`
+- ⏳ `BSgenome`
 - ⏳ `CAMERA`
 - ⏳ `CARDspa`
+- ⏳ `CNEr`
+- ⏳ `CNVRanger`
+- ⏳ `CRISPRball`
 - ⏳ `CoGAPS`
-- ⏳ `CrcBiomeScreen`
-- ⏳ `CytoMDS`
+- ⏳ `DMCHMM`
 - ⏳ `DNEA`
 - ⏳ `DOSE`
 - ⏳ `DeepTarget`
 - ⏳ `DspikeIn`
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
-- ⏳ `EGAD`
+- ⏳ `EGSEA`
 - ⏳ `EWCE`
 - ⏳ `EnrichmentBrowser`
-- ⏳ `GENESIS`
-- ⏳ `GOexpress`
 - ⏳ `GOfuncR`
 - ⏳ `GOstats`
+- ⏳ `GeneBreak`
+- ⏳ `GenomicFeatures`
 - ⏳ `GenomicScores`
-- ⏳ `HIPPO`
 - ⏳ `HTSFilter`
-- ⏳ `HiCExperiment`
 - ⏳ `HiCParser`
+- ⏳ `HiCPotts`
 - ⏳ `HiCcompare`
+- ⏳ `HiTC`
 - ⏳ `HoloFoodR`
 - ⏳ `HybridExpress`
+- ⏳ `IdeoViz`
 - ⏳ `KnowSeq`
 - ⏳ `LRcell`
 - ⏳ `Lheuristic`
 - ⏳ `MBECS`
 - ⏳ `MSPrep`
 - ⏳ `MSnID`
-- ⏳ `MatrixQCvis`
-- ⏳ `MetaProViz`
-- ⏳ `MsDataHub`
+- ⏳ `PAST`
+- ⏳ `PDATK`
+- ⏳ `PMScanR`
 - ⏳ `POMA`
 - ⏳ `PROPS`
+- ⏳ `PharmacoGx`
 - ⏳ `Prostar`
 - ⏳ `RUCova`
 - ⏳ `Rcpi`
+- ⏳ `SCANVIS`
 - ⏳ `SEraster`
-- ⏳ `SIM`
-- ⏳ `SPsimSeq`
-- ⏳ `SVP`
-- ⏳ `SWATH2stats`
-- ⏳ `SemDist`
-- ⏳ `SeqSQC`
-- ⏳ `ShortRead`
-- ⏳ `SiPSiC`
+- ⏳ `SMTrackR`
+- ⏳ `SPIAT`
 
-... and 61 more ...
+... and 77 more ...
 
-## Not Yet Started (694)
-- ⏸️ `ACE`
+## Not Yet Started (618)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASICS`
@@ -179,9 +180,7 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
-- ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
@@ -191,7 +190,6 @@
 - ⏸️ `BatchSVG`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
-- ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioTIP`
 - ⏸️ `CAFE`
@@ -201,22 +199,26 @@
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
 - ⏸️ `CEMiTool`
-- ⏸️ `CNEr`
-- ⏸️ `CNVRanger`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CODEX`
-- ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
 - ⏸️ `CellBarcode`
+- ⏸️ `CellMixS`
+- ⏸️ `CelliD`
+- ⏸️ `CexoR`
+- ⏸️ `ChAMP`
+- ⏸️ `ChIPComp`
+- ⏸️ `ChIPQC`
+- ⏸️ `ChIPXpress`
 
-... and 644 more ...
+... and 568 more ...
 
 ---
-*Last updated: 2026-07-20 21:00:06 UTC*
-*Packages with verified BBS status: 202*
+*Last updated: 2026-07-20 21:03:57 UTC*
+*Packages with verified BBS status: 205*

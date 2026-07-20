@@ -1,0 +1,54 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SeqSQC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SeqSQC'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SeqSQC_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 4759373 bytes (4.5 MB)
+==================================================
+downloaded 4.5 MB
+
+* installing *source* package ‘SeqSQC’ ...
+** this is package ‘SeqSQC’ version ‘1.34.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘S4Vectors::rename’ by ‘plotly::rename’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘IRanges::slice’ by ‘plotly::slice’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘ggplot2::last_plot’ by ‘plotly::last_plot’ when loading ‘SeqSQC’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘S4Vectors::rename’ by ‘plotly::rename’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘IRanges::slice’ by ‘plotly::slice’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘ggplot2::last_plot’ by ‘plotly::last_plot’ when loading ‘SeqSQC’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘S4Vectors::rename’ by ‘plotly::rename’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘IRanges::slice’ by ‘plotly::slice’ when loading ‘SeqSQC’
+Warning: replacing previous import ‘ggplot2::last_plot’ by ‘plotly::last_plot’ when loading ‘SeqSQC’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SeqSQC’ as ‘SeqSQC_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SeqSQC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpE4cMaV/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m41.324s
+user	0m24.649s
+sys	0m5.069s
