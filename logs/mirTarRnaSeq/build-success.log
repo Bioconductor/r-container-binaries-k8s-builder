@@ -1,0 +1,149 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mirTarRnaSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mirTarRnaSeq'
+also installing the dependencies ‘gower’, ‘groupdata2’, ‘MuMIn’, ‘parameters’, ‘rearrr’, ‘recipes’, ‘ppcor’, ‘gRbase’, ‘cvms’, ‘MetBrewer’, ‘tnet’, ‘SPONGE’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gower_1.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/groupdata2_2.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MuMIn_1.48.19.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parameters_0.29.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rearrr_0.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/recipes_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ppcor_1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gRbase_2.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cvms_2.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MetBrewer_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tnet_3.0.16.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SPONGE_1.34.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mirTarRnaSeq_1.20.0.tar.gz'
+* installing *binary* package ‘gower’ ...
+* package ‘gower’ successfully unpacked and SHA256 sums checked
+* ‘gower’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gower’ as ‘gower_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gower)
+* installing *binary* package ‘MuMIn’ ...
+* package ‘MuMIn’ successfully unpacked and SHA256 sums checked
+* ‘MuMIn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MuMIn’ as ‘MuMIn_1.48.19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MuMIn)
+* installing *binary* package ‘parameters’ ...
+* package ‘parameters’ successfully unpacked and SHA256 sums checked
+* ‘parameters’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parameters’ as ‘parameters_0.29.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parameters)
+* installing *binary* package ‘rearrr’ ...
+* package ‘rearrr’ successfully unpacked and SHA256 sums checked
+* ‘rearrr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rearrr’ as ‘rearrr_0.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rearrr)
+* installing *binary* package ‘ppcor’ ...
+* package ‘ppcor’ successfully unpacked and SHA256 sums checked
+* ‘ppcor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ppcor’ as ‘ppcor_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ppcor)
+* installing *binary* package ‘gRbase’ ...
+* package ‘gRbase’ successfully unpacked and SHA256 sums checked
+* ‘gRbase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gRbase’ as ‘gRbase_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gRbase)
+* installing *binary* package ‘MetBrewer’ ...
+* package ‘MetBrewer’ successfully unpacked and SHA256 sums checked
+* ‘MetBrewer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MetBrewer’ as ‘MetBrewer_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MetBrewer)
+* installing *binary* package ‘tnet’ ...
+* package ‘tnet’ successfully unpacked and SHA256 sums checked
+* ‘tnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tnet’ as ‘tnet_3.0.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tnet)
+* installing *source* package ‘mirTarRnaSeq’ ...
+** this is package ‘mirTarRnaSeq’ version ‘1.20.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mirTarRnaSeq’ as ‘mirTarRnaSeq_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mirTarRnaSeq)
+* installing *binary* package ‘groupdata2’ ...
+* package ‘groupdata2’ successfully unpacked and SHA256 sums checked
+* ‘groupdata2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘groupdata2’ as ‘groupdata2_2.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (groupdata2)
+* installing *binary* package ‘recipes’ ...
+* package ‘recipes’ successfully unpacked and SHA256 sums checked
+* ‘recipes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘recipes’ as ‘recipes_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (recipes)
+* installing *binary* package ‘cvms’ ...
+* package ‘cvms’ successfully unpacked and SHA256 sums checked
+* ‘cvms’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cvms’ as ‘cvms_2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cvms)
+* installing *source* package ‘SPONGE’ ...
+** this is package ‘SPONGE’ version ‘1.34.1’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ModelMetrics’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘SPONGE’
+* removing ‘/tmp/library/SPONGE’
+
+The downloaded source packages are in
+	‘/tmp/RtmpiowhOS/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘SPONGE’ had non-zero exit status
+
+real	1m4.119s
+user	0m52.149s
+sys	0m7.780s
