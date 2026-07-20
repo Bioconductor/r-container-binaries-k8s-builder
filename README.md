@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 373 (15%)
-- **Failed:** 5 (0%)
-- **In Progress:** 76
-- **Not Started:** 1930
+- **Successfully Built:** 407 (17%)
+- **Failed:** 6 (0%)
+- **In Progress:** 52
+- **Not Started:** 1919
 
-**Progress:** 15%
+**Progress:** 17%
 ```
-███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (373)
+## Successfully Built Packages (407)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
+| [AlpsNMR](https://bioconductor.org/packages/3.23/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
@@ -44,9 +45,8 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
-| [BiocAzul](https://bioconductor.org/packages/3.23/bioc/html/BiocAzul.html) | [log](logs/BiocAzul/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocAzul) |
 
-*... and 323 more ...*
+*... and 357 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (5)
+## Failed Packages (6)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,14 +84,13 @@
 | [ISAnalytics](https://bioconductor.org/packages/3.23/bioc/html/ISAnalytics.html) | [log](logs/ISAnalytics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ISAnalytics) | Build failed with unknown error |
 | [LedPred](https://bioconductor.org/packages/3.23/bioc/html/LedPred.html) | [log](logs/LedPred/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/LedPred) | Missing R dependency: proxy |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (76)
-- ⏳ `AlpsNMR`
+## In Progress (52)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `CytoGLMM`
-- ⏳ `DEsingle`
 - ⏳ `EnMCB`
 - ⏳ `HVP`
 - ⏳ `Harman`
@@ -99,48 +98,50 @@
 - ⏳ `HilbertVis`
 - ⏳ `Informeasure`
 - ⏳ `IsoCorrectoR`
-- ⏳ `M3C`
 - ⏳ `MACSQuantifyR`
-- ⏳ `MassArray`
-- ⏳ `OSAT`
-- ⏳ `OmnipathR`
-- ⏳ `OpenStats`
-- ⏳ `PTMods`
-- ⏳ `QUBIC`
-- ⏳ `RDRToolbox`
 - ⏳ `REBET`
-- ⏳ `RImmPort`
-- ⏳ `RLMM`
 - ⏳ `RProtoBufLib`
-- ⏳ `RRHO`
-- ⏳ `RSeqAn`
 - ⏳ `SCFA`
+- ⏳ `SpaceMarkers`
 - ⏳ `SuperCellCyto`
+- ⏳ `TIN`
 - ⏳ `TreeAndLeaf`
 - ⏳ `XINA`
 - ⏳ `basilisk`
 - ⏳ `basilisk.utils`
+- ⏳ `csdR`
 - ⏳ `decoupleR`
-- ⏳ `dks`
-- ⏳ `drawProteins`
-- ⏳ `easyreporting`
-- ⏳ `eds`
 - ⏳ `epistasisGA`
-- ⏳ `epivizrServer`
 - ⏳ `faers`
-- ⏳ `fgsea`
-- ⏳ `flowPlots`
-- ⏳ `fmrs`
-- ⏳ `frenchFISH`
 - ⏳ `globalSeq`
 - ⏳ `gpls`
-- ⏳ `graper`
 - ⏳ `hierGWAS`
 - ⏳ `hierinf`
+- ⏳ `iASeq`
+- ⏳ `iBBiG`
+- ⏳ `iCARE`
+- ⏳ `iClusterPlus`
+- ⏳ `ibh`
+- ⏳ `interacCircos`
+- ⏳ `iterativeBMAsurv`
+- ⏳ `les`
+- ⏳ `levi`
+- ⏳ `lfa`
+- ⏳ `limma`
+- ⏳ `logicFS`
+- ⏳ `lpsymphony`
+- ⏳ `mirTarRnaSeq`
+- ⏳ `mitch`
+- ⏳ `netboost`
+- ⏳ `proteinProfiles`
+- ⏳ `rgoslin`
+- ⏳ `rmelting`
+- ⏳ `rnaseqcomp`
+- ⏳ `rsemmed`
 
-... and 26 more ...
+... and 2 more ...
 
-## Not Yet Started (1930)
+## Not Yet Started (1919)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -192,8 +193,8 @@
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 
-... and 1880 more ...
+... and 1869 more ...
 
 ---
-*Last updated: 2026-07-20 19:39:00 UTC*
-*Packages with verified BBS status: 127*
+*Last updated: 2026-07-20 19:40:09 UTC*
+*Packages with verified BBS status: 129*
