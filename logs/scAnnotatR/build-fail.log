@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scAnnotatR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scAnnotatR'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/scAnnotatR_1.19.0.tar.gz'
+Content type 'application/x-gzip' length 577633 bytes (564 KB)
+==================================================
+downloaded 564 KB
+
+* installing *source* package ‘scAnnotatR’ ...
+** this is package ‘scAnnotatR’ version ‘1.19.0’
+** package ‘scAnnotatR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ModelMetrics’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘scAnnotatR’
+* removing ‘/tmp/library/scAnnotatR’
+
+The downloaded source packages are in
+	‘/tmp/RtmpxX1tP5/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘scAnnotatR’ had non-zero exit status
+
+real	0m30.840s
+user	0m18.517s
+sys	0m3.391s

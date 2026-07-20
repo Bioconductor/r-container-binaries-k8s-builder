@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BatchSVG'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BatchSVG'
+also installing the dependencies ‘spatialLIBD’, ‘WeberDivechaLCdata’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/spatialLIBD_1.25.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/WeberDivechaLCdata_1.15.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BatchSVG_1.5.3.tar.gz'
+* installing *source* package ‘spatialLIBD’ ...
+** this is package ‘spatialLIBD’ version ‘1.25.1’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatialLIBD’ as ‘spatialLIBD_1.25.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatialLIBD)
+* installing *source* package ‘WeberDivechaLCdata’ ...
+** this is package ‘WeberDivechaLCdata’ version ‘1.15.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘WeberDivechaLCdata’ as ‘WeberDivechaLCdata_1.15.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WeberDivechaLCdata)
+* installing *source* package ‘BatchSVG’ ...
+** this is package ‘BatchSVG’ version ‘1.5.3’
+** package ‘BatchSVG’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BatchSVG’ as ‘BatchSVG_1.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BatchSVG)
+
+The downloaded source packages are in
+	‘/tmp/RtmpgJYw32/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m48.151s
+user	1m34.052s
+sys	0m11.066s

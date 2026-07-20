@@ -1,0 +1,87 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Banksy'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Banksy'
+also installing the dependencies ‘sccore’, ‘leidenAlg’, ‘RcppHungarian’, ‘spatialLIBD’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sccore_1.0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/leidenAlg_1.1.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppHungarian_0.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/spatialLIBD_1.25.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Banksy_1.9.1.tar.gz'
+* installing *binary* package ‘sccore’ ...
+* package ‘sccore’ successfully unpacked and SHA256 sums checked
+* ‘sccore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sccore’ as ‘sccore_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sccore)
+* installing *binary* package ‘RcppHungarian’ ...
+* package ‘RcppHungarian’ successfully unpacked and SHA256 sums checked
+* ‘RcppHungarian’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppHungarian’ as ‘RcppHungarian_0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppHungarian)
+* installing *source* package ‘spatialLIBD’ ...
+** this is package ‘spatialLIBD’ version ‘1.25.1’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spatialLIBD’ as ‘spatialLIBD_1.25.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spatialLIBD)
+* installing *binary* package ‘leidenAlg’ ...
+* package ‘leidenAlg’ successfully unpacked and SHA256 sums checked
+* ‘leidenAlg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leidenAlg’ as ‘leidenAlg_1.1.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leidenAlg)
+* installing *source* package ‘Banksy’ ...
+** this is package ‘Banksy’ version ‘1.9.1’
+** package ‘Banksy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Banksy’ as ‘Banksy_1.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Banksy)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWXiTDl/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m29.208s
+user	1m12.461s
+sys	0m9.408s

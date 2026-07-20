@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''poem'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'poem'
+also installing the dependencies ‘clevr’, ‘elsa’, ‘fclust’, ‘mclustcomp’, ‘scico’, ‘ggnetwork’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clevr_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/elsa_1.1-28.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fclust_2.1.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mclustcomp_0.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scico_1.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggnetwork_0.5.14.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/poem_1.5.0.tar.gz'
+* installing *binary* package ‘clevr’ ...
+* package ‘clevr’ successfully unpacked and SHA256 sums checked
+* ‘clevr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clevr’ as ‘clevr_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clevr)
+* installing *binary* package ‘elsa’ ...
+* package ‘elsa’ successfully unpacked and SHA256 sums checked
+* ‘elsa’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘elsa’ as ‘elsa_1.1-28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (elsa)
+* installing *binary* package ‘fclust’ ...
+* package ‘fclust’ successfully unpacked and SHA256 sums checked
+* ‘fclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fclust’ as ‘fclust_2.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fclust)
+* installing *binary* package ‘mclustcomp’ ...
+* package ‘mclustcomp’ successfully unpacked and SHA256 sums checked
+* ‘mclustcomp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mclustcomp’ as ‘mclustcomp_0.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mclustcomp)
+* installing *binary* package ‘scico’ ...
+* package ‘scico’ successfully unpacked and SHA256 sums checked
+* ‘scico’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scico’ as ‘scico_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scico)
+* installing *binary* package ‘ggnetwork’ ...
+* package ‘ggnetwork’ successfully unpacked and SHA256 sums checked
+* ‘ggnetwork’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggnetwork’ as ‘ggnetwork_0.5.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggnetwork)
+* installing *source* package ‘poem’ ...
+** this is package ‘poem’ version ‘1.5.0’
+** package ‘poem’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘poem’ as ‘poem_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (poem)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOJrTZQ/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m2.022s
+user	0m52.076s
+sys	0m6.625s
