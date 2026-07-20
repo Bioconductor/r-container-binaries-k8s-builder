@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2248 (94%)
-- **Failed:** 54 (2%)
-- **In Progress:** 7
-- **Not Started:** 75
+- **Successfully Built:** 2252 (94%)
+- **Failed:** 55 (2%)
+- **In Progress:** 34
+- **Not Started:** 43
 
 **Progress:** 96%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2248)
+## Successfully Built Packages (2252)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2198 more ...*
+*... and 2202 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (54)
+## Failed Packages (55)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -101,6 +101,7 @@
 | [SPONGE](https://bioconductor.org/packages/3.23/bioc/html/SPONGE.html) | [log](logs/SPONGE/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SPONGE) | Build failed with unknown error |
 | [SVMDO](https://bioconductor.org/packages/3.23/bioc/html/SVMDO.html) | [log](logs/SVMDO/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SVMDO) | Missing R dependency: ModelMetrics |
 | [SharedObject](https://bioconductor.org/packages/3.23/bioc/html/SharedObject.html) | [log](logs/SharedObject/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SharedObject) | Compilation failed:  ‘SharedObject’ |
+| [SingleMoleculeFootprinting](https://bioconductor.org/packages/3.23/bioc/html/SingleMoleculeFootprinting.html) | [log](logs/SingleMoleculeFootprinting/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SingleMoleculeFootprinting) | Missing dependency: qs<br>[CRAN Package 'qs'](https://cran.r-project.org/web/packages/qs/index.html) archived on 2026-01-17 as issues were not corrected despite reminders. |
 | [SpectralTAD](https://bioconductor.org/packages/3.23/bioc/html/SpectralTAD.html) | [log](logs/SpectralTAD/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpectralTAD) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [SubCellBarCode](https://bioconductor.org/packages/3.23/bioc/html/SubCellBarCode.html) | [log](logs/SubCellBarCode/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SubCellBarCode) | Missing R dependency: ModelMetrics |
 | [TADCompare](https://bioconductor.org/packages/3.23/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
@@ -135,19 +136,44 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (7)
+## In Progress (34)
+- ⏳ `ASpli`
+- ⏳ `AllelicImbalance`
+- ⏳ `DMRcate`
+- ⏳ `DuplexDiscovereR`
+- ⏳ `ELMER`
+- ⏳ `GeneStructureTools`
+- ⏳ `GenomicInteractions`
+- ⏳ `MEAL`
 - ⏳ `MungeSumstats`
-- ⏳ `SingleMoleculeFootprinting`
+- ⏳ `OGRE`
+- ⏳ `Pviz`
+- ⏳ `RNAAgeCalc`
+- ⏳ `RNAmodR`
+- ⏳ `RnaSeqSampleSize`
+- ⏳ `SPLINTER`
+- ⏳ `TVTB`
+- ⏳ `VariantFiltering`
 - ⏳ `appreci8R`
-- ⏳ `chevreulPlot`
-- ⏳ `ggbio`
-- ⏳ `karyoploteR`
-- ⏳ `pcaExplorer`
+- ⏳ `biomvRCNS`
+- ⏳ `chimeraviz`
+- ⏳ `cicero`
+- ⏳ `comapr`
+- ⏳ `crisprViz`
+- ⏳ `epimutacions`
+- ⏳ `mCSEA`
+- ⏳ `maser`
+- ⏳ `methylPipe`
+- ⏳ `primirTSS`
+- ⏳ `psichomics`
+- ⏳ `regutools`
+- ⏳ `srnadiff`
+- ⏳ `tadar`
+- ⏳ `trackViewer`
+- ⏳ `uncoverappLib`
 
-## Not Yet Started (75)
-- ⏸️ `ASpli`
+## Not Yet Started (43)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `AllelicImbalance`
 - ⏸️ `BOBaFIT`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -157,47 +183,40 @@
 - ⏸️ `ChAMP`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `CyTOFpower`
-- ⏸️ `DMRcate`
 - ⏸️ `Damsel`
-- ⏸️ `DuplexDiscovereR`
-- ⏸️ `ELMER`
 - ⏸️ `GARS`
-- ⏸️ `GeneStructureTools`
-- ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `MEAL`
 - ⏸️ `NADfinder`
 - ⏸️ `NewWave`
-- ⏸️ `OGRE`
-- ⏸️ `Pviz`
 - ⏸️ `R3CPET`
-- ⏸️ `RNAAgeCalc`
-- ⏸️ `RNAmodR`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `ReportingTools`
-- ⏸️ `RnaSeqSampleSize`
-- ⏸️ `SPLINTER`
 - ⏸️ `SomaticSignatures`
-- ⏸️ `TVTB`
-- ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `annoLinker`
 - ⏸️ `bandle`
-- ⏸️ `biomvRCNS`
 - ⏸️ `cageminer`
 - ⏸️ `chevreulShiny`
-- ⏸️ `chimeraviz`
-- ⏸️ `cicero`
-- ⏸️ `comapr`
 - ⏸️ `compEpiTools`
-
-... and 25 more ...
+- ⏸️ `crisprShiny`
+- ⏸️ `crisprVerse`
+- ⏸️ `derfinderPlot`
+- ⏸️ `fourSynergy`
+- ⏸️ `geomeTriD`
+- ⏸️ `intansv`
+- ⏸️ `miRspongeR`
+- ⏸️ `msgbsR`
+- ⏸️ `multicrispr`
+- ⏸️ `pRolocGUI`
+- ⏸️ `saseR`
+- ⏸️ `scafari`
+- ⏸️ `scruff`
 
 ---
-*Last updated: 2026-07-20 21:52:25 UTC*
-*Packages with verified BBS status: 243*
+*Last updated: 2026-07-20 21:54:11 UTC*
+*Packages with verified BBS status: 244*
