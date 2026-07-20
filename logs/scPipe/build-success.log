@@ -1,0 +1,125 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scPipe'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scPipe'
+also installing the dependencies ‘bigsparser’, ‘bigreadr’, ‘bigutilsr’, ‘runonce’, ‘bigsnpr’, ‘locStra’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bigsparser_0.7.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bigreadr_0.2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bigutilsr_0.3.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/runonce_0.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bigsnpr_1.12.21.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/locStra_1.9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scPipe_2.12.0.tar.gz'
+* installing *binary* package ‘bigsparser’ ...
+* package ‘bigsparser’ successfully unpacked and SHA256 sums checked
+* ‘bigsparser’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bigsparser’ as ‘bigsparser_0.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bigsparser)
+* installing *binary* package ‘bigreadr’ ...
+* package ‘bigreadr’ successfully unpacked and SHA256 sums checked
+* ‘bigreadr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bigreadr’ as ‘bigreadr_0.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bigreadr)
+* installing *binary* package ‘bigutilsr’ ...
+* package ‘bigutilsr’ successfully unpacked and SHA256 sums checked
+* ‘bigutilsr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bigutilsr’ as ‘bigutilsr_0.3.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bigutilsr)
+* installing *binary* package ‘runonce’ ...
+* package ‘runonce’ successfully unpacked and SHA256 sums checked
+* ‘runonce’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘runonce’ as ‘runonce_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (runonce)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘scPipe’ ...
+** this is package ‘scPipe’ version ‘2.12.0’
+** using staged installation
+** libs
+specified C++11
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c FragmentThread.cpp -o FragmentThread.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c FragmentUtils.cpp -o FragmentUtils.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Gene.cpp -o Gene.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Interval.cpp -o Interval.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ResizeArray.cpp -o ResizeArray.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ThreadOutputFile.cpp -o ThreadOutputFile.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c Trie.cpp -o Trie.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bam.c -o bam.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c cellbarcode.cpp -o cellbarcode.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c check_barcode_reads.cpp -o check_barcode_reads.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c detect_barcode.cpp -o detect_barcode.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c parsebam.cpp -o parsebam.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c parsecount.cpp -o parsecount.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c qc_per_bc_file_helper.cpp -o qc_per_bc_file_helper.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c rcpp_scPipe_func.cpp -o rcpp_scPipe_func.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sc_atac_create_fragments.cpp -o sc_atac_create_fragments.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-cpp.cpp -o test-cpp.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-example.cpp -o test-example.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-fragmentThread.cpp -o test-fragmentThread.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-resizearray.cpp -o test-resizearray.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-runner.cpp -o test-runner.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-str_utils.cpp -o test-str_utils.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c test-trie_matching.cpp -o test-trie_matching.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c transcriptmapping.cpp -o transcriptmapping.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c trimbarcode.cpp -o trimbarcode.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tsscreatebins.cpp -o tsscreatebins.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhtslib/include' -I'/usr/local/lib/R/site-library/testthat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o scPipe.so FragmentThread.o FragmentUtils.o Gene.o Interval.o RcppExports.o ResizeArray.o ThreadOutputFile.o Trie.o bam.o cellbarcode.o check_barcode_reads.o detect_barcode.o parsebam.o parsecount.o qc_per_bc_file_helper.o rcpp_scPipe_func.o sc_atac_create_fragments.o test-cpp.o test-example.o test-fragmentThread.o test-resizearray.o test-runner.o test-str_utils.o test-trie_matching.o transcriptmapping.o trimbarcode.o tsscreatebins.o utils.o /mnt/library/Rhtslib/usrlib/libhts.a -lcurl -lbz2 -llzma -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-scPipe/00new/scPipe/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scPipe’ as ‘scPipe_2.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scPipe)
+* installing *binary* package ‘bigsnpr’ ...
+* package ‘bigsnpr’ successfully unpacked and SHA256 sums checked
+* ‘bigsnpr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bigsnpr’ as ‘bigsnpr_1.12.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bigsnpr)
+* installing *binary* package ‘locStra’ ...
+* package ‘locStra’ successfully unpacked and SHA256 sums checked
+* ‘locStra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘locStra’ as ‘locStra_1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (locStra)
+
+The downloaded source packages are in
+	‘/tmp/RtmpoDr6J7/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m51.731s
+user	2m14.863s
+sys	0m21.778s

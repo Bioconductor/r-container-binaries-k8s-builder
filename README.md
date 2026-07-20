@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2207 (92%)
-- **Failed:** 53 (2%)
-- **In Progress:** 35
-- **Not Started:** 89
+- **Successfully Built:** 2218 (93%)
+- **Failed:** 54 (2%)
+- **In Progress:** 28
+- **Not Started:** 84
 
-**Progress:** 94%
+**Progress:** 95%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2207)
+## Successfully Built Packages (2218)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2157 more ...*
+*... and 2168 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vsclust](https://bioconductor.org/packages/3.23/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.23/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.23/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vulcan) |
@@ -70,13 +69,14 @@
 | [xenLite](https://bioconductor.org/packages/3.23/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
+| [yarn](https://bioconductor.org/packages/3.23/bioc/html/yarn.html) | [log](logs/yarn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yarn) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 | [zenith](https://bioconductor.org/packages/3.23/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zenith) |
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (53)
+## Failed Packages (54)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -116,6 +116,7 @@
 | [m6Aboost](https://bioconductor.org/packages/3.23/bioc/html/m6Aboost.html) | [log](logs/m6Aboost/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/m6Aboost) | Missing R dependency: ModelMetrics |
 | [maPredictDSC](https://bioconductor.org/packages/3.23/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.23/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
+| [metaseqR2](https://bioconductor.org/packages/3.23/bioc/html/metaseqR2.html) | [log](logs/metaseqR2/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metaseqR2) | Missing dependency: log4r<br>[CRAN Package 'log4r'](https://cran.r-project.org/web/packages/log4r/index.html) archived on 2026-07-14 as issues were not corrected in time despite reminder. |
 | [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [nearBynding](https://bioconductor.org/packages/3.23/bioc/html/nearBynding.html) | [log](logs/nearBynding/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/nearBynding) | Error: object ‘filter’ is not exported by 'namespace:plyranges' |
@@ -134,44 +135,37 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (35)
-- ⏳ `Guitar`
+## In Progress (28)
+- ⏳ `MEAT`
 - ⏳ `MungeSumstats`
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `SpaceTrooper`
-- ⏳ `Uniquorn`
 - ⏳ `VariantTools`
-- ⏳ `alabaster`
 - ⏳ `appreci8R`
-- ⏳ `arrayMvout`
 - ⏳ `atSNP`
+- ⏳ `bigmelon`
 - ⏳ `biovizBase`
 - ⏳ `borealis`
-- ⏳ `broadSeq`
 - ⏳ `canceR`
 - ⏳ `carnation`
-- ⏳ `cbaf`
 - ⏳ `chevreulProcess`
 - ⏳ `deconvR`
 - ⏳ `derfinder`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `epiregulon`
-- ⏳ `magpie`
-- ⏳ `metaseqR2`
-- ⏳ `octad`
+- ⏳ `methylGSA`
 - ⏳ `pcaExplorer`
 - ⏳ `scCB2`
-- ⏳ `scPipe`
-- ⏳ `scTreeViz`
 - ⏳ `scider`
+- ⏳ `shinyDSP`
+- ⏳ `skewr`
 - ⏳ `svaNUMT`
 - ⏳ `svaRetro`
 - ⏳ `visiumStitched`
-- ⏳ `yarn`
 
-## Not Yet Started (89)
+## Not Yet Started (84)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -197,7 +191,6 @@
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `MEAL`
-- ⏸️ `MEAT`
 - ⏸️ `NADfinder`
 - ⏸️ `NewWave`
 - ⏸️ `OGRE`
@@ -219,12 +212,13 @@
 - ⏸️ `affycoretools`
 - ⏸️ `annoLinker`
 - ⏸️ `bandle`
-- ⏸️ `bigmelon`
 - ⏸️ `biomvRCNS`
 - ⏸️ `cageminer`
+- ⏸️ `chevreulPlot`
+- ⏸️ `chevreulShiny`
 
-... and 39 more ...
+... and 34 more ...
 
 ---
-*Last updated: 2026-07-20 21:47:04 UTC*
-*Packages with verified BBS status: 241*
+*Last updated: 2026-07-20 21:48:01 UTC*
+*Packages with verified BBS status: 243*
