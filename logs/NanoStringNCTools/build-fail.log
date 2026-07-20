@@ -1,0 +1,40 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''NanoStringNCTools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'NanoStringNCTools'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/NanoStringNCTools_1.21.0.tar.gz'
+Content type 'application/x-gzip' length 5429939 bytes (5.2 MB)
+==================================================
+downloaded 5.2 MB
+
+* installing *source* package ‘NanoStringNCTools’ ...
+** this is package ‘NanoStringNCTools’ version ‘1.21.0’
+** package ‘NanoStringNCTools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in conformMethod(signature, mnames, fnames, f, fdef, definition) : 
+  in method for ‘transform’ with signature ‘x="NanoStringRccSet"’: formal arguments (x = "NanoStringRccSet", ... = "NanoStringRccSet") omitted in the method definition cannot be in the signature
+Error: unable to load R code in package ‘NanoStringNCTools’
+Execution halted
+ERROR: lazy loading failed for package ‘NanoStringNCTools’
+* removing ‘/tmp/library/NanoStringNCTools’
+
+The downloaded source packages are in
+	‘/tmp/RtmpMYv4Iz/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘NanoStringNCTools’ had non-zero exit status
+
+real	0m19.537s
+user	0m10.562s
+sys	0m3.203s
