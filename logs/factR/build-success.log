@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''factR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'factR'
+also installing the dependencies ‘rmdformats’, ‘signalHsmm’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rmdformats_1.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/signalHsmm_1.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/factR_1.15.0.tar.gz'
+* installing *binary* package ‘rmdformats’ ...
+* package ‘rmdformats’ successfully unpacked and SHA256 sums checked
+* ‘rmdformats’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rmdformats’ as ‘rmdformats_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rmdformats)
+* installing *binary* package ‘signalHsmm’ ...
+* package ‘signalHsmm’ successfully unpacked and SHA256 sums checked
+* ‘signalHsmm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘signalHsmm’ as ‘signalHsmm_1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (signalHsmm)
+* installing *source* package ‘factR’ ...
+** this is package ‘factR’ version ‘1.15.0’
+** package ‘factR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘factR’ as ‘factR_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (factR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQtLgop/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m26.099s
+user	0m15.791s
+sys	0m4.230s
