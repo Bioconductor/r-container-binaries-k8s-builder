@@ -8,8 +8,8 @@
 - **Total Packages:** 2346
 - **Successfully Built:** 2287 (97%)
 - **Failed:** 40 (1%)
-- **In Progress:** 0
-- **Not Started:** 19
+- **In Progress:** 5
+- **Not Started:** 14
 
 **Progress:** 99%
 ```
@@ -121,27 +121,29 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## Not Yet Started (19)
-- ⏸️ `ChAMP`
+## In Progress (5)
+- ⏳ `ChAMP`
+- ⏳ `MEAT`
+- ⏳ `bigmelon`
+- ⏳ `dnaEPICO`
+- ⏳ `skewr`
+
+## Not Yet Started (14)
 - ⏸️ `CyTOFpower`
 - ⏸️ `GARS`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
-- ⏸️ `MEAT`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
 - ⏸️ `bandle`
-- ⏸️ `bigmelon`
 - ⏸️ `cytoviewer`
-- ⏸️ `dnaEPICO`
 - ⏸️ `imcRtools`
 - ⏸️ `lisaClust`
 - ⏸️ `miRspongeR`
 - ⏸️ `pRolocGUI`
 - ⏸️ `simpleSeg`
-- ⏸️ `skewr`
 - ⏸️ `spicyR`
 
 ---
-*Last updated: 2026-07-20 22:32:53 UTC*
+*Last updated: 2026-07-20 22:34:07 UTC*
 *Packages with verified BBS status: 253*
