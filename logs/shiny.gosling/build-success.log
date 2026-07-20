@@ -1,0 +1,200 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''shiny.gosling'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'shiny.gosling'
+also installing the dependencies ‘UCSC.utils’, ‘logger’, ‘xmlparsedata’, ‘BSgenome’, ‘GenomicFeatures’, ‘GenomeInfoDb’, ‘ensembldb’, ‘OrganismDbi’, ‘shiny.react’, ‘lintr’, ‘VariantAnnotation’, ‘StructuralVariantAnnotation’, ‘biovizBase’, ‘ggbio’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/UCSC.utils_1.8.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/logger_0.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xmlparsedata_1.0.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BSgenome_1.80.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomicFeatures_1.64.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GenomeInfoDb_1.48.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ensembldb_2.36.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/OrganismDbi_1.54.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shiny.react_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lintr_3.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/VariantAnnotation_1.58.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/StructuralVariantAnnotation_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biovizBase_1.60.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ggbio_1.60.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/shiny.gosling_1.8.0.tar.gz'
+* installing *source* package ‘UCSC.utils’ ...
+** this is package ‘UCSC.utils’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘UCSC.utils’ as ‘UCSC.utils_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UCSC.utils)
+* installing *binary* package ‘logger’ ...
+* package ‘logger’ successfully unpacked and SHA256 sums checked
+* ‘logger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘logger’ as ‘logger_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logger)
+* installing *binary* package ‘xmlparsedata’ ...
+* package ‘xmlparsedata’ successfully unpacked and SHA256 sums checked
+* ‘xmlparsedata’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xmlparsedata’ as ‘xmlparsedata_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xmlparsedata)
+* installing *source* package ‘BSgenome’ ...
+** this is package ‘BSgenome’ version ‘1.80.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x6470, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘BSgenome’
+* removing ‘/tmp/library/BSgenome’
+* installing *source* package ‘GenomicFeatures’ ...
+** this is package ‘GenomicFeatures’ version ‘1.64.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicFeatures.c -o R_init_GenomicFeatures.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transcriptLocs2refLocs.c -o transcriptLocs2refLocs.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicFeatures.so IRanges_stubs.o R_init_GenomicFeatures.o S4Vectors_stubs.o transcriptLocs2refLocs.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GenomicFeatures/00new/GenomicFeatures/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+
+ *** caught segfault ***
+address 0x1f160, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: loading failed
+* removing ‘/tmp/library/GenomicFeatures’
+* installing *source* package ‘GenomeInfoDb’ ...
+** this is package ‘GenomeInfoDb’ version ‘1.48.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+
+ *** caught segfault ***
+address 0x81a0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: loading failed
+* removing ‘/tmp/library/GenomeInfoDb’
+ERROR: dependency ‘GenomicFeatures’ is not available for package ‘OrganismDbi’
+Perhaps try a variation of:
+install.packages('GenomicFeatures')
+* removing ‘/tmp/library/OrganismDbi’
+* installing *binary* package ‘shiny.react’ ...
+* package ‘shiny.react’ successfully unpacked and SHA256 sums checked
+* ‘shiny.react’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shiny.react’ as ‘shiny.react_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shiny.react)
+* installing *binary* package ‘lintr’ ...
+* package ‘lintr’ successfully unpacked and SHA256 sums checked
+* ‘lintr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lintr’ as ‘lintr_3.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lintr)
+ERROR: dependency ‘GenomicFeatures’ is not available for package ‘VariantAnnotation’
+Perhaps try a variation of:
+install.packages('GenomicFeatures')
+* removing ‘/tmp/library/VariantAnnotation’
+ERROR: dependencies ‘GenomicFeatures’, ‘GenomeInfoDb’ are not available for package ‘ensembldb’
+Perhaps try a variation of:
+install.packages(c('GenomicFeatures', 'GenomeInfoDb'))
+* removing ‘/tmp/library/ensembldb’
+ERROR: dependencies ‘VariantAnnotation’, ‘GenomicFeatures’, ‘GenomeInfoDb’ are not available for package ‘StructuralVariantAnnotation’
+Perhaps try a variation of:
+install.packages(c('VariantAnnotation', 'GenomicFeatures', 'GenomeInfoDb'))
+* removing ‘/tmp/library/StructuralVariantAnnotation’
+* installing *source* package ‘shiny.gosling’ ...
+** this is package ‘shiny.gosling’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shiny.gosling’ as ‘shiny.gosling_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shiny.gosling)
+ERROR: dependencies ‘GenomeInfoDb’, ‘GenomicFeatures’, ‘VariantAnnotation’, ‘ensembldb’ are not available for package ‘biovizBase’
+Perhaps try a variation of:
+install.packages(c('GenomeInfoDb', 'GenomicFeatures', 'VariantAnnotation', 'ensembldb'))
+* removing ‘/tmp/library/biovizBase’
+ERROR: dependencies ‘biovizBase’, ‘GenomeInfoDb’, ‘VariantAnnotation’, ‘GenomicFeatures’, ‘OrganismDbi’, ‘ensembldb’ are not available for package ‘ggbio’
+Perhaps try a variation of:
+install.packages(c('biovizBase', 'GenomeInfoDb', 'VariantAnnotation', 'GenomicFeatures', 'OrganismDbi', 'ensembldb'))
+* removing ‘/tmp/library/ggbio’
+
+The downloaded source packages are in
+	‘/tmp/RtmpIX2Q4p/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘BSgenome’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘GenomicFeatures’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘GenomeInfoDb’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘OrganismDbi’ had non-zero exit status
+5: In install.packages(...) :
+  installation of package ‘VariantAnnotation’ had non-zero exit status
+6: In install.packages(...) :
+  installation of package ‘ensembldb’ had non-zero exit status
+7: In install.packages(...) :
+  installation of package ‘StructuralVariantAnnotation’ had non-zero exit status
+8: In install.packages(...) :
+  installation of package ‘biovizBase’ had non-zero exit status
+9: In install.packages(...) :
+  installation of package ‘ggbio’ had non-zero exit status
+
+real	1m38.149s
+user	0m59.506s
+sys	0m11.287s

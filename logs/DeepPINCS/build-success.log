@@ -1,0 +1,106 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DeepPINCS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DeepPINCS'
+also installing the dependencies ‘rcdklibs’, ‘fingerprint’, ‘itertools’, ‘CatEncoders’, ‘matlab’, ‘rcdk’, ‘webchem’, ‘PRROC’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rcdklibs_2.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fingerprint_3.5.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/itertools_0.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/CatEncoders_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/matlab_1.0.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rcdk_3.8.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/webchem_1.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/PRROC_1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DeepPINCS_1.20.0.tar.gz'
+* installing *binary* package ‘rcdklibs’ ...
+* package ‘rcdklibs’ successfully unpacked and SHA256 sums checked
+* ‘rcdklibs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rcdklibs’ as ‘rcdklibs_2.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rcdklibs)
+* installing *binary* package ‘fingerprint’ ...
+* package ‘fingerprint’ successfully unpacked and SHA256 sums checked
+* ‘fingerprint’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fingerprint’ as ‘fingerprint_3.5.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fingerprint)
+* installing *binary* package ‘itertools’ ...
+* package ‘itertools’ successfully unpacked and SHA256 sums checked
+* ‘itertools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘itertools’ as ‘itertools_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (itertools)
+* installing *binary* package ‘CatEncoders’ ...
+* package ‘CatEncoders’ successfully unpacked and SHA256 sums checked
+* ‘CatEncoders’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CatEncoders’ as ‘CatEncoders_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CatEncoders)
+* installing *binary* package ‘matlab’ ...
+* package ‘matlab’ successfully unpacked and SHA256 sums checked
+* ‘matlab’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘matlab’ as ‘matlab_1.0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (matlab)
+* installing *binary* package ‘webchem’ ...
+* package ‘webchem’ successfully unpacked and SHA256 sums checked
+* ‘webchem’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘webchem’ as ‘webchem_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (webchem)
+* installing *binary* package ‘PRROC’ ...
+* package ‘PRROC’ successfully unpacked and SHA256 sums checked
+* ‘PRROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PRROC’ as ‘PRROC_1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PRROC)
+* installing *binary* package ‘rcdk’ ...
+* package ‘rcdk’ successfully unpacked and SHA256 sums checked
+* ‘rcdk’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rcdk’ as ‘rcdk_3.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rcdk)
+* installing *source* package ‘DeepPINCS’ ...
+** this is package ‘DeepPINCS’ version ‘1.20.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DeepPINCS’ as ‘DeepPINCS_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DeepPINCS)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzIrsq5/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m32.641s
+user	0m19.334s
+sys	0m5.255s
