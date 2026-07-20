@@ -1,0 +1,171 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Statial'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Statial'
+also installing the dependencies ‘svgPanZoom’, ‘cytomapper’, ‘coxme’, ‘scam’, ‘simpleSeg’, ‘ClassifyR’, ‘spicyR’, ‘ggsurvfit’, ‘lisaClust’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/svgPanZoom_0.3.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/cytomapper_1.25.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/coxme_2.2-22.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scam_1.2-22.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/simpleSeg_1.15.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ClassifyR_3.17.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/spicyR_1.25.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggsurvfit_1.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/lisaClust_1.21.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Statial_1.15.0.tar.gz'
+* installing *binary* package ‘svgPanZoom’ ...
+* package ‘svgPanZoom’ successfully unpacked and SHA256 sums checked
+* ‘svgPanZoom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘svgPanZoom’ as ‘svgPanZoom_0.3.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (svgPanZoom)
+* installing *binary* package ‘coxme’ ...
+* package ‘coxme’ successfully unpacked and SHA256 sums checked
+* ‘coxme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘coxme’ as ‘coxme_2.2-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coxme)
+* installing *binary* package ‘scam’ ...
+* package ‘scam’ successfully unpacked and SHA256 sums checked
+* ‘scam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scam’ as ‘scam_1.2-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scam)
+* installing *source* package ‘ClassifyR’ ...
+** this is package ‘ClassifyR’ version ‘3.17.0’
+** package ‘ClassifyR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c coxformatrices.cpp -o coxformatrices.o
+coxformatrices.cpp: In function ‘void chsolve2(double**, int, double*)’:
+coxformatrices.cpp:528:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  528 |     register int i,j;
+      |                  ^
+coxformatrices.cpp:528:20: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  528 |     register int i,j;
+      |                    ^
+coxformatrices.cpp:529:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  529 |     register double temp;
+      |                     ^~~~
+coxformatrices.cpp: In function ‘void chinv2(double**, int)’:
+coxformatrices.cpp:569:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  569 |     register double temp;
+      |                     ^~~~
+coxformatrices.cpp:570:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                  ^
+coxformatrices.cpp:570:20: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                    ^
+coxformatrices.cpp:570:22: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                      ^
+coxformatrices.cpp: In function ‘double** dmatrix(double*, int, int)’:
+coxformatrices.cpp:656:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  656 |     register int i;
+      |                  ^
+coxformatrices.cpp:657:23: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  657 |     register double **pointer;
+      |                       ^~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ClassifyR.so coxformatrices.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ClassifyR/00new/ClassifyR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘ROCplot’ with signature ‘"ClassifyResult"’: no definition for class “ClassifyResult”
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ClassifyR’ as ‘ClassifyR_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ClassifyR)
+* installing *binary* package ‘ggsurvfit’ ...
+* package ‘ggsurvfit’ successfully unpacked and SHA256 sums checked
+* ‘ggsurvfit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsurvfit’ as ‘ggsurvfit_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsurvfit)
+* installing *source* package ‘Statial’ ...
+** this is package ‘Statial’ version ‘1.15.0’
+** package ‘Statial’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Statial’ as ‘Statial_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Statial)
+* installing *source* package ‘cytomapper’ ...
+** this is package ‘cytomapper’ version ‘1.25.0’
+** package ‘cytomapper’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found
+Error: unable to load R code in package ‘cytomapper’
+Execution halted
+ERROR: lazy loading failed for package ‘cytomapper’
+* removing ‘/tmp/library/cytomapper’
+ERROR: dependency ‘cytomapper’ is not available for package ‘simpleSeg’
+Perhaps try a variation of:
+install.packages('cytomapper')
+* removing ‘/tmp/library/simpleSeg’
+ERROR: dependency ‘simpleSeg’ is not available for package ‘spicyR’
+Perhaps try a variation of:
+install.packages('simpleSeg')
+* removing ‘/tmp/library/spicyR’
+ERROR: dependencies ‘spicyR’, ‘simpleSeg’ are not available for package ‘lisaClust’
+Perhaps try a variation of:
+install.packages(c('spicyR', 'simpleSeg'))
+* removing ‘/tmp/library/lisaClust’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpusf7X2/downloaded_packages’
+Old packages: 'diffobj'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘cytomapper’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘simpleSeg’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘spicyR’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘lisaClust’ had non-zero exit status
+
+real	1m26.904s
+user	1m14.993s
+sys	0m10.856s

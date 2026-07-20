@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''notameStats'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'notameStats'
+also installing the dependencies ‘MUVR2’, ‘PERMANOVA’, ‘PK’, ‘rmcorr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MUVR2_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/PERMANOVA_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/PK_1.3-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rmcorr_0.7.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/notameStats_1.3.0.tar.gz'
+* installing *binary* package ‘MUVR2’ ...
+* package ‘MUVR2’ successfully unpacked and SHA256 sums checked
+* ‘MUVR2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MUVR2’ as ‘MUVR2_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MUVR2)
+* installing *binary* package ‘PERMANOVA’ ...
+* package ‘PERMANOVA’ successfully unpacked and SHA256 sums checked
+* ‘PERMANOVA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PERMANOVA’ as ‘PERMANOVA_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PERMANOVA)
+* installing *binary* package ‘PK’ ...
+* package ‘PK’ successfully unpacked and SHA256 sums checked
+* ‘PK’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PK’ as ‘PK_1.3-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PK)
+* installing *binary* package ‘rmcorr’ ...
+* package ‘rmcorr’ successfully unpacked and SHA256 sums checked
+* ‘rmcorr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rmcorr’ as ‘rmcorr_0.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rmcorr)
+* installing *source* package ‘notameStats’ ...
+** this is package ‘notameStats’ version ‘1.3.0’
+** package ‘notameStats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘notameStats’ as ‘notameStats_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (notameStats)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdDM2tD/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m40.191s
+user	0m28.699s
+sys	0m4.892s

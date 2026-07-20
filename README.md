@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1331 (56%)
-- **Failed:** 16 (0%)
-- **In Progress:** 201
-- **Not Started:** 798
+- **Successfully Built:** 1384 (58%)
+- **Failed:** 17 (0%)
+- **In Progress:** 185
+- **Not Started:** 760
 
-**Progress:** 57%
+**Progress:** 59%
 ```
-████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1331)
+## Successfully Built Packages (1384)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1281 more ...*
+*... and 1334 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (16)
+## Failed Packages (17)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -91,15 +91,21 @@
 | [SubCellBarCode](https://bioconductor.org/packages/3.24/bioc/html/SubCellBarCode.html) | [log](logs/SubCellBarCode/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SubCellBarCode) | Missing R dependency: ModelMetrics |
 | [TADCompare](https://bioconductor.org/packages/3.24/bioc/html/TADCompare.html) | [log](logs/TADCompare/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/TADCompare) | Missing dependency: PRIMME<br>[CRAN Package 'PRIMME'](https://cran.r-project.org/web/packages/PRIMME/index.html) archived on 2026-06-07 as email to the maintainer is undeliverable. |
 | [biotmle](https://bioconductor.org/packages/3.24/bioc/html/biotmle.html) | [log](logs/biotmle/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biotmle) | Missing dependency: superheat<br>[CRAN Package 'superheat'](https://cran.r-project.org/web/packages/superheat/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
+| [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [metabCombiner](https://bioconductor.org/packages/3.24/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
 | [scAnnotatR](https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
 | [scGPS](https://bioconductor.org/packages/3.24/bioc/html/scGPS.html) | [log](logs/scGPS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scGPS) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (201)
+## In Progress (185)
+- ⏳ `BASiCS`
 - ⏳ `BUMHMM`
 - ⏳ `BUScorrect`
+- ⏳ `BaalChIP`
+- ⏳ `BamScale`
+- ⏳ `BasicSTARRseq`
+- ⏳ `BayesSpace`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
 - ⏳ `CNVPanelizer`
@@ -109,16 +115,15 @@
 - ⏳ `CellMixS`
 - ⏳ `CellTrails`
 - ⏳ `CoGAPS`
+- ⏳ `Coralysis`
 - ⏳ `CytoPipeline`
 - ⏳ `DAssemble`
 - ⏳ `DMRScan`
 - ⏳ `DelayedTensor`
+- ⏳ `Dino`
 - ⏳ `DropletUtils`
 - ⏳ `DspikeIn`
-- ⏳ `Dune`
 - ⏳ `EBSEA`
-- ⏳ `EnrichedHeatmap`
-- ⏳ `ExperimentHub`
 - ⏳ `ExperimentSubset`
 - ⏳ `GOfan`
 - ⏳ `GSEABase`
@@ -128,30 +133,26 @@
 - ⏳ `GloScope`
 - ⏳ `GraphExperiment`
 - ⏳ `HIPPO`
-- ⏳ `HoloFoodR`
 - ⏳ `HybridExpress`
 - ⏳ `IFAA`
-- ⏳ `Lheuristic`
-- ⏳ `LimROTS`
 - ⏳ `MAI`
 - ⏳ `MAST`
 - ⏳ `MLSeq`
-- ⏳ `MOMA`
+- ⏳ `MSnbase`
 - ⏳ `MetMashR`
 - ⏳ `MultiDataSet`
 - ⏳ `MultiRNAflow`
 - ⏳ `NetActivity`
 - ⏳ `PREDA`
 - ⏳ `PathoStat`
-- ⏳ `PinPath`
 - ⏳ `ProteoMM`
 - ⏳ `QDNAseq`
 - ⏳ `RNAshapeQC`
 - ⏳ `RUCova`
 
-... and 151 more ...
+... and 135 more ...
 
-## Not Yet Started (798)
+## Not Yet Started (760)
 - ⏸️ `ACE`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -167,7 +168,6 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
@@ -176,14 +176,10 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `BamScale`
 - ⏸️ `Basic4Cseq`
-- ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
-- ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
@@ -191,7 +187,6 @@
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioCor`
 - ⏸️ `BioNERO`
-- ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
@@ -202,9 +197,15 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
+- ⏸️ `CNEr`
+- ⏸️ `CNTools`
+- ⏸️ `CNVfilteR`
+- ⏸️ `CNVrd2`
+- ⏸️ `COCOA`
+- ⏸️ `CODEX`
 
-... and 748 more ...
+... and 710 more ...
 
 ---
-*Last updated: 2026-07-20 20:51:09 UTC*
-*Packages with verified BBS status: 200*
+*Last updated: 2026-07-20 20:54:32 UTC*
+*Packages with verified BBS status: 201*
