@@ -8,8 +8,8 @@
 - **Total Packages:** 2346
 - **Successfully Built:** 500 (21%)
 - **Failed:** 5 (0%)
-- **In Progress:** 3
-- **Not Started:** 1838
+- **In Progress:** 4
+- **Not Started:** 1837
 
 **Progress:** 21%
 ```
@@ -86,12 +86,13 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (3)
+## In Progress (4)
 - ⏳ `BiocGenerics`
 - ⏳ `Harman`
 - ⏳ `cytolib`
+- ⏳ `rhdf5`
 
-## Not Yet Started (1838)
+## Not Yet Started (1837)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -143,8 +144,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1788 more ...
+... and 1787 more ...
 
 ---
-*Last updated: 2026-07-20 19:54:00 UTC*
+*Last updated: 2026-07-20 19:54:38 UTC*
 *Packages with verified BBS status: 152*
