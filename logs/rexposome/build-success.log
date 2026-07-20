@@ -1,0 +1,50 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rexposome'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rexposome'
+also installing the dependency ‘lsr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lsr_1.0.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/rexposome_1.35.0.tar.gz'
+* installing *binary* package ‘lsr’ ...
+* package ‘lsr’ successfully unpacked and SHA256 sums checked
+* ‘lsr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lsr’ as ‘lsr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lsr)
+* installing *source* package ‘rexposome’ ...
+** this is package ‘rexposome’ version ‘1.35.0’
+** package ‘rexposome’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rexposome’ as ‘rexposome_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rexposome)
+
+The downloaded source packages are in
+	‘/tmp/RtmptgFiun/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m30.277s
+user	0m24.189s
+sys	0m4.295s

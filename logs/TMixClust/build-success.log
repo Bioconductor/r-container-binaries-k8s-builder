@@ -1,0 +1,50 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TMixClust'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TMixClust'
+also installing the dependency ‘flexclust’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flexclust_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TMixClust_1.35.0.tar.gz'
+* installing *binary* package ‘flexclust’ ...
+* package ‘flexclust’ successfully unpacked and SHA256 sums checked
+* ‘flexclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flexclust’ as ‘flexclust_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexclust)
+* installing *source* package ‘TMixClust’ ...
+** this is package ‘TMixClust’ version ‘1.35.0’
+** package ‘TMixClust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TMixClust’ as ‘TMixClust_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TMixClust)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmPUzpk/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m16.649s
+user	0m9.427s
+sys	0m3.352s

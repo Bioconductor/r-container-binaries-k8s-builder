@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ComplexHeatmap'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ComplexHeatmap'
+also installing the dependencies ‘dendsort’, ‘EnrichedHeatmap’, ‘grImport’, ‘grImport2’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dendsort_0.3.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EnrichedHeatmap_1.43.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/grImport_0.9-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/grImport2_0.3-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ComplexHeatmap_2.29.0.tar.gz'
+* installing *binary* package ‘dendsort’ ...
+* package ‘dendsort’ successfully unpacked and SHA256 sums checked
+* ‘dendsort’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dendsort’ as ‘dendsort_0.3.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dendsort)
+* installing *binary* package ‘grImport’ ...
+* package ‘grImport’ successfully unpacked and SHA256 sums checked
+* ‘grImport’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘grImport’ as ‘grImport_0.9-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (grImport)
+* installing *binary* package ‘grImport2’ ...
+* package ‘grImport2’ successfully unpacked and SHA256 sums checked
+* ‘grImport2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘grImport2’ as ‘grImport2_0.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (grImport2)
+* installing *source* package ‘ComplexHeatmap’ ...
+** this is package ‘ComplexHeatmap’ version ‘2.29.0’
+** package ‘ComplexHeatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ComplexHeatmap’ as ‘ComplexHeatmap_2.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ComplexHeatmap)
+* installing *source* package ‘EnrichedHeatmap’ ...
+** this is package ‘EnrichedHeatmap’ version ‘1.43.0’
+** package ‘EnrichedHeatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dist_by_closeness.cpp -o dist_by_closeness.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o EnrichedHeatmap.so RcppExports.o dist_by_closeness.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-EnrichedHeatmap/00new/EnrichedHeatmap/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnrichedHeatmap’ as ‘EnrichedHeatmap_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnrichedHeatmap)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFOtYhC/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m46.141s
+user	0m35.876s
+sys	0m6.238s

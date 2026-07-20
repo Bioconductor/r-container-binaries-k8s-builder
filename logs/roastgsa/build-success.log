@@ -1,0 +1,214 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''roastgsa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'roastgsa'
+also installing the dependencies ‘KEGGandMetacoreDzPathwaysGEO’, ‘KEGGdzPathwaysGEO’, ‘KEGGgraph’, ‘SPIA’, ‘graphite’, ‘pathview’, ‘safe’, ‘GSEABenchmarkeR’, ‘EnrichmentBrowser’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/KEGGandMetacoreDzPathwaysGEO_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/KEGGdzPathwaysGEO_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/KEGGgraph_1.73.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SPIA_2.65.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/graphite_1.59.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/pathview_1.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/safe_3.53.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GSEABenchmarkeR_1.33.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EnrichmentBrowser_2.43.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/roastgsa_1.11.0.tar.gz'
+* installing *source* package ‘KEGGandMetacoreDzPathwaysGEO’ ...
+** this is package ‘KEGGandMetacoreDzPathwaysGEO’ version ‘1.33.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘KEGGandMetacoreDzPathwaysGEO’ as ‘KEGGandMetacoreDzPathwaysGEO_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGandMetacoreDzPathwaysGEO)
+* installing *source* package ‘KEGGdzPathwaysGEO’ ...
+** this is package ‘KEGGdzPathwaysGEO’ version ‘1.51.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘KEGGdzPathwaysGEO’ as ‘KEGGdzPathwaysGEO_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGdzPathwaysGEO)
+* installing *source* package ‘KEGGgraph’ ...
+** this is package ‘KEGGgraph’ version ‘1.73.0’
+** package ‘KEGGgraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘KEGGgraph’ as ‘KEGGgraph_1.73.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGgraph)
+* installing *source* package ‘graphite’ ...
+** this is package ‘graphite’ version ‘1.59.0’
+** package ‘graphite’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘graphite’ as ‘graphite_1.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graphite)
+* installing *source* package ‘safe’ ...
+** this is package ‘safe’ version ‘3.53.1’
+** package ‘safe’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘safe’ as ‘safe_3.53.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (safe)
+* installing *source* package ‘roastgsa’ ...
+** this is package ‘roastgsa’ version ‘1.11.0’
+** package ‘roastgsa’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘roastgsa’ as ‘roastgsa_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (roastgsa)
+* installing *source* package ‘SPIA’ ...
+** this is package ‘SPIA’ version ‘2.65.0’
+** package ‘SPIA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SPIA’ as ‘SPIA_2.65.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SPIA)
+* installing *source* package ‘pathview’ ...
+** this is package ‘pathview’ version ‘1.53.0’
+** package ‘pathview’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pathview’ as ‘pathview_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pathview)
+* installing *source* package ‘EnrichmentBrowser’ ...
+** this is package ‘EnrichmentBrowser’ version ‘2.43.0’
+** package ‘EnrichmentBrowser’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnrichmentBrowser’ as ‘EnrichmentBrowser_2.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnrichmentBrowser)
+* installing *source* package ‘GSEABenchmarkeR’ ...
+** this is package ‘GSEABenchmarkeR’ version ‘1.33.1’
+** package ‘GSEABenchmarkeR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSEABenchmarkeR’ as ‘GSEABenchmarkeR_1.33.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEABenchmarkeR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpeEavG5/downloaded_packages’
+Old packages: 'diffobj'
+
+real	2m37.208s
+user	2m15.488s
+sys	0m21.790s

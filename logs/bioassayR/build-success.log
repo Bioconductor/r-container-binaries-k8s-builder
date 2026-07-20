@@ -1,0 +1,45 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''bioassayR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'bioassayR'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/bioassayR_1.51.0.tar.gz'
+Content type 'application/x-gzip' length 1608773 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+* installing *source* package ‘bioassayR’ ...
+** this is package ‘bioassayR’ version ‘1.51.0’
+** package ‘bioassayR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘organism’ in package ‘bioassayR’
+Creating a new generic function for ‘organism<-’ in package ‘bioassayR’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bioassayR’ as ‘bioassayR_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bioassayR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSlXrr2/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m28.911s
+user	0m14.717s
+sys	0m3.173s

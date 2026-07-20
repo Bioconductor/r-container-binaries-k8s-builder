@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AffyRNADegradation'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AffyRNADegradation'
+also installing the dependencies ‘AmpAffyExample’, ‘hgu133acdf’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/AmpAffyExample_1.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/hgu133acdf_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AffyRNADegradation_1.59.0.tar.gz'
+* installing *source* package ‘AmpAffyExample’ ...
+** this is package ‘AmpAffyExample’ version ‘1.53.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AmpAffyExample’ as ‘AmpAffyExample_1.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AmpAffyExample)
+* installing *source* package ‘hgu133acdf’ ...
+** this is package ‘hgu133acdf’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hgu133acdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hgu133acdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hgu133acdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hgu133acdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hgu133acdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hgu133acdf’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hgu133acdf’ as ‘hgu133acdf_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133acdf)
+* installing *source* package ‘AffyRNADegradation’ ...
+** this is package ‘AffyRNADegradation’ version ‘1.59.0’
+** package ‘AffyRNADegradation’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AffyRNADegradation’ as ‘AffyRNADegradation_1.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AffyRNADegradation)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0wH0Kd/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m29.733s
+user	0m18.242s
+sys	0m4.689s

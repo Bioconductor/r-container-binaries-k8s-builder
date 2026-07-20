@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''islify'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'islify'
+also installing the dependencies ‘ijtiff’, ‘strex’, ‘autothresholdr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ijtiff_3.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/strex_2.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/autothresholdr_1.4.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/islify_1.5.0.tar.gz'
+* installing *binary* package ‘strex’ ...
+* package ‘strex’ successfully unpacked and SHA256 sums checked
+* ‘strex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘strex’ as ‘strex_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (strex)
+* installing *binary* package ‘ijtiff’ ...
+* package ‘ijtiff’ successfully unpacked and SHA256 sums checked
+* ‘ijtiff’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ijtiff’ as ‘ijtiff_3.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ijtiff)
+* installing *binary* package ‘autothresholdr’ ...
+* package ‘autothresholdr’ successfully unpacked and SHA256 sums checked
+* ‘autothresholdr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘autothresholdr’ as ‘autothresholdr_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (autothresholdr)
+* installing *source* package ‘islify’ ...
+** this is package ‘islify’ version ‘1.5.0’
+** package ‘islify’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+trying URL 'https://downloads.openmicroscopy.org/bio-formats/7.3.0/artifacts/bioformats_package.jar'
+Content type 'application/java-archive' length 44926502 bytes (42.8 MB)
+==================================================
+downloaded 42.8 MB
+
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘islify’ as ‘islify_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (islify)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp3Ee8xa/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m41.657s
+user	0m16.151s
+sys	0m4.824s
