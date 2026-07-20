@@ -1,0 +1,77 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''adverSCarial'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'adverSCarial'
+also installing the dependencies ‘TENxPBMCData’, ‘CHETAH’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/TENxPBMCData_1.30.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CHETAH_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/adverSCarial_1.10.0.tar.gz'
+* installing *source* package ‘TENxPBMCData’ ...
+** this is package ‘TENxPBMCData’ version ‘1.30.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TENxPBMCData’ as ‘TENxPBMCData_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TENxPBMCData)
+* installing *source* package ‘CHETAH’ ...
+** this is package ‘CHETAH’ version ‘1.28.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CHETAH’ as ‘CHETAH_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CHETAH)
+* installing *source* package ‘adverSCarial’ ...
+** this is package ‘adverSCarial’ version ‘1.10.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘adverSCarial’ as ‘adverSCarial_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (adverSCarial)
+
+The downloaded source packages are in
+	‘/tmp/RtmpzBwl5U/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	1m16.036s
+user	0m56.249s
+sys	0m8.567s
