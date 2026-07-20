@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 771 (32%)
+- **Successfully Built:** 794 (33%)
 - **Failed:** 14 (0%)
-- **In Progress:** 6
-- **Not Started:** 1593
+- **In Progress:** 11
+- **Not Started:** 1565
 
-**Progress:** 32%
+**Progress:** 33%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (771)
+## Successfully Built Packages (794)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 721 more ...*
+*... and 744 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,15 +95,20 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (6)
+## In Progress (11)
+- ⏳ `Biostrings`
+- ⏳ `Chromatograms`
+- ⏳ `GenomeInfoDb`
+- ⏳ `GenomicRanges`
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `cola`
-- ⏳ `flowClust`
+- ⏳ `SpectriPy`
 - ⏳ `frmaTools`
-- ⏳ `monocle`
-- ⏳ `simona`
+- ⏳ `h5mread`
+- ⏳ `ldblock`
+- ⏳ `msPurity`
+- ⏳ `optimalFlow`
 
-## Not Yet Started (1593)
+## Not Yet Started (1565)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -155,8 +160,8 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 
-... and 1543 more ...
+... and 1515 more ...
 
 ---
-*Last updated: 2026-07-20 20:14:06 UTC*
+*Last updated: 2026-07-20 20:15:50 UTC*
 *Packages with verified BBS status: 157*
