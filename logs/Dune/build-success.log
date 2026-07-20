@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Dune'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Dune'
+also installing the dependencies ‘transformr’, ‘gganimate’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/transformr_0.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gganimate_1.0.11.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Dune_1.24.0.tar.gz'
+* installing *binary* package ‘transformr’ ...
+* package ‘transformr’ successfully unpacked and SHA256 sums checked
+* ‘transformr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘transformr’ as ‘transformr_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (transformr)
+* installing *binary* package ‘gganimate’ ...
+* package ‘gganimate’ successfully unpacked and SHA256 sums checked
+* ‘gganimate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gganimate’ as ‘gganimate_1.0.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gganimate)
+* installing *source* package ‘Dune’ ...
+** this is package ‘Dune’ version ‘1.24.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Dune’ as ‘Dune_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Dune)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSaRMzV/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m39.079s
+user	0m28.356s
+sys	0m4.467s

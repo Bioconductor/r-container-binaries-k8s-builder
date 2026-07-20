@@ -1,0 +1,85 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ptairMS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ptairMS'
+also installing the dependencies ‘enviPat’, ‘shinyscreenshot’, ‘ptairData’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/enviPat_2.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyscreenshot_0.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/ptairData_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ptairMS_1.20.0.tar.gz'
+* installing *binary* package ‘enviPat’ ...
+* package ‘enviPat’ successfully unpacked and SHA256 sums checked
+* ‘enviPat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘enviPat’ as ‘enviPat_2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (enviPat)
+* installing *binary* package ‘shinyscreenshot’ ...
+* package ‘shinyscreenshot’ successfully unpacked and SHA256 sums checked
+* ‘shinyscreenshot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyscreenshot’ as ‘shinyscreenshot_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyscreenshot)
+* installing *source* package ‘ptairData’ ...
+** this is package ‘ptairData’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ptairData’ as ‘ptairData_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ptairData)
+* installing *source* package ‘ptairMS’ ...
+** this is package ‘ptairMS’ version ‘1.20.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c align.cpp -o align.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c findEqualGreaterM.cpp -o findEqualGreaterM.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ptairMS.so RcppExports.o align.o findEqualGreaterM.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ptairMS/00new/ptairMS/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘Biobase::cache’ by ‘bit64::cache’ when loading ‘ptairMS’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘Biobase::cache’ by ‘bit64::cache’ when loading ‘ptairMS’
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘Biobase::cache’ by ‘bit64::cache’ when loading ‘ptairMS’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ptairMS’ as ‘ptairMS_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ptairMS)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdG5Ooi/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m40.135s
+user	0m31.619s
+sys	0m5.812s
