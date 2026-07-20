@@ -1,0 +1,117 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''NetPathMiner'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'NetPathMiner'
+also installing the dependencies ‘rBiopaxParser’, ‘graph’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/rBiopaxParser_2.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/graph_1.90.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/NetPathMiner_1.48.0.tar.gz'
+* installing *source* package ‘rBiopaxParser’ ...
+** this is package ‘rBiopaxParser’ version ‘2.52.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rBiopaxParser’ as ‘rBiopaxParser_2.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rBiopaxParser)
+* installing *source* package ‘graph’ ...
+** this is package ‘graph’ version ‘1.90.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graph.c -o graph.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o graph.so graph.o -L/usr/local/lib/R/lib -lR
+mv graph.so BioC_graph.so
+installing to /tmp/library/00LOCK-graph/00new/graph/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘graph’ as ‘graph_1.90.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graph)
+* installing *source* package ‘NetPathMiner’ ...
+** this is package ‘NetPathMiner’ version ‘1.48.0’
+** using staged installation
+'config' variable 'CPP' is defunct
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -std=gnu2x -E
+checking for xmlParseFile in -lxml2... yes
+checking for readSBML in -lsbml... yes
+libSBML found, finding configuration...
+pkg-config tool found
+Couldn't find libsbml.pc. Searching for libsbml in candidate directories.
+checking for xml2-config... /usr/bin/xml2-config
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DHAVE_XML -I/usr/include/libxml2 -DHAVE_SBML -I/usr/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c handlesegfault.c -o handlesegfault.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DHAVE_XML -I/usr/include/libxml2 -DHAVE_SBML -I/usr/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hme3m.c -o hme3m.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DHAVE_XML -I/usr/include/libxml2 -DHAVE_SBML -I/usr/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DHAVE_XML -I/usr/include/libxml2 -DHAVE_SBML -I/usr/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c kgml_interface.cpp -o kgml_interface.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DHAVE_XML -I/usr/include/libxml2 -DHAVE_SBML -I/usr/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c methods.cpp -o methods.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -DHAVE_XML -I/usr/include/libxml2 -DHAVE_SBML -I/usr/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sbml_interface.cpp -o sbml_interface.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o NetPathMiner.so handlesegfault.o hme3m.o init.o kgml_interface.o methods.o sbml_interface.o -lsbml -lxml2 -lxml2 -lsbml -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-NetPathMiner/00new/NetPathMiner/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NetPathMiner’ as ‘NetPathMiner_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NetPathMiner)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDyaSkT/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m36.390s
+user	0m25.266s
+sys	0m5.987s

@@ -1,0 +1,116 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''retrofit'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'retrofit'
+also installing the dependencies ‘rootSolve’, ‘lmom’, ‘Exact’, ‘gld’, ‘dichromat’, ‘mapproj’, ‘DescTools’, ‘pals’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rootSolve_1.8.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lmom_3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Exact_3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gld_2.6.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dichromat_2.0-0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mapproj_1.2.12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DescTools_0.99.60.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pals_1.10.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/retrofit_1.12.0.tar.gz'
+* installing *binary* package ‘rootSolve’ ...
+* package ‘rootSolve’ successfully unpacked and SHA256 sums checked
+* ‘rootSolve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rootSolve’ as ‘rootSolve_1.8.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rootSolve)
+* installing *binary* package ‘lmom’ ...
+* package ‘lmom’ successfully unpacked and SHA256 sums checked
+* ‘lmom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lmom’ as ‘lmom_3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmom)
+* installing *binary* package ‘dichromat’ ...
+* package ‘dichromat’ successfully unpacked and SHA256 sums checked
+* ‘dichromat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dichromat’ as ‘dichromat_2.0-0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dichromat)
+* installing *binary* package ‘mapproj’ ...
+* package ‘mapproj’ successfully unpacked and SHA256 sums checked
+* ‘mapproj’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mapproj’ as ‘mapproj_1.2.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mapproj)
+* installing *source* package ‘retrofit’ ...
+** this is package ‘retrofit’ version ‘1.12.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c decompose_measure_error.cpp -o decompose_measure_error.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c decompose_step2.cpp -o decompose_step2.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c decompose_step3.cpp -o decompose_step3.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c decompose_step4.cpp -o decompose_step4.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c decompose_step5.cpp -o decompose_step5.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o retrofit.so RcppExports.o decompose_measure_error.o decompose_step2.o decompose_step3.o decompose_step4.o decompose_step5.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-retrofit/00new/retrofit/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘retrofit’ as ‘retrofit_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (retrofit)
+* installing *binary* package ‘Exact’ ...
+* package ‘Exact’ successfully unpacked and SHA256 sums checked
+* ‘Exact’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Exact’ as ‘Exact_3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Exact)
+* installing *binary* package ‘gld’ ...
+* package ‘gld’ successfully unpacked and SHA256 sums checked
+* ‘gld’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gld’ as ‘gld_2.6.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gld)
+* installing *binary* package ‘pals’ ...
+* package ‘pals’ successfully unpacked and SHA256 sums checked
+* ‘pals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pals’ as ‘pals_1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pals)
+* installing *binary* package ‘DescTools’ ...
+* package ‘DescTools’ successfully unpacked and SHA256 sums checked
+* ‘DescTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DescTools’ as ‘DescTools_0.99.60_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DescTools)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9IQYub/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m44.400s
+user	0m21.743s
+sys	0m5.428s

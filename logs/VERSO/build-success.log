@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''VERSO'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'VERSO'
+also installing the dependencies ‘zigg’, ‘RcppParallel’, ‘data.tree’, ‘Rfast’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/zigg_0.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppParallel_5.1.11-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/data.tree_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rfast_2.1.5.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/VERSO_1.22.0.tar.gz'
+* installing *binary* package ‘zigg’ ...
+* package ‘zigg’ successfully unpacked and SHA256 sums checked
+* ‘zigg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zigg’ as ‘zigg_0.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zigg)
+* installing *binary* package ‘RcppParallel’ ...
+* package ‘RcppParallel’ successfully unpacked and SHA256 sums checked
+* ‘RcppParallel’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppParallel’ as ‘RcppParallel_5.1.11-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppParallel)
+* installing *binary* package ‘data.tree’ ...
+* package ‘data.tree’ successfully unpacked and SHA256 sums checked
+* ‘data.tree’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘data.tree’ as ‘data.tree_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.tree)
+* installing *binary* package ‘Rfast’ ...
+* package ‘Rfast’ successfully unpacked and SHA256 sums checked
+* ‘Rfast’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rfast’ as ‘Rfast_2.1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rfast)
+* installing *source* package ‘VERSO’ ...
+** this is package ‘VERSO’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VERSO’ as ‘VERSO_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VERSO)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFJPSpy/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m20.521s
+user	0m8.656s
+sys	0m3.617s

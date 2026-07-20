@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GladiaTOX'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GladiaTOX'
+also installing the dependencies ‘blob’, ‘RMariaDB’, ‘RSQLite’, ‘RJSONIO’, ‘ggrepel’, ‘RCurl’, ‘XML’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/blob_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RMariaDB_1.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RSQLite_3.53.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RJSONIO_2.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggrepel_0.9.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RCurl_1.98-1.19.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/XML_3.99-0.23.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GladiaTOX_1.28.0.tar.gz'
+* installing *binary* package ‘blob’ ...
+* package ‘blob’ successfully unpacked and SHA256 sums checked
+* ‘blob’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘blob’ as ‘blob_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (blob)
+* installing *binary* package ‘RJSONIO’ ...
+* package ‘RJSONIO’ successfully unpacked and SHA256 sums checked
+* ‘RJSONIO’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RJSONIO’ as ‘RJSONIO_2.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RJSONIO)
+* installing *binary* package ‘ggrepel’ ...
+* package ‘ggrepel’ successfully unpacked and SHA256 sums checked
+* ‘ggrepel’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *binary* package ‘RCurl’ ...
+* package ‘RCurl’ successfully unpacked and SHA256 sums checked
+* ‘RCurl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RCurl’ as ‘RCurl_1.98-1.19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RCurl)
+* installing *binary* package ‘XML’ ...
+* package ‘XML’ successfully unpacked and SHA256 sums checked
+* ‘XML’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘XML’ as ‘XML_3.99-0.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XML)
+* installing *binary* package ‘RMariaDB’ ...
+* package ‘RMariaDB’ successfully unpacked and SHA256 sums checked
+* ‘RMariaDB’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RMariaDB’ as ‘RMariaDB_1.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RMariaDB)
+* installing *binary* package ‘RSQLite’ ...
+* package ‘RSQLite’ successfully unpacked and SHA256 sums checked
+* ‘RSQLite’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RSQLite’ as ‘RSQLite_3.53.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RSQLite)
+* installing *source* package ‘GladiaTOX’ ...
+** this is package ‘GladiaTOX’ version ‘1.28.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GladiaTOX’ as ‘GladiaTOX_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GladiaTOX)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpd2f3lB/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m22.515s
+user	0m15.485s
+sys	0m3.902s

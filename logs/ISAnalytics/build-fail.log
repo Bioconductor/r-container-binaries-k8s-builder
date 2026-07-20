@@ -1,0 +1,100 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ISAnalytics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ISAnalytics'
+also installing the dependencies ‘reactR’, ‘classInt’, ‘phosphoricons’, ‘reactable’, ‘toastui’, ‘shinybusy’, ‘shinyWidgets’, ‘datamods’, ‘extraDistr’, ‘ggalluvial’, ‘flexdashboard’, ‘eulerr’, ‘pheatmap’, ‘BiocParallel’, ‘doFuture’, ‘Rcapture’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactR_0.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/classInt_0.4-11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phosphoricons_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactable_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/toastui_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinybusy_0.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyWidgets_0.9.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/datamods_1.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/extraDistr_1.10.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggalluvial_0.12.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flexdashboard_0.6.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/eulerr_8.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pheatmap_1.0.13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocParallel_1.46.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/doFuture_1.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rcapture_1.4-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ISAnalytics_1.22.0.tar.gz'
+* installing *binary* package ‘reactR’ ...
+* package ‘reactR’ successfully unpacked and SHA256 sums checked
+* ‘reactR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactR’ as ‘reactR_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactR)
+* installing *binary* package ‘classInt’ ...
+* package ‘classInt’ successfully unpacked and SHA256 sums checked
+* ‘classInt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘classInt’ as ‘classInt_0.4-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (classInt)
+* installing *binary* package ‘phosphoricons’ ...
+* package ‘phosphoricons’ successfully unpacked and SHA256 sums checked
+* ‘phosphoricons’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phosphoricons’ as ‘phosphoricons_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phosphoricons)
+* installing *binary* package ‘shinybusy’ ...
+* package ‘shinybusy’ successfully unpacked and SHA256 sums checked
+* ‘shinybusy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinybusy’ as ‘shinybusy_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinybusy)
+* installing *binary* package ‘shinyWidgets’ ...
+* package ‘shinyWidgets’ successfully unpacked and SHA256 sums checked
+* ‘shinyWidgets’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyWidgets’ as ‘shinyWidgets_0.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyWidgets)
+* installing *binary* package ‘extraDistr’ ...
+* package ‘extraDistr’ successfully unpacked and SHA256 sums checked
+* ‘extraDistr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘extraDistr’ as ‘extraDistr_1.10.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (extraDistr)
+* installing *binary* package ‘ggalluvial’ ...
+* package ‘ggalluvial’ successfully unpacked and SHA256 sums checked
+* ‘ggalluvial’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggalluvial’ as ‘ggalluvial_0.12.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggalluvial)
+* installing *binary* package ‘flexdashboard’ ...
+* package ‘flexdashboard’ successfully unpacked and SHA256 sums checked
+* ‘flexdashboard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flexdashboard’ as ‘flexdashboard_0.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexdashboard)
+* installing *binary* package ‘eulerr’ ...
+* package ‘eulerr’ successfully unpacked and SHA256 sums checked
+* ‘eulerr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘eulerr’ as ‘eulerr_8.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (eulerr)
+* installing *binary* package ‘pheatmap’ ...
+* package ‘pheatmap’ successfully unpacked and SHA256 sums checked
+* ‘pheatmap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pheatmap’ as ‘pheatmap_1.0.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pheatmap)

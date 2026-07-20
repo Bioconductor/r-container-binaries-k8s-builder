@@ -1,0 +1,242 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CGEN'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CGEN'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CGEN_3.48.0.tar.gz'
+Content type 'application/x-gzip' length 1003856 bytes (980 KB)
+==================================================
+downloaded 980 KB
+
+* installing *source* package ‘CGEN’ ...
+** this is package ‘CGEN’ version ‘3.48.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Additive.c -o Additive.o
+Additive.c: In function ‘vecinit’:
+Additive.c:103:13: warning: old-style function definition [-Wold-style-definition]
+  103 | static void vecinit(vec, n, c)
+      |             ^~~~~~~
+Additive.c: In function ‘vecmove’:
+Additive.c:115:13: warning: old-style function definition [-Wold-style-definition]
+  115 | static void vecmove(invec, n, outvec)
+      |             ^~~~~~~
+Additive.c: In function ‘vecMultCon’:
+Additive.c:130:13: warning: old-style function definition [-Wold-style-definition]
+  130 | static void vecMultCon(invec, n, c, ret)
+      |             ^~~~~~~~~~
+Additive.c: In function ‘rMatMMultVec’:
+Additive.c:144:13: warning: old-style function definition [-Wold-style-definition]
+  144 | static void rMatMMultVec(mat, nrow, ncol, vec, ret)
+      |             ^~~~~~~~~~~~
+Additive.c: In function ‘mylog’:
+Additive.c:172:15: warning: old-style function definition [-Wold-style-definition]
+  172 | static double mylog(x)
+      |               ^~~~~
+Additive.c: In function ‘mylog2’:
+Additive.c:187:15: warning: old-style function definition [-Wold-style-definition]
+  187 | static double mylog2(x)
+      |               ^~~~~~
+Additive.c: In function ‘compute_g’:
+Additive.c:203:13: warning: old-style function definition [-Wold-style-definition]
+  203 | static void compute_g(method, theta, x1cols, x2cols, g11, g12, g21, g22)
+      |             ^~~~~~~~~
+Additive.c: In function ‘add1’:
+Additive.c:242:15: warning: old-style function definition [-Wold-style-definition]
+  242 | static double add1(theta, op)
+      |               ^~~~
+Additive.c: In function ‘getLL_mat’:
+Additive.c:297:13: warning: old-style function definition [-Wold-style-definition]
+  297 | static void getLL_mat(op)
+      |             ^~~~~~~~~
+Additive.c: In function ‘Pdg_xs’:
+Additive.c:344:13: warning: old-style function definition [-Wold-style-definition]
+  344 | static void Pdg_xs(eta, op)
+      |             ^~~~~~
+Additive.c: In function ‘add1_indep’:
+Additive.c:416:15: warning: old-style function definition [-Wold-style-definition]
+  416 | static double add1_indep(theta, op)
+      |               ^~~~~~~~~~
+Additive.c: In function ‘negloglike’:
+Additive.c:463:15: warning: old-style function definition [-Wold-style-definition]
+  463 | static double negloglike(theta, op)
+      |               ^~~~~~~~~~
+Additive.c: In function ‘gradient’:
+Additive.c:484:13: warning: old-style function definition [-Wold-style-definition]
+  484 | static void gradient(eta, op, ret)
+      |             ^~~~~~~~
+Additive.c: In function ‘getadd1’:
+Additive.c:677:13: warning: old-style function definition [-Wold-style-definition]
+  677 | static void getadd1(op, meth)
+      |             ^~~~~~~
+Additive.c: In function ‘additive1’:
+Additive.c:730:6: warning: old-style function definition [-Wold-style-definition]
+  730 | void additive1(theta0, nparms, x1cols, nx1, x2cols, nx2, datX, Xnrow, Xncol, covs, ncovs, y, method,\
+      |      ^~~~~~~~~
+Additive.c: In function ‘additive1_indep’:
+Additive.c:784:6: warning: old-style function definition [-Wold-style-definition]
+  784 | void additive1_indep(theta0, nparms, x1cols, nx1, x2cols, nx2, Xnrow, covCols, ncovs, method,\
+      |      ^~~~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CML.c -o CML.o
+CML.c: In function ‘vecinit’:
+CML.c:147:13: warning: old-style function definition [-Wold-style-definition]
+  147 | static void vecinit(vec, n, c)
+      |             ^~~~~~~
+CML.c: In function ‘vecmove’:
+CML.c:159:13: warning: old-style function definition [-Wold-style-definition]
+  159 | static void vecmove(invec, n, outvec)
+      |             ^~~~~~~
+CML.c: In function ‘vecsum’:
+CML.c:174:15: warning: old-style function definition [-Wold-style-definition]
+  174 | static double vecsum(vec, n)
+      |               ^~~~~~
+CML.c: In function ‘vecMultCon’:
+CML.c:191:13: warning: old-style function definition [-Wold-style-definition]
+  191 | static void vecMultCon(invec, n, c, ret)
+      |             ^~~~~~~~~~
+CML.c: In function ‘rMatMMultVec’:
+CML.c:205:13: warning: old-style function definition [-Wold-style-definition]
+  205 | static void rMatMMultVec(mat, nrow, ncol, vec, ret)
+      |             ^~~~~~~~~~~~
+CML.c: In function ‘rmatrixMult’:
+CML.c:229:13: warning: old-style function definition [-Wold-style-definition]
+  229 | static void rmatrixMult(m1, m1_nr, m1_nc, m2, m2_nc, ret)
+      |             ^~~~~~~~~~~
+CML.c: In function ‘Pdg_xs’:
+CML.c:249:13: warning: old-style function definition [-Wold-style-definition]
+  249 | static void Pdg_xs(eta, op)
+      |             ^~~~~~
+CML.c: In function ‘Pd1_xs’:
+CML.c:407:13: warning: old-style function definition [-Wold-style-definition]
+  407 | static void Pd1_xs(op, ret, index)
+      |             ^~~~~~
+CML.c: In function ‘Edg_xs’:
+CML.c:427:13: warning: old-style function definition [-Wold-style-definition]
+  427 | static void Edg_xs(op, ret, ret2, index)
+      |             ^~~~~~
+CML.c: In function ‘Eg_xs’:
+CML.c:461:13: warning: old-style function definition [-Wold-style-definition]
+  461 | static void Eg_xs(op, ret, index)
+      |             ^~~~~
+CML.c: In function ‘getWtYmu’:
+CML.c:482:13: warning: old-style function definition [-Wold-style-definition]
+  482 | static void getWtYmu(eta, op, ret)
+      |             ^~~~~~~~
+CML.c: In function ‘fSNP’:
+CML.c:565:15: warning: old-style function definition [-Wold-style-definition]
+  565 | static double fSNP(SNP, gmodel)
+      |               ^~~~
+CML.c: In function ‘getLL_mat’:
+CML.c:588:13: warning: old-style function definition [-Wold-style-definition]
+  588 | static void getLL_mat(op)
+      |             ^~~~~~~~~
+CML.c: In function ‘negloglike’:
+CML.c:638:15: warning: old-style function definition [-Wold-style-definition]
+  638 | static double negloglike(eta, op)
+      |               ^~~~~~~~~~
+CML.c: In function ‘gradient’:
+CML.c:666:13: warning: old-style function definition [-Wold-style-definition]
+  666 | static void gradient(eta, op, ret)
+      |             ^~~~~~~~
+CML.c: In function ‘hessian’:
+CML.c:697:13: warning: old-style function definition [-Wold-style-definition]
+  697 | static void hessian(eta, op, ret)
+      |             ^~~~~~~
+CML.c: In function ‘chol’:
+CML.c:895:13: warning: old-style function definition [-Wold-style-definition]
+  895 | static void chol(mat, n, ret, retdiag)
+      |             ^~~~
+CML.c: In function ‘cholinv’:
+CML.c:931:13: warning: old-style function definition [-Wold-style-definition]
+  931 | static void cholinv(L, diag, n, ret)
+      |             ^~~~~~~
+CML.c: In function ‘rmatTranspose’:
+CML.c:957:13: warning: old-style function definition [-Wold-style-definition]
+  957 | static void rmatTranspose(mat, n, ret)
+      |             ^~~~~~~~~~~~~
+CML.c: In function ‘symrMatInv’:
+CML.c:973:13: warning: old-style function definition [-Wold-style-definition]
+  973 | static void symrMatInv(mat, n, ret)
+      |             ^~~~~~~~~~
+CML.c: In function ‘getCML’:
+CML.c:995:13: warning: old-style function definition [-Wold-style-definition]
+  995 | static void getCML(eta, op)
+      |             ^~~~~~
+CML.c: In function ‘getEB’:
+CML.c:1044:13: warning: old-style function definition [-Wold-style-definition]
+ 1044 | static void getEB(op)
+      |             ^~~~~
+CML.c: In function ‘check_init’:
+CML.c:1256:13: warning: old-style function definition [-Wold-style-definition]
+ 1256 | static void check_init(eta, op)
+      |             ^~~~~~~~~~
+CML.c: In function ‘CML_EB’:
+CML.c:1318:6: warning: old-style function definition [-Wold-style-definition]
+ 1318 | void CML_EB(eta0, nparms, nbeta, D, snp, nrow, xMain, nx, xInt, nv, xStrata, nstrata, gmodel, genoBinary,\
+      |      ^~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ccl.c -o ccl.o
+gfortran  -fpic  -g -O2  -c csclust.f -o csclust.o
+csclust.f:72:72:
+
+   72 |  10      FLAG(I)=.TRUE.
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fsclust.c -o fsclust.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hcl.c -o hcl.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pmatch.c -o pmatch.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c score.c -o score.o
+score.c: In function ‘infoSmallStandard’:
+score.c:14:6: warning: old-style function definition [-Wold-style-definition]
+   14 | void infoSmallStandard(xmat, pnr, pnc, pphat, infoSum)
+      |      ^~~~~~~~~~~~~~~~~
+score.c: In function ‘getCOV0’:
+score.c:48:6: warning: old-style function definition [-Wold-style-definition]
+   48 | void getCOV0(pncinf, phatprod, pn, pinfoprods, retcov)
+      |      ^~~~~~~
+score.c: In function ‘getCOV1’:
+score.c:80:6: warning: old-style function definition [-Wold-style-definition]
+   80 | void getCOV1(pnc, pn, weights, twopmu, pinfob1, pinfoh, pinfohnc, retcov)
+      |      ^~~~~~~
+score.c: In function ‘getScore’:
+score.c:133:6: warning: old-style function definition [-Wold-style-definition]
+  133 | void getScore(y, score, pnr, pnc, avgscore0, avgscore1, retcov)
+      |      ^~~~~~~~
+score.c: In function ‘getScoreEB’:
+score.c:174:6: warning: old-style function definition [-Wold-style-definition]
+  174 | void getScoreEB(y, score1, score2, pnr, pnc1, pnc2, avgscore1_0, avgscore1_1,
+      |      ^~~~~~~~~~
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o CGEN.so Additive.o CML.o ccl.o csclust.o fsclust.o hcl.o pmatch.o score.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-CGEN/00new/CGEN/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CGEN’ as ‘CGEN_3.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CGEN)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpl5PPuH/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m21.496s
+user	0m18.862s
+sys	0m3.124s

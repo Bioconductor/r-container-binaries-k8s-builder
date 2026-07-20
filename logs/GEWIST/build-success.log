@@ -1,0 +1,248 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GEWIST'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GEWIST'
+also installing the dependencies ‘fracdiff’, ‘lmtest’, ‘timeDate’, ‘urca’, ‘zoo’, ‘RcppArmadillo’, ‘tidyselect’, ‘cowplot’, ‘Deriv’, ‘forecast’, ‘modelr’, ‘rbibutils’, ‘broom’, ‘doBy’, ‘SparseM’, ‘MatrixModels’, ‘Rdpack’, ‘minqa’, ‘nloptr’, ‘reformulas’, ‘RcppEigen’, ‘carData’, ‘pbkrtest’, ‘quantreg’, ‘lme4’, ‘car’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fracdiff_1.5-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lmtest_0.9-40.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/timeDate_4052.112.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/urca_1.3-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/zoo_1.8-15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppArmadillo_15.4.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyselect_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cowplot_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Deriv_4.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/forecast_9.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/modelr_0.1.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rbibutils_2.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/broom_1.0.13.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/doBy_4.7.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SparseM_1.84-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MatrixModels_0.5-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rdpack_2.6.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/minqa_1.2.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nloptr_2.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reformulas_0.4.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppEigen_0.3.4.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/carData_3.0-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pbkrtest_0.5.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/quantreg_6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lme4_2.0-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/car_3.1-5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GEWIST_1.56.0.tar.gz'
+* installing *binary* package ‘fracdiff’ ...
+* package ‘fracdiff’ successfully unpacked and SHA256 sums checked
+* ‘fracdiff’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fracdiff’ as ‘fracdiff_1.5-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fracdiff)
+* installing *binary* package ‘timeDate’ ...
+* package ‘timeDate’ successfully unpacked and SHA256 sums checked
+* ‘timeDate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timeDate’ as ‘timeDate_4052.112_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timeDate)
+* installing *binary* package ‘urca’ ...
+* package ‘urca’ successfully unpacked and SHA256 sums checked
+* ‘urca’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘urca’ as ‘urca_1.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (urca)
+* installing *binary* package ‘zoo’ ...
+* package ‘zoo’ successfully unpacked and SHA256 sums checked
+* ‘zoo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘RcppArmadillo’ ...
+* package ‘RcppArmadillo’ successfully unpacked and SHA256 sums checked
+* ‘RcppArmadillo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_15.4.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *binary* package ‘tidyselect’ ...
+* package ‘tidyselect’ successfully unpacked and SHA256 sums checked
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *binary* package ‘cowplot’ ...
+* package ‘cowplot’ successfully unpacked and SHA256 sums checked
+* ‘cowplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cowplot’ as ‘cowplot_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cowplot)
+* installing *binary* package ‘Deriv’ ...
+* package ‘Deriv’ successfully unpacked and SHA256 sums checked
+* ‘Deriv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Deriv’ as ‘Deriv_4.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Deriv)
+* installing *binary* package ‘rbibutils’ ...
+* package ‘rbibutils’ successfully unpacked and SHA256 sums checked
+* ‘rbibutils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rbibutils’ as ‘rbibutils_2.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rbibutils)
+* installing *binary* package ‘broom’ ...
+* package ‘broom’ successfully unpacked and SHA256 sums checked
+* ‘broom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘broom’ as ‘broom_1.0.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (broom)
+* installing *binary* package ‘SparseM’ ...
+* package ‘SparseM’ successfully unpacked and SHA256 sums checked
+* ‘SparseM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.84-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *binary* package ‘MatrixModels’ ...
+* package ‘MatrixModels’ successfully unpacked and SHA256 sums checked
+* ‘MatrixModels’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatrixModels’ as ‘MatrixModels_0.5-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixModels)
+* installing *binary* package ‘minqa’ ...
+* package ‘minqa’ successfully unpacked and SHA256 sums checked
+* ‘minqa’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minqa’ as ‘minqa_1.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minqa)
+* installing *binary* package ‘nloptr’ ...
+* package ‘nloptr’ successfully unpacked and SHA256 sums checked
+* ‘nloptr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nloptr’ as ‘nloptr_2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nloptr)
+* installing *binary* package ‘RcppEigen’ ...
+* package ‘RcppEigen’ successfully unpacked and SHA256 sums checked
+* ‘RcppEigen’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.4.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *binary* package ‘carData’ ...
+* package ‘carData’ successfully unpacked and SHA256 sums checked
+* ‘carData’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘carData’ as ‘carData_3.0-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (carData)
+* installing *binary* package ‘lmtest’ ...
+* package ‘lmtest’ successfully unpacked and SHA256 sums checked
+* ‘lmtest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lmtest’ as ‘lmtest_0.9-40_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmtest)
+* installing *binary* package ‘modelr’ ...
+* package ‘modelr’ successfully unpacked and SHA256 sums checked
+* ‘modelr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘modelr’ as ‘modelr_0.1.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (modelr)
+* installing *binary* package ‘Rdpack’ ...
+* package ‘Rdpack’ successfully unpacked and SHA256 sums checked
+* ‘Rdpack’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rdpack’ as ‘Rdpack_2.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rdpack)
+* installing *binary* package ‘quantreg’ ...
+* package ‘quantreg’ successfully unpacked and SHA256 sums checked
+* ‘quantreg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘quantreg’ as ‘quantreg_6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantreg)
+* installing *binary* package ‘forecast’ ...
+* package ‘forecast’ successfully unpacked and SHA256 sums checked
+* ‘forecast’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘forecast’ as ‘forecast_9.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (forecast)
+* installing *binary* package ‘reformulas’ ...
+* package ‘reformulas’ successfully unpacked and SHA256 sums checked
+* ‘reformulas’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reformulas’ as ‘reformulas_0.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reformulas)
+* installing *binary* package ‘doBy’ ...
+* package ‘doBy’ successfully unpacked and SHA256 sums checked
+* ‘doBy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘doBy’ as ‘doBy_4.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doBy)
+* installing *binary* package ‘lme4’ ...
+* package ‘lme4’ successfully unpacked and SHA256 sums checked
+* ‘lme4’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lme4’ as ‘lme4_2.0-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lme4)
+* installing *binary* package ‘pbkrtest’ ...
+* package ‘pbkrtest’ successfully unpacked and SHA256 sums checked
+* ‘pbkrtest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pbkrtest’ as ‘pbkrtest_0.5.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbkrtest)
+* installing *binary* package ‘car’ ...
+* package ‘car’ successfully unpacked and SHA256 sums checked
+* ‘car’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘car’ as ‘car_3.1-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (car)
+* installing *source* package ‘GEWIST’ ...
+** this is package ‘GEWIST’ version ‘1.56.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GEWIST’ as ‘GEWIST_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GEWIST)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPV5PnJ/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m22.693s
+user	0m16.224s
+sys	0m7.745s

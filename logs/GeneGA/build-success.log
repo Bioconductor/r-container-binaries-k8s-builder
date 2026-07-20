@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GeneGA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GeneGA'
+also installing the dependencies ‘pixmap’, ‘sp’, ‘ade4’, ‘segmented’, ‘seqinr’, ‘hash’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pixmap_0.4-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sp_2.2-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ade4_1.7-24.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/segmented_2.2-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/seqinr_4.2-44.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hash_2.2.6.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GeneGA_1.62.0.tar.gz'
+* installing *binary* package ‘pixmap’ ...
+* package ‘pixmap’ successfully unpacked and SHA256 sums checked
+* ‘pixmap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pixmap’ as ‘pixmap_0.4-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pixmap)
+* installing *binary* package ‘sp’ ...
+* package ‘sp’ successfully unpacked and SHA256 sums checked
+* ‘sp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sp’ as ‘sp_2.2-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sp)
+* installing *binary* package ‘segmented’ ...
+* package ‘segmented’ successfully unpacked and SHA256 sums checked
+* ‘segmented’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘segmented’ as ‘segmented_2.2-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (segmented)
+* installing *binary* package ‘hash’ ...
+* package ‘hash’ successfully unpacked and SHA256 sums checked
+* ‘hash’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hash’ as ‘hash_2.2.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hash)
+* installing *binary* package ‘ade4’ ...
+* package ‘ade4’ successfully unpacked and SHA256 sums checked
+* ‘ade4’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ade4’ as ‘ade4_1.7-24_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ade4)
+* installing *binary* package ‘seqinr’ ...
+* package ‘seqinr’ successfully unpacked and SHA256 sums checked
+* ‘seqinr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seqinr’ as ‘seqinr_4.2-44_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqinr)
+* installing *source* package ‘GeneGA’ ...
+** this is package ‘GeneGA’ version ‘1.62.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GeneGA’ as ‘GeneGA_1.62.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeneGA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpy8zDyS/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m14.081s
+user	0m8.464s
+sys	0m3.318s

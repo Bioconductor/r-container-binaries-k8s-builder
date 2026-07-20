@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PepsNMR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PepsNMR'
+also installing the dependencies ‘RcppDE’, ‘ptw’, ‘PepsNMRData’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppDE_0.1.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ptw_1.9-17.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/PepsNMRData_1.30.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/PepsNMR_1.30.0.tar.gz'
+* installing *binary* package ‘RcppDE’ ...
+* package ‘RcppDE’ successfully unpacked and SHA256 sums checked
+* ‘RcppDE’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppDE’ as ‘RcppDE_0.1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppDE)
+* installing *source* package ‘PepsNMRData’ ...
+** this is package ‘PepsNMRData’ version ‘1.30.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PepsNMRData’ as ‘PepsNMRData_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PepsNMRData)
+* installing *binary* package ‘ptw’ ...
+* package ‘ptw’ successfully unpacked and SHA256 sums checked
+* ‘ptw’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ptw’ as ‘ptw_1.9-17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ptw)
+* installing *source* package ‘PepsNMR’ ...
+** this is package ‘PepsNMR’ version ‘1.30.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PepsNMR’ as ‘PepsNMR_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PepsNMR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpxj7MNs/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m38.075s
+user	0m29.791s
+sys	0m4.541s

@@ -1,0 +1,81 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''STRINGdb'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'STRINGdb'
+also installing the dependencies ‘gsubfn’, ‘proto’, ‘chron’, ‘sqldf’, ‘plotrix’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gsubfn_0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/proto_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/chron_2.3-63.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sqldf_0.4-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plotrix_3.8-14.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/STRINGdb_2.24.0.tar.gz'
+* installing *binary* package ‘proto’ ...
+* package ‘proto’ successfully unpacked and SHA256 sums checked
+* ‘proto’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘proto’ as ‘proto_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proto)
+* installing *binary* package ‘chron’ ...
+* package ‘chron’ successfully unpacked and SHA256 sums checked
+* ‘chron’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘chron’ as ‘chron_2.3-63_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chron)
+* installing *binary* package ‘plotrix’ ...
+* package ‘plotrix’ successfully unpacked and SHA256 sums checked
+* ‘plotrix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *binary* package ‘gsubfn’ ...
+* package ‘gsubfn’ successfully unpacked and SHA256 sums checked
+* ‘gsubfn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gsubfn’ as ‘gsubfn_0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gsubfn)
+* installing *binary* package ‘sqldf’ ...
+* package ‘sqldf’ successfully unpacked and SHA256 sums checked
+* ‘sqldf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sqldf’ as ‘sqldf_0.4-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sqldf)
+* installing *source* package ‘STRINGdb’ ...
+** this is package ‘STRINGdb’ version ‘2.24.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘STRINGdb’ as ‘STRINGdb_2.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (STRINGdb)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpzih8qw/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m23.013s
+user	0m7.657s
+sys	0m3.524s
