@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''abseqR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'abseqR'
+also installing the dependencies ‘flexdashboard’, ‘ggcorrplot’, ‘ggdendro’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flexdashboard_0.6.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggcorrplot_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggdendro_0.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/abseqR_1.30.0.tar.gz'
+* installing *binary* package ‘flexdashboard’ ...
+* package ‘flexdashboard’ successfully unpacked and SHA256 sums checked
+* ‘flexdashboard’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flexdashboard’ as ‘flexdashboard_0.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexdashboard)
+* installing *binary* package ‘ggcorrplot’ ...
+* package ‘ggcorrplot’ successfully unpacked and SHA256 sums checked
+* ‘ggcorrplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggcorrplot’ as ‘ggcorrplot_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggcorrplot)
+* installing *binary* package ‘ggdendro’ ...
+* package ‘ggdendro’ successfully unpacked and SHA256 sums checked
+* ‘ggdendro’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggdendro’ as ‘ggdendro_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdendro)
+* installing *source* package ‘abseqR’ ...
+** this is package ‘abseqR’ version ‘1.30.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘abseqR’ as ‘abseqR_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (abseqR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpasFyRd/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m26.087s
+user	0m15.288s
+sys	0m4.521s

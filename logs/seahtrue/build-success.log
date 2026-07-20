@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''seahtrue'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'seahtrue'
+also installing the dependencies ‘piton’, ‘snakecase’, ‘tidyxl’, ‘janitor’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/piton_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/snakecase_0.11.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyxl_1.0.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/janitor_2.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/seahtrue_1.6.0.tar.gz'
+* installing *binary* package ‘piton’ ...
+* package ‘piton’ successfully unpacked and SHA256 sums checked
+* ‘piton’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘piton’ as ‘piton_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (piton)
+* installing *binary* package ‘snakecase’ ...
+* package ‘snakecase’ successfully unpacked and SHA256 sums checked
+* ‘snakecase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘snakecase’ as ‘snakecase_0.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snakecase)
+* installing *binary* package ‘tidyxl’ ...
+* package ‘tidyxl’ successfully unpacked and SHA256 sums checked
+* ‘tidyxl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyxl’ as ‘tidyxl_1.0.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyxl)
+* installing *binary* package ‘janitor’ ...
+* package ‘janitor’ successfully unpacked and SHA256 sums checked
+* ‘janitor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘janitor’ as ‘janitor_2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (janitor)
+* installing *source* package ‘seahtrue’ ...
+** this is package ‘seahtrue’ version ‘1.6.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seahtrue’ as ‘seahtrue_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seahtrue)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGyPaPf/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m25.853s
+user	0m11.496s
+sys	0m3.433s
