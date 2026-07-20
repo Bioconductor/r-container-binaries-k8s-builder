@@ -1,0 +1,51 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''bayNorm'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'bayNorm'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/bayNorm_1.31.0.tar.gz'
+Content type 'application/x-gzip' length 1601622 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+* installing *source* package ‘bayNorm’ ...
+** this is package ‘bayNorm’ version ‘1.31.0’
+** package ‘bayNorm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/RcppProgress/include' -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bayNorm_main.cpp -o bayNorm_main.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bayNorm.so RcppExports.o bayNorm_main.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-bayNorm/00new/bayNorm/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bayNorm’ as ‘bayNorm_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bayNorm)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOtVTXJ/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m3.100s
+user	0m47.163s
+sys	0m5.379s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1630 (69%)
+- **Successfully Built:** 1654 (70%)
 - **Failed:** 23 (0%)
-- **In Progress:** 113
-- **Not Started:** 580
+- **In Progress:** 107
+- **Not Started:** 562
 
-**Progress:** 70%
+**Progress:** 71%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1630)
+## Successfully Built Packages (1654)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1580 more ...*
+*... and 1604 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -104,15 +104,15 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (113)
+## In Progress (107)
 - ⏳ `AUCell`
-- ⏳ `BASiCStan`
 - ⏳ `BamScale`
 - ⏳ `BasicSTARRseq`
 - ⏳ `BayesSpace`
 - ⏳ `BicARE`
 - ⏳ `BioCor`
 - ⏳ `BulkSignalR`
+- ⏳ `CAMERA`
 - ⏳ `CARDspa`
 - ⏳ `CBNplot`
 - ⏳ `CNVRanger`
@@ -123,7 +123,6 @@
 - ⏳ `CeTF`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
-- ⏳ `CluMSID`
 - ⏳ `CoGAPS`
 - ⏳ `DAssemble`
 - ⏳ `DEXSeq`
@@ -131,34 +130,35 @@
 - ⏳ `ExperimentSubset`
 - ⏳ `GDCRNATools`
 - ⏳ `GOaGO`
-- ⏳ `GSRI`
 - ⏳ `GeneMeta`
 - ⏳ `MICSQTL`
 - ⏳ `MIRit`
+- ⏳ `MetaboAnnotatoR`
 - ⏳ `MultiDataSet`
 - ⏳ `NetActivity`
 - ⏳ `PREDA`
 - ⏳ `ProteoMM`
 - ⏳ `QDNAseq`
 - ⏳ `RNAshapeQC`
-- ⏳ `RUCova`
 - ⏳ `RadioGx`
 - ⏳ `Rbowtie2`
 - ⏳ `SAIGEgds`
 - ⏳ `SC3`
-- ⏳ `SPsimSeq`
 - ⏳ `ShortRead`
 - ⏳ `SpaNorm`
 - ⏳ `TOP`
 - ⏳ `Xeva`
-- ⏳ `aggregateBioVar`
-- ⏳ `alabaster.mae`
-- ⏳ `alabaster.sce`
+- ⏳ `a4`
 - ⏳ `anglemania`
+- ⏳ `apeglm`
+- ⏳ `barbieQ`
+- ⏳ `bnbc`
+- ⏳ `bnem`
+- ⏳ `celda`
 
-... and 63 more ...
+... and 57 more ...
 
-## Not Yet Started (580)
+## Not Yet Started (562)
 - ⏸️ `ACE`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
@@ -183,7 +183,6 @@
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CAMERA`
 - ⏸️ `CCAFE`
 - ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
@@ -209,9 +208,10 @@
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `ClonalSim`
+- ⏸️ `Cogito`
 
-... and 530 more ...
+... and 512 more ...
 
 ---
-*Last updated: 2026-07-20 21:10:14 UTC*
+*Last updated: 2026-07-20 21:11:53 UTC*
 *Packages with verified BBS status: 221*
