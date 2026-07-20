@@ -1,0 +1,45 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''easyRNASeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'easyRNASeq'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/easyRNASeq_2.49.0.tar.gz'
+Content type 'application/x-gzip' length 72934164 bytes (69.6 MB)
+==================================================
+downloaded 69.6 MB
+
+* installing *source* package ‘easyRNASeq’ ...
+** this is package ‘easyRNASeq’ version ‘2.49.0’
+** package ‘easyRNASeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘basename’ from package ‘base’ in package ‘easyRNASeq’
+Creating a generic function for ‘file.exists’ from package ‘base’ in package ‘easyRNASeq’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘easyRNASeq’ as ‘easyRNASeq_2.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (easyRNASeq)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp66kflA/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m0.720s
+user	0m47.991s
+sys	0m6.946s

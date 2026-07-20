@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1695 (72%)
-- **Failed:** 24 (1%)
-- **In Progress:** 95
-- **Not Started:** 532
+- **Successfully Built:** 1722 (73%)
+- **Failed:** 25 (1%)
+- **In Progress:** 68
+- **Not Started:** 531
 
-**Progress:** 73%
+**Progress:** 74%
 ```
-████████████████████████████████████░░░░░░░░░░░░░░
+█████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1695)
+## Successfully Built Packages (1722)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1645 more ...*
+*... and 1672 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (24)
+## Failed Packages (25)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -99,13 +99,14 @@
 | [condiments](https://bioconductor.org/packages/3.24/bioc/html/condiments.html) | [log](logs/condiments/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/condiments) | Missing R dependency: ModelMetrics |
 | [cytomapper](https://bioconductor.org/packages/3.24/bioc/html/cytomapper.html) | [log](logs/cytomapper/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/cytomapper) | error in evaluating the argument 'expr' in selecting a method for function 'eval': object '.ImageList_validity' not found |
 | [jazzPanda](https://bioconductor.org/packages/3.24/bioc/html/jazzPanda.html) | [log](logs/jazzPanda/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/jazzPanda) | Build failed with unknown error |
+| [maPredictDSC](https://bioconductor.org/packages/3.24/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.24/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
 | [scAnnotatR](https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
 | [scGPS](https://bioconductor.org/packages/3.24/bioc/html/scGPS.html) | [log](logs/scGPS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scGPS) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (95)
+## In Progress (68)
 - ⏳ `AUCell`
 - ⏳ `BicARE`
 - ⏳ `BioCor`
@@ -118,48 +119,48 @@
 - ⏳ `Category`
 - ⏳ `CatsCradle`
 - ⏳ `CeTF`
-- ⏳ `CellBarcode`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
-- ⏳ `ChIPseqR`
 - ⏳ `CoGAPS`
 - ⏳ `DAssemble`
 - ⏳ `DEXSeq`
-- ⏳ `EpipwR`
 - ⏳ `ExperimentSubset`
-- ⏳ `FastqCleaner`
 - ⏳ `GDCRNATools`
 - ⏳ `GOaGO`
 - ⏳ `IPO`
-- ⏳ `LOBSTAHS`
 - ⏳ `MAIT`
 - ⏳ `MICSQTL`
 - ⏳ `MIRit`
 - ⏳ `MultiDataSet`
 - ⏳ `NetActivity`
-- ⏳ `OTUbase`
 - ⏳ `PREDA`
 - ⏳ `QDNAseq`
-- ⏳ `RNAshapeQC`
-- ⏳ `RSVSim`
 - ⏳ `RadioGx`
 - ⏳ `Rbowtie2`
 - ⏳ `SC3`
 - ⏳ `TOP`
-- ⏳ `XDE`
-- ⏳ `amplican`
+- ⏳ `alabaster.sfe`
 - ⏳ `apeglm`
 - ⏳ `barbieQ`
 - ⏳ `bnbc`
-- ⏳ `celda`
-- ⏳ `chipseq`
 - ⏳ `dada2`
 - ⏳ `destiny`
 - ⏳ `divergence`
+- ⏳ `dmGsea`
+- ⏳ `gDRcore`
+- ⏳ `gDRimport`
+- ⏳ `geneRxCluster`
+- ⏳ `globaltest`
+- ⏳ `hdxmsqc`
+- ⏳ `iSEEhex`
+- ⏳ `iSEEhub`
+- ⏳ `iSEEindex`
+- ⏳ `immApex`
+- ⏳ `looking4clusters`
 
-... and 45 more ...
+... and 18 more ...
 
-## Not Yet Started (532)
+## Not Yet Started (531)
 - ⏸️ `ACE`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
@@ -211,8 +212,8 @@
 - ⏸️ `CoverageView`
 - ⏸️ `CyTOFpower`
 
-... and 482 more ...
+... and 481 more ...
 
 ---
-*Last updated: 2026-07-20 21:15:14 UTC*
-*Packages with verified BBS status: 223*
+*Last updated: 2026-07-20 21:16:38 UTC*
+*Packages with verified BBS status: 224*
