@@ -1,0 +1,122 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MiRaGE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MiRaGE'
+also installing the dependencies ‘beadarray’, ‘miRNATarget’, ‘humanStemCell’, ‘beadarrayExampleData’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/beadarray_2.63.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/miRNATarget_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/humanStemCell_0.53.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/beadarrayExampleData_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MiRaGE_1.55.0.tar.gz'
+* installing *source* package ‘beadarray’ ...
+** this is package ‘beadarray’ version ‘2.63.3’
+** package ‘beadarray’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c BASH.c -o BASH.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HULK.c -o HULK.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c determiningGridPositions.c -o determiningGridPositions.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c findAllOutliers.c -o findAllOutliers.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c imageProcessing.c -o imageProcessing.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o beadarray.so BASH.o HULK.o determiningGridPositions.o findAllOutliers.o imageProcessing.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-beadarray/00new/beadarray/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘beadarray’ as ‘beadarray_2.63.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beadarray)
+* installing *source* package ‘miRNATarget’ ...
+** this is package ‘miRNATarget’ version ‘1.51.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miRNATarget’ as ‘miRNATarget_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miRNATarget)
+* installing *source* package ‘humanStemCell’ ...
+** this is package ‘humanStemCell’ version ‘0.53.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘humanStemCell’ as ‘humanStemCell_0.53.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (humanStemCell)
+* installing *source* package ‘MiRaGE’ ...
+** this is package ‘MiRaGE’ version ‘1.55.0’
+** package ‘MiRaGE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MiRaGE’ as ‘MiRaGE_1.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MiRaGE)
+* installing *source* package ‘beadarrayExampleData’ ...
+** this is package ‘beadarrayExampleData’ version ‘1.51.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘beadarrayExampleData’ as ‘beadarrayExampleData_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beadarrayExampleData)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5vemLP/downloaded_packages’
+Old packages: 'diffobj'
+
+real	2m4.465s
+user	1m51.173s
+sys	0m10.065s

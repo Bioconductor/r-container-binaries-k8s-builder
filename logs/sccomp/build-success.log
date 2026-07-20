@@ -1,0 +1,95 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''sccomp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'sccomp'
+also installing the dependencies ‘ttservice’, ‘instantiate’, ‘tidyseurat’, ‘tidySingleCellExperiment’, ‘bayesplot’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ttservice_0.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/instantiate_0.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidyseurat_0.8.10.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/tidySingleCellExperiment_1.23.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bayesplot_1.15.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/sccomp_2.5.0.tar.gz'
+* installing *binary* package ‘ttservice’ ...
+* package ‘ttservice’ successfully unpacked and SHA256 sums checked
+* ‘ttservice’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ttservice’ as ‘ttservice_0.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ttservice)
+* installing *binary* package ‘instantiate’ ...
+* package ‘instantiate’ successfully unpacked and SHA256 sums checked
+* ‘instantiate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘instantiate’ as ‘instantiate_0.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (instantiate)
+* installing *binary* package ‘bayesplot’ ...
+* package ‘bayesplot’ successfully unpacked and SHA256 sums checked
+* ‘bayesplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bayesplot’ as ‘bayesplot_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bayesplot)
+* installing *binary* package ‘tidyseurat’ ...
+* package ‘tidyseurat’ successfully unpacked and SHA256 sums checked
+* ‘tidyseurat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidyseurat’ as ‘tidyseurat_0.8.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyseurat)
+* installing *source* package ‘tidySingleCellExperiment’ ...
+** this is package ‘tidySingleCellExperiment’ version ‘1.23.0’
+** package ‘tidySingleCellExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidySingleCellExperiment’ as ‘tidySingleCellExperiment_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidySingleCellExperiment)
+Warning: SystemRequirements specified C++14: support has been removed
+* installing *source* package ‘sccomp’ ...
+** this is package ‘sccomp’ version ‘2.5.0’
+** package ‘sccomp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sccomp’ as ‘sccomp_2.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sccomp)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0PRV2N/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m15.935s
+user	0m57.842s
+sys	0m8.671s

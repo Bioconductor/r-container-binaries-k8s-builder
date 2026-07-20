@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HiCcompare'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HiCcompare'
+also installing the dependencies ‘qqman’, ‘multiHiCcompare’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qqman_0.1.9.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/multiHiCcompare_1.31.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/HiCcompare_1.35.0.tar.gz'
+* installing *binary* package ‘qqman’ ...
+* package ‘qqman’ successfully unpacked and SHA256 sums checked
+* ‘qqman’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qqman’ as ‘qqman_0.1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qqman)
+* installing *source* package ‘HiCcompare’ ...
+** this is package ‘HiCcompare’ version ‘1.35.0’
+** package ‘HiCcompare’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to 'ceiling' 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HiCcompare’ as ‘HiCcompare_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HiCcompare)
+* installing *source* package ‘multiHiCcompare’ ...
+** this is package ‘multiHiCcompare’ version ‘1.31.1’
+** package ‘multiHiCcompare’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multiHiCcompare’ as ‘multiHiCcompare_1.31.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multiHiCcompare)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp8g23Zx/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m13.735s
+user	1m2.193s
+sys	0m7.809s

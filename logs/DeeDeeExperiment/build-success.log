@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DeeDeeExperiment'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DeeDeeExperiment'
+also installing the dependencies ‘blme’, ‘DEFormats’, ‘muscat’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/blme_1.0-7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DEFormats_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/muscat_1.27.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DeeDeeExperiment_1.3.0.tar.gz'
+* installing *binary* package ‘blme’ ...
+* package ‘blme’ successfully unpacked and SHA256 sums checked
+* ‘blme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘blme’ as ‘blme_1.0-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (blme)
+* installing *source* package ‘DEFormats’ ...
+** this is package ‘DEFormats’ version ‘1.41.0’
+** package ‘DEFormats’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘DGEList’ from ‘edgeR’ in package ‘DEFormats’
+    (from the saved implicit definition)
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DEFormats’ as ‘DEFormats_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEFormats)
+* installing *source* package ‘DeeDeeExperiment’ ...
+** this is package ‘DeeDeeExperiment’ version ‘1.3.0’
+** package ‘DeeDeeExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DeeDeeExperiment’ as ‘DeeDeeExperiment_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DeeDeeExperiment)
+* installing *source* package ‘muscat’ ...
+** this is package ‘muscat’ version ‘1.27.4’
+** package ‘muscat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘muscat’ as ‘muscat_1.27.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (muscat)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1WGqyH/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m35.536s
+user	1m23.327s
+sys	0m10.764s
