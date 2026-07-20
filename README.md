@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1804 (76%)
-- **Failed:** 30 (1%)
-- **In Progress:** 74
-- **Not Started:** 438
+- **Successfully Built:** 1835 (78%)
+- **Failed:** 31 (1%)
+- **In Progress:** 50
+- **Not Started:** 430
 
-**Progress:** 78%
+**Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1804)
+## Successfully Built Packages (1835)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,9 +44,9 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
-| [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
+| [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 
-*... and 1754 more ...*
+*... and 1785 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (30)
+## Failed Packages (31)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -103,6 +103,7 @@
 | [jazzPanda](https://bioconductor.org/packages/3.24/bioc/html/jazzPanda.html) | [log](logs/jazzPanda/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/jazzPanda) | Build failed with unknown error |
 | [maPredictDSC](https://bioconductor.org/packages/3.24/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.24/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
+| [miRSM](https://bioconductor.org/packages/3.24/bioc/html/miRSM.html) | [log](logs/miRSM/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/miRSM) | Build failed with unknown error |
 | [pRoloc](https://bioconductor.org/packages/3.24/bioc/html/pRoloc.html) | [log](logs/pRoloc/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/pRoloc) | Build failed with unknown error |
 | [scAnnotatR](https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
 | [scGPS](https://bioconductor.org/packages/3.24/bioc/html/scGPS.html) | [log](logs/scGPS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scGPS) | Build failed with unknown error |
@@ -111,61 +112,59 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (74)
-- ⏳ `AUCell`
+## In Progress (50)
 - ⏳ `BSgenome`
-- ⏳ `BiSeq`
 - ⏳ `CARDspa`
-- ⏳ `CNEr`
 - ⏳ `CNVRanger`
 - ⏳ `CTSV`
-- ⏳ `CTdata`
 - ⏳ `CatsCradle`
-- ⏳ `CellTrails`
 - ⏳ `CoGAPS`
 - ⏳ `CoverageView`
 - ⏳ `DAssemble`
 - ⏳ `DMCHMM`
 - ⏳ `DeconvoBuddies`
-- ⏳ `EGSEA`
-- ⏳ `ERSSA`
 - ⏳ `ExCluster`
 - ⏳ `ExperimentSubset`
 - ⏳ `GenomicFeatures`
 - ⏳ `HiTC`
-- ⏳ `MGnifyR`
 - ⏳ `NetActivity`
 - ⏳ `PMScanR`
 - ⏳ `PREDA`
-- ⏳ `SC3`
 - ⏳ `SCANVIS`
-- ⏳ `SIM`
-- ⏳ `SingleCellSignalR`
-- ⏳ `airpart`
-- ⏳ `attract`
-- ⏳ `blacksheepr`
-- ⏳ `categoryCompare`
-- ⏳ `dar`
-- ⏳ `debrowser`
+- ⏳ `STADyUM`
 - ⏳ `decontX`
 - ⏳ `divergence`
 - ⏳ `easylift`
 - ⏳ `epidecodeR`
-- ⏳ `gDRcore`
-- ⏳ `gDRimport`
 - ⏳ `gVenn`
 - ⏳ `hicVennDiagram`
 - ⏳ `iSEEhex`
 - ⏳ `iSEEindex`
-- ⏳ `immGLIPH`
-- ⏳ `immLynx`
-- ⏳ `lefser`
 - ⏳ `metagene2`
 - ⏳ `methylKit`
+- ⏳ `mist`
+- ⏳ `mobileRNA`
+- ⏳ `netSmooth`
+- ⏳ `nullranges`
+- ⏳ `oligoClasses`
+- ⏳ `plotgardener`
+- ⏳ `plyinteractions`
+- ⏳ `r3Cseq`
+- ⏳ `recount3`
+- ⏳ `rifi`
+- ⏳ `rifiComparative`
+- ⏳ `rmspc`
+- ⏳ `roar`
+- ⏳ `scDblFinder`
+- ⏳ `scTensor`
+- ⏳ `seqsetvis`
+- ⏳ `sevenC`
+- ⏳ `stPipe`
+- ⏳ `tidyCoverage`
+- ⏳ `tidyomics`
+- ⏳ `visiumStitched`
 
-... and 24 more ...
-
-## Not Yet Started (438)
+## Not Yet Started (430)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -217,8 +216,8 @@
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
 
-... and 388 more ...
+... and 380 more ...
 
 ---
-*Last updated: 2026-07-20 21:25:22 UTC*
-*Packages with verified BBS status: 231*
+*Last updated: 2026-07-20 21:26:52 UTC*
+*Packages with verified BBS status: 233*

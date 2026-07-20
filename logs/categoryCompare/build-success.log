@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''categoryCompare'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'categoryCompare'
+also installing the dependency ‘estrogen’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/estrogen_1.59.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/categoryCompare_1.57.0.tar.gz'
+* installing *source* package ‘estrogen’ ...
+** this is package ‘estrogen’ version ‘1.59.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘estrogen’ as ‘estrogen_1.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (estrogen)
+* installing *source* package ‘categoryCompare’ ...
+** this is package ‘categoryCompare’ version ‘1.57.0’
+** package ‘categoryCompare’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Note: ... may be used in an incorrect context 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘categoryCompare’ as ‘categoryCompare_1.57.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (categoryCompare)
+
+The downloaded source packages are in
+	‘/tmp/RtmpwOwP7p/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m11.382s
+user	0m56.658s
+sys	0m6.816s

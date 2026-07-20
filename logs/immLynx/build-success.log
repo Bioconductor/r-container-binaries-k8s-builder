@@ -1,0 +1,41 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''immLynx'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'immLynx'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/immLynx_1.1.0.tar.gz'
+Content type 'application/x-gzip' length 955578 bytes (933 KB)
+==================================================
+downloaded 933 KB
+
+* installing *source* package ‘immLynx’ ...
+** this is package ‘immLynx’ version ‘1.1.0’
+** package ‘immLynx’ successfully unpacked and MD5 sums checked
+** using non-staged installation via StagedInstall field
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* SHA256 sums
+* creating tarball
+packaged installation of ‘immLynx’ as ‘immLynx_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (immLynx)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpvx7lKT/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m39.380s
+user	0m22.921s
+sys	0m4.707s
