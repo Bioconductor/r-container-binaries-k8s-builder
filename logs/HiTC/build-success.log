@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HiTC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HiTC'
+also installing the dependency ‘HiCDataHumanIMR90’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/HiCDataHumanIMR90_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/HiTC_1.56.0.tar.gz'
+* installing *source* package ‘HiCDataHumanIMR90’ ...
+** this is package ‘HiCDataHumanIMR90’ version ‘1.32.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HiCDataHumanIMR90’ as ‘HiCDataHumanIMR90_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HiCDataHumanIMR90)
+* installing *source* package ‘HiTC’ ...
+** this is package ‘HiTC’ version ‘1.56.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HiTC’ as ‘HiTC_1.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HiTC)
+
+The downloaded source packages are in
+	‘/tmp/Rtmph7PN5J/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m56.739s
+user	0m45.954s
+sys	0m6.888s

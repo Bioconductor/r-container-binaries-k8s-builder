@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SurfR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SurfR'
+also installing the dependencies ‘assertr’, ‘metaRNASeq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/assertr_3.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metaRNASeq_1.0.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SurfR_1.8.0.tar.gz'
+* installing *binary* package ‘assertr’ ...
+* package ‘assertr’ successfully unpacked and SHA256 sums checked
+* ‘assertr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘assertr’ as ‘assertr_3.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertr)
+* installing *binary* package ‘metaRNASeq’ ...
+* package ‘metaRNASeq’ successfully unpacked and SHA256 sums checked
+* ‘metaRNASeq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metaRNASeq’ as ‘metaRNASeq_1.0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metaRNASeq)
+* installing *source* package ‘SurfR’ ...
+** this is package ‘SurfR’ version ‘1.8.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SurfR’ as ‘SurfR_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SurfR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpc2B6Sq/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m51.044s
+user	0m40.348s
+sys	0m5.965s

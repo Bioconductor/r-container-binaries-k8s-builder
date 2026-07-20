@@ -1,0 +1,33 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SpectralTAD'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SpectralTAD'
+Warning: dependency ‘PRIMME’ is not available
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SpectralTAD_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 1563641 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+ERROR: dependency ‘PRIMME’ is not available for package ‘SpectralTAD’
+Perhaps try a variation of:
+install.packages('PRIMME')
+* removing ‘/tmp/library/SpectralTAD’
+
+The downloaded source packages are in
+	‘/tmp/RtmpZ4lXoU/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘SpectralTAD’ had non-zero exit status
+
+real	0m15.591s
+user	0m7.744s
+sys	0m2.405s
