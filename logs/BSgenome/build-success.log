@@ -1,0 +1,158 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BSgenome'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BSgenome'
+also installing the dependencies ‘BSgenome.Hsapiens.UCSC.hg38.masked’, ‘BSgenome.Rnorvegicus.UCSC.rn5’, ‘BSgenome.Scerevisiae.UCSC.sacCer1’, ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’, ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’, ‘BSgenomeForge’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38.masked_1.4.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Rnorvegicus.UCSC.rn5_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer1_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.20.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/XtraSNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BSgenomeForge_1.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BSgenome_1.81.0.tar.gz'
+* installing *source* package ‘BSgenome’ ...
+** this is package ‘BSgenome’ version ‘1.81.0’
+** package ‘BSgenome’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome’ as ‘BSgenome_1.81.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome)
+* installing *source* package ‘BSgenome.Hsapiens.UCSC.hg38.masked’ ...
+** this is package ‘BSgenome.Hsapiens.UCSC.hg38.masked’ version ‘1.4.5’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.UCSC.hg38.masked’ as ‘BSgenome.Hsapiens.UCSC.hg38.masked_1.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.UCSC.hg38.masked)
+* installing *source* package ‘BSgenome.Rnorvegicus.UCSC.rn5’ ...
+** this is package ‘BSgenome.Rnorvegicus.UCSC.rn5’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Rnorvegicus.UCSC.rn5’ as ‘BSgenome.Rnorvegicus.UCSC.rn5_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Rnorvegicus.UCSC.rn5)
+* installing *source* package ‘BSgenome.Scerevisiae.UCSC.sacCer1’ ...
+** this is package ‘BSgenome.Scerevisiae.UCSC.sacCer1’ version ‘1.4.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Scerevisiae.UCSC.sacCer1’ as ‘BSgenome.Scerevisiae.UCSC.sacCer1_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Scerevisiae.UCSC.sacCer1)
+* installing *source* package ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’ ...
+** this is package ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’ version ‘0.99.20’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’ as ‘SNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SNPlocs.Hsapiens.dbSNP144.GRCh38)
+* installing *source* package ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’ ...
+** this is package ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’ version ‘0.99.12’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::data’ by ‘BiocGenerics::data’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’ as ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XtraSNPlocs.Hsapiens.dbSNP144.GRCh38)
+* installing *source* package ‘BSgenomeForge’ ...
+** this is package ‘BSgenomeForge’ version ‘1.13.0’
+** package ‘BSgenomeForge’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘forgeBSgenomeDataPkg’ in package ‘BSgenomeForge’
+Creating a new generic function for ‘forgeMaskedBSgenomeDataPkg’ in package ‘BSgenomeForge’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenomeForge’ as ‘BSgenomeForge_1.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenomeForge)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4ABXF8/downloaded_packages’
+Old packages: 'diffobj'
+
+real	6m21.763s
+user	5m21.983s
+sys	0m34.781s
