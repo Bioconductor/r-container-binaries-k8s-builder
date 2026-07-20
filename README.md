@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2198 (92%)
+- **Successfully Built:** 2207 (92%)
 - **Failed:** 53 (2%)
-- **In Progress:** 44
+- **In Progress:** 35
 - **Not Started:** 89
 
 **Progress:** 94%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2198)
+## Successfully Built Packages (2207)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2148 more ...*
+*... and 2157 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vmrseq](https://bioconductor.org/packages/3.23/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.23/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.23/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vtpnet) |
 | [vulcan](https://bioconductor.org/packages/3.23/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vulcan) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
+| [wateRmelon](https://bioconductor.org/packages/3.23/bioc/html/wateRmelon.html) | [log](logs/wateRmelon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wateRmelon) |
 | [wavClusteR](https://bioconductor.org/packages/3.23/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 | [webbioc](https://bioconductor.org/packages/3.23/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/webbioc) |
@@ -134,15 +134,13 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (44)
-- ⏳ `FRASER`
+## In Progress (35)
 - ⏳ `Guitar`
 - ⏳ `MungeSumstats`
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `SpaceTrooper`
-- ⏳ `UPDhmm`
 - ⏳ `Uniquorn`
 - ⏳ `VariantTools`
 - ⏳ `alabaster`
@@ -160,24 +158,17 @@
 - ⏳ `derfinder`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `epiregulon`
-- ⏳ `epivizrStandalone`
-- ⏳ `ideal`
 - ⏳ `magpie`
 - ⏳ `metaseqR2`
-- ⏳ `missMethyl`
 - ⏳ `octad`
 - ⏳ `pcaExplorer`
-- ⏳ `ribosomeProfilingQC`
 - ⏳ `scCB2`
 - ⏳ `scPipe`
 - ⏳ `scTreeViz`
 - ⏳ `scider`
-- ⏳ `scone`
-- ⏳ `standR`
 - ⏳ `svaNUMT`
 - ⏳ `svaRetro`
 - ⏳ `visiumStitched`
-- ⏳ `wateRmelon`
 - ⏳ `yarn`
 
 ## Not Yet Started (89)
@@ -235,5 +226,5 @@
 ... and 39 more ...
 
 ---
-*Last updated: 2026-07-20 21:46:15 UTC*
-*Packages with verified BBS status: 240*
+*Last updated: 2026-07-20 21:47:04 UTC*
+*Packages with verified BBS status: 241*
