@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 765 (32%)
+- **Successfully Built:** 785 (33%)
 - **Failed:** 6 (0%)
-- **In Progress:** 8
-- **Not Started:** 1567
+- **In Progress:** 16
+- **Not Started:** 1539
 
-**Progress:** 32%
+**Progress:** 33%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (765)
+## Successfully Built Packages (785)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 715 more ...*
+*... and 735 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,17 +87,25 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (8)
-- ⏳ `FlowSOM`
+## In Progress (16)
+- ⏳ `Aerith`
+- ⏳ `Biostrings`
+- ⏳ `Chromatograms`
+- ⏳ `DelayedArray`
+- ⏳ `GenomeInfoDb`
+- ⏳ `GenomicRanges`
 - ⏳ `InteractiveComplexHeatmap`
+- ⏳ `SpectriPy`
+- ⏳ `TargetDecoy`
 - ⏳ `cola`
-- ⏳ `flowClust`
 - ⏳ `frmaTools`
-- ⏳ `monocle`
-- ⏳ `simona`
-- ⏳ `tidyFlowCore`
+- ⏳ `h5mread`
+- ⏳ `ldblock`
+- ⏳ `msPurity`
+- ⏳ `nempi`
+- ⏳ `optimalFlow`
 
-## Not Yet Started (1567)
+## Not Yet Started (1539)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -115,7 +123,6 @@
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
-- ⏸️ `Aerith`
 - ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -148,9 +155,10 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
 - ⏸️ `Banksy`
+- ⏸️ `Basic4Cseq`
 
-... and 1517 more ...
+... and 1489 more ...
 
 ---
-*Last updated: 2026-07-20 20:14:44 UTC*
+*Last updated: 2026-07-20 20:16:06 UTC*
 *Packages with verified BBS status: 168*
