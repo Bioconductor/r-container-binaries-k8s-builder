@@ -1,0 +1,261 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Polytect'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Polytect'
+also installing the dependencies ‘hexbin’, ‘IDPmisc’, ‘cytolib’, ‘flowViz’, ‘mlr’, ‘parallelMap’, ‘fastmatch’, ‘clue’, ‘flowCore’, ‘flowDensity’, ‘SamSPECTRAL’, ‘sn’, ‘mlrMBO’, ‘DiceKriging’, ‘smoof’, ‘ParamHelpers’, ‘lhs’, ‘rgenoud’, ‘ddPCRclust’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hexbin_1.28.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/IDPmisc_1.1.21.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/cytolib_2.24.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowViz_1.76.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr_2.19.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parallelMap_1.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fastmatch_1.1-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clue_0.3-68.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowCore_2.24.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/flowDensity_1.46.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SamSPECTRAL_1.66.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sn_2.1.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlrMBO_1.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DiceKriging_1.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/smoof_1.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ParamHelpers_1.14.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lhs_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rgenoud_5.9-0.11.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ddPCRclust_1.32.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Polytect_1.4.0.tar.gz'
+* installing *binary* package ‘hexbin’ ...
+* package ‘hexbin’ successfully unpacked and SHA256 sums checked
+* ‘hexbin’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hexbin’ as ‘hexbin_1.28.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hexbin)
+* installing *binary* package ‘IDPmisc’ ...
+* package ‘IDPmisc’ successfully unpacked and SHA256 sums checked
+* ‘IDPmisc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IDPmisc’ as ‘IDPmisc_1.1.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IDPmisc)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘cytolib’ ...
+** this is package ‘cytolib’ version ‘2.24.0’
+** using staged installation
+checking for a sed that does not truncate output... /usr/bin/sed
+'config' variable 'CXX11FLAGS' is defunct
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++20 accepts -g... yes
+checking how to run the C++ preprocessor... g++ -std=gnu++20 -E
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ -std=gnu++20 accepts -g... (cached) yes
+configure: Parsing cytolib version info ...
+configure: CYTOLIB_VERSION=2.24.0
+configure: creating ./config.status
+config.status: creating inst/include/cytolib/cytolibConfig.h
+config.status: creating src/Makevars
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dummy.cpp -o dummy.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/system/src/error_code.cpp -o boost/libs/system/src/error_code.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/codecvt_error_category.cpp -o boost/libs/filesystem/src/codecvt_error_category.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/directory.cpp -o boost/libs/filesystem/src/directory.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/exception.cpp -o boost/libs/filesystem/src/exception.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/operations.cpp -o boost/libs/filesystem/src/operations.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/path.cpp -o boost/libs/filesystem/src/path.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/path_traits.cpp -o boost/libs/filesystem/src/path_traits.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/portability.cpp -o boost/libs/filesystem/src/portability.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/unique_path.cpp -o boost/libs/filesystem/src/unique_path.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/utf8_codecvt_facet.cpp -o boost/libs/filesystem/src/utf8_codecvt_facet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/windows_file_codecvt.cpp -o boost/libs/filesystem/src/windows_file_codecvt.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CytoFrame.cpp -o CytoFrame.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CytoFrameView.cpp -o CytoFrameView.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c CytoVFS.cpp -o CytoVFS.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -DROUT -I../inst/include -w -Wfatal-errors -DBOOST_NO_AUTO_PTR -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF -DBOOST_FILESYSTEM_SINGLE_THREADED  -I'/mnt/library/BH/include' -I'/mnt/library/RProtoBufLib/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c GatingHierarchy.cpp -o GatingHierarchy.o
+In file included from /mnt/library/BH/include/boost/multi_index/detail/index_base.hpp:35,
+                 from /mnt/library/BH/include/boost/multi_index/detail/base_type.hpp:21,
+                 from /mnt/library/BH/include/boost/multi_index_container.hpp:36,
+                 from /mnt/library/BH/include/boost/graph/named_graph.hpp:20,
+                 from /mnt/library/BH/include/boost/graph/adjacency_list.hpp:36,
+                 from ../inst/include/cytolib/populationTree.hpp:14,
+                 from ../inst/include/cytolib/GatingHierarchy.hpp:17,
+                 from GatingHierarchy.cpp:3:
+/mnt/library/BH/include/boost/multi_index/detail/index_saver.hpp:126:3: error: ‘index_matcher’ does not name a type; did you mean ‘index_saver’?
+  126 |   index_matcher::algorithm<Node,Allocator> alg;
+      |   ^~~~~~~~~~~~~
+      |   index_saver
+compilation terminated due to -Wfatal-errors.
+make: *** [/usr/local/lib/R/etc/Makeconf:199: GatingHierarchy.o] Error 1
+ERROR: compilation failed for package ‘cytolib’
+* removing ‘/tmp/library/cytolib’
+* installing *binary* package ‘parallelMap’ ...
+* package ‘parallelMap’ successfully unpacked and SHA256 sums checked
+* ‘parallelMap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parallelMap’ as ‘parallelMap_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelMap)
+* installing *binary* package ‘fastmatch’ ...
+* package ‘fastmatch’ successfully unpacked and SHA256 sums checked
+* ‘fastmatch’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastmatch’ as ‘fastmatch_1.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastmatch)
+* installing *binary* package ‘clue’ ...
+* package ‘clue’ successfully unpacked and SHA256 sums checked
+* ‘clue’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clue’ as ‘clue_0.3-68_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clue)
+* installing *source* package ‘SamSPECTRAL’ ...
+** this is package ‘SamSPECTRAL’ version ‘1.66.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c conductance_computation.c -o conductance_computation.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c maximum_of_rows.c -o maximum_of_rows.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SamSPECTRAL.so Rinit.o conductance_computation.o maximum_of_rows.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SamSPECTRAL/00new/SamSPECTRAL/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SamSPECTRAL’ as ‘SamSPECTRAL_1.66.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SamSPECTRAL)
+* installing *binary* package ‘sn’ ...
+* package ‘sn’ successfully unpacked and SHA256 sums checked
+* ‘sn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sn’ as ‘sn_2.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sn)
+* installing *binary* package ‘DiceKriging’ ...
+* package ‘DiceKriging’ successfully unpacked and SHA256 sums checked
+* ‘DiceKriging’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DiceKriging’ as ‘DiceKriging_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiceKriging)
+* installing *binary* package ‘lhs’ ...
+* package ‘lhs’ successfully unpacked and SHA256 sums checked
+* ‘lhs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lhs’ as ‘lhs_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lhs)
+* installing *binary* package ‘rgenoud’ ...
+* package ‘rgenoud’ successfully unpacked and SHA256 sums checked
+* ‘rgenoud’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rgenoud’ as ‘rgenoud_5.9-0.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rgenoud)
+ERROR: dependency ‘cytolib’ is not available for package ‘flowCore’
+Perhaps try a variation of:
+install.packages('cytolib')
+* removing ‘/tmp/library/flowCore’
+* installing *binary* package ‘ParamHelpers’ ...
+* package ‘ParamHelpers’ successfully unpacked and SHA256 sums checked
+* ‘ParamHelpers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ParamHelpers’ as ‘ParamHelpers_1.14.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ParamHelpers)
+ERROR: dependency ‘flowCore’ is not available for package ‘flowViz’
+Perhaps try a variation of:
+install.packages('flowCore')
+* removing ‘/tmp/library/flowViz’
+* installing *binary* package ‘mlr’ ...
+* package ‘mlr’ successfully unpacked and SHA256 sums checked
+* ‘mlr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr’ as ‘mlr_2.19.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr)
+* installing *binary* package ‘smoof’ ...
+* package ‘smoof’ successfully unpacked and SHA256 sums checked
+* ‘smoof’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘smoof’ as ‘smoof_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (smoof)
+Warning: SystemRequirements specified C++11: support has been removed
+ERROR: dependencies ‘flowCore’, ‘flowViz’ are not available for package ‘flowDensity’
+Perhaps try a variation of:
+install.packages(c('flowCore', 'flowViz'))
+* removing ‘/tmp/library/flowDensity’
+* installing *binary* package ‘mlrMBO’ ...
+* package ‘mlrMBO’ successfully unpacked and SHA256 sums checked
+* ‘mlrMBO’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlrMBO’ as ‘mlrMBO_1.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlrMBO)
+ERROR: dependencies ‘flowCore’, ‘flowDensity’ are not available for package ‘ddPCRclust’
+Perhaps try a variation of:
+install.packages(c('flowCore', 'flowDensity'))
+* removing ‘/tmp/library/ddPCRclust’
+* installing *source* package ‘Polytect’ ...
+** this is package ‘Polytect’ version ‘1.4.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Polytect’ as ‘Polytect_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Polytect)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPZ9pRD/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘cytolib’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘flowCore’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘flowViz’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘flowDensity’ had non-zero exit status
+5: In install.packages(...) :
+  installation of package ‘ddPCRclust’ had non-zero exit status
+
+real	3m47.038s
+user	1m0.142s
+sys	0m15.518s

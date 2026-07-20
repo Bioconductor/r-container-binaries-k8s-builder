@@ -1,0 +1,43 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pickgene'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pickgene'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/pickgene_1.84.0.tar.gz'
+Content type 'application/x-gzip' length 312367 bytes (305 KB)
+==================================================
+downloaded 305 KB
+
+* installing *source* package ‘pickgene’ ...
+** this is package ‘pickgene’ version ‘1.84.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: possible error in 'oddsplot(exp(data[[x]]), ': unused argument (chip = "") 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pickgene’ as ‘pickgene_1.84.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pickgene)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHjAp3M/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m41.536s
+user	0m5.341s
+sys	0m2.602s
