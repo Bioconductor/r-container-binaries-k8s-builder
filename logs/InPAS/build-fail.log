@@ -1,0 +1,32 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''InPAS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'InPAS'
+Warning: dependency ‘depmixS4’ is not available
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/InPAS_2.21.0.tar.gz'
+Content type 'application/x-gzip' length 1500379 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+ERROR: dependency ‘depmixS4’ is not available for package ‘InPAS’
+Perhaps try a variation of:
+install.packages('depmixS4')
+* removing ‘/tmp/library/InPAS’
+
+The downloaded source packages are in
+	‘/tmp/RtmpS7Dug0/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘InPAS’ had non-zero exit status
+
+real	0m15.654s
+user	0m8.252s
+sys	0m2.728s

@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2199 (93%)
-- **Failed:** 37 (1%)
-- **In Progress:** 32
-- **Not Started:** 78
+- **Successfully Built:** 2222 (94%)
+- **Failed:** 38 (1%)
+- **In Progress:** 27
+- **Not Started:** 59
 
-**Progress:** 95%
+**Progress:** 96%
 ```
-███████████████████████████████████████████████░░░
+████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2199)
+## Successfully Built Packages (2222)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ASpli](https://bioconductor.org/packages/3.24/bioc/html/ASpli.html) | [log](logs/ASpli/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASpli) |
 
-*... and 2149 more ...*
+*... and 2172 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (37)
+## Failed Packages (38)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -87,6 +87,7 @@
 | [HPiP](https://bioconductor.org/packages/3.24/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HPiP) | Missing R dependency: SparseArray<br>Missing R dependency: recipes |
 | [HiTC](https://bioconductor.org/packages/3.24/bioc/html/HiTC.html) | [log](logs/HiTC/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HiTC) | Build failed with unknown error |
 | [IFAA](https://bioconductor.org/packages/3.24/bioc/html/IFAA.html) | [log](logs/IFAA/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IFAA) | Missing dependency: HDCI<br>[CRAN Package 'HDCI'](https://cran.r-project.org/web/packages/HDCI/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [InPAS](https://bioconductor.org/packages/3.24/bioc/html/InPAS.html) | [log](logs/InPAS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/InPAS) | Missing dependency: depmixS4<br>[CRAN Package 'depmixS4'](https://cran.r-project.org/web/packages/depmixS4/index.html) archived on 2026-07-04 as issues were not corrected in time. |
 | [MAI](https://bioconductor.org/packages/3.24/bioc/html/MAI.html) | [log](logs/MAI/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/MAI) | Missing R dependency: ModelMetrics |
 | [MAIT](https://bioconductor.org/packages/3.24/bioc/html/MAIT.html) | [log](logs/MAIT/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/MAIT) | Missing R dependency: ModelMetrics |
 | [MLSeq](https://bioconductor.org/packages/3.24/bioc/html/MLSeq.html) | [log](logs/MLSeq/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/MLSeq) | Missing R dependency: ModelMetrics |
@@ -118,82 +119,61 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (32)
+## In Progress (27)
+- ⏳ `AHMassBank`
+- ⏳ `CAGEfightR`
+- ⏳ `CNVfilteR`
+- ⏳ `COCOA`
 - ⏳ `DaMiRseq`
-- ⏳ `Damsel`
-- ⏳ `ITALICS`
-- ⏳ `InPAS`
+- ⏳ `DrugVsDisease`
+- ⏳ `ExperimentHubData`
+- ⏳ `HiCDCPlus`
+- ⏳ `HiCaptuRe`
 - ⏳ `MungeSumstats`
-- ⏳ `UMI4Cats`
+- ⏳ `NADfinder`
+- ⏳ `RNAmodR.AlkAnilineSeq`
+- ⏳ `RNAmodR.ML`
+- ⏳ `RNAmodR.RiboMethSeq`
 - ⏳ `VariantTools`
+- ⏳ `YAPSA`
+- ⏳ `affycoretools`
+- ⏳ `annoLinker`
 - ⏳ `annotatr`
-- ⏳ `biomvRCNS`
-- ⏳ `chevreulShiny`
-- ⏳ `chimeraviz`
-- ⏳ `cicero`
-- ⏳ `comapr`
-- ⏳ `crisprViz`
+- ⏳ `carnation`
 - ⏳ `decemedip`
-- ⏳ `derfinderPlot`
-- ⏳ `epivizrStandalone`
-- ⏳ `fourSynergy`
-- ⏳ `frma`
-- ⏳ `intansv`
+- ⏳ `geomeTriD`
 - ⏳ `mCSEA`
-- ⏳ `maser`
-- ⏳ `methylPipe`
-- ⏳ `mimager`
 - ⏳ `minfi`
 - ⏳ `motifbreakR`
-- ⏳ `msgbsR`
-- ⏳ `primirTSS`
-- ⏳ `puma`
-- ⏳ `recount`
-- ⏳ `scTreeViz`
-- ⏳ `srnadiff`
+- ⏳ `preciseTAD`
+- ⏳ `saseR`
 
-## Not Yet Started (78)
-- ⏸️ `AHMassBank`
+## Not Yet Started (59)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CNVfilteR`
-- ⏸️ `COCOA`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
-- ⏸️ `DrugVsDisease`
 - ⏸️ `ENmix`
-- ⏸️ `ExperimentHubData`
 - ⏸️ `GARS`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
-- ⏸️ `HiCDCPlus`
-- ⏸️ `HiCaptuRe`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MethylAid`
-- ⏸️ `NADfinder`
 - ⏸️ `REMP`
 - ⏸️ `RNAAgeCalc`
-- ⏸️ `RNAmodR.AlkAnilineSeq`
-- ⏸️ `RNAmodR.ML`
-- ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
 - ⏸️ `SOMNiBUS`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
-- ⏸️ `YAPSA`
-- ⏸️ `affycoretools`
-- ⏸️ `annoLinker`
 - ⏸️ `arrayMvout`
 - ⏸️ `bandle`
 - ⏸️ `bigmelon`
 - ⏸️ `biscuiteer`
-- ⏸️ `carnation`
 - ⏸️ `compEpiTools`
 - ⏸️ `conumee`
 - ⏸️ `crisprShiny`
@@ -203,9 +183,25 @@
 - ⏸️ `dnaEPICO`
 - ⏸️ `epiRomics`
 - ⏸️ `epimutacions`
+- ⏸️ `ffpe`
+- ⏸️ `funtooNorm`
+- ⏸️ `iCheck`
+- ⏸️ `iNETgrate`
+- ⏸️ `imcRtools`
+- ⏸️ `lisaClust`
+- ⏸️ `lumi`
+- ⏸️ `methylCC`
+- ⏸️ `methylGSA`
+- ⏸️ `methylclock`
+- ⏸️ `methylumi`
+- ⏸️ `miRspongeR`
+- ⏸️ `missMethyl`
+- ⏸️ `pRolocGUI`
+- ⏸️ `psichomics`
+- ⏸️ `quantro`
 
-... and 28 more ...
+... and 9 more ...
 
 ---
-*Last updated: 2026-07-20 21:51:53 UTC*
-*Packages with verified BBS status: 247*
+*Last updated: 2026-07-20 21:53:36 UTC*
+*Packages with verified BBS status: 248*
