@@ -1,0 +1,152 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Polytect'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Polytect'
+also installing the dependencies ‘IDPmisc’, ‘flowViz’, ‘flowDensity’, ‘sn’, ‘DiceKriging’, ‘rgenoud’, ‘ddPCRclust’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/IDPmisc_1.1.21.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/flowViz_1.77.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/flowDensity_1.47.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sn_2.1.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DiceKriging_1.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rgenoud_5.9-0.11.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ddPCRclust_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Polytect_1.5.0.tar.gz'
+* installing *binary* package ‘IDPmisc’ ...
+* package ‘IDPmisc’ successfully unpacked and SHA256 sums checked
+* ‘IDPmisc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IDPmisc’ as ‘IDPmisc_1.1.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IDPmisc)
+* installing *binary* package ‘sn’ ...
+* package ‘sn’ successfully unpacked and SHA256 sums checked
+* ‘sn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sn’ as ‘sn_2.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sn)
+* installing *binary* package ‘DiceKriging’ ...
+* package ‘DiceKriging’ successfully unpacked and SHA256 sums checked
+* ‘DiceKriging’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DiceKriging’ as ‘DiceKriging_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiceKriging)
+* installing *binary* package ‘rgenoud’ ...
+* package ‘rgenoud’ successfully unpacked and SHA256 sums checked
+* ‘rgenoud’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rgenoud’ as ‘rgenoud_5.9-0.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rgenoud)
+* installing *source* package ‘flowViz’ ...
+** this is package ‘flowViz’ version ‘1.77.0’
+** package ‘flowViz’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘densityplot’ with signature ‘x="formula",data="view"’: no definition for class “view”
+in method for ‘densityplot’ with signature ‘x="formula",data="ncdfFlowSet"’: no definition for class “ncdfFlowSet”
+in method for ‘densityplot’ with signature ‘x="formula",data="ncdfFlowList"’: no definition for class “ncdfFlowList”
+in method for ‘histogram’ with signature ‘x="formula",data="ncdfFlowSet"’: no definition for class “ncdfFlowSet”
+in method for ‘histogram’ with signature ‘x="formula",data="ncdfFlowList"’: no definition for class “ncdfFlowList”
+in method for ‘glines’ with signature ‘x="norm2Filter",data="ANY"’: no definition for class “norm2Filter”
+in method for ‘glines’ with signature ‘x="norm2Filter",data="logicalFilterResult"’: no definition for class “norm2Filter”
+in method for ‘glines’ with signature ‘x="norm2Filter",data="flowFrame"’: no definition for class “norm2Filter”
+in method for ‘glpoints’ with signature ‘x="norm2Filter",data="flowFrame",channels="character"’: no definition for class “norm2Filter”
+in method for ‘glpolygon’ with signature ‘x="norm2Filter",data="ANY"’: no definition for class “norm2Filter”
+in method for ‘glpolygon’ with signature ‘x="norm2Filter",data="logicalFilterResult"’: no definition for class “norm2Filter”
+in method for ‘glpolygon’ with signature ‘x="norm2Filter",data="flowFrame"’: no definition for class “norm2Filter”
+in method for ‘gpoints’ with signature ‘x="norm2Filter",data="flowFrame",channels="character"’: no definition for class “norm2Filter”
+in method for ‘gpolygon’ with signature ‘x="norm2Filter",data="ANY"’: no definition for class “norm2Filter”
+in method for ‘gpolygon’ with signature ‘x="norm2Filter",data="logicalFilterResult"’: no definition for class “norm2Filter”
+in method for ‘gpolygon’ with signature ‘x="norm2Filter",data="flowFrame"’: no definition for class “norm2Filter”
+in method for ‘xyplot’ with signature ‘x="formula",data="view"’: no definition for class “view”
+in method for ‘xyplot’ with signature ‘x="view",data="missing"’: no definition for class “view”
+in method for ‘xyplot’ with signature ‘x="formula",data="gateView"’: no definition for class “gateView”
+in method for ‘xyplot’ with signature ‘x="formula",data="ncdfFlowSet"’: no definition for class “ncdfFlowSet”
+in method for ‘xyplot’ with signature ‘x="formula",data="ncdfFlowList"’: no definition for class “ncdfFlowList”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowViz’ as ‘flowViz_1.77.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowViz)
+* installing *source* package ‘Polytect’ ...
+** this is package ‘Polytect’ version ‘1.5.0’
+** package ‘Polytect’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Polytect’ as ‘Polytect_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Polytect)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘flowDensity’ ...
+** this is package ‘flowDensity’ version ‘1.47.0’
+** package ‘flowDensity’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flowDensity’ as ‘flowDensity_1.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flowDensity)
+* installing *source* package ‘ddPCRclust’ ...
+** this is package ‘ddPCRclust’ version ‘1.33.0’
+** package ‘ddPCRclust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ddPCRclust’ as ‘ddPCRclust_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ddPCRclust)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpm8Kuqt/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m47.006s
+user	0m40.034s
+sys	0m9.460s
