@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 488 (20%)
+- **Successfully Built:** 490 (20%)
 - **Failed:** 3 (0%)
-- **In Progress:** 13
+- **In Progress:** 11
 - **Not Started:** 1842
 
-**Progress:** 20%
+**Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (488)
+## Successfully Built Packages (490)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 
-*... and 438 more ...*
+*... and 440 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,13 +84,11 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (13)
-- ⏳ `BiocAzul`
+## In Progress (11)
 - ⏳ `BiocGenerics`
 - ⏳ `CytoGLMM`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `IntramiRExploreR`
 - ⏳ `Polytect`
 - ⏳ `Rhdf5lib`
 - ⏳ `Rigraphlib`
@@ -154,5 +152,5 @@
 ... and 1792 more ...
 
 ---
-*Last updated: 2026-07-20 19:49:31 UTC*
+*Last updated: 2026-07-20 19:50:09 UTC*
 *Packages with verified BBS status: 150*
