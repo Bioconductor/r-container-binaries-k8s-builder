@@ -1,0 +1,105 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''topconfects'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'topconfects'
+also installing the dependencies ‘truncnorm’, ‘mixsqp’, ‘etrunct’, ‘invgamma’, ‘ashr’, ‘NBPSeq’, ‘org.At.tair.db’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/truncnorm_1.0-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mixsqp_0.3-54.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/etrunct_0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/invgamma_1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ashr_2.2-63.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/NBPSeq_0.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/org.At.tair.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/topconfects_1.28.0.tar.gz'
+* installing *binary* package ‘truncnorm’ ...
+* package ‘truncnorm’ successfully unpacked and SHA256 sums checked
+* ‘truncnorm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘truncnorm’ as ‘truncnorm_1.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (truncnorm)
+* installing *binary* package ‘mixsqp’ ...
+* package ‘mixsqp’ successfully unpacked and SHA256 sums checked
+* ‘mixsqp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mixsqp’ as ‘mixsqp_0.3-54_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mixsqp)
+* installing *binary* package ‘etrunct’ ...
+* package ‘etrunct’ successfully unpacked and SHA256 sums checked
+* ‘etrunct’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘etrunct’ as ‘etrunct_0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (etrunct)
+* installing *binary* package ‘invgamma’ ...
+* package ‘invgamma’ successfully unpacked and SHA256 sums checked
+* ‘invgamma’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘invgamma’ as ‘invgamma_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (invgamma)
+* installing *binary* package ‘NBPSeq’ ...
+* package ‘NBPSeq’ successfully unpacked and SHA256 sums checked
+* ‘NBPSeq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NBPSeq’ as ‘NBPSeq_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NBPSeq)
+* installing *source* package ‘org.At.tair.db’ ...
+** this is package ‘org.At.tair.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+
+ *** caught segfault ***
+address 0x81a0, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘org.At.tair.db’
+* removing ‘/tmp/library/org.At.tair.db’
+* installing *source* package ‘topconfects’ ...
+** this is package ‘topconfects’ version ‘1.28.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘topconfects’ as ‘topconfects_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (topconfects)
+* installing *binary* package ‘ashr’ ...
+* package ‘ashr’ successfully unpacked and SHA256 sums checked
+* ‘ashr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ashr’ as ‘ashr_2.2-63_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ashr)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2kzoUm/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘org.At.tair.db’ had non-zero exit status
+
+real	0m59.512s
+user	0m20.079s
+sys	0m5.879s

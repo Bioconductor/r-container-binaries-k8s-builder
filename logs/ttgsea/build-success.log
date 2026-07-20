@@ -1,0 +1,298 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ttgsea'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ttgsea'
+also installing the dependencies ‘dtt’, ‘config’, ‘tfautograph’, ‘MatrixExtra’, ‘float’, ‘sylly.en’, ‘sylly’, ‘syuzhet’, ‘english’, ‘mgsub’, ‘qdapRegex’, ‘tensorflow’, ‘tfruns’, ‘zeallot’, ‘rsparse’, ‘mlapi’, ‘koRpus.lang.en’, ‘koRpus’, ‘lexicon’, ‘quanteda’, ‘textclean’, ‘textshape’, ‘ISOcodes’, ‘keras’, ‘text2vec’, ‘textstem’, ‘stopwords’, ‘DiagrammeR’, ‘fgsea’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dtt_0.1-2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/config_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tfautograph_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MatrixExtra_0.1.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/float_0.3-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sylly.en_0.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sylly_0.1-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/syuzhet_1.0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/english_1.2-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mgsub_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qdapRegex_0.7.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tensorflow_2.20.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tfruns_1.5.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/zeallot_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rsparse_0.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlapi_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/koRpus.lang.en_0.1-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/koRpus_0.13-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lexicon_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/quanteda_4.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textclean_0.9.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textshape_1.7.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ISOcodes_2026.03.28.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/keras_2.16.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/text2vec_0.6.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textstem_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stopwords_2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DiagrammeR_1.0.12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/fgsea_1.38.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ttgsea_1.20.0.tar.gz'
+* installing *binary* package ‘dtt’ ...
+* package ‘dtt’ successfully unpacked and SHA256 sums checked
+* ‘dtt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dtt’ as ‘dtt_0.1-2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dtt)
+* installing *binary* package ‘config’ ...
+* package ‘config’ successfully unpacked and SHA256 sums checked
+* ‘config’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘config’ as ‘config_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (config)
+* installing *binary* package ‘tfautograph’ ...
+* package ‘tfautograph’ successfully unpacked and SHA256 sums checked
+* ‘tfautograph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tfautograph’ as ‘tfautograph_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tfautograph)
+* installing *binary* package ‘float’ ...
+* package ‘float’ successfully unpacked and SHA256 sums checked
+* ‘float’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘float’ as ‘float_0.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (float)
+* installing *binary* package ‘sylly’ ...
+* package ‘sylly’ successfully unpacked and SHA256 sums checked
+* ‘sylly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sylly’ as ‘sylly_0.1-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sylly)
+* installing *binary* package ‘english’ ...
+* package ‘english’ successfully unpacked and SHA256 sums checked
+* ‘english’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘english’ as ‘english_1.2-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (english)
+* installing *binary* package ‘mgsub’ ...
+* package ‘mgsub’ successfully unpacked and SHA256 sums checked
+* ‘mgsub’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mgsub’ as ‘mgsub_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mgsub)
+* installing *binary* package ‘qdapRegex’ ...
+* package ‘qdapRegex’ successfully unpacked and SHA256 sums checked
+* ‘qdapRegex’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qdapRegex’ as ‘qdapRegex_0.7.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qdapRegex)
+* installing *binary* package ‘zeallot’ ...
+* package ‘zeallot’ successfully unpacked and SHA256 sums checked
+* ‘zeallot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zeallot’ as ‘zeallot_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zeallot)
+* installing *binary* package ‘mlapi’ ...
+* package ‘mlapi’ successfully unpacked and SHA256 sums checked
+* ‘mlapi’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlapi’ as ‘mlapi_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlapi)
+* installing *binary* package ‘textshape’ ...
+* package ‘textshape’ successfully unpacked and SHA256 sums checked
+* ‘textshape’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘textshape’ as ‘textshape_1.7.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (textshape)
+* installing *binary* package ‘ISOcodes’ ...
+* package ‘ISOcodes’ successfully unpacked and SHA256 sums checked
+* ‘ISOcodes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ISOcodes’ as ‘ISOcodes_2026.03.28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ISOcodes)
+* installing *binary* package ‘DiagrammeR’ ...
+* package ‘DiagrammeR’ successfully unpacked and SHA256 sums checked
+* ‘DiagrammeR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DiagrammeR’ as ‘DiagrammeR_1.0.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiagrammeR)
+* installing *source* package ‘fgsea’ ...
+** this is package ‘fgsea’ version ‘1.38.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ScoreCalculation.cpp -o ScoreCalculation.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ScoreRuler.cpp -o ScoreRuler.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c esCalculation.cpp -o esCalculation.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fastGSEA.cpp -o fastGSEA.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fgseaMultilevel.cpp -o fgseaMultilevel.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fgseaMultilevelSupplement.cpp -o fgseaMultilevelSupplement.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c geseca.cpp -o geseca.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/BH/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c util.cpp -o util.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fgsea.so RcppExports.o ScoreCalculation.o ScoreRuler.o esCalculation.o fastGSEA.o fgseaMultilevel.o fgseaMultilevelSupplement.o geseca.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-fgsea/00new/fgsea/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fgsea’ as ‘fgsea_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fgsea)
+* installing *binary* package ‘MatrixExtra’ ...
+* package ‘MatrixExtra’ successfully unpacked and SHA256 sums checked
+* ‘MatrixExtra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatrixExtra’ as ‘MatrixExtra_0.1.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixExtra)
+* installing *binary* package ‘sylly.en’ ...
+* package ‘sylly.en’ successfully unpacked and SHA256 sums checked
+* ‘sylly.en’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sylly.en’ as ‘sylly.en_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sylly.en)
+* installing *binary* package ‘syuzhet’ ...
+* package ‘syuzhet’ successfully unpacked and SHA256 sums checked
+* ‘syuzhet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘syuzhet’ as ‘syuzhet_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (syuzhet)
+* installing *binary* package ‘tfruns’ ...
+* package ‘tfruns’ successfully unpacked and SHA256 sums checked
+* ‘tfruns’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tfruns’ as ‘tfruns_1.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tfruns)
+* installing *binary* package ‘koRpus’ ...
+* package ‘koRpus’ successfully unpacked and SHA256 sums checked
+* ‘koRpus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘koRpus’ as ‘koRpus_0.13-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (koRpus)
+* installing *binary* package ‘stopwords’ ...
+* package ‘stopwords’ successfully unpacked and SHA256 sums checked
+* ‘stopwords’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stopwords’ as ‘stopwords_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stopwords)
+* installing *binary* package ‘tensorflow’ ...
+* package ‘tensorflow’ successfully unpacked and SHA256 sums checked
+* ‘tensorflow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tensorflow’ as ‘tensorflow_2.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensorflow)
+* installing *binary* package ‘rsparse’ ...
+* package ‘rsparse’ successfully unpacked and SHA256 sums checked
+* ‘rsparse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rsparse’ as ‘rsparse_0.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsparse)
+* installing *binary* package ‘koRpus.lang.en’ ...
+* package ‘koRpus.lang.en’ successfully unpacked and SHA256 sums checked
+* ‘koRpus.lang.en’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘koRpus.lang.en’ as ‘koRpus.lang.en_0.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (koRpus.lang.en)
+* installing *binary* package ‘lexicon’ ...
+* package ‘lexicon’ successfully unpacked and SHA256 sums checked
+* ‘lexicon’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lexicon’ as ‘lexicon_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lexicon)
+* installing *binary* package ‘quanteda’ ...
+* package ‘quanteda’ successfully unpacked and SHA256 sums checked
+* ‘quanteda’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘quanteda’ as ‘quanteda_4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quanteda)
+* installing *binary* package ‘textclean’ ...
+* package ‘textclean’ successfully unpacked and SHA256 sums checked
+* ‘textclean’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘textclean’ as ‘textclean_0.9.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (textclean)
+* installing *binary* package ‘keras’ ...
+* package ‘keras’ successfully unpacked and SHA256 sums checked
+* ‘keras’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘keras’ as ‘keras_2.16.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (keras)
+* installing *binary* package ‘text2vec’ ...
+* package ‘text2vec’ successfully unpacked and SHA256 sums checked
+* ‘text2vec’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘text2vec’ as ‘text2vec_0.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (text2vec)
+* installing *binary* package ‘textstem’ ...
+* package ‘textstem’ successfully unpacked and SHA256 sums checked
+* ‘textstem’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘textstem’ as ‘textstem_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (textstem)
+* installing *source* package ‘ttgsea’ ...
+** this is package ‘ttgsea’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ttgsea’ as ‘ttgsea_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ttgsea)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpid0rBj/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m23.018s
+user	0m57.212s
+sys	0m13.812s

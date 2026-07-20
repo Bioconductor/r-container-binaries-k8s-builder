@@ -1,0 +1,88 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ggtree'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ggtree'
+also installing the dependencies ‘showtextdb’, ‘showtext’, ‘sysfonts’, ‘emojifont’, ‘ggimage’, ‘shadowtext’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/showtextdb_3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/showtext_0.9-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sysfonts_0.8.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/emojifont_0.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggimage_0.3.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shadowtext_0.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ggtree_4.2.0.tar.gz'
+* installing *binary* package ‘sysfonts’ ...
+* package ‘sysfonts’ successfully unpacked and SHA256 sums checked
+* ‘sysfonts’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sysfonts’ as ‘sysfonts_0.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sysfonts)
+* installing *binary* package ‘ggimage’ ...
+* package ‘ggimage’ successfully unpacked and SHA256 sums checked
+* ‘ggimage’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggimage’ as ‘ggimage_0.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggimage)
+* installing *binary* package ‘shadowtext’ ...
+* package ‘shadowtext’ successfully unpacked and SHA256 sums checked
+* ‘shadowtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shadowtext’ as ‘shadowtext_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shadowtext)
+* installing *source* package ‘ggtree’ ...
+** this is package ‘ggtree’ version ‘4.2.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggtree’ as ‘ggtree_4.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtree)
+* installing *binary* package ‘showtextdb’ ...
+* package ‘showtextdb’ successfully unpacked and SHA256 sums checked
+* ‘showtextdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘showtextdb’ as ‘showtextdb_3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtextdb)
+* installing *binary* package ‘showtext’ ...
+* package ‘showtext’ successfully unpacked and SHA256 sums checked
+* ‘showtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘showtext’ as ‘showtext_0.9-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtext)
+* installing *binary* package ‘emojifont’ ...
+* package ‘emojifont’ successfully unpacked and SHA256 sums checked
+* ‘emojifont’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘emojifont’ as ‘emojifont_0.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emojifont)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpo1YVGV/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m46.338s
+user	0m15.720s
+sys	0m4.582s

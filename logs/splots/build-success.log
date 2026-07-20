@@ -1,0 +1,137 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''splots'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'splots'
+also installing the dependencies ‘tiff’, ‘fftwtools’, ‘geneplotter’, ‘vcd’, ‘EBImage’, ‘HD2013SGI’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tiff_0.1-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fftwtools_0.9-11.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/geneplotter_1.90.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/vcd_1.4-13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/EBImage_4.54.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/HD2013SGI_1.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/splots_1.78.0.tar.gz'
+* installing *binary* package ‘tiff’ ...
+* package ‘tiff’ successfully unpacked and SHA256 sums checked
+* ‘tiff’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tiff’ as ‘tiff_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiff)
+* installing *binary* package ‘fftwtools’ ...
+* package ‘fftwtools’ successfully unpacked and SHA256 sums checked
+* ‘fftwtools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fftwtools’ as ‘fftwtools_0.9-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fftwtools)
+* installing *source* package ‘geneplotter’ ...
+** this is package ‘geneplotter’ version ‘1.90.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+
+ *** caught segfault ***
+address 0x2690, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: loading failed
+* removing ‘/tmp/library/geneplotter’
+* installing *binary* package ‘vcd’ ...
+* package ‘vcd’ successfully unpacked and SHA256 sums checked
+* ‘vcd’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘vcd’ as ‘vcd_1.4-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vcd)
+* installing *source* package ‘splots’ ...
+** this is package ‘splots’ version ‘1.78.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘splots’ as ‘splots_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splots)
+* installing *source* package ‘EBImage’ ...
+** this is package ‘EBImage’ version ‘4.54.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c EBImage.c -o EBImage.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clahe.c -o clahe.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c distmap.cpp -o distmap.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c drawCircle.c -o drawCircle.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c floodFill.cpp -o floodFill.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getFrames.c -o getFrames.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c haralick.c -o haralick.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c medianFilter.c -o medianFilter.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c morphology.cpp -o morphology.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nativeRaster.c -o nativeRaster.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c normalize.c -o normalize.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c objects.c -o objects.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ocontour.c -o ocontour.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c propagate.cpp -o propagate.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c spatial.c -o spatial.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c thresh.cpp -o thresh.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tile.cpp -o tile.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tools.c -o tools.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c transpose.cpp -o transpose.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c watershed.cpp -o watershed.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o EBImage.so EBImage.o clahe.o distmap.o drawCircle.o floodFill.o getFrames.o haralick.o medianFilter.o morphology.o nativeRaster.o normalize.o objects.o ocontour.o propagate.o spatial.o thresh.o tile.o tools.o transpose.o watershed.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-EBImage/00new/EBImage/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘abind’ in package ‘EBImage’
+
+ *** caught segfault ***
+address 0x1230, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘EBImage’
+* removing ‘/tmp/library/EBImage’
+ERROR: dependencies ‘geneplotter’, ‘EBImage’ are not available for package ‘HD2013SGI’
+Perhaps try a variation of:
+install.packages(c('geneplotter', 'EBImage'))
+* removing ‘/tmp/library/HD2013SGI’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpb5Ha90/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘geneplotter’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘EBImage’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘HD2013SGI’ had non-zero exit status
+
+real	1m13.758s
+user	0m38.815s
+sys	0m9.597s
