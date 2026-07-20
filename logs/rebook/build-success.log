@@ -1,0 +1,320 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rebook'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rebook'
+also installing the dependencies ‘ResidualMatrix’, ‘elasticnet’, ‘sparsepca’, ‘origami’, ‘batchelor’, ‘DropletTestFiles’, ‘LoomExperiment’, ‘celldex’, ‘EnsDb.Hsapiens.v86’, ‘HCAData’, ‘scPCA’, ‘SingleR’, ‘CodeDepends’, ‘OSCA.intro’, ‘OSCA.workflows’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ResidualMatrix_1.22.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/elasticnet_1.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sparsepca_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/origami_1.0.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/batchelor_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/DropletTestFiles_1.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/LoomExperiment_1.30.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/celldex_1.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/EnsDb.Hsapiens.v86_2.99.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/HCAData_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scPCA_1.26.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SingleR_2.14.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/CodeDepends_0.6.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/books/src/contrib/OSCA.intro_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/books/src/contrib/OSCA.workflows_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/rebook_1.22.0.tar.gz'
+* installing *source* package ‘ResidualMatrix’ ...
+** this is package ‘ResidualMatrix’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ResidualMatrix’ as ‘ResidualMatrix_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ResidualMatrix)
+* installing *binary* package ‘elasticnet’ ...
+* package ‘elasticnet’ successfully unpacked and SHA256 sums checked
+* ‘elasticnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘elasticnet’ as ‘elasticnet_1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (elasticnet)
+* installing *binary* package ‘sparsepca’ ...
+* package ‘sparsepca’ successfully unpacked and SHA256 sums checked
+* ‘sparsepca’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sparsepca’ as ‘sparsepca_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparsepca)
+* installing *binary* package ‘origami’ ...
+* package ‘origami’ successfully unpacked and SHA256 sums checked
+* ‘origami’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘origami’ as ‘origami_1.0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (origami)
+* installing *source* package ‘DropletTestFiles’ ...
+** this is package ‘DropletTestFiles’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DropletTestFiles’ as ‘DropletTestFiles_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DropletTestFiles)
+* installing *source* package ‘LoomExperiment’ ...
+** this is package ‘LoomExperiment’ version ‘1.30.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LoomExperiment’ as ‘LoomExperiment_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LoomExperiment)
+* installing *source* package ‘celldex’ ...
+** this is package ‘celldex’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘celldex’ as ‘celldex_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (celldex)
+* installing *source* package ‘EnsDb.Hsapiens.v86’ ...
+** this is package ‘EnsDb.Hsapiens.v86’ version ‘2.99.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnsDb.Hsapiens.v86’ as ‘EnsDb.Hsapiens.v86_2.99.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnsDb.Hsapiens.v86)
+* installing *source* package ‘HCAData’ ...
+** this is package ‘HCAData’ version ‘1.28.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HCAData’ as ‘HCAData_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HCAData)
+* installing *source* package ‘SingleR’ ...
+** this is package ‘SingleR’ version ‘2.14.1’
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classify_integrated.cpp -o classify_integrated.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c classify_single.cpp -o classify_single.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c find_classic_markers.cpp -o find_classic_markers.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c set_executor.cpp -o set_executor.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c train_integrated.cpp -o train_integrated.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/beachmat/include' -I'/mnt/library/assorthead/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c train_single.cpp -o train_single.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SingleR.so RcppExports.o classify_integrated.o classify_single.o find_classic_markers.o set_executor.o train_integrated.o train_single.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-SingleR/00new/SingleR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SingleR’ as ‘SingleR_2.14.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SingleR)
+* installing *binary* package ‘CodeDepends’ ...
+* package ‘CodeDepends’ successfully unpacked and SHA256 sums checked
+* ‘CodeDepends’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CodeDepends’ as ‘CodeDepends_0.6.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CodeDepends)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘batchelor’ ...
+** this is package ‘batchelor’ version ‘1.28.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c adjust_shift_variance.cpp -o adjust_shift_variance.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c find_mutual_nns.cpp -o find_mutual_nns.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c smooth_gaussian_kernel.cpp -o smooth_gaussian_kernel.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c utils.cpp -o utils.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o batchelor.so RcppExports.o adjust_shift_variance.o find_mutual_nns.o smooth_gaussian_kernel.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-batchelor/00new/batchelor/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘batchelor’ as ‘batchelor_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (batchelor)
+* installing *source* package ‘scPCA’ ...
+** this is package ‘scPCA’ version ‘1.26.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scPCA’ as ‘scPCA_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scPCA)
+* installing *source* package ‘rebook’ ...
+** this is package ‘rebook’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rebook’ as ‘rebook_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rebook)
+* installing *source* package ‘OSCA.intro’ ...
+** this is package ‘OSCA.intro’ version ‘1.20.0’
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘OSCA.intro’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OSCA.intro’ as ‘OSCA.intro_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OSCA.intro)
+* installing *source* package ‘OSCA.workflows’ ...
+** this is package ‘OSCA.workflows’ version ‘1.20.0’
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘OSCA.workflows’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import 'limma::plotMDS' by 'scater::plotMDS' when loading 'OSCA.workflows'
+Warning: replacing previous import 'igraph::normalize' by 'scater::normalize' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::fetchMetadata' by 'scRNAseq::fetchMetadata' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::fetchLatestVersion' by 'scRNAseq::fetchLatestVersion' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::listVersions' by 'scRNAseq::listVersions' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::HumanPrimaryCellAtlasData' by 'SingleR::HumanPrimaryCellAtlasData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::DatabaseImmuneCellExpressionData' by 'SingleR::DatabaseImmuneCellExpressionData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::MouseRNAseqData' by 'SingleR::MouseRNAseqData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::BlueprintEncodeData' by 'SingleR::BlueprintEncodeData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::ImmGenData' by 'SingleR::ImmGenData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::NovershternHematopoieticData' by 'SingleR::NovershternHematopoieticData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::MonacoImmuneData' by 'SingleR::MonacoImmuneData' when loading 'OSCA.workflows'
+** testing if installed package can be loaded from final location
+Warning: replacing previous import 'limma::plotMDS' by 'scater::plotMDS' when loading 'OSCA.workflows'
+Warning: replacing previous import 'igraph::normalize' by 'scater::normalize' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::fetchMetadata' by 'scRNAseq::fetchMetadata' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::fetchLatestVersion' by 'scRNAseq::fetchLatestVersion' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::listVersions' by 'scRNAseq::listVersions' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::HumanPrimaryCellAtlasData' by 'SingleR::HumanPrimaryCellAtlasData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::DatabaseImmuneCellExpressionData' by 'SingleR::DatabaseImmuneCellExpressionData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::MouseRNAseqData' by 'SingleR::MouseRNAseqData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::BlueprintEncodeData' by 'SingleR::BlueprintEncodeData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::ImmGenData' by 'SingleR::ImmGenData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::NovershternHematopoieticData' by 'SingleR::NovershternHematopoieticData' when loading 'OSCA.workflows'
+Warning: replacing previous import 'celldex::MonacoImmuneData' by 'SingleR::MonacoImmuneData' when loading 'OSCA.workflows'
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OSCA.workflows’ as ‘OSCA.workflows_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OSCA.workflows)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpd25fqU/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	7m29.123s
+user	6m45.319s
+sys	0m40.668s

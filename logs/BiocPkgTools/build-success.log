@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''BiocPkgTools'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'BiocPkgTools'
+also installing the dependencies ‘getPass’, ‘blastula’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/getPass_0.2-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/blastula_0.3.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocPkgTools_1.30.1.tar.gz'
+* installing *binary* package ‘getPass’ ...
+* package ‘getPass’ successfully unpacked and SHA256 sums checked
+* ‘getPass’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘getPass’ as ‘getPass_0.2-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (getPass)
+* installing *source* package ‘BiocPkgTools’ ...
+** this is package ‘BiocPkgTools’ version ‘1.30.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BiocPkgTools’ as ‘BiocPkgTools_1.30.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocPkgTools)
+* installing *binary* package ‘blastula’ ...
+* package ‘blastula’ successfully unpacked and SHA256 sums checked
+* ‘blastula’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘blastula’ as ‘blastula_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (blastula)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpxd8g0X/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m24.169s
+user	0m14.404s
+sys	0m4.233s

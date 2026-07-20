@@ -1,0 +1,76 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Spectra'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Spectra'
+also installing the dependencies ‘MsDataHub’, ‘msentropy’, ‘patrick’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MsDataHub_1.12.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/msentropy_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/patrick_0.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Spectra_1.22.2.tar.gz'
+* installing *source* package ‘MsDataHub’ ...
+** this is package ‘MsDataHub’ version ‘1.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MsDataHub’ as ‘MsDataHub_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MsDataHub)
+* installing *binary* package ‘msentropy’ ...
+* package ‘msentropy’ successfully unpacked and SHA256 sums checked
+* ‘msentropy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘msentropy’ as ‘msentropy_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (msentropy)
+* installing *binary* package ‘patrick’ ...
+* package ‘patrick’ successfully unpacked and SHA256 sums checked
+* ‘patrick’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘patrick’ as ‘patrick_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (patrick)
+* installing *source* package ‘Spectra’ ...
+** this is package ‘Spectra’ version ‘1.22.2’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘entropy’ in package ‘Spectra’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Spectra’ as ‘Spectra_1.22.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Spectra)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUGKyne/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m35.125s
+user	0m27.500s
+sys	0m5.523s

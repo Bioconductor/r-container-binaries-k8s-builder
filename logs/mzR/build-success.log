@@ -1,0 +1,1057 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mzR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mzR'
+also installing the dependency ‘MsDataHub’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MsDataHub_1.12.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/mzR_2.46.0.tar.gz'
+* installing *source* package ‘MsDataHub’ ...
+** this is package ‘MsDataHub’ version ‘1.12.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MsDataHub’ as ‘MsDataHub_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MsDataHub)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘mzR’ ...
+** this is package ‘mzR’ version ‘2.46.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+rm -f RcppPwiz.o RcppPwizModule.o RcppIdent.o RcppIdentModule.o ./boost/libs/system/src/error_code.o ./boost/libs/regex/src/posix_api.o ./boost/libs/regex/src/regex_debug.o ./boost/libs/regex/src/regex.o ./boost/libs/regex/src/wide_posix_api.o ./boost/libs/regex/src/static_mutex.o ./boost/libs/iostreams/src/zlib.o ./boost/libs/iostreams/src/file_descriptor.o ./boost/libs/filesystem/src/operations.o ./boost/libs/filesystem/src/directory.o ./boost/libs/filesystem/src/exception.o ./boost/libs/filesystem/src/path.o ./boost/libs/filesystem/src/unique_path.o ./boost/libs/filesystem/src/utf8_codecvt_facet.o ./boost/libs/chrono/src/chrono.o ./boost/libs/chrono/src/process_cpu_clocks.o ./boost/libs/chrono/src/thread_clock.o ./pwiz/data/msdata/Version.o ./pwiz/data/identdata/Version.o ./pwiz/data/common/MemoryIndex.o ./pwiz/data/common/CVTranslator.o ./pwiz/data/common/cv.o ./pwiz/data/common/ParamTypes.o ./pwiz/data/common/BinaryIndexStream.o ./pwiz/data/common/diff_std.o ./pwiz/data/common/Unimod.o ./pwiz/data/msdata/mz5/Configuration_mz5.o ./pwiz/data/msdata/mz5/Connection_mz5.o ./pwiz/data/msdata/mz5/Datastructures_mz5.o ./pwiz/data/msdata/mz5/ReferenceRead_mz5.o ./pwiz/data/msdata/mz5/ReferenceWrite_mz5.o ./pwiz/data/msdata/mz5/Translator_mz5.o ./pwiz/data/msdata/DefaultReaderList.o ./pwiz/data/msdata/ChromatogramList_mzML.o ./pwiz/data/msdata/ChromatogramList_mz5.o ./pwiz/data/msdata/examples.o ./pwiz/data/msdata/Serializer_mzML.o ./pwiz/data/msdata/Serializer_MSn.o ./pwiz/data/msdata/Reader.o ./pwiz/data/msdata/Serializer_mz5.o ./pwiz/data/msdata/Serializer_MGF.o ./pwiz/data/msdata/Serializer_mzXML.o ./pwiz/data/msdata/SpectrumListBase.o ./pwiz/data/msdata/SpectrumList_MGF.o ./pwiz/data/msdata/SpectrumList_mzML.o ./pwiz/data/msdata/SpectrumList_MSn.o ./pwiz/data/msdata/SpectrumList_mz5.o ./pwiz/data/msdata/BinaryDataEncoder.o ./pwiz/data/msdata/Diff.o ./pwiz/data/msdata/MSData.o ./pwiz/data/msdata/References.o ./pwiz/data/msdata/SpectrumList_mzXML.o ./pwiz/data/msdata/IO.o ./pwiz/data/msdata/SpectrumList_BTDX.o ./pwiz/data/msdata/SpectrumInfo.o ./pwiz/data/msdata/LegacyAdapter.o ./pwiz/data/msdata/SpectrumIterator.o ./pwiz/data/msdata/MSDataFile.o ./pwiz/data/msdata/MSNumpress.o ./pwiz/data/msdata/SpectrumListCache.o ./pwiz/data/msdata/Index_mzML.o ./pwiz/data/msdata/SpectrumWorkerThreads.o ./pwiz/data/identdata/IdentDataFile.o ./pwiz/data/identdata/IdentData.o ./pwiz/data/identdata/DefaultReaderList.o ./pwiz/data/identdata/Reader.o ./pwiz/data/identdata/Serializer_protXML.o ./pwiz/data/identdata/Serializer_pepXML.o ./pwiz/data/identdata/Serializer_mzid.o ./pwiz/data/identdata/IO.o ./pwiz/data/identdata/References.o ./pwiz/data/identdata/MascotReader.o ./pwiz/data/proteome/Modification.o ./pwiz/data/proteome/Digestion.o ./pwiz/data/proteome/Peptide.o ./pwiz/data/proteome/AminoAcid.o ./pwiz/utility/minimxml/XMLWriter.o ./pwiz/utility/minimxml/SAXParser.o ./pwiz/utility/chemistry/Chemistry.o ./pwiz/utility/chemistry/ChemistryData.o ./pwiz/utility/chemistry/MZTolerance.o ./pwiz/utility/misc/IntegerSet.o ./pwiz/utility/misc/Base64.o ./pwiz/utility/misc/BinaryData.o ./pwiz/utility/misc/IterationListener.o ./pwiz/utility/misc/MSIHandler.o ./pwiz/utility/misc/Filesystem.o ./pwiz/utility/misc/TabReader.o ./pwiz/utility/misc/random_access_compressed_ifstream.o ./pwiz/utility/misc/SHA1.o ./pwiz/utility/misc/SHA1Calculator.o ./pwiz/utility/misc/sha1calc.o ./pwiz/utility/misc/String.o ./RcppExports.o ./boost/libs/thread/src/pthread/once.o ./boost/libs/thread/src/pthread/thread.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppPwiz.cpp -o RcppPwiz.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/MSDataFile.hpp:29,
+                 from RcppPwiz.h:12,
+                 from RcppPwiz.cpp:1:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/bits/specfun.h:43,
+                 from /usr/include/c++/13/cmath:3699,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp/platform/compiler.h:37,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp/r/headers.h:67,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:30,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from RcppPwiz.h:4:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+RcppPwiz.cpp: In member function ‘Rcpp::List RcppPwiz::getPeakList(Rcpp::IntegerVector)’:
+RcppPwiz.cpp:420:56: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  420 |         Rprintf("Index whichScan out of bounds [1 ... %d].\n", n_scans);
+      |                                                       ~^       ~~~~~~~
+      |                                                        |       |
+      |                                                        int     size_t {aka long unsigned int}
+      |                                                       %ld
+RcppPwiz.cpp: In member function ‘Rcpp::DataFrame RcppPwiz::getChromatogramsInfo(int)’:
+RcppPwiz.cpp:891:55: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  891 |       Rprintf("Index whichChrom out of bounds [1 ... %d].\n", (clp->size()));
+      |                                                      ~^       ~~~~~~~~~~~~~
+      |                                                       |                 |
+      |                                                       int               size_t {aka long unsigned int}
+      |                                                      %ld
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppPwizModule.cpp -o RcppPwizModule.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/MSDataFile.hpp:29,
+                 from RcppPwiz.h:12,
+                 from RcppPwizModule.cpp:2:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/bits/specfun.h:43,
+                 from /usr/include/c++/13/cmath:3699,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp/platform/compiler.h:37,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp/r/headers.h:67,
+                 from /usr/local/lib/R/site-library/Rcpp/include/RcppCommon.h:30,
+                 from /usr/local/lib/R/site-library/Rcpp/include/Rcpp.h:27,
+                 from RcppPwizModule.cpp:1:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppIdent.cpp -o RcppIdent.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppIdentModule.cpp -o RcppIdentModule.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/system/src/error_code.cpp -o boost/libs/system/src/error_code.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/regex/src/posix_api.cpp -o boost/libs/regex/src/posix_api.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/regex/src/regex_debug.cpp -o boost/libs/regex/src/regex_debug.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/regex/src/regex.cpp -o boost/libs/regex/src/regex.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/regex/src/wide_posix_api.cpp -o boost/libs/regex/src/wide_posix_api.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/regex/src/static_mutex.cpp -o boost/libs/regex/src/static_mutex.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/iostreams/src/zlib.cpp -o boost/libs/iostreams/src/zlib.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/iostreams/src/file_descriptor.cpp -o boost/libs/iostreams/src/file_descriptor.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/operations.cpp -o boost/libs/filesystem/src/operations.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/directory.cpp -o boost/libs/filesystem/src/directory.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/exception.cpp -o boost/libs/filesystem/src/exception.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/path.cpp -o boost/libs/filesystem/src/path.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/unique_path.cpp -o boost/libs/filesystem/src/unique_path.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/filesystem/src/utf8_codecvt_facet.cpp -o boost/libs/filesystem/src/utf8_codecvt_facet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/chrono/src/chrono.cpp -o boost/libs/chrono/src/chrono.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/chrono/src/process_cpu_clocks.cpp -o boost/libs/chrono/src/process_cpu_clocks.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/chrono/src/thread_clock.cpp -o boost/libs/chrono/src/thread_clock.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Version.cpp -o pwiz/data/msdata/Version.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/Version.cpp -o pwiz/data/identdata/Version.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/common/MemoryIndex.cpp -o pwiz/data/common/MemoryIndex.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/common/CVTranslator.cpp -o pwiz/data/common/CVTranslator.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/common/cv.cpp -o pwiz/data/common/cv.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/common/ParamTypes.cpp -o pwiz/data/common/ParamTypes.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/common/BinaryIndexStream.cpp -o pwiz/data/common/BinaryIndexStream.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/common/diff_std.cpp -o pwiz/data/common/diff_std.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/common/Unimod.cpp -o pwiz/data/common/Unimod.o
+In file included from ./boost_aux/boost/enum.hpp:21,
+                 from pwiz/data/common/Unimod.hpp:31,
+                 from pwiz/data/common/Unimod.cpp:25:
+pwiz/data/common/Unimod.hpp: In function ‘bool pwiz::data::unimod::operator==(const Site::domain&, const Site&)’:
+./boost_aux/boost/enum/macros.hpp:226:85: warning: in C++20 this comparison calls the current function recursively with reversed arguments
+  226 |     inline bool operator== (const _name::domain& lhs, const _name& rhs) {return rhs == lhs;} \
+      |                                                                                 ~~~~^~~~~~
+./boost_aux/boost/enum/macros.hpp:234:5: note: in expansion of macro ‘BOOST_ENUM_DOMAIN_OPERATORS’
+  234 |     BOOST_ENUM_DOMAIN_OPERATORS(_name) \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+pwiz/data/common/Unimod.hpp:69:1: note: in expansion of macro ‘BOOST_BITFIELD_DOMAIN_OPERATORS’
+   69 | BOOST_BITFIELD_DOMAIN_OPERATORS(Site)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pwiz/data/common/Unimod.hpp: In function ‘bool pwiz::data::unimod::operator==(const Position::domain&, const Position&)’:
+./boost_aux/boost/enum/macros.hpp:226:85: warning: in C++20 this comparison calls the current function recursively with reversed arguments
+  226 |     inline bool operator== (const _name::domain& lhs, const _name& rhs) {return rhs == lhs;} \
+      |                                                                                 ~~~~^~~~~~
+pwiz/data/common/Unimod.hpp:78:1: note: in expansion of macro ‘BOOST_ENUM_DOMAIN_OPERATORS’
+   78 | BOOST_ENUM_DOMAIN_OPERATORS(Position)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+pwiz/data/common/Unimod.hpp: In function ‘bool pwiz::data::unimod::operator==(const Classification::domain&, const Classification&)’:
+./boost_aux/boost/enum/macros.hpp:226:85: warning: in C++20 this comparison calls the current function recursively with reversed arguments
+  226 |     inline bool operator== (const _name::domain& lhs, const _name& rhs) {return rhs == lhs;} \
+      |                                                                                 ~~~~^~~~~~
+./boost_aux/boost/enum/macros.hpp:234:5: note: in expansion of macro ‘BOOST_ENUM_DOMAIN_OPERATORS’
+  234 |     BOOST_ENUM_DOMAIN_OPERATORS(_name) \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+pwiz/data/common/Unimod.hpp:97:1: note: in expansion of macro ‘BOOST_BITFIELD_DOMAIN_OPERATORS’
+   97 | BOOST_BITFIELD_DOMAIN_OPERATORS(Classification)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/mz5/Configuration_mz5.cpp -o pwiz/data/msdata/mz5/Configuration_mz5.o
+In file included from pwiz/data/msdata/mz5/../MSData.hpp:29,
+                 from pwiz/data/msdata/mz5/Datastructures_mz5.hpp:29,
+                 from pwiz/data/msdata/mz5/Configuration_mz5.hpp:27,
+                 from pwiz/data/msdata/mz5/Configuration_mz5.cpp:24:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from pwiz/data/msdata/mz5/../../common/cv.hpp:35,
+                 from pwiz/data/msdata/mz5/Datastructures_mz5.hpp:27:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/mz5/Connection_mz5.cpp -o pwiz/data/msdata/mz5/Connection_mz5.o
+In file included from pwiz/data/msdata/mz5/../MSData.hpp:29,
+                 from pwiz/data/msdata/mz5/Connection_mz5.hpp:27,
+                 from pwiz/data/msdata/mz5/Connection_mz5.cpp:24:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/mz5/Datastructures_mz5.cpp -o pwiz/data/msdata/mz5/Datastructures_mz5.o
+In file included from pwiz/data/msdata/mz5/../MSData.hpp:29,
+                 from pwiz/data/msdata/mz5/Datastructures_mz5.hpp:29,
+                 from pwiz/data/msdata/mz5/Datastructures_mz5.cpp:24:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from pwiz/data/msdata/mz5/../../common/cv.hpp:35,
+                 from pwiz/data/msdata/mz5/Datastructures_mz5.hpp:27:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/mz5/ReferenceRead_mz5.cpp -o pwiz/data/msdata/mz5/ReferenceRead_mz5.o
+In file included from pwiz/data/msdata/mz5/../MSData.hpp:29,
+                 from pwiz/data/msdata/mz5/ReferenceRead_mz5.hpp:29,
+                 from pwiz/data/msdata/mz5/ReferenceRead_mz5.cpp:24:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from pwiz/data/msdata/mz5/../../common/cv.hpp:35,
+                 from pwiz/data/msdata/mz5/ReferenceRead_mz5.hpp:27:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/mz5/ReferenceWrite_mz5.cpp -o pwiz/data/msdata/mz5/ReferenceWrite_mz5.o
+In file included from pwiz/data/msdata/mz5/../MSData.hpp:29,
+                 from pwiz/data/msdata/mz5/ReferenceWrite_mz5.hpp:29,
+                 from pwiz/data/msdata/mz5/ReferenceWrite_mz5.cpp:24:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from pwiz/data/msdata/mz5/../../common/cv.hpp:35,
+                 from pwiz/data/msdata/mz5/ReferenceWrite_mz5.hpp:27:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/mz5/Translator_mz5.cpp -o pwiz/data/msdata/mz5/Translator_mz5.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/DefaultReaderList.cpp -o pwiz/data/msdata/DefaultReaderList.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Reader.hpp:30,
+                 from pwiz/data/msdata/DefaultReaderList.hpp:29,
+                 from pwiz/data/msdata/DefaultReaderList.cpp:29:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from ./pwiz/utility/misc/Std.hpp:28,
+                 from pwiz/data/msdata/DefaultReaderList.cpp:26:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/ChromatogramList_mzML.cpp -o pwiz/data/msdata/ChromatogramList_mzML.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/ChromatogramListBase.hpp:28,
+                 from pwiz/data/msdata/ChromatogramList_mzML.hpp:29,
+                 from pwiz/data/msdata/ChromatogramList_mzML.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/ChromatogramList_mz5.cpp -o pwiz/data/msdata/ChromatogramList_mz5.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/References.hpp:29,
+                 from pwiz/data/msdata/ChromatogramList_mz5.cpp:27:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from ./pwiz/utility/misc/Std.hpp:28,
+                 from pwiz/data/msdata/ChromatogramList_mz5.cpp:26:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/examples.cpp -o pwiz/data/msdata/examples.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/examples.hpp:29,
+                 from pwiz/data/msdata/examples.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Serializer_mzML.cpp -o pwiz/data/msdata/Serializer_mzML.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Serializer_mzML.hpp:29,
+                 from pwiz/data/msdata/Serializer_mzML.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Serializer_MSn.cpp -o pwiz/data/msdata/Serializer_MSn.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Serializer_MSn.hpp:26,
+                 from pwiz/data/msdata/Serializer_MSn.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Reader.cpp -o pwiz/data/msdata/Reader.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Reader.hpp:30,
+                 from pwiz/data/msdata/Reader.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/stl_tempbuf.h:61,
+                 from /usr/include/c++/13/memory:66,
+                 from ./boost/smart_ptr/detail/sp_counted_impl.hpp:35,
+                 from ./boost/smart_ptr/detail/shared_count.hpp:27,
+                 from ./boost/smart_ptr/shared_ptr.hpp:17,
+                 from ./boost/shared_ptr.hpp:17,
+                 from ./pwiz/utility/misc/IterationListener.hpp:29,
+                 from pwiz/data/msdata/Reader.hpp:28:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Serializer_mz5.cpp -o pwiz/data/msdata/Serializer_mz5.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/References.hpp:29,
+                 from pwiz/data/msdata/Serializer_mz5.cpp:27:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from ./pwiz/utility/misc/Std.hpp:28,
+                 from pwiz/data/msdata/Serializer_mz5.cpp:26:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Serializer_MGF.cpp -o pwiz/data/msdata/Serializer_MGF.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Serializer_MGF.hpp:27,
+                 from pwiz/data/msdata/Serializer_MGF.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Serializer_mzXML.cpp -o pwiz/data/msdata/Serializer_mzXML.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Serializer_mzXML.hpp:29,
+                 from pwiz/data/msdata/Serializer_mzXML.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumListBase.cpp -o pwiz/data/msdata/SpectrumListBase.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumListBase.hpp:28,
+                 from pwiz/data/msdata/SpectrumListBase.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumList_MGF.cpp -o pwiz/data/msdata/SpectrumList_MGF.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumListBase.hpp:28,
+                 from pwiz/data/msdata/SpectrumList_MGF.hpp:30,
+                 from pwiz/data/msdata/SpectrumList_MGF.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumList_mzML.cpp -o pwiz/data/msdata/SpectrumList_mzML.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumListBase.hpp:28,
+                 from pwiz/data/msdata/SpectrumList_mzML.hpp:29,
+                 from pwiz/data/msdata/SpectrumList_mzML.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+In file included from ./boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from ./boost/smart_ptr/detail/yield_k.hpp:23,
+                 from ./boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from ./boost/smart_ptr/detail/spinlock.hpp:42,
+                 from ./boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from ./boost/smart_ptr/shared_ptr.hpp:29,
+                 from ./boost/shared_ptr.hpp:17,
+                 from ./pwiz/data/common/ParamTypes.hpp:33,
+                 from ./pwiz/data/msdata/MSData.hpp:30:
+./boost/config/pragma_message.hpp:24:34: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   24 | # define BOOST_PRAGMA_MESSAGE(x) _Pragma(BOOST_STRINGIZE(message(x)))
+      |                                  ^~~~~~~
+./boost/bind.hpp:36:1: note: in expansion of macro ‘BOOST_PRAGMA_MESSAGE’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumList_MSn.cpp -o pwiz/data/msdata/SpectrumList_MSn.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumListBase.hpp:28,
+                 from pwiz/data/msdata/SpectrumList_MSn.hpp:29,
+                 from pwiz/data/msdata/SpectrumList_MSn.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumList_mz5.cpp -o pwiz/data/msdata/SpectrumList_mz5.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/References.hpp:29,
+                 from pwiz/data/msdata/SpectrumList_mz5.cpp:27:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from ./pwiz/utility/misc/Std.hpp:28,
+                 from pwiz/data/msdata/SpectrumList_mz5.cpp:26:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/BinaryDataEncoder.cpp -o pwiz/data/msdata/BinaryDataEncoder.o
+In file included from pwiz/data/msdata/BinaryDataEncoder.hpp:29,
+                 from pwiz/data/msdata/BinaryDataEncoder.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Diff.cpp -o pwiz/data/msdata/Diff.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Diff.hpp:29,
+                 from pwiz/data/msdata/Diff.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/MSData.cpp -o pwiz/data/msdata/MSData.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/MSData.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/References.cpp -o pwiz/data/msdata/References.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/References.hpp:29,
+                 from pwiz/data/msdata/References.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumList_mzXML.cpp -o pwiz/data/msdata/SpectrumList_mzXML.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumListBase.hpp:28,
+                 from pwiz/data/msdata/SpectrumList_mzXML.hpp:29,
+                 from pwiz/data/msdata/SpectrumList_mzXML.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/IO.cpp -o pwiz/data/msdata/IO.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/IO.hpp:29,
+                 from pwiz/data/msdata/IO.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumList_BTDX.cpp -o pwiz/data/msdata/SpectrumList_BTDX.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumListBase.hpp:28,
+                 from pwiz/data/msdata/SpectrumList_BTDX.hpp:30,
+                 from pwiz/data/msdata/SpectrumList_BTDX.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumInfo.cpp -o pwiz/data/msdata/SpectrumInfo.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumInfo.hpp:29,
+                 from pwiz/data/msdata/SpectrumInfo.cpp:27:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/LegacyAdapter.cpp -o pwiz/data/msdata/LegacyAdapter.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/LegacyAdapter.hpp:30,
+                 from pwiz/data/msdata/LegacyAdapter.cpp:27:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumIterator.cpp -o pwiz/data/msdata/SpectrumIterator.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumIterator.hpp:29,
+                 from pwiz/data/msdata/SpectrumIterator.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/MSDataFile.cpp -o pwiz/data/msdata/MSDataFile.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/MSDataFile.hpp:29,
+                 from pwiz/data/msdata/MSDataFile.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/MSNumpress.cpp -o pwiz/data/msdata/MSNumpress.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumListCache.cpp -o pwiz/data/msdata/SpectrumListCache.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/SpectrumListCache.hpp:27,
+                 from pwiz/data/msdata/SpectrumListCache.cpp:25:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/Index_mzML.cpp -o pwiz/data/msdata/Index_mzML.o
+In file included from pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/msdata/Index_mzML.hpp:28,
+                 from pwiz/data/msdata/Index_mzML.cpp:24:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from ./pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/msdata/SpectrumWorkerThreads.cpp -o pwiz/data/msdata/SpectrumWorkerThreads.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from ./pwiz/data/msdata/SpectrumWorkerThreads.hpp:26,
+                 from pwiz/data/msdata/SpectrumWorkerThreads.cpp:26:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from ./pwiz/utility/misc/Std.hpp:28,
+                 from pwiz/data/msdata/SpectrumWorkerThreads.cpp:24:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/IdentDataFile.cpp -o pwiz/data/identdata/IdentDataFile.o
+In file included from pwiz/data/identdata/IdentDataFile.cpp:26:
+pwiz/data/identdata/TextWriter.hpp: In member function ‘pwiz::identdata::TextWriter& pwiz::identdata::TextWriter::operator()(const pwiz::identdata::IdentData&)’:
+pwiz/data/identdata/TextWriter.hpp:887:46: warning: ignoring return value of ‘constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&) [with _CharT = char; _Traits = char_traits<char>; _Alloc = allocator<char>]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  887 |                ("version: " + mzid.version());
+      |                                              ^
+In file included from /usr/include/c++/13/string:54,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from pwiz/data/identdata/IdentData.hpp:29,
+                 from pwiz/data/identdata/IdentDataFile.hpp:29,
+                 from pwiz/data/identdata/IdentDataFile.cpp:25:
+/usr/include/c++/13/bits/basic_string.h:3571:5: note: declared here
+ 3571 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/IdentData.cpp -o pwiz/data/identdata/IdentData.o
+In file included from ./boost_aux/boost/enum.hpp:21,
+                 from ./pwiz/data/common/Unimod.hpp:31,
+                 from pwiz/data/identdata/IdentData.cpp:30:
+./pwiz/data/common/Unimod.hpp: In function ‘bool pwiz::data::unimod::operator==(const Site::domain&, const Site&)’:
+./boost_aux/boost/enum/macros.hpp:226:85: warning: in C++20 this comparison calls the current function recursively with reversed arguments
+  226 |     inline bool operator== (const _name::domain& lhs, const _name& rhs) {return rhs == lhs;} \
+      |                                                                                 ~~~~^~~~~~
+./boost_aux/boost/enum/macros.hpp:234:5: note: in expansion of macro ‘BOOST_ENUM_DOMAIN_OPERATORS’
+  234 |     BOOST_ENUM_DOMAIN_OPERATORS(_name) \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./pwiz/data/common/Unimod.hpp:69:1: note: in expansion of macro ‘BOOST_BITFIELD_DOMAIN_OPERATORS’
+   69 | BOOST_BITFIELD_DOMAIN_OPERATORS(Site)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./pwiz/data/common/Unimod.hpp: In function ‘bool pwiz::data::unimod::operator==(const Position::domain&, const Position&)’:
+./boost_aux/boost/enum/macros.hpp:226:85: warning: in C++20 this comparison calls the current function recursively with reversed arguments
+  226 |     inline bool operator== (const _name::domain& lhs, const _name& rhs) {return rhs == lhs;} \
+      |                                                                                 ~~~~^~~~~~
+./pwiz/data/common/Unimod.hpp:78:1: note: in expansion of macro ‘BOOST_ENUM_DOMAIN_OPERATORS’
+   78 | BOOST_ENUM_DOMAIN_OPERATORS(Position)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./pwiz/data/common/Unimod.hpp: In function ‘bool pwiz::data::unimod::operator==(const Classification::domain&, const Classification&)’:
+./boost_aux/boost/enum/macros.hpp:226:85: warning: in C++20 this comparison calls the current function recursively with reversed arguments
+  226 |     inline bool operator== (const _name::domain& lhs, const _name& rhs) {return rhs == lhs;} \
+      |                                                                                 ~~~~^~~~~~
+./boost_aux/boost/enum/macros.hpp:234:5: note: in expansion of macro ‘BOOST_ENUM_DOMAIN_OPERATORS’
+  234 |     BOOST_ENUM_DOMAIN_OPERATORS(_name) \
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./pwiz/data/common/Unimod.hpp:97:1: note: in expansion of macro ‘BOOST_BITFIELD_DOMAIN_OPERATORS’
+   97 | BOOST_BITFIELD_DOMAIN_OPERATORS(Classification)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/DefaultReaderList.cpp -o pwiz/data/identdata/DefaultReaderList.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/Reader.cpp -o pwiz/data/identdata/Reader.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/Serializer_protXML.cpp -o pwiz/data/identdata/Serializer_protXML.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/identdata/Serializer_protXML.cpp:36:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from pwiz/data/identdata/IdentData.hpp:29,
+                 from pwiz/data/identdata/Serializer_protXML.hpp:29,
+                 from pwiz/data/identdata/Serializer_protXML.cpp:28:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/Serializer_pepXML.cpp -o pwiz/data/identdata/Serializer_pepXML.o
+In file included from ./pwiz/data/msdata/MSData.hpp:29,
+                 from pwiz/data/identdata/Serializer_pepXML.cpp:33:
+./pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_construct.h:61,
+                 from /usr/include/c++/13/bits/char_traits.h:57,
+                 from /usr/include/c++/13/string:42,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from pwiz/data/identdata/IdentData.hpp:29,
+                 from pwiz/data/identdata/Serializer_pepXML.hpp:27,
+                 from pwiz/data/identdata/Serializer_pepXML.cpp:25:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+./pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/Serializer_mzid.cpp -o pwiz/data/identdata/Serializer_mzid.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/IO.cpp -o pwiz/data/identdata/IO.o
+In file included from pwiz/data/identdata/IO.cpp:28:
+pwiz/data/identdata/TextWriter.hpp: In member function ‘pwiz::identdata::TextWriter& pwiz::identdata::TextWriter::operator()(const pwiz::identdata::IdentData&)’:
+pwiz/data/identdata/TextWriter.hpp:887:46: warning: ignoring return value of ‘constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&) [with _CharT = char; _Traits = char_traits<char>; _Alloc = allocator<char>]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  887 |                ("version: " + mzid.version());
+      |                                              ^
+In file included from /usr/include/c++/13/string:54,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from pwiz/data/identdata/IdentData.hpp:29,
+                 from pwiz/data/identdata/IO.hpp:27,
+                 from pwiz/data/identdata/IO.cpp:26:
+/usr/include/c++/13/bits/basic_string.h:3571:5: note: declared here
+ 3571 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/References.cpp -o pwiz/data/identdata/References.o
+In file included from pwiz/data/identdata/References.cpp:26:
+pwiz/data/identdata/TextWriter.hpp: In member function ‘pwiz::identdata::TextWriter& pwiz::identdata::TextWriter::operator()(const pwiz::identdata::IdentData&)’:
+pwiz/data/identdata/TextWriter.hpp:887:46: warning: ignoring return value of ‘constexpr std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&) [with _CharT = char; _Traits = char_traits<char>; _Alloc = allocator<char>]’, declared with attribute ‘nodiscard’ [-Wunused-result]
+  887 |                ("version: " + mzid.version());
+      |                                              ^
+In file included from /usr/include/c++/13/string:54,
+                 from /usr/include/c++/13/stdexcept:39,
+                 from ./pwiz/utility/misc/Exception.hpp:28,
+                 from pwiz/data/identdata/IdentData.hpp:29,
+                 from pwiz/data/identdata/References.hpp:29,
+                 from pwiz/data/identdata/References.cpp:25:
+/usr/include/c++/13/bits/basic_string.h:3571:5: note: declared here
+ 3571 |     operator+(const _CharT* __lhs,
+      |     ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/identdata/MascotReader.cpp -o pwiz/data/identdata/MascotReader.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/proteome/Modification.cpp -o pwiz/data/proteome/Modification.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/proteome/Digestion.cpp -o pwiz/data/proteome/Digestion.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/proteome/Peptide.cpp -o pwiz/data/proteome/Peptide.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/data/proteome/AminoAcid.cpp -o pwiz/data/proteome/AminoAcid.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/minimxml/XMLWriter.cpp -o pwiz/utility/minimxml/XMLWriter.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/minimxml/SAXParser.cpp -o pwiz/utility/minimxml/SAXParser.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/chemistry/Chemistry.cpp -o pwiz/utility/chemistry/Chemistry.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/chemistry/ChemistryData.cpp -o pwiz/utility/chemistry/ChemistryData.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/chemistry/MZTolerance.cpp -o pwiz/utility/chemistry/MZTolerance.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/IntegerSet.cpp -o pwiz/utility/misc/IntegerSet.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/Base64.cpp -o pwiz/utility/misc/Base64.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/BinaryData.cpp -o pwiz/utility/misc/BinaryData.o
+In file included from pwiz/utility/misc/BinaryData.cpp:24:
+pwiz/utility/misc/BinaryData.hpp:54:54: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   54 |     class PWIZ_API_DECL const_iterator : public std::iterator<std::random_access_iterator_tag, const T>
+      |                                                      ^~~~~~~~
+In file included from /usr/include/c++/13/bits/stl_algobase.h:65,
+                 from /usr/include/c++/13/algorithm:60,
+                 from pwiz/utility/misc/BinaryData.hpp:29:
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+pwiz/utility/misc/BinaryData.hpp:88:48: warning: ‘template<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator’ is deprecated [-Wdeprecated-declarations]
+   88 |     class PWIZ_API_DECL iterator : public std::iterator<std::random_access_iterator_tag, T>
+      |                                                ^~~~~~~~
+/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34: note: declared here
+  127 |     struct _GLIBCXX17_DEPRECATED iterator
+      |                                  ^~~~~~~~
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/IterationListener.cpp -o pwiz/utility/misc/IterationListener.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/MSIHandler.cpp -o pwiz/utility/misc/MSIHandler.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/Filesystem.cpp -o pwiz/utility/misc/Filesystem.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/TabReader.cpp -o pwiz/utility/misc/TabReader.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/random_access_compressed_ifstream.cpp -o pwiz/utility/misc/random_access_compressed_ifstream.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/SHA1.cpp -o pwiz/utility/misc/SHA1.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/SHA1Calculator.cpp -o pwiz/utility/misc/SHA1Calculator.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/sha1calc.cpp -o pwiz/utility/misc/sha1calc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pwiz/utility/misc/String.cpp -o pwiz/utility/misc/String.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/thread/src/pthread/once.cpp -o boost/libs/thread/src/pthread/once.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG -I./boost_aux/ -I./boost/ -I. -D_LARGEFILE_SOURCE -DHAVE_PWIZ_MZML_LIB -D_NODEBUG    -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c boost/libs/thread/src/pthread/thread.cpp -o boost/libs/thread/src/pthread/thread.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mzR.so RcppPwiz.o RcppPwizModule.o RcppIdent.o RcppIdentModule.o ./boost/libs/system/src/error_code.o ./boost/libs/regex/src/posix_api.o ./boost/libs/regex/src/regex_debug.o ./boost/libs/regex/src/regex.o ./boost/libs/regex/src/wide_posix_api.o ./boost/libs/regex/src/static_mutex.o ./boost/libs/iostreams/src/zlib.o ./boost/libs/iostreams/src/file_descriptor.o ./boost/libs/filesystem/src/operations.o ./boost/libs/filesystem/src/directory.o ./boost/libs/filesystem/src/exception.o ./boost/libs/filesystem/src/path.o ./boost/libs/filesystem/src/unique_path.o ./boost/libs/filesystem/src/utf8_codecvt_facet.o ./boost/libs/chrono/src/chrono.o ./boost/libs/chrono/src/process_cpu_clocks.o ./boost/libs/chrono/src/thread_clock.o ./pwiz/data/msdata/Version.o ./pwiz/data/identdata/Version.o ./pwiz/data/common/MemoryIndex.o ./pwiz/data/common/CVTranslator.o ./pwiz/data/common/cv.o ./pwiz/data/common/ParamTypes.o ./pwiz/data/common/BinaryIndexStream.o ./pwiz/data/common/diff_std.o ./pwiz/data/common/Unimod.o ./pwiz/data/msdata/mz5/Configuration_mz5.o ./pwiz/data/msdata/mz5/Connection_mz5.o ./pwiz/data/msdata/mz5/Datastructures_mz5.o ./pwiz/data/msdata/mz5/ReferenceRead_mz5.o ./pwiz/data/msdata/mz5/ReferenceWrite_mz5.o ./pwiz/data/msdata/mz5/Translator_mz5.o ./pwiz/data/msdata/DefaultReaderList.o ./pwiz/data/msdata/ChromatogramList_mzML.o ./pwiz/data/msdata/ChromatogramList_mz5.o ./pwiz/data/msdata/examples.o ./pwiz/data/msdata/Serializer_mzML.o ./pwiz/data/msdata/Serializer_MSn.o ./pwiz/data/msdata/Reader.o ./pwiz/data/msdata/Serializer_mz5.o ./pwiz/data/msdata/Serializer_MGF.o ./pwiz/data/msdata/Serializer_mzXML.o ./pwiz/data/msdata/SpectrumListBase.o ./pwiz/data/msdata/SpectrumList_MGF.o ./pwiz/data/msdata/SpectrumList_mzML.o ./pwiz/data/msdata/SpectrumList_MSn.o ./pwiz/data/msdata/SpectrumList_mz5.o ./pwiz/data/msdata/BinaryDataEncoder.o ./pwiz/data/msdata/Diff.o ./pwiz/data/msdata/MSData.o ./pwiz/data/msdata/References.o ./pwiz/data/msdata/SpectrumList_mzXML.o ./pwiz/data/msdata/IO.o ./pwiz/data/msdata/SpectrumList_BTDX.o ./pwiz/data/msdata/SpectrumInfo.o ./pwiz/data/msdata/LegacyAdapter.o ./pwiz/data/msdata/SpectrumIterator.o ./pwiz/data/msdata/MSDataFile.o ./pwiz/data/msdata/MSNumpress.o ./pwiz/data/msdata/SpectrumListCache.o ./pwiz/data/msdata/Index_mzML.o ./pwiz/data/msdata/SpectrumWorkerThreads.o ./pwiz/data/identdata/IdentDataFile.o ./pwiz/data/identdata/IdentData.o ./pwiz/data/identdata/DefaultReaderList.o ./pwiz/data/identdata/Reader.o ./pwiz/data/identdata/Serializer_protXML.o ./pwiz/data/identdata/Serializer_pepXML.o ./pwiz/data/identdata/Serializer_mzid.o ./pwiz/data/identdata/IO.o ./pwiz/data/identdata/References.o ./pwiz/data/identdata/MascotReader.o ./pwiz/data/proteome/Modification.o ./pwiz/data/proteome/Digestion.o ./pwiz/data/proteome/Peptide.o ./pwiz/data/proteome/AminoAcid.o ./pwiz/utility/minimxml/XMLWriter.o ./pwiz/utility/minimxml/SAXParser.o ./pwiz/utility/chemistry/Chemistry.o ./pwiz/utility/chemistry/ChemistryData.o ./pwiz/utility/chemistry/MZTolerance.o ./pwiz/utility/misc/IntegerSet.o ./pwiz/utility/misc/Base64.o ./pwiz/utility/misc/BinaryData.o ./pwiz/utility/misc/IterationListener.o ./pwiz/utility/misc/MSIHandler.o ./pwiz/utility/misc/Filesystem.o ./pwiz/utility/misc/TabReader.o ./pwiz/utility/misc/random_access_compressed_ifstream.o ./pwiz/utility/misc/SHA1.o ./pwiz/utility/misc/SHA1Calculator.o ./pwiz/utility/misc/sha1calc.o ./pwiz/utility/misc/String.o ./RcppExports.o ./boost/libs/thread/src/pthread/once.o ./boost/libs/thread/src/pthread/thread.o -lpthread /mnt/library/Rhdf5lib/lib/libhdf5_cpp.a /mnt/library/Rhdf5lib/lib/libhdf5.a -L/mnt/library/Rhdf5lib/lib -lsz -lm -ldl -lcurl -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mzR/00new/mzR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mzR’ as ‘mzR_2.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mzR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNexZ8X/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	9m3.743s
+user	7m58.151s
+sys	1m1.419s
