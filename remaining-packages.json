@@ -623,21 +623,15 @@
     "BiocParallel",
     "impute"
   ],
-  "AnVIL": [
-    "GCPtools"
-  ],
-  "AnVILGCP": [
-    "GCPtools"
-  ],
+  "AnVIL": [],
+  "AnVILGCP": [],
   "AnVILPublish": [
     "AnVIL",
-    "AnVILGCP",
-    "GCPtools"
+    "AnVILGCP"
   ],
   "AnVILWorkflow": [
     "AnVILGCP",
-    "AnVIL",
-    "GCPtools"
+    "AnVIL"
   ],
   "Anaquin": [
     "qvalue",
@@ -1677,7 +1671,6 @@
   "BiocAzul": [
     "AnVIL",
     "AnVILPublish",
-    "GCPtools",
     "AnVILGCP"
   ],
   "BiocBook": [
@@ -1847,7 +1840,6 @@
   "BrowserViz": [
     "BiocGenerics"
   ],
-  "BufferedMatrixMethods": [],
   "BulkSignalR": [
     "BiocFileCache",
     "multtest",
@@ -2290,7 +2282,6 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "CNAnorm": [],
   "CNEr": [
     "Biostrings",
     "pwalign",
@@ -2585,7 +2576,6 @@
     "flowClust",
     "flowMeans",
     "flowMerge",
-    "flowPeaks",
     "limma",
     "SamSPECTRAL",
     "BiocGenerics",
@@ -2597,7 +2587,6 @@
     "Rgraphviz",
     "Rhdf5lib"
   ],
-  "COSNet": [],
   "COTAN": [
     "BiocSingular",
     "ComplexHeatmap",
@@ -6513,7 +6502,6 @@
     "BiocGenerics",
     "XVector"
   ],
-  "GCPtools": [],
   "GDCRNATools": [
     "limma",
     "edgeR",
@@ -6640,7 +6628,6 @@
     "SummarizedExperiment",
     "TCGAutils",
     "Rhtslib",
-    "GCPtools",
     "BiocGenerics",
     "Biobase",
     "DelayedArray",
@@ -6891,7 +6878,6 @@
     "Rhdf5lib",
     "Biostrings"
   ],
-  "GSAR": [],
   "GSCA": [
     "rhdf5",
     "rhdf5filters",
@@ -9292,7 +9278,6 @@
     "limma",
     "XVector"
   ],
-  "MANOR": [],
   "MAPFX": [
     "flowCore",
     "Biobase",
@@ -12003,7 +11988,6 @@
     "SparseArray",
     "XVector"
   ],
-  "PANR": [],
   "PAST": [
     "qvalue",
     "rtracklayer",
@@ -12330,7 +12314,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "PROcess": [],
   "PSMatch": [
     "S4Vectors",
     "PTMods",
@@ -12586,9 +12569,7 @@
     "SparseArray",
     "XVector"
   ],
-  "Polytect": [
-    "flowPeaks"
-  ],
+  "Polytect": [],
   "PrInCE": [
     "Biobase",
     "MSnbase",
@@ -19366,7 +19347,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "rtracklayer",
-    "GCPtools",
     "BiocGenerics",
     "S4Vectors",
     "IRanges",
@@ -19567,7 +19547,6 @@
     "EBarrays",
     "minet",
     "graphite",
-    "GCPtools",
     "ggtree",
     "graph",
     "Biostrings",
@@ -20127,7 +20106,6 @@
     "S4Vectors",
     "SummarizedExperiment",
     "TCGAutils",
-    "GCPtools",
     "BiocGenerics",
     "Biobase",
     "DelayedArray",
@@ -20245,7 +20223,6 @@
     "biomaRt",
     "genefilter",
     "KEGGREST",
-    "GCPtools",
     "RBGL",
     "MatrixGenerics",
     "DelayedArray",
@@ -20420,7 +20397,6 @@
     "Biobase",
     "BiocGenerics",
     "KEGGREST",
-    "GCPtools",
     "DelayedArray",
     "S4Arrays",
     "GenomeInfoDb",
@@ -22592,7 +22568,6 @@
     "flowCore",
     "flowDensity",
     "SamSPECTRAL",
-    "flowPeaks",
     "Biobase",
     "BiocGenerics",
     "cytolib",
@@ -24694,7 +24669,6 @@
     "RProtoBufLib",
     "Rhdf5lib"
   ],
-  "flowPeaks": [],
   "flowPloidy": [
     "flowCore",
     "Biobase",
@@ -29732,7 +29706,6 @@
     "SparseArray",
     "XVector"
   ],
-  "multiClust": [],
   "multiGSEA": [
     "graphite",
     "AnnotationDbi",
@@ -31351,7 +31324,6 @@
     "SparseArray"
   ],
   "pfamAnalyzeR": [],
-  "pgca": [],
   "pgxRpi": [
     "GenomicRanges",
     "SummarizedExperiment",
@@ -37021,7 +36993,6 @@
     "RaggedExperiment",
     "S4Vectors",
     "TCGAutils",
-    "GCPtools",
     "BiocGenerics",
     "IRanges",
     "Seqinfo",

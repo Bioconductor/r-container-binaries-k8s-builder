@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 156 (6%)
+- **Successfully Built:** 167 (7%)
 - **Failed:** 4 (0%)
-- **In Progress:** 213
-- **Not Started:** 2011
+- **In Progress:** 206
+- **Not Started:** 2007
 
-**Progress:** 6%
+**Progress:** 7%
 ```
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (156)
+## Successfully Built Packages (167)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -40,24 +40,22 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.23/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocWorkflowTools) |
 | [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
+| [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
 | [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CGEN](https://bioconductor.org/packages/3.23/bioc/html/CGEN.html) | [log](logs/CGEN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CGEN) |
-| [CONSTANd](https://bioconductor.org/packages/3.23/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CONSTANd) |
-| [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
+| [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
 
-*... and 106 more ...*
+*... and 117 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [clst](https://bioconductor.org/packages/3.23/bioc/html/clst.html) | [log](logs/clst/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/clst) |
-| [cqn](https://bioconductor.org/packages/3.23/bioc/html/cqn.html) | [log](logs/cqn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cqn) |
-| [ctc](https://bioconductor.org/packages/3.23/bioc/html/ctc.html) | [log](logs/ctc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ctc) |
 | [dcanr](https://bioconductor.org/packages/3.23/bioc/html/dcanr.html) | [log](logs/dcanr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dcanr) |
 | [dearseq](https://bioconductor.org/packages/3.23/bioc/html/dearseq.html) | [log](logs/dearseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dearseq) |
 | [decontam](https://bioconductor.org/packages/3.23/bioc/html/decontam.html) | [log](logs/decontam/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/decontam) |
 | [dir.expiry](https://bioconductor.org/packages/3.23/bioc/html/dir.expiry.html) | [log](logs/dir.expiry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dir.expiry) |
 | [dupRadar](https://bioconductor.org/packages/3.23/bioc/html/dupRadar.html) | [log](logs/dupRadar/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dupRadar) |
+| [flowPeaks](https://bioconductor.org/packages/3.23/bioc/html/flowPeaks.html) | [log](logs/flowPeaks/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/flowPeaks) |
 | [genomes](https://bioconductor.org/packages/3.23/bioc/html/genomes.html) | [log](logs/genomes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genomes) |
 | [gypsum](https://bioconductor.org/packages/3.23/bioc/html/gypsum.html) | [log](logs/gypsum/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/gypsum) |
 | [hypeR](https://bioconductor.org/packages/3.23/bioc/html/hypeR.html) | [log](logs/hypeR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/hypeR) |
@@ -65,10 +63,12 @@
 | [iSeq](https://bioconductor.org/packages/3.23/bioc/html/iSeq.html) | [log](logs/iSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iSeq) |
 | [koinar](https://bioconductor.org/packages/3.23/bioc/html/koinar.html) | [log](logs/koinar/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/koinar) |
 | [messina](https://bioconductor.org/packages/3.23/bioc/html/messina.html) | [log](logs/messina/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/messina) |
+| [multiClust](https://bioconductor.org/packages/3.23/bioc/html/multiClust.html) | [log](logs/multiClust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/multiClust) |
 | [mzID](https://bioconductor.org/packages/3.23/bioc/html/mzID.html) | [log](logs/mzID/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mzID) |
 | [ndexr](https://bioconductor.org/packages/3.23/bioc/html/ndexr.html) | [log](logs/ndexr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ndexr) |
 | [ompBAM](https://bioconductor.org/packages/3.23/bioc/html/ompBAM.html) | [log](logs/ompBAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ompBAM) |
 | [onlineFDR](https://bioconductor.org/packages/3.23/bioc/html/onlineFDR.html) | [log](logs/onlineFDR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/onlineFDR) |
+| [pgca](https://bioconductor.org/packages/3.23/bioc/html/pgca.html) | [log](logs/pgca/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pgca) |
 | [rBiopaxParser](https://bioconductor.org/packages/3.23/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rBiopaxParser) |
 | [rWikiPathways](https://bioconductor.org/packages/3.23/bioc/html/rWikiPathways.html) | [log](logs/rWikiPathways/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rWikiPathways) |
 | [retrofit](https://bioconductor.org/packages/3.23/bioc/html/retrofit.html) | [log](logs/retrofit/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/retrofit) |
@@ -85,24 +85,19 @@
 | [LedPred](https://bioconductor.org/packages/3.23/bioc/html/LedPred.html) | [log](logs/LedPred/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/LedPred) | Missing R dependency: proxy |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (213)
+## In Progress (206)
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
 - ⏳ `BaseSpaceR`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocParallel`
-- ⏳ `BufferedMatrixMethods`
-- ⏳ `CNAnorm`
 - ⏳ `COMPASS`
-- ⏳ `COSNet`
 - ⏳ `Chicago`
 - ⏳ `DCATS`
 - ⏳ `DiffLogo`
 - ⏳ `EnhancedVolcano`
-- ⏳ `GCPtools`
 - ⏳ `GEOfastq`
-- ⏳ `GSAR`
 - ⏳ `GSEAmining`
 - ⏳ `HIBAG`
 - ⏳ `HVP`
@@ -110,17 +105,15 @@
 - ⏳ `Herper`
 - ⏳ `HilbertVis`
 - ⏳ `Informeasure`
+- ⏳ `IntramiRExploreR`
 - ⏳ `IsoCorrectoR`
 - ⏳ `M3C`
 - ⏳ `MACSQuantifyR`
-- ⏳ `MANOR`
 - ⏳ `MassArray`
 - ⏳ `MatrixGenerics`
 - ⏳ `OSAT`
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
-- ⏳ `PANR`
-- ⏳ `PROcess`
 - ⏳ `PTMods`
 - ⏳ `QUBIC`
 - ⏳ `RDRToolbox`
@@ -134,12 +127,19 @@
 - ⏳ `RankProd`
 - ⏳ `Rbowtie`
 - ⏳ `Rdisop`
+- ⏳ `Rhdf5lib`
 - ⏳ `Rhtslib`
+- ⏳ `Rigraphlib`
 - ⏳ `SCBN`
+- ⏳ `SIMLR`
+- ⏳ `SNAGEE`
+- ⏳ `SamSPECTRAL`
+- ⏳ `Summix`
+- ⏳ `TSAR`
 
-... and 163 more ...
+... and 156 more ...
 
-## Not Yet Started (2011)
+## Not Yet Started (2007)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -191,8 +191,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 1961 more ...
+... and 1957 more ...
 
 ---
-*Last updated: 2026-07-20 19:18:57 UTC*
-*Packages with verified BBS status: 61*
+*Last updated: 2026-07-20 19:20:19 UTC*
+*Packages with verified BBS status: 66*
