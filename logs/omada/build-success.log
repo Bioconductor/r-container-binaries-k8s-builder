@@ -1,0 +1,226 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''omada'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'omada'
+also installing the dependencies ‘labelled’, ‘magic’, ‘linprog’, ‘modeltools’, ‘DEoptimR’, ‘combinat’, ‘questionr’, ‘quitefastmst’, ‘geometry’, ‘flexmix’, ‘prabclus’, ‘robustbase’, ‘clue’, ‘clusterCrit’, ‘klaR’, ‘RankAggreg’, ‘yardstick’, ‘deadwood’, ‘pdfCluster’, ‘fpc’, ‘diceR’, ‘genieclust’, ‘clValid’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/labelled_2.16.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/magic_1.6-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/linprog_0.9-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/modeltools_0.2-24.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DEoptimR_1.2-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/combinat_0.0-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/questionr_0.8.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/quitefastmst_0.9.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/geometry_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flexmix_2.3-20.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/prabclus_2.3-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/robustbase_0.99-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clue_0.3-68.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clusterCrit_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/klaR_1.7-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RankAggreg_0.6.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/yardstick_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/deadwood_0.9.0-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pdfCluster_1.0-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fpc_2.2-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/diceR_3.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/genieclust_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clValid_0.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/omada_1.15.0.tar.gz'
+* installing *binary* package ‘labelled’ ...
+* package ‘labelled’ successfully unpacked and SHA256 sums checked
+* ‘labelled’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘labelled’ as ‘labelled_2.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labelled)
+* installing *binary* package ‘magic’ ...
+* package ‘magic’ successfully unpacked and SHA256 sums checked
+* ‘magic’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘magic’ as ‘magic_1.6-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (magic)
+* installing *binary* package ‘linprog’ ...
+* package ‘linprog’ successfully unpacked and SHA256 sums checked
+* ‘linprog’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘linprog’ as ‘linprog_0.9-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (linprog)
+* installing *binary* package ‘modeltools’ ...
+* package ‘modeltools’ successfully unpacked and SHA256 sums checked
+* ‘modeltools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘modeltools’ as ‘modeltools_0.2-24_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (modeltools)
+* installing *binary* package ‘DEoptimR’ ...
+* package ‘DEoptimR’ successfully unpacked and SHA256 sums checked
+* ‘DEoptimR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DEoptimR’ as ‘DEoptimR_1.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEoptimR)
+* installing *binary* package ‘combinat’ ...
+* package ‘combinat’ successfully unpacked and SHA256 sums checked
+* ‘combinat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘combinat’ as ‘combinat_0.0-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (combinat)
+* installing *binary* package ‘quitefastmst’ ...
+* package ‘quitefastmst’ successfully unpacked and SHA256 sums checked
+* ‘quitefastmst’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘quitefastmst’ as ‘quitefastmst_0.9.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quitefastmst)
+* installing *binary* package ‘prabclus’ ...
+* package ‘prabclus’ successfully unpacked and SHA256 sums checked
+* ‘prabclus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘prabclus’ as ‘prabclus_2.3-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prabclus)
+* installing *binary* package ‘clue’ ...
+* package ‘clue’ successfully unpacked and SHA256 sums checked
+* ‘clue’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clue’ as ‘clue_0.3-68_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clue)
+* installing *binary* package ‘clusterCrit’ ...
+* package ‘clusterCrit’ successfully unpacked and SHA256 sums checked
+* ‘clusterCrit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clusterCrit’ as ‘clusterCrit_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clusterCrit)
+* installing *binary* package ‘RankAggreg’ ...
+* package ‘RankAggreg’ successfully unpacked and SHA256 sums checked
+* ‘RankAggreg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RankAggreg’ as ‘RankAggreg_0.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RankAggreg)
+* installing *binary* package ‘yardstick’ ...
+* package ‘yardstick’ successfully unpacked and SHA256 sums checked
+* ‘yardstick’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘yardstick’ as ‘yardstick_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (yardstick)
+* installing *binary* package ‘clValid’ ...
+* package ‘clValid’ successfully unpacked and SHA256 sums checked
+* ‘clValid’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clValid’ as ‘clValid_0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clValid)
+* installing *binary* package ‘questionr’ ...
+* package ‘questionr’ successfully unpacked and SHA256 sums checked
+* ‘questionr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘questionr’ as ‘questionr_0.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (questionr)
+* installing *binary* package ‘geometry’ ...
+* package ‘geometry’ successfully unpacked and SHA256 sums checked
+* ‘geometry’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geometry’ as ‘geometry_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geometry)
+* installing *binary* package ‘flexmix’ ...
+* package ‘flexmix’ successfully unpacked and SHA256 sums checked
+* ‘flexmix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flexmix’ as ‘flexmix_2.3-20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexmix)
+* installing *binary* package ‘robustbase’ ...
+* package ‘robustbase’ successfully unpacked and SHA256 sums checked
+* ‘robustbase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘robustbase’ as ‘robustbase_0.99-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (robustbase)
+* installing *binary* package ‘deadwood’ ...
+* package ‘deadwood’ successfully unpacked and SHA256 sums checked
+* ‘deadwood’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘deadwood’ as ‘deadwood_0.9.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deadwood)
+* installing *binary* package ‘klaR’ ...
+* package ‘klaR’ successfully unpacked and SHA256 sums checked
+* ‘klaR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘klaR’ as ‘klaR_1.7-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (klaR)
+* installing *binary* package ‘pdfCluster’ ...
+* package ‘pdfCluster’ successfully unpacked and SHA256 sums checked
+* ‘pdfCluster’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pdfCluster’ as ‘pdfCluster_1.0-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pdfCluster)
+* installing *binary* package ‘fpc’ ...
+* package ‘fpc’ successfully unpacked and SHA256 sums checked
+* ‘fpc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fpc’ as ‘fpc_2.2-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fpc)
+* installing *binary* package ‘genieclust’ ...
+* package ‘genieclust’ successfully unpacked and SHA256 sums checked
+* ‘genieclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘genieclust’ as ‘genieclust_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genieclust)
+* installing *binary* package ‘diceR’ ...
+* package ‘diceR’ successfully unpacked and SHA256 sums checked
+* ‘diceR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘diceR’ as ‘diceR_3.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diceR)
+* installing *source* package ‘omada’ ...
+** this is package ‘omada’ version ‘1.15.0’
+** package ‘omada’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘omada’ as ‘omada_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (omada)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdGXL71/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m45.750s
+user	0m19.894s
+sys	0m7.700s

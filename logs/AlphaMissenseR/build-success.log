@@ -1,0 +1,256 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AlphaMissenseR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AlphaMissenseR'
+also installing the dependencies ‘logger’, ‘RcppSpdlog’, ‘UCSC.utils’, ‘GenomicFeatures’, ‘AnnotationFilter’, ‘shiny.react’, ‘rjsoncons’, ‘duckdb’, ‘spdl’, ‘GenomeInfoDb’, ‘ExperimentHub’, ‘ensembldb’, ‘r3dmol’, ‘bio3d’, ‘shiny.gosling’, ‘ggdist’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/logger_0.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RcppSpdlog_0.0.29.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/UCSC.utils_1.9.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomicFeatures_1.65.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnnotationFilter_1.37.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shiny.react_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rjsoncons_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/duckdb_1.5.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spdl_0.0.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomeInfoDb_1.49.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ExperimentHub_3.3.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ensembldb_2.37.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/r3dmol_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bio3d_2.4-5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/shiny.gosling_1.9.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggdist_3.3.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AlphaMissenseR_1.9.0.tar.gz'
+* installing *binary* package ‘logger’ ...
+* package ‘logger’ successfully unpacked and SHA256 sums checked
+* ‘logger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘logger’ as ‘logger_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logger)
+* installing *binary* package ‘RcppSpdlog’ ...
+* package ‘RcppSpdlog’ successfully unpacked and SHA256 sums checked
+* ‘RcppSpdlog’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppSpdlog’ as ‘RcppSpdlog_0.0.29_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppSpdlog)
+* installing *source* package ‘UCSC.utils’ ...
+** this is package ‘UCSC.utils’ version ‘1.9.0’
+** package ‘UCSC.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘UCSC.utils’ as ‘UCSC.utils_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UCSC.utils)
+* installing *source* package ‘GenomicFeatures’ ...
+** this is package ‘GenomicFeatures’ version ‘1.65.0’
+** package ‘GenomicFeatures’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicFeatures.c -o R_init_GenomicFeatures.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transcriptLocs2refLocs.c -o transcriptLocs2refLocs.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicFeatures.so IRanges_stubs.o R_init_GenomicFeatures.o S4Vectors_stubs.o transcriptLocs2refLocs.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GenomicFeatures/00new/GenomicFeatures/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicFeatures’ as ‘GenomicFeatures_1.65.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicFeatures)
+* installing *source* package ‘AnnotationFilter’ ...
+** this is package ‘AnnotationFilter’ version ‘1.37.0’
+** package ‘AnnotationFilter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnnotationFilter’ as ‘AnnotationFilter_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationFilter)
+* installing *binary* package ‘rjsoncons’ ...
+* package ‘rjsoncons’ successfully unpacked and SHA256 sums checked
+* ‘rjsoncons’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rjsoncons’ as ‘rjsoncons_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjsoncons)
+* installing *binary* package ‘duckdb’ ...
+* package ‘duckdb’ successfully unpacked and SHA256 sums checked
+* ‘duckdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘duckdb’ as ‘duckdb_1.5.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (duckdb)
+* installing *source* package ‘ExperimentHub’ ...
+** this is package ‘ExperimentHub’ version ‘3.3.0’
+** package ‘ExperimentHub’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ExperimentHub’ as ‘ExperimentHub_3.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExperimentHub)
+* installing *binary* package ‘bio3d’ ...
+* package ‘bio3d’ successfully unpacked and SHA256 sums checked
+* ‘bio3d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bio3d’ as ‘bio3d_2.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bio3d)
+* installing *binary* package ‘ggdist’ ...
+* package ‘ggdist’ successfully unpacked and SHA256 sums checked
+* ‘ggdist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggdist’ as ‘ggdist_3.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdist)
+* installing *binary* package ‘shiny.react’ ...
+* package ‘shiny.react’ successfully unpacked and SHA256 sums checked
+* ‘shiny.react’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shiny.react’ as ‘shiny.react_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shiny.react)
+* installing *binary* package ‘spdl’ ...
+* package ‘spdl’ successfully unpacked and SHA256 sums checked
+* ‘spdl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spdl’ as ‘spdl_0.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spdl)
+* installing *source* package ‘GenomeInfoDb’ ...
+** this is package ‘GenomeInfoDb’ version ‘1.49.1’
+** package ‘GenomeInfoDb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomeInfoDb’ as ‘GenomeInfoDb_1.49.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDb)
+* installing *binary* package ‘r3dmol’ ...
+* package ‘r3dmol’ successfully unpacked and SHA256 sums checked
+* ‘r3dmol’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘r3dmol’ as ‘r3dmol_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (r3dmol)
+* installing *source* package ‘ensembldb’ ...
+** this is package ‘ensembldb’ version ‘2.37.3’
+** package ‘ensembldb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function ‘.cds_for_id2’ in package ‘ensembldb’
+
+ *** caught segfault ***
+address 0x3490, cause 'memory not mapped'
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+ERROR: lazy loading failed for package ‘ensembldb’
+* removing ‘/tmp/library/ensembldb’
+* installing *source* package ‘shiny.gosling’ ...
+** this is package ‘shiny.gosling’ version ‘1.9.0’
+** package ‘shiny.gosling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shiny.gosling’ as ‘shiny.gosling_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shiny.gosling)
+* installing *source* package ‘AlphaMissenseR’ ...
+** this is package ‘AlphaMissenseR’ version ‘1.9.0’
+** package ‘AlphaMissenseR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AlphaMissenseR’ as ‘AlphaMissenseR_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AlphaMissenseR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGFQgpx/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘ensembldb’ had non-zero exit status
+
+real	2m27.645s
+user	1m43.147s
+sys	0m16.612s

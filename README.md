@@ -6,24 +6,27 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 196 (8%)
+- **Successfully Built:** 226 (9%)
 - **Failed:** 2 (0%)
-- **In Progress:** 183
-- **Not Started:** 1965
+- **In Progress:** 169
+- **Not Started:** 1949
 
-**Progress:** 8%
+**Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (196)
+## Successfully Built Packages (226)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
+| [ABSSeq](https://bioconductor.org/packages/3.24/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABSSeq) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
 | [ASAFE](https://bioconductor.org/packages/3.24/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.24/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASGSCA) |
+| [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
+| [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
@@ -40,23 +43,20 @@
 | [Clomial](https://bioconductor.org/packages/3.24/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Clomial) |
 | [ComPrAn](https://bioconductor.org/packages/3.24/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ComPrAn) |
 | [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
+| [DEqMS](https://bioconductor.org/packages/3.24/bioc/html/DEqMS.html) | [log](logs/DEqMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEqMS) |
 | [DeepPINCS](https://bioconductor.org/packages/3.24/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeepPINCS) |
-| [DriverNet](https://bioconductor.org/packages/3.24/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DriverNet) |
-| [DynDoc](https://bioconductor.org/packages/3.24/bioc/html/DynDoc.html) | [log](logs/DynDoc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DynDoc) |
-| [FitHiC](https://bioconductor.org/packages/3.24/bioc/html/FitHiC.html) | [log](logs/FitHiC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/FitHiC) |
-| [GEOfastq](https://bioconductor.org/packages/3.24/bioc/html/GEOfastq.html) | [log](logs/GEOfastq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GEOfastq) |
 
-*... and 146 more ...*
+*... and 176 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [phosphonormalizer](https://bioconductor.org/packages/3.24/bioc/html/phosphonormalizer.html) | [log](logs/phosphonormalizer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/phosphonormalizer) |
-| [qvalue](https://bioconductor.org/packages/3.24/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/qvalue) |
+| [rmelting](https://bioconductor.org/packages/3.24/bioc/html/rmelting.html) | [log](logs/rmelting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rmelting) |
 | [rnaseqcomp](https://bioconductor.org/packages/3.24/bioc/html/rnaseqcomp.html) | [log](logs/rnaseqcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rnaseqcomp) |
 | [rpx](https://bioconductor.org/packages/3.24/bioc/html/rpx.html) | [log](logs/rpx/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rpx) |
 | [rsemmed](https://bioconductor.org/packages/3.24/bioc/html/rsemmed.html) | [log](logs/rsemmed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rsemmed) |
 | [sSeq](https://bioconductor.org/packages/3.24/bioc/html/sSeq.html) | [log](logs/sSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sSeq) |
 | [sagenhaft](https://bioconductor.org/packages/3.24/bioc/html/sagenhaft.html) | [log](logs/sagenhaft/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sagenhaft) |
+| [scFeatureFilter](https://bioconductor.org/packages/3.24/bioc/html/scFeatureFilter.html) | [log](logs/scFeatureFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scFeatureFilter) |
 | [sights](https://bioconductor.org/packages/3.24/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sights) |
 | [sparsenetgls](https://bioconductor.org/packages/3.24/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparsenetgls) |
 | [ssize](https://bioconductor.org/packages/3.24/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssize) |
@@ -83,12 +83,11 @@
 | [HPiP](https://bioconductor.org/packages/3.24/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HPiP) | Missing R dependency: SparseArray<br>Missing R dependency: recipes |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (183)
+## In Progress (169)
 - ⏳ `ANCOMBC`
 - ⏳ `ARRmNormalization`
 - ⏳ `ASSET`
 - ⏳ `AWAggregator`
-- ⏳ `AlphaMissenseR`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
@@ -134,11 +133,11 @@
 - ⏳ `GeneGA`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
+- ⏳ `HDTD`
 
-... and 133 more ...
+... and 119 more ...
 
-## Not Yet Started (1965)
-- ⏸️ `ABSSeq`
+## Not Yet Started (1949)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -188,9 +187,10 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
+- ⏸️ `BEclear`
 
-... and 1915 more ...
+... and 1899 more ...
 
 ---
-*Last updated: 2026-07-20 19:35:05 UTC*
-*Packages with verified BBS status: 106*
+*Last updated: 2026-07-20 19:37:00 UTC*
+*Packages with verified BBS status: 112*
