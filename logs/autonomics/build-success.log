@@ -1,0 +1,99 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''autonomics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'autonomics'
+Warning: dependencies ‘progeny’, ‘ropls’ are not available
+also installing the dependencies ‘fractional’, ‘minty’, ‘codingMatrices’, ‘ggstance’, ‘OlinkAnalyze’, ‘propagate’, ‘readODS’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fractional_0.1.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/minty_0.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/codingMatrices_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggstance_0.3.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/OlinkAnalyze_5.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/propagate_1.1-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readODS_2.3.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/autonomics_1.21.0.tar.gz'
+* installing *binary* package ‘fractional’ ...
+* package ‘fractional’ successfully unpacked and SHA256 sums checked
+* ‘fractional’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fractional’ as ‘fractional_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fractional)
+* installing *binary* package ‘minty’ ...
+* package ‘minty’ successfully unpacked and SHA256 sums checked
+* ‘minty’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minty’ as ‘minty_0.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minty)
+* installing *binary* package ‘ggstance’ ...
+* package ‘ggstance’ successfully unpacked and SHA256 sums checked
+* ‘ggstance’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggstance’ as ‘ggstance_0.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggstance)
+* installing *binary* package ‘OlinkAnalyze’ ...
+* package ‘OlinkAnalyze’ successfully unpacked and SHA256 sums checked
+* ‘OlinkAnalyze’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OlinkAnalyze’ as ‘OlinkAnalyze_5.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OlinkAnalyze)
+* installing *binary* package ‘propagate’ ...
+* package ‘propagate’ successfully unpacked and SHA256 sums checked
+* ‘propagate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘propagate’ as ‘propagate_1.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (propagate)
+* installing *binary* package ‘codingMatrices’ ...
+* package ‘codingMatrices’ successfully unpacked and SHA256 sums checked
+* ‘codingMatrices’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘codingMatrices’ as ‘codingMatrices_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (codingMatrices)
+* installing *binary* package ‘readODS’ ...
+* package ‘readODS’ successfully unpacked and SHA256 sums checked
+* ‘readODS’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readODS’ as ‘readODS_2.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readODS)
+* installing *source* package ‘autonomics’ ...
+** this is package ‘autonomics’ version ‘1.21.0’
+** package ‘autonomics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to 'seq_along' 
+Note: wrong number of arguments to 'sqrt' 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘autonomics’ as ‘autonomics_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (autonomics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdjurGO/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m55.764s
+user	0m43.696s
+sys	0m6.441s

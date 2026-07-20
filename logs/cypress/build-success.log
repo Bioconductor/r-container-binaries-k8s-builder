@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''cypress'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'cypress'
+also installing the dependencies ‘polycor’, ‘CDM’, ‘TAM’, ‘pbv’, ‘sirt’, ‘TCA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/polycor_0.8-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/CDM_8.3-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TAM_4.3-25.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pbv_0.5-47.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sirt_4.2-133.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TCA_1.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/cypress_1.9.0.tar.gz'
+* installing *binary* package ‘polycor’ ...
+* package ‘polycor’ successfully unpacked and SHA256 sums checked
+* ‘polycor’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polycor’ as ‘polycor_0.8-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polycor)
+* installing *binary* package ‘pbv’ ...
+* package ‘pbv’ successfully unpacked and SHA256 sums checked
+* ‘pbv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pbv’ as ‘pbv_0.5-47_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbv)
+* installing *binary* package ‘TCA’ ...
+* package ‘TCA’ successfully unpacked and SHA256 sums checked
+* ‘TCA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TCA’ as ‘TCA_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TCA)
+* installing *binary* package ‘CDM’ ...
+* package ‘CDM’ successfully unpacked and SHA256 sums checked
+* ‘CDM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CDM’ as ‘CDM_8.3-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CDM)
+* installing *binary* package ‘TAM’ ...
+* package ‘TAM’ successfully unpacked and SHA256 sums checked
+* ‘TAM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TAM’ as ‘TAM_4.3-25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TAM)
+* installing *binary* package ‘sirt’ ...
+* package ‘sirt’ successfully unpacked and SHA256 sums checked
+* ‘sirt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sirt’ as ‘sirt_4.2-133_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sirt)
+* installing *source* package ‘cypress’ ...
+** this is package ‘cypress’ version ‘1.9.0’
+** package ‘cypress’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cypress’ as ‘cypress_1.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cypress)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLuYAvp/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m59.877s
+user	0m38.343s
+sys	0m6.443s

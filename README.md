@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1593 (67%)
+- **Successfully Built:** 1630 (69%)
 - **Failed:** 23 (0%)
-- **In Progress:** 139
-- **Not Started:** 591
+- **In Progress:** 113
+- **Not Started:** 580
 
-**Progress:** 68%
+**Progress:** 70%
 ```
-██████████████████████████████████░░░░░░░░░░░░░░░░
+███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1593)
+## Successfully Built Packages (1630)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,13 +46,10 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1543 more ...*
+*... and 1580 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [universalmotif](https://bioconductor.org/packages/3.24/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/universalmotif) |
-| [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
-| [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.24/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vbmp) |
 | [velociraptor](https://bioconductor.org/packages/3.24/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
@@ -67,12 +64,15 @@
 | [webbioc](https://bioconductor.org/packages/3.24/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/webbioc) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wpm](https://bioconductor.org/packages/3.24/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wpm) |
+| [xCell2](https://bioconductor.org/packages/3.24/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xCell2) |
+| [xcms](https://bioconductor.org/packages/3.24/bioc/html/xcms.html) | [log](logs/xcms/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcms) |
 | [xcore](https://bioconductor.org/packages/3.24/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.24/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.24/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
+| [zenith](https://bioconductor.org/packages/3.24/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zenith) |
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
@@ -104,7 +104,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (139)
+## In Progress (113)
 - ⏳ `AUCell`
 - ⏳ `BASiCStan`
 - ⏳ `BamScale`
@@ -132,17 +132,12 @@
 - ⏳ `GDCRNATools`
 - ⏳ `GOaGO`
 - ⏳ `GSRI`
-- ⏳ `GSVA`
 - ⏳ `GeneMeta`
-- ⏳ `LRcell`
-- ⏳ `MDSvis`
 - ⏳ `MICSQTL`
 - ⏳ `MIRit`
 - ⏳ `MultiDataSet`
 - ⏳ `NetActivity`
 - ⏳ `PREDA`
-- ⏳ `PRONE`
-- ⏳ `Prostar`
 - ⏳ `ProteoMM`
 - ⏳ `QDNAseq`
 - ⏳ `RNAshapeQC`
@@ -151,14 +146,19 @@
 - ⏳ `Rbowtie2`
 - ⏳ `SAIGEgds`
 - ⏳ `SC3`
-- ⏳ `SCArray`
-- ⏳ `SCnorm`
 - ⏳ `SPsimSeq`
 - ⏳ `ShortRead`
+- ⏳ `SpaNorm`
+- ⏳ `TOP`
+- ⏳ `Xeva`
+- ⏳ `aggregateBioVar`
+- ⏳ `alabaster.mae`
+- ⏳ `alabaster.sce`
+- ⏳ `anglemania`
 
-... and 89 more ...
+... and 63 more ...
 
-## Not Yet Started (591)
+## Not Yet Started (580)
 - ⏸️ `ACE`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
@@ -185,7 +185,6 @@
 - ⏸️ `CAGEr`
 - ⏸️ `CAMERA`
 - ⏸️ `CCAFE`
-- ⏸️ `CCPROMISE`
 - ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
@@ -209,9 +208,10 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
+- ⏸️ `ClonalSim`
 
-... and 541 more ...
+... and 530 more ...
 
 ---
-*Last updated: 2026-07-20 21:07:32 UTC*
-*Packages with verified BBS status: 218*
+*Last updated: 2026-07-20 21:10:14 UTC*
+*Packages with verified BBS status: 221*

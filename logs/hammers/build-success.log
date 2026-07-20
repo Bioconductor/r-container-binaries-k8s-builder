@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''hammers'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'hammers'
+also installing the dependencies ‘omnibus’, ‘primes’, ‘statisfactory’, ‘LISTO’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/omnibus_1.2.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/primes_1.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/statisfactory_1.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/LISTO_0.8.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/hammers_1.1.0.tar.gz'
+* installing *binary* package ‘omnibus’ ...
+* package ‘omnibus’ successfully unpacked and SHA256 sums checked
+* ‘omnibus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘omnibus’ as ‘omnibus_1.2.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (omnibus)
+* installing *binary* package ‘primes’ ...
+* package ‘primes’ successfully unpacked and SHA256 sums checked
+* ‘primes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘primes’ as ‘primes_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (primes)
+* installing *binary* package ‘statisfactory’ ...
+* package ‘statisfactory’ successfully unpacked and SHA256 sums checked
+* ‘statisfactory’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘statisfactory’ as ‘statisfactory_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statisfactory)
+* installing *binary* package ‘LISTO’ ...
+* package ‘LISTO’ successfully unpacked and SHA256 sums checked
+* ‘LISTO’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LISTO’ as ‘LISTO_0.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LISTO)
+* installing *source* package ‘hammers’ ...
+** this is package ‘hammers’ version ‘1.1.0’
+** package ‘hammers’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hammers’ as ‘hammers_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hammers)
+
+The downloaded source packages are in
+	‘/tmp/RtmpaL0YEj/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m0.339s
+user	0m39.946s
+sys	0m6.540s
