@@ -1,0 +1,148 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''benchdamic'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'benchdamic'
+also installing the dependencies ‘ROI’, ‘ROI.plugin.lpsolve’, ‘spacefillr’, ‘detectseparation’, ‘mlr3mbo’, ‘dirmult’, ‘corncob’, ‘MicrobiomeStat’, ‘GUniFrac’, ‘MGLM’, ‘SPsimSeq’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ROI_1.0-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ROI.plugin.lpsolve_1.0-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spacefillr_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/detectseparation_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3mbo_1.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dirmult_0.1.3-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/corncob_0.4.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MicrobiomeStat_1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/GUniFrac_1.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MGLM_0.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SPsimSeq_1.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/benchdamic_1.18.0.tar.gz'
+* installing *binary* package ‘ROI’ ...
+* package ‘ROI’ successfully unpacked and SHA256 sums checked
+* ‘ROI’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ROI’ as ‘ROI_1.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROI)
+* installing *binary* package ‘spacefillr’ ...
+* package ‘spacefillr’ successfully unpacked and SHA256 sums checked
+* ‘spacefillr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spacefillr’ as ‘spacefillr_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spacefillr)
+* installing *binary* package ‘dirmult’ ...
+* package ‘dirmult’ successfully unpacked and SHA256 sums checked
+* ‘dirmult’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dirmult’ as ‘dirmult_0.1.3-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dirmult)
+* installing *binary* package ‘MGLM’ ...
+* package ‘MGLM’ successfully unpacked and SHA256 sums checked
+* ‘MGLM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MGLM’ as ‘MGLM_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MGLM)
+* installing *source* package ‘SPsimSeq’ ...
+** this is package ‘SPsimSeq’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SPsimSeq’ as ‘SPsimSeq_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SPsimSeq)
+* installing *binary* package ‘ROI.plugin.lpsolve’ ...
+* package ‘ROI.plugin.lpsolve’ successfully unpacked and SHA256 sums checked
+* ‘ROI.plugin.lpsolve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ROI.plugin.lpsolve’ as ‘ROI.plugin.lpsolve_1.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROI.plugin.lpsolve)
+* installing *binary* package ‘mlr3mbo’ ...
+* package ‘mlr3mbo’ successfully unpacked and SHA256 sums checked
+* ‘mlr3mbo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3mbo’ as ‘mlr3mbo_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3mbo)
+* installing *binary* package ‘GUniFrac’ ...
+* package ‘GUniFrac’ successfully unpacked and SHA256 sums checked
+* ‘GUniFrac’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GUniFrac’ as ‘GUniFrac_1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GUniFrac)
+* installing *binary* package ‘detectseparation’ ...
+* package ‘detectseparation’ successfully unpacked and SHA256 sums checked
+* ‘detectseparation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘detectseparation’ as ‘detectseparation_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (detectseparation)
+* installing *binary* package ‘MicrobiomeStat’ ...
+* package ‘MicrobiomeStat’ successfully unpacked and SHA256 sums checked
+* ‘MicrobiomeStat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MicrobiomeStat’ as ‘MicrobiomeStat_1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MicrobiomeStat)
+* installing *binary* package ‘corncob’ ...
+* package ‘corncob’ successfully unpacked and SHA256 sums checked
+* ‘corncob’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘corncob’ as ‘corncob_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corncob)
+* installing *source* package ‘benchdamic’ ...
+** this is package ‘benchdamic’ version ‘1.18.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+** testing if installed package can be loaded from final location
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘benchdamic’ as ‘benchdamic_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchdamic)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQoroUt/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	2m18.850s
+user	1m44.228s
+sys	0m13.584s

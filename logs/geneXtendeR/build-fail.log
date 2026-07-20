@@ -1,0 +1,104 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''geneXtendeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'geneXtendeR'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/geneXtendeR_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 12309786 bytes (11.7 MB)
+==================================================
+downloaded 11.7 MB
+
+* installing *source* package ‘geneXtendeR’ ...
+** this is package ‘geneXtendeR’ version ‘1.37.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c annotate.c -o annotate.o
+annotate.c: In function ‘annotate’:
+annotate.c:159:79: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  159 |                 Rf_error("annotate() doesn't handle output lines longer than %d characters", sizeof(Buffer));
+      |                                                                              ~^              ~~~~~~~~~~~~~~
+      |                                                                               |              |
+      |                                                                               int            long unsigned int
+      |                                                                              %ld
+annotate.c:191:87: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  191 |                         Rf_error("annotate() doesn't handle output lines longer than %d characters",sizeof(Buffer));
+      |                                                                                      ~^             ~~~~~~~~~~~~~~
+      |                                                                                       |             |
+      |                                                                                       int           long unsigned int
+      |                                                                                      %ld
+annotate.c:199:87: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  199 |                         Rf_error("annotate() doesn't handle output lines longer than %d characters",sizeof(Buffer));
+      |                                                                                      ~^             ~~~~~~~~~~~~~~
+      |                                                                                       |             |
+      |                                                                                       int           long unsigned int
+      |                                                                                      %ld
+annotate.c:208:87: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  208 |                         Rf_error("annotate() doesn't handle output lines longer than %d characters",sizeof(Buffer));
+      |                                                                                      ~^             ~~~~~~~~~~~~~~
+      |                                                                                       |             |
+      |                                                                                       int           long unsigned int
+      |                                                                                      %ld
+annotate.c:228:83: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  228 |                     Rf_error("annotate() doesn't handle output lines longer than %d characters",sizeof(Buffer));
+      |                                                                                  ~^             ~~~~~~~~~~~~~~
+      |                                                                                   |             |
+      |                                                                                   int           long unsigned int
+      |                                                                                  %ld
+annotate.c:106:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  106 |     fgets(varstr, 50000, varfp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+annotate.c:116:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  116 |     fgets(vcfstr, 10000, vcffp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_number.c -o extract_number.o
+extract_number.c: In function ‘extractnumber’:
+extract_number.c:98:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   98 |     fgets(varstr, 50000, varfp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+extract_number.c:108:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  108 |     fgets(vcfstr, 10000, vcffp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_peaks.c -o extract_peaks.o
+extract_peaks.c: In function ‘extractpeaks’:
+extract_peaks.c:202:79: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+  202 |                 Rf_error("annotate() doesn't handle output lines longer than %d characters", sizeof(Buffer));
+      |                                                                              ~^              ~~~~~~~~~~~~~~
+      |                                                                               |              |
+      |                                                                               int            long unsigned int
+      |                                                                              %ld
+extract_peaks.c:107:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  107 |     fgets(varstr, 50000, varfp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+extract_peaks.c:117:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  117 |     fgets(vcfstr, 10000, vcffp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o geneXtendeR.so annotate.o extract_number.o extract_peaks.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-geneXtendeR/00new/geneXtendeR/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Error: object ‘id’ is not exported by 'namespace:dplyr'
+Execution halted
+ERROR: lazy loading failed for package ‘geneXtendeR’
+* removing ‘/tmp/library/geneXtendeR’
+
+The downloaded source packages are in
+	‘/tmp/RtmpiLe2zG/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘geneXtendeR’ had non-zero exit status
+
+real	0m31.120s
+user	0m23.964s
+sys	0m3.585s

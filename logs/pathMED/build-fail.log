@@ -1,0 +1,87 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''pathMED'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'pathMED'
+also installing the dependencies ‘minerva’, ‘caretEnsemble’, ‘metrica’, ‘gam’, ‘import’, ‘MLeval’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/minerva_1.5.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/caretEnsemble_4.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metrica_2.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gam_1.22-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/import_1.3.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MLeval_0.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/pathMED_1.4.0.tar.gz'
+* installing *binary* package ‘minerva’ ...
+* package ‘minerva’ successfully unpacked and SHA256 sums checked
+* ‘minerva’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minerva’ as ‘minerva_1.5.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minerva)
+* installing *binary* package ‘caretEnsemble’ ...
+* package ‘caretEnsemble’ successfully unpacked and SHA256 sums checked
+* ‘caretEnsemble’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘caretEnsemble’ as ‘caretEnsemble_4.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caretEnsemble)
+* installing *binary* package ‘gam’ ...
+* package ‘gam’ successfully unpacked and SHA256 sums checked
+* ‘gam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gam’ as ‘gam_1.22-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gam)
+* installing *binary* package ‘import’ ...
+* package ‘import’ successfully unpacked and SHA256 sums checked
+* ‘import’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘import’ as ‘import_1.3.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (import)
+* installing *binary* package ‘MLeval’ ...
+* package ‘MLeval’ successfully unpacked and SHA256 sums checked
+* ‘MLeval’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MLeval’ as ‘MLeval_0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MLeval)
+* installing *binary* package ‘metrica’ ...
+* package ‘metrica’ successfully unpacked and SHA256 sums checked
+* ‘metrica’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metrica’ as ‘metrica_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metrica)
+* installing *source* package ‘pathMED’ ...
+** this is package ‘pathMED’ version ‘1.4.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ModelMetrics’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘pathMED’
+* removing ‘/tmp/library/pathMED’
+
+The downloaded source packages are in
+	‘/tmp/RtmpTjihWI/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘pathMED’ had non-zero exit status
+
+real	0m19.971s
+user	0m11.431s
+sys	0m3.423s
