@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1739 (74%)
+- **Successfully Built:** 1744 (74%)
 - **Failed:** 27 (1%)
-- **In Progress:** 50
-- **Not Started:** 530
+- **In Progress:** 56
+- **Not Started:** 519
 
 **Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1739)
+## Successfully Built Packages (1744)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1689 more ...*
+*... and 1694 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -108,7 +108,8 @@
 | [squallms](https://bioconductor.org/packages/3.24/bioc/html/squallms.html) | [log](logs/squallms/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/squallms) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (50)
+## In Progress (56)
+- ⏳ `ACE`
 - ⏳ `AUCell`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
@@ -116,23 +117,23 @@
 - ⏳ `CTSV`
 - ⏳ `CTdata`
 - ⏳ `CatsCradle`
-- ⏳ `CeTF`
 - ⏳ `CellTrails`
 - ⏳ `CoGAPS`
 - ⏳ `DAssemble`
 - ⏳ `DEXSeq`
 - ⏳ `ExperimentSubset`
-- ⏳ `GDCRNATools`
+- ⏳ `GOstats`
 - ⏳ `IPO`
 - ⏳ `MAIT`
-- ⏳ `MIRit`
 - ⏳ `NetActivity`
 - ⏳ `PREDA`
+- ⏳ `Rbec`
 - ⏳ `Rbowtie2`
 - ⏳ `SC3`
 - ⏳ `apeglm`
 - ⏳ `barbieQ`
 - ⏳ `bnbc`
+- ⏳ `dandelionR`
 - ⏳ `decontX`
 - ⏳ `divergence`
 - ⏳ `dmGsea`
@@ -146,22 +147,22 @@
 - ⏳ `immApex`
 - ⏳ `looking4clusters`
 - ⏳ `mbkmeans`
+- ⏳ `meshr`
 - ⏳ `miQC`
+- ⏳ `miRSM`
 - ⏳ `mia`
 - ⏳ `mumosa`
 - ⏳ `oligoClasses`
 - ⏳ `omXplore`
+- ⏳ `omicRexposome`
 - ⏳ `pRoloc`
+- ⏳ `phenoTest`
 - ⏳ `ptairMS`
 - ⏳ `rtracklayer`
-- ⏳ `sSNAPPY`
-- ⏳ `scCB2`
-- ⏳ `scider`
-- ⏳ `splatter`
-- ⏳ `tidyexposomics`
 
-## Not Yet Started (530)
-- ⏸️ `ACE`
+... and 6 more ...
+
+## Not Yet Started (519)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -211,9 +212,10 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `CoverageView`
 - ⏸️ `CyTOFpower`
+- ⏸️ `DAMEfinder`
 
-... and 480 more ...
+... and 469 more ...
 
 ---
-*Last updated: 2026-07-20 21:17:52 UTC*
+*Last updated: 2026-07-20 21:19:07 UTC*
 *Packages with verified BBS status: 226*
