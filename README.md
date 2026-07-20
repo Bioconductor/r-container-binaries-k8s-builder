@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 486 (20%)
+- **Successfully Built:** 488 (20%)
 - **Failed:** 3 (0%)
 - **In Progress:** 13
-- **Not Started:** 1844
+- **Not Started:** 1842
 
 **Progress:** 20%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (486)
+## Successfully Built Packages (488)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 
-*... and 436 more ...*
+*... and 438 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,21 +85,21 @@
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
 ## In Progress (13)
+- ⏳ `BiocAzul`
 - ⏳ `BiocGenerics`
 - ⏳ `CytoGLMM`
-- ⏳ `DepecheR`
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `IntramiRExploreR`
+- ⏳ `Polytect`
 - ⏳ `Rhdf5lib`
 - ⏳ `Rigraphlib`
 - ⏳ `SuperCellCyto`
 - ⏳ `barmixR`
-- ⏳ `densvis`
 - ⏳ `fgsea`
 - ⏳ `scRecover`
 
-## Not Yet Started (1844)
+## Not Yet Started (1842)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -151,8 +151,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1794 more ...
+... and 1792 more ...
 
 ---
-*Last updated: 2026-07-20 19:48:51 UTC*
+*Last updated: 2026-07-20 19:49:31 UTC*
 *Packages with verified BBS status: 150*
