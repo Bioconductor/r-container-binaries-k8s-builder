@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2282 (95%)
+- **Successfully Built:** 2302 (96%)
 - **Failed:** 55 (2%)
-- **In Progress:** 21
-- **Not Started:** 26
+- **In Progress:** 15
+- **Not Started:** 12
 
 **Progress:** 98%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2282)
+## Successfully Built Packages (2302)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2232 more ...*
+*... and 2252 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -136,57 +136,37 @@
 | [transcriptR](https://bioconductor.org/packages/3.23/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transcriptR) | Build failed with unknown error |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (21)
-- ⏳ `BOBaFIT`
-- ⏳ `CAFE`
-- ⏳ `CopyNumberPlots`
-- ⏳ `GenomicOZone`
+## In Progress (15)
+- ⏳ `CAGEfightR`
+- ⏳ `ChAMP`
+- ⏳ `HiCDCPlus`
+- ⏳ `HiCaptuRe`
 - ⏳ `MungeSumstats`
-- ⏳ `R3CPET`
-- ⏳ `ReportingTools`
-- ⏳ `SomaticSignatures`
-- ⏳ `cageminer`
-- ⏳ `chevreulShiny`
-- ⏳ `chimeraviz`
-- ⏳ `cicero`
-- ⏳ `derfinderPlot`
-- ⏳ `epimutacions`
-- ⏳ `fourSynergy`
-- ⏳ `intansv`
-- ⏳ `msgbsR`
-- ⏳ `multicrispr`
-- ⏳ `psichomics`
-- ⏳ `scafari`
-- ⏳ `scruff`
+- ⏳ `NADfinder`
+- ⏳ `RNAmodR.AlkAnilineSeq`
+- ⏳ `RNAmodR.ML`
+- ⏳ `RNAmodR.RiboMethSeq`
+- ⏳ `annoLinker`
+- ⏳ `compEpiTools`
+- ⏳ `crisprShiny`
+- ⏳ `crisprVerse`
+- ⏳ `geomeTriD`
+- ⏳ `saseR`
 
-## Not Yet Started (26)
+## Not Yet Started (12)
 - ⏸️ `AgiMicroRna`
-- ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
 - ⏸️ `GARS`
-- ⏸️ `HiCDCPlus`
-- ⏸️ `HiCaptuRe`
-- ⏸️ `NADfinder`
 - ⏸️ `NewWave`
-- ⏸️ `RNAmodR.AlkAnilineSeq`
-- ⏸️ `RNAmodR.ML`
-- ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
-- ⏸️ `annoLinker`
 - ⏸️ `bandle`
-- ⏸️ `compEpiTools`
-- ⏸️ `crisprShiny`
-- ⏸️ `crisprVerse`
-- ⏸️ `geomeTriD`
 - ⏸️ `miRspongeR`
 - ⏸️ `pRolocGUI`
-- ⏸️ `saseR`
 
 ---
-*Last updated: 2026-07-20 21:55:31 UTC*
+*Last updated: 2026-07-20 21:57:04 UTC*
 *Packages with verified BBS status: 244*
