@@ -1,0 +1,91 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AlpsNMR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AlpsNMR'
+Warning: dependency ‘ASICS’ is not available
+also installing the dependencies ‘ChemoSpecUtils’, ‘readJDX’, ‘speaq’, ‘baseline’, ‘ChemoSpec’, ‘NMRphasing’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ChemoSpecUtils_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readJDX_0.6.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/speaq_2.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/baseline_1.3-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ChemoSpec_6.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/NMRphasing_1.0.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AlpsNMR_4.15.0.tar.gz'
+* installing *binary* package ‘ChemoSpecUtils’ ...
+* package ‘ChemoSpecUtils’ successfully unpacked and SHA256 sums checked
+* ‘ChemoSpecUtils’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChemoSpecUtils’ as ‘ChemoSpecUtils_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemoSpecUtils)
+* installing *binary* package ‘readJDX’ ...
+* package ‘readJDX’ successfully unpacked and SHA256 sums checked
+* ‘readJDX’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readJDX’ as ‘readJDX_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readJDX)
+* installing *binary* package ‘speaq’ ...
+* package ‘speaq’ successfully unpacked and SHA256 sums checked
+* ‘speaq’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘speaq’ as ‘speaq_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (speaq)
+* installing *binary* package ‘baseline’ ...
+* package ‘baseline’ successfully unpacked and SHA256 sums checked
+* ‘baseline’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘baseline’ as ‘baseline_1.3-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (baseline)
+* installing *binary* package ‘ChemoSpec’ ...
+* package ‘ChemoSpec’ successfully unpacked and SHA256 sums checked
+* ‘ChemoSpec’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ChemoSpec’ as ‘ChemoSpec_6.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemoSpec)
+* installing *binary* package ‘NMRphasing’ ...
+* package ‘NMRphasing’ successfully unpacked and SHA256 sums checked
+* ‘NMRphasing’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NMRphasing’ as ‘NMRphasing_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NMRphasing)
+* installing *source* package ‘AlpsNMR’ ...
+** this is package ‘AlpsNMR’ version ‘4.15.0’
+** package ‘AlpsNMR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AlpsNMR’ as ‘AlpsNMR_4.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AlpsNMR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0zYjjR/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m23.091s
+user	0m17.537s
+sys	0m4.929s
