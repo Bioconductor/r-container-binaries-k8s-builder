@@ -1,0 +1,47 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''TFHAZ'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'TFHAZ'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TFHAZ_1.35.0.tar.gz'
+Content type 'application/x-gzip' length 2638636 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+* installing *source* package ‘TFHAZ’ ...
+** this is package ‘TFHAZ’ version ‘1.35.0’
+** package ‘TFHAZ’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no function found corresponding to methods exports from ‘ORFik’ for: ‘organism’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no function found corresponding to methods exports from ‘ORFik’ for: ‘organism’
+** testing if installed package can be loaded from final location
+Warning: no function found corresponding to methods exports from ‘ORFik’ for: ‘organism’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TFHAZ’ as ‘TFHAZ_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFHAZ)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAUfFpP/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m3.715s
+user	0m46.061s
+sys	0m7.492s
