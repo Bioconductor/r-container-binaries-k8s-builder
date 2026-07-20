@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 494 (20%)
+- **Successfully Built:** 496 (20%)
 - **Failed:** 8 (0%)
-- **In Progress:** 6
-- **Not Started:** 1876
+- **In Progress:** 9
+- **Not Started:** 1871
 
 **Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (494)
+## Successfully Built Packages (496)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 
-*... and 444 more ...*
+*... and 446 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,15 +89,18 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (6)
+## In Progress (9)
 - ⏳ `BiocGenerics`
 - ⏳ `COMPASS`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `compcodeR`
+- ⏳ `MSstatsBig`
+- ⏳ `MSstatsBioNet`
+- ⏳ `MSstatsTMT`
+- ⏳ `cytolib`
 - ⏳ `ppcseq`
 
-## Not Yet Started (1876)
+## Not Yet Started (1871)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -149,8 +152,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1826 more ...
+... and 1821 more ...
 
 ---
-*Last updated: 2026-07-20 19:44:36 UTC*
+*Last updated: 2026-07-20 19:45:06 UTC*
 *Packages with verified BBS status: 136*
