@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''doppelgangR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'doppelgangR'
+also installing the dependency ‘curatedOvarianData’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/curatedOvarianData_1.51.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/doppelgangR_1.41.1.tar.gz'
+* installing *source* package ‘curatedOvarianData’ ...
+** this is package ‘curatedOvarianData’ version ‘1.51.1’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘curatedOvarianData’ as ‘curatedOvarianData_1.51.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (curatedOvarianData)
+* installing *source* package ‘doppelgangR’ ...
+** this is package ‘doppelgangR’ version ‘1.41.1’
+** package ‘doppelgangR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘doppelgangR’ as ‘doppelgangR_1.41.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doppelgangR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp6vKmHz/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m27.082s
+user	1m7.425s
+sys	0m10.471s
