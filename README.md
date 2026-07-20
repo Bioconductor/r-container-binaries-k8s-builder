@@ -6,23 +6,24 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 859 (36%)
+- **Successfully Built:** 892 (37%)
 - **Failed:** 14 (0%)
-- **In Progress:** 18
-- **Not Started:** 1493
+- **In Progress:** 15
+- **Not Started:** 1463
 
-**Progress:** 36%
+**Progress:** 38%
 ```
-██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (859)
+## Successfully Built Packages (892)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.23/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.23/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACME) |
+| [ADAPT](https://bioconductor.org/packages/3.23/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.23/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
@@ -44,17 +45,16 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
-| [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 809 more ...*
+*... and 842 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [toppgene](https://bioconductor.org/packages/3.23/bioc/html/toppgene.html) | [log](logs/toppgene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/toppgene) |
+| [transomics2cytoscape](https://bioconductor.org/packages/3.23/bioc/html/transomics2cytoscape.html) | [log](logs/transomics2cytoscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transomics2cytoscape) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.23/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
@@ -95,31 +95,27 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) | Build failed with unknown error |
 
-## In Progress (18)
-- ⏳ `CONFESS`
-- ⏳ `GenomicRanges`
-- ⏳ `MEDME`
-- ⏳ `alabaster.matrix`
-- ⏳ `altcdfenvs`
-- ⏳ `chihaya`
+## In Progress (15)
+- ⏳ `AnnotationDbi`
+- ⏳ `BiocNeighbors`
+- ⏳ `GeomxTools`
+- ⏳ `beachmat.hdf5`
+- ⏳ `beachmat.tiledb`
+- ⏳ `flowStats`
+- ⏳ `ggcyto`
+- ⏳ `ggmsa`
 - ⏳ `idpr`
-- ⏳ `igblastr`
-- ⏳ `kebabs`
-- ⏳ `microRNA`
-- ⏳ `motifcounter`
+- ⏳ `microbiome`
+- ⏳ `microbiomeDASim`
 - ⏳ `msa`
-- ⏳ `muscle`
-- ⏳ `ngsReports`
-- ⏳ `pwalign`
-- ⏳ `queeems`
-- ⏳ `rBLAST`
+- ⏳ `openCyto`
+- ⏳ `reconsi`
 - ⏳ `universalmotif`
 
-## Not Yet Started (1493)
+## Not Yet Started (1463)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
-- ⏸️ `ADAPT`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -140,7 +136,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
@@ -166,9 +161,11 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
+- ⏸️ `BasicSTARRseq`
+- ⏸️ `BatChef`
 
-... and 1443 more ...
+... and 1413 more ...
 
 ---
-*Last updated: 2026-07-20 20:20:20 UTC*
-*Packages with verified BBS status: 158*
+*Last updated: 2026-07-20 20:21:56 UTC*
+*Packages with verified BBS status: 160*
