@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 1793 (76%)
-- **Failed:** 29 (1%)
-- **In Progress:** 59
-- **Not Started:** 465
+- **Successfully Built:** 1804 (76%)
+- **Failed:** 30 (1%)
+- **In Progress:** 74
+- **Not Started:** 438
 
-**Progress:** 77%
+**Progress:** 78%
 ```
-██████████████████████████████████████░░░░░░░░░░░░
+███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1793)
+## Successfully Built Packages (1804)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1743 more ...*
+*... and 1754 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (29)
+## Failed Packages (30)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -103,6 +103,7 @@
 | [jazzPanda](https://bioconductor.org/packages/3.24/bioc/html/jazzPanda.html) | [log](logs/jazzPanda/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/jazzPanda) | Build failed with unknown error |
 | [maPredictDSC](https://bioconductor.org/packages/3.24/bioc/html/maPredictDSC.html) | [log](logs/maPredictDSC/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/maPredictDSC) | Build failed with unknown error |
 | [metabCombiner](https://bioconductor.org/packages/3.24/bioc/html/metabCombiner.html) | [log](logs/metabCombiner/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metabCombiner) | Missing R dependency: ModelMetrics |
+| [pRoloc](https://bioconductor.org/packages/3.24/bioc/html/pRoloc.html) | [log](logs/pRoloc/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/pRoloc) | Build failed with unknown error |
 | [scAnnotatR](https://bioconductor.org/packages/3.24/bioc/html/scAnnotatR.html) | [log](logs/scAnnotatR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scAnnotatR) | Missing R dependency: ModelMetrics |
 | [scGPS](https://bioconductor.org/packages/3.24/bioc/html/scGPS.html) | [log](logs/scGPS/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scGPS) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
@@ -110,10 +111,10 @@
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (59)
+## In Progress (74)
 - ⏳ `AUCell`
 - ⏳ `BSgenome`
-- ⏳ `BatChef`
+- ⏳ `BiSeq`
 - ⏳ `CARDspa`
 - ⏳ `CNEr`
 - ⏳ `CNVRanger`
@@ -126,17 +127,26 @@
 - ⏳ `DAssemble`
 - ⏳ `DMCHMM`
 - ⏳ `DeconvoBuddies`
+- ⏳ `EGSEA`
+- ⏳ `ERSSA`
 - ⏳ `ExCluster`
 - ⏳ `ExperimentSubset`
 - ⏳ `GenomicFeatures`
 - ⏳ `HiTC`
+- ⏳ `MGnifyR`
 - ⏳ `NetActivity`
 - ⏳ `PMScanR`
 - ⏳ `PREDA`
 - ⏳ `SC3`
 - ⏳ `SCANVIS`
-- ⏳ `chipenrich`
-- ⏳ `clusterExperiment`
+- ⏳ `SIM`
+- ⏳ `SingleCellSignalR`
+- ⏳ `airpart`
+- ⏳ `attract`
+- ⏳ `blacksheepr`
+- ⏳ `categoryCompare`
+- ⏳ `dar`
+- ⏳ `debrowser`
 - ⏳ `decontX`
 - ⏳ `divergence`
 - ⏳ `easylift`
@@ -147,24 +157,15 @@
 - ⏳ `hicVennDiagram`
 - ⏳ `iSEEhex`
 - ⏳ `iSEEindex`
+- ⏳ `immGLIPH`
+- ⏳ `immLynx`
+- ⏳ `lefser`
 - ⏳ `metagene2`
 - ⏳ `methylKit`
-- ⏳ `miRSM`
-- ⏳ `mist`
-- ⏳ `mobileRNA`
-- ⏳ `mumosa`
-- ⏳ `normr`
-- ⏳ `oligoClasses`
-- ⏳ `pRoloc`
-- ⏳ `plyranges`
-- ⏳ `r3Cseq`
-- ⏳ `recount3`
-- ⏳ `rifi`
-- ⏳ `rifiComparative`
 
-... and 9 more ...
+... and 24 more ...
 
-## Not Yet Started (465)
+## Not Yet Started (438)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -181,7 +182,6 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BgeeCall`
-- ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -215,9 +215,10 @@
 - ⏸️ `DNAfusion`
 - ⏸️ `DOTSeq`
 - ⏸️ `DOtools`
+- ⏸️ `DSS`
 
-... and 415 more ...
+... and 388 more ...
 
 ---
-*Last updated: 2026-07-20 21:23:03 UTC*
-*Packages with verified BBS status: 230*
+*Last updated: 2026-07-20 21:25:22 UTC*
+*Packages with verified BBS status: 231*

@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scRNAseqApp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scRNAseqApp'
+also installing the dependencies ‘billboarder’, ‘scrypt’, ‘shinymanager’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/billboarder_0.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scrypt_0.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinymanager_1.1.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/scRNAseqApp_1.13.19.tar.gz'
+* installing *binary* package ‘billboarder’ ...
+* package ‘billboarder’ successfully unpacked and SHA256 sums checked
+* ‘billboarder’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘billboarder’ as ‘billboarder_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (billboarder)
+* installing *binary* package ‘scrypt’ ...
+* package ‘scrypt’ successfully unpacked and SHA256 sums checked
+* ‘scrypt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scrypt’ as ‘scrypt_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scrypt)
+* installing *binary* package ‘shinymanager’ ...
+* package ‘shinymanager’ successfully unpacked and SHA256 sums checked
+* ‘shinymanager’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinymanager’ as ‘shinymanager_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinymanager)
+* installing *source* package ‘scRNAseqApp’ ...
+** this is package ‘scRNAseqApp’ version ‘1.13.19’
+** package ‘scRNAseqApp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘lapply’ from package ‘base’ in package ‘scRNAseqApp’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scRNAseqApp’ as ‘scRNAseqApp_1.13.19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scRNAseqApp)
+
+The downloaded source packages are in
+	‘/tmp/RtmpV25rdj/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m19.643s
+user	1m3.786s
+sys	0m8.251s
