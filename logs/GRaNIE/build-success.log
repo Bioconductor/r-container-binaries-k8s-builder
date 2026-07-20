@@ -1,0 +1,128 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GRaNIE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GRaNIE'
+also installing the dependencies ‘BSgenome.Rnorvegicus.UCSC.rn7’, ‘BSgenome.Mmulatta.UCSC.rheMac10’, ‘TxDb.Mmulatta.UCSC.rheMac10.refGene’, ‘JASPAR2022’, ‘rbioapi’, ‘LDlinkR’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/BSgenome.Rnorvegicus.UCSC.rn7_1.4.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/BSgenome.Mmulatta.UCSC.rheMac10_1.4.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/TxDb.Mmulatta.UCSC.rheMac10.refGene_3.14.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/annotation/src/contrib/JASPAR2022_0.99.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rbioapi_0.8.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/LDlinkR_1.4.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GRaNIE_1.16.0.tar.gz'
+* installing *source* package ‘BSgenome.Rnorvegicus.UCSC.rn7’ ...
+** this is package ‘BSgenome.Rnorvegicus.UCSC.rn7’ version ‘1.4.3’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Rnorvegicus.UCSC.rn7’ as ‘BSgenome.Rnorvegicus.UCSC.rn7_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Rnorvegicus.UCSC.rn7)
+* installing *source* package ‘BSgenome.Mmulatta.UCSC.rheMac10’ ...
+** this is package ‘BSgenome.Mmulatta.UCSC.rheMac10’ version ‘1.4.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Mmulatta.UCSC.rheMac10’ as ‘BSgenome.Mmulatta.UCSC.rheMac10_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Mmulatta.UCSC.rheMac10)
+* installing *source* package ‘TxDb.Mmulatta.UCSC.rheMac10.refGene’ ...
+** this is package ‘TxDb.Mmulatta.UCSC.rheMac10.refGene’ version ‘3.14.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TxDb.Mmulatta.UCSC.rheMac10.refGene’ as ‘TxDb.Mmulatta.UCSC.rheMac10.refGene_3.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Mmulatta.UCSC.rheMac10.refGene)
+* installing *source* package ‘JASPAR2022’ ...
+** this is package ‘JASPAR2022’ version ‘0.99.8’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+adding rname 'https://jaspar2022.genereg.net/download/database/JASPAR2022.sqlite'
+
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘JASPAR2022’ as ‘JASPAR2022_0.99.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (JASPAR2022)
+* installing *binary* package ‘rbioapi’ ...
+* package ‘rbioapi’ successfully unpacked and SHA256 sums checked
+* ‘rbioapi’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rbioapi’ as ‘rbioapi_0.8.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rbioapi)
+* installing *binary* package ‘LDlinkR’ ...
+* package ‘LDlinkR’ successfully unpacked and SHA256 sums checked
+* ‘LDlinkR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LDlinkR’ as ‘LDlinkR_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LDlinkR)
+* installing *source* package ‘GRaNIE’ ...
+** this is package ‘GRaNIE’ version ‘1.16.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GRaNIE’ as ‘GRaNIE_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GRaNIE)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp72PGpZ/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	4m48.584s
+user	4m6.580s
+sys	0m26.075s

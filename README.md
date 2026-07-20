@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 2179 (91%)
+- **Successfully Built:** 2182 (91%)
 - **Failed:** 53 (2%)
 - **In Progress:** 48
-- **Not Started:** 104
+- **Not Started:** 101
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2179)
+## Successfully Built Packages (2182)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2129 more ...*
+*... and 2132 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [vissE](https://bioconductor.org/packages/3.23/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.23/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.23/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [vtpnet](https://bioconductor.org/packages/3.23/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vtpnet) |
+| [vulcan](https://bioconductor.org/packages/3.23/bioc/html/vulcan.html) | [log](logs/vulcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vulcan) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
 | [wavClusteR](https://bioconductor.org/packages/3.23/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavClusteR) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
@@ -138,7 +138,6 @@
 - ⏳ `ATACseqQC`
 - ⏳ `DEScan2`
 - ⏳ `FRASER`
-- ⏳ `GRaNIE`
 - ⏳ `GUIDEseq`
 - ⏳ `Guitar`
 - ⏳ `MungeSumstats`
@@ -152,6 +151,7 @@
 - ⏳ `UPDhmm`
 - ⏳ `Uniquorn`
 - ⏳ `VariantTools`
+- ⏳ `a4`
 - ⏳ `alabaster`
 - ⏳ `appreci8R`
 - ⏳ `atSNP`
@@ -167,6 +167,8 @@
 - ⏳ `derfinder`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `epiregulon`
+- ⏳ `epivizr`
+- ⏳ `epivizrChart`
 - ⏳ `iSEEtree`
 - ⏳ `ideal`
 - ⏳ `lumi`
@@ -177,14 +179,12 @@
 - ⏳ `scCB2`
 - ⏳ `scPipe`
 - ⏳ `scider`
-- ⏳ `singleCellTK`
 - ⏳ `svaNUMT`
 - ⏳ `svaRetro`
 - ⏳ `visiumStitched`
-- ⏳ `vulcan`
 - ⏳ `yarn`
 
-## Not Yet Started (104)
+## Not Yet Started (101)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -230,14 +230,14 @@
 - ⏸️ `TVTB`
 - ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
-- ⏸️ `a4`
 - ⏸️ `affycoretools`
 - ⏸️ `annoLinker`
 - ⏸️ `arrayMvout`
 - ⏸️ `bandle`
+- ⏸️ `bigmelon`
 
-... and 54 more ...
+... and 51 more ...
 
 ---
-*Last updated: 2026-07-20 21:42:22 UTC*
-*Packages with verified BBS status: 239*
+*Last updated: 2026-07-20 21:43:11 UTC*
+*Packages with verified BBS status: 240*
