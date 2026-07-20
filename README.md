@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2243 (95%)
+- **Successfully Built:** 2251 (95%)
 - **Failed:** 39 (1%)
-- **In Progress:** 12
-- **Not Started:** 52
+- **In Progress:** 10
+- **Not Started:** 46
 
 **Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2243)
+## Successfully Built Packages (2251)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2193 more ...*
+*... and 2201 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -120,23 +120,19 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (12)
+## In Progress (10)
+- ⏳ `AgiMicroRna`
+- ⏳ `CAGEr`
 - ⏳ `ChIPXpress`
 - ⏳ `MungeSumstats`
-- ⏳ `RNAAgeCalc`
-- ⏳ `RnaSeqSampleSize`
+- ⏳ `SOMNiBUS`
 - ⏳ `VariantTools`
-- ⏳ `compEpiTools`
-- ⏳ `crisprShiny`
-- ⏳ `crisprVerse`
-- ⏳ `decemedip`
-- ⏳ `minfi`
+- ⏳ `dmrseq`
+- ⏳ `epiRomics`
 - ⏳ `motifbreakR`
-- ⏳ `psichomics`
+- ⏳ `scmeth`
 
-## Not Yet Started (52)
-- ⏸️ `AgiMicroRna`
-- ⏸️ `CAGEr`
+## Not Yet Started (46)
 - ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
@@ -150,7 +146,6 @@
 - ⏸️ `MethylAid`
 - ⏸️ `REMP`
 - ⏸️ `RnBeads`
-- ⏸️ `SOMNiBUS`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
 - ⏸️ `arrayMvout`
@@ -159,9 +154,7 @@
 - ⏸️ `biscuiteer`
 - ⏸️ `conumee`
 - ⏸️ `cytoviewer`
-- ⏸️ `dmrseq`
 - ⏸️ `dnaEPICO`
-- ⏸️ `epiRomics`
 - ⏸️ `epimutacions`
 - ⏸️ `ffpe`
 - ⏸️ `funtooNorm`
@@ -179,15 +172,14 @@
 - ⏸️ `pRolocGUI`
 - ⏸️ `quantro`
 - ⏸️ `recountmethylation`
-- ⏸️ `scmeth`
 - ⏸️ `shinyMethyl`
 - ⏸️ `shinyepico`
 - ⏸️ `simpleSeg`
 - ⏸️ `skewr`
 - ⏸️ `spicyR`
-
-... and 2 more ...
+- ⏸️ `wateRmelon`
+- ⏸️ `yarn`
 
 ---
-*Last updated: 2026-07-20 21:54:47 UTC*
+*Last updated: 2026-07-20 21:56:02 UTC*
 *Packages with verified BBS status: 250*
