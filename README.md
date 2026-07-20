@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2037 (86%)
-- **Failed:** 35 (1%)
-- **In Progress:** 88
-- **Not Started:** 186
+- **Successfully Built:** 2072 (88%)
+- **Failed:** 36 (1%)
+- **In Progress:** 78
+- **Not Started:** 160
 
-**Progress:** 88%
+**Progress:** 89%
 ```
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2037)
+## Successfully Built Packages (2072)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,9 +44,9 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
-| [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
+| [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1987 more ...*
+*... and 2022 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (35)
+## Failed Packages (36)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -114,63 +114,64 @@
 | [scTensor](https://bioconductor.org/packages/3.24/bioc/html/scTensor.html) | [log](logs/scTensor/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTensor) | Error: object ‘enrichDGN’ is not exported by 'namespace:DOSE' |
 | [squallms](https://bioconductor.org/packages/3.24/bioc/html/squallms.html) | [log](logs/squallms/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/squallms) | Missing R dependency: ModelMetrics |
 | [tidyexposomics](https://bioconductor.org/packages/3.24/bioc/html/tidyexposomics.html) | [log](logs/tidyexposomics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidyexposomics) | Missing R dependency: ModelMetrics |
+| [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (88)
-- ⏳ `ATACseqTFEA`
+## In Progress (78)
 - ⏳ `AnnotationHubData`
 - ⏳ `BindingSiteFinder`
-- ⏳ `CNVrd2`
 - ⏳ `CSSQ`
-- ⏳ `ChIPpeakAnno`
 - ⏳ `CleanUpRNAseq`
 - ⏳ `Cogito`
 - ⏳ `DNAfusion`
 - ⏳ `DOtools`
 - ⏳ `DaMiRseq`
 - ⏳ `DegCre`
-- ⏳ `DominoEffect`
 - ⏳ `EpiCompare`
-- ⏳ `EpiTxDb`
-- ⏳ `EventPointer`
 - ⏳ `FLAMES`
-- ⏳ `G4SNVHunter`
+- ⏳ `FRASER`
+- ⏳ `GA4GHshiny`
 - ⏳ `GRaNIE`
 - ⏳ `GSReg`
-- ⏳ `GenVisR`
+- ⏳ `GenomicPlot`
 - ⏳ `InPAS`
+- ⏳ `IntEREst`
+- ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `MIRA`
 - ⏳ `MOSClip`
 - ⏳ `Moonlight2R`
 - ⏳ `MungeSumstats`
-- ⏳ `OMICsPCA`
+- ⏳ `QuasR`
 - ⏳ `RBedMethyl`
-- ⏳ `RareVariantVis`
-- ⏳ `Rhisat2`
+- ⏳ `RiboCrypt`
+- ⏳ `SMITE`
+- ⏳ `TFHAZ`
+- ⏳ `TFutils`
 - ⏳ `UMI4Cats`
+- ⏳ `VCFArray`
 - ⏳ `VariantTools`
+- ⏳ `alabaster`
 - ⏳ `annotatr`
 - ⏳ `appreci8R`
-- ⏳ `atSNP`
-- ⏳ `biovizBase`
-- ⏳ `borealis`
-- ⏳ `cBioPortalData`
-- ⏳ `cardelino`
-- ⏳ `casper`
-- ⏳ `chevreulProcess`
 - ⏳ `chromVAR`
+- ⏳ `circRNAprofiler`
 - ⏳ `clipper`
 - ⏳ `coMethDMR`
-- ⏳ `crisprDesign`
-- ⏳ `dagLogo`
-- ⏳ `damidBind`
+- ⏳ `crlmm`
 - ⏳ `decemedip`
+- ⏳ `derfinder`
 - ⏳ `enhancerHomologSearch`
 - ⏳ `epiSeeker`
+- ⏳ `gDNAx`
+- ⏳ `gmapR`
+- ⏳ `gwasurvivr`
+- ⏳ `iSEEfier`
+- ⏳ `icetea`
+- ⏳ `igvR`
 
-... and 38 more ...
+... and 28 more ...
 
-## Not Yet Started (186)
+## Not Yet Started (160)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -196,8 +197,6 @@
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ENmix`
 - ⏸️ `ExperimentHubData`
-- ⏸️ `FRASER`
-- ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GUIDEseq`
@@ -205,7 +204,6 @@
 - ⏸️ `GeneTonic`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
-- ⏸️ `GenomicPlot`
 - ⏸️ `GeoDiff`
 - ⏸️ `GeomxTools`
 - ⏸️ `Gviz`
@@ -213,17 +211,20 @@
 - ⏸️ `HiCaptuRe`
 - ⏸️ `HistoImagePlot`
 - ⏸️ `ITALICS`
-- ⏸️ `IntEREst`
-- ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MetaboSignal`
 - ⏸️ `MethylAid`
 - ⏸️ `MinimumDistance`
+- ⏸️ `NADfinder`
+- ⏸️ `OGRE`
+- ⏸️ `Pviz`
+- ⏸️ `R3CPET`
+- ⏸️ `REDseq`
 
-... and 136 more ...
+... and 110 more ...
 
 ---
-*Last updated: 2026-07-20 21:42:52 UTC*
-*Packages with verified BBS status: 240*
+*Last updated: 2026-07-20 21:44:39 UTC*
+*Packages with verified BBS status: 242*

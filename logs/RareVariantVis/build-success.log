@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RareVariantVis'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RareVariantVis'
+also installing the dependency ‘phastCons100way.UCSC.hg19’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/phastCons100way.UCSC.hg19_3.7.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RareVariantVis_2.41.0.tar.gz'
+* installing *source* package ‘phastCons100way.UCSC.hg19’ ...
+** this is package ‘phastCons100way.UCSC.hg19’ version ‘3.7.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg19’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg19’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg19’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phastCons100way.UCSC.hg19’ as ‘phastCons100way.UCSC.hg19_3.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phastCons100way.UCSC.hg19)
+* installing *source* package ‘RareVariantVis’ ...
+** this is package ‘RareVariantVis’ version ‘2.41.0’
+** package ‘RareVariantVis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg19’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg19’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘phastCons100way.UCSC.hg19’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RareVariantVis’ as ‘RareVariantVis_2.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RareVariantVis)
+
+The downloaded source packages are in
+	‘/tmp/RtmpaqxQw8/downloaded_packages’
+Old packages: 'diffobj'
+
+real	3m25.650s
+user	2m37.307s
+sys	0m16.797s

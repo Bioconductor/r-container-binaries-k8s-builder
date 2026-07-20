@@ -1,0 +1,101 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''methInheritSim'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'methInheritSim'
+also installing the dependencies ‘rebus.base’, ‘rebus.datetimes’, ‘rebus.numbers’, ‘rebus.unicode’, ‘rebus’, ‘methylInheritance’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rebus.base_0.0-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rebus.datetimes_0.0-2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rebus.numbers_0.0-1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rebus.unicode_0.0-2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rebus_0.1-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/methylInheritance_1.37.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/methInheritSim_1.35.0.tar.gz'
+* installing *binary* package ‘rebus.base’ ...
+* package ‘rebus.base’ successfully unpacked and SHA256 sums checked
+* ‘rebus.base’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rebus.base’ as ‘rebus.base_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rebus.base)
+* installing *source* package ‘methInheritSim’ ...
+** this is package ‘methInheritSim’ version ‘1.35.0’
+** package ‘methInheritSim’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘methInheritSim’ as ‘methInheritSim_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (methInheritSim)
+* installing *binary* package ‘rebus.datetimes’ ...
+* package ‘rebus.datetimes’ successfully unpacked and SHA256 sums checked
+* ‘rebus.datetimes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rebus.datetimes’ as ‘rebus.datetimes_0.0-2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rebus.datetimes)
+* installing *binary* package ‘rebus.numbers’ ...
+* package ‘rebus.numbers’ successfully unpacked and SHA256 sums checked
+* ‘rebus.numbers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rebus.numbers’ as ‘rebus.numbers_0.0-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rebus.numbers)
+* installing *binary* package ‘rebus.unicode’ ...
+* package ‘rebus.unicode’ successfully unpacked and SHA256 sums checked
+* ‘rebus.unicode’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rebus.unicode’ as ‘rebus.unicode_0.0-2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rebus.unicode)
+* installing *binary* package ‘rebus’ ...
+* package ‘rebus’ successfully unpacked and SHA256 sums checked
+* ‘rebus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rebus’ as ‘rebus_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rebus)
+* installing *source* package ‘methylInheritance’ ...
+** this is package ‘methylInheritance’ version ‘1.37.0’
+** package ‘methylInheritance’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘methylInheritance’ as ‘methylInheritance_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (methylInheritance)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXxQ281/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m31.078s
+user	1m14.417s
+sys	0m9.542s
