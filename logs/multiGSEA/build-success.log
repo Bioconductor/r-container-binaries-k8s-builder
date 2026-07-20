@@ -1,0 +1,170 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''multiGSEA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'multiGSEA'
+also installing the dependencies ‘metaboliteIDmapping’, ‘org.Ss.eg.db’, ‘org.Bt.eg.db’, ‘org.Ce.eg.db’, ‘org.Dr.eg.db’, ‘org.Gg.eg.db’, ‘org.Xl.eg.db’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/metaboliteIDmapping_1.0.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Ss.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Bt.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Ce.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Dr.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Gg.eg.db_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Xl.eg.db_3.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/multiGSEA_1.23.0.tar.gz'
+* installing *source* package ‘metaboliteIDmapping’ ...
+** this is package ‘metaboliteIDmapping’ version ‘1.0.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+
+downloading 1 resources
+retrieving 1 resource
+
+loading from cache
+** testing if installed package can be loaded from final location
+loading from cache
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metaboliteIDmapping’ as ‘metaboliteIDmapping_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metaboliteIDmapping)
+* installing *source* package ‘org.Ss.eg.db’ ...
+** this is package ‘org.Ss.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Ss.eg.db’ as ‘org.Ss.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ss.eg.db)
+* installing *source* package ‘org.Bt.eg.db’ ...
+** this is package ‘org.Bt.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Bt.eg.db’ as ‘org.Bt.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Bt.eg.db)
+* installing *source* package ‘org.Ce.eg.db’ ...
+** this is package ‘org.Ce.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Ce.eg.db’ as ‘org.Ce.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ce.eg.db)
+* installing *source* package ‘org.Dr.eg.db’ ...
+** this is package ‘org.Dr.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Dr.eg.db’ as ‘org.Dr.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Dr.eg.db)
+* installing *source* package ‘org.Gg.eg.db’ ...
+** this is package ‘org.Gg.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Gg.eg.db’ as ‘org.Gg.eg.db_3.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Gg.eg.db)
+* installing *source* package ‘org.Xl.eg.db’ ...
+** this is package ‘org.Xl.eg.db’ version ‘3.23.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Xl.eg.db’ as ‘org.Xl.eg.db_3.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Xl.eg.db)
+* installing *source* package ‘multiGSEA’ ...
+** this is package ‘multiGSEA’ version ‘1.23.0’
+** package ‘multiGSEA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+loading from cache
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+loading from cache
+** testing if installed package can be loaded from final location
+loading from cache
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multiGSEA’ as ‘multiGSEA_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multiGSEA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAZIW8T/downloaded_packages’
+Old packages: 'diffobj'
+
+real	8m36.157s
+user	7m59.893s
+sys	0m25.073s

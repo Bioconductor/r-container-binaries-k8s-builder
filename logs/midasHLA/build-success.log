@@ -1,0 +1,66 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''midasHLA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'midasHLA'
+also installing the dependencies ‘formattable’, ‘HardyWeinberg’, ‘qdapTools’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/formattable_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/HardyWeinberg_1.7.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qdapTools_1.3.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/midasHLA_1.21.0.tar.gz'
+* installing *binary* package ‘formattable’ ...
+* package ‘formattable’ successfully unpacked and SHA256 sums checked
+* ‘formattable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘formattable’ as ‘formattable_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formattable)
+* installing *binary* package ‘HardyWeinberg’ ...
+* package ‘HardyWeinberg’ successfully unpacked and SHA256 sums checked
+* ‘HardyWeinberg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HardyWeinberg’ as ‘HardyWeinberg_1.7.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HardyWeinberg)
+* installing *binary* package ‘qdapTools’ ...
+* package ‘qdapTools’ successfully unpacked and SHA256 sums checked
+* ‘qdapTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qdapTools’ as ‘qdapTools_1.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qdapTools)
+* installing *source* package ‘midasHLA’ ...
+** this is package ‘midasHLA’ version ‘1.21.0’
+** package ‘midasHLA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘midasHLA’ as ‘midasHLA_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (midasHLA)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9ost5d/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m45.509s
+user	0m33.580s
+sys	0m6.169s

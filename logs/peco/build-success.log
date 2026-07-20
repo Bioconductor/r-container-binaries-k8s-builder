@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''peco'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'peco'
+also installing the dependencies ‘geigen’, ‘circular’, ‘conicfit’, ‘genlasso’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/geigen_2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/circular_0.5-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/conicfit_1.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/genlasso_1.6.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/peco_1.25.0.tar.gz'
+* installing *binary* package ‘geigen’ ...
+* package ‘geigen’ successfully unpacked and SHA256 sums checked
+* ‘geigen’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘geigen’ as ‘geigen_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geigen)
+* installing *binary* package ‘circular’ ...
+* package ‘circular’ successfully unpacked and SHA256 sums checked
+* ‘circular’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘circular’ as ‘circular_0.5-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (circular)
+* installing *binary* package ‘genlasso’ ...
+* package ‘genlasso’ successfully unpacked and SHA256 sums checked
+* ‘genlasso’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘genlasso’ as ‘genlasso_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genlasso)
+* installing *binary* package ‘conicfit’ ...
+* package ‘conicfit’ successfully unpacked and SHA256 sums checked
+* ‘conicfit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘conicfit’ as ‘conicfit_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (conicfit)
+* installing *source* package ‘peco’ ...
+** this is package ‘peco’ version ‘1.25.0’
+** package ‘peco’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘peco’ as ‘peco_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (peco)
+
+The downloaded source packages are in
+	‘/tmp/RtmpRBDTE9/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m43.552s
+user	0m30.432s
+sys	0m6.180s
