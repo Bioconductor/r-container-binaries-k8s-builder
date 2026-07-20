@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2384
-- **Successfully Built:** 142 (5%)
-- **Failed:** 3 (0%)
-- **In Progress:** 206
-- **Not Started:** 2033
+- **Successfully Built:** 146 (6%)
+- **Failed:** 4 (0%)
+- **In Progress:** 223
+- **Not Started:** 2011
 
 **Progress:** 6%
 ```
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (142)
+## Successfully Built Packages (146)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 92 more ...*
+*... and 96 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [affyio](https://bioconductor.org/packages/3.23/bioc/html/affyio.html) | [log](logs/affyio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/affyio) |
 | [agilp](https://bioconductor.org/packages/3.23/bioc/html/agilp.html) | [log](logs/agilp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/agilp) |
 | [biobtreeR](https://bioconductor.org/packages/3.23/bioc/html/biobtreeR.html) | [log](logs/biobtreeR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/biobtreeR) |
 | [ccrepe](https://bioconductor.org/packages/3.23/bioc/html/ccrepe.html) | [log](logs/ccrepe/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ccrepe) |
 | [ceRNAnetsim](https://bioconductor.org/packages/3.23/bioc/html/ceRNAnetsim.html) | [log](logs/ceRNAnetsim/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ceRNAnetsim) |
+| [cellxgenedp](https://bioconductor.org/packages/3.23/bioc/html/cellxgenedp.html) | [log](logs/cellxgenedp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellxgenedp) |
 | [cqn](https://bioconductor.org/packages/3.23/bioc/html/cqn.html) | [log](logs/cqn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cqn) |
 | [ctc](https://bioconductor.org/packages/3.23/bioc/html/ctc.html) | [log](logs/ctc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ctc) |
 | [dcanr](https://bioconductor.org/packages/3.23/bioc/html/dcanr.html) | [log](logs/dcanr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dcanr) |
@@ -76,36 +76,39 @@
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 
-## Failed Packages (3)
+## Failed Packages (4)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [HPiP](https://bioconductor.org/packages/3.23/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPiP) | Build failed with unknown error |
 | [ISAnalytics](https://bioconductor.org/packages/3.23/bioc/html/ISAnalytics.html) | [log](logs/ISAnalytics/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ISAnalytics) | Build failed with unknown error |
 | [LedPred](https://bioconductor.org/packages/3.23/bioc/html/LedPred.html) | [log](logs/LedPred/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/LedPred) | Missing R dependency: proxy |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 
-## In Progress (206)
+## In Progress (223)
 - ⏳ `ANCOMBC`
+- ⏳ `AnVILAz`
 - ⏳ `BADER`
 - ⏳ `BaseSpaceR`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocParallel`
+- ⏳ `BiocWorkflowTools`
+- ⏳ `BufferedMatrixMethods`
+- ⏳ `CNAnorm`
+- ⏳ `COMPASS`
 - ⏳ `COSNet`
 - ⏳ `Chicago`
 - ⏳ `DCATS`
-- ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
 - ⏳ `DiffLogo`
-- ⏳ `EBSeq`
 - ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
+- ⏳ `GCPtools`
 - ⏳ `GEOfastq`
-- ⏳ `GEOmetadb`
 - ⏳ `GSAR`
 - ⏳ `GSEAmining`
 - ⏳ `HIBAG`
-- ⏳ `HPiP`
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `Herper`
@@ -114,14 +117,18 @@
 - ⏳ `IsoCorrectoR`
 - ⏳ `M3C`
 - ⏳ `MACSQuantifyR`
+- ⏳ `MANOR`
 - ⏳ `MassArray`
 - ⏳ `MatrixGenerics`
 - ⏳ `OSAT`
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
+- ⏳ `PANR`
+- ⏳ `PROcess`
 - ⏳ `PTMods`
 - ⏳ `QUBIC`
 - ⏳ `RDRToolbox`
+- ⏳ `REBET`
 - ⏳ `RImmPort`
 - ⏳ `RLMM`
 - ⏳ `RProtoBufLib`
@@ -129,16 +136,10 @@
 - ⏳ `RSeqAn`
 - ⏳ `RTCGA`
 - ⏳ `RankProd`
-- ⏳ `Rbowtie`
-- ⏳ `Rdisop`
-- ⏳ `Rhtslib`
-- ⏳ `SCBN`
-- ⏳ `SIMLR`
-- ⏳ `SNAGEE`
 
-... and 156 more ...
+... and 173 more ...
 
-## Not Yet Started (2033)
+## Not Yet Started (2011)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -173,7 +174,6 @@
 - ⏸️ `AlphaMissenseR`
 - ⏸️ `AlpsNMR`
 - ⏸️ `AnVIL`
-- ⏸️ `AnVILAz`
 - ⏸️ `AnVILGCP`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILWorkflow`
@@ -189,9 +189,10 @@
 - ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
+- ⏸️ `BBCAnalyzer`
 
-... and 1983 more ...
+... and 1961 more ...
 
 ---
-*Last updated: 2026-07-20 19:15:08 UTC*
-*Packages with verified BBS status: 52*
+*Last updated: 2026-07-20 19:16:52 UTC*
+*Packages with verified BBS status: 54*
