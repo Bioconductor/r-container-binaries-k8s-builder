@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 802 (34%)
+- **Successfully Built:** 807 (34%)
 - **Failed:** 6 (0%)
-- **In Progress:** 8
-- **Not Started:** 1530
+- **In Progress:** 17
+- **Not Started:** 1516
 
 **Progress:** 34%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (802)
+## Successfully Built Packages (807)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -34,6 +34,7 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
+| [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
@@ -44,9 +45,8 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
-| [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 752 more ...*
+*... and 757 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,17 +87,26 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (8)
-- ⏳ `Aerith`
-- ⏳ `Biostrings`
-- ⏳ `GenomeInfoDb`
+## In Progress (17)
+- ⏳ `DelayedDataFrame`
+- ⏳ `DelayedMatrixStats`
+- ⏳ `DelayedRandomArray`
 - ⏳ `GenomicRanges`
-- ⏳ `flowMerge`
-- ⏳ `frmaTools`
+- ⏳ `HDF5Array`
+- ⏳ `ResidualMatrix`
+- ⏳ `ScaledMatrix`
+- ⏳ `TileDBArray`
+- ⏳ `ZarrArray`
+- ⏳ `adverSCarial`
+- ⏳ `beachmat`
+- ⏳ `flowWorkspace`
 - ⏳ `ldblock`
 - ⏳ `msPurity`
+- ⏳ `orthogene`
+- ⏳ `rhdf5client`
+- ⏳ `sketchR`
 
-## Not Yet Started (1530)
+## Not Yet Started (1516)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -149,8 +158,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1480 more ...
+... and 1466 more ...
 
 ---
-*Last updated: 2026-07-20 20:17:26 UTC*
-*Packages with verified BBS status: 169*
+*Last updated: 2026-07-20 20:18:34 UTC*
+*Packages with verified BBS status: 170*
