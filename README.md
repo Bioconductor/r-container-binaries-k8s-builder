@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 492 (20%)
-- **Failed:** 4 (0%)
-- **In Progress:** 8
+- **Successfully Built:** 493 (21%)
+- **Failed:** 5 (0%)
+- **In Progress:** 6
 - **Not Started:** 1842
 
 **Progress:** 21%
@@ -16,7 +16,7 @@
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (492)
+## Successfully Built Packages (493)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BUS](https://bioconductor.org/packages/3.24/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BUS) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 
-*... and 442 more ...*
+*... and 443 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,24 +76,23 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (4)
+## Failed Packages (5)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [CytoGLMM](https://bioconductor.org/packages/3.24/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CytoGLMM) | Missing R dependency: ModelMetrics |
 | [HPiP](https://bioconductor.org/packages/3.24/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HPiP) | Missing R dependency: SparseArray<br>Missing R dependency: recipes |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
+| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (8)
+## In Progress (6)
 - ⏳ `BiocGenerics`
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `Rhdf5lib`
 - ⏳ `Rigraphlib`
 - ⏳ `barmixR`
-- ⏳ `fgsea`
-- ⏳ `scRecover`
 
 ## Not Yet Started (1842)
 - ⏸️ `ABarray`
@@ -150,5 +149,5 @@
 ... and 1792 more ...
 
 ---
-*Last updated: 2026-07-20 19:50:58 UTC*
-*Packages with verified BBS status: 151*
+*Last updated: 2026-07-20 19:51:43 UTC*
+*Packages with verified BBS status: 152*
