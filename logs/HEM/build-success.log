@@ -1,0 +1,54 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''HEM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'HEM'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/HEM_1.84.0.tar.gz'
+Content type 'application/x-gzip' length 626499 bytes (611 KB)
+==================================================
+downloaded 611 KB
+
+* installing *source* package ‘HEM’ ...
+** this is package ‘HEM’ version ‘1.84.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hem.c -o hem.o
+In file included from hem.c:17:
+random4f.h: In function ‘gammadist’:
+random4f.h:126:8: warning: old-style function definition [-Wold-style-definition]
+  126 | double gammadist(alpha)
+      |        ^~~~~~~~~
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o HEM.so hem.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-HEM/00new/HEM/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HEM’ as ‘HEM_1.84.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HEM)
+
+The downloaded source packages are in
+	‘/tmp/RtmpkUlIm4/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m13.230s
+user	0m8.022s
+sys	0m3.261s

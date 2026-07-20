@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Rtpca'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Rtpca'
+also installing the dependencies ‘biobroom’, ‘mefa’, ‘nls2’, ‘TPP’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biobroom_1.43.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mefa_3.2-10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nls2_0.3-4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TPP_3.40.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Rtpca_1.22.0.tar.gz'
+* installing *source* package ‘biobroom’ ...
+** this is package ‘biobroom’ version ‘1.43.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biobroom’ as ‘biobroom_1.43.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biobroom)
+* installing *binary* package ‘mefa’ ...
+* package ‘mefa’ successfully unpacked and SHA256 sums checked
+* ‘mefa’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mefa’ as ‘mefa_3.2-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mefa)
+* installing *binary* package ‘nls2’ ...
+* package ‘nls2’ successfully unpacked and SHA256 sums checked
+* ‘nls2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nls2’ as ‘nls2_0.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nls2)
+* installing *source* package ‘Rtpca’ ...
+** this is package ‘Rtpca’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rtpca’ as ‘Rtpca_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rtpca)
+* installing *source* package ‘TPP’ ...
+** this is package ‘TPP’ version ‘3.40.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TPP’ as ‘TPP_3.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TPP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpwhRne8/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m36.153s
+user	0m26.961s
+sys	0m6.010s

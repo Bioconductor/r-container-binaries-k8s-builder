@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''clusterStab'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'clusterStab'
+also installing the dependency ‘fibroEset’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/fibroEset_1.54.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/clusterStab_1.84.0.tar.gz'
+* installing *source* package ‘fibroEset’ ...
+** this is package ‘fibroEset’ version ‘1.54.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fibroEset’ as ‘fibroEset_1.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fibroEset)
+* installing *source* package ‘clusterStab’ ...
+** this is package ‘clusterStab’ version ‘1.84.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clusterStab’ as ‘clusterStab_1.84.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clusterStab)
+
+The downloaded source packages are in
+	‘/tmp/RtmpoIe7E3/downloaded_packages’
+Old packages: 'diffobj', 'httr2', 'pak', 'pkgdown', 'urlchecker', 'xfun',
+  'zip', 'MASS', 'nlme', 'survival'
+
+real	0m19.057s
+user	0m9.825s
+sys	0m3.515s
