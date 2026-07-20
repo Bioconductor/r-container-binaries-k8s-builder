@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2268 (96%)
+- **Successfully Built:** 2270 (96%)
 - **Failed:** 40 (1%)
-- **In Progress:** 7
-- **Not Started:** 31
+- **In Progress:** 6
+- **Not Started:** 30
 
 **Progress:** 98%
 ```
 █████████████████████████████████████████████████░
 ```
 
-## Successfully Built Packages (2268)
+## Successfully Built Packages (2270)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 
-*... and 2218 more ...*
+*... and 2220 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -121,16 +121,15 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (7)
+## In Progress (6)
 - ⏳ `ChIPXpress`
 - ⏳ `MungeSumstats`
 - ⏳ `biscuiteer`
 - ⏳ `conumee`
-- ⏳ `methylclock`
-- ⏳ `methylumi`
 - ⏳ `motifbreakR`
+- ⏳ `yarn`
 
-## Not Yet Started (31)
+## Not Yet Started (30)
 - ⏸️ `ChAMP`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
@@ -161,8 +160,7 @@
 - ⏸️ `skewr`
 - ⏸️ `spicyR`
 - ⏸️ `wateRmelon`
-- ⏸️ `yarn`
 
 ---
-*Last updated: 2026-07-20 21:59:05 UTC*
+*Last updated: 2026-07-20 22:00:01 UTC*
 *Packages with verified BBS status: 251*
