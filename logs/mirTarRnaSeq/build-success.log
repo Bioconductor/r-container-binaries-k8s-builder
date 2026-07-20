@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mirTarRnaSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mirTarRnaSeq'
+also installing the dependencies ‘biomaRt’, ‘tnet’, ‘SPONGE’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/biomaRt_2.69.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tnet_3.0.16.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SPONGE_1.35.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mirTarRnaSeq_1.21.0.tar.gz'
+* installing *source* package ‘biomaRt’ ...
+** this is package ‘biomaRt’ version ‘2.69.0’
+** package ‘biomaRt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biomaRt’ as ‘biomaRt_2.69.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomaRt)
+* installing *binary* package ‘tnet’ ...
+* package ‘tnet’ successfully unpacked and SHA256 sums checked
+* ‘tnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tnet’ as ‘tnet_3.0.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tnet)
+* installing *source* package ‘mirTarRnaSeq’ ...
+** this is package ‘mirTarRnaSeq’ version ‘1.21.0’
+** package ‘mirTarRnaSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mirTarRnaSeq’ as ‘mirTarRnaSeq_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mirTarRnaSeq)
+* installing *source* package ‘SPONGE’ ...
+** this is package ‘SPONGE’ version ‘1.35.3’
+** package ‘SPONGE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘prodlim’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘SPONGE’
+* removing ‘/tmp/library/SPONGE’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9BjVAy/downloaded_packages’
+Old packages: 'diffobj'
+Warning message:
+In install.packages(...) :
+  installation of package ‘SPONGE’ had non-zero exit status
+
+real	1m14.503s
+user	0m58.614s
+sys	0m6.847s

@@ -1,0 +1,63 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''clustComp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'clustComp'
+also installing the dependencies ‘sm’, ‘colonCA’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sm_2.2-6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/colonCA_1.55.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/clustComp_1.41.0.tar.gz'
+* installing *binary* package ‘sm’ ...
+* package ‘sm’ successfully unpacked and SHA256 sums checked
+* ‘sm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sm’ as ‘sm_2.2-6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sm)
+* installing *source* package ‘colonCA’ ...
+** this is package ‘colonCA’ version ‘1.55.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘colonCA’ as ‘colonCA_1.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colonCA)
+* installing *source* package ‘clustComp’ ...
+** this is package ‘clustComp’ version ‘1.41.0’
+** package ‘clustComp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clustComp’ as ‘clustComp_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clustComp)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjViHQq/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m10.299s
+user	0m7.564s
+sys	0m2.861s

@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''IsoCorrectoR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'IsoCorrectoR'
+also installing the dependencies ‘tcltk2’, ‘WriteXLS’, ‘IsoCorrectoRGUI’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tcltk2_1.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/WriteXLS_6.8.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/IsoCorrectoRGUI_1.29.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/IsoCorrectoR_1.31.0.tar.gz'
+* installing *binary* package ‘tcltk2’ ...
+* package ‘tcltk2’ successfully unpacked and SHA256 sums checked
+* ‘tcltk2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tcltk2’ as ‘tcltk2_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tcltk2)
+* installing *binary* package ‘WriteXLS’ ...
+* package ‘WriteXLS’ successfully unpacked and SHA256 sums checked
+* ‘WriteXLS’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘WriteXLS’ as ‘WriteXLS_6.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WriteXLS)
+* installing *source* package ‘IsoCorrectoR’ ...
+** this is package ‘IsoCorrectoR’ version ‘1.31.0’
+** package ‘IsoCorrectoR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IsoCorrectoR’ as ‘IsoCorrectoR_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IsoCorrectoR)
+* installing *source* package ‘IsoCorrectoRGUI’ ...
+** this is package ‘IsoCorrectoRGUI’ version ‘1.29.0’
+** package ‘IsoCorrectoRGUI’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IsoCorrectoRGUI’ as ‘IsoCorrectoRGUI_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IsoCorrectoRGUI)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0VHg43/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m25.590s
+user	0m12.824s
+sys	0m4.146s

@@ -1,0 +1,181 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''sincell'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'sincell'
+also installing the dependencies ‘VGAM’, ‘DDRTree’, ‘HSMMSingleCell’, ‘leidenbase’, ‘RANN’, ‘entropy’, ‘scatterplot3d’, ‘TSP’, ‘fastICA’, ‘biomaRt’, ‘monocle’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/VGAM_1.1-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DDRTree_0.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/HSMMSingleCell_1.33.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/leidenbase_0.1.37.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/RANN_2.6.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/entropy_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scatterplot3d_0.3-45.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TSP_1.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fastICA_1.2-7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/biomaRt_2.69.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/monocle_2.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/sincell_1.45.0.tar.gz'
+* installing *binary* package ‘VGAM’ ...
+* package ‘VGAM’ successfully unpacked and SHA256 sums checked
+* ‘VGAM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VGAM’ as ‘VGAM_1.1-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VGAM)
+* installing *binary* package ‘DDRTree’ ...
+* package ‘DDRTree’ successfully unpacked and SHA256 sums checked
+* ‘DDRTree’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DDRTree’ as ‘DDRTree_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DDRTree)
+* installing *source* package ‘HSMMSingleCell’ ...
+** this is package ‘HSMMSingleCell’ version ‘1.33.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘HSMMSingleCell’ as ‘HSMMSingleCell_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HSMMSingleCell)
+* installing *binary* package ‘leidenbase’ ...
+* package ‘leidenbase’ successfully unpacked and SHA256 sums checked
+* ‘leidenbase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leidenbase’ as ‘leidenbase_0.1.37_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leidenbase)
+* installing *binary* package ‘RANN’ ...
+* package ‘RANN’ successfully unpacked and SHA256 sums checked
+* ‘RANN’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RANN’ as ‘RANN_2.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RANN)
+* installing *binary* package ‘entropy’ ...
+* package ‘entropy’ successfully unpacked and SHA256 sums checked
+* ‘entropy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘entropy’ as ‘entropy_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (entropy)
+* installing *binary* package ‘scatterplot3d’ ...
+* package ‘scatterplot3d’ successfully unpacked and SHA256 sums checked
+* ‘scatterplot3d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scatterplot3d’ as ‘scatterplot3d_0.3-45_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scatterplot3d)
+* installing *binary* package ‘TSP’ ...
+* package ‘TSP’ successfully unpacked and SHA256 sums checked
+* ‘TSP’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TSP’ as ‘TSP_1.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TSP)
+* installing *binary* package ‘fastICA’ ...
+* package ‘fastICA’ successfully unpacked and SHA256 sums checked
+* ‘fastICA’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastICA’ as ‘fastICA_1.2-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastICA)
+* installing *source* package ‘biomaRt’ ...
+** this is package ‘biomaRt’ version ‘2.69.0’
+** package ‘biomaRt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biomaRt’ as ‘biomaRt_2.69.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomaRt)
+* installing *source* package ‘monocle’ ...
+** this is package ‘monocle’ version ‘2.41.0’
+** package ‘monocle’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c clustering.cpp -o clustering.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o monocle.so RcppExports.o clustering.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-monocle/00new/monocle/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘monocle’ as ‘monocle_2.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (monocle)
+* installing *source* package ‘sincell’ ...
+** this is package ‘sincell’ version ‘1.45.0’
+** package ‘sincell’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pseudoreplicatesbymodel.cpp -o pseudoreplicatesbymodel.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pseudoreplicatesbynoise.cpp -o pseudoreplicatesbynoise.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c pseudoreplicatesbynoise_cv2.cpp -o pseudoreplicatesbynoise_cv2.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sstalgorithm.cpp -o sstalgorithm.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sincell.so RcppExports.o pseudoreplicatesbymodel.o pseudoreplicatesbynoise.o pseudoreplicatesbynoise_cv2.o sstalgorithm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-sincell/00new/sincell/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sincell’ as ‘sincell_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sincell)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5AbCys/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m12.472s
+user	0m56.984s
+sys	0m11.172s
