@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''mCSEA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'mCSEA'
+also installing the dependencies ‘mCSEAdata’, ‘FlowSorted.Blood.450k’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/mCSEAdata_1.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/FlowSorted.Blood.450k_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mCSEA_1.33.0.tar.gz'
+* installing *source* package ‘mCSEAdata’ ...
+** this is package ‘mCSEAdata’ version ‘1.33.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mCSEAdata’ as ‘mCSEAdata_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mCSEAdata)
+* installing *source* package ‘FlowSorted.Blood.450k’ ...
+** this is package ‘FlowSorted.Blood.450k’ version ‘1.51.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FlowSorted.Blood.450k’ as ‘FlowSorted.Blood.450k_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlowSorted.Blood.450k)
+* installing *source* package ‘mCSEA’ ...
+** this is package ‘mCSEA’ version ‘1.33.0’
+** package ‘mCSEA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mCSEA’ as ‘mCSEA_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mCSEA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFQnNLL/downloaded_packages’
+Old packages: 'diffobj'
+
+real	3m31.764s
+user	3m11.229s
+sys	0m13.906s

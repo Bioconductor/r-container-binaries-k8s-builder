@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 2222 (94%)
-- **Failed:** 38 (1%)
-- **In Progress:** 27
-- **Not Started:** 59
+- **Successfully Built:** 2243 (95%)
+- **Failed:** 39 (1%)
+- **In Progress:** 12
+- **Not Started:** 52
 
-**Progress:** 96%
+**Progress:** 97%
 ```
 ████████████████████████████████████████████████░░
 ```
 
-## Successfully Built Packages (2222)
+## Successfully Built Packages (2243)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [ADImpute](https://bioconductor.org/packages/3.24/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADImpute) |
 | [ADaCGH2](https://bioconductor.org/packages/3.24/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADaCGH2) |
 | [AGDEX](https://bioconductor.org/packages/3.24/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AGDEX) |
+| [AHMassBank](https://bioconductor.org/packages/3.24/bioc/html/AHMassBank.html) | [log](logs/AHMassBank/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AHMassBank) |
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.24/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ALDEx2) |
 | [AMARETTO](https://bioconductor.org/packages/3.24/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMARETTO) |
@@ -44,9 +45,8 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
-| [ASpli](https://bioconductor.org/packages/3.24/bioc/html/ASpli.html) | [log](logs/ASpli/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASpli) |
 
-*... and 2172 more ...*
+*... and 2193 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,13 +76,14 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (38)
+## Failed Packages (39)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [CPSM](https://bioconductor.org/packages/3.24/bioc/html/CPSM.html) | [log](logs/CPSM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CPSM) | Missing R dependency: ModelMetrics |
 | [CrcBiomeScreen](https://bioconductor.org/packages/3.24/bioc/html/CrcBiomeScreen.html) | [log](logs/CrcBiomeScreen/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CrcBiomeScreen) | Missing R dependency: ModelMetrics |
 | [CytoGLMM](https://bioconductor.org/packages/3.24/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CytoGLMM) | Missing R dependency: ModelMetrics |
+| [DaMiRseq](https://bioconductor.org/packages/3.24/bioc/html/DaMiRseq.html) | [log](logs/DaMiRseq/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DaMiRseq) | Missing R dependency: ModelMetrics |
 | [GenomAutomorphism](https://bioconductor.org/packages/3.24/bioc/html/GenomAutomorphism.html) | [log](logs/GenomAutomorphism/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GenomAutomorphism) | Error: unable to load R code in package ‘GenomAutomorphism’ |
 | [HPiP](https://bioconductor.org/packages/3.24/bioc/html/HPiP.html) | [log](logs/HPiP/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HPiP) | Missing R dependency: SparseArray<br>Missing R dependency: recipes |
 | [HiTC](https://bioconductor.org/packages/3.24/bioc/html/HiTC.html) | [log](logs/HiTC/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HiTC) | Build failed with unknown error |
@@ -119,40 +120,24 @@
 | [transcriptR](https://bioconductor.org/packages/3.24/bioc/html/transcriptR.html) | [log](logs/transcriptR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/transcriptR) | Missing R dependency: ModelMetrics |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (27)
-- ⏳ `AHMassBank`
-- ⏳ `CAGEfightR`
-- ⏳ `CNVfilteR`
-- ⏳ `COCOA`
-- ⏳ `DaMiRseq`
-- ⏳ `DrugVsDisease`
-- ⏳ `ExperimentHubData`
-- ⏳ `HiCDCPlus`
-- ⏳ `HiCaptuRe`
+## In Progress (12)
+- ⏳ `ChIPXpress`
 - ⏳ `MungeSumstats`
-- ⏳ `NADfinder`
-- ⏳ `RNAmodR.AlkAnilineSeq`
-- ⏳ `RNAmodR.ML`
-- ⏳ `RNAmodR.RiboMethSeq`
+- ⏳ `RNAAgeCalc`
+- ⏳ `RnaSeqSampleSize`
 - ⏳ `VariantTools`
-- ⏳ `YAPSA`
-- ⏳ `affycoretools`
-- ⏳ `annoLinker`
-- ⏳ `annotatr`
-- ⏳ `carnation`
+- ⏳ `compEpiTools`
+- ⏳ `crisprShiny`
+- ⏳ `crisprVerse`
 - ⏳ `decemedip`
-- ⏳ `geomeTriD`
-- ⏳ `mCSEA`
 - ⏳ `minfi`
 - ⏳ `motifbreakR`
-- ⏳ `preciseTAD`
-- ⏳ `saseR`
+- ⏳ `psichomics`
 
-## Not Yet Started (59)
+## Not Yet Started (52)
 - ⏸️ `AgiMicroRna`
 - ⏸️ `CAGEr`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPXpress`
 - ⏸️ `CyTOFpower`
 - ⏸️ `DMRcate`
 - ⏸️ `ENmix`
@@ -164,9 +149,7 @@
 - ⏸️ `MEAT`
 - ⏸️ `MethylAid`
 - ⏸️ `REMP`
-- ⏸️ `RNAAgeCalc`
 - ⏸️ `RnBeads`
-- ⏸️ `RnaSeqSampleSize`
 - ⏸️ `SOMNiBUS`
 - ⏸️ `SpatialDecon`
 - ⏸️ `SpatialOmicsOverlay`
@@ -174,10 +157,7 @@
 - ⏸️ `bandle`
 - ⏸️ `bigmelon`
 - ⏸️ `biscuiteer`
-- ⏸️ `compEpiTools`
 - ⏸️ `conumee`
-- ⏸️ `crisprShiny`
-- ⏸️ `crisprVerse`
 - ⏸️ `cytoviewer`
 - ⏸️ `dmrseq`
 - ⏸️ `dnaEPICO`
@@ -197,11 +177,17 @@
 - ⏸️ `miRspongeR`
 - ⏸️ `missMethyl`
 - ⏸️ `pRolocGUI`
-- ⏸️ `psichomics`
 - ⏸️ `quantro`
+- ⏸️ `recountmethylation`
+- ⏸️ `scmeth`
+- ⏸️ `shinyMethyl`
+- ⏸️ `shinyepico`
+- ⏸️ `simpleSeg`
+- ⏸️ `skewr`
+- ⏸️ `spicyR`
 
-... and 9 more ...
+... and 2 more ...
 
 ---
-*Last updated: 2026-07-20 21:53:36 UTC*
-*Packages with verified BBS status: 248*
+*Last updated: 2026-07-20 21:54:47 UTC*
+*Packages with verified BBS status: 250*

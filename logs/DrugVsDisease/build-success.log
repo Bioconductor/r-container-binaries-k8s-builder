@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DrugVsDisease'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DrugVsDisease'
+also installing the dependencies ‘DrugVsDiseasedata’, ‘cMap2data’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/DrugVsDiseasedata_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/cMap2data_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DrugVsDisease_2.55.0.tar.gz'
+* installing *source* package ‘DrugVsDiseasedata’ ...
+** this is package ‘DrugVsDiseasedata’ version ‘1.49.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DrugVsDiseasedata’ as ‘DrugVsDiseasedata_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DrugVsDiseasedata)
+* installing *source* package ‘cMap2data’ ...
+** this is package ‘cMap2data’ version ‘1.49.0’
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cMap2data’ as ‘cMap2data_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cMap2data)
+* installing *source* package ‘DrugVsDisease’ ...
+** this is package ‘DrugVsDisease’ version ‘2.55.0’
+** package ‘DrugVsDisease’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DrugVsDisease’ as ‘DrugVsDisease_2.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DrugVsDisease)
+
+The downloaded source packages are in
+	‘/tmp/RtmprannZ9/downloaded_packages’
+Old packages: 'diffobj'
+
+real	1m9.057s
+user	0m47.364s
+sys	0m8.811s
