@@ -1,0 +1,97 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''PWMEnrich'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'PWMEnrich'
+also installing the dependencies ‘PWMEnrich.Dmelanogaster.background’, ‘PWMEnrich.Hsapiens.background’, ‘PWMEnrich.Mmusculus.background’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/PWMEnrich.Dmelanogaster.background_4.47.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/PWMEnrich.Hsapiens.background_4.47.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/PWMEnrich.Mmusculus.background_4.47.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/PWMEnrich_4.49.0.tar.gz'
+* installing *source* package ‘PWMEnrich’ ...
+** this is package ‘PWMEnrich’ version ‘4.49.0’
+** package ‘PWMEnrich’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PWMEnrich’ as ‘PWMEnrich_4.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PWMEnrich)
+* installing *source* package ‘PWMEnrich.Dmelanogaster.background’ ...
+** this is package ‘PWMEnrich.Dmelanogaster.background’ version ‘4.47.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PWMEnrich.Dmelanogaster.background’ as ‘PWMEnrich.Dmelanogaster.background_4.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PWMEnrich.Dmelanogaster.background)
+* installing *source* package ‘PWMEnrich.Hsapiens.background’ ...
+** this is package ‘PWMEnrich.Hsapiens.background’ version ‘4.47.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PWMEnrich.Hsapiens.background’ as ‘PWMEnrich.Hsapiens.background_4.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PWMEnrich.Hsapiens.background)
+* installing *source* package ‘PWMEnrich.Mmusculus.background’ ...
+** this is package ‘PWMEnrich.Mmusculus.background’ version ‘4.47.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘BiocGenerics::data’ by ‘utils::data’ when loading ‘PWMEnrich’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘PWMEnrich.Mmusculus.background’ as ‘PWMEnrich.Mmusculus.background_4.47.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PWMEnrich.Mmusculus.background)
+
+The downloaded source packages are in
+	‘/tmp/RtmpF9r0lz/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m39.420s
+user	0m31.003s
+sys	0m6.647s

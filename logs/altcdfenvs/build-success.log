@@ -1,0 +1,89 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''altcdfenvs'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'altcdfenvs'
+also installing the dependencies ‘plasmodiumanophelescdf’, ‘hgu95acdf’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/plasmodiumanophelescdf_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/hgu95acdf_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/altcdfenvs_2.75.0.tar.gz'
+* installing *source* package ‘plasmodiumanophelescdf’ ...
+** this is package ‘plasmodiumanophelescdf’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘plasmodiumanophelescdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘plasmodiumanophelescdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘plasmodiumanophelescdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘plasmodiumanophelescdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘plasmodiumanophelescdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘plasmodiumanophelescdf’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plasmodiumanophelescdf’ as ‘plasmodiumanophelescdf_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plasmodiumanophelescdf)
+* installing *source* package ‘hgu95acdf’ ...
+** this is package ‘hgu95acdf’ version ‘2.18.0’
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hgu95acdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hgu95acdf’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hgu95acdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hgu95acdf’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘AnnotationDbi::tail’ by ‘utils::tail’ when loading ‘hgu95acdf’
+Warning: replacing previous import ‘AnnotationDbi::head’ by ‘utils::head’ when loading ‘hgu95acdf’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hgu95acdf’ as ‘hgu95acdf_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu95acdf)
+* installing *source* package ‘altcdfenvs’ ...
+** this is package ‘altcdfenvs’ version ‘2.75.0’
+** package ‘altcdfenvs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+NOTE: arguments in definition for validity method for class 'AffyProbesMatch' changed from (obj) to (object)
+in method for ‘toHypergraph’ with signature ‘"CdfEnvAffy"’: no definition for class “CdfEnvAffy”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘altcdfenvs’ as ‘altcdfenvs_2.75.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (altcdfenvs)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp0Xw76J/downloaded_packages’
+Old packages: 'diffobj'
+
+real	0m42.763s
+user	0m34.635s
+sys	0m7.080s

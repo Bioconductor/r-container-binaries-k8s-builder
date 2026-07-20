@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2346
-- **Successfully Built:** 845 (36%)
+- **Successfully Built:** 881 (37%)
 - **Failed:** 6 (0%)
-- **In Progress:** 23
-- **Not Started:** 1472
+- **In Progress:** 13
+- **Not Started:** 1446
 
-**Progress:** 36%
+**Progress:** 37%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (845)
+## Successfully Built Packages (881)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 795 more ...*
+*... and 831 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,36 +87,25 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) | Missing R dependency: ModelMetrics |
 
-## In Progress (23)
-- ⏳ `BCRANK`
+## In Progress (13)
+- ⏳ `ADAPT`
 - ⏳ `CONFESS`
-- ⏳ `DECIPHER`
-- ⏳ `GeneRegionScan`
 - ⏳ `GenomicRanges`
-- ⏳ `KEGGREST`
-- ⏳ `MEDME`
-- ⏳ `MultipleAlignment`
 - ⏳ `NanoStringNCTools`
-- ⏳ `PWMEnrich`
-- ⏳ `PhyloProfile`
-- ⏳ `Structstrings`
-- ⏳ `altcdfenvs`
-- ⏳ `bcSeq`
-- ⏳ `beachmat`
-- ⏳ `flowWorkspace`
-- ⏳ `fraq`
+- ⏳ `SIAMCAT`
+- ⏳ `SpiecEasi`
+- ⏳ `affyILM`
+- ⏳ `affyPLM`
+- ⏳ `alabaster.matrix`
+- ⏳ `chihaya`
 - ⏳ `idpr`
-- ⏳ `igblastr`
-- ⏳ `kebabs`
-- ⏳ `muscle`
-- ⏳ `sketchR`
+- ⏳ `maskBAD`
 - ⏳ `universalmotif`
 
-## Not Yet Started (1472)
+## Not Yet Started (1446)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
-- ⏸️ `ADAPT`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -163,9 +152,10 @@
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
+- ⏸️ `BatchQC`
 
-... and 1422 more ...
+... and 1396 more ...
 
 ---
-*Last updated: 2026-07-20 20:20:39 UTC*
+*Last updated: 2026-07-20 20:22:45 UTC*
 *Packages with verified BBS status: 170*
