@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 122 (5%)
+- **Successfully Built:** 140 (5%)
 - **Failed:** 1 (0%)
-- **In Progress:** 240
-- **Not Started:** 2071
+- **In Progress:** 225
+- **Not Started:** 2068
 
 **Progress:** 5%
 ```
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (122)
+## Successfully Built Packages (140)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [CNAnorm](https://bioconductor.org/packages/3.24/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CNAnorm) |
 | [DNABarcodeCompatibility](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodeCompatibility.html) | [log](logs/DNABarcodeCompatibility/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodeCompatibility) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
+| [DeepPINCS](https://bioconductor.org/packages/3.24/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeepPINCS) |
 | [GAprediction](https://bioconductor.org/packages/3.24/bioc/html/GAprediction.html) | [log](logs/GAprediction/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GAprediction) |
 | [HGC](https://bioconductor.org/packages/3.24/bioc/html/HGC.html) | [log](logs/HGC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HGC) |
 | [HIBAG](https://bioconductor.org/packages/3.24/bioc/html/HIBAG.html) | [log](logs/HIBAG/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HIBAG) |
@@ -44,9 +45,8 @@
 | [LPE](https://bioconductor.org/packages/3.24/bioc/html/LPE.html) | [log](logs/LPE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/LPE) |
 | [LedPred](https://bioconductor.org/packages/3.24/bioc/html/LedPred.html) | [log](logs/LedPred/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/LedPred) |
 | [M3C](https://bioconductor.org/packages/3.24/bioc/html/M3C.html) | [log](logs/M3C/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/M3C) |
-| [MACSQuantifyR](https://bioconductor.org/packages/3.24/bioc/html/MACSQuantifyR.html) | [log](logs/MACSQuantifyR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/MACSQuantifyR) |
 
-*... and 72 more ...*
+*... and 90 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 
-## In Progress (240)
+## In Progress (225)
 - ⏳ `ASAFE`
 - ⏳ `ASEB`
 - ⏳ `ASGSCA`
@@ -134,9 +134,9 @@
 - ⏳ `GGPA`
 - ⏳ `GIGSEA`
 
-... and 190 more ...
+... and 175 more ...
 
-## Not Yet Started (2071)
+## Not Yet Started (2068)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2021 more ...
+... and 2018 more ...
 
 ---
-*Last updated: 2026-10-28 17:14:18 UTC*
-*Packages with verified BBS status: 106*
+*Last updated: 2026-10-28 17:16:53 UTC*
+*Packages with verified BBS status: 107*
