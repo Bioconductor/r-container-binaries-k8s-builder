@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 918 (38%)
-- **Failed:** 12 (0%)
-- **In Progress:** 203
+- **Successfully Built:** 920 (38%)
+- **Failed:** 13 (0%)
+- **In Progress:** 200
 - **Not Started:** 1252
 
-**Progress:** 38%
+**Progress:** 39%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (918)
+## Successfully Built Packages (920)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 
-*... and 868 more ...*
+*... and 870 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 
-## Failed Packages (12)
+## Failed Packages (13)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -90,10 +90,11 @@
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (203)
+## In Progress (200)
 - ⏳ `ALDEx2`
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
@@ -145,7 +146,7 @@
 - ⏳ `HiCParser`
 - ⏳ `HiCcompare`
 
-... and 153 more ...
+... and 150 more ...
 
 ## Not Yet Started (1252)
 - ⏸️ `ACE`
@@ -202,5 +203,5 @@
 ... and 1202 more ...
 
 ---
-*Last updated: 2026-10-28 23:11:41 UTC*
-*Packages with verified BBS status: 202*
+*Last updated: 2026-10-28 23:13:12 UTC*
+*Packages with verified BBS status: 203*
