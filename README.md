@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 864 (35%)
+- **Successfully Built:** 867 (35%)
 - **Failed:** 6 (0%)
-- **In Progress:** 60
+- **In Progress:** 57
 - **Not Started:** 1504
 
 **Progress:** 35%
@@ -16,7 +16,7 @@
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (864)
+## Successfully Built Packages (867)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 814 more ...*
+*... and 817 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,17 +87,14 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (60)
-- ⏳ `BREW3R.r`
+## In Progress (57)
 - ⏳ `BiFET`
 - ⏳ `BiocNeighbors`
 - ⏳ `BiocSingular`
 - ⏳ `CGRphylo2`
 - ⏳ `CRImage`
-- ⏳ `CSAR`
 - ⏳ `DMRScan`
 - ⏳ `DNAshapeR`
-- ⏳ `DRIMSeq`
 - ⏳ `GMRP`
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicDataCommons`
@@ -138,8 +135,11 @@
 - ⏳ `fastRanges`
 - ⏳ `fastseg`
 - ⏳ `fraq`
+- ⏳ `gcrma`
+- ⏳ `geneRxCluster`
+- ⏳ `gtrellis`
 
-... and 10 more ...
+... and 7 more ...
 
 ## Not Yet Started (1504)
 - ⏸️ `ACE`
@@ -196,5 +196,5 @@
 ... and 1454 more ...
 
 ---
-*Last updated: 2026-10-28 18:55:25 UTC*
+*Last updated: 2026-10-28 19:02:29 UTC*
 *Packages with verified BBS status: 204*
