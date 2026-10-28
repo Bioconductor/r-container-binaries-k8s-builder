@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 292 (11%)
-- **Failed:** 2 (0%)
-- **In Progress:** 128
-- **Not Started:** 2012
+- **Successfully Built:** 296 (12%)
+- **Failed:** 3 (0%)
+- **In Progress:** 127
+- **Not Started:** 2008
 
 **Progress:** 12%
 ```
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (292)
+## Successfully Built Packages (296)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DNABarcodeCompatibility](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodeCompatibility.html) | [log](logs/DNABarcodeCompatibility/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodeCompatibility) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
 
-*... and 242 more ...*
+*... and 246 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,14 +76,15 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (2)
+## Failed Packages (3)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
+| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (128)
+## In Progress (127)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -127,17 +128,17 @@
 - ⏳ `MODA`
 - ⏳ `MSstatsTMT`
 - ⏳ `MeasurementError.cor`
-- ⏳ `Mergeomics`
 - ⏳ `MethylMix`
 - ⏳ `ModCon`
 - ⏳ `MultiMed`
 - ⏳ `NTW`
 - ⏳ `NetPathMiner`
 - ⏳ `NuPoP`
+- ⏳ `OPWeight`
 
-... and 78 more ...
+... and 77 more ...
 
-## Not Yet Started (2012)
+## Not Yet Started (2008)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -189,8 +190,8 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 
-... and 1962 more ...
+... and 1958 more ...
 
 ---
-*Last updated: 2026-10-28 17:40:26 UTC*
-*Packages with verified BBS status: 156*
+*Last updated: 2026-10-28 17:41:25 UTC*
+*Packages with verified BBS status: 157*
