@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 872 (36%)
+- **Successfully Built:** 875 (36%)
 - **Failed:** 12 (0%)
-- **In Progress:** 161
-- **Not Started:** 1340
+- **In Progress:** 176
+- **Not Started:** 1322
 
 **Progress:** 37%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (872)
+## Successfully Built Packages (875)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 822 more ...*
+*... and 825 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,8 +93,9 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (161)
+## In Progress (176)
 - ⏳ `ALDEx2`
+- ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
 - ⏳ `BUScorrect`
@@ -114,6 +115,7 @@
 - ⏳ `CalibraCurve`
 - ⏳ `Chromatograms`
 - ⏳ `ClustAll`
+- ⏳ `CoreGx`
 - ⏳ `DESeq2`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
@@ -135,19 +137,17 @@
 - ⏳ `HilbertCurve`
 - ⏳ `IWTomics`
 - ⏳ `LOLA`
+- ⏳ `Lheuristic`
+- ⏳ `LinkHD`
+- ⏳ `MOMA`
 - ⏳ `MetMashR`
 - ⏳ `MultiDataSet`
-- ⏳ `OAtools`
-- ⏳ `OVESEG`
+- ⏳ `MultimodalExperiment`
 - ⏳ `OmicCircos`
-- ⏳ `PAIRADISE`
-- ⏳ `PIPETS`
-- ⏳ `PIUMA`
-- ⏳ `PeacoQC`
 
-... and 111 more ...
+... and 126 more ...
 
-## Not Yet Started (1340)
+## Not Yet Started (1322)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -167,7 +167,6 @@
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
 - ⏸️ `Aerith`
-- ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
@@ -198,9 +197,10 @@
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
+- ⏸️ `BatchSVG`
 
-... and 1290 more ...
+... and 1272 more ...
 
 ---
-*Last updated: 2026-10-28 22:52:41 UTC*
+*Last updated: 2026-10-28 22:54:12 UTC*
 *Packages with verified BBS status: 200*
