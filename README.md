@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 639 (26%)
+- **Successfully Built:** 653 (26%)
 - **Failed:** 6 (0%)
-- **In Progress:** 68
-- **Not Started:** 1721
+- **In Progress:** 66
+- **Not Started:** 1709
 
-**Progress:** 26%
+**Progress:** 27%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (639)
+## Successfully Built Packages (653)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BANDITS](https://bioconductor.org/packages/3.24/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BANDITS) |
 | [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 
-*... and 589 more ...*
+*... and 603 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (68)
+## In Progress (66)
 - ⏳ `ANF`
 - ⏳ `ASAFE`
 - ⏳ `BADER`
@@ -95,13 +95,21 @@
 - ⏳ `BaseSpaceR`
 - ⏳ `BayesKnockdown`
 - ⏳ `BioCartaImage`
+- ⏳ `BiocCheck`
+- ⏳ `BiocPkgTools`
 - ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
+- ⏳ `CGHcall`
+- ⏳ `CGHregions`
+- ⏳ `CNORdt`
+- ⏳ `CNORfeeder`
+- ⏳ `CNORfuzzy`
+- ⏳ `CNORode`
 - ⏳ `CTDquerier`
-- ⏳ `Cardinal`
 - ⏳ `CellMapper`
 - ⏳ `Chicago`
 - ⏳ `ConsensusClusterPlus`
+- ⏳ `DEGraph`
 - ⏳ `DFP`
 - ⏳ `DFplyr`
 - ⏳ `DNABarcodes`
@@ -110,38 +118,30 @@
 - ⏳ `GeneOverlap`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `HybridMTest`
 - ⏳ `IRanges`
 - ⏳ `MODA`
 - ⏳ `MOGAMUN`
-- ⏳ `MethPed`
-- ⏳ `Mfuzz`
-- ⏳ `MiChip`
-- ⏳ `MiPP`
-- ⏳ `MsCoreUtils`
 - ⏳ `Mulcom`
 - ⏳ `NOISeq`
-- ⏳ `NanoTube`
 - ⏳ `OncoSimulR`
-- ⏳ `PLPE`
-- ⏳ `RUVcorr`
-- ⏳ `RUVnormalize`
-- ⏳ `RVS`
-- ⏳ `a4Preproc`
 - ⏳ `clippda`
 - ⏳ `clusterStab`
 - ⏳ `convert`
 - ⏳ `copa`
 - ⏳ `ddCt`
 - ⏳ `discordant`
+- ⏳ `epiNEM`
 - ⏳ `fabia`
 - ⏳ `frmaTools`
 - ⏳ `gdscloud`
 - ⏳ `geneRecommender`
+- ⏳ `hopach`
+- ⏳ `iBMQ`
+- ⏳ `iterativeBMA`
 
-... and 18 more ...
+... and 16 more ...
 
-## Not Yet Started (1721)
+## Not Yet Started (1709)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -193,8 +193,8 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
 
-... and 1671 more ...
+... and 1659 more ...
 
 ---
-*Last updated: 2026-10-28 18:19:04 UTC*
+*Last updated: 2026-10-28 18:20:06 UTC*
 *Packages with verified BBS status: 195*

@@ -1,0 +1,74 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''RUVcorr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'RUVcorr'
+also installing the dependencies ‘bladderbatch’, ‘hgu133a2.db’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/bladderbatch_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/hgu133a2.db_3.13.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/RUVcorr_1.45.0.tar.gz'
+* installing *source* package ‘bladderbatch’ ...
+** this is package ‘bladderbatch’ version ‘1.51.0’
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bladderbatch’ as ‘bladderbatch_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bladderbatch)
+* installing *source* package ‘hgu133a2.db’ ...
+** this is package ‘hgu133a2.db’ version ‘3.13.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hgu133a2.db’ as ‘hgu133a2.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133a2.db)
+* installing *source* package ‘RUVcorr’ ...
+** this is package ‘RUVcorr’ version ‘1.45.0’
+** package ‘RUVcorr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RUVcorr’ as ‘RUVcorr_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RUVcorr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpIHpsgz/downloaded_packages’
+Old packages: 'gesel'
+
+real	0m26.873s
+user	0m20.661s
+sys	0m5.499s
