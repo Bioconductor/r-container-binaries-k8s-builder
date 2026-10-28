@@ -1,0 +1,297 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''CytoGLMM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'CytoGLMM'
+also installing the dependencies ‘future.apply’, ‘progressr’, ‘SQUAREM’, ‘diagram’, ‘lava’, ‘estimability’, ‘showtextdb’, ‘prodlim’, ‘emmeans’, ‘flashClust’, ‘leaps’, ‘multcompView’, ‘scatterplot3d’, ‘showtext’, ‘sysfonts’, ‘clock’, ‘gower’, ‘hardhat’, ‘ipred’, ‘sparsevctrs’, ‘dendextend’, ‘FactoMineR’, ‘modeltools’, ‘ModelMetrics’, ‘pROC’, ‘recipes’, ‘factoextra’, ‘flexmix’, ‘mbest’, ‘strucchange’, ‘logging’, ‘caret’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/future.apply_1.21.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/progressr_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SQUAREM_2026.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/diagram_1.6.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lava_1.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/estimability_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/showtextdb_3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/prodlim_2026.03.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/emmeans_2.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flashClust_1.1-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/leaps_3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/multcompView_0.1-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scatterplot3d_0.3-45.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/showtext_0.9-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sysfonts_0.8.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/clock_0.7.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gower_1.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hardhat_1.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ipred_0.9-16.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sparsevctrs_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dendextend_1.19.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FactoMineR_2.18.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/modeltools_0.2-25.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ModelMetrics_1.2.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pROC_1.19.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/recipes_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/factoextra_2.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/flexmix_2.3-21.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mbest_0.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/strucchange_1.6-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/logging_0.10-111.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/caret_7.0-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/CytoGLMM_1.20.0.tar.gz'
+* installing *binary* package ‘future.apply’ ...
+* package ‘future.apply’ successfully unpacked and SHA256 sums checked
+* ‘future.apply’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘future.apply’ as ‘future.apply_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future.apply)
+* installing *binary* package ‘progressr’ ...
+* package ‘progressr’ successfully unpacked and SHA256 sums checked
+* ‘progressr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘progressr’ as ‘progressr_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progressr)
+* installing *binary* package ‘SQUAREM’ ...
+* package ‘SQUAREM’ successfully unpacked and SHA256 sums checked
+* ‘SQUAREM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SQUAREM’ as ‘SQUAREM_2026.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SQUAREM)
+* installing *binary* package ‘diagram’ ...
+* package ‘diagram’ successfully unpacked and SHA256 sums checked
+* ‘diagram’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *binary* package ‘estimability’ ...
+* package ‘estimability’ successfully unpacked and SHA256 sums checked
+* ‘estimability’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘estimability’ as ‘estimability_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (estimability)
+* installing *binary* package ‘flashClust’ ...
+* package ‘flashClust’ successfully unpacked and SHA256 sums checked
+* ‘flashClust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flashClust’ as ‘flashClust_1.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flashClust)
+* installing *binary* package ‘leaps’ ...
+* package ‘leaps’ successfully unpacked and SHA256 sums checked
+* ‘leaps’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leaps’ as ‘leaps_3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leaps)
+* installing *binary* package ‘multcompView’ ...
+* package ‘multcompView’ successfully unpacked and SHA256 sums checked
+* ‘multcompView’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multcompView’ as ‘multcompView_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcompView)
+* installing *binary* package ‘scatterplot3d’ ...
+* package ‘scatterplot3d’ successfully unpacked and SHA256 sums checked
+* ‘scatterplot3d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scatterplot3d’ as ‘scatterplot3d_0.3-45_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scatterplot3d)
+* installing *binary* package ‘sysfonts’ ...
+* package ‘sysfonts’ successfully unpacked and SHA256 sums checked
+* ‘sysfonts’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sysfonts’ as ‘sysfonts_0.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sysfonts)
+* installing *binary* package ‘clock’ ...
+* package ‘clock’ successfully unpacked and SHA256 sums checked
+* ‘clock’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clock’ as ‘clock_0.7.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clock)
+* installing *binary* package ‘gower’ ...
+* package ‘gower’ successfully unpacked and SHA256 sums checked
+* ‘gower’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gower’ as ‘gower_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gower)
+* installing *binary* package ‘sparsevctrs’ ...
+* package ‘sparsevctrs’ successfully unpacked and SHA256 sums checked
+* ‘sparsevctrs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sparsevctrs’ as ‘sparsevctrs_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparsevctrs)
+* installing *binary* package ‘dendextend’ ...
+* package ‘dendextend’ successfully unpacked and SHA256 sums checked
+* ‘dendextend’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dendextend’ as ‘dendextend_1.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dendextend)
+* installing *binary* package ‘modeltools’ ...
+* package ‘modeltools’ successfully unpacked and SHA256 sums checked
+* ‘modeltools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘modeltools’ as ‘modeltools_0.2-25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (modeltools)
+* installing *binary* package ‘ModelMetrics’ ...
+* package ‘ModelMetrics’ successfully unpacked and SHA256 sums checked
+* ‘ModelMetrics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ModelMetrics’ as ‘ModelMetrics_1.2.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ModelMetrics)
+* installing *binary* package ‘pROC’ ...
+* package ‘pROC’ successfully unpacked and SHA256 sums checked
+* ‘pROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pROC’ as ‘pROC_1.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pROC)
+* installing *binary* package ‘strucchange’ ...
+* package ‘strucchange’ successfully unpacked and SHA256 sums checked
+* ‘strucchange’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘strucchange’ as ‘strucchange_1.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (strucchange)
+* installing *binary* package ‘logging’ ...
+* package ‘logging’ successfully unpacked and SHA256 sums checked
+* ‘logging’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘logging’ as ‘logging_0.10-111_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logging)
+* installing *binary* package ‘lava’ ...
+* package ‘lava’ successfully unpacked and SHA256 sums checked
+* ‘lava’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lava’ as ‘lava_1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lava)
+* installing *binary* package ‘showtextdb’ ...
+* package ‘showtextdb’ successfully unpacked and SHA256 sums checked
+* ‘showtextdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘showtextdb’ as ‘showtextdb_3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtextdb)
+* installing *binary* package ‘emmeans’ ...
+* package ‘emmeans’ successfully unpacked and SHA256 sums checked
+* ‘emmeans’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘emmeans’ as ‘emmeans_2.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emmeans)
+* installing *binary* package ‘hardhat’ ...
+* package ‘hardhat’ successfully unpacked and SHA256 sums checked
+* ‘hardhat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hardhat’ as ‘hardhat_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hardhat)
+* installing *binary* package ‘flexmix’ ...
+* package ‘flexmix’ successfully unpacked and SHA256 sums checked
+* ‘flexmix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flexmix’ as ‘flexmix_2.3-21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexmix)
+* installing *binary* package ‘mbest’ ...
+* package ‘mbest’ successfully unpacked and SHA256 sums checked
+* ‘mbest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mbest’ as ‘mbest_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mbest)
+* installing *binary* package ‘prodlim’ ...
+* package ‘prodlim’ successfully unpacked and SHA256 sums checked
+* ‘prodlim’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘prodlim’ as ‘prodlim_2026.03.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prodlim)
+* installing *binary* package ‘showtext’ ...
+* package ‘showtext’ successfully unpacked and SHA256 sums checked
+* ‘showtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘showtext’ as ‘showtext_0.9-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtext)
+* installing *binary* package ‘ipred’ ...
+* package ‘ipred’ successfully unpacked and SHA256 sums checked
+* ‘ipred’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ipred’ as ‘ipred_0.9-16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ipred)
+* installing *binary* package ‘FactoMineR’ ...
+* package ‘FactoMineR’ successfully unpacked and SHA256 sums checked
+* ‘FactoMineR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FactoMineR’ as ‘FactoMineR_2.18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FactoMineR)
+* installing *binary* package ‘recipes’ ...
+* package ‘recipes’ successfully unpacked and SHA256 sums checked
+* ‘recipes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘recipes’ as ‘recipes_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (recipes)
+* installing *binary* package ‘factoextra’ ...
+* package ‘factoextra’ successfully unpacked and SHA256 sums checked
+* ‘factoextra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘factoextra’ as ‘factoextra_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (factoextra)
+* installing *binary* package ‘caret’ ...
+* package ‘caret’ successfully unpacked and SHA256 sums checked
+* ‘caret’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘caret’ as ‘caret_7.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caret)
+* installing *source* package ‘CytoGLMM’ ...
+** this is package ‘CytoGLMM’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘CytoGLMM’ as ‘CytoGLMM_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CytoGLMM)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFWGWhl/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m35.366s
+user	0m25.558s
+sys	0m12.667s
