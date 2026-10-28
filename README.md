@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 832 (34%)
+- **Successfully Built:** 836 (35%)
 - **Failed:** 11 (0%)
-- **In Progress:** 187
-- **Not Started:** 1355
+- **In Progress:** 192
+- **Not Started:** 1346
 
 **Progress:** 35%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (832)
+## Successfully Built Packages (836)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 782 more ...*
+*... and 786 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,7 +92,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (187)
+## In Progress (192)
 - ⏳ `ALDEx2`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
@@ -100,6 +100,8 @@
 - ⏳ `Battlefield`
 - ⏳ `BiFET`
 - ⏳ `BioGA`
+- ⏳ `BiocNeighbors`
+- ⏳ `BiocSingular`
 - ⏳ `BiocSklearn`
 - ⏳ `Biostrings`
 - ⏳ `BreastSubtypeR`
@@ -126,7 +128,6 @@
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
 - ⏳ `HilbertCurve`
-- ⏳ `IFAA`
 - ⏳ `ISLET`
 - ⏳ `IWTomics`
 - ⏳ `IgGeneUsage`
@@ -142,11 +143,10 @@
 - ⏳ `MPRAnalyze`
 - ⏳ `Macarron`
 - ⏳ `MetNet`
-- ⏳ `MsFeatures`
 
-... and 137 more ...
+... and 142 more ...
 
-## Not Yet Started (1355)
+## Not Yet Started (1346)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -198,8 +198,8 @@
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 
-... and 1305 more ...
+... and 1296 more ...
 
 ---
-*Last updated: 2026-10-28 22:29:43 UTC*
+*Last updated: 2026-10-28 22:31:47 UTC*
 *Packages with verified BBS status: 194*
