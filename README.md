@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 728 (30%)
+- **Successfully Built:** 732 (30%)
 - **Failed:** 11 (0%)
 - **In Progress:** 40
-- **Not Started:** 1606
+- **Not Started:** 1602
 
-**Progress:** 30%
+**Progress:** 31%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (728)
+## Successfully Built Packages (732)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 678 more ...*
+*... and 682 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,6 +102,7 @@
 - ⏳ `FamAgg`
 - ⏳ `GCPtools`
 - ⏳ `IHW`
+- ⏳ `MMUPHin`
 - ⏳ `OSTA.data`
 - ⏳ `RGSEA`
 - ⏳ `ReUseData`
@@ -119,22 +120,21 @@
 - ⏳ `anota`
 - ⏳ `brendaDb`
 - ⏳ `cogena`
+- ⏳ `cyanoFilter`
 - ⏳ `cycle`
 - ⏳ `dStruct`
+- ⏳ `ddPCRclust`
 - ⏳ `derfinderHelper`
-- ⏳ `fenr`
-- ⏳ `flowFP`
-- ⏳ `flowTrans`
+- ⏳ `flowCut`
 - ⏳ `frmaTools`
 - ⏳ `ggkegg`
 - ⏳ `makecdfenv`
 - ⏳ `matter`
 - ⏳ `msPurity`
 - ⏳ `nucleoSim`
-- ⏳ `optimalFlow`
 - ⏳ `toppgene`
 
-## Not Yet Started (1606)
+## Not Yet Started (1602)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -186,8 +186,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1556 more ...
+... and 1552 more ...
 
 ---
-*Last updated: 2026-10-28 19:22:50 UTC*
+*Last updated: 2026-10-28 19:23:26 UTC*
 *Packages with verified BBS status: 189*
