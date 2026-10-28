@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 710 (29%)
-- **Failed:** 10 (0%)
-- **In Progress:** 54
+- **Successfully Built:** 711 (29%)
+- **Failed:** 11 (0%)
+- **In Progress:** 52
 - **Not Started:** 1611
 
 **Progress:** 30%
@@ -16,7 +16,7 @@
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (710)
+## Successfully Built Packages (711)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 660 more ...*
+*... and 661 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,10 +76,11 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (10)
+## Failed Packages (11)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) | Compilation failed:  ‘BAGS’ |
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
@@ -91,8 +92,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (54)
-- ⏳ `BAGS`
+## In Progress (52)
 - ⏳ `BumpyMatrix`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
@@ -125,7 +125,6 @@
 - ⏳ `derfinderHelper`
 - ⏳ `fenr`
 - ⏳ `flowClust`
-- ⏳ `flowMatch`
 - ⏳ `flowMeans`
 - ⏳ `flowPloidy`
 - ⏳ `flowSpecs`
@@ -142,8 +141,10 @@
 - ⏳ `matter`
 - ⏳ `msPurity`
 - ⏳ `ncdfFlow`
+- ⏳ `nucleoSim`
+- ⏳ `tidyFlowCore`
 
-... and 4 more ...
+... and 2 more ...
 
 ## Not Yet Started (1611)
 - ⏸️ `ACE`
@@ -200,5 +201,5 @@
 ... and 1561 more ...
 
 ---
-*Last updated: 2026-10-28 19:18:49 UTC*
-*Packages with verified BBS status: 187*
+*Last updated: 2026-10-28 19:19:39 UTC*
+*Packages with verified BBS status: 188*
