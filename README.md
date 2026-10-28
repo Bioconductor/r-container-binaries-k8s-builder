@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 802 (33%)
+- **Successfully Built:** 803 (33%)
 - **Failed:** 11 (0%)
-- **In Progress:** 13
-- **Not Started:** 1559
+- **In Progress:** 56
+- **Not Started:** 1515
 
 **Progress:** 34%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (802)
+## Successfully Built Packages (803)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BANDITS](https://bioconductor.org/packages/3.23/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BANDITS) |
 
-*... and 752 more ...*
+*... and 753 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,22 +92,61 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (13)
+## In Progress (56)
 - ⏳ `AnVILPublish`
 - ⏳ `AnVILWorkflow`
+- ⏳ `AnnotationFilter`
+- ⏳ `BREW3R.r`
+- ⏳ `BiFET`
 - ⏳ `Biostrings`
 - ⏳ `CCPlotR`
+- ⏳ `CNVMetrics`
+- ⏳ `CSAR`
 - ⏳ `Chromatograms`
 - ⏳ `ClustAll`
+- ⏳ `DMRScan`
+- ⏳ `DRIMSeq`
+- ⏳ `DelayedArray`
+- ⏳ `EnrichedHeatmap`
+- ⏳ `GMRP`
 - ⏳ `GenomeInfoDb`
+- ⏳ `GenomicDataCommons`
+- ⏳ `GenomicTuples`
+- ⏳ `GrafGen`
+- ⏳ `HiCBricks`
+- ⏳ `HilbertCurve`
+- ⏳ `IWTomics`
+- ⏳ `LOLA`
+- ⏳ `OmicCircos`
+- ⏳ `PIPETS`
+- ⏳ `Qtlizer`
+- ⏳ `TDbasedUFE`
+- ⏳ `TFARM`
 - ⏳ `TPP`
+- ⏳ `alabaster.ranges`
+- ⏳ `bamsignals`
+- ⏳ `baySeq`
+- ⏳ `chromDraw`
+- ⏳ `cnvGSA`
 - ⏳ `cogena`
+- ⏳ `epialleleR`
+- ⏳ `fastseg`
+- ⏳ `geneRxCluster`
+- ⏳ `genomeIntervals`
+- ⏳ `gtrellis`
+- ⏳ `h5mread`
+- ⏳ `igvShiny`
 - ⏳ `ldblock`
-- ⏳ `markeR`
+- ⏳ `lncRna`
+- ⏳ `loci2path`
+- ⏳ `megadepth`
 - ⏳ `msPurity`
-- ⏳ `simona`
+- ⏳ `ncRNAtools`
+- ⏳ `oncoscanR`
 
-## Not Yet Started (1559)
+... and 6 more ...
+
+## Not Yet Started (1515)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -133,7 +172,6 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationDbi`
-- ⏸️ `AnnotationFilter`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
@@ -148,7 +186,6 @@
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
-- ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
@@ -158,9 +195,11 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
+- ⏸️ `Basic4Cseq`
+- ⏸️ `BasicSTARRseq`
 
-... and 1509 more ...
+... and 1465 more ...
 
 ---
-*Last updated: 2026-10-28 22:17:27 UTC*
+*Last updated: 2026-10-28 22:18:48 UTC*
 *Packages with verified BBS status: 192*
