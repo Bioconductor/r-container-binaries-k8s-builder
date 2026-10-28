@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 49 (2%)
+- **Successfully Built:** 55 (2%)
 - **Failed:** 0 (0%)
-- **In Progress:** 338
+- **In Progress:** 332
 - **Not Started:** 1998
 
 **Progress:** 2%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (49)
+## Successfully Built Packages (55)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -45,10 +45,11 @@
 | [dcGSA](https://bioconductor.org/packages/3.23/bioc/html/dcGSA.html) | [log](logs/dcGSA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dcGSA) |
 | [diffuStats](https://bioconductor.org/packages/3.23/bioc/html/diffuStats.html) | [log](logs/diffuStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/diffuStats) |
 | [dir.expiry](https://bioconductor.org/packages/3.23/bioc/html/dir.expiry.html) | [log](logs/dir.expiry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dir.expiry) |
-| [dks](https://bioconductor.org/packages/3.23/bioc/html/dks.html) | [log](logs/dks/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dks) |
-| [drawProteins](https://bioconductor.org/packages/3.23/bioc/html/drawProteins.html) | [log](logs/drawProteins/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/drawProteins) |
-| [easyreporting](https://bioconductor.org/packages/3.23/bioc/html/easyreporting.html) | [log](logs/easyreporting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/easyreporting) |
-| [eds](https://bioconductor.org/packages/3.23/bioc/html/eds.html) | [log](logs/eds/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/eds) |
+
+*... and 5 more ...*
+
+| Package | Log | BBS Status |
+|---------|-----|------------|
 | [epivizrServer](https://bioconductor.org/packages/3.23/bioc/html/epivizrServer.html) | [log](logs/epivizrServer/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/epivizrServer) |
 | [fCI](https://bioconductor.org/packages/3.23/bioc/html/fCI.html) | [log](logs/fCI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/fCI) |
 | [faers](https://bioconductor.org/packages/3.23/bioc/html/faers.html) | [log](logs/faers/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/faers) |
@@ -66,11 +67,16 @@
 | [geneplast](https://bioconductor.org/packages/3.23/bioc/html/geneplast.html) | [log](logs/geneplast/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneplast) |
 | [genomes](https://bioconductor.org/packages/3.23/bioc/html/genomes.html) | [log](logs/genomes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genomes) |
 | [geva](https://bioconductor.org/packages/3.23/bioc/html/geva.html) | [log](logs/geva/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geva) |
+| [iPath](https://bioconductor.org/packages/3.23/bioc/html/iPath.html) | [log](logs/iPath/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iPath) |
 | [magrene](https://bioconductor.org/packages/3.23/bioc/html/magrene.html) | [log](logs/magrene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/magrene) |
+| [mixOmics](https://bioconductor.org/packages/3.23/bioc/html/mixOmics.html) | [log](logs/mixOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mixOmics) |
 | [pengls](https://bioconductor.org/packages/3.23/bioc/html/pengls.html) | [log](logs/pengls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pengls) |
+| [scShapes](https://bioconductor.org/packages/3.23/bioc/html/scShapes.html) | [log](logs/scShapes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scShapes) |
+| [scTHI](https://bioconductor.org/packages/3.23/bioc/html/scTHI.html) | [log](logs/scTHI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scTHI) |
+| [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (338)
+## In Progress (332)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
@@ -122,7 +128,7 @@
 - ⏳ `GEWIST`
 - ⏳ `GIGSEA`
 
-... and 288 more ...
+... and 282 more ...
 
 ## Not Yet Started (1998)
 - ⏸️ `ABSSeq`
@@ -179,5 +185,5 @@
 ... and 1948 more ...
 
 ---
-*Last updated: 2026-10-28 16:53:15 UTC*
-*Packages with verified BBS status: 49*
+*Last updated: 2026-10-28 16:56:09 UTC*
+*Packages with verified BBS status: 54*
