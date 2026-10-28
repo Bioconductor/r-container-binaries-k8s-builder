@@ -1,0 +1,79 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SpectriPy'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SpectriPy'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SpectriPy_1.2.1.tar.gz'
+Content type 'application/gzip' length 1076145 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+* installing *source* package ‘SpectriPy’ ...
+** this is package ‘SpectriPy’ version ‘1.2.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Downloading uv...Done!
+Downloading cpython-3.13.18-linux-x86_64-gnu (download) (33.8MiB)
+ Downloaded cpython-3.13.18-linux-x86_64-gnu (download)
+Downloading matplotlib (9.4MiB)
+Downloading numba (3.7MiB)
+Downloading fastobo (2.0MiB)
+Downloading numpy (15.9MiB)
+Downloading llvmlite (56.9MiB)
+Downloading sqlalchemy (4.4MiB)
+Downloading pandas (11.4MiB)
+Downloading lxml (5.0MiB)
+Downloading networkx (1.6MiB)
+Downloading pillow (6.8MiB)
+Downloading fonttools (5.2MiB)
+Downloading kiwisolver (1.4MiB)
+Downloading rdkit (30.3MiB)
+Downloading psims (22.8MiB)
+Downloading scipy (34.0MiB)
+Downloading scikit-learn (8.7MiB)
+ Downloaded kiwisolver
+ Downloaded fastobo
+ Downloaded networkx
+ Downloaded sqlalchemy
+ Downloaded numba
+ Downloaded fonttools
+ Downloaded lxml
+ Downloaded pillow
+ Downloaded matplotlib
+ Downloaded scikit-learn
+ Downloaded numpy
+ Downloaded pandas
+ Downloaded psims
+ Downloaded scipy
+ Downloaded rdkit
+ Downloaded llvmlite
+Installed 46 packages in 169ms
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpectriPy’ as ‘SpectriPy_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpectriPy)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOluQg2/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m53.806s
+user	0m46.180s
+sys	0m10.311s

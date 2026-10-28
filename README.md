@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 787 (32%)
+- **Successfully Built:** 802 (33%)
 - **Failed:** 11 (0%)
-- **In Progress:** 28
+- **In Progress:** 13
 - **Not Started:** 1559
 
-**Progress:** 33%
+**Progress:** 34%
 ```
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (787)
+## Successfully Built Packages (802)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BANDITS](https://bioconductor.org/packages/3.23/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BANDITS) |
 
-*... and 737 more ...*
+*... and 752 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,7 +92,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (28)
+## In Progress (13)
 - ⏳ `AnVILPublish`
 - ⏳ `AnVILWorkflow`
 - ⏳ `Biostrings`
@@ -100,23 +100,8 @@
 - ⏳ `Chromatograms`
 - ⏳ `ClustAll`
 - ⏳ `GenomeInfoDb`
-- ⏳ `GenomicRanges`
-- ⏳ `InteractiveComplexHeatmap`
-- ⏳ `MAPFX`
-- ⏳ `MetCirc`
-- ⏳ `MsBackendMassbank`
-- ⏳ `MsBackendMetaboLights`
-- ⏳ `MsBackendMgf`
-- ⏳ `MsBackendMsp`
-- ⏳ `MsBackendRawFileReader`
-- ⏳ `MsBackendSql`
-- ⏳ `SparseArray`
-- ⏳ `SpectraQL`
-- ⏳ `SpectriPy`
 - ⏳ `TPP`
-- ⏳ `alabaster.bumpy`
 - ⏳ `cogena`
-- ⏳ `cola`
 - ⏳ `ldblock`
 - ⏳ `markeR`
 - ⏳ `msPurity`
@@ -177,5 +162,5 @@
 ... and 1509 more ...
 
 ---
-*Last updated: 2026-10-28 22:06:56 UTC*
+*Last updated: 2026-10-28 22:17:27 UTC*
 *Packages with verified BBS status: 192*
