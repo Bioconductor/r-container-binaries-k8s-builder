@@ -1,0 +1,200 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''planet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'planet'
+also installing the dependencies ‘scrime’, ‘ellipse’, ‘rARPACK’, ‘bumphunter’, ‘nor1mix’, ‘siggenes’, ‘illuminaio’, ‘mixOmics’, ‘minfi’, ‘EpiDISH’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scrime_1.3.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ellipse_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rARPACK_0.11-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/bumphunter_1.55.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nor1mix_1.3-3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/siggenes_1.87.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/illuminaio_0.55.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mixOmics_6.37.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/minfi_1.59.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EpiDISH_2.29.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/planet_1.21.0.tar.gz'
+* installing *binary* package ‘scrime’ ...
+* package ‘scrime’ successfully unpacked and SHA256 sums checked
+* ‘scrime’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scrime’ as ‘scrime_1.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scrime)
+* installing *binary* package ‘ellipse’ ...
+* package ‘ellipse’ successfully unpacked and SHA256 sums checked
+* ‘ellipse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ellipse’ as ‘ellipse_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ellipse)
+* installing *binary* package ‘rARPACK’ ...
+* package ‘rARPACK’ successfully unpacked and SHA256 sums checked
+* ‘rARPACK’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rARPACK’ as ‘rARPACK_0.11-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rARPACK)
+* installing *source* package ‘bumphunter’ ...
+** this is package ‘bumphunter’ version ‘1.55.1’
+** package ‘bumphunter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bumphunter’ as ‘bumphunter_1.55.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bumphunter)
+* installing *binary* package ‘nor1mix’ ...
+* package ‘nor1mix’ successfully unpacked and SHA256 sums checked
+* ‘nor1mix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nor1mix’ as ‘nor1mix_1.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nor1mix)
+* installing *source* package ‘illuminaio’ ...
+** this is package ‘illuminaio’ version ‘0.55.0’
+** package ‘illuminaio’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c 000.init.c -o 000.init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c des.c -o des.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c local_des.c -o local_des.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o illuminaio.so 000.init.o des.o local_des.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-illuminaio/00new/illuminaio/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘illuminaio’ as ‘illuminaio_0.55.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (illuminaio)
+* installing *source* package ‘EpiDISH’ ...
+** this is package ‘EpiDISH’ version ‘2.29.0’
+** package ‘EpiDISH’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EpiDISH’ as ‘EpiDISH_2.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EpiDISH)
+* installing *source* package ‘planet’ ...
+** this is package ‘planet’ version ‘1.21.0’
+** package ‘planet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘planet’ as ‘planet_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (planet)
+* installing *source* package ‘siggenes’ ...
+** this is package ‘siggenes’ version ‘1.87.0’
+** package ‘siggenes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘siggenes’ as ‘siggenes_1.87.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (siggenes)
+* installing *source* package ‘mixOmics’ ...
+** this is package ‘mixOmics’ version ‘6.37.0’
+** package ‘mixOmics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mixOmics’ as ‘mixOmics_6.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mixOmics)
+* installing *source* package ‘minfi’ ...
+** this is package ‘minfi’ version ‘1.59.1’
+** package ‘minfi’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minfi’ as ‘minfi_1.59.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minfi)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPIgHwg/downloaded_packages’
+
+real	2m28.783s
+user	2m3.199s
+sys	0m17.435s
