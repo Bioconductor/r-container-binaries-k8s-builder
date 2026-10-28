@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 811 (34%)
+- **Successfully Built:** 814 (34%)
 - **Failed:** 11 (0%)
-- **In Progress:** 49
+- **In Progress:** 46
 - **Not Started:** 1514
 
 **Progress:** 34%
@@ -16,7 +16,7 @@
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (811)
+## Successfully Built Packages (814)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 761 more ...*
+*... and 764 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,17 +92,14 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (49)
+## In Progress (46)
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
 - ⏳ `BiFET`
-- ⏳ `BiocAzul`
 - ⏳ `Biostrings`
 - ⏳ `CCPlotR`
 - ⏳ `Chromatograms`
 - ⏳ `ClustAll`
-- ⏳ `DelayedArray`
-- ⏳ `EnrichedHeatmap`
 - ⏳ `GMRP`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicDataCommons`
@@ -198,5 +195,5 @@
 ... and 1464 more ...
 
 ---
-*Last updated: 2026-10-28 22:20:54 UTC*
+*Last updated: 2026-10-28 22:21:38 UTC*
 *Packages with verified BBS status: 194*
