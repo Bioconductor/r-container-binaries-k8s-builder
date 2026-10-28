@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 916 (38%)
+- **Successfully Built:** 917 (38%)
 - **Failed:** 12 (0%)
 - **In Progress:** 204
-- **Not Started:** 1253
+- **Not Started:** 1252
 
 **Progress:** 38%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (916)
+## Successfully Built Packages (917)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 
-*... and 866 more ...*
+*... and 867 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -147,7 +147,7 @@
 
 ... and 154 more ...
 
-## Not Yet Started (1253)
+## Not Yet Started (1252)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -199,8 +199,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1203 more ...
+... and 1202 more ...
 
 ---
-*Last updated: 2026-10-28 23:09:23 UTC*
+*Last updated: 2026-10-28 23:10:29 UTC*
 *Packages with verified BBS status: 202*
