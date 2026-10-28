@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1155 (47%)
+- **Successfully Built:** 1158 (47%)
 - **Failed:** 6 (0%)
-- **In Progress:** 168
+- **In Progress:** 165
 - **Not Started:** 1105
 
 **Progress:** 47%
@@ -16,7 +16,7 @@
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1155)
+## Successfully Built Packages (1158)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1105 more ...*
+*... and 1108 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (168)
+## In Progress (165)
 - ⏳ `ASICS`
 - ⏳ `AffiXcan`
 - ⏳ `Banksy`
@@ -108,10 +108,8 @@
 - ⏳ `EGAD`
 - ⏳ `ExperimentSubset`
 - ⏳ `FEAST`
-- ⏳ `GDSArray`
 - ⏳ `GMRP`
 - ⏳ `GeneRegionScan`
-- ⏳ `GenomicAlignments`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
 - ⏳ `GenomicTuples`
@@ -134,12 +132,14 @@
 - ⏳ `NanoStringNCTools`
 - ⏳ `PACE`
 - ⏳ `POWSC`
-- ⏳ `QDNAseq`
 - ⏳ `QFeatures`
 - ⏳ `RTNduals`
 - ⏳ `Rbowtie2`
+- ⏳ `SAIGEgds`
+- ⏳ `SEraster`
+- ⏳ `SICtools`
 
-... and 118 more ...
+... and 115 more ...
 
 ## Not Yet Started (1105)
 - ⏸️ `ACE`
@@ -196,5 +196,5 @@
 ... and 1055 more ...
 
 ---
-*Last updated: 2026-10-28 21:43:54 UTC*
+*Last updated: 2026-10-28 21:45:31 UTC*
 *Packages with verified BBS status: 211*
