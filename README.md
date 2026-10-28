@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 738 (30%)
+- **Successfully Built:** 742 (31%)
 - **Failed:** 11 (0%)
-- **In Progress:** 37
+- **In Progress:** 33
 - **Not Started:** 1599
 
 **Progress:** 31%
@@ -16,7 +16,7 @@
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (738)
+## Successfully Built Packages (742)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 688 more ...*
+*... and 692 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,9 +92,8 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (37)
+## In Progress (33)
 - ⏳ `BumpyMatrix`
-- ⏳ `CardinalIO`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
 - ⏳ `ComplexHeatmap`
@@ -119,12 +118,9 @@
 - ⏳ `anota`
 - ⏳ `brendaDb`
 - ⏳ `cogena`
-- ⏳ `cyanoFilter`
 - ⏳ `cycle`
 - ⏳ `dStruct`
-- ⏳ `ddPCRclust`
 - ⏳ `derfinderHelper`
-- ⏳ `flowCut`
 - ⏳ `frmaTools`
 - ⏳ `makecdfenv`
 - ⏳ `msPurity`
@@ -186,5 +182,5 @@
 ... and 1549 more ...
 
 ---
-*Last updated: 2026-10-28 19:24:49 UTC*
+*Last updated: 2026-10-28 19:25:23 UTC*
 *Packages with verified BBS status: 189*
