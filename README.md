@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 628 (26%)
+- **Successfully Built:** 633 (26%)
 - **Failed:** 9 (0%)
-- **In Progress:** 81
-- **Not Started:** 1667
+- **In Progress:** 84
+- **Not Started:** 1659
 
 **Progress:** 26%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (628)
+## Successfully Built Packages (633)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 578 more ...*
+*... and 583 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,14 +90,20 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (81)
+## In Progress (84)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
 - ⏳ `BAGS`
 - ⏳ `BayesKnockdown`
 - ⏳ `BioQC`
+- ⏳ `BiocCheck`
 - ⏳ `BiocFHIR`
+- ⏳ `BiocPkgTools`
+- ⏳ `CNORdt`
+- ⏳ `CNORfeeder`
+- ⏳ `CNORfuzzy`
+- ⏳ `CNORode`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
 - ⏳ `DFplyr`
@@ -109,7 +115,6 @@
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
 - ⏳ `GeneExpressionSignature`
-- ⏳ `GeneNetworkBuilder`
 - ⏳ `GeneSelectMMD`
 - ⏳ `GraphAT`
 - ⏳ `HELP`
@@ -124,9 +129,7 @@
 - ⏳ `RGSEA`
 - ⏳ `ReUseData`
 - ⏳ `STATegRa`
-- ⏳ `TMixClust`
 - ⏳ `TPP`
-- ⏳ `TRONCO`
 - ⏳ `TurboNorm`
 - ⏳ `a4Classif`
 - ⏳ `aCGH`
@@ -138,13 +141,10 @@
 - ⏳ `brendaDb`
 - ⏳ `cancerclass`
 - ⏳ `cogena`
-- ⏳ `covEB`
-- ⏳ `cycle`
-- ⏳ `dyebias`
 
-... and 31 more ...
+... and 34 more ...
 
-## Not Yet Started (1667)
+## Not Yet Started (1659)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1617 more ...
+... and 1609 more ...
 
 ---
-*Last updated: 2026-10-28 18:57:41 UTC*
+*Last updated: 2026-10-28 18:58:58 UTC*
 *Packages with verified BBS status: 182*
