@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 454 (18%)
+- **Successfully Built:** 460 (18%)
 - **Failed:** 6 (0%)
-- **In Progress:** 49
-- **Not Started:** 1925
+- **In Progress:** 45
+- **Not Started:** 1923
 
-**Progress:** 18%
+**Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (454)
+## Successfully Built Packages (460)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BiocAzul](https://bioconductor.org/packages/3.24/bioc/html/BiocAzul.html) | [log](logs/BiocAzul/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocAzul) |
 
-*... and 404 more ...*
+*... and 410 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,20 +87,19 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (49)
+## In Progress (45)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
+- ⏳ `BUS`
 - ⏳ `BaseSpaceR`
 - ⏳ `BioCartaImage`
-- ⏳ `BiocBuildReporter`
-- ⏳ `BiocGenerics`
-- ⏳ `BiocWorkflowTools`
 - ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
 - ⏳ `Chicago`
 - ⏳ `DNABarcodes`
 - ⏳ `EnMCB`
+- ⏳ `Fancy`
 - ⏳ `GeneOverlap`
 - ⏳ `HVP`
 - ⏳ `Harman`
@@ -120,7 +119,6 @@
 - ⏳ `PoDCall`
 - ⏳ `ProtGenerics`
 - ⏳ `QUBIC`
-- ⏳ `SCBN`
 - ⏳ `SIMLR`
 - ⏳ `ScreenR`
 - ⏳ `barmixR`
@@ -129,16 +127,14 @@
 - ⏳ `compcodeR`
 - ⏳ `dcGSA`
 - ⏳ `gdscloud`
-- ⏳ `mirTarRnaSeq`
 - ⏳ `ndexr`
 - ⏳ `nnNorm`
-- ⏳ `rBiopaxParser`
 - ⏳ `scTHI`
 - ⏳ `stepNorm`
 - ⏳ `ternarynet`
 - ⏳ `tweeDEseq`
 
-## Not Yet Started (1925)
+## Not Yet Started (1923)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -187,11 +183,11 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
-- ⏸️ `BUS`
 - ⏸️ `BUScorrect`
+- ⏸️ `BUSpaRse`
 
-... and 1875 more ...
+... and 1873 more ...
 
 ---
-*Last updated: 2026-10-28 18:03:50 UTC*
+*Last updated: 2026-10-28 18:04:56 UTC*
 *Packages with verified BBS status: 182*
