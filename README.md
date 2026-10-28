@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 951 (39%)
+- **Successfully Built:** 956 (39%)
 - **Failed:** 6 (0%)
-- **In Progress:** 192
+- **In Progress:** 187
 - **Not Started:** 1285
 
 **Progress:** 39%
@@ -16,7 +16,7 @@
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (951)
+## Successfully Built Packages (956)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 901 more ...*
+*... and 906 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (192)
+## In Progress (187)
 - ⏳ `BUScorrect`
 - ⏳ `Battlefield`
 - ⏳ `BioGA`
@@ -100,7 +100,6 @@
 - ⏳ `DNAshapeR`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
-- ⏳ `EBSEA`
 - ⏳ `ExpoRiskR`
 - ⏳ `ExpressionAtlas`
 - ⏳ `FeatSeekR`
@@ -117,12 +116,9 @@
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GenomicTuples`
 - ⏳ `GeoTcgaData`
-- ⏳ `Glimma`
 - ⏳ `GrafGen`
 - ⏳ `HERON`
-- ⏳ `HTSFilter`
 - ⏳ `HilbertCurve`
-- ⏳ `HybridExpress`
 - ⏳ `IFAA`
 - ⏳ `ISLET`
 - ⏳ `IgGeneUsage`
@@ -136,10 +132,14 @@
 - ⏳ `MBASED`
 - ⏳ `MBQN`
 - ⏳ `MEDME`
-- ⏳ `MLSeq`
 - ⏳ `MPRAnalyze`
+- ⏳ `Macarron`
+- ⏳ `MetNet`
+- ⏳ `MicrobiotaProcess`
+- ⏳ `MsFeatures`
+- ⏳ `MultiAssayExperiment`
 
-... and 142 more ...
+... and 137 more ...
 
 ## Not Yet Started (1285)
 - ⏸️ `ACE`
@@ -196,5 +196,5 @@
 ... and 1235 more ...
 
 ---
-*Last updated: 2026-10-28 19:59:00 UTC*
+*Last updated: 2026-10-28 20:00:28 UTC*
 *Packages with verified BBS status: 207*
