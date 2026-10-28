@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 40 (1%)
+- **Successfully Built:** 41 (1%)
 - **Failed:** 0 (0%)
-- **In Progress:** 314
+- **In Progress:** 313
 - **Not Started:** 2080
 
 **Progress:** 1%
@@ -16,7 +16,7 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (40)
+## Successfully Built Packages (41)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -55,13 +55,14 @@
 | [fmrs](https://bioconductor.org/packages/3.24/bioc/html/fmrs.html) | [log](logs/fmrs/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/fmrs) |
 | [frenchFISH](https://bioconductor.org/packages/3.24/bioc/html/frenchFISH.html) | [log](logs/frenchFISH/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/frenchFISH) |
 | [garfield](https://bioconductor.org/packages/3.24/bioc/html/garfield.html) | [log](logs/garfield/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/garfield) |
+| [gdsfmt](https://bioconductor.org/packages/3.24/bioc/html/gdsfmt.html) | [log](logs/gdsfmt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/gdsfmt) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (314)
+## In Progress (313)
 - ⏳ `ASAFE`
 - ⏳ `ASEB`
 - ⏳ `ASGSCA`
@@ -113,7 +114,7 @@
 - ⏳ `GEWIST`
 - ⏳ `GGPA`
 
-... and 264 more ...
+... and 263 more ...
 
 ## Not Yet Started (2080)
 - ⏸️ `ABSSeq`
@@ -170,5 +171,5 @@
 ... and 2030 more ...
 
 ---
-*Last updated: 2026-10-28 16:52:15 UTC*
-*Packages with verified BBS status: 40*
+*Last updated: 2026-10-28 16:53:42 UTC*
+*Packages with verified BBS status: 41*
