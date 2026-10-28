@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 645 (27%)
+- **Successfully Built:** 646 (27%)
 - **Failed:** 9 (0%)
-- **In Progress:** 75
-- **Not Started:** 1656
+- **In Progress:** 79
+- **Not Started:** 1651
 
 **Progress:** 27%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (645)
+## Successfully Built Packages (646)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 595 more ...*
+*... and 596 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
@@ -64,6 +63,7 @@
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (75)
+## In Progress (79)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -116,10 +116,13 @@
 - ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `IRanges`
+- ⏳ `MEIGOR`
 - ⏳ `MOGAMUN`
+- ⏳ `NCIgraph`
 - ⏳ `OSTA.data`
 - ⏳ `RGSEA`
 - ⏳ `ReUseData`
+- ⏳ `SPIA`
 - ⏳ `STATegRa`
 - ⏳ `TPP`
 - ⏳ `TurboNorm`
@@ -138,13 +141,10 @@
 - ⏳ `dyebias`
 - ⏳ `fabia`
 - ⏳ `factDesign`
-- ⏳ `fenr`
-- ⏳ `flowCore`
-- ⏳ `frmaTools`
 
-... and 25 more ...
+... and 29 more ...
 
-## Not Yet Started (1656)
+## Not Yet Started (1651)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1606 more ...
+... and 1601 more ...
 
 ---
-*Last updated: 2026-10-28 19:01:42 UTC*
-*Packages with verified BBS status: 182*
+*Last updated: 2026-10-28 19:02:31 UTC*
+*Packages with verified BBS status: 183*
