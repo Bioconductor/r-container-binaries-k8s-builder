@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 704 (29%)
+- **Successfully Built:** 705 (29%)
 - **Failed:** 10 (0%)
-- **In Progress:** 59
+- **In Progress:** 58
 - **Not Started:** 1612
 
 **Progress:** 29%
@@ -16,7 +16,7 @@
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (704)
+## Successfully Built Packages (705)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 654 more ...*
+*... and 655 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,7 +91,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (59)
+## In Progress (58)
 - ⏳ `BAGS`
 - ⏳ `BumpyMatrix`
 - ⏳ `ChemmineOB`
@@ -121,7 +121,6 @@
 - ⏳ `brendaDb`
 - ⏳ `cogena`
 - ⏳ `cycle`
-- ⏳ `cytoMEM`
 - ⏳ `dStruct`
 - ⏳ `derfinderHelper`
 - ⏳ `drugfindR`
@@ -142,8 +141,9 @@
 - ⏳ `ggkegg`
 - ⏳ `immunoClust`
 - ⏳ `infinityFlow`
+- ⏳ `maaslin3`
 
-... and 9 more ...
+... and 8 more ...
 
 ## Not Yet Started (1612)
 - ⏸️ `ACE`
@@ -200,5 +200,5 @@
 ... and 1562 more ...
 
 ---
-*Last updated: 2026-10-28 19:16:42 UTC*
+*Last updated: 2026-10-28 19:17:13 UTC*
 *Packages with verified BBS status: 187*
