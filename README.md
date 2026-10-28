@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 892 (37%)
+- **Successfully Built:** 895 (37%)
 - **Failed:** 12 (0%)
-- **In Progress:** 163
-- **Not Started:** 1318
+- **In Progress:** 161
+- **Not Started:** 1317
 
-**Progress:** 37%
+**Progress:** 38%
 ```
-██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (892)
+## Successfully Built Packages (895)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 842 more ...*
+*... and 845 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,7 +93,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (163)
+## In Progress (161)
 - ⏳ `ALDEx2`
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
@@ -145,9 +145,9 @@
 - ⏳ `OmicCircos`
 - ⏳ `PIPETS`
 
-... and 113 more ...
+... and 111 more ...
 
-## Not Yet Started (1318)
+## Not Yet Started (1317)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -199,8 +199,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1268 more ...
+... and 1267 more ...
 
 ---
-*Last updated: 2026-10-28 22:59:31 UTC*
+*Last updated: 2026-10-28 23:00:25 UTC*
 *Packages with verified BBS status: 200*
