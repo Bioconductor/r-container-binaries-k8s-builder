@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 33 (1%)
+- **Successfully Built:** 37 (1%)
 - **Failed:** 0 (0%)
-- **In Progress:** 318
-- **Not Started:** 2083
+- **In Progress:** 317
+- **Not Started:** 2080
 
 **Progress:** 1%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (33)
+## Successfully Built Packages (37)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -48,13 +48,17 @@
 | [fdrame](https://bioconductor.org/packages/3.24/bioc/html/fdrame.html) | [log](logs/fdrame/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/fdrame) |
 | [flowCyBar](https://bioconductor.org/packages/3.24/bioc/html/flowCyBar.html) | [log](logs/flowCyBar/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/flowCyBar) |
 | [flowGraph](https://bioconductor.org/packages/3.24/bioc/html/flowGraph.html) | [log](logs/flowGraph/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/flowGraph) |
+| [flowPlots](https://bioconductor.org/packages/3.24/bioc/html/flowPlots.html) | [log](logs/flowPlots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/flowPlots) |
+| [fmrs](https://bioconductor.org/packages/3.24/bioc/html/fmrs.html) | [log](logs/fmrs/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/fmrs) |
+| [frenchFISH](https://bioconductor.org/packages/3.24/bioc/html/frenchFISH.html) | [log](logs/frenchFISH/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/frenchFISH) |
+| [garfield](https://bioconductor.org/packages/3.24/bioc/html/garfield.html) | [log](logs/garfield/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/garfield) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (318)
+## In Progress (317)
 - ⏳ `ASAFE`
 - ⏳ `ASEB`
 - ⏳ `ASGSCA`
@@ -106,9 +110,9 @@
 - ⏳ `GEOmetadb`
 - ⏳ `GEWIST`
 
-... and 268 more ...
+... and 267 more ...
 
-## Not Yet Started (2083)
+## Not Yet Started (2080)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -160,8 +164,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2033 more ...
+... and 2030 more ...
 
 ---
-*Last updated: 2026-10-28 16:46:28 UTC*
-*Packages with verified BBS status: 33*
+*Last updated: 2026-10-28 16:48:10 UTC*
+*Packages with verified BBS status: 37*
