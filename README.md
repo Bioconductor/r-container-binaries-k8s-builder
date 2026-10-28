@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1002 (41%)
+- **Successfully Built:** 1007 (41%)
 - **Failed:** 6 (0%)
 - **In Progress:** 224
-- **Not Started:** 1202
+- **Not Started:** 1197
 
 **Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1002)
+## Successfully Built Packages (1007)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 952 more ...*
+*... and 957 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,12 +98,13 @@
 - ⏳ `CPSM`
 - ⏳ `CSOA`
 - ⏳ `CellBench`
-- ⏳ `CellMentor`
 - ⏳ `CellTrails`
 - ⏳ `ClusterFoldSimilarity`
+- ⏳ `CrcBiomeScreen`
 - ⏳ `DMRScan`
 - ⏳ `DNAshapeR`
 - ⏳ `DeeDeeExperiment`
+- ⏳ `DiPPER`
 - ⏳ `DifferentialRegulation`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
@@ -137,11 +138,10 @@
 - ⏳ `LACHESIS`
 - ⏳ `LOLA`
 - ⏳ `LRDE`
-- ⏳ `LimROTS`
 
 ... and 174 more ...
 
-## Not Yet Started (1202)
+## Not Yet Started (1197)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -193,8 +193,8 @@
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
 
-... and 1152 more ...
+... and 1147 more ...
 
 ---
-*Last updated: 2026-10-28 20:20:30 UTC*
+*Last updated: 2026-10-28 20:21:55 UTC*
 *Packages with verified BBS status: 209*
