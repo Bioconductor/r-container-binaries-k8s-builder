@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 335 (13%)
+- **Successfully Built:** 340 (13%)
 - **Failed:** 3 (0%)
-- **In Progress:** 102
-- **Not Started:** 1994
+- **In Progress:** 98
+- **Not Started:** 1993
 
-**Progress:** 13%
+**Progress:** 14%
 ```
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (335)
+## Successfully Built Packages (340)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
 | [DEqMS](https://bioconductor.org/packages/3.24/bioc/html/DEqMS.html) | [log](logs/DEqMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEqMS) |
 
-*... and 285 more ...*
+*... and 290 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,7 +84,7 @@
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (102)
+## In Progress (98)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -136,9 +136,9 @@
 - ⏳ `PoDCall`
 - ⏳ `ProtGenerics`
 
-... and 52 more ...
+... and 48 more ...
 
-## Not Yet Started (1994)
+## Not Yet Started (1993)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 
-... and 1944 more ...
+... and 1943 more ...
 
 ---
-*Last updated: 2026-10-28 17:47:29 UTC*
+*Last updated: 2026-10-28 17:48:14 UTC*
 *Packages with verified BBS status: 159*
