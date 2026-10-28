@@ -6,24 +6,27 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 694 (29%)
+- **Successfully Built:** 700 (29%)
 - **Failed:** 10 (0%)
-- **In Progress:** 36
-- **Not Started:** 1645
+- **In Progress:** 52
+- **Not Started:** 1623
 
 **Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (694)
+## Successfully Built Packages (700)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.23/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABarray) |
+| [ACME](https://bioconductor.org/packages/3.23/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACME) |
+| [AIMS](https://bioconductor.org/packages/3.23/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
+| [ANF](https://bioconductor.org/packages/3.23/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANF) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
@@ -42,11 +45,8 @@
 | [BANDITS](https://bioconductor.org/packages/3.23/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BANDITS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
-| [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
-| [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
-| [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 644 more ...*
+*... and 650 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,25 +91,23 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (36)
-- ⏳ `ACME`
-- ⏳ `AIMS`
-- ⏳ `ANF`
+## In Progress (52)
 - ⏳ `BAGS`
-- ⏳ `BayesKnockdown`
-- ⏳ `BioQC`
 - ⏳ `BiocFHIR`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
+- ⏳ `CytoDx`
 - ⏳ `EBImage`
+- ⏳ `EBcoexpress`
 - ⏳ `FamAgg`
+- ⏳ `FlowSOM`
 - ⏳ `GCPtools`
 - ⏳ `IHW`
-- ⏳ `IRanges`
 - ⏳ `OSTA.data`
 - ⏳ `RGSEA`
 - ⏳ `ReUseData`
 - ⏳ `STATegRa`
+- ⏳ `Sconify`
 - ⏳ `TPP`
 - ⏳ `TurboNorm`
 - ⏳ `a4Classif`
@@ -120,16 +118,34 @@
 - ⏳ `brendaDb`
 - ⏳ `cogena`
 - ⏳ `cycle`
+- ⏳ `cytoMEM`
+- ⏳ `drugfindR`
 - ⏳ `fenr`
+- ⏳ `flowAI`
+- ⏳ `flowBeads`
+- ⏳ `flowClean`
+- ⏳ `flowClust`
+- ⏳ `flowMatch`
+- ⏳ `flowMeans`
+- ⏳ `flowPloidy`
+- ⏳ `flowSpecs`
+- ⏳ `flowTime`
+- ⏳ `flowViz`
 - ⏳ `frmaTools`
+- ⏳ `gaga`
+- ⏳ `geNetClassifier`
 - ⏳ `ggkegg`
+- ⏳ `immunoClust`
+- ⏳ `infinityFlow`
 - ⏳ `maaslin3`
 - ⏳ `makecdfenv`
 - ⏳ `matter`
 - ⏳ `msPurity`
-- ⏳ `unifiedWMWqPCR`
+- ⏳ `ncdfFlow`
 
-## Not Yet Started (1645)
+... and 2 more ...
+
+## Not Yet Started (1623)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -181,8 +197,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1595 more ...
+... and 1573 more ...
 
 ---
-*Last updated: 2026-10-28 19:14:41 UTC*
-*Packages with verified BBS status: 184*
+*Last updated: 2026-10-28 19:15:55 UTC*
+*Packages with verified BBS status: 187*
