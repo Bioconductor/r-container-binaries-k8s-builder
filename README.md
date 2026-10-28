@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 41 (1%)
+- **Successfully Built:** 43 (1%)
 - **Failed:** 0 (0%)
 - **In Progress:** 313
-- **Not Started:** 2080
+- **Not Started:** 2078
 
 **Progress:** 1%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (41)
+## Successfully Built Packages (43)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -34,6 +34,8 @@
 | [HIBAG](https://bioconductor.org/packages/3.24/bioc/html/HIBAG.html) | [log](logs/HIBAG/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HIBAG) |
 | [IMPCdata](https://bioconductor.org/packages/3.24/bioc/html/IMPCdata.html) | [log](logs/IMPCdata/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IMPCdata) |
 | [INDEED](https://bioconductor.org/packages/3.24/bioc/html/INDEED.html) | [log](logs/INDEED/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/INDEED) |
+| [basilisk.utils](https://bioconductor.org/packages/3.24/bioc/html/basilisk.utils.html) | [log](logs/basilisk.utils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/basilisk.utils) |
+| [biocmake](https://bioconductor.org/packages/3.24/bioc/html/biocmake.html) | [log](logs/biocmake/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/biocmake) |
 | [dearseq](https://bioconductor.org/packages/3.24/bioc/html/dearseq.html) | [log](logs/dearseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/dearseq) |
 | [decontam](https://bioconductor.org/packages/3.24/bioc/html/decontam.html) | [log](logs/decontam/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/decontam) |
 | [deltaGseg](https://bioconductor.org/packages/3.24/bioc/html/deltaGseg.html) | [log](logs/deltaGseg/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/deltaGseg) |
@@ -116,7 +118,7 @@
 
 ... and 263 more ...
 
-## Not Yet Started (2080)
+## Not Yet Started (2078)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -168,8 +170,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2030 more ...
+... and 2028 more ...
 
 ---
-*Last updated: 2026-10-28 16:53:42 UTC*
-*Packages with verified BBS status: 41*
+*Last updated: 2026-10-28 16:55:17 UTC*
+*Packages with verified BBS status: 43*
