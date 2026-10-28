@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 721 (30%)
+- **Successfully Built:** 724 (30%)
 - **Failed:** 11 (0%)
 - **In Progress:** 44
-- **Not Started:** 1609
+- **Not Started:** 1606
 
 **Progress:** 30%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (721)
+## Successfully Built Packages (724)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 671 more ...*
+*... and 674 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
@@ -64,6 +63,7 @@
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.23/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/uSORT) |
+| [unifiedWMWqPCR](https://bioconductor.org/packages/3.23/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
@@ -123,22 +123,22 @@
 - ⏳ `dStruct`
 - ⏳ `derfinderHelper`
 - ⏳ `fenr`
+- ⏳ `flowDensity`
+- ⏳ `flowFP`
 - ⏳ `flowMerge`
+- ⏳ `flowTrans`
 - ⏳ `frmaTools`
 - ⏳ `ggkegg`
-- ⏳ `infinityFlow`
 - ⏳ `maaslin3`
 - ⏳ `makecdfenv`
 - ⏳ `matter`
 - ⏳ `msPurity`
-- ⏳ `ncdfFlow`
 - ⏳ `nucleoSim`
 - ⏳ `optimalFlow`
 - ⏳ `tidyFlowCore`
 - ⏳ `toppgene`
-- ⏳ `unifiedWMWqPCR`
 
-## Not Yet Started (1609)
+## Not Yet Started (1606)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -190,8 +190,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1559 more ...
+... and 1556 more ...
 
 ---
-*Last updated: 2026-10-28 19:21:16 UTC*
-*Packages with verified BBS status: 188*
+*Last updated: 2026-10-28 19:21:56 UTC*
+*Packages with verified BBS status: 189*
