@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 724 (30%)
+- **Successfully Built:** 728 (30%)
 - **Failed:** 11 (0%)
-- **In Progress:** 44
+- **In Progress:** 40
 - **Not Started:** 1606
 
 **Progress:** 30%
@@ -16,7 +16,7 @@
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (724)
+## Successfully Built Packages (728)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 674 more ...*
+*... and 678 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,7 +92,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (44)
+## In Progress (40)
 - ⏳ `BumpyMatrix`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
@@ -123,19 +123,15 @@
 - ⏳ `dStruct`
 - ⏳ `derfinderHelper`
 - ⏳ `fenr`
-- ⏳ `flowDensity`
 - ⏳ `flowFP`
-- ⏳ `flowMerge`
 - ⏳ `flowTrans`
 - ⏳ `frmaTools`
 - ⏳ `ggkegg`
-- ⏳ `maaslin3`
 - ⏳ `makecdfenv`
 - ⏳ `matter`
 - ⏳ `msPurity`
 - ⏳ `nucleoSim`
 - ⏳ `optimalFlow`
-- ⏳ `tidyFlowCore`
 - ⏳ `toppgene`
 
 ## Not Yet Started (1606)
@@ -193,5 +189,5 @@
 ... and 1556 more ...
 
 ---
-*Last updated: 2026-10-28 19:21:56 UTC*
+*Last updated: 2026-10-28 19:22:50 UTC*
 *Packages with verified BBS status: 189*
