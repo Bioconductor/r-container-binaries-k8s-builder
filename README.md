@@ -6,21 +6,22 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 768 (31%)
+- **Successfully Built:** 780 (32%)
 - **Failed:** 6 (0%)
-- **In Progress:** 16
-- **Not Started:** 1644
+- **In Progress:** 13
+- **Not Started:** 1635
 
-**Progress:** 31%
+**Progress:** 32%
 ```
-███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (768)
+## Successfully Built Packages (780)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.24/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABSSeq) |
+| [ABarray](https://bioconductor.org/packages/3.24/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.24/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ACME) |
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
@@ -44,9 +45,8 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
-| [AnVILWorkflow](https://bioconductor.org/packages/3.24/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILWorkflow) |
 
-*... and 718 more ...*
+*... and 730 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,26 +87,22 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (16)
+## In Progress (13)
+- ⏳ `OCplus`
 - ⏳ `OmicsMLRepoR`
+- ⏳ `RTopper`
 - ⏳ `Seqinfo`
+- ⏳ `aCGH`
+- ⏳ `anota`
 - ⏳ `beachmat`
 - ⏳ `convert`
 - ⏳ `copa`
-- ⏳ `ddCt`
-- ⏳ `discordant`
-- ⏳ `fabia`
-- ⏳ `geneRecommender`
-- ⏳ `iBMQ`
-- ⏳ `iterativeBMA`
-- ⏳ `maSigPro`
-- ⏳ `martini`
-- ⏳ `massiR`
-- ⏳ `metabCombiner`
+- ⏳ `metabomxtr`
+- ⏳ `nethet`
 - ⏳ `rcellminer`
+- ⏳ `siggenes`
 
-## Not Yet Started (1644)
-- ⏸️ `ABarray`
+## Not Yet Started (1635)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -156,9 +152,10 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
+- ⏸️ `Banksy`
 
-... and 1594 more ...
+... and 1585 more ...
 
 ---
-*Last updated: 2026-10-28 18:30:12 UTC*
-*Packages with verified BBS status: 200*
+*Last updated: 2026-10-28 18:30:58 UTC*
+*Packages with verified BBS status: 201*
