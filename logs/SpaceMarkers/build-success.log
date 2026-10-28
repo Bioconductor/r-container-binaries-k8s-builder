@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SpaceMarkers'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SpaceMarkers'
+also installing the dependencies ‘bmp’, ‘hdf5r’, ‘readbitmap’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bmp_0.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hdf5r_1.3.16.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/readbitmap_0.1.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SpaceMarkers_2.3.1.tar.gz'
+* installing *binary* package ‘bmp’ ...
+* package ‘bmp’ successfully unpacked and SHA256 sums checked
+* ‘bmp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bmp’ as ‘bmp_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bmp)
+* installing *binary* package ‘hdf5r’ ...
+* package ‘hdf5r’ successfully unpacked and SHA256 sums checked
+* ‘hdf5r’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hdf5r’ as ‘hdf5r_1.3.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hdf5r)
+* installing *binary* package ‘readbitmap’ ...
+* package ‘readbitmap’ successfully unpacked and SHA256 sums checked
+* ‘readbitmap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘readbitmap’ as ‘readbitmap_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readbitmap)
+* installing *source* package ‘SpaceMarkers’ ...
+** this is package ‘SpaceMarkers’ version ‘2.3.1’
+** package ‘SpaceMarkers’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpaceMarkers’ as ‘SpaceMarkers_2.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpaceMarkers)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYdixSM/downloaded_packages’
+Old packages: 'gesel'
+
+real	0m45.680s
+user	0m38.286s
+sys	0m6.133s
