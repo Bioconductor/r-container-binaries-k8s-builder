@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 43 (1%)
 - **Failed:** 0 (0%)
-- **In Progress:** 313
-- **Not Started:** 2078
+- **In Progress:** 315
+- **Not Started:** 2076
 
 **Progress:** 1%
 ```
@@ -64,7 +64,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (313)
+## In Progress (315)
 - ⏳ `ASAFE`
 - ⏳ `ASEB`
 - ⏳ `ASGSCA`
@@ -116,9 +116,9 @@
 - ⏳ `GEWIST`
 - ⏳ `GGPA`
 
-... and 263 more ...
+... and 265 more ...
 
-## Not Yet Started (2078)
+## Not Yet Started (2076)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -170,8 +170,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2028 more ...
+... and 2026 more ...
 
 ---
-*Last updated: 2026-10-28 16:55:17 UTC*
+*Last updated: 2026-10-28 16:56:41 UTC*
 *Packages with verified BBS status: 43*
