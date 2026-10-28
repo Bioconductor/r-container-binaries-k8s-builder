@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 806 (33%)
+- **Successfully Built:** 809 (33%)
 - **Failed:** 11 (0%)
-- **In Progress:** 53
-- **Not Started:** 1515
+- **In Progress:** 51
+- **Not Started:** 1514
 
 **Progress:** 34%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (806)
+## Successfully Built Packages (809)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,9 +44,9 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
-| [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
+| [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 756 more ...*
+*... and 759 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,15 +92,13 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (53)
-- ⏳ `AnVILWorkflow`
+## In Progress (51)
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
 - ⏳ `BiFET`
+- ⏳ `BiocAzul`
 - ⏳ `Biostrings`
 - ⏳ `CCPlotR`
-- ⏳ `CNVMetrics`
-- ⏳ `CSAR`
 - ⏳ `Chromatograms`
 - ⏳ `ClustAll`
 - ⏳ `DMRScan`
@@ -143,10 +141,12 @@
 - ⏳ `oncoscanR`
 - ⏳ `peakCombiner`
 - ⏳ `pepStat`
+- ⏳ `ramr`
+- ⏳ `rigvf`
 
-... and 3 more ...
+... and 1 more ...
 
-## Not Yet Started (1515)
+## Not Yet Started (1514)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -198,8 +198,8 @@
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 
-... and 1465 more ...
+... and 1464 more ...
 
 ---
-*Last updated: 2026-10-28 22:19:48 UTC*
-*Packages with verified BBS status: 193*
+*Last updated: 2026-10-28 22:20:25 UTC*
+*Packages with verified BBS status: 194*
