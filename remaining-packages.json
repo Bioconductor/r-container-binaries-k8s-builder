@@ -514,26 +514,19 @@
     "mixOmics",
     "BiocParallel"
   ],
-  "AnVIL": [
-    "GCPtools"
-  ],
-  "AnVILGCP": [
-    "GCPtools"
-  ],
+  "AnVIL": [],
+  "AnVILGCP": [],
   "AnVILPublish": [
     "AnVIL",
-    "AnVILGCP",
-    "GCPtools"
+    "AnVILGCP"
   ],
   "AnVILVRS": [
     "AnVILGCP",
-    "BiocFileCache",
-    "GCPtools"
+    "BiocFileCache"
   ],
   "AnVILWorkflow": [
     "AnVILGCP",
-    "AnVIL",
-    "GCPtools"
+    "AnVIL"
   ],
   "Anaquin": [
     "DESeq2",
@@ -1468,7 +1461,6 @@
   "BiocAzul": [
     "AnVIL",
     "AnVILPublish",
-    "GCPtools",
     "AnVILGCP"
   ],
   "BiocBook": [
@@ -5949,7 +5941,6 @@
     "BiocGenerics",
     "XVector"
   ],
-  "GCPtools": [],
   "GDCRNATools": [
     "DESeq2",
     "clusterProfiler",
@@ -6086,7 +6077,6 @@
     "S4Vectors",
     "SummarizedExperiment",
     "TCGAutils",
-    "GCPtools",
     "BiocGenerics",
     "Biobase",
     "DelayedArray",
@@ -7705,7 +7695,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "INPower": [],
   "INSPEcT": [
     "Biobase",
     "BiocParallel",
@@ -7731,7 +7720,6 @@
     "KEGGREST",
     "SparseArray"
   ],
-  "INTACT": [],
   "IPO": [
     "xcms",
     "CAMERA",
@@ -10640,7 +10628,6 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "OPWeight": [],
   "ORFhunteR": [
     "Biostrings",
     "rtracklayer",
@@ -17675,7 +17662,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "rtracklayer",
-    "GCPtools",
     "BiocGenerics",
     "S4Vectors",
     "IRanges",
@@ -17838,7 +17824,6 @@
     "EBarrays",
     "minet",
     "graphite",
-    "GCPtools",
     "graph",
     "Biostrings",
     "DelayedArray",
@@ -18325,7 +18310,6 @@
     "S4Vectors",
     "SummarizedExperiment",
     "TCGAutils",
-    "GCPtools",
     "BiocGenerics",
     "Biobase",
     "DelayedArray",
@@ -18435,7 +18419,6 @@
     "biomaRt",
     "genefilter",
     "KEGGREST",
-    "GCPtools",
     "RBGL",
     "DelayedArray",
     "S4Arrays",
@@ -18590,7 +18573,6 @@
     "Biobase",
     "BiocGenerics",
     "KEGGREST",
-    "GCPtools",
     "DelayedArray",
     "S4Arrays",
     "GenomeInfoDb",
@@ -23017,7 +22999,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "geneplast": [],
   "geneplotter": [
     "Biobase",
     "BiocGenerics",
@@ -31967,7 +31948,6 @@
     "multtest",
     "BiocGenerics"
   ],
-  "sights": [],
   "signatureSearch": [
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -33346,7 +33326,6 @@
     "RaggedExperiment",
     "S4Vectors",
     "TCGAutils",
-    "GCPtools",
     "BiocGenerics",
     "IRanges",
     "Seqinfo",
