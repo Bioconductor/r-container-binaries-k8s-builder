@@ -1,0 +1,190 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Statial'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Statial'
+also installing the dependencies ‘FlowSOM’, ‘diffcyt’, ‘ggupset’, ‘treekoR’, ‘ClassifyR’, ‘ggsurvfit’, ‘lisaClust’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/FlowSOM_2.21.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/diffcyt_1.33.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggupset_0.4.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/treekoR_1.21.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ClassifyR_3.17.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggsurvfit_1.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/lisaClust_1.21.13.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/Statial_1.15.3.tar.gz'
+* installing *source* package ‘FlowSOM’ ...
+** this is package ‘FlowSOM’ version ‘2.21.0’
+** package ‘FlowSOM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c som.c -o som.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o FlowSOM.so som.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-FlowSOM/00new/FlowSOM/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FlowSOM’ as ‘FlowSOM_2.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FlowSOM)
+* installing *binary* package ‘ggupset’ ...
+* package ‘ggupset’ successfully unpacked and SHA256 sums checked
+* ‘ggupset’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggupset’ as ‘ggupset_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggupset)
+* installing *binary* package ‘ggsurvfit’ ...
+* package ‘ggsurvfit’ successfully unpacked and SHA256 sums checked
+* ‘ggsurvfit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsurvfit’ as ‘ggsurvfit_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsurvfit)
+* installing *source* package ‘lisaClust’ ...
+** this is package ‘lisaClust’ version ‘1.21.13’
+** package ‘lisaClust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++17
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Icore/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Icore/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c bindings.cpp -o bindings.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Icore/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c core/src/concaveman.cpp -o core/src/concaveman.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Icore/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c core/src/geometry.cpp -o core/src/geometry.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -Icore/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c core/src/local.cpp -o core/src/local.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lisaClust.so RcppExports.o bindings.o core/src/concaveman.o core/src/geometry.o core/src/local.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-lisaClust/00new/lisaClust/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lisaClust’ as ‘lisaClust_1.21.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lisaClust)
+* installing *source* package ‘Statial’ ...
+** this is package ‘Statial’ version ‘1.15.3’
+** package ‘Statial’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c concaveHull.cpp -o concaveHull.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c concaveman.cpp -o concaveman.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c neighbours.cpp -o neighbours.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Statial.so RcppExports.o concaveHull.o concaveman.o neighbours.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-Statial/00new/Statial/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Statial’ as ‘Statial_1.15.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Statial)
+* installing *source* package ‘diffcyt’ ...
+** this is package ‘diffcyt’ version ‘1.33.1’
+** package ‘diffcyt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘diffcyt’ as ‘diffcyt_1.33.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diffcyt)
+* installing *source* package ‘ClassifyR’ ...
+** this is package ‘ClassifyR’ version ‘3.17.1’
+** package ‘ClassifyR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c coxformatrices.cpp -o coxformatrices.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ClassifyR.so coxformatrices.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ClassifyR/00new/ClassifyR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘ROCplot’ with signature ‘"ClassifyResult"’: no definition for class “ClassifyResult”
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ClassifyR’ as ‘ClassifyR_3.17.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ClassifyR)
+* installing *source* package ‘treekoR’ ...
+** this is package ‘treekoR’ version ‘1.21.0’
+** package ‘treekoR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘treekoR’ as ‘treekoR_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treekoR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjUnYSi/downloaded_packages’
+Old packages: 'gesel'
+
+real	3m11.157s
+user	2m48.687s
+sys	0m22.436s
