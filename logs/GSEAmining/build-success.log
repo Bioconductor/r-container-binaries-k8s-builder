@@ -1,0 +1,221 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GSEAmining'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GSEAmining'
+also installing the dependencies ‘SnowballC’, ‘DOSE’, ‘ggnewscale’, ‘ggtangle’, ‘scatterpie’, ‘tidydr’, ‘janeaustenr’, ‘tokenizers’, ‘aisdk’, ‘enrichit’, ‘enrichplot’, ‘GOSemSim’, ‘gson’, ‘tidytext’, ‘ggwordcloud’, ‘clusterProfiler’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SnowballC_0.7.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DOSE_4.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggnewscale_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggtangle_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scatterpie_0.2.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidydr_0.0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/janeaustenr_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tokenizers_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/aisdk_1.4.12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/enrichit_0.2.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/enrichplot_1.32.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GOSemSim_2.38.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gson_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidytext_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggwordcloud_0.6.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/clusterProfiler_4.20.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GSEAmining_1.22.0.tar.gz'
+* installing *binary* package ‘SnowballC’ ...
+* package ‘SnowballC’ successfully unpacked and SHA256 sums checked
+* ‘SnowballC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SnowballC’ as ‘SnowballC_0.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SnowballC)
+* installing *binary* package ‘ggnewscale’ ...
+* package ‘ggnewscale’ successfully unpacked and SHA256 sums checked
+* ‘ggnewscale’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggnewscale’ as ‘ggnewscale_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggnewscale)
+* installing *binary* package ‘ggtangle’ ...
+* package ‘ggtangle’ successfully unpacked and SHA256 sums checked
+* ‘ggtangle’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggtangle’ as ‘ggtangle_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtangle)
+* installing *binary* package ‘scatterpie’ ...
+* package ‘scatterpie’ successfully unpacked and SHA256 sums checked
+* ‘scatterpie’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scatterpie’ as ‘scatterpie_0.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scatterpie)
+* installing *binary* package ‘tidydr’ ...
+* package ‘tidydr’ successfully unpacked and SHA256 sums checked
+* ‘tidydr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidydr’ as ‘tidydr_0.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidydr)
+* installing *binary* package ‘janeaustenr’ ...
+* package ‘janeaustenr’ successfully unpacked and SHA256 sums checked
+* ‘janeaustenr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘janeaustenr’ as ‘janeaustenr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (janeaustenr)
+* installing *binary* package ‘aisdk’ ...
+* package ‘aisdk’ successfully unpacked and SHA256 sums checked
+* ‘aisdk’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘aisdk’ as ‘aisdk_1.4.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (aisdk)
+* installing *binary* package ‘enrichit’ ...
+* package ‘enrichit’ successfully unpacked and SHA256 sums checked
+* ‘enrichit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘enrichit’ as ‘enrichit_0.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (enrichit)
+* installing *source* package ‘GOSemSim’ ...
+** this is package ‘GOSemSim’ version ‘2.38.3’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ICmethod.cpp -o ICmethod.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GOSemSim.so ICmethod.o RcppExports.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GOSemSim/00new/GOSemSim/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GOSemSim’ as ‘GOSemSim_2.38.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOSemSim)
+* installing *binary* package ‘gson’ ...
+* package ‘gson’ successfully unpacked and SHA256 sums checked
+* ‘gson’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gson’ as ‘gson_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gson)
+* installing *binary* package ‘ggwordcloud’ ...
+* package ‘ggwordcloud’ successfully unpacked and SHA256 sums checked
+* ‘ggwordcloud’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggwordcloud’ as ‘ggwordcloud_0.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggwordcloud)
+* installing *source* package ‘DOSE’ ...
+** this is package ‘DOSE’ version ‘4.6.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DOSE’ as ‘DOSE_4.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DOSE)
+* installing *binary* package ‘tokenizers’ ...
+* package ‘tokenizers’ successfully unpacked and SHA256 sums checked
+* ‘tokenizers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tokenizers’ as ‘tokenizers_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tokenizers)
+* installing *source* package ‘enrichplot’ ...
+** this is package ‘enrichplot’ version ‘1.32.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘enrichplot’ as ‘enrichplot_1.32.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (enrichplot)
+* installing *binary* package ‘tidytext’ ...
+* package ‘tidytext’ successfully unpacked and SHA256 sums checked
+* ‘tidytext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidytext’ as ‘tidytext_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidytext)
+* installing *source* package ‘clusterProfiler’ ...
+** this is package ‘clusterProfiler’ version ‘4.20.3’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clusterProfiler’ as ‘clusterProfiler_4.20.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clusterProfiler)
+* installing *source* package ‘GSEAmining’ ...
+** this is package ‘GSEAmining’ version ‘1.22.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSEAmining’ as ‘GSEAmining_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEAmining)
+
+The downloaded source packages are in
+	‘/tmp/RtmpF8WRLA/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	1m43.787s
+user	1m27.076s
+sys	0m16.462s

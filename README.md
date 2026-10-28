@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 270 (11%)
+- **Successfully Built:** 279 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 173
+- **In Progress:** 164
 - **Not Started:** 1940
 
 **Progress:** 11%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (270)
+## Successfully Built Packages (279)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 | [CytoGLMM](https://bioconductor.org/packages/3.23/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CytoGLMM) |
 
-*... and 220 more ...*
+*... and 229 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (173)
+## In Progress (164)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -110,16 +110,11 @@
 - ⏳ `DiffLogo`
 - ⏳ `DriverNet`
 - ⏳ `DynDoc`
-- ⏳ `GPA`
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
 - ⏳ `GSAR`
 - ⏳ `GSCA`
-- ⏳ `GSEAmining`
 - ⏳ `GWAS.BAYES`
-- ⏳ `HIREewas`
-- ⏳ `HMMcopy`
-- ⏳ `HVP`
 - ⏳ `Heatplus`
 - ⏳ `Herper`
 - ⏳ `HuBMAPR`
@@ -134,8 +129,13 @@
 - ⏳ `LEA`
 - ⏳ `LPE`
 - ⏳ `LedPred`
+- ⏳ `Linnorm`
+- ⏳ `MSstatsResponse`
+- ⏳ `MethylMix`
+- ⏳ `NPARC`
+- ⏳ `NuPoP`
 
-... and 123 more ...
+... and 114 more ...
 
 ## Not Yet Started (1940)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1890 more ...
 
 ---
-*Last updated: 2026-10-28 17:32:57 UTC*
+*Last updated: 2026-10-28 17:34:03 UTC*
 *Packages with verified BBS status: 130*
