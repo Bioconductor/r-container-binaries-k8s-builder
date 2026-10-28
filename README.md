@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 20 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 333
-- **Not Started:** 2032
+- **In Progress:** 336
+- **Not Started:** 2029
 
 **Progress:** 0%
 ```
@@ -41,7 +41,7 @@
 | [drawProteins](https://bioconductor.org/packages/3.23/bioc/html/drawProteins.html) | [log](logs/drawProteins/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/drawProteins) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (333)
+## In Progress (336)
 - ⏳ `ANCOMBC`
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
@@ -93,9 +93,9 @@
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
 
-... and 283 more ...
+... and 286 more ...
 
-## Not Yet Started (2032)
+## Not Yet Started (2029)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -147,8 +147,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1982 more ...
+... and 1979 more ...
 
 ---
-*Last updated: 2026-10-28 16:31:14 UTC*
+*Last updated: 2026-10-28 16:34:02 UTC*
 *Packages with verified BBS status: 20*
