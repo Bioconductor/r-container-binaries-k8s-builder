@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 421 (17%)
+- **Successfully Built:** 426 (17%)
 - **Failed:** 6 (0%)
-- **In Progress:** 52
+- **In Progress:** 47
 - **Not Started:** 1906
 
-**Progress:** 17%
+**Progress:** 18%
 ```
-████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (421)
+## Successfully Built Packages (426)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
 
-*... and 371 more ...*
+*... and 376 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (52)
+## In Progress (47)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -99,13 +99,8 @@
 - ⏳ `DCATS`
 - ⏳ `DEqMS`
 - ⏳ `DNABarcodeCompatibility`
-- ⏳ `DNAcopy`
-- ⏳ `DeMAND`
-- ⏳ `DeepPINCS`
 - ⏳ `DepInfeR`
 - ⏳ `DiffLogo`
-- ⏳ `DriverNet`
-- ⏳ `DynDoc`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `Icens`
@@ -138,8 +133,8 @@
 - ⏳ `ppcseq`
 - ⏳ `rBiopaxParser`
 - ⏳ `rawrr`
-
-... and 2 more ...
+- ⏳ `retrofit`
+- ⏳ `scMitoMut`
 
 ## Not Yet Started (1906)
 - ⏸️ `ABarray`
@@ -196,5 +191,5 @@
 ... and 1856 more ...
 
 ---
-*Last updated: 2026-10-28 17:58:33 UTC*
+*Last updated: 2026-10-28 17:59:14 UTC*
 *Packages with verified BBS status: 158*
