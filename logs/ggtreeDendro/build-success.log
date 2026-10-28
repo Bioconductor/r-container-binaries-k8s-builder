@@ -1,0 +1,57 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ggtreeDendro'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ggtreeDendro'
+also installing the dependencies ‘mdendro’, ‘pvclust’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mdendro_2.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pvclust_2.2-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ggtreeDendro_1.14.0.tar.gz'
+* installing *binary* package ‘mdendro’ ...
+* package ‘mdendro’ successfully unpacked and SHA256 sums checked
+* ‘mdendro’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mdendro’ as ‘mdendro_2.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mdendro)
+* installing *binary* package ‘pvclust’ ...
+* package ‘pvclust’ successfully unpacked and SHA256 sums checked
+* ‘pvclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pvclust’ as ‘pvclust_2.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pvclust)
+* installing *source* package ‘ggtreeDendro’ ...
+** this is package ‘ggtreeDendro’ version ‘1.14.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggtreeDendro’ as ‘ggtreeDendro_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtreeDendro)
+
+The downloaded source packages are in
+	‘/tmp/RtmpYoI1SB/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m16.481s
+user	0m9.717s
+sys	0m3.250s
