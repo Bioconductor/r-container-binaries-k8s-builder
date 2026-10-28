@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 12 (0%)
+- **Successfully Built:** 15 (0%)
 - **Failed:** 0 (0%)
 - **In Progress:** 336
-- **Not Started:** 2086
+- **Not Started:** 2083
 
 **Progress:** 0%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (12)
+## Successfully Built Packages (15)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,8 +30,11 @@
 | [HGC](https://bioconductor.org/packages/3.24/bioc/html/HGC.html) | [log](logs/HGC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HGC) |
 | [IMPCdata](https://bioconductor.org/packages/3.24/bioc/html/IMPCdata.html) | [log](logs/IMPCdata/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/IMPCdata) |
 | [INDEED](https://bioconductor.org/packages/3.24/bioc/html/INDEED.html) | [log](logs/INDEED/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/INDEED) |
+| [deltaGseg](https://bioconductor.org/packages/3.24/bioc/html/deltaGseg.html) | [log](logs/deltaGseg/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/deltaGseg) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
+| [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
+| [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
 ## In Progress (336)
 - ⏳ `ANCOMBC`
@@ -57,6 +60,7 @@
 - ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
 - ⏳ `CGEN`
+- ⏳ `CNAnorm`
 - ⏳ `CONSTANd`
 - ⏳ `COSNet`
 - ⏳ `CausalR`
@@ -83,11 +87,10 @@
 - ⏳ `GEM`
 - ⏳ `GENIE3`
 - ⏳ `GEOfastq`
-- ⏳ `GEOmetadb`
 
 ... and 286 more ...
 
-## Not Yet Started (2086)
+## Not Yet Started (2083)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -139,8 +142,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2036 more ...
+... and 2033 more ...
 
 ---
-*Last updated: 2026-10-28 16:27:05 UTC*
-*Packages with verified BBS status: 12*
+*Last updated: 2026-10-28 16:29:13 UTC*
+*Packages with verified BBS status: 15*
