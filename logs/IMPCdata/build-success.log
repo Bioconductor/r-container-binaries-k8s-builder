@@ -1,0 +1,50 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''IMPCdata'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'IMPCdata'
+also installing the dependency ‘rjson’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rjson_0.2.23.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/IMPCdata_1.49.0.tar.gz'
+* installing *binary* package ‘rjson’ ...
+* package ‘rjson’ successfully unpacked and SHA256 sums checked
+* ‘rjson’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rjson’ as ‘rjson_0.2.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjson)
+* installing *source* package ‘IMPCdata’ ...
+** this is package ‘IMPCdata’ version ‘1.49.0’
+** package ‘IMPCdata’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘IMPCdata’ as ‘IMPCdata_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IMPCdata)
+
+The downloaded source packages are in
+	‘/tmp/RtmphAPb1c/downloaded_packages’
+Warning message:
+In download.file(..., destfile = tmp_config, quiet = TRUE) :
+  URL 'https://bioconductor.org/config.yaml': status was 'SSL connect error'
+
+real	5m15.676s
+user	0m3.798s
+sys	0m2.182s
