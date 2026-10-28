@@ -1,0 +1,247 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''wavFeatExt'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'wavFeatExt'
+also installing the dependencies ‘listenv’, ‘parallelly’, ‘future’, ‘globals’, ‘future.apply’, ‘progressr’, ‘SQUAREM’, ‘diagram’, ‘lava’, ‘prodlim’, ‘gower’, ‘hardhat’, ‘ipred’, ‘sparsevctrs’, ‘Deriv’, ‘proxy’, ‘ModelMetrics’, ‘recipes’, ‘randomForest’, ‘pROC’, ‘neuralnet’, ‘e1071’, ‘caret’, ‘ica’, ‘pls’, ‘matrixStats’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/listenv_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/parallelly_1.48.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/future_1.80.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/globals_0.20.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/future.apply_1.21.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/progressr_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SQUAREM_2026.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/diagram_1.6.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lava_1.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/prodlim_2026.03.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gower_1.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hardhat_1.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ipred_0.9-16.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sparsevctrs_0.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Deriv_4.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/proxy_0.4-29.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ModelMetrics_1.2.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/recipes_1.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/randomForest_4.7-1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pROC_1.19.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/neuralnet_1.44.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/e1071_1.7-17.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/caret_7.0-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ica_1.0-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pls_2.9-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/matrixStats_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/wavFeatExt_1.1.0.tar.gz'
+* installing *binary* package ‘listenv’ ...
+* package ‘listenv’ successfully unpacked and SHA256 sums checked
+* ‘listenv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘listenv’ as ‘listenv_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listenv)
+* installing *binary* package ‘parallelly’ ...
+* package ‘parallelly’ successfully unpacked and SHA256 sums checked
+* ‘parallelly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parallelly’ as ‘parallelly_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelly)
+* installing *binary* package ‘globals’ ...
+* package ‘globals’ successfully unpacked and SHA256 sums checked
+* ‘globals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘progressr’ ...
+* package ‘progressr’ successfully unpacked and SHA256 sums checked
+* ‘progressr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘progressr’ as ‘progressr_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progressr)
+* installing *binary* package ‘SQUAREM’ ...
+* package ‘SQUAREM’ successfully unpacked and SHA256 sums checked
+* ‘SQUAREM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SQUAREM’ as ‘SQUAREM_2026.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SQUAREM)
+* installing *binary* package ‘diagram’ ...
+* package ‘diagram’ successfully unpacked and SHA256 sums checked
+* ‘diagram’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *binary* package ‘gower’ ...
+* package ‘gower’ successfully unpacked and SHA256 sums checked
+* ‘gower’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gower’ as ‘gower_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gower)
+* installing *binary* package ‘sparsevctrs’ ...
+* package ‘sparsevctrs’ successfully unpacked and SHA256 sums checked
+* ‘sparsevctrs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sparsevctrs’ as ‘sparsevctrs_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparsevctrs)
+* installing *binary* package ‘Deriv’ ...
+* package ‘Deriv’ successfully unpacked and SHA256 sums checked
+* ‘Deriv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Deriv’ as ‘Deriv_4.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Deriv)
+* installing *binary* package ‘proxy’ ...
+* package ‘proxy’ successfully unpacked and SHA256 sums checked
+* ‘proxy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-29_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *binary* package ‘ModelMetrics’ ...
+* package ‘ModelMetrics’ successfully unpacked and SHA256 sums checked
+* ‘ModelMetrics’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ModelMetrics’ as ‘ModelMetrics_1.2.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ModelMetrics)
+* installing *binary* package ‘randomForest’ ...
+* package ‘randomForest’ successfully unpacked and SHA256 sums checked
+* ‘randomForest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘randomForest’ as ‘randomForest_4.7-1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomForest)
+* installing *binary* package ‘pROC’ ...
+* package ‘pROC’ successfully unpacked and SHA256 sums checked
+* ‘pROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pROC’ as ‘pROC_1.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pROC)
+* installing *binary* package ‘ica’ ...
+* package ‘ica’ successfully unpacked and SHA256 sums checked
+* ‘ica’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ica’ as ‘ica_1.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ica)
+* installing *binary* package ‘pls’ ...
+* package ‘pls’ successfully unpacked and SHA256 sums checked
+* ‘pls’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pls’ as ‘pls_2.9-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pls)
+* installing *binary* package ‘matrixStats’ ...
+* package ‘matrixStats’ successfully unpacked and SHA256 sums checked
+* ‘matrixStats’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘matrixStats’ as ‘matrixStats_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (matrixStats)
+* installing *binary* package ‘future’ ...
+* package ‘future’ successfully unpacked and SHA256 sums checked
+* ‘future’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘future’ as ‘future_1.80.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future)
+* installing *binary* package ‘hardhat’ ...
+* package ‘hardhat’ successfully unpacked and SHA256 sums checked
+* ‘hardhat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hardhat’ as ‘hardhat_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hardhat)
+* installing *binary* package ‘neuralnet’ ...
+* package ‘neuralnet’ successfully unpacked and SHA256 sums checked
+* ‘neuralnet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘neuralnet’ as ‘neuralnet_1.44.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (neuralnet)
+* installing *binary* package ‘e1071’ ...
+* package ‘e1071’ successfully unpacked and SHA256 sums checked
+* ‘e1071’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *binary* package ‘future.apply’ ...
+* package ‘future.apply’ successfully unpacked and SHA256 sums checked
+* ‘future.apply’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘future.apply’ as ‘future.apply_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future.apply)
+* installing *binary* package ‘lava’ ...
+* package ‘lava’ successfully unpacked and SHA256 sums checked
+* ‘lava’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lava’ as ‘lava_1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lava)
+* installing *binary* package ‘prodlim’ ...
+* package ‘prodlim’ successfully unpacked and SHA256 sums checked
+* ‘prodlim’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘prodlim’ as ‘prodlim_2026.03.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prodlim)
+* installing *binary* package ‘ipred’ ...
+* package ‘ipred’ successfully unpacked and SHA256 sums checked
+* ‘ipred’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ipred’ as ‘ipred_0.9-16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ipred)
+* installing *binary* package ‘recipes’ ...
+* package ‘recipes’ successfully unpacked and SHA256 sums checked
+* ‘recipes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘recipes’ as ‘recipes_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (recipes)
+* installing *binary* package ‘caret’ ...
+* package ‘caret’ successfully unpacked and SHA256 sums checked
+* ‘caret’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘caret’ as ‘caret_7.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caret)
+* installing *source* package ‘wavFeatExt’ ...
+** this is package ‘wavFeatExt’ version ‘1.1.0’
+** package ‘wavFeatExt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wavFeatExt’ as ‘wavFeatExt_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wavFeatExt)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWTneZu/downloaded_packages’
+
+real	0m24.295s
+user	0m18.215s
+sys	0m8.014s
