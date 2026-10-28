@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 449 (18%)
+- **Successfully Built:** 454 (19%)
 - **Failed:** 6 (0%)
-- **In Progress:** 34
-- **Not Started:** 1896
+- **In Progress:** 30
+- **Not Started:** 1895
 
 **Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (449)
+## Successfully Built Packages (454)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 
-*... and 399 more ...*
+*... and 404 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (34)
+## In Progress (30)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -114,16 +114,12 @@
 - ⏳ `RImmPort`
 - ⏳ `RTCGA`
 - ⏳ `ScreenR`
-- ⏳ `biomformat`
-- ⏳ `cellxgenedp`
-- ⏳ `chopsticks`
+- ⏳ `XINA`
 - ⏳ `compcodeR`
-- ⏳ `mitch`
 - ⏳ `ppcseq`
-- ⏳ `rawDiag`
 - ⏳ `scMitoMut`
 
-## Not Yet Started (1896)
+## Not Yet Started (1895)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -175,8 +171,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1846 more ...
+... and 1845 more ...
 
 ---
-*Last updated: 2026-10-28 18:05:19 UTC*
+*Last updated: 2026-10-28 18:06:08 UTC*
 *Packages with verified BBS status: 161*
