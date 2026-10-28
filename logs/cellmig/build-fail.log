@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''cellmig'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'cellmig'
+also installing the dependency ‘rstantools’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rstantools_2.7.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/cellmig_1.2.0.tar.gz'
+* installing *binary* package ‘rstantools’ ...
+* package ‘rstantools’ successfully unpacked and SHA256 sums checked
+* ‘rstantools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rstantools’ as ‘rstantools_2.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rstantools)
+* installing *source* package ‘cellmig’ ...
+** this is package ‘cellmig’ version ‘1.2.0’
+** using staged installation
+Error in rstan::stanc(file_name, allow_undefined = TRUE, obfuscate_model_name = FALSE,  : 
+  0
+Syntax error in 'string', line 8, column 15 to column 16, parsing error:
+   -------------------------------------------------
+     6:    int<lower=0> N_group;         // number groups
+     7:    vector[N] y;                  // cell velocity for N cells
+     8:    int well_id [N];              // well ID
+                        ^
+     9:    int plate_id [N_well];        // plate ID
+    10:    int plate_group_id [N_well];  // plate group ID
+   -------------------------------------------------
+
+Ill-formed declaration. ";" expected after variable declaration.
+  It looks like you are trying to use the old array syntax.
+  Please use the new syntax:
+  array[N] int well_id;
+Calls: <Anonymous> -> sapply -> lapply -> FUN -> <Anonymous>
+Execution halted
+ERROR: configuration failed for package ‘cellmig’
+* removing ‘/tmp/library/cellmig’
+
+The downloaded source packages are in
+	‘/tmp/RtmpF0msfj/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘cellmig’ had non-zero exit status
+
+real	0m13.181s
+user	0m7.262s
+sys	0m2.708s
