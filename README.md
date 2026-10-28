@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 404 (16%)
+- **Successfully Built:** 409 (17%)
 - **Failed:** 6 (0%)
-- **In Progress:** 68
+- **In Progress:** 63
 - **Not Started:** 1907
 
 **Progress:** 17%
@@ -16,7 +16,7 @@
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (404)
+## Successfully Built Packages (409)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
 
-*... and 354 more ...*
+*... and 359 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (68)
+## In Progress (63)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -111,7 +111,6 @@
 - ⏳ `INDEED`
 - ⏳ `Icens`
 - ⏳ `KinSwingR`
-- ⏳ `Linnorm`
 - ⏳ `MSstatsResponse`
 - ⏳ `MethylMix`
 - ⏳ `PTMods`
@@ -124,11 +123,7 @@
 - ⏳ `RCX`
 - ⏳ `RDRToolbox`
 - ⏳ `RImmPort`
-- ⏳ `RLMM`
-- ⏳ `RSeqAn`
 - ⏳ `RTCGA`
-- ⏳ `RankProd`
-- ⏳ `Rarr`
 - ⏳ `Rbowtie`
 - ⏳ `SNPediaR`
 - ⏳ `STRINGdb`
@@ -138,8 +133,13 @@
 - ⏳ `cellxgenedp`
 - ⏳ `chopsticks`
 - ⏳ `clevRvis`
+- ⏳ `clustComp`
+- ⏳ `coGPS`
+- ⏳ `compcodeR`
+- ⏳ `matchBox`
+- ⏳ `minet`
 
-... and 18 more ...
+... and 13 more ...
 
 ## Not Yet Started (1907)
 - ⏸️ `ABarray`
@@ -196,5 +196,5 @@
 ... and 1857 more ...
 
 ---
-*Last updated: 2026-10-28 17:53:16 UTC*
+*Last updated: 2026-10-28 17:54:16 UTC*
 *Packages with verified BBS status: 156*
