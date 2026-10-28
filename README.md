@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 119 (4%)
+- **Successfully Built:** 140 (5%)
 - **Failed:** 1 (0%)
-- **In Progress:** 279
+- **In Progress:** 258
 - **Not Started:** 1986
 
 **Progress:** 5%
@@ -16,7 +16,7 @@
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (119)
+## Successfully Built Packages (140)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,24 +44,18 @@
 | [GEOmetadb](https://bioconductor.org/packages/3.23/bioc/html/GEOmetadb.html) | [log](logs/GEOmetadb/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GEOmetadb) |
 | [GGPA](https://bioconductor.org/packages/3.23/bioc/html/GGPA.html) | [log](logs/GGPA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GGPA) |
 | [Harman](https://bioconductor.org/packages/3.23/bioc/html/Harman.html) | [log](logs/Harman/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Harman) |
-| [Informeasure](https://bioconductor.org/packages/3.23/bioc/html/Informeasure.html) | [log](logs/Informeasure/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Informeasure) |
+| [INPower](https://bioconductor.org/packages/3.23/bioc/html/INPower.html) | [log](logs/INPower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/INPower) |
 
-*... and 69 more ...*
+*... and 90 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [pgca](https://bioconductor.org/packages/3.23/bioc/html/pgca.html) | [log](logs/pgca/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pgca) |
-| [phosphonormalizer](https://bioconductor.org/packages/3.23/bioc/html/phosphonormalizer.html) | [log](logs/phosphonormalizer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/phosphonormalizer) |
-| [pickgene](https://bioconductor.org/packages/3.23/bioc/html/pickgene.html) | [log](logs/pickgene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pickgene) |
-| [planet](https://bioconductor.org/packages/3.23/bioc/html/planet.html) | [log](logs/planet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/planet) |
-| [plasmut](https://bioconductor.org/packages/3.23/bioc/html/plasmut.html) | [log](logs/plasmut/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/plasmut) |
-| [plotGrouper](https://bioconductor.org/packages/3.23/bioc/html/plotGrouper.html) | [log](logs/plotGrouper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/plotGrouper) |
-| [pmm](https://bioconductor.org/packages/3.23/bioc/html/pmm.html) | [log](logs/pmm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pmm) |
 | [powerTCR](https://bioconductor.org/packages/3.23/bioc/html/powerTCR.html) | [log](logs/powerTCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/powerTCR) |
 | [preprocessCore](https://bioconductor.org/packages/3.23/bioc/html/preprocessCore.html) | [log](logs/preprocessCore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/preprocessCore) |
 | [proteinProfiles](https://bioconductor.org/packages/3.23/bioc/html/proteinProfiles.html) | [log](logs/proteinProfiles/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/proteinProfiles) |
 | [quantsmooth](https://bioconductor.org/packages/3.23/bioc/html/quantsmooth.html) | [log](logs/quantsmooth/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/quantsmooth) |
 | [qvalue](https://bioconductor.org/packages/3.23/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/qvalue) |
+| [sagenhaft](https://bioconductor.org/packages/3.23/bioc/html/sagenhaft.html) | [log](logs/sagenhaft/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sagenhaft) |
 | [scShapes](https://bioconductor.org/packages/3.23/bioc/html/scShapes.html) | [log](logs/scShapes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scShapes) |
 | [scTHI](https://bioconductor.org/packages/3.23/bioc/html/scTHI.html) | [log](logs/scTHI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scTHI) |
 | [scToppR](https://bioconductor.org/packages/3.23/bioc/html/scToppR.html) | [log](logs/scToppR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scToppR) |
@@ -69,11 +63,17 @@
 | [seahtrue](https://bioconductor.org/packages/3.23/bioc/html/seahtrue.html) | [log](logs/seahtrue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seahtrue) |
 | [semisup](https://bioconductor.org/packages/3.23/bioc/html/semisup.html) | [log](logs/semisup/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/semisup) |
 | [seq.hotSPOT](https://bioconductor.org/packages/3.23/bioc/html/seq.hotSPOT.html) | [log](logs/seq.hotSPOT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seq.hotSPOT) |
+| [seqLogo](https://bioconductor.org/packages/3.23/bioc/html/seqLogo.html) | [log](logs/seqLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seqLogo) |
+| [seqcombo](https://bioconductor.org/packages/3.23/bioc/html/seqcombo.html) | [log](logs/seqcombo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seqcombo) |
+| [shinybiocloader](https://bioconductor.org/packages/3.23/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shinybiocloader) |
 | [sights](https://bioconductor.org/packages/3.23/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sights) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
+| [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
+| [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
+| [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
 ## Failed Packages (1)
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (279)
+## In Progress (258)
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -134,7 +134,7 @@
 - ⏳ `GSALightning`
 - ⏳ `GSAR`
 
-... and 229 more ...
+... and 208 more ...
 
 ## Not Yet Started (1986)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1936 more ...
 
 ---
-*Last updated: 2026-10-28 17:10:15 UTC*
-*Packages with verified BBS status: 97*
+*Last updated: 2026-10-28 17:12:57 UTC*
+*Packages with verified BBS status: 105*
