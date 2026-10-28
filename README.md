@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1162 (47%)
+- **Successfully Built:** 1165 (47%)
 - **Failed:** 6 (0%)
-- **In Progress:** 177
-- **Not Started:** 1089
+- **In Progress:** 175
+- **Not Started:** 1088
 
-**Progress:** 47%
+**Progress:** 48%
 ```
-███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1162)
+## Successfully Built Packages (1165)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1112 more ...*
+*... and 1115 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (177)
+## In Progress (175)
 - ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AffiXcan`
@@ -113,6 +113,7 @@
 - ⏳ `EGAD`
 - ⏳ `ExperimentSubset`
 - ⏳ `FEAST`
+- ⏳ `GENESIS`
 - ⏳ `GMRP`
 - ⏳ `GeneBreak`
 - ⏳ `GeneRegionScan`
@@ -135,13 +136,12 @@
 - ⏳ `MultiBaC`
 - ⏳ `MultiOmicsBridge`
 - ⏳ `MultimodalExperiment`
-- ⏳ `MultipleAlignment`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PACE`
 
-... and 127 more ...
+... and 125 more ...
 
-## Not Yet Started (1089)
+## Not Yet Started (1088)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -193,8 +193,8 @@
 - ⏸️ `BiocDuckDB`
 - ⏸️ `BiocHubsShiny`
 
-... and 1039 more ...
+... and 1038 more ...
 
 ---
-*Last updated: 2026-10-28 21:52:09 UTC*
+*Last updated: 2026-10-28 21:53:54 UTC*
 *Packages with verified BBS status: 211*
