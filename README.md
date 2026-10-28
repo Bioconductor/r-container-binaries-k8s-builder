@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 258 (10%)
+- **Successfully Built:** 264 (10%)
 - **Failed:** 2 (0%)
-- **In Progress:** 160
+- **In Progress:** 154
 - **Not Started:** 2014
 
 **Progress:** 10%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (258)
+## Successfully Built Packages (264)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DTA](https://bioconductor.org/packages/3.24/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DTA) |
 | [DeMAND](https://bioconductor.org/packages/3.24/bioc/html/DeMAND.html) | [log](logs/DeMAND/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeMAND) |
 
-*... and 208 more ...*
+*... and 214 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (160)
+## In Progress (154)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -110,13 +110,8 @@
 - ⏳ `DCATS`
 - ⏳ `DNABarcodes`
 - ⏳ `GCPtools`
-- ⏳ `GEOfastq`
-- ⏳ `GEOmetadb`
-- ⏳ `GEWIST`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GeneOverlap`
-- ⏳ `GeneticsPed`
-- ⏳ `GladiaTOX`
 - ⏳ `HIREewas`
 - ⏳ `HPiP`
 - ⏳ `HVP`
@@ -134,8 +129,13 @@
 - ⏳ `Linnorm`
 - ⏳ `MODA`
 - ⏳ `MSstatsTMT`
+- ⏳ `MeasurementError.cor`
+- ⏳ `Mergeomics`
+- ⏳ `MethylMix`
+- ⏳ `ModCon`
+- ⏳ `MultiMed`
 
-... and 110 more ...
+... and 104 more ...
 
 ## Not Yet Started (2014)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1964 more ...
 
 ---
-*Last updated: 2026-10-28 17:33:07 UTC*
+*Last updated: 2026-10-28 17:34:01 UTC*
 *Packages with verified BBS status: 140*
