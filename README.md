@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 407 (16%)
+- **Successfully Built:** 412 (16%)
 - **Failed:** 5 (0%)
 - **In Progress:** 86
-- **Not Started:** 1936
+- **Not Started:** 1931
 
-**Progress:** 16%
+**Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (407)
+## Successfully Built Packages (412)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
 | [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
 
-*... and 357 more ...*
+*... and 362 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,6 +88,7 @@
 
 ## In Progress (86)
 - ⏳ `ASAFE`
+- ⏳ `AlpsNMR`
 - ⏳ `BADER`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
@@ -99,7 +100,6 @@
 - ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
 - ⏳ `Chicago`
-- ⏳ `Clomial`
 - ⏳ `ClusterJudge`
 - ⏳ `CytoGLMM`
 - ⏳ `DART`
@@ -107,6 +107,7 @@
 - ⏳ `DEsingle`
 - ⏳ `DNABarcodes`
 - ⏳ `DepInfeR`
+- ⏳ `DepecheR`
 - ⏳ `EMDomics`
 - ⏳ `EnMCB`
 - ⏳ `GeneOverlap`
@@ -119,8 +120,6 @@
 - ⏳ `MSstatsTMT`
 - ⏳ `MethylMix`
 - ⏳ `NPARC`
-- ⏳ `NTW`
-- ⏳ `NetPathMiner`
 - ⏳ `NuPoP`
 - ⏳ `OSAT`
 - ⏳ `Omixer`
@@ -128,6 +127,7 @@
 - ⏳ `OpenStats`
 - ⏳ `Oscope`
 - ⏳ `PCAN`
+- ⏳ `PLSDAbatch`
 - ⏳ `PTMods`
 - ⏳ `PathNet`
 - ⏳ `PoDCall`
@@ -140,7 +140,7 @@
 
 ... and 36 more ...
 
-## Not Yet Started (1936)
+## Not Yet Started (1931)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -168,7 +168,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AlpsNMR`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
@@ -191,9 +190,10 @@
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
 - ⏸️ `BUS`
+- ⏸️ `BUScorrect`
 
-... and 1886 more ...
+... and 1881 more ...
 
 ---
-*Last updated: 2026-10-28 17:56:28 UTC*
+*Last updated: 2026-10-28 17:57:23 UTC*
 *Packages with verified BBS status: 177*
