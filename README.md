@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 182 (7%)
+- **Successfully Built:** 190 (7%)
 - **Failed:** 1 (0%)
-- **In Progress:** 200
-- **Not Started:** 2051
+- **In Progress:** 196
+- **Not Started:** 2047
 
 **Progress:** 7%
 ```
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (182)
+## Successfully Built Packages (190)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -37,6 +37,7 @@
 | [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
 | [DNABarcodeCompatibility](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodeCompatibility.html) | [log](logs/DNABarcodeCompatibility/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodeCompatibility) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
+| [DNAcycP2](https://bioconductor.org/packages/3.24/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcycP2) |
 | [DTA](https://bioconductor.org/packages/3.24/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DTA) |
 | [DeMAND](https://bioconductor.org/packages/3.24/bioc/html/DeMAND.html) | [log](logs/DeMAND/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeMAND) |
 | [DeepPINCS](https://bioconductor.org/packages/3.24/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeepPINCS) |
@@ -44,13 +45,11 @@
 | [DriverNet](https://bioconductor.org/packages/3.24/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DriverNet) |
 | [DynDoc](https://bioconductor.org/packages/3.24/bioc/html/DynDoc.html) | [log](logs/DynDoc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DynDoc) |
 | [EBSeq](https://bioconductor.org/packages/3.24/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EBSeq) |
-| [EmpiricalBrownsMethod](https://bioconductor.org/packages/3.24/bioc/html/EmpiricalBrownsMethod.html) | [log](logs/EmpiricalBrownsMethod/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EmpiricalBrownsMethod) |
 
-*... and 132 more ...*
+*... and 140 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [scFeatureFilter](https://bioconductor.org/packages/3.24/bioc/html/scFeatureFilter.html) | [log](logs/scFeatureFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scFeatureFilter) |
 | [scLANE](https://bioconductor.org/packages/3.24/bioc/html/scLANE.html) | [log](logs/scLANE/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scLANE) |
 | [scToppR](https://bioconductor.org/packages/3.24/bioc/html/scToppR.html) | [log](logs/scToppR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scToppR) |
 | [scatterHatch](https://bioconductor.org/packages/3.24/bioc/html/scatterHatch.html) | [log](logs/scatterHatch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scatterHatch) |
@@ -59,6 +58,7 @@
 | [seq.hotSPOT](https://bioconductor.org/packages/3.24/bioc/html/seq.hotSPOT.html) | [log](logs/seq.hotSPOT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/seq.hotSPOT) |
 | [seqLogo](https://bioconductor.org/packages/3.24/bioc/html/seqLogo.html) | [log](logs/seqLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/seqLogo) |
 | [sitePath](https://bioconductor.org/packages/3.24/bioc/html/sitePath.html) | [log](logs/sitePath/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sitePath) |
+| [snifter](https://bioconductor.org/packages/3.24/bioc/html/snifter.html) | [log](logs/snifter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snifter) |
 | [sparseMatrixStats](https://bioconductor.org/packages/3.24/bioc/html/sparseMatrixStats.html) | [log](logs/sparseMatrixStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparseMatrixStats) |
 | [splots](https://bioconductor.org/packages/3.24/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.24/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssize) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 
-## In Progress (200)
+## In Progress (196)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -110,7 +110,6 @@
 - ⏳ `DART`
 - ⏳ `DCATS`
 - ⏳ `DNABarcodes`
-- ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
 - ⏳ `GCPtools`
 - ⏳ `GEM`
@@ -121,7 +120,6 @@
 - ⏳ `GGPA`
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
-- ⏳ `GPA`
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
 - ⏳ `GSAR`
@@ -133,10 +131,12 @@
 - ⏳ `GraphAlignment`
 - ⏳ `HDTD`
 - ⏳ `HIREewas`
+- ⏳ `HPiP`
+- ⏳ `HVP`
 
-... and 150 more ...
+... and 146 more ...
 
-## Not Yet Started (2051)
+## Not Yet Started (2047)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 2001 more ...
+... and 1997 more ...
 
 ---
-*Last updated: 2026-10-28 17:22:03 UTC*
-*Packages with verified BBS status: 129*
+*Last updated: 2026-10-28 17:23:14 UTC*
+*Packages with verified BBS status: 131*

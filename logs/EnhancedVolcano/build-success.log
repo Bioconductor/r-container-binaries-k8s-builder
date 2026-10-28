@@ -1,0 +1,131 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''EnhancedVolcano'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'EnhancedVolcano'
+also installing the dependencies ‘biomaRt’, ‘Cairo’, ‘DEXSeq’, ‘ggrastr’, ‘pasilla’, ‘org.Hs.eg.db’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/biomaRt_2.69.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Cairo_1.7-0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DEXSeq_1.59.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggrastr_1.0.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/pasilla_1.41.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/org.Hs.eg.db_3.23.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/EnhancedVolcano_1.31.0.tar.gz'
+* installing *source* package ‘biomaRt’ ...
+** this is package ‘biomaRt’ version ‘2.69.3’
+** package ‘biomaRt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biomaRt’ as ‘biomaRt_2.69.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomaRt)
+* installing *binary* package ‘Cairo’ ...
+* package ‘Cairo’ successfully unpacked and SHA256 sums checked
+* ‘Cairo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Cairo’ as ‘Cairo_1.7-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Cairo)
+* installing *source* package ‘org.Hs.eg.db’ ...
+** this is package ‘org.Hs.eg.db’ version ‘3.23.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘org.Hs.eg.db’ as ‘org.Hs.eg.db_3.23.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Hs.eg.db)
+* installing *source* package ‘EnhancedVolcano’ ...
+** this is package ‘EnhancedVolcano’ version ‘1.31.0’
+** package ‘EnhancedVolcano’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘EnhancedVolcano’ as ‘EnhancedVolcano_1.31.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnhancedVolcano)
+* installing *source* package ‘DEXSeq’ ...
+** this is package ‘DEXSeq’ version ‘1.59.1’
+** package ‘DEXSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DEXSeq’ as ‘DEXSeq_1.59.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEXSeq)
+* installing *binary* package ‘ggrastr’ ...
+* package ‘ggrastr’ successfully unpacked and SHA256 sums checked
+* ‘ggrastr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggrastr’ as ‘ggrastr_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrastr)
+* installing *source* package ‘pasilla’ ...
+** this is package ‘pasilla’ version ‘1.41.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pasilla’ as ‘pasilla_1.41.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pasilla)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFLTDd8/downloaded_packages’
+
+real	5m47.657s
+user	5m30.235s
+sys	0m15.644s
