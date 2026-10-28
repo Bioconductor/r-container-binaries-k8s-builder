@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 862 (35%)
 - **Failed:** 6 (0%)
-- **In Progress:** 61
-- **Not Started:** 1505
+- **In Progress:** 62
+- **Not Started:** 1504
 
 **Progress:** 35%
 ```
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (61)
+## In Progress (62)
 - ⏳ `BREW3R.r`
 - ⏳ `BiFET`
 - ⏳ `BiocNeighbors`
@@ -139,9 +139,9 @@
 - ⏳ `fastseg`
 - ⏳ `fraq`
 
-... and 11 more ...
+... and 12 more ...
 
-## Not Yet Started (1505)
+## Not Yet Started (1504)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -193,8 +193,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1455 more ...
+... and 1454 more ...
 
 ---
-*Last updated: 2026-10-28 18:49:24 UTC*
+*Last updated: 2026-10-28 18:50:13 UTC*
 *Packages with verified BBS status: 204*
