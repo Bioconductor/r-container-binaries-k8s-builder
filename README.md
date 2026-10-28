@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 588 (24%)
-- **Failed:** 8 (0%)
-- **In Progress:** 104
+- **Successfully Built:** 612 (25%)
+- **Failed:** 9 (0%)
+- **In Progress:** 79
 - **Not Started:** 1685
 
-**Progress:** 24%
+**Progress:** 26%
 ```
-████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (588)
+## Successfully Built Packages (612)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 538 more ...*
+*... and 562 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,10 +76,11 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (8)
+## Failed Packages (9)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -89,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (104)
+## In Progress (79)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -97,9 +98,7 @@
 - ⏳ `BayesKnockdown`
 - ⏳ `BioQC`
 - ⏳ `BiocFHIR`
-- ⏳ `CGHnormaliter`
 - ⏳ `CMA`
-- ⏳ `COMPASS`
 - ⏳ `CTDquerier`
 - ⏳ `CellMapper`
 - ⏳ `ChemmineOB`
@@ -122,26 +121,28 @@
 - ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `IRanges`
-- ⏳ `Mulcom`
-- ⏳ `NOISeq`
-- ⏳ `NanoStringDiff`
-- ⏳ `NanoTube`
 - ⏳ `OSTA.data`
-- ⏳ `PLPE`
-- ⏳ `Pedixplorer`
 - ⏳ `RBGL`
-- ⏳ `RCy3`
-- ⏳ `RCyjs`
 - ⏳ `RGSEA`
-- ⏳ `RGraph2js`
-- ⏳ `RIVER`
-- ⏳ `RNAseqCovarImpute`
-- ⏳ `RUVnormalize`
-- ⏳ `RbcBook1`
 - ⏳ `ReUseData`
-- ⏳ `ReadqPCR`
+- ⏳ `STATegRa`
+- ⏳ `TPP`
+- ⏳ `TurboNorm`
+- ⏳ `a4Classif`
+- ⏳ `aCGH`
+- ⏳ `abseqR`
+- ⏳ `affyContam`
+- ⏳ `alabaster.base`
+- ⏳ `annotationTools`
+- ⏳ `anota`
+- ⏳ `brendaDb`
+- ⏳ `cancerclass`
+- ⏳ `cogena`
+- ⏳ `covEB`
+- ⏳ `cycle`
+- ⏳ `dyebias`
 
-... and 54 more ...
+... and 29 more ...
 
 ## Not Yet Started (1685)
 - ⏸️ `ACE`
@@ -198,5 +199,5 @@
 ... and 1635 more ...
 
 ---
-*Last updated: 2026-10-28 18:49:16 UTC*
-*Packages with verified BBS status: 181*
+*Last updated: 2026-10-28 18:55:06 UTC*
+*Packages with verified BBS status: 182*
