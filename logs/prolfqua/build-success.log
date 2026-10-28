@@ -1,0 +1,90 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''prolfqua'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'prolfqua'
+also installing the dependencies ‘treesitter’, ‘treesitter.r’, ‘whoami’, ‘cyclocomp’, ‘goodpractice’, ‘Rfit’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/treesitter_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/treesitter.r_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/whoami_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cyclocomp_1.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/goodpractice_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/Rfit_0.27.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/prolfqua_0.99.4.tar.gz'
+* installing *binary* package ‘treesitter’ ...
+* package ‘treesitter’ successfully unpacked and SHA256 sums checked
+* ‘treesitter’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘treesitter’ as ‘treesitter_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treesitter)
+* installing *binary* package ‘treesitter.r’ ...
+* package ‘treesitter.r’ successfully unpacked and SHA256 sums checked
+* ‘treesitter.r’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘treesitter.r’ as ‘treesitter.r_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treesitter.r)
+* installing *binary* package ‘whoami’ ...
+* package ‘whoami’ successfully unpacked and SHA256 sums checked
+* ‘whoami’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘whoami’ as ‘whoami_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (whoami)
+* installing *binary* package ‘cyclocomp’ ...
+* package ‘cyclocomp’ successfully unpacked and SHA256 sums checked
+* ‘cyclocomp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cyclocomp’ as ‘cyclocomp_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cyclocomp)
+* installing *binary* package ‘Rfit’ ...
+* package ‘Rfit’ successfully unpacked and SHA256 sums checked
+* ‘Rfit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Rfit’ as ‘Rfit_0.27.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rfit)
+* installing *source* package ‘prolfqua’ ...
+** this is package ‘prolfqua’ version ‘0.99.4’
+** package ‘prolfqua’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘prolfqua’ as ‘prolfqua_0.99.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prolfqua)
+* installing *binary* package ‘goodpractice’ ...
+* package ‘goodpractice’ successfully unpacked and SHA256 sums checked
+* ‘goodpractice’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘goodpractice’ as ‘goodpractice_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (goodpractice)
+
+The downloaded source packages are in
+	‘/tmp/RtmpliANYE/downloaded_packages’
+Old packages: 'gesel'
+
+real	0m55.512s
+user	0m46.345s
+sys	0m5.849s
