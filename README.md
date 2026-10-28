@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 760 (31%)
+- **Successfully Built:** 768 (31%)
 - **Failed:** 6 (0%)
-- **In Progress:** 23
-- **Not Started:** 1645
+- **In Progress:** 16
+- **Not Started:** 1644
 
 **Progress:** 31%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (760)
+## Successfully Built Packages (768)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.24/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILWorkflow) |
 
-*... and 710 more ...*
+*... and 718 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,8 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (23)
+## In Progress (16)
+- ⏳ `OmicsMLRepoR`
 - ⏳ `Seqinfo`
 - ⏳ `beachmat`
 - ⏳ `convert`
@@ -96,23 +97,15 @@
 - ⏳ `discordant`
 - ⏳ `fabia`
 - ⏳ `geneRecommender`
-- ⏳ `hopach`
 - ⏳ `iBMQ`
 - ⏳ `iterativeBMA`
 - ⏳ `maSigPro`
 - ⏳ `martini`
 - ⏳ `massiR`
 - ⏳ `metabCombiner`
-- ⏳ `multtest`
-- ⏳ `pandaR`
-- ⏳ `phantasusLite`
-- ⏳ `plgem`
-- ⏳ `rbsurv`
 - ⏳ `rcellminer`
-- ⏳ `scPCA`
-- ⏳ `sketchR`
 
-## Not Yet Started (1645)
+## Not Yet Started (1644)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -164,8 +157,8 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
 
-... and 1595 more ...
+... and 1594 more ...
 
 ---
-*Last updated: 2026-10-28 18:29:37 UTC*
+*Last updated: 2026-10-28 18:30:12 UTC*
 *Packages with verified BBS status: 200*
