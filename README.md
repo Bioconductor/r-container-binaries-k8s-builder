@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 315 (13%)
-- **Failed:** 3 (0%)
-- **In Progress:** 140
+- **Successfully Built:** 319 (13%)
+- **Failed:** 4 (0%)
+- **In Progress:** 135
 - **Not Started:** 1927
 
 **Progress:** 13%
@@ -16,7 +16,7 @@
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (315)
+## Successfully Built Packages (319)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [COSNet](https://bioconductor.org/packages/3.23/bioc/html/COSNet.html) | [log](logs/COSNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COSNet) |
 | [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 
-*... and 265 more ...*
+*... and 269 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,15 +76,16 @@
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (3)
+## Failed Packages (4)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (140)
+## In Progress (135)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -136,7 +137,7 @@
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
 
-... and 90 more ...
+... and 85 more ...
 
 ## Not Yet Started (1927)
 - ⏸️ `ABarray`
@@ -193,5 +194,5 @@
 ... and 1877 more ...
 
 ---
-*Last updated: 2026-10-28 17:40:00 UTC*
-*Packages with verified BBS status: 148*
+*Last updated: 2026-10-28 17:41:04 UTC*
+*Packages with verified BBS status: 149*

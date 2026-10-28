@@ -1,0 +1,120 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''synergyfinder'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'synergyfinder'
+Warning: dependency ‘SpatialExtremes’ is not available
+also installing the dependencies ‘xts’, ‘intervals’, ‘operator.tools’, ‘sftime’, ‘spacetime’, ‘stars’, ‘formula.tools’, ‘drc’, ‘gstat’, ‘kriging’, ‘metR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xts_0.14.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/intervals_0.15.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/operator.tools_1.6.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sftime_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spacetime_1.3-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stars_0.7-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/formula.tools_1.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/drc_4.0-0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gstat_2.1-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/kriging_1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metR_0.19.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/synergyfinder_3.20.0.tar.gz'
+* installing *binary* package ‘xts’ ...
+* package ‘xts’ successfully unpacked and SHA256 sums checked
+* ‘xts’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xts’ as ‘xts_0.14.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xts)
+* installing *binary* package ‘intervals’ ...
+* package ‘intervals’ successfully unpacked and SHA256 sums checked
+* ‘intervals’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘intervals’ as ‘intervals_0.15.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (intervals)
+* installing *binary* package ‘operator.tools’ ...
+* package ‘operator.tools’ successfully unpacked and SHA256 sums checked
+* ‘operator.tools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘operator.tools’ as ‘operator.tools_1.6.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (operator.tools)
+* installing *binary* package ‘sftime’ ...
+* package ‘sftime’ successfully unpacked and SHA256 sums checked
+* ‘sftime’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sftime’ as ‘sftime_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sftime)
+* installing *binary* package ‘stars’ ...
+* package ‘stars’ successfully unpacked and SHA256 sums checked
+* ‘stars’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stars’ as ‘stars_0.7-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stars)
+* installing *binary* package ‘drc’ ...
+* package ‘drc’ successfully unpacked and SHA256 sums checked
+* ‘drc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘drc’ as ‘drc_4.0-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (drc)
+* installing *binary* package ‘kriging’ ...
+* package ‘kriging’ successfully unpacked and SHA256 sums checked
+* ‘kriging’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘kriging’ as ‘kriging_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kriging)
+* installing *binary* package ‘spacetime’ ...
+* package ‘spacetime’ successfully unpacked and SHA256 sums checked
+* ‘spacetime’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spacetime’ as ‘spacetime_1.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spacetime)
+* installing *binary* package ‘formula.tools’ ...
+* package ‘formula.tools’ successfully unpacked and SHA256 sums checked
+* ‘formula.tools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘formula.tools’ as ‘formula.tools_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formula.tools)
+* installing *binary* package ‘gstat’ ...
+* package ‘gstat’ successfully unpacked and SHA256 sums checked
+* ‘gstat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gstat’ as ‘gstat_2.1-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gstat)
+* installing *binary* package ‘metR’ ...
+* package ‘metR’ successfully unpacked and SHA256 sums checked
+* ‘metR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metR’ as ‘metR_0.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metR)
+ERROR: dependency ‘SpatialExtremes’ is not available for package ‘synergyfinder’
+Perhaps try a variation of:
+install.packages('SpatialExtremes')
+* removing ‘/tmp/library/synergyfinder’
+
+The downloaded source packages are in
+	‘/tmp/RtmpAwB9Xv/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘synergyfinder’ had non-zero exit status
+
+real	0m18.293s
+user	0m9.926s
+sys	0m4.418s
