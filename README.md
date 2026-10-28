@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 218 (9%)
+- **Successfully Built:** 227 (9%)
 - **Failed:** 1 (0%)
-- **In Progress:** 193
-- **Not Started:** 1973
+- **In Progress:** 185
+- **Not Started:** 1972
 
 **Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (218)
+## Successfully Built Packages (227)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DEsingle](https://bioconductor.org/packages/3.23/bioc/html/DEsingle.html) | [log](logs/DEsingle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEsingle) |
 | [DNAcycP2](https://bioconductor.org/packages/3.23/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcycP2) |
 
-*... and 168 more ...*
+*... and 177 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -80,9 +80,9 @@
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 
-## In Progress (193)
+## In Progress (185)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -127,16 +127,16 @@
 - ⏳ `HVP`
 - ⏳ `Heatplus`
 - ⏳ `Herper`
+- ⏳ `HilbertVisGUI`
 - ⏳ `HuBMAPR`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
-- ⏳ `ISoLDE`
 
-... and 143 more ...
+... and 135 more ...
 
-## Not Yet Started (1973)
+## Not Yet Started (1972)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 1923 more ...
+... and 1922 more ...
 
 ---
-*Last updated: 2026-10-28 17:25:06 UTC*
+*Last updated: 2026-10-28 17:26:19 UTC*
 *Packages with verified BBS status: 122*
