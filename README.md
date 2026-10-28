@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 1158 (47%)
 - **Failed:** 6 (0%)
-- **In Progress:** 165
-- **Not Started:** 1105
+- **In Progress:** 181
+- **Not Started:** 1089
 
 **Progress:** 47%
 ```
@@ -87,12 +87,17 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (165)
+## In Progress (181)
+- ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AffiXcan`
+- ⏳ `BaalChIP`
+- ⏳ `BamScale`
 - ⏳ `Banksy`
+- ⏳ `BasicSTARRseq`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
+- ⏳ `CNVRanger`
 - ⏳ `COTAN`
 - ⏳ `CRISPRball`
 - ⏳ `CTSV`
@@ -109,6 +114,7 @@
 - ⏳ `ExperimentSubset`
 - ⏳ `FEAST`
 - ⏳ `GMRP`
+- ⏳ `GeneBreak`
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicDataCommons`
 - ⏳ `GenomicDistributions`
@@ -122,6 +128,7 @@
 - ⏳ `LOLA`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
+- ⏳ `MDTS`
 - ⏳ `MEDME`
 - ⏳ `MOMA`
 - ⏳ `MultiAssaySpatialExperiment`
@@ -131,18 +138,10 @@
 - ⏳ `MultipleAlignment`
 - ⏳ `NanoStringNCTools`
 - ⏳ `PACE`
-- ⏳ `POWSC`
-- ⏳ `QFeatures`
-- ⏳ `RTNduals`
-- ⏳ `Rbowtie2`
-- ⏳ `SAIGEgds`
-- ⏳ `SEraster`
-- ⏳ `SICtools`
 
-... and 115 more ...
+... and 131 more ...
 
-## Not Yet Started (1105)
-- ⏸️ `ACE`
+## Not Yet Started (1089)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -174,11 +173,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `BamScale`
 - ⏸️ `Basic4Cseq`
-- ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
@@ -192,9 +188,13 @@
 - ⏸️ `BioCor`
 - ⏸️ `BioNAR`
 - ⏸️ `BioNERO`
+- ⏸️ `BioNet`
+- ⏸️ `BioTIP`
+- ⏸️ `BiocDuckDB`
+- ⏸️ `BiocHubsShiny`
 
-... and 1055 more ...
+... and 1039 more ...
 
 ---
-*Last updated: 2026-10-28 21:45:31 UTC*
+*Last updated: 2026-10-28 21:46:54 UTC*
 *Packages with verified BBS status: 211*
