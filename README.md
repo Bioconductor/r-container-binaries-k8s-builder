@@ -6,21 +6,22 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 535 (22%)
+- **Successfully Built:** 542 (22%)
 - **Failed:** 7 (0%)
-- **In Progress:** 110
-- **Not Started:** 1733
+- **In Progress:** 138
+- **Not Started:** 1698
 
-**Progress:** 22%
+**Progress:** 23%
 ```
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (535)
+## Successfully Built Packages (542)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
+| [ABarray](https://bioconductor.org/packages/3.23/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABarray) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
@@ -44,14 +45,11 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
-| [Biobase](https://bioconductor.org/packages/3.23/bioc/html/Biobase.html) | [log](logs/Biobase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Biobase) |
 
-*... and 485 more ...*
+*... and 492 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [synlet](https://bioconductor.org/packages/3.23/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synlet) |
-| [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [tanggle](https://bioconductor.org/packages/3.23/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tanggle) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
@@ -68,8 +66,10 @@
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
+| [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
+| [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.23/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/widgetTools) |
@@ -88,14 +88,17 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (110)
+## In Progress (138)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
+- ⏳ `AffyRNADegradation`
 - ⏳ `BAGS`
 - ⏳ `BayesKnockdown`
 - ⏳ `BioQC`
 - ⏳ `BiocFHIR`
+- ⏳ `CGHcall`
+- ⏳ `CGHregions`
 - ⏳ `CMA`
 - ⏳ `COMPASS`
 - ⏳ `CTDquerier`
@@ -103,13 +106,16 @@
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
 - ⏳ `ConsensusClusterPlus`
+- ⏳ `Cormotif`
 - ⏳ `DFP`
 - ⏳ `DFplyr`
 - ⏳ `EBImage`
 - ⏳ `EBarrays`
+- ⏳ `ExiMiR`
 - ⏳ `ExploreModelMatrix`
 - ⏳ `FamAgg`
 - ⏳ `GCPtools`
+- ⏳ `GEOsubmission`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
 - ⏳ `GeneExpressionSignature`
@@ -117,9 +123,11 @@
 - ⏳ `GraphAT`
 - ⏳ `HELP`
 - ⏳ `HEM`
+- ⏳ `HTqPCR`
 - ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `IRanges`
+- ⏳ `Maaslin2`
 - ⏳ `MiChip`
 - ⏳ `MiPP`
 - ⏳ `MsCoreUtils`
@@ -127,23 +135,14 @@
 - ⏳ `NOISeq`
 - ⏳ `NanoStringDiff`
 - ⏳ `NanoTube`
+- ⏳ `OCplus`
 - ⏳ `OSTA.data`
+- ⏳ `OrderedList`
 - ⏳ `PLPE`
-- ⏳ `Pedixplorer`
-- ⏳ `RBGL`
-- ⏳ `RCy3`
-- ⏳ `RCyjs`
-- ⏳ `RGSEA`
-- ⏳ `RGraph2js`
-- ⏳ `RIVER`
-- ⏳ `RNAseqCovarImpute`
-- ⏳ `ROTS`
-- ⏳ `RUVnormalize`
 
-... and 60 more ...
+... and 88 more ...
 
-## Not Yet Started (1733)
-- ⏸️ `ABarray`
+## Not Yet Started (1698)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -165,7 +164,6 @@
 - ⏸️ `AUCell`
 - ⏸️ `Aerith`
 - ⏸️ `AffiXcan`
-- ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnVIL`
@@ -193,9 +191,11 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUMHMM`
+- ⏸️ `BUScorrect`
+- ⏸️ `BUSpaRse`
 
-... and 1683 more ...
+... and 1648 more ...
 
 ---
-*Last updated: 2026-10-28 18:36:59 UTC*
-*Packages with verified BBS status: 173*
+*Last updated: 2026-10-28 18:38:43 UTC*
+*Packages with verified BBS status: 176*
