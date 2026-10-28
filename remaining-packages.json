@@ -227,7 +227,6 @@
     "XVector"
   ],
   "ASAFE": [],
-  "ASGSCA": [],
   "ASICS": [
     "BiocParallel",
     "PepsNMR",
@@ -247,7 +246,6 @@
     "limma",
     "XVector"
   ],
-  "ASSET": [],
   "ASSIGN": [
     "sva",
     "genefilter",
@@ -419,7 +417,6 @@
     "XVector",
     "Biostrings"
   ],
-  "AWAggregator": [],
   "AWFisher": [
     "edgeR",
     "limma"
@@ -550,37 +547,28 @@
     "impute"
   ],
   "AnVIL": [
-    "AnVILBase",
     "GCPtools"
   ],
-  "AnVILAz": [
-    "AnVILBase"
-  ],
-  "AnVILBase": [],
+  "AnVILAz": [],
   "AnVILGCP": [
-    "AnVILBase",
     "GCPtools"
   ],
   "AnVILPublish": [
     "AnVIL",
     "AnVILGCP",
-    "AnVILBase",
     "GCPtools"
   ],
   "AnVILVRS": [
     "AnVILGCP",
     "BiocFileCache",
-    "AnVILBase",
     "GCPtools"
   ],
   "AnVILWorkflow": [
     "AnVILGCP",
-    "AnVILBase",
     "AnVIL",
     "GCPtools"
   ],
   "Anaquin": [
-    "qvalue",
     "DESeq2",
     "S4Vectors",
     "IRanges",
@@ -1563,7 +1551,6 @@
   "BiocAzul": [
     "AnVIL",
     "AnVILPublish",
-    "AnVILBase",
     "GCPtools",
     "AnVILGCP"
   ],
@@ -2027,7 +2014,6 @@
     "BiocFileCache",
     "AnnotationDbi",
     "GOSemSim",
-    "qvalue",
     "AnnotationHub",
     "DOSE",
     "BiocGenerics",
@@ -2109,7 +2095,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "BiocParallel",
     "impute",
     "BiocGenerics",
@@ -2345,7 +2330,6 @@
     "GenomeInfoDb",
     "IRanges",
     "S4Vectors",
-    "SNPRelate",
     "SummarizedExperiment",
     "edgeR",
     "limma",
@@ -2652,7 +2636,6 @@
     "BiocGenerics"
   ],
   "CTSV": [
-    "qvalue",
     "BiocParallel",
     "SpatialExperiment",
     "SummarizedExperiment",
@@ -2727,7 +2710,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "Rhtslib",
     "Biostrings",
     "IRanges",
@@ -2813,7 +2795,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "IRanges",
     "GenomicRanges",
     "BiocGenerics",
@@ -2986,7 +2967,6 @@
     "goseq",
     "missMethyl",
     "GenomicRanges",
-    "qvalue",
     "bumphunter",
     "S4Vectors",
     "IRanges",
@@ -4141,9 +4121,7 @@
     "SparseArray",
     "XVector"
   ],
-  "DEGseq": [
-    "qvalue"
-  ],
+  "DEGseq": [],
   "DELocal": [
     "DESeq2",
     "limma",
@@ -4328,7 +4306,6 @@
     "BiocGenerics",
     "Biobase",
     "BiocParallel",
-    "qvalue",
     "Seqinfo",
     "S4Arrays",
     "DelayedArray",
@@ -4896,7 +4873,6 @@
     "Seqinfo",
     "IRanges",
     "BiocParallel",
-    "qvalue",
     "SummarizedExperiment",
     "AnnotationDbi",
     "GenomeInfoDb",
@@ -5197,7 +5173,6 @@
     "biomaRt",
     "ArrayExpress",
     "GEOquery",
-    "qvalue",
     "annotate",
     "BiocGenerics",
     "Biobase",
@@ -5794,7 +5769,6 @@
     "Rsamtools",
     "S4Vectors",
     "IRanges",
-    "qvalue",
     "rhdf5",
     "BSgenome",
     "Biostrings",
@@ -6117,7 +6091,6 @@
     "S4Vectors",
     "GenomicFeatures",
     "BiocParallel",
-    "qvalue",
     "SummarizedExperiment",
     "MultiAssayExperiment",
     "IRanges",
@@ -6298,9 +6271,7 @@
     "BiocGenerics",
     "XVector"
   ],
-  "GCPtools": [
-    "AnVILBase"
-  ],
+  "GCPtools": [],
   "GDCRNATools": [
     "limma",
     "edgeR",
@@ -6315,7 +6286,6 @@
     "BiocFileCache",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "S4Vectors",
     "IRanges",
     "GenomicRanges",
@@ -6347,7 +6317,6 @@
     "BiocGenerics",
     "DelayedArray",
     "S4Vectors",
-    "SNPRelate",
     "SeqArray",
     "IRanges",
     "S4Arrays",
@@ -6368,9 +6337,7 @@
     "S4Vectors",
     "SeqArray",
     "SeqVarTools",
-    "SNPRelate",
     "Seqinfo",
-    "quantsmooth",
     "Biostrings",
     "XVector"
   ],
@@ -6417,7 +6384,6 @@
     "KEGGREST",
     "BiocFileCache",
     "GOSemSim",
-    "qvalue",
     "GenomicRanges",
     "BiocParallel",
     "DOSE",
@@ -6457,7 +6423,6 @@
     "SummarizedExperiment",
     "TCGAutils",
     "Rhtslib",
-    "AnVILBase",
     "GCPtools",
     "BiocGenerics",
     "Biobase",
@@ -6518,7 +6483,6 @@
     "DOSE",
     "GenomeInfoDb",
     "GenomicRanges",
-    "qvalue",
     "S4Vectors",
     "Biobase",
     "IRanges",
@@ -6740,7 +6704,6 @@
     "S4Vectors",
     "AnnotationDbi",
     "GOSemSim",
-    "qvalue",
     "IRanges",
     "GenomicRanges",
     "BiocGenerics",
@@ -6879,7 +6842,6 @@
   ],
   "GWASTools": [
     "Biobase",
-    "quantsmooth",
     "BiocGenerics"
   ],
   "GWENA": [
@@ -6923,7 +6885,6 @@
     "S4Arrays",
     "XVector"
   ],
-  "GenProSeq": [],
   "GenVisR": [
     "AnnotationDbi",
     "biomaRt",
@@ -7065,7 +7026,6 @@
     "DelayedArray",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "SparseArray",
     "rtracklayer",
     "GenomicFeatures",
@@ -8397,7 +8357,6 @@
     "BiocGenerics",
     "Biobase",
     "rtracklayer",
-    "qvalue",
     "Seqinfo",
     "DelayedArray",
     "XVector",
@@ -8740,7 +8699,6 @@
   "LimROTS": [
     "SummarizedExperiment",
     "limma",
-    "qvalue",
     "BiocParallel",
     "S4Vectors",
     "variancePartition",
@@ -9122,7 +9080,6 @@
     "GenomicAlignments",
     "cigarillo",
     "GenomeInfoDb",
-    "qvalue",
     "bumphunter",
     "siggenes",
     "DelayedMatrixStats",
@@ -9395,7 +9352,6 @@
     "DelayedArray",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "S4Arrays",
     "SparseArray",
     "Seqinfo",
@@ -9498,7 +9454,6 @@
   "MOMA": [
     "ComplexHeatmap",
     "MultiAssayExperiment",
-    "qvalue",
     "IRanges",
     "limma",
     "SummarizedExperiment",
@@ -9649,7 +9604,6 @@
     "Seqinfo",
     "msmsEDA",
     "edgeR",
-    "qvalue",
     "MsCoreUtils",
     "PSMatch",
     "PTMods",
@@ -9834,7 +9788,6 @@
     "marray"
   ],
   "MWASTools": [
-    "qvalue",
     "SummarizedExperiment",
     "KEGGgraph",
     "KEGGREST",
@@ -10054,7 +10007,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "BiocGenerics",
     "graph",
     "Biobase",
@@ -10170,7 +10122,6 @@
     "graph",
     "Rgraphviz",
     "Biostrings",
-    "qvalue",
     "SummarizedExperiment",
     "ComplexHeatmap",
     "GenomicFeatures",
@@ -10277,7 +10228,6 @@
   ],
   "Mfuzz": [
     "Biobase",
-    "tkWidgets",
     "BiocGenerics"
   ],
   "MiChip": [
@@ -10304,7 +10254,6 @@
     "enrichplot",
     "AnnotationDbi",
     "GOSemSim",
-    "qvalue",
     "DOSE",
     "BiocGenerics",
     "Biobase",
@@ -10407,7 +10356,6 @@
     "S4Vectors",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "IRanges",
     "Biobase",
     "biomaRt",
@@ -10440,7 +10388,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "S4Vectors",
     "BiocFileCache",
     "GenomicRanges",
@@ -10828,7 +10775,6 @@
     "IRanges",
     "GenomicRanges",
     "BiocParallel",
-    "tkWidgets",
     "Seqinfo",
     "S4Arrays",
     "DelayedArray",
@@ -11267,7 +11213,6 @@
   "OLINgui": [
     "OLIN",
     "marray",
-    "tkWidgets",
     "limma"
   ],
   "OMICsPCA": [
@@ -11298,9 +11243,7 @@
     "Rhtslib",
     "KEGGREST"
   ],
-  "OPWeight": [
-    "qvalue"
-  ],
+  "OPWeight": [],
   "ORFhunteR": [
     "Biostrings",
     "rtracklayer",
@@ -11580,7 +11523,6 @@
     "RedeR"
   ],
   "PAST": [
-    "qvalue",
     "rtracklayer",
     "GenomicRanges",
     "S4Vectors",
@@ -11917,7 +11859,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "BiocGenerics",
     "Biobase",
     "annotate",
@@ -12069,7 +12010,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "BiocGenerics",
     "graphite",
     "Biobase",
@@ -12123,7 +12063,6 @@
   "PoDCall": [],
   "PolySTest": [
     "limma",
-    "qvalue",
     "SummarizedExperiment",
     "S4Vectors",
     "BiocGenerics",
@@ -12541,7 +12480,6 @@
     "Seqinfo"
   ],
   "RAIDS": [
-    "SNPRelate",
     "GENESIS",
     "Rsamtools",
     "S4Vectors",
@@ -12570,7 +12508,6 @@
     "Rhtslib",
     "SummarizedExperiment",
     "UCSC.utils",
-    "quantsmooth",
     "GenomicAlignments",
     "S4Arrays",
     "DelayedArray",
@@ -12771,9 +12708,7 @@
     "BiocGenerics"
   ],
   "RDRToolbox": [],
-  "REBET": [
-    "ASSET"
-  ],
+  "REBET": [],
   "REDseq": [
     "BiocGenerics",
     "multtest",
@@ -12926,7 +12861,6 @@
     "KEGGREST",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "DESeq2",
     "BiocParallel",
     "HTSFilter",
@@ -13074,7 +13008,6 @@
     "GenomicAlignments",
     "GenomicFeatures",
     "GenomicFiles",
-    "qvalue",
     "Rsamtools",
     "UCSC.utils",
     "BiocFileCache",
@@ -13241,7 +13174,6 @@
     "SparseArray"
   ],
   "RNAsense": [
-    "qvalue",
     "SummarizedExperiment",
     "GenomicRanges",
     "Biobase",
@@ -13618,7 +13550,6 @@
     "Rhtslib"
   ],
   "RbowtieCuda": [],
-  "Rbwa": [],
   "Rcpi": [
     "Biostrings",
     "GOSemSim",
@@ -13708,7 +13639,6 @@
     "BiocFileCache",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "GenomicRanges",
     "Biobase",
     "IRanges",
@@ -13914,7 +13844,6 @@
     "S4Vectors",
     "IRanges",
     "GenomicRanges",
-    "qvalue",
     "DESeq2",
     "BiocFileCache",
     "BiocGenerics",
@@ -14056,7 +13985,6 @@
     "GenomicAlignments",
     "GenomicFeatures",
     "GenomicFiles",
-    "qvalue",
     "Rsamtools",
     "UCSC.utils",
     "BiocIO",
@@ -14070,13 +13998,11 @@
     "limma",
     "affy",
     "impute",
-    "qvalue",
     "BiocGenerics"
   ],
   "RolDE": [
     "ROTS",
     "SummarizedExperiment",
-    "qvalue",
     "Biobase",
     "BiocParallel",
     "GenomicRanges",
@@ -14323,7 +14249,6 @@
   ],
   "SDAMS": [
     "SummarizedExperiment",
-    "qvalue",
     "GenomicRanges",
     "Biobase",
     "BiocGenerics",
@@ -14480,7 +14405,6 @@
   ],
   "SIM": [
     "globaltest",
-    "quantsmooth",
     "Biobase",
     "AnnotationDbi",
     "annotate",
@@ -14506,7 +14430,6 @@
   ],
   "SIMLR": [],
   "SLqPCR": [],
-  "SMAD": [],
   "SMITE": [
     "GenomicRanges",
     "AnnotationDbi",
@@ -14554,8 +14477,6 @@
     "Rhtslib"
   ],
   "SNAGEE": [],
-  "SNPRelate": [],
-  "SNPediaR": [],
   "SOMNiBUS": [
     "IRanges",
     "GenomeInfoDb",
@@ -14914,7 +14835,6 @@
   ],
   "SeqSQC": [
     "ExperimentHub",
-    "SNPRelate",
     "GenomicRanges",
     "IRanges",
     "S4Vectors",
@@ -15244,7 +15164,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "S4Vectors",
-    "qvalue",
     "BiocGenerics",
     "GenomicRanges",
     "DelayedArray",
@@ -16597,7 +16516,6 @@
     "Trendy",
     "AnnotationDbi",
     "GOSemSim",
-    "qvalue",
     "IRanges",
     "DOSE",
     "DelayedMatrixStats",
@@ -16691,7 +16609,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "GOSemSim",
-    "qvalue",
     "GenomicRanges",
     "Biobase",
     "BiocGenerics",
@@ -16999,7 +16916,6 @@
     "KEGGREST",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "GenomicRanges",
     "BiocParallel",
     "Seqinfo",
@@ -17085,7 +17001,6 @@
     "GenomicRanges",
     "GDSArray",
     "DelayedDataFrame",
-    "SNPRelate",
     "SeqArray",
     "DelayedArray",
     "Biostrings",
@@ -18138,14 +18053,12 @@
     "Rhtslib"
   ],
   "anota": [
-    "qvalue",
     "multtest",
     "BiocGenerics",
     "Biobase"
   ],
   "anota2seq": [
     "multtest",
-    "qvalue",
     "limma",
     "DESeq2",
     "edgeR",
@@ -18774,7 +18687,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "rtracklayer",
-    "AnVILBase",
     "GCPtools",
     "BiocGenerics",
     "S4Vectors",
@@ -18942,11 +18854,9 @@
     "TCGAutils",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "EBarrays",
     "minet",
     "graphite",
-    "AnVILBase",
     "GCPtools",
     "graph",
     "Biostrings",
@@ -19379,7 +19289,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "limma",
     "S4Vectors",
     "IRanges",
@@ -19465,7 +19374,6 @@
     "S4Vectors",
     "SummarizedExperiment",
     "TCGAutils",
-    "AnVILBase",
     "GCPtools",
     "BiocGenerics",
     "Biobase",
@@ -19585,7 +19493,6 @@
     "biomaRt",
     "genefilter",
     "KEGGREST",
-    "AnVILBase",
     "GCPtools",
     "RBGL",
     "DelayedArray",
@@ -19662,7 +19569,6 @@
     "topGO",
     "clusterProfiler",
     "goseq",
-    "qvalue",
     "rtracklayer",
     "GenomicFeatures",
     "Biostrings",
@@ -19747,7 +19653,6 @@
     "Biobase",
     "BiocGenerics",
     "KEGGREST",
-    "AnVILBase",
     "GCPtools",
     "DelayedArray",
     "S4Arrays",
@@ -20524,7 +20429,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "BiocGenerics",
     "Biobase",
     "IRanges",
@@ -21120,7 +21024,6 @@
     "BSgenome",
     "crisprBase",
     "Seqinfo",
-    "Rbwa",
     "S4Vectors",
     "IRanges",
     "GenomicRanges",
@@ -21470,8 +21373,7 @@
   "cycle": [
     "Mfuzz",
     "Biobase",
-    "BiocGenerics",
-    "tkWidgets"
+    "BiocGenerics"
   ],
   "cydar": [
     "SingleCellExperiment",
@@ -21714,7 +21616,6 @@
     "AnnotationDbi",
     "biomaRt",
     "GOSemSim",
-    "qvalue",
     "DOSE",
     "GenomicFeatures",
     "AnnotationFilter",
@@ -21853,7 +21754,6 @@
     "KEGGREST",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "BiocParallel",
     "Seqinfo",
     "S4Arrays",
@@ -21947,7 +21847,6 @@
     "BiocGenerics",
     "minfi",
     "Seqinfo",
-    "qvalue",
     "Rsamtools",
     "fastseg",
     "rtracklayer",
@@ -22070,7 +21969,6 @@
     "GenomicFiles",
     "GenomicRanges",
     "IRanges",
-    "qvalue",
     "Rsamtools",
     "rtracklayer",
     "S4Vectors",
@@ -22112,7 +22010,6 @@
     "derfinderHelper",
     "GenomicAlignments",
     "GenomicFiles",
-    "qvalue",
     "Rsamtools",
     "rtracklayer",
     "UCSC.utils",
@@ -22670,7 +22567,6 @@
   "edge": [
     "Biobase",
     "sva",
-    "qvalue",
     "BiocGenerics",
     "genefilter",
     "BiocParallel",
@@ -23038,7 +22934,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "IRanges",
     "AnnotationHub",
     "BiocParallel",
@@ -23231,8 +23126,7 @@
   ],
   "erccdashboard": [
     "edgeR",
-    "limma",
-    "qvalue"
+    "limma"
   ],
   "esATAC": [
     "Rsamtools",
@@ -23261,7 +23155,6 @@
     "enrichplot",
     "GenomeInfoDb",
     "GOSemSim",
-    "qvalue",
     "BiocParallel",
     "cigarillo",
     "SummarizedExperiment",
@@ -23351,7 +23244,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "SingleCellExperiment",
     "edgeR",
     "limma",
@@ -23486,7 +23378,6 @@
     "enrichplot",
     "AnnotationDbi",
     "GOSemSim",
-    "qvalue",
     "DOSE",
     "Biostrings",
     "graphite",
@@ -23639,7 +23530,6 @@
     "XVector"
   ],
   "fishpond": [
-    "qvalue",
     "S4Vectors",
     "IRanges",
     "SummarizedExperiment",
@@ -24231,7 +24121,6 @@
     "BiocFileCache",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "Seqinfo",
     "XVector",
     "Biostrings",
@@ -24718,7 +24607,6 @@
     "SparseArray",
     "XVector"
   ],
-  "ggtreeSpace": [],
   "ginmappeR": [
     "KEGGREST",
     "UniProt.ws",
@@ -24889,7 +24777,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "Biobase",
     "BiocGenerics",
     "IRanges",
@@ -24925,7 +24812,6 @@
     "S4Vectors",
     "KEGGREST",
     "GOSemSim",
-    "qvalue",
     "Biostrings",
     "XVector",
     "Seqinfo"
@@ -25084,9 +24970,7 @@
     "GWASTools",
     "VariantAnnotation",
     "SummarizedExperiment",
-    "SNPRelate",
     "Biobase",
-    "quantsmooth",
     "GenomicRanges",
     "BiocGenerics",
     "S4Vectors",
@@ -25451,7 +25335,6 @@
     "XVector",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "SparseArray",
     "annotate",
     "rtracklayer",
@@ -25744,7 +25627,6 @@
     "genefilter",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "SparseArray",
     "txdbmaker",
     "XVector",
@@ -26679,7 +26561,6 @@
     "GWASTools",
     "Biobase",
     "BiocGenerics",
-    "quantsmooth",
     "IRanges",
     "GenomicRanges",
     "SummarizedExperiment",
@@ -27166,7 +27047,6 @@
     "GenomicFeatures",
     "GenomicRanges",
     "IRanges",
-    "qvalue",
     "Rsamtools",
     "rtracklayer",
     "S4Vectors",
@@ -27207,7 +27087,6 @@
     "BiocGenerics",
     "S4Vectors",
     "IRanges",
-    "qvalue",
     "Rsamtools",
     "fastseg",
     "rtracklayer",
@@ -27374,7 +27253,6 @@
     "KEGGREST",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "minfi",
     "GenomeInfoDb",
     "GenomicRanges",
@@ -27418,7 +27296,6 @@
     "S4Vectors",
     "BiocGenerics",
     "Seqinfo",
-    "qvalue",
     "Rsamtools",
     "fastseg",
     "rtracklayer",
@@ -27436,7 +27313,6 @@
     "IRanges",
     "S4Vectors",
     "Seqinfo",
-    "qvalue",
     "Rsamtools",
     "fastseg",
     "rtracklayer",
@@ -27682,7 +27558,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "annotate",
     "graph",
     "graphite",
@@ -27710,7 +27585,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "graphite",
     "Biobase",
     "biomaRt",
@@ -28147,7 +28021,6 @@
     "KEGGREST",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "graphite",
     "DOSE",
     "graph",
@@ -28269,7 +28142,6 @@
     "KEGGREST",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "GenomicRanges",
     "BiocParallel",
     "rtracklayer",
@@ -28536,7 +28408,6 @@
     "MSnbase",
     "msmsEDA",
     "edgeR",
-    "qvalue",
     "limma",
     "mzR",
     "Biobase",
@@ -29068,7 +28939,6 @@
     "Rgraphviz",
     "minet",
     "graph",
-    "qvalue",
     "BiocGenerics"
   ],
   "ngsReports": [
@@ -29132,7 +29002,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "IRanges",
-    "qvalue",
     "bamsignals",
     "rtracklayer",
     "BiocGenerics",
@@ -29382,7 +29251,6 @@
     "MultiDataSet",
     "SummarizedExperiment",
     "BiocGenerics",
-    "qvalue",
     "GenomicRanges",
     "IRanges",
     "S4Vectors",
@@ -29935,7 +29803,6 @@
     "AnnotationDbi",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "IRanges",
     "BiocParallel",
     "BiocGenerics",
@@ -29993,7 +29860,6 @@
     "GSEABase",
     "enrichplot",
     "GOSemSim",
-    "qvalue",
     "SparseArray",
     "rtracklayer",
     "GenomicFeatures",
@@ -30531,7 +30397,6 @@
     "AnnotationDbi",
     "S4Vectors",
     "multtest",
-    "qvalue",
     "limma",
     "DESeq2",
     "edgeR",
@@ -30890,7 +30755,6 @@
     "GenomicAlignments",
     "GenomicFeatures",
     "GenomicFiles",
-    "qvalue",
     "Rsamtools",
     "UCSC.utils",
     "Biostrings",
@@ -31190,7 +31054,6 @@
     "cigarillo",
     "Rhtslib"
   ],
-  "quantsmooth": [],
   "queeems": [
     "Biostrings",
     "BiocGenerics",
@@ -31204,12 +31067,10 @@
     "Biobase",
     "BiocGenerics"
   ],
-  "qvalue": [],
   "r3Cseq": [
     "GenomicRanges",
     "Rsamtools",
     "rtracklayer",
-    "qvalue",
     "Seqinfo",
     "IRanges",
     "Biostrings",
@@ -31457,7 +31318,6 @@
     "GenomicAlignments",
     "GenomicFeatures",
     "GenomicFiles",
-    "qvalue",
     "Rsamtools",
     "UCSC.utils",
     "Biobase",
@@ -31583,7 +31443,6 @@
     "GenomicFeatures",
     "GenomicFiles",
     "IRanges",
-    "qvalue",
     "Rsamtools",
     "rtracklayer",
     "Biobase",
@@ -33910,16 +33769,13 @@
     "multtest",
     "BiocGenerics"
   ],
-  "sights": [
-    "qvalue"
-  ],
+  "sights": [],
   "signatureSearch": [
     "SummarizedExperiment",
     "AnnotationDbi",
     "ExperimentHub",
     "HDF5Array",
     "fgsea",
-    "qvalue",
     "BiocParallel",
     "rhdf5",
     "GSEABase",
@@ -35015,7 +34871,6 @@
     "XVector"
   ],
   "subSeq": [
-    "qvalue",
     "Biobase",
     "BiocGenerics"
   ],
@@ -35258,7 +35113,6 @@
     "GOSemSim",
     "Heatplus",
     "Biobase",
-    "qvalue",
     "multtest",
     "BiocGenerics",
     "S4Vectors",
@@ -35378,7 +35232,6 @@
     "RaggedExperiment",
     "S4Vectors",
     "TCGAutils",
-    "AnVILBase",
     "GCPtools",
     "BiocGenerics",
     "IRanges",
@@ -35611,7 +35464,6 @@
     "BiocGenerics"
   ],
   "timescape": [],
-  "tkWidgets": [],
   "tomoda": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -36287,7 +36139,6 @@
   ],
   "vsclust": [
     "limma",
-    "qvalue",
     "MultiAssayExperiment",
     "clusterProfiler",
     "DOSE",
@@ -36508,7 +36359,6 @@
     "annaffy",
     "vsn",
     "gcrma",
-    "qvalue",
     "BiocGenerics",
     "AnnotationDbi",
     "XVector",
