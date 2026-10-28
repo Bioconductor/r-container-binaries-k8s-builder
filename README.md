@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 15 (0%)
+- **Successfully Built:** 16 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 336
+- **In Progress:** 335
 - **Not Started:** 2083
 
 **Progress:** 0%
@@ -16,7 +16,7 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (15)
+## Successfully Built Packages (16)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -25,6 +25,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
+| [CNAnorm](https://bioconductor.org/packages/3.24/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CNAnorm) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
 | [GAprediction](https://bioconductor.org/packages/3.24/bioc/html/GAprediction.html) | [log](logs/GAprediction/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GAprediction) |
 | [HGC](https://bioconductor.org/packages/3.24/bioc/html/HGC.html) | [log](logs/HGC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HGC) |
@@ -36,7 +37,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (336)
+## In Progress (335)
 - ⏳ `ANCOMBC`
 - ⏳ `ASAFE`
 - ⏳ `ASEB`
@@ -60,7 +61,6 @@
 - ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
 - ⏳ `CGEN`
-- ⏳ `CNAnorm`
 - ⏳ `CONSTANd`
 - ⏳ `COSNet`
 - ⏳ `CausalR`
@@ -87,8 +87,9 @@
 - ⏳ `GEM`
 - ⏳ `GENIE3`
 - ⏳ `GEOfastq`
+- ⏳ `GEOmetadb`
 
-... and 286 more ...
+... and 285 more ...
 
 ## Not Yet Started (2083)
 - ⏸️ `ABSSeq`
@@ -145,5 +146,5 @@
 ... and 2033 more ...
 
 ---
-*Last updated: 2026-10-28 16:29:13 UTC*
-*Packages with verified BBS status: 15*
+*Last updated: 2026-10-28 16:31:14 UTC*
+*Packages with verified BBS status: 16*
