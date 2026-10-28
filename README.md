@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1027 (42%)
+- **Successfully Built:** 1030 (42%)
 - **Failed:** 6 (0%)
-- **In Progress:** 215
-- **Not Started:** 1186
+- **In Progress:** 213
+- **Not Started:** 1185
 
 **Progress:** 42%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1027)
+## Successfully Built Packages (1030)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 977 more ...*
+*... and 980 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (215)
+## In Progress (213)
 - ⏳ `BUScorrect`
 - ⏳ `Battlefield`
 - ⏳ `BioGA`
@@ -139,9 +139,9 @@
 - ⏳ `LACHESIS`
 - ⏳ `LOLA`
 
-... and 165 more ...
+... and 163 more ...
 
-## Not Yet Started (1186)
+## Not Yet Started (1185)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -193,8 +193,8 @@
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
 
-... and 1136 more ...
+... and 1135 more ...
 
 ---
-*Last updated: 2026-10-28 20:38:34 UTC*
+*Last updated: 2026-10-28 20:39:28 UTC*
 *Packages with verified BBS status: 210*
