@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 716 (30%)
+- **Successfully Built:** 721 (30%)
 - **Failed:** 11 (0%)
-- **In Progress:** 47
-- **Not Started:** 1611
+- **In Progress:** 44
+- **Not Started:** 1609
 
 **Progress:** 30%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (716)
+## Successfully Built Packages (721)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 666 more ...*
+*... and 671 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,7 +92,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (47)
+## In Progress (44)
 - ⏳ `BumpyMatrix`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
@@ -123,13 +123,9 @@
 - ⏳ `dStruct`
 - ⏳ `derfinderHelper`
 - ⏳ `fenr`
-- ⏳ `flowTime`
-- ⏳ `flowViz`
+- ⏳ `flowMerge`
 - ⏳ `frmaTools`
-- ⏳ `gaga`
-- ⏳ `geNetClassifier`
 - ⏳ `ggkegg`
-- ⏳ `immunoClust`
 - ⏳ `infinityFlow`
 - ⏳ `maaslin3`
 - ⏳ `makecdfenv`
@@ -137,11 +133,12 @@
 - ⏳ `msPurity`
 - ⏳ `ncdfFlow`
 - ⏳ `nucleoSim`
+- ⏳ `optimalFlow`
 - ⏳ `tidyFlowCore`
 - ⏳ `toppgene`
 - ⏳ `unifiedWMWqPCR`
 
-## Not Yet Started (1611)
+## Not Yet Started (1609)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -193,8 +190,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1561 more ...
+... and 1559 more ...
 
 ---
-*Last updated: 2026-10-28 19:20:37 UTC*
+*Last updated: 2026-10-28 19:21:16 UTC*
 *Packages with verified BBS status: 188*
