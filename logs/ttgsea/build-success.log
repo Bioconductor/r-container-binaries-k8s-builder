@@ -1,0 +1,137 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ttgsea'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ttgsea'
+also installing the dependencies ‘tfautograph’, ‘sylly.en’, ‘sylly’, ‘tensorflow’, ‘tfruns’, ‘zeallot’, ‘koRpus.lang.en’, ‘koRpus’, ‘quanteda’, ‘keras’, ‘textstem’, ‘DiagrammeR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tfautograph_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sylly.en_0.1-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sylly_0.1-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tensorflow_2.20.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tfruns_1.5.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/zeallot_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/koRpus.lang.en_0.1-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/koRpus_0.13-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/quanteda_4.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/keras_2.16.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/textstem_0.1.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/DiagrammeR_1.0.12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ttgsea_1.20.0.tar.gz'
+* installing *binary* package ‘tfautograph’ ...
+* package ‘tfautograph’ successfully unpacked and SHA256 sums checked
+* ‘tfautograph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tfautograph’ as ‘tfautograph_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tfautograph)
+* installing *binary* package ‘sylly’ ...
+* package ‘sylly’ successfully unpacked and SHA256 sums checked
+* ‘sylly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sylly’ as ‘sylly_0.1-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sylly)
+* installing *binary* package ‘tfruns’ ...
+* package ‘tfruns’ successfully unpacked and SHA256 sums checked
+* ‘tfruns’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tfruns’ as ‘tfruns_1.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tfruns)
+* installing *binary* package ‘zeallot’ ...
+* package ‘zeallot’ successfully unpacked and SHA256 sums checked
+* ‘zeallot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zeallot’ as ‘zeallot_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zeallot)
+* installing *binary* package ‘quanteda’ ...
+* package ‘quanteda’ successfully unpacked and SHA256 sums checked
+* ‘quanteda’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘quanteda’ as ‘quanteda_4.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quanteda)
+* installing *binary* package ‘DiagrammeR’ ...
+* package ‘DiagrammeR’ successfully unpacked and SHA256 sums checked
+* ‘DiagrammeR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DiagrammeR’ as ‘DiagrammeR_1.0.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DiagrammeR)
+* installing *binary* package ‘sylly.en’ ...
+* package ‘sylly.en’ successfully unpacked and SHA256 sums checked
+* ‘sylly.en’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sylly.en’ as ‘sylly.en_0.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sylly.en)
+* installing *binary* package ‘tensorflow’ ...
+* package ‘tensorflow’ successfully unpacked and SHA256 sums checked
+* ‘tensorflow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tensorflow’ as ‘tensorflow_2.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensorflow)
+* installing *binary* package ‘koRpus’ ...
+* package ‘koRpus’ successfully unpacked and SHA256 sums checked
+* ‘koRpus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘koRpus’ as ‘koRpus_0.13-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (koRpus)
+* installing *binary* package ‘koRpus.lang.en’ ...
+* package ‘koRpus.lang.en’ successfully unpacked and SHA256 sums checked
+* ‘koRpus.lang.en’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘koRpus.lang.en’ as ‘koRpus.lang.en_0.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (koRpus.lang.en)
+* installing *binary* package ‘keras’ ...
+* package ‘keras’ successfully unpacked and SHA256 sums checked
+* ‘keras’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘keras’ as ‘keras_2.16.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (keras)
+* installing *binary* package ‘textstem’ ...
+* package ‘textstem’ successfully unpacked and SHA256 sums checked
+* ‘textstem’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘textstem’ as ‘textstem_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (textstem)
+* installing *source* package ‘ttgsea’ ...
+** this is package ‘ttgsea’ version ‘1.20.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ttgsea’ as ‘ttgsea_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ttgsea)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLPQYpn/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m24.431s
+user	0m15.444s
+sys	0m5.731s
