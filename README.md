@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 173 (7%)
+- **Successfully Built:** 182 (7%)
 - **Failed:** 1 (0%)
-- **In Progress:** 203
-- **Not Started:** 2057
+- **In Progress:** 200
+- **Not Started:** 2051
 
 **Progress:** 7%
 ```
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (173)
+## Successfully Built Packages (182)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -27,12 +27,14 @@
 | [ASGSCA](https://bioconductor.org/packages/3.24/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
+| [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
 | [CNAnorm](https://bioconductor.org/packages/3.24/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CNAnorm) |
+| [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
 | [DNABarcodeCompatibility](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodeCompatibility.html) | [log](logs/DNABarcodeCompatibility/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodeCompatibility) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
 | [DTA](https://bioconductor.org/packages/3.24/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DTA) |
@@ -43,10 +45,8 @@
 | [DynDoc](https://bioconductor.org/packages/3.24/bioc/html/DynDoc.html) | [log](logs/DynDoc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DynDoc) |
 | [EBSeq](https://bioconductor.org/packages/3.24/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EBSeq) |
 | [EmpiricalBrownsMethod](https://bioconductor.org/packages/3.24/bioc/html/EmpiricalBrownsMethod.html) | [log](logs/EmpiricalBrownsMethod/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EmpiricalBrownsMethod) |
-| [FRGEpistasis](https://bioconductor.org/packages/3.24/bioc/html/FRGEpistasis.html) | [log](logs/FRGEpistasis/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/FRGEpistasis) |
-| [FitHiC](https://bioconductor.org/packages/3.24/bioc/html/FitHiC.html) | [log](logs/FitHiC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/FitHiC) |
 
-*... and 123 more ...*
+*... and 132 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 
-## In Progress (203)
+## In Progress (200)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -112,6 +112,7 @@
 - ⏳ `DNABarcodes`
 - ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
+- ⏳ `GCPtools`
 - ⏳ `GEM`
 - ⏳ `GENIE3`
 - ⏳ `GEOfastq`
@@ -132,11 +133,10 @@
 - ⏳ `GraphAlignment`
 - ⏳ `HDTD`
 - ⏳ `HIREewas`
-- ⏳ `HMMcopy`
 
-... and 153 more ...
+... and 150 more ...
 
-## Not Yet Started (2057)
+## Not Yet Started (2051)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -170,7 +170,6 @@
 - ⏸️ `AlphaMissenseR`
 - ⏸️ `AlpsNMR`
 - ⏸️ `AnVIL`
-- ⏸️ `AnVILAz`
 - ⏸️ `AnVILGCP`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILVRS`
@@ -187,9 +186,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
+- ⏸️ `BCRANK`
 
-... and 2007 more ...
+... and 2001 more ...
 
 ---
-*Last updated: 2026-10-28 17:20:40 UTC*
-*Packages with verified BBS status: 127*
+*Last updated: 2026-10-28 17:22:03 UTC*
+*Packages with verified BBS status: 129*
