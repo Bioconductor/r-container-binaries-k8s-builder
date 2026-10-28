@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 307 (12%)
+- **Successfully Built:** 313 (12%)
 - **Failed:** 3 (0%)
-- **In Progress:** 118
+- **In Progress:** 112
 - **Not Started:** 2006
 
 **Progress:** 12%
@@ -16,7 +16,7 @@
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (307)
+## Successfully Built Packages (313)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DNABarcodeCompatibility](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodeCompatibility.html) | [log](logs/DNABarcodeCompatibility/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodeCompatibility) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
 
-*... and 257 more ...*
+*... and 263 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,7 +84,7 @@
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (118)
+## In Progress (112)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -114,7 +114,6 @@
 - ⏳ `HPiP`
 - ⏳ `HVP`
 - ⏳ `Harman`
-- ⏳ `HilbertVisGUI`
 - ⏳ `HuBMAPR`
 - ⏳ `INPower`
 - ⏳ `INTACT`
@@ -135,8 +134,9 @@
 - ⏳ `Omixer`
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
+- ⏳ `PTMods`
 
-... and 68 more ...
+... and 62 more ...
 
 ## Not Yet Started (2006)
 - ⏸️ `ABarray`
@@ -193,5 +193,5 @@
 ... and 1956 more ...
 
 ---
-*Last updated: 2026-10-28 17:43:01 UTC*
+*Last updated: 2026-10-28 17:44:12 UTC*
 *Packages with verified BBS status: 157*
