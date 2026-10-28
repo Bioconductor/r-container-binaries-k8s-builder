@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 678 (28%)
-- **Failed:** 9 (0%)
-- **In Progress:** 53
+- **Successfully Built:** 694 (29%)
+- **Failed:** 10 (0%)
+- **In Progress:** 36
 - **Not Started:** 1645
 
-**Progress:** 28%
+**Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (678)
+## Successfully Built Packages (694)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 628 more ...*
+*... and 644 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (9)
+## Failed Packages (10)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -85,12 +85,13 @@
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
+| [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (53)
+## In Progress (36)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -100,23 +101,11 @@
 - ⏳ `BiocFHIR`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
-- ⏳ `DFplyr`
 - ⏳ `EBImage`
-- ⏳ `EBarrays`
-- ⏳ `ExploreModelMatrix`
 - ⏳ `FamAgg`
 - ⏳ `GCPtools`
-- ⏳ `GSEAlm`
-- ⏳ `GWASTools`
-- ⏳ `GeneExpressionSignature`
-- ⏳ `GeneSelectMMD`
-- ⏳ `GraphAT`
-- ⏳ `HELP`
-- ⏳ `HEM`
-- ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `IRanges`
-- ⏳ `MOGAMUN`
 - ⏳ `OSTA.data`
 - ⏳ `RGSEA`
 - ⏳ `ReUseData`
@@ -127,22 +116,18 @@
 - ⏳ `aCGH`
 - ⏳ `abseqR`
 - ⏳ `affyContam`
-- ⏳ `alabaster.base`
-- ⏳ `annotationTools`
 - ⏳ `anota`
 - ⏳ `brendaDb`
-- ⏳ `cancerclass`
 - ⏳ `cogena`
 - ⏳ `cycle`
 - ⏳ `fenr`
-- ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `ggkegg`
 - ⏳ `maaslin3`
 - ⏳ `makecdfenv`
 - ⏳ `matter`
-
-... and 3 more ...
+- ⏳ `msPurity`
+- ⏳ `unifiedWMWqPCR`
 
 ## Not Yet Started (1645)
 - ⏸️ `ACE`
@@ -199,5 +184,5 @@
 ... and 1595 more ...
 
 ---
-*Last updated: 2026-10-28 19:09:57 UTC*
-*Packages with verified BBS status: 183*
+*Last updated: 2026-10-28 19:14:41 UTC*
+*Packages with verified BBS status: 184*
