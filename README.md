@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 848 (35%)
+- **Successfully Built:** 850 (35%)
 - **Failed:** 11 (0%)
 - **In Progress:** 180
-- **Not Started:** 1346
+- **Not Started:** 1344
 
 **Progress:** 36%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (848)
+## Successfully Built Packages (850)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,11 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 798 more ...*
+*... and 800 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
+| [tomoda](https://bioconductor.org/packages/3.23/bioc/html/tomoda.html) | [log](logs/tomoda/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoda) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [toppgene](https://bioconductor.org/packages/3.23/bioc/html/toppgene.html) | [log](logs/toppgene/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/toppgene) |
@@ -142,11 +142,11 @@
 - ⏳ `MBQN`
 - ⏳ `MPRAnalyze`
 - ⏳ `Macarron`
-- ⏳ `MetNet`
+- ⏳ `MetMashR`
 
 ... and 130 more ...
 
-## Not Yet Started (1346)
+## Not Yet Started (1344)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -198,8 +198,8 @@
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 
-... and 1296 more ...
+... and 1294 more ...
 
 ---
-*Last updated: 2026-10-28 22:35:36 UTC*
-*Packages with verified BBS status: 194*
+*Last updated: 2026-10-28 22:36:39 UTC*
+*Packages with verified BBS status: 195*
