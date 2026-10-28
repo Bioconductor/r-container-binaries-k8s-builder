@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 437 (17%)
+- **Successfully Built:** 445 (18%)
 - **Failed:** 6 (0%)
-- **In Progress:** 61
-- **Not Started:** 1930
+- **In Progress:** 57
+- **Not Started:** 1926
 
 **Progress:** 18%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (437)
+## Successfully Built Packages (445)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BiocAzul](https://bioconductor.org/packages/3.24/bioc/html/BiocAzul.html) | [log](logs/BiocAzul/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocAzul) |
 
-*... and 387 more ...*
+*... and 395 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (61)
+## In Progress (57)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -106,15 +106,14 @@
 - ⏳ `Harman`
 - ⏳ `HuBMAPR`
 - ⏳ `KinSwingR`
+- ⏳ `LIPIDIFy`
 - ⏳ `MODA`
 - ⏳ `MSstatsResponse`
 - ⏳ `MSstatsTMT`
-- ⏳ `MethylMix`
 - ⏳ `NPARC`
 - ⏳ `NuPoP`
 - ⏳ `OSAT`
 - ⏳ `Omixer`
-- ⏳ `OmnipathR`
 - ⏳ `OpenStats`
 - ⏳ `Oscope`
 - ⏳ `PTMods`
@@ -127,21 +126,22 @@
 - ⏳ `ScreenR`
 - ⏳ `barmixR`
 - ⏳ `biomformat`
-- ⏳ `brendaDb`
-- ⏳ `bugsigdbr`
 - ⏳ `calm`
 - ⏳ `compcodeR`
 - ⏳ `dcGSA`
-- ⏳ `fenr`
+- ⏳ `fobitools`
 - ⏳ `gdscloud`
-- ⏳ `ggkegg`
-- ⏳ `hypeR`
-- ⏳ `miRBaseConverter`
+- ⏳ `metapone`
 - ⏳ `miRNApath`
+- ⏳ `mina`
+- ⏳ `minet`
+- ⏳ `mirTarRnaSeq`
+- ⏳ `ndexr`
+- ⏳ `nnNorm`
 
-... and 11 more ...
+... and 7 more ...
 
-## Not Yet Started (1930)
+## Not Yet Started (1926)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -193,8 +193,8 @@
 - ⏸️ `BUS`
 - ⏸️ `BUScorrect`
 
-... and 1880 more ...
+... and 1876 more ...
 
 ---
-*Last updated: 2026-10-28 18:00:56 UTC*
+*Last updated: 2026-10-28 18:01:51 UTC*
 *Packages with verified BBS status: 181*
