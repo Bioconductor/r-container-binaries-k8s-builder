@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 583 (24%)
+- **Successfully Built:** 588 (24%)
 - **Failed:** 8 (0%)
-- **In Progress:** 109
+- **In Progress:** 104
 - **Not Started:** 1685
 
 **Progress:** 24%
@@ -16,7 +16,7 @@
 ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (583)
+## Successfully Built Packages (588)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 533 more ...*
+*... and 538 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (109)
+## In Progress (104)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -127,7 +127,6 @@
 - ⏳ `NanoStringDiff`
 - ⏳ `NanoTube`
 - ⏳ `OSTA.data`
-- ⏳ `OmicsMLRepoR`
 - ⏳ `PLPE`
 - ⏳ `Pedixplorer`
 - ⏳ `RBGL`
@@ -140,8 +139,9 @@
 - ⏳ `RUVnormalize`
 - ⏳ `RbcBook1`
 - ⏳ `ReUseData`
+- ⏳ `ReadqPCR`
 
-... and 59 more ...
+... and 54 more ...
 
 ## Not Yet Started (1685)
 - ⏸️ `ACE`
@@ -198,5 +198,5 @@
 ... and 1635 more ...
 
 ---
-*Last updated: 2026-10-28 18:47:26 UTC*
+*Last updated: 2026-10-28 18:48:28 UTC*
 *Packages with verified BBS status: 181*
