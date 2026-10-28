@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 646 (27%)
+- **Successfully Built:** 652 (27%)
 - **Failed:** 9 (0%)
-- **In Progress:** 79
+- **In Progress:** 73
 - **Not Started:** 1651
 
 **Progress:** 27%
@@ -16,7 +16,7 @@
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (646)
+## Successfully Built Packages (652)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 596 more ...*
+*... and 602 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (79)
+## In Progress (73)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -116,9 +116,7 @@
 - ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `IRanges`
-- ⏳ `MEIGOR`
 - ⏳ `MOGAMUN`
-- ⏳ `NCIgraph`
 - ⏳ `OSTA.data`
 - ⏳ `RGSEA`
 - ⏳ `ReUseData`
@@ -141,8 +139,10 @@
 - ⏳ `dyebias`
 - ⏳ `fabia`
 - ⏳ `factDesign`
+- ⏳ `fenr`
+- ⏳ `flowCore`
 
-... and 29 more ...
+... and 23 more ...
 
 ## Not Yet Started (1651)
 - ⏸️ `ACE`
@@ -199,5 +199,5 @@
 ... and 1601 more ...
 
 ---
-*Last updated: 2026-10-28 19:02:31 UTC*
+*Last updated: 2026-10-28 19:03:12 UTC*
 *Packages with verified BBS status: 183*
