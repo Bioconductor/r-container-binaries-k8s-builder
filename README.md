@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 412 (16%)
+- **Successfully Built:** 414 (17%)
 - **Failed:** 5 (0%)
-- **In Progress:** 86
-- **Not Started:** 1931
+- **In Progress:** 85
+- **Not Started:** 1930
 
 **Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (412)
+## Successfully Built Packages (414)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
 | [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
 
-*... and 362 more ...*
+*... and 364 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (86)
+## In Progress (85)
 - ⏳ `ASAFE`
 - ⏳ `AlpsNMR`
 - ⏳ `BADER`
@@ -107,7 +107,6 @@
 - ⏳ `DEsingle`
 - ⏳ `DNABarcodes`
 - ⏳ `DepInfeR`
-- ⏳ `DepecheR`
 - ⏳ `EMDomics`
 - ⏳ `EnMCB`
 - ⏳ `GeneOverlap`
@@ -116,6 +115,7 @@
 - ⏳ `HuBMAPR`
 - ⏳ `KinSwingR`
 - ⏳ `MODA`
+- ⏳ `MSTree`
 - ⏳ `MSstatsResponse`
 - ⏳ `MSstatsTMT`
 - ⏳ `MethylMix`
@@ -127,7 +127,6 @@
 - ⏳ `OpenStats`
 - ⏳ `Oscope`
 - ⏳ `PCAN`
-- ⏳ `PLSDAbatch`
 - ⏳ `PTMods`
 - ⏳ `PathNet`
 - ⏳ `PoDCall`
@@ -137,10 +136,11 @@
 - ⏳ `RNAdecay`
 - ⏳ `RProtoBufLib`
 - ⏳ `RedisParam`
+- ⏳ `SCBN`
 
-... and 36 more ...
+... and 35 more ...
 
-## Not Yet Started (1931)
+## Not Yet Started (1930)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -192,8 +192,8 @@
 - ⏸️ `BUS`
 - ⏸️ `BUScorrect`
 
-... and 1881 more ...
+... and 1880 more ...
 
 ---
-*Last updated: 2026-10-28 17:57:23 UTC*
+*Last updated: 2026-10-28 17:57:57 UTC*
 *Packages with verified BBS status: 177*
