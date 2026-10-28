@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 736 (30%)
+- **Successfully Built:** 741 (30%)
 - **Failed:** 6 (0%)
-- **In Progress:** 30
-- **Not Started:** 1662
+- **In Progress:** 38
+- **Not Started:** 1649
 
 **Progress:** 30%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (736)
+## Successfully Built Packages (741)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -27,6 +27,7 @@
 | [ANCOMBC](https://bioconductor.org/packages/3.24/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.24/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANF) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
+| [ASAFE](https://bioconductor.org/packages/3.24/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.24/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
@@ -44,9 +45,8 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.24/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILWorkflow) |
-| [BADER](https://bioconductor.org/packages/3.24/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BADER) |
 
-*... and 686 more ...*
+*... and 691 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,19 +87,25 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (30)
-- ⏳ `ASAFE`
-- ⏳ `Chicago`
+## In Progress (38)
+- ⏳ `DelayedDataFrame`
+- ⏳ `DelayedRandomArray`
+- ⏳ `DuckDBDataFrame`
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `MODA`
+- ⏳ `ResidualMatrix`
+- ⏳ `ScaledMatrix`
 - ⏳ `Seqinfo`
+- ⏳ `TileDBArray`
+- ⏳ `ZarrArray`
+- ⏳ `adverSCarial`
+- ⏳ `beachmat`
 - ⏳ `cola`
 - ⏳ `convert`
 - ⏳ `copa`
 - ⏳ `ddCt`
 - ⏳ `discordant`
 - ⏳ `fabia`
-- ⏳ `gdscloud`
 - ⏳ `geneRecommender`
 - ⏳ `hopach`
 - ⏳ `iBMQ`
@@ -109,17 +115,19 @@
 - ⏳ `massiR`
 - ⏳ `metabCombiner`
 - ⏳ `multtest`
+- ⏳ `orthogene`
 - ⏳ `pandaR`
 - ⏳ `plgem`
 - ⏳ `randPack`
 - ⏳ `rbsurv`
 - ⏳ `rcellminer`
+- ⏳ `rhdf5client`
 - ⏳ `rols`
 - ⏳ `scPassport`
 - ⏳ `sevenbridges`
-- ⏳ `simona`
+- ⏳ `sketchR`
 
-## Not Yet Started (1662)
+## Not Yet Started (1649)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -171,8 +179,8 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
 
-... and 1612 more ...
+... and 1599 more ...
 
 ---
-*Last updated: 2026-10-28 18:26:47 UTC*
-*Packages with verified BBS status: 199*
+*Last updated: 2026-10-28 18:27:52 UTC*
+*Packages with verified BBS status: 200*
