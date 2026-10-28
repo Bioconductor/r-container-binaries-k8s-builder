@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1039 (42%)
+- **Successfully Built:** 1043 (42%)
 - **Failed:** 6 (0%)
-- **In Progress:** 204
-- **Not Started:** 1185
+- **In Progress:** 235
+- **Not Started:** 1150
 
-**Progress:** 42%
+**Progress:** 43%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1039)
+## Successfully Built Packages (1043)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 989 more ...*
+*... and 993 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,28 +87,31 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (204)
+## In Progress (235)
 - ⏳ `BUScorrect`
+- ⏳ `Banksy`
 - ⏳ `Battlefield`
 - ⏳ `BioGA`
 - ⏳ `BiocSklearn`
 - ⏳ `BreastSubtypeR`
+- ⏳ `BulkSignalR`
 - ⏳ `CAEN`
+- ⏳ `CARDspa`
 - ⏳ `CHETAH`
 - ⏳ `CPSM`
 - ⏳ `CRISPRball`
 - ⏳ `CSOA`
-- ⏳ `CellBench`
-- ⏳ `CellTrails`
-- ⏳ `ClusterFoldSimilarity`
+- ⏳ `CTSV`
+- ⏳ `CatsCradle`
 - ⏳ `CrcBiomeScreen`
 - ⏳ `DMRScan`
 - ⏳ `DNAshapeR`
-- ⏳ `DeeDeeExperiment`
+- ⏳ `DenoIST`
 - ⏳ `DiPPER`
 - ⏳ `DifferentialRegulation`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
+- ⏳ `ExperimentSubset`
 - ⏳ `ExpoRiskR`
 - ⏳ `ExpressionAtlas`
 - ⏳ `FeatSeekR`
@@ -135,13 +138,10 @@
 - ⏳ `ILoReg`
 - ⏳ `ISLET`
 - ⏳ `IgGeneUsage`
-- ⏳ `KEGGREST`
-- ⏳ `LACHESIS`
-- ⏳ `LOLA`
 
-... and 154 more ...
+... and 185 more ...
 
-## Not Yet Started (1185)
+## Not Yet Started (1150)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -179,7 +179,6 @@
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
-- ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
@@ -192,9 +191,10 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
+- ⏸️ `BioCor`
 
-... and 1135 more ...
+... and 1100 more ...
 
 ---
-*Last updated: 2026-10-28 20:44:09 UTC*
+*Last updated: 2026-10-28 20:46:16 UTC*
 *Packages with verified BBS status: 210*
