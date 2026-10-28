@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 981 (41%)
+- **Successfully Built:** 984 (41%)
 - **Failed:** 13 (0%)
 - **In Progress:** 178
-- **Not Started:** 1213
+- **Not Started:** 1210
 
 **Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (981)
+## Successfully Built Packages (984)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 
-*... and 931 more ...*
+*... and 934 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -122,6 +122,7 @@
 - ⏳ `ClustAll`
 - ⏳ `ClusterGVis`
 - ⏳ `CoreGx`
+- ⏳ `CyTOFpower`
 - ⏳ `DESeq2`
 - ⏳ `DESpace`
 - ⏳ `DenoIST`
@@ -144,11 +145,10 @@
 - ⏳ `HiCcompare`
 - ⏳ `HilbertCurve`
 - ⏳ `IWTomics`
-- ⏳ `LOLA`
 
 ... and 128 more ...
 
-## Not Yet Started (1213)
+## Not Yet Started (1210)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -200,8 +200,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1163 more ...
+... and 1160 more ...
 
 ---
-*Last updated: 2026-10-28 23:40:59 UTC*
+*Last updated: 2026-10-28 23:42:04 UTC*
 *Packages with verified BBS status: 205*
