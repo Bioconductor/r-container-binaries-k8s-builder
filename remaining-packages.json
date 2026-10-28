@@ -368,21 +368,15 @@
     "AnnotationFilter",
     "SparseArray"
   ],
-  "AnVIL": [
-    "GCPtools"
-  ],
-  "AnVILGCP": [
-    "GCPtools"
-  ],
+  "AnVIL": [],
+  "AnVILGCP": [],
   "AnVILPublish": [
     "AnVIL",
-    "AnVILGCP",
-    "GCPtools"
+    "AnVILGCP"
   ],
   "AnVILWorkflow": [
     "AnVILGCP",
-    "AnVIL",
-    "GCPtools"
+    "AnVIL"
   ],
   "Anaquin": [
     "DESeq2",
@@ -1016,7 +1010,6 @@
   "BiocAzul": [
     "AnVIL",
     "AnVILPublish",
-    "GCPtools",
     "AnVILGCP"
   ],
   "BiocHubsShiny": [
@@ -3702,7 +3695,6 @@
     "h5mread",
     "DESeq2"
   ],
-  "FamAgg": [],
   "FastqCleaner": [
     "Biostrings",
     "ShortRead",
@@ -3860,7 +3852,6 @@
     "Biostrings",
     "XVector"
   ],
-  "GCPtools": [],
   "GDCRNATools": [
     "DESeq2",
     "clusterProfiler",
@@ -3931,7 +3922,6 @@
     "RTCGAToolbox",
     "SummarizedExperiment",
     "TCGAutils",
-    "GCPtools",
     "DelayedArray",
     "S4Arrays",
     "AnnotationDbi",
@@ -4989,7 +4979,6 @@
     "SparseArray",
     "XVector"
   ],
-  "IHW": [],
   "ILoReg": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -11355,7 +11344,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "rtracklayer",
-    "GCPtools",
     "Seqinfo",
     "XVector",
     "Biostrings",
@@ -11475,7 +11463,6 @@
     "enrichplot",
     "GOSemSim",
     "graphite",
-    "GCPtools",
     "Biostrings",
     "DelayedArray",
     "S4Arrays",
@@ -11742,7 +11729,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "brendaDb": [],
   "broadSeq": [
     "SummarizedExperiment",
     "DELocal",
@@ -11810,7 +11796,6 @@
     "RTCGAToolbox",
     "SummarizedExperiment",
     "TCGAutils",
-    "GCPtools",
     "DelayedArray",
     "S4Arrays",
     "AnnotationDbi",
@@ -11882,7 +11867,6 @@
     "biomaRt",
     "genefilter",
     "KEGGREST",
-    "GCPtools",
     "DelayedArray",
     "S4Arrays",
     "GenomeInfoDb",
@@ -11993,7 +11977,6 @@
     "AnnotationDbi",
     "annotate",
     "KEGGREST",
-    "GCPtools",
     "DelayedArray",
     "S4Arrays",
     "GenomeInfoDb",
@@ -15629,7 +15612,6 @@
     "SummarizedExperiment",
     "mosdef",
     "GenomicRanges",
-    "IHW",
     "goseq",
     "GOstats",
     "AnnotationDbi",
@@ -20412,7 +20394,6 @@
   ],
   "scp": [
     "QFeatures",
-    "IHW",
     "MultiAssayExperiment",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -21800,7 +21781,6 @@
     "GenomicRanges",
     "RaggedExperiment",
     "TCGAutils",
-    "GCPtools",
     "Seqinfo",
     "SummarizedExperiment",
     "DelayedArray",
