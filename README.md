@@ -6,20 +6,21 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 227 (9%)
+- **Successfully Built:** 243 (10%)
 - **Failed:** 1 (0%)
-- **In Progress:** 185
-- **Not Started:** 1972
+- **In Progress:** 186
+- **Not Started:** 1955
 
-**Progress:** 9%
+**Progress:** 10%
 ```
-████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (227)
+## Successfully Built Packages (243)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
+| [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
@@ -44,13 +45,11 @@
 | [DART](https://bioconductor.org/packages/3.23/bioc/html/DART.html) | [log](logs/DART/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DART) |
 | [DEGseq](https://bioconductor.org/packages/3.23/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEGseq) |
 | [DEsingle](https://bioconductor.org/packages/3.23/bioc/html/DEsingle.html) | [log](logs/DEsingle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEsingle) |
-| [DNAcycP2](https://bioconductor.org/packages/3.23/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DNAcycP2) |
 
-*... and 177 more ...*
+*... and 193 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [scLANE](https://bioconductor.org/packages/3.23/bioc/html/scLANE.html) | [log](logs/scLANE/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scLANE) |
 | [scShapes](https://bioconductor.org/packages/3.23/bioc/html/scShapes.html) | [log](logs/scShapes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scShapes) |
 | [scTHI](https://bioconductor.org/packages/3.23/bioc/html/scTHI.html) | [log](logs/scTHI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scTHI) |
 | [scToppR](https://bioconductor.org/packages/3.23/bioc/html/scToppR.html) | [log](logs/scToppR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scToppR) |
@@ -63,6 +62,7 @@
 | [shiny.gosling](https://bioconductor.org/packages/3.23/bioc/html/shiny.gosling.html) | [log](logs/shiny.gosling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shiny.gosling) |
 | [shinybiocloader](https://bioconductor.org/packages/3.23/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shinybiocloader) |
 | [sights](https://bioconductor.org/packages/3.23/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sights) |
+| [similaRpeak](https://bioconductor.org/packages/3.23/bioc/html/similaRpeak.html) | [log](logs/similaRpeak/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/similaRpeak) |
 | [snifter](https://bioconductor.org/packages/3.23/bioc/html/snifter.html) | [log](logs/snifter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/snifter) |
 | [sparseMatrixStats](https://bioconductor.org/packages/3.23/bioc/html/sparseMatrixStats.html) | [log](logs/sparseMatrixStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sparseMatrixStats) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
@@ -80,9 +80,9 @@
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (185)
+## In Progress (186)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -102,6 +102,7 @@
 - ⏳ `ClusterSignificance`
 - ⏳ `ComPrAn`
 - ⏳ `DCATS`
+- ⏳ `DEqMS`
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
 - ⏳ `DNAcopy`
@@ -111,33 +112,31 @@
 - ⏳ `DiffLogo`
 - ⏳ `DriverNet`
 - ⏳ `DynDoc`
-- ⏳ `GIGSEA`
-- ⏳ `GLAD`
 - ⏳ `GPA`
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
 - ⏳ `GSAR`
 - ⏳ `GSEAmining`
 - ⏳ `GSgalgoR`
+- ⏳ `GWAS.BAYES`
 - ⏳ `GeneGA`
 - ⏳ `HIREewas`
 - ⏳ `HMMcopy`
-- ⏳ `HPAanalyze`
-- ⏳ `HPiP`
 - ⏳ `HVP`
 - ⏳ `Heatplus`
 - ⏳ `Herper`
-- ⏳ `HilbertVisGUI`
 - ⏳ `HuBMAPR`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
+- ⏳ `ISoLDE`
+- ⏳ `Icens`
+- ⏳ `KinSwingR`
 
-... and 135 more ...
+... and 136 more ...
 
-## Not Yet Started (1972)
-- ⏸️ `ABSSeq`
+## Not Yet Started (1955)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -187,9 +186,10 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
+- ⏸️ `BEAT`
 
-... and 1922 more ...
+... and 1905 more ...
 
 ---
-*Last updated: 2026-10-28 17:26:19 UTC*
-*Packages with verified BBS status: 122*
+*Last updated: 2026-10-28 17:28:50 UTC*
+*Packages with verified BBS status: 124*
