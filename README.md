@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1021 (42%)
+- **Successfully Built:** 1024 (42%)
 - **Failed:** 13 (0%)
-- **In Progress:** 146
-- **Not Started:** 1205
+- **In Progress:** 144
+- **Not Started:** 1204
 
 **Progress:** 43%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1021)
+## Successfully Built Packages (1024)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 
-*... and 971 more ...*
+*... and 974 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,16 +94,13 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (146)
+## In Progress (144)
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
-- ⏳ `Battlefield`
 - ⏳ `BiFET`
-- ⏳ `BioGA`
 - ⏳ `BiocNeighbors`
 - ⏳ `BiocSingular`
-- ⏳ `BiocSklearn`
 - ⏳ `Biostrings`
 - ⏳ `BreastSubtypeR`
 - ⏳ `BulkSignalR`
@@ -145,10 +142,13 @@
 - ⏳ `IWTomics`
 - ⏳ `LOLA`
 - ⏳ `Lheuristic`
+- ⏳ `LinkHD`
+- ⏳ `MOMA`
+- ⏳ `MetMashR`
 
-... and 96 more ...
+... and 94 more ...
 
-## Not Yet Started (1205)
+## Not Yet Started (1204)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -200,8 +200,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1155 more ...
+... and 1154 more ...
 
 ---
-*Last updated: 2026-10-28 23:55:35 UTC*
+*Last updated: 2026-10-28 23:56:29 UTC*
 *Packages with verified BBS status: 206*
