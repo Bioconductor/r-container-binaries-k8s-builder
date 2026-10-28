@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 578 (24%)
+- **Successfully Built:** 579 (24%)
 - **Failed:** 8 (0%)
-- **In Progress:** 108
-- **Not Started:** 1691
+- **In Progress:** 110
+- **Not Started:** 1688
 
 **Progress:** 24%
 ```
 ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (578)
+## Successfully Built Packages (579)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 528 more ...*
+*... and 529 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (108)
+## In Progress (110)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -97,6 +97,7 @@
 - ⏳ `BayesKnockdown`
 - ⏳ `BioQC`
 - ⏳ `BiocFHIR`
+- ⏳ `CGHnormaliter`
 - ⏳ `CMA`
 - ⏳ `COMPASS`
 - ⏳ `CTDquerier`
@@ -126,6 +127,7 @@
 - ⏳ `NanoStringDiff`
 - ⏳ `NanoTube`
 - ⏳ `OSTA.data`
+- ⏳ `OmicsMLRepoR`
 - ⏳ `PLPE`
 - ⏳ `Pedixplorer`
 - ⏳ `RBGL`
@@ -138,12 +140,10 @@
 - ⏳ `RUVnormalize`
 - ⏳ `RbcBook1`
 - ⏳ `ReUseData`
-- ⏳ `ReadqPCR`
-- ⏳ `Rgraphviz`
 
-... and 58 more ...
+... and 60 more ...
 
-## Not Yet Started (1691)
+## Not Yet Started (1688)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -195,8 +195,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1641 more ...
+... and 1638 more ...
 
 ---
-*Last updated: 2026-10-28 18:42:38 UTC*
+*Last updated: 2026-10-28 18:43:58 UTC*
 *Packages with verified BBS status: 181*
