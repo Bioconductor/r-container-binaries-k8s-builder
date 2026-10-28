@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 246 (10%)
+- **Successfully Built:** 252 (10%)
 - **Failed:** 2 (0%)
-- **In Progress:** 167
-- **Not Started:** 2019
+- **In Progress:** 165
+- **Not Started:** 2015
 
 **Progress:** 10%
 ```
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (246)
+## Successfully Built Packages (252)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DTA](https://bioconductor.org/packages/3.24/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DTA) |
 | [DeMAND](https://bioconductor.org/packages/3.24/bioc/html/DeMAND.html) | [log](logs/DeMAND/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeMAND) |
 
-*... and 196 more ...*
+*... and 202 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (167)
+## In Progress (165)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -113,9 +113,6 @@
 - ⏳ `GEOfastq`
 - ⏳ `GEOmetadb`
 - ⏳ `GEWIST`
-- ⏳ `GGPA`
-- ⏳ `GIGSEA`
-- ⏳ `GLAD`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
@@ -134,10 +131,13 @@
 - ⏳ `ISoLDE`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
+- ⏳ `Linnorm`
+- ⏳ `MBttest`
+- ⏳ `MODA`
 
-... and 117 more ...
+... and 115 more ...
 
-## Not Yet Started (2019)
+## Not Yet Started (2015)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -189,8 +189,8 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 
-... and 1969 more ...
+... and 1965 more ...
 
 ---
-*Last updated: 2026-10-28 17:31:05 UTC*
+*Last updated: 2026-10-28 17:32:05 UTC*
 *Packages with verified BBS status: 140*
