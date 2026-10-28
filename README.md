@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 855 (35%)
+- **Successfully Built:** 857 (35%)
 - **Failed:** 11 (0%)
-- **In Progress:** 175
+- **In Progress:** 173
 - **Not Started:** 1344
 
 **Progress:** 36%
@@ -16,7 +16,7 @@
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (855)
+## Successfully Built Packages (857)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 805 more ...*
+*... and 807 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -92,7 +92,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (175)
+## In Progress (173)
 - ⏳ `ALDEx2`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
@@ -128,7 +128,6 @@
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
 - ⏳ `HilbertCurve`
-- ⏳ `ISLET`
 - ⏳ `IWTomics`
 - ⏳ `IgGeneUsage`
 - ⏳ `InteractionSet`
@@ -143,8 +142,9 @@
 - ⏳ `MPRAnalyze`
 - ⏳ `Macarron`
 - ⏳ `MetMashR`
+- ⏳ `MetNet`
 
-... and 125 more ...
+... and 123 more ...
 
 ## Not Yet Started (1344)
 - ⏸️ `ACE`
@@ -201,5 +201,5 @@
 ... and 1294 more ...
 
 ---
-*Last updated: 2026-10-28 22:40:42 UTC*
+*Last updated: 2026-10-28 22:41:45 UTC*
 *Packages with verified BBS status: 199*
