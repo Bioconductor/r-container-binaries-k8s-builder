@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 421 (17%)
-- **Failed:** 5 (0%)
-- **In Progress:** 78
+- **Successfully Built:** 429 (17%)
+- **Failed:** 6 (0%)
+- **In Progress:** 69
 - **Not Started:** 1930
 
 **Progress:** 17%
@@ -16,7 +16,7 @@
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (421)
+## Successfully Built Packages (429)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,9 +44,9 @@
 | [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
-| [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
+| [BiocAzul](https://bioconductor.org/packages/3.24/bioc/html/BiocAzul.html) | [log](logs/BiocAzul/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocAzul) |
 
-*... and 371 more ...*
+*... and 379 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (5)
+## Failed Packages (6)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,15 +84,15 @@
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
+| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (78)
+## In Progress (69)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
 - ⏳ `BioCartaImage`
-- ⏳ `BiocAzul`
 - ⏳ `BiocBuildReporter`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocWorkflowTools`
@@ -100,8 +100,6 @@
 - ⏳ `CFAssay`
 - ⏳ `Chicago`
 - ⏳ `CytoGLMM`
-- ⏳ `DART`
-- ⏳ `DCATS`
 - ⏳ `DEsingle`
 - ⏳ `DNABarcodes`
 - ⏳ `DepInfeR`
@@ -123,22 +121,25 @@
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
 - ⏳ `Oscope`
-- ⏳ `PCAN`
 - ⏳ `PTMods`
 - ⏳ `PathNet`
 - ⏳ `PoDCall`
 - ⏳ `ProtGenerics`
-- ⏳ `QRscore`
 - ⏳ `QUBIC`
 - ⏳ `RNAdecay`
-- ⏳ `RedisParam`
 - ⏳ `SCBN`
-- ⏳ `SCFA`
 - ⏳ `SIMLR`
-- ⏳ `SUITOR`
 - ⏳ `ScreenR`
+- ⏳ `SuperCellCyto`
+- ⏳ `bacon`
+- ⏳ `barmixR`
+- ⏳ `biomformat`
+- ⏳ `brendaDb`
+- ⏳ `bugsigdbr`
+- ⏳ `calm`
+- ⏳ `compcodeR`
 
-... and 28 more ...
+... and 19 more ...
 
 ## Not Yet Started (1930)
 - ⏸️ `ABarray`
@@ -195,5 +196,5 @@
 ... and 1880 more ...
 
 ---
-*Last updated: 2026-10-28 17:59:06 UTC*
-*Packages with verified BBS status: 179*
+*Last updated: 2026-10-28 17:59:58 UTC*
+*Packages with verified BBS status: 181*
