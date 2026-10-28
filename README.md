@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 383 (15%)
+- **Successfully Built:** 394 (16%)
 - **Failed:** 5 (0%)
-- **In Progress:** 70
-- **Not Started:** 1976
+- **In Progress:** 97
+- **Not Started:** 1938
 
-**Progress:** 15%
+**Progress:** 16%
 ```
-███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (383)
+## Successfully Built Packages (394)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -29,6 +29,8 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
+| [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
+| [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
@@ -37,16 +39,14 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.24/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILWorkflow) |
+| [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
 | [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
 | [BiocMaintainerApp](https://bioconductor.org/packages/3.24/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocMaintainerApp) |
-| [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
-| [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
-| [BiocVersion](https://bioconductor.org/packages/3.24/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocVersion) |
 
-*... and 333 more ...*
+*... and 344 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,13 +86,14 @@
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (70)
+## In Progress (97)
 - ⏳ `ASAFE`
-- ⏳ `AlphaMissenseR`
 - ⏳ `BADER`
+- ⏳ `BANDITS`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
 - ⏳ `BioCartaImage`
+- ⏳ `BiocAzul`
 - ⏳ `BiocBuildReporter`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocWorkflowTools`
@@ -101,46 +102,45 @@
 - ⏳ `Chicago`
 - ⏳ `Clomial`
 - ⏳ `ClusterJudge`
+- ⏳ `CytoGLMM`
 - ⏳ `DART`
 - ⏳ `DCATS`
+- ⏳ `DEsingle`
 - ⏳ `DNABarcodes`
+- ⏳ `DepInfeR`
+- ⏳ `EMDomics`
 - ⏳ `EnMCB`
 - ⏳ `GeneOverlap`
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `HuBMAPR`
-- ⏳ `Linnorm`
+- ⏳ `KinSwingR`
 - ⏳ `MODA`
+- ⏳ `MSstatsResponse`
 - ⏳ `MSstatsTMT`
 - ⏳ `MethylMix`
+- ⏳ `NPARC`
 - ⏳ `NTW`
 - ⏳ `NetPathMiner`
 - ⏳ `NuPoP`
 - ⏳ `OSAT`
-- ⏳ `OSTA.data`
 - ⏳ `Omixer`
 - ⏳ `OmnipathR`
 - ⏳ `OpenStats`
+- ⏳ `Oscope`
+- ⏳ `PCAN`
 - ⏳ `PTMods`
 - ⏳ `PathNet`
 - ⏳ `PoDCall`
 - ⏳ `ProtGenerics`
+- ⏳ `QRscore`
 - ⏳ `QUBIC`
-- ⏳ `RNASeqPower`
 - ⏳ `RNAdecay`
-- ⏳ `ROC`
-- ⏳ `ROSeq`
 - ⏳ `RProtoBufLib`
-- ⏳ `Rvisdiff`
-- ⏳ `SCBN`
-- ⏳ `SIMLR`
-- ⏳ `ScreenR`
-- ⏳ `TreeAndLeaf`
-- ⏳ `biomformat`
 
-... and 20 more ...
+... and 47 more ...
 
-## Not Yet Started (1976)
+## Not Yet Started (1938)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -168,7 +168,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AlphaBeta`
 - ⏸️ `AlpsNMR`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationDbi`
@@ -178,22 +177,23 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `AssessORF`
-- ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
-- ⏸️ `BEclear`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
+- ⏸️ `BSgenomeForge`
+- ⏸️ `BUMHMM`
+- ⏸️ `BUS`
 
-... and 1926 more ...
+... and 1888 more ...
 
 ---
-*Last updated: 2026-10-28 17:53:12 UTC*
-*Packages with verified BBS status: 172*
+*Last updated: 2026-10-28 17:55:35 UTC*
+*Packages with verified BBS status: 175*
