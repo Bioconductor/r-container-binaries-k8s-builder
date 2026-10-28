@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 391 (16%)
+- **Successfully Built:** 396 (16%)
 - **Failed:** 6 (0%)
-- **In Progress:** 78
-- **Not Started:** 1910
+- **In Progress:** 74
+- **Not Started:** 1909
 
 **Progress:** 16%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (391)
+## Successfully Built Packages (396)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 | [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
 
-*... and 341 more ...*
+*... and 346 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,13 +87,14 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (78)
+## In Progress (74)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocStyle`
+- ⏳ `BufferedMatrixMethods`
 - ⏳ `Chicago`
 - ⏳ `Clomial`
 - ⏳ `DCATS`
@@ -137,11 +138,10 @@
 - ⏳ `STRINGdb`
 - ⏳ `SamSPECTRAL`
 - ⏳ `ScreenR`
-- ⏳ `biomformat`
 
-... and 28 more ...
+... and 24 more ...
 
-## Not Yet Started (1910)
+## Not Yet Started (1909)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -193,8 +193,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1860 more ...
+... and 1859 more ...
 
 ---
-*Last updated: 2026-10-28 17:51:13 UTC*
+*Last updated: 2026-10-28 17:51:55 UTC*
 *Packages with verified BBS status: 154*
