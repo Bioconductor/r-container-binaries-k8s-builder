@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 445 (18%)
+- **Successfully Built:** 449 (18%)
 - **Failed:** 6 (0%)
-- **In Progress:** 57
-- **Not Started:** 1926
+- **In Progress:** 54
+- **Not Started:** 1925
 
 **Progress:** 18%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (445)
+## Successfully Built Packages (449)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BiocAzul](https://bioconductor.org/packages/3.24/bioc/html/BiocAzul.html) | [log](logs/BiocAzul/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocAzul) |
 
-*... and 395 more ...*
+*... and 399 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,10 +84,10 @@
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (57)
+## In Progress (54)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -106,7 +106,6 @@
 - ⏳ `Harman`
 - ⏳ `HuBMAPR`
 - ⏳ `KinSwingR`
-- ⏳ `LIPIDIFy`
 - ⏳ `MODA`
 - ⏳ `MSstatsResponse`
 - ⏳ `MSstatsTMT`
@@ -131,17 +130,18 @@
 - ⏳ `dcGSA`
 - ⏳ `fobitools`
 - ⏳ `gdscloud`
-- ⏳ `metapone`
-- ⏳ `miRNApath`
 - ⏳ `mina`
 - ⏳ `minet`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `ndexr`
 - ⏳ `nnNorm`
+- ⏳ `proteinProfiles`
+- ⏳ `rBiopaxParser`
+- ⏳ `scTHI`
 
-... and 7 more ...
+... and 4 more ...
 
-## Not Yet Started (1926)
+## Not Yet Started (1925)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -193,8 +193,8 @@
 - ⏸️ `BUS`
 - ⏸️ `BUScorrect`
 
-... and 1876 more ...
+... and 1875 more ...
 
 ---
-*Last updated: 2026-10-28 18:01:51 UTC*
+*Last updated: 2026-10-28 18:02:59 UTC*
 *Packages with verified BBS status: 181*

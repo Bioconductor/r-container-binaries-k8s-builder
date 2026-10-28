@@ -1,0 +1,104 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''LIPIDIFy'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'LIPIDIFy'
+also installing the dependencies ‘AsioHeaders’, ‘pingr’, ‘websocket’, ‘sva’, ‘shinytest2’, ‘chromote’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/AsioHeaders_1.30.2-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pingr_2.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/websocket_1.4.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/sva_3.59.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinytest2_0.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/chromote_0.5.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/LIPIDIFy_0.99.7.tar.gz'
+* installing *binary* package ‘AsioHeaders’ ...
+* package ‘AsioHeaders’ successfully unpacked and SHA256 sums checked
+* ‘AsioHeaders’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AsioHeaders’ as ‘AsioHeaders_1.30.2-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AsioHeaders)
+* installing *binary* package ‘pingr’ ...
+* package ‘pingr’ successfully unpacked and SHA256 sums checked
+* ‘pingr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pingr’ as ‘pingr_2.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pingr)
+* installing *source* package ‘sva’ ...
+** this is package ‘sva’ version ‘3.59.0’
+** package ‘sva’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sva.c -o sva.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sva.so sva.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-sva/00new/sva/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sva’ as ‘sva_3.59.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sva)
+* installing *source* package ‘LIPIDIFy’ ...
+** this is package ‘LIPIDIFy’ version ‘0.99.7’
+** package ‘LIPIDIFy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LIPIDIFy’ as ‘LIPIDIFy_0.99.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LIPIDIFy)
+* installing *binary* package ‘websocket’ ...
+* package ‘websocket’ successfully unpacked and SHA256 sums checked
+* ‘websocket’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘websocket’ as ‘websocket_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (websocket)
+* installing *binary* package ‘chromote’ ...
+* package ‘chromote’ successfully unpacked and SHA256 sums checked
+* ‘chromote’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘chromote’ as ‘chromote_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chromote)
+* installing *binary* package ‘shinytest2’ ...
+* package ‘shinytest2’ successfully unpacked and SHA256 sums checked
+* ‘shinytest2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinytest2’ as ‘shinytest2_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinytest2)
+
+The downloaded source packages are in
+	‘/tmp/RtmpW050o8/downloaded_packages’
+
+real	0m43.749s
+user	0m32.744s
+sys	0m7.137s
