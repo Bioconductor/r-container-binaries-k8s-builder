@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 190 (7%)
+- **Successfully Built:** 195 (8%)
 - **Failed:** 1 (0%)
-- **In Progress:** 196
+- **In Progress:** 191
 - **Not Started:** 2047
 
-**Progress:** 7%
+**Progress:** 8%
 ```
-███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (190)
+## Successfully Built Packages (195)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DynDoc](https://bioconductor.org/packages/3.24/bioc/html/DynDoc.html) | [log](logs/DynDoc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DynDoc) |
 | [EBSeq](https://bioconductor.org/packages/3.24/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EBSeq) |
 
-*... and 140 more ...*
+*... and 145 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 
-## In Progress (196)
+## In Progress (191)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -121,9 +121,7 @@
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 - ⏳ `GRENITS`
-- ⏳ `GSALightning`
 - ⏳ `GSAR`
-- ⏳ `GSEAmining`
 - ⏳ `GSgalgoR`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
@@ -133,8 +131,10 @@
 - ⏳ `HIREewas`
 - ⏳ `HPiP`
 - ⏳ `HVP`
+- ⏳ `Harman`
+- ⏳ `Heatplus`
 
-... and 146 more ...
+... and 141 more ...
 
 ## Not Yet Started (2047)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1997 more ...
 
 ---
-*Last updated: 2026-10-28 17:23:14 UTC*
+*Last updated: 2026-10-28 17:24:19 UTC*
 *Packages with verified BBS status: 131*
