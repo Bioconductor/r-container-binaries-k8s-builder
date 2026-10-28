@@ -6,23 +6,24 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 988 (40%)
+- **Successfully Built:** 998 (41%)
 - **Failed:** 6 (0%)
-- **In Progress:** 156
-- **Not Started:** 1284
+- **In Progress:** 225
+- **Not Started:** 1205
 
-**Progress:** 40%
+**Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (988)
+## Successfully Built Packages (998)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.24/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.24/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.24/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ACME) |
+| [ADImpute](https://bioconductor.org/packages/3.24/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADImpute) |
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.24/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ALDEx2) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
@@ -33,6 +34,7 @@
 | [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.24/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
+| [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
@@ -43,10 +45,8 @@
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
-| [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
-| [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 938 more ...*
+*... and 948 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,17 +87,24 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (156)
+## In Progress (225)
 - ⏳ `BUScorrect`
 - ⏳ `Battlefield`
 - ⏳ `BioGA`
 - ⏳ `BiocSklearn`
 - ⏳ `BreastSubtypeR`
 - ⏳ `CAEN`
+- ⏳ `CDI`
+- ⏳ `CHETAH`
 - ⏳ `CPSM`
 - ⏳ `CSOA`
+- ⏳ `CellBench`
+- ⏳ `CellTrails`
+- ⏳ `ClusterFoldSimilarity`
 - ⏳ `DMRScan`
 - ⏳ `DNAshapeR`
+- ⏳ `DeeDeeExperiment`
+- ⏳ `DifferentialRegulation`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
 - ⏳ `ExpoRiskR`
@@ -116,10 +123,14 @@
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GenomicTuples`
 - ⏳ `GeoTcgaData`
+- ⏳ `GloScope`
 - ⏳ `GrafGen`
+- ⏳ `GraphExperiment`
 - ⏳ `HERON`
+- ⏳ `HIPPO`
 - ⏳ `HilbertCurve`
 - ⏳ `IFAA`
+- ⏳ `ILoReg`
 - ⏳ `ISLET`
 - ⏳ `IgGeneUsage`
 - ⏳ `KEGGREST`
@@ -127,26 +138,14 @@
 - ⏳ `LOLA`
 - ⏳ `LRDE`
 - ⏳ `LimROTS`
-- ⏳ `LipidTrend`
-- ⏳ `MAI`
-- ⏳ `MBASED`
-- ⏳ `MBQN`
-- ⏳ `MEDME`
-- ⏳ `MPRAnalyze`
-- ⏳ `Macarron`
-- ⏳ `MetNet`
-- ⏳ `MicrobiotaProcess`
-- ⏳ `MsFeatures`
-- ⏳ `MultiAssayExperiment`
 
-... and 106 more ...
+... and 175 more ...
 
-## Not Yet Started (1284)
+## Not Yet Started (1205)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
-- ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -154,7 +153,6 @@
 - ⏸️ `APL`
 - ⏸️ `ASICS`
 - ⏸️ `ASSIGN`
-- ⏸️ `ASURAT`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -178,7 +176,6 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
@@ -192,9 +189,12 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
+- ⏸️ `BiSeq`
+- ⏸️ `BicARE`
+- ⏸️ `BindingSiteFinder`
 
-... and 1234 more ...
+... and 1155 more ...
 
 ---
-*Last updated: 2026-10-28 20:15:46 UTC*
-*Packages with verified BBS status: 207*
+*Last updated: 2026-10-28 20:19:11 UTC*
+*Packages with verified BBS status: 209*
