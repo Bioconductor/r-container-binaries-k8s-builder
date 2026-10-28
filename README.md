@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 149 (6%)
+- **Successfully Built:** 164 (6%)
 - **Failed:** 1 (0%)
-- **In Progress:** 252
-- **Not Started:** 1983
+- **In Progress:** 238
+- **Not Started:** 1982
 
 **Progress:** 6%
 ```
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (149)
+## Successfully Built Packages (164)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,13 +46,12 @@
 | [Harman](https://bioconductor.org/packages/3.23/bioc/html/Harman.html) | [log](logs/Harman/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Harman) |
 | [INPower](https://bioconductor.org/packages/3.23/bioc/html/INPower.html) | [log](logs/INPower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/INPower) |
 
-*... and 99 more ...*
+*... and 114 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [quantsmooth](https://bioconductor.org/packages/3.23/bioc/html/quantsmooth.html) | [log](logs/quantsmooth/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/quantsmooth) |
-| [qvalue](https://bioconductor.org/packages/3.23/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/qvalue) |
 | [sagenhaft](https://bioconductor.org/packages/3.23/bioc/html/sagenhaft.html) | [log](logs/sagenhaft/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sagenhaft) |
+| [scFeatureFilter](https://bioconductor.org/packages/3.23/bioc/html/scFeatureFilter.html) | [log](logs/scFeatureFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scFeatureFilter) |
 | [scLANE](https://bioconductor.org/packages/3.23/bioc/html/scLANE.html) | [log](logs/scLANE/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scLANE) |
 | [scShapes](https://bioconductor.org/packages/3.23/bioc/html/scShapes.html) | [log](logs/scShapes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scShapes) |
 | [scTHI](https://bioconductor.org/packages/3.23/bioc/html/scTHI.html) | [log](logs/scTHI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scTHI) |
@@ -63,6 +62,7 @@
 | [seq.hotSPOT](https://bioconductor.org/packages/3.23/bioc/html/seq.hotSPOT.html) | [log](logs/seq.hotSPOT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seq.hotSPOT) |
 | [seqLogo](https://bioconductor.org/packages/3.23/bioc/html/seqLogo.html) | [log](logs/seqLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seqLogo) |
 | [seqcombo](https://bioconductor.org/packages/3.23/bioc/html/seqcombo.html) | [log](logs/seqcombo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seqcombo) |
+| [shiny.gosling](https://bioconductor.org/packages/3.23/bioc/html/shiny.gosling.html) | [log](logs/shiny.gosling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shiny.gosling) |
 | [shinybiocloader](https://bioconductor.org/packages/3.23/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shinybiocloader) |
 | [sights](https://bioconductor.org/packages/3.23/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sights) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (252)
+## In Progress (238)
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -134,9 +134,9 @@
 - ⏳ `GSALightning`
 - ⏳ `GSAR`
 
-... and 202 more ...
+... and 188 more ...
 
-## Not Yet Started (1983)
+## Not Yet Started (1982)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 1933 more ...
+... and 1932 more ...
 
 ---
-*Last updated: 2026-10-28 17:14:02 UTC*
-*Packages with verified BBS status: 108*
+*Last updated: 2026-10-28 17:16:37 UTC*
+*Packages with verified BBS status: 110*

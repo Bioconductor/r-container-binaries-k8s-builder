@@ -1,0 +1,197 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''shiny.gosling'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'shiny.gosling'
+also installing the dependencies ‘xmlparsedata’, ‘dichromat’, ‘ensembldb’, ‘OrganismDbi’, ‘shiny.react’, ‘config’, ‘lintr’, ‘mockery’, ‘StructuralVariantAnnotation’, ‘biovizBase’, ‘ggbio’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/xmlparsedata_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dichromat_2.0-1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ensembldb_2.36.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/OrganismDbi_1.54.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shiny.react_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/config_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lintr_3.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mockery_0.4.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/StructuralVariantAnnotation_1.28.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/biovizBase_1.60.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ggbio_1.60.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/shiny.gosling_1.8.0.tar.gz'
+* installing *binary* package ‘xmlparsedata’ ...
+* package ‘xmlparsedata’ successfully unpacked and SHA256 sums checked
+* ‘xmlparsedata’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘xmlparsedata’ as ‘xmlparsedata_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xmlparsedata)
+* installing *binary* package ‘dichromat’ ...
+* package ‘dichromat’ successfully unpacked and SHA256 sums checked
+* ‘dichromat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dichromat’ as ‘dichromat_2.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dichromat)
+* installing *source* package ‘ensembldb’ ...
+** this is package ‘ensembldb’ version ‘2.36.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function from function ‘.cds_for_id2’ in package ‘ensembldb’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ensembldb’ as ‘ensembldb_2.36.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ensembldb)
+* installing *source* package ‘OrganismDbi’ ...
+** this is package ‘OrganismDbi’ version ‘1.54.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OrganismDbi’ as ‘OrganismDbi_1.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OrganismDbi)
+* installing *binary* package ‘shiny.react’ ...
+* package ‘shiny.react’ successfully unpacked and SHA256 sums checked
+* ‘shiny.react’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shiny.react’ as ‘shiny.react_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shiny.react)
+* installing *binary* package ‘config’ ...
+* package ‘config’ successfully unpacked and SHA256 sums checked
+* ‘config’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘config’ as ‘config_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (config)
+* installing *binary* package ‘mockery’ ...
+* package ‘mockery’ successfully unpacked and SHA256 sums checked
+* ‘mockery’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mockery’ as ‘mockery_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mockery)
+* installing *source* package ‘StructuralVariantAnnotation’ ...
+** this is package ‘StructuralVariantAnnotation’ version ‘1.28.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘StructuralVariantAnnotation’ as ‘StructuralVariantAnnotation_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (StructuralVariantAnnotation)
+* installing *binary* package ‘lintr’ ...
+* package ‘lintr’ successfully unpacked and SHA256 sums checked
+* ‘lintr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lintr’ as ‘lintr_3.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lintr)
+* installing *source* package ‘biovizBase’ ...
+** this is package ‘biovizBase’ version ‘1.60.0’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_biovizBase.c -o R_init_biovizBase.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bin_offsets.c -o bin_offsets.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o biovizBase.so R_init_biovizBase.o bin_offsets.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-biovizBase/00new/biovizBase/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biovizBase’ as ‘biovizBase_1.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biovizBase)
+* installing *source* package ‘shiny.gosling’ ...
+** this is package ‘shiny.gosling’ version ‘1.8.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shiny.gosling’ as ‘shiny.gosling_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shiny.gosling)
+* installing *source* package ‘ggbio’ ...
+** this is package ‘ggbio’ version ‘1.60.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for 'rescale' in package 'ggbio'
+Creating a new generic function for 'xlim' in package 'ggbio'
+Creating a new generic function for 'geom_rect' in package 'ggbio'
+Creating a new generic function for 'geom_segment' in package 'ggbio'
+Creating a new generic function for 'geom_bar' in package 'ggbio'
+Creating a new generic function for 'stat_identity' in package 'ggbio'
+Creating a new generic function for 'stat_bin' in package 'ggbio'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggbio’ as ‘ggbio_1.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggbio)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBJHVy5/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	3m47.170s
+user	3m21.502s
+sys	0m22.374s
