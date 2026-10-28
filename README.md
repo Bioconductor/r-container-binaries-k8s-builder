@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 346 (14%)
+- **Successfully Built:** 351 (14%)
 - **Failed:** 4 (0%)
-- **In Progress:** 91
-- **Not Started:** 1993
+- **In Progress:** 88
+- **Not Started:** 1991
 
 **Progress:** 14%
 ```
 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (346)
+## Successfully Built Packages (351)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
 | [DEqMS](https://bioconductor.org/packages/3.24/bioc/html/DEqMS.html) | [log](logs/DEqMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEqMS) |
 
-*... and 296 more ...*
+*... and 301 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,8 +85,10 @@
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (91)
+## In Progress (88)
 - ⏳ `ASAFE`
+- ⏳ `AnVIL`
+- ⏳ `AnVILGCP`
 - ⏳ `BADER`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
@@ -112,14 +114,9 @@
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `HuBMAPR`
-- ⏳ `ISAnalytics`
-- ⏳ `ISoLDE`
-- ⏳ `Icens`
-- ⏳ `Informeasure`
 - ⏳ `Linnorm`
 - ⏳ `MODA`
 - ⏳ `MSstatsTMT`
-- ⏳ `MeasurementError.cor`
 - ⏳ `MethylMix`
 - ⏳ `NTW`
 - ⏳ `NetPathMiner`
@@ -136,10 +133,13 @@
 - ⏳ `RLMM`
 - ⏳ `RLassoCox`
 - ⏳ `RNASeqPower`
+- ⏳ `RNAdecay`
+- ⏳ `ROC`
+- ⏳ `ROSeq`
 
-... and 41 more ...
+... and 38 more ...
 
-## Not Yet Started (1993)
+## Not Yet Started (1991)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -170,8 +170,6 @@
 - ⏸️ `AlphaBeta`
 - ⏸️ `AlphaMissenseR`
 - ⏸️ `AlpsNMR`
-- ⏸️ `AnVIL`
-- ⏸️ `AnVILGCP`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILVRS`
 - ⏸️ `AnVILWorkflow`
@@ -190,9 +188,11 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
+- ⏸️ `BEclear`
+- ⏸️ `BLMA`
 
-... and 1943 more ...
+... and 1941 more ...
 
 ---
-*Last updated: 2026-10-28 17:49:00 UTC*
+*Last updated: 2026-10-28 17:50:11 UTC*
 *Packages with verified BBS status: 159*
