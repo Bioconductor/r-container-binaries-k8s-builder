@@ -1,0 +1,140 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''phylobar'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'phylobar'
+also installing the dependencies ‘SnowballC’, ‘janeaustenr’, ‘tokenizers’, ‘tidytext’, ‘ca’, ‘gclus’, ‘qap’, ‘TSP’, ‘phangorn’, ‘miaViz’, ‘seriation’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SnowballC_0.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/janeaustenr_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tokenizers_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidytext_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ca_0.72.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gclus_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qap_0.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TSP_1.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phangorn_2.12.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/miaViz_1.21.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/seriation_1.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/phylobar_0.99.12.tar.gz'
+* installing *binary* package ‘SnowballC’ ...
+* package ‘SnowballC’ successfully unpacked and SHA256 sums checked
+* ‘SnowballC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SnowballC’ as ‘SnowballC_0.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SnowballC)
+* installing *binary* package ‘janeaustenr’ ...
+* package ‘janeaustenr’ successfully unpacked and SHA256 sums checked
+* ‘janeaustenr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘janeaustenr’ as ‘janeaustenr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (janeaustenr)
+* installing *binary* package ‘ca’ ...
+* package ‘ca’ successfully unpacked and SHA256 sums checked
+* ‘ca’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ca’ as ‘ca_0.72_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ca)
+* installing *binary* package ‘gclus’ ...
+* package ‘gclus’ successfully unpacked and SHA256 sums checked
+* ‘gclus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gclus’ as ‘gclus_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gclus)
+* installing *binary* package ‘qap’ ...
+* package ‘qap’ successfully unpacked and SHA256 sums checked
+* ‘qap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qap’ as ‘qap_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qap)
+* installing *binary* package ‘TSP’ ...
+* package ‘TSP’ successfully unpacked and SHA256 sums checked
+* ‘TSP’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TSP’ as ‘TSP_1.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TSP)
+* installing *binary* package ‘phangorn’ ...
+* package ‘phangorn’ successfully unpacked and SHA256 sums checked
+* ‘phangorn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phangorn’ as ‘phangorn_2.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phangorn)
+* installing *binary* package ‘tokenizers’ ...
+* package ‘tokenizers’ successfully unpacked and SHA256 sums checked
+* ‘tokenizers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tokenizers’ as ‘tokenizers_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tokenizers)
+* installing *binary* package ‘seriation’ ...
+* package ‘seriation’ successfully unpacked and SHA256 sums checked
+* ‘seriation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seriation’ as ‘seriation_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seriation)
+* installing *source* package ‘phylobar’ ...
+** this is package ‘phylobar’ version ‘0.99.12’
+** package ‘phylobar’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phylobar’ as ‘phylobar_0.99.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phylobar)
+* installing *binary* package ‘tidytext’ ...
+* package ‘tidytext’ successfully unpacked and SHA256 sums checked
+* ‘tidytext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidytext’ as ‘tidytext_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidytext)
+* installing *source* package ‘miaViz’ ...
+** this is package ‘miaViz’ version ‘1.21.7’
+** package ‘miaViz’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miaViz’ as ‘miaViz_1.21.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miaViz)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmG9AJl/downloaded_packages’
+
+real	1m6.601s
+user	0m52.412s
+sys	0m9.062s
