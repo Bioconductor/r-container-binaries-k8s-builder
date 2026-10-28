@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 787 (32%)
 - **Failed:** 11 (0%)
-- **In Progress:** 3
-- **Not Started:** 1584
+- **In Progress:** 28
+- **Not Started:** 1559
 
 **Progress:** 33%
 ```
@@ -92,12 +92,37 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (3)
+## In Progress (28)
+- ⏳ `AnVILPublish`
+- ⏳ `AnVILWorkflow`
+- ⏳ `Biostrings`
+- ⏳ `CCPlotR`
+- ⏳ `Chromatograms`
+- ⏳ `ClustAll`
+- ⏳ `GenomeInfoDb`
+- ⏳ `GenomicRanges`
+- ⏳ `InteractiveComplexHeatmap`
+- ⏳ `MAPFX`
+- ⏳ `MetCirc`
+- ⏳ `MsBackendMassbank`
+- ⏳ `MsBackendMetaboLights`
+- ⏳ `MsBackendMgf`
+- ⏳ `MsBackendMsp`
+- ⏳ `MsBackendRawFileReader`
+- ⏳ `MsBackendSql`
+- ⏳ `SparseArray`
+- ⏳ `SpectraQL`
+- ⏳ `SpectriPy`
 - ⏳ `TPP`
+- ⏳ `alabaster.bumpy`
 - ⏳ `cogena`
+- ⏳ `cola`
+- ⏳ `ldblock`
+- ⏳ `markeR`
 - ⏳ `msPurity`
+- ⏳ `simona`
 
-## Not Yet Started (1584)
+## Not Yet Started (1559)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -121,8 +146,6 @@
 - ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnVILPublish`
-- ⏸️ `AnVILWorkflow`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
@@ -148,9 +171,11 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
+- ⏸️ `BadRegionFinder`
+- ⏸️ `Banksy`
 
-... and 1534 more ...
+... and 1509 more ...
 
 ---
-*Last updated: 2026-10-28 22:05:54 UTC*
+*Last updated: 2026-10-28 22:06:56 UTC*
 *Packages with verified BBS status: 192*
