@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 923 (38%)
+- **Successfully Built:** 925 (38%)
 - **Failed:** 13 (0%)
-- **In Progress:** 197
-- **Not Started:** 1252
+- **In Progress:** 199
+- **Not Started:** 1248
 
 **Progress:** 39%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (923)
+## Successfully Built Packages (925)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 
-*... and 873 more ...*
+*... and 875 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
-| [trio](https://bioconductor.org/packages/3.23/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.23/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tweeDEseq) |
@@ -66,6 +64,7 @@
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
+| [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
 | [weitrix](https://bioconductor.org/packages/3.23/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weitrix) |
@@ -75,6 +74,7 @@
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
+| [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 
 ## Failed Packages (13)
 
@@ -94,7 +94,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (197)
+## In Progress (199)
 - ⏳ `ALDEx2`
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
@@ -121,6 +121,7 @@
 - ⏳ `Chromatograms`
 - ⏳ `ClustAll`
 - ⏳ `ClusterFoldSimilarity`
+- ⏳ `ClusterGVis`
 - ⏳ `CoGAPS`
 - ⏳ `CoreGx`
 - ⏳ `DESeq2`
@@ -144,11 +145,10 @@
 - ⏳ `HIPPO`
 - ⏳ `HiCExperiment`
 - ⏳ `HiCParser`
-- ⏳ `HiCcompare`
 
-... and 147 more ...
+... and 149 more ...
 
-## Not Yet Started (1252)
+## Not Yet Started (1248)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -200,8 +200,8 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 
-... and 1202 more ...
+... and 1198 more ...
 
 ---
-*Last updated: 2026-10-28 23:14:22 UTC*
-*Packages with verified BBS status: 203*
+*Last updated: 2026-10-28 23:15:30 UTC*
+*Packages with verified BBS status: 205*
