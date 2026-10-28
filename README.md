@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 37 (1%)
+- **Successfully Built:** 42 (1%)
 - **Failed:** 0 (0%)
-- **In Progress:** 349
+- **In Progress:** 344
 - **Not Started:** 1999
 
 **Progress:** 1%
@@ -16,7 +16,7 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (37)
+## Successfully Built Packages (42)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -37,6 +37,8 @@
 | [GGPA](https://bioconductor.org/packages/3.23/bioc/html/GGPA.html) | [log](logs/GGPA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GGPA) |
 | [Informeasure](https://bioconductor.org/packages/3.23/bioc/html/Informeasure.html) | [log](logs/Informeasure/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Informeasure) |
 | [IsoCorrectoR](https://bioconductor.org/packages/3.23/bioc/html/IsoCorrectoR.html) | [log](logs/IsoCorrectoR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/IsoCorrectoR) |
+| [RedisParam](https://bioconductor.org/packages/3.23/bioc/html/RedisParam.html) | [log](logs/RedisParam/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/RedisParam) |
+| [SCFA](https://bioconductor.org/packages/3.23/bioc/html/SCFA.html) | [log](logs/SCFA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SCFA) |
 | [diffuStats](https://bioconductor.org/packages/3.23/bioc/html/diffuStats.html) | [log](logs/diffuStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/diffuStats) |
 | [dir.expiry](https://bioconductor.org/packages/3.23/bioc/html/dir.expiry.html) | [log](logs/dir.expiry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dir.expiry) |
 | [dks](https://bioconductor.org/packages/3.23/bioc/html/dks.html) | [log](logs/dks/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dks) |
@@ -53,12 +55,15 @@
 | [fmrs](https://bioconductor.org/packages/3.23/bioc/html/fmrs.html) | [log](logs/fmrs/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/fmrs) |
 | [frenchFISH](https://bioconductor.org/packages/3.23/bioc/html/frenchFISH.html) | [log](logs/frenchFISH/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/frenchFISH) |
 | [garfield](https://bioconductor.org/packages/3.23/bioc/html/garfield.html) | [log](logs/garfield/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/garfield) |
+| [gdsfmt](https://bioconductor.org/packages/3.23/bioc/html/gdsfmt.html) | [log](logs/gdsfmt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/gdsfmt) |
 | [gemini](https://bioconductor.org/packages/3.23/bioc/html/gemini.html) | [log](logs/gemini/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/gemini) |
 | [genArise](https://bioconductor.org/packages/3.23/bioc/html/genArise.html) | [log](logs/genArise/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genArise) |
+| [geneplast](https://bioconductor.org/packages/3.23/bioc/html/geneplast.html) | [log](logs/geneplast/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneplast) |
 | [genomes](https://bioconductor.org/packages/3.23/bioc/html/genomes.html) | [log](logs/genomes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genomes) |
+| [geva](https://bioconductor.org/packages/3.23/bioc/html/geva.html) | [log](logs/geva/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geva) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (349)
+## In Progress (344)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
@@ -110,7 +115,7 @@
 - ⏳ `GEWIST`
 - ⏳ `GIGSEA`
 
-... and 299 more ...
+... and 294 more ...
 
 ## Not Yet Started (1999)
 - ⏸️ `ABSSeq`
@@ -167,5 +172,5 @@
 ... and 1949 more ...
 
 ---
-*Last updated: 2026-10-28 16:48:43 UTC*
-*Packages with verified BBS status: 37*
+*Last updated: 2026-10-28 16:50:17 UTC*
+*Packages with verified BBS status: 42*
