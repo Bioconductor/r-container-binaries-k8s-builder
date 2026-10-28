@@ -1,0 +1,120 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SuperCellCyto'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SuperCellCyto'
+also installing the dependencies ‘ucminf’, ‘ordinal’, ‘pan’, ‘jomo’, ‘mitml’, ‘mice’, ‘weights’, ‘plotfunctions’, ‘SuperCell’, ‘qs2’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ucminf_1.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ordinal_2026.7-26.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pan_2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/jomo_2.7-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mitml_0.4-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mice_3.19.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/weights_1.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/plotfunctions_1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SuperCell_1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qs2_0.3.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SuperCellCyto_1.3.0.tar.gz'
+* installing *binary* package ‘ucminf’ ...
+* package ‘ucminf’ successfully unpacked and SHA256 sums checked
+* ‘ucminf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ucminf’ as ‘ucminf_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ucminf)
+* installing *binary* package ‘pan’ ...
+* package ‘pan’ successfully unpacked and SHA256 sums checked
+* ‘pan’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pan’ as ‘pan_2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pan)
+* installing *binary* package ‘plotfunctions’ ...
+* package ‘plotfunctions’ successfully unpacked and SHA256 sums checked
+* ‘plotfunctions’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plotfunctions’ as ‘plotfunctions_1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotfunctions)
+* installing *binary* package ‘qs2’ ...
+* package ‘qs2’ successfully unpacked and SHA256 sums checked
+* ‘qs2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qs2’ as ‘qs2_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qs2)
+* installing *binary* package ‘ordinal’ ...
+* package ‘ordinal’ successfully unpacked and SHA256 sums checked
+* ‘ordinal’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ordinal’ as ‘ordinal_2026.7-26_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ordinal)
+* installing *binary* package ‘jomo’ ...
+* package ‘jomo’ successfully unpacked and SHA256 sums checked
+* ‘jomo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘jomo’ as ‘jomo_2.7-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jomo)
+* installing *binary* package ‘mitml’ ...
+* package ‘mitml’ successfully unpacked and SHA256 sums checked
+* ‘mitml’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mitml’ as ‘mitml_0.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitml)
+* installing *binary* package ‘mice’ ...
+* package ‘mice’ successfully unpacked and SHA256 sums checked
+* ‘mice’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mice’ as ‘mice_3.19.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mice)
+* installing *binary* package ‘weights’ ...
+* package ‘weights’ successfully unpacked and SHA256 sums checked
+* ‘weights’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘weights’ as ‘weights_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (weights)
+* installing *binary* package ‘SuperCell’ ...
+* package ‘SuperCell’ successfully unpacked and SHA256 sums checked
+* ‘SuperCell’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SuperCell’ as ‘SuperCell_1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SuperCell)
+* installing *source* package ‘SuperCellCyto’ ...
+** this is package ‘SuperCellCyto’ version ‘1.3.0’
+** package ‘SuperCellCyto’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SuperCellCyto’ as ‘SuperCellCyto_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SuperCellCyto)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAudkIk/downloaded_packages’
+
+real	0m24.658s
+user	0m13.616s
+sys	0m4.965s
