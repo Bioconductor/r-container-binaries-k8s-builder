@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 283 (11%)
+- **Successfully Built:** 292 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 137
+- **In Progress:** 128
 - **Not Started:** 2012
 
-**Progress:** 11%
+**Progress:** 12%
 ```
-█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (283)
+## Successfully Built Packages (292)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -39,18 +39,17 @@
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
 | [CNAnorm](https://bioconductor.org/packages/3.24/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CNAnorm) |
 | [CausalR](https://bioconductor.org/packages/3.24/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CausalR) |
+| [ClusterSignificance](https://bioconductor.org/packages/3.24/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ClusterSignificance) |
+| [ComPrAn](https://bioconductor.org/packages/3.24/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ComPrAn) |
 | [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
 | [DEqMS](https://bioconductor.org/packages/3.24/bioc/html/DEqMS.html) | [log](logs/DEqMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEqMS) |
 | [DNABarcodeCompatibility](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodeCompatibility.html) | [log](logs/DNABarcodeCompatibility/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodeCompatibility) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
-| [DNAcycP2](https://bioconductor.org/packages/3.24/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcycP2) |
-| [DTA](https://bioconductor.org/packages/3.24/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DTA) |
 
-*... and 233 more ...*
+*... and 242 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sparsenetgls](https://bioconductor.org/packages/3.24/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.24/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/specL) |
 | [spikeLI](https://bioconductor.org/packages/3.24/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/spikeLI) |
 | [splots](https://bioconductor.org/packages/3.24/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/splots) |
@@ -60,6 +59,7 @@
 | [swfdr](https://bioconductor.org/packages/3.24/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
 | [synlet](https://bioconductor.org/packages/3.24/bioc/html/synlet.html) | [log](logs/synlet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synlet) |
+| [systemPipeShiny](https://bioconductor.org/packages/3.24/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/systemPipeShiny) |
 | [tanggle](https://bioconductor.org/packages/3.24/bioc/html/tanggle.html) | [log](logs/tanggle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tanggle) |
 | [tidysbml](https://bioconductor.org/packages/3.24/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
@@ -83,7 +83,7 @@
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (137)
+## In Progress (128)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -103,8 +103,6 @@
 - ⏳ `Chicago`
 - ⏳ `Clomial`
 - ⏳ `ClusterJudge`
-- ⏳ `ClusterSignificance`
-- ⏳ `ComPrAn`
 - ⏳ `DART`
 - ⏳ `DCATS`
 - ⏳ `DNABarcodes`
@@ -134,8 +132,10 @@
 - ⏳ `ModCon`
 - ⏳ `MultiMed`
 - ⏳ `NTW`
+- ⏳ `NetPathMiner`
+- ⏳ `NuPoP`
 
-... and 87 more ...
+... and 78 more ...
 
 ## Not Yet Started (2012)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1962 more ...
 
 ---
-*Last updated: 2026-10-28 17:39:19 UTC*
-*Packages with verified BBS status: 153*
+*Last updated: 2026-10-28 17:40:26 UTC*
+*Packages with verified BBS status: 156*

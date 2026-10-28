@@ -1,0 +1,327 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''systemPipeShiny'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'systemPipeShiny'
+also installing the dependencies ‘reactR’, ‘reactable’, ‘rio’, ‘toastui’, ‘writexl’, ‘fresh’, ‘waiter’, ‘ShortRead’, ‘remotes’, ‘datamods’, ‘phosphoricons’, ‘shinybusy’, ‘spsUtil’, ‘spsComps’, ‘drawer’, ‘bsplus’, ‘shinyAce’, ‘shinydashboardPlus’, ‘shinyjqui’, ‘systemPipeR’, ‘systemPipeRdata’, ‘pushbar’, ‘glmpca’, ‘UpSetR’, ‘esquisse’, ‘cicerone’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactR_0.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactable_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rio_1.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/toastui_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/writexl_2.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fresh_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/waiter_0.2.5.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ShortRead_1.71.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/remotes_2.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/datamods_1.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phosphoricons_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinybusy_0.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spsUtil_0.2.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spsComps_0.3.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/drawer_0.2.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bsplus_0.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyAce_0.4.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinydashboardPlus_2.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyjqui_0.4.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/systemPipeR_2.19.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/systemPipeRdata_2.17.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pushbar_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/glmpca_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/UpSetR_1.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/esquisse_2.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cicerone_1.0.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/systemPipeShiny_1.23.1.tar.gz'
+* installing *binary* package ‘reactR’ ...
+* package ‘reactR’ successfully unpacked and SHA256 sums checked
+* ‘reactR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactR’ as ‘reactR_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactR)
+* installing *binary* package ‘writexl’ ...
+* package ‘writexl’ successfully unpacked and SHA256 sums checked
+* ‘writexl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘writexl’ as ‘writexl_2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (writexl)
+* installing *binary* package ‘fresh’ ...
+* package ‘fresh’ successfully unpacked and SHA256 sums checked
+* ‘fresh’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fresh’ as ‘fresh_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fresh)
+* installing *binary* package ‘waiter’ ...
+* package ‘waiter’ successfully unpacked and SHA256 sums checked
+* ‘waiter’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘waiter’ as ‘waiter_0.2.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (waiter)
+* installing *source* package ‘ShortRead’ ...
+** this is package ‘ShortRead’ version ‘1.71.1’
+** package ‘ShortRead’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc -std=gnu2x
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu2x accepts -g... yes
+checking for gcc -std=gnu2x option to accept ISO C89... none needed
+checking for gzeof in -lz... yes
+checking how to run the C preprocessor... gcc -std=gnu2x -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking size of unsigned long... 8
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_ShortRead.c -o R_init_ShortRead.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c alphabet.c -o alphabet.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c count.c -o count.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io.c -o io.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_bowtie.c -o io_bowtie.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_soap.c -o io_soap.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_LIBZ=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_UNSIGNED_LONG=8 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c readBfaToc.cc -o readBfaToc.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DHAVE_LIBZ=1 -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DSIZEOF_UNSIGNED_LONG=8 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read_maq_map.cc -o read_maq_map.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampler.c -o sampler.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trim.c -o trim.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG  -I'/mnt/library/S4Vectors/include' -I'/mnt/library/IRanges/include' -I'/mnt/library/XVector/include' -I'/mnt/library/Biostrings/include' -I'/mnt/library/Rhtslib/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xsnap.c -o xsnap.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ShortRead.so Biostrings_stubs.o IRanges_stubs.o R_init_ShortRead.o S4Vectors_stubs.o XVector_stubs.o alphabet.o count.o io.o io_bowtie.o io_soap.o readBfaToc.o read_maq_map.o sampler.o trim.o util.o xsnap.o -lz -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ShortRead/00new/ShortRead/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ShortRead’ as ‘ShortRead_1.71.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ShortRead)
+* installing *binary* package ‘remotes’ ...
+* package ‘remotes’ successfully unpacked and SHA256 sums checked
+* ‘remotes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘remotes’ as ‘remotes_2.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (remotes)
+* installing *binary* package ‘phosphoricons’ ...
+* package ‘phosphoricons’ successfully unpacked and SHA256 sums checked
+* ‘phosphoricons’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phosphoricons’ as ‘phosphoricons_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phosphoricons)
+* installing *binary* package ‘shinybusy’ ...
+* package ‘shinybusy’ successfully unpacked and SHA256 sums checked
+* ‘shinybusy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinybusy’ as ‘shinybusy_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinybusy)
+* installing *binary* package ‘spsUtil’ ...
+* package ‘spsUtil’ successfully unpacked and SHA256 sums checked
+* ‘spsUtil’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spsUtil’ as ‘spsUtil_0.2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spsUtil)
+* installing *binary* package ‘bsplus’ ...
+* package ‘bsplus’ successfully unpacked and SHA256 sums checked
+* ‘bsplus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bsplus’ as ‘bsplus_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bsplus)
+* installing *binary* package ‘shinyAce’ ...
+* package ‘shinyAce’ successfully unpacked and SHA256 sums checked
+* ‘shinyAce’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyAce’ as ‘shinyAce_0.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyAce)
+* installing *binary* package ‘shinyjqui’ ...
+* package ‘shinyjqui’ successfully unpacked and SHA256 sums checked
+* ‘shinyjqui’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyjqui’ as ‘shinyjqui_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyjqui)
+* installing *binary* package ‘pushbar’ ...
+* package ‘pushbar’ successfully unpacked and SHA256 sums checked
+* ‘pushbar’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pushbar’ as ‘pushbar_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pushbar)
+* installing *binary* package ‘glmpca’ ...
+* package ‘glmpca’ successfully unpacked and SHA256 sums checked
+* ‘glmpca’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘glmpca’ as ‘glmpca_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmpca)
+* installing *binary* package ‘UpSetR’ ...
+* package ‘UpSetR’ successfully unpacked and SHA256 sums checked
+* ‘UpSetR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘UpSetR’ as ‘UpSetR_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UpSetR)
+* installing *binary* package ‘cicerone’ ...
+* package ‘cicerone’ successfully unpacked and SHA256 sums checked
+* ‘cicerone’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cicerone’ as ‘cicerone_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cicerone)
+* installing *binary* package ‘reactable’ ...
+* package ‘reactable’ successfully unpacked and SHA256 sums checked
+* ‘reactable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactable’ as ‘reactable_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactable)
+* installing *binary* package ‘rio’ ...
+* package ‘rio’ successfully unpacked and SHA256 sums checked
+* ‘rio’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rio’ as ‘rio_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rio)
+* installing *binary* package ‘toastui’ ...
+* package ‘toastui’ successfully unpacked and SHA256 sums checked
+* ‘toastui’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘toastui’ as ‘toastui_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (toastui)
+* installing *binary* package ‘spsComps’ ...
+* package ‘spsComps’ successfully unpacked and SHA256 sums checked
+* ‘spsComps’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spsComps’ as ‘spsComps_0.3.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spsComps)
+* installing *binary* package ‘drawer’ ...
+* package ‘drawer’ successfully unpacked and SHA256 sums checked
+* ‘drawer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘drawer’ as ‘drawer_0.2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (drawer)
+* installing *binary* package ‘shinydashboardPlus’ ...
+* package ‘shinydashboardPlus’ successfully unpacked and SHA256 sums checked
+* ‘shinydashboardPlus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinydashboardPlus’ as ‘shinydashboardPlus_2.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinydashboardPlus)
+* installing *source* package ‘systemPipeR’ ...
+** this is package ‘systemPipeR’ version ‘2.19.8’
+** package ‘systemPipeR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeR’ as ‘systemPipeR_2.19.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeR)
+* installing *source* package ‘systemPipeRdata’ ...
+** this is package ‘systemPipeRdata’ version ‘2.17.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeRdata’ as ‘systemPipeRdata_2.17.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeRdata)
+* installing *binary* package ‘datamods’ ...
+* package ‘datamods’ successfully unpacked and SHA256 sums checked
+* ‘datamods’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘datamods’ as ‘datamods_1.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (datamods)
+* installing *source* package ‘systemPipeShiny’ ...
+** this is package ‘systemPipeShiny’ version ‘1.23.1’
+** package ‘systemPipeShiny’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeShiny’ as ‘systemPipeShiny_1.23.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeShiny)
+* installing *binary* package ‘esquisse’ ...
+* package ‘esquisse’ successfully unpacked and SHA256 sums checked
+* ‘esquisse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘esquisse’ as ‘esquisse_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (esquisse)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQJeBv1/downloaded_packages’
+
+real	2m43.790s
+user	1m45.087s
+sys	0m19.256s
