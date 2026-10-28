@@ -1,0 +1,269 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''systemPipeShiny'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'systemPipeShiny'
+also installing the dependencies ‘reactR’, ‘reactable’, ‘rio’, ‘toastui’, ‘writexl’, ‘fresh’, ‘waiter’, ‘remotes’, ‘datamods’, ‘phosphoricons’, ‘shinybusy’, ‘spsUtil’, ‘spsComps’, ‘drawer’, ‘bsplus’, ‘shinyAce’, ‘shinydashboardPlus’, ‘shinyjqui’, ‘shinytoastr’, ‘systemPipeR’, ‘systemPipeRdata’, ‘pushbar’, ‘glmpca’, ‘UpSetR’, ‘esquisse’, ‘cicerone’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactR_0.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/reactable_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rio_1.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/toastui_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/writexl_2.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/fresh_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/waiter_0.2.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/remotes_2.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/datamods_1.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phosphoricons_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinybusy_0.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spsUtil_0.2.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spsComps_0.3.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/drawer_0.2.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bsplus_0.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyAce_0.4.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinydashboardPlus_2.0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinyjqui_0.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/shinytoastr_2.2.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/systemPipeR_2.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/systemPipeRdata_2.16.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pushbar_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/glmpca_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/UpSetR_1.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/esquisse_2.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/cicerone_1.0.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/systemPipeShiny_1.22.1.tar.gz'
+* installing *binary* package ‘reactR’ ...
+* package ‘reactR’ successfully unpacked and SHA256 sums checked
+* ‘reactR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactR’ as ‘reactR_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactR)
+* installing *binary* package ‘writexl’ ...
+* package ‘writexl’ successfully unpacked and SHA256 sums checked
+* ‘writexl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘writexl’ as ‘writexl_2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (writexl)
+* installing *binary* package ‘fresh’ ...
+* package ‘fresh’ successfully unpacked and SHA256 sums checked
+* ‘fresh’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fresh’ as ‘fresh_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fresh)
+* installing *binary* package ‘waiter’ ...
+* package ‘waiter’ successfully unpacked and SHA256 sums checked
+* ‘waiter’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘waiter’ as ‘waiter_0.2.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (waiter)
+* installing *binary* package ‘remotes’ ...
+* package ‘remotes’ successfully unpacked and SHA256 sums checked
+* ‘remotes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘remotes’ as ‘remotes_2.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (remotes)
+* installing *binary* package ‘phosphoricons’ ...
+* package ‘phosphoricons’ successfully unpacked and SHA256 sums checked
+* ‘phosphoricons’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phosphoricons’ as ‘phosphoricons_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phosphoricons)
+* installing *binary* package ‘shinybusy’ ...
+* package ‘shinybusy’ successfully unpacked and SHA256 sums checked
+* ‘shinybusy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinybusy’ as ‘shinybusy_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinybusy)
+* installing *binary* package ‘spsUtil’ ...
+* package ‘spsUtil’ successfully unpacked and SHA256 sums checked
+* ‘spsUtil’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spsUtil’ as ‘spsUtil_0.2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spsUtil)
+* installing *binary* package ‘bsplus’ ...
+* package ‘bsplus’ successfully unpacked and SHA256 sums checked
+* ‘bsplus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bsplus’ as ‘bsplus_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bsplus)
+* installing *binary* package ‘shinyAce’ ...
+* package ‘shinyAce’ successfully unpacked and SHA256 sums checked
+* ‘shinyAce’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyAce’ as ‘shinyAce_0.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyAce)
+* installing *binary* package ‘shinyjqui’ ...
+* package ‘shinyjqui’ successfully unpacked and SHA256 sums checked
+* ‘shinyjqui’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinyjqui’ as ‘shinyjqui_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyjqui)
+* installing *binary* package ‘shinytoastr’ ...
+* package ‘shinytoastr’ successfully unpacked and SHA256 sums checked
+* ‘shinytoastr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinytoastr’ as ‘shinytoastr_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinytoastr)
+* installing *source* package ‘systemPipeR’ ...
+** this is package ‘systemPipeR’ version ‘2.18.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeR’ as ‘systemPipeR_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeR)
+* installing *binary* package ‘pushbar’ ...
+* package ‘pushbar’ successfully unpacked and SHA256 sums checked
+* ‘pushbar’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pushbar’ as ‘pushbar_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pushbar)
+* installing *binary* package ‘glmpca’ ...
+* package ‘glmpca’ successfully unpacked and SHA256 sums checked
+* ‘glmpca’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘glmpca’ as ‘glmpca_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmpca)
+* installing *binary* package ‘UpSetR’ ...
+* package ‘UpSetR’ successfully unpacked and SHA256 sums checked
+* ‘UpSetR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘UpSetR’ as ‘UpSetR_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UpSetR)
+* installing *binary* package ‘cicerone’ ...
+* package ‘cicerone’ successfully unpacked and SHA256 sums checked
+* ‘cicerone’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cicerone’ as ‘cicerone_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cicerone)
+* installing *binary* package ‘reactable’ ...
+* package ‘reactable’ successfully unpacked and SHA256 sums checked
+* ‘reactable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactable’ as ‘reactable_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactable)
+* installing *binary* package ‘rio’ ...
+* package ‘rio’ successfully unpacked and SHA256 sums checked
+* ‘rio’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rio’ as ‘rio_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rio)
+* installing *binary* package ‘toastui’ ...
+* package ‘toastui’ successfully unpacked and SHA256 sums checked
+* ‘toastui’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘toastui’ as ‘toastui_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (toastui)
+* installing *binary* package ‘spsComps’ ...
+* package ‘spsComps’ successfully unpacked and SHA256 sums checked
+* ‘spsComps’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spsComps’ as ‘spsComps_0.3.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spsComps)
+* installing *binary* package ‘drawer’ ...
+* package ‘drawer’ successfully unpacked and SHA256 sums checked
+* ‘drawer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘drawer’ as ‘drawer_0.2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (drawer)
+* installing *binary* package ‘shinydashboardPlus’ ...
+* package ‘shinydashboardPlus’ successfully unpacked and SHA256 sums checked
+* ‘shinydashboardPlus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinydashboardPlus’ as ‘shinydashboardPlus_2.0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinydashboardPlus)
+* installing *source* package ‘systemPipeRdata’ ...
+** this is package ‘systemPipeRdata’ version ‘2.16.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeRdata’ as ‘systemPipeRdata_2.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeRdata)
+* installing *binary* package ‘datamods’ ...
+* package ‘datamods’ successfully unpacked and SHA256 sums checked
+* ‘datamods’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘datamods’ as ‘datamods_1.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (datamods)
+* installing *source* package ‘systemPipeShiny’ ...
+** this is package ‘systemPipeShiny’ version ‘1.22.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘systemPipeShiny’ as ‘systemPipeShiny_1.22.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (systemPipeShiny)
+* installing *binary* package ‘esquisse’ ...
+* package ‘esquisse’ successfully unpacked and SHA256 sums checked
+* ‘esquisse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘esquisse’ as ‘esquisse_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (esquisse)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCaLqEw/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	2m8.145s
+user	1m44.580s
+sys	0m18.560s
