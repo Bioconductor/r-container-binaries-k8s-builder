@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 426 (17%)
+- **Successfully Built:** 428 (17%)
 - **Failed:** 6 (0%)
-- **In Progress:** 47
-- **Not Started:** 1906
+- **In Progress:** 51
+- **Not Started:** 1900
 
 **Progress:** 18%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (426)
+## Successfully Built Packages (428)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
 
-*... and 376 more ...*
+*... and 378 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.23/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/statTarget) |
 | [stepNorm](https://bioconductor.org/packages/3.23/bioc/html/stepNorm.html) | [log](logs/stepNorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/stepNorm) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
@@ -63,6 +62,7 @@
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
+| [tkWidgets](https://bioconductor.org/packages/3.23/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tkWidgets) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
@@ -87,20 +87,21 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (47)
+## In Progress (51)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocStyle`
+- ⏳ `CNAnorm`
 - ⏳ `Chicago`
 - ⏳ `Clomial`
 - ⏳ `DCATS`
 - ⏳ `DEqMS`
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DepInfeR`
-- ⏳ `DiffLogo`
+- ⏳ `GenProSeq`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `Icens`
@@ -120,10 +121,12 @@
 - ⏳ `STRINGdb`
 - ⏳ `SamSPECTRAL`
 - ⏳ `ScreenR`
+- ⏳ `TIN`
 - ⏳ `biomformat`
 - ⏳ `cellxgenedp`
 - ⏳ `chopsticks`
 - ⏳ `compcodeR`
+- ⏳ `maftools`
 - ⏳ `minet`
 - ⏳ `mirTarRnaSeq`
 - ⏳ `mistyR`
@@ -136,7 +139,9 @@
 - ⏳ `retrofit`
 - ⏳ `scMitoMut`
 
-## Not Yet Started (1906)
+... and 1 more ...
+
+## Not Yet Started (1900)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -188,8 +193,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1856 more ...
+... and 1850 more ...
 
 ---
-*Last updated: 2026-10-28 17:59:14 UTC*
-*Packages with verified BBS status: 158*
+*Last updated: 2026-10-28 18:00:18 UTC*
+*Packages with verified BBS status: 159*
