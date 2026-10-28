@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 279 (11%)
+- **Successfully Built:** 281 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 139
+- **In Progress:** 137
 - **Not Started:** 2014
 
 **Progress:** 11%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (279)
+## Successfully Built Packages (281)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [DNAcycP2](https://bioconductor.org/packages/3.24/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcycP2) |
 | [DTA](https://bioconductor.org/packages/3.24/bioc/html/DTA.html) | [log](logs/DTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DTA) |
 
-*... and 229 more ...*
+*... and 231 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (139)
+## In Progress (137)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -135,7 +135,7 @@
 - ⏳ `MultiMed`
 - ⏳ `NTW`
 
-... and 89 more ...
+... and 87 more ...
 
 ## Not Yet Started (2014)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1964 more ...
 
 ---
-*Last updated: 2026-10-28 17:36:57 UTC*
+*Last updated: 2026-10-28 17:37:51 UTC*
 *Packages with verified BBS status: 152*
