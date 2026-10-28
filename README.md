@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1017 (41%)
+- **Successfully Built:** 1019 (41%)
 - **Failed:** 6 (0%)
-- **In Progress:** 215
-- **Not Started:** 1196
+- **In Progress:** 214
+- **Not Started:** 1195
 
 **Progress:** 42%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1017)
+## Successfully Built Packages (1019)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 967 more ...*
+*... and 969 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (215)
+## In Progress (214)
 - ⏳ `BUScorrect`
 - ⏳ `Battlefield`
 - ⏳ `BioGA`
@@ -96,6 +96,7 @@
 - ⏳ `CAEN`
 - ⏳ `CHETAH`
 - ⏳ `CPSM`
+- ⏳ `CRISPRball`
 - ⏳ `CSOA`
 - ⏳ `CellBench`
 - ⏳ `CellTrails`
@@ -137,11 +138,10 @@
 - ⏳ `KEGGREST`
 - ⏳ `LACHESIS`
 - ⏳ `LOLA`
-- ⏳ `LRDE`
 
-... and 165 more ...
+... and 164 more ...
 
-## Not Yet Started (1196)
+## Not Yet Started (1195)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -193,8 +193,8 @@
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
 
-... and 1146 more ...
+... and 1145 more ...
 
 ---
-*Last updated: 2026-10-28 20:31:49 UTC*
+*Last updated: 2026-10-28 20:33:51 UTC*
 *Packages with verified BBS status: 210*
