@@ -1,0 +1,169 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GSgalgoR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GSgalgoR'
+also installing the dependencies ‘mco’, ‘iC10’, ‘AIMS’, ‘amap’, ‘matchingR’, ‘nsga2R’, ‘genefu’, ‘breastCancerTRANSBIG’, ‘breastCancerUPP’, ‘iC10TrainingData’, ‘pamr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mco_1.17.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/iC10_2.0.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/AIMS_1.44.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/amap_0.8-20.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/matchingR_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/nsga2R_1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/genefu_2.44.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/breastCancerTRANSBIG_1.50.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/breastCancerUPP_1.50.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/iC10TrainingData_2.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pamr_1.57.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/GSgalgoR_1.22.0.tar.gz'
+* installing *binary* package ‘mco’ ...
+* package ‘mco’ successfully unpacked and SHA256 sums checked
+* ‘mco’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mco’ as ‘mco_1.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mco)
+* installing *source* package ‘AIMS’ ...
+** this is package ‘AIMS’ version ‘1.44.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AIMS’ as ‘AIMS_1.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AIMS)
+* installing *binary* package ‘amap’ ...
+* package ‘amap’ successfully unpacked and SHA256 sums checked
+* ‘amap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘amap’ as ‘amap_0.8-20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (amap)
+* installing *binary* package ‘matchingR’ ...
+* package ‘matchingR’ successfully unpacked and SHA256 sums checked
+* ‘matchingR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘matchingR’ as ‘matchingR_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (matchingR)
+* installing *source* package ‘breastCancerTRANSBIG’ ...
+** this is package ‘breastCancerTRANSBIG’ version ‘1.50.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breastCancerTRANSBIG’ as ‘breastCancerTRANSBIG_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerTRANSBIG)
+* installing *source* package ‘breastCancerUPP’ ...
+** this is package ‘breastCancerUPP’ version ‘1.50.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breastCancerUPP’ as ‘breastCancerUPP_1.50.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerUPP)
+* installing *binary* package ‘iC10TrainingData’ ...
+* package ‘iC10TrainingData’ successfully unpacked and SHA256 sums checked
+* ‘iC10TrainingData’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iC10TrainingData’ as ‘iC10TrainingData_2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iC10TrainingData)
+* installing *binary* package ‘pamr’ ...
+* package ‘pamr’ successfully unpacked and SHA256 sums checked
+* ‘pamr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pamr’ as ‘pamr_1.57_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pamr)
+* installing *binary* package ‘iC10’ ...
+* package ‘iC10’ successfully unpacked and SHA256 sums checked
+* ‘iC10’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iC10’ as ‘iC10_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iC10)
+* installing *binary* package ‘nsga2R’ ...
+* package ‘nsga2R’ successfully unpacked and SHA256 sums checked
+* ‘nsga2R’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nsga2R’ as ‘nsga2R_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nsga2R)
+* installing *source* package ‘genefu’ ...
+** this is package ‘genefu’ version ‘2.44.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘genefu’ as ‘genefu_2.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genefu)
+* installing *source* package ‘GSgalgoR’ ...
+** this is package ‘GSgalgoR’ version ‘1.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSgalgoR’ as ‘GSgalgoR_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSgalgoR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpkkJRC1/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m46.059s
+user	0m36.019s
+sys	0m8.938s

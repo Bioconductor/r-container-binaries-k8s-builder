@@ -1,0 +1,113 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MSstatsBioNet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MSstatsBioNet'
+also installing the dependencies ‘MatrixExtra’, ‘float’, ‘rsparse’, ‘mlapi’, ‘lgr’, ‘ISOcodes’, ‘r2r’, ‘text2vec’, ‘stopwords’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MatrixExtra_0.1.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/float_0.3-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rsparse_0.5.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlapi_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/lgr_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ISOcodes_2026.03.28.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/r2r_0.1.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/text2vec_0.6.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/stopwords_2.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MSstatsBioNet_1.4.1.tar.gz'
+* installing *binary* package ‘float’ ...
+* package ‘float’ successfully unpacked and SHA256 sums checked
+* ‘float’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘float’ as ‘float_0.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (float)
+* installing *binary* package ‘mlapi’ ...
+* package ‘mlapi’ successfully unpacked and SHA256 sums checked
+* ‘mlapi’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlapi’ as ‘mlapi_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlapi)
+* installing *binary* package ‘lgr’ ...
+* package ‘lgr’ successfully unpacked and SHA256 sums checked
+* ‘lgr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lgr’ as ‘lgr_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lgr)
+* installing *binary* package ‘ISOcodes’ ...
+* package ‘ISOcodes’ successfully unpacked and SHA256 sums checked
+* ‘ISOcodes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ISOcodes’ as ‘ISOcodes_2026.03.28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ISOcodes)
+* installing *binary* package ‘r2r’ ...
+* package ‘r2r’ successfully unpacked and SHA256 sums checked
+* ‘r2r’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘r2r’ as ‘r2r_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (r2r)
+* installing *binary* package ‘MatrixExtra’ ...
+* package ‘MatrixExtra’ successfully unpacked and SHA256 sums checked
+* ‘MatrixExtra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatrixExtra’ as ‘MatrixExtra_0.1.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixExtra)
+* installing *binary* package ‘stopwords’ ...
+* package ‘stopwords’ successfully unpacked and SHA256 sums checked
+* ‘stopwords’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘stopwords’ as ‘stopwords_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stopwords)
+* installing *binary* package ‘rsparse’ ...
+* package ‘rsparse’ successfully unpacked and SHA256 sums checked
+* ‘rsparse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rsparse’ as ‘rsparse_0.5.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsparse)
+* installing *binary* package ‘text2vec’ ...
+* package ‘text2vec’ successfully unpacked and SHA256 sums checked
+* ‘text2vec’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘text2vec’ as ‘text2vec_0.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (text2vec)
+* installing *source* package ‘MSstatsBioNet’ ...
+** this is package ‘MSstatsBioNet’ version ‘1.4.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MSstatsBioNet’ as ‘MSstatsBioNet_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MSstatsBioNet)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxaB02J/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m26.471s
+user	0m19.071s
+sys	0m5.139s
