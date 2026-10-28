@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1144 (47%)
+- **Successfully Built:** 1145 (47%)
 - **Failed:** 6 (0%)
-- **In Progress:** 178
+- **In Progress:** 177
 - **Not Started:** 1106
 
 **Progress:** 47%
@@ -16,7 +16,7 @@
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1144)
+## Successfully Built Packages (1145)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1094 more ...*
+*... and 1095 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (178)
+## In Progress (177)
 - ⏳ `ASICS`
 - ⏳ `AffiXcan`
 - ⏳ `BUScorrect`
@@ -96,7 +96,6 @@
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
 - ⏳ `COTAN`
-- ⏳ `CPSM`
 - ⏳ `CRISPRball`
 - ⏳ `CSOA`
 - ⏳ `CTSV`
@@ -138,8 +137,9 @@
 - ⏳ `NanoStringNCTools`
 - ⏳ `PACE`
 - ⏳ `POWSC`
+- ⏳ `QDNAseq`
 
-... and 128 more ...
+... and 127 more ...
 
 ## Not Yet Started (1106)
 - ⏸️ `ACE`
@@ -196,5 +196,5 @@
 ... and 1056 more ...
 
 ---
-*Last updated: 2026-10-28 21:37:42 UTC*
+*Last updated: 2026-10-28 21:39:20 UTC*
 *Packages with verified BBS status: 211*
