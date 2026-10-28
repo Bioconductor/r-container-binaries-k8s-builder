@@ -1,0 +1,106 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''cellmigRation'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'cellmigRation'
+also installing the dependencies ‘deSolve’, ‘minpack.lm’, ‘spBayes’, ‘sm’, ‘tiff’, ‘FME’, ‘SpatialTools’, ‘vioplot’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/deSolve_1.42.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/minpack.lm_1.2-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spBayes_0.4-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/sm_2.2-6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tiff_0.1-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/FME_1.3.6.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/SpatialTools_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/vioplot_0.5.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/cellmigRation_1.20.0.tar.gz'
+* installing *binary* package ‘deSolve’ ...
+* package ‘deSolve’ successfully unpacked and SHA256 sums checked
+* ‘deSolve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘deSolve’ as ‘deSolve_1.42_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deSolve)
+* installing *binary* package ‘minpack.lm’ ...
+* package ‘minpack.lm’ successfully unpacked and SHA256 sums checked
+* ‘minpack.lm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minpack.lm’ as ‘minpack.lm_1.2-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minpack.lm)
+* installing *binary* package ‘spBayes’ ...
+* package ‘spBayes’ successfully unpacked and SHA256 sums checked
+* ‘spBayes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spBayes’ as ‘spBayes_0.4-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spBayes)
+* installing *binary* package ‘sm’ ...
+* package ‘sm’ successfully unpacked and SHA256 sums checked
+* ‘sm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sm’ as ‘sm_2.2-6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sm)
+* installing *binary* package ‘tiff’ ...
+* package ‘tiff’ successfully unpacked and SHA256 sums checked
+* ‘tiff’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tiff’ as ‘tiff_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiff)
+* installing *binary* package ‘FME’ ...
+* package ‘FME’ successfully unpacked and SHA256 sums checked
+* ‘FME’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FME’ as ‘FME_1.3.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FME)
+* installing *binary* package ‘SpatialTools’ ...
+* package ‘SpatialTools’ successfully unpacked and SHA256 sums checked
+* ‘SpatialTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpatialTools’ as ‘SpatialTools_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialTools)
+* installing *binary* package ‘vioplot’ ...
+* package ‘vioplot’ successfully unpacked and SHA256 sums checked
+* ‘vioplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘vioplot’ as ‘vioplot_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vioplot)
+* installing *source* package ‘cellmigRation’ ...
+** this is package ‘cellmigRation’ version ‘1.20.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cellmigRation’ as ‘cellmigRation_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellmigRation)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp6kD2BA/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m27.801s
+user	0m18.782s
+sys	0m5.074s

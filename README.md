@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 100 (4%)
+- **Successfully Built:** 119 (4%)
 - **Failed:** 1 (0%)
-- **In Progress:** 290
-- **Not Started:** 1994
+- **In Progress:** 279
+- **Not Started:** 1986
 
-**Progress:** 4%
+**Progress:** 5%
 ```
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (100)
+## Successfully Built Packages (119)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -36,21 +36,20 @@
 | [BiocVersion](https://bioconductor.org/packages/3.23/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocVersion) |
 | [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 | [CytoGLMM](https://bioconductor.org/packages/3.23/bioc/html/CytoGLMM.html) | [log](logs/CytoGLMM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CytoGLMM) |
+| [DEGseq](https://bioconductor.org/packages/3.23/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEGseq) |
 | [DEsingle](https://bioconductor.org/packages/3.23/bioc/html/DEsingle.html) | [log](logs/DEsingle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEsingle) |
 | [DepecheR](https://bioconductor.org/packages/3.23/bioc/html/DepecheR.html) | [log](logs/DepecheR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DepecheR) |
 | [EBSeq](https://bioconductor.org/packages/3.23/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EBSeq) |
+| [EMDomics](https://bioconductor.org/packages/3.23/bioc/html/EMDomics.html) | [log](logs/EMDomics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EMDomics) |
 | [GEOmetadb](https://bioconductor.org/packages/3.23/bioc/html/GEOmetadb.html) | [log](logs/GEOmetadb/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GEOmetadb) |
 | [GGPA](https://bioconductor.org/packages/3.23/bioc/html/GGPA.html) | [log](logs/GGPA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GGPA) |
 | [Harman](https://bioconductor.org/packages/3.23/bioc/html/Harman.html) | [log](logs/Harman/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Harman) |
 | [Informeasure](https://bioconductor.org/packages/3.23/bioc/html/Informeasure.html) | [log](logs/Informeasure/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Informeasure) |
-| [IsoCorrectoR](https://bioconductor.org/packages/3.23/bioc/html/IsoCorrectoR.html) | [log](logs/IsoCorrectoR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/IsoCorrectoR) |
-| [PCAN](https://bioconductor.org/packages/3.23/bioc/html/PCAN.html) | [log](logs/PCAN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PCAN) |
 
-*... and 50 more ...*
+*... and 69 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [pfamAnalyzeR](https://bioconductor.org/packages/3.23/bioc/html/pfamAnalyzeR.html) | [log](logs/pfamAnalyzeR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pfamAnalyzeR) |
 | [pgca](https://bioconductor.org/packages/3.23/bioc/html/pgca.html) | [log](logs/pgca/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pgca) |
 | [phosphonormalizer](https://bioconductor.org/packages/3.23/bioc/html/phosphonormalizer.html) | [log](logs/phosphonormalizer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/phosphonormalizer) |
 | [pickgene](https://bioconductor.org/packages/3.23/bioc/html/pickgene.html) | [log](logs/pickgene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pickgene) |
@@ -70,6 +69,7 @@
 | [seahtrue](https://bioconductor.org/packages/3.23/bioc/html/seahtrue.html) | [log](logs/seahtrue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seahtrue) |
 | [semisup](https://bioconductor.org/packages/3.23/bioc/html/semisup.html) | [log](logs/semisup/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/semisup) |
 | [seq.hotSPOT](https://bioconductor.org/packages/3.23/bioc/html/seq.hotSPOT.html) | [log](logs/seq.hotSPOT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seq.hotSPOT) |
+| [sights](https://bioconductor.org/packages/3.23/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sights) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (290)
+## In Progress (279)
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -134,9 +134,9 @@
 - ⏳ `GSALightning`
 - ⏳ `GSAR`
 
-... and 240 more ...
+... and 229 more ...
 
-## Not Yet Started (1994)
+## Not Yet Started (1986)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 1944 more ...
+... and 1936 more ...
 
 ---
-*Last updated: 2026-10-28 17:07:13 UTC*
-*Packages with verified BBS status: 94*
+*Last updated: 2026-10-28 17:10:15 UTC*
+*Packages with verified BBS status: 97*
