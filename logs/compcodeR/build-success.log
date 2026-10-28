@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''compcodeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'compcodeR'
+also installing the dependencies ‘statip’, ‘phylolm’, ‘NOISeq’, ‘TCC’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/statip_0.2.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/phylolm_2.6.5.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/NOISeq_2.56.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/TCC_1.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/compcodeR_1.48.1.tar.gz'
+* installing *binary* package ‘statip’ ...
+* package ‘statip’ successfully unpacked and SHA256 sums checked
+* ‘statip’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘statip’ as ‘statip_0.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statip)
+* installing *binary* package ‘phylolm’ ...
+* package ‘phylolm’ successfully unpacked and SHA256 sums checked
+* ‘phylolm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phylolm’ as ‘phylolm_2.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phylolm)
+* installing *source* package ‘NOISeq’ ...
+** this is package ‘NOISeq’ version ‘2.56.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NOISeq’ as ‘NOISeq_2.56.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NOISeq)
+* installing *source* package ‘TCC’ ...
+** this is package ‘TCC’ version ‘1.52.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘calcNormFactors’ in package ‘TCC’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TCC’ as ‘TCC_1.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TCC)
+* installing *source* package ‘compcodeR’ ...
+** this is package ‘compcodeR’ version ‘1.48.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘compcodeR’ as ‘compcodeR_1.48.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (compcodeR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBqT4lS/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m54.315s
+user	0m45.727s
+sys	0m7.441s
