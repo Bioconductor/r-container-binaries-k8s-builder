@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 732 (30%)
+- **Successfully Built:** 734 (30%)
 - **Failed:** 11 (0%)
 - **In Progress:** 40
-- **Not Started:** 1602
+- **Not Started:** 1600
 
 **Progress:** 31%
 ```
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (732)
+## Successfully Built Packages (734)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 682 more ...*
+*... and 684 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,6 +101,7 @@
 - ⏳ `EBImage`
 - ⏳ `FamAgg`
 - ⏳ `GCPtools`
+- ⏳ `GateFinder`
 - ⏳ `IHW`
 - ⏳ `MMUPHin`
 - ⏳ `OSTA.data`
@@ -125,16 +126,15 @@
 - ⏳ `dStruct`
 - ⏳ `ddPCRclust`
 - ⏳ `derfinderHelper`
+- ⏳ `flowBin`
 - ⏳ `flowCut`
 - ⏳ `frmaTools`
-- ⏳ `ggkegg`
 - ⏳ `makecdfenv`
-- ⏳ `matter`
 - ⏳ `msPurity`
 - ⏳ `nucleoSim`
 - ⏳ `toppgene`
 
-## Not Yet Started (1602)
+## Not Yet Started (1600)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -186,8 +186,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1552 more ...
+... and 1550 more ...
 
 ---
-*Last updated: 2026-10-28 19:23:26 UTC*
+*Last updated: 2026-10-28 19:24:02 UTC*
 *Packages with verified BBS status: 189*
