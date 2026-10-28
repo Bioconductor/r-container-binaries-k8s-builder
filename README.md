@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 319 (13%)
+- **Successfully Built:** 327 (13%)
 - **Failed:** 4 (0%)
-- **In Progress:** 135
+- **In Progress:** 127
 - **Not Started:** 1927
 
 **Progress:** 13%
@@ -16,7 +16,7 @@
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (319)
+## Successfully Built Packages (327)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [COSNet](https://bioconductor.org/packages/3.23/bioc/html/COSNet.html) | [log](logs/COSNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COSNet) |
 | [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 
-*... and 269 more ...*
+*... and 277 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (135)
+## In Progress (127)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -133,11 +133,11 @@
 - ⏳ `NPARC`
 - ⏳ `NuPoP`
 - ⏳ `OSAT`
-- ⏳ `Omixer`
-- ⏳ `OmnipathR`
 - ⏳ `OpenStats`
+- ⏳ `Oscope`
+- ⏳ `PTMods`
 
-... and 85 more ...
+... and 77 more ...
 
 ## Not Yet Started (1927)
 - ⏸️ `ABarray`
@@ -194,5 +194,5 @@
 ... and 1877 more ...
 
 ---
-*Last updated: 2026-10-28 17:41:04 UTC*
+*Last updated: 2026-10-28 17:41:53 UTC*
 *Packages with verified BBS status: 149*
