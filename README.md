@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 15 (0%)
+- **Successfully Built:** 20 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 336
-- **Not Started:** 2034
+- **In Progress:** 333
+- **Not Started:** 2032
 
 **Progress:** 0%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (15)
+## Successfully Built Packages (20)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -33,10 +33,15 @@
 | [EBSeq](https://bioconductor.org/packages/3.23/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EBSeq) |
 | [GEOmetadb](https://bioconductor.org/packages/3.23/bioc/html/GEOmetadb.html) | [log](logs/GEOmetadb/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GEOmetadb) |
 | [GGPA](https://bioconductor.org/packages/3.23/bioc/html/GGPA.html) | [log](logs/GGPA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GGPA) |
+| [Informeasure](https://bioconductor.org/packages/3.23/bioc/html/Informeasure.html) | [log](logs/Informeasure/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Informeasure) |
 | [IsoCorrectoR](https://bioconductor.org/packages/3.23/bioc/html/IsoCorrectoR.html) | [log](logs/IsoCorrectoR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/IsoCorrectoR) |
+| [diffuStats](https://bioconductor.org/packages/3.23/bioc/html/diffuStats.html) | [log](logs/diffuStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/diffuStats) |
+| [dir.expiry](https://bioconductor.org/packages/3.23/bioc/html/dir.expiry.html) | [log](logs/dir.expiry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dir.expiry) |
+| [dks](https://bioconductor.org/packages/3.23/bioc/html/dks.html) | [log](logs/dks/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/dks) |
+| [drawProteins](https://bioconductor.org/packages/3.23/bioc/html/drawProteins.html) | [log](logs/drawProteins/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/drawProteins) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (336)
+## In Progress (333)
 - ⏳ `ANCOMBC`
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
@@ -88,9 +93,9 @@
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
 
-... and 286 more ...
+... and 283 more ...
 
-## Not Yet Started (2034)
+## Not Yet Started (2032)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -142,8 +147,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1984 more ...
+... and 1982 more ...
 
 ---
-*Last updated: 2026-10-28 16:28:16 UTC*
-*Packages with verified BBS status: 15*
+*Last updated: 2026-10-28 16:31:14 UTC*
+*Packages with verified BBS status: 20*
