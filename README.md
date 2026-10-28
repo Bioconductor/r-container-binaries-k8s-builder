@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 396 (16%)
+- **Successfully Built:** 404 (16%)
 - **Failed:** 6 (0%)
-- **In Progress:** 74
-- **Not Started:** 1909
+- **In Progress:** 68
+- **Not Started:** 1907
 
-**Progress:** 16%
+**Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (396)
+## Successfully Built Packages (404)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,13 +44,12 @@
 | [BiocVersion](https://bioconductor.org/packages/3.23/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocVersion) |
 | [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
-| [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
+| [BufferedMatrixMethods](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrixMethods) |
 
-*... and 346 more ...*
+*... and 354 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [spikeLI](https://bioconductor.org/packages/3.23/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/spikeLI) |
 | [splots](https://bioconductor.org/packages/3.23/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
@@ -68,6 +67,7 @@
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
+| [tweeDEseq](https://bioconductor.org/packages/3.23/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tweeDEseq) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
@@ -87,14 +87,13 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (74)
+## In Progress (68)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocStyle`
-- ⏳ `BufferedMatrixMethods`
 - ⏳ `Chicago`
 - ⏳ `Clomial`
 - ⏳ `DCATS`
@@ -108,7 +107,6 @@
 - ⏳ `DiffLogo`
 - ⏳ `DriverNet`
 - ⏳ `DynDoc`
-- ⏳ `GWAS.BAYES`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `Icens`
@@ -132,16 +130,18 @@
 - ⏳ `RankProd`
 - ⏳ `Rarr`
 - ⏳ `Rbowtie`
-- ⏳ `SMAD`
-- ⏳ `SNAGEE`
 - ⏳ `SNPediaR`
 - ⏳ `STRINGdb`
 - ⏳ `SamSPECTRAL`
 - ⏳ `ScreenR`
+- ⏳ `biomformat`
+- ⏳ `cellxgenedp`
+- ⏳ `chopsticks`
+- ⏳ `clevRvis`
 
-... and 24 more ...
+... and 18 more ...
 
-## Not Yet Started (1909)
+## Not Yet Started (1907)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -193,8 +193,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1859 more ...
+... and 1857 more ...
 
 ---
-*Last updated: 2026-10-28 17:51:55 UTC*
-*Packages with verified BBS status: 154*
+*Last updated: 2026-10-28 17:53:16 UTC*
+*Packages with verified BBS status: 156*
