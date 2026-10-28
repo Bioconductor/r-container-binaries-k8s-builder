@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 566 (23%)
+- **Successfully Built:** 578 (24%)
 - **Failed:** 8 (0%)
-- **In Progress:** 118
-- **Not Started:** 1693
+- **In Progress:** 108
+- **Not Started:** 1691
 
 **Progress:** 24%
 ```
 ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (566)
+## Successfully Built Packages (578)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 516 more ...*
+*... and 528 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (118)
+## In Progress (108)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -97,8 +97,6 @@
 - ⏳ `BayesKnockdown`
 - ⏳ `BioQC`
 - ⏳ `BiocFHIR`
-- ⏳ `CGHcall`
-- ⏳ `CGHregions`
 - ⏳ `CMA`
 - ⏳ `COMPASS`
 - ⏳ `CTDquerier`
@@ -106,17 +104,13 @@
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
 - ⏳ `ConsensusClusterPlus`
-- ⏳ `Cormotif`
 - ⏳ `DFP`
 - ⏳ `DFplyr`
-- ⏳ `Doscheda`
 - ⏳ `EBImage`
 - ⏳ `EBarrays`
-- ⏳ `ExiMiR`
 - ⏳ `ExploreModelMatrix`
 - ⏳ `FamAgg`
 - ⏳ `GCPtools`
-- ⏳ `GEOsubmission`
 - ⏳ `GSEAlm`
 - ⏳ `GWASTools`
 - ⏳ `GeneExpressionSignature`
@@ -124,26 +118,32 @@
 - ⏳ `GraphAT`
 - ⏳ `HELP`
 - ⏳ `HEM`
-- ⏳ `HTqPCR`
 - ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `IRanges`
-- ⏳ `Maaslin2`
 - ⏳ `Mulcom`
 - ⏳ `NOISeq`
 - ⏳ `NanoStringDiff`
 - ⏳ `NanoTube`
-- ⏳ `OCplus`
 - ⏳ `OSTA.data`
-- ⏳ `OrderedList`
 - ⏳ `PLPE`
 - ⏳ `Pedixplorer`
 - ⏳ `RBGL`
 - ⏳ `RCy3`
+- ⏳ `RCyjs`
+- ⏳ `RGSEA`
+- ⏳ `RGraph2js`
+- ⏳ `RIVER`
+- ⏳ `RNAseqCovarImpute`
+- ⏳ `RUVnormalize`
+- ⏳ `RbcBook1`
+- ⏳ `ReUseData`
+- ⏳ `ReadqPCR`
+- ⏳ `Rgraphviz`
 
-... and 68 more ...
+... and 58 more ...
 
-## Not Yet Started (1693)
+## Not Yet Started (1691)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -195,8 +195,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1643 more ...
+... and 1641 more ...
 
 ---
-*Last updated: 2026-10-28 18:41:11 UTC*
+*Last updated: 2026-10-28 18:42:38 UTC*
 *Packages with verified BBS status: 181*
