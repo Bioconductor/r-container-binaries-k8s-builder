@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 704 (28%)
+- **Successfully Built:** 716 (29%)
 - **Failed:** 6 (0%)
-- **In Progress:** 38
-- **Not Started:** 1686
+- **In Progress:** 40
+- **Not Started:** 1672
 
 **Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (704)
+## Successfully Built Packages (716)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.24/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILWorkflow) |
 | [BANDITS](https://bioconductor.org/packages/3.24/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BANDITS) |
 
-*... and 654 more ...*
+*... and 666 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timecourse](https://bioconductor.org/packages/3.24/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.24/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.24/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tomoseqr) |
@@ -63,6 +62,7 @@
 | [twilight](https://bioconductor.org/packages/3.24/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.24/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.24/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tximport) |
+| [uSORT](https://bioconductor.org/packages/3.24/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
@@ -87,20 +87,24 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (38)
+## In Progress (40)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
-- ⏳ `BioCartaImage`
-- ⏳ `CARNIVAL`
-- ⏳ `CFAssay`
 - ⏳ `Chicago`
-- ⏳ `ComplexHeatmap`
-- ⏳ `DNABarcodes`
+- ⏳ `Chromatograms`
 - ⏳ `MODA`
-- ⏳ `OncoSimulR`
+- ⏳ `MsBackendMassIVE`
+- ⏳ `MsBackendMgf`
+- ⏳ `MsBackendMsp`
+- ⏳ `MsBackendParquet`
+- ⏳ `MsBackendRawFileReader`
+- ⏳ `MsBackendSql`
 - ⏳ `Seqinfo`
+- ⏳ `SparseArray`
+- ⏳ `SpectraQL`
+- ⏳ `SpectriPy`
 - ⏳ `convert`
 - ⏳ `copa`
 - ⏳ `ddCt`
@@ -116,7 +120,6 @@
 - ⏳ `massiR`
 - ⏳ `metabCombiner`
 - ⏳ `multtest`
-- ⏳ `nnNorm`
 - ⏳ `pandaR`
 - ⏳ `plgem`
 - ⏳ `randPack`
@@ -125,9 +128,8 @@
 - ⏳ `rols`
 - ⏳ `scPassport`
 - ⏳ `sevenbridges`
-- ⏳ `uSORT`
 
-## Not Yet Started (1686)
+## Not Yet Started (1672)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -179,8 +181,8 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
 
-... and 1636 more ...
+... and 1622 more ...
 
 ---
-*Last updated: 2026-10-28 18:23:26 UTC*
-*Packages with verified BBS status: 197*
+*Last updated: 2026-10-28 18:24:27 UTC*
+*Packages with verified BBS status: 198*
