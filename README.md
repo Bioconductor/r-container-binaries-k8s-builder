@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 180 (7%)
+- **Successfully Built:** 202 (8%)
 - **Failed:** 1 (0%)
-- **In Progress:** 223
-- **Not Started:** 1981
+- **In Progress:** 202
+- **Not Started:** 1980
 
-**Progress:** 7%
+**Progress:** 8%
 ```
-███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (180)
+## Successfully Built Packages (202)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,8 +30,13 @@
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
+| [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BANDITS](https://bioconductor.org/packages/3.23/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BANDITS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
+| [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
+| [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
+| [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
+| [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
 | [BiocParallel](https://bioconductor.org/packages/3.23/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocParallel) |
 | [BiocVersion](https://bioconductor.org/packages/3.23/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocVersion) |
 | [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
@@ -40,13 +45,8 @@
 | [DEGseq](https://bioconductor.org/packages/3.23/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEGseq) |
 | [DEsingle](https://bioconductor.org/packages/3.23/bioc/html/DEsingle.html) | [log](logs/DEsingle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DEsingle) |
 | [DepecheR](https://bioconductor.org/packages/3.23/bioc/html/DepecheR.html) | [log](logs/DepecheR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/DepecheR) |
-| [EBSeq](https://bioconductor.org/packages/3.23/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EBSeq) |
-| [EMDomics](https://bioconductor.org/packages/3.23/bioc/html/EMDomics.html) | [log](logs/EMDomics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EMDomics) |
-| [EmpiricalBrownsMethod](https://bioconductor.org/packages/3.23/bioc/html/EmpiricalBrownsMethod.html) | [log](logs/EmpiricalBrownsMethod/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EmpiricalBrownsMethod) |
-| [FGNet](https://bioconductor.org/packages/3.23/bioc/html/FGNet.html) | [log](logs/FGNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/FGNet) |
-| [FRGEpistasis](https://bioconductor.org/packages/3.23/bioc/html/FRGEpistasis.html) | [log](logs/FRGEpistasis/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/FRGEpistasis) |
 
-*... and 130 more ...*
+*... and 152 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,13 +82,8 @@
 |---------|-----|------------|------------------|
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 
-## In Progress (223)
+## In Progress (202)
 - ⏳ `AnVILBilling`
-- ⏳ `BADER`
-- ⏳ `BG2`
-- ⏳ `BaseSpaceR`
-- ⏳ `BeadDataPackR`
-- ⏳ `BioCartaImage`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
@@ -116,7 +111,6 @@
 - ⏳ `DiffLogo`
 - ⏳ `DriverNet`
 - ⏳ `DynDoc`
-- ⏳ `EnhancedVolcano`
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 - ⏳ `GPA`
@@ -133,10 +127,16 @@
 - ⏳ `HDTD`
 - ⏳ `HIREewas`
 - ⏳ `HMMcopy`
+- ⏳ `HPAanalyze`
+- ⏳ `HPiP`
+- ⏳ `HVP`
+- ⏳ `Heatplus`
+- ⏳ `Herper`
+- ⏳ `HilbertVis`
 
-... and 173 more ...
+... and 152 more ...
 
-## Not Yet Started (1981)
+## Not Yet Started (1980)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 1931 more ...
+... and 1930 more ...
 
 ---
-*Last updated: 2026-10-28 17:19:03 UTC*
-*Packages with verified BBS status: 115*
+*Last updated: 2026-10-28 17:20:53 UTC*
+*Packages with verified BBS status: 120*
