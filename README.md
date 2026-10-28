@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 470 (19%)
-- **Failed:** 6 (0%)
-- **In Progress:** 14
-- **Not Started:** 1895
+- **Successfully Built:** 471 (19%)
+- **Failed:** 7 (0%)
+- **In Progress:** 15
+- **Not Started:** 1892
 
-**Progress:** 19%
+**Progress:** 20%
 ```
-█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (470)
+## Successfully Built Packages (471)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.23/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BufferedMatrix) |
 
-*... and 420 more ...*
+*... and 421 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (6)
+## Failed Packages (7)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,10 +84,11 @@
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
+| [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (14)
+## In Progress (15)
 - ⏳ `AnVILBilling`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
@@ -101,9 +102,10 @@
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DepInfeR`
 - ⏳ `KinSwingR`
-- ⏳ `ppcseq`
+- ⏳ `mzID`
+- ⏳ `ndexr`
 
-## Not Yet Started (1895)
+## Not Yet Started (1892)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -155,8 +157,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1845 more ...
+... and 1842 more ...
 
 ---
-*Last updated: 2026-10-28 18:19:53 UTC*
-*Packages with verified BBS status: 161*
+*Last updated: 2026-10-28 18:20:24 UTC*
+*Packages with verified BBS status: 162*

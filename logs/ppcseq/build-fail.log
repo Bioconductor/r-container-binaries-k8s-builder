@@ -1,0 +1,107 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''ppcseq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'ppcseq'
+also installing the dependencies ‘svUnit’, ‘benchmarkmeData’, ‘ggdist’, ‘arrayhelpers’, ‘benchmarkme’, ‘rstantools’, ‘tidybayes’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/svUnit_1.0.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/benchmarkmeData_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggdist_3.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/arrayhelpers_1.1-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/benchmarkme_1.0.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rstantools_2.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/tidybayes_3.0.7.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ppcseq_1.20.0.tar.gz'
+* installing *binary* package ‘svUnit’ ...
+* package ‘svUnit’ successfully unpacked and SHA256 sums checked
+* ‘svUnit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘svUnit’ as ‘svUnit_1.0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (svUnit)
+* installing *binary* package ‘benchmarkmeData’ ...
+* package ‘benchmarkmeData’ successfully unpacked and SHA256 sums checked
+* ‘benchmarkmeData’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘benchmarkmeData’ as ‘benchmarkmeData_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchmarkmeData)
+* installing *binary* package ‘ggdist’ ...
+* package ‘ggdist’ successfully unpacked and SHA256 sums checked
+* ‘ggdist’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggdist’ as ‘ggdist_3.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdist)
+* installing *binary* package ‘rstantools’ ...
+* package ‘rstantools’ successfully unpacked and SHA256 sums checked
+* ‘rstantools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rstantools’ as ‘rstantools_2.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rstantools)
+* installing *binary* package ‘arrayhelpers’ ...
+* package ‘arrayhelpers’ successfully unpacked and SHA256 sums checked
+* ‘arrayhelpers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘arrayhelpers’ as ‘arrayhelpers_1.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (arrayhelpers)
+* installing *binary* package ‘benchmarkme’ ...
+* package ‘benchmarkme’ successfully unpacked and SHA256 sums checked
+* ‘benchmarkme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘benchmarkme’ as ‘benchmarkme_1.0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchmarkme)
+* installing *binary* package ‘tidybayes’ ...
+* package ‘tidybayes’ successfully unpacked and SHA256 sums checked
+* ‘tidybayes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidybayes’ as ‘tidybayes_3.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidybayes)
+* installing *source* package ‘ppcseq’ ...
+** this is package ‘ppcseq’ version ‘1.20.0’
+** using staged installation
+Error in rstan::stanc(file_name, allow_undefined = TRUE, obfuscate_model_name = FALSE,  : 
+  0
+Syntax error in 'string', line 23, column 7 to column 8, parsing error:
+   -------------------------------------------------
+    21:  	  return log(gamma_rng(a, b));
+    22:  	}
+    23:  	vector[] get_reference_parameters_MPI(int n_shards, int M, int[] G_per_shard, int[,] G_ind, matrix lambda_log, vector sigma, vector exposure_rate){
+         	      ^
+    24:  		int S = rows(exposure_rate);
+    25:  		vector[(M*S) + M + S] lambda_sigma_exposure_MPI[n_shards];
+   -------------------------------------------------
+
+Ill-formed type. Expected an unsized type in function signature.
+  For example, this means a type like "matrix", not "matrix[3,4]".
+  If you are trying to use the old array syntax, you will need to use
+  the new syntax, see:
+  https://mc-stan.org/docs/reference-manual/types.html#array-data-types.section
+Calls: <Anonymous> -> sapply -> lapply -> FUN -> <Anonymous>
+Execution halted
+ERROR: configuration failed for package ‘ppcseq’
+* removing ‘/tmp/library/ppcseq’
+
+The downloaded source packages are in
+	‘/tmp/RtmpHqt1cB/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+Warning message:
+In install.packages(...) :
+  installation of package ‘ppcseq’ had non-zero exit status
+
+real	0m15.992s
+user	0m9.180s
+sys	0m3.893s
