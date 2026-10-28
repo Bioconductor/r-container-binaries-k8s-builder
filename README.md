@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1079 (44%)
+- **Successfully Built:** 1080 (44%)
 - **Failed:** 6 (0%)
 - **In Progress:** 202
-- **Not Started:** 1147
+- **Not Started:** 1146
 
 **Progress:** 44%
 ```
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1079)
+## Successfully Built Packages (1080)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1029 more ...*
+*... and 1030 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,6 @@
 - ⏳ `BulkSignalR`
 - ⏳ `CAEN`
 - ⏳ `CARDspa`
-- ⏳ `CHETAH`
 - ⏳ `CPSM`
 - ⏳ `CRISPRball`
 - ⏳ `CSOA`
@@ -113,6 +112,7 @@
 - ⏳ `ExperimentSubset`
 - ⏳ `ExpoRiskR`
 - ⏳ `ExpressionAtlas`
+- ⏳ `FEAST`
 - ⏳ `FeatSeekR`
 - ⏳ `FuseSOM`
 - ⏳ `GDSArray`
@@ -141,7 +141,7 @@
 
 ... and 152 more ...
 
-## Not Yet Started (1147)
+## Not Yet Started (1146)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -193,8 +193,8 @@
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioCor`
 
-... and 1097 more ...
+... and 1096 more ...
 
 ---
-*Last updated: 2026-10-28 21:03:26 UTC*
+*Last updated: 2026-10-28 21:04:18 UTC*
 *Packages with verified BBS status: 211*
