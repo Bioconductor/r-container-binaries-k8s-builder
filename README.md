@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 673 (28%)
+- **Successfully Built:** 675 (28%)
 - **Failed:** 9 (0%)
 - **In Progress:** 56
-- **Not Started:** 1647
+- **Not Started:** 1645
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (673)
+## Successfully Built Packages (675)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 
-*... and 623 more ...*
+*... and 625 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -140,11 +140,11 @@
 - ⏳ `flowCore`
 - ⏳ `frmaTools`
 - ⏳ `ggkegg`
-- ⏳ `hmdbQuery`
+- ⏳ `hapFabia`
 
 ... and 6 more ...
 
-## Not Yet Started (1647)
+## Not Yet Started (1645)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1597 more ...
+... and 1595 more ...
 
 ---
-*Last updated: 2026-10-28 19:07:23 UTC*
+*Last updated: 2026-10-28 19:08:15 UTC*
 *Packages with verified BBS status: 183*
