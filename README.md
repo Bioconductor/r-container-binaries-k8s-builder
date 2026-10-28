@@ -6,21 +6,22 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 33 (1%)
+- **Successfully Built:** 37 (1%)
 - **Failed:** 0 (0%)
-- **In Progress:** 323
-- **Not Started:** 2029
+- **In Progress:** 349
+- **Not Started:** 1999
 
 **Progress:** 1%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (33)
+## Successfully Built Packages (37)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
+| [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
@@ -52,12 +53,17 @@
 | [fmrs](https://bioconductor.org/packages/3.23/bioc/html/fmrs.html) | [log](logs/fmrs/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/fmrs) |
 | [frenchFISH](https://bioconductor.org/packages/3.23/bioc/html/frenchFISH.html) | [log](logs/frenchFISH/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/frenchFISH) |
 | [garfield](https://bioconductor.org/packages/3.23/bioc/html/garfield.html) | [log](logs/garfield/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/garfield) |
+| [gemini](https://bioconductor.org/packages/3.23/bioc/html/gemini.html) | [log](logs/gemini/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/gemini) |
+| [genArise](https://bioconductor.org/packages/3.23/bioc/html/genArise.html) | [log](logs/genArise/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genArise) |
+| [genomes](https://bioconductor.org/packages/3.23/bioc/html/genomes.html) | [log](logs/genomes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genomes) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## In Progress (323)
-- ⏳ `ANCOMBC`
+## In Progress (349)
+- ⏳ `AlphaBeta`
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
+- ⏳ `BANDITS`
+- ⏳ `BEclear`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
 - ⏳ `BeadDataPackR`
@@ -79,13 +85,16 @@
 - ⏳ `ClusterJudge`
 - ⏳ `ClusterSignificance`
 - ⏳ `ComPrAn`
+- ⏳ `CytoGLMM`
 - ⏳ `DART`
 - ⏳ `DCATS`
+- ⏳ `DEsingle`
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
 - ⏳ `DNAcopy`
 - ⏳ `DTA`
 - ⏳ `DeMAND`
+- ⏳ `DepInfeR`
 - ⏳ `DiffLogo`
 - ⏳ `DriverNet`
 - ⏳ `DynDoc`
@@ -100,15 +109,10 @@
 - ⏳ `GEOfastq`
 - ⏳ `GEWIST`
 - ⏳ `GIGSEA`
-- ⏳ `GLAD`
-- ⏳ `GPA`
-- ⏳ `GRENITS`
-- ⏳ `GSALightning`
-- ⏳ `GSAR`
 
-... and 273 more ...
+... and 299 more ...
 
-## Not Yet Started (2029)
+## Not Yet Started (1999)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -139,7 +143,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AlphaBeta`
 - ⏸️ `AlphaMissenseR`
 - ⏸️ `AlpsNMR`
 - ⏸️ `AnVIL`
@@ -156,12 +159,13 @@
 - ⏸️ `ArrayExpress`
 - ⏸️ `AssessORF`
 - ⏸️ `BAGS`
-- ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
+- ⏸️ `BBCAnalyzer`
+- ⏸️ `BCRANK`
 
-... and 1979 more ...
+... and 1949 more ...
 
 ---
-*Last updated: 2026-10-28 16:46:31 UTC*
-*Packages with verified BBS status: 33*
+*Last updated: 2026-10-28 16:48:43 UTC*
+*Packages with verified BBS status: 37*
