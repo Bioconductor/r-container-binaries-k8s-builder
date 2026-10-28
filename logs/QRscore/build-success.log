@@ -1,0 +1,115 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''QRscore'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'QRscore'
+also installing the dependencies ‘gmp’, ‘rcdd’, ‘pscl’, ‘arrangements’, ‘hitandrun’, ‘assertthat’, ‘DESeq2’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/gmp_0.7-5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rcdd_1.6-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/pscl_1.5.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/arrangements_1.1.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/hitandrun_0.5-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/assertthat_0.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/DESeq2_1.52.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/QRscore_1.4.0.tar.gz'
+* installing *binary* package ‘gmp’ ...
+* package ‘gmp’ successfully unpacked and SHA256 sums checked
+* ‘gmp’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gmp’ as ‘gmp_0.7-5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gmp)
+* installing *binary* package ‘rcdd’ ...
+* package ‘rcdd’ successfully unpacked and SHA256 sums checked
+* ‘rcdd’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rcdd’ as ‘rcdd_1.6-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rcdd)
+* installing *binary* package ‘pscl’ ...
+* package ‘pscl’ successfully unpacked and SHA256 sums checked
+* ‘pscl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pscl’ as ‘pscl_1.5.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pscl)
+* installing *binary* package ‘assertthat’ ...
+* package ‘assertthat’ successfully unpacked and SHA256 sums checked
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *source* package ‘DESeq2’ ...
+** this is package ‘DESeq2’ version ‘1.52.0’
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c DESeq2.cpp -o DESeq2.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DESeq2.so DESeq2.o RcppExports.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DESeq2/00new/DESeq2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DESeq2’ as ‘DESeq2_1.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DESeq2)
+* installing *binary* package ‘arrangements’ ...
+* package ‘arrangements’ successfully unpacked and SHA256 sums checked
+* ‘arrangements’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘arrangements’ as ‘arrangements_1.1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (arrangements)
+* installing *binary* package ‘hitandrun’ ...
+* package ‘hitandrun’ successfully unpacked and SHA256 sums checked
+* ‘hitandrun’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hitandrun’ as ‘hitandrun_0.5-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hitandrun)
+* installing *source* package ‘QRscore’ ...
+** this is package ‘QRscore’ version ‘1.4.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘QRscore’ as ‘QRscore_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (QRscore)
+
+The downloaded source packages are in
+	‘/tmp/RtmprFXcd9/downloaded_packages’
+Old packages: 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	1m1.017s
+user	0m51.174s
+sys	0m8.557s
