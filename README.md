@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 691 (28%)
+- **Successfully Built:** 704 (28%)
 - **Failed:** 6 (0%)
-- **In Progress:** 47
-- **Not Started:** 1690
+- **In Progress:** 38
+- **Not Started:** 1686
 
-**Progress:** 28%
+**Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (691)
+## Successfully Built Packages (704)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILWorkflow](https://bioconductor.org/packages/3.24/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILWorkflow) |
 | [BANDITS](https://bioconductor.org/packages/3.24/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BANDITS) |
 
-*... and 641 more ...*
+*... and 654 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (47)
+## In Progress (38)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -98,21 +98,12 @@
 - ⏳ `Chicago`
 - ⏳ `ComplexHeatmap`
 - ⏳ `DNABarcodes`
-- ⏳ `GeneNetworkBuilder`
-- ⏳ `GeneOverlap`
-- ⏳ `HVP`
 - ⏳ `MODA`
 - ⏳ `OncoSimulR`
-- ⏳ `STRprofilerR`
 - ⏳ `Seqinfo`
-- ⏳ `Spectra`
-- ⏳ `XVector`
-- ⏳ `clippda`
-- ⏳ `clusterStab`
 - ⏳ `convert`
 - ⏳ `copa`
 - ⏳ `ddCt`
-- ⏳ `derfinderHelper`
 - ⏳ `discordant`
 - ⏳ `fabia`
 - ⏳ `gdscloud`
@@ -134,9 +125,9 @@
 - ⏳ `rols`
 - ⏳ `scPassport`
 - ⏳ `sevenbridges`
-- ⏳ `stepNorm`
+- ⏳ `uSORT`
 
-## Not Yet Started (1690)
+## Not Yet Started (1686)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -188,8 +179,8 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BamScale`
 
-... and 1640 more ...
+... and 1636 more ...
 
 ---
-*Last updated: 2026-10-28 18:22:24 UTC*
+*Last updated: 2026-10-28 18:23:26 UTC*
 *Packages with verified BBS status: 197*
