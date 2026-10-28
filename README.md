@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 38 (1%)
+- **Successfully Built:** 40 (1%)
 - **Failed:** 0 (0%)
-- **In Progress:** 316
+- **In Progress:** 314
 - **Not Started:** 2080
 
 **Progress:** 1%
@@ -16,7 +16,7 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (38)
+## Successfully Built Packages (40)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -25,6 +25,7 @@
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
+| [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
 | [CNAnorm](https://bioconductor.org/packages/3.24/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CNAnorm) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
@@ -36,6 +37,7 @@
 | [dearseq](https://bioconductor.org/packages/3.24/bioc/html/dearseq.html) | [log](logs/dearseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/dearseq) |
 | [decontam](https://bioconductor.org/packages/3.24/bioc/html/decontam.html) | [log](logs/decontam/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/decontam) |
 | [deltaGseg](https://bioconductor.org/packages/3.24/bioc/html/deltaGseg.html) | [log](logs/deltaGseg/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/deltaGseg) |
+| [demuxmix](https://bioconductor.org/packages/3.24/bioc/html/demuxmix.html) | [log](logs/demuxmix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/demuxmix) |
 | [diffGeneAnalysis](https://bioconductor.org/packages/3.24/bioc/html/diffGeneAnalysis.html) | [log](logs/diffGeneAnalysis/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/diffGeneAnalysis) |
 | [diffuStats](https://bioconductor.org/packages/3.24/bioc/html/diffuStats.html) | [log](logs/diffuStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/diffuStats) |
 | [dir.expiry](https://bioconductor.org/packages/3.24/bioc/html/dir.expiry.html) | [log](logs/dir.expiry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/dir.expiry) |
@@ -59,7 +61,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## In Progress (316)
+## In Progress (314)
 - ⏳ `ASAFE`
 - ⏳ `ASEB`
 - ⏳ `ASGSCA`
@@ -69,7 +71,6 @@
 - ⏳ `BADER`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
-- ⏳ `BenchHub`
 - ⏳ `BioCartaImage`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
@@ -110,8 +111,9 @@
 - ⏳ `GEOfastq`
 - ⏳ `GEOmetadb`
 - ⏳ `GEWIST`
+- ⏳ `GGPA`
 
-... and 266 more ...
+... and 264 more ...
 
 ## Not Yet Started (2080)
 - ⏸️ `ABSSeq`
@@ -168,5 +170,5 @@
 ... and 2030 more ...
 
 ---
-*Last updated: 2026-10-28 16:49:35 UTC*
-*Packages with verified BBS status: 38*
+*Last updated: 2026-10-28 16:52:15 UTC*
+*Packages with verified BBS status: 40*
