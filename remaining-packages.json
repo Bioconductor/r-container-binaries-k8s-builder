@@ -1,5 +1,4 @@
 {
-  "ABSSeq": [],
   "ABarray": [
     "Biobase",
     "multtest",
@@ -16,7 +15,6 @@
     "CGHbase",
     "CGHcall",
     "Rsamtools",
-    "marray",
     "Biostrings",
     "XVector",
     "BiocParallel",
@@ -1438,7 +1436,6 @@
     "ComplexHeatmap",
     "BiocParallel",
     "minet",
-    "GENIE3",
     "SummarizedExperiment",
     "IRanges",
     "GenomicRanges",
@@ -2069,27 +2066,23 @@
   "CGEN": [],
   "CGHbase": [
     "Biobase",
-    "marray",
     "BiocGenerics"
   ],
   "CGHcall": [
     "Biobase",
     "CGHbase",
-    "BiocGenerics",
-    "marray"
+    "BiocGenerics"
   ],
   "CGHnormaliter": [
     "CGHcall",
     "CGHbase",
     "Biobase",
-    "BiocGenerics",
-    "marray"
+    "BiocGenerics"
   ],
   "CGHregions": [
     "Biobase",
     "CGHbase",
-    "BiocGenerics",
-    "marray"
+    "BiocGenerics"
   ],
   "CGRphylo2": [
     "BiocParallel",
@@ -2907,7 +2900,6 @@
     "DMRcate",
     "globaltest",
     "sva",
-    "marray",
     "wateRmelon",
     "goseq",
     "missMethyl",
@@ -3677,7 +3669,6 @@
     "IRanges",
     "DelayedArray",
     "GenomicRanges",
-    "marray",
     "fgsea",
     "Seqinfo",
     "S4Arrays",
@@ -4211,7 +4202,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "DEqMS": [],
   "DEsingle": [
     "BiocParallel"
   ],
@@ -5827,7 +5817,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "FGNet": [],
   "FISHalyseR": [
     "EBImage",
     "BiocGenerics"
@@ -6206,7 +6195,6 @@
     "Biostrings",
     "XVector"
   ],
-  "GEM": [],
   "GENESIS": [
     "Biobase",
     "BiocGenerics",
@@ -6221,7 +6209,6 @@
     "Biostrings",
     "XVector"
   ],
-  "GENIE3": [],
   "GEOfastq": [],
   "GEOmetadb": [],
   "GEOquery": [
@@ -6783,7 +6770,6 @@
     "CGHbase",
     "GenomicRanges",
     "Biobase",
-    "marray",
     "BiocGenerics",
     "S4Vectors",
     "IRanges",
@@ -7321,7 +7307,6 @@
     "graph",
     "BiocGenerics"
   ],
-  "GraphAlignment": [],
   "GraphExperiment": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -7425,7 +7410,6 @@
     "Rhdf5lib",
     "XVector"
   ],
-  "HDTD": [],
   "HELP": [
     "Biobase",
     "BiocGenerics"
@@ -8288,9 +8272,7 @@
     "IRanges",
     "BiocGenerics"
   ],
-  "IntramiRExploreR": [
-    "FGNet"
-  ],
+  "IntramiRExploreR": [],
   "IntrinsicScan": [
     "Biobase",
     "S4Vectors",
@@ -9467,16 +9449,12 @@
     "SparseArray",
     "XVector"
   ],
-  "MSstats": [
-    "marray"
-  ],
+  "MSstats": [],
   "MSstatsBig": [
-    "MSstats",
-    "marray"
+    "MSstats"
   ],
   "MSstatsBioNet": [
-    "MSstats",
-    "marray"
+    "MSstats"
   ],
   "MSstatsLiP": [
     "MSstats",
@@ -9487,7 +9465,6 @@
     "IRanges",
     "XVector",
     "Seqinfo",
-    "marray",
     "MSstatsTMT"
   ],
   "MSstatsPTM": [
@@ -9498,8 +9475,7 @@
     "S4Vectors",
     "IRanges",
     "XVector",
-    "Seqinfo",
-    "marray"
+    "Seqinfo"
   ],
   "MSstatsQC": [
     "MSnbase",
@@ -9572,7 +9548,6 @@
     "MSstatsBig",
     "MSstatsTMT",
     "MSstatsPTM",
-    "marray",
     "MSstatsBioNet",
     "MSstatsResponse",
     "Biostrings",
@@ -9584,8 +9559,7 @@
     "Seqinfo"
   ],
   "MSstatsTMT": [
-    "MSstats",
-    "marray"
+    "MSstats"
   ],
   "MWASTools": [
     "SummarizedExperiment",
@@ -9740,7 +9714,6 @@
     "S4Vectors",
     "SummarizedExperiment",
     "BiocParallel",
-    "GENIE3",
     "BiocGenerics",
     "GenomicRanges",
     "Biobase",
@@ -10980,12 +10953,9 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "OLIN": [
-    "marray"
-  ],
+  "OLIN": [],
   "OLINgui": [
-    "OLIN",
-    "marray"
+    "OLIN"
   ],
   "OMICsPCA": [
     "HelloRanges",
@@ -11344,7 +11314,6 @@
     "DelayedArray",
     "GenomicRanges",
     "IRanges",
-    "marray",
     "fgsea",
     "Seqinfo",
     "S4Arrays",
@@ -11524,7 +11493,6 @@
     "vsn",
     "Biobase",
     "POMA",
-    "DEqMS",
     "BiocGenerics",
     "IRanges",
     "mzR",
@@ -11721,7 +11689,6 @@
     "Seqinfo",
     "S4Arrays",
     "SparseArray",
-    "marray",
     "fgsea",
     "XVector"
   ],
@@ -12033,7 +12000,6 @@
     "GenomicRanges",
     "IRanges",
     "Rsamtools",
-    "marray",
     "S4Vectors",
     "Biostrings",
     "XVector",
@@ -12297,9 +12263,7 @@
     "graph",
     "BiocGenerics"
   ],
-  "RBM": [
-    "marray"
-  ],
+  "RBM": [],
   "RBPEqBind": [
     "Biostrings",
     "GenomicRanges",
@@ -13162,7 +13126,6 @@
     "S4Arrays",
     "DelayedArray",
     "SparseArray",
-    "marray",
     "fgsea",
     "XVector"
   ],
@@ -16258,7 +16221,6 @@
     "S4Arrays",
     "DelayedArray",
     "SparseArray",
-    "marray",
     "fgsea",
     "XVector"
   ],
@@ -16267,7 +16229,6 @@
     "BiocGenerics"
   ],
   "TraianProt": [
-    "DEqMS",
     "DOSE",
     "enrichplot",
     "clusterProfiler",
@@ -16337,7 +16298,6 @@
   ],
   "TurboNorm": [
     "convert",
-    "marray",
     "affy",
     "BiocGenerics",
     "Biobase"
@@ -16928,7 +16888,6 @@
     "Seqinfo",
     "S4Arrays",
     "SparseArray",
-    "marray",
     "fgsea",
     "XVector"
   ],
@@ -17795,7 +17754,6 @@
   "arrayMvout": [
     "Biobase",
     "affy",
-    "mdqc",
     "affyContam",
     "lumi",
     "BiocGenerics",
@@ -17837,9 +17795,7 @@
     "rhdf5filters",
     "Rhdf5lib"
   ],
-  "arrayQuality": [
-    "marray"
-  ],
+  "arrayQuality": [],
   "arrayQualityMetrics": [
     "affy",
     "affyPLM",
@@ -18692,7 +18648,6 @@
     "BiocFileCache",
     "BiocVersion",
     "regioneR",
-    "marray",
     "cigarillo",
     "rhdf5filters",
     "Rhdf5lib",
@@ -19047,7 +19002,6 @@
     "ComplexHeatmap",
     "BiocParallel",
     "minet",
-    "GENIE3",
     "SummarizedExperiment",
     "BiocGenerics",
     "S4Vectors",
@@ -19471,8 +19425,7 @@
     "Biostrings",
     "XVector",
     "BiocParallel",
-    "Rhtslib",
-    "marray"
+    "Rhtslib"
   ],
   "cghMCR": [
     "CNTools",
@@ -20255,7 +20208,6 @@
     "KEGGREST",
     "rtracklayer",
     "SummarizedExperiment",
-    "marray",
     "Gviz",
     "GenomicAlignments",
     "BiocParallel",
@@ -20437,7 +20389,6 @@
   ],
   "convert": [
     "Biobase",
-    "marray",
     "BiocGenerics"
   ],
   "copa": [
@@ -22055,7 +22006,6 @@
     "Rsubread"
   ],
   "dyebias": [
-    "marray",
     "Biobase",
     "BiocGenerics"
   ],
@@ -24781,7 +24731,6 @@
     "rhdf5filters",
     "Rhdf5lib"
   ],
-  "iChip": [],
   "iClusterPlus": [],
   "iGC": [],
   "iModMix": [
@@ -25839,7 +25788,6 @@
     "XVector"
   ],
   "limmaGUI": [],
-  "limpa": [],
   "limpca": [
     "SummarizedExperiment",
     "S4Vectors",
@@ -25928,7 +25876,6 @@
     "SparseArray",
     "XVector"
   ],
-  "lmdme": [],
   "lncRna": [
     "S4Vectors",
     "GenomicRanges",
@@ -26213,7 +26160,6 @@
     "SparseArray",
     "XVector"
   ],
-  "marray": [],
   "martini": [
     "snpStats",
     "BiocGenerics"
@@ -26323,8 +26269,6 @@
     "Seqinfo",
     "XVector"
   ],
-  "mdp": [],
-  "mdqc": [],
   "megadepth": [
     "GenomicRanges",
     "BiocGenerics",
@@ -26377,7 +26321,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "messina": [],
   "metaMS": [
     "CAMERA",
     "xcms",
@@ -26496,7 +26439,6 @@
   ],
   "metaseqR2": [
     "DESeq2",
-    "ABSSeq",
     "Biobase",
     "BiocGenerics",
     "BiocParallel",
@@ -26793,7 +26735,6 @@
     "GenomicRanges",
     "SummarizedExperiment",
     "Rsamtools",
-    "marray",
     "IRanges",
     "BiocGenerics",
     "Gviz",
@@ -26929,7 +26870,6 @@
     "Rhdf5lib",
     "Rhtslib"
   ],
-  "mgsa": [],
   "miQC": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -28387,9 +28327,7 @@
     "SparseArray",
     "XVector"
   ],
-  "nnNorm": [
-    "marray"
-  ],
+  "nnNorm": [],
   "nnSVG": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -29509,7 +29447,6 @@
   "piano": [
     "BiocGenerics",
     "Biobase",
-    "marray",
     "fgsea",
     "BiocParallel"
   ],
@@ -31853,7 +31790,6 @@
   ],
   "scGraphVerse": [
     "BiocParallel",
-    "GENIE3",
     "MultiAssayExperiment",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -34127,9 +34063,7 @@
   "statTarget": [
     "ROC"
   ],
-  "stepNorm": [
-    "marray"
-  ],
+  "stepNorm": [],
   "strandCheckR": [
     "Rsamtools",
     "S4Vectors",
@@ -34760,7 +34694,6 @@
   ],
   "timecourse": [
     "Biobase",
-    "marray",
     "BiocGenerics"
   ],
   "timescape": [],

@@ -6,20 +6,21 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 207 (8%)
+- **Successfully Built:** 222 (9%)
 - **Failed:** 1 (0%)
-- **In Progress:** 179
-- **Not Started:** 2047
+- **In Progress:** 183
+- **Not Started:** 2028
 
-**Progress:** 8%
+**Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (207)
+## Successfully Built Packages (222)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
+| [ABSSeq](https://bioconductor.org/packages/3.24/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABSSeq) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.24/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
@@ -35,6 +36,7 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
 | [CNAnorm](https://bioconductor.org/packages/3.24/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CNAnorm) |
 | [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
+| [DEqMS](https://bioconductor.org/packages/3.24/bioc/html/DEqMS.html) | [log](logs/DEqMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEqMS) |
 | [DNABarcodeCompatibility](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodeCompatibility.html) | [log](logs/DNABarcodeCompatibility/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodeCompatibility) |
 | [DNAcopy](https://bioconductor.org/packages/3.24/bioc/html/DNAcopy.html) | [log](logs/DNAcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcopy) |
 | [DNAcycP2](https://bioconductor.org/packages/3.24/bioc/html/DNAcycP2.html) | [log](logs/DNAcycP2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNAcycP2) |
@@ -43,10 +45,8 @@
 | [DeepPINCS](https://bioconductor.org/packages/3.24/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeepPINCS) |
 | [DiffLogo](https://bioconductor.org/packages/3.24/bioc/html/DiffLogo.html) | [log](logs/DiffLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DiffLogo) |
 | [DriverNet](https://bioconductor.org/packages/3.24/bioc/html/DriverNet.html) | [log](logs/DriverNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DriverNet) |
-| [DynDoc](https://bioconductor.org/packages/3.24/bioc/html/DynDoc.html) | [log](logs/DynDoc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DynDoc) |
-| [EBSeq](https://bioconductor.org/packages/3.24/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EBSeq) |
 
-*... and 157 more ...*
+*... and 172 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 
-## In Progress (179)
+## In Progress (183)
 - ⏳ `ASAFE`
 - ⏳ `BADER`
 - ⏳ `BG2`
@@ -110,21 +110,17 @@
 - ⏳ `DART`
 - ⏳ `DCATS`
 - ⏳ `DNABarcodes`
-- ⏳ `FGNet`
 - ⏳ `GCPtools`
-- ⏳ `GEM`
-- ⏳ `GENIE3`
 - ⏳ `GEOfastq`
 - ⏳ `GEOmetadb`
 - ⏳ `GEWIST`
 - ⏳ `GGPA`
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
+- ⏳ `GWAS.BAYES`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
 - ⏳ `GladiaTOX`
-- ⏳ `GraphAlignment`
-- ⏳ `HDTD`
 - ⏳ `HIREewas`
 - ⏳ `HPiP`
 - ⏳ `HVP`
@@ -133,11 +129,14 @@
 - ⏳ `Herper`
 - ⏳ `HilbertVis`
 - ⏳ `HuBMAPR`
+- ⏳ `INPower`
+- ⏳ `INTACT`
+- ⏳ `ISAnalytics`
+- ⏳ `ISoLDE`
 
-... and 129 more ...
+... and 133 more ...
 
-## Not Yet Started (2047)
-- ⏸️ `ABSSeq`
+## Not Yet Started (2028)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -187,9 +186,10 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
+- ⏸️ `BEAT`
 
-... and 1997 more ...
+... and 1978 more ...
 
 ---
-*Last updated: 2026-10-28 17:26:17 UTC*
-*Packages with verified BBS status: 132*
+*Last updated: 2026-10-28 17:27:58 UTC*
+*Packages with verified BBS status: 134*
