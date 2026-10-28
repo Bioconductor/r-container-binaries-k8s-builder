@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1107 (45%)
+- **Successfully Built:** 1111 (45%)
 - **Failed:** 6 (0%)
-- **In Progress:** 178
+- **In Progress:** 174
 - **Not Started:** 1143
 
 **Progress:** 45%
@@ -16,7 +16,7 @@
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1107)
+## Successfully Built Packages (1111)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1057 more ...*
+*... and 1061 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (178)
+## In Progress (174)
 - ⏳ `BUScorrect`
 - ⏳ `Banksy`
 - ⏳ `Battlefield`
@@ -137,9 +137,9 @@
 - ⏳ `LACHESIS`
 - ⏳ `LOLA`
 - ⏳ `MEDME`
-- ⏳ `MetNet`
+- ⏳ `MultiDataSet`
 
-... and 128 more ...
+... and 124 more ...
 
 ## Not Yet Started (1143)
 - ⏸️ `ACE`
@@ -196,5 +196,5 @@
 ... and 1093 more ...
 
 ---
-*Last updated: 2026-10-28 21:14:20 UTC*
+*Last updated: 2026-10-28 21:16:03 UTC*
 *Packages with verified BBS status: 211*
