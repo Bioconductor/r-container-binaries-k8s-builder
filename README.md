@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 933 (38%)
+- **Successfully Built:** 936 (38%)
 - **Failed:** 6 (0%)
 - **In Progress:** 185
-- **Not Started:** 1310
+- **Not Started:** 1307
 
 **Progress:** 38%
 ```
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (933)
+## Successfully Built Packages (936)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 883 more ...*
+*... and 886 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,6 +101,7 @@
 - ⏳ `DNAshapeR`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
+- ⏳ `EDIRquery`
 - ⏳ `ExpoRiskR`
 - ⏳ `ExpressionAtlas`
 - ⏳ `FeatSeekR`
@@ -119,6 +120,7 @@
 - ⏳ `GeoTcgaData`
 - ⏳ `GrafGen`
 - ⏳ `HERON`
+- ⏳ `HiCParser`
 - ⏳ `HilbertCurve`
 - ⏳ `IFAA`
 - ⏳ `ISLET`
@@ -136,12 +138,10 @@
 - ⏳ `MPRAnalyze`
 - ⏳ `Macarron`
 - ⏳ `MetNet`
-- ⏳ `MicrobiotaProcess`
-- ⏳ `MsFeatures`
 
 ... and 135 more ...
 
-## Not Yet Started (1310)
+## Not Yet Started (1307)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -193,8 +193,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1260 more ...
+... and 1257 more ...
 
 ---
-*Last updated: 2026-10-28 19:52:33 UTC*
+*Last updated: 2026-10-28 19:53:41 UTC*
 *Packages with verified BBS status: 207*
