@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 351 (14%)
-- **Failed:** 4 (0%)
-- **In Progress:** 88
-- **Not Started:** 1991
+- **Successfully Built:** 364 (14%)
+- **Failed:** 5 (0%)
+- **In Progress:** 75
+- **Not Started:** 1990
 
-**Progress:** 14%
+**Progress:** 15%
 ```
 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (351)
+## Successfully Built Packages (364)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -29,24 +29,24 @@
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
+| [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
+| [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.24/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBaseUtils) |
+| [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
+| [BiocMaintainerApp](https://bioconductor.org/packages/3.24/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocMaintainerApp) |
+| [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
+| [BiocVersion](https://bioconductor.org/packages/3.24/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocVersion) |
 | [BridgeDbR](https://bioconductor.org/packages/3.24/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BridgeDbR) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
-| [CIMICE](https://bioconductor.org/packages/3.24/bioc/html/CIMICE.html) | [log](logs/CIMICE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CIMICE) |
-| [CNAnorm](https://bioconductor.org/packages/3.24/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CNAnorm) |
-| [CausalR](https://bioconductor.org/packages/3.24/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CausalR) |
-| [ClusterSignificance](https://bioconductor.org/packages/3.24/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ClusterSignificance) |
-| [ComPrAn](https://bioconductor.org/packages/3.24/bioc/html/ComPrAn.html) | [log](logs/ComPrAn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ComPrAn) |
-| [DEGseq](https://bioconductor.org/packages/3.24/bioc/html/DEGseq.html) | [log](logs/DEGseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEGseq) |
-| [DEqMS](https://bioconductor.org/packages/3.24/bioc/html/DEqMS.html) | [log](logs/DEqMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DEqMS) |
+| [CGEN](https://bioconductor.org/packages/3.24/bioc/html/CGEN.html) | [log](logs/CGEN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CGEN) |
 
-*... and 301 more ...*
+*... and 314 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,34 +76,26 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (4)
+## Failed Packages (5)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
+| [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (88)
+## In Progress (75)
 - ⏳ `ASAFE`
-- ⏳ `AnVIL`
-- ⏳ `AnVILGCP`
 - ⏳ `BADER`
 - ⏳ `BG2`
 - ⏳ `BaseSpaceR`
 - ⏳ `BioCartaImage`
-- ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
-- ⏳ `BiocMaintainerApp`
 - ⏳ `BiocParallel`
-- ⏳ `BiocStyle`
-- ⏳ `BiocVersion`
 - ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
-- ⏳ `CGEN`
-- ⏳ `CONSTANd`
-- ⏳ `COSNet`
 - ⏳ `Chicago`
 - ⏳ `Clomial`
 - ⏳ `ClusterJudge`
@@ -136,10 +128,19 @@
 - ⏳ `RNAdecay`
 - ⏳ `ROC`
 - ⏳ `ROSeq`
+- ⏳ `RProtoBufLib`
+- ⏳ `Rvisdiff`
+- ⏳ `SANTA`
+- ⏳ `SBMLR`
+- ⏳ `SCBN`
+- ⏳ `SIMLR`
+- ⏳ `ScreenR`
+- ⏳ `TreeAndLeaf`
+- ⏳ `arrayQuality`
 
-... and 38 more ...
+... and 25 more ...
 
-## Not Yet Started (1991)
+## Not Yet Started (1990)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -191,8 +192,8 @@
 - ⏸️ `BEclear`
 - ⏸️ `BLMA`
 
-... and 1941 more ...
+... and 1940 more ...
 
 ---
-*Last updated: 2026-10-28 17:50:11 UTC*
-*Packages with verified BBS status: 159*
+*Last updated: 2026-10-28 17:51:31 UTC*
+*Packages with verified BBS status: 167*
