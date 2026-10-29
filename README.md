@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1269 (52%)
+- **Successfully Built:** 1270 (52%)
 - **Failed:** 7 (0%)
-- **In Progress:** 118
+- **In Progress:** 117
 - **Not Started:** 1040
 
 **Progress:** 52%
@@ -16,7 +16,7 @@
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1269)
+## Successfully Built Packages (1270)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1219 more ...*
+*... and 1220 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (118)
+## In Progress (117)
 - ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AffiXcan`
@@ -98,7 +98,6 @@
 - ⏳ `BasicSTARRseq`
 - ⏳ `BatchSVG`
 - ⏳ `BulkSignalR`
-- ⏳ `CARDspa`
 - ⏳ `CNVRanger`
 - ⏳ `COTAN`
 - ⏳ `CTSV`
@@ -139,8 +138,9 @@
 - ⏳ `ROntoTools`
 - ⏳ `RTNduals`
 - ⏳ `SEraster`
+- ⏳ `SPIAT`
 
-... and 68 more ...
+... and 67 more ...
 
 ## Not Yet Started (1040)
 - ⏸️ `ADAM`
@@ -197,5 +197,5 @@
 ... and 990 more ...
 
 ---
-*Last updated: 2026-10-29 01:30:15 UTC*
+*Last updated: 2026-10-29 01:31:07 UTC*
 *Packages with verified BBS status: 218*
