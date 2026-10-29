@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1551 (65%)
+- **Successfully Built:** 1552 (65%)
 - **Failed:** 16 (0%)
 - **In Progress:** 210
-- **Not Started:** 608
+- **Not Started:** 607
 
 **Progress:** 65%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1551)
+## Successfully Built Packages (1552)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1501 more ...*
+*... and 1502 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -138,7 +138,6 @@
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
 - ⏳ `InTAD`
-- ⏳ `MCbiclust`
 - ⏳ `MDSvis`
 - ⏳ `MLP`
 - ⏳ `MMDiff2`
@@ -148,10 +147,11 @@
 - ⏳ `MetaboAnnotation`
 - ⏳ `MetaboAnnotatoR`
 - ⏳ `MiRaGE`
+- ⏳ `Motif2Site`
 
 ... and 160 more ...
 
-## Not Yet Started (608)
+## Not Yet Started (607)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -203,8 +203,8 @@
 - ⏸️ `Category`
 - ⏸️ `CeTF`
 
-... and 558 more ...
+... and 557 more ...
 
 ---
-*Last updated: 2026-10-29 10:55:10 UTC*
+*Last updated: 2026-10-29 10:56:23 UTC*
 *Packages with verified BBS status: 222*
