@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1755 (72%)
+- **Successfully Built:** 1761 (72%)
 - **Failed:** 9 (0%)
-- **In Progress:** 123
-- **Not Started:** 547
+- **In Progress:** 176
+- **Not Started:** 488
 
 **Progress:** 72%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1755)
+## Successfully Built Packages (1761)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -27,6 +27,7 @@
 | [ADAM](https://bioconductor.org/packages/3.24/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADAM) |
 | [ADAMgui](https://bioconductor.org/packages/3.24/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADAMgui) |
 | [ADImpute](https://bioconductor.org/packages/3.24/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADImpute) |
+| [ADaCGH2](https://bioconductor.org/packages/3.24/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADaCGH2) |
 | [AHMassBank](https://bioconductor.org/packages/3.24/bioc/html/AHMassBank.html) | [log](logs/AHMassBank/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AHMassBank) |
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.24/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ALDEx2) |
@@ -40,13 +41,12 @@
 | [ASGSCA](https://bioconductor.org/packages/3.24/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASGSCA) |
 | [ASICS](https://bioconductor.org/packages/3.24/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
+| [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
-| [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
-| [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1705 more ...*
+*... and 1711 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,24 +90,26 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (123)
-- ⏳ `ADaCGH2`
+## In Progress (176)
 - ⏳ `AGDEX`
-- ⏳ `ASSIGN`
 - ⏳ `AUCell`
 - ⏳ `ArrayExpress`
-- ⏳ `BERT`
-- ⏳ `BatchQC`
-- ⏳ `BatchVaria`
+- ⏳ `BBCAnalyzer`
+- ⏳ `BUSpaRse`
+- ⏳ `BadRegionFinder`
 - ⏳ `BicARE`
 - ⏳ `BioCor`
-- ⏳ `BioNERO`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
+- ⏳ `CCAFE`
+- ⏳ `CNVrd2`
 - ⏳ `CTdata`
 - ⏳ `Category`
 - ⏳ `CellMixS`
+- ⏳ `ChIPpeakAnno`
+- ⏳ `ClonalSim`
 - ⏳ `CoSIA`
+- ⏳ `DAMEfinder`
 - ⏳ `DExMA`
 - ⏳ `DOTSeq`
 - ⏳ `DaMiRseq`
@@ -115,36 +117,34 @@
 - ⏳ `DeconvoBuddies`
 - ⏳ `DeepTarget`
 - ⏳ `DegNorm`
+- ⏳ `DominoEffect`
 - ⏳ `ELViS`
 - ⏳ `EWCE`
 - ⏳ `EpiMix`
 - ⏳ `EpiTxDb`
 - ⏳ `EpipwR`
+- ⏳ `FLAMES`
+- ⏳ `G4SNVHunter`
+- ⏳ `GA4GHclient`
+- ⏳ `GPlinksR`
+- ⏳ `GRaNIE`
 - ⏳ `GSEABenchmarkeR`
 - ⏳ `GSRI`
+- ⏳ `GenVisR`
+- ⏳ `GenomicFiles`
 - ⏳ `GenomicPlot`
 - ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
+- ⏳ `HelloRanges`
 - ⏳ `ITALICS`
 - ⏳ `LRcell`
 - ⏳ `M3Drop`
 - ⏳ `MACSr`
 - ⏳ `MEB`
-- ⏳ `MatrixQCvis`
-- ⏳ `MsDataHub`
-- ⏳ `PAA`
-- ⏳ `POMA`
-- ⏳ `PROMISE`
-- ⏳ `PROPS`
-- ⏳ `RFGeneRank`
-- ⏳ `RTCGAToolbox`
-- ⏳ `RUVSeq`
-- ⏳ `Rhisat2`
-- ⏳ `RiboCrypt`
 
-... and 73 more ...
+... and 126 more ...
 
-## Not Yet Started (547)
+## Not Yet Started (488)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -153,10 +153,7 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `BASiCStan`
-- ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BUSpaRse`
-- ⏸️ `BadRegionFinder`
 - ⏸️ `BatChef`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
@@ -167,12 +164,10 @@
 - ⏸️ `CAMERA`
 - ⏸️ `CATALYST`
 - ⏸️ `CBNplot`
-- ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
 - ⏸️ `CMEnt`
 - ⏸️ `CNVfilteR`
-- ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CONCERTDR`
 - ⏸️ `CONFESS`
@@ -184,20 +179,25 @@
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
-- ⏸️ `ChIPpeakAnno`
 - ⏸️ `ChIPseeker`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CiteFuse`
 - ⏸️ `CleanUpRNAseq`
-- ⏸️ `ClonalSim`
 - ⏸️ `CluMSID`
 - ⏸️ `CoGAPS`
 - ⏸️ `CompensAID`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `CyFj11`
+- ⏸️ `CySA`
+- ⏸️ `CyTOFpower`
+- ⏸️ `CytoDx`
+- ⏸️ `CytoMDS`
+- ⏸️ `CytoML`
+- ⏸️ `CytoPipeline`
+- ⏸️ `CytoPipelineGUI`
 
-... and 497 more ...
+... and 438 more ...
 
 ---
-*Last updated: 2026-10-29 09:05:12 UTC*
-*Packages with verified BBS status: 234*
+*Last updated: 2026-10-29 09:07:54 UTC*
+*Packages with verified BBS status: 236*
