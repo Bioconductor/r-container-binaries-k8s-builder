@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 1583 (66%)
 - **Failed:** 16 (0%)
-- **In Progress:** 239
-- **Not Started:** 547
+- **In Progress:** 240
+- **Not Started:** 546
 
 **Progress:** 67%
 ```
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (239)
+## In Progress (240)
 - ⏳ `ADAMgui`
 - ⏳ `ArrayExpress`
 - ⏳ `BASiCStan`
@@ -149,9 +149,9 @@
 - ⏳ `LACE`
 - ⏳ `MDSvis`
 
-... and 189 more ...
+... and 190 more ...
 
-## Not Yet Started (547)
+## Not Yet Started (546)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -203,8 +203,8 @@
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 
-... and 497 more ...
+... and 496 more ...
 
 ---
-*Last updated: 2026-10-29 11:22:05 UTC*
+*Last updated: 2026-10-29 11:23:06 UTC*
 *Packages with verified BBS status: 222*
