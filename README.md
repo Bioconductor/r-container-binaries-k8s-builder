@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1728 (70%)
+- **Successfully Built:** 1733 (71%)
 - **Failed:** 9 (0%)
-- **In Progress:** 144
-- **Not Started:** 553
+- **In Progress:** 141
+- **Not Started:** 551
 
 **Progress:** 71%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1728)
+## Successfully Built Packages (1733)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1678 more ...*
+*... and 1683 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,9 +90,10 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (144)
+## In Progress (141)
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
+- ⏳ `AHMassBank`
 - ⏳ `ASSIGN`
 - ⏳ `AUCell`
 - ⏳ `ArrayExpress`
@@ -120,9 +121,9 @@
 - ⏳ `EpiMix`
 - ⏳ `EpiTxDb`
 - ⏳ `EpipwR`
+- ⏳ `ExperimentHubData`
 - ⏳ `GSEABenchmarkeR`
 - ⏳ `GSRI`
-- ⏳ `GSReg`
 - ⏳ `GenomicPlot`
 - ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
@@ -140,13 +141,11 @@
 - ⏳ `RFGeneRank`
 - ⏳ `RUVSeq`
 - ⏳ `Rhisat2`
-- ⏳ `RiboCrypt`
 
-... and 94 more ...
+... and 91 more ...
 
-## Not Yet Started (553)
+## Not Yet Started (551)
 - ⏸️ `ADAPT`
-- ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -195,9 +194,10 @@
 - ⏸️ `CoGAPS`
 - ⏸️ `CompensAID`
 - ⏸️ `CopyNumberPlots`
+- ⏸️ `CyFj11`
 
-... and 503 more ...
+... and 501 more ...
 
 ---
-*Last updated: 2026-10-29 08:52:12 UTC*
+*Last updated: 2026-10-29 08:53:59 UTC*
 *Packages with verified BBS status: 232*
