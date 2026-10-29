@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1663 (69%)
-- **Failed:** 17 (0%)
-- **In Progress:** 206
+- **Successfully Built:** 1665 (69%)
+- **Failed:** 18 (0%)
+- **In Progress:** 203
 - **Not Started:** 499
 
 **Progress:** 70%
@@ -16,7 +16,7 @@
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1663)
+## Successfully Built Packages (1665)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 
-*... and 1613 more ...*
+*... and 1615 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (17)
+## Failed Packages (18)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -86,6 +86,7 @@
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
+| [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Build failed with unknown error |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -98,7 +99,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (206)
+## In Progress (203)
 - ⏳ `APL`
 - ⏳ `BEAT`
 - ⏳ `BLMA`
@@ -146,11 +147,11 @@
 - ⏳ `MetaboAnnotatoR`
 - ⏳ `Motif2Site`
 - ⏳ `MouseFM`
-- ⏳ `MsQuality`
 - ⏳ `NetSAM`
 - ⏳ `NoRCE`
+- ⏳ `ORFhunteR`
 
-... and 156 more ...
+... and 153 more ...
 
 ## Not Yet Started (499)
 - ⏸️ `ADaCGH2`
@@ -207,5 +208,5 @@
 ... and 449 more ...
 
 ---
-*Last updated: 2026-10-29 15:48:01 UTC*
-*Packages with verified BBS status: 225*
+*Last updated: 2026-10-29 15:53:01 UTC*
+*Packages with verified BBS status: 226*
