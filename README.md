@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1246 (51%)
+- **Successfully Built:** 1248 (51%)
 - **Failed:** 7 (0%)
-- **In Progress:** 119
-- **Not Started:** 1062
+- **In Progress:** 134
+- **Not Started:** 1045
 
 **Progress:** 51%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1246)
+## Successfully Built Packages (1248)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1196 more ...*
+*... and 1198 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tripr](https://bioconductor.org/packages/3.24/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.24/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.24/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twilight) |
@@ -67,6 +66,7 @@
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
+| [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [weitrix](https://bioconductor.org/packages/3.24/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weitrix) |
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (119)
+## In Progress (134)
 - ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AffiXcan`
@@ -97,6 +97,7 @@
 - ⏳ `BamScale`
 - ⏳ `Banksy`
 - ⏳ `BasicSTARRseq`
+- ⏳ `BatchSVG`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
 - ⏳ `CNVRanger`
@@ -104,10 +105,12 @@
 - ⏳ `CRISPRball`
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
+- ⏳ `ClusterGVis`
 - ⏳ `CorNetto`
 - ⏳ `CoreGx`
 - ⏳ `CrcBiomeScreen`
 - ⏳ `DAssemble`
+- ⏳ `DESpace`
 - ⏳ `DenoIST`
 - ⏳ `DiPPER`
 - ⏳ `EGAD`
@@ -136,13 +139,10 @@
 - ⏳ `PICB`
 - ⏳ `POWSC`
 - ⏳ `QFeatures`
-- ⏳ `ROntoTools`
-- ⏳ `RTNduals`
-- ⏳ `SEraster`
 
-... and 69 more ...
+... and 84 more ...
 
-## Not Yet Started (1062)
+## Not Yet Started (1045)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -177,7 +177,6 @@
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
-- ⏸️ `BatchSVG`
 - ⏸️ `BatchVaria`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
@@ -193,9 +192,10 @@
 - ⏸️ `BiocDuckDB`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
+- ⏸️ `CAFE`
 
-... and 1012 more ...
+... and 995 more ...
 
 ---
-*Last updated: 2026-10-29 01:18:26 UTC*
-*Packages with verified BBS status: 216*
+*Last updated: 2026-10-29 01:19:41 UTC*
+*Packages with verified BBS status: 217*
