@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1556 (65%)
+- **Successfully Built:** 1559 (65%)
 - **Failed:** 16 (0%)
-- **In Progress:** 206
-- **Not Started:** 607
+- **In Progress:** 205
+- **Not Started:** 605
 
-**Progress:** 65%
+**Progress:** 66%
 ```
-████████████████████████████████░░░░░░░░░░░░░░░░░░
+█████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1556)
+## Successfully Built Packages (1559)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1506 more ...*
+*... and 1509 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (206)
+## In Progress (205)
 - ⏳ `ADAMgui`
 - ⏳ `ArrayExpress`
 - ⏳ `BASiCStan`
@@ -149,9 +149,9 @@
 - ⏳ `OTUbase`
 - ⏳ `OrganismDbi`
 
-... and 156 more ...
+... and 155 more ...
 
-## Not Yet Started (607)
+## Not Yet Started (605)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -203,8 +203,8 @@
 - ⏸️ `Category`
 - ⏸️ `CeTF`
 
-... and 557 more ...
+... and 555 more ...
 
 ---
-*Last updated: 2026-10-29 11:01:06 UTC*
+*Last updated: 2026-10-29 11:02:23 UTC*
 *Packages with verified BBS status: 222*
