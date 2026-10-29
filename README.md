@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1871 (76%)
+- **Successfully Built:** 1873 (76%)
 - **Failed:** 9 (0%)
 - **In Progress:** 100
-- **Not Started:** 454
+- **Not Started:** 452
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1871)
+## Successfully Built Packages (1873)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1821 more ...*
+*... and 1823 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -119,8 +119,6 @@
 - ⏳ `SEtools`
 - ⏳ `TENET`
 - ⏳ `TOAST`
-- ⏳ `UPDhmm`
-- ⏳ `Uniquorn`
 - ⏳ `VAExprs`
 - ⏳ `VariantTools`
 - ⏳ `XDE`
@@ -141,10 +139,12 @@
 - ⏳ `crisprDesign`
 - ⏳ `csaw`
 - ⏳ `dbSequence`
+- ⏳ `decompTumor2Sig`
+- ⏳ `deepSNV`
 
 ... and 50 more ...
 
-## Not Yet Started (454)
+## Not Yet Started (452)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -196,8 +196,8 @@
 - ⏸️ `DMRcate`
 - ⏸️ `DOtools`
 
-... and 404 more ...
+... and 402 more ...
 
 ---
-*Last updated: 2026-10-29 13:49:55 UTC*
+*Last updated: 2026-10-29 13:51:04 UTC*
 *Packages with verified BBS status: 239*
