@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1858 (77%)
+- **Successfully Built:** 1859 (77%)
 - **Failed:** 20 (0%)
-- **In Progress:** 213
+- **In Progress:** 212
 - **Not Started:** 294
 
 **Progress:** 78%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1858)
+## Successfully Built Packages (1859)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1808 more ...*
+*... and 1809 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,7 +101,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (213)
+## In Progress (212)
 - ⏳ `AGDEX`
 - ⏳ `APAlyzer`
 - ⏳ `AUCell`
@@ -136,7 +136,6 @@
 - ⏳ `DiffBind`
 - ⏳ `DominoEffect`
 - ⏳ `DrugVsDisease`
-- ⏳ `DspikeIn`
 - ⏳ `ELViS`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiDISH`
@@ -152,8 +151,9 @@
 - ⏳ `GenVisR`
 - ⏳ `GeneMeta`
 - ⏳ `GenomicFiles`
+- ⏳ `GlobalAncova`
 
-... and 163 more ...
+... and 162 more ...
 
 ## Not Yet Started (294)
 - ⏸️ `ADaCGH2`
@@ -210,5 +210,5 @@
 ... and 244 more ...
 
 ---
-*Last updated: 2026-10-29 19:20:19 UTC*
+*Last updated: 2026-10-29 19:21:56 UTC*
 *Packages with verified BBS status: 232*
