@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1751 (73%)
+- **Successfully Built:** 1753 (73%)
 - **Failed:** 18 (0%)
-- **In Progress:** 188
-- **Not Started:** 428
+- **In Progress:** 203
+- **Not Started:** 411
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1751)
+## Successfully Built Packages (1753)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 
-*... and 1701 more ...*
+*... and 1703 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,13 +99,14 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (188)
+## In Progress (203)
 - ⏳ `AGDEX`
 - ⏳ `APL`
 - ⏳ `AUCell`
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
+- ⏳ `BgeeCall`
 - ⏳ `BgeeDB`
 - ⏳ `BiSeq`
 - ⏳ `BicARE`
@@ -131,10 +132,14 @@
 - ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
 - ⏳ `DNEA`
+- ⏳ `DOTSeq`
+- ⏳ `DegNorm`
 - ⏳ `DrugVsDisease`
 - ⏳ `DspikeIn`
+- ⏳ `ELViS`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiDISH`
+- ⏳ `EpiTxDb`
 - ⏳ `FindIT2`
 - ⏳ `GOTHiC`
 - ⏳ `GSRI`
@@ -145,15 +150,10 @@
 - ⏳ `GreyListChIP`
 - ⏳ `Guitar`
 - ⏳ `HiLDA`
-- ⏳ `INSPEcT`
-- ⏳ `IVAS`
-- ⏳ `MLInterfaces`
-- ⏳ `MMDiff2`
-- ⏳ `MOSClip`
 
-... and 138 more ...
+... and 153 more ...
 
-## Not Yet Started (428)
+## Not Yet Started (411)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -171,7 +171,6 @@
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
-- ⏸️ `BgeeCall`
 - ⏸️ `BioNERO`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -199,14 +198,15 @@
 - ⏸️ `DEScan2`
 - ⏸️ `DExMA`
 - ⏸️ `DMRcate`
-- ⏸️ `DOTSeq`
 - ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DeMixT`
+- ⏸️ `DegCre`
+- ⏸️ `DiffBind`
 
-... and 378 more ...
+... and 361 more ...
 
 ---
-*Last updated: 2026-10-29 17:11:11 UTC*
+*Last updated: 2026-10-29 17:12:49 UTC*
 *Packages with verified BBS status: 228*
