@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1300 (53%)
+- **Successfully Built:** 1302 (53%)
 - **Failed:** 8 (0%)
 - **In Progress:** 98
-- **Not Started:** 1028
+- **Not Started:** 1026
 
 **Progress:** 53%
 ```
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1300)
+## Successfully Built Packages (1302)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 
-*... and 1250 more ...*
+*... and 1252 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -143,7 +143,7 @@
 
 ... and 48 more ...
 
-## Not Yet Started (1028)
+## Not Yet Started (1026)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -195,8 +195,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 
-... and 978 more ...
+... and 976 more ...
 
 ---
-*Last updated: 2026-10-29 01:49:48 UTC*
+*Last updated: 2026-10-29 01:50:28 UTC*
 *Packages with verified BBS status: 220*
