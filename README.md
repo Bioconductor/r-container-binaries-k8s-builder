@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1361 (55%)
+- **Successfully Built:** 1362 (55%)
 - **Failed:** 8 (0%)
-- **In Progress:** 93
-- **Not Started:** 972
+- **In Progress:** 151
+- **Not Started:** 913
 
 **Progress:** 56%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1361)
+## Successfully Built Packages (1362)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1311 more ...*
+*... and 1312 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,62 +89,61 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (93)
+## In Progress (151)
+- ⏳ `ADAM`
+- ⏳ `AnnotationForge`
+- ⏳ `AnnotationHub`
 - ⏳ `BSgenome`
 - ⏳ `BatchSVG`
+- ⏳ `BioNAR`
+- ⏳ `BioNet`
 - ⏳ `CellBarcode`
 - ⏳ `ChIPseqR`
 - ⏳ `ChIPsim`
+- ⏳ `ClustIRR`
 - ⏳ `ClusterGVis`
+- ⏳ `CoCiteStats`
 - ⏳ `CoverageView`
+- ⏳ `CrispRVariants`
 - ⏳ `DESpace`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DaparToolshed`
+- ⏳ `EMMA`
 - ⏳ `ExCluster`
 - ⏳ `FastqCleaner`
+- ⏳ `GOSemSim`
+- ⏳ `GOfan`
+- ⏳ `GOpro`
+- ⏳ `GenomicFeatures`
+- ⏳ `GeoDiff`
 - ⏳ `HiTC`
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
 - ⏳ `InTAD`
+- ⏳ `KEGGlincs`
+- ⏳ `LRBaseDbi`
+- ⏳ `LiquidAssociation`
+- ⏳ `LymphoSeq`
+- ⏳ `MCbiclust`
+- ⏳ `MLP`
+- ⏳ `MeSHDbi`
+- ⏳ `MesKit`
 - ⏳ `MetMashR`
-- ⏳ `MetaboDynamics`
+- ⏳ `MiRaGE`
 - ⏳ `MotifDb`
 - ⏳ `MsExperiment`
+- ⏳ `PADOG`
 - ⏳ `PAST`
 - ⏳ `PMScanR`
 - ⏳ `PSMatch`
 - ⏳ `PharmacoGx`
+- ⏳ `PinPath`
 - ⏳ `PostChicago`
-- ⏳ `QFeaturesGUI`
-- ⏳ `RBPEqBind`
-- ⏳ `RTNsurvival`
-- ⏳ `RadioGx`
-- ⏳ `Rbec`
-- ⏳ `SCANVIS`
-- ⏳ `SMTrackR`
-- ⏳ `SanityR`
-- ⏳ `SpatialArtifacts`
-- ⏳ `SpatialData.data`
-- ⏳ `SpatialData.plot`
-- ⏳ `SplineDV`
-- ⏳ `ToxicoGx`
-- ⏳ `batchelor`
-- ⏳ `bedbaser`
-- ⏳ `consensusSeekeR`
-- ⏳ `crlmm`
-- ⏳ `csaw`
-- ⏳ `easylift`
-- ⏳ `epidecodeR`
-- ⏳ `gDRcore`
-- ⏳ `gDRimport`
-- ⏳ `gVenn`
-- ⏳ `groHMM`
 
-... and 43 more ...
+... and 101 more ...
 
-## Not Yet Started (972)
-- ⏸️ `ADAM`
+## Not Yet Started (913)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -160,8 +159,6 @@
 - ⏸️ `Aerith`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnnotationForge`
-- ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
@@ -185,18 +182,21 @@
 - ⏸️ `BicARE`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioCor`
-- ⏸️ `BioNAR`
 - ⏸️ `BioNERO`
-- ⏸️ `BioNet`
 - ⏸️ `BioTIP`
 - ⏸️ `BiocDuckDB`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
+- ⏸️ `CAGEr`
+- ⏸️ `CAMERA`
+- ⏸️ `CATALYST`
+- ⏸️ `CBN2Path`
+- ⏸️ `CBNplot`
 
-... and 922 more ...
+... and 863 more ...
 
 ---
-*Last updated: 2026-10-29 02:18:51 UTC*
+*Last updated: 2026-10-29 02:21:48 UTC*
 *Packages with verified BBS status: 223*
