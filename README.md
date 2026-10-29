@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1476 (61%)
+- **Successfully Built:** 1494 (62%)
 - **Failed:** 15 (0%)
-- **In Progress:** 237
+- **In Progress:** 219
 - **Not Started:** 657
 
-**Progress:** 62%
+**Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1476)
+## Successfully Built Packages (1494)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1426 more ...*
+*... and 1444 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,7 +96,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (237)
+## In Progress (219)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -110,13 +110,10 @@
 - ⏳ `BioNet`
 - ⏳ `BiocSet`
 - ⏳ `CAMERA`
-- ⏳ `CATALYST`
 - ⏳ `CODEX`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `CellBarcode`
-- ⏳ `CellMixS`
-- ⏳ `CelliD`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseqR`
@@ -147,8 +144,11 @@
 - ⏳ `IONiseR`
 - ⏳ `ITALICS`
 - ⏳ `IVAS`
+- ⏳ `Ibex`
+- ⏳ `IdeoViz`
+- ⏳ `InTAD`
 
-... and 187 more ...
+... and 169 more ...
 
 ## Not Yet Started (657)
 - ⏸️ `ADAMgui`
@@ -205,5 +205,5 @@
 ... and 607 more ...
 
 ---
-*Last updated: 2026-10-29 08:11:58 UTC*
+*Last updated: 2026-10-29 08:22:38 UTC*
 *Packages with verified BBS status: 220*
