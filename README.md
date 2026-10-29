@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1394 (58%)
+- **Successfully Built:** 1399 (58%)
 - **Failed:** 14 (0%)
-- **In Progress:** 90
-- **Not Started:** 887
+- **In Progress:** 91
+- **Not Started:** 881
 
 **Progress:** 59%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1394)
+## Successfully Built Packages (1399)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1344 more ...*
+*... and 1349 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,16 +89,15 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
-| [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust |
+| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust |
+| [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (90)
+## In Progress (91)
 - ⏳ `ACE`
 - ⏳ `ADAPT`
-- ⏳ `AnnotationDbi`
 - ⏳ `ArrayExpress`
 - ⏳ `BatchSVG`
 - ⏳ `CATALYST`
@@ -106,11 +105,13 @@
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
 - ⏳ `ClustIRR`
-- ⏳ `FELLA`
+- ⏳ `CytoMDS`
+- ⏳ `CytoPipelineGUI`
 - ⏳ `FinfoMDS`
 - ⏳ `GeneBreak`
 - ⏳ `GenomicAlignments`
 - ⏳ `GeomxTools`
+- ⏳ `HiCDOC`
 - ⏳ `IMMAN`
 - ⏳ `ITALICS`
 - ⏳ `LymphoSeq`
@@ -118,13 +119,11 @@
 - ⏳ `MEB`
 - ⏳ `MSA2dist`
 - ⏳ `MSnbase`
-- ⏳ `MWASTools`
 - ⏳ `MetaboDynamics`
 - ⏳ `MethTargetedNGS`
 - ⏳ `PathoStat`
 - ⏳ `QSutils`
 - ⏳ `RCM`
-- ⏳ `ROntoTools`
 - ⏳ `RPA`
 - ⏳ `SIAMCAT`
 - ⏳ `SPsimSeq`
@@ -132,11 +131,11 @@
 - ⏳ `SpaceTrooper`
 - ⏳ `SpiecEasi`
 - ⏳ `StatescopeR`
-- ⏳ `Statial`
 - ⏳ `TPP`
 - ⏳ `VAExprs`
 - ⏳ `VariantExperiment`
 - ⏳ `Voyager`
+- ⏳ `Xeva`
 - ⏳ `affyILM`
 - ⏳ `affyPLM`
 - ⏳ `airpart`
@@ -146,10 +145,11 @@
 - ⏳ `clustSIGNAL`
 - ⏳ `cn.farms`
 - ⏳ `cogena`
+- ⏳ `combi`
 
-... and 40 more ...
+... and 41 more ...
 
-## Not Yet Started (887)
+## Not Yet Started (881)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADaCGH2`
@@ -201,8 +201,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 
-... and 837 more ...
+... and 831 more ...
 
 ---
-*Last updated: 2026-10-29 07:14:13 UTC*
+*Last updated: 2026-10-29 07:15:59 UTC*
 *Packages with verified BBS status: 214*

@@ -1,0 +1,165 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Statial'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Statial'
+also installing the dependencies ‘coxme’, ‘scam’, ‘ClassifyR’, ‘spicyR’, ‘ggsurvfit’, ‘lisaClust’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/coxme_2.2-22.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scam_1.2-23.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/ClassifyR_3.16.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/spicyR_1.24.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggsurvfit_1.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/lisaClust_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Statial_1.14.0.tar.gz'
+* installing *binary* package ‘coxme’ ...
+* package ‘coxme’ successfully unpacked and SHA256 sums checked
+* ‘coxme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘coxme’ as ‘coxme_2.2-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coxme)
+* installing *binary* package ‘scam’ ...
+* package ‘scam’ successfully unpacked and SHA256 sums checked
+* ‘scam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scam’ as ‘scam_1.2-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scam)
+* installing *source* package ‘ClassifyR’ ...
+** this is package ‘ClassifyR’ version ‘3.16.0’
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c coxformatrices.cpp -o coxformatrices.o
+coxformatrices.cpp: In function ‘void chsolve2(double**, int, double*)’:
+coxformatrices.cpp:528:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  528 |     register int i,j;
+      |                  ^
+coxformatrices.cpp:528:20: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  528 |     register int i,j;
+      |                    ^
+coxformatrices.cpp:529:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  529 |     register double temp;
+      |                     ^~~~
+coxformatrices.cpp: In function ‘void chinv2(double**, int)’:
+coxformatrices.cpp:569:21: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  569 |     register double temp;
+      |                     ^~~~
+coxformatrices.cpp:570:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                  ^
+coxformatrices.cpp:570:20: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                    ^
+coxformatrices.cpp:570:22: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  570 |     register int i,j,k;
+      |                      ^
+coxformatrices.cpp: In function ‘double** dmatrix(double*, int, int)’:
+coxformatrices.cpp:656:18: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  656 |     register int i;
+      |                  ^
+coxformatrices.cpp:657:23: warning: ISO C++17 does not allow ‘register’ storage class specifier [-Wregister]
+  657 |     register double **pointer;
+      |                       ^~~~~~~
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ClassifyR.so coxformatrices.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-ClassifyR/00new/ClassifyR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘ROCplot’ with signature ‘"ClassifyResult"’: no definition for class “ClassifyResult”
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ClassifyR’ as ‘ClassifyR_3.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ClassifyR)
+* installing *binary* package ‘ggsurvfit’ ...
+* package ‘ggsurvfit’ successfully unpacked and SHA256 sums checked
+* ‘ggsurvfit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsurvfit’ as ‘ggsurvfit_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsurvfit)
+* installing *source* package ‘Statial’ ...
+** this is package ‘Statial’ version ‘1.14.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Statial’ as ‘Statial_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Statial)
+* installing *source* package ‘spicyR’ ...
+** this is package ‘spicyR’ version ‘1.24.1’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spicyR’ as ‘spicyR_1.24.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spicyR)
+* installing *source* package ‘lisaClust’ ...
+** this is package ‘lisaClust’ version ‘1.20.0’
+** using staged installation
+Warning in person1(given = given[[i]], family = family[[i]], middle = middle[[i]],  :
+  It is recommended to use ‘given’ instead of ‘middle’.
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lisaClust’ as ‘lisaClust_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lisaClust)
+
+The downloaded source packages are in
+	‘/tmp/RtmppqtZkn/downloaded_packages’
+Old packages: 'enrichit', 'gargle', 'glmnet', 'gridpattern', 'insight',
+  'poorman', 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	1m52.158s
+user	1m39.272s
+sys	0m13.615s
