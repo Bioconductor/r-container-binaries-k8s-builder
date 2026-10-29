@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1718 (70%)
+- **Successfully Built:** 1720 (70%)
 - **Failed:** 9 (0%)
-- **In Progress:** 150
-- **Not Started:** 557
+- **In Progress:** 149
+- **Not Started:** 556
 
-**Progress:** 70%
+**Progress:** 71%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1718)
+## Successfully Built Packages (1720)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1668 more ...*
+*... and 1670 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (150)
+## In Progress (149)
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
 - ⏳ `ASSIGN`
@@ -125,9 +125,7 @@
 - ⏳ `GenomicPlot`
 - ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
-- ⏳ `INSPEcT`
 - ⏳ `ITALICS`
-- ⏳ `IVAS`
 - ⏳ `InPAS`
 - ⏳ `LRcell`
 - ⏳ `M3Drop`
@@ -141,10 +139,12 @@
 - ⏳ `POMA`
 - ⏳ `PROMISE`
 - ⏳ `PROPS`
+- ⏳ `RFGeneRank`
+- ⏳ `RUVSeq`
 
-... and 100 more ...
+... and 99 more ...
 
-## Not Yet Started (557)
+## Not Yet Started (556)
 - ⏸️ `ADAPT`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -196,8 +196,8 @@
 - ⏸️ `CoGAPS`
 - ⏸️ `CompensAID`
 
-... and 507 more ...
+... and 506 more ...
 
 ---
-*Last updated: 2026-10-29 08:47:18 UTC*
+*Last updated: 2026-10-29 08:48:43 UTC*
 *Packages with verified BBS status: 232*
