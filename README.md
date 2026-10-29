@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1201 (50%)
+- **Successfully Built:** 1203 (50%)
 - **Failed:** 14 (0%)
-- **In Progress:** 118
+- **In Progress:** 116
 - **Not Started:** 1052
 
-**Progress:** 50%
+**Progress:** 51%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1201)
+## Successfully Built Packages (1203)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1151 more ...*
+*... and 1153 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (118)
+## In Progress (116)
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
 - ⏳ `BUMHMM`
@@ -113,7 +113,6 @@
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomAutomorphism`
 - ⏳ `GenomicDistributions`
-- ⏳ `HDF5Array`
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
@@ -146,8 +145,9 @@
 - ⏳ `Statial`
 - ⏳ `Structstrings`
 - ⏳ `SynMut`
+- ⏳ `TADCompare`
 
-... and 68 more ...
+... and 66 more ...
 
 ## Not Yet Started (1052)
 - ⏸️ `ACE`
@@ -204,5 +204,5 @@
 ... and 1002 more ...
 
 ---
-*Last updated: 2026-10-29 03:07:02 UTC*
+*Last updated: 2026-10-29 03:08:18 UTC*
 *Packages with verified BBS status: 211*
