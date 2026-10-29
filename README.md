@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1282 (52%)
+- **Successfully Built:** 1283 (52%)
 - **Failed:** 7 (0%)
 - **In Progress:** 105
-- **Not Started:** 1040
+- **Not Started:** 1039
 
 **Progress:** 52%
 ```
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1282)
+## Successfully Built Packages (1283)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -37,6 +37,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
+| [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
@@ -44,9 +45,8 @@
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
-| [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1232 more ...*
+*... and 1233 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,7 +91,6 @@
 ## In Progress (105)
 - ⏳ `ACE`
 - ⏳ `ASICS`
-- ⏳ `AffiXcan`
 - ⏳ `AnnotationDbi`
 - ⏳ `BaalChIP`
 - ⏳ `BamScale`
@@ -129,6 +128,7 @@
 - ⏳ `PICB`
 - ⏳ `QFeatures`
 - ⏳ `ROntoTools`
+- ⏳ `RTNsurvival`
 - ⏳ `SanityR`
 - ⏳ `ShortRead`
 - ⏳ `SpatialArtifacts`
@@ -142,7 +142,7 @@
 
 ... and 55 more ...
 
-## Not Yet Started (1040)
+## Not Yet Started (1039)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -194,8 +194,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 
-... and 990 more ...
+... and 989 more ...
 
 ---
-*Last updated: 2026-10-29 01:39:42 UTC*
-*Packages with verified BBS status: 218*
+*Last updated: 2026-10-29 01:40:24 UTC*
+*Packages with verified BBS status: 219*
