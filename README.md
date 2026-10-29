@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1203 (50%)
+- **Successfully Built:** 1208 (50%)
 - **Failed:** 14 (0%)
-- **In Progress:** 116
-- **Not Started:** 1052
+- **In Progress:** 123
+- **Not Started:** 1040
 
 **Progress:** 51%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1203)
+## Successfully Built Packages (1208)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1153 more ...*
+*... and 1158 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,19 +95,17 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (116)
-- ⏳ `BCRANK`
-- ⏳ `BRAIN`
-- ⏳ `BUMHMM`
-- ⏳ `Banksy`
+## In Progress (123)
 - ⏳ `COTAN`
 - ⏳ `CellMentor`
 - ⏳ `CompensAID`
-- ⏳ `CompoundDb`
+- ⏳ `CuratedAtlasQueryR`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DECIPHER`
 - ⏳ `DNAshapeR`
+- ⏳ `DelayedTensor`
+- ⏳ `DropletUtils`
 - ⏳ `FEAST`
 - ⏳ `GeDi`
 - ⏳ `GeneRegionScan`
@@ -116,9 +114,12 @@
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
+- ⏳ `ImageArray`
 - ⏳ `KEGGREST`
 - ⏳ `LACHESIS`
+- ⏳ `LoomExperiment`
 - ⏳ `MEDME`
+- ⏳ `MOFA2`
 - ⏳ `MSstatsPTM`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `Modstrings`
@@ -145,11 +146,10 @@
 - ⏳ `Statial`
 - ⏳ `Structstrings`
 - ⏳ `SynMut`
-- ⏳ `TADCompare`
 
-... and 66 more ...
+... and 73 more ...
 
-## Not Yet Started (1052)
+## Not Yet Started (1040)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -201,8 +201,8 @@
 - ⏸️ `BioNAR`
 - ⏸️ `BioNERO`
 
-... and 1002 more ...
+... and 990 more ...
 
 ---
-*Last updated: 2026-10-29 03:08:18 UTC*
+*Last updated: 2026-10-29 03:09:41 UTC*
 *Packages with verified BBS status: 211*
