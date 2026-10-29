@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1822 (76%)
+- **Successfully Built:** 1824 (76%)
 - **Failed:** 20 (0%)
 - **In Progress:** 153
-- **Not Started:** 390
+- **Not Started:** 388
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1822)
+## Successfully Built Packages (1824)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1772 more ...*
+*... and 1774 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -129,6 +129,7 @@
 - ⏳ `EnrichmentBrowser`
 - ⏳ `EpiDISH`
 - ⏳ `EpiTxDb`
+- ⏳ `EventPointer`
 - ⏳ `GSRI`
 - ⏳ `GSReg`
 - ⏳ `GSVA`
@@ -148,14 +149,13 @@
 - ⏳ `PROMISE`
 - ⏳ `RUVSeq`
 - ⏳ `ReactomePA`
+- ⏳ `Rhisat2`
 - ⏳ `RiboDiPA`
 - ⏳ `SIM`
-- ⏳ `SpliceWiz`
-- ⏳ `SplicingGraphs`
 
 ... and 103 more ...
 
-## Not Yet Started (390)
+## Not Yet Started (388)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -207,8 +207,8 @@
 - ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
 
-... and 340 more ...
+... and 338 more ...
 
 ---
-*Last updated: 2026-10-29 18:35:06 UTC*
+*Last updated: 2026-10-29 18:36:06 UTC*
 *Packages with verified BBS status: 232*
