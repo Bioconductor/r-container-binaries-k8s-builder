@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1784 (73%)
+- **Successfully Built:** 1793 (73%)
 - **Failed:** 9 (0%)
-- **In Progress:** 164
+- **In Progress:** 155
 - **Not Started:** 477
 
-**Progress:** 73%
+**Progress:** 74%
 ```
-████████████████████████████████████░░░░░░░░░░░░░░
+█████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1784)
+## Successfully Built Packages (1793)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -28,6 +28,7 @@
 | [ADAMgui](https://bioconductor.org/packages/3.24/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADAMgui) |
 | [ADImpute](https://bioconductor.org/packages/3.24/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADImpute) |
 | [ADaCGH2](https://bioconductor.org/packages/3.24/bioc/html/ADaCGH2.html) | [log](logs/ADaCGH2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ADaCGH2) |
+| [AGDEX](https://bioconductor.org/packages/3.24/bioc/html/AGDEX.html) | [log](logs/AGDEX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AGDEX) |
 | [AHMassBank](https://bioconductor.org/packages/3.24/bioc/html/AHMassBank.html) | [log](logs/AHMassBank/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AHMassBank) |
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.24/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ALDEx2) |
@@ -44,9 +45,8 @@
 | [ASSIGN](https://bioconductor.org/packages/3.24/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
-| [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1734 more ...*
+*... and 1743 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,21 +90,15 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (164)
-- ⏳ `AGDEX`
-- ⏳ `AUCell`
+## In Progress (155)
 - ⏳ `ArrayExpress`
-- ⏳ `BicARE`
-- ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
 - ⏳ `CTdata`
-- ⏳ `Category`
 - ⏳ `CellMixS`
 - ⏳ `CoSIA`
 - ⏳ `DEScan2`
 - ⏳ `DOTSeq`
-- ⏳ `DaMiRseq`
 - ⏳ `DeMixT`
 - ⏳ `DeconvoBuddies`
 - ⏳ `DeepTarget`
@@ -112,11 +106,9 @@
 - ⏳ `ELViS`
 - ⏳ `EWCE`
 - ⏳ `EpiMix`
-- ⏳ `EpiTxDb`
 - ⏳ `EpipwR`
 - ⏳ `GA4GHshiny`
 - ⏳ `GSEABenchmarkeR`
-- ⏳ `GSRI`
 - ⏳ `GenomicPlot`
 - ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
@@ -129,7 +121,6 @@
 - ⏳ `MEB`
 - ⏳ `MatrixQCvis`
 - ⏳ `MsDataHub`
-- ⏳ `MungeSumstats`
 - ⏳ `MutSeqR`
 - ⏳ `MutationalPatterns`
 - ⏳ `OMICsPCA`
@@ -141,8 +132,17 @@
 - ⏳ `QuasR`
 - ⏳ `R453Plus1Toolbox`
 - ⏳ `RAIDS`
+- ⏳ `REDseq`
+- ⏳ `RFGeneRank`
+- ⏳ `RTCGAToolbox`
+- ⏳ `RUVSeq`
+- ⏳ `Rhisat2`
+- ⏳ `RiboCrypt`
+- ⏳ `SBGNview`
+- ⏳ `SCAN.UPC`
+- ⏳ `SEMPLR`
 
-... and 114 more ...
+... and 105 more ...
 
 ## Not Yet Started (477)
 - ⏸️ `ADAPT`
@@ -199,5 +199,5 @@
 ... and 427 more ...
 
 ---
-*Last updated: 2026-10-29 09:59:06 UTC*
-*Packages with verified BBS status: 236*
+*Last updated: 2026-10-29 10:14:18 UTC*
+*Packages with verified BBS status: 237*
