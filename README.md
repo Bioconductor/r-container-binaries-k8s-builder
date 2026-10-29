@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1834 (76%)
+- **Successfully Built:** 1837 (77%)
 - **Failed:** 20 (0%)
-- **In Progress:** 155
-- **Not Started:** 376
+- **In Progress:** 214
+- **Not Started:** 314
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1834)
+## Successfully Built Packages (1837)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1784 more ...*
+*... and 1787 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,28 +101,37 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (155)
+## In Progress (214)
 - ⏳ `AGDEX`
+- ⏳ `APAlyzer`
 - ⏳ `AUCell`
 - ⏳ `AnnotationHubData`
+- ⏳ `BBCAnalyzer`
+- ⏳ `BadRegionFinder`
 - ⏳ `BgeeCall`
 - ⏳ `BiSeq`
 - ⏳ `BicARE`
 - ⏳ `BioCor`
 - ⏳ `CBN2Path`
+- ⏳ `CCAFE`
 - ⏳ `CNTools`
+- ⏳ `CNVrd2`
 - ⏳ `CTexploreR`
 - ⏳ `Category`
 - ⏳ `Cepo`
 - ⏳ `ChIPXpress`
 - ⏳ `ChIPseeker`
 - ⏳ `ClassifyR`
+- ⏳ `ClonalSim`
 - ⏳ `ClustIRR`
+- ⏳ `DAMEfinder`
 - ⏳ `DEXSeq`
 - ⏳ `DNEA`
 - ⏳ `DOTSeq`
+- ⏳ `DSS`
 - ⏳ `DegNorm`
 - ⏳ `DiffBind`
+- ⏳ `DominoEffect`
 - ⏳ `DrugVsDisease`
 - ⏳ `DspikeIn`
 - ⏳ `ELViS`
@@ -130,46 +139,34 @@
 - ⏳ `EpiDISH`
 - ⏳ `EpiTxDb`
 - ⏳ `EventPointer`
+- ⏳ `FLAMES`
+- ⏳ `G4SNVHunter`
+- ⏳ `GA4GHclient`
 - ⏳ `GSRI`
 - ⏳ `GSReg`
 - ⏳ `GSVA`
+- ⏳ `GenVisR`
 - ⏳ `GeneMeta`
+- ⏳ `GenomicFiles`
 - ⏳ `GlobalAncova`
+- ⏳ `HelloRanges`
 - ⏳ `IPO`
-- ⏳ `LOBSTAHS`
-- ⏳ `MAIT`
-- ⏳ `MLInterfaces`
-- ⏳ `MOSClip`
-- ⏳ `MatrixRider`
-- ⏳ `MethReg`
-- ⏳ `MethylSeekR`
-- ⏳ `MinimumDistance`
-- ⏳ `NBAMSeq`
-- ⏳ `ORFik`
-- ⏳ `OUTRIDER`
-- ⏳ `PDATK`
-- ⏳ `PECA`
-- ⏳ `PROMISE`
-- ⏳ `RTCGAToolbox`
-- ⏳ `RUVSeq`
+- ⏳ `InPAS`
 
-... and 105 more ...
+... and 164 more ...
 
-## Not Yet Started (376)
+## Not Yet Started (314)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
-- ⏸️ `APAlyzer`
 - ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `BBCAnalyzer`
 - ⏸️ `BERT`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BadRegionFinder`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BioNERO`
@@ -177,12 +174,10 @@
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CBNplot`
-- ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CaMutQC`
 - ⏸️ `CeTF`
@@ -193,22 +188,27 @@
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
-- ⏸️ `ClonalSim`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
 - ⏸️ `DExMA`
 - ⏸️ `DMRcate`
-- ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DeMixT`
 - ⏸️ `DegCre`
-- ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
+- ⏸️ `EGSEA`
+- ⏸️ `ELMER`
+- ⏸️ `ENmix`
+- ⏸️ `EasyCellType`
+- ⏸️ `EpiCompare`
+- ⏸️ `ExperimentHubData`
+- ⏸️ `FRASER`
+- ⏸️ `GA4GHshiny`
+- ⏸️ `GARS`
 
-... and 326 more ...
+... and 264 more ...
 
 ---
-*Last updated: 2026-10-29 18:50:47 UTC*
+*Last updated: 2026-10-29 18:53:41 UTC*
 *Packages with verified BBS status: 232*
