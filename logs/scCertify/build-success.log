@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scCertify'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scCertify'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/scCertify_0.99.9.tar.gz'
+Content type 'application/gzip' length 249587 bytes (243 KB)
+==================================================
+downloaded 243 KB
+
+* installing *source* package ‘scCertify’ ...
+** this is package ‘scCertify’ version ‘0.99.9’
+** package ‘scCertify’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scCertify’ as ‘scCertify_0.99.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scCertify)
+
+The downloaded source packages are in
+	‘/tmp/RtmpF3FhMb/downloaded_packages’
+Old packages: 'gesel'
+
+real	0m13.759s
+user	0m8.016s
+sys	0m3.657s
