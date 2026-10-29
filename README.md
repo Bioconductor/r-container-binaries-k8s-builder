@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1802 (74%)
+- **Successfully Built:** 1804 (74%)
 - **Failed:** 9 (0%)
-- **In Progress:** 153
-- **Not Started:** 470
+- **In Progress:** 152
+- **Not Started:** 469
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1802)
+## Successfully Built Packages (1804)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1752 more ...*
+*... and 1754 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (153)
+## In Progress (152)
 - ⏳ `ArrayExpress`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
@@ -142,9 +142,9 @@
 - ⏳ `SCAN.UPC`
 - ⏳ `SEMPLR`
 
-... and 103 more ...
+... and 102 more ...
 
-## Not Yet Started (470)
+## Not Yet Started (469)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -196,8 +196,8 @@
 - ⏸️ `CytoPipelineGUI`
 - ⏸️ `DAPAR`
 
-... and 420 more ...
+... and 419 more ...
 
 ---
-*Last updated: 2026-10-29 10:20:06 UTC*
+*Last updated: 2026-10-29 10:21:38 UTC*
 *Packages with verified BBS status: 237*
