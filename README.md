@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1371 (57%)
+- **Successfully Built:** 1394 (58%)
 - **Failed:** 14 (0%)
-- **In Progress:** 113
+- **In Progress:** 90
 - **Not Started:** 887
 
-**Progress:** 58%
+**Progress:** 59%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1371)
+## Successfully Built Packages (1394)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1321 more ...*
+*... and 1344 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,13 +89,13 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust |
+| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (113)
+## In Progress (90)
 - ⏳ `ACE`
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
@@ -103,22 +103,14 @@
 - ⏳ `BatchSVG`
 - ⏳ `CATALYST`
 - ⏳ `CNVRanger`
-- ⏳ `CellMentor`
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
 - ⏳ `ClustIRR`
-- ⏳ `CompensAID`
-- ⏳ `CytoML`
-- ⏳ `CytoPipeline`
-- ⏳ `FEAST`
 - ⏳ `FELLA`
 - ⏳ `FinfoMDS`
 - ⏳ `GeneBreak`
 - ⏳ `GenomicAlignments`
 - ⏳ `GeomxTools`
-- ⏳ `HiContacts`
-- ⏳ `HiCool`
-- ⏳ `HiSpaR`
 - ⏳ `IMMAN`
 - ⏳ `ITALICS`
 - ⏳ `LymphoSeq`
@@ -130,24 +122,32 @@
 - ⏳ `MetaboDynamics`
 - ⏳ `MethTargetedNGS`
 - ⏳ `PathoStat`
-- ⏳ `PharmacoGx`
 - ⏳ `QSutils`
 - ⏳ `RCM`
 - ⏳ `ROntoTools`
 - ⏳ `RPA`
-- ⏳ `RadioGx`
 - ⏳ `SIAMCAT`
 - ⏳ `SPsimSeq`
 - ⏳ `SimBu`
 - ⏳ `SpaceTrooper`
-- ⏳ `SpectralTAD`
 - ⏳ `SpiecEasi`
-- ⏳ `SpotSweeper`
 - ⏳ `StatescopeR`
 - ⏳ `Statial`
-- ⏳ `TADCompare`
+- ⏳ `TPP`
+- ⏳ `VAExprs`
+- ⏳ `VariantExperiment`
+- ⏳ `Voyager`
+- ⏳ `affyILM`
+- ⏳ `affyPLM`
+- ⏳ `airpart`
+- ⏳ `alabaster.sfe`
+- ⏳ `blase`
+- ⏳ `cfdnakit`
+- ⏳ `clustSIGNAL`
+- ⏳ `cn.farms`
+- ⏳ `cogena`
 
-... and 63 more ...
+... and 40 more ...
 
 ## Not Yet Started (887)
 - ⏸️ `ADAM`
@@ -204,5 +204,5 @@
 ... and 837 more ...
 
 ---
-*Last updated: 2026-10-29 06:59:03 UTC*
+*Last updated: 2026-10-29 07:14:13 UTC*
 *Packages with verified BBS status: 214*
