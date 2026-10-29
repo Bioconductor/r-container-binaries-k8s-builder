@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1189 (49%)
+- **Successfully Built:** 1194 (50%)
 - **Failed:** 14 (0%)
-- **In Progress:** 129
-- **Not Started:** 1053
+- **In Progress:** 125
+- **Not Started:** 1052
 
 **Progress:** 50%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1189)
+## Successfully Built Packages (1194)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1139 more ...*
+*... and 1144 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (129)
+## In Progress (125)
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
 - ⏳ `BUMHMM`
@@ -117,17 +117,13 @@
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
-- ⏳ `HybridExpress`
 - ⏳ `KEGGREST`
 - ⏳ `LACHESIS`
 - ⏳ `MEDME`
-- ⏳ `MLSeq`
 - ⏳ `MSstatsPTM`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `Modstrings`
-- ⏳ `MultiRNAflow`
 - ⏳ `NanoStringNCTools`
-- ⏳ `NetActivity`
 - ⏳ `NewWave`
 - ⏳ `PCAtools`
 - ⏳ `PWMEnrich`
@@ -146,10 +142,14 @@
 - ⏳ `Site2Target`
 - ⏳ `SpectralTAD`
 - ⏳ `SpotSweeper`
+- ⏳ `StabMap`
+- ⏳ `Statial`
+- ⏳ `Structstrings`
+- ⏳ `SynMut`
 
-... and 79 more ...
+... and 75 more ...
 
-## Not Yet Started (1053)
+## Not Yet Started (1052)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -201,8 +201,8 @@
 - ⏸️ `BioNAR`
 - ⏸️ `BioNERO`
 
-... and 1003 more ...
+... and 1002 more ...
 
 ---
-*Last updated: 2026-10-29 03:03:41 UTC*
+*Last updated: 2026-10-29 03:04:50 UTC*
 *Packages with verified BBS status: 211*
