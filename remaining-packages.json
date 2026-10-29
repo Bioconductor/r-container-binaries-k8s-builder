@@ -105,7 +105,6 @@
   "AgiMicroRna": [
     "affycoretools",
     "GOstats",
-    "gcrma",
     "AnnotationDbi",
     "oligoClasses",
     "ReportingTools",
@@ -3223,15 +3222,10 @@
     "AnnotationHub",
     "AnnotationDbi"
   ],
-  "affyILM": [
-    "gcrma"
-  ],
-  "affyPLM": [
-    "gcrma"
-  ],
+  "affyILM": [],
+  "affyPLM": [],
   "affycoretools": [
     "GOstats",
-    "gcrma",
     "AnnotationDbi",
     "oligoClasses",
     "ReportingTools",
@@ -3252,7 +3246,6 @@
   ],
   "affylmGUI": [
     "affyPLM",
-    "gcrma",
     "AnnotationDbi"
   ],
   "airpart": [
@@ -3345,7 +3338,6 @@
     "affyPLM",
     "beadarray",
     "genefilter",
-    "gcrma",
     "AnnotationDbi",
     "annotate"
   ],
@@ -3832,7 +3824,6 @@
     "AnnotationDbi"
   ],
   "cogena": [],
-  "cogeqc": [],
   "comapr": [
     "Gviz",
     "rtracklayer",
@@ -3922,21 +3913,17 @@
     "annotate",
     "GenomicAlignments"
   ],
-  "crisprBase": [],
   "crisprBowtie": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "GenomicAlignments"
   ],
   "crisprBwa": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "GenomicAlignments"
   ],
   "crisprDesign": [
-    "crisprBase",
     "AnnotationDbi",
     "BSgenome",
     "crisprBowtie",
@@ -3957,7 +3944,6 @@
   ],
   "crisprShiny": [
     "BSgenome",
-    "crisprBase",
     "crisprDesign",
     "crisprScore",
     "crisprViz",
@@ -3977,7 +3963,6 @@
     "GenomicAlignments"
   ],
   "crisprVerse": [
-    "crisprBase",
     "crisprBowtie",
     "crisprScore",
     "crisprDesign",
@@ -3997,7 +3982,6 @@
     "GenomicAlignments"
   ],
   "crisprViz": [
-    "crisprBase",
     "crisprDesign",
     "BSgenome",
     "GenomicFeatures",
@@ -4475,7 +4459,6 @@
     "LiquidAssociation",
     "AnnotationDbi"
   ],
-  "fastRanges": [],
   "fcScan": [
     "VariantAnnotation",
     "rtracklayer",
@@ -4585,7 +4568,6 @@
     "GenomicAlignments",
     "rtracklayer"
   ],
-  "gcrma": [],
   "geneAttribution": [
     "GenomicFeatures",
     "rtracklayer",
@@ -5003,7 +4985,6 @@
     "VariantAnnotation"
   ],
   "maPredictDSC": [
-    "gcrma",
     "AnnotationDbi"
   ],
   "magpie": [
@@ -5031,9 +5012,7 @@
     "GenomicAlignments",
     "VariantAnnotation"
   ],
-  "maskBAD": [
-    "gcrma"
-  ],
+  "maskBAD": [],
   "mastR": [
     "AnnotationDbi",
     "GSEABase",
@@ -5265,8 +5244,7 @@
   "mimager": [
     "affyPLM",
     "oligo",
-    "oligoClasses",
-    "gcrma"
+    "oligoClasses"
   ],
   "minfi": [
     "bumphunter",
@@ -6855,7 +6833,6 @@
   ],
   "webbioc": [
     "annaffy",
-    "gcrma",
     "AnnotationDbi"
   ],
   "wiggleplotr": [
