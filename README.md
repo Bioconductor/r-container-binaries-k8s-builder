@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 1103 (46%)
 - **Failed:** 13 (0%)
-- **In Progress:** 187
-- **Not Started:** 1082
+- **In Progress:** 188
+- **Not Started:** 1081
 
 **Progress:** 46%
 ```
@@ -94,7 +94,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (187)
+## In Progress (188)
 - ⏳ `AffiXcan`
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
@@ -105,6 +105,7 @@
 - ⏳ `COTAN`
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
+- ⏳ `CellMentor`
 - ⏳ `ClusterGVis`
 - ⏳ `CompoundDb`
 - ⏳ `CoreGx`
@@ -144,11 +145,10 @@
 - ⏳ `NanoStringNCTools`
 - ⏳ `NetActivity`
 - ⏳ `NewWave`
-- ⏳ `PCAtools`
 
-... and 137 more ...
+... and 138 more ...
 
-## Not Yet Started (1082)
+## Not Yet Started (1081)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -200,8 +200,8 @@
 - ⏸️ `BioCor`
 - ⏸️ `BioNAR`
 
-... and 1032 more ...
+... and 1031 more ...
 
 ---
-*Last updated: 2026-10-29 02:20:08 UTC*
+*Last updated: 2026-10-29 02:21:11 UTC*
 *Packages with verified BBS status: 207*
