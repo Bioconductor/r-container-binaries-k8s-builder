@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1530 (64%)
+- **Successfully Built:** 1532 (64%)
 - **Failed:** 15 (0%)
-- **In Progress:** 214
+- **In Progress:** 212
 - **Not Started:** 626
 
 **Progress:** 64%
@@ -16,7 +16,7 @@
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1530)
+## Successfully Built Packages (1532)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1480 more ...*
+*... and 1482 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,7 +96,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (214)
+## In Progress (212)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -148,7 +148,7 @@
 - ⏳ `IdeoViz`
 - ⏳ `InTAD`
 
-... and 164 more ...
+... and 162 more ...
 
 ## Not Yet Started (626)
 - ⏸️ `ADAMgui`
@@ -205,5 +205,5 @@
 ... and 576 more ...
 
 ---
-*Last updated: 2026-10-29 08:42:20 UTC*
+*Last updated: 2026-10-29 08:45:26 UTC*
 *Packages with verified BBS status: 220*
