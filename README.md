@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1583 (65%)
+- **Successfully Built:** 1584 (65%)
 - **Failed:** 9 (0%)
 - **In Progress:** 158
-- **Not Started:** 684
+- **Not Started:** 683
 
 **Progress:** 65%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1583)
+## Successfully Built Packages (1584)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1533 more ...*
+*... and 1534 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,7 +101,6 @@
 - ⏳ `CellMixS`
 - ⏳ `ChIPQC`
 - ⏳ `ChromHeatMap`
-- ⏳ `ClassifyR`
 - ⏳ `Cogito`
 - ⏳ `DEXSeq`
 - ⏳ `DNAfusion`
@@ -141,10 +140,11 @@
 - ⏳ `PPInfer`
 - ⏳ `PREDA`
 - ⏳ `ProteoMM`
+- ⏳ `RJMCMCNucleosomes`
 
 ... and 108 more ...
 
-## Not Yet Started (684)
+## Not Yet Started (683)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -196,8 +196,8 @@
 - ⏸️ `CTexploreR`
 - ⏸️ `CaMutQC`
 
-... and 634 more ...
+... and 633 more ...
 
 ---
-*Last updated: 2026-10-29 06:21:45 UTC*
+*Last updated: 2026-10-29 06:23:17 UTC*
 *Packages with verified BBS status: 228*
