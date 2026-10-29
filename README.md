@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1264 (52%)
+- **Successfully Built:** 1267 (53%)
 - **Failed:** 14 (0%)
-- **In Progress:** 127
-- **Not Started:** 980
+- **In Progress:** 131
+- **Not Started:** 973
 
 **Progress:** 53%
 ```
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1264)
+## Successfully Built Packages (1267)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1214 more ...*
+*... and 1217 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,15 +95,17 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (127)
+## In Progress (131)
 - ⏳ `AnnotationDbi`
 - ⏳ `Bioc.gff`
 - ⏳ `CNVPanelizer`
 - ⏳ `COTAN`
 - ⏳ `CellMentor`
 - ⏳ `CompensAID`
+- ⏳ `CrcBiomeScreen`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
+- ⏳ `ExperimentSubset`
 - ⏳ `FEAST`
 - ⏳ `FELLA`
 - ⏳ `FilterFFPE`
@@ -114,6 +116,7 @@
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
+- ⏳ `HoloFoodR`
 - ⏳ `MWASTools`
 - ⏳ `MetaboDynamics`
 - ⏳ `MsExperiment`
@@ -141,15 +144,12 @@
 - ⏳ `TPP`
 - ⏳ `ToxicoGx`
 - ⏳ `UCell`
-- ⏳ `alabaster.files`
 - ⏳ `alabaster.sfe`
-- ⏳ `altcdfenvs`
-- ⏳ `atacInferCnv`
-- ⏳ `batchelor`
+- ⏳ `anansi`
 
-... and 77 more ...
+... and 81 more ...
 
-## Not Yet Started (980)
+## Not Yet Started (973)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -201,8 +201,8 @@
 - ⏸️ `BioNet`
 - ⏸️ `BioTIP`
 
-... and 930 more ...
+... and 923 more ...
 
 ---
-*Last updated: 2026-10-29 03:31:37 UTC*
+*Last updated: 2026-10-29 03:33:14 UTC*
 *Packages with verified BBS status: 212*
