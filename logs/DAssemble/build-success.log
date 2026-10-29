@@ -1,0 +1,168 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DAssemble'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DAssemble'
+also installing the dependencies ‘mlbench’, ‘mlr3measures’, ‘mlr3misc’, ‘palmerpenguins’, ‘mlr3tuning’, ‘spacefillr’, ‘moocore’, ‘enrichwith’, ‘mlr3’, ‘mlr3mbo’, ‘bbotk’, ‘paradox’, ‘brglm2’, ‘dfadjust’, ‘LOCOM2’, ‘MicrobiomeStat’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlbench_2.1-11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3measures_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3misc_0.23.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/palmerpenguins_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3tuning_1.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/spacefillr_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/moocore_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/enrichwith_0.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3_1.8.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3mbo_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bbotk_1.13.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paradox_1.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/brglm2_1.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/dfadjust_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/LOCOM2_1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/MicrobiomeStat_1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DAssemble_0.99.4.tar.gz'
+* installing *binary* package ‘mlbench’ ...
+* package ‘mlbench’ successfully unpacked and SHA256 sums checked
+* ‘mlbench’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlbench’ as ‘mlbench_2.1-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlbench)
+* installing *binary* package ‘mlr3misc’ ...
+* package ‘mlr3misc’ successfully unpacked and SHA256 sums checked
+* ‘mlr3misc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3misc’ as ‘mlr3misc_0.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3misc)
+* installing *binary* package ‘palmerpenguins’ ...
+* package ‘palmerpenguins’ successfully unpacked and SHA256 sums checked
+* ‘palmerpenguins’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘palmerpenguins’ as ‘palmerpenguins_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (palmerpenguins)
+* installing *binary* package ‘spacefillr’ ...
+* package ‘spacefillr’ successfully unpacked and SHA256 sums checked
+* ‘spacefillr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spacefillr’ as ‘spacefillr_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spacefillr)
+* installing *binary* package ‘moocore’ ...
+* package ‘moocore’ successfully unpacked and SHA256 sums checked
+* ‘moocore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘moocore’ as ‘moocore_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (moocore)
+* installing *binary* package ‘enrichwith’ ...
+* package ‘enrichwith’ successfully unpacked and SHA256 sums checked
+* ‘enrichwith’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘enrichwith’ as ‘enrichwith_0.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (enrichwith)
+* installing *binary* package ‘dfadjust’ ...
+* package ‘dfadjust’ successfully unpacked and SHA256 sums checked
+* ‘dfadjust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dfadjust’ as ‘dfadjust_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dfadjust)
+* installing *binary* package ‘LOCOM2’ ...
+* package ‘LOCOM2’ successfully unpacked and SHA256 sums checked
+* ‘LOCOM2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘LOCOM2’ as ‘LOCOM2_1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LOCOM2)
+* installing *source* package ‘DAssemble’ ...
+** this is package ‘DAssemble’ version ‘0.99.4’
+** package ‘DAssemble’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DAssemble’ as ‘DAssemble_0.99.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DAssemble)
+* installing *binary* package ‘mlr3measures’ ...
+* package ‘mlr3measures’ successfully unpacked and SHA256 sums checked
+* ‘mlr3measures’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3measures’ as ‘mlr3measures_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3measures)
+* installing *binary* package ‘paradox’ ...
+* package ‘paradox’ successfully unpacked and SHA256 sums checked
+* ‘paradox’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paradox’ as ‘paradox_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paradox)
+* installing *binary* package ‘brglm2’ ...
+* package ‘brglm2’ successfully unpacked and SHA256 sums checked
+* ‘brglm2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘brglm2’ as ‘brglm2_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (brglm2)
+* installing *binary* package ‘mlr3’ ...
+* package ‘mlr3’ successfully unpacked and SHA256 sums checked
+* ‘mlr3’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3’ as ‘mlr3_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3)
+* installing *binary* package ‘bbotk’ ...
+* package ‘bbotk’ successfully unpacked and SHA256 sums checked
+* ‘bbotk’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bbotk’ as ‘bbotk_1.13.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bbotk)
+* installing *binary* package ‘mlr3tuning’ ...
+* package ‘mlr3tuning’ successfully unpacked and SHA256 sums checked
+* ‘mlr3tuning’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3tuning’ as ‘mlr3tuning_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3tuning)
+* installing *binary* package ‘mlr3mbo’ ...
+* package ‘mlr3mbo’ successfully unpacked and SHA256 sums checked
+* ‘mlr3mbo’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3mbo’ as ‘mlr3mbo_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3mbo)
+* installing *binary* package ‘MicrobiomeStat’ ...
+* package ‘MicrobiomeStat’ successfully unpacked and SHA256 sums checked
+* ‘MicrobiomeStat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MicrobiomeStat’ as ‘MicrobiomeStat_1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MicrobiomeStat)
+
+The downloaded source packages are in
+	‘/tmp/RtmprzNsC8/downloaded_packages’
+Old packages: 'gesel'
+
+real	0m26.976s
+user	0m22.643s
+sys	0m6.083s
