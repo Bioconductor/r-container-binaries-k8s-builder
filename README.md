@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1808 (74%)
+- **Successfully Built:** 1810 (74%)
 - **Failed:** 9 (0%)
-- **In Progress:** 148
+- **In Progress:** 146
 - **Not Started:** 469
 
 **Progress:** 74%
@@ -16,7 +16,7 @@
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1808)
+## Successfully Built Packages (1810)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1758 more ...*
+*... and 1760 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (148)
+## In Progress (146)
 - ⏳ `ArrayExpress`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
@@ -136,13 +136,13 @@
 - ⏳ `RFGeneRank`
 - ⏳ `RTCGAToolbox`
 - ⏳ `Rhisat2`
-- ⏳ `SBGNview`
 - ⏳ `SCAN.UPC`
 - ⏳ `SEMPLR`
 - ⏳ `SEtools`
 - ⏳ `SeqSQC`
+- ⏳ `SigsPack`
 
-... and 98 more ...
+... and 96 more ...
 
 ## Not Yet Started (469)
 - ⏸️ `ADAPT`
@@ -199,5 +199,5 @@
 ... and 419 more ...
 
 ---
-*Last updated: 2026-10-29 10:24:54 UTC*
+*Last updated: 2026-10-29 10:26:22 UTC*
 *Packages with verified BBS status: 237*
