@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1267 (53%)
+- **Successfully Built:** 1270 (53%)
 - **Failed:** 14 (0%)
-- **In Progress:** 131
+- **In Progress:** 128
 - **Not Started:** 973
 
 **Progress:** 53%
@@ -16,7 +16,7 @@
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1267)
+## Successfully Built Packages (1270)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1217 more ...*
+*... and 1220 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,14 +95,13 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (131)
+## In Progress (128)
 - ⏳ `AnnotationDbi`
 - ⏳ `Bioc.gff`
 - ⏳ `CNVPanelizer`
 - ⏳ `COTAN`
 - ⏳ `CellMentor`
 - ⏳ `CompensAID`
-- ⏳ `CrcBiomeScreen`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `ExperimentSubset`
@@ -146,8 +145,9 @@
 - ⏳ `UCell`
 - ⏳ `alabaster.sfe`
 - ⏳ `anansi`
+- ⏳ `batchelor`
 
-... and 81 more ...
+... and 78 more ...
 
 ## Not Yet Started (973)
 - ⏸️ `ACE`
@@ -204,5 +204,5 @@
 ... and 923 more ...
 
 ---
-*Last updated: 2026-10-29 03:33:14 UTC*
+*Last updated: 2026-10-29 03:34:44 UTC*
 *Packages with verified BBS status: 212*
