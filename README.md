@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1746 (73%)
+- **Successfully Built:** 1747 (73%)
 - **Failed:** 18 (0%)
 - **In Progress:** 192
-- **Not Started:** 429
+- **Not Started:** 428
 
-**Progress:** 73%
+**Progress:** 74%
 ```
-████████████████████████████████████░░░░░░░░░░░░░░
+█████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1746)
+## Successfully Built Packages (1747)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 
-*... and 1696 more ...*
+*... and 1697 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -153,7 +153,7 @@
 
 ... and 142 more ...
 
-## Not Yet Started (429)
+## Not Yet Started (428)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -205,8 +205,8 @@
 - ⏸️ `Damsel`
 - ⏸️ `DeMixT`
 
-... and 379 more ...
+... and 378 more ...
 
 ---
-*Last updated: 2026-10-29 17:06:12 UTC*
+*Last updated: 2026-10-29 17:08:08 UTC*
 *Packages with verified BBS status: 228*
