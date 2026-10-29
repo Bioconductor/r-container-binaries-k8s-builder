@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1141 (47%)
+- **Successfully Built:** 1144 (47%)
 - **Failed:** 13 (0%)
-- **In Progress:** 172
+- **In Progress:** 169
 - **Not Started:** 1059
 
 **Progress:** 48%
@@ -16,7 +16,7 @@
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1141)
+## Successfully Built Packages (1144)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -33,6 +33,7 @@
 | [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.23/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASGSCA) |
+| [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
@@ -44,9 +45,8 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.23/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
-| [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 
-*... and 1091 more ...*
+*... and 1094 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,8 +94,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (172)
-- ⏳ `ASICS`
+## In Progress (169)
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
 - ⏳ `BUMHMM`
@@ -136,7 +135,6 @@
 - ⏳ `MicrobiotaProcess`
 - ⏳ `Modstrings`
 - ⏳ `MoleculeExperiment`
-- ⏳ `MultiBaC`
 - ⏳ `MultiRNAflow`
 - ⏳ `NanoStringNCTools`
 - ⏳ `NetActivity`
@@ -145,8 +143,10 @@
 - ⏳ `PWMEnrich`
 - ⏳ `PharmacoGx`
 - ⏳ `PhyloProfile`
+- ⏳ `QFeatures`
+- ⏳ `R4RNA`
 
-... and 122 more ...
+... and 119 more ...
 
 ## Not Yet Started (1059)
 - ⏸️ `ACE`
@@ -203,5 +203,5 @@
 ... and 1009 more ...
 
 ---
-*Last updated: 2026-10-29 02:35:37 UTC*
-*Packages with verified BBS status: 209*
+*Last updated: 2026-10-29 02:36:39 UTC*
+*Packages with verified BBS status: 210*
