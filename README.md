@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1933 (79%)
+- **Successfully Built:** 1934 (79%)
 - **Failed:** 10 (0%)
 - **In Progress:** 59
-- **Not Started:** 432
+- **Not Started:** 431
 
 **Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1933)
+## Successfully Built Packages (1934)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1883 more ...*
+*... and 1884 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,9 +97,9 @@
 - ⏳ `ChIPseeker`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `CleanUpRNAseq`
+- ⏳ `DrugVsDisease`
 - ⏳ `GmicR`
 - ⏳ `Gviz`
-- ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MICSQTL`
 - ⏳ `MetaboSignal`
@@ -145,7 +145,7 @@
 
 ... and 9 more ...
 
-## Not Yet Started (432)
+## Not Yet Started (431)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -197,8 +197,8 @@
 - ⏸️ `DSS`
 - ⏸️ `Damsel`
 
-... and 382 more ...
+... and 381 more ...
 
 ---
-*Last updated: 2026-10-29 19:31:03 UTC*
+*Last updated: 2026-10-29 19:31:53 UTC*
 *Packages with verified BBS status: 241*
