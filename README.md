@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1498 (61%)
+- **Successfully Built:** 1500 (61%)
 - **Failed:** 9 (0%)
-- **In Progress:** 104
-- **Not Started:** 823
+- **In Progress:** 108
+- **Not Started:** 817
 
 **Progress:** 61%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1498)
+## Successfully Built Packages (1500)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 
-*... and 1448 more ...*
+*... and 1450 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (104)
+## In Progress (108)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -122,6 +122,7 @@
 - ⏳ `PADOG`
 - ⏳ `PinPath`
 - ⏳ `RJMCMCNucleosomes`
+- ⏳ `STADyUM`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
 - ⏳ `SubCellBarCode`
@@ -138,13 +139,12 @@
 - ⏳ `beadarray`
 - ⏳ `biomaRt`
 - ⏳ `blase`
+- ⏳ `cfDNAPro`
 - ⏳ `chipenrich`
-- ⏳ `clustSIGNAL`
-- ⏳ `cn.farms`
 
-... and 54 more ...
+... and 58 more ...
 
-## Not Yet Started (823)
+## Not Yet Started (817)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -196,8 +196,8 @@
 - ⏸️ `CNTools`
 - ⏸️ `CNVfilteR`
 
-... and 773 more ...
+... and 767 more ...
 
 ---
-*Last updated: 2026-10-29 05:31:51 UTC*
+*Last updated: 2026-10-29 05:33:11 UTC*
 *Packages with verified BBS status: 226*
