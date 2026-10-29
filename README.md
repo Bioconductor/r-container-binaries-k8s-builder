@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1240 (51%)
+- **Successfully Built:** 1242 (52%)
 - **Failed:** 14 (0%)
-- **In Progress:** 108
-- **Not Started:** 1023
+- **In Progress:** 114
+- **Not Started:** 1015
 
 **Progress:** 52%
 ```
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1240)
+## Successfully Built Packages (1242)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1190 more ...*
+*... and 1192 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,21 +95,23 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (108)
+## In Progress (114)
+- ⏳ `AnnotationDbi`
 - ⏳ `COTAN`
 - ⏳ `CellMentor`
 - ⏳ `CompensAID`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `FEAST`
+- ⏳ `FELLA`
 - ⏳ `GeDi`
-- ⏳ `GenomicDistributions`
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
-- ⏳ `LACHESIS`
 - ⏳ `MEDME`
 - ⏳ `MSstatsPTM`
+- ⏳ `MWASTools`
+- ⏳ `MetaboDynamics`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `Modstrings`
 - ⏳ `NanoStringNCTools`
@@ -120,6 +122,7 @@
 - ⏳ `PhyloProfile`
 - ⏳ `QFeatures`
 - ⏳ `R4RNA`
+- ⏳ `ROntoTools`
 - ⏳ `RadioGx`
 - ⏳ `ReactomeGSA`
 - ⏳ `Rsamtools`
@@ -141,15 +144,12 @@
 - ⏳ `ToxicoGx`
 - ⏳ `TreeSummarizedExperiment`
 - ⏳ `UCell`
+- ⏳ `alabaster.sfe`
 - ⏳ `alabaster.string`
-- ⏳ `altcdfenvs`
-- ⏳ `batchelor`
-- ⏳ `bcSeq`
-- ⏳ `betterChromVAR`
 
-... and 58 more ...
+... and 64 more ...
 
-## Not Yet Started (1023)
+## Not Yet Started (1015)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -168,7 +168,6 @@
 - ⏸️ `Aerith`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
@@ -200,9 +199,10 @@
 - ⏸️ `BioNAR`
 - ⏸️ `BioNERO`
 - ⏸️ `BioNet`
+- ⏸️ `BioTIP`
 
-... and 973 more ...
+... and 965 more ...
 
 ---
-*Last updated: 2026-10-29 03:22:37 UTC*
+*Last updated: 2026-10-29 03:23:29 UTC*
 *Packages with verified BBS status: 212*
