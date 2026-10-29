@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1572 (65%)
+- **Successfully Built:** 1574 (65%)
 - **Failed:** 16 (0%)
 - **In Progress:** 248
-- **Not Started:** 549
+- **Not Started:** 547
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1572)
+## Successfully Built Packages (1574)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1522 more ...*
+*... and 1524 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -151,7 +151,7 @@
 
 ... and 198 more ...
 
-## Not Yet Started (549)
+## Not Yet Started (547)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -203,8 +203,8 @@
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 
-... and 499 more ...
+... and 497 more ...
 
 ---
-*Last updated: 2026-10-29 11:11:19 UTC*
+*Last updated: 2026-10-29 11:13:41 UTC*
 *Packages with verified BBS status: 222*
