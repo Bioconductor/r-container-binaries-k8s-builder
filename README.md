@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1885 (77%)
+- **Successfully Built:** 1887 (77%)
 - **Failed:** 10 (0%)
 - **In Progress:** 95
-- **Not Started:** 444
+- **Not Started:** 442
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1885)
+## Successfully Built Packages (1887)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1835 more ...*
+*... and 1837 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -145,7 +145,7 @@
 
 ... and 45 more ...
 
-## Not Yet Started (444)
+## Not Yet Started (442)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -197,8 +197,8 @@
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
 
-... and 394 more ...
+... and 392 more ...
 
 ---
-*Last updated: 2026-10-29 14:37:07 UTC*
+*Last updated: 2026-10-29 14:38:04 UTC*
 *Packages with verified BBS status: 240*
