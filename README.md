@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1169 (49%)
-- **Failed:** 13 (0%)
-- **In Progress:** 147
-- **Not Started:** 1056
+- **Successfully Built:** 1173 (49%)
+- **Failed:** 14 (0%)
+- **In Progress:** 143
+- **Not Started:** 1055
 
 **Progress:** 49%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1169)
+## Successfully Built Packages (1173)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1119 more ...*
+*... and 1123 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,11 +76,12 @@
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 
-## Failed Packages (13)
+## Failed Packages (14)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) | Compilation failed:  ‘BAGS’ |
+| [BulkSignalR](https://bioconductor.org/packages/3.23/bioc/html/BulkSignalR.html) | [log](logs/BulkSignalR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BulkSignalR) | Build failed with unknown error |
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
@@ -94,12 +95,11 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (147)
+## In Progress (143)
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
 - ⏳ `BUMHMM`
 - ⏳ `Banksy`
-- ⏳ `BulkSignalR`
 - ⏳ `COTAN`
 - ⏳ `CellMentor`
 - ⏳ `CompensAID`
@@ -145,10 +145,11 @@
 - ⏳ `Rsamtools`
 - ⏳ `SCArray`
 - ⏳ `SELEX`
+- ⏳ `SVP`
 
-... and 97 more ...
+... and 93 more ...
 
-## Not Yet Started (1056)
+## Not Yet Started (1055)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -200,8 +201,8 @@
 - ⏸️ `BioNAR`
 - ⏸️ `BioNERO`
 
-... and 1006 more ...
+... and 1005 more ...
 
 ---
-*Last updated: 2026-10-29 02:56:27 UTC*
-*Packages with verified BBS status: 210*
+*Last updated: 2026-10-29 02:58:00 UTC*
+*Packages with verified BBS status: 211*
