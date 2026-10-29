@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1051 (44%)
+- **Successfully Built:** 1053 (44%)
 - **Failed:** 13 (0%)
-- **In Progress:** 144
+- **In Progress:** 142
 - **Not Started:** 1177
 
 **Progress:** 44%
@@ -16,7 +16,7 @@
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1051)
+## Successfully Built Packages (1053)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 
-*... and 1001 more ...*
+*... and 1003 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.23/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
@@ -62,6 +61,7 @@
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
+| [vidger](https://bioconductor.org/packages/3.23/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
@@ -94,7 +94,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (144)
+## In Progress (142)
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
@@ -113,7 +113,6 @@
 - ⏳ `CoreGx`
 - ⏳ `CyTOFpower`
 - ⏳ `DESpace`
-- ⏳ `DEsubs`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `DenoIST`
 - ⏳ `EBSEA`
@@ -145,8 +144,9 @@
 - ⏳ `OmicCircos`
 - ⏳ `PIPETS`
 - ⏳ `PeacoQC`
+- ⏳ `Qtlizer`
 
-... and 94 more ...
+... and 92 more ...
 
 ## Not Yet Started (1177)
 - ⏸️ `ACE`
@@ -203,5 +203,5 @@
 ... and 1127 more ...
 
 ---
-*Last updated: 2026-10-29 00:07:24 UTC*
-*Packages with verified BBS status: 206*
+*Last updated: 2026-10-29 00:08:52 UTC*
+*Packages with verified BBS status: 207*
