@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1327 (55%)
+- **Successfully Built:** 1329 (55%)
 - **Failed:** 14 (0%)
 - **In Progress:** 89
-- **Not Started:** 955
+- **Not Started:** 953
 
 **Progress:** 56%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1327)
+## Successfully Built Packages (1329)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1277 more ...*
+*... and 1279 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -113,6 +113,7 @@
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
+- ⏳ `LymphoSeq`
 - ⏳ `MSnbase`
 - ⏳ `MWASTools`
 - ⏳ `MetaboDynamics`
@@ -145,11 +146,10 @@
 - ⏳ `flowGate`
 - ⏳ `flowVS`
 - ⏳ `gDRcore`
-- ⏳ `iSEEu`
 
 ... and 39 more ...
 
-## Not Yet Started (955)
+## Not Yet Started (953)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -201,8 +201,8 @@
 - ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
 
-... and 905 more ...
+... and 903 more ...
 
 ---
-*Last updated: 2026-10-29 04:00:44 UTC*
+*Last updated: 2026-10-29 04:01:48 UTC*
 *Packages with verified BBS status: 212*
