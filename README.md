@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1848 (75%)
+- **Successfully Built:** 1849 (75%)
 - **Failed:** 9 (0%)
 - **In Progress:** 118
-- **Not Started:** 459
+- **Not Started:** 458
 
 **Progress:** 76%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1848)
+## Successfully Built Packages (1849)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1798 more ...*
+*... and 1799 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,6 +96,7 @@
 - ⏳ `CTexploreR`
 - ⏳ `CellMixS`
 - ⏳ `ChIPseeker`
+- ⏳ `CircSeqAlignTk`
 - ⏳ `DEScan2`
 - ⏳ `DOTSeq`
 - ⏳ `DeMixT`
@@ -124,7 +125,6 @@
 - ⏳ `RAIDS`
 - ⏳ `REDseq`
 - ⏳ `RFGeneRank`
-- ⏳ `RTCGAToolbox`
 - ⏳ `ReactomePA`
 - ⏳ `SCAN.UPC`
 - ⏳ `SEMPLR`
@@ -144,7 +144,7 @@
 
 ... and 68 more ...
 
-## Not Yet Started (459)
+## Not Yet Started (458)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -177,7 +177,6 @@
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
 - ⏸️ `ChIPexoQual`
-- ⏸️ `CircSeqAlignTk`
 - ⏸️ `CiteFuse`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `CluMSID`
@@ -195,9 +194,10 @@
 - ⏸️ `DAPAR`
 - ⏸️ `DEP`
 - ⏸️ `DMRcate`
+- ⏸️ `DOtools`
 
-... and 409 more ...
+... and 408 more ...
 
 ---
-*Last updated: 2026-10-29 13:27:35 UTC*
+*Last updated: 2026-10-29 13:28:45 UTC*
 *Packages with verified BBS status: 239*
