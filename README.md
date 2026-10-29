@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 1286 (52%)
 - **Failed:** 7 (0%)
-- **In Progress:** 102
-- **Not Started:** 1039
+- **In Progress:** 105
+- **Not Started:** 1036
 
 **Progress:** 53%
 ```
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (102)
+## In Progress (105)
 - ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AnnotationDbi`
@@ -123,9 +123,11 @@
 - ⏳ `MultiOmicsBridge`
 - ⏳ `MultimodalExperiment`
 - ⏳ `PICB`
+- ⏳ `PharmacoGx`
 - ⏳ `QFeatures`
 - ⏳ `ROntoTools`
 - ⏳ `RTNsurvival`
+- ⏳ `RadioGx`
 - ⏳ `SanityR`
 - ⏳ `ShortRead`
 - ⏳ `SpatialArtifacts`
@@ -133,16 +135,14 @@
 - ⏳ `SpatialData.plot`
 - ⏳ `SplineDV`
 - ⏳ `TCseq`
+- ⏳ `ToxicoGx`
 - ⏳ `VariantExperiment`
 - ⏳ `VplotR`
 - ⏳ `anansi`
-- ⏳ `animalcules`
-- ⏳ `autonomics`
-- ⏳ `batchelor`
 
-... and 52 more ...
+... and 55 more ...
 
-## Not Yet Started (1039)
+## Not Yet Started (1036)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -194,8 +194,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 
-... and 989 more ...
+... and 986 more ...
 
 ---
-*Last updated: 2026-10-29 01:42:14 UTC*
+*Last updated: 2026-10-29 01:43:01 UTC*
 *Packages with verified BBS status: 219*
