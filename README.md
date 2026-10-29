@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 1784 (73%)
 - **Failed:** 9 (0%)
-- **In Progress:** 157
-- **Not Started:** 484
+- **In Progress:** 164
+- **Not Started:** 477
 
 **Progress:** 73%
 ```
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (157)
+## In Progress (164)
 - ⏳ `AGDEX`
 - ⏳ `AUCell`
 - ⏳ `ArrayExpress`
@@ -121,6 +121,7 @@
 - ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
 - ⏳ `ITALICS`
+- ⏳ `IntEREst`
 - ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `LRcell`
 - ⏳ `M3Drop`
@@ -131,20 +132,19 @@
 - ⏳ `MungeSumstats`
 - ⏳ `MutSeqR`
 - ⏳ `MutationalPatterns`
+- ⏳ `OMICsPCA`
 - ⏳ `PAA`
 - ⏳ `POMA`
 - ⏳ `PROMISE`
 - ⏳ `PROPS`
 - ⏳ `ProteoDisco`
+- ⏳ `QuasR`
 - ⏳ `R453Plus1Toolbox`
 - ⏳ `RAIDS`
-- ⏳ `REDseq`
-- ⏳ `RFGeneRank`
-- ⏳ `RTCGAToolbox`
 
-... and 107 more ...
+... and 114 more ...
 
-## Not Yet Started (484)
+## Not Yet Started (477)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -196,8 +196,8 @@
 - ⏸️ `CytoPipeline`
 - ⏸️ `CytoPipelineGUI`
 
-... and 434 more ...
+... and 427 more ...
 
 ---
-*Last updated: 2026-10-29 09:40:00 UTC*
+*Last updated: 2026-10-29 09:41:38 UTC*
 *Packages with verified BBS status: 236*
