@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1596 (66%)
+- **Successfully Built:** 1597 (66%)
 - **Failed:** 16 (0%)
-- **In Progress:** 236
+- **In Progress:** 235
 - **Not Started:** 537
 
 **Progress:** 67%
@@ -16,7 +16,7 @@
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1596)
+## Successfully Built Packages (1597)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1546 more ...*
+*... and 1547 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (236)
+## In Progress (235)
 - ⏳ `ADAMgui`
 - ⏳ `APL`
 - ⏳ `ArrayExpress`
@@ -114,7 +114,6 @@
 - ⏳ `CODEX`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
-- ⏳ `CellBarcode`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseqR`
@@ -148,8 +147,9 @@
 - ⏳ `InterCellar`
 - ⏳ `LACE`
 - ⏳ `MDSvis`
+- ⏳ `MEDIPS`
 
-... and 186 more ...
+... and 185 more ...
 
 ## Not Yet Started (537)
 - ⏸️ `ADaCGH2`
@@ -206,5 +206,5 @@
 ... and 487 more ...
 
 ---
-*Last updated: 2026-10-29 11:34:04 UTC*
+*Last updated: 2026-10-29 11:35:01 UTC*
 *Packages with verified BBS status: 222*
