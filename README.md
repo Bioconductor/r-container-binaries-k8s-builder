@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1723 (70%)
+- **Successfully Built:** 1726 (70%)
 - **Failed:** 9 (0%)
-- **In Progress:** 146
-- **Not Started:** 556
+- **In Progress:** 145
+- **Not Started:** 554
 
 **Progress:** 71%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1723)
+## Successfully Built Packages (1726)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1673 more ...*
+*... and 1676 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,11 +90,12 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (146)
+## In Progress (145)
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
 - ⏳ `ASSIGN`
 - ⏳ `AUCell`
+- ⏳ `AnnotationHubData`
 - ⏳ `ArrayExpress`
 - ⏳ `BERT`
 - ⏳ `BatchQC`
@@ -122,6 +123,7 @@
 - ⏳ `EpipwR`
 - ⏳ `GSEABenchmarkeR`
 - ⏳ `GSRI`
+- ⏳ `GSReg`
 - ⏳ `GenomicPlot`
 - ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
@@ -139,12 +141,10 @@
 - ⏳ `RFGeneRank`
 - ⏳ `RUVSeq`
 - ⏳ `RiboCrypt`
-- ⏳ `Rmmquant`
-- ⏳ `SBGNview`
 
-... and 96 more ...
+... and 95 more ...
 
-## Not Yet Started (556)
+## Not Yet Started (554)
 - ⏸️ `ADAPT`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -153,7 +153,6 @@
 - ⏸️ `Aerith`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
@@ -195,9 +194,10 @@
 - ⏸️ `CluMSID`
 - ⏸️ `CoGAPS`
 - ⏸️ `CompensAID`
+- ⏸️ `CopyNumberPlots`
 
-... and 506 more ...
+... and 504 more ...
 
 ---
-*Last updated: 2026-10-29 08:49:50 UTC*
+*Last updated: 2026-10-29 08:50:59 UTC*
 *Packages with verified BBS status: 232*
