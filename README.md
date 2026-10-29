@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 1861 (78%)
 - **Failed:** 21 (0%)
-- **In Progress:** 209
-- **Not Started:** 294
+- **In Progress:** 210
+- **Not Started:** 293
 
 **Progress:** 78%
 ```
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (209)
+## In Progress (210)
 - ⏳ `AGDEX`
 - ⏳ `APAlyzer`
 - ⏳ `AUCell`
@@ -154,9 +154,9 @@
 - ⏳ `GlobalAncova`
 - ⏳ `HelloRanges`
 
-... and 159 more ...
+... and 160 more ...
 
-## Not Yet Started (294)
+## Not Yet Started (293)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASSIGN`
@@ -208,8 +208,8 @@
 - ⏸️ `GNOSIS`
 - ⏸️ `GOaGO`
 
-... and 244 more ...
+... and 243 more ...
 
 ---
-*Last updated: 2026-10-29 19:31:28 UTC*
+*Last updated: 2026-10-29 19:32:40 UTC*
 *Packages with verified BBS status: 233*
