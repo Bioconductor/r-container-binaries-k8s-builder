@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1290 (52%)
-- **Failed:** 7 (0%)
-- **In Progress:** 101
+- **Successfully Built:** 1291 (53%)
+- **Failed:** 8 (0%)
+- **In Progress:** 99
 - **Not Started:** 1036
 
 **Progress:** 53%
@@ -16,7 +16,7 @@
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1290)
+## Successfully Built Packages (1291)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 
-*... and 1240 more ...*
+*... and 1241 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,10 +76,11 @@
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
 
-## Failed Packages (7)
+## Failed Packages (8)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [BulkSignalR](https://bioconductor.org/packages/3.24/bioc/html/BulkSignalR.html) | [log](logs/BulkSignalR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BulkSignalR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
@@ -88,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (101)
+## In Progress (99)
 - ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AnnotationDbi`
@@ -96,7 +97,6 @@
 - ⏳ `BamScale`
 - ⏳ `BasicSTARRseq`
 - ⏳ `BatchSVG`
-- ⏳ `BulkSignalR`
 - ⏳ `CNVRanger`
 - ⏳ `COTAN`
 - ⏳ `ClusterGVis`
@@ -114,7 +114,6 @@
 - ⏳ `MWASTools`
 - ⏳ `MetMashR`
 - ⏳ `MetaboDynamics`
-- ⏳ `MultiAssaySpatialExperiment`
 - ⏳ `MultiBaC`
 - ⏳ `MultiOmicsBridge`
 - ⏳ `MultimodalExperiment`
@@ -139,8 +138,10 @@
 - ⏳ `autonomics`
 - ⏳ `batchelor`
 - ⏳ `biosigner`
+- ⏳ `breakpointR`
+- ⏳ `cfdnakit`
 
-... and 51 more ...
+... and 49 more ...
 
 ## Not Yet Started (1036)
 - ⏸️ `ADAM`
@@ -197,5 +198,5 @@
 ... and 986 more ...
 
 ---
-*Last updated: 2026-10-29 01:45:49 UTC*
-*Packages with verified BBS status: 219*
+*Last updated: 2026-10-29 01:46:32 UTC*
+*Packages with verified BBS status: 220*
