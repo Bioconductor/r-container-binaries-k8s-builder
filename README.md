@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 1098 (46%)
 - **Failed:** 13 (0%)
-- **In Progress:** 101
-- **Not Started:** 1173
+- **In Progress:** 173
+- **Not Started:** 1101
 
 **Progress:** 46%
 ```
@@ -94,8 +94,12 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (101)
+## In Progress (173)
 - ⏳ `AffiXcan`
+- ⏳ `BCRANK`
+- ⏳ `BRAIN`
+- ⏳ `BUMHMM`
+- ⏳ `Banksy`
 - ⏳ `BiocNeighbors`
 - ⏳ `BiocSingular`
 - ⏳ `BulkSignalR`
@@ -103,13 +107,19 @@
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
 - ⏳ `ClusterGVis`
+- ⏳ `CompoundDb`
 - ⏳ `CoreGx`
 - ⏳ `CyTOFpower`
+- ⏳ `DECIPHER`
 - ⏳ `DESpace`
+- ⏳ `DNAshapeR`
 - ⏳ `DenoIST`
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
 - ⏳ `ERSSA`
+- ⏳ `GeneRegionScan`
+- ⏳ `GenomAutomorphism`
+- ⏳ `GenomicDistributions`
 - ⏳ `Glimma`
 - ⏳ `HDF5Array`
 - ⏳ `HTSFilter`
@@ -117,38 +127,28 @@
 - ⏳ `HiCParser`
 - ⏳ `HiCcompare`
 - ⏳ `HybridExpress`
+- ⏳ `KEGGREST`
+- ⏳ `LACHESIS`
 - ⏳ `Lheuristic`
 - ⏳ `LinkHD`
+- ⏳ `MEDME`
 - ⏳ `MLSeq`
 - ⏳ `MOMA`
+- ⏳ `MSstatsPTM`
 - ⏳ `MetMashR`
+- ⏳ `MicrobiotaProcess`
+- ⏳ `Modstrings`
 - ⏳ `MoleculeExperiment`
 - ⏳ `MultiRNAflow`
 - ⏳ `MultimodalExperiment`
+- ⏳ `NanoStringNCTools`
 - ⏳ `NetActivity`
+- ⏳ `PWMEnrich`
 - ⏳ `PeacoQC`
-- ⏳ `RTNduals`
-- ⏳ `SEraster`
-- ⏳ `SPIAT`
-- ⏳ `SanityR`
-- ⏳ `SingleR`
-- ⏳ `SpNeigh`
-- ⏳ `SpatialArtifacts`
-- ⏳ `SplineDV`
-- ⏳ `SpotClean`
-- ⏳ `TCC`
-- ⏳ `TDbasedUFEadv`
-- ⏳ `TPP`
-- ⏳ `TSCAN`
-- ⏳ `animalcules`
-- ⏳ `anota2seq`
-- ⏳ `autonomics`
-- ⏳ `beachmat.tiledb`
-- ⏳ `beer`
 
-... and 51 more ...
+... and 123 more ...
 
-## Not Yet Started (1173)
+## Not Yet Started (1101)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -177,19 +177,15 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BRAIN`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
-- ⏸️ `BUMHMM`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
@@ -199,9 +195,13 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
+- ⏸️ `BicARE`
+- ⏸️ `BindingSiteFinder`
+- ⏸️ `BioCor`
+- ⏸️ `BioNAR`
 
-... and 1123 more ...
+... and 1051 more ...
 
 ---
-*Last updated: 2026-10-29 00:51:01 UTC*
+*Last updated: 2026-10-29 00:53:50 UTC*
 *Packages with verified BBS status: 207*
