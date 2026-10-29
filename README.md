@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1647 (69%)
+- **Successfully Built:** 1655 (69%)
 - **Failed:** 17 (0%)
-- **In Progress:** 220
+- **In Progress:** 212
 - **Not Started:** 501
 
-**Progress:** 69%
+**Progress:** 70%
 ```
-██████████████████████████████████░░░░░░░░░░░░░░░░
+███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1647)
+## Successfully Built Packages (1655)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,6 +30,7 @@
 | [ADImpute](https://bioconductor.org/packages/3.23/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADImpute) |
 | [AIMS](https://bioconductor.org/packages/3.23/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AIMS) |
 | [ALDEx2](https://bioconductor.org/packages/3.23/bioc/html/ALDEx2.html) | [log](logs/ALDEx2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ALDEx2) |
+| [AMARETTO](https://bioconductor.org/packages/3.23/bioc/html/AMARETTO.html) | [log](logs/AMARETTO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMARETTO) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.23/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANF) |
@@ -44,9 +45,8 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
-| [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1597 more ...*
+*... and 1605 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,8 +98,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (220)
-- ⏳ `AMARETTO`
+## In Progress (212)
 - ⏳ `APL`
 - ⏳ `BEAT`
 - ⏳ `BLMA`
@@ -107,27 +106,21 @@
 - ⏳ `Basic4Cseq`
 - ⏳ `BgeeDB`
 - ⏳ `BindingSiteFinder`
-- ⏳ `BiocHubsShiny`
-- ⏳ `BloodGen3Module`
 - ⏳ `CAMERA`
 - ⏳ `CHRONOS`
 - ⏳ `CNEr`
 - ⏳ `CODEX`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
-- ⏳ `CTdata`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPXpress`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChromHeatMap`
 - ⏳ `ClustIRR`
-- ⏳ `CoSIA`
 - ⏳ `Cogito`
 - ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
 - ⏳ `DOSE`
-- ⏳ `DeconvoBuddies`
-- ⏳ `DeepTarget`
 - ⏳ `DrugVsDisease`
 - ⏳ `DspikeIn`
 - ⏳ `EDASeq`
@@ -139,7 +132,6 @@
 - ⏳ `GOexpress`
 - ⏳ `GSEABase`
 - ⏳ `GenomicInteractionNodes`
-- ⏳ `GenomicScores`
 - ⏳ `GreyListChIP`
 - ⏳ `Guitar`
 - ⏳ `HiLDA`
@@ -149,8 +141,16 @@
 - ⏳ `LACE`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
+- ⏳ `MEDIPS`
+- ⏳ `MGFM`
+- ⏳ `MGFR`
+- ⏳ `MMDiff2`
+- ⏳ `MSnID`
+- ⏳ `MetaboAnnotation`
+- ⏳ `MetaboAnnotatoR`
+- ⏳ `Motif2Site`
 
-... and 170 more ...
+... and 162 more ...
 
 ## Not Yet Started (501)
 - ⏸️ `ADaCGH2`
@@ -207,5 +207,5 @@
 ... and 451 more ...
 
 ---
-*Last updated: 2026-10-29 15:30:13 UTC*
-*Packages with verified BBS status: 224*
+*Last updated: 2026-10-29 15:39:40 UTC*
+*Packages with verified BBS status: 225*
