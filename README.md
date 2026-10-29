@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1859 (77%)
-- **Failed:** 20 (0%)
-- **In Progress:** 212
+- **Successfully Built:** 1861 (78%)
+- **Failed:** 21 (0%)
+- **In Progress:** 209
 - **Not Started:** 294
 
 **Progress:** 78%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1859)
+## Successfully Built Packages (1861)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1809 more ...*
+*... and 1811 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (20)
+## Failed Packages (21)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -84,6 +84,7 @@
 | [BulkSignalR](https://bioconductor.org/packages/3.23/bioc/html/BulkSignalR.html) | [log](logs/BulkSignalR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BulkSignalR) | Build failed with unknown error |
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [ChIPComp](https://bioconductor.org/packages/3.23/bioc/html/ChIPComp.html) | [log](logs/ChIPComp/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ChIPComp) | Compilation failed:  ‘ChIPComp’ |
+| [ClustIRR](https://bioconductor.org/packages/3.23/bioc/html/ClustIRR.html) | [log](logs/ClustIRR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClustIRR) | Syntax error in 'string', line 2, column 20 to column 21, parsing error: |
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
@@ -101,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (212)
+## In Progress (209)
 - ⏳ `AGDEX`
 - ⏳ `APAlyzer`
 - ⏳ `AUCell`
@@ -126,7 +127,6 @@
 - ⏳ `ChIPseeker`
 - ⏳ `ClassifyR`
 - ⏳ `ClonalSim`
-- ⏳ `ClustIRR`
 - ⏳ `DAMEfinder`
 - ⏳ `DEXSeq`
 - ⏳ `DNEA`
@@ -152,8 +152,9 @@
 - ⏳ `GeneMeta`
 - ⏳ `GenomicFiles`
 - ⏳ `GlobalAncova`
+- ⏳ `HelloRanges`
 
-... and 162 more ...
+... and 159 more ...
 
 ## Not Yet Started (294)
 - ⏸️ `ADaCGH2`
@@ -210,5 +211,5 @@
 ... and 244 more ...
 
 ---
-*Last updated: 2026-10-29 19:25:34 UTC*
-*Packages with verified BBS status: 232*
+*Last updated: 2026-10-29 19:31:28 UTC*
+*Packages with verified BBS status: 233*
