@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1447 (59%)
+- **Successfully Built:** 1449 (59%)
 - **Failed:** 9 (0%)
 - **In Progress:** 138
-- **Not Started:** 840
+- **Not Started:** 838
 
 **Progress:** 59%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1447)
+## Successfully Built Packages (1449)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1397 more ...*
+*... and 1399 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,6 +100,7 @@
 - ⏳ `BioNet`
 - ⏳ `CODEX`
 - ⏳ `CellMixS`
+- ⏳ `CexoR`
 - ⏳ `ChIPanalyser`
 - ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
@@ -140,11 +141,10 @@
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
 - ⏳ `SubCellBarCode`
-- ⏳ `TFBSTools`
 
 ... and 88 more ...
 
-## Not Yet Started (840)
+## Not Yet Started (838)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -196,8 +196,8 @@
 - ⏸️ `CNEr`
 - ⏸️ `CNTools`
 
-... and 790 more ...
+... and 788 more ...
 
 ---
-*Last updated: 2026-10-29 05:04:55 UTC*
+*Last updated: 2026-10-29 05:06:20 UTC*
 *Packages with verified BBS status: 225*

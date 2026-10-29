@@ -1,0 +1,76 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''periodicDNA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'periodicDNA'
+also installing the dependencies ‘BSgenome.Celegans.UCSC.ce11’, ‘BSgenome.Drerio.UCSC.danRer10’
+
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce11_1.4.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/BSgenome.Drerio.UCSC.danRer10_1.4.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/periodicDNA_1.23.1.tar.gz'
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce11’ ...
+** this is package ‘BSgenome.Celegans.UCSC.ce11’ version ‘1.4.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce11’ as ‘BSgenome.Celegans.UCSC.ce11_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce11)
+* installing *source* package ‘BSgenome.Drerio.UCSC.danRer10’ ...
+** this is package ‘BSgenome.Drerio.UCSC.danRer10’ version ‘1.4.2’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BSgenome.Drerio.UCSC.danRer10’ as ‘BSgenome.Drerio.UCSC.danRer10_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Drerio.UCSC.danRer10)
+* installing *source* package ‘periodicDNA’ ...
+** this is package ‘periodicDNA’ version ‘1.23.1’
+** package ‘periodicDNA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘periodicDNA’ as ‘periodicDNA_1.23.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (periodicDNA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGbsMCh/downloaded_packages’
+Old packages: 'gesel'
+
+real	1m40.555s
+user	1m14.556s
+sys	0m10.774s
