@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1559 (65%)
+- **Successfully Built:** 1561 (65%)
 - **Failed:** 16 (0%)
-- **In Progress:** 205
-- **Not Started:** 605
+- **In Progress:** 206
+- **Not Started:** 602
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1559)
+## Successfully Built Packages (1561)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1509 more ...*
+*... and 1511 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,11 +97,12 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (205)
+## In Progress (206)
 - ⏳ `ADAMgui`
 - ⏳ `ArrayExpress`
 - ⏳ `BASiCStan`
 - ⏳ `BEAT`
+- ⏳ `BLMA`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
 - ⏳ `BindingSiteFinder`
@@ -147,11 +148,10 @@
 - ⏳ `MotifDb`
 - ⏳ `ORFhunteR`
 - ⏳ `OTUbase`
-- ⏳ `OrganismDbi`
 
-... and 155 more ...
+... and 156 more ...
 
-## Not Yet Started (605)
+## Not Yet Started (602)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -168,7 +168,6 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BERT`
-- ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
@@ -202,9 +201,10 @@
 - ⏸️ `CaMutQC`
 - ⏸️ `Category`
 - ⏸️ `CeTF`
+- ⏸️ `Cepo`
 
-... and 555 more ...
+... and 552 more ...
 
 ---
-*Last updated: 2026-10-29 11:02:23 UTC*
+*Last updated: 2026-10-29 11:03:37 UTC*
 *Packages with verified BBS status: 222*
