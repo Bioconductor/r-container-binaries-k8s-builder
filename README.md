@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1298 (54%)
+- **Successfully Built:** 1299 (54%)
 - **Failed:** 14 (0%)
 - **In Progress:** 105
-- **Not Started:** 968
+- **Not Started:** 967
 
 **Progress:** 55%
 ```
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1298)
+## Successfully Built Packages (1299)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1248 more ...*
+*... and 1249 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -110,12 +110,12 @@
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
+- ⏳ `MSnbase`
 - ⏳ `MWASTools`
 - ⏳ `MetaboDynamics`
 - ⏳ `NewWave`
 - ⏳ `PCAtools`
 - ⏳ `PharmacoGx`
-- ⏳ `QDNAseq`
 - ⏳ `ROntoTools`
 - ⏳ `RadioGx`
 - ⏳ `Rbowtie2`
@@ -149,7 +149,7 @@
 
 ... and 55 more ...
 
-## Not Yet Started (968)
+## Not Yet Started (967)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -201,8 +201,8 @@
 - ⏸️ `BioNet`
 - ⏸️ `BioTIP`
 
-... and 918 more ...
+... and 917 more ...
 
 ---
-*Last updated: 2026-10-29 03:43:23 UTC*
+*Last updated: 2026-10-29 03:44:36 UTC*
 *Packages with verified BBS status: 212*
