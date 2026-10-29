@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1881 (77%)
+- **Successfully Built:** 1882 (77%)
 - **Failed:** 10 (0%)
-- **In Progress:** 97
-- **Not Started:** 446
+- **In Progress:** 98
+- **Not Started:** 444
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1881)
+## Successfully Built Packages (1882)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1831 more ...*
+*... and 1832 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,7 +91,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (97)
+## In Progress (98)
 - ⏳ `ArrayExpress`
 - ⏳ `CCPROMISE`
 - ⏳ `CTexploreR`
@@ -137,15 +137,15 @@
 - ⏳ `cn.farms`
 - ⏳ `crisprDesign`
 - ⏳ `csaw`
-- ⏳ `demuxSNP`
 - ⏳ `diffUTR`
 - ⏳ `distinct`
 - ⏳ `doppelgangR`
 - ⏳ `dreamlet`
+- ⏳ `drugTargetInteractions`
 
-... and 47 more ...
+... and 48 more ...
 
-## Not Yet Started (446)
+## Not Yet Started (444)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -197,8 +197,8 @@
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
 
-... and 396 more ...
+... and 394 more ...
 
 ---
-*Last updated: 2026-10-29 14:32:53 UTC*
+*Last updated: 2026-10-29 14:34:17 UTC*
 *Packages with verified BBS status: 240*
