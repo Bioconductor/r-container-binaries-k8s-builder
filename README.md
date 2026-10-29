@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1561 (65%)
+- **Successfully Built:** 1562 (65%)
 - **Failed:** 16 (0%)
 - **In Progress:** 206
-- **Not Started:** 602
+- **Not Started:** 601
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1561)
+## Successfully Built Packages (1562)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1511 more ...*
+*... and 1512 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -151,7 +151,7 @@
 
 ... and 156 more ...
 
-## Not Yet Started (602)
+## Not Yet Started (601)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -203,8 +203,8 @@
 - ⏸️ `CeTF`
 - ⏸️ `Cepo`
 
-... and 552 more ...
+... and 551 more ...
 
 ---
-*Last updated: 2026-10-29 11:03:37 UTC*
+*Last updated: 2026-10-29 11:04:56 UTC*
 *Packages with verified BBS status: 222*
