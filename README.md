@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1479 (60%)
+- **Successfully Built:** 1497 (61%)
 - **Failed:** 9 (0%)
-- **In Progress:** 120
+- **In Progress:** 102
 - **Not Started:** 826
 
 **Progress:** 61%
@@ -16,7 +16,7 @@
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1479)
+## Successfully Built Packages (1497)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -37,6 +37,7 @@
 | [ASICS](https://bioconductor.org/packages/3.24/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.24/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASSET) |
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
+| [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
@@ -44,9 +45,8 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
-| [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1429 more ...*
+*... and 1447 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,9 +90,8 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (120)
+## In Progress (102)
 - ⏳ `ADAM`
-- ⏳ `ATACseqTFEA`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
@@ -122,8 +121,6 @@
 - ⏳ `MiRaGE`
 - ⏳ `PADOG`
 - ⏳ `PinPath`
-- ⏳ `SCANVIS`
-- ⏳ `SMTrackR`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
 - ⏳ `SubCellBarCode`
@@ -138,11 +135,14 @@
 - ⏳ `apComplex`
 - ⏳ `augere.solo`
 - ⏳ `beadarray`
-- ⏳ `bedbaser`
 - ⏳ `biomaRt`
 - ⏳ `blase`
+- ⏳ `chipenrich`
+- ⏳ `clustSIGNAL`
+- ⏳ `cn.farms`
+- ⏳ `csaw`
 
-... and 70 more ...
+... and 52 more ...
 
 ## Not Yet Started (826)
 - ⏸️ `ADAMgui`
@@ -199,5 +199,5 @@
 ... and 776 more ...
 
 ---
-*Last updated: 2026-10-29 05:24:33 UTC*
-*Packages with verified BBS status: 225*
+*Last updated: 2026-10-29 05:31:04 UTC*
+*Packages with verified BBS status: 226*
