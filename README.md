@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1920 (78%)
+- **Successfully Built:** 1922 (78%)
 - **Failed:** 10 (0%)
-- **In Progress:** 64
-- **Not Started:** 440
+- **In Progress:** 65
+- **Not Started:** 437
 
 **Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1920)
+## Successfully Built Packages (1922)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1870 more ...*
+*... and 1872 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,7 +91,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (64)
+## In Progress (65)
 - ⏳ `ArrayExpress`
 - ⏳ `CCPROMISE`
 - ⏳ `CTexploreR`
@@ -99,12 +99,12 @@
 - ⏳ `ChIPexoQual`
 - ⏳ `ChIPseeker`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `GARS`
-- ⏳ `GOstats`
+- ⏳ `CleanUpRNAseq`
 - ⏳ `Gviz`
 - ⏳ `ITALICS`
 - ⏳ `M3Drop`
 - ⏳ `MEB`
+- ⏳ `MICSQTL`
 - ⏳ `MetaboSignal`
 - ⏳ `MsQuality`
 - ⏳ `RESOLVE`
@@ -123,6 +123,7 @@
 - ⏳ `cn.farms`
 - ⏳ `crisprDesign`
 - ⏳ `csaw`
+- ⏳ `cypress`
 - ⏳ `distinct`
 - ⏳ `dreamlet`
 - ⏳ `enrichViewNet`
@@ -141,11 +142,10 @@
 - ⏳ `muscat`
 - ⏳ `musicatk`
 - ⏳ `omicsGMF`
-- ⏳ `pdInfoBuilder`
 
-... and 14 more ...
+... and 15 more ...
 
-## Not Yet Started (440)
+## Not Yet Started (437)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -178,7 +178,6 @@
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPXpress`
 - ⏸️ `CiteFuse`
-- ⏸️ `CleanUpRNAseq`
 - ⏸️ `CluMSID`
 - ⏸️ `CoGAPS`
 - ⏸️ `CompensAID`
@@ -196,9 +195,10 @@
 - ⏸️ `DMRcate`
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
+- ⏸️ `Damsel`
 
-... and 390 more ...
+... and 387 more ...
 
 ---
-*Last updated: 2026-10-29 15:11:36 UTC*
+*Last updated: 2026-10-29 15:12:42 UTC*
 *Packages with verified BBS status: 240*
