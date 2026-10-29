@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1153 (48%)
+- **Successfully Built:** 1154 (48%)
 - **Failed:** 13 (0%)
-- **In Progress:** 161
+- **In Progress:** 160
 - **Not Started:** 1058
 
 **Progress:** 48%
@@ -16,7 +16,7 @@
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1153)
+## Successfully Built Packages (1154)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1103 more ...*
+*... and 1104 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,14 +94,13 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (161)
+## In Progress (160)
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
 - ⏳ `BUMHMM`
 - ⏳ `Banksy`
 - ⏳ `BulkSignalR`
 - ⏳ `COTAN`
-- ⏳ `CatsCradle`
 - ⏳ `CellMentor`
 - ⏳ `CompensAID`
 - ⏳ `CompoundDb`
@@ -145,8 +144,9 @@
 - ⏳ `R4RNA`
 - ⏳ `RadioGx`
 - ⏳ `ReactomeGSA`
+- ⏳ `Rsamtools`
 
-... and 111 more ...
+... and 110 more ...
 
 ## Not Yet Started (1058)
 - ⏸️ `ACE`
@@ -203,5 +203,5 @@
 ... and 1008 more ...
 
 ---
-*Last updated: 2026-10-29 02:41:02 UTC*
+*Last updated: 2026-10-29 02:42:13 UTC*
 *Packages with verified BBS status: 210*
