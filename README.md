@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1699 (71%)
+- **Successfully Built:** 1701 (71%)
 - **Failed:** 18 (0%)
-- **In Progress:** 178
+- **In Progress:** 176
 - **Not Started:** 490
 
-**Progress:** 71%
+**Progress:** 72%
 ```
-███████████████████████████████████░░░░░░░░░░░░░░░
+████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1699)
+## Successfully Built Packages (1701)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 
-*... and 1649 more ...*
+*... and 1651 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,7 +99,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (178)
+## In Progress (176)
 - ⏳ `APL`
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
@@ -108,7 +108,6 @@
 - ⏳ `BindingSiteFinder`
 - ⏳ `CAMERA`
 - ⏳ `CHRONOS`
-- ⏳ `CNEr`
 - ⏳ `CODEX`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
@@ -117,7 +116,6 @@
 - ⏳ `ChIPXpress`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
-- ⏳ `ChromHeatMap`
 - ⏳ `ClustIRR`
 - ⏳ `Cogito`
 - ⏳ `DMRcaller`
@@ -150,8 +148,10 @@
 - ⏳ `ORFhunteR`
 - ⏳ `OmaDB`
 - ⏳ `OncoScore`
+- ⏳ `OrganismDbi`
+- ⏳ `OutSplice`
 
-... and 128 more ...
+... and 126 more ...
 
 ## Not Yet Started (490)
 - ⏸️ `ADaCGH2`
@@ -208,5 +208,5 @@
 ... and 440 more ...
 
 ---
-*Last updated: 2026-10-29 16:26:47 UTC*
+*Last updated: 2026-10-29 16:29:44 UTC*
 *Packages with verified BBS status: 228*
