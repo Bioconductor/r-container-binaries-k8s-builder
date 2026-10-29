@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1583 (66%)
+- **Successfully Built:** 1585 (66%)
 - **Failed:** 16 (0%)
-- **In Progress:** 240
+- **In Progress:** 238
 - **Not Started:** 546
 
 **Progress:** 67%
@@ -16,7 +16,7 @@
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1583)
+## Successfully Built Packages (1585)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1533 more ...*
+*... and 1535 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (240)
+## In Progress (238)
 - ⏳ `ADAMgui`
 - ⏳ `ArrayExpress`
 - ⏳ `BASiCStan`
@@ -149,7 +149,7 @@
 - ⏳ `LACE`
 - ⏳ `MDSvis`
 
-... and 190 more ...
+... and 188 more ...
 
 ## Not Yet Started (546)
 - ⏸️ `ADaCGH2`
@@ -206,5 +206,5 @@
 ... and 496 more ...
 
 ---
-*Last updated: 2026-10-29 11:23:06 UTC*
+*Last updated: 2026-10-29 11:24:30 UTC*
 *Packages with verified BBS status: 222*
