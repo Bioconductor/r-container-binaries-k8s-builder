@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1828 (76%)
+- **Successfully Built:** 1829 (76%)
 - **Failed:** 20 (0%)
 - **In Progress:** 160
-- **Not Started:** 377
+- **Not Started:** 376
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1828)
+## Successfully Built Packages (1829)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1778 more ...*
+*... and 1779 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -143,6 +143,7 @@
 - ⏳ `MatrixRider`
 - ⏳ `MethReg`
 - ⏳ `MethylSeekR`
+- ⏳ `MinimumDistance`
 - ⏳ `NBAMSeq`
 - ⏳ `ORFik`
 - ⏳ `OUTRIDER`
@@ -151,11 +152,10 @@
 - ⏳ `PROMISE`
 - ⏳ `RTCGAToolbox`
 - ⏳ `RUVSeq`
-- ⏳ `ReactomePA`
 
 ... and 110 more ...
 
-## Not Yet Started (377)
+## Not Yet Started (376)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -207,8 +207,8 @@
 - ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
 
-... and 327 more ...
+... and 326 more ...
 
 ---
-*Last updated: 2026-10-29 18:40:33 UTC*
+*Last updated: 2026-10-29 18:41:33 UTC*
 *Packages with verified BBS status: 232*
