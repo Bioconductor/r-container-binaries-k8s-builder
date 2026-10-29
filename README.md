@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1422 (58%)
+- **Successfully Built:** 1425 (58%)
 - **Failed:** 8 (0%)
-- **In Progress:** 130
-- **Not Started:** 874
+- **In Progress:** 128
+- **Not Started:** 873
 
 **Progress:** 58%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1422)
+## Successfully Built Packages (1425)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1372 more ...*
+*... and 1375 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (130)
+## In Progress (128)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -100,13 +100,11 @@
 - ⏳ `CellMixS`
 - ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
-- ⏳ `CoverageView`
 - ⏳ `CrispRVariants`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `EMMA`
 - ⏳ `ExCluster`
-- ⏳ `FastqCleaner`
 - ⏳ `GOSemSim`
 - ⏳ `GOfan`
 - ⏳ `GOpro`
@@ -134,16 +132,18 @@
 - ⏳ `PinPath`
 - ⏳ `PostChicago`
 - ⏳ `RBPEqBind`
-- ⏳ `Rbec`
 - ⏳ `SCANVIS`
 - ⏳ `SMTrackR`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
 - ⏳ `SubCellBarCode`
+- ⏳ `UniProt.ws`
+- ⏳ `VAExprs`
+- ⏳ `Xeva`
 
-... and 80 more ...
+... and 78 more ...
 
-## Not Yet Started (874)
+## Not Yet Started (873)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -195,8 +195,8 @@
 - ⏸️ `CEMiTool`
 - ⏸️ `CHRONOS`
 
-... and 824 more ...
+... and 823 more ...
 
 ---
-*Last updated: 2026-10-29 04:51:27 UTC*
+*Last updated: 2026-10-29 04:52:23 UTC*
 *Packages with verified BBS status: 224*
