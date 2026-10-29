@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1283 (52%)
+- **Successfully Built:** 1284 (52%)
 - **Failed:** 7 (0%)
-- **In Progress:** 105
+- **In Progress:** 104
 - **Not Started:** 1039
 
-**Progress:** 52%
+**Progress:** 53%
 ```
 ██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1283)
+## Successfully Built Packages (1284)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 
-*... and 1233 more ...*
+*... and 1234 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (105)
+## In Progress (104)
 - ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AnnotationDbi`
@@ -100,7 +100,6 @@
 - ⏳ `CNVRanger`
 - ⏳ `COTAN`
 - ⏳ `ClusterGVis`
-- ⏳ `CorNetto`
 - ⏳ `CoreGx`
 - ⏳ `DAssemble`
 - ⏳ `DESpace`
@@ -139,8 +138,9 @@
 - ⏳ `VariantExperiment`
 - ⏳ `VplotR`
 - ⏳ `anansi`
+- ⏳ `animalcules`
 
-... and 55 more ...
+... and 54 more ...
 
 ## Not Yet Started (1039)
 - ⏸️ `ADAM`
@@ -197,5 +197,5 @@
 ... and 989 more ...
 
 ---
-*Last updated: 2026-10-29 01:40:24 UTC*
+*Last updated: 2026-10-29 01:41:31 UTC*
 *Packages with verified BBS status: 219*
