@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1800 (75%)
-- **Failed:** 19 (0%)
-- **In Progress:** 171
+- **Successfully Built:** 1802 (75%)
+- **Failed:** 20 (0%)
+- **In Progress:** 168
 - **Not Started:** 395
 
 **Progress:** 76%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1800)
+## Successfully Built Packages (1802)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1750 more ...*
+*... and 1752 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,13 +76,14 @@
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (19)
+## Failed Packages (20)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) | Compilation failed:  ‘BAGS’ |
 | [BulkSignalR](https://bioconductor.org/packages/3.23/bioc/html/BulkSignalR.html) | [log](logs/BulkSignalR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BulkSignalR) | Build failed with unknown error |
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
+| [ChIPComp](https://bioconductor.org/packages/3.23/bioc/html/ChIPComp.html) | [log](logs/ChIPComp/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ChIPComp) | Compilation failed:  ‘ChIPComp’ |
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
@@ -100,7 +101,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (171)
+## In Progress (168)
 - ⏳ `AGDEX`
 - ⏳ `AUCell`
 - ⏳ `BgeeCall`
@@ -112,13 +113,10 @@
 - ⏳ `CTexploreR`
 - ⏳ `Category`
 - ⏳ `Cepo`
-- ⏳ `ChIPComp`
 - ⏳ `ChIPXpress`
-- ⏳ `ChIPanalyser`
 - ⏳ `ChIPseeker`
 - ⏳ `ClassifyR`
 - ⏳ `ClustIRR`
-- ⏳ `Cogito`
 - ⏳ `DEXSeq`
 - ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
@@ -151,8 +149,11 @@
 - ⏳ `MOSClip`
 - ⏳ `MethylSeekR`
 - ⏳ `Motif2Site`
+- ⏳ `NBAMSeq`
+- ⏳ `ORFhunteR`
+- ⏳ `ORFik`
 
-... and 121 more ...
+... and 118 more ...
 
 ## Not Yet Started (395)
 - ⏸️ `ADaCGH2`
@@ -209,5 +210,5 @@
 ... and 345 more ...
 
 ---
-*Last updated: 2026-10-29 18:07:02 UTC*
-*Packages with verified BBS status: 231*
+*Last updated: 2026-10-29 18:12:19 UTC*
+*Packages with verified BBS status: 232*
