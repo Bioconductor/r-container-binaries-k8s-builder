@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1660 (69%)
+- **Successfully Built:** 1663 (69%)
 - **Failed:** 17 (0%)
-- **In Progress:** 208
+- **In Progress:** 205
 - **Not Started:** 500
 
 **Progress:** 70%
@@ -16,7 +16,7 @@
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1660)
+## Successfully Built Packages (1663)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 
-*... and 1610 more ...*
+*... and 1613 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,9 +96,9 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (208)
+## In Progress (205)
 - ⏳ `APL`
 - ⏳ `BEAT`
 - ⏳ `BLMA`
@@ -146,11 +146,11 @@
 - ⏳ `MetaboAnnotatoR`
 - ⏳ `Motif2Site`
 - ⏳ `MouseFM`
-- ⏳ `MsDataHub`
 - ⏳ `NetSAM`
 - ⏳ `NoRCE`
+- ⏳ `ORFhunteR`
 
-... and 158 more ...
+... and 155 more ...
 
 ## Not Yet Started (500)
 - ⏸️ `ADaCGH2`
@@ -207,5 +207,5 @@
 ... and 450 more ...
 
 ---
-*Last updated: 2026-10-29 15:44:48 UTC*
+*Last updated: 2026-10-29 15:46:39 UTC*
 *Packages with verified BBS status: 225*
