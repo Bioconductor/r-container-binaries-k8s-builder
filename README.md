@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1528 (62%)
+- **Successfully Built:** 1529 (62%)
 - **Failed:** 9 (0%)
 - **In Progress:** 131
-- **Not Started:** 766
+- **Not Started:** 765
 
 **Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1528)
+## Successfully Built Packages (1529)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1478 more ...*
+*... and 1479 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -112,7 +112,6 @@
 - ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MLP`
-- ⏳ `MesKit`
 - ⏳ `MetaboAnnotation`
 - ⏳ `MiRaGE`
 - ⏳ `OrganismDbi`
@@ -141,10 +140,11 @@
 - ⏳ `airpart`
 - ⏳ `annaffy`
 - ⏳ `annotate`
+- ⏳ `annotatr`
 
 ... and 81 more ...
 
-## Not Yet Started (766)
+## Not Yet Started (765)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -196,8 +196,8 @@
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 
-... and 716 more ...
+... and 715 more ...
 
 ---
-*Last updated: 2026-10-29 06:01:01 UTC*
+*Last updated: 2026-10-29 06:02:26 UTC*
 *Packages with verified BBS status: 228*
