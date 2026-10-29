@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 1950 (80%)
 - **Failed:** 10 (0%)
-- **In Progress:** 46
-- **Not Started:** 428
+- **In Progress:** 50
+- **Not Started:** 424
 
 **Progress:** 80%
 ```
@@ -91,7 +91,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (46)
+## In Progress (50)
 - ⏳ `CTexploreR`
 - ⏳ `ChIPXpress`
 - ⏳ `ChIPexoQual`
@@ -101,6 +101,7 @@
 - ⏳ `DrugVsDisease`
 - ⏳ `GmicR`
 - ⏳ `Gviz`
+- ⏳ `MGnifyR`
 - ⏳ `MICSQTL`
 - ⏳ `MetaboSignal`
 - ⏳ `MsQuality`
@@ -124,7 +125,10 @@
 - ⏳ `ggbio`
 - ⏳ `igvShiny`
 - ⏳ `karyoploteR`
+- ⏳ `lefser`
 - ⏳ `miRLAB`
+- ⏳ `miaTime`
+- ⏳ `miaViz`
 - ⏳ `mitoClone2`
 - ⏳ `motifTestR`
 - ⏳ `musicatk`
@@ -139,7 +143,7 @@
 - ⏳ `transmogR`
 - ⏳ `vtpnet`
 
-## Not Yet Started (428)
+## Not Yet Started (424)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -191,8 +195,8 @@
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
 
-... and 378 more ...
+... and 374 more ...
 
 ---
-*Last updated: 2026-10-29 19:46:24 UTC*
+*Last updated: 2026-10-29 19:46:58 UTC*
 *Packages with verified BBS status: 241*
