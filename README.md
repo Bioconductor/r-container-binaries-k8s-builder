@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1934 (79%)
+- **Successfully Built:** 1935 (79%)
 - **Failed:** 10 (0%)
 - **In Progress:** 59
-- **Not Started:** 431
+- **Not Started:** 430
 
 **Progress:** 79%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1934)
+## Successfully Built Packages (1935)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1884 more ...*
+*... and 1885 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,7 +100,6 @@
 - ⏳ `DrugVsDisease`
 - ⏳ `GmicR`
 - ⏳ `Gviz`
-- ⏳ `MEB`
 - ⏳ `MICSQTL`
 - ⏳ `MetaboSignal`
 - ⏳ `MsQuality`
@@ -142,10 +141,11 @@
 - ⏳ `pdInfoBuilder`
 - ⏳ `peco`
 - ⏳ `phyloseq`
+- ⏳ `pqsfinder`
 
 ... and 9 more ...
 
-## Not Yet Started (431)
+## Not Yet Started (430)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -197,8 +197,8 @@
 - ⏸️ `DSS`
 - ⏸️ `Damsel`
 
-... and 381 more ...
+... and 380 more ...
 
 ---
-*Last updated: 2026-10-29 19:31:53 UTC*
+*Last updated: 2026-10-29 19:32:31 UTC*
 *Packages with verified BBS status: 241*
