@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1825 (76%)
+- **Successfully Built:** 1826 (76%)
 - **Failed:** 20 (0%)
-- **In Progress:** 152
-- **Not Started:** 388
+- **In Progress:** 155
+- **Not Started:** 384
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1825)
+## Successfully Built Packages (1826)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1775 more ...*
+*... and 1776 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,7 +101,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (152)
+## In Progress (155)
 - ⏳ `AGDEX`
 - ⏳ `AUCell`
 - ⏳ `AnnotationHubData`
@@ -147,15 +147,15 @@
 - ⏳ `PDATK`
 - ⏳ `PECA`
 - ⏳ `PROMISE`
+- ⏳ `RTCGAToolbox`
 - ⏳ `RUVSeq`
 - ⏳ `ReactomePA`
 - ⏳ `Rhisat2`
 - ⏳ `RiboDiPA`
-- ⏳ `SIM`
 
-... and 102 more ...
+... and 105 more ...
 
-## Not Yet Started (388)
+## Not Yet Started (384)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -207,8 +207,8 @@
 - ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
 
-... and 338 more ...
+... and 334 more ...
 
 ---
-*Last updated: 2026-10-29 18:37:09 UTC*
+*Last updated: 2026-10-29 18:38:09 UTC*
 *Packages with verified BBS status: 232*
