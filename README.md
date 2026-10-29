@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1514 (63%)
+- **Successfully Built:** 1516 (63%)
 - **Failed:** 15 (0%)
-- **In Progress:** 227
-- **Not Started:** 629
+- **In Progress:** 226
+- **Not Started:** 628
 
 **Progress:** 64%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1514)
+## Successfully Built Packages (1516)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1464 more ...*
+*... and 1466 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,7 +96,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (227)
+## In Progress (226)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -148,9 +148,9 @@
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
 
-... and 177 more ...
+... and 176 more ...
 
-## Not Yet Started (629)
+## Not Yet Started (628)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -202,8 +202,8 @@
 - ⏸️ `CaMutQC`
 - ⏸️ `Category`
 
-... and 579 more ...
+... and 578 more ...
 
 ---
-*Last updated: 2026-10-29 08:31:18 UTC*
+*Last updated: 2026-10-29 08:33:37 UTC*
 *Packages with verified BBS status: 220*
