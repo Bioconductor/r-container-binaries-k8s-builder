@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1580 (64%)
+- **Successfully Built:** 1583 (65%)
 - **Failed:** 9 (0%)
 - **In Progress:** 158
-- **Not Started:** 687
+- **Not Started:** 684
 
 **Progress:** 65%
 ```
 ████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1580)
+## Successfully Built Packages (1583)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1530 more ...*
+*... and 1533 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,10 +93,10 @@
 ## In Progress (158)
 - ⏳ `ADAMgui`
 - ⏳ `ArrayExpress`
+- ⏳ `BiSeq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CHRONOS`
 - ⏳ `CNEr`
-- ⏳ `CNTools`
 - ⏳ `CSSQ`
 - ⏳ `CellMixS`
 - ⏳ `ChIPQC`
@@ -137,14 +137,14 @@
 - ⏳ `OncoScore`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
-- ⏳ `PECA`
+- ⏳ `PDATK`
 - ⏳ `PPInfer`
 - ⏳ `PREDA`
 - ⏳ `ProteoMM`
 
 ... and 108 more ...
 
-## Not Yet Started (687)
+## Not Yet Started (684)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -171,7 +171,6 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
-- ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 - ⏸️ `BioCor`
 - ⏸️ `BioNERO`
@@ -195,9 +194,10 @@
 - ⏸️ `CRISPRseek`
 - ⏸️ `CTdata`
 - ⏸️ `CTexploreR`
+- ⏸️ `CaMutQC`
 
-... and 637 more ...
+... and 634 more ...
 
 ---
-*Last updated: 2026-10-29 06:20:47 UTC*
+*Last updated: 2026-10-29 06:21:45 UTC*
 *Packages with verified BBS status: 228*
