@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1599 (65%)
+- **Successfully Built:** 1603 (65%)
 - **Failed:** 9 (0%)
-- **In Progress:** 145
-- **Not Started:** 681
+- **In Progress:** 163
+- **Not Started:** 659
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1599)
+## Successfully Built Packages (1603)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1549 more ...*
+*... and 1553 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tximport](https://bioconductor.org/packages/3.24/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.24/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [universalmotif](https://bioconductor.org/packages/3.24/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/universalmotif) |
@@ -75,6 +74,7 @@
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
+| [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 
 ## Failed Packages (9)
 
@@ -90,10 +90,16 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (145)
+## In Progress (163)
 - ⏳ `ADAMgui`
+- ⏳ `ADaCGH2`
+- ⏳ `ASSIGN`
 - ⏳ `ArrayExpress`
+- ⏳ `BERT`
+- ⏳ `BatchQC`
+- ⏳ `BatchVaria`
 - ⏳ `BindingSiteFinder`
+- ⏳ `BioNERO`
 - ⏳ `CHRONOS`
 - ⏳ `CNEr`
 - ⏳ `CSSQ`
@@ -101,18 +107,18 @@
 - ⏳ `ChIPQC`
 - ⏳ `ChromHeatMap`
 - ⏳ `Cogito`
-- ⏳ `DEXSeq`
+- ⏳ `DExMA`
 - ⏳ `DNAfusion`
 - ⏳ `DOSE`
+- ⏳ `DeMixT`
 - ⏳ `EDASeq`
-- ⏳ `EpiDISH`
 - ⏳ `ExperimentHub`
 - ⏳ `FindIT2`
 - ⏳ `GOexpress`
 - ⏳ `GSEABase`
-- ⏳ `GeneMeta`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `Guitar`
+- ⏳ `HarmonizR`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `ITALICS`
@@ -135,23 +141,15 @@
 - ⏳ `OncoScore`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
-- ⏳ `PPInfer`
-- ⏳ `PREDA`
-- ⏳ `ProteoMM`
-- ⏳ `RJMCMCNucleosomes`
-- ⏳ `Rcpi`
-- ⏳ `RepViz`
 
-... and 95 more ...
+... and 113 more ...
 
-## Not Yet Started (681)
+## Not Yet Started (659)
 - ⏸️ `ADAPT`
-- ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APL`
-- ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AUCell`
@@ -161,19 +159,15 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BERT`
 - ⏸️ `BOBaFIT`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `BatChef`
-- ⏸️ `BatchQC`
-- ⏸️ `BatchVaria`
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BgeeDB`
 - ⏸️ `BicARE`
 - ⏸️ `BioCor`
-- ⏸️ `BioNERO`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
@@ -195,9 +189,15 @@
 - ⏸️ `CTdata`
 - ⏸️ `CTexploreR`
 - ⏸️ `CaMutQC`
+- ⏸️ `Category`
+- ⏸️ `CeTF`
+- ⏸️ `Cepo`
+- ⏸️ `ChAMP`
+- ⏸️ `ChIPXpress`
+- ⏸️ `ChIPexoQual`
 
-... and 631 more ...
+... and 609 more ...
 
 ---
-*Last updated: 2026-10-29 06:27:25 UTC*
-*Packages with verified BBS status: 228*
+*Last updated: 2026-10-29 06:29:31 UTC*
+*Packages with verified BBS status: 229*
