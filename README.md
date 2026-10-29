@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1257 (51%)
+- **Successfully Built:** 1259 (51%)
 - **Failed:** 7 (0%)
-- **In Progress:** 127
+- **In Progress:** 125
 - **Not Started:** 1043
 
-**Progress:** 51%
+**Progress:** 52%
 ```
-█████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1257)
+## Successfully Built Packages (1259)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1207 more ...*
+*... and 1209 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (127)
+## In Progress (125)
 - ⏳ `ACE`
 - ⏳ `ASICS`
 - ⏳ `AffiXcan`
@@ -140,7 +140,7 @@
 - ⏳ `RTNduals`
 - ⏳ `SEraster`
 
-... and 77 more ...
+... and 75 more ...
 
 ## Not Yet Started (1043)
 - ⏸️ `ADAM`
@@ -197,5 +197,5 @@
 ... and 993 more ...
 
 ---
-*Last updated: 2026-10-29 01:24:08 UTC*
+*Last updated: 2026-10-29 01:25:01 UTC*
 *Packages with verified BBS status: 218*
