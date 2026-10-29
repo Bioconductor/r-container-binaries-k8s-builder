@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1787 (74%)
+- **Successfully Built:** 1788 (74%)
 - **Failed:** 19 (0%)
 - **In Progress:** 177
-- **Not Started:** 402
+- **Not Started:** 401
 
 **Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1787)
+## Successfully Built Packages (1788)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1737 more ...*
+*... and 1738 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -111,7 +111,6 @@
 - ⏳ `BicARE`
 - ⏳ `BindingSiteFinder`
 - ⏳ `BioCor`
-- ⏳ `CAMERA`
 - ⏳ `CBN2Path`
 - ⏳ `CNTools`
 - ⏳ `CODEX`
@@ -151,10 +150,11 @@
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
 - ⏳ `IVAS`
+- ⏳ `MLInterfaces`
 
 ... and 127 more ...
 
-## Not Yet Started (402)
+## Not Yet Started (401)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -206,8 +206,8 @@
 - ⏸️ `DegCre`
 - ⏸️ `DiffBind`
 
-... and 352 more ...
+... and 351 more ...
 
 ---
-*Last updated: 2026-10-29 17:52:59 UTC*
+*Last updated: 2026-10-29 17:54:10 UTC*
 *Packages with verified BBS status: 231*
