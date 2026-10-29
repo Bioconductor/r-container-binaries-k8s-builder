@@ -1,0 +1,88 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''tidySingleCellExperiment'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'tidySingleCellExperiment'
+also installing the dependencies ‘BulkSignalR’, ‘SingleCellSignalR’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/BulkSignalR_1.5.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SingleCellSignalR_2.3.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/tidySingleCellExperiment_1.23.0.tar.gz'
+* installing *source* package ‘BulkSignalR’ ...
+** this is package ‘BulkSignalR’ version ‘1.5.0’
+** package ‘BulkSignalR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+✖ Remote server is down. 
+"https://partage-dev.montp.inserm.fr:9192/CBSB/"
+ℹ /root/.cache/R/BulkSignalR first set up.
+Warning: download failed
+  web resource path: ‘https://partage-dev.montp.inserm.fr:9192/CBSB/SignalR/resources/gobp.rds’
+  local file path: ‘/root/.cache/R/BulkSignalR/resources/52467edc31_gobp.rds’
+  reason: Failed to perform HTTP request.
+Caused by error in `curl::curl_fetch_disk()`:
+! Timeout was reached [partage-dev.montp.inserm.fr]:
+Failed to connect to partage-dev.montp.inserm.fr port 9192 after 10002 ms: Timeout was reached
+Warning: bfcadd() failed; resource removed
+  rid: BFC1
+  fpath: ‘https://partage-dev.montp.inserm.fr:9192/CBSB/SignalR/resources/gobp.rds’
+  reason: download failed
+Error: package or namespace load failed for ‘BulkSignalR’:
+ .onLoad failed in loadNamespace() for 'BulkSignalR', details:
+  call: .util_download(x, rid[i], proxy, progress, config, "bfcadd()", 
+  error: bfcadd() failed; see warnings()
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing ‘/tmp/library/BulkSignalR’
+* installing *source* package ‘tidySingleCellExperiment’ ...
+** this is package ‘tidySingleCellExperiment’ version ‘1.23.0’
+** package ‘tidySingleCellExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidySingleCellExperiment’ as ‘tidySingleCellExperiment_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidySingleCellExperiment)
+ERROR: dependency ‘BulkSignalR’ is not available for package ‘SingleCellSignalR’
+Perhaps try a variation of:
+install.packages('BulkSignalR')
+* removing ‘/tmp/library/SingleCellSignalR’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpii34nX/downloaded_packages’
+Old packages: 'gesel'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘BulkSignalR’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘SingleCellSignalR’ had non-zero exit status
+
+real	3m25.316s
+user	0m50.264s
+sys	0m7.584s
