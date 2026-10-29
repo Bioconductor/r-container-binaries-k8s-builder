@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1606 (67%)
+- **Successfully Built:** 1607 (67%)
 - **Failed:** 16 (0%)
 - **In Progress:** 226
-- **Not Started:** 537
+- **Not Started:** 536
 
 **Progress:** 68%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1606)
+## Successfully Built Packages (1607)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1556 more ...*
+*... and 1557 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -151,7 +151,7 @@
 
 ... and 176 more ...
 
-## Not Yet Started (537)
+## Not Yet Started (536)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -203,8 +203,8 @@
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPXpress`
 
-... and 487 more ...
+... and 486 more ...
 
 ---
-*Last updated: 2026-10-29 11:44:14 UTC*
+*Last updated: 2026-10-29 11:45:27 UTC*
 *Packages with verified BBS status: 222*
