@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1211 (49%)
+- **Successfully Built:** 1213 (49%)
 - **Failed:** 6 (0%)
 - **In Progress:** 146
-- **Not Started:** 1071
+- **Not Started:** 1069
 
 **Progress:** 50%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1211)
+## Successfully Built Packages (1213)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1161 more ...*
+*... and 1163 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -141,7 +141,7 @@
 
 ... and 96 more ...
 
-## Not Yet Started (1071)
+## Not Yet Started (1069)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
@@ -193,8 +193,8 @@
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 
-... and 1021 more ...
+... and 1019 more ...
 
 ---
-*Last updated: 2026-10-29 00:52:00 UTC*
+*Last updated: 2026-10-29 00:52:44 UTC*
 *Packages with verified BBS status: 211*
