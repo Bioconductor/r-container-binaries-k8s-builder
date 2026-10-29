@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1771 (72%)
+- **Successfully Built:** 1772 (72%)
 - **Failed:** 9 (0%)
 - **In Progress:** 166
-- **Not Started:** 488
+- **Not Started:** 487
 
 **Progress:** 73%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1771)
+## Successfully Built Packages (1772)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1721 more ...*
+*... and 1722 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,7 +98,6 @@
 - ⏳ `BioCor`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
-- ⏳ `CNVrd2`
 - ⏳ `CTdata`
 - ⏳ `Category`
 - ⏳ `CellMixS`
@@ -132,6 +131,7 @@
 - ⏳ `HarmonizR`
 - ⏳ `HelloRanges`
 - ⏳ `ITALICS`
+- ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `LRcell`
 - ⏳ `M3Drop`
 - ⏳ `MACSr`
@@ -144,7 +144,7 @@
 
 ... and 116 more ...
 
-## Not Yet Started (488)
+## Not Yet Started (487)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -196,8 +196,8 @@
 - ⏸️ `CytoPipeline`
 - ⏸️ `CytoPipelineGUI`
 
-... and 438 more ...
+... and 437 more ...
 
 ---
-*Last updated: 2026-10-29 09:14:04 UTC*
+*Last updated: 2026-10-29 09:15:17 UTC*
 *Packages with verified BBS status: 236*
