@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1435 (58%)
+- **Successfully Built:** 1438 (59%)
 - **Failed:** 9 (0%)
-- **In Progress:** 149
+- **In Progress:** 146
 - **Not Started:** 841
 
 **Progress:** 59%
@@ -16,7 +16,7 @@
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1435)
+## Successfully Built Packages (1438)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1385 more ...*
+*... and 1388 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,13 +90,11 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (149)
+## In Progress (146)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
-- ⏳ `BEAT`
-- ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
@@ -141,8 +139,10 @@
 - ⏳ `SparseSignatures`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
+- ⏳ `SubCellBarCode`
+- ⏳ `TFBSTools`
 
-... and 99 more ...
+... and 96 more ...
 
 ## Not Yet Started (841)
 - ⏸️ `ADAMgui`
@@ -199,5 +199,5 @@
 ... and 791 more ...
 
 ---
-*Last updated: 2026-10-29 05:00:44 UTC*
+*Last updated: 2026-10-29 05:01:41 UTC*
 *Packages with verified BBS status: 225*
