@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 1386 (56%)
 - **Failed:** 8 (0%)
-- **In Progress:** 151
-- **Not Started:** 889
+- **In Progress:** 165
+- **Not Started:** 875
 
 **Progress:** 57%
 ```
@@ -89,25 +89,31 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (151)
+## In Progress (165)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
+- ⏳ `BASiCS`
 - ⏳ `BSgenome`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
+- ⏳ `BioTIP`
+- ⏳ `BiocDuckDB`
 - ⏳ `CellBarcode`
 - ⏳ `CellMixS`
 - ⏳ `ChIPseqR`
 - ⏳ `ChIPsim`
+- ⏳ `ChromSCape`
 - ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
+- ⏳ `Coralysis`
 - ⏳ `CoverageView`
 - ⏳ `CrispRVariants`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DaparToolshed`
+- ⏳ `Dino`
 - ⏳ `EMMA`
 - ⏳ `ExCluster`
 - ⏳ `FastqCleaner`
@@ -129,21 +135,15 @@
 - ⏳ `MCbiclust`
 - ⏳ `MEB`
 - ⏳ `MLP`
+- ⏳ `MOSim`
+- ⏳ `MPAC`
 - ⏳ `MeSHDbi`
 - ⏳ `MesKit`
 - ⏳ `MiRaGE`
-- ⏳ `MotifDb`
-- ⏳ `MsExperiment`
-- ⏳ `PADOG`
-- ⏳ `PAST`
-- ⏳ `PMScanR`
-- ⏳ `PSMatch`
-- ⏳ `PharmacoGx`
-- ⏳ `PinPath`
 
-... and 101 more ...
+... and 115 more ...
 
-## Not Yet Started (889)
+## Not Yet Started (875)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -160,7 +160,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
@@ -182,8 +181,6 @@
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioCor`
 - ⏸️ `BioNERO`
-- ⏸️ `BioTIP`
-- ⏸️ `BiocDuckDB`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
@@ -194,9 +191,12 @@
 - ⏸️ `CBN2Path`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
+- ⏸️ `CCPROMISE`
+- ⏸️ `CEMiTool`
+- ⏸️ `CHRONOS`
 
-... and 839 more ...
+... and 825 more ...
 
 ---
-*Last updated: 2026-10-29 04:33:04 UTC*
+*Last updated: 2026-10-29 04:35:00 UTC*
 *Packages with verified BBS status: 223*
