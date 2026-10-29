@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1452 (59%)
+- **Successfully Built:** 1454 (59%)
 - **Failed:** 9 (0%)
-- **In Progress:** 135
+- **In Progress:** 133
 - **Not Started:** 838
 
 **Progress:** 60%
@@ -16,7 +16,7 @@
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1452)
+## Successfully Built Packages (1454)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1402 more ...*
+*... and 1404 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,16 +90,14 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (135)
+## In Progress (133)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
-- ⏳ `CODEX`
 - ⏳ `CellMixS`
-- ⏳ `ChIPanalyser`
 - ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
 - ⏳ `CrispRVariants`
@@ -141,8 +139,10 @@
 - ⏳ `SubCellBarCode`
 - ⏳ `TFBSTools`
 - ⏳ `UniProt.ws`
+- ⏳ `VAExprs`
+- ⏳ `VanillaICE`
 
-... and 85 more ...
+... and 83 more ...
 
 ## Not Yet Started (838)
 - ⏸️ `ADAMgui`
@@ -199,5 +199,5 @@
 ... and 788 more ...
 
 ---
-*Last updated: 2026-10-29 05:07:14 UTC*
+*Last updated: 2026-10-29 05:08:36 UTC*
 *Packages with verified BBS status: 225*
