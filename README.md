@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1344 (55%)
+- **Successfully Built:** 1347 (55%)
 - **Failed:** 8 (0%)
-- **In Progress:** 71
+- **In Progress:** 68
 - **Not Started:** 1011
 
 **Progress:** 55%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1344)
+## Successfully Built Packages (1347)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1294 more ...*
+*... and 1297 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (71)
+## In Progress (68)
 - ⏳ `AnnotationDbi`
 - ⏳ `BatchSVG`
 - ⏳ `CellBarcode`
@@ -100,8 +100,6 @@
 - ⏳ `DaparToolshed`
 - ⏳ `FELLA`
 - ⏳ `FastqCleaner`
-- ⏳ `GENESIS`
-- ⏳ `GenomAutomorphism`
 - ⏳ `GeomxTools`
 - ⏳ `Ibex`
 - ⏳ `KEGGemUP`
@@ -140,8 +138,10 @@
 - ⏳ `msqrob2`
 - ⏳ `notameStats`
 - ⏳ `notameViz`
+- ⏳ `oligo`
+- ⏳ `omicade4`
 
-... and 21 more ...
+... and 18 more ...
 
 ## Not Yet Started (1011)
 - ⏸️ `ADAM`
@@ -198,5 +198,5 @@
 ... and 961 more ...
 
 ---
-*Last updated: 2026-10-29 02:07:24 UTC*
+*Last updated: 2026-10-29 02:08:08 UTC*
 *Packages with verified BBS status: 223*
