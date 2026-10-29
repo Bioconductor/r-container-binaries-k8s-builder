@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1422 (59%)
+- **Successfully Built:** 1425 (59%)
 - **Failed:** 14 (0%)
-- **In Progress:** 149
+- **In Progress:** 146
 - **Not Started:** 800
 
 **Progress:** 60%
@@ -16,7 +16,7 @@
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1422)
+## Successfully Built Packages (1425)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -40,13 +40,13 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
+| [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
-| [AlpsNMR](https://bioconductor.org/packages/3.23/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlpsNMR) |
 
-*... and 1372 more ...*
+*... and 1375 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,16 +93,13 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (149)
+## In Progress (146)
 - ⏳ `ADAM`
-- ⏳ `Aerith`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
-- ⏳ `BaalChIP`
-- ⏳ `BasicSTARRseq`
 - ⏳ `BatchSVG`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
@@ -146,8 +143,11 @@
 - ⏳ `PathoStat`
 - ⏳ `PrInCE`
 - ⏳ `QSutils`
+- ⏳ `RCM`
+- ⏳ `RMassBank`
+- ⏳ `RPA`
 
-... and 99 more ...
+... and 96 more ...
 
 ## Not Yet Started (800)
 - ⏸️ `ADAMgui`
@@ -204,5 +204,5 @@
 ... and 750 more ...
 
 ---
-*Last updated: 2026-10-29 07:31:37 UTC*
-*Packages with verified BBS status: 216*
+*Last updated: 2026-10-29 07:33:32 UTC*
+*Packages with verified BBS status: 217*
