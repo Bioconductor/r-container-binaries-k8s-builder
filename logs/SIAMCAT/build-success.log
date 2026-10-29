@@ -1,0 +1,117 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SIAMCAT'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SIAMCAT'
+also installing the dependencies ‘moocore’, ‘mlr3measures’, ‘mlr3misc’, ‘palmerpenguins’, ‘bbotk’, ‘mlr3’, ‘mlr3learners’, ‘mlr3tuning’, ‘paradox’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/moocore_0.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3measures_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3misc_0.23.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/palmerpenguins_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/bbotk_1.13.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3_1.8.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3learners_0.16.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mlr3tuning_1.7.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/paradox_1.0.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SIAMCAT_2.16.0.tar.gz'
+* installing *binary* package ‘moocore’ ...
+* package ‘moocore’ successfully unpacked and SHA256 sums checked
+* ‘moocore’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘moocore’ as ‘moocore_0.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (moocore)
+* installing *binary* package ‘mlr3misc’ ...
+* package ‘mlr3misc’ successfully unpacked and SHA256 sums checked
+* ‘mlr3misc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3misc’ as ‘mlr3misc_0.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3misc)
+* installing *binary* package ‘palmerpenguins’ ...
+* package ‘palmerpenguins’ successfully unpacked and SHA256 sums checked
+* ‘palmerpenguins’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘palmerpenguins’ as ‘palmerpenguins_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (palmerpenguins)
+* installing *binary* package ‘mlr3measures’ ...
+* package ‘mlr3measures’ successfully unpacked and SHA256 sums checked
+* ‘mlr3measures’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3measures’ as ‘mlr3measures_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3measures)
+* installing *binary* package ‘paradox’ ...
+* package ‘paradox’ successfully unpacked and SHA256 sums checked
+* ‘paradox’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘paradox’ as ‘paradox_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (paradox)
+* installing *binary* package ‘bbotk’ ...
+* package ‘bbotk’ successfully unpacked and SHA256 sums checked
+* ‘bbotk’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bbotk’ as ‘bbotk_1.13.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bbotk)
+* installing *binary* package ‘mlr3’ ...
+* package ‘mlr3’ successfully unpacked and SHA256 sums checked
+* ‘mlr3’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3’ as ‘mlr3_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3)
+* installing *binary* package ‘mlr3learners’ ...
+* package ‘mlr3learners’ successfully unpacked and SHA256 sums checked
+* ‘mlr3learners’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3learners’ as ‘mlr3learners_0.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3learners)
+* installing *binary* package ‘mlr3tuning’ ...
+* package ‘mlr3tuning’ successfully unpacked and SHA256 sums checked
+* ‘mlr3tuning’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr3tuning’ as ‘mlr3tuning_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr3tuning)
+* installing *source* package ‘SIAMCAT’ ...
+** this is package ‘SIAMCAT’ version ‘2.16.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SIAMCAT’ as ‘SIAMCAT_2.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SIAMCAT)
+
+The downloaded source packages are in
+	‘/tmp/RtmpwVpyc0/downloaded_packages’
+Old packages: 'enrichit', 'gargle', 'glmnet', 'gridpattern', 'insight',
+  'poorman', 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	0m49.551s
+user	0m42.396s
+sys	0m7.205s

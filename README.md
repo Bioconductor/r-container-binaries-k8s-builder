@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1453 (60%)
+- **Successfully Built:** 1462 (61%)
 - **Failed:** 14 (0%)
-- **In Progress:** 190
+- **In Progress:** 181
 - **Not Started:** 728
 
 **Progress:** 61%
@@ -16,7 +16,7 @@
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1453)
+## Successfully Built Packages (1462)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1403 more ...*
+*... and 1412 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,12 +95,11 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (190)
+## In Progress (181)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
-- ⏳ `BSgenome`
 - ⏳ `BatchSVG`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
@@ -121,11 +120,8 @@
 - ⏳ `GOfan`
 - ⏳ `GOfuncR`
 - ⏳ `GOpro`
-- ⏳ `GenomicFeatures`
 - ⏳ `GeoDiff`
 - ⏳ `HiCDOC`
-- ⏳ `HiCPotts`
-- ⏳ `HiTC`
 - ⏳ `HicAggR`
 - ⏳ `IMMAN`
 - ⏳ `IONiseR`
@@ -146,8 +142,12 @@
 - ⏳ `MesKit`
 - ⏳ `MetaboAnnotatoR`
 - ⏳ `MethTargetedNGS`
+- ⏳ `MiRaGE`
+- ⏳ `MotifDb`
+- ⏳ `OTUbase`
+- ⏳ `PADOG`
 
-... and 140 more ...
+... and 131 more ...
 
 ## Not Yet Started (728)
 - ⏸️ `ADAMgui`
@@ -204,5 +204,5 @@
 ... and 678 more ...
 
 ---
-*Last updated: 2026-10-29 07:58:02 UTC*
+*Last updated: 2026-10-29 08:01:39 UTC*
 *Packages with verified BBS status: 218*
