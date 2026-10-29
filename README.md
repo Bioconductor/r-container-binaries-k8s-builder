@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1646 (67%)
+- **Successfully Built:** 1652 (67%)
 - **Failed:** 9 (0%)
-- **In Progress:** 169
-- **Not Started:** 610
+- **In Progress:** 165
+- **Not Started:** 608
 
-**Progress:** 67%
+**Progress:** 68%
 ```
-█████████████████████████████████░░░░░░░░░░░░░░░░░
+██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1646)
+## Successfully Built Packages (1652)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1596 more ...*
+*... and 1602 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,9 +88,9 @@
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scMET](https://bioconductor.org/packages/3.24/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
+| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (169)
+## In Progress (165)
 - ⏳ `ADAMgui`
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
@@ -134,17 +134,17 @@
 - ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MetaboAnnotation`
-- ⏳ `NoRCE`
-- ⏳ `OncoScore`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
 - ⏳ `PAA`
 - ⏳ `POMA`
-- ⏳ `PPInfer`
+- ⏳ `PROMISE`
+- ⏳ `PROPS`
+- ⏳ `RFGeneRank`
 
-... and 119 more ...
+... and 115 more ...
 
-## Not Yet Started (610)
+## Not Yet Started (608)
 - ⏸️ `ADAPT`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -196,8 +196,8 @@
 - ⏸️ `CiteFuse`
 - ⏸️ `CleanUpRNAseq`
 
-... and 560 more ...
+... and 558 more ...
 
 ---
-*Last updated: 2026-10-29 06:47:34 UTC*
+*Last updated: 2026-10-29 06:49:40 UTC*
 *Packages with verified BBS status: 230*
