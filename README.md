@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1567 (65%)
+- **Successfully Built:** 1571 (65%)
 - **Failed:** 16 (0%)
-- **In Progress:** 214
-- **Not Started:** 588
+- **In Progress:** 249
+- **Not Started:** 549
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1567)
+## Successfully Built Packages (1571)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1517 more ...*
+*... and 1521 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (214)
+## In Progress (249)
 - ⏳ `ADAMgui`
 - ⏳ `ArrayExpress`
 - ⏳ `BASiCStan`
@@ -107,6 +107,7 @@
 - ⏳ `Basic4Cseq`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CAMERA`
+- ⏳ `CHRONOS`
 - ⏳ `CNEr`
 - ⏳ `CODEX`
 - ⏳ `CRISPRseek`
@@ -123,10 +124,12 @@
 - ⏳ `DNAfusion`
 - ⏳ `DOSE`
 - ⏳ `DspikeIn`
+- ⏳ `EDASeq`
 - ⏳ `ExperimentHub`
 - ⏳ `FastqCleaner`
 - ⏳ `FindIT2`
 - ⏳ `GOTHiC`
+- ⏳ `GOexpress`
 - ⏳ `GSEABase`
 - ⏳ `GenomicInteractionNodes`
 - ⏳ `GenomicScores`
@@ -142,16 +145,13 @@
 - ⏳ `Ibex`
 - ⏳ `IdeoViz`
 - ⏳ `InTAD`
+- ⏳ `InterCellar`
+- ⏳ `LACE`
 - ⏳ `MDSvis`
-- ⏳ `MGFM`
-- ⏳ `MMDiff2`
-- ⏳ `MSstatsQCgui`
-- ⏳ `MetaboAnnotation`
-- ⏳ `MetaboAnnotatoR`
 
-... and 164 more ...
+... and 199 more ...
 
-## Not Yet Started (588)
+## Not Yet Started (549)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -189,7 +189,6 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
-- ⏸️ `CHRONOS`
 - ⏸️ `CNTools`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
@@ -202,9 +201,10 @@
 - ⏸️ `CeTF`
 - ⏸️ `Cepo`
 - ⏸️ `CexoR`
+- ⏸️ `ChAMP`
 
-... and 538 more ...
+... and 499 more ...
 
 ---
-*Last updated: 2026-10-29 11:07:41 UTC*
+*Last updated: 2026-10-29 11:10:20 UTC*
 *Packages with verified BBS status: 222*
