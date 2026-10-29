@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1705 (71%)
+- **Successfully Built:** 1709 (71%)
 - **Failed:** 18 (0%)
-- **In Progress:** 195
+- **In Progress:** 191
 - **Not Started:** 467
 
 **Progress:** 72%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1705)
+## Successfully Built Packages (1709)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 
-*... and 1655 more ...*
+*... and 1659 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,7 +99,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (195)
+## In Progress (191)
 - ⏳ `AGDEX`
 - ⏳ `APL`
 - ⏳ `AUCell`
@@ -151,7 +151,7 @@
 - ⏳ `NetSAM`
 - ⏳ `NoRCE`
 
-... and 145 more ...
+... and 141 more ...
 
 ## Not Yet Started (467)
 - ⏸️ `ADaCGH2`
@@ -208,5 +208,5 @@
 ... and 417 more ...
 
 ---
-*Last updated: 2026-10-29 16:33:15 UTC*
+*Last updated: 2026-10-29 16:35:10 UTC*
 *Packages with verified BBS status: 228*
