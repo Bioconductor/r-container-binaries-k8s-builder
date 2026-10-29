@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1366 (57%)
+- **Successfully Built:** 1367 (57%)
 - **Failed:** 14 (0%)
-- **In Progress:** 96
-- **Not Started:** 909
+- **In Progress:** 112
+- **Not Started:** 892
 
 **Progress:** 57%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1366)
+## Successfully Built Packages (1367)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1316 more ...*
+*... and 1317 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,13 +95,16 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (96)
+## In Progress (112)
 - ⏳ `ACE`
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `ArrayExpress`
+- ⏳ `CATALYST`
 - ⏳ `CNVRanger`
 - ⏳ `CellMentor`
+- ⏳ `CellMixS`
+- ⏳ `CelliD`
 - ⏳ `ClustIRR`
 - ⏳ `CompensAID`
 - ⏳ `CytoML`
@@ -118,6 +121,8 @@
 - ⏳ `IMMAN`
 - ⏳ `ITALICS`
 - ⏳ `LymphoSeq`
+- ⏳ `M3Drop`
+- ⏳ `MEB`
 - ⏳ `MSA2dist`
 - ⏳ `MSnbase`
 - ⏳ `MWASTools`
@@ -133,6 +138,7 @@
 - ⏳ `SIAMCAT`
 - ⏳ `SPsimSeq`
 - ⏳ `SimBu`
+- ⏳ `SpaceTrooper`
 - ⏳ `SpectralTAD`
 - ⏳ `SpiecEasi`
 - ⏳ `SpotSweeper`
@@ -140,16 +146,10 @@
 - ⏳ `TADCompare`
 - ⏳ `TPP`
 - ⏳ `ToxicoGx`
-- ⏳ `VariantExperiment`
-- ⏳ `Voyager`
-- ⏳ `affyILM`
-- ⏳ `affyPLM`
-- ⏳ `alabaster.sfe`
-- ⏳ `cfdnakit`
 
-... and 46 more ...
+... and 62 more ...
 
-## Not Yet Started (909)
+## Not Yet Started (892)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADaCGH2`
@@ -201,8 +201,8 @@
 - ⏸️ `BiocSet`
 - ⏸️ `BloodGen3Module`
 
-... and 859 more ...
+... and 842 more ...
 
 ---
-*Last updated: 2026-10-29 05:45:00 UTC*
+*Last updated: 2026-10-29 05:46:07 UTC*
 *Packages with verified BBS status: 213*
