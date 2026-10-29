@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 1345 (56%)
 - **Failed:** 14 (0%)
-- **In Progress:** 97
-- **Not Started:** 929
+- **In Progress:** 99
+- **Not Started:** 927
 
 **Progress:** 56%
 ```
@@ -89,13 +89,13 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust |
+| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (97)
+## In Progress (99)
 - ⏳ `ACE`
 - ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
@@ -147,9 +147,9 @@
 - ⏳ `TADCompare`
 - ⏳ `TPP`
 
-... and 47 more ...
+... and 49 more ...
 
-## Not Yet Started (929)
+## Not Yet Started (927)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
 - ⏸️ `ADaCGH2`
@@ -201,8 +201,8 @@
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BiocSet`
 
-... and 879 more ...
+... and 877 more ...
 
 ---
-*Last updated: 2026-10-29 04:19:50 UTC*
+*Last updated: 2026-10-29 04:21:28 UTC*
 *Packages with verified BBS status: 213*
