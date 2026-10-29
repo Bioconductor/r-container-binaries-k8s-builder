@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1643 (68%)
+- **Successfully Built:** 1647 (69%)
 - **Failed:** 17 (0%)
-- **In Progress:** 196
+- **In Progress:** 192
 - **Not Started:** 529
 
 **Progress:** 69%
@@ -16,7 +16,7 @@
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1643)
+## Successfully Built Packages (1647)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -25,6 +25,7 @@
 | [ACE](https://bioconductor.org/packages/3.23/bioc/html/ACE.html) | [log](logs/ACE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACE) |
 | [ACME](https://bioconductor.org/packages/3.23/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACME) |
 | [ADAM](https://bioconductor.org/packages/3.23/bioc/html/ADAM.html) | [log](logs/ADAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAM) |
+| [ADAMgui](https://bioconductor.org/packages/3.23/bioc/html/ADAMgui.html) | [log](logs/ADAMgui/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAMgui) |
 | [ADAPT](https://bioconductor.org/packages/3.23/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAPT) |
 | [ADImpute](https://bioconductor.org/packages/3.23/bioc/html/ADImpute.html) | [log](logs/ADImpute/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADImpute) |
 | [AIMS](https://bioconductor.org/packages/3.23/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AIMS) |
@@ -44,9 +45,8 @@
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
-| [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1593 more ...*
+*... and 1597 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,8 +98,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (196)
-- ⏳ `ADAMgui`
+## In Progress (192)
 - ⏳ `APL`
 - ⏳ `BEAT`
 - ⏳ `BLMA`
@@ -125,7 +124,6 @@
 - ⏳ `DrugVsDisease`
 - ⏳ `DspikeIn`
 - ⏳ `EDASeq`
-- ⏳ `ExperimentHub`
 - ⏳ `FindIT2`
 - ⏳ `GOTHiC`
 - ⏳ `GOexpress`
@@ -139,7 +137,6 @@
 - ⏳ `IVAS`
 - ⏳ `InterCellar`
 - ⏳ `LACE`
-- ⏳ `MDSvis`
 - ⏳ `MEDIPS`
 - ⏳ `MGFM`
 - ⏳ `MGFR`
@@ -149,8 +146,11 @@
 - ⏳ `MetaboAnnotatoR`
 - ⏳ `Motif2Site`
 - ⏳ `MouseFM`
+- ⏳ `NetSAM`
+- ⏳ `NoRCE`
+- ⏳ `ORFhunteR`
 
-... and 146 more ...
+... and 142 more ...
 
 ## Not Yet Started (529)
 - ⏸️ `ADaCGH2`
@@ -207,5 +207,5 @@
 ... and 479 more ...
 
 ---
-*Last updated: 2026-10-29 15:12:54 UTC*
-*Packages with verified BBS status: 223*
+*Last updated: 2026-10-29 15:22:31 UTC*
+*Packages with verified BBS status: 224*
