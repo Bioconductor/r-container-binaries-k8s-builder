@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1793 (73%)
+- **Successfully Built:** 1795 (73%)
 - **Failed:** 9 (0%)
-- **In Progress:** 155
-- **Not Started:** 477
+- **In Progress:** 157
+- **Not Started:** 473
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1793)
+## Successfully Built Packages (1795)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1743 more ...*
+*... and 1745 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (155)
+## In Progress (157)
 - ⏳ `ArrayExpress`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
@@ -108,9 +108,10 @@
 - ⏳ `EpiMix`
 - ⏳ `EpipwR`
 - ⏳ `GA4GHshiny`
+- ⏳ `GARS`
+- ⏳ `GOstats`
 - ⏳ `GSEABenchmarkeR`
 - ⏳ `GenomicPlot`
-- ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
 - ⏳ `ITALICS`
 - ⏳ `IntEREst`
@@ -126,7 +127,6 @@
 - ⏳ `OMICsPCA`
 - ⏳ `PAA`
 - ⏳ `POMA`
-- ⏳ `PROMISE`
 - ⏳ `PROPS`
 - ⏳ `ProteoDisco`
 - ⏳ `QuasR`
@@ -142,9 +142,9 @@
 - ⏳ `SCAN.UPC`
 - ⏳ `SEMPLR`
 
-... and 105 more ...
+... and 107 more ...
 
-## Not Yet Started (477)
+## Not Yet Started (473)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -196,8 +196,8 @@
 - ⏸️ `CytoPipeline`
 - ⏸️ `CytoPipelineGUI`
 
-... and 427 more ...
+... and 423 more ...
 
 ---
-*Last updated: 2026-10-29 10:14:18 UTC*
+*Last updated: 2026-10-29 10:15:17 UTC*
 *Packages with verified BBS status: 237*
