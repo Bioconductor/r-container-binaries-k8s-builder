@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1290 (54%)
+- **Successfully Built:** 1293 (54%)
 - **Failed:** 14 (0%)
-- **In Progress:** 111
+- **In Progress:** 108
 - **Not Started:** 970
 
 **Progress:** 54%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1290)
+## Successfully Built Packages (1293)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1240 more ...*
+*... and 1243 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,10 +95,8 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (111)
+## In Progress (108)
 - ⏳ `AnnotationDbi`
-- ⏳ `Bioc.gff`
-- ⏳ `CNVPanelizer`
 - ⏳ `COTAN`
 - ⏳ `CellMentor`
 - ⏳ `CompensAID`
@@ -106,7 +104,6 @@
 - ⏳ `CytoPipeline`
 - ⏳ `FEAST`
 - ⏳ `FELLA`
-- ⏳ `FilterFFPE`
 - ⏳ `GBScleanR`
 - ⏳ `GDSArray`
 - ⏳ `GeDi`
@@ -146,8 +143,11 @@
 - ⏳ `bcSeq`
 - ⏳ `betterChromVAR`
 - ⏳ `bluster`
+- ⏳ `cigarillo`
+- ⏳ `cleaver`
+- ⏳ `coRdon`
 
-... and 61 more ...
+... and 58 more ...
 
 ## Not Yet Started (970)
 - ⏸️ `ACE`
@@ -204,5 +204,5 @@
 ... and 920 more ...
 
 ---
-*Last updated: 2026-10-29 03:40:40 UTC*
+*Last updated: 2026-10-29 03:41:24 UTC*
 *Packages with verified BBS status: 212*
