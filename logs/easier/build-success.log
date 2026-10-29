@@ -1,0 +1,81 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''easier'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'easier'
+also installing the dependencies ‘easierData’, ‘dorothea’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/easierData_1.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/dorothea_1.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/easier_1.18.0.tar.gz'
+* installing *source* package ‘easierData’ ...
+** this is package ‘easierData’ version ‘1.18.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘easierData’ as ‘easierData_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (easierData)
+* installing *source* package ‘dorothea’ ...
+** this is package ‘dorothea’ version ‘1.23.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dorothea’ as ‘dorothea_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dorothea)
+* installing *source* package ‘easier’ ...
+** this is package ‘easier’ version ‘1.18.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘easier’ as ‘easier_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (easier)
+
+The downloaded source packages are in
+	‘/tmp/RtmpAzv4b8/downloaded_packages’
+Old packages: 'enrichit', 'gargle', 'glmnet', 'gridpattern', 'insight',
+  'poorman', 'curl', 'diffobj', 'gert', 'knitr', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'nlme',
+  'survival'
+
+real	1m31.964s
+user	1m21.098s
+sys	0m9.464s
