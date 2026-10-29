@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1852 (76%)
+- **Successfully Built:** 1853 (76%)
 - **Failed:** 9 (0%)
-- **In Progress:** 116
+- **In Progress:** 115
 - **Not Started:** 457
 
 **Progress:** 76%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1852)
+## Successfully Built Packages (1853)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1802 more ...*
+*... and 1803 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (116)
+## In Progress (115)
 - ⏳ `ArrayExpress`
 - ⏳ `CCPROMISE`
 - ⏳ `CTexploreR`
@@ -108,7 +108,6 @@
 - ⏳ `HarmonizR`
 - ⏳ `ITALICS`
 - ⏳ `IntEREst`
-- ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MetaboSignal`
@@ -141,8 +140,9 @@
 - ⏳ `VariantTools`
 - ⏳ `XDE`
 - ⏳ `ZygosityPredictor`
+- ⏳ `airpart`
 
-... and 66 more ...
+... and 65 more ...
 
 ## Not Yet Started (457)
 - ⏸️ `ADAPT`
@@ -199,5 +199,5 @@
 ... and 407 more ...
 
 ---
-*Last updated: 2026-10-29 13:30:20 UTC*
+*Last updated: 2026-10-29 13:31:49 UTC*
 *Packages with verified BBS status: 239*
