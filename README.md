@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1085 (45%)
+- **Successfully Built:** 1098 (46%)
 - **Failed:** 13 (0%)
-- **In Progress:** 114
+- **In Progress:** 101
 - **Not Started:** 1173
 
 **Progress:** 46%
@@ -16,7 +16,7 @@
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1085)
+## Successfully Built Packages (1098)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 
-*... and 1035 more ...*
+*... and 1048 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,21 +94,14 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (114)
+## In Progress (101)
 - ⏳ `AffiXcan`
-- ⏳ `AnnotationFilter`
-- ⏳ `BREW3R.r`
-- ⏳ `BiFET`
 - ⏳ `BiocNeighbors`
 - ⏳ `BiocSingular`
-- ⏳ `Biostrings`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
-- ⏳ `CCPlotR`
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
-- ⏳ `Chromatograms`
-- ⏳ `ClustAll`
 - ⏳ `ClusterGVis`
 - ⏳ `CoreGx`
 - ⏳ `CyTOFpower`
@@ -117,8 +110,6 @@
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
 - ⏳ `ERSSA`
-- ⏳ `GenomeInfoDb`
-- ⏳ `GeoTcgaData`
 - ⏳ `Glimma`
 - ⏳ `HDF5Array`
 - ⏳ `HTSFilter`
@@ -145,8 +136,17 @@
 - ⏳ `SpatialArtifacts`
 - ⏳ `SplineDV`
 - ⏳ `SpotClean`
+- ⏳ `TCC`
+- ⏳ `TDbasedUFEadv`
+- ⏳ `TPP`
+- ⏳ `TSCAN`
+- ⏳ `animalcules`
+- ⏳ `anota2seq`
+- ⏳ `autonomics`
+- ⏳ `beachmat.tiledb`
+- ⏳ `beer`
 
-... and 64 more ...
+... and 51 more ...
 
 ## Not Yet Started (1173)
 - ⏸️ `ACE`
@@ -203,5 +203,5 @@
 ... and 1123 more ...
 
 ---
-*Last updated: 2026-10-29 00:25:45 UTC*
+*Last updated: 2026-10-29 00:51:01 UTC*
 *Packages with verified BBS status: 207*
