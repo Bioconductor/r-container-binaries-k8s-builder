@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1782 (73%)
+- **Successfully Built:** 1784 (73%)
 - **Failed:** 9 (0%)
-- **In Progress:** 159
+- **In Progress:** 157
 - **Not Started:** 484
 
 **Progress:** 73%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1782)
+## Successfully Built Packages (1784)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1732 more ...*
+*... and 1734 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (159)
+## In Progress (157)
 - ⏳ `AGDEX`
 - ⏳ `AUCell`
 - ⏳ `ArrayExpress`
@@ -117,11 +117,9 @@
 - ⏳ `GA4GHshiny`
 - ⏳ `GSEABenchmarkeR`
 - ⏳ `GSRI`
-- ⏳ `GenomicFiles`
 - ⏳ `GenomicPlot`
 - ⏳ `GlobalAncova`
 - ⏳ `HarmonizR`
-- ⏳ `HelloRanges`
 - ⏳ `ITALICS`
 - ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `LRcell`
@@ -141,8 +139,10 @@
 - ⏳ `R453Plus1Toolbox`
 - ⏳ `RAIDS`
 - ⏳ `REDseq`
+- ⏳ `RFGeneRank`
+- ⏳ `RTCGAToolbox`
 
-... and 109 more ...
+... and 107 more ...
 
 ## Not Yet Started (484)
 - ⏸️ `ADAPT`
@@ -199,5 +199,5 @@
 ... and 434 more ...
 
 ---
-*Last updated: 2026-10-29 09:31:09 UTC*
+*Last updated: 2026-10-29 09:40:00 UTC*
 *Packages with verified BBS status: 236*
