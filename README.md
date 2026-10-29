@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1329 (55%)
+- **Successfully Built:** 1330 (55%)
 - **Failed:** 14 (0%)
-- **In Progress:** 89
-- **Not Started:** 953
+- **In Progress:** 102
+- **Not Started:** 939
 
 **Progress:** 56%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1329)
+## Successfully Built Packages (1330)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1279 more ...*
+*... and 1280 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,8 +95,9 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (89)
+## In Progress (102)
 - ⏳ `ACE`
+- ⏳ `ADAPT`
 - ⏳ `AnnotationDbi`
 - ⏳ `CNVRanger`
 - ⏳ `COTAN`
@@ -106,6 +107,7 @@
 - ⏳ `CytoPipeline`
 - ⏳ `FEAST`
 - ⏳ `FELLA`
+- ⏳ `FinfoMDS`
 - ⏳ `GeDi`
 - ⏳ `GeneBreak`
 - ⏳ `GenomicAlignments`
@@ -119,14 +121,21 @@
 - ⏳ `MetaboDynamics`
 - ⏳ `NewWave`
 - ⏳ `PCAtools`
+- ⏳ `PathoStat`
 - ⏳ `PharmacoGx`
+- ⏳ `RCM`
 - ⏳ `ROntoTools`
+- ⏳ `RPA`
 - ⏳ `RadioGx`
 - ⏳ `ReactomeGSA`
 - ⏳ `SCArray`
+- ⏳ `SIAMCAT`
+- ⏳ `SPsimSeq`
 - ⏳ `SVP`
 - ⏳ `Seqtometry`
+- ⏳ `SimBu`
 - ⏳ `SpectralTAD`
+- ⏳ `SpiecEasi`
 - ⏳ `SpotSweeper`
 - ⏳ `StabMap`
 - ⏳ `Statial`
@@ -137,22 +146,12 @@
 - ⏳ `VariantExperiment`
 - ⏳ `affyILM`
 - ⏳ `affyPLM`
-- ⏳ `alabaster.sfe`
-- ⏳ `batchelor`
-- ⏳ `bluster`
-- ⏳ `cfdnakit`
-- ⏳ `cogena`
-- ⏳ `cydar`
-- ⏳ `flowGate`
-- ⏳ `flowVS`
-- ⏳ `gDRcore`
 
-... and 39 more ...
+... and 52 more ...
 
-## Not Yet Started (953)
+## Not Yet Started (939)
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
-- ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
@@ -200,9 +199,10 @@
 - ⏸️ `BioNet`
 - ⏸️ `BioTIP`
 - ⏸️ `BiocHubsShiny`
+- ⏸️ `BiocSet`
 
-... and 903 more ...
+... and 889 more ...
 
 ---
-*Last updated: 2026-10-29 04:01:48 UTC*
+*Last updated: 2026-10-29 04:02:54 UTC*
 *Packages with verified BBS status: 212*
