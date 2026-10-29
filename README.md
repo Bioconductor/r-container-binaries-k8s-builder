@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1431 (58%)
-- **Failed:** 8 (0%)
-- **In Progress:** 122
-- **Not Started:** 873
+- **Successfully Built:** 1435 (58%)
+- **Failed:** 9 (0%)
+- **In Progress:** 149
+- **Not Started:** 841
 
 **Progress:** 59%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1431)
+## Successfully Built Packages (1435)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1381 more ...*
+*... and 1385 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,11 +76,12 @@
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
 
-## Failed Packages (8)
+## Failed Packages (9)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [BulkSignalR](https://bioconductor.org/packages/3.24/bioc/html/BulkSignalR.html) | [log](logs/BulkSignalR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BulkSignalR) | Build failed with unknown error |
+| [HiTC](https://bioconductor.org/packages/3.24/bioc/html/HiTC.html) | [log](logs/HiTC/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HiTC) | Error: unable to load R code in package ‘HiTC’ |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [Rhdf5lib](https://bioconductor.org/packages/3.24/bioc/html/Rhdf5lib.html) | [log](logs/Rhdf5lib/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Rhdf5lib) | -- Looking for WSAStartup in ws2_32;m;dl - not found |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
@@ -89,24 +90,31 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (122)
+## In Progress (149)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
+- ⏳ `BEAT`
+- ⏳ `BSgenomeForge`
+- ⏳ `Basic4Cseq`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
+- ⏳ `CODEX`
 - ⏳ `CellMixS`
+- ⏳ `ChIPanalyser`
 - ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
 - ⏳ `CrispRVariants`
+- ⏳ `DMRcaller`
 - ⏳ `EMMA`
 - ⏳ `GOSemSim`
+- ⏳ `GOTHiC`
 - ⏳ `GOfan`
 - ⏳ `GOpro`
 - ⏳ `GenomicFeatures`
 - ⏳ `GeoDiff`
-- ⏳ `HiTC`
+- ⏳ `GreyListChIP`
 - ⏳ `ITALICS`
 - ⏳ `KEGGlincs`
 - ⏳ `LRBaseDbi`
@@ -116,34 +124,27 @@
 - ⏳ `MCbiclust`
 - ⏳ `MEB`
 - ⏳ `MLP`
+- ⏳ `MMDiff2`
 - ⏳ `MeSHDbi`
 - ⏳ `MesKit`
 - ⏳ `MiRaGE`
-- ⏳ `MotifDb`
+- ⏳ `Motif2Site`
+- ⏳ `MotifPeeker`
+- ⏳ `ORFhunteR`
 - ⏳ `PADOG`
-- ⏳ `PAST`
-- ⏳ `PMScanR`
 - ⏳ `PinPath`
-- ⏳ `PostChicago`
 - ⏳ `RBPEqBind`
+- ⏳ `RBPSpecificity`
 - ⏳ `SCANVIS`
+- ⏳ `SCOPE`
 - ⏳ `SMTrackR`
+- ⏳ `SparseSignatures`
 - ⏳ `SpatialDecon`
 - ⏳ `SpatialOmicsOverlay`
-- ⏳ `SubCellBarCode`
-- ⏳ `UniProt.ws`
-- ⏳ `VAExprs`
-- ⏳ `Xeva`
-- ⏳ `adSplit`
-- ⏳ `affylmGUI`
-- ⏳ `airpart`
-- ⏳ `annaffy`
-- ⏳ `annotate`
-- ⏳ `apComplex`
 
-... and 72 more ...
+... and 99 more ...
 
-## Not Yet Started (873)
+## Not Yet Started (841)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -162,14 +163,11 @@
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Basic4Cseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchVaria`
@@ -194,9 +192,12 @@
 - ⏸️ `CCPROMISE`
 - ⏸️ `CEMiTool`
 - ⏸️ `CHRONOS`
+- ⏸️ `CMEnt`
+- ⏸️ `CNEr`
+- ⏸️ `CNTools`
 
-... and 823 more ...
+... and 791 more ...
 
 ---
-*Last updated: 2026-10-29 04:59:12 UTC*
-*Packages with verified BBS status: 224*
+*Last updated: 2026-10-29 05:00:44 UTC*
+*Packages with verified BBS status: 225*
