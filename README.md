@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1810 (75%)
+- **Successfully Built:** 1811 (75%)
 - **Failed:** 20 (0%)
 - **In Progress:** 162
-- **Not Started:** 393
+- **Not Started:** 392
 
 **Progress:** 76%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1810)
+## Successfully Built Packages (1811)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1760 more ...*
+*... and 1761 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -132,7 +132,6 @@
 - ⏳ `GSVA`
 - ⏳ `GeneMeta`
 - ⏳ `GlobalAncova`
-- ⏳ `INSPEcT`
 - ⏳ `IPO`
 - ⏳ `IVAS`
 - ⏳ `LOBSTAHS`
@@ -152,10 +151,11 @@
 - ⏳ `PECA`
 - ⏳ `PROMISE`
 - ⏳ `RUVSeq`
+- ⏳ `ReactomePA`
 
 ... and 112 more ...
 
-## Not Yet Started (393)
+## Not Yet Started (392)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -207,8 +207,8 @@
 - ⏸️ `DegCre`
 - ⏸️ `DominoEffect`
 
-... and 343 more ...
+... and 342 more ...
 
 ---
-*Last updated: 2026-10-29 18:18:34 UTC*
+*Last updated: 2026-10-29 18:19:34 UTC*
 *Packages with verified BBS status: 232*
