@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1865 (76%)
+- **Successfully Built:** 1866 (76%)
 - **Failed:** 9 (0%)
 - **In Progress:** 105
-- **Not Started:** 455
+- **Not Started:** 454
 
-**Progress:** 76%
+**Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1865)
+## Successfully Built Packages (1866)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.24/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASURAT) |
 | [ATACseqTFEA](https://bioconductor.org/packages/3.24/bioc/html/ATACseqTFEA.html) | [log](logs/ATACseqTFEA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ATACseqTFEA) |
 
-*... and 1815 more ...*
+*... and 1816 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -112,9 +112,9 @@
 - ⏳ `PAA`
 - ⏳ `POMA`
 - ⏳ `PROPS`
-- ⏳ `ProteoDisco`
 - ⏳ `R453Plus1Toolbox`
 - ⏳ `RAIDS`
+- ⏳ `RESOLVE`
 - ⏳ `RFGeneRank`
 - ⏳ `ReactomePA`
 - ⏳ `SCAN.UPC`
@@ -144,7 +144,7 @@
 
 ... and 55 more ...
 
-## Not Yet Started (455)
+## Not Yet Started (454)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -196,8 +196,8 @@
 - ⏸️ `DMRcate`
 - ⏸️ `DOtools`
 
-... and 405 more ...
+... and 404 more ...
 
 ---
-*Last updated: 2026-10-29 13:45:00 UTC*
+*Last updated: 2026-10-29 13:46:20 UTC*
 *Packages with verified BBS status: 239*
