@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1636 (67%)
+- **Successfully Built:** 1637 (67%)
 - **Failed:** 9 (0%)
 - **In Progress:** 178
-- **Not Started:** 611
+- **Not Started:** 610
 
 **Progress:** 67%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1636)
+## Successfully Built Packages (1637)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1586 more ...*
+*... and 1587 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [uSORT](https://bioconductor.org/packages/3.24/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/uSORT) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [universalmotif](https://bioconductor.org/packages/3.24/bioc/html/universalmotif.html) | [log](logs/universalmotif/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/universalmotif) |
 | [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
@@ -63,6 +62,7 @@
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
+| [wavClusteR](https://bioconductor.org/packages/3.24/bioc/html/wavClusteR.html) | [log](logs/wavClusteR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavClusteR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [weitrix](https://bioconductor.org/packages/3.24/bioc/html/weitrix.html) | [log](logs/weitrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weitrix) |
@@ -138,13 +138,13 @@
 - ⏳ `MEDIPS`
 - ⏳ `MGFM`
 - ⏳ `MGFR`
+- ⏳ `MetaPathNet`
 - ⏳ `MetaboAnnotation`
 - ⏳ `MouseFM`
-- ⏳ `NetSAM`
 
 ... and 128 more ...
 
-## Not Yet Started (611)
+## Not Yet Started (610)
 - ⏸️ `ADAPT`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -196,8 +196,8 @@
 - ⏸️ `CiteFuse`
 - ⏸️ `CleanUpRNAseq`
 
-... and 561 more ...
+... and 560 more ...
 
 ---
-*Last updated: 2026-10-29 06:43:10 UTC*
-*Packages with verified BBS status: 229*
+*Last updated: 2026-10-29 06:44:30 UTC*
+*Packages with verified BBS status: 230*
