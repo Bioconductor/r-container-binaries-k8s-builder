@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1427 (59%)
+- **Successfully Built:** 1428 (59%)
 - **Failed:** 14 (0%)
 - **In Progress:** 144
-- **Not Started:** 800
+- **Not Started:** 799
 
 **Progress:** 60%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1427)
+## Successfully Built Packages (1428)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1377 more ...*
+*... and 1378 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -127,7 +127,6 @@
 - ⏳ `LiquidAssociation`
 - ⏳ `M3Drop`
 - ⏳ `MCbiclust`
-- ⏳ `MDTS`
 - ⏳ `MEB`
 - ⏳ `MLP`
 - ⏳ `MSA2dist`
@@ -140,6 +139,7 @@
 - ⏳ `PICB`
 - ⏳ `PathoStat`
 - ⏳ `PrInCE`
+- ⏳ `Prostar`
 - ⏳ `QSutils`
 - ⏳ `RCM`
 - ⏳ `RMassBank`
@@ -149,7 +149,7 @@
 
 ... and 94 more ...
 
-## Not Yet Started (800)
+## Not Yet Started (799)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -201,8 +201,8 @@
 - ⏸️ `CEMiTool`
 - ⏸️ `CHRONOS`
 
-... and 750 more ...
+... and 749 more ...
 
 ---
-*Last updated: 2026-10-29 07:35:20 UTC*
+*Last updated: 2026-10-29 07:36:53 UTC*
 *Packages with verified BBS status: 217*
