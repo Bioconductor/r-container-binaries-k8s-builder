@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1403 (57%)
+- **Successfully Built:** 1407 (57%)
 - **Failed:** 8 (0%)
-- **In Progress:** 148
+- **In Progress:** 144
 - **Not Started:** 875
 
-**Progress:** 57%
+**Progress:** 58%
 ```
-████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
+█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1403)
+## Successfully Built Packages (1407)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1353 more ...*
+*... and 1357 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (148)
+## In Progress (144)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -118,7 +118,6 @@
 - ⏳ `GeoDiff`
 - ⏳ `HiTC`
 - ⏳ `ITALICS`
-- ⏳ `Ibex`
 - ⏳ `IdeoViz`
 - ⏳ `InTAD`
 - ⏳ `KEGGlincs`
@@ -138,10 +137,11 @@
 - ⏳ `PAST`
 - ⏳ `PMScanR`
 - ⏳ `PSMatch`
-- ⏳ `PharmacoGx`
 - ⏳ `PinPath`
+- ⏳ `PostChicago`
+- ⏳ `QFeaturesGUI`
 
-... and 98 more ...
+... and 94 more ...
 
 ## Not Yet Started (875)
 - ⏸️ `ADAMgui`
@@ -198,5 +198,5 @@
 ... and 825 more ...
 
 ---
-*Last updated: 2026-10-29 04:44:29 UTC*
+*Last updated: 2026-10-29 04:46:02 UTC*
 *Packages with verified BBS status: 224*
