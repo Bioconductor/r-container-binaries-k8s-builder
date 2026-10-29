@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1165 (48%)
+- **Successfully Built:** 1166 (48%)
 - **Failed:** 13 (0%)
 - **In Progress:** 150
-- **Not Started:** 1057
+- **Not Started:** 1056
 
 **Progress:** 49%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1165)
+## Successfully Built Packages (1166)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 1115 more ...*
+*... and 1116 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -148,7 +148,7 @@
 
 ... and 100 more ...
 
-## Not Yet Started (1057)
+## Not Yet Started (1056)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -200,8 +200,8 @@
 - ⏸️ `BioNAR`
 - ⏸️ `BioNERO`
 
-... and 1007 more ...
+... and 1006 more ...
 
 ---
-*Last updated: 2026-10-29 02:49:39 UTC*
+*Last updated: 2026-10-29 02:51:10 UTC*
 *Packages with verified BBS status: 210*
