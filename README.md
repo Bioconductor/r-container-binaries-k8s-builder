@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1674 (68%)
+- **Successfully Built:** 1676 (68%)
 - **Failed:** 9 (0%)
-- **In Progress:** 151
-- **Not Started:** 600
+- **In Progress:** 150
+- **Not Started:** 599
 
 **Progress:** 69%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1674)
+## Successfully Built Packages (1676)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1624 more ...*
+*... and 1626 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (151)
+## In Progress (150)
 - ⏳ `ADAMgui`
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
@@ -117,6 +117,7 @@
 - ⏳ `DeMixT`
 - ⏳ `DegNorm`
 - ⏳ `ELViS`
+- ⏳ `EnrichmentBrowser`
 - ⏳ `EpiTxDb`
 - ⏳ `ExperimentHub`
 - ⏳ `FindIT2`
@@ -140,11 +141,10 @@
 - ⏳ `POMA`
 - ⏳ `PROMISE`
 - ⏳ `PROPS`
-- ⏳ `RFGeneRank`
 
-... and 101 more ...
+... and 100 more ...
 
-## Not Yet Started (600)
+## Not Yet Started (599)
 - ⏸️ `ADAPT`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -196,8 +196,8 @@
 - ⏸️ `CiteFuse`
 - ⏸️ `CleanUpRNAseq`
 
-... and 550 more ...
+... and 549 more ...
 
 ---
-*Last updated: 2026-10-29 07:02:01 UTC*
+*Last updated: 2026-10-29 07:03:18 UTC*
 *Packages with verified BBS status: 230*
