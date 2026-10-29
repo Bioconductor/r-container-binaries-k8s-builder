@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1540 (63%)
+- **Successfully Built:** 1542 (63%)
 - **Failed:** 9 (0%)
 - **In Progress:** 122
-- **Not Started:** 763
+- **Not Started:** 761
 
 **Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1540)
+## Successfully Built Packages (1542)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1490 more ...*
+*... and 1492 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -127,8 +127,6 @@
 - ⏳ `VAExprs`
 - ⏳ `VariantAnnotation`
 - ⏳ `Xeva`
-- ⏳ `adSplit`
-- ⏳ `affylmGUI`
 - ⏳ `airpart`
 - ⏳ `annaffy`
 - ⏳ `annotate`
@@ -141,10 +139,12 @@
 - ⏳ `biomaRt`
 - ⏳ `blase`
 - ⏳ `bumphunter`
+- ⏳ `cfDNAPro`
+- ⏳ `chipenrich`
 
 ... and 72 more ...
 
-## Not Yet Started (763)
+## Not Yet Started (761)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -196,8 +196,8 @@
 - ⏸️ `COCOA`
 - ⏸️ `CONCERTDR`
 
-... and 713 more ...
+... and 711 more ...
 
 ---
-*Last updated: 2026-10-29 06:06:03 UTC*
+*Last updated: 2026-10-29 06:06:55 UTC*
 *Packages with verified BBS status: 228*
