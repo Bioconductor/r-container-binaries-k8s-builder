@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1326 (54%)
+- **Successfully Built:** 1327 (54%)
 - **Failed:** 8 (0%)
-- **In Progress:** 74
+- **In Progress:** 73
 - **Not Started:** 1026
 
 **Progress:** 54%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1326)
+## Successfully Built Packages (1327)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1276 more ...*
+*... and 1277 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (74)
+## In Progress (73)
 - ⏳ `AnnotationDbi`
 - ⏳ `BatchSVG`
 - ⏳ `CNVRanger`
@@ -114,7 +114,6 @@
 - ⏳ `RTNsurvival`
 - ⏳ `RadioGx`
 - ⏳ `SanityR`
-- ⏳ `ShortRead`
 - ⏳ `SpatialArtifacts`
 - ⏳ `SpatialData.data`
 - ⏳ `SpatialData.plot`
@@ -140,8 +139,9 @@
 - ⏳ `motifTestR`
 - ⏳ `msa`
 - ⏳ `mspms`
+- ⏳ `msqrob2`
 
-... and 24 more ...
+... and 23 more ...
 
 ## Not Yet Started (1026)
 - ⏸️ `ADAM`
@@ -198,5 +198,5 @@
 ... and 976 more ...
 
 ---
-*Last updated: 2026-10-29 01:59:31 UTC*
+*Last updated: 2026-10-29 02:00:06 UTC*
 *Packages with verified BBS status: 223*
