@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1468 (61%)
+- **Successfully Built:** 1474 (61%)
 - **Failed:** 15 (0%)
-- **In Progress:** 240
-- **Not Started:** 662
+- **In Progress:** 235
+- **Not Started:** 661
 
 **Progress:** 62%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1468)
+## Successfully Built Packages (1474)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1418 more ...*
+*... and 1424 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,7 +96,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (240)
+## In Progress (235)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
@@ -128,6 +128,7 @@
 - ⏳ `CytoPipelineGUI`
 - ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
+- ⏳ `DspikeIn`
 - ⏳ `FastqCleaner`
 - ⏳ `FindIT2`
 - ⏳ `GOSemSim`
@@ -146,11 +147,10 @@
 - ⏳ `IONiseR`
 - ⏳ `ITALICS`
 - ⏳ `IVAS`
-- ⏳ `Ibex`
 
-... and 190 more ...
+... and 185 more ...
 
-## Not Yet Started (662)
+## Not Yet Started (661)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -202,8 +202,8 @@
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 
-... and 612 more ...
+... and 611 more ...
 
 ---
-*Last updated: 2026-10-29 08:05:07 UTC*
+*Last updated: 2026-10-29 08:07:20 UTC*
 *Packages with verified BBS status: 220*
