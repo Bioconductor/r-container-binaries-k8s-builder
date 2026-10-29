@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1413 (59%)
+- **Successfully Built:** 1419 (59%)
 - **Failed:** 14 (0%)
-- **In Progress:** 131
-- **Not Started:** 827
+- **In Progress:** 149
+- **Not Started:** 803
 
-**Progress:** 59%
+**Progress:** 60%
 ```
-█████████████████████████████░░░░░░░░░░░░░░░░░░░░░
+██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1413)
+## Successfully Built Packages (1419)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.23/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 
-*... and 1363 more ...*
+*... and 1369 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,12 +95,15 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (131)
+## In Progress (149)
 - ⏳ `ADAM`
 - ⏳ `ADAPT`
+- ⏳ `Aerith`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
+- ⏳ `BaalChIP`
+- ⏳ `BasicSTARRseq`
 - ⏳ `BatchSVG`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
@@ -108,10 +111,13 @@
 - ⏳ `CATALYST`
 - ⏳ `CellMixS`
 - ⏳ `CelliD`
+- ⏳ `CluMSID`
 - ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
+- ⏳ `CrispRVariants`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
+- ⏳ `DAPAR`
 - ⏳ `FinfoMDS`
 - ⏳ `GOSemSim`
 - ⏳ `GOfan`
@@ -127,29 +133,23 @@
 - ⏳ `LymphoSeq`
 - ⏳ `M3Drop`
 - ⏳ `MCbiclust`
+- ⏳ `MDTS`
 - ⏳ `MEB`
 - ⏳ `MLP`
 - ⏳ `MSA2dist`
+- ⏳ `MSstatsQC`
 - ⏳ `MeSHDbi`
 - ⏳ `MesKit`
 - ⏳ `MethTargetedNGS`
 - ⏳ `MiRaGE`
 - ⏳ `PADOG`
+- ⏳ `PICB`
 - ⏳ `PathoStat`
-- ⏳ `QSutils`
-- ⏳ `RCM`
-- ⏳ `RPA`
-- ⏳ `SIAMCAT`
-- ⏳ `SPsimSeq`
-- ⏳ `SimBu`
-- ⏳ `SpaceTrooper`
-- ⏳ `SpatialDecon`
-- ⏳ `SpatialOmicsOverlay`
-- ⏳ `SpiecEasi`
+- ⏳ `PrInCE`
 
-... and 81 more ...
+... and 99 more ...
 
-## Not Yet Started (827)
+## Not Yet Started (803)
 - ⏸️ `ADAMgui`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -162,7 +162,6 @@
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
 - ⏸️ `AUCell`
-- ⏸️ `Aerith`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
@@ -176,10 +175,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Basic4Cseq`
-- ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BayesSpace`
@@ -200,9 +197,12 @@
 - ⏸️ `CBN2Path`
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
+- ⏸️ `CCPROMISE`
+- ⏸️ `CEMiTool`
+- ⏸️ `CHRONOS`
 
-... and 777 more ...
+... and 753 more ...
 
 ---
-*Last updated: 2026-10-29 07:26:57 UTC*
+*Last updated: 2026-10-29 07:29:14 UTC*
 *Packages with verified BBS status: 215*
