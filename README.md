@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1102 (46%)
+- **Successfully Built:** 1103 (46%)
 - **Failed:** 13 (0%)
-- **In Progress:** 169
-- **Not Started:** 1101
+- **In Progress:** 187
+- **Not Started:** 1082
 
 **Progress:** 46%
 ```
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1102)
+## Successfully Built Packages (1103)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 
-*... and 1052 more ...*
+*... and 1053 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (169)
+## In Progress (187)
 - ⏳ `AffiXcan`
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
@@ -102,6 +102,7 @@
 - ⏳ `Banksy`
 - ⏳ `BulkSignalR`
 - ⏳ `CARDspa`
+- ⏳ `COTAN`
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
 - ⏳ `ClusterGVis`
@@ -115,6 +116,7 @@
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
 - ⏳ `ERSSA`
+- ⏳ `GeDi`
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomAutomorphism`
 - ⏳ `GenomicDistributions`
@@ -141,14 +143,12 @@
 - ⏳ `MultimodalExperiment`
 - ⏳ `NanoStringNCTools`
 - ⏳ `NetActivity`
-- ⏳ `PWMEnrich`
-- ⏳ `PhyloProfile`
-- ⏳ `QFeatures`
-- ⏳ `R4RNA`
+- ⏳ `NewWave`
+- ⏳ `PCAtools`
 
-... and 119 more ...
+... and 137 more ...
 
-## Not Yet Started (1101)
+## Not Yet Started (1082)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -200,8 +200,8 @@
 - ⏸️ `BioCor`
 - ⏸️ `BioNAR`
 
-... and 1051 more ...
+... and 1032 more ...
 
 ---
-*Last updated: 2026-10-29 02:18:25 UTC*
+*Last updated: 2026-10-29 02:20:08 UTC*
 *Packages with verified BBS status: 207*
