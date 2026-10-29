@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1311 (53%)
+- **Successfully Built:** 1313 (53%)
 - **Failed:** 8 (0%)
-- **In Progress:** 89
+- **In Progress:** 87
 - **Not Started:** 1026
 
 **Progress:** 54%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1311)
+## Successfully Built Packages (1313)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 
-*... and 1261 more ...*
+*... and 1263 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (89)
+## In Progress (87)
 - ⏳ `ACE`
 - ⏳ `AnnotationDbi`
 - ⏳ `BaalChIP`
@@ -133,15 +133,15 @@
 - ⏳ `VariantExperiment`
 - ⏳ `VplotR`
 - ⏳ `batchelor`
-- ⏳ `biosigner`
 - ⏳ `breakpointR`
 - ⏳ `cfdnakit`
 - ⏳ `crlmm`
 - ⏳ `csaw`
 - ⏳ `gDRcore`
 - ⏳ `gDRimport`
+- ⏳ `hammers`
 
-... and 39 more ...
+... and 37 more ...
 
 ## Not Yet Started (1026)
 - ⏸️ `ADAM`
@@ -198,5 +198,5 @@
 ... and 976 more ...
 
 ---
-*Last updated: 2026-10-29 01:53:52 UTC*
+*Last updated: 2026-10-29 01:54:52 UTC*
 *Packages with verified BBS status: 222*
