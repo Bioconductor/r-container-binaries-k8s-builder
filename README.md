@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1837 (77%)
+- **Successfully Built:** 1838 (77%)
 - **Failed:** 20 (0%)
 - **In Progress:** 214
-- **Not Started:** 314
+- **Not Started:** 313
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1837)
+## Successfully Built Packages (1838)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1787 more ...*
+*... and 1788 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -155,7 +155,7 @@
 
 ... and 164 more ...
 
-## Not Yet Started (314)
+## Not Yet Started (313)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `ASSIGN`
@@ -207,8 +207,8 @@
 - ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 
-... and 264 more ...
+... and 263 more ...
 
 ---
-*Last updated: 2026-10-29 18:53:41 UTC*
+*Last updated: 2026-10-29 18:54:52 UTC*
 *Packages with verified BBS status: 232*
