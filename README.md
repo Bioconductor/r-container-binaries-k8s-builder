@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1031 (43%)
+- **Successfully Built:** 1035 (43%)
 - **Failed:** 13 (0%)
-- **In Progress:** 137
+- **In Progress:** 133
 - **Not Started:** 1204
 
 **Progress:** 43%
@@ -16,7 +16,7 @@
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1031)
+## Successfully Built Packages (1035)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 
-*... and 981 more ...*
+*... and 985 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (137)
+## In Progress (133)
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
@@ -112,13 +112,9 @@
 - ⏳ `ClusterGVis`
 - ⏳ `CoreGx`
 - ⏳ `CyTOFpower`
-- ⏳ `DESeq2`
 - ⏳ `DESpace`
 - ⏳ `DenoIST`
-- ⏳ `DiscoRhythm`
-- ⏳ `Dune`
 - ⏳ `EDIRquery`
-- ⏳ `ExpoRiskR`
 - ⏳ `ExpressionAtlas`
 - ⏳ `FeatSeekR`
 - ⏳ `FuseSOM`
@@ -145,8 +141,12 @@
 - ⏳ `PIPETS`
 - ⏳ `PeacoQC`
 - ⏳ `Qtlizer`
+- ⏳ `RTNduals`
+- ⏳ `SEraster`
+- ⏳ `SPIAT`
+- ⏳ `SanityR`
 
-... and 87 more ...
+... and 83 more ...
 
 ## Not Yet Started (1204)
 - ⏸️ `ACE`
@@ -203,5 +203,5 @@
 ... and 1154 more ...
 
 ---
-*Last updated: 2026-10-28 23:59:28 UTC*
+*Last updated: 2026-10-29 00:00:50 UTC*
 *Packages with verified BBS status: 206*
