@@ -8,8 +8,8 @@
 - **Total Packages:** 2434
 - **Successfully Built:** 1943 (79%)
 - **Failed:** 10 (0%)
-- **In Progress:** 51
-- **Not Started:** 430
+- **In Progress:** 53
+- **Not Started:** 428
 
 **Progress:** 80%
 ```
@@ -91,8 +91,9 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (51)
+## In Progress (53)
 - ⏳ `CTexploreR`
+- ⏳ `ChIPXpress`
 - ⏳ `ChIPexoQual`
 - ⏳ `ChIPseeker`
 - ⏳ `CircSeqAlignTk`
@@ -113,6 +114,7 @@
 - ⏳ `chevreulPlot`
 - ⏳ `circRNAprofiler`
 - ⏳ `clusterProfiler`
+- ⏳ `condiments`
 - ⏳ `crisprDesign`
 - ⏳ `csaw`
 - ⏳ `cypress`
@@ -140,12 +142,10 @@
 - ⏳ `scMerge`
 - ⏳ `shinyDSP`
 - ⏳ `svaNUMT`
-- ⏳ `svaRetro`
-- ⏳ `transmogR`
 
-... and 1 more ...
+... and 3 more ...
 
-## Not Yet Started (430)
+## Not Yet Started (428)
 - ⏸️ `ADAPT`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -176,7 +176,6 @@
 - ⏸️ `CeTF`
 - ⏸️ `Cepo`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPXpress`
 - ⏸️ `CiteFuse`
 - ⏸️ `CluMSID`
 - ⏸️ `CoGAPS`
@@ -196,9 +195,10 @@
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
 - ⏸️ `Damsel`
+- ⏸️ `DegCre`
 
-... and 380 more ...
+... and 378 more ...
 
 ---
-*Last updated: 2026-10-29 19:39:25 UTC*
+*Last updated: 2026-10-29 19:40:10 UTC*
 *Packages with verified BBS status: 241*
