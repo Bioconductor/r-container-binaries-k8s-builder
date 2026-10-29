@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1386 (56%)
+- **Successfully Built:** 1398 (57%)
 - **Failed:** 8 (0%)
-- **In Progress:** 165
+- **In Progress:** 153
 - **Not Started:** 875
 
 **Progress:** 57%
@@ -16,7 +16,7 @@
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1386)
+## Successfully Built Packages (1398)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1336 more ...*
+*... and 1348 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [twilight](https://bioconductor.org/packages/3.24/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twilight) |
 | [twoddpcr](https://bioconductor.org/packages/3.24/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.24/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tximport) |
 | [uSORT](https://bioconductor.org/packages/3.24/bioc/html/uSORT.html) | [log](logs/uSORT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/uSORT) |
@@ -59,6 +58,7 @@
 | [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.24/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vbmp) |
+| [velociraptor](https://bioconductor.org/packages/3.24/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
@@ -89,31 +89,25 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (165)
+## In Progress (153)
 - ⏳ `ADAM`
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `ArrayExpress`
-- ⏳ `BASiCS`
 - ⏳ `BSgenome`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
-- ⏳ `BioTIP`
-- ⏳ `BiocDuckDB`
 - ⏳ `CellBarcode`
 - ⏳ `CellMixS`
 - ⏳ `ChIPseqR`
 - ⏳ `ChIPsim`
-- ⏳ `ChromSCape`
 - ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
-- ⏳ `Coralysis`
 - ⏳ `CoverageView`
 - ⏳ `CrispRVariants`
 - ⏳ `DMCFB`
 - ⏳ `DMCHMM`
 - ⏳ `DaparToolshed`
-- ⏳ `Dino`
 - ⏳ `EMMA`
 - ⏳ `ExCluster`
 - ⏳ `FastqCleaner`
@@ -135,13 +129,19 @@
 - ⏳ `MCbiclust`
 - ⏳ `MEB`
 - ⏳ `MLP`
-- ⏳ `MOSim`
-- ⏳ `MPAC`
 - ⏳ `MeSHDbi`
 - ⏳ `MesKit`
 - ⏳ `MiRaGE`
+- ⏳ `MotifDb`
+- ⏳ `MsExperiment`
+- ⏳ `PADOG`
+- ⏳ `PAST`
+- ⏳ `PMScanR`
+- ⏳ `PSMatch`
+- ⏳ `PharmacoGx`
+- ⏳ `PinPath`
 
-... and 115 more ...
+... and 103 more ...
 
 ## Not Yet Started (875)
 - ⏸️ `ADAMgui`
@@ -198,5 +198,5 @@
 ... and 825 more ...
 
 ---
-*Last updated: 2026-10-29 04:35:00 UTC*
-*Packages with verified BBS status: 223*
+*Last updated: 2026-10-29 04:39:57 UTC*
+*Packages with verified BBS status: 224*
