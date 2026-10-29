@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1587 (66%)
+- **Successfully Built:** 1588 (66%)
 - **Failed:** 16 (0%)
-- **In Progress:** 236
-- **Not Started:** 546
+- **In Progress:** 244
+- **Not Started:** 537
 
 **Progress:** 67%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1587)
+## Successfully Built Packages (1588)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.23/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaBeta) |
 
-*... and 1537 more ...*
+*... and 1538 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,14 +97,16 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (236)
+## In Progress (244)
 - ⏳ `ADAMgui`
+- ⏳ `APL`
 - ⏳ `ArrayExpress`
 - ⏳ `BASiCStan`
 - ⏳ `BEAT`
 - ⏳ `BLMA`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
+- ⏳ `BgeeDB`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CAMERA`
 - ⏳ `CHRONOS`
@@ -146,18 +148,15 @@
 - ⏳ `IdeoViz`
 - ⏳ `InTAD`
 - ⏳ `InterCellar`
-- ⏳ `LACE`
-- ⏳ `MDSvis`
 
-... and 186 more ...
+... and 194 more ...
 
-## Not Yet Started (546)
+## Not Yet Started (537)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
-- ⏸️ `APL`
 - ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -174,7 +173,6 @@
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BgeeCall`
-- ⏸️ `BgeeDB`
 - ⏸️ `BiSeq`
 - ⏸️ `BicARE`
 - ⏸️ `BioCor`
@@ -202,9 +200,11 @@
 - ⏸️ `Cepo`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
+- ⏸️ `ChIPQC`
+- ⏸️ `ChIPXpress`
 
-... and 496 more ...
+... and 487 more ...
 
 ---
-*Last updated: 2026-10-29 11:25:50 UTC*
+*Last updated: 2026-10-29 11:27:27 UTC*
 *Packages with verified BBS status: 222*
