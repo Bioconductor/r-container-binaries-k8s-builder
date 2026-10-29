@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1676 (68%)
+- **Successfully Built:** 1684 (69%)
 - **Failed:** 9 (0%)
-- **In Progress:** 158
+- **In Progress:** 150
 - **Not Started:** 591
 
 **Progress:** 69%
@@ -16,7 +16,7 @@
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1676)
+## Successfully Built Packages (1684)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -31,6 +31,7 @@
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.24/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANCOMBC) |
 | [ANF](https://bioconductor.org/packages/3.24/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANF) |
+| [APL](https://bioconductor.org/packages/3.24/bioc/html/APL.html) | [log](logs/APL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/APL) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.24/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
@@ -44,9 +45,8 @@
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
-| [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1626 more ...*
+*... and 1634 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,11 +90,10 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (158)
+## In Progress (150)
 - ⏳ `ADAMgui`
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
-- ⏳ `APL`
 - ⏳ `ASSIGN`
 - ⏳ `AUCell`
 - ⏳ `ArrayExpress`
@@ -118,7 +117,6 @@
 - ⏳ `DeMixT`
 - ⏳ `DegNorm`
 - ⏳ `ELViS`
-- ⏳ `EnrichmentBrowser`
 - ⏳ `EpiTxDb`
 - ⏳ `ExperimentHub`
 - ⏳ `FindIT2`
@@ -136,13 +134,15 @@
 - ⏳ `M3Drop`
 - ⏳ `MEB`
 - ⏳ `MetaboAnnotation`
-- ⏳ `OmaDB`
 - ⏳ `OrganismDbi`
 - ⏳ `OutSplice`
 - ⏳ `PAA`
 - ⏳ `POMA`
+- ⏳ `PROMISE`
+- ⏳ `PROPS`
+- ⏳ `RFGeneRank`
 
-... and 108 more ...
+... and 100 more ...
 
 ## Not Yet Started (591)
 - ⏸️ `ADAPT`
@@ -199,5 +199,5 @@
 ... and 541 more ...
 
 ---
-*Last updated: 2026-10-29 07:04:34 UTC*
-*Packages with verified BBS status: 230*
+*Last updated: 2026-10-29 07:13:41 UTC*
+*Packages with verified BBS status: 231*
