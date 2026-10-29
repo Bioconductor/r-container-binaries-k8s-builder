@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1788 (74%)
+- **Successfully Built:** 1789 (75%)
 - **Failed:** 19 (0%)
-- **In Progress:** 177
-- **Not Started:** 401
+- **In Progress:** 181
+- **Not Started:** 396
 
 **Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1788)
+## Successfully Built Packages (1789)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWFisher](https://bioconductor.org/packages/3.23/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWFisher) |
 | [Aerith](https://bioconductor.org/packages/3.23/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Aerith) |
 
-*... and 1738 more ...*
+*... and 1739 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -100,7 +100,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (177)
+## In Progress (181)
 - ⏳ `AGDEX`
 - ⏳ `AUCell`
 - ⏳ `BEAT`
@@ -149,12 +149,12 @@
 - ⏳ `Guitar`
 - ⏳ `HiLDA`
 - ⏳ `INSPEcT`
+- ⏳ `IPO`
 - ⏳ `IVAS`
-- ⏳ `MLInterfaces`
 
-... and 127 more ...
+... and 131 more ...
 
-## Not Yet Started (401)
+## Not Yet Started (396)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
@@ -206,8 +206,8 @@
 - ⏸️ `DegCre`
 - ⏸️ `DiffBind`
 
-... and 351 more ...
+... and 346 more ...
 
 ---
-*Last updated: 2026-10-29 17:54:10 UTC*
+*Last updated: 2026-10-29 17:55:34 UTC*
 *Packages with verified BBS status: 231*
