@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 1647 (69%)
 - **Failed:** 17 (0%)
-- **In Progress:** 192
-- **Not Started:** 529
+- **In Progress:** 220
+- **Not Started:** 501
 
 **Progress:** 69%
 ```
@@ -98,7 +98,8 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (192)
+## In Progress (220)
+- ⏳ `AMARETTO`
 - ⏳ `APL`
 - ⏳ `BEAT`
 - ⏳ `BLMA`
@@ -106,24 +107,33 @@
 - ⏳ `Basic4Cseq`
 - ⏳ `BgeeDB`
 - ⏳ `BindingSiteFinder`
+- ⏳ `BiocHubsShiny`
+- ⏳ `BloodGen3Module`
 - ⏳ `CAMERA`
 - ⏳ `CHRONOS`
 - ⏳ `CNEr`
 - ⏳ `CODEX`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
+- ⏳ `CTdata`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPXpress`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChromHeatMap`
 - ⏳ `ClustIRR`
+- ⏳ `CoSIA`
 - ⏳ `Cogito`
 - ⏳ `DMRcaller`
 - ⏳ `DNAfusion`
 - ⏳ `DOSE`
+- ⏳ `DeconvoBuddies`
+- ⏳ `DeepTarget`
 - ⏳ `DrugVsDisease`
 - ⏳ `DspikeIn`
 - ⏳ `EDASeq`
+- ⏳ `EWCE`
+- ⏳ `EpiMix`
+- ⏳ `EpipwR`
 - ⏳ `FindIT2`
 - ⏳ `GOTHiC`
 - ⏳ `GOexpress`
@@ -137,26 +147,15 @@
 - ⏳ `IVAS`
 - ⏳ `InterCellar`
 - ⏳ `LACE`
-- ⏳ `MEDIPS`
-- ⏳ `MGFM`
-- ⏳ `MGFR`
-- ⏳ `MMDiff2`
-- ⏳ `MSnID`
-- ⏳ `MetaboAnnotation`
-- ⏳ `MetaboAnnotatoR`
-- ⏳ `Motif2Site`
-- ⏳ `MouseFM`
-- ⏳ `NetSAM`
-- ⏳ `NoRCE`
-- ⏳ `ORFhunteR`
+- ⏳ `LRcell`
+- ⏳ `MACSr`
 
-... and 142 more ...
+... and 170 more ...
 
-## Not Yet Started (529)
+## Not Yet Started (501)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
 - ⏸️ `AHMassBank`
-- ⏸️ `AMARETTO`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASSIGN`
 - ⏸️ `ASpli`
@@ -178,8 +177,6 @@
 - ⏸️ `BicARE`
 - ⏸️ `BioCor`
 - ⏸️ `BioNERO`
-- ⏸️ `BiocHubsShiny`
-- ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
@@ -193,7 +190,6 @@
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CTdata`
 - ⏸️ `CTexploreR`
 - ⏸️ `CaMutQC`
 - ⏸️ `Category`
@@ -203,9 +199,13 @@
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPexoQual`
+- ⏸️ `ChIPpeakAnno`
+- ⏸️ `ChIPseeker`
+- ⏸️ `CircSeqAlignTk`
+- ⏸️ `ClassifyR`
 
-... and 479 more ...
+... and 451 more ...
 
 ---
-*Last updated: 2026-10-29 15:22:31 UTC*
+*Last updated: 2026-10-29 15:25:15 UTC*
 *Packages with verified BBS status: 224*
