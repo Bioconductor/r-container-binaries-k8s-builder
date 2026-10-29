@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2434
-- **Successfully Built:** 1320 (54%)
+- **Successfully Built:** 1323 (54%)
 - **Failed:** 8 (0%)
-- **In Progress:** 80
+- **In Progress:** 77
 - **Not Started:** 1026
 
 **Progress:** 54%
@@ -16,7 +16,7 @@
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1320)
+## Successfully Built Packages (1323)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1270 more ...*
+*... and 1273 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,11 +89,8 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (80)
+## In Progress (77)
 - ⏳ `AnnotationDbi`
-- ⏳ `BaalChIP`
-- ⏳ `BamScale`
-- ⏳ `BasicSTARRseq`
 - ⏳ `BatchSVG`
 - ⏳ `CNVRanger`
 - ⏳ `ClusterGVis`
@@ -140,8 +137,11 @@
 - ⏳ `hdxmsqc`
 - ⏳ `iSEEfier`
 - ⏳ `igvShiny`
+- ⏳ `mBPCR`
+- ⏳ `metabolomicsWorkbenchR`
+- ⏳ `mosaics`
 
-... and 30 more ...
+... and 27 more ...
 
 ## Not Yet Started (1026)
 - ⏸️ `ADAM`
@@ -198,5 +198,5 @@
 ... and 976 more ...
 
 ---
-*Last updated: 2026-10-29 01:57:40 UTC*
+*Last updated: 2026-10-29 01:58:46 UTC*
 *Packages with verified BBS status: 223*
