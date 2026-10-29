@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1053 (44%)
+- **Successfully Built:** 1055 (44%)
 - **Failed:** 13 (0%)
-- **In Progress:** 142
+- **In Progress:** 140
 - **Not Started:** 1177
 
 **Progress:** 44%
@@ -16,7 +16,7 @@
 ██████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1053)
+## Successfully Built Packages (1055)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 
-*... and 1003 more ...*
+*... and 1005 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -94,7 +94,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (142)
+## In Progress (140)
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
 - ⏳ `BREW3R.r`
@@ -118,8 +118,6 @@
 - ⏳ `EBSEA`
 - ⏳ `EDIRquery`
 - ⏳ `ERSSA`
-- ⏳ `GRmetrics`
-- ⏳ `GWENA`
 - ⏳ `GenomeInfoDb`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
@@ -145,8 +143,10 @@
 - ⏳ `PIPETS`
 - ⏳ `PeacoQC`
 - ⏳ `Qtlizer`
+- ⏳ `RTNduals`
+- ⏳ `SEraster`
 
-... and 92 more ...
+... and 90 more ...
 
 ## Not Yet Started (1177)
 - ⏸️ `ACE`
@@ -203,5 +203,5 @@
 ... and 1127 more ...
 
 ---
-*Last updated: 2026-10-29 00:08:52 UTC*
+*Last updated: 2026-10-29 00:10:21 UTC*
 *Packages with verified BBS status: 207*
