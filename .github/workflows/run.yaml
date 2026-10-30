@@ -43,7 +43,7 @@ jobs:
           echo "=== CLUSTER INFO ==="
           kubectl cluster-info
           echo "=== NFS STORAGE CLASS ==="
-          kubectl describe sc nfs-client
+          kubectl describe sc nfs
           echo "=== ALL NFS SERVER IPs IN USE ==="
           kubectl get pv -o yaml | awk '/nfs:/{y=1;next} y&&/server:/{print;y=0}' | sort | uniq
           echo "=== ALL NFS PATHS IN USE ==="
@@ -82,7 +82,7 @@ jobs:
             CONTAINER=$(cat CONTAINER_BASE_IMAGE.bioc)
             
             # Setup Kubernetes resources - this handles running deps_json.R via init container
-            bash ./.github/scripts/setup_k8s.sh "nfs-client" "500Gi" "${BUILD_ID}"
+            bash ./.github/scripts/setup_k8s.sh "nfs" "500Gi" "${BUILD_ID}"
           else
             echo "Continuing existing build..."
             CONTAINER=$(cat CONTAINER_BASE_IMAGE.bioc)
