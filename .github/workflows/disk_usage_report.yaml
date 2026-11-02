@@ -48,9 +48,18 @@ jobs:
           }
 
           # Collect all ns-* namespaces from the cluster
+          echo "kubectl context: $(kubectl config current-context 2>&1 || true)"
+          echo "kubectl server: $(kubectl config view --minify -o jsonpath='{.clusters[0].cluster.server}' 2>&1 || true)"
+
+          # Fail loudly if the cluster cannot be queried instead of reporting 0 namespaces
           kubectl get namespaces \
             -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
-            | grep '^ns-' \
+            > /tmp/disk-usage/all_cluster_namespaces.txt
+
+          echo "Cluster returned $(wc -l < /tmp/disk-usage/all_cluster_namespaces.txt | tr -d ' ') namespace(s) in total:"
+          cat /tmp/disk-usage/all_cluster_namespaces.txt
+
+          grep '^ns-' /tmp/disk-usage/all_cluster_namespaces.txt \
             | sort -u > /tmp/disk-usage/namespaces.txt || true
 
           TOTAL_NAMESPACES=$(wc -l < /tmp/disk-usage/namespaces.txt | tr -d ' ')
