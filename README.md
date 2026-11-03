@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1590 (66%)
+- **Successfully Built:** 1602 (67%)
 - **Failed:** 17 (0%)
-- **In Progress:** 130
-- **Not Started:** 648
+- **In Progress:** 128
+- **Not Started:** 638
 
 **Progress:** 67%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1590)
+## Successfully Built Packages (1602)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1540 more ...*
+*... and 1552 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,7 +98,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (130)
+## In Progress (128)
 - ⏳ `ADImpute`
 - ⏳ `ASSIGN`
 - ⏳ `BERT`
@@ -120,6 +120,7 @@
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicDataCommons`
+- ⏳ `GeoDiff`
 - ⏳ `GrafGen`
 - ⏳ `HGC`
 - ⏳ `HarmonizR`
@@ -148,11 +149,10 @@
 - ⏳ `PolySTest`
 - ⏳ `QTLExperiment`
 - ⏳ `RCy3`
-- ⏳ `RFGeneRank`
 
-... and 80 more ...
+... and 78 more ...
 
-## Not Yet Started (648)
+## Not Yet Started (638)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -204,8 +204,8 @@
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPanalyser`
 
-... and 598 more ...
+... and 588 more ...
 
 ---
-*Last updated: 2026-11-03 11:33:45 UTC*
+*Last updated: 2026-11-03 11:36:57 UTC*
 *Packages with verified BBS status: 222*
