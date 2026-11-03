@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 678 (27%)
+- **Successfully Built:** 685 (28%)
 - **Failed:** 5 (0%)
-- **In Progress:** 23
-- **Not Started:** 1731
+- **In Progress:** 41
+- **Not Started:** 1706
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (678)
+## Successfully Built Packages (685)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 628 more ...*
+*... and 635 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,32 +86,50 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (23)
+## In Progress (41)
 - ⏳ `ANF`
 - ⏳ `BUS`
+- ⏳ `CardinalIO`
+- ⏳ `CellMapper`
+- ⏳ `DFplyr`
+- ⏳ `EnrichDO`
+- ⏳ `ExploreModelMatrix`
 - ⏳ `FamAgg`
 - ⏳ `Fancy`
 - ⏳ `IHW`
 - ⏳ `INDEED`
+- ⏳ `IRanges`
 - ⏳ `MSstatsResponse`
 - ⏳ `QRscore`
+- ⏳ `RBioFormats`
 - ⏳ `RTCA`
 - ⏳ `RUVcorr`
-- ⏳ `bacon`
+- ⏳ `Rcwl`
+- ⏳ `TrIdent`
+- ⏳ `UCSC.utils`
+- ⏳ `alabaster.base`
 - ⏳ `ctsGE`
 - ⏳ `diffuStats`
 - ⏳ `dks`
 - ⏳ `erccdashboard`
+- ⏳ `flowCore`
 - ⏳ `hyperdraw`
 - ⏳ `magrene`
 - ⏳ `marray`
 - ⏳ `metaSeq`
 - ⏳ `netresponse`
 - ⏳ `rcellminer`
+- ⏳ `rexposome`
+- ⏳ `ribor`
 - ⏳ `rpx`
+- ⏳ `scPassport`
+- ⏳ `sevenbridges`
+- ⏳ `spicyR`
 - ⏳ `treeio`
+- ⏳ `twoddpcr`
+- ⏳ `updateObject`
 
-## Not Yet Started (1731)
+## Not Yet Started (1706)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -163,8 +181,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1681 more ...
+... and 1656 more ...
 
 ---
-*Last updated: 2026-11-03 08:51:01 UTC*
+*Last updated: 2026-11-03 08:53:00 UTC*
 *Packages with verified BBS status: 181*
