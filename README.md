@@ -6,21 +6,22 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 46 (1%)
+- **Successfully Built:** 52 (2%)
 - **Failed:** 1 (0%)
-- **In Progress:** 317
+- **In Progress:** 311
 - **Not Started:** 2021
 
-**Progress:** 1%
+**Progress:** 2%
 ```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (46)
+## Successfully Built Packages (52)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
+| [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.23/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.23/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
@@ -44,8 +45,11 @@
 | [Mergeomics](https://bioconductor.org/packages/3.23/bioc/html/Mergeomics.html) | [log](logs/Mergeomics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Mergeomics) |
 | [ModCon](https://bioconductor.org/packages/3.23/bioc/html/ModCon.html) | [log](logs/ModCon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ModCon) |
 | [MultiMed](https://bioconductor.org/packages/3.23/bioc/html/MultiMed.html) | [log](logs/MultiMed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MultiMed) |
-| [NTW](https://bioconductor.org/packages/3.23/bioc/html/NTW.html) | [log](logs/NTW/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/NTW) |
-| [NetPathMiner](https://bioconductor.org/packages/3.23/bioc/html/NetPathMiner.html) | [log](logs/NetPathMiner/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/NetPathMiner) |
+
+*... and 2 more ...*
+
+| Package | Log | BBS Status |
+|---------|-----|------------|
 | [NuPoP](https://bioconductor.org/packages/3.23/bioc/html/NuPoP.html) | [log](logs/NuPoP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/NuPoP) |
 | [OSAT](https://bioconductor.org/packages/3.23/bioc/html/OSAT.html) | [log](logs/OSAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/OSAT) |
 | [Omixer](https://bioconductor.org/packages/3.23/bioc/html/Omixer.html) | [log](logs/Omixer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Omixer) |
@@ -65,7 +69,12 @@
 | [a4Reporting](https://bioconductor.org/packages/3.23/bioc/html/a4Reporting.html) | [log](logs/a4Reporting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/a4Reporting) |
 | [acde](https://bioconductor.org/packages/3.23/bioc/html/acde.html) | [log](logs/acde/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/acde) |
 | [bugsigdbr](https://bioconductor.org/packages/3.23/bioc/html/bugsigdbr.html) | [log](logs/bugsigdbr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/bugsigdbr) |
+| [fenr](https://bioconductor.org/packages/3.23/bioc/html/fenr.html) | [log](logs/fenr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/fenr) |
 | [genArise](https://bioconductor.org/packages/3.23/bioc/html/genArise.html) | [log](logs/genArise/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genArise) |
+| [mzID](https://bioconductor.org/packages/3.23/bioc/html/mzID.html) | [log](logs/mzID/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mzID) |
+| [rpx](https://bioconductor.org/packages/3.23/bioc/html/rpx.html) | [log](logs/rpx/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rpx) |
+| [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
+| [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 
 ## Failed Packages (1)
 
@@ -73,8 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (317)
-- ⏳ `ANCOMBC`
+## In Progress (311)
 - ⏳ `AWAggregator`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -124,8 +132,9 @@
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 - ⏳ `GPA`
+- ⏳ `GRENITS`
 
-... and 267 more ...
+... and 261 more ...
 
 ## Not Yet Started (2021)
 - ⏸️ `ABSSeq`
@@ -182,5 +191,5 @@
 ... and 1971 more ...
 
 ---
-*Last updated: 2026-11-03 02:36:28 UTC*
-*Packages with verified BBS status: 47*
+*Last updated: 2026-11-03 02:39:48 UTC*
+*Packages with verified BBS status: 53*
