@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1343 (55%)
+- **Successfully Built:** 1348 (55%)
 - **Failed:** 6 (0%)
-- **In Progress:** 204
-- **Not Started:** 884
+- **In Progress:** 214
+- **Not Started:** 869
 
 **Progress:** 55%
 ```
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1343)
+## Successfully Built Packages (1348)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1293 more ...*
+*... and 1298 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (204)
+## In Progress (214)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
@@ -107,9 +107,12 @@
 - ⏳ `CSOA`
 - ⏳ `CaDrA`
 - ⏳ `CellTrails`
+- ⏳ `CluMSID`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoCiteStats`
 - ⏳ `CyTOFpower`
+- ⏳ `DAPAR`
+- ⏳ `DEP`
 - ⏳ `DESeq2`
 - ⏳ `DifferentialRegulation`
 - ⏳ `Dune`
@@ -131,17 +134,14 @@
 - ⏳ `HERON`
 - ⏳ `HIPPO`
 - ⏳ `HiCBricks`
-- ⏳ `ILoReg`
 - ⏳ `ISLET`
 - ⏳ `IWTomics`
 - ⏳ `InterCellar`
 - ⏳ `InteractionSet`
-- ⏳ `InteractiveComplexHeatmap`
-- ⏳ `IntrinsicScan`
 
-... and 154 more ...
+... and 164 more ...
 
-## Not Yet Started (884)
+## Not Yet Started (869)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -193,8 +193,8 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 
-... and 834 more ...
+... and 819 more ...
 
 ---
-*Last updated: 2026-11-03 15:59:55 UTC*
+*Last updated: 2026-11-03 16:03:29 UTC*
 *Packages with verified BBS status: 201*
