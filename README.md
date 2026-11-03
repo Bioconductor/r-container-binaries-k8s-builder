@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 437 (17%)
+- **Successfully Built:** 446 (18%)
 - **Failed:** 4 (0%)
-- **In Progress:** 170
+- **In Progress:** 161
 - **Not Started:** 1826
 
 **Progress:** 18%
@@ -16,7 +16,7 @@
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (437)
+## Successfully Built Packages (446)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BioQC](https://bioconductor.org/packages/3.24/bioc/html/BioQC.html) | [log](logs/BioQC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioQC) |
 
-*... and 387 more ...*
+*... and 396 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [shinybiocloader](https://bioconductor.org/packages/3.24/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/shinybiocloader) |
 | [sights](https://bioconductor.org/packages/3.24/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sights) |
 | [sincell](https://bioconductor.org/packages/3.24/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sincell) |
 | [sizepower](https://bioconductor.org/packages/3.24/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sizepower) |
@@ -67,6 +66,7 @@
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [topconfects](https://bioconductor.org/packages/3.24/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/topconfects) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
+| [tweeDEseq](https://bioconductor.org/packages/3.24/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tweeDEseq) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
@@ -85,7 +85,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (170)
+## In Progress (161)
 - ⏳ `AIMS`
 - ⏳ `ANF`
 - ⏳ `BUS`
@@ -137,7 +137,7 @@
 - ⏳ `PLPE`
 - ⏳ `PROPER`
 
-... and 120 more ...
+... and 111 more ...
 
 ## Not Yet Started (1826)
 - ⏸️ `ABarray`
@@ -194,5 +194,5 @@
 ... and 1776 more ...
 
 ---
-*Last updated: 2026-11-03 05:59:39 UTC*
-*Packages with verified BBS status: 151*
+*Last updated: 2026-11-03 06:01:05 UTC*
+*Packages with verified BBS status: 152*
