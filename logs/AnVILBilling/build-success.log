@@ -1,0 +1,145 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''AnVILBilling'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'AnVILBilling'
+also installing the dependencies ‘bit’, ‘tzdb’, ‘bit64’, ‘clock’, ‘gargle’, ‘nanoparquet’, ‘rapidjsonr’, ‘timechange’, ‘bigrquery’, ‘shinytoastr’, ‘DBI’, ‘lubridate’, ‘plotly’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/bit_4.6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tzdb_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/bit64_4.8.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/clock_0.7.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/gargle_1.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/nanoparquet_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/rapidjsonr_1.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/timechange_0.4.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/bigrquery_1.6.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/shinytoastr_2.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/DBI_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/lubridate_1.9.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/plotly_4.12.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AnVILBilling_1.23.0.tar.gz'
+* installing *binary* package ‘bit’ ...
+* package ‘bit’ successfully unpacked and SHA256 sums checked
+* ‘bit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bit’ as ‘bit_4.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit)
+* installing *binary* package ‘tzdb’ ...
+* package ‘tzdb’ successfully unpacked and SHA256 sums checked
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘gargle’ ...
+* package ‘gargle’ successfully unpacked and SHA256 sums checked
+* ‘gargle’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gargle’ as ‘gargle_1.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gargle)
+* installing *binary* package ‘nanoparquet’ ...
+* package ‘nanoparquet’ successfully unpacked and SHA256 sums checked
+* ‘nanoparquet’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nanoparquet’ as ‘nanoparquet_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nanoparquet)
+* installing *binary* package ‘rapidjsonr’ ...
+* package ‘rapidjsonr’ successfully unpacked and SHA256 sums checked
+* ‘rapidjsonr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rapidjsonr’ as ‘rapidjsonr_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rapidjsonr)
+* installing *binary* package ‘timechange’ ...
+* package ‘timechange’ successfully unpacked and SHA256 sums checked
+* ‘timechange’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *binary* package ‘shinytoastr’ ...
+* package ‘shinytoastr’ successfully unpacked and SHA256 sums checked
+* ‘shinytoastr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinytoastr’ as ‘shinytoastr_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinytoastr)
+* installing *binary* package ‘DBI’ ...
+* package ‘DBI’ successfully unpacked and SHA256 sums checked
+* ‘DBI’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DBI’ as ‘DBI_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DBI)
+* installing *binary* package ‘plotly’ ...
+* package ‘plotly’ successfully unpacked and SHA256 sums checked
+* ‘plotly’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘plotly’ as ‘plotly_4.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotly)
+* installing *binary* package ‘bit64’ ...
+* package ‘bit64’ successfully unpacked and SHA256 sums checked
+* ‘bit64’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bit64’ as ‘bit64_4.8.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit64)
+* installing *binary* package ‘clock’ ...
+* package ‘clock’ successfully unpacked and SHA256 sums checked
+* ‘clock’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clock’ as ‘clock_0.7.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clock)
+* installing *binary* package ‘lubridate’ ...
+* package ‘lubridate’ successfully unpacked and SHA256 sums checked
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *binary* package ‘bigrquery’ ...
+* package ‘bigrquery’ successfully unpacked and SHA256 sums checked
+* ‘bigrquery’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bigrquery’ as ‘bigrquery_1.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bigrquery)
+* installing *source* package ‘AnVILBilling’ ...
+** this is package ‘AnVILBilling’ version ‘1.23.0’
+** package ‘AnVILBilling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AnVILBilling’ as ‘AnVILBilling_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnVILBilling)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMRxuQo/downloaded_packages’
+
+real	0m23.439s
+user	0m18.498s
+sys	0m4.624s
