@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 86 (3%)
+- **Successfully Built:** 87 (3%)
 - **Failed:** 0 (0%)
-- **In Progress:** 279
+- **In Progress:** 278
 - **Not Started:** 2072
 
 **Progress:** 3%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (86)
+## Successfully Built Packages (87)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -39,14 +39,14 @@
 | [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
+| [Chicago](https://bioconductor.org/packages/3.24/bioc/html/Chicago.html) | [log](logs/Chicago/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Chicago) |
 | [DNABarcodes](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodes.html) | [log](logs/DNABarcodes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodes) |
 | [EnMCB](https://bioconductor.org/packages/3.24/bioc/html/EnMCB.html) | [log](logs/EnMCB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EnMCB) |
 | [GRENITS](https://bioconductor.org/packages/3.24/bioc/html/GRENITS.html) | [log](logs/GRENITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GRENITS) |
 | [GSALightning](https://bioconductor.org/packages/3.24/bioc/html/GSALightning.html) | [log](logs/GSALightning/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSALightning) |
 | [GSAR](https://bioconductor.org/packages/3.24/bioc/html/GSAR.html) | [log](logs/GSAR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSAR) |
-| [GSEAmining](https://bioconductor.org/packages/3.24/bioc/html/GSEAmining.html) | [log](logs/GSEAmining/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSEAmining) |
 
-*... and 36 more ...*
+*... and 37 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
-## In Progress (279)
+## In Progress (278)
 - ⏳ `BADER`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -91,7 +91,6 @@
 - ⏳ `CONSTANd`
 - ⏳ `COSNet`
 - ⏳ `CausalR`
-- ⏳ `Chicago`
 - ⏳ `Clomial`
 - ⏳ `ClusterJudge`
 - ⏳ `ClusterSignificance`
@@ -127,8 +126,9 @@
 - ⏳ `HPAanalyze`
 - ⏳ `HPiP`
 - ⏳ `HVP`
+- ⏳ `Harman`
 
-... and 229 more ...
+... and 228 more ...
 
 ## Not Yet Started (2072)
 - ⏸️ `ABSSeq`
@@ -185,5 +185,5 @@
 ... and 2022 more ...
 
 ---
-*Last updated: 2026-11-03 03:45:41 UTC*
-*Packages with verified BBS status: 81*
+*Last updated: 2026-11-03 03:47:52 UTC*
+*Packages with verified BBS status: 82*
