@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1373 (56%)
+- **Successfully Built:** 1377 (56%)
 - **Failed:** 6 (0%)
-- **In Progress:** 198
+- **In Progress:** 194
 - **Not Started:** 860
 
 **Progress:** 56%
@@ -16,7 +16,7 @@
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1373)
+## Successfully Built Packages (1377)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1323 more ...*
+*... and 1327 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (198)
+## In Progress (194)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
@@ -139,7 +139,7 @@
 - ⏳ `LACE`
 - ⏳ `LRDE`
 
-... and 148 more ...
+... and 144 more ...
 
 ## Not Yet Started (860)
 - ⏸️ `ADAPT`
@@ -196,5 +196,5 @@
 ... and 810 more ...
 
 ---
-*Last updated: 2026-11-03 16:14:02 UTC*
+*Last updated: 2026-11-03 16:17:16 UTC*
 *Packages with verified BBS status: 202*
