@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 517 (21%)
+- **Successfully Built:** 523 (21%)
 - **Failed:** 9 (0%)
-- **In Progress:** 111
-- **Not Started:** 1748
+- **In Progress:** 107
+- **Not Started:** 1746
 
 **Progress:** 22%
 ```
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (517)
+## Successfully Built Packages (523)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,22 +46,22 @@
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 
-*... and 467 more ...*
+*... and 473 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
-| [subSeq](https://bioconductor.org/packages/3.23/bioc/html/subSeq.html) | [log](logs/subSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/subSeq) |
 | [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
+| [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
+| [trio](https://bioconductor.org/packages/3.23/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
@@ -90,9 +90,11 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (111)
+## In Progress (107)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
+- ⏳ `CGHcall`
+- ⏳ `CGHregions`
 - ⏳ `CIMICE`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
@@ -110,7 +112,6 @@
 - ⏳ `Heatplus`
 - ⏳ `IHW`
 - ⏳ `INTACT`
-- ⏳ `KCsmart`
 - ⏳ `LPE`
 - ⏳ `MSstats`
 - ⏳ `MSstatsResponse`
@@ -140,11 +141,10 @@
 - ⏳ `STATegRa`
 - ⏳ `ScreenR`
 - ⏳ `TPP`
-- ⏳ `TargetDecoy`
 
-... and 61 more ...
+... and 57 more ...
 
-## Not Yet Started (1748)
+## Not Yet Started (1746)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1698 more ...
+... and 1696 more ...
 
 ---
-*Last updated: 2026-11-03 06:12:54 UTC*
-*Packages with verified BBS status: 167*
+*Last updated: 2026-11-03 06:14:30 UTC*
+*Packages with verified BBS status: 169*
