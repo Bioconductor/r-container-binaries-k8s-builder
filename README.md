@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1678 (68%)
+- **Successfully Built:** 1679 (68%)
 - **Failed:** 7 (0%)
 - **In Progress:** 172
-- **Not Started:** 580
+- **Not Started:** 579
 
 **Progress:** 69%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1678)
+## Successfully Built Packages (1679)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1628 more ...*
+*... and 1629 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,6 +90,7 @@
 
 ## In Progress (172)
 - ⏳ `ADAPT`
+- ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -138,12 +139,10 @@
 - ⏳ `MLSeq`
 - ⏳ `MSnID`
 - ⏳ `MetaPhOR`
-- ⏳ `MetaboAnnotation`
 
 ... and 122 more ...
 
-## Not Yet Started (580)
-- ⏸️ `ADaCGH2`
+## Not Yet Started (579)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -193,9 +192,10 @@
 - ⏸️ `ChIPanalyser`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
+- ⏸️ `ChIPseeker`
 
-... and 530 more ...
+... and 529 more ...
 
 ---
-*Last updated: 2026-11-03 19:57:56 UTC*
+*Last updated: 2026-11-03 20:00:18 UTC*
 *Packages with verified BBS status: 214*
