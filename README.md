@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2125 (89%)
+- **Successfully Built:** 2126 (89%)
 - **Failed:** 21 (0%)
-- **In Progress:** 96
-- **Not Started:** 143
+- **In Progress:** 109
+- **Not Started:** 129
 
-**Progress:** 89%
+**Progress:** 90%
 ```
-████████████████████████████████████████████░░░░░░
+█████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2125)
+## Successfully Built Packages (2126)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2075 more ...*
+*... and 2076 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (96)
+## In Progress (109)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
@@ -116,13 +116,16 @@
 - ⏳ `DegNorm`
 - ⏳ `DspikeIn`
 - ⏳ `ELViS`
+- ⏳ `ENmix`
 - ⏳ `EpiTxDb`
 - ⏳ `EventPointer`
 - ⏳ `ExperimentHubData`
 - ⏳ `FindIT2`
+- ⏳ `GA4GHshiny`
 - ⏳ `HistoImagePlot`
 - ⏳ `IntEREst`
 - ⏳ `MEDIPS`
+- ⏳ `MethylAid`
 - ⏳ `MutSeqR`
 - ⏳ `MutationalPatterns`
 - ⏳ `OMICsPCA`
@@ -133,6 +136,7 @@
 - ⏳ `R453Plus1Toolbox`
 - ⏳ `RAIDS`
 - ⏳ `RCAS`
+- ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `RTCGAToolbox`
 - ⏳ `RareVariantVis`
@@ -149,14 +153,10 @@
 - ⏳ `ZygosityPredictor`
 - ⏳ `alabaster`
 - ⏳ `annotatr`
-- ⏳ `biovizBase`
-- ⏳ `cardelino`
-- ⏳ `casper`
-- ⏳ `chevreulPlot`
 
-... and 46 more ...
+... and 59 more ...
 
-## Not Yet Started (143)
+## Not Yet Started (129)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -176,9 +176,7 @@
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `ENmix`
 - ⏸️ `FRASER`
-- ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GUIDEseq`
@@ -195,21 +193,23 @@
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
 - ⏸️ `MetaboSignal`
-- ⏸️ `MethylAid`
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
 - ⏸️ `Pviz`
 - ⏸️ `R3CPET`
 - ⏸️ `REDseq`
-- ⏸️ `REMP`
 - ⏸️ `RESOLVE`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `RNAmodR`
 - ⏸️ `RNAmodR.AlkAnilineSeq`
 - ⏸️ `RNAmodR.ML`
+- ⏸️ `RNAmodR.RiboMethSeq`
+- ⏸️ `ReportingTools`
+- ⏸️ `RiboCrypt`
+- ⏸️ `RnBeads`
 
-... and 93 more ...
+... and 79 more ...
 
 ---
-*Last updated: 2026-11-03 23:25:16 UTC*
+*Last updated: 2026-11-03 23:27:05 UTC*
 *Packages with verified BBS status: 235*
