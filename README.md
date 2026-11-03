@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1812 (75%)
+- **Successfully Built:** 1816 (76%)
 - **Failed:** 18 (0%)
-- **In Progress:** 57
-- **Not Started:** 498
+- **In Progress:** 55
+- **Not Started:** 496
 
 **Progress:** 76%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1812)
+## Successfully Built Packages (1816)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1762 more ...*
+*... and 1766 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,14 +99,11 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (57)
+## In Progress (55)
 - ⏳ `BulkSignalR`
-- ⏳ `CEMiTool`
-- ⏳ `CaMutQC`
 - ⏳ `CeTF`
+- ⏳ `DspikeIn`
 - ⏳ `EWCE`
-- ⏳ `EasyCellType`
-- ⏳ `GDCRNATools`
 - ⏳ `GOaGO`
 - ⏳ `IWTomics`
 - ⏳ `MACSr`
@@ -114,6 +111,7 @@
 - ⏳ `MIRit`
 - ⏳ `MetaPhOR`
 - ⏳ `MicrobiomeProfiler`
+- ⏳ `MicrobiotaProcess`
 - ⏳ `MoonlightR`
 - ⏳ `PDATK`
 - ⏳ `PanomiR`
@@ -150,10 +148,12 @@
 - ⏳ `postNet`
 - ⏳ `rtracklayer`
 - ⏳ `scTensor`
+- ⏳ `scifer`
+- ⏳ `slingshot`
 
-... and 7 more ...
+... and 5 more ...
 
-## Not Yet Started (498)
+## Not Yet Started (496)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -205,8 +205,8 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `CoverageView`
 
-... and 448 more ...
+... and 446 more ...
 
 ---
-*Last updated: 2026-11-03 13:07:40 UTC*
+*Last updated: 2026-11-03 13:09:19 UTC*
 *Packages with verified BBS status: 226*
