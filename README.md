@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1199 (49%)
+- **Successfully Built:** 1207 (49%)
 - **Failed:** 5 (0%)
-- **In Progress:** 224
-- **Not Started:** 1009
+- **In Progress:** 227
+- **Not Started:** 998
 
 **Progress:** 49%
 ```
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1199)
+## Successfully Built Packages (1207)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1149 more ...*
+*... and 1157 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [trio](https://bioconductor.org/packages/3.24/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/trio) |
 | [triplex](https://bioconductor.org/packages/3.24/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.24/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
@@ -73,6 +72,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
+| [yamss](https://bioconductor.org/packages/3.24/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.24/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.24/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zellkonverter) |
 
@@ -83,10 +83,10 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
-| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
+| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (224)
+## In Progress (227)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `ALDEx2`
@@ -106,11 +106,9 @@
 - ⏳ `CSOA`
 - ⏳ `CaDrA`
 - ⏳ `CalibraCurve`
-- ⏳ `CellBench`
 - ⏳ `CellTrails`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoCiteStats`
-- ⏳ `CoGAPS`
 - ⏳ `CrcBiomeScreen`
 - ⏳ `CyTOFpower`
 - ⏳ `DESeq2`
@@ -127,7 +125,6 @@
 - ⏳ `GENESIS`
 - ⏳ `GEOquery`
 - ⏳ `GOexpress`
-- ⏳ `GWENA`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GenomicTuples`
 - ⏳ `GeoDiff`
@@ -137,10 +134,13 @@
 - ⏳ `HERON`
 - ⏳ `HIPPO`
 - ⏳ `HiCBricks`
+- ⏳ `ILoReg`
+- ⏳ `ISLET`
+- ⏳ `IWTomics`
 
-... and 174 more ...
+... and 177 more ...
 
-## Not Yet Started (1009)
+## Not Yet Started (998)
 - ⏸️ `ACE`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -192,8 +192,8 @@
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 
-... and 959 more ...
+... and 948 more ...
 
 ---
-*Last updated: 2026-11-03 15:11:57 UTC*
-*Packages with verified BBS status: 195*
+*Last updated: 2026-11-03 15:14:18 UTC*
+*Packages with verified BBS status: 196*
