@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2116 (88%)
+- **Successfully Built:** 2117 (88%)
 - **Failed:** 21 (0%)
-- **In Progress:** 103
+- **In Progress:** 102
 - **Not Started:** 145
 
 **Progress:** 89%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2116)
+## Successfully Built Packages (2117)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2066 more ...*
+*... and 2067 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,14 +102,13 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (103)
+## In Progress (102)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
 - ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CCAFE`
-- ⏳ `CNVrd2`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `ClonalSim`
 - ⏳ `DAMEfinder`
@@ -153,8 +152,9 @@
 - ⏳ `ZygosityPredictor`
 - ⏳ `alabaster`
 - ⏳ `annotatr`
+- ⏳ `appreci8R`
 
-... and 53 more ...
+... and 52 more ...
 
 ## Not Yet Started (145)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 95 more ...
 
 ---
-*Last updated: 2026-11-03 22:53:09 UTC*
+*Last updated: 2026-11-03 22:54:17 UTC*
 *Packages with verified BBS status: 234*
