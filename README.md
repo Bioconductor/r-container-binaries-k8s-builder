@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 15 (0%)
+- **Successfully Built:** 16 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 334
-- **Not Started:** 2088
+- **In Progress:** 336
+- **Not Started:** 2085
 
 **Progress:** 0%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (15)
+## Successfully Built Packages (16)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -35,8 +35,9 @@
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [REBET](https://bioconductor.org/packages/3.24/bioc/html/REBET.html) | [log](logs/REBET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/REBET) |
 | [qvalue](https://bioconductor.org/packages/3.24/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/qvalue) |
+| [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 
-## In Progress (334)
+## In Progress (336)
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
 - ⏳ `BenchHub`
@@ -62,6 +63,7 @@
 - ⏳ `ComPrAn`
 - ⏳ `DART`
 - ⏳ `DCATS`
+- ⏳ `DEGseq`
 - ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
 - ⏳ `DNAcopy`
@@ -86,11 +88,10 @@
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 - ⏳ `GPA`
-- ⏳ `GRENITS`
 
-... and 284 more ...
+... and 286 more ...
 
-## Not Yet Started (2088)
+## Not Yet Started (2085)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -142,8 +143,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2038 more ...
+... and 2035 more ...
 
 ---
-*Last updated: 2026-11-03 02:58:25 UTC*
-*Packages with verified BBS status: 15*
+*Last updated: 2026-11-03 03:01:49 UTC*
+*Packages with verified BBS status: 16*
