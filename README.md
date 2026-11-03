@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1759 (72%)
+- **Successfully Built:** 1760 (72%)
 - **Failed:** 8 (0%)
 - **In Progress:** 135
-- **Not Started:** 535
+- **Not Started:** 534
 
 **Progress:** 72%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1759)
+## Successfully Built Packages (1760)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 | [AWFisher](https://bioconductor.org/packages/3.24/bioc/html/AWFisher.html) | [log](logs/AWFisher/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWFisher) |
 
-*... and 1709 more ...*
+*... and 1710 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -95,7 +95,6 @@
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
 - ⏳ `BatchQC`
-- ⏳ `BioNERO`
 - ⏳ `BiocHubsShiny`
 - ⏳ `BloodGen3Module`
 - ⏳ `CBNplot`
@@ -140,10 +139,11 @@
 - ⏳ `MoonlightR`
 - ⏳ `MsDataHub`
 - ⏳ `MultiBaC`
+- ⏳ `NetActivity`
 
 ... and 85 more ...
 
-## Not Yet Started (535)
+## Not Yet Started (534)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -195,8 +195,8 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 
-... and 485 more ...
+... and 484 more ...
 
 ---
-*Last updated: 2026-11-03 21:29:41 UTC*
+*Last updated: 2026-11-03 21:31:23 UTC*
 *Packages with verified BBS status: 220*
