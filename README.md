@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 85 (3%)
+- **Successfully Built:** 86 (3%)
 - **Failed:** 0 (0%)
-- **In Progress:** 280
+- **In Progress:** 279
 - **Not Started:** 2072
 
 **Progress:** 3%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (85)
+## Successfully Built Packages (86)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,16 @@
 | [GSAR](https://bioconductor.org/packages/3.24/bioc/html/GSAR.html) | [log](logs/GSAR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSAR) |
 | [GSEAmining](https://bioconductor.org/packages/3.24/bioc/html/GSEAmining.html) | [log](logs/GSEAmining/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSEAmining) |
 
-*... and 35 more ...*
+*... and 36 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [epivizrServer](https://bioconductor.org/packages/3.24/bioc/html/epivizrServer.html) | [log](logs/epivizrServer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/epivizrServer) |
 | [fCI](https://bioconductor.org/packages/3.24/bioc/html/fCI.html) | [log](logs/fCI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/fCI) |
 | [fenr](https://bioconductor.org/packages/3.24/bioc/html/fenr.html) | [log](logs/fenr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/fenr) |
 | [gesel](https://bioconductor.org/packages/3.24/bioc/html/gesel.html) | [log](logs/gesel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/gesel) |
 | [graper](https://bioconductor.org/packages/3.24/bioc/html/graper.html) | [log](logs/graper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/graper) |
 | [hypeR](https://bioconductor.org/packages/3.24/bioc/html/hypeR.html) | [log](logs/hypeR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/hypeR) |
+| [iASeq](https://bioconductor.org/packages/3.24/bioc/html/iASeq.html) | [log](logs/iASeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/iASeq) |
 | [iSeq](https://bioconductor.org/packages/3.24/bioc/html/iSeq.html) | [log](logs/iSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/iSeq) |
 | [imageTCGA](https://bioconductor.org/packages/3.24/bioc/html/imageTCGA.html) | [log](logs/imageTCGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/imageTCGA) |
 | [messina](https://bioconductor.org/packages/3.24/bioc/html/messina.html) | [log](logs/messina/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/messina) |
@@ -76,7 +76,7 @@
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
-## In Progress (280)
+## In Progress (279)
 - ⏳ `BADER`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -128,7 +128,7 @@
 - ⏳ `HPiP`
 - ⏳ `HVP`
 
-... and 230 more ...
+... and 229 more ...
 
 ## Not Yet Started (2072)
 - ⏸️ `ABSSeq`
@@ -185,5 +185,5 @@
 ... and 2022 more ...
 
 ---
-*Last updated: 2026-11-03 03:43:56 UTC*
-*Packages with verified BBS status: 80*
+*Last updated: 2026-11-03 03:45:41 UTC*
+*Packages with verified BBS status: 81*
