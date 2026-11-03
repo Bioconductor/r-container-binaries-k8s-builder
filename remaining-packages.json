@@ -14,9 +14,7 @@
     "SummarizedExperiment",
     "AnnotationDbi"
   ],
-  "ADAPT": [
-    "phyloseq"
-  ],
+  "ADAPT": [],
   "ADImpute": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -133,7 +131,6 @@
     "rtracklayer",
     "motifStack",
     "AnnotationDbi",
-    "pwalign",
     "GenomicFeatures",
     "RBGL",
     "SummarizedExperiment",
@@ -142,7 +139,6 @@
     "InteractionSet",
     "KEGGREST",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "cigarillo",
     "AnnotationHub",
@@ -158,8 +154,7 @@
     "TFBSTools",
     "rtracklayer",
     "cigarillo",
-    "BSgenome",
-    "pwalign"
+    "BSgenome"
   ],
   "AUCell": [
     "GSEABase",
@@ -290,7 +285,6 @@
     "SummarizedExperiment",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "ScaledMatrix",
     "BiocNeighbors"
   ],
@@ -301,7 +295,6 @@
     "scuttle",
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "beachmat",
     "HDF5Array",
     "BiocSingular",
     "bluster",
@@ -327,7 +320,6 @@
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -464,7 +456,6 @@
     "scuttle",
     "ResidualMatrix",
     "ScaledMatrix",
-    "beachmat",
     "HDF5Array",
     "M3Drop",
     "scater",
@@ -483,7 +474,6 @@
     "scuttle",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "genefilter",
     "ScaledMatrix",
     "BiocNeighbors",
@@ -496,8 +486,7 @@
     "SummarizedExperiment",
     "SingleCellExperiment",
     "BiocSingular",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "Battlefield": [
     "SummarizedExperiment"
@@ -509,7 +498,6 @@
     "SummarizedExperiment",
     "BiocSingular",
     "ScaledMatrix",
-    "beachmat",
     "scuttle",
     "BiocNeighbors",
     "bluster"
@@ -610,7 +598,6 @@
     "SummarizedExperiment",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "ScaledMatrix",
     "BiocNeighbors"
   ],
@@ -635,9 +622,7 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "BiocNeighbors": [
-    "beachmat"
-  ],
+  "BiocNeighbors": [],
   "BiocPkgDash": [
     "BiocPkgTools",
     "biocViews",
@@ -654,8 +639,7 @@
     "KEGGREST"
   ],
   "BiocSingular": [
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "BiocSklearn": [
     "SummarizedExperiment"
@@ -772,7 +756,6 @@
     "cytolib",
     "RProtoBufLib",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -846,7 +829,6 @@
     "KEGGREST"
   ],
   "CNEr": [
-    "pwalign",
     "rtracklayer",
     "GenomicAlignments",
     "annotate",
@@ -954,7 +936,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -984,8 +965,7 @@
     "SummarizedExperiment",
     "SingleCellExperiment",
     "GEOquery",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "CPSM": [
     "SummarizedExperiment"
@@ -996,7 +976,6 @@
     "PCAtools",
     "SummarizedExperiment",
     "SingleCellExperiment",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -1100,7 +1079,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1111,15 +1089,13 @@
   "CellMentor": [
     "SingleR",
     "SingleCellExperiment",
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "CellMixS": [
     "BiocNeighbors",
     "scater",
     "SummarizedExperiment",
     "SingleCellExperiment",
-    "beachmat",
     "scuttle",
     "BiocSingular",
     "ScaledMatrix"
@@ -1139,7 +1115,6 @@
     "SummarizedExperiment",
     "fgsea",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -1190,7 +1165,6 @@
     "lumi",
     "KEGGREST",
     "BSgenome",
-    "beachmat",
     "txdbmaker",
     "ensembldb",
     "biovizBase",
@@ -1224,8 +1198,7 @@
     "AnnotationDbi",
     "rtracklayer",
     "KEGGREST",
-    "BSgenome",
-    "pwalign"
+    "BSgenome"
   ],
   "ChIPXpress": [
     "GEOquery",
@@ -1259,7 +1232,6 @@
   ],
   "ChIPpeakAnno": [
     "AnnotationDbi",
-    "pwalign",
     "GenomicAlignments",
     "GenomicFeatures",
     "RBGL",
@@ -1271,7 +1243,6 @@
     "KEGGREST",
     "regioneR",
     "rtracklayer",
-    "universalmotif",
     "ensembldb",
     "AnnotationFilter",
     "cigarillo",
@@ -1295,7 +1266,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1303,7 +1273,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1330,7 +1299,6 @@
     "scuttle",
     "ResidualMatrix",
     "ScaledMatrix",
-    "beachmat",
     "GenomicAlignments",
     "bluster",
     "cigarillo"
@@ -1347,7 +1315,6 @@
     "txdbmaker",
     "SGSeq",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo",
     "AnnotationDbi",
@@ -1363,7 +1330,6 @@
     "scuttle",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "ScaledMatrix",
     "BiocNeighbors"
   ],
@@ -1428,8 +1394,7 @@
   "ClusterGVis": [
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "scuttle",
-    "beachmat"
+    "scuttle"
   ],
   "CoCiteStats": [
     "AnnotationDbi",
@@ -1501,7 +1466,6 @@
     "scuttle",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "ScaledMatrix",
     "BiocNeighbors"
   ],
@@ -1655,7 +1619,6 @@
     "rtracklayer",
     "SummarizedExperiment",
     "AnnotationDbi",
-    "pwalign",
     "GenomicFeatures",
     "RBGL",
     "Rsamtools",
@@ -1664,7 +1627,6 @@
     "InteractionSet",
     "KEGGREST",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "cigarillo",
     "AnnotationFilter",
@@ -1677,8 +1639,7 @@
     "SpatialExperiment",
     "SummarizedExperiment",
     "scuttle",
-    "SingleCellExperiment",
-    "beachmat"
+    "SingleCellExperiment"
   ],
   "DEWSeq": [
     "DESeq2",
@@ -1724,7 +1685,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "DMRScan": [],
   "DMRcaller": [
     "Rsamtools",
     "GenomicAlignments",
@@ -1746,7 +1706,6 @@
     "AnnotationDbi",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "GenomicFeatures",
     "ensembldb",
@@ -1773,7 +1732,6 @@
     "rtracklayer",
     "KEGGREST"
   ],
-  "DNAshapeR": [],
   "DNEA": [
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -1812,7 +1770,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "HDF5Array",
-    "beachmat",
     "scuttle",
     "BiocNeighbors",
     "BiocSingular",
@@ -1826,13 +1783,11 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "DRIMSeq": [],
   "DSS": [
     "bsseq",
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -1853,7 +1808,6 @@
     "annotate",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "Damsel": [
@@ -1897,7 +1851,6 @@
     "scuttle",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "SpatialExperiment",
     "scater",
     "rtracklayer",
@@ -1948,8 +1901,7 @@
   "DelayedTensor": [
     "HDF5Array",
     "BiocSingular",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "DenoIST": [
     "SpatialExperiment",
@@ -1967,8 +1919,7 @@
     "cigarillo",
     "BSgenome",
     "rtracklayer",
-    "ShortRead",
-    "pwalign"
+    "ShortRead"
   ],
   "DifferentialRegulation": [
     "SingleCellExperiment",
@@ -1980,7 +1931,6 @@
     "SingleCellExperiment",
     "scran",
     "ScaledMatrix",
-    "beachmat",
     "scuttle",
     "bluster",
     "BiocNeighbors"
@@ -1990,7 +1940,6 @@
   ],
   "DominoEffect": [
     "biomaRt",
-    "pwalign",
     "SummarizedExperiment",
     "VariantAnnotation",
     "AnnotationDbi",
@@ -2009,7 +1958,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "HDF5Array",
-    "beachmat",
     "scuttle"
   ],
   "DrugVsDisease": [
@@ -2029,7 +1977,6 @@
     "ggtree",
     "ggtreeExtra",
     "microbiome",
-    "phyloseq",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
     "msa",
@@ -2069,7 +2016,6 @@
     "KEGGREST",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -2235,7 +2181,6 @@
   ],
   "EpiTxDb": [
     "AnnotationDbi",
-    "Modstrings",
     "GenomicFeatures",
     "txdbmaker",
     "tRNAdbImport",
@@ -2343,11 +2288,9 @@
     "BSgenome",
     "cigarillo",
     "AnnotationDbi",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "bluster",
-    "pwalign",
     "KEGGREST",
     "ScaledMatrix"
   ],
@@ -2371,7 +2314,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -2392,9 +2334,7 @@
     "KEGGREST",
     "cigarillo"
   ],
-  "FinfoMDS": [
-    "phyloseq"
-  ],
+  "FinfoMDS": [],
   "FlowSOM": [
     "flowCore",
     "cytolib",
@@ -2457,7 +2397,6 @@
     "annotate",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "GBScleanR": [
@@ -2521,7 +2460,6 @@
     "ShortRead",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -2661,7 +2599,6 @@
     "KEGGREST"
   ],
   "GUIDEseq": [
-    "pwalign",
     "CRISPRseek",
     "ChIPpeakAnno",
     "BSgenome",
@@ -2677,7 +2614,6 @@
     "InteractionSet",
     "KEGGREST",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "cigarillo",
     "AnnotationFilter"
@@ -2694,8 +2630,7 @@
   ],
   "GeDi": [
     "BiocNeighbors",
-    "simona",
-    "beachmat"
+    "simona"
   ],
   "GenProSeq": [],
   "GenVisR": [
@@ -3139,9 +3074,7 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "IMMAN": [
-    "pwalign"
-  ],
+  "IMMAN": [],
   "INSPEcT": [
     "GenomicFeatures",
     "GenomicAlignments",
@@ -3158,7 +3091,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -3280,7 +3212,6 @@
     "rtracklayer",
     "tximeta",
     "SummarizedExperiment",
-    "pwalign",
     "Rsamtools",
     "DESeq2",
     "AnnotationDbi",
@@ -3387,7 +3318,6 @@
     "SingleCellExperiment",
     "scuttle",
     "SummarizedExperiment",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -3451,7 +3381,6 @@
     "SummarizedExperiment"
   ],
   "MBECS": [
-    "phyloseq",
     "sva",
     "genefilter",
     "AnnotationDbi",
@@ -3537,7 +3466,6 @@
     "SummarizedExperiment",
     "SingleCellExperiment",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -3583,7 +3511,6 @@
     "scater",
     "BiocNeighbors",
     "scuttle",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -3601,7 +3528,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -3683,7 +3609,6 @@
     "SummarizedExperiment",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "Rsamtools",
     "ScaledMatrix",
     "BiocNeighbors"
@@ -3696,16 +3621,13 @@
     "fgsea",
     "scran",
     "ScaledMatrix",
-    "beachmat",
     "BiocNeighbors",
     "scuttle"
   ],
   "MPRAnalyze": [
     "SummarizedExperiment"
   ],
-  "MSA2dist": [
-    "pwalign"
-  ],
+  "MSA2dist": [],
   "MSPrep": [
     "SummarizedExperiment",
     "sva",
@@ -3797,7 +3719,6 @@
   ],
   "MatrixRider": [
     "TFBSTools",
-    "pwalign",
     "BSgenome",
     "rtracklayer",
     "Rsamtools",
@@ -3913,7 +3834,6 @@
     "ExperimentHub",
     "TFBSTools",
     "AnnotationDbi",
-    "pwalign",
     "BSgenome",
     "rtracklayer",
     "KEGGREST",
@@ -3921,9 +3841,7 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "MethTargetedNGS": [
-    "pwalign"
-  ],
+  "MethTargetedNGS": [],
   "MethylAid": [
     "minfi",
     "SummarizedExperiment",
@@ -3985,7 +3903,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "Modstrings": [],
   "MoleculeExperiment": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -4041,7 +3958,6 @@
     "cigarillo"
   ],
   "MotifPeeker": [
-    "universalmotif",
     "rtracklayer",
     "SummarizedExperiment",
     "Rsamtools",
@@ -4194,12 +4110,10 @@
     "InteractionSet",
     "txdbmaker",
     "KEGGREST",
-    "pwalign",
     "RBGL",
     "biomaRt",
     "graph",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "AnnotationHub",
     "HDF5Array",
@@ -4231,7 +4145,6 @@
     "Rsamtools",
     "KEGGREST",
     "ScaledMatrix",
-    "beachmat",
     "BSgenome",
     "HDF5Array",
     "rtracklayer",
@@ -4259,8 +4172,7 @@
     "SummarizedExperiment",
     "SingleCellExperiment",
     "BiocSingular",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "NoRCE": [
     "KEGGREST",
@@ -4345,7 +4257,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -4371,7 +4282,6 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "OmicCircos": [],
   "OmicsMLRepoR": [],
   "OncoScore": [
     "biomaRt",
@@ -4427,7 +4337,6 @@
     "cigarillo"
   ],
   "PCAtools": [
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -4454,7 +4363,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "PIPETS": [],
   "PIUMA": [
     "SummarizedExperiment"
   ],
@@ -4552,7 +4460,6 @@
     "ggtree"
   ],
   "PathoStat": [
-    "phyloseq",
     "DESeq2",
     "SummarizedExperiment"
   ],
@@ -4630,7 +4537,6 @@
     "MetaboCoreUtils"
   ],
   "ProteoDisco": [
-    "cleaver",
     "GenomicFeatures",
     "VariantAnnotation",
     "AnnotationDbi",
@@ -4684,13 +4590,10 @@
     "SummarizedExperiment",
     "AnnotationFilter"
   ],
-  "QSutils": [
-    "pwalign"
-  ],
+  "QSutils": [],
   "QTLExperiment": [
     "SummarizedExperiment"
   ],
-  "Qtlizer": [],
   "QuasR": [
     "BSgenome",
     "Rsamtools",
@@ -4704,7 +4607,6 @@
     "SummarizedExperiment",
     "GenomicAlignments",
     "VariantAnnotation",
-    "pwalign",
     "biomaRt",
     "cigarillo"
   ],
@@ -4729,7 +4631,6 @@
   ],
   "R453Plus1Toolbox": [
     "VariantAnnotation",
-    "pwalign",
     "SummarizedExperiment",
     "biomaRt",
     "BSgenome",
@@ -4768,7 +4669,6 @@
     "SummarizedExperiment",
     "bsseq",
     "BSgenome",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -4789,9 +4689,7 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "RCM": [
-    "phyloseq"
-  ],
+  "RCM": [],
   "RCSL": [
     "SingleCellExperiment",
     "SummarizedExperiment"
@@ -4809,7 +4707,6 @@
     "KEGGREST",
     "rtracklayer",
     "Rsamtools",
-    "pwalign",
     "GenomicAlignments",
     "GenomicFeatures",
     "RBGL",
@@ -4818,7 +4715,6 @@
     "graph",
     "InteractionSet",
     "regioneR",
-    "universalmotif",
     "ensembldb",
     "AnnotationFilter",
     "cigarillo"
@@ -4937,7 +4833,6 @@
     "BSgenome"
   ],
   "RNAmodR": [
-    "Modstrings",
     "txdbmaker",
     "GenomicFeatures",
     "GenomicAlignments",
@@ -4967,7 +4862,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "txdbmaker",
     "KEGGREST",
     "SummarizedExperiment",
@@ -4977,7 +4871,6 @@
   ],
   "RNAmodR.ML": [
     "RNAmodR",
-    "Modstrings",
     "txdbmaker",
     "GenomicFeatures",
     "GenomicAlignments",
@@ -5007,7 +4900,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "txdbmaker",
     "KEGGREST",
     "SummarizedExperiment",
@@ -5032,15 +4924,12 @@
     "KEGGgraph",
     "Rgraphviz"
   ],
-  "RPA": [
-    "phyloseq"
-  ],
+  "RPA": [],
   "RProtoBufLib": [],
   "RSVSim": [
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -5085,7 +4974,6 @@
     "KEGGREST",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -5125,7 +5013,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -5149,8 +5036,7 @@
   "ReactomeGSA": [
     "BiocSingular",
     "SummarizedExperiment",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "ReactomePA": [
     "AnnotationDbi",
@@ -5195,7 +5081,6 @@
     "scran",
     "BiocSingular",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "EpiDISH",
     "ScaledMatrix",
@@ -5349,7 +5234,6 @@
     "AnnotationFilter",
     "cigarillo",
     "rtracklayer",
-    "pwalign",
     "KEGGREST",
     "BSgenome"
   ],
@@ -5393,15 +5277,13 @@
     "SummarizedExperiment",
     "SingleCellExperiment",
     "BiocSingular",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "SCArray.sat": [
     "SCArray",
     "BiocSingular",
     "SummarizedExperiment",
     "ScaledMatrix",
-    "beachmat",
     "SingleCellExperiment"
   ],
   "SCOPE": [
@@ -5424,7 +5306,6 @@
     "AnnotationDbi",
     "VariantAnnotation",
     "GenomicFeatures",
-    "universalmotif",
     "ggtree",
     "KEGGREST",
     "rtracklayer",
@@ -5463,9 +5344,7 @@
     "KEGGREST",
     "cigarillo"
   ],
-  "SIAMCAT": [
-    "phyloseq"
-  ],
+  "SIAMCAT": [],
   "SICtools": [
     "Rsamtools"
   ],
@@ -5523,7 +5402,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "Rsamtools",
     "GenomicAlignments",
     "KEGGREST",
@@ -5551,7 +5429,6 @@
     "cigarillo"
   ],
   "SPLINTER": [
-    "pwalign",
     "biomaRt",
     "GenomicAlignments",
     "GenomicFeatures",
@@ -5579,7 +5456,6 @@
   ],
   "SPsimSeq": [
     "SingleCellExperiment",
-    "phyloseq",
     "SummarizedExperiment"
   ],
   "SRAdb": [
@@ -5605,8 +5481,7 @@
     "SingleCellExperiment",
     "SpatialExperiment",
     "BiocNeighbors",
-    "ggtree",
-    "beachmat"
+    "ggtree"
   ],
   "SWATH2stats": [
     "biomaRt",
@@ -5616,8 +5491,7 @@
   "SanityR": [
     "scuttle",
     "SingleCellExperiment",
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "Scale4C": [
     "SummarizedExperiment"
@@ -5656,13 +5530,11 @@
   ],
   "Seqtometry": [
     "BiocSingular",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "ShortRead": [
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -5691,7 +5563,6 @@
     "cigarillo"
   ],
   "SimBu": [
-    "phyloseq",
     "SummarizedExperiment"
   ],
   "SimFFPE": [
@@ -5728,12 +5599,10 @@
     "SummarizedExperiment",
     "cigarillo",
     "VariantAnnotation",
-    "pwalign",
     "biomaRt"
   ],
   "SingleR": [
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "Site2Target": [],
   "SmartPhos": [
@@ -5775,7 +5644,6 @@
     "SummarizedExperiment",
     "BiocSingular",
     "ScaledMatrix",
-    "beachmat",
     "scuttle",
     "bluster",
     "BiocNeighbors"
@@ -5789,7 +5657,6 @@
     "SpatialExperimentIO",
     "SingleCellExperiment",
     "HDF5Array",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -5801,7 +5668,6 @@
     "scran",
     "DropletUtils",
     "HDF5Array",
-    "beachmat",
     "scuttle",
     "BiocNeighbors",
     "BiocSingular",
@@ -5820,8 +5686,7 @@
     "SpatialExperiment",
     "SummarizedExperiment",
     "scuttle",
-    "SingleCellExperiment",
-    "beachmat"
+    "SingleCellExperiment"
   ],
   "SpatialCPie": [
     "SummarizedExperiment"
@@ -5840,7 +5705,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "HDF5Array",
-    "beachmat",
     "scuttle"
   ],
   "SpatialFeatureExperiment": [
@@ -5849,7 +5713,6 @@
     "SingleCellExperiment",
     "SpatialExperiment",
     "SummarizedExperiment",
-    "beachmat",
     "HDF5Array",
     "scuttle"
   ],
@@ -5873,13 +5736,10 @@
     "Spectra",
     "MetaboCoreUtils"
   ],
-  "SpiecEasi": [
-    "phyloseq"
-  ],
+  "SpiecEasi": [],
   "SpliceImpactR": [
     "SummarizedExperiment",
     "biomaRt",
-    "pwalign",
     "rtracklayer",
     "AnnotationDbi",
     "Rsamtools",
@@ -5920,8 +5780,7 @@
   "SplineDV": [
     "scuttle",
     "SingleCellExperiment",
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "SpotClean": [
     "SummarizedExperiment",
@@ -5933,21 +5792,18 @@
     "SummarizedExperiment",
     "BiocNeighbors",
     "SingleCellExperiment",
-    "escheR",
-    "beachmat"
+    "escheR"
   ],
   "StabMap": [
     "BiocNeighbors",
     "SummarizedExperiment",
     "BiocSingular",
-    "beachmat",
     "ScaledMatrix"
   ],
   "StatescopeR": [
     "SummarizedExperiment",
     "SingleCellExperiment",
     "scrapper",
-    "beachmat",
     "BiocNeighbors"
   ],
   "Statial": [
@@ -5967,7 +5823,6 @@
   "StructuralVariantAnnotation": [
     "rtracklayer",
     "VariantAnnotation",
-    "pwalign",
     "GenomicFeatures",
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -5990,7 +5845,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "SingleCellExperiment",
-    "phyloseq",
     "KEGGREST"
   ],
   "SynExtend": [
@@ -6103,7 +5957,6 @@
   ],
   "TFARM": [],
   "TFBSTools": [
-    "pwalign",
     "BSgenome",
     "rtracklayer",
     "Rsamtools",
@@ -6254,8 +6107,7 @@
   "UCell": [
     "BiocNeighbors",
     "SingleCellExperiment",
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "UMI4Cats": [
     "SummarizedExperiment",
@@ -6271,7 +6123,6 @@
     "AnnotationDbi",
     "rtracklayer",
     "cigarillo",
-    "pwalign",
     "KEGGREST"
   ],
   "UPDhmm": [
@@ -6307,7 +6158,6 @@
     "SummarizedExperiment",
     "scater",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -6451,7 +6301,6 @@
     "SummarizedExperiment",
     "BiocNeighbors",
     "DropletUtils",
-    "beachmat",
     "HDF5Array",
     "scuttle"
   ],
@@ -6601,7 +6450,6 @@
     "scater",
     "apeglm",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -6671,7 +6519,6 @@
     "DropletUtils",
     "alabaster.ranges",
     "alabaster.matrix",
-    "beachmat",
     "HDF5Array",
     "scuttle"
   ],
@@ -6708,7 +6555,6 @@
     "graph"
   ],
   "amplican": [
-    "pwalign",
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
@@ -6853,7 +6699,6 @@
     "Rsamtools",
     "TFBSTools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -6944,7 +6789,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -6958,8 +6802,7 @@
     "BiocSingular",
     "scuttle",
     "ResidualMatrix",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "bayNorm": [
     "SingleCellExperiment",
@@ -6967,13 +6810,10 @@
   ],
   "baySeq": [],
   "bcSeq": [],
-  "beachmat": [],
   "beachmat.hdf5": [
-    "beachmat",
     "HDF5Array"
   ],
   "beachmat.tiledb": [
-    "beachmat",
     "TileDBArray"
   ],
   "beadarray": [
@@ -6992,7 +6832,6 @@
     "SummarizedExperiment"
   ],
   "benchdamic": [
-    "phyloseq",
     "TreeSummarizedExperiment",
     "zinbwave",
     "DESeq2",
@@ -7127,7 +6966,6 @@
     "ExperimentHub",
     "AnnotationHub",
     "BSgenome",
-    "beachmat",
     "bumphunter",
     "annotatr",
     "AnnotationDbi",
@@ -7157,7 +6995,6 @@
     "SingleCellExperiment",
     "scater",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -7168,8 +7005,7 @@
     "KEGGREST"
   ],
   "bluster": [
-    "BiocNeighbors",
-    "beachmat"
+    "BiocNeighbors"
   ],
   "bnbc": [
     "SummarizedExperiment",
@@ -7199,7 +7035,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -7241,7 +7076,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -7426,7 +7260,6 @@
     "scater",
     "scran",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "bluster",
@@ -7491,7 +7324,6 @@
     "GenomicFeatures",
     "megadepth",
     "SummarizedExperiment",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "rtracklayer",
@@ -7519,7 +7351,6 @@
     "BiocSingular",
     "ResidualMatrix",
     "ScaledMatrix",
-    "beachmat",
     "AnnotationFilter",
     "AnnotationDbi",
     "rtracklayer",
@@ -7547,7 +7378,6 @@
     "BiocSingular",
     "ResidualMatrix",
     "ScaledMatrix",
-    "beachmat",
     "AnnotationFilter",
     "AnnotationDbi",
     "Rsamtools",
@@ -7590,7 +7420,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -7601,7 +7430,6 @@
     "KEGGREST"
   ],
   "chromVAR": [
-    "pwalign",
     "TFBSTools",
     "Rsamtools",
     "SummarizedExperiment",
@@ -7635,7 +7463,6 @@
   "circRNAprofiler": [
     "rtracklayer",
     "DESeq2",
-    "universalmotif",
     "AnnotationHub",
     "gwascat",
     "BSgenome",
@@ -7656,7 +7483,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "cleaver": [],
   "cliProfiler": [
     "rtracklayer",
     "BSgenome",
@@ -7701,7 +7527,6 @@
     "scater",
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "beachmat",
     "scuttle",
     "BiocSingular",
     "ScaledMatrix"
@@ -7714,7 +7539,6 @@
     "zinbwave",
     "mbkmeans",
     "ScaledMatrix",
-    "beachmat",
     "genefilter",
     "AnnotationDbi",
     "annotate",
@@ -7765,7 +7589,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "coRdon": [],
   "codelink": [
     "annotate",
     "AnnotationDbi",
@@ -7792,7 +7615,6 @@
     "cigarillo"
   ],
   "combi": [
-    "phyloseq",
     "SummarizedExperiment"
   ],
   "compEpiTools": [
@@ -7820,8 +7642,7 @@
     "bluster",
     "SingleCellExperiment",
     "SpatialExperiment",
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "condiments": [
     "slingshot",
@@ -7831,7 +7652,6 @@
     "distinct",
     "scater",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -7988,7 +7808,6 @@
     "crisprDesign",
     "crisprScore",
     "crisprViz",
-    "pwalign",
     "rtracklayer",
     "Rsamtools",
     "AnnotationDbi",
@@ -8118,7 +7937,6 @@
     "SummarizedExperiment",
     "flowCore",
     "BiocNeighbors",
-    "beachmat",
     "cytolib",
     "RProtoBufLib"
   ],
@@ -8150,7 +7968,6 @@
     "cytolib",
     "RProtoBufLib",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -8175,7 +7992,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -8186,7 +8002,6 @@
     "AnnotationDbi",
     "TFBSTools",
     "KEGGREST",
-    "pwalign",
     "BSgenome",
     "rtracklayer",
     "Rsamtools",
@@ -8222,12 +8037,10 @@
     "SummarizedExperiment",
     "BiocNeighbors",
     "BiocSingular",
-    "beachmat",
     "ScaledMatrix"
   ],
   "dar": [
     "mia",
-    "phyloseq",
     "MultiAssayExperiment",
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -8237,7 +8050,6 @@
     "scater",
     "BiocNeighbors",
     "scuttle",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -8298,7 +8110,6 @@
     "SummarizedExperiment",
     "scran",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix",
@@ -8440,7 +8251,6 @@
     "SingleCellExperiment",
     "scater",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -8469,7 +8279,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "Rsamtools",
     "GenomicAlignments",
     "KEGGREST",
@@ -8501,7 +8310,6 @@
     "GenomicFeatures",
     "KEGGREST",
     "rtracklayer",
-    "pwalign",
     "Rsamtools",
     "GenomicAlignments",
     "SummarizedExperiment",
@@ -8512,7 +8320,6 @@
     "SummarizedExperiment",
     "GSEABase",
     "zenith",
-    "beachmat",
     "annotate",
     "graph",
     "AnnotationDbi",
@@ -8557,7 +8364,6 @@
     "ShortRead",
     "AnnotationDbi",
     "cigarillo",
-    "pwalign",
     "KEGGREST"
   ],
   "easylift": [
@@ -8580,7 +8386,6 @@
   "enhancerHomologSearch": [
     "BSgenome",
     "motifmatchr",
-    "pwalign",
     "rtracklayer",
     "Rsamtools",
     "TFBSTools",
@@ -8653,7 +8458,6 @@
     "KEGGREST",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "DOSE",
     "ggtree",
     "GOSemSim",
@@ -8729,12 +8533,10 @@
     "Rsamtools",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "BiocNeighbors",
     "KEGGREST",
     "ScaledMatrix",
     "rtracklayer",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -8748,7 +8550,6 @@
     "enrichplot",
     "GOSemSim",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "bluster",
@@ -8845,7 +8646,6 @@
     "GOSemSim",
     "SummarizedExperiment",
     "cigarillo",
-    "pwalign",
     "DOSE",
     "ggtree"
   ],
@@ -9167,7 +8967,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -9426,9 +9225,7 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "ggseqalign": [
-    "pwalign"
-  ],
+  "ggseqalign": [],
   "ggspavis": [
     "SpatialExperiment",
     "SingleCellExperiment",
@@ -9450,7 +9247,6 @@
     "AnnotationDbi"
   ],
   "glmGamPoi": [
-    "beachmat",
     "HDF5Array",
     "SummarizedExperiment",
     "SingleCellExperiment"
@@ -9776,7 +9572,6 @@
     "scater",
     "BiocNeighbors",
     "scuttle",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -9801,7 +9596,6 @@
     "DESeq2",
     "cigarillo",
     "AnnotationDbi",
-    "pwalign",
     "BSgenome",
     "KEGGREST"
   ],
@@ -9886,7 +9680,6 @@
     "cytomapper",
     "SingleCellExperiment",
     "BiocNeighbors",
-    "beachmat",
     "HDF5Array"
   ],
   "immApex": [
@@ -9967,8 +9760,7 @@
   ],
   "jvecfor": [
     "BiocNeighbors",
-    "bluster",
-    "beachmat"
+    "bluster"
   ],
   "karyoploteR": [
     "regioneR",
@@ -10013,7 +9805,6 @@
     "bsseq",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -10058,7 +9849,6 @@
     "scater",
     "BiocNeighbors",
     "scuttle",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -10067,8 +9857,7 @@
     "SummarizedExperiment",
     "glmGamPoi",
     "HDF5Array",
-    "BiocNeighbors",
-    "beachmat"
+    "BiocNeighbors"
   ],
   "limpca": [
     "SummarizedExperiment"
@@ -10249,13 +10038,10 @@
   "matter": [],
   "mbkmeans": [
     "SingleCellExperiment",
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "megadepth": [],
-  "memes": [
-    "universalmotif"
-  ],
+  "memes": [],
   "meshes": [
     "AnnotationDbi",
     "GOSemSim",
@@ -10296,7 +10082,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -10335,9 +10120,7 @@
     "cigarillo",
     "KEGGREST",
     "BSgenome",
-    "HDF5Array",
-    "beachmat",
-    "pwalign"
+    "HDF5Array"
   ],
   "methInheritSim": [
     "methylKit",
@@ -10362,7 +10145,6 @@
     "biocViews",
     "graph",
     "Rsamtools",
-    "beachmat",
     "GenomicAlignments",
     "KEGGREST",
     "RBGL",
@@ -10388,7 +10170,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "GenomicFeatures",
     "AnnotationDbi",
     "annotate",
@@ -10462,7 +10243,6 @@
     "SummarizedExperiment",
     "BSgenome",
     "HDF5Array",
-    "beachmat",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -10496,7 +10276,6 @@
     "cigarillo"
   ],
   "methylscaper": [
-    "pwalign",
     "SummarizedExperiment"
   ],
   "methylumi": [
@@ -10585,7 +10364,6 @@
     "scater",
     "BiocNeighbors",
     "scuttle",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -10604,7 +10382,6 @@
     "miaViz",
     "MultiAssayExperiment",
     "DECIPHER",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -10624,7 +10401,6 @@
     "scater",
     "BiocNeighbors",
     "scuttle",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -10639,18 +10415,13 @@
     "bluster",
     "DECIPHER",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
   ],
   "microRNA": [],
-  "microbiome": [
-    "phyloseq"
-  ],
-  "microbiomeDASim": [
-    "phyloseq"
-  ],
+  "microbiome": [],
+  "microbiomeDASim": [],
   "microbiomeExplorer": [
     "DESeq2",
     "SummarizedExperiment"
@@ -10664,7 +10435,6 @@
     "SingleCellExperiment",
     "BiocSingular",
     "SummarizedExperiment",
-    "beachmat",
     "ScaledMatrix"
   ],
   "mimager": [
@@ -10787,7 +10557,6 @@
     "TFBSTools",
     "rtracklayer",
     "Rsamtools",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -10826,7 +10595,6 @@
   ],
   "motifStack": [
     "TFBSTools",
-    "pwalign",
     "BSgenome",
     "rtracklayer",
     "Rsamtools",
@@ -10834,9 +10602,7 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "motifTestR": [
-    "universalmotif"
-  ],
+  "motifTestR": [],
   "motifbreakR": [
     "MotifDb",
     "BSgenome",
@@ -10845,7 +10611,6 @@
     "motifStack",
     "Gviz",
     "SummarizedExperiment",
-    "pwalign",
     "biomaRt",
     "AnnotationDbi",
     "Rsamtools",
@@ -10858,14 +10623,12 @@
     "AnnotationFilter",
     "cigarillo"
   ],
-  "motifcounter": [],
   "motifmatchr": [
     "TFBSTools",
     "BSgenome",
     "SummarizedExperiment",
     "Rsamtools",
     "rtracklayer",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -10879,7 +10642,6 @@
     "SummarizedExperiment",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "ScaledMatrix",
     "BiocNeighbors"
   ],
@@ -10906,8 +10668,7 @@
     "AnnotationFilter",
     "KEGGREST",
     "graph",
-    "RBGL",
-    "pwalign"
+    "RBGL"
   ],
   "mslp": [
     "AnnotationDbi",
@@ -10999,7 +10760,6 @@
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix",
-    "beachmat",
     "scuttle",
     "scran",
     "batchelor",
@@ -11011,12 +10771,10 @@
     "scuttle",
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
   ],
-  "muscle": [],
   "musicatk": [
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -11107,7 +10865,6 @@
     "zinbwave",
     "mbkmeans",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "ScaledMatrix",
     "genefilter",
@@ -11122,7 +10879,6 @@
     "Rgraphviz",
     "graph"
   ],
-  "ngsReports": [],
   "nipalsMCIA": [
     "fgsea",
     "MultiAssayExperiment",
@@ -11163,7 +10919,6 @@
     "Rsamtools",
     "ShortRead",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -11198,7 +10953,6 @@
     "annotate",
     "graph",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "odseq": [
@@ -11248,7 +11002,6 @@
     "scater",
     "SummarizedExperiment",
     "BiocSingular",
-    "beachmat",
     "QFeatures",
     "ScaledMatrix",
     "MultiAssayExperiment",
@@ -11290,7 +11043,6 @@
     "Rgraphviz"
   ],
   "openPrimeR": [
-    "pwalign",
     "DECIPHER"
   ],
   "oposSOM": [
@@ -11375,7 +11127,6 @@
     "SummarizedExperiment",
     "Rsamtools",
     "rtracklayer",
-    "pwalign",
     "GenomicAlignments",
     "cigarillo"
   ],
@@ -11515,7 +11266,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -11566,7 +11316,6 @@
   "philr": [
     "ggtree"
   ],
-  "phyloseq": [],
   "piano": [
     "fgsea"
   ],
@@ -11576,7 +11325,6 @@
     "scran",
     "scater",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "bluster",
@@ -11651,7 +11399,6 @@
     "bluster",
     "SpatialExperiment",
     "SummarizedExperiment",
-    "beachmat",
     "SingleCellExperiment"
   ],
   "pogos": [
@@ -11668,7 +11415,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -11689,7 +11435,6 @@
     "graph",
     "KEGGREST",
     "annotate",
-    "universalmotif",
     "DOSE",
     "ggtree"
   ],
@@ -11707,8 +11452,7 @@
     "RPA",
     "SummarizedExperiment",
     "Rsamtools",
-    "cigarillo",
-    "phyloseq"
+    "cigarillo"
   ],
   "preciseTAD": [
     "rCGH",
@@ -11736,7 +11480,6 @@
     "biovizBase",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "KEGGREST",
     "SummarizedExperiment",
     "VariantAnnotation",
@@ -11858,7 +11601,6 @@
   "pvca": [
     "vsn"
   ],
-  "pwalign": [],
   "qPLEXanalyzer": [
     "MSnbase",
     "PSMatch",
@@ -11931,7 +11673,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "queeems": [],
   "r3Cseq": [
     "Rsamtools",
     "rtracklayer",
@@ -12009,9 +11750,7 @@
   "rebook": [
     "graph"
   ],
-  "reconsi": [
-    "phyloseq"
-  ],
+  "reconsi": [],
   "recount": [
     "SummarizedExperiment",
     "derfinder",
@@ -12082,7 +11821,6 @@
   ],
   "regionalpcs": [
     "PCAtools",
-    "beachmat",
     "BiocSingular",
     "ScaledMatrix"
   ],
@@ -12147,8 +11885,7 @@
   "rhdf5client": [],
   "rhinotypeR": [
     "MSA2dist",
-    "msa",
-    "pwalign"
+    "msa"
   ],
   "riboSeqR": [
     "Rsamtools",
@@ -12170,8 +11907,7 @@
     "biomaRt",
     "SummarizedExperiment",
     "cigarillo",
-    "TFBSTools",
-    "pwalign"
+    "TFBSTools"
   ],
   "rifi": [
     "SummarizedExperiment",
@@ -12266,13 +12002,10 @@
     "KEGGREST"
   ],
   "sangeranalyseR": [
-    "pwalign",
     "DECIPHER",
     "sangerseqR"
   ],
-  "sangerseqR": [
-    "pwalign"
-  ],
+  "sangerseqR": [],
   "saseR": [
     "ASpli",
     "DESeq2",
@@ -12321,7 +12054,6 @@
     "SummarizedExperiment",
     "DropletUtils",
     "HDF5Array",
-    "beachmat",
     "scuttle"
   ],
   "scClassify": [
@@ -12348,7 +12080,6 @@
     "scuttle",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "ScaledMatrix",
     "BiocNeighbors"
   ],
@@ -12375,7 +12106,6 @@
     "bluster",
     "Rsamtools",
     "rtracklayer",
-    "beachmat",
     "ScaledMatrix",
     "GenomicAlignments",
     "cigarillo"
@@ -12388,8 +12118,7 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "bluster",
-    "BiocNeighbors",
-    "beachmat"
+    "BiocNeighbors"
   ],
   "scDotPlot": [
     "ggtree",
@@ -12397,7 +12126,6 @@
     "SingleCellExperiment",
     "scuttle",
     "SummarizedExperiment",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -12466,7 +12194,6 @@
     "scuttle",
     "ResidualMatrix",
     "ScaledMatrix",
-    "beachmat",
     "bluster"
   ],
   "scMitoMut": [],
@@ -12488,7 +12215,6 @@
     "SummarizedExperiment",
     "KEGGREST",
     "HDF5Array",
-    "beachmat",
     "scuttle",
     "cigarillo"
   ],
@@ -12568,7 +12294,6 @@
     "GenomicFeatures",
     "ensembldb",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "bluster",
@@ -12592,7 +12317,6 @@
     "scuttle",
     "SummarizedExperiment",
     "BiocSingular",
-    "beachmat",
     "ScaledMatrix"
   ],
   "scafari": [
@@ -12617,9 +12341,7 @@
     "graph",
     "RBGL"
   ],
-  "scanMiR": [
-    "pwalign"
-  ],
+  "scanMiR": [],
   "scanMiRApp": [
     "scanMiR",
     "AnnotationDbi",
@@ -12632,7 +12354,6 @@
     "KEGGREST",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "biomaRt",
     "SummarizedExperiment",
     "cigarillo"
@@ -12641,7 +12362,6 @@
     "SingleCellExperiment",
     "scuttle",
     "SummarizedExperiment",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -12665,7 +12385,6 @@
     "SingleCellExperiment",
     "BiocNeighbors",
     "DropletUtils",
-    "beachmat",
     "HDF5Array",
     "scuttle"
   ],
@@ -12673,7 +12392,6 @@
     "DECIPHER",
     "sangerseqR",
     "flowCore",
-    "pwalign",
     "cytolib",
     "RProtoBufLib"
   ],
@@ -12693,7 +12411,6 @@
     "regioneR",
     "rtracklayer",
     "Rsamtools",
-    "beachmat",
     "KEGGREST",
     "GenomicAlignments",
     "cigarillo"
@@ -12711,7 +12428,6 @@
     "KEGGREST",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "scoreInvHap": [
@@ -12739,12 +12455,10 @@
     "SummarizedExperiment",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "ScaledMatrix",
     "BiocNeighbors"
   ],
   "scrapper": [
-    "beachmat",
     "BiocNeighbors"
   ],
   "screenCounter": [
@@ -12769,7 +12483,6 @@
     "OrganismDbi",
     "ensembldb",
     "AnnotationFilter",
-    "pwalign",
     "biomaRt",
     "graph",
     "RBGL"
@@ -12778,20 +12491,17 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "BiocSingular",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "scuttle": [
     "SingleCellExperiment",
-    "SummarizedExperiment",
-    "beachmat"
+    "SummarizedExperiment"
   ],
   "scviR": [
     "SingleCellExperiment",
     "SummarizedExperiment",
     "scater",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -12804,7 +12514,6 @@
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -12888,7 +12597,6 @@
     "SummarizedExperiment",
     "AnnotationDbi",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "SpatialExperiment",
@@ -12902,7 +12610,6 @@
     "GenomicFeatures",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "shinyMethyl": [
@@ -12994,8 +12701,7 @@
   "simPIC": [
     "SingleCellExperiment",
     "SummarizedExperiment",
-    "scuttle",
-    "beachmat"
+    "scuttle"
   ],
   "simona": [],
   "simpleSeg": [
@@ -13024,7 +12730,6 @@
     "AnnotationHub",
     "BiocSingular",
     "bluster",
-    "beachmat",
     "KEGGREST",
     "ScaledMatrix",
     "BiocNeighbors"
@@ -13060,7 +12765,6 @@
     "BiocSingular",
     "ResidualMatrix",
     "ScaledMatrix",
-    "beachmat",
     "alabaster.matrix",
     "alabaster.se",
     "HDF5Array",
@@ -13104,7 +12808,6 @@
   "sitePath": [
     "ggtree"
   ],
-  "sketchR": [],
   "skewr": [
     "methylumi",
     "wateRmelon",
@@ -13145,7 +12848,6 @@
     "SpatialExperiment",
     "SummarizedExperiment",
     "BiocNeighbors",
-    "beachmat",
     "SingleCellExperiment"
   ],
   "smoppix": [
@@ -13247,7 +12949,6 @@
     "cytolib",
     "RProtoBufLib",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -13257,7 +12958,6 @@
     "scrapper",
     "scuttle",
     "SummarizedExperiment",
-    "beachmat",
     "BiocNeighbors"
   ],
   "splicelogic": [
@@ -13280,8 +12980,7 @@
     "nnSVG",
     "SummarizedExperiment",
     "scuttle",
-    "SingleCellExperiment",
-    "beachmat"
+    "SingleCellExperiment"
   ],
   "spqn": [
     "SummarizedExperiment"
@@ -13321,7 +13020,6 @@
   "ssPATHS": [
     "SummarizedExperiment"
   ],
-  "sscu": [],
   "ssviz": [
     "Rsamtools"
   ],
@@ -13337,7 +13035,6 @@
     "SingleCellExperiment",
     "SpatialExperiment",
     "HDF5Array",
-    "beachmat",
     "scuttle",
     "AnnotationDbi",
     "biomaRt",
@@ -13375,7 +13072,6 @@
     "KEGGREST",
     "rtracklayer",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "strandCheckR": [
@@ -13422,7 +13118,6 @@
     "VariantAnnotation",
     "StructuralVariantAnnotation",
     "GenomicFeatures",
-    "pwalign",
     "AnnotationDbi",
     "Rsamtools",
     "GenomicAlignments",
@@ -13440,7 +13135,6 @@
     "KEGGREST",
     "Rsamtools",
     "GenomicAlignments",
-    "pwalign",
     "SummarizedExperiment",
     "BSgenome",
     "cigarillo"
@@ -13456,7 +13150,6 @@
     "ShortRead",
     "SummarizedExperiment",
     "GenomicAlignments",
-    "pwalign",
     "cigarillo"
   ],
   "systemPipeTools": [
@@ -13477,11 +13170,9 @@
     "cigarillo"
   ],
   "tRNA": [
-    "Structstrings",
-    "Modstrings"
+    "Structstrings"
   ],
   "tRNAdbImport": [
-    "Modstrings",
     "Structstrings",
     "tRNA"
   ],
@@ -13492,7 +13183,6 @@
     "BSgenome",
     "Rsamtools",
     "GenomicAlignments",
-    "Modstrings",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -13526,7 +13216,6 @@
   "tanggle": [
     "ggtree"
   ],
-  "target": [],
   "tenXplore": [
     "ontoProc",
     "SummarizedExperiment",
@@ -13685,8 +13374,7 @@
     "SummarizedExperiment",
     "cigarillo",
     "AnnotationDbi",
-    "KEGGREST",
-    "pwalign"
+    "KEGGREST"
   ],
   "transcriptogramer": [
     "biomaRt",
@@ -13699,10 +13387,8 @@
     "glmGamPoi",
     "SummarizedExperiment",
     "HDF5Array",
-    "beachmat",
     "SingleCellExperiment"
   ],
-  "transite": [],
   "transmogR": [
     "BSgenome",
     "GenomicFeatures",
@@ -13757,7 +13443,6 @@
     "SummarizedExperiment",
     "KEGGREST",
     "scuttle",
-    "beachmat",
     "BiocNeighbors",
     "BiocSingular",
     "ScaledMatrix"
@@ -13829,15 +13514,13 @@
     "cigarillo"
   ],
   "unifiedWMWqPCR": [],
-  "universalmotif": [],
   "velociraptor": [
     "SummarizedExperiment",
     "zellkonverter",
     "scuttle",
     "SingleCellExperiment",
     "BiocSingular",
-    "ScaledMatrix",
-    "beachmat"
+    "ScaledMatrix"
   ],
   "vidger": [
     "DESeq2",
@@ -13849,7 +13532,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "HDF5Array",
-    "beachmat",
     "scuttle",
     "AnnotationHub",
     "scater",
@@ -13918,7 +13600,6 @@
     "csaw",
     "DESeq2",
     "AnnotationDbi",
-    "pwalign",
     "GenomicAlignments",
     "GenomicFeatures",
     "RBGL",
@@ -13930,7 +13611,6 @@
     "KEGGREST",
     "regioneR",
     "rtracklayer",
-    "universalmotif",
     "ensembldb",
     "systemPipeR",
     "apeglm",
@@ -14081,7 +13761,6 @@
     "KEGGREST"
   ],
   "zitools": [
-    "phyloseq",
     "SummarizedExperiment",
     "DESeq2"
   ]
