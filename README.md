@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 11 (0%)
+- **Successfully Built:** 15 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 338
+- **In Progress:** 334
 - **Not Started:** 2088
 
 **Progress:** 0%
@@ -16,7 +16,7 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (11)
+## Successfully Built Packages (15)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -30,14 +30,16 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
+| [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
+| [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
+| [REBET](https://bioconductor.org/packages/3.24/bioc/html/REBET.html) | [log](logs/REBET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/REBET) |
+| [qvalue](https://bioconductor.org/packages/3.24/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/qvalue) |
 
-## In Progress (338)
+## In Progress (334)
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
-- ⏳ `BaseSpaceR`
 - ⏳ `BenchHub`
-- ⏳ `BioCartaImage`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
@@ -83,8 +85,10 @@
 - ⏳ `GGPA`
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
+- ⏳ `GPA`
+- ⏳ `GRENITS`
 
-... and 288 more ...
+... and 284 more ...
 
 ## Not Yet Started (2088)
 - ⏸️ `ABSSeq`
@@ -141,5 +145,5 @@
 ... and 2038 more ...
 
 ---
-*Last updated: 2026-11-03 02:53:38 UTC*
-*Packages with verified BBS status: 11*
+*Last updated: 2026-11-03 02:58:25 UTC*
+*Packages with verified BBS status: 15*
