@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 66 (2%)
+- **Successfully Built:** 73 (3%)
 - **Failed:** 1 (0%)
-- **In Progress:** 297
+- **In Progress:** 290
 - **Not Started:** 2021
 
-**Progress:** 2%
+**Progress:** 3%
 ```
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (66)
+## Successfully Built Packages (73)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -41,22 +41,22 @@
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CONSTANd](https://bioconductor.org/packages/3.23/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CONSTANd) |
 | [COSNet](https://bioconductor.org/packages/3.23/bioc/html/COSNet.html) | [log](logs/COSNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COSNet) |
-| [EnMCB](https://bioconductor.org/packages/3.23/bioc/html/EnMCB.html) | [log](logs/EnMCB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EnMCB) |
-| [HPAanalyze](https://bioconductor.org/packages/3.23/bioc/html/HPAanalyze.html) | [log](logs/HPAanalyze/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPAanalyze) |
-| [HPiP](https://bioconductor.org/packages/3.23/bioc/html/HPiP.html) | [log](logs/HPiP/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPiP) |
-| [MassArray](https://bioconductor.org/packages/3.23/bioc/html/MassArray.html) | [log](logs/MassArray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MassArray) |
+| [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
+| [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
+| [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
+| [ClusterSignificance](https://bioconductor.org/packages/3.23/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterSignificance) |
 
-*... and 16 more ...*
+*... and 23 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [Path2PPI](https://bioconductor.org/packages/3.23/bioc/html/Path2PPI.html) | [log](logs/Path2PPI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Path2PPI) |
 | [PathNet](https://bioconductor.org/packages/3.23/bioc/html/PathNet.html) | [log](logs/PathNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PathNet) |
 | [PepsNMR](https://bioconductor.org/packages/3.23/bioc/html/PepsNMR.html) | [log](logs/PepsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PepsNMR) |
 | [PhenoGeneRanker](https://bioconductor.org/packages/3.23/bioc/html/PhenoGeneRanker.html) | [log](logs/PhenoGeneRanker/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PhenoGeneRanker) |
 | [PoDCall](https://bioconductor.org/packages/3.23/bioc/html/PoDCall.html) | [log](logs/PoDCall/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PoDCall) |
 | [ProtGenerics](https://bioconductor.org/packages/3.23/bioc/html/ProtGenerics.html) | [log](logs/ProtGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ProtGenerics) |
 | [QUBIC](https://bioconductor.org/packages/3.23/bioc/html/QUBIC.html) | [log](logs/QUBIC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/QUBIC) |
+| [Rbowtie](https://bioconductor.org/packages/3.23/bioc/html/Rbowtie.html) | [log](logs/Rbowtie/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Rbowtie) |
 | [SANTA](https://bioconductor.org/packages/3.23/bioc/html/SANTA.html) | [log](logs/SANTA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SANTA) |
 | [TrajectoryGeometry](https://bioconductor.org/packages/3.23/bioc/html/TrajectoryGeometry.html) | [log](logs/TrajectoryGeometry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TrajectoryGeometry) |
 | [VERSO](https://bioconductor.org/packages/3.23/bioc/html/VERSO.html) | [log](logs/VERSO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/VERSO) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (297)
+## In Progress (290)
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
@@ -93,12 +93,7 @@
 - ⏳ `BridgeDbR`
 - ⏳ `BufferedMatrix`
 - ⏳ `CGEN`
-- ⏳ `CausalR`
 - ⏳ `Chicago`
-- ⏳ `Clomial`
-- ⏳ `ClusterJudge`
-- ⏳ `ClusterSignificance`
-- ⏳ `ComPrAn`
 - ⏳ `DART`
 - ⏳ `DCATS`
 - ⏳ `DNABarcodeCompatibility`
@@ -106,7 +101,6 @@
 - ⏳ `DNAcopy`
 - ⏳ `DTA`
 - ⏳ `DeMAND`
-- ⏳ `DiffLogo`
 - ⏳ `DriverNet`
 - ⏳ `DynDoc`
 - ⏳ `EBSeq`
@@ -133,8 +127,14 @@
 - ⏳ `GeneGA`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
+- ⏳ `GladiaTOX`
+- ⏳ `GraphAlignment`
+- ⏳ `HDTD`
+- ⏳ `HGC`
+- ⏳ `HIBAG`
+- ⏳ `HIREewas`
 
-... and 247 more ...
+... and 240 more ...
 
 ## Not Yet Started (2021)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1971 more ...
 
 ---
-*Last updated: 2026-11-03 03:00:32 UTC*
-*Packages with verified BBS status: 66*
+*Last updated: 2026-11-03 03:03:07 UTC*
+*Packages with verified BBS status: 71*
