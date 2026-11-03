@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 82 (3%)
+- **Successfully Built:** 84 (3%)
 - **Failed:** 0 (0%)
-- **In Progress:** 283
+- **In Progress:** 281
 - **Not Started:** 2072
 
 **Progress:** 3%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (82)
+## Successfully Built Packages (84)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -40,17 +40,16 @@
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [DNABarcodes](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodes.html) | [log](logs/DNABarcodes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodes) |
+| [EnMCB](https://bioconductor.org/packages/3.24/bioc/html/EnMCB.html) | [log](logs/EnMCB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EnMCB) |
 | [GRENITS](https://bioconductor.org/packages/3.24/bioc/html/GRENITS.html) | [log](logs/GRENITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GRENITS) |
 | [GSALightning](https://bioconductor.org/packages/3.24/bioc/html/GSALightning.html) | [log](logs/GSALightning/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSALightning) |
 | [GSAR](https://bioconductor.org/packages/3.24/bioc/html/GSAR.html) | [log](logs/GSAR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSAR) |
 | [GSEAmining](https://bioconductor.org/packages/3.24/bioc/html/GSEAmining.html) | [log](logs/GSEAmining/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSEAmining) |
-| [GSgalgoR](https://bioconductor.org/packages/3.24/bioc/html/GSgalgoR.html) | [log](logs/GSgalgoR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSgalgoR) |
 
-*... and 32 more ...*
+*... and 34 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [easyreporting](https://bioconductor.org/packages/3.24/bioc/html/easyreporting.html) | [log](logs/easyreporting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/easyreporting) |
 | [eds](https://bioconductor.org/packages/3.24/bioc/html/eds.html) | [log](logs/eds/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/eds) |
 | [epivizrServer](https://bioconductor.org/packages/3.24/bioc/html/epivizrServer.html) | [log](logs/epivizrServer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/epivizrServer) |
 | [fCI](https://bioconductor.org/packages/3.24/bioc/html/fCI.html) | [log](logs/fCI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/fCI) |
@@ -59,6 +58,7 @@
 | [graper](https://bioconductor.org/packages/3.24/bioc/html/graper.html) | [log](logs/graper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/graper) |
 | [hypeR](https://bioconductor.org/packages/3.24/bioc/html/hypeR.html) | [log](logs/hypeR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/hypeR) |
 | [iSeq](https://bioconductor.org/packages/3.24/bioc/html/iSeq.html) | [log](logs/iSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/iSeq) |
+| [imageTCGA](https://bioconductor.org/packages/3.24/bioc/html/imageTCGA.html) | [log](logs/imageTCGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/imageTCGA) |
 | [messina](https://bioconductor.org/packages/3.24/bioc/html/messina.html) | [log](logs/messina/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/messina) |
 | [metahdep](https://bioconductor.org/packages/3.24/bioc/html/metahdep.html) | [log](logs/metahdep/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metahdep) |
 | [mistyR](https://bioconductor.org/packages/3.24/bioc/html/mistyR.html) | [log](logs/mistyR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/mistyR) |
@@ -76,7 +76,7 @@
 | [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
-## In Progress (283)
+## In Progress (281)
 - ⏳ `BADER`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -108,7 +108,6 @@
 - ⏳ `DynDoc`
 - ⏳ `EBSeq`
 - ⏳ `EmpiricalBrownsMethod`
-- ⏳ `EnMCB`
 - ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
 - ⏳ `FRGEpistasis`
@@ -127,8 +126,9 @@
 - ⏳ `HIREewas`
 - ⏳ `HPAanalyze`
 - ⏳ `HPiP`
+- ⏳ `HVP`
 
-... and 233 more ...
+... and 231 more ...
 
 ## Not Yet Started (2072)
 - ⏸️ `ABSSeq`
@@ -185,5 +185,5 @@
 ... and 2022 more ...
 
 ---
-*Last updated: 2026-11-03 03:37:16 UTC*
-*Packages with verified BBS status: 77*
+*Last updated: 2026-11-03 03:40:54 UTC*
+*Packages with verified BBS status: 79*
