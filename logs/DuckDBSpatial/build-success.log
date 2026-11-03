@@ -1,0 +1,47 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''DuckDBSpatial'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'DuckDBSpatial'
+also installing the dependency ‘lwgeom’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/lwgeom_0.2-17.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DuckDBSpatial_0.99.11.tar.gz'
+* installing *binary* package ‘lwgeom’ ...
+* package ‘lwgeom’ successfully unpacked and SHA256 sums checked
+* ‘lwgeom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lwgeom’ as ‘lwgeom_0.2-17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lwgeom)
+* installing *source* package ‘DuckDBSpatial’ ...
+** this is package ‘DuckDBSpatial’ version ‘0.99.11’
+** package ‘DuckDBSpatial’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DuckDBSpatial’ as ‘DuckDBSpatial_0.99.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DuckDBSpatial)
+
+The downloaded source packages are in
+	‘/tmp/RtmpR01E6B/downloaded_packages’
+
+real	0m35.652s
+user	0m30.518s
+sys	0m4.469s
