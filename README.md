@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 331 (13%)
+- **Successfully Built:** 335 (13%)
 - **Failed:** 4 (0%)
-- **In Progress:** 105
-- **Not Started:** 1997
+- **In Progress:** 107
+- **Not Started:** 1991
 
 **Progress:** 13%
 ```
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (331)
+## Successfully Built Packages (335)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 
-*... and 281 more ...*
+*... and 285 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [scFeatureFilter](https://bioconductor.org/packages/3.24/bioc/html/scFeatureFilter.html) | [log](logs/scFeatureFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scFeatureFilter) |
 | [scTHI](https://bioconductor.org/packages/3.24/bioc/html/scTHI.html) | [log](logs/scTHI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTHI) |
 | [scToppR](https://bioconductor.org/packages/3.24/bioc/html/scToppR.html) | [log](logs/scToppR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scToppR) |
 | [scatterHatch](https://bioconductor.org/packages/3.24/bioc/html/scatterHatch.html) | [log](logs/scatterHatch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scatterHatch) |
@@ -68,6 +67,7 @@
 | [sparsenetgls](https://bioconductor.org/packages/3.24/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.24/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/specL) |
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
+| [statTarget](https://bioconductor.org/packages/3.24/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/statTarget) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
 | [tidysbml](https://bioconductor.org/packages/3.24/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidysbml) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
@@ -85,7 +85,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (105)
+## In Progress (107)
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -118,12 +118,12 @@
 - ⏳ `MassArray`
 - ⏳ `MeLSI`
 - ⏳ `MethylMix`
+- ⏳ `MsStash`
 - ⏳ `OPWeight`
 - ⏳ `PCAN`
 - ⏳ `PathNet`
 - ⏳ `QRscore`
 - ⏳ `RDRToolbox`
-- ⏳ `RNAdecay`
 - ⏳ `RProtoBufLib`
 - ⏳ `Rcollectl`
 - ⏳ `Rhtslib`
@@ -135,11 +135,11 @@
 - ⏳ `bacon`
 - ⏳ `barmixR`
 - ⏳ `brendaDb`
-- ⏳ `csdR`
+- ⏳ `clst`
 
-... and 55 more ...
+... and 57 more ...
 
-## Not Yet Started (1997)
+## Not Yet Started (1991)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -191,8 +191,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1947 more ...
+... and 1941 more ...
 
 ---
-*Last updated: 2026-11-03 05:14:43 UTC*
-*Packages with verified BBS status: 134*
+*Last updated: 2026-11-03 05:15:53 UTC*
+*Packages with verified BBS status: 135*
