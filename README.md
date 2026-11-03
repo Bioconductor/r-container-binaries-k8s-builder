@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 405 (16%)
+- **Successfully Built:** 406 (16%)
 - **Failed:** 4 (0%)
-- **In Progress:** 169
+- **In Progress:** 168
 - **Not Started:** 1859
 
 **Progress:** 16%
@@ -16,7 +16,7 @@
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (405)
+## Successfully Built Packages (406)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocBook](https://bioconductor.org/packages/3.24/bioc/html/BiocBook.html) | [log](logs/BiocBook/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBook) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.24/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBuildReporter) |
 
-*... and 355 more ...*
+*... and 356 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (169)
+## In Progress (168)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -137,7 +137,7 @@
 - ⏳ `NOISeq`
 - ⏳ `NanoStringDiff`
 
-... and 119 more ...
+... and 118 more ...
 
 ## Not Yet Started (1859)
 - ⏸️ `ABarray`
@@ -194,5 +194,5 @@
 ... and 1809 more ...
 
 ---
-*Last updated: 2026-11-03 05:39:48 UTC*
+*Last updated: 2026-11-03 05:41:22 UTC*
 *Packages with verified BBS status: 146*
