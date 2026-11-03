@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1355 (55%)
+- **Successfully Built:** 1364 (55%)
 - **Failed:** 6 (0%)
-- **In Progress:** 213
-- **Not Started:** 863
+- **In Progress:** 206
+- **Not Started:** 861
 
-**Progress:** 55%
+**Progress:** 56%
 ```
-███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1355)
+## Successfully Built Packages (1364)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1305 more ...*
+*... and 1314 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [tripr](https://bioconductor.org/packages/3.24/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.24/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tweeDEseq) |
 | [twilight](https://bioconductor.org/packages/3.24/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/twilight) |
@@ -64,6 +63,7 @@
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
+| [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
@@ -85,9 +85,9 @@
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
+| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (213)
+## In Progress (206)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
@@ -132,16 +132,16 @@
 - ⏳ `HERON`
 - ⏳ `HIPPO`
 - ⏳ `HiCBricks`
-- ⏳ `ISLET`
 - ⏳ `IWTomics`
 - ⏳ `InterCellar`
 - ⏳ `InteractionSet`
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `IntrinsicScan`
+- ⏳ `IsoBayes`
 
-... and 163 more ...
+... and 156 more ...
 
-## Not Yet Started (863)
+## Not Yet Started (861)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -193,8 +193,8 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 
-... and 813 more ...
+... and 811 more ...
 
 ---
-*Last updated: 2026-11-03 16:06:36 UTC*
-*Packages with verified BBS status: 201*
+*Last updated: 2026-11-03 16:09:31 UTC*
+*Packages with verified BBS status: 202*
