@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2030 (85%)
+- **Successfully Built:** 2032 (85%)
 - **Failed:** 20 (0%)
-- **In Progress:** 73
+- **In Progress:** 71
 - **Not Started:** 262
 
-**Progress:** 85%
+**Progress:** 86%
 ```
-██████████████████████████████████████████░░░░░░░░
+███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (2030)
+## Successfully Built Packages (2032)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1980 more ...*
+*... and 1982 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,7 +91,7 @@
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Error: object ‘id’ is not exported by 'namespace:dplyr' |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
-| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI |
+| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [nearBynding](https://bioconductor.org/packages/3.23/bioc/html/nearBynding.html) | [log](logs/nearBynding/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/nearBynding) | Error: object ‘filter’ is not exported by 'namespace:plyranges' |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
@@ -101,7 +101,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (73)
+## In Progress (71)
 - ⏳ `ATACseqTFEA`
 - ⏳ `AnnotationHubData`
 - ⏳ `BSgenomeForge`
@@ -109,7 +109,6 @@
 - ⏳ `BindingSiteFinder`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
-- ⏳ `CellBarcode`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `ChIPseeker`
@@ -152,8 +151,9 @@
 - ⏳ `broadSeq`
 - ⏳ `bumphunter`
 - ⏳ `chevreulProcess`
+- ⏳ `cpvSNP`
 
-... and 23 more ...
+... and 21 more ...
 
 ## Not Yet Started (262)
 - ⏸️ `AHMassBank`
@@ -210,5 +210,5 @@
 ... and 212 more ...
 
 ---
-*Last updated: 2026-11-03 17:20:47 UTC*
+*Last updated: 2026-11-03 17:23:20 UTC*
 *Packages with verified BBS status: 232*
