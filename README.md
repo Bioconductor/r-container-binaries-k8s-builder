@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1820 (74%)
+- **Successfully Built:** 1822 (74%)
 - **Failed:** 8 (0%)
-- **In Progress:** 101
-- **Not Started:** 508
+- **In Progress:** 100
+- **Not Started:** 507
 
 **Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1820)
+## Successfully Built Packages (1822)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1770 more ...*
+*... and 1772 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (101)
+## In Progress (100)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -98,6 +98,7 @@
 - ⏳ `BasicSTARRseq`
 - ⏳ `BatChef`
 - ⏳ `CRISPRball`
+- ⏳ `CTexploreR`
 - ⏳ `CaMutQC`
 - ⏳ `CeTF`
 - ⏳ `CellMixS`
@@ -139,11 +140,10 @@
 - ⏳ `TCseq`
 - ⏳ `TiDEomics`
 - ⏳ `TraianProt`
-- ⏳ `VplotR`
 
-... and 51 more ...
+... and 50 more ...
 
-## Not Yet Started (508)
+## Not Yet Started (507)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -176,7 +176,6 @@
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
-- ⏸️ `CTexploreR`
 - ⏸️ `CellBarcode`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
@@ -194,9 +193,10 @@
 - ⏸️ `ClonalSim`
 - ⏸️ `Cogito`
 - ⏸️ `CopyNumberPlots`
+- ⏸️ `CoverageView`
 
-... and 458 more ...
+... and 457 more ...
 
 ---
-*Last updated: 2026-11-03 23:51:12 UTC*
+*Last updated: 2026-11-03 23:52:06 UTC*
 *Packages with verified BBS status: 222*
