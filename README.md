@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 603 (24%)
+- **Successfully Built:** 608 (24%)
 - **Failed:** 5 (0%)
-- **In Progress:** 79
+- **In Progress:** 74
 - **Not Started:** 1750
 
-**Progress:** 24%
+**Progress:** 25%
 ```
 ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (603)
+## Successfully Built Packages (608)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,11 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 553 more ...*
+*... and 558 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [statTarget](https://bioconductor.org/packages/3.24/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/statTarget) |
+| [subSeq](https://bioconductor.org/packages/3.24/bioc/html/subSeq.html) | [log](logs/subSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/subSeq) |
 | [survcomp](https://bioconductor.org/packages/3.24/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.24/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
@@ -86,13 +86,12 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (79)
+## In Progress (74)
 - ⏳ `ANF`
 - ⏳ `AnVILWorkflow`
 - ⏳ `BUS`
 - ⏳ `BioMVCClass`
 - ⏳ `BridgeDbR`
-- ⏳ `CNORode`
 - ⏳ `DepecheR`
 - ⏳ `FamAgg`
 - ⏳ `Fancy`
@@ -119,7 +118,6 @@
 - ⏳ `RUVcorr`
 - ⏳ `Rsubread`
 - ⏳ `S4Vectors`
-- ⏳ `SPEM`
 - ⏳ `SUITOR`
 - ⏳ `SharedObject`
 - ⏳ `SpeCond`
@@ -137,8 +135,10 @@
 - ⏳ `magrene`
 - ⏳ `marray`
 - ⏳ `massiR`
+- ⏳ `metaSeq`
+- ⏳ `metagenomeSeq`
 
-... and 29 more ...
+... and 24 more ...
 
 ## Not Yet Started (1750)
 - ⏸️ `ACE`
@@ -195,5 +195,5 @@
 ... and 1700 more ...
 
 ---
-*Last updated: 2026-11-03 06:49:21 UTC*
-*Packages with verified BBS status: 174*
+*Last updated: 2026-11-03 06:51:20 UTC*
+*Packages with verified BBS status: 175*
