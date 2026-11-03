@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1400 (57%)
+- **Successfully Built:** 1405 (57%)
 - **Failed:** 7 (0%)
-- **In Progress:** 182
+- **In Progress:** 177
 - **Not Started:** 848
 
 **Progress:** 57%
@@ -16,7 +16,7 @@
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1400)
+## Successfully Built Packages (1405)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 
-*... and 1350 more ...*
+*... and 1355 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (182)
+## In Progress (177)
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
 - ⏳ `APL`
@@ -112,7 +112,6 @@
 - ⏳ `CyTOFpower`
 - ⏳ `DESeq2`
 - ⏳ `DifferentialRegulation`
-- ⏳ `DrugVsDisease`
 - ⏳ `Dune`
 - ⏳ `EGSEA`
 - ⏳ `EnrichmentBrowser`
@@ -135,12 +134,13 @@
 - ⏳ `InteractionSet`
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `IntrinsicScan`
-- ⏳ `IsoBayes`
 - ⏳ `LACE`
 - ⏳ `LRDE`
 - ⏳ `MAST`
+- ⏳ `MICSQTL`
+- ⏳ `MLInterfaces`
 
-... and 132 more ...
+... and 127 more ...
 
 ## Not Yet Started (848)
 - ⏸️ `ADAPT`
@@ -197,5 +197,5 @@
 ... and 798 more ...
 
 ---
-*Last updated: 2026-11-03 16:30:36 UTC*
+*Last updated: 2026-11-03 16:32:44 UTC*
 *Packages with verified BBS status: 204*
