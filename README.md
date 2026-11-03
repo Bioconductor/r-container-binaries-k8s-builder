@@ -8,8 +8,8 @@
 - **Total Packages:** 2437
 - **Successfully Built:** 11 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 337
-- **Not Started:** 2089
+- **In Progress:** 338
+- **Not Started:** 2088
 
 **Progress:** 0%
 ```
@@ -32,7 +32,7 @@
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 
-## In Progress (337)
+## In Progress (338)
 - ⏳ `ANCOMBC`
 - ⏳ `BADER`
 - ⏳ `BaseSpaceR`
@@ -84,9 +84,9 @@
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 
-... and 287 more ...
+... and 288 more ...
 
-## Not Yet Started (2089)
+## Not Yet Started (2088)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -138,8 +138,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2039 more ...
+... and 2038 more ...
 
 ---
-*Last updated: 2026-11-03 02:51:34 UTC*
+*Last updated: 2026-11-03 02:53:38 UTC*
 *Packages with verified BBS status: 11*
