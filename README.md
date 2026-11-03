@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 149 (6%)
+- **Successfully Built:** 152 (6%)
 - **Failed:** 0 (0%)
-- **In Progress:** 226
+- **In Progress:** 223
 - **Not Started:** 2062
 
 **Progress:** 6%
@@ -16,7 +16,7 @@
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (149)
+## Successfully Built Packages (152)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -40,13 +40,13 @@
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
+| [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
 | [CARNIVAL](https://bioconductor.org/packages/3.24/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CARNIVAL) |
 | [CFAssay](https://bioconductor.org/packages/3.24/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CFAssay) |
 | [CGEN](https://bioconductor.org/packages/3.24/bioc/html/CGEN.html) | [log](logs/CGEN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CGEN) |
 | [CONSTANd](https://bioconductor.org/packages/3.24/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CONSTANd) |
-| [COSNet](https://bioconductor.org/packages/3.24/bioc/html/COSNet.html) | [log](logs/COSNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/COSNet) |
 
-*... and 99 more ...*
+*... and 102 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
-## In Progress (226)
+## In Progress (223)
 - ⏳ `BADER`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -84,7 +84,6 @@
 - ⏳ `BiocParallel`
 - ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
-- ⏳ `BufferedMatrixMethods`
 - ⏳ `Clomial`
 - ⏳ `ClusterJudge`
 - ⏳ `ClusterSignificance`
@@ -127,8 +126,9 @@
 - ⏳ `ISAnalytics`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
+- ⏳ `KBoost`
 
-... and 176 more ...
+... and 173 more ...
 
 ## Not Yet Started (2062)
 - ⏸️ `ABSSeq`
@@ -185,5 +185,5 @@
 ... and 2012 more ...
 
 ---
-*Last updated: 2026-11-03 04:02:24 UTC*
-*Packages with verified BBS status: 105*
+*Last updated: 2026-11-03 04:03:54 UTC*
+*Packages with verified BBS status: 106*
