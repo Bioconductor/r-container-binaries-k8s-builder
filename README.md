@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2096 (87%)
+- **Successfully Built:** 2098 (87%)
 - **Failed:** 21 (0%)
-- **In Progress:** 113
+- **In Progress:** 111
 - **Not Started:** 155
 
 **Progress:** 88%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2096)
+## Successfully Built Packages (2098)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 2046 more ...*
+*... and 2048 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (113)
+## In Progress (111)
 - ⏳ `AHMassBank`
 - ⏳ `APAlyzer`
 - ⏳ `ATACseqTFEA`
@@ -129,13 +129,11 @@
 - ⏳ `FindIT2`
 - ⏳ `G4SNVHunter`
 - ⏳ `GA4GHclient`
-- ⏳ `GOTHiC`
 - ⏳ `GenVisR`
 - ⏳ `GenomicFiles`
 - ⏳ `HelloRanges`
 - ⏳ `HistoImagePlot`
 - ⏳ `MEDIPS`
-- ⏳ `Moonlight2R`
 - ⏳ `MungeSumstats`
 - ⏳ `MutSeqR`
 - ⏳ `MutationalPatterns`
@@ -153,8 +151,10 @@
 - ⏳ `RiboDiPA`
 - ⏳ `SEMPLR`
 - ⏳ `SNPhood`
+- ⏳ `SigsPack`
+- ⏳ `StructuralVariantAnnotation`
 
-... and 63 more ...
+... and 61 more ...
 
 ## Not Yet Started (155)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 105 more ...
 
 ---
-*Last updated: 2026-11-03 21:03:33 UTC*
+*Last updated: 2026-11-03 21:13:18 UTC*
 *Packages with verified BBS status: 233*
