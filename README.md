@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 585 (24%)
+- **Successfully Built:** 588 (24%)
 - **Failed:** 9 (0%)
-- **In Progress:** 101
+- **In Progress:** 98
 - **Not Started:** 1690
 
-**Progress:** 24%
+**Progress:** 25%
 ```
 ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (585)
+## Successfully Built Packages (588)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 
-*... and 535 more ...*
+*... and 538 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (101)
+## In Progress (98)
 - ⏳ `AlphaBeta`
 - ⏳ `AlpsNMR`
 - ⏳ `AnVILGCP`
@@ -108,7 +108,6 @@
 - ⏳ `GEOsubmission`
 - ⏳ `GSCA`
 - ⏳ `HGC`
-- ⏳ `HTqPCR`
 - ⏳ `Heatplus`
 - ⏳ `INTACT`
 - ⏳ `InteractiveComplexHeatmap`
@@ -141,8 +140,9 @@
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
+- ⏳ `cola`
 
-... and 51 more ...
+... and 48 more ...
 
 ## Not Yet Started (1690)
 - ⏸️ `ACE`
@@ -199,5 +199,5 @@
 ... and 1640 more ...
 
 ---
-*Last updated: 2026-11-03 06:33:30 UTC*
+*Last updated: 2026-11-03 06:36:07 UTC*
 *Packages with verified BBS status: 175*
