@@ -8,8 +8,8 @@
 - **Total Packages:** 2437
 - **Successfully Built:** 1746 (71%)
 - **Failed:** 7 (0%)
-- **In Progress:** 148
-- **Not Started:** 536
+- **In Progress:** 149
+- **Not Started:** 535
 
 **Progress:** 71%
 ```
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (148)
+## In Progress (149)
 - ⏳ `ADaCGH2`
 - ⏳ `AMARETTO`
 - ⏳ `ASICS`
@@ -140,9 +140,9 @@
 - ⏳ `MetaboAnnotation`
 - ⏳ `MicrobiomeProfiler`
 
-... and 98 more ...
+... and 99 more ...
 
-## Not Yet Started (536)
+## Not Yet Started (535)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -194,8 +194,8 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 
-... and 486 more ...
+... and 485 more ...
 
 ---
-*Last updated: 2026-11-03 21:15:00 UTC*
+*Last updated: 2026-11-03 21:16:59 UTC*
 *Packages with verified BBS status: 218*
