@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1998 (83%)
+- **Successfully Built:** 1999 (83%)
 - **Failed:** 20 (0%)
-- **In Progress:** 102
+- **In Progress:** 101
 - **Not Started:** 265
 
 **Progress:** 84%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (1998)
+## Successfully Built Packages (1999)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1948 more ...*
+*... and 1949 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,10 +86,10 @@
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
-| [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother |
+| [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Error: object ‘id’ is not exported by 'namespace:dplyr' |
-| [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust |
+| [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -99,9 +99,9 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (102)
+## In Progress (101)
 - ⏳ `ATACseqTFEA`
 - ⏳ `AnnotationHubData`
 - ⏳ `BEAT`
@@ -144,7 +144,6 @@
 - ⏳ `MGnifyR`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `MoonlightR`
-- ⏳ `OTUbase`
 - ⏳ `OutSplice`
 - ⏳ `PAST`
 - ⏳ `PMScanR`
@@ -152,8 +151,9 @@
 - ⏳ `RITAN`
 - ⏳ `Rmmquant`
 - ⏳ `SGSeq`
+- ⏳ `SPICEY`
 
-... and 52 more ...
+... and 51 more ...
 
 ## Not Yet Started (265)
 - ⏸️ `AHMassBank`
@@ -210,5 +210,5 @@
 ... and 215 more ...
 
 ---
-*Last updated: 2026-11-03 15:55:38 UTC*
+*Last updated: 2026-11-03 15:58:14 UTC*
 *Packages with verified BBS status: 231*
