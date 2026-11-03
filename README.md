@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2039 (85%)
+- **Successfully Built:** 2041 (85%)
 - **Failed:** 20 (0%)
-- **In Progress:** 68
+- **In Progress:** 66
 - **Not Started:** 258
 
 **Progress:** 86%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (2039)
+## Successfully Built Packages (2041)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1989 more ...*
+*... and 1991 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,7 +101,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (68)
+## In Progress (66)
 - ⏳ `ATACseqTFEA`
 - ⏳ `AnnotationHubData`
 - ⏳ `BUSpaRse`
@@ -116,7 +116,6 @@
 - ⏳ `EpiMix`
 - ⏳ `FindIT2`
 - ⏳ `GOTHiC`
-- ⏳ `GOaGO`
 - ⏳ `GRaNIE`
 - ⏳ `GSReg`
 - ⏳ `GenomicInteractionNodes`
@@ -150,10 +149,11 @@
 - ⏳ `broadSeq`
 - ⏳ `bumphunter`
 - ⏳ `chevreulPlot`
-- ⏳ `crupR`
 - ⏳ `dagLogo`
+- ⏳ `damidBind`
+- ⏳ `diffUTR`
 
-... and 18 more ...
+... and 16 more ...
 
 ## Not Yet Started (258)
 - ⏸️ `AHMassBank`
@@ -210,5 +210,5 @@
 ... and 208 more ...
 
 ---
-*Last updated: 2026-11-03 17:35:43 UTC*
+*Last updated: 2026-11-03 17:38:03 UTC*
 *Packages with verified BBS status: 232*
