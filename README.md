@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 2088 (87%)
 - **Failed:** 21 (0%)
-- **In Progress:** 114
-- **Not Started:** 162
+- **In Progress:** 120
+- **Not Started:** 156
 
 **Progress:** 88%
 ```
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (114)
+## In Progress (120)
 - ⏳ `AHMassBank`
 - ⏳ `APAlyzer`
 - ⏳ `ATACseqTFEA`
@@ -116,6 +116,7 @@
 - ⏳ `CRISPRseek`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `ClonalSim`
+- ⏳ `DAMEfinder`
 - ⏳ `DOTSeq`
 - ⏳ `DaMiRseq`
 - ⏳ `DegNorm`
@@ -152,11 +153,10 @@
 - ⏳ `RareVariantVis`
 - ⏳ `Rhisat2`
 - ⏳ `RiboDiPA`
-- ⏳ `SEMPLR`
 
-... and 64 more ...
+... and 70 more ...
 
-## Not Yet Started (162)
+## Not Yet Started (156)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -171,7 +171,6 @@
 - ⏸️ `ChIPexoQual`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
@@ -207,9 +206,10 @@
 - ⏸️ `R3CPET`
 - ⏸️ `REDseq`
 - ⏸️ `REMP`
+- ⏸️ `RESOLVE`
 
-... and 112 more ...
+... and 106 more ...
 
 ---
-*Last updated: 2026-11-03 20:45:03 UTC*
+*Last updated: 2026-11-03 20:46:39 UTC*
 *Packages with verified BBS status: 233*
