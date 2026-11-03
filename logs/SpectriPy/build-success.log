@@ -1,0 +1,96 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''SpectriPy'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'SpectriPy'
+also installing the dependency ‘MsBackendMgf’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MsBackendMgf_1.20.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/SpectriPy_1.2.1.tar.gz'
+* installing *source* package ‘MsBackendMgf’ ...
+** this is package ‘MsBackendMgf’ version ‘1.20.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MsBackendMgf’ as ‘MsBackendMgf_1.20.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MsBackendMgf)
+* installing *source* package ‘SpectriPy’ ...
+** this is package ‘SpectriPy’ version ‘1.2.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Downloading uv...Done!
+Downloading cpython-3.13.18-linux-x86_64-gnu (download) (33.8MiB)
+ Downloaded cpython-3.13.18-linux-x86_64-gnu (download)
+Downloading lxml (5.0MiB)
+Downloading numba (3.7MiB)
+Downloading matplotlib (9.4MiB)
+Downloading numpy (15.9MiB)
+Downloading kiwisolver (1.4MiB)
+Downloading fonttools (5.2MiB)
+Downloading scikit-learn (8.7MiB)
+Downloading pandas (11.4MiB)
+Downloading pillow (6.8MiB)
+Downloading llvmlite (56.9MiB)
+Downloading rdkit (30.3MiB)
+Downloading sqlalchemy (4.4MiB)
+Downloading scipy (34.0MiB)
+Downloading fastobo (2.0MiB)
+Downloading psims (22.8MiB)
+Downloading networkx (1.6MiB)
+ Downloaded kiwisolver
+ Downloaded networkx
+ Downloaded fastobo
+ Downloaded sqlalchemy
+ Downloaded lxml
+ Downloaded fonttools
+ Downloaded numba
+ Downloaded pillow
+ Downloaded scikit-learn
+ Downloaded matplotlib
+ Downloaded pandas
+ Downloaded numpy
+ Downloaded psims
+ Downloaded rdkit
+ Downloaded scipy
+ Downloaded llvmlite
+Installed 46 packages in 469ms
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpectriPy’ as ‘SpectriPy_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpectriPy)
+
+The downloaded source packages are in
+	‘/tmp/RtmpVAHVFj/downloaded_packages’
+Old packages: 'future', 'litedown', 'mirai', 'qs2', 'rsvd', 'curl', 'diffobj',
+  'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2', 'tinytex', 'usethis',
+  'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv', 'nlme', 'survival'
+
+real	1m6.672s
+user	0m55.916s
+sys	0m10.267s
