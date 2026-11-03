@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1426 (58%)
+- **Successfully Built:** 1430 (58%)
 - **Failed:** 7 (0%)
-- **In Progress:** 186
-- **Not Started:** 818
+- **In Progress:** 184
+- **Not Started:** 816
 
 **Progress:** 58%
 ```
 █████████████████████████████░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1426)
+## Successfully Built Packages (1430)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 
-*... and 1376 more ...*
+*... and 1380 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (186)
+## In Progress (184)
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
 - ⏳ `APL`
@@ -99,7 +99,6 @@
 - ⏳ `BioNAR`
 - ⏳ `BreastSubtypeR`
 - ⏳ `CAEN`
-- ⏳ `CBN2Path`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
 - ⏳ `CSOA`
@@ -139,10 +138,11 @@
 - ⏳ `MLInterfaces`
 - ⏳ `MouseFM`
 - ⏳ `MsFeatures`
+- ⏳ `Nebulosa`
 
-... and 136 more ...
+... and 134 more ...
 
-## Not Yet Started (818)
+## Not Yet Started (816)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -194,8 +194,8 @@
 - ⏸️ `CEMiTool`
 - ⏸️ `CMEnt`
 
-... and 768 more ...
+... and 766 more ...
 
 ---
-*Last updated: 2026-11-03 16:43:41 UTC*
+*Last updated: 2026-11-03 16:45:47 UTC*
 *Packages with verified BBS status: 204*
