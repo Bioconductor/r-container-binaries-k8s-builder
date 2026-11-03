@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 539 (22%)
+- **Successfully Built:** 551 (23%)
 - **Failed:** 9 (0%)
-- **In Progress:** 97
-- **Not Started:** 1740
+- **In Progress:** 89
+- **Not Started:** 1736
 
-**Progress:** 22%
+**Progress:** 23%
 ```
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (539)
+## Successfully Built Packages (551)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -44,15 +44,15 @@
 | [BANDITS](https://bioconductor.org/packages/3.23/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BANDITS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
-| [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
+| [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 
-*... and 489 more ...*
+*... and 501 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [survcomp](https://bioconductor.org/packages/3.23/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
+| [synapsis](https://bioconductor.org/packages/3.23/bioc/html/synapsis.html) | [log](logs/synapsis/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synapsis) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
@@ -90,34 +90,25 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (97)
+## In Progress (89)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
-- ⏳ `BUS`
 - ⏳ `CGHcall`
 - ⏳ `CIMICE`
-- ⏳ `ChemmineR`
 - ⏳ `DEsingle`
 - ⏳ `DeepPINCS`
-- ⏳ `EMDomics`
 - ⏳ `ExiMiR`
-- ⏳ `FamAgg`
 - ⏳ `GEOsubmission`
 - ⏳ `GSCA`
 - ⏳ `HGC`
 - ⏳ `HTqPCR`
 - ⏳ `Heatplus`
-- ⏳ `IHW`
 - ⏳ `INTACT`
 - ⏳ `LPE`
-- ⏳ `MSstatsResponse`
 - ⏳ `MVCClass`
 - ⏳ `MetaDICT`
-- ⏳ `NPARC`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OrderedList`
-- ⏳ `Oscope`
-- ⏳ `PCAN`
 - ⏳ `QRscore`
 - ⏳ `RGSEA`
 - ⏳ `RNAdecay`
@@ -141,10 +132,19 @@
 - ⏳ `affyContam`
 - ⏳ `compcodeR`
 - ⏳ `consensus`
+- ⏳ `dcGSA`
+- ⏳ `deltaGseg`
+- ⏳ `diffuStats`
+- ⏳ `diggit`
+- ⏳ `erccdashboard`
+- ⏳ `factDesign`
+- ⏳ `faers`
+- ⏳ `fgsea`
+- ⏳ `flowcatchR`
 
-... and 47 more ...
+... and 39 more ...
 
-## Not Yet Started (1740)
+## Not Yet Started (1736)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 
-... and 1690 more ...
+... and 1686 more ...
 
 ---
-*Last updated: 2026-11-03 06:20:54 UTC*
-*Packages with verified BBS status: 169*
+*Last updated: 2026-11-03 06:21:55 UTC*
+*Packages with verified BBS status: 171*
