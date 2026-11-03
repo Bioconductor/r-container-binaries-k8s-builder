@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 768 (32%)
+- **Successfully Built:** 776 (32%)
 - **Failed:** 12 (0%)
-- **In Progress:** 167
+- **In Progress:** 159
 - **Not Started:** 1438
 
-**Progress:** 32%
+**Progress:** 33%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (768)
+## Successfully Built Packages (776)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 718 more ...*
+*... and 726 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,7 +93,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (167)
+## In Progress (159)
 - ⏳ `AlphaBeta`
 - ⏳ `AnnotationFilter`
 - ⏳ `AnnotationForge`
@@ -140,12 +140,12 @@
 - ⏳ `MLP`
 - ⏳ `MSstatsPTM`
 - ⏳ `MVCClass`
-- ⏳ `MeSHDbi`
-- ⏳ `MesKit`
 - ⏳ `MetaDICT`
 - ⏳ `MetaboCoreUtils`
+- ⏳ `MouseFM`
+- ⏳ `MsDataHub`
 
-... and 117 more ...
+... and 109 more ...
 
 ## Not Yet Started (1438)
 - ⏸️ `ACE`
@@ -202,5 +202,5 @@
 ... and 1388 more ...
 
 ---
-*Last updated: 2026-11-03 07:40:54 UTC*
+*Last updated: 2026-11-03 07:43:23 UTC*
 *Packages with verified BBS status: 186*
