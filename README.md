@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 973 (40%)
-- **Failed:** 12 (0%)
-- **In Progress:** 229
-- **Not Started:** 1171
+- **Successfully Built:** 986 (41%)
+- **Failed:** 13 (0%)
+- **In Progress:** 222
+- **Not Started:** 1164
 
 **Progress:** 41%
 ```
 ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (973)
+## Successfully Built Packages (986)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 
-*... and 923 more ...*
+*... and 936 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 
-## Failed Packages (12)
+## Failed Packages (13)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -89,11 +89,12 @@
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (229)
+## In Progress (222)
 - ⏳ `ADAMgui`
 - ⏳ `AffiXcan`
 - ⏳ `AnnotationFilter`
@@ -105,7 +106,6 @@
 - ⏳ `CBN2Path`
 - ⏳ `CNTools`
 - ⏳ `CNVMetrics`
-- ⏳ `CNVRanger`
 - ⏳ `CPSM`
 - ⏳ `CSOA`
 - ⏳ `CaDrA`
@@ -144,10 +144,11 @@
 - ⏳ `Heatplus`
 - ⏳ `HiCBricks`
 - ⏳ `HilbertCurve`
+- ⏳ `IFAA`
 
-... and 179 more ...
+... and 172 more ...
 
-## Not Yet Started (1171)
+## Not Yet Started (1164)
 - ⏸️ `ACE`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -199,8 +200,8 @@
 - ⏸️ `BioTIP`
 - ⏸️ `Bioc.gff`
 
-... and 1121 more ...
+... and 1114 more ...
 
 ---
-*Last updated: 2026-11-03 08:27:23 UTC*
-*Packages with verified BBS status: 198*
+*Last updated: 2026-11-03 08:31:02 UTC*
+*Packages with verified BBS status: 199*
