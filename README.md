@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1897 (79%)
+- **Successfully Built:** 1908 (80%)
 - **Failed:** 18 (0%)
-- **In Progress:** 108
-- **Not Started:** 362
+- **In Progress:** 103
+- **Not Started:** 356
 
 **Progress:** 80%
 ```
 ████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1897)
+## Successfully Built Packages (1908)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1847 more ...*
+*... and 1858 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,16 +90,16 @@
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
-| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
+| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Build failed with unknown error |
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (108)
+## In Progress (103)
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
@@ -110,50 +110,50 @@
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseqR`
 - ⏳ `ChIPsim`
-- ⏳ `DMCHMM`
 - ⏳ `DMRcaller`
-- ⏳ `DeconvoBuddies`
+- ⏳ `DOtools`
+- ⏳ `DSS`
 - ⏳ `DspikeIn`
 - ⏳ `EWCE`
-- ⏳ `ExCluster`
 - ⏳ `FastqCleaner`
 - ⏳ `GOTHiC`
 - ⏳ `GOaGO`
 - ⏳ `GenomicFeatures`
 - ⏳ `GreyListChIP`
 - ⏳ `HiCPotts`
-- ⏳ `HiTC`
-- ⏳ `HicAggR`
 - ⏳ `IONiseR`
 - ⏳ `IWTomics`
-- ⏳ `IdeoViz`
 - ⏳ `InTAD`
 - ⏳ `MEDIPS`
 - ⏳ `MGnifyR`
+- ⏳ `MIRA`
 - ⏳ `MMDiff2`
-- ⏳ `MatrixRider`
 - ⏳ `MethReg`
 - ⏳ `MicrobiomeProfiler`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `MinimumDistance`
 - ⏳ `MoonlightR`
-- ⏳ `MotifDb`
+- ⏳ `NanoMethViz`
 - ⏳ `OTUbase`
 - ⏳ `PAST`
 - ⏳ `PMScanR`
 - ⏳ `PanomiR`
 - ⏳ `RSVSim`
 - ⏳ `SCANVIS`
-- ⏳ `SMTrackR`
 - ⏳ `STADyUM`
 - ⏳ `SpliceImpactR`
 - ⏳ `Statial`
 - ⏳ `TEKRABber`
 - ⏳ `UCell`
+- ⏳ `a4Base`
+- ⏳ `ballgown`
+- ⏳ `bedbaser`
+- ⏳ `benchdamic`
+- ⏳ `broadSeq`
 
-... and 58 more ...
+... and 53 more ...
 
-## Not Yet Started (362)
+## Not Yet Started (356)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -194,8 +194,6 @@
 - ⏸️ `DMRcate`
 - ⏸️ `DNAfusion`
 - ⏸️ `DOTSeq`
-- ⏸️ `DOtools`
-- ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
 - ⏸️ `DegCre`
@@ -204,9 +202,11 @@
 - ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `EDASeq`
+- ⏸️ `ELMER`
+- ⏸️ `ELViS`
 
-... and 312 more ...
+... and 306 more ...
 
 ---
-*Last updated: 2026-11-03 14:32:43 UTC*
+*Last updated: 2026-11-03 14:35:41 UTC*
 *Packages with verified BBS status: 227*
