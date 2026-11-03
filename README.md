@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 276 (11%)
+- **Successfully Built:** 277 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 161
+- **In Progress:** 160
 - **Not Started:** 1998
 
 **Progress:** 11%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (276)
+## Successfully Built Packages (277)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 
-*... and 226 more ...*
+*... and 227 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (161)
+## In Progress (160)
 - ⏳ `AlpsNMR`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -107,7 +107,6 @@
 - ⏳ `GenProSeq`
 - ⏳ `HGC`
 - ⏳ `HIREewas`
-- ⏳ `HPiP`
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `Heatplus`
@@ -134,8 +133,9 @@
 - ⏳ `MantelCorr`
 - ⏳ `MassArray`
 - ⏳ `MeLSI`
+- ⏳ `Mergeomics`
 
-... and 111 more ...
+... and 110 more ...
 
 ## Not Yet Started (1998)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1948 more ...
 
 ---
-*Last updated: 2026-11-03 04:50:23 UTC*
+*Last updated: 2026-11-03 04:51:44 UTC*
 *Packages with verified BBS status: 128*
