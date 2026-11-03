@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2071 (86%)
+- **Successfully Built:** 2072 (86%)
 - **Failed:** 21 (0%)
-- **In Progress:** 48
-- **Not Started:** 245
+- **In Progress:** 97
+- **Not Started:** 195
 
 **Progress:** 87%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (2071)
+## Successfully Built Packages (2072)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 2021 more ...*
+*... and 2022 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,77 +102,76 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (48)
+## In Progress (97)
 - ⏳ `AHMassBank`
 - ⏳ `ATACseqTFEA`
+- ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
+- ⏳ `BadRegionFinder`
 - ⏳ `BindingSiteFinder`
+- ⏳ `CCAFE`
+- ⏳ `CNVrd2`
 - ⏳ `CRISPRseek`
 - ⏳ `CSSQ`
 - ⏳ `ChIPpeakAnno`
+- ⏳ `ClonalSim`
 - ⏳ `DaMiRseq`
+- ⏳ `DominoEffect`
 - ⏳ `DspikeIn`
 - ⏳ `EpiCompare`
 - ⏳ `ExperimentHubData`
 - ⏳ `FLAMES`
 - ⏳ `FindIT2`
+- ⏳ `G4SNVHunter`
+- ⏳ `GA4GHclient`
 - ⏳ `GOTHiC`
+- ⏳ `GenVisR`
+- ⏳ `GenomicFiles`
 - ⏳ `Guitar`
+- ⏳ `HelloRanges`
 - ⏳ `IVAS`
 - ⏳ `InPAS`
 - ⏳ `MEDIPS`
 - ⏳ `MGnifyR`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `Moonlight2R`
+- ⏳ `MungeSumstats`
+- ⏳ `MutSeqR`
+- ⏳ `MutationalPatterns`
 - ⏳ `OutSplice`
+- ⏳ `ProteoDisco`
+- ⏳ `PureCN`
+- ⏳ `R453Plus1Toolbox`
+- ⏳ `RAIDS`
 - ⏳ `RITAN`
 - ⏳ `RTCGAToolbox`
 - ⏳ `RUVSeq`
+- ⏳ `RareVariantVis`
+- ⏳ `SEMPLR`
+- ⏳ `SNPhood`
+- ⏳ `SigsPack`
+- ⏳ `StructuralVariantAnnotation`
 - ⏳ `TAPseq`
 - ⏳ `TEKRABber`
-- ⏳ `TRESS`
-- ⏳ `annotatr`
-- ⏳ `atSNP`
-- ⏳ `broadSeq`
-- ⏳ `bumphunter`
-- ⏳ `chevreulPlot`
-- ⏳ `diffUTR`
-- ⏳ `epiregulon`
-- ⏳ `epivizrChart`
-- ⏳ `esATAC`
-- ⏳ `glmSparseNet`
-- ⏳ `hicVennDiagram`
-- ⏳ `imageFeatureTCGA`
-- ⏳ `normr`
-- ⏳ `segmenter`
-- ⏳ `signifinder`
-- ⏳ `singleCellTK`
-- ⏳ `spicyR`
-- ⏳ `terraTCGAdata`
-- ⏳ `transcriptR`
-- ⏳ `txdbmaker`
 
-## Not Yet Started (245)
+... and 47 more ...
+
+## Not Yet Started (195)
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `BBCAnalyzer`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BadRegionFinder`
 - ⏸️ `BgeeCall`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CCAFE`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
-- ⏸️ `CNVrd2`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `CircSeqAlignTk`
-- ⏸️ `ClonalSim`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
@@ -180,7 +179,6 @@
 - ⏸️ `DOTSeq`
 - ⏸️ `Damsel`
 - ⏸️ `DegNorm`
-- ⏸️ `DominoEffect`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
 - ⏸️ `ELViS`
@@ -188,24 +186,30 @@
 - ⏸️ `EpiTxDb`
 - ⏸️ `EventPointer`
 - ⏸️ `FRASER`
-- ⏸️ `G4SNVHunter`
-- ⏸️ `GA4GHclient`
 - ⏸️ `GA4GHshiny`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GUIDEseq`
-- ⏸️ `GenVisR`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
-- ⏸️ `GenomicFiles`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
 - ⏸️ `GenomicPlot`
 - ⏸️ `Gviz`
-- ⏸️ `HelloRanges`
+- ⏸️ `HiCDCPlus`
+- ⏸️ `HiCaptuRe`
+- ⏸️ `HistoImagePlot`
+- ⏸️ `IntEREst`
+- ⏸️ `IsoformSwitchAnalyzeR`
+- ⏸️ `MAGAR`
+- ⏸️ `MEAL`
+- ⏸️ `MEAT`
+- ⏸️ `MetaboSignal`
+- ⏸️ `MethylAid`
+- ⏸️ `NADfinder`
 
-... and 195 more ...
+... and 145 more ...
 
 ---
-*Last updated: 2026-11-03 19:32:07 UTC*
+*Last updated: 2026-11-03 19:36:15 UTC*
 *Packages with verified BBS status: 233*
