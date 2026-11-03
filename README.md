@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 94 (3%)
+- **Successfully Built:** 95 (3%)
 - **Failed:** 1 (0%)
 - **In Progress:** 275
-- **Not Started:** 2015
+- **Not Started:** 2014
 
-**Progress:** 3%
+**Progress:** 4%
 ```
-█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (94)
+## Successfully Built Packages (95)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,11 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 44 more ...*
+*... and 45 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [SMAD](https://bioconductor.org/packages/3.23/bioc/html/SMAD.html) | [log](logs/SMAD/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SMAD) |
+| [SNAGEE](https://bioconductor.org/packages/3.23/bioc/html/SNAGEE.html) | [log](logs/SNAGEE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SNAGEE) |
 | [SpaceMarkers](https://bioconductor.org/packages/3.23/bioc/html/SpaceMarkers.html) | [log](logs/SpaceMarkers/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpaceMarkers) |
 | [TrajectoryGeometry](https://bioconductor.org/packages/3.23/bioc/html/TrajectoryGeometry.html) | [log](logs/TrajectoryGeometry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TrajectoryGeometry) |
 | [VERSO](https://bioconductor.org/packages/3.23/bioc/html/VERSO.html) | [log](logs/VERSO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/VERSO) |
@@ -136,7 +136,7 @@
 
 ... and 225 more ...
 
-## Not Yet Started (2015)
+## Not Yet Started (2014)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 1965 more ...
+... and 1964 more ...
 
 ---
-*Last updated: 2026-11-03 03:18:48 UTC*
-*Packages with verified BBS status: 80*
+*Last updated: 2026-11-03 03:21:42 UTC*
+*Packages with verified BBS status: 81*
