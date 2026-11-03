@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1816 (74%)
+- **Successfully Built:** 1817 (74%)
 - **Failed:** 8 (0%)
-- **In Progress:** 105
+- **In Progress:** 104
 - **Not Started:** 508
 
 **Progress:** 74%
@@ -16,7 +16,7 @@
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1816)
+## Successfully Built Packages (1817)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1766 more ...*
+*... and 1767 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (105)
+## In Progress (104)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -110,7 +110,6 @@
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DeepTarget`
-- ⏳ `GDCRNATools`
 - ⏳ `GSEAlens`
 - ⏳ `GeneMeta`
 - ⏳ `GlobalAncova`
@@ -140,8 +139,9 @@
 - ⏳ `SpatialData.plot`
 - ⏳ `SpectralTAD`
 - ⏳ `SurfR`
+- ⏳ `TCseq`
 
-... and 55 more ...
+... and 54 more ...
 
 ## Not Yet Started (508)
 - ⏸️ `AHMassBank`
@@ -198,5 +198,5 @@
 ... and 458 more ...
 
 ---
-*Last updated: 2026-11-03 23:44:49 UTC*
+*Last updated: 2026-11-03 23:46:09 UTC*
 *Packages with verified BBS status: 222*
