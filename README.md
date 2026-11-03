@@ -6,23 +6,24 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 672 (28%)
+- **Successfully Built:** 682 (28%)
 - **Failed:** 9 (0%)
-- **In Progress:** 164
-- **Not Started:** 1540
+- **In Progress:** 159
+- **Not Started:** 1535
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (672)
+## Successfully Built Packages (682)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.23/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABSSeq) |
 | [ABarray](https://bioconductor.org/packages/3.23/bioc/html/ABarray.html) | [log](logs/ABarray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ABarray) |
 | [ACME](https://bioconductor.org/packages/3.23/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ACME) |
+| [ADAPT](https://bioconductor.org/packages/3.23/bioc/html/ADAPT.html) | [log](logs/ADAPT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ADAPT) |
 | [AIMS](https://bioconductor.org/packages/3.23/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.23/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ANCOMBC) |
@@ -41,12 +42,11 @@
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
+| [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BANDITS](https://bioconductor.org/packages/3.23/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BANDITS) |
-| [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
-| [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 622 more ...*
+*... and 632 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,19 +87,16 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (164)
-- ⏳ `ADAPT`
+## In Progress (159)
 - ⏳ `AlphaBeta`
-- ⏳ `AnVILGCP`
 - ⏳ `AnnotationFilter`
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
 - ⏳ `BREW3R.r`
 - ⏳ `BiFET`
-- ⏳ `BiocNeighbors`
 - ⏳ `CCPlotR`
 - ⏳ `CNVMetrics`
 - ⏳ `CSAR`
@@ -107,7 +104,8 @@
 - ⏳ `DECIPHER`
 - ⏳ `EnrichedHeatmap`
 - ⏳ `ExiMiR`
-- ⏳ `FinfoMDS`
+- ⏳ `GBScleanR`
+- ⏳ `GDSArray`
 - ⏳ `GEOsubmission`
 - ⏳ `GMRP`
 - ⏳ `GSCA`
@@ -123,16 +121,13 @@
 - ⏳ `Heatplus`
 - ⏳ `HiCBricks`
 - ⏳ `HilbertCurve`
-- ⏳ `IMMAN`
 - ⏳ `INTACT`
 - ⏳ `IWTomics`
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `KEGGREST`
 - ⏳ `LACHESIS`
 - ⏳ `LOLA`
 - ⏳ `LPE`
 - ⏳ `MEDME`
-- ⏳ `MSA2dist`
 - ⏳ `MSstatsPTM`
 - ⏳ `MVCClass`
 - ⏳ `MetaDICT`
@@ -141,10 +136,15 @@
 - ⏳ `NanoStringNCTools`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OrderedList`
+- ⏳ `PWMEnrich`
+- ⏳ `PhyloProfile`
+- ⏳ `QSutils`
+- ⏳ `R4RNA`
+- ⏳ `RCM`
 
-... and 114 more ...
+... and 109 more ...
 
-## Not Yet Started (1540)
+## Not Yet Started (1535)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BasicSTARRseq`
 - ⏸️ `BatChef`
 
-... and 1490 more ...
+... and 1485 more ...
 
 ---
-*Last updated: 2026-11-03 07:08:29 UTC*
-*Packages with verified BBS status: 179*
+*Last updated: 2026-11-03 07:10:27 UTC*
+*Packages with verified BBS status: 181*
