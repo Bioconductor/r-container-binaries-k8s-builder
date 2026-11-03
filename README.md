@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 266 (10%)
+- **Successfully Built:** 268 (10%)
 - **Failed:** 2 (0%)
-- **In Progress:** 170
+- **In Progress:** 168
 - **Not Started:** 1999
 
-**Progress:** 10%
+**Progress:** 11%
 ```
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (266)
+## Successfully Built Packages (268)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 
-*... and 216 more ...*
+*... and 218 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (170)
+## In Progress (168)
 - ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -94,7 +94,6 @@
 - ⏳ `ClusterJudge`
 - ⏳ `CytoGLMM`
 - ⏳ `DCATS`
-- ⏳ `DEGseq`
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
 - ⏳ `DNAcopy`
@@ -115,7 +114,6 @@
 - ⏳ `Heatplus`
 - ⏳ `Herper`
 - ⏳ `HuBMAPR`
-- ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
@@ -134,8 +132,10 @@
 - ⏳ `MPFE`
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsLOBD`
+- ⏳ `MSstatsResponse`
+- ⏳ `MantelCorr`
 
-... and 120 more ...
+... and 118 more ...
 
 ## Not Yet Started (1999)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1949 more ...
 
 ---
-*Last updated: 2026-11-03 04:45:20 UTC*
+*Last updated: 2026-11-03 04:46:33 UTC*
 *Packages with verified BBS status: 126*
