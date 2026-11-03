@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 454 (18%)
-- **Failed:** 4 (0%)
-- **In Progress:** 154
-- **Not Started:** 1825
+- **Successfully Built:** 458 (18%)
+- **Failed:** 5 (0%)
+- **In Progress:** 158
+- **Not Started:** 1816
 
 **Progress:** 18%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (454)
+## Successfully Built Packages (458)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BioQC](https://bioconductor.org/packages/3.24/bioc/html/BioQC.html) | [log](logs/BioQC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioQC) |
 
-*... and 404 more ...*
+*... and 408 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,20 +76,22 @@
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (4)
+## Failed Packages (5)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
+| [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (154)
+## In Progress (158)
 - ⏳ `AIMS`
 - ⏳ `ANF`
 - ⏳ `BUS`
 - ⏳ `BayesKnockdown`
+- ⏳ `BioMVCClass`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocVersion`
@@ -122,6 +124,7 @@
 - ⏳ `Icens`
 - ⏳ `Informeasure`
 - ⏳ `KBoost`
+- ⏳ `KEGGgraph`
 - ⏳ `LBE`
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsResponse`
@@ -134,12 +137,10 @@
 - ⏳ `NanoStringDiff`
 - ⏳ `NormqPCR`
 - ⏳ `OPWeight`
-- ⏳ `PLPE`
-- ⏳ `PROPER`
 
-... and 104 more ...
+... and 108 more ...
 
-## Not Yet Started (1825)
+## Not Yet Started (1816)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -191,8 +192,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1775 more ...
+... and 1766 more ...
 
 ---
-*Last updated: 2026-11-03 06:03:04 UTC*
-*Packages with verified BBS status: 152*
+*Last updated: 2026-11-03 06:04:47 UTC*
+*Packages with verified BBS status: 153*
