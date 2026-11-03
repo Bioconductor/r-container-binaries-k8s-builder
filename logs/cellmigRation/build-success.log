@@ -1,0 +1,184 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''cellmigRation'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'cellmigRation'
+also installing the dependencies ‘estimability’, ‘showtextdb’, ‘minpack.lm’, ‘spBayes’, ‘sm’, ‘ellipse’, ‘emmeans’, ‘flashClust’, ‘leaps’, ‘multcompView’, ‘scatterplot3d’, ‘showtext’, ‘sysfonts’, ‘tiff’, ‘FME’, ‘SpatialTools’, ‘vioplot’, ‘FactoMineR’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/estimability_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/showtextdb_3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/minpack.lm_1.2-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/spBayes_0.4-9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/sm_2.2-6.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ellipse_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/emmeans_2.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/flashClust_1.1-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/leaps_3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/multcompView_0.1-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/scatterplot3d_0.3-45.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/showtext_0.9-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/sysfonts_0.8.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tiff_0.1-12.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/FME_1.3.6.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/SpatialTools_1.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/vioplot_0.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/FactoMineR_2.18.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/cellmigRation_1.21.0.tar.gz'
+* installing *binary* package ‘estimability’ ...
+* package ‘estimability’ successfully unpacked and SHA256 sums checked
+* ‘estimability’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘estimability’ as ‘estimability_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (estimability)
+* installing *binary* package ‘minpack.lm’ ...
+* package ‘minpack.lm’ successfully unpacked and SHA256 sums checked
+* ‘minpack.lm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘minpack.lm’ as ‘minpack.lm_1.2-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minpack.lm)
+* installing *binary* package ‘spBayes’ ...
+* package ‘spBayes’ successfully unpacked and SHA256 sums checked
+* ‘spBayes’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spBayes’ as ‘spBayes_0.4-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spBayes)
+* installing *binary* package ‘sm’ ...
+* package ‘sm’ successfully unpacked and SHA256 sums checked
+* ‘sm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sm’ as ‘sm_2.2-6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sm)
+* installing *binary* package ‘ellipse’ ...
+* package ‘ellipse’ successfully unpacked and SHA256 sums checked
+* ‘ellipse’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ellipse’ as ‘ellipse_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ellipse)
+* installing *binary* package ‘flashClust’ ...
+* package ‘flashClust’ successfully unpacked and SHA256 sums checked
+* ‘flashClust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘flashClust’ as ‘flashClust_1.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flashClust)
+* installing *binary* package ‘leaps’ ...
+* package ‘leaps’ successfully unpacked and SHA256 sums checked
+* ‘leaps’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘leaps’ as ‘leaps_3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (leaps)
+* installing *binary* package ‘multcompView’ ...
+* package ‘multcompView’ successfully unpacked and SHA256 sums checked
+* ‘multcompView’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘multcompView’ as ‘multcompView_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcompView)
+* installing *binary* package ‘scatterplot3d’ ...
+* package ‘scatterplot3d’ successfully unpacked and SHA256 sums checked
+* ‘scatterplot3d’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scatterplot3d’ as ‘scatterplot3d_0.3-45_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scatterplot3d)
+* installing *binary* package ‘sysfonts’ ...
+* package ‘sysfonts’ successfully unpacked and SHA256 sums checked
+* ‘sysfonts’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sysfonts’ as ‘sysfonts_0.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sysfonts)
+* installing *binary* package ‘tiff’ ...
+* package ‘tiff’ successfully unpacked and SHA256 sums checked
+* ‘tiff’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tiff’ as ‘tiff_0.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiff)
+* installing *binary* package ‘showtextdb’ ...
+* package ‘showtextdb’ successfully unpacked and SHA256 sums checked
+* ‘showtextdb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘showtextdb’ as ‘showtextdb_3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtextdb)
+* installing *binary* package ‘emmeans’ ...
+* package ‘emmeans’ successfully unpacked and SHA256 sums checked
+* ‘emmeans’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘emmeans’ as ‘emmeans_2.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emmeans)
+* installing *binary* package ‘FME’ ...
+* package ‘FME’ successfully unpacked and SHA256 sums checked
+* ‘FME’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FME’ as ‘FME_1.3.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FME)
+* installing *binary* package ‘SpatialTools’ ...
+* package ‘SpatialTools’ successfully unpacked and SHA256 sums checked
+* ‘SpatialTools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpatialTools’ as ‘SpatialTools_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpatialTools)
+* installing *binary* package ‘vioplot’ ...
+* package ‘vioplot’ successfully unpacked and SHA256 sums checked
+* ‘vioplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘vioplot’ as ‘vioplot_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vioplot)
+* installing *binary* package ‘showtext’ ...
+* package ‘showtext’ successfully unpacked and SHA256 sums checked
+* ‘showtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘showtext’ as ‘showtext_0.9-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (showtext)
+* installing *binary* package ‘FactoMineR’ ...
+* package ‘FactoMineR’ successfully unpacked and SHA256 sums checked
+* ‘FactoMineR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘FactoMineR’ as ‘FactoMineR_2.18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FactoMineR)
+* installing *source* package ‘cellmigRation’ ...
+** this is package ‘cellmigRation’ version ‘1.21.0’
+** package ‘cellmigRation’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cellmigRation’ as ‘cellmigRation_1.21.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellmigRation)
+
+The downloaded source packages are in
+	‘/tmp/RtmpVpx31x/downloaded_packages’
+
+real	0m25.769s
+user	0m19.888s
+sys	0m5.952s
