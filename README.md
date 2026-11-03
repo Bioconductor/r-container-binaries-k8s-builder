@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 530 (21%)
+- **Successfully Built:** 533 (21%)
 - **Failed:** 5 (0%)
-- **In Progress:** 121
+- **In Progress:** 118
 - **Not Started:** 1781
 
-**Progress:** 21%
+**Progress:** 22%
 ```
-██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (530)
+## Successfully Built Packages (533)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 
-*... and 480 more ...*
+*... and 483 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (121)
+## In Progress (118)
 - ⏳ `ANF`
 - ⏳ `Aerith`
 - ⏳ `BUS`
@@ -118,11 +118,9 @@
 - ⏳ `MethylMix`
 - ⏳ `NormqPCR`
 - ⏳ `OPWeight`
-- ⏳ `OncoSimulR`
 - ⏳ `PLPE`
 - ⏳ `QRscore`
 - ⏳ `RDRToolbox`
-- ⏳ `RGSEA`
 - ⏳ `RIVER`
 - ⏳ `ROTS`
 - ⏳ `RTCA`
@@ -137,8 +135,10 @@
 - ⏳ `TPP`
 - ⏳ `TRONCO`
 - ⏳ `a4Classif`
+- ⏳ `affyContam`
+- ⏳ `bacon`
 
-... and 71 more ...
+... and 68 more ...
 
 ## Not Yet Started (1781)
 - ⏸️ `ABarray`
@@ -195,5 +195,5 @@
 ... and 1731 more ...
 
 ---
-*Last updated: 2026-11-03 06:28:47 UTC*
+*Last updated: 2026-11-03 06:30:41 UTC*
 *Packages with verified BBS status: 159*
