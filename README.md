@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 325 (13%)
 - **Failed:** 4 (0%)
-- **In Progress:** 151
-- **Not Started:** 1905
+- **In Progress:** 152
+- **Not Started:** 1904
 
 **Progress:** 13%
 ```
@@ -85,7 +85,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (151)
+## In Progress (152)
 - ⏳ `ABSSeq`
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
@@ -137,9 +137,9 @@
 - ⏳ `MVCClass`
 - ⏳ `MantelCorr`
 
-... and 101 more ...
+... and 102 more ...
 
-## Not Yet Started (1905)
+## Not Yet Started (1904)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -191,8 +191,8 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
 
-... and 1855 more ...
+... and 1854 more ...
 
 ---
-*Last updated: 2026-11-03 04:50:49 UTC*
+*Last updated: 2026-11-03 04:52:31 UTC*
 *Packages with verified BBS status: 142*
