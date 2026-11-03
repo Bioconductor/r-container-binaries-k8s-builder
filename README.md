@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1789 (73%)
+- **Successfully Built:** 1790 (73%)
 - **Failed:** 8 (0%)
-- **In Progress:** 112
+- **In Progress:** 111
 - **Not Started:** 528
 
 **Progress:** 73%
@@ -16,7 +16,7 @@
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1789)
+## Successfully Built Packages (1790)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1739 more ...*
+*... and 1740 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (112)
+## In Progress (111)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -120,7 +120,6 @@
 - ⏳ `HiCool`
 - ⏳ `HiSpaR`
 - ⏳ `HybridExpress`
-- ⏳ `ImageArray`
 - ⏳ `LRcell`
 - ⏳ `MIRit`
 - ⏳ `MetaPhOR`
@@ -140,8 +139,9 @@
 - ⏳ `ReducedExperiment`
 - ⏳ `SeqSQC`
 - ⏳ `SpatialData.data`
+- ⏳ `SpatialData.plot`
 
-... and 62 more ...
+... and 61 more ...
 
 ## Not Yet Started (528)
 - ⏸️ `AHMassBank`
@@ -198,5 +198,5 @@
 ... and 478 more ...
 
 ---
-*Last updated: 2026-11-03 22:45:51 UTC*
+*Last updated: 2026-11-03 22:46:58 UTC*
 *Packages with verified BBS status: 222*
