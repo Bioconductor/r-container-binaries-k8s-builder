@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 121 (5%)
+- **Successfully Built:** 122 (5%)
 - **Failed:** 2 (0%)
-- **In Progress:** 261
+- **In Progress:** 260
 - **Not Started:** 2001
 
 **Progress:** 5%
@@ -16,7 +16,7 @@
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (121)
+## Successfully Built Packages (122)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 71 more ...*
+*... and 72 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [lmdme](https://bioconductor.org/packages/3.23/bioc/html/lmdme.html) | [log](logs/lmdme/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/lmdme) |
 | [metapod](https://bioconductor.org/packages/3.23/bioc/html/metapod.html) | [log](logs/metapod/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metapod) |
 | [mgsa](https://bioconductor.org/packages/3.23/bioc/html/mgsa.html) | [log](logs/mgsa/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mgsa) |
 | [miRBaseConverter](https://bioconductor.org/packages/3.23/bioc/html/miRBaseConverter.html) | [log](logs/miRBaseConverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/miRBaseConverter) |
@@ -64,6 +63,7 @@
 | [ompBAM](https://bioconductor.org/packages/3.23/bioc/html/ompBAM.html) | [log](logs/ompBAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ompBAM) |
 | [pathifier](https://bioconductor.org/packages/3.23/bioc/html/pathifier.html) | [log](logs/pathifier/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pathifier) |
 | [qvalue](https://bioconductor.org/packages/3.23/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/qvalue) |
+| [rgoslin](https://bioconductor.org/packages/3.23/bioc/html/rgoslin.html) | [log](logs/rgoslin/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rgoslin) |
 | [rnaseqcomp](https://bioconductor.org/packages/3.23/bioc/html/rnaseqcomp.html) | [log](logs/rnaseqcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rnaseqcomp) |
 | [rpx](https://bioconductor.org/packages/3.23/bioc/html/rpx.html) | [log](logs/rpx/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rpx) |
 | [rsemmed](https://bioconductor.org/packages/3.23/bioc/html/rsemmed.html) | [log](logs/rsemmed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rsemmed) |
@@ -83,7 +83,7 @@
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 
-## In Progress (261)
+## In Progress (260)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -135,7 +135,7 @@
 - ⏳ `INDEED`
 - ⏳ `INPower`
 
-... and 211 more ...
+... and 210 more ...
 
 ## Not Yet Started (2001)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1951 more ...
 
 ---
-*Last updated: 2026-11-03 03:37:43 UTC*
-*Packages with verified BBS status: 100*
+*Last updated: 2026-11-03 03:39:51 UTC*
+*Packages with verified BBS status: 101*
