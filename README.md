@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 282 (11%)
+- **Successfully Built:** 286 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 155
+- **In Progress:** 151
 - **Not Started:** 1998
 
 **Progress:** 11%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (282)
+## Successfully Built Packages (286)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 
-*... and 232 more ...*
+*... and 236 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (155)
+## In Progress (151)
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -116,14 +116,10 @@
 - ⏳ `KBoost`
 - ⏳ `KinSwingR`
 - ⏳ `LBE`
-- ⏳ `LedPred`
 - ⏳ `Linnorm`
-- ⏳ `M3C`
 - ⏳ `MBAmethyl`
 - ⏳ `MODA`
-- ⏳ `MPFE`
 - ⏳ `MSstatsConvert`
-- ⏳ `MSstatsLOBD`
 - ⏳ `MSstatsResponse`
 - ⏳ `MantelCorr`
 - ⏳ `MassArray`
@@ -134,8 +130,12 @@
 - ⏳ `NetPathMiner`
 - ⏳ `NuPoP`
 - ⏳ `OPWeight`
+- ⏳ `OSAT`
+- ⏳ `OpenStats`
+- ⏳ `PCAN`
+- ⏳ `Path2PPI`
 
-... and 105 more ...
+... and 101 more ...
 
 ## Not Yet Started (1998)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1948 more ...
 
 ---
-*Last updated: 2026-11-03 04:55:32 UTC*
+*Last updated: 2026-11-03 04:56:47 UTC*
 *Packages with verified BBS status: 129*
