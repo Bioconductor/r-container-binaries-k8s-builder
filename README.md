@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 542 (22%)
+- **Successfully Built:** 553 (22%)
 - **Failed:** 5 (0%)
-- **In Progress:** 116
+- **In Progress:** 105
 - **Not Started:** 1774
 
 **Progress:** 22%
@@ -16,7 +16,7 @@
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (542)
+## Successfully Built Packages (553)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -35,7 +35,9 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
+| [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
+| [AnVILAz](https://bioconductor.org/packages/3.24/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BADER](https://bioconductor.org/packages/3.24/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BADER) |
@@ -43,14 +45,11 @@
 | [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
-| [BayesKnockdown](https://bioconductor.org/packages/3.24/bioc/html/BayesKnockdown.html) | [log](logs/BayesKnockdown/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BayesKnockdown) |
-| [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 
-*... and 492 more ...*
+*... and 503 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [spikeLI](https://bioconductor.org/packages/3.24/bioc/html/spikeLI.html) | [log](logs/spikeLI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/spikeLI) |
 | [splots](https://bioconductor.org/packages/3.24/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.24/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
@@ -63,6 +62,7 @@
 | [tidysbml](https://bioconductor.org/packages/3.24/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [topconfects](https://bioconductor.org/packages/3.24/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/topconfects) |
+| [tripr](https://bioconductor.org/packages/3.24/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
 | [tweeDEseq](https://bioconductor.org/packages/3.24/bioc/html/tweeDEseq.html) | [log](logs/tweeDEseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tweeDEseq) |
 | [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
@@ -86,14 +86,10 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (116)
+## In Progress (105)
 - ⏳ `ANF`
-- ⏳ `AlphaMissenseR`
-- ⏳ `AnVILAz`
 - ⏳ `BUS`
 - ⏳ `BioMVCClass`
-- ⏳ `BiocCheck`
-- ⏳ `BiocFHIR`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocPkgDash`
 - ⏳ `BridgeDbR`
@@ -102,7 +98,6 @@
 - ⏳ `DepecheR`
 - ⏳ `FamAgg`
 - ⏳ `Fancy`
-- ⏳ `GCPtools`
 - ⏳ `GSEAlm`
 - ⏳ `GenProSeq`
 - ⏳ `GeneExpressionSignature`
@@ -118,7 +113,6 @@
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsResponse`
 - ⏳ `MantelCorr`
-- ⏳ `MeLSI`
 - ⏳ `MethylMix`
 - ⏳ `NormqPCR`
 - ⏳ `OPWeight`
@@ -137,8 +131,14 @@
 - ⏳ `SUITOR`
 - ⏳ `SharedObject`
 - ⏳ `SpeCond`
+- ⏳ `TRONCO`
+- ⏳ `a4Classif`
+- ⏳ `affyContam`
+- ⏳ `bacon`
+- ⏳ `bioDist`
+- ⏳ `cancerclass`
 
-... and 66 more ...
+... and 55 more ...
 
 ## Not Yet Started (1774)
 - ⏸️ `ABarray`
@@ -195,5 +195,5 @@
 ... and 1724 more ...
 
 ---
-*Last updated: 2026-11-03 06:33:56 UTC*
-*Packages with verified BBS status: 163*
+*Last updated: 2026-11-03 06:35:14 UTC*
+*Packages with verified BBS status: 166*
