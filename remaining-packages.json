@@ -1169,7 +1169,6 @@
   "CATALYST": [
     "SingleCellExperiment",
     "ComplexHeatmap",
-    "FlowSOM",
     "SummarizedExperiment",
     "scater",
     "scuttle",
@@ -2191,9 +2190,7 @@
     "cigarillo"
   ],
   "CompensAID": [
-    "flowDensity",
     "ggcyto",
-    "ncdfFlow",
     "flowWorkspace",
     "DelayedArray",
     "S4Arrays",
@@ -2311,7 +2308,6 @@
   ],
   "CyFj11": [
     "flowWorkspace",
-    "ncdfFlow",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -2321,7 +2317,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment",
     "CATALYST",
-    "FlowSOM",
     "ComplexHeatmap",
     "scater",
     "GenomicRanges",
@@ -2339,7 +2334,6 @@
   "CyTOFpower": [
     "diffcyt",
     "SummarizedExperiment",
-    "FlowSOM",
     "ComplexHeatmap",
     "GenomicRanges",
     "Seqinfo",
@@ -2352,8 +2346,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "flowAI",
-    "ncdfFlow",
     "flowWorkspace",
     "ComplexHeatmap",
     "DelayedArray",
@@ -2365,7 +2357,6 @@
     "flowWorkspace",
     "openCyto",
     "ggcyto",
-    "ncdfFlow",
     "DelayedArray",
     "flowClust",
     "S4Arrays",
@@ -2375,8 +2366,6 @@
   "CytoPipeline": [
     "ggcyto",
     "PeacoQC",
-    "flowAI",
-    "ncdfFlow",
     "flowWorkspace",
     "ComplexHeatmap",
     "DelayedArray",
@@ -2388,8 +2377,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "flowAI",
-    "ncdfFlow",
     "flowWorkspace",
     "ComplexHeatmap",
     "DelayedArray",
@@ -3733,7 +3720,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "FlowSOM": [],
   "FuseSOM": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -5529,8 +5515,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "flowAI",
-    "ncdfFlow",
     "flowWorkspace",
     "ComplexHeatmap",
     "DelayedArray",
@@ -6087,9 +6071,7 @@
     "SparseArray",
     "XVector"
   ],
-  "MetaCyto": [
-    "FlowSOM"
-  ],
+  "MetaCyto": [],
   "MetaPathNet": [
     "KEGGREST",
     "mygene",
@@ -7230,7 +7212,6 @@
   "PeacoQC": [
     "ComplexHeatmap",
     "flowWorkspace",
-    "ncdfFlow",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -12125,7 +12106,6 @@
   "censcyt": [
     "diffcyt",
     "SummarizedExperiment",
-    "FlowSOM",
     "ComplexHeatmap",
     "GenomicRanges",
     "Seqinfo",
@@ -13123,7 +13103,6 @@
     "Seqinfo"
   ],
   "cyanoFilter": [
-    "flowDensity",
     "flowClust"
   ],
   "cydar": [
@@ -13165,13 +13144,11 @@
     "SparseArray",
     "XVector"
   ],
-  "cytoMEM": [],
   "cytofQC": [
     "CATALYST",
     "SingleCellExperiment",
     "SummarizedExperiment",
     "ComplexHeatmap",
-    "FlowSOM",
     "scater",
     "GenomicRanges",
     "DelayedArray",
@@ -13342,9 +13319,7 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "ddPCRclust": [
-    "flowDensity"
-  ],
+  "ddPCRclust": [],
   "debrowser": [
     "annotate",
     "AnnotationDbi",
@@ -13616,7 +13591,6 @@
     "XVector"
   ],
   "diffcyt": [
-    "FlowSOM",
     "SummarizedExperiment",
     "ComplexHeatmap",
     "GenomicRanges",
@@ -14544,7 +14518,6 @@
     "AnnotationFilter",
     "XVector"
   ],
-  "flowAI": [],
   "flowBeads": [],
   "flowBin": [
     "flowFP"
@@ -14552,16 +14525,12 @@
   "flowCHIC": [],
   "flowClean": [],
   "flowClust": [],
-  "flowCut": [
-    "flowDensity"
-  ],
-  "flowDensity": [],
+  "flowCut": [],
   "flowFP": [],
   "flowGate": [
     "flowWorkspace",
     "ggcyto",
     "openCyto",
-    "ncdfFlow",
     "DelayedArray",
     "flowClust",
     "S4Arrays",
@@ -14577,7 +14546,6 @@
   "flowSpecs": [],
   "flowStats": [
     "flowWorkspace",
-    "ncdfFlow",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -14589,14 +14557,12 @@
   "flowVS": [
     "flowStats",
     "flowWorkspace",
-    "ncdfFlow",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
     "XVector"
   ],
   "flowWorkspace": [
-    "ncdfFlow",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -15015,7 +14981,6 @@
     "SparseArray"
   ],
   "ggcyto": [
-    "ncdfFlow",
     "flowWorkspace",
     "DelayedArray",
     "S4Arrays",
@@ -15900,7 +15865,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "immunoClust": [],
   "immunogenViewer": [
     "UniProt.ws",
     "AnnotationDbi",
@@ -15920,7 +15884,6 @@
     "SparseArray",
     "XVector"
   ],
-  "infinityFlow": [],
   "intansv": [
     "ggbio",
     "GenomicRanges",
@@ -17757,7 +17720,6 @@
     "GenomicRanges",
     "Seqinfo"
   ],
-  "ncdfFlow": [],
   "netSmooth": [
     "scater",
     "clusterExperiment",
@@ -18074,7 +18036,6 @@
     "XVector"
   ],
   "openCyto": [
-    "ncdfFlow",
     "flowWorkspace",
     "flowClust",
     "DelayedArray",
@@ -18641,10 +18602,8 @@
   "polyICSFlow": [
     "flowWorkspace",
     "openCyto",
-    "FlowSOM",
     "ComplexHeatmap",
     "SummarizedExperiment",
-    "ncdfFlow",
     "DelayedArray",
     "flowClust",
     "GenomicRanges",
@@ -21273,7 +21232,6 @@
     "CATALYST",
     "SingleCellExperiment",
     "ComplexHeatmap",
-    "FlowSOM",
     "scater",
     "GenomicRanges",
     "Seqinfo",
@@ -21439,7 +21397,6 @@
   ],
   "staRgate": [
     "flowWorkspace",
-    "ncdfFlow",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -21804,7 +21761,6 @@
     "SparseArray",
     "cigarillo"
   ],
-  "tidyFlowCore": [],
   "tidySingleCellExperiment": [
     "SingleCellExperiment",
     "SummarizedExperiment",
@@ -22081,7 +22037,6 @@
     "SummarizedExperiment",
     "diffcyt",
     "ggtree",
-    "FlowSOM",
     "ComplexHeatmap",
     "treeio",
     "GenomicRanges",
@@ -22098,7 +22053,6 @@
     "ggtree",
     "SingleCellExperiment",
     "diffcyt",
-    "FlowSOM",
     "SummarizedExperiment",
     "ComplexHeatmap",
     "treeio",
