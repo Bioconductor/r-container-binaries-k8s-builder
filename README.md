@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 394 (16%)
+- **Successfully Built:** 401 (16%)
 - **Failed:** 6 (0%)
-- **In Progress:** 93
+- **In Progress:** 86
 - **Not Started:** 1892
 
-**Progress:** 16%
+**Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (394)
+## Successfully Built Packages (401)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocGenerics](https://bioconductor.org/packages/3.23/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocGenerics) |
 | [BiocHail](https://bioconductor.org/packages/3.23/bioc/html/BiocHail.html) | [log](logs/BiocHail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocHail) |
 
-*... and 344 more ...*
+*... and 351 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (93)
+## In Progress (86)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
 - ⏳ `BANDITS`
@@ -110,11 +110,9 @@
 - ⏳ `GWAS.BAYES`
 - ⏳ `HGC`
 - ⏳ `Heatplus`
-- ⏳ `HubPub`
 - ⏳ `IHW`
 - ⏳ `INTACT`
 - ⏳ `LPE`
-- ⏳ `Linnorm`
 - ⏳ `M3C`
 - ⏳ `MBAmethyl`
 - ⏳ `MBttest`
@@ -124,7 +122,6 @@
 - ⏳ `NPARC`
 - ⏳ `Oscope`
 - ⏳ `PCAN`
-- ⏳ `PROcess`
 - ⏳ `QRscore`
 - ⏳ `RGSEA`
 - ⏳ `RLMM`
@@ -135,11 +132,14 @@
 - ⏳ `TreeAndLeaf`
 - ⏳ `Wrench`
 - ⏳ `assorthead`
-- ⏳ `cbpManager`
 - ⏳ `cellscape`
 - ⏳ `consensus`
+- ⏳ `ctsGE`
+- ⏳ `dcGSA`
+- ⏳ `deltaGseg`
+- ⏳ `diffuStats`
 
-... and 43 more ...
+... and 36 more ...
 
 ## Not Yet Started (1892)
 - ⏸️ `ABarray`
@@ -196,5 +196,5 @@
 ... and 1842 more ...
 
 ---
-*Last updated: 2026-11-03 05:30:21 UTC*
+*Last updated: 2026-11-03 05:31:19 UTC*
 *Packages with verified BBS status: 148*
