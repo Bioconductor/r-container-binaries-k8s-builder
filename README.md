@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1674 (68%)
+- **Successfully Built:** 1675 (68%)
 - **Failed:** 7 (0%)
-- **In Progress:** 169
-- **Not Started:** 587
+- **In Progress:** 175
+- **Not Started:** 580
 
-**Progress:** 68%
+**Progress:** 69%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1674)
+## Successfully Built Packages (1675)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1624 more ...*
+*... and 1625 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (169)
+## In Progress (175)
 - ⏳ `ADAPT`
 - ⏳ `AGDEX`
 - ⏳ `ASICS`
@@ -98,6 +98,7 @@
 - ⏳ `BioNERO`
 - ⏳ `CATALYST`
 - ⏳ `CEMiTool`
+- ⏳ `CRISPRball`
 - ⏳ `CaMutQC`
 - ⏳ `CeTF`
 - ⏳ `CellMentor`
@@ -118,6 +119,7 @@
 - ⏳ `GOaGO`
 - ⏳ `GSEAlens`
 - ⏳ `GeneMeta`
+- ⏳ `GenomicAlignments`
 - ⏳ `GenomicScores`
 - ⏳ `GlobalAncova`
 - ⏳ `GrafGen`
@@ -137,12 +139,10 @@
 - ⏳ `MSnID`
 - ⏳ `MetaPhOR`
 - ⏳ `MetaboAnnotation`
-- ⏳ `MicrobiomeProfiler`
-- ⏳ `MoonlightR`
 
-... and 119 more ...
+... and 125 more ...
 
-## Not Yet Started (587)
+## Not Yet Started (580)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -182,7 +182,6 @@
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CODEX`
-- ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
 - ⏸️ `CTdata`
@@ -193,9 +192,10 @@
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPanalyser`
 - ⏸️ `ChIPexoQual`
+- ⏸️ `ChIPpeakAnno`
 
-... and 537 more ...
+... and 530 more ...
 
 ---
-*Last updated: 2026-11-03 19:51:01 UTC*
+*Last updated: 2026-11-03 19:53:26 UTC*
 *Packages with verified BBS status: 214*
