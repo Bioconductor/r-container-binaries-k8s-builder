@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 214 (8%)
+- **Successfully Built:** 222 (9%)
 - **Failed:** 2 (0%)
-- **In Progress:** 218
-- **Not Started:** 2003
+- **In Progress:** 211
+- **Not Started:** 2002
 
-**Progress:** 8%
+**Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (214)
+## Successfully Built Packages (222)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -32,6 +32,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
+| [BADER](https://bioconductor.org/packages/3.24/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BADER) |
 | [BANDITS](https://bioconductor.org/packages/3.24/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BANDITS) |
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
@@ -44,9 +45,8 @@
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
-| [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
 
-*... and 164 more ...*
+*... and 172 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,8 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (218)
-- ⏳ `BADER`
+## In Progress (211)
 - ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -98,15 +97,9 @@
 - ⏳ `DEGseq`
 - ⏳ `DEqMS`
 - ⏳ `DEsingle`
-- ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNAcopy`
-- ⏳ `DTA`
-- ⏳ `DeMAND`
 - ⏳ `DepInfeR`
 - ⏳ `DepecheR`
-- ⏳ `DiffLogo`
-- ⏳ `DriverNet`
-- ⏳ `DynDoc`
 - ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
 - ⏳ `FRGEpistasis`
@@ -134,10 +127,17 @@
 - ⏳ `ISAnalytics`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
+- ⏳ `KBoost`
+- ⏳ `KinSwingR`
+- ⏳ `LBE`
+- ⏳ `LEA`
+- ⏳ `LPE`
+- ⏳ `LedPred`
+- ⏳ `Linnorm`
 
-... and 168 more ...
+... and 161 more ...
 
-## Not Yet Started (2003)
+## Not Yet Started (2002)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -189,8 +189,8 @@
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 
-... and 1953 more ...
+... and 1952 more ...
 
 ---
-*Last updated: 2026-11-03 04:31:49 UTC*
-*Packages with verified BBS status: 116*
+*Last updated: 2026-11-03 04:34:17 UTC*
+*Packages with verified BBS status: 117*
