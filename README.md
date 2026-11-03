@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 386 (16%)
+- **Successfully Built:** 393 (16%)
 - **Failed:** 6 (0%)
-- **In Progress:** 100
-- **Not Started:** 1893
+- **In Progress:** 94
+- **Not Started:** 1892
 
 **Progress:** 16%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (386)
+## Successfully Built Packages (393)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocGenerics](https://bioconductor.org/packages/3.23/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocGenerics) |
 | [BiocHail](https://bioconductor.org/packages/3.23/bioc/html/BiocHail.html) | [log](logs/BiocHail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocHail) |
 
-*... and 336 more ...*
+*... and 343 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (100)
+## In Progress (94)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
 - ⏳ `BANDITS`
@@ -108,12 +108,11 @@
 - ⏳ `GSCA`
 - ⏳ `GSgalgoR`
 - ⏳ `GWAS.BAYES`
-- ⏳ `GeneGA`
 - ⏳ `GeneticsPed`
 - ⏳ `HGC`
 - ⏳ `Heatplus`
+- ⏳ `HubPub`
 - ⏳ `IHW`
-- ⏳ `IMPCdata`
 - ⏳ `INTACT`
 - ⏳ `LPE`
 - ⏳ `Linnorm`
@@ -137,11 +136,12 @@
 - ⏳ `TreeAndLeaf`
 - ⏳ `Wrench`
 - ⏳ `assorthead`
-- ⏳ `banocc`
+- ⏳ `cbpManager`
+- ⏳ `cellscape`
 
-... and 50 more ...
+... and 44 more ...
 
-## Not Yet Started (1893)
+## Not Yet Started (1892)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -193,8 +193,8 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
 
-... and 1843 more ...
+... and 1842 more ...
 
 ---
-*Last updated: 2026-11-03 05:28:06 UTC*
+*Last updated: 2026-11-03 05:29:30 UTC*
 *Packages with verified BBS status: 148*
