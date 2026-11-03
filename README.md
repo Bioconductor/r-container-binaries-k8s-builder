@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1706 (70%)
+- **Successfully Built:** 1708 (70%)
 - **Failed:** 7 (0%)
 - **In Progress:** 151
-- **Not Started:** 573
+- **Not Started:** 571
 
 **Progress:** 70%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1706)
+## Successfully Built Packages (1708)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1656 more ...*
+*... and 1658 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -106,7 +106,6 @@
 - ⏳ `CellTrails`
 - ⏳ `ClustIRR`
 - ⏳ `CompensAID`
-- ⏳ `CyFj11`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
 - ⏳ `DeeDeeExperiment`
@@ -139,10 +138,11 @@
 - ⏳ `MicrobiomeProfiler`
 - ⏳ `MoonlightR`
 - ⏳ `MultiBaC`
+- ⏳ `NBAMSeq`
 
 ... and 101 more ...
 
-## Not Yet Started (573)
+## Not Yet Started (571)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -194,8 +194,8 @@
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `ChIPseeker`
 
-... and 523 more ...
+... and 521 more ...
 
 ---
-*Last updated: 2026-11-03 20:23:38 UTC*
+*Last updated: 2026-11-03 20:25:46 UTC*
 *Packages with verified BBS status: 214*
