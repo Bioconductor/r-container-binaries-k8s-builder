@@ -8,8 +8,8 @@
 - **Total Packages:** 2437
 - **Successfully Built:** 1806 (74%)
 - **Failed:** 8 (0%)
-- **In Progress:** 99
-- **Not Started:** 524
+- **In Progress:** 112
+- **Not Started:** 511
 
 **Progress:** 74%
 ```
@@ -89,10 +89,13 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (99)
+## In Progress (112)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
+- ⏳ `BaalChIP`
+- ⏳ `BamScale`
+- ⏳ `BasicSTARRseq`
 - ⏳ `BatChef`
 - ⏳ `CEMiTool`
 - ⏳ `CRISPRball`
@@ -103,6 +106,7 @@
 - ⏳ `ClustIRR`
 - ⏳ `CoSIA`
 - ⏳ `CompensAID`
+- ⏳ `CrispRVariants`
 - ⏳ `CySA`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
@@ -116,6 +120,7 @@
 - ⏳ `HiSpaR`
 - ⏳ `HybridExpress`
 - ⏳ `LRcell`
+- ⏳ `MDTS`
 - ⏳ `MIRit`
 - ⏳ `MetaPhOR`
 - ⏳ `MetaboAnnotation`
@@ -123,6 +128,7 @@
 - ⏳ `MoonlightR`
 - ⏳ `MsDataHub`
 - ⏳ `MultiBaC`
+- ⏳ `PICB`
 - ⏳ `PROMISE`
 - ⏳ `PanomiR`
 - ⏳ `Pigengene`
@@ -131,19 +137,13 @@
 - ⏳ `RPA`
 - ⏳ `ReducedExperiment`
 - ⏳ `SeqSQC`
+- ⏳ `ShortRead`
 - ⏳ `SpatialData.data`
 - ⏳ `SpatialData.plot`
-- ⏳ `SpectralTAD`
-- ⏳ `SurfR`
-- ⏳ `TiDEomics`
-- ⏳ `TraianProt`
-- ⏳ `a4Base`
-- ⏳ `bandle`
-- ⏳ `biosigner`
 
-... and 49 more ...
+... and 62 more ...
 
-## Not Yet Started (524)
+## Not Yet Started (511)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -157,11 +157,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `BamScale`
 - ⏸️ `Basic4Cseq`
-- ⏸️ `BasicSTARRseq`
 - ⏸️ `BgeeCall`
 - ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
@@ -194,9 +191,12 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
+- ⏸️ `ClonalSim`
+- ⏸️ `Cogito`
+- ⏸️ `CopyNumberPlots`
 
-... and 474 more ...
+... and 461 more ...
 
 ---
-*Last updated: 2026-11-03 23:31:08 UTC*
+*Last updated: 2026-11-03 23:32:21 UTC*
 *Packages with verified BBS status: 222*
