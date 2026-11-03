@@ -4,7 +4,6 @@
     "AnnotationHubData",
     "GenomicFeatures",
     "rtracklayer",
-    "biocViews",
     "BiocCheck",
     "OrganismDbi",
     "GenomicAlignments"
@@ -73,7 +72,6 @@
   "AnnotationHubData": [
     "GenomicFeatures",
     "rtracklayer",
-    "biocViews",
     "BiocCheck",
     "OrganismDbi",
     "GenomicAlignments"
@@ -156,23 +154,15 @@
     "GenomicFeatures",
     "GenomicAlignments"
   ],
-  "BioGA": [
-    "biocViews"
-  ],
+  "BioGA": [],
   "BioNERO": [],
-  "BiocCheck": [
-    "biocViews"
-  ],
+  "BiocCheck": [],
   "BiocPkgDash": [
-    "BiocPkgTools",
-    "biocViews"
+    "BiocPkgTools"
   ],
-  "BiocPkgTools": [
-    "biocViews"
-  ],
+  "BiocPkgTools": [],
   "BulkSignalR": [
-    "orthogene",
-    "ggtree"
+    "orthogene"
   ],
   "CAFE": [
     "biovizBase",
@@ -212,8 +202,7 @@
   ],
   "CBNplot": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "CCAFE": [
     "VariantAnnotation",
@@ -224,8 +213,7 @@
   ],
   "CEMiTool": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "CNEr": [
     "rtracklayer",
@@ -292,14 +280,12 @@
   ],
   "CaMutQC": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "CeTF": [
     "clusterProfiler",
     "RCy3",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "CellBarcode": [
     "ShortRead",
@@ -374,7 +360,6 @@
     "enrichplot",
     "GenomicFeatures",
     "rtracklayer",
-    "ggtree",
     "GenomicAlignments"
   ],
   "ChIPseqR": [
@@ -579,7 +564,6 @@
     "GenomicAlignments"
   ],
   "DspikeIn": [
-    "ggtree",
     "ggtreeExtra",
     "TreeSummarizedExperiment"
   ],
@@ -624,13 +608,11 @@
     "GenomicAlignments"
   ],
   "EWCE": [
-    "orthogene",
-    "ggtree"
+    "orthogene"
   ],
   "EasyCellType": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "EpiCompare": [
     "ChIPseeker",
@@ -639,8 +621,7 @@
     "enrichplot",
     "GenomicFeatures",
     "BSgenome",
-    "GenomicAlignments",
-    "ggtree"
+    "GenomicAlignments"
   ],
   "EpiDISH": [],
   "EpiMix": [
@@ -670,7 +651,6 @@
     "AnnotationHubData",
     "GenomicFeatures",
     "rtracklayer",
-    "biocViews",
     "BiocCheck",
     "OrganismDbi",
     "GenomicAlignments"
@@ -739,8 +719,7 @@
   "GDCRNATools": [
     "clusterProfiler",
     "GenomicDataCommons",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "GNOSIS": [
     "cBioPortalData",
@@ -759,8 +738,7 @@
   ],
   "GOaGO": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "GOfuncR": [],
   "GRaNIE": [
@@ -769,7 +747,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "GRmetrics": [],
   "GSABenchmark": [
     "SiPSiC"
   ],
@@ -818,7 +795,6 @@
     "enrichplot",
     "rtracklayer",
     "GenomicFeatures",
-    "ggtree",
     "txdbmaker",
     "GenomicAlignments"
   ],
@@ -877,7 +853,6 @@
     "txdbmaker",
     "BSgenome"
   ],
-  "GrafGen": [],
   "GreyListChIP": [
     "GenomicAlignments",
     "BSgenome",
@@ -1012,13 +987,10 @@
     "ensembldb"
   ],
   "KnowSeq": [],
-  "LACHESIS": [],
   "LOBSTAHS": [],
   "LRcell": [],
   "LinkHD": [],
-  "LymphoSeq": [
-    "ggtree"
-  ],
+  "LymphoSeq": [],
   "MACSr": [],
   "MAGAR": [
     "RnBeads",
@@ -1079,8 +1051,7 @@
   ],
   "MIRit": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "MMDiff2": [
     "BSgenome",
@@ -1097,13 +1068,9 @@
     "GenomicAlignments"
   ],
   "MPAC": [],
-  "MSnID": [],
-  "MSstatsQC": [
-    "qcmetrics"
-  ],
+  "MSstatsQC": [],
   "MSstatsQCgui": [
-    "MSstatsQC",
-    "qcmetrics"
+    "MSstatsQC"
   ],
   "MatrixQCvis": [],
   "MatrixRider": [
@@ -1115,12 +1082,9 @@
   "MetaPhOR": [
     "clusterProfiler",
     "RCy3",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
-  "MetaboDynamics": [
-    "ggtree"
-  ],
+  "MetaboDynamics": [],
   "MetaboSignal": [
     "mygene",
     "ensembldb",
@@ -1149,11 +1113,9 @@
   ],
   "MicrobiomeProfiler": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "MicrobiotaProcess": [
-    "ggtree",
     "ggtreeExtra"
   ],
   "MinimumDistance": [
@@ -1168,13 +1130,11 @@
     "EpiMix",
     "enrichplot",
     "GenomicFeatures",
-    "GenomicAlignments",
-    "ggtree"
+    "GenomicAlignments"
   ],
   "MoonlightR": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "Motif2Site": [
     "BSgenome",
@@ -1191,7 +1151,6 @@
     "BSgenome"
   ],
   "MsBackendMetaboLights": [],
-  "MsBackendRawFileReader": [],
   "MsBackendSql": [],
   "MungeSumstats": [
     "BSgenome",
@@ -1314,14 +1273,12 @@
   "PRONE": [],
   "PanomiR": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "Pigengene": [
     "clusterProfiler",
     "ReactomePA",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "PolySTest": [],
   "ProteoDisco": [
@@ -1429,8 +1386,7 @@
   "RFGeneRank": [],
   "RFLOMICS": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "RITAN": [
     "GenomicFeatures",
@@ -1538,13 +1494,11 @@
   "Rcpi": [],
   "ReUseData": [],
   "ReactomePA": [
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "ReducedExperiment": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "RegionalST": [
     "TOAST",
@@ -1629,7 +1583,6 @@
   "SEMPLR": [
     "VariantAnnotation",
     "GenomicFeatures",
-    "ggtree",
     "rtracklayer",
     "BSgenome",
     "GenomicAlignments"
@@ -1686,9 +1639,7 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "SVP": [
-    "ggtree"
-  ],
+  "SVP": [],
   "Seqtometry": [],
   "ShortRead": [
     "GenomicAlignments"
@@ -1703,8 +1654,7 @@
   ],
   "SingleCellSignalR": [
     "BulkSignalR",
-    "orthogene",
-    "ggtree"
+    "orthogene"
   ],
   "SingleMoleculeFootprinting": [
     "BSgenome",
@@ -1756,8 +1706,7 @@
   "SpotSweeper": [],
   "StatescopeR": [],
   "Statial": [
-    "treekoR",
-    "ggtree"
+    "treekoR"
   ],
   "StructuralVariantAnnotation": [
     "rtracklayer",
@@ -1877,8 +1826,7 @@
   "VDJdive": [],
   "VISTA": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "VaSP": [
     "ballgown",
@@ -2049,7 +1997,6 @@
     "ShortRead",
     "GenomicAlignments"
   ],
-  "beachmat.tiledb": [],
   "bedbaser": [
     "rtracklayer",
     "GenomicAlignments"
@@ -2074,13 +2021,11 @@
     "RTCGAToolbox",
     "TCGAutils",
     "enrichplot",
-    "ggtree",
     "GenomicFeatures",
     "GenomicDataCommons",
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "biocViews": [],
   "biomvRCNS": [
     "Gviz",
     "rtracklayer",
@@ -2130,8 +2075,7 @@
   ],
   "broadSeq": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "bsseq": [
     "BSgenome",
@@ -2175,7 +2119,6 @@
     "GenomicAlignments"
   ],
   "cardelino": [
-    "ggtree",
     "VariantAnnotation",
     "rtracklayer",
     "BSgenome",
@@ -2185,7 +2128,6 @@
   "carnation": [
     "enrichplot",
     "GeneTonic",
-    "ggtree",
     "mosdef",
     "clusterProfiler",
     "goseq",
@@ -2214,9 +2156,7 @@
   ],
   "celaref": [],
   "celda": [],
-  "cellmig": [
-    "ggtree"
-  ],
+  "cellmig": [],
   "censcyt": [],
   "cfDNAPro": [
     "GenomicAlignments",
@@ -2283,7 +2223,6 @@
     "BSgenome",
     "biovizBase",
     "GenomicAlignments",
-    "biocViews",
     "VariantAnnotation"
   ],
   "circRNAprofiler": [
@@ -2315,8 +2254,7 @@
     "mbkmeans"
   ],
   "clusterProfiler": [
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "coMethDMR": [
     "bumphunter",
@@ -2324,9 +2262,7 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "cogeqc": [
-    "ggtree"
-  ],
+  "cogeqc": [],
   "comapr": [
     "Gviz",
     "rtracklayer",
@@ -2430,9 +2366,7 @@
     "biovizBase",
     "GenomicAlignments"
   ],
-  "crumblr": [
-    "ggtree"
-  ],
+  "crumblr": [],
   "crupR": [
     "rtracklayer",
     "GenomicAlignments",
@@ -2473,7 +2407,6 @@
     "rtracklayer",
     "clusterProfiler",
     "enrichplot",
-    "ggtree",
     "GenomicFeatures",
     "GenomicAlignments"
   ],
@@ -2486,8 +2419,7 @@
   ],
   "debrowser": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "decemedip": [
     "MEDIPS",
@@ -2604,12 +2536,9 @@
   ],
   "enrichViewNet": [
     "RCy3",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
-  "enrichplot": [
-    "ggtree"
-  ],
+  "enrichplot": [],
   "ensembldb": [
     "GenomicFeatures",
     "rtracklayer",
@@ -2623,7 +2552,6 @@
     "regioneR",
     "enrichplot",
     "GenomicAlignments",
-    "ggtree",
     "BSgenome"
   ],
   "epiSeeker": [
@@ -2632,7 +2560,6 @@
     "GenomicFeatures",
     "rtracklayer",
     "BSgenome",
-    "ggtree",
     "GenomicAlignments"
   ],
   "epidecodeR": [
@@ -2667,8 +2594,7 @@
   ],
   "epiregulon.extra": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "epivizr": [
     "epivizrData",
@@ -2715,8 +2641,7 @@
     "GenomicFeatures",
     "TFBSTools",
     "motifmatchr",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "extraChIPs": [
     "rtracklayer",
@@ -2744,8 +2669,7 @@
   "famat": [
     "clusterProfiler",
     "ReactomePA",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "fcScan": [
     "VariantAnnotation",
@@ -2805,14 +2729,12 @@
   ],
   "gDR": [],
   "gDRstyle": [
-    "BiocCheck",
-    "biocViews"
+    "BiocCheck"
   ],
   "gINTomics": [
     "GenomicFeatures",
     "ReactomePA",
     "clusterProfiler",
-    "ggtree",
     "enrichplot",
     "rtracklayer",
     "GenomicAlignments"
@@ -2864,19 +2786,10 @@
     "OrganismDbi",
     "ensembldb"
   ],
-  "ggmsa": [
-    "ggtree"
-  ],
-  "ggtree": [],
-  "ggtreeDendro": [
-    "ggtree"
-  ],
-  "ggtreeExtra": [
-    "ggtree"
-  ],
-  "ggtreeSpace": [
-    "ggtree"
-  ],
+  "ggmsa": [],
+  "ggtreeDendro": [],
+  "ggtreeExtra": [],
+  "ggtreeSpace": [],
   "glmSparseNet": [
     "TCGAutils",
     "GenomicFeatures",
@@ -2898,13 +2811,11 @@
   ],
   "goSorensen": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "goatea": [
     "enrichplot",
-    "clusterProfiler",
-    "ggtree"
+    "clusterProfiler"
   ],
   "goseq": [
     "rtracklayer",
@@ -2916,7 +2827,6 @@
     "GenomicAlignments",
     "rtracklayer"
   ],
-  "gscreend": [],
   "gsean": [
     "PPInfer"
   ],
@@ -2964,11 +2874,9 @@
     "ReactomePA",
     "enrichplot",
     "rtracklayer",
-    "ggtree",
     "GenomicAlignments"
   ],
   "iSEEtree": [
-    "ggtree",
     "miaViz",
     "mia",
     "TreeSummarizedExperiment"
@@ -2989,8 +2897,7 @@
     "clusterProfiler",
     "enrichplot",
     "txdbmaker",
-    "GenomicAlignments",
-    "ggtree"
+    "GenomicAlignments"
   ],
   "idpr": [],
   "igblastr": [],
@@ -3051,7 +2958,6 @@
     "GenomicAlignments"
   ],
   "lefser": [
-    "ggtree",
     "mia",
     "TreeSummarizedExperiment"
   ],
@@ -3148,7 +3054,6 @@
     "BSgenome",
     "bsseq",
     "rtracklayer",
-    "biocViews",
     "GenomicAlignments"
   ],
   "methrix": [
@@ -3171,7 +3076,6 @@
     "enrichplot",
     "minfi",
     "methylumi",
-    "ggtree",
     "GenomicFeatures",
     "bumphunter",
     "rtracklayer",
@@ -3210,7 +3114,6 @@
     "GenomicFeatures",
     "AnnotationHubData",
     "rtracklayer",
-    "biocViews",
     "BiocCheck",
     "OrganismDbi",
     "GenomicAlignments"
@@ -3226,14 +3129,12 @@
   "miRSM": [
     "clusterProfiler",
     "ReactomePA",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "miRspongeR": [
     "clusterProfiler",
     "ReactomePA",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "mia": [
     "TreeSummarizedExperiment"
@@ -3242,7 +3143,6 @@
     "iSEEtree",
     "mia",
     "TreeSummarizedExperiment",
-    "ggtree",
     "miaViz"
   ],
   "miaSim": [
@@ -3254,8 +3154,7 @@
   ],
   "miaViz": [
     "mia",
-    "TreeSummarizedExperiment",
-    "ggtree"
+    "TreeSummarizedExperiment"
   ],
   "minfi": [
     "bumphunter",
@@ -3285,7 +3184,6 @@
   ],
   "mitology": [
     "clusterProfiler",
-    "ggtree",
     "ReactomePA",
     "enrichplot"
   ],
@@ -3300,9 +3198,7 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "monocle": [
-    "biocViews"
-  ],
+  "monocle": [],
   "mosaics": [
     "GenomicAlignments"
   ],
@@ -3313,7 +3209,6 @@
     "enrichplot",
     "rtracklayer",
     "GenomicFeatures",
-    "ggtree",
     "txdbmaker",
     "GenomicAlignments"
   ],
@@ -3342,7 +3237,6 @@
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "msImpute": [],
   "msgbsR": [
     "BSgenome",
     "easyRNASeq",
@@ -3427,9 +3321,7 @@
   ],
   "oncoscanR": [],
   "oposSOM": [],
-  "orthogene": [
-    "ggtree"
-  ],
+  "orthogene": [],
   "pageRank": [
     "motifmatchr",
     "TFBSTools",
@@ -3448,8 +3340,7 @@
   "partCNV": [],
   "pathlinkR": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "pcaExplorer": [
     "mosdef",
@@ -3458,7 +3349,6 @@
     "enrichplot",
     "rtracklayer",
     "GenomicFeatures",
-    "ggtree",
     "txdbmaker",
     "GenomicAlignments"
   ],
@@ -3471,9 +3361,7 @@
   "phenoTest": [
     "Heatplus"
   ],
-  "philr": [
-    "ggtree"
-  ],
+  "philr": [],
   "pipeFrame": [
     "BSgenome",
     "rtracklayer",
@@ -3504,8 +3392,7 @@
   ],
   "postNet": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "ppcseq": [],
   "pram": [
@@ -3552,8 +3439,7 @@
     "txdbmaker",
     "GenomicAlignments",
     "plyranges",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "psichomics": [
     "recount",
@@ -3566,7 +3452,6 @@
     "VariantAnnotation",
     "BSgenome"
   ],
-  "qcmetrics": [],
   "qpgraph": [
     "GenomicFeatures",
     "rtracklayer",
@@ -3732,16 +3617,12 @@
     "biovizBase",
     "VariantAnnotation"
   ],
-  "scBubbletree": [
-    "ggtree"
-  ],
+  "scBubbletree": [],
   "scDblFinder": [
     "rtracklayer",
     "GenomicAlignments"
   ],
-  "scDotPlot": [
-    "ggtree"
-  ],
+  "scDotPlot": [],
   "scFeatures": [
     "ensembldb",
     "GenomicFeatures",
@@ -3761,8 +3642,7 @@
   "scRecover": [],
   "scTensor": [
     "ReactomePA",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "scTreeViz": [
     "epivizr",
@@ -3840,7 +3720,6 @@
     "enrichplot",
     "GenomicFeatures",
     "rtracklayer",
-    "ggtree",
     "GenomicAlignments"
   ],
   "selectKSigs": [
@@ -3888,9 +3767,7 @@
     "GenomicAlignments",
     "GenomicFeatures"
   ],
-  "sigFeature": [
-    "biocViews"
-  ],
+  "sigFeature": [],
   "signeR": [
     "rtracklayer",
     "BSgenome",
@@ -3910,7 +3787,6 @@
   ],
   "singleCellTK": [
     "ensembldb",
-    "ggtree",
     "celda",
     "scDblFinder",
     "TSCAN",
@@ -3924,9 +3800,7 @@
     "txdbmaker",
     "GenomicAlignments"
   ],
-  "sitePath": [
-    "ggtree"
-  ],
+  "sitePath": [],
   "skewr": [
     "methylumi",
     "wateRmelon",
@@ -3938,7 +3812,6 @@
     "GenomicAlignments"
   ],
   "slingshot": [],
-  "smartid": [],
   "spicyR": [
     "ClassifyR",
     "simpleSeg",
@@ -4003,9 +3876,7 @@
     "ShortRead",
     "GenomicAlignments"
   ],
-  "systemPipeTools": [
-    "ggtree"
-  ],
+  "systemPipeTools": [],
   "tLOH": [
     "VariantAnnotation",
     "rtracklayer",
@@ -4031,9 +3902,7 @@
     "biovizBase",
     "GenomicAlignments"
   ],
-  "tanggle": [
-    "ggtree"
-  ],
+  "tanggle": [],
   "terraTCGAdata": [
     "TCGAutils",
     "GenomicFeatures",
@@ -4088,12 +3957,9 @@
     "GenomicAlignments"
   ],
   "treeclimbR": [
-    "TreeSummarizedExperiment",
-    "ggtree"
+    "TreeSummarizedExperiment"
   ],
-  "treekoR": [
-    "ggtree"
-  ],
+  "treekoR": [],
   "txcutr": [
     "GenomicFeatures",
     "txdbmaker",
@@ -4113,8 +3979,7 @@
     "GenomicAlignments"
   ],
   "uSORT": [
-    "monocle",
-    "biocViews"
+    "monocle"
   ],
   "uncoverappLib": [
     "Gviz",
@@ -4139,8 +4004,7 @@
   ],
   "vsclust": [
     "clusterProfiler",
-    "enrichplot",
-    "ggtree"
+    "enrichplot"
   ],
   "vtpnet": [
     "gwascat",
