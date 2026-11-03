@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 387 (15%)
+- **Successfully Built:** 388 (15%)
 - **Failed:** 4 (0%)
 - **In Progress:** 169
-- **Not Started:** 1877
+- **Not Started:** 1876
 
 **Progress:** 16%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (387)
+## Successfully Built Packages (388)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocBook](https://bioconductor.org/packages/3.24/bioc/html/BiocBook.html) | [log](logs/BiocBook/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBook) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.24/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBuildReporter) |
 
-*... and 337 more ...*
+*... and 338 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -139,7 +139,7 @@
 
 ... and 119 more ...
 
-## Not Yet Started (1877)
+## Not Yet Started (1876)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -191,8 +191,8 @@
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 
-... and 1827 more ...
+... and 1826 more ...
 
 ---
-*Last updated: 2026-11-03 05:27:20 UTC*
+*Last updated: 2026-11-03 05:28:35 UTC*
 *Packages with verified BBS status: 144*
