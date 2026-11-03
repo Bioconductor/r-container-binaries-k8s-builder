@@ -1638,7 +1638,6 @@
     "SparseArray",
     "XVector"
   ],
-  "Cardinal": [],
   "Category": [
     "AnnotationDbi",
     "GSEABase",
@@ -2194,7 +2193,6 @@
   "CompensAID": [
     "flowDensity",
     "ggcyto",
-    "flowViz",
     "ncdfFlow",
     "flowWorkspace",
     "DelayedArray",
@@ -2350,7 +2348,6 @@
     "SparseArray",
     "XVector"
   ],
-  "CytoDx": [],
   "CytoMDS": [
     "CytoPipeline",
     "ggcyto",
@@ -2370,7 +2367,6 @@
     "ggcyto",
     "ncdfFlow",
     "DelayedArray",
-    "flowViz",
     "flowClust",
     "S4Arrays",
     "SparseArray",
@@ -4211,8 +4207,7 @@
     "XVector"
   ],
   "GateFinder": [
-    "flowFP",
-    "flowViz"
+    "flowFP"
   ],
   "GeDi": [
     "ComplexHeatmap",
@@ -8986,7 +8981,6 @@
     "SparseArray",
     "XVector"
   ],
-  "Sconify": [],
   "SemDist": [
     "AnnotationDbi",
     "annotate",
@@ -13130,8 +13124,7 @@
   ],
   "cyanoFilter": [
     "flowDensity",
-    "flowClust",
-    "flowViz"
+    "flowClust"
   ],
   "cydar": [
     "SingleCellExperiment",
@@ -13350,8 +13343,7 @@
     "SparseArray"
   ],
   "ddPCRclust": [
-    "flowDensity",
-    "flowViz"
+    "flowDensity"
   ],
   "debrowser": [
     "annotate",
@@ -14555,29 +14547,22 @@
   "flowAI": [],
   "flowBeads": [],
   "flowBin": [
-    "flowFP",
-    "flowViz"
+    "flowFP"
   ],
   "flowCHIC": [],
   "flowClean": [],
   "flowClust": [],
   "flowCut": [
-    "flowDensity",
-    "flowViz"
+    "flowDensity"
   ],
-  "flowDensity": [
-    "flowViz"
-  ],
-  "flowFP": [
-    "flowViz"
-  ],
+  "flowDensity": [],
+  "flowFP": [],
   "flowGate": [
     "flowWorkspace",
     "ggcyto",
     "openCyto",
     "ncdfFlow",
     "DelayedArray",
-    "flowViz",
     "flowClust",
     "S4Arrays",
     "SparseArray",
@@ -14593,19 +14578,15 @@
   "flowStats": [
     "flowWorkspace",
     "ncdfFlow",
-    "flowViz",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
     "XVector"
   ],
-  "flowTime": [],
   "flowTrans": [
-    "flowViz",
     "flowClust"
   ],
   "flowVS": [
-    "flowViz",
     "flowStats",
     "flowWorkspace",
     "ncdfFlow",
@@ -14614,7 +14595,6 @@
     "SparseArray",
     "XVector"
   ],
-  "flowViz": [],
   "flowWorkspace": [
     "ncdfFlow",
     "DelayedArray",
@@ -18094,7 +18074,6 @@
     "XVector"
   ],
   "openCyto": [
-    "flowViz",
     "ncdfFlow",
     "flowWorkspace",
     "flowClust",
@@ -18667,7 +18646,6 @@
     "SummarizedExperiment",
     "ncdfFlow",
     "DelayedArray",
-    "flowViz",
     "flowClust",
     "GenomicRanges",
     "Seqinfo",
@@ -19055,7 +19033,6 @@
     "Biostrings"
   ],
   "quantMSImageR": [
-    "Cardinal",
     "ComplexHeatmap"
   ],
   "quantiseqr": [
