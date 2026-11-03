@@ -3896,7 +3896,6 @@
     "affyPLM",
     "gcrma"
   ],
-  "aggregateBioVar": [],
   "airpart": [
     "scater",
     "apeglm",
@@ -3907,7 +3906,6 @@
     "ScaledMatrix"
   ],
   "alabaster": [
-    "alabaster.se",
     "alabaster.sce",
     "alabaster.spatial",
     "alabaster.string",
@@ -3924,18 +3922,13 @@
   ],
   "alabaster.files": [],
   "alabaster.mae": [
-    "MultiAssayExperiment",
-    "alabaster.se"
+    "MultiAssayExperiment"
   ],
-  "alabaster.sce": [
-    "alabaster.se"
-  ],
-  "alabaster.se": [],
+  "alabaster.sce": [],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
     "alabaster.sce",
     "alabaster.spatial",
-    "alabaster.se",
     "SpatialExperiment",
     "BiocNeighbors",
     "DropletUtils",
@@ -3944,13 +3937,11 @@
   ],
   "alabaster.spatial": [
     "SpatialExperiment",
-    "alabaster.sce",
-    "alabaster.se"
+    "alabaster.sce"
   ],
   "alabaster.string": [],
   "alabaster.vcf": [
     "VariantAnnotation",
-    "alabaster.se",
     "alabaster.string",
     "rtracklayer",
     "BSgenome",
@@ -3968,7 +3959,6 @@
   "anansi": [
     "MultiAssayExperiment"
   ],
-  "anglemania": [],
   "animalcules": [
     "DESeq2",
     "MultiAssayExperiment"
@@ -4061,16 +4051,12 @@
     "GSEABase",
     "genefilter"
   ],
-  "augere.de": [
-    "alabaster.se"
-  ],
+  "augere.de": [],
   "augere.gsea": [
-    "augere.de",
-    "alabaster.se"
+    "augere.de"
   ],
   "augere.screen": [
-    "augere.de",
-    "alabaster.se"
+    "augere.de"
   ],
   "augere.solo": [
     "scrapper",
@@ -4113,7 +4099,6 @@
     "ScaledMatrix",
     "beachmat"
   ],
-  "bayNorm": [],
   "baySeq": [],
   "bcSeq": [],
   "beachmat": [],
@@ -4394,7 +4379,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "ccImpute": [],
   "ccfindR": [],
   "celaref": [
     "MAST"
@@ -7719,7 +7703,6 @@
     "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
-    "alabaster.se",
     "GenomicFeatures",
     "rtracklayer",
     "annotate",
@@ -8002,10 +7985,8 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "tidySingleCellExperiment": [],
   "tidySpatialExperiment": [
-    "SpatialExperiment",
-    "tidySingleCellExperiment"
+    "SpatialExperiment"
   ],
   "tidySummarizedExperiment": [
     "tidyprint",
@@ -8018,7 +7999,6 @@
   ],
   "tidyomics": [
     "tidySummarizedExperiment",
-    "tidySingleCellExperiment",
     "tidySpatialExperiment",
     "plyranges",
     "rtracklayer",
