@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1578 (66%)
+- **Successfully Built:** 1590 (66%)
 - **Failed:** 17 (0%)
-- **In Progress:** 134
-- **Not Started:** 656
+- **In Progress:** 130
+- **Not Started:** 648
 
-**Progress:** 66%
+**Progress:** 67%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1578)
+## Successfully Built Packages (1590)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1528 more ...*
+*... and 1540 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [velociraptor](https://bioconductor.org/packages/3.23/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/velociraptor) |
@@ -69,6 +68,7 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xCell2](https://bioconductor.org/packages/3.23/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xCell2) |
 | [xcore](https://bioconductor.org/packages/3.23/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xcore) |
+| [xenLite](https://bioconductor.org/packages/3.23/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
@@ -98,7 +98,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (134)
+## In Progress (130)
 - ⏳ `ADImpute`
 - ⏳ `ASSIGN`
 - ⏳ `BERT`
@@ -113,13 +113,13 @@
 - ⏳ `Coralysis`
 - ⏳ `DeepTarget`
 - ⏳ `Dino`
+- ⏳ `EGSEA`
 - ⏳ `EpiDISH`
 - ⏳ `GRmetrics`
 - ⏳ `GeneMeta`
 - ⏳ `GeneRegionScan`
 - ⏳ `GenomicAlignments`
 - ⏳ `GenomicDataCommons`
-- ⏳ `GeomxTools`
 - ⏳ `GrafGen`
 - ⏳ `HGC`
 - ⏳ `HarmonizR`
@@ -150,9 +150,9 @@
 - ⏳ `RCy3`
 - ⏳ `RFGeneRank`
 
-... and 84 more ...
+... and 80 more ...
 
-## Not Yet Started (656)
+## Not Yet Started (648)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -204,8 +204,8 @@
 - ⏸️ `ChIPQC`
 - ⏸️ `ChIPanalyser`
 
-... and 606 more ...
+... and 598 more ...
 
 ---
-*Last updated: 2026-11-03 11:31:27 UTC*
-*Packages with verified BBS status: 221*
+*Last updated: 2026-11-03 11:33:45 UTC*
+*Packages with verified BBS status: 222*
