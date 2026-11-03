@@ -7,8 +7,8 @@
 ## Summary
 - **Total Packages:** 2437
 - **Successfully Built:** 152 (6%)
-- **Failed:** 0 (0%)
-- **In Progress:** 223
+- **Failed:** 1 (0%)
+- **In Progress:** 222
 - **Not Started:** 2062
 
 **Progress:** 6%
@@ -76,7 +76,13 @@
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
-## In Progress (223)
+## Failed Packages (1)
+
+| Package | Log | BBS Status | Failure Reasons |
+|---------|-----|------------|------------------|
+| [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
+
+## In Progress (222)
 - ⏳ `BADER`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -128,7 +134,7 @@
 - ⏳ `Informeasure`
 - ⏳ `KBoost`
 
-... and 173 more ...
+... and 172 more ...
 
 ## Not Yet Started (2062)
 - ⏸️ `ABSSeq`
@@ -185,5 +191,5 @@
 ... and 2012 more ...
 
 ---
-*Last updated: 2026-11-03 04:03:54 UTC*
+*Last updated: 2026-11-03 04:06:19 UTC*
 *Packages with verified BBS status: 106*
