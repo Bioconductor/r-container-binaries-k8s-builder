@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1325 (54%)
+- **Successfully Built:** 1335 (54%)
 - **Failed:** 6 (0%)
-- **In Progress:** 213
-- **Not Started:** 893
+- **In Progress:** 209
+- **Not Started:** 887
 
-**Progress:** 54%
+**Progress:** 55%
 ```
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1325)
+## Successfully Built Packages (1335)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1275 more ...*
+*... and 1285 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,10 +84,10 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
+| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (213)
+## In Progress (209)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
@@ -110,7 +110,6 @@
 - ⏳ `CoCiteStats`
 - ⏳ `CyTOFpower`
 - ⏳ `DESeq2`
-- ⏳ `DiPPER`
 - ⏳ `DifferentialRegulation`
 - ⏳ `Dune`
 - ⏳ `EGSEA`
@@ -119,7 +118,6 @@
 - ⏳ `FuseSOM`
 - ⏳ `GBScleanR`
 - ⏳ `GDSAnnotator`
-- ⏳ `GDSArray`
 - ⏳ `GENESIS`
 - ⏳ `GOexpress`
 - ⏳ `GeneMeta`
@@ -138,10 +136,12 @@
 - ⏳ `InterCellar`
 - ⏳ `InteractionSet`
 - ⏳ `InteractiveComplexHeatmap`
+- ⏳ `IntrinsicScan`
+- ⏳ `IsoBayes`
 
-... and 163 more ...
+... and 159 more ...
 
-## Not Yet Started (893)
+## Not Yet Started (887)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -193,8 +193,8 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 
-... and 843 more ...
+... and 837 more ...
 
 ---
-*Last updated: 2026-11-03 15:54:39 UTC*
+*Last updated: 2026-11-03 15:57:51 UTC*
 *Packages with verified BBS status: 201*
