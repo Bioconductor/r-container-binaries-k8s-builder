@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 611 (25%)
+- **Successfully Built:** 613 (25%)
 - **Failed:** 5 (0%)
 - **In Progress:** 73
-- **Not Started:** 1748
+- **Not Started:** 1746
 
 **Progress:** 25%
 ```
 ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (611)
+## Successfully Built Packages (613)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 561 more ...*
+*... and 563 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -103,9 +103,9 @@
 - ⏳ `KBoost`
 - ⏳ `KEGGgraph`
 - ⏳ `LBE`
-- ⏳ `MEIGOR`
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsResponse`
+- ⏳ `Maaslin2`
 - ⏳ `MantelCorr`
 - ⏳ `MethylMix`
 - ⏳ `NormqPCR`
@@ -121,7 +121,6 @@
 - ⏳ `S4Vectors`
 - ⏳ `SUITOR`
 - ⏳ `SharedObject`
-- ⏳ `TMixClust`
 - ⏳ `TRONCO`
 - ⏳ `bacon`
 - ⏳ `bioDist`
@@ -135,12 +134,13 @@
 - ⏳ `maftools`
 - ⏳ `magrene`
 - ⏳ `marray`
+- ⏳ `mbQTL`
 - ⏳ `metaSeq`
 - ⏳ `metapone`
 
 ... and 23 more ...
 
-## Not Yet Started (1748)
+## Not Yet Started (1746)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1698 more ...
+... and 1696 more ...
 
 ---
-*Last updated: 2026-11-03 06:52:22 UTC*
+*Last updated: 2026-11-03 06:53:26 UTC*
 *Packages with verified BBS status: 175*
