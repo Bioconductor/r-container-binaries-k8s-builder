@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 73 (3%)
+- **Successfully Built:** 84 (3%)
 - **Failed:** 1 (0%)
-- **In Progress:** 290
+- **In Progress:** 279
 - **Not Started:** 2021
 
 **Progress:** 3%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (73)
+## Successfully Built Packages (84)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 | [ClusterSignificance](https://bioconductor.org/packages/3.23/bioc/html/ClusterSignificance.html) | [log](logs/ClusterSignificance/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterSignificance) |
 
-*... and 23 more ...*
+*... and 34 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [PathNet](https://bioconductor.org/packages/3.23/bioc/html/PathNet.html) | [log](logs/PathNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PathNet) |
-| [PepsNMR](https://bioconductor.org/packages/3.23/bioc/html/PepsNMR.html) | [log](logs/PepsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PepsNMR) |
 | [PhenoGeneRanker](https://bioconductor.org/packages/3.23/bioc/html/PhenoGeneRanker.html) | [log](logs/PhenoGeneRanker/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PhenoGeneRanker) |
 | [PoDCall](https://bioconductor.org/packages/3.23/bioc/html/PoDCall.html) | [log](logs/PoDCall/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PoDCall) |
 | [ProtGenerics](https://bioconductor.org/packages/3.23/bioc/html/ProtGenerics.html) | [log](logs/ProtGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ProtGenerics) |
@@ -71,6 +69,8 @@
 | [genArise](https://bioconductor.org/packages/3.23/bioc/html/genArise.html) | [log](logs/genArise/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genArise) |
 | [ggkegg](https://bioconductor.org/packages/3.23/bioc/html/ggkegg.html) | [log](logs/ggkegg/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggkegg) |
 | [mzID](https://bioconductor.org/packages/3.23/bioc/html/mzID.html) | [log](logs/mzID/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mzID) |
+| [pathifier](https://bioconductor.org/packages/3.23/bioc/html/pathifier.html) | [log](logs/pathifier/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pathifier) |
+| [qvalue](https://bioconductor.org/packages/3.23/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/qvalue) |
 | [rpx](https://bioconductor.org/packages/3.23/bioc/html/rpx.html) | [log](logs/rpx/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rpx) |
 | [shiny.gosling](https://bioconductor.org/packages/3.23/bioc/html/shiny.gosling.html) | [log](logs/shiny.gosling/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shiny.gosling) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (290)
+## In Progress (279)
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
@@ -94,17 +94,8 @@
 - ⏳ `BufferedMatrix`
 - ⏳ `CGEN`
 - ⏳ `Chicago`
-- ⏳ `DART`
-- ⏳ `DCATS`
-- ⏳ `DNABarcodeCompatibility`
 - ⏳ `DNABarcodes`
-- ⏳ `DNAcopy`
-- ⏳ `DTA`
 - ⏳ `DeMAND`
-- ⏳ `DriverNet`
-- ⏳ `DynDoc`
-- ⏳ `EBSeq`
-- ⏳ `EmpiricalBrownsMethod`
 - ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
 - ⏳ `FRGEpistasis`
@@ -133,8 +124,17 @@
 - ⏳ `HGC`
 - ⏳ `HIBAG`
 - ⏳ `HIREewas`
+- ⏳ `HMMcopy`
+- ⏳ `HVP`
+- ⏳ `Harman`
+- ⏳ `Heatplus`
+- ⏳ `Herper`
+- ⏳ `HilbertVis`
+- ⏳ `HuBMAPR`
+- ⏳ `IMPCdata`
+- ⏳ `INDEED`
 
-... and 240 more ...
+... and 229 more ...
 
 ## Not Yet Started (2021)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1971 more ...
 
 ---
-*Last updated: 2026-11-03 03:03:07 UTC*
-*Packages with verified BBS status: 71*
+*Last updated: 2026-11-03 03:06:14 UTC*
+*Packages with verified BBS status: 73*
