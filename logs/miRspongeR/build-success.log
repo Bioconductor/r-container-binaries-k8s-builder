@@ -1,0 +1,77 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''miRspongeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'miRspongeR'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/miRspongeR_2.16.2.tar.gz'
+Content type 'application/gzip' length 688744 bytes (672 KB)
+==================================================
+downloaded 672 KB
+
+* installing *source* package ‘miRspongeR’ ...
+** this is package ‘miRspongeR’ version ‘2.16.2’
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c OCG_algorithm.c -o OCG_algorithm.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c complex.c -o complex.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c edge_duplicates.cpp -o edge_duplicates.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c linkcomm_edgesims.cpp -o linkcomm_edgesims.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c linkcomm_edgesims_all.cpp -o linkcomm_edgesims_all.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c linkcomm_functions.cpp -o linkcomm_functions.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c linkcomm_hclust.cpp -o linkcomm_hclust.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c linkcomm_init.c -o linkcomm_init.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c linkcomm_linkdensities.cpp -o linkcomm_linkdensities.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c linkcommhclust_order.cpp -o linkcommhclust_order.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c read_OCG.cpp -o read_OCG.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG `/usr/local/lib/R/bin/Rscript -e "Rcpp:::CxxFlags()"`  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registerDynamicSymbol.c -o registerDynamicSymbol.o
+'Rcpp:::CxxFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'Rcpp:::LdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'RcppLdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o miRspongeR.so OCG_algorithm.o complex.o edge_duplicates.o linkcomm_edgesims.o linkcomm_edgesims_all.o linkcomm_functions.o linkcomm_hclust.o linkcomm_init.o linkcomm_linkdensities.o linkcommhclust_order.o read_OCG.o registerDynamicSymbol.o -L/usr/local/lib/R/lib -lR
+'Rcpp:::LdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+'RcppLdFlags' has not been needed since 2013 (!!) and may get removed in 2027. Please update your 'Makevars'.
+installing to /tmp/library/00LOCK-miRspongeR/00new/miRspongeR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miRspongeR’ as ‘miRspongeR_2.16.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miRspongeR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjRE955/downloaded_packages’
+Old packages: 'future', 'litedown', 'mirai', 'qs2', 'rsvd', 'curl', 'diffobj',
+  'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2', 'tinytex', 'usethis',
+  'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv', 'nlme', 'survival'
+
+real	1m9.043s
+user	0m53.895s
+sys	0m9.445s
