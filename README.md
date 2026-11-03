@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 697 (28%)
+- **Successfully Built:** 698 (28%)
 - **Failed:** 5 (0%)
 - **In Progress:** 43
-- **Not Started:** 1692
+- **Not Started:** 1691
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (697)
+## Successfully Built Packages (698)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 647 more ...*
+*... and 648 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -105,6 +105,7 @@
 - ⏳ `QRscore`
 - ⏳ `RTCA`
 - ⏳ `RUVcorr`
+- ⏳ `RcwlPipelines`
 - ⏳ `S4Arrays`
 - ⏳ `STRprofilerR`
 - ⏳ `Seqinfo`
@@ -127,11 +128,10 @@
 - ⏳ `nucleoSim`
 - ⏳ `rcellminer`
 - ⏳ `rpx`
-- ⏳ `spicyR`
 - ⏳ `toppgene`
 - ⏳ `treeio`
 
-## Not Yet Started (1692)
+## Not Yet Started (1691)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -183,8 +183,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1642 more ...
+... and 1641 more ...
 
 ---
-*Last updated: 2026-11-03 08:56:45 UTC*
+*Last updated: 2026-11-03 08:58:04 UTC*
 *Packages with verified BBS status: 183*
