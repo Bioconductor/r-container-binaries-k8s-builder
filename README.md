@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 888 (36%)
+- **Successfully Built:** 896 (36%)
 - **Failed:** 5 (0%)
-- **In Progress:** 138
-- **Not Started:** 1406
+- **In Progress:** 131
+- **Not Started:** 1405
 
 **Progress:** 36%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (888)
+## Successfully Built Packages (896)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 838 more ...*
+*... and 846 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (138)
+## In Progress (131)
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `BRAIN`
@@ -95,7 +95,6 @@
 - ⏳ `CCPlotR`
 - ⏳ `CoCiteStats`
 - ⏳ `DOSE`
-- ⏳ `EMMA`
 - ⏳ `ExploreModelMatrix`
 - ⏳ `FamAgg`
 - ⏳ `GenomicTuples`
@@ -129,7 +128,6 @@
 - ⏳ `Structstrings`
 - ⏳ `SubCellBarCode`
 - ⏳ `SummarizedExperiment`
-- ⏳ `SynMut`
 - ⏳ `TDbasedUFE`
 - ⏳ `TFARM`
 - ⏳ `TileDBArray`
@@ -137,10 +135,12 @@
 - ⏳ `UniProt.ws`
 - ⏳ `ZarrArray`
 - ⏳ `adSplit`
+- ⏳ `adverSCarial`
+- ⏳ `alabaster.ranges`
 
-... and 88 more ...
+... and 81 more ...
 
-## Not Yet Started (1406)
+## Not Yet Started (1405)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1356 more ...
+... and 1355 more ...
 
 ---
-*Last updated: 2026-11-03 12:48:00 UTC*
+*Last updated: 2026-11-03 12:50:10 UTC*
 *Packages with verified BBS status: 186*
