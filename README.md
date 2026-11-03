@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1736 (72%)
+- **Successfully Built:** 1744 (73%)
 - **Failed:** 18 (0%)
-- **In Progress:** 83
-- **Not Started:** 548
+- **In Progress:** 77
+- **Not Started:** 546
 
 **Progress:** 73%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1736)
+## Successfully Built Packages (1744)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 
-*... and 1686 more ...*
+*... and 1694 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,9 +99,8 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (83)
+## In Progress (77)
 - ⏳ `ADImpute`
-- ⏳ `CompensAID`
 - ⏳ `CrcBiomeScreen`
 - ⏳ `ExperimentSubset`
 - ⏳ `FEAST`
@@ -112,7 +111,6 @@
 - ⏳ `Ibex`
 - ⏳ `InterCellar`
 - ⏳ `KnowSeq`
-- ⏳ `LOBSTAHS`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
 - ⏳ `MEDME`
@@ -128,7 +126,7 @@
 - ⏳ `StatescopeR`
 - ⏳ `TBSignatureProfiler`
 - ⏳ `TCseq`
-- ⏳ `TOAST`
+- ⏳ `TOP`
 - ⏳ `UCell`
 - ⏳ `VDJdive`
 - ⏳ `VplotR`
@@ -139,21 +137,23 @@
 - ⏳ `breakpointR`
 - ⏳ `categoryCompare`
 - ⏳ `celaref`
+- ⏳ `cghMCR`
 - ⏳ `clustSIGNAL`
 - ⏳ `clusterProfiler`
 - ⏳ `concordexR`
-- ⏳ `cyanoFilter`
 - ⏳ `cytomapper`
 - ⏳ `ddPCRclust`
 - ⏳ `decontX`
 - ⏳ `enrichViewNet`
 - ⏳ `fedup`
-- ⏳ `fgga`
-- ⏳ `flagme`
+- ⏳ `gDR`
+- ⏳ `ggtreeDendro`
+- ⏳ `ggtreeExtra`
+- ⏳ `ggtreeSpace`
 
-... and 33 more ...
+... and 27 more ...
 
-## Not Yet Started (548)
+## Not Yet Started (546)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -205,8 +205,8 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 
-... and 498 more ...
+... and 496 more ...
 
 ---
-*Last updated: 2026-11-03 12:14:02 UTC*
+*Last updated: 2026-11-03 12:16:00 UTC*
 *Packages with verified BBS status: 225*
