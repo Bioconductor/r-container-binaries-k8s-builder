@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 760 (31%)
-- **Failed:** 11 (0%)
-- **In Progress:** 176
+- **Successfully Built:** 768 (32%)
+- **Failed:** 12 (0%)
+- **In Progress:** 167
 - **Not Started:** 1438
 
 **Progress:** 32%
@@ -16,7 +16,7 @@
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (760)
+## Successfully Built Packages (768)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 710 more ...*
+*... and 718 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,12 +76,13 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (11)
+## Failed Packages (12)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) | Compilation failed:  ‘BAGS’ |
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
+| [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -92,7 +93,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (176)
+## In Progress (167)
 - ⏳ `AlphaBeta`
 - ⏳ `AnnotationFilter`
 - ⏳ `AnnotationForge`
@@ -111,7 +112,6 @@
 - ⏳ `GEOsubmission`
 - ⏳ `GMRP`
 - ⏳ `GOexpress`
-- ⏳ `GOfuncR`
 - ⏳ `GSCA`
 - ⏳ `GenProSeq`
 - ⏳ `GeneMeta`
@@ -135,7 +135,6 @@
 - ⏳ `LPE`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
-- ⏳ `MCbiclust`
 - ⏳ `MEDME`
 - ⏳ `MGFR`
 - ⏳ `MLP`
@@ -143,8 +142,10 @@
 - ⏳ `MVCClass`
 - ⏳ `MeSHDbi`
 - ⏳ `MesKit`
+- ⏳ `MetaDICT`
+- ⏳ `MetaboCoreUtils`
 
-... and 126 more ...
+... and 117 more ...
 
 ## Not Yet Started (1438)
 - ⏸️ `ACE`
@@ -201,5 +202,5 @@
 ... and 1388 more ...
 
 ---
-*Last updated: 2026-11-03 07:38:31 UTC*
-*Packages with verified BBS status: 185*
+*Last updated: 2026-11-03 07:40:54 UTC*
+*Packages with verified BBS status: 186*
