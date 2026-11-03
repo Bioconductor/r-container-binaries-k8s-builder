@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1697 (69%)
+- **Successfully Built:** 1702 (69%)
 - **Failed:** 7 (0%)
-- **In Progress:** 159
+- **In Progress:** 154
 - **Not Started:** 574
 
-**Progress:** 69%
+**Progress:** 70%
 ```
-██████████████████████████████████░░░░░░░░░░░░░░░░
+███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1697)
+## Successfully Built Packages (1702)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1647 more ...*
+*... and 1652 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (159)
+## In Progress (154)
 - ⏳ `ADAPT`
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
@@ -109,7 +109,6 @@
 - ⏳ `CyFj11`
 - ⏳ `CytoML`
 - ⏳ `CytoPipeline`
-- ⏳ `DeMixT`
 - ⏳ `DeeDeeExperiment`
 - ⏳ `EGSEA`
 - ⏳ `EMTscore`
@@ -125,7 +124,6 @@
 - ⏳ `GenomicScores`
 - ⏳ `GlobalAncova`
 - ⏳ `GrafGen`
-- ⏳ `HarmonizR`
 - ⏳ `HiCParser`
 - ⏳ `HiContacts`
 - ⏳ `HiCool`
@@ -139,8 +137,10 @@
 - ⏳ `MSnID`
 - ⏳ `MetaPhOR`
 - ⏳ `MetaboAnnotation`
+- ⏳ `MicrobiomeProfiler`
+- ⏳ `MoonlightR`
 
-... and 109 more ...
+... and 104 more ...
 
 ## Not Yet Started (574)
 - ⏸️ `AHMassBank`
@@ -197,5 +197,5 @@
 ... and 524 more ...
 
 ---
-*Last updated: 2026-11-03 20:18:14 UTC*
+*Last updated: 2026-11-03 20:19:46 UTC*
 *Packages with verified BBS status: 214*
