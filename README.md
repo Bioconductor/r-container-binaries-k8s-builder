@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 553 (22%)
+- **Successfully Built:** 555 (22%)
 - **Failed:** 5 (0%)
-- **In Progress:** 105
-- **Not Started:** 1774
+- **In Progress:** 106
+- **Not Started:** 1771
 
 **Progress:** 22%
 ```
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (553)
+## Successfully Built Packages (555)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,17 +46,17 @@
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 
-*... and 503 more ...*
+*... and 505 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [splots](https://bioconductor.org/packages/3.24/bioc/html/splots.html) | [log](logs/splots/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/splots) |
 | [ssize](https://bioconductor.org/packages/3.24/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
 | [statTarget](https://bioconductor.org/packages/3.24/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/statTarget) |
 | [survcomp](https://bioconductor.org/packages/3.24/bioc/html/survcomp.html) | [log](logs/survcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/survcomp) |
 | [swfdr](https://bioconductor.org/packages/3.24/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/swfdr) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
+| [synapsis](https://bioconductor.org/packages/3.24/bioc/html/synapsis.html) | [log](logs/synapsis/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synapsis) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.24/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/systemPipeShiny) |
 | [ternarynet](https://bioconductor.org/packages/3.24/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.24/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidysbml) |
@@ -86,12 +86,13 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (105)
+## In Progress (106)
 - ⏳ `ANF`
+- ⏳ `AnVIL`
+- ⏳ `AnVILGCP`
 - ⏳ `BUS`
 - ⏳ `BioMVCClass`
 - ⏳ `BiocMaintainerApp`
-- ⏳ `BiocPkgDash`
 - ⏳ `BridgeDbR`
 - ⏳ `CNORode`
 - ⏳ `DFP`
@@ -136,11 +137,10 @@
 - ⏳ `affyContam`
 - ⏳ `bacon`
 - ⏳ `bioDist`
-- ⏳ `cancerclass`
 
-... and 55 more ...
+... and 56 more ...
 
-## Not Yet Started (1774)
+## Not Yet Started (1771)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -163,8 +163,6 @@
 - ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnVIL`
-- ⏸️ `AnVILGCP`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILVRS`
 - ⏸️ `AnVILWorkflow`
@@ -191,9 +189,11 @@
 - ⏸️ `BUMHMM`
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
+- ⏸️ `BUSseq`
+- ⏸️ `BaalChIP`
 
-... and 1724 more ...
+... and 1721 more ...
 
 ---
-*Last updated: 2026-11-03 06:35:14 UTC*
-*Packages with verified BBS status: 166*
+*Last updated: 2026-11-03 06:36:50 UTC*
+*Packages with verified BBS status: 167*
