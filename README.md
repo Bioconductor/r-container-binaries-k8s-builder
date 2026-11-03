@@ -6,22 +6,23 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 471 (19%)
+- **Successfully Built:** 487 (19%)
 - **Failed:** 5 (0%)
-- **In Progress:** 150
-- **Not Started:** 1811
+- **In Progress:** 138
+- **Not Started:** 1807
 
-**Progress:** 19%
+**Progress:** 20%
 ```
-█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (471)
+## Successfully Built Packages (487)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [ABSSeq](https://bioconductor.org/packages/3.24/bioc/html/ABSSeq.html) | [log](logs/ABSSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ABSSeq) |
 | [ACME](https://bioconductor.org/packages/3.24/bioc/html/ACME.html) | [log](logs/ACME/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ACME) |
+| [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.24/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
@@ -44,9 +45,8 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
-| [BioQC](https://bioconductor.org/packages/3.24/bioc/html/BioQC.html) | [log](logs/BioQC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioQC) |
 
-*... and 421 more ...*
+*... and 437 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,8 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (150)
-- ⏳ `AIMS`
+## In Progress (138)
 - ⏳ `ANF`
 - ⏳ `BUS`
 - ⏳ `BayesKnockdown`
@@ -97,15 +96,13 @@
 - ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
 - ⏳ `CMA`
+- ⏳ `CNORode`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
-- ⏳ `ConsensusClusterPlus`
 - ⏳ `DEsingle`
 - ⏳ `DFP`
-- ⏳ `DNAcopy`
 - ⏳ `DepecheR`
 - ⏳ `EBImage`
-- ⏳ `FRGEpistasis`
 - ⏳ `FamAgg`
 - ⏳ `Fancy`
 - ⏳ `GSEAlm`
@@ -113,14 +110,12 @@
 - ⏳ `GeneExpressionSignature`
 - ⏳ `GeneSelectMMD`
 - ⏳ `GraphAT`
-- ⏳ `HIREewas`
 - ⏳ `HTqPCR`
 - ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
 - ⏳ `Icens`
-- ⏳ `Informeasure`
 - ⏳ `KBoost`
 - ⏳ `KEGGgraph`
 - ⏳ `LBE`
@@ -137,10 +132,15 @@
 - ⏳ `OPWeight`
 - ⏳ `OncoSimulR`
 - ⏳ `PLPE`
+- ⏳ `PathNet`
+- ⏳ `QRscore`
+- ⏳ `RDRToolbox`
+- ⏳ `RGSEA`
+- ⏳ `RIVER`
 
-... and 100 more ...
+... and 88 more ...
 
-## Not Yet Started (1811)
+## Not Yet Started (1807)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -192,8 +192,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1761 more ...
+... and 1757 more ...
 
 ---
-*Last updated: 2026-11-03 06:08:33 UTC*
-*Packages with verified BBS status: 154*
+*Last updated: 2026-11-03 06:11:17 UTC*
+*Packages with verified BBS status: 155*

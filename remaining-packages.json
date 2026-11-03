@@ -10,7 +10,6 @@
     "Seqinfo",
     "CGHbase",
     "CGHcall",
-    "DNAcopy",
     "Rsamtools",
     "marray",
     "Biostrings",
@@ -70,7 +69,6 @@
     "XVector"
   ],
   "ADaCGH2": [
-    "DNAcopy",
     "tilingArray",
     "aCGH",
     "multtest",
@@ -107,7 +105,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "biocViews",
     "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
@@ -125,7 +122,6 @@
     "BiocIO",
     "cigarillo"
   ],
-  "AIMS": [],
   "ALDEx2": [
     "GenomicRanges",
     "IRanges",
@@ -517,7 +513,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "biocViews",
     "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
@@ -1178,7 +1173,6 @@
   ],
   "BioGA": [
     "SummarizedExperiment",
-    "biocViews",
     "GenomicRanges",
     "S4Vectors",
     "IRanges",
@@ -1268,8 +1262,7 @@
   ],
   "BiocBaseUtils": [],
   "BiocCheck": [
-    "BiocBaseUtils",
-    "biocViews"
+    "BiocBaseUtils"
   ],
   "BiocDuckDB": [
     "DuckDBDataFrame",
@@ -1329,12 +1322,9 @@
   ],
   "BiocPkgDash": [
     "BiocBaseUtils",
-    "BiocPkgTools",
-    "biocViews"
+    "BiocPkgTools"
   ],
-  "BiocPkgTools": [
-    "biocViews"
-  ],
+  "BiocPkgTools": [],
   "BiocSingular": [
     "S4Vectors",
     "DelayedArray",
@@ -1572,7 +1562,6 @@
   "CATALYST": [
     "SingleCellExperiment",
     "ComplexHeatmap",
-    "ConsensusClusterPlus",
     "flowCore",
     "FlowSOM",
     "SummarizedExperiment",
@@ -1702,15 +1691,13 @@
     "marray"
   ],
   "CGHcall": [
-    "DNAcopy",
     "CGHbase",
     "marray"
   ],
   "CGHnormaliter": [
     "CGHcall",
     "CGHbase",
-    "marray",
-    "DNAcopy"
+    "marray"
   ],
   "CGHregions": [
     "CGHbase",
@@ -1749,8 +1736,7 @@
   ],
   "CIMICE": [
     "maftools",
-    "Rhtslib",
-    "DNAcopy"
+    "Rhtslib"
   ],
   "CLAMP": [
     "ComplexHeatmap",
@@ -1796,9 +1782,7 @@
     "cigarillo",
     "Rhtslib"
   ],
-  "CNAnorm": [
-    "DNAcopy"
-  ],
+  "CNAnorm": [],
   "CNEr": [
     "Biostrings",
     "pwalign",
@@ -1818,9 +1802,6 @@
     "BiocBaseUtils",
     "Rhtslib"
   ],
-  "CNORdt": [],
-  "CNORfeeder": [],
-  "CNORfuzzy": [],
   "CNORode": [],
   "CNTools": [
     "genefilter",
@@ -1915,7 +1896,6 @@
   ],
   "CNVrd2": [
     "VariantAnnotation",
-    "DNAcopy",
     "IRanges",
     "Rsamtools",
     "S4Vectors",
@@ -1996,7 +1976,6 @@
     "flowClust",
     "flowMeans",
     "flowMerge",
-    "flowPeaks",
     "S4Vectors"
   ],
   "COTAN": [
@@ -2074,7 +2053,6 @@
   ],
   "CRImage": [
     "EBImage",
-    "DNAcopy",
     "aCGH",
     "multtest"
   ],
@@ -2186,7 +2164,6 @@
     "enrichplot",
     "GOSemSim",
     "Rhtslib",
-    "DNAcopy",
     "Biostrings",
     "IRanges",
     "ComplexHeatmap",
@@ -2387,7 +2364,6 @@
     "DMRcate",
     "globaltest",
     "sva",
-    "DNAcopy",
     "marray",
     "wateRmelon",
     "goseq",
@@ -2648,7 +2624,6 @@
     "Rsamtools",
     "scran",
     "scater",
-    "ConsensusClusterPlus",
     "GenomicRanges",
     "IRanges",
     "S4Vectors",
@@ -2958,7 +2933,6 @@
     "GenomicRanges",
     "Seqinfo"
   ],
-  "ConsensusClusterPlus": [],
   "CopyNumberPlots": [
     "karyoploteR",
     "regioneR",
@@ -3108,7 +3082,6 @@
     "CATALYST",
     "FlowSOM",
     "ComplexHeatmap",
-    "ConsensusClusterPlus",
     "flowCore",
     "scater",
     "IRanges",
@@ -3137,7 +3110,6 @@
     "S4Arrays",
     "DelayedArray",
     "SparseArray",
-    "ConsensusClusterPlus",
     "XVector"
   ],
   "CytoDx": [
@@ -3291,7 +3263,6 @@
   ],
   "DEGreport": [
     "ComplexHeatmap",
-    "ConsensusClusterPlus",
     "DESeq2",
     "S4Vectors",
     "SummarizedExperiment",
@@ -3586,7 +3557,6 @@
     "Rhtslib",
     "multtest"
   ],
-  "DNAcopy": [],
   "DNAfusion": [
     "GenomicRanges",
     "IRanges",
@@ -4721,7 +4691,6 @@
     "GenomicFeatures",
     "Rsamtools",
     "rtracklayer",
-    "biocViews",
     "BiocCheck",
     "AnnotationDbi",
     "Biostrings",
@@ -4882,7 +4851,6 @@
     "rhdf5filters",
     "Rhtslib"
   ],
-  "FRGEpistasis": [],
   "FamAgg": [],
   "Fancy": [],
   "FastqCleaner": [
@@ -4953,7 +4921,6 @@
     "Seqinfo"
   ],
   "FlowSOM": [
-    "ConsensusClusterPlus",
     "flowCore",
     "S4Vectors"
   ],
@@ -5143,7 +5110,6 @@
     "SeqArray",
     "SeqVarTools",
     "Seqinfo",
-    "DNAcopy",
     "Biostrings",
     "XVector"
   ],
@@ -5208,7 +5174,6 @@
     "SummarizedExperiment",
     "TCGAutils",
     "Rhtslib",
-    "DNAcopy",
     "GCPtools",
     "DelayedArray",
     "S4Arrays",
@@ -5557,9 +5522,7 @@
     "AnnotationFilter",
     "rhdf5filters"
   ],
-  "GWASTools": [
-    "DNAcopy"
-  ],
+  "GWASTools": [],
   "GWENA": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -5621,7 +5584,6 @@
     "CGHbase",
     "GenomicRanges",
     "marray",
-    "DNAcopy",
     "S4Vectors",
     "IRanges",
     "Seqinfo",
@@ -6185,7 +6147,6 @@
     "Seqinfo",
     "XVector"
   ],
-  "HIREewas": [],
   "HTSFilter": [
     "DESeq2",
     "S4Vectors",
@@ -6815,7 +6776,6 @@
     "cigarillo",
     "Rhtslib"
   ],
-  "Informeasure": [],
   "IntEREst": [
     "GenomicRanges",
     "Rsamtools",
@@ -7350,7 +7310,6 @@
     "GenomicRanges",
     "IRanges",
     "Biostrings",
-    "DNAcopy",
     "Rsamtools",
     "S4Vectors",
     "XVector",
@@ -7470,7 +7429,6 @@
     "GenomicRanges",
     "Biostrings",
     "IRanges",
-    "DNAcopy",
     "biomaRt",
     "rtracklayer",
     "AnnotationDbi",
@@ -8082,8 +8040,7 @@
   "MetaCyto": [
     "flowCore",
     "FlowSOM",
-    "S4Vectors",
-    "ConsensusClusterPlus"
+    "S4Vectors"
   ],
   "MetaPathNet": [
     "KEGGREST",
@@ -8351,7 +8308,6 @@
     "GenomicRanges",
     "SummarizedExperiment",
     "oligoClasses",
-    "DNAcopy",
     "Biostrings",
     "S4Arrays",
     "DelayedArray",
@@ -9379,7 +9335,6 @@
   "PDATK": [
     "SummarizedExperiment",
     "MultiAssayExperiment",
-    "ConsensusClusterPlus",
     "CoreGx",
     "S4Vectors",
     "piano",
@@ -9387,7 +9342,6 @@
     "genefu",
     "BumpyMatrix",
     "biomaRt",
-    "AIMS",
     "BiocBaseUtils",
     "DelayedArray",
     "GenomicRanges",
@@ -9410,7 +9364,6 @@
     "S4Vectors",
     "KEGGREST",
     "BiocBaseUtils",
-    "DNAcopy",
     "Biostrings",
     "XVector",
     "Seqinfo"
@@ -9772,9 +9725,7 @@
     "SparseArray",
     "XVector"
   ],
-  "Polytect": [
-    "flowPeaks"
-  ],
+  "Polytect": [],
   "PostChicago": [
     "GenomicRanges",
     "S4Vectors",
@@ -9885,7 +9836,6 @@
     "Seqinfo"
   ],
   "PureCN": [
-    "DNAcopy",
     "VariantAnnotation",
     "GenomicRanges",
     "IRanges",
@@ -9947,7 +9897,6 @@
   "QDNAseq": [
     "CGHbase",
     "CGHcall",
-    "DNAcopy",
     "Seqinfo",
     "GenomicRanges",
     "IRanges",
@@ -10138,7 +10087,6 @@
     "Rhtslib",
     "SummarizedExperiment",
     "UCSC.utils",
-    "DNAcopy",
     "GenomicAlignments",
     "S4Arrays",
     "DelayedArray",
@@ -11500,7 +11448,6 @@
     "IRanges",
     "Rsamtools",
     "GenomeInfoDb",
-    "DNAcopy",
     "BSgenome",
     "Biostrings",
     "S4Vectors",
@@ -13186,9 +13133,7 @@
     "BSgenome",
     "GenomicFeatures"
   ],
-  "TIN": [
-    "DNAcopy"
-  ],
+  "TIN": [],
   "TMSig": [
     "ComplexHeatmap",
     "GSEABase",
@@ -15076,7 +15021,6 @@
     "SparseArray",
     "XVector"
   ],
-  "barmixR": [],
   "batchCorr": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -15360,7 +15304,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "biocViews": [],
   "biomaRt": [
     "AnnotationDbi",
     "IRanges",
@@ -15490,7 +15433,6 @@
     "GenomicFeatures",
     "CGHbase",
     "CGHcall",
-    "DNAcopy",
     "XVector",
     "Rhtslib",
     "GenomicAlignments",
@@ -15897,7 +15839,6 @@
     "GeneTonic",
     "SummarizedExperiment",
     "ComplexHeatmap",
-    "ConsensusClusterPlus",
     "S4Vectors",
     "IRanges",
     "GenomicRanges",
@@ -16108,7 +16049,6 @@
     "S4Arrays",
     "DelayedArray",
     "SparseArray",
-    "ConsensusClusterPlus",
     "XVector"
   ],
   "cfDNAPro": [
@@ -16153,7 +16093,6 @@
     "S4Vectors",
     "Seqinfo",
     "UCSC.utils",
-    "DNAcopy",
     "CGHbase",
     "CGHcall",
     "Biostrings",
@@ -16162,7 +16101,6 @@
     "marray"
   ],
   "cghMCR": [
-    "DNAcopy",
     "CNTools",
     "genefilter",
     "AnnotationDbi",
@@ -16442,7 +16380,6 @@
     "GenomicAlignments",
     "cigarillo",
     "GenomeInfoDb",
-    "biocViews",
     "KEGGREST",
     "BiocBaseUtils",
     "SummarizedExperiment",
@@ -16677,7 +16614,6 @@
   "cn.farms": [
     "oligoClasses",
     "oligo",
-    "DNAcopy",
     "Biostrings",
     "IRanges",
     "GenomicRanges",
@@ -16897,7 +16833,6 @@
     "genefu",
     "survcomp",
     "biomaRt",
-    "AIMS",
     "S4Vectors",
     "S4Arrays",
     "HDF5Array",
@@ -16939,7 +16874,6 @@
   ],
   "conumee": [
     "minfi",
-    "DNAcopy",
     "rtracklayer",
     "GenomicRanges",
     "IRanges",
@@ -17464,7 +17398,6 @@
     "SummarizedExperiment",
     "S4Vectors",
     "ComplexHeatmap",
-    "ConsensusClusterPlus",
     "FlowSOM",
     "scater",
     "GenomicRanges",
@@ -17684,7 +17617,6 @@
   "ddPCRclust": [
     "flowCore",
     "flowDensity",
-    "flowPeaks",
     "S4Vectors",
     "flowViz"
   ],
@@ -17724,7 +17656,6 @@
     "BSgenome",
     "Rsamtools",
     "Biostrings",
-    "DNAcopy",
     "biomaRt",
     "rtracklayer",
     "S4Arrays",
@@ -18045,7 +17976,6 @@
     "S4Vectors",
     "ComplexHeatmap",
     "IRanges",
-    "ConsensusClusterPlus",
     "GenomicRanges",
     "Seqinfo",
     "S4Arrays",
@@ -19323,7 +19253,6 @@
     "flowCore",
     "S4Vectors"
   ],
-  "flowPeaks": [],
   "flowPloidy": [
     "flowCore",
     "S4Vectors"
@@ -19578,8 +19507,7 @@
   ],
   "gDRstyle": [
     "BiocCheck",
-    "BiocBaseUtils",
-    "biocViews"
+    "BiocBaseUtils"
   ],
   "gDRutils": [
     "BumpyMatrix",
@@ -19773,7 +19701,6 @@
   "genefu": [
     "survcomp",
     "biomaRt",
-    "AIMS",
     "AnnotationDbi",
     "IRanges",
     "S4Vectors",
@@ -20331,7 +20258,6 @@
     "GWASTools",
     "VariantAnnotation",
     "SummarizedExperiment",
-    "DNAcopy",
     "GenomicRanges",
     "S4Vectors",
     "IRanges",
@@ -21183,7 +21109,6 @@
     "KEGGREST",
     "BiocBaseUtils",
     "ComplexHeatmap",
-    "ConsensusClusterPlus",
     "Seqinfo",
     "S4Arrays",
     "DelayedArray",
@@ -21291,7 +21216,6 @@
     "Rsamtools",
     "UCSC.utils",
     "Rhtslib",
-    "DNAcopy",
     "GenomicAlignments",
     "SummarizedExperiment",
     "AnnotationDbi",
@@ -21645,7 +21569,6 @@
   "mBPCR": [
     "oligoClasses",
     "GWASTools",
-    "DNAcopy",
     "IRanges",
     "GenomicRanges",
     "SummarizedExperiment",
@@ -21712,8 +21635,7 @@
     "XVector"
   ],
   "maftools": [
-    "Rhtslib",
-    "DNAcopy"
+    "Rhtslib"
   ],
   "magpie": [
     "rtracklayer",
@@ -21906,7 +21828,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "metaCCA": [],
   "metaMS": [
     "CAMERA",
     "xcms",
@@ -22080,7 +22001,6 @@
     "BiocVersion",
     "AnnotationDbi",
     "BiocBaseUtils",
-    "biocViews",
     "XVector",
     "Seqinfo",
     "BiocIO",
@@ -22925,9 +22845,7 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "monocle": [
-    "biocViews"
-  ],
+  "monocle": [],
   "mosaics": [
     "IRanges",
     "GenomicRanges",
@@ -23426,7 +23344,6 @@
     "UCSC.utils",
     "AnnotationDbi",
     "Rhtslib",
-    "DNAcopy",
     "S4Arrays",
     "DelayedArray",
     "KEGGREST",
@@ -24557,7 +24474,6 @@
     "DelayedArray",
     "SparseArray"
   ],
-  "plasmut": [],
   "plier": [],
   "plotgardener": [
     "GenomeInfoDb",
@@ -24626,7 +24542,6 @@
     "SparseArray",
     "XVector"
   ],
-  "pmm": [],
   "pmp": [
     "SummarizedExperiment",
     "S4Vectors",
@@ -24697,7 +24612,6 @@
     "SummarizedExperiment",
     "IRanges",
     "S4Vectors",
-    "ConsensusClusterPlus",
     "ncdfFlow",
     "DelayedArray",
     "flowViz",
@@ -24799,7 +24713,6 @@
     "GenomicRanges",
     "rCGH",
     "Seqinfo",
-    "DNAcopy",
     "GenomicFeatures",
     "AnnotationDbi",
     "aCGH",
@@ -25015,7 +24928,6 @@
     "XVector",
     "Seqinfo"
   ],
-  "proteinProfiles": [],
   "psichomics": [
     "AnnotationDbi",
     "AnnotationHub",
@@ -25300,7 +25212,6 @@
     "Seqinfo"
   ],
   "rCGH": [
-    "DNAcopy",
     "GenomicFeatures",
     "Seqinfo",
     "GenomicRanges",
@@ -27525,7 +27436,6 @@
     "rhdf5filters"
   ],
   "sigFeature": [
-    "biocViews",
     "SummarizedExperiment",
     "GenomicRanges",
     "S4Vectors",
@@ -28125,7 +28035,6 @@
     "S4Vectors",
     "SingleCellExperiment",
     "ComplexHeatmap",
-    "ConsensusClusterPlus",
     "flowCore",
     "FlowSOM",
     "scater",
@@ -29191,8 +29100,7 @@
     "SingleCellExperiment",
     "Biostrings",
     "XVector",
-    "SparseArray",
-    "ConsensusClusterPlus"
+    "SparseArray"
   ],
   "treeio": [],
   "treekoR": [
@@ -29211,7 +29119,6 @@
     "IRanges",
     "S4Arrays",
     "SparseArray",
-    "ConsensusClusterPlus",
     "Seqinfo",
     "XVector"
   ],
@@ -29330,8 +29237,7 @@
   ],
   "tximport": [],
   "uSORT": [
-    "monocle",
-    "biocViews"
+    "monocle"
   ],
   "uncoverappLib": [
     "Gviz",
@@ -29667,9 +29573,7 @@
     "BiocBaseUtils",
     "cigarillo"
   ],
-  "wavFeatExt": [
-    "DNAcopy"
-  ],
+  "wavFeatExt": [],
   "webbioc": [
     "multtest",
     "annaffy",
