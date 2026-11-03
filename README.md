@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 95 (3%)
+- **Successfully Built:** 96 (4%)
 - **Failed:** 1 (0%)
-- **In Progress:** 275
+- **In Progress:** 274
 - **Not Started:** 2014
 
 **Progress:** 4%
@@ -16,7 +16,7 @@
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (95)
+## Successfully Built Packages (96)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 45 more ...*
+*... and 46 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (275)
+## In Progress (274)
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
@@ -134,7 +134,7 @@
 - ⏳ `INDEED`
 - ⏳ `INPower`
 
-... and 225 more ...
+... and 224 more ...
 
 ## Not Yet Started (2014)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1964 more ...
 
 ---
-*Last updated: 2026-11-03 03:21:42 UTC*
+*Last updated: 2026-11-03 03:23:37 UTC*
 *Packages with verified BBS status: 81*
