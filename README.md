@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 271 (11%)
+- **Successfully Built:** 274 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 165
-- **Not Started:** 1999
+- **In Progress:** 163
+- **Not Started:** 1998
 
 **Progress:** 11%
 ```
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (271)
+## Successfully Built Packages (274)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 
-*... and 221 more ...*
+*... and 224 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,8 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (165)
+## In Progress (163)
+- ⏳ `AlpsNMR`
 - ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -122,7 +123,6 @@
 - ⏳ `KBoost`
 - ⏳ `KinSwingR`
 - ⏳ `LBE`
-- ⏳ `LEA`
 - ⏳ `LPE`
 - ⏳ `LedPred`
 - ⏳ `Linnorm`
@@ -135,9 +135,9 @@
 - ⏳ `MSstatsResponse`
 - ⏳ `MantelCorr`
 
-... and 115 more ...
+... and 113 more ...
 
-## Not Yet Started (1999)
+## Not Yet Started (1998)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -167,7 +167,6 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AlphaMissenseR`
-- ⏸️ `AlpsNMR`
 - ⏸️ `AnVIL`
 - ⏸️ `AnVILAz`
 - ⏸️ `AnVILGCP`
@@ -188,9 +187,10 @@
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
+- ⏸️ `BLMA`
 
-... and 1949 more ...
+... and 1948 more ...
 
 ---
-*Last updated: 2026-11-03 04:48:06 UTC*
+*Last updated: 2026-11-03 04:49:12 UTC*
 *Packages with verified BBS status: 127*
