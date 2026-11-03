@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 458 (18%)
+- **Successfully Built:** 464 (19%)
 - **Failed:** 5 (0%)
-- **In Progress:** 158
-- **Not Started:** 1816
+- **In Progress:** 154
+- **Not Started:** 1814
 
-**Progress:** 18%
+**Progress:** 19%
 ```
 █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (458)
+## Successfully Built Packages (464)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BioQC](https://bioconductor.org/packages/3.24/bioc/html/BioQC.html) | [log](logs/BioQC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioQC) |
 
-*... and 408 more ...*
+*... and 414 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (158)
+## In Progress (154)
 - ⏳ `AIMS`
 - ⏳ `ANF`
 - ⏳ `BUS`
@@ -138,9 +138,9 @@
 - ⏳ `NormqPCR`
 - ⏳ `OPWeight`
 
-... and 108 more ...
+... and 104 more ...
 
-## Not Yet Started (1816)
+## Not Yet Started (1814)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -192,8 +192,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1766 more ...
+... and 1764 more ...
 
 ---
-*Last updated: 2026-11-03 06:04:47 UTC*
+*Last updated: 2026-11-03 06:06:51 UTC*
 *Packages with verified BBS status: 153*
