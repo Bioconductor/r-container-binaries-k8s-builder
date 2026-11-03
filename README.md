@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 409 (16%)
+- **Successfully Built:** 422 (17%)
 - **Failed:** 4 (0%)
-- **In Progress:** 165
+- **In Progress:** 152
 - **Not Started:** 1859
 
-**Progress:** 16%
+**Progress:** 17%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (409)
+## Successfully Built Packages (422)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,17 +46,17 @@
 | [BiocBook](https://bioconductor.org/packages/3.24/bioc/html/BiocBook.html) | [log](logs/BiocBook/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBook) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.24/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBuildReporter) |
 
-*... and 359 more ...*
+*... and 372 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [seqcombo](https://bioconductor.org/packages/3.24/bioc/html/seqcombo.html) | [log](logs/seqcombo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/seqcombo) |
 | [shiny.gosling](https://bioconductor.org/packages/3.24/bioc/html/shiny.gosling.html) | [log](logs/shiny.gosling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/shiny.gosling) |
 | [shinybiocloader](https://bioconductor.org/packages/3.24/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/shinybiocloader) |
 | [sights](https://bioconductor.org/packages/3.24/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sights) |
 | [sincell](https://bioconductor.org/packages/3.24/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sincell) |
 | [sizepower](https://bioconductor.org/packages/3.24/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.24/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snm) |
+| [snpStats](https://bioconductor.org/packages/3.24/bioc/html/snpStats.html) | [log](logs/snpStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snpStats) |
 | [sparsenetgls](https://bioconductor.org/packages/3.24/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparsenetgls) |
 | [specL](https://bioconductor.org/packages/3.24/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/specL) |
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
@@ -85,7 +85,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (165)
+## In Progress (152)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -106,7 +106,6 @@
 - ⏳ `DNAcopy`
 - ⏳ `DepecheR`
 - ⏳ `EBImage`
-- ⏳ `EBarrays`
 - ⏳ `FRGEpistasis`
 - ⏳ `FamAgg`
 - ⏳ `Fancy`
@@ -131,13 +130,14 @@
 - ⏳ `MethPed`
 - ⏳ `MethylMix`
 - ⏳ `MiChip`
-- ⏳ `MiPP`
-- ⏳ `Mulcom`
 - ⏳ `NOISeq`
 - ⏳ `NanoStringDiff`
 - ⏳ `NormqPCR`
+- ⏳ `OPWeight`
+- ⏳ `PLPE`
+- ⏳ `PathNet`
 
-... and 115 more ...
+... and 102 more ...
 
 ## Not Yet Started (1859)
 - ⏸️ `ABarray`
@@ -194,5 +194,5 @@
 ... and 1809 more ...
 
 ---
-*Last updated: 2026-11-03 05:51:10 UTC*
-*Packages with verified BBS status: 146*
+*Last updated: 2026-11-03 05:56:23 UTC*
+*Packages with verified BBS status: 147*
