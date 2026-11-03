@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 902 (37%)
+- **Successfully Built:** 907 (37%)
 - **Failed:** 5 (0%)
-- **In Progress:** 125
-- **Not Started:** 1405
+- **In Progress:** 122
+- **Not Started:** 1403
 
 **Progress:** 37%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (902)
+## Successfully Built Packages (907)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 852 more ...*
+*... and 857 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (125)
+## In Progress (122)
 - ⏳ `AnnotationForge`
 - ⏳ `AnnotationHub`
 - ⏳ `BRAIN`
@@ -105,9 +105,7 @@
 - ⏳ `IWTomics`
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `LymphoSeq`
-- ⏳ `MCbiclust`
 - ⏳ `MLP`
-- ⏳ `MeSHDbi`
 - ⏳ `MesKit`
 - ⏳ `MiRaGE`
 - ⏳ `PADOG`
@@ -137,10 +135,12 @@
 - ⏳ `adSplit`
 - ⏳ `adverSCarial`
 - ⏳ `alabaster.ranges`
+- ⏳ `alabaster.string`
+- ⏳ `altcdfenvs`
 
-... and 75 more ...
+... and 72 more ...
 
-## Not Yet Started (1405)
+## Not Yet Started (1403)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1355 more ...
+... and 1353 more ...
 
 ---
-*Last updated: 2026-11-03 12:51:45 UTC*
+*Last updated: 2026-11-03 12:53:42 UTC*
 *Packages with verified BBS status: 187*
