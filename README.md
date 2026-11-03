@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 568 (23%)
+- **Successfully Built:** 575 (23%)
 - **Failed:** 5 (0%)
-- **In Progress:** 93
-- **Not Started:** 1771
+- **In Progress:** 90
+- **Not Started:** 1767
 
 **Progress:** 23%
 ```
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (568)
+## Successfully Built Packages (575)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -42,11 +42,11 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
+| [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [BADER](https://bioconductor.org/packages/3.24/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BADER) |
 | [BANDITS](https://bioconductor.org/packages/3.24/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BANDITS) |
-| [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 
-*... and 518 more ...*
+*... and 525 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,8 +86,10 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (93)
+## In Progress (90)
 - ⏳ `ANF`
+- ⏳ `AnVILVRS`
+- ⏳ `AnVILWorkflow`
 - ⏳ `BUS`
 - ⏳ `BioMVCClass`
 - ⏳ `BiocMaintainerApp`
@@ -111,6 +113,7 @@
 - ⏳ `MethylMix`
 - ⏳ `NormqPCR`
 - ⏳ `OPWeight`
+- ⏳ `OmicsMLRepoR`
 - ⏳ `PLPE`
 - ⏳ `QRscore`
 - ⏳ `RDRToolbox`
@@ -118,17 +121,13 @@
 - ⏳ `ROTS`
 - ⏳ `RTCA`
 - ⏳ `RUVcorr`
-- ⏳ `Rnits`
 - ⏳ `Rsubread`
-- ⏳ `S4Cartographer`
 - ⏳ `S4Vectors`
 - ⏳ `SPEM`
 - ⏳ `SUITOR`
 - ⏳ `SharedObject`
 - ⏳ `SpeCond`
 - ⏳ `TRONCO`
-- ⏳ `a4Classif`
-- ⏳ `affyContam`
 - ⏳ `bacon`
 - ⏳ `bioDist`
 - ⏳ `cancerclass`
@@ -137,10 +136,11 @@
 - ⏳ `ctsGE`
 - ⏳ `diffuStats`
 - ⏳ `dks`
+- ⏳ `erccdashboard`
 
-... and 43 more ...
+... and 40 more ...
 
-## Not Yet Started (1771)
+## Not Yet Started (1767)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -163,9 +163,6 @@
 - ⏸️ `AffiXcan`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AnVILPublish`
-- ⏸️ `AnVILVRS`
-- ⏸️ `AnVILWorkflow`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationFilter`
@@ -191,9 +188,12 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
+- ⏸️ `BadRegionFinder`
+- ⏸️ `BamScale`
+- ⏸️ `Banksy`
 
-... and 1721 more ...
+... and 1717 more ...
 
 ---
-*Last updated: 2026-11-03 06:38:48 UTC*
-*Packages with verified BBS status: 169*
+*Last updated: 2026-11-03 06:40:42 UTC*
+*Packages with verified BBS status: 170*

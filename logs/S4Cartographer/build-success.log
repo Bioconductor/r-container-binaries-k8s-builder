@@ -1,0 +1,305 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''S4Cartographer'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'S4Cartographer'
+also installing the dependencies ‘benchmarkmeData’, ‘RcppCCTZ’, ‘RcppDate’, ‘gridBase’, ‘softImpute’, ‘rncl’, ‘RNeXML’, ‘ClusterR’, ‘benchmarkme’, ‘nanotime’, ‘nanoarrow’, ‘RcppInt64’, ‘NMF’, ‘zinbwave’, ‘phylobase’, ‘mbkmeans’, ‘tiledb’, ‘clusterExperiment’, ‘GenomicFiles’, ‘TileDBArray’, ‘VCFArray’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/benchmarkmeData_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/RcppCCTZ_0.2.14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/RcppDate_0.0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/gridBase_0.4-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/softImpute_1.4-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/rncl_0.8.10.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/RNeXML_2.4.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ClusterR_1.3.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/benchmarkme_1.0.8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/nanotime_0.3.15.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/nanoarrow_0.9.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/RcppInt64_0.0.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/NMF_0.28.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/zinbwave_1.35.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/phylobase_0.8.12.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/mbkmeans_1.29.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tiledb_0.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/clusterExperiment_2.33.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GenomicFiles_1.49.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/TileDBArray_1.23.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/VCFArray_1.29.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/S4Cartographer_0.99.3.tar.gz'
+* installing *binary* package ‘benchmarkmeData’ ...
+* package ‘benchmarkmeData’ successfully unpacked and SHA256 sums checked
+* ‘benchmarkmeData’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘benchmarkmeData’ as ‘benchmarkmeData_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchmarkmeData)
+* installing *binary* package ‘RcppCCTZ’ ...
+* package ‘RcppCCTZ’ successfully unpacked and SHA256 sums checked
+* ‘RcppCCTZ’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppCCTZ’ as ‘RcppCCTZ_0.2.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppCCTZ)
+* installing *binary* package ‘RcppDate’ ...
+* package ‘RcppDate’ successfully unpacked and SHA256 sums checked
+* ‘RcppDate’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppDate’ as ‘RcppDate_0.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppDate)
+* installing *binary* package ‘gridBase’ ...
+* package ‘gridBase’ successfully unpacked and SHA256 sums checked
+* ‘gridBase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gridBase’ as ‘gridBase_0.4-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridBase)
+* installing *binary* package ‘softImpute’ ...
+* package ‘softImpute’ successfully unpacked and SHA256 sums checked
+* ‘softImpute’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘softImpute’ as ‘softImpute_1.4-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (softImpute)
+* installing *binary* package ‘rncl’ ...
+* package ‘rncl’ successfully unpacked and SHA256 sums checked
+* ‘rncl’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rncl’ as ‘rncl_0.8.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rncl)
+* installing *binary* package ‘RNeXML’ ...
+* package ‘RNeXML’ successfully unpacked and SHA256 sums checked
+* ‘RNeXML’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RNeXML’ as ‘RNeXML_2.4.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RNeXML)
+* installing *binary* package ‘ClusterR’ ...
+* package ‘ClusterR’ successfully unpacked and SHA256 sums checked
+* ‘ClusterR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ClusterR’ as ‘ClusterR_1.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ClusterR)
+* installing *binary* package ‘nanoarrow’ ...
+* package ‘nanoarrow’ successfully unpacked and SHA256 sums checked
+* ‘nanoarrow’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nanoarrow’ as ‘nanoarrow_0.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nanoarrow)
+* installing *binary* package ‘RcppInt64’ ...
+* package ‘RcppInt64’ successfully unpacked and SHA256 sums checked
+* ‘RcppInt64’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘RcppInt64’ as ‘RcppInt64_0.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppInt64)
+* installing *source* package ‘GenomicFiles’ ...
+** this is package ‘GenomicFiles’ version ‘1.49.0’
+** package ‘GenomicFiles’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GenomicFiles’ as ‘GenomicFiles_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicFiles)
+* installing *source* package ‘S4Cartographer’ ...
+** this is package ‘S4Cartographer’ version ‘0.99.3’
+** package ‘S4Cartographer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘S4Cartographer’ as ‘S4Cartographer_0.99.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S4Cartographer)
+* installing *binary* package ‘benchmarkme’ ...
+* package ‘benchmarkme’ successfully unpacked and SHA256 sums checked
+* ‘benchmarkme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘benchmarkme’ as ‘benchmarkme_1.0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchmarkme)
+* installing *binary* package ‘nanotime’ ...
+* package ‘nanotime’ successfully unpacked and SHA256 sums checked
+* ‘nanotime’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nanotime’ as ‘nanotime_0.3.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nanotime)
+* installing *binary* package ‘NMF’ ...
+* package ‘NMF’ successfully unpacked and SHA256 sums checked
+* ‘NMF’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NMF’ as ‘NMF_0.28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NMF)
+* installing *source* package ‘zinbwave’ ...
+** this is package ‘zinbwave’ version ‘1.35.0’
+** package ‘zinbwave’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘zinbwave’ as ‘zinbwave_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zinbwave)
+* installing *binary* package ‘phylobase’ ...
+* package ‘phylobase’ successfully unpacked and SHA256 sums checked
+* ‘phylobase’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phylobase’ as ‘phylobase_0.8.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phylobase)
+* installing *source* package ‘VCFArray’ ...
+** this is package ‘VCFArray’ version ‘1.29.0’
+** package ‘VCFArray’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘VCFArray’ as ‘VCFArray_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VCFArray)
+Warning: SystemRequirements specified C++11: support has been removed
+* installing *source* package ‘mbkmeans’ ...
+** this is package ‘mbkmeans’ version ‘1.29.0’
+** package ‘mbkmeans’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/beachmat/include' -I'/tmp/library/ClusterR/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I'/mnt/library/Rhdf5lib/include' -I'/mnt/library/beachmat/include' -I'/tmp/library/ClusterR/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c mini_batch.cpp -o mini_batch.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mbkmeans.so RcppExports.o mini_batch.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-mbkmeans/00new/mbkmeans/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mbkmeans’ as ‘mbkmeans_1.29.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mbkmeans)
+* installing *binary* package ‘tiledb’ ...
+* package ‘tiledb’ successfully unpacked and SHA256 sums checked
+* ‘tiledb’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+Warning in utils::tar(filepath, curPkg, compression = compression, compression_level = compression_level,  :
+  storing paths of more than 100 bytes is not portable:
+  ‘tiledb/tiledb/include/tiledb/api/c_api/array_schema_evolution/array_schema_evolution_api_experimental.h’
+packaged installation of ‘tiledb’ as ‘tiledb_0.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiledb)
+* installing *source* package ‘clusterExperiment’ ...
+** this is package ‘clusterExperiment’ version ‘2.33.0’
+** package ‘clusterExperiment’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+specified C++11
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c search_pairs.cpp -o search_pairs.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c subsampleLoop.cpp -o subsampleLoop.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o clusterExperiment.so RcppExports.o search_pairs.o subsampleLoop.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-clusterExperiment/00new/clusterExperiment/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Found more than one class "Annotated" in cache; using the first, from namespace 'S4Vectors'
+Also defined by ‘RNeXML’
+Found more than one class "Annotated" in cache; using the first, from namespace 'S4Vectors'
+Also defined by ‘RNeXML’
+Found more than one class "Annotated" in cache; using the first, from namespace 'S4Vectors'
+Also defined by ‘RNeXML’
+Found more than one class "Annotated" in cache; using the first, from namespace 'S4Vectors'
+Also defined by ‘RNeXML’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘clusterExperiment’ as ‘clusterExperiment_2.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clusterExperiment)
+* installing *source* package ‘TileDBArray’ ...
+** this is package ‘TileDBArray’ version ‘1.23.0’
+** package ‘TileDBArray’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TileDBArray’ as ‘TileDBArray_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TileDBArray)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOVFH5G/downloaded_packages’
+
+real	4m30.112s
+user	4m0.152s
+sys	0m26.074s
