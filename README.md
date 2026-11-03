@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1529 (62%)
+- **Successfully Built:** 1537 (63%)
 - **Failed:** 7 (0%)
 - **In Progress:** 155
-- **Not Started:** 746
+- **Not Started:** 738
 
 **Progress:** 63%
 ```
 ███████████████████████████████░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1529)
+## Successfully Built Packages (1537)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1479 more ...*
+*... and 1487 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -108,7 +108,6 @@
 - ⏳ `DESeq2`
 - ⏳ `Dune`
 - ⏳ `EGSEA`
-- ⏳ `ExpoRiskR`
 - ⏳ `GBScleanR`
 - ⏳ `GOexpress`
 - ⏳ `GeneMeta`
@@ -130,6 +129,7 @@
 - ⏳ `MAST`
 - ⏳ `MICSQTL`
 - ⏳ `MLInterfaces`
+- ⏳ `MetMashR`
 - ⏳ `MouseFM`
 - ⏳ `MsFeatures`
 - ⏳ `Nebulosa`
@@ -142,7 +142,7 @@
 
 ... and 105 more ...
 
-## Not Yet Started (746)
+## Not Yet Started (738)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -194,8 +194,8 @@
 - ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
 
-... and 696 more ...
+... and 688 more ...
 
 ---
-*Last updated: 2026-11-03 17:19:55 UTC*
+*Last updated: 2026-11-03 17:22:16 UTC*
 *Packages with verified BBS status: 208*
