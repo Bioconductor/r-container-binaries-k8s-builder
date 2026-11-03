@@ -1,0 +1,73 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''rqt'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'rqt'
+also installing the dependencies ‘TFisher’, ‘qqconf’, ‘mutoss’, ‘metap’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/TFisher_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/qqconf_1.3.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/mutoss_0.1-14.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/metap_1.14.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/rqt_1.38.0.tar.gz'
+* installing *binary* package ‘TFisher’ ...
+* package ‘TFisher’ successfully unpacked and SHA256 sums checked
+* ‘TFisher’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TFisher’ as ‘TFisher_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFisher)
+* installing *binary* package ‘qqconf’ ...
+* package ‘qqconf’ successfully unpacked and SHA256 sums checked
+* ‘qqconf’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qqconf’ as ‘qqconf_1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qqconf)
+* installing *binary* package ‘mutoss’ ...
+* package ‘mutoss’ successfully unpacked and SHA256 sums checked
+* ‘mutoss’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mutoss’ as ‘mutoss_0.1-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mutoss)
+* installing *binary* package ‘metap’ ...
+* package ‘metap’ successfully unpacked and SHA256 sums checked
+* ‘metap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘metap’ as ‘metap_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (metap)
+* installing *source* package ‘rqt’ ...
+** this is package ‘rqt’ version ‘1.38.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rqt’ as ‘rqt_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rqt)
+
+The downloaded source packages are in
+	‘/tmp/RtmpuNdZqH/downloaded_packages’
+Old packages: 'future', 'litedown', 'mirai', 'qs2', 'rsvd', 'curl', 'diffobj',
+  'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2', 'tinytex', 'usethis',
+  'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv', 'nlme', 'survival'
+
+real	0m39.179s
+user	0m33.436s
+sys	0m4.940s
