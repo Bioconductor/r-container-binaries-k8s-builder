@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1763 (73%)
+- **Successfully Built:** 1769 (74%)
 - **Failed:** 18 (0%)
-- **In Progress:** 62
-- **Not Started:** 542
+- **In Progress:** 60
+- **Not Started:** 538
 
 **Progress:** 74%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1763)
+## Successfully Built Packages (1769)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 
-*... and 1713 more ...*
+*... and 1719 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [ClustIRR](https://bioconductor.org/packages/3.23/bioc/html/ClustIRR.html) | [log](logs/ClustIRR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClustIRR) | Syntax error in 'string', line 2, column 20 to column 21, parsing error: |
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
-| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
+| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -96,14 +96,13 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Build failed with unknown error |
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (62)
+## In Progress (60)
 - ⏳ `ADImpute`
-- ⏳ `CrcBiomeScreen`
-- ⏳ `ExperimentSubset`
-- ⏳ `FEAST`
+- ⏳ `BulkSignalR`
+- ⏳ `EWCE`
 - ⏳ `Heatplus`
 - ⏳ `HoloFoodR`
 - ⏳ `IWTomics`
@@ -120,6 +119,7 @@
 - ⏳ `ShortRead`
 - ⏳ `SpotClean`
 - ⏳ `StatescopeR`
+- ⏳ `Statial`
 - ⏳ `TBSignatureProfiler`
 - ⏳ `TCseq`
 - ⏳ `UCell`
@@ -142,18 +142,18 @@
 - ⏳ `fedup`
 - ⏳ `gDR`
 - ⏳ `ggtreeExtra`
-- ⏳ `imageTCGAutils`
-- ⏳ `mastR`
 - ⏳ `miQC`
 - ⏳ `mia`
 - ⏳ `miaSim`
 - ⏳ `mosaics`
 - ⏳ `multistateQTL`
 - ⏳ `notameStats`
+- ⏳ `oposSOM`
+- ⏳ `pepStat`
 
-... and 12 more ...
+... and 10 more ...
 
-## Not Yet Started (542)
+## Not Yet Started (538)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -173,7 +173,6 @@
 - ⏸️ `BgeeCall`
 - ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
-- ⏸️ `BulkSignalR`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
@@ -204,9 +203,10 @@
 - ⏸️ `ChromHeatMap`
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
+- ⏸️ `CleanUpRNAseq`
 
-... and 492 more ...
+... and 488 more ...
 
 ---
-*Last updated: 2026-11-03 12:22:38 UTC*
+*Last updated: 2026-11-03 12:24:54 UTC*
 *Packages with verified BBS status: 225*
