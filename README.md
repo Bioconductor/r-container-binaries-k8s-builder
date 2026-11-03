@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 2139 (89%)
 - **Failed:** 21 (0%)
-- **In Progress:** 97
-- **Not Started:** 128
+- **In Progress:** 101
+- **Not Started:** 124
 
 **Progress:** 90%
 ```
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (97)
+## In Progress (101)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
@@ -138,6 +138,7 @@
 - ⏳ `Rhisat2`
 - ⏳ `RiboDiPA`
 - ⏳ `SNPhood`
+- ⏳ `SOMNiBUS`
 - ⏳ `SigsPack`
 - ⏳ `StructuralVariantAnnotation`
 - ⏳ `TFutils`
@@ -152,11 +153,10 @@
 - ⏳ `chevreulPlot`
 - ⏳ `circRNAprofiler`
 - ⏳ `coMethDMR`
-- ⏳ `conumee`
 
-... and 47 more ...
+... and 51 more ...
 
-## Not Yet Started (128)
+## Not Yet Started (124)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -208,8 +208,8 @@
 - ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
 
-... and 78 more ...
+... and 74 more ...
 
 ---
-*Last updated: 2026-11-03 23:58:05 UTC*
+*Last updated: 2026-11-03 23:58:50 UTC*
 *Packages with verified BBS status: 235*
