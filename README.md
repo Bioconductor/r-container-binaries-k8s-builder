@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2128 (89%)
+- **Successfully Built:** 2129 (89%)
 - **Failed:** 21 (0%)
 - **In Progress:** 107
-- **Not Started:** 129
+- **Not Started:** 128
 
 **Progress:** 90%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2128)
+## Successfully Built Packages (2129)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2078 more ...*
+*... and 2079 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -120,13 +120,13 @@
 - ⏳ `EpiTxDb`
 - ⏳ `EventPointer`
 - ⏳ `ExperimentHubData`
+- ⏳ `FRASER`
 - ⏳ `FindIT2`
 - ⏳ `GA4GHshiny`
 - ⏳ `HistoImagePlot`
 - ⏳ `IntEREst`
 - ⏳ `MEDIPS`
 - ⏳ `MethylAid`
-- ⏳ `MutSeqR`
 - ⏳ `MutationalPatterns`
 - ⏳ `OMICsPCA`
 - ⏳ `ORFik`
@@ -156,7 +156,7 @@
 
 ... and 57 more ...
 
-## Not Yet Started (129)
+## Not Yet Started (128)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -176,7 +176,6 @@
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `FRASER`
 - ⏸️ `GARS`
 - ⏸️ `GNOSIS`
 - ⏸️ `GUIDEseq`
@@ -207,9 +206,10 @@
 - ⏸️ `ReportingTools`
 - ⏸️ `RiboCrypt`
 - ⏸️ `RnBeads`
+- ⏸️ `RnaSeqSampleSize`
 
-... and 79 more ...
+... and 78 more ...
 
 ---
-*Last updated: 2026-11-03 23:31:36 UTC*
+*Last updated: 2026-11-03 23:32:31 UTC*
 *Packages with verified BBS status: 235*
