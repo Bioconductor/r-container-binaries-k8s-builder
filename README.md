@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 870 (36%)
+- **Successfully Built:** 885 (37%)
 - **Failed:** 12 (0%)
-- **In Progress:** 238
-- **Not Started:** 1265
+- **In Progress:** 225
+- **Not Started:** 1263
 
-**Progress:** 36%
+**Progress:** 37%
 ```
 ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (870)
+## Successfully Built Packages (885)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.23/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILGCP) |
 
-*... and 820 more ...*
+*... and 835 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,10 +90,10 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (238)
+## In Progress (225)
 - ⏳ `ADAMgui`
 - ⏳ `AlphaBeta`
 - ⏳ `AnnotationFilter`
@@ -103,7 +103,6 @@
 - ⏳ `BiFET`
 - ⏳ `BloodGen3Module`
 - ⏳ `BreastSubtypeR`
-- ⏳ `CAEN`
 - ⏳ `CBN2Path`
 - ⏳ `CCPlotR`
 - ⏳ `CNTools`
@@ -116,7 +115,6 @@
 - ⏳ `CardinalIO`
 - ⏳ `DECIPHER`
 - ⏳ `DESeq2`
-- ⏳ `DOSE`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
 - ⏳ `EpiDISH`
@@ -144,10 +142,12 @@
 - ⏳ `HDF5Array`
 - ⏳ `HERON`
 - ⏳ `HGC`
+- ⏳ `Heatplus`
+- ⏳ `HiCBricks`
 
-... and 188 more ...
+... and 175 more ...
 
-## Not Yet Started (1265)
+## Not Yet Started (1263)
 - ⏸️ `ACE`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
@@ -199,8 +199,8 @@
 - ⏸️ `BioCor`
 - ⏸️ `BioGA`
 
-... and 1215 more ...
+... and 1213 more ...
 
 ---
-*Last updated: 2026-11-03 08:04:21 UTC*
+*Last updated: 2026-11-03 08:07:37 UTC*
 *Packages with verified BBS status: 192*
