@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MsBackendParquet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MsBackendParquet'
+also installing the dependency ‘SpectraQL’
+
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SpectraQL_1.7.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/MsBackendParquet_0.99.9.tar.gz'
+* installing *source* package ‘SpectraQL’ ...
+** this is package ‘SpectraQL’ version ‘1.7.1’
+** package ‘SpectraQL’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SpectraQL’ as ‘SpectraQL_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SpectraQL)
+* installing *source* package ‘MsBackendParquet’ ...
+** this is package ‘MsBackendParquet’ version ‘0.99.9’
+** package ‘MsBackendParquet’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c peaks.c -o peaks.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o MsBackendParquet.so init.o peaks.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-MsBackendParquet/00new/MsBackendParquet/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MsBackendParquet’ as ‘MsBackendParquet_0.99.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MsBackendParquet)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLk3uSg/downloaded_packages’
+
+real	0m33.543s
+user	0m27.264s
+sys	0m4.327s
