@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 96 (4%)
+- **Successfully Built:** 97 (4%)
 - **Failed:** 1 (0%)
-- **In Progress:** 274
+- **In Progress:** 273
 - **Not Started:** 2014
 
 **Progress:** 4%
@@ -16,7 +16,7 @@
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (96)
+## Successfully Built Packages (97)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 46 more ...*
+*... and 47 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [SNAGEE](https://bioconductor.org/packages/3.23/bioc/html/SNAGEE.html) | [log](logs/SNAGEE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SNAGEE) |
 | [SpaceMarkers](https://bioconductor.org/packages/3.23/bioc/html/SpaceMarkers.html) | [log](logs/SpaceMarkers/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpaceMarkers) |
 | [TrajectoryGeometry](https://bioconductor.org/packages/3.23/bioc/html/TrajectoryGeometry.html) | [log](logs/TrajectoryGeometry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TrajectoryGeometry) |
 | [VERSO](https://bioconductor.org/packages/3.23/bioc/html/VERSO.html) | [log](logs/VERSO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/VERSO) |
@@ -66,6 +65,7 @@
 | [ggkegg](https://bioconductor.org/packages/3.23/bioc/html/ggkegg.html) | [log](logs/ggkegg/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggkegg) |
 | [globalSeq](https://bioconductor.org/packages/3.23/bioc/html/globalSeq.html) | [log](logs/globalSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/globalSeq) |
 | [hierinf](https://bioconductor.org/packages/3.23/bioc/html/hierinf.html) | [log](logs/hierinf/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/hierinf) |
+| [imageTCGA](https://bioconductor.org/packages/3.23/bioc/html/imageTCGA.html) | [log](logs/imageTCGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/imageTCGA) |
 | [mzID](https://bioconductor.org/packages/3.23/bioc/html/mzID.html) | [log](logs/mzID/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mzID) |
 | [pathifier](https://bioconductor.org/packages/3.23/bioc/html/pathifier.html) | [log](logs/pathifier/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pathifier) |
 | [qvalue](https://bioconductor.org/packages/3.23/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/qvalue) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (274)
+## In Progress (273)
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
@@ -134,7 +134,7 @@
 - ⏳ `INDEED`
 - ⏳ `INPower`
 
-... and 224 more ...
+... and 223 more ...
 
 ## Not Yet Started (2014)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1964 more ...
 
 ---
-*Last updated: 2026-11-03 03:23:37 UTC*
-*Packages with verified BBS status: 81*
+*Last updated: 2026-11-03 03:25:45 UTC*
+*Packages with verified BBS status: 82*
