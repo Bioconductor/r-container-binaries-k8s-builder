@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1992 (83%)
+- **Successfully Built:** 1993 (83%)
 - **Failed:** 20 (0%)
-- **In Progress:** 106
+- **In Progress:** 105
 - **Not Started:** 267
 
 **Progress:** 84%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (1992)
+## Successfully Built Packages (1993)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1942 more ...*
+*... and 1943 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Error: object ‘id’ is not exported by 'namespace:dplyr' |
-| [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust |
+| [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -101,7 +101,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (106)
+## In Progress (105)
 - ⏳ `ATACseqTFEA`
 - ⏳ `AnnotationHubData`
 - ⏳ `BEAT`
@@ -153,7 +153,7 @@
 - ⏳ `RITAN`
 - ⏳ `Rmmquant`
 
-... and 56 more ...
+... and 55 more ...
 
 ## Not Yet Started (267)
 - ⏸️ `AHMassBank`
@@ -210,5 +210,5 @@
 ... and 217 more ...
 
 ---
-*Last updated: 2026-11-03 15:39:47 UTC*
+*Last updated: 2026-11-03 15:41:48 UTC*
 *Packages with verified BBS status: 231*
