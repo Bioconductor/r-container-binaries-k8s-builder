@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 335 (13%)
+- **Successfully Built:** 336 (13%)
 - **Failed:** 4 (0%)
-- **In Progress:** 107
+- **In Progress:** 106
 - **Not Started:** 1991
 
 **Progress:** 13%
@@ -16,7 +16,7 @@
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (335)
+## Successfully Built Packages (336)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 
-*... and 285 more ...*
+*... and 286 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (107)
+## In Progress (106)
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -118,7 +118,6 @@
 - ⏳ `MassArray`
 - ⏳ `MeLSI`
 - ⏳ `MethylMix`
-- ⏳ `MsStash`
 - ⏳ `OPWeight`
 - ⏳ `PCAN`
 - ⏳ `PathNet`
@@ -136,8 +135,9 @@
 - ⏳ `barmixR`
 - ⏳ `brendaDb`
 - ⏳ `clst`
+- ⏳ `csdR`
 
-... and 57 more ...
+... and 56 more ...
 
 ## Not Yet Started (1991)
 - ⏸️ `ABarray`
@@ -194,5 +194,5 @@
 ... and 1941 more ...
 
 ---
-*Last updated: 2026-11-03 05:15:53 UTC*
+*Last updated: 2026-11-03 05:16:45 UTC*
 *Packages with verified BBS status: 135*
