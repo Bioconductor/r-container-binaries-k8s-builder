@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 2111 (88%)
 - **Failed:** 21 (0%)
-- **In Progress:** 99
-- **Not Started:** 154
+- **In Progress:** 107
+- **Not Started:** 146
 
 **Progress:** 89%
 ```
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (99)
+## In Progress (107)
 - ⏳ `AHMassBank`
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
@@ -126,6 +126,7 @@
 - ⏳ `FindIT2`
 - ⏳ `GA4GHclient`
 - ⏳ `HistoImagePlot`
+- ⏳ `IntEREst`
 - ⏳ `MEDIPS`
 - ⏳ `MutSeqR`
 - ⏳ `MutationalPatterns`
@@ -134,6 +135,7 @@
 - ⏳ `OUTRIDER`
 - ⏳ `ProteoDisco`
 - ⏳ `PureCN`
+- ⏳ `QuasR`
 - ⏳ `R453Plus1Toolbox`
 - ⏳ `RAIDS`
 - ⏳ `RCAS`
@@ -146,17 +148,15 @@
 - ⏳ `SNPhood`
 - ⏳ `SigsPack`
 - ⏳ `StructuralVariantAnnotation`
+- ⏳ `TFutils`
 - ⏳ `UPDhmm`
 - ⏳ `Uniquorn`
+- ⏳ `VCFArray`
 - ⏳ `VariantTools`
-- ⏳ `ZygosityPredictor`
-- ⏳ `alabaster.vcf`
-- ⏳ `annotatr`
-- ⏳ `appreci8R`
 
-... and 49 more ...
+... and 57 more ...
 
-## Not Yet Started (154)
+## Not Yet Started (146)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -190,7 +190,6 @@
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `IntEREst`
 - ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
@@ -200,16 +199,17 @@
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
 - ⏸️ `Pviz`
-- ⏸️ `QuasR`
 - ⏸️ `R3CPET`
 - ⏸️ `REDseq`
 - ⏸️ `REMP`
 - ⏸️ `RESOLVE`
 - ⏸️ `RNAAgeCalc`
 - ⏸️ `RNAmodR`
+- ⏸️ `RNAmodR.AlkAnilineSeq`
+- ⏸️ `RNAmodR.ML`
 
-... and 104 more ...
+... and 96 more ...
 
 ---
-*Last updated: 2026-11-03 22:25:22 UTC*
+*Last updated: 2026-11-03 22:26:54 UTC*
 *Packages with verified BBS status: 233*
