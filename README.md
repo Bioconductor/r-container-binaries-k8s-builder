@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 118 (4%)
+- **Successfully Built:** 141 (5%)
 - **Failed:** 0 (0%)
-- **In Progress:** 252
-- **Not Started:** 2067
+- **In Progress:** 231
+- **Not Started:** 2065
 
-**Progress:** 4%
+**Progress:** 5%
 ```
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (118)
+## Successfully Built Packages (141)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -39,23 +39,17 @@
 | [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
+| [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 | [CONSTANd](https://bioconductor.org/packages/3.24/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CONSTANd) |
 | [Chicago](https://bioconductor.org/packages/3.24/bioc/html/Chicago.html) | [log](logs/Chicago/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Chicago) |
 | [DNABarcodes](https://bioconductor.org/packages/3.24/bioc/html/DNABarcodes.html) | [log](logs/DNABarcodes/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DNABarcodes) |
+| [DeepPINCS](https://bioconductor.org/packages/3.24/bioc/html/DeepPINCS.html) | [log](logs/DeepPINCS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/DeepPINCS) |
 | [EBSeq](https://bioconductor.org/packages/3.24/bioc/html/EBSeq.html) | [log](logs/EBSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EBSeq) |
-| [EnMCB](https://bioconductor.org/packages/3.24/bioc/html/EnMCB.html) | [log](logs/EnMCB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/EnMCB) |
-| [GEOmetadb](https://bioconductor.org/packages/3.24/bioc/html/GEOmetadb.html) | [log](logs/GEOmetadb/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GEOmetadb) |
 
-*... and 68 more ...*
+*... and 91 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [imageTCGA](https://bioconductor.org/packages/3.24/bioc/html/imageTCGA.html) | [log](logs/imageTCGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/imageTCGA) |
-| [mapscape](https://bioconductor.org/packages/3.24/bioc/html/mapscape.html) | [log](logs/mapscape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/mapscape) |
-| [messina](https://bioconductor.org/packages/3.24/bioc/html/messina.html) | [log](logs/messina/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/messina) |
-| [metahdep](https://bioconductor.org/packages/3.24/bioc/html/metahdep.html) | [log](logs/metahdep/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metahdep) |
-| [mistyR](https://bioconductor.org/packages/3.24/bioc/html/mistyR.html) | [log](logs/mistyR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/mistyR) |
-| [mitch](https://bioconductor.org/packages/3.24/bioc/html/mitch.html) | [log](logs/mitch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/mitch) |
 | [normScore](https://bioconductor.org/packages/3.24/bioc/html/normScore.html) | [log](logs/normScore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/normScore) |
 | [nuCpos](https://bioconductor.org/packages/3.24/bioc/html/nuCpos.html) | [log](logs/nuCpos/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/nuCpos) |
 | [occugene](https://bioconductor.org/packages/3.24/bioc/html/occugene.html) | [log](logs/occugene/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/occugene) |
@@ -71,12 +65,18 @@
 | [qvalue](https://bioconductor.org/packages/3.24/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/qvalue) |
 | [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 | [rWikiPathways](https://bioconductor.org/packages/3.24/bioc/html/rWikiPathways.html) | [log](logs/rWikiPathways/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rWikiPathways) |
+| [shinybiocloader](https://bioconductor.org/packages/3.24/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/shinybiocloader) |
+| [sincell](https://bioconductor.org/packages/3.24/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sincell) |
+| [sizepower](https://bioconductor.org/packages/3.24/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sizepower) |
+| [snm](https://bioconductor.org/packages/3.24/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snm) |
+| [sparsenetgls](https://bioconductor.org/packages/3.24/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparsenetgls) |
+| [specL](https://bioconductor.org/packages/3.24/bioc/html/specL.html) | [log](logs/specL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/specL) |
 | [ssrch](https://bioconductor.org/packages/3.24/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ssrch) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
-## In Progress (252)
+## In Progress (231)
 - ⏳ `BADER`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -84,7 +84,6 @@
 - ⏳ `BiocParallel`
 - ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
-- ⏳ `BufferedMatrix`
 - ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
 - ⏳ `CGEN`
@@ -101,7 +100,6 @@
 - ⏳ `DNAcopy`
 - ⏳ `DTA`
 - ⏳ `DeMAND`
-- ⏳ `DeepPINCS`
 - ⏳ `DiffLogo`
 - ⏳ `DriverNet`
 - ⏳ `DynDoc`
@@ -127,10 +125,12 @@
 - ⏳ `HuBMAPR`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
+- ⏳ `INPower`
+- ⏳ `INTACT`
 
-... and 202 more ...
+... and 181 more ...
 
-## Not Yet Started (2067)
+## Not Yet Started (2065)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -182,8 +182,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 2017 more ...
+... and 2015 more ...
 
 ---
-*Last updated: 2026-11-03 03:57:11 UTC*
-*Packages with verified BBS status: 93*
+*Last updated: 2026-11-03 04:00:18 UTC*
+*Packages with verified BBS status: 101*
