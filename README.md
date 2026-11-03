@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1713 (70%)
+- **Successfully Built:** 1716 (70%)
 - **Failed:** 7 (0%)
-- **In Progress:** 175
+- **In Progress:** 172
 - **Not Started:** 542
 
 **Progress:** 70%
@@ -16,7 +16,7 @@
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1713)
+## Successfully Built Packages (1716)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1663 more ...*
+*... and 1666 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [unifiedWMWqPCR](https://bioconductor.org/packages/3.24/bioc/html/unifiedWMWqPCR.html) | [log](logs/unifiedWMWqPCR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/unifiedWMWqPCR) |
 | [updateObject](https://bioconductor.org/packages/3.24/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.24/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vbmp) |
@@ -68,6 +67,7 @@
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wpm](https://bioconductor.org/packages/3.24/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
+| [xCell2](https://bioconductor.org/packages/3.24/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xCell2) |
 | [xcore](https://bioconductor.org/packages/3.24/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcore) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
 | [yamss](https://bioconductor.org/packages/3.24/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/yamss) |
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (175)
+## In Progress (172)
 - ⏳ `ADAPT`
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
@@ -140,7 +140,7 @@
 - ⏳ `ImageArray`
 - ⏳ `LRcell`
 
-... and 125 more ...
+... and 122 more ...
 
 ## Not Yet Started (542)
 - ⏸️ `AHMassBank`
@@ -197,5 +197,5 @@
 ... and 492 more ...
 
 ---
-*Last updated: 2026-11-03 20:32:16 UTC*
-*Packages with verified BBS status: 214*
+*Last updated: 2026-11-03 20:35:47 UTC*
+*Packages with verified BBS status: 215*
