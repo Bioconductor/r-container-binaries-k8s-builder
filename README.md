@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 815 (33%)
+- **Successfully Built:** 821 (33%)
 - **Failed:** 5 (0%)
-- **In Progress:** 19
-- **Not Started:** 1598
+- **In Progress:** 69
+- **Not Started:** 1542
 
 **Progress:** 33%
 ```
 ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (815)
+## Successfully Built Packages (821)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 765 more ...*
+*... and 771 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,28 +86,61 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (19)
+## In Progress (69)
+- ⏳ `BRAIN`
 - ⏳ `CCPlotR`
+- ⏳ `CGRphylo2`
+- ⏳ `DECIPHER`
+- ⏳ `DelayedDataFrame`
+- ⏳ `DelayedMatrixStats`
+- ⏳ `DelayedRandomArray`
+- ⏳ `DuckDBDataFrame`
 - ⏳ `ExploreModelMatrix`
 - ⏳ `FamAgg`
-- ⏳ `GenomeInfoDb`
-- ⏳ `GenomicRanges`
+- ⏳ `GeneRegionScan`
+- ⏳ `HDF5Array`
 - ⏳ `InteractiveComplexHeatmap`
+- ⏳ `KEGGREST`
+- ⏳ `LACHESIS`
+- ⏳ `MEDME`
+- ⏳ `MSstatsPTM`
+- ⏳ `MultipleAlignment`
+- ⏳ `NanoStringNCTools`
+- ⏳ `PWMEnrich`
+- ⏳ `PhyloProfile`
+- ⏳ `R4RNA`
+- ⏳ `ResidualMatrix`
+- ⏳ `SELEX`
+- ⏳ `ScaledMatrix`
+- ⏳ `Structstrings`
+- ⏳ `SynMut`
+- ⏳ `TileDBArray`
+- ⏳ `ZarrArray`
+- ⏳ `adverSCarial`
+- ⏳ `alabaster.string`
+- ⏳ `altcdfenvs`
+- ⏳ `bcSeq`
+- ⏳ `beachmat`
 - ⏳ `cellmig`
+- ⏳ `cigarillo`
+- ⏳ `cleaver`
+- ⏳ `coRdon`
+- ⏳ `cogeqc`
 - ⏳ `cola`
 - ⏳ `convert`
+- ⏳ `flowWorkspace`
+- ⏳ `fraq`
+- ⏳ `gcrma`
 - ⏳ `ggtreeExtra`
+- ⏳ `idpr`
+- ⏳ `immReferent`
 - ⏳ `islify`
-- ⏳ `ldblock`
-- ⏳ `markeR`
-- ⏳ `nnNorm`
-- ⏳ `philr`
-- ⏳ `piano`
-- ⏳ `prolfqua`
-- ⏳ `scBubbletree`
-- ⏳ `simona`
+- ⏳ `kebabs`
+- ⏳ `muscle`
 
-## Not Yet Started (1598)
+... and 19 more ...
+
+## Not Yet Started (1542)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -140,12 +173,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
@@ -158,9 +189,11 @@
 - ⏸️ `BamScale`
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
+- ⏸️ `BasicSTARRseq`
+- ⏸️ `BatChef`
 
-... and 1548 more ...
+... and 1492 more ...
 
 ---
-*Last updated: 2026-11-03 12:27:31 UTC*
+*Last updated: 2026-11-03 12:30:02 UTC*
 *Packages with verified BBS status: 186*
