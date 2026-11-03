@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2022 (84%)
+- **Successfully Built:** 2023 (84%)
 - **Failed:** 20 (0%)
-- **In Progress:** 81
+- **In Progress:** 80
 - **Not Started:** 262
 
 **Progress:** 85%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████░░░░░░░░
 ```
 
-## Successfully Built Packages (2022)
+## Successfully Built Packages (2023)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1972 more ...*
+*... and 1973 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -101,7 +101,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (81)
+## In Progress (80)
 - ⏳ `ATACseqTFEA`
 - ⏳ `AnnotationHubData`
 - ⏳ `BSgenomeForge`
@@ -112,7 +112,6 @@
 - ⏳ `CellBarcode`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPQC`
-- ⏳ `ChIPanalyser`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `ChIPseeker`
 - ⏳ `DspikeIn`
@@ -152,8 +151,9 @@
 - ⏳ `atSNP`
 - ⏳ `atena`
 - ⏳ `bambu`
+- ⏳ `benchdamic`
 
-... and 31 more ...
+... and 30 more ...
 
 ## Not Yet Started (262)
 - ⏸️ `AHMassBank`
@@ -210,5 +210,5 @@
 ... and 212 more ...
 
 ---
-*Last updated: 2026-11-03 16:53:54 UTC*
+*Last updated: 2026-11-03 17:00:09 UTC*
 *Packages with verified BBS status: 232*
