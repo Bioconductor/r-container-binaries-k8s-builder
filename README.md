@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 747 (30%)
+- **Successfully Built:** 748 (30%)
 - **Failed:** 5 (0%)
-- **In Progress:** 35
+- **In Progress:** 34
 - **Not Started:** 1650
 
 **Progress:** 30%
@@ -16,7 +16,7 @@
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (747)
+## Successfully Built Packages (748)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 697 more ...*
+*... and 698 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (35)
+## In Progress (34)
 - ⏳ `ANF`
 - ⏳ `BumpyMatrix`
 - ⏳ `ComplexHeatmap`
@@ -106,7 +106,6 @@
 - ⏳ `cellmig`
 - ⏳ `ctsGE`
 - ⏳ `dStruct`
-- ⏳ `drugfindR`
 - ⏳ `erccdashboard`
 - ⏳ `flowFP`
 - ⏳ `ggtreeDendro`
@@ -178,5 +177,5 @@
 ... and 1600 more ...
 
 ---
-*Last updated: 2026-11-03 10:27:42 UTC*
+*Last updated: 2026-11-03 10:36:10 UTC*
 *Packages with verified BBS status: 185*
