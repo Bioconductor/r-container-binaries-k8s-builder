@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 362 (15%)
+- **Successfully Built:** 366 (15%)
 - **Failed:** 6 (0%)
-- **In Progress:** 120
-- **Not Started:** 1897
+- **In Progress:** 118
+- **Not Started:** 1895
 
 **Progress:** 15%
 ```
 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (362)
+## Successfully Built Packages (366)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocGenerics](https://bioconductor.org/packages/3.23/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocGenerics) |
 | [BiocHail](https://bioconductor.org/packages/3.23/bioc/html/BiocHail.html) | [log](logs/BiocHail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocHail) |
 
-*... and 312 more ...*
+*... and 316 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (120)
+## In Progress (118)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
 - ⏳ `BANDITS`
@@ -105,7 +105,7 @@
 - ⏳ `FamAgg`
 - ⏳ `GEM`
 - ⏳ `GRENITS`
-- ⏳ `GSALightning`
+- ⏳ `GSCA`
 - ⏳ `GSgalgoR`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GeneGA`
@@ -117,7 +117,6 @@
 - ⏳ `IMPCdata`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
-- ⏳ `IsoCorrectoRGUI`
 - ⏳ `LPE`
 - ⏳ `Linnorm`
 - ⏳ `M3C`
@@ -138,10 +137,11 @@
 - ⏳ `RProtoBufLib`
 - ⏳ `RSeqAn`
 - ⏳ `RedisParam`
+- ⏳ `S4Vectors`
 
-... and 70 more ...
+... and 68 more ...
 
-## Not Yet Started (1897)
+## Not Yet Started (1895)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -193,8 +193,8 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
 
-... and 1847 more ...
+... and 1845 more ...
 
 ---
-*Last updated: 2026-11-03 05:20:51 UTC*
+*Last updated: 2026-11-03 05:22:29 UTC*
 *Packages with verified BBS status: 148*
