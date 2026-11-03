@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 662 (27%)
+- **Successfully Built:** 672 (28%)
 - **Failed:** 9 (0%)
-- **In Progress:** 155
-- **Not Started:** 1559
+- **In Progress:** 164
+- **Not Started:** 1540
 
 **Progress:** 28%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (662)
+## Successfully Built Packages (672)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 612 more ...*
+*... and 622 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
@@ -59,6 +58,7 @@
 | [transite](https://bioconductor.org/packages/3.23/bioc/html/transite.html) | [log](logs/transite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/transite) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.23/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/trio) |
+| [triplex](https://bioconductor.org/packages/3.23/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
@@ -90,7 +90,8 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (155)
+## In Progress (164)
+- ⏳ `ADAPT`
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
 - ⏳ `AnnotationFilter`
@@ -98,6 +99,7 @@
 - ⏳ `BRAIN`
 - ⏳ `BREW3R.r`
 - ⏳ `BiFET`
+- ⏳ `BiocNeighbors`
 - ⏳ `CCPlotR`
 - ⏳ `CNVMetrics`
 - ⏳ `CSAR`
@@ -105,6 +107,7 @@
 - ⏳ `DECIPHER`
 - ⏳ `EnrichedHeatmap`
 - ⏳ `ExiMiR`
+- ⏳ `FinfoMDS`
 - ⏳ `GEOsubmission`
 - ⏳ `GMRP`
 - ⏳ `GSCA`
@@ -120,6 +123,7 @@
 - ⏳ `Heatplus`
 - ⏳ `HiCBricks`
 - ⏳ `HilbertCurve`
+- ⏳ `IMMAN`
 - ⏳ `INTACT`
 - ⏳ `IWTomics`
 - ⏳ `InteractiveComplexHeatmap`
@@ -128,27 +132,22 @@
 - ⏳ `LOLA`
 - ⏳ `LPE`
 - ⏳ `MEDME`
+- ⏳ `MSA2dist`
 - ⏳ `MSstatsPTM`
 - ⏳ `MVCClass`
 - ⏳ `MetaDICT`
 - ⏳ `MetaboCoreUtils`
+- ⏳ `MethTargetedNGS`
 - ⏳ `NanoStringNCTools`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OrderedList`
-- ⏳ `PWMEnrich`
-- ⏳ `PhyloProfile`
-- ⏳ `R4RNA`
-- ⏳ `RGSEA`
-- ⏳ `ROSeq`
-- ⏳ `RProtoBufLib`
 
-... and 105 more ...
+... and 114 more ...
 
-## Not Yet Started (1559)
+## Not Yet Started (1540)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
-- ⏸️ `ADAPT`
 - ⏸️ `ADImpute`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AGDEX`
@@ -195,9 +194,10 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BasicSTARRseq`
+- ⏸️ `BatChef`
 
-... and 1509 more ...
+... and 1490 more ...
 
 ---
-*Last updated: 2026-11-03 07:05:09 UTC*
-*Packages with verified BBS status: 178*
+*Last updated: 2026-11-03 07:08:29 UTC*
+*Packages with verified BBS status: 179*

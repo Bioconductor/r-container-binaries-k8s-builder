@@ -875,8 +875,7 @@
   "CNVRanger": [
     "RaggedExperiment",
     "GDSArray",
-    "SummarizedExperiment",
-    "SeqArray"
+    "SummarizedExperiment"
   ],
   "CNVfilteR": [
     "SummarizedExperiment",
@@ -889,7 +888,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "BSgenome",
     "KEGGREST",
@@ -909,7 +907,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "KEGGREST",
     "GenomicAlignments",
@@ -1135,7 +1132,6 @@
     "genomation",
     "BSgenome",
     "GenomicAlignments",
-    "seqPattern",
     "SummarizedExperiment",
     "cigarillo"
   ],
@@ -1384,7 +1380,6 @@
   ],
   "ClustAll": [],
   "ClustIRR": [
-    "msa",
     "rBLAST"
   ],
   "ClusterFoldSimilarity": [
@@ -1450,7 +1445,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "BSgenome",
     "KEGGREST",
@@ -1979,7 +1973,6 @@
     "microbiome",
     "SummarizedExperiment",
     "TreeSummarizedExperiment",
-    "msa",
     "SingleCellExperiment"
   ],
   "Dune": [
@@ -2152,7 +2145,6 @@
     "BSgenome",
     "GenomicAlignments",
     "Rsamtools",
-    "seqPattern",
     "KEGGREST",
     "DOSE",
     "ggtree",
@@ -2399,9 +2391,7 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "GBScleanR": [
-    "SeqArray"
-  ],
+  "GBScleanR": [],
   "GDCRNATools": [
     "DESeq2",
     "clusterProfiler",
@@ -2419,11 +2409,8 @@
     "KEGGREST",
     "ggtree"
   ],
-  "GDSArray": [
-    "SeqArray"
-  ],
+  "GDSArray": [],
   "GENESIS": [
-    "SeqArray",
     "SeqVarTools"
   ],
   "GEOquery": [
@@ -2800,7 +2787,6 @@
     "genomation",
     "txdbmaker",
     "BSgenome",
-    "seqPattern",
     "SummarizedExperiment",
     "cigarillo",
     "AnnotationDbi",
@@ -3310,8 +3296,7 @@
     "HDF5Array"
   ],
   "LymphoSeq": [
-    "ggtree",
-    "msa"
+    "ggtree"
   ],
   "M3Drop": [
     "scater",
@@ -4655,7 +4640,6 @@
     "KEGGREST",
     "rtracklayer",
     "GenomicFeatures",
-    "SeqArray",
     "SeqVarTools",
     "SummarizedExperiment",
     "GenomicAlignments",
@@ -4682,7 +4666,6 @@
     "genomation",
     "Rsamtools",
     "GenomicAlignments",
-    "seqPattern",
     "AnnotationDbi",
     "biomaRt",
     "KEGGREST",
@@ -4924,7 +4907,6 @@
     "KEGGgraph",
     "Rgraphviz"
   ],
-  "RPA": [],
   "RProtoBufLib": [],
   "RSVSim": [
     "ShortRead",
@@ -5239,9 +5221,7 @@
   ],
   "Rsamtools": [],
   "Rvisdiff": [],
-  "SAIGEgds": [
-    "SeqArray"
-  ],
+  "SAIGEgds": [],
   "SBGNview": [
     "pathview",
     "SummarizedExperiment",
@@ -5508,7 +5488,6 @@
     "annotate",
     "KEGGREST"
   ],
-  "SeqArray": [],
   "SeqGSEA": [
     "DESeq2",
     "biomaRt",
@@ -5525,9 +5504,7 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "SeqVarTools": [
-    "SeqArray"
-  ],
+  "SeqVarTools": [],
   "Seqtometry": [
     "BiocSingular",
     "ScaledMatrix"
@@ -6234,8 +6211,7 @@
   ],
   "VariantExperiment": [
     "SummarizedExperiment",
-    "GDSArray",
-    "SeqArray"
+    "GDSArray"
   ],
   "VariantFiltering": [
     "VariantAnnotation",
@@ -6763,7 +6739,6 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "bamsignals": [],
   "bandle": [
     "MSnbase",
     "pRoloc",
@@ -7886,7 +7861,6 @@
     "SummarizedExperiment"
   ],
   "crupR": [
-    "bamsignals",
     "Rsamtools",
     "rtracklayer",
     "GenomicAlignments",
@@ -8015,7 +7989,6 @@
     "rtracklayer",
     "clusterProfiler",
     "enrichplot",
-    "igvShiny",
     "AnnotationDbi",
     "biomaRt",
     "GOSemSim",
@@ -8304,7 +8277,6 @@
     "SummarizedExperiment"
   ],
   "doubletrouble": [
-    "syntenet",
     "MSA2dist",
     "AnnotationDbi",
     "GenomicFeatures",
@@ -8683,7 +8655,6 @@
     "BSgenome",
     "GenomicAlignments",
     "Rsamtools",
-    "seqPattern",
     "rtracklayer",
     "SummarizedExperiment",
     "cigarillo"
@@ -8946,7 +8917,6 @@
   ],
   "fourSynergy": [
     "karyoploteR",
-    "bamsignals",
     "DESeq2",
     "SummarizedExperiment",
     "regioneR",
@@ -9139,7 +9109,6 @@
     "BSgenome",
     "GenomicAlignments",
     "Rsamtools",
-    "seqPattern",
     "rtracklayer",
     "SummarizedExperiment",
     "cigarillo"
@@ -9214,9 +9183,7 @@
     "RBGL",
     "Rgraphviz"
   ],
-  "ggmanh": [
-    "SeqArray"
-  ],
+  "ggmanh": [],
   "ggmsa": [
     "R4RNA",
     "ggtree"
@@ -9635,7 +9602,6 @@
     "KEGGREST"
   ],
   "idpr": [],
-  "idr2d": [],
   "igblastr": [],
   "igvR": [
     "GenomicAlignments",
@@ -9649,7 +9615,6 @@
     "GenomicFeatures",
     "KEGGREST"
   ],
-  "igvShiny": [],
   "imageFeatureTCGA": [
     "SingleCellExperiment",
     "SpatialExperiment",
@@ -9768,7 +9733,6 @@
     "rtracklayer",
     "biovizBase",
     "GenomicFeatures",
-    "bamsignals",
     "AnnotationDbi",
     "VariantAnnotation",
     "KEGGREST",
@@ -10131,7 +10095,6 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "methimpute": [],
   "methodical": [
     "SummarizedExperiment",
     "AnnotationHub",
@@ -10646,7 +10609,6 @@
     "BiocNeighbors"
   ],
   "msPurity": [],
-  "msa": [],
   "msgbsR": [
     "BSgenome",
     "easyRNASeq",
@@ -10740,7 +10702,6 @@
     "AnnotationDbi",
     "regioneR",
     "biovizBase",
-    "bamsignals",
     "VariantAnnotation",
     "GenomicAlignments",
     "KEGGREST",
@@ -10890,7 +10851,6 @@
     "SummarizedExperiment"
   ],
   "normr": [
-    "bamsignals",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -10956,7 +10916,6 @@
     "cigarillo"
   ],
   "odseq": [
-    "msa",
     "kebabs"
   ],
   "oligo": [
@@ -11449,7 +11408,6 @@
   ],
   "prebs": [
     "GenomicAlignments",
-    "RPA",
     "SummarizedExperiment",
     "Rsamtools",
     "cigarillo"
@@ -11884,8 +11842,7 @@
   ],
   "rhdf5client": [],
   "rhinotypeR": [
-    "MSA2dist",
-    "msa"
+    "MSA2dist"
   ],
   "riboSeqR": [
     "Rsamtools",
@@ -12520,7 +12477,6 @@
   "segmenter": [
     "ChIPseeker",
     "SummarizedExperiment",
-    "bamsignals",
     "AnnotationDbi",
     "enrichplot",
     "GenomicFeatures",
@@ -12562,7 +12518,6 @@
     "KEGGREST",
     "cigarillo"
   ],
-  "seqPattern": [],
   "seqsetvis": [
     "GenomicAlignments",
     "Rsamtools",
@@ -13096,7 +13051,6 @@
   ],
   "surfaltr": [
     "biomaRt",
-    "msa",
     "AnnotationDbi",
     "KEGGREST"
   ],
@@ -13144,7 +13098,6 @@
     "SummarizedExperiment"
   ],
   "synergyfinder": [],
-  "syntenet": [],
   "systemPipeR": [
     "Rsamtools",
     "ShortRead",
@@ -13447,7 +13400,6 @@
     "BiocSingular",
     "ScaledMatrix"
   ],
-  "triplex": [],
   "tweeDEseq": [],
   "txcutr": [
     "AnnotationDbi",
