@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1777 (74%)
+- **Successfully Built:** 1780 (74%)
 - **Failed:** 18 (0%)
-- **In Progress:** 57
-- **Not Started:** 533
+- **In Progress:** 83
+- **Not Started:** 504
 
 **Progress:** 75%
 ```
 █████████████████████████████████████░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1777)
+## Successfully Built Packages (1780)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 
-*... and 1727 more ...*
+*... and 1730 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [ClustIRR](https://bioconductor.org/packages/3.23/bioc/html/ClustIRR.html) | [log](logs/ClustIRR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClustIRR) | Syntax error in 'string', line 2, column 20 to column 21, parsing error: |
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
-| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
+| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -99,10 +99,17 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (57)
+## In Progress (83)
 - ⏳ `ADImpute`
 - ⏳ `BulkSignalR`
+- ⏳ `CBNplot`
+- ⏳ `CEMiTool`
+- ⏳ `CaMutQC`
+- ⏳ `CeTF`
 - ⏳ `EWCE`
+- ⏳ `EasyCellType`
+- ⏳ `GDCRNATools`
+- ⏳ `GOaGO`
 - ⏳ `Heatplus`
 - ⏳ `IWTomics`
 - ⏳ `Ibex`
@@ -110,10 +117,16 @@
 - ⏳ `KnowSeq`
 - ⏳ `LRcell`
 - ⏳ `MACSr`
-- ⏳ `MEDME`
 - ⏳ `MGnifyR`
+- ⏳ `MIRit`
+- ⏳ `MetaPhOR`
+- ⏳ `MicrobiomeProfiler`
+- ⏳ `MoonlightR`
 - ⏳ `PDATK`
+- ⏳ `PanomiR`
+- ⏳ `RFLOMICS`
 - ⏳ `RNAsense`
+- ⏳ `ReducedExperiment`
 - ⏳ `ShortRead`
 - ⏳ `SpotClean`
 - ⏳ `Statial`
@@ -121,11 +134,13 @@
 - ⏳ `TCseq`
 - ⏳ `UCell`
 - ⏳ `VDJdive`
+- ⏳ `VISTA`
 - ⏳ `VplotR`
 - ⏳ `a4Base`
 - ⏳ `alabaster.sfe`
 - ⏳ `benchdamic`
 - ⏳ `breakpointR`
+- ⏳ `broadSeq`
 - ⏳ `categoryCompare`
 - ⏳ `celaref`
 - ⏳ `clustSIGNAL`
@@ -133,27 +148,12 @@
 - ⏳ `cytomapper`
 - ⏳ `dar`
 - ⏳ `ddPCRclust`
+- ⏳ `debrowser`
 - ⏳ `enrichViewNet`
-- ⏳ `fedup`
-- ⏳ `gDR`
-- ⏳ `ggtreeExtra`
-- ⏳ `lefser`
-- ⏳ `miQC`
-- ⏳ `miaSim`
-- ⏳ `miaTime`
-- ⏳ `miaViz`
-- ⏳ `mosaics`
-- ⏳ `multistateQTL`
-- ⏳ `notameStats`
-- ⏳ `oposSOM`
-- ⏳ `pepStat`
-- ⏳ `prebs`
-- ⏳ `ramwas`
-- ⏳ `rtracklayer`
 
-... and 7 more ...
+... and 33 more ...
 
-## Not Yet Started (533)
+## Not Yet Started (504)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -176,9 +176,7 @@
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
-- ⏸️ `CEMiTool`
 - ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
@@ -187,8 +185,6 @@
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
-- ⏸️ `CaMutQC`
-- ⏸️ `CeTF`
 - ⏸️ `CellBarcode`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
@@ -204,9 +200,13 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
+- ⏸️ `ClonalSim`
+- ⏸️ `Cogito`
+- ⏸️ `CopyNumberPlots`
+- ⏸️ `CoverageView`
 
-... and 483 more ...
+... and 454 more ...
 
 ---
-*Last updated: 2026-11-03 12:30:43 UTC*
+*Last updated: 2026-11-03 12:33:48 UTC*
 *Packages with verified BBS status: 225*
