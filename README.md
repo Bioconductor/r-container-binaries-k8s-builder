@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1463 (60%)
+- **Successfully Built:** 1472 (60%)
 - **Failed:** 7 (0%)
-- **In Progress:** 175
-- **Not Started:** 792
+- **In Progress:** 192
+- **Not Started:** 766
 
 **Progress:** 60%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1463)
+## Successfully Built Packages (1472)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 
-*... and 1413 more ...*
+*... and 1422 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,15 +88,18 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (175)
+## In Progress (192)
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
 - ⏳ `APL`
 - ⏳ `AUCell`
 - ⏳ `AnnotationHub`
+- ⏳ `BASiCS`
 - ⏳ `BUSseq`
 - ⏳ `BatchSVG`
+- ⏳ `BayesSpace`
 - ⏳ `BioCor`
+- ⏳ `BiocDuckDB`
 - ⏳ `BreastSubtypeR`
 - ⏳ `CAEN`
 - ⏳ `CATALYST`
@@ -105,12 +108,15 @@
 - ⏳ `CSOA`
 - ⏳ `CellMixS`
 - ⏳ `CellTrails`
+- ⏳ `CiteFuse`
 - ⏳ `ClusterFoldSimilarity`
 - ⏳ `CoCiteStats`
+- ⏳ `Coralysis`
 - ⏳ `CyFj11`
 - ⏳ `CyTOFpower`
 - ⏳ `DESeq2`
 - ⏳ `DifferentialRegulation`
+- ⏳ `Dino`
 - ⏳ `Dune`
 - ⏳ `EGSEA`
 - ⏳ `EnrichmentBrowser`
@@ -133,16 +139,10 @@
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `IntrinsicScan`
 - ⏳ `LACE`
-- ⏳ `LRDE`
-- ⏳ `M3Drop`
-- ⏳ `MAST`
-- ⏳ `MICSQTL`
-- ⏳ `MLInterfaces`
-- ⏳ `MouseFM`
 
-... and 125 more ...
+... and 142 more ...
 
-## Not Yet Started (792)
+## Not Yet Started (766)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -156,7 +156,6 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
@@ -173,13 +172,10 @@
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchVaria`
-- ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 - ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioNERO`
-- ⏸️ `BioTIP`
-- ⏸️ `BiocDuckDB`
 - ⏸️ `BiocHubsShiny`
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
@@ -193,9 +189,13 @@
 - ⏸️ `CMEnt`
 - ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
+- ⏸️ `CNVrd2`
+- ⏸️ `COCOA`
+- ⏸️ `CODEX`
+- ⏸️ `CRISPRball`
 
-... and 742 more ...
+... and 716 more ...
 
 ---
-*Last updated: 2026-11-03 16:59:07 UTC*
+*Last updated: 2026-11-03 17:01:48 UTC*
 *Packages with verified BBS status: 205*
