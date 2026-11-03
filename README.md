@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 278 (11%)
+- **Successfully Built:** 280 (11%)
 - **Failed:** 4 (0%)
-- **In Progress:** 127
-- **Not Started:** 1976
+- **In Progress:** 128
+- **Not Started:** 1973
 
 **Progress:** 11%
 ```
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (278)
+## Successfully Built Packages (280)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
 
-*... and 228 more ...*
+*... and 230 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (127)
+## In Progress (128)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILGCP`
 - ⏳ `BiocGenerics`
@@ -101,7 +101,6 @@
 - ⏳ `GEM`
 - ⏳ `GEOfastq`
 - ⏳ `GEWIST`
-- ⏳ `GGPA`
 - ⏳ `GLAD`
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
@@ -132,14 +131,15 @@
 - ⏳ `MVCClass`
 - ⏳ `MantelCorr`
 - ⏳ `PROcess`
+- ⏳ `Polytect`
 - ⏳ `QuaternaryProd`
 - ⏳ `RImmPort`
 - ⏳ `RLMM`
 - ⏳ `RNAdecay`
 
-... and 77 more ...
+... and 78 more ...
 
-## Not Yet Started (1976)
+## Not Yet Started (1973)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -191,8 +191,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BEclear`
 
-... and 1926 more ...
+... and 1923 more ...
 
 ---
-*Last updated: 2026-11-03 04:32:03 UTC*
+*Last updated: 2026-11-03 04:33:14 UTC*
 *Packages with verified BBS status: 137*
