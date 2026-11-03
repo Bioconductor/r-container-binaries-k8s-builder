@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 929 (38%)
+- **Successfully Built:** 932 (38%)
 - **Failed:** 5 (0%)
-- **In Progress:** 105
+- **In Progress:** 102
 - **Not Started:** 1398
 
 **Progress:** 38%
@@ -16,7 +16,7 @@
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (929)
+## Successfully Built Packages (932)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 879 more ...*
+*... and 882 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (105)
+## In Progress (102)
 - ⏳ `AnnotationHub`
 - ⏳ `BLMA`
 - ⏳ `BRAIN`
@@ -122,7 +122,6 @@
 - ⏳ `TDbasedUFE`
 - ⏳ `TileDBArray`
 - ⏳ `TnT`
-- ⏳ `TurboNorm`
 - ⏳ `ZarrArray`
 - ⏳ `adverSCarial`
 - ⏳ `alabaster.ranges`
@@ -137,8 +136,9 @@
 - ⏳ `beadarray`
 - ⏳ `biomaRt`
 - ⏳ `cellmig`
+- ⏳ `chromDraw`
 
-... and 55 more ...
+... and 52 more ...
 
 ## Not Yet Started (1398)
 - ⏸️ `ACE`
@@ -195,5 +195,5 @@
 ... and 1348 more ...
 
 ---
-*Last updated: 2026-11-03 13:02:15 UTC*
+*Last updated: 2026-11-03 13:04:05 UTC*
 *Packages with verified BBS status: 187*
