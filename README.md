@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 832 (34%)
+- **Successfully Built:** 835 (34%)
 - **Failed:** 5 (0%)
-- **In Progress:** 121
-- **Not Started:** 1479
+- **In Progress:** 120
+- **Not Started:** 1477
 
 **Progress:** 34%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (832)
+## Successfully Built Packages (835)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 782 more ...*
+*... and 785 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,15 +86,14 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (121)
+## In Progress (120)
 - ⏳ `BRAIN`
-- ⏳ `BREW3R.r`
-- ⏳ `BiFET`
 - ⏳ `CCPlotR`
 - ⏳ `CGRphylo2`
 - ⏳ `CNVMetrics`
 - ⏳ `CNViz`
 - ⏳ `CSAR`
+- ⏳ `CompoundDb`
 - ⏳ `DECIPHER`
 - ⏳ `DMRScan`
 - ⏳ `DNAshapeR`
@@ -137,10 +136,11 @@
 - ⏳ `Structstrings`
 - ⏳ `SummarizedExperiment`
 - ⏳ `SynMut`
+- ⏳ `TDbasedUFE`
 
-... and 71 more ...
+... and 70 more ...
 
-## Not Yet Started (1479)
+## Not Yet Started (1477)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -192,8 +192,8 @@
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
 
-... and 1429 more ...
+... and 1427 more ...
 
 ---
-*Last updated: 2026-11-03 12:33:13 UTC*
+*Last updated: 2026-11-03 12:34:33 UTC*
 *Packages with verified BBS status: 186*
