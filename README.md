@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 316 (13%)
+- **Successfully Built:** 323 (13%)
 - **Failed:** 4 (0%)
-- **In Progress:** 106
-- **Not Started:** 1959
+- **In Progress:** 152
+- **Not Started:** 1906
 
 **Progress:** 13%
 ```
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (316)
+## Successfully Built Packages (323)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocParallel](https://bioconductor.org/packages/3.23/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.23/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocStyle) |
 
-*... and 266 more ...*
+*... and 273 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,19 +85,33 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (106)
+## In Progress (152)
 - ⏳ `ABSSeq`
+- ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
+- ⏳ `BANDITS`
+- ⏳ `BEclear`
+- ⏳ `Biobase`
+- ⏳ `BiocBook`
+- ⏳ `BiocHail`
+- ⏳ `BrowserViz`
 - ⏳ `CGEN`
 - ⏳ `COMPASS`
+- ⏳ `ChemmineOB`
+- ⏳ `ChemmineR`
 - ⏳ `Chicago`
+- ⏳ `CytoGLMM`
+- ⏳ `DEsingle`
 - ⏳ `DNAcycP2`
 - ⏳ `DeMAND`
 - ⏳ `DeepPINCS`
+- ⏳ `DepInfeR`
+- ⏳ `EBImage`
+- ⏳ `EMDomics`
+- ⏳ `FamAgg`
 - ⏳ `GEM`
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
-- ⏳ `GSAR`
 - ⏳ `GSgalgoR`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GeneGA`
@@ -107,39 +121,25 @@
 - ⏳ `HIBAG`
 - ⏳ `HMMcopy`
 - ⏳ `Heatplus`
+- ⏳ `IHW`
 - ⏳ `IMPCdata`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
 - ⏳ `IsoCorrectoR`
+- ⏳ `KinSwingR`
 - ⏳ `LPE`
 - ⏳ `Linnorm`
 - ⏳ `M3C`
-- ⏳ `MANOR`
 - ⏳ `MBAmethyl`
 - ⏳ `MBCB`
 - ⏳ `MBttest`
-- ⏳ `MSstatsLOBD`
+- ⏳ `MSstatsResponse`
 - ⏳ `MVCClass`
 - ⏳ `MantelCorr`
-- ⏳ `PROcess`
-- ⏳ `RImmPort`
-- ⏳ `RLMM`
-- ⏳ `RNAdecay`
-- ⏳ `RProtoBufLib`
-- ⏳ `RSeqAn`
-- ⏳ `Rhdf5lib`
-- ⏳ `Rhtslib`
-- ⏳ `Rigraphlib`
-- ⏳ `TreeAndLeaf`
-- ⏳ `Wrench`
-- ⏳ `alevinQC`
-- ⏳ `assorthead`
-- ⏳ `banocc`
-- ⏳ `biobtreeR`
 
-... and 56 more ...
+... and 102 more ...
 
-## Not Yet Started (1959)
+## Not Yet Started (1906)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -169,7 +169,6 @@
 - ⏸️ `AffyRNADegradation`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
-- ⏸️ `AlphaBeta`
 - ⏸️ `AlpsNMR`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILWorkflow`
@@ -182,17 +181,18 @@
 - ⏸️ `ArrayExpress`
 - ⏸️ `AssessORF`
 - ⏸️ `BAGS`
-- ⏸️ `BANDITS`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
-- ⏸️ `BEclear`
+- ⏸️ `BLMA`
+- ⏸️ `BOBaFIT`
+- ⏸️ `BRAIN`
 
-... and 1909 more ...
+... and 1856 more ...
 
 ---
-*Last updated: 2026-11-03 04:46:24 UTC*
+*Last updated: 2026-11-03 04:49:29 UTC*
 *Packages with verified BBS status: 142*
