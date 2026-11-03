@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1619 (67%)
+- **Successfully Built:** 1628 (68%)
 - **Failed:** 17 (0%)
-- **In Progress:** 120
-- **Not Started:** 629
+- **In Progress:** 112
+- **Not Started:** 628
 
 **Progress:** 68%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1619)
+## Successfully Built Packages (1628)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1569 more ...*
+*... and 1578 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -98,14 +98,12 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (120)
+## In Progress (112)
 - ⏳ `ADImpute`
 - ⏳ `ASSIGN`
 - ⏳ `BERT`
 - ⏳ `BatchQC`
 - ⏳ `BioNERO`
-- ⏳ `CAMERA`
-- ⏳ `CARDspa`
 - ⏳ `CNTools`
 - ⏳ `CellMixS`
 - ⏳ `ClassifyR`
@@ -134,8 +132,8 @@
 - ⏳ `MACSr`
 - ⏳ `MEDME`
 - ⏳ `MPAC`
+- ⏳ `MSnID`
 - ⏳ `MatrixQCvis`
-- ⏳ `MetaboAnnotatoR`
 - ⏳ `MsBackendMetaboLights`
 - ⏳ `MsBackendRawFileReader`
 - ⏳ `MsBackendSql`
@@ -149,10 +147,12 @@
 - ⏳ `RCy3`
 - ⏳ `RFGeneRank`
 - ⏳ `RNAsense`
+- ⏳ `ROCpAI`
+- ⏳ `RTNsurvival`
 
-... and 70 more ...
+... and 62 more ...
 
-## Not Yet Started (629)
+## Not Yet Started (628)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -204,8 +204,8 @@
 - ⏸️ `ChIPanalyser`
 - ⏸️ `ChIPexoQual`
 
-... and 579 more ...
+... and 578 more ...
 
 ---
-*Last updated: 2026-11-03 11:41:40 UTC*
+*Last updated: 2026-11-03 11:43:58 UTC*
 *Packages with verified BBS status: 223*
