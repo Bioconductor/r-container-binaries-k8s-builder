@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 264 (11%)
-- **Failed:** 3 (0%)
-- **In Progress:** 142
+- **Successfully Built:** 278 (11%)
+- **Failed:** 4 (0%)
+- **In Progress:** 127
 - **Not Started:** 1976
 
 **Progress:** 11%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (264)
+## Successfully Built Packages (278)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
 
-*... and 214 more ...*
+*... and 228 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sincell](https://bioconductor.org/packages/3.23/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sincell) |
 | [sizepower](https://bioconductor.org/packages/3.23/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.23/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/snm) |
 | [sparsenetgls](https://bioconductor.org/packages/3.23/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sparsenetgls) |
@@ -59,6 +58,7 @@
 | [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
+| [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
@@ -76,15 +76,16 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (3)
+## Failed Packages (4)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (142)
+## In Progress (127)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILGCP`
 - ⏳ `BiocGenerics`
@@ -101,9 +102,7 @@
 - ⏳ `GEOfastq`
 - ⏳ `GEWIST`
 - ⏳ `GGPA`
-- ⏳ `GIGSEA`
 - ⏳ `GLAD`
-- ⏳ `GPA`
 - ⏳ `GRENITS`
 - ⏳ `GSALightning`
 - ⏳ `GSAR`
@@ -118,7 +117,6 @@
 - ⏳ `HMMcopy`
 - ⏳ `HVP`
 - ⏳ `Heatplus`
-- ⏳ `HilbertVis`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
@@ -135,8 +133,11 @@
 - ⏳ `MantelCorr`
 - ⏳ `PROcess`
 - ⏳ `QuaternaryProd`
+- ⏳ `RImmPort`
+- ⏳ `RLMM`
+- ⏳ `RNAdecay`
 
-... and 92 more ...
+... and 77 more ...
 
 ## Not Yet Started (1976)
 - ⏸️ `ABarray`
@@ -193,5 +194,5 @@
 ... and 1926 more ...
 
 ---
-*Last updated: 2026-11-03 04:24:29 UTC*
-*Packages with verified BBS status: 136*
+*Last updated: 2026-11-03 04:32:03 UTC*
+*Packages with verified BBS status: 137*
