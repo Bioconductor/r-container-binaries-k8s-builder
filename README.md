@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 274 (11%)
+- **Successfully Built:** 276 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 163
+- **In Progress:** 161
 - **Not Started:** 1998
 
 **Progress:** 11%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (274)
+## Successfully Built Packages (276)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -34,6 +34,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [BADER](https://bioconductor.org/packages/3.24/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BADER) |
 | [BANDITS](https://bioconductor.org/packages/3.24/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BANDITS) |
+| [BEclear](https://bioconductor.org/packages/3.24/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
@@ -44,9 +45,8 @@
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
-| [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 
-*... and 224 more ...*
+*... and 226 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,9 +83,8 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (163)
+## In Progress (161)
 - ⏳ `AlpsNMR`
-- ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -108,7 +107,6 @@
 - ⏳ `GenProSeq`
 - ⏳ `HGC`
 - ⏳ `HIREewas`
-- ⏳ `HPAanalyze`
 - ⏳ `HPiP`
 - ⏳ `HVP`
 - ⏳ `Harman`
@@ -134,8 +132,10 @@
 - ⏳ `MSstatsLOBD`
 - ⏳ `MSstatsResponse`
 - ⏳ `MantelCorr`
+- ⏳ `MassArray`
+- ⏳ `MeLSI`
 
-... and 113 more ...
+... and 111 more ...
 
 ## Not Yet Started (1998)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1948 more ...
 
 ---
-*Last updated: 2026-11-03 04:49:12 UTC*
-*Packages with verified BBS status: 127*
+*Last updated: 2026-11-03 04:50:23 UTC*
+*Packages with verified BBS status: 128*
