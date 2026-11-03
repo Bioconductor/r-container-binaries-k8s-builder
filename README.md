@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 401 (16%)
+- **Successfully Built:** 405 (16%)
 - **Failed:** 6 (0%)
-- **In Progress:** 86
+- **In Progress:** 82
 - **Not Started:** 1892
 
 **Progress:** 17%
@@ -16,7 +16,7 @@
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (401)
+## Successfully Built Packages (405)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -35,18 +35,18 @@
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
+| [BANDITS](https://bioconductor.org/packages/3.23/bioc/html/BANDITS.html) | [log](logs/BANDITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BANDITS) |
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.23/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BioCartaImage) |
+| [Biobase](https://bioconductor.org/packages/3.23/bioc/html/Biobase.html) | [log](logs/Biobase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Biobase) |
 | [BiocBaseUtils](https://bioconductor.org/packages/3.23/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBaseUtils) |
+| [BiocBook](https://bioconductor.org/packages/3.23/bioc/html/BiocBook.html) | [log](logs/BiocBook/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBook) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.23/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBuildReporter) |
-| [BiocFileCache](https://bioconductor.org/packages/3.23/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocFileCache) |
-| [BiocGenerics](https://bioconductor.org/packages/3.23/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocGenerics) |
-| [BiocHail](https://bioconductor.org/packages/3.23/bioc/html/BiocHail.html) | [log](logs/BiocHail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocHail) |
 
-*... and 351 more ...*
+*... and 355 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,13 +87,9 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (86)
+## In Progress (82)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
-- ⏳ `BANDITS`
-- ⏳ `Biobase`
-- ⏳ `BiocBook`
-- ⏳ `BrowserViz`
 - ⏳ `CGEN`
 - ⏳ `CIMICE`
 - ⏳ `ChemmineOB`
@@ -138,8 +134,12 @@
 - ⏳ `dcGSA`
 - ⏳ `deltaGseg`
 - ⏳ `diffuStats`
+- ⏳ `edgeR`
+- ⏳ `faers`
+- ⏳ `fgsea`
+- ⏳ `geva`
 
-... and 36 more ...
+... and 32 more ...
 
 ## Not Yet Started (1892)
 - ⏸️ `ABarray`
@@ -196,5 +196,5 @@
 ... and 1842 more ...
 
 ---
-*Last updated: 2026-11-03 05:32:05 UTC*
-*Packages with verified BBS status: 148*
+*Last updated: 2026-11-03 05:35:45 UTC*
+*Packages with verified BBS status: 151*
