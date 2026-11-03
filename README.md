@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 770 (31%)
+- **Successfully Built:** 771 (31%)
 - **Failed:** 5 (0%)
-- **In Progress:** 32
+- **In Progress:** 31
 - **Not Started:** 1630
 
 **Progress:** 31%
@@ -16,7 +16,7 @@
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (770)
+## Successfully Built Packages (771)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -26,6 +26,7 @@
 | [AIMS](https://bioconductor.org/packages/3.24/bioc/html/AIMS.html) | [log](logs/AIMS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AIMS) |
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
 | [ANCOMBC](https://bioconductor.org/packages/3.24/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANCOMBC) |
+| [ANF](https://bioconductor.org/packages/3.24/bioc/html/ANF.html) | [log](logs/ANF/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANF) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.24/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
@@ -44,9 +45,8 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
-| [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 720 more ...*
+*... and 721 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,8 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (32)
-- ⏳ `ANF`
+## In Progress (31)
 - ⏳ `BumpyMatrix`
 - ⏳ `ComplexHeatmap`
 - ⏳ `EnrichDO`
@@ -175,5 +174,5 @@
 ... and 1580 more ...
 
 ---
-*Last updated: 2026-11-03 11:23:00 UTC*
-*Packages with verified BBS status: 185*
+*Last updated: 2026-11-03 11:29:59 UTC*
+*Packages with verified BBS status: 186*
