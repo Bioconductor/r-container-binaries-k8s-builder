@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1702 (69%)
+- **Successfully Built:** 1704 (69%)
 - **Failed:** 7 (0%)
-- **In Progress:** 154
-- **Not Started:** 574
+- **In Progress:** 153
+- **Not Started:** 573
 
 **Progress:** 70%
 ```
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1702)
+## Successfully Built Packages (1704)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1652 more ...*
+*... and 1654 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (154)
+## In Progress (153)
 - ⏳ `ADAPT`
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
@@ -140,9 +140,9 @@
 - ⏳ `MicrobiomeProfiler`
 - ⏳ `MoonlightR`
 
-... and 104 more ...
+... and 103 more ...
 
-## Not Yet Started (574)
+## Not Yet Started (573)
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
 - ⏸️ `ASpli`
@@ -194,8 +194,8 @@
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `ChIPseeker`
 
-... and 524 more ...
+... and 523 more ...
 
 ---
-*Last updated: 2026-11-03 20:19:46 UTC*
+*Last updated: 2026-11-03 20:21:49 UTC*
 *Packages with verified BBS status: 214*
