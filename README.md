@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1657 (67%)
+- **Successfully Built:** 1659 (68%)
 - **Failed:** 7 (0%)
-- **In Progress:** 154
-- **Not Started:** 619
+- **In Progress:** 153
+- **Not Started:** 618
 
 **Progress:** 68%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1657)
+## Successfully Built Packages (1659)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1607 more ...*
+*... and 1609 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (154)
+## In Progress (153)
 - ⏳ `ADAPT`
 - ⏳ `AGDEX`
 - ⏳ `ASICS`
@@ -140,9 +140,9 @@
 - ⏳ `POWSC`
 - ⏳ `PROMISE`
 
-... and 104 more ...
+... and 103 more ...
 
-## Not Yet Started (619)
+## Not Yet Started (618)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -194,8 +194,8 @@
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 
-... and 569 more ...
+... and 568 more ...
 
 ---
-*Last updated: 2026-11-03 19:36:54 UTC*
+*Last updated: 2026-11-03 19:39:10 UTC*
 *Packages with verified BBS status: 214*
