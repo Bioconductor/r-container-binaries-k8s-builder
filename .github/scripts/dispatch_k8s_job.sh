@@ -109,9 +109,12 @@ spec:
           claimName: ${PVC}
       affinity:
         nodeAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-            nodeSelectorTerms:
-            - matchExpressions:
+          # Prefer worker nodes, but allow the control-plane node so builds
+          # still schedule on single-node clusters.
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            preference:
+              matchExpressions:
               - key: node-role.kubernetes.io/control-plane
                 operator: DoesNotExist
 EOF
