@@ -1,0 +1,104 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''hypeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'hypeR'
+also installing the dependencies ‘reactR’, ‘babelgene’, ‘svglite’, ‘openxlsx’, ‘reactable’, ‘msigdbr’, ‘kableExtra’, ‘visNetwork’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/reactR_0.6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/babelgene_22.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/svglite_2.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/openxlsx_4.2.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/reactable_0.4.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/msigdbr_26.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/kableExtra_1.4.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/visNetwork_2.1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/hypeR_2.11.1.tar.gz'
+* installing *binary* package ‘reactR’ ...
+* package ‘reactR’ successfully unpacked and SHA256 sums checked
+* ‘reactR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactR’ as ‘reactR_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactR)
+* installing *binary* package ‘babelgene’ ...
+* package ‘babelgene’ successfully unpacked and SHA256 sums checked
+* ‘babelgene’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘babelgene’ as ‘babelgene_22.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (babelgene)
+* installing *binary* package ‘svglite’ ...
+* package ‘svglite’ successfully unpacked and SHA256 sums checked
+* ‘svglite’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘svglite’ as ‘svglite_2.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (svglite)
+* installing *binary* package ‘openxlsx’ ...
+* package ‘openxlsx’ successfully unpacked and SHA256 sums checked
+* ‘openxlsx’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘openxlsx’ as ‘openxlsx_4.2.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (openxlsx)
+* installing *binary* package ‘visNetwork’ ...
+* package ‘visNetwork’ successfully unpacked and SHA256 sums checked
+* ‘visNetwork’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘visNetwork’ as ‘visNetwork_2.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (visNetwork)
+* installing *binary* package ‘reactable’ ...
+* package ‘reactable’ successfully unpacked and SHA256 sums checked
+* ‘reactable’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘reactable’ as ‘reactable_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactable)
+* installing *binary* package ‘msigdbr’ ...
+* package ‘msigdbr’ successfully unpacked and SHA256 sums checked
+* ‘msigdbr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘msigdbr’ as ‘msigdbr_26.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (msigdbr)
+* installing *binary* package ‘kableExtra’ ...
+* package ‘kableExtra’ successfully unpacked and SHA256 sums checked
+* ‘kableExtra’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘kableExtra’ as ‘kableExtra_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kableExtra)
+* installing *source* package ‘hypeR’ ...
+** this is package ‘hypeR’ version ‘2.11.1’
+** package ‘hypeR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘hypeR’ as ‘hypeR_2.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hypeR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmph7ZDfL/downloaded_packages’
+
+real	0m19.151s
+user	0m14.400s
+sys	0m3.576s
