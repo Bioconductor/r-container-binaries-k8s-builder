@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 237 (9%)
+- **Successfully Built:** 244 (10%)
 - **Failed:** 3 (0%)
-- **In Progress:** 162
+- **In Progress:** 155
 - **Not Started:** 1983
 
 **Progress:** 10%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (237)
+## Successfully Built Packages (244)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -29,6 +29,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
+| [AnVIL](https://bioconductor.org/packages/3.23/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVIL) |
 | [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
@@ -44,9 +45,8 @@
 | [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
-| [CONSTANd](https://bioconductor.org/packages/3.23/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CONSTANd) |
 
-*... and 187 more ...*
+*... and 194 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,9 +84,8 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (162)
+## In Progress (155)
 - ⏳ `ABSSeq`
-- ⏳ `AnVIL`
 - ⏳ `AnVILGCP`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocMaintainerApp`
@@ -99,11 +98,7 @@
 - ⏳ `DNABarcodes`
 - ⏳ `DeMAND`
 - ⏳ `DeepPINCS`
-- ⏳ `EnhancedVolcano`
-- ⏳ `FRGEpistasis`
-- ⏳ `GAprediction`
 - ⏳ `GEM`
-- ⏳ `GENIE3`
 - ⏳ `GEOfastq`
 - ⏳ `GEWIST`
 - ⏳ `GGPA`
@@ -129,14 +124,19 @@
 - ⏳ `INDEED`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
-- ⏳ `ISoLDE`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
 - ⏳ `IsoCorrectoR`
 - ⏳ `LBE`
 - ⏳ `LPE`
+- ⏳ `LedPred`
+- ⏳ `Linnorm`
+- ⏳ `M3C`
+- ⏳ `MBAmethyl`
+- ⏳ `MBCB`
+- ⏳ `MBttest`
 
-... and 112 more ...
+... and 105 more ...
 
 ## Not Yet Started (1983)
 - ⏸️ `ABarray`
@@ -193,5 +193,5 @@
 ... and 1933 more ...
 
 ---
-*Last updated: 2026-11-03 04:15:44 UTC*
-*Packages with verified BBS status: 134*
+*Last updated: 2026-11-03 04:17:01 UTC*
+*Packages with verified BBS status: 135*
