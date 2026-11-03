@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1335 (54%)
+- **Successfully Built:** 1343 (55%)
 - **Failed:** 6 (0%)
-- **In Progress:** 209
-- **Not Started:** 887
+- **In Progress:** 204
+- **Not Started:** 884
 
 **Progress:** 55%
 ```
 ███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1335)
+## Successfully Built Packages (1343)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1285 more ...*
+*... and 1293 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -87,7 +87,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (209)
+## In Progress (204)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
@@ -103,6 +103,7 @@
 - ⏳ `CAEN`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
+- ⏳ `CNVRanger`
 - ⏳ `CSOA`
 - ⏳ `CaDrA`
 - ⏳ `CellTrails`
@@ -137,11 +138,10 @@
 - ⏳ `InteractionSet`
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `IntrinsicScan`
-- ⏳ `IsoBayes`
 
-... and 159 more ...
+... and 154 more ...
 
-## Not Yet Started (887)
+## Not Yet Started (884)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -193,8 +193,8 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 
-... and 837 more ...
+... and 834 more ...
 
 ---
-*Last updated: 2026-11-03 15:57:51 UTC*
+*Last updated: 2026-11-03 15:59:55 UTC*
 *Packages with verified BBS status: 201*
