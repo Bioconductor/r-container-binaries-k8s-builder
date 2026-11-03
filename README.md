@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1548 (63%)
+- **Successfully Built:** 1558 (63%)
 - **Failed:** 7 (0%)
-- **In Progress:** 146
-- **Not Started:** 736
+- **In Progress:** 138
+- **Not Started:** 734
 
-**Progress:** 63%
+**Progress:** 64%
 ```
-███████████████████████████████░░░░░░░░░░░░░░░░░░░
+████████████████████████████████░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1548)
+## Successfully Built Packages (1558)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaBeta](https://bioconductor.org/packages/3.24/bioc/html/AlphaBeta.html) | [log](logs/AlphaBeta/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaBeta) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 
-*... and 1498 more ...*
+*... and 1508 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,13 +88,12 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (146)
+## In Progress (138)
 - ⏳ `AGDEX`
 - ⏳ `APL`
 - ⏳ `AUCell`
 - ⏳ `AnnotationHub`
 - ⏳ `BASiCStan`
-- ⏳ `BUSseq`
 - ⏳ `BatchSVG`
 - ⏳ `BioCor`
 - ⏳ `BreastSubtypeR`
@@ -105,8 +104,6 @@
 - ⏳ `CellTrails`
 - ⏳ `CoCiteStats`
 - ⏳ `CyFj11`
-- ⏳ `DESeq2`
-- ⏳ `Dune`
 - ⏳ `EGSEA`
 - ⏳ `GBScleanR`
 - ⏳ `GOexpress`
@@ -139,10 +136,13 @@
 - ⏳ `ProteoMM`
 - ⏳ `RCSL`
 - ⏳ `RegionalST`
+- ⏳ `SBGNview`
+- ⏳ `SIM`
+- ⏳ `SimiCviz`
 
-... and 96 more ...
+... and 88 more ...
 
-## Not Yet Started (736)
+## Not Yet Started (734)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -194,8 +194,8 @@
 - ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
 
-... and 686 more ...
+... and 684 more ...
 
 ---
-*Last updated: 2026-11-03 17:24:41 UTC*
+*Last updated: 2026-11-03 17:27:08 UTC*
 *Packages with verified BBS status: 208*
