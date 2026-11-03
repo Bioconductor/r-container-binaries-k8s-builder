@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 244 (10%)
+- **Successfully Built:** 251 (10%)
 - **Failed:** 3 (0%)
-- **In Progress:** 155
-- **Not Started:** 1983
+- **In Progress:** 149
+- **Not Started:** 1982
 
 **Progress:** 10%
 ```
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (244)
+## Successfully Built Packages (251)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
 
-*... and 194 more ...*
+*... and 201 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [similaRpeak](https://bioconductor.org/packages/3.23/bioc/html/similaRpeak.html) | [log](logs/similaRpeak/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/similaRpeak) |
 | [sincell](https://bioconductor.org/packages/3.23/bioc/html/sincell.html) | [log](logs/sincell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sincell) |
 | [sizepower](https://bioconductor.org/packages/3.23/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.23/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/snm) |
@@ -64,6 +63,7 @@
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
+| [topconfects](https://bioconductor.org/packages/3.23/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/topconfects) |
 | [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
@@ -84,7 +84,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (155)
+## In Progress (149)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILGCP`
 - ⏳ `BiocGenerics`
@@ -95,7 +95,6 @@
 - ⏳ `BufferedMatrix`
 - ⏳ `CGEN`
 - ⏳ `Chicago`
-- ⏳ `DNABarcodes`
 - ⏳ `DeMAND`
 - ⏳ `DeepPINCS`
 - ⏳ `GEM`
@@ -124,21 +123,22 @@
 - ⏳ `INDEED`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
-- ⏳ `Icens`
-- ⏳ `Informeasure`
 - ⏳ `IsoCorrectoR`
-- ⏳ `LBE`
 - ⏳ `LPE`
-- ⏳ `LedPred`
 - ⏳ `Linnorm`
 - ⏳ `M3C`
 - ⏳ `MBAmethyl`
 - ⏳ `MBCB`
 - ⏳ `MBttest`
+- ⏳ `MSstatsLOBD`
+- ⏳ `MVCClass`
+- ⏳ `MantelCorr`
+- ⏳ `QuaternaryProd`
+- ⏳ `RAREsim`
 
-... and 105 more ...
+... and 99 more ...
 
-## Not Yet Started (1983)
+## Not Yet Started (1982)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BEclear`
 
-... and 1933 more ...
+... and 1932 more ...
 
 ---
-*Last updated: 2026-11-03 04:17:01 UTC*
-*Packages with verified BBS status: 135*
+*Last updated: 2026-11-03 04:18:54 UTC*
+*Packages with verified BBS status: 136*
