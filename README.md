@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2122 (88%)
+- **Successfully Built:** 2125 (89%)
 - **Failed:** 21 (0%)
-- **In Progress:** 99
+- **In Progress:** 96
 - **Not Started:** 143
 
 **Progress:** 89%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2122)
+## Successfully Built Packages (2125)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,13 +46,13 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2072 more ...*
+*... and 2075 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
 | [visiumStitched](https://bioconductor.org/packages/3.23/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.23/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vissE) |
+| [vmrseq](https://bioconductor.org/packages/3.23/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.23/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (99)
+## In Progress (96)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
@@ -120,7 +120,6 @@
 - ⏳ `EventPointer`
 - ⏳ `ExperimentHubData`
 - ⏳ `FindIT2`
-- ⏳ `GA4GHclient`
 - ⏳ `HistoImagePlot`
 - ⏳ `IntEREst`
 - ⏳ `MEDIPS`
@@ -153,8 +152,9 @@
 - ⏳ `biovizBase`
 - ⏳ `cardelino`
 - ⏳ `casper`
+- ⏳ `chevreulPlot`
 
-... and 49 more ...
+... and 46 more ...
 
 ## Not Yet Started (143)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 93 more ...
 
 ---
-*Last updated: 2026-11-03 23:19:39 UTC*
-*Packages with verified BBS status: 234*
+*Last updated: 2026-11-03 23:25:16 UTC*
+*Packages with verified BBS status: 235*
