@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1606 (65%)
+- **Successfully Built:** 1611 (66%)
 - **Failed:** 7 (0%)
-- **In Progress:** 174
-- **Not Started:** 650
+- **In Progress:** 172
+- **Not Started:** 647
 
 **Progress:** 66%
 ```
 █████████████████████████████████░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1606)
+## Successfully Built Packages (1611)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.24/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1556 more ...*
+*... and 1561 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (174)
+## In Progress (172)
 - ⏳ `AGDEX`
 - ⏳ `APL`
 - ⏳ `BASiCStan`
@@ -102,6 +102,7 @@
 - ⏳ `CATALYST`
 - ⏳ `CellMixS`
 - ⏳ `CellTrails`
+- ⏳ `ClustIRR`
 - ⏳ `CoCiteStats`
 - ⏳ `CyFj11`
 - ⏳ `DExMA`
@@ -138,11 +139,10 @@
 - ⏳ `NBAMSeq`
 - ⏳ `NetActivity`
 - ⏳ `PAA`
-- ⏳ `POMA`
 
-... and 124 more ...
+... and 122 more ...
 
-## Not Yet Started (650)
+## Not Yet Started (647)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -194,8 +194,8 @@
 - ⏸️ `CeTF`
 - ⏸️ `CellBarcode`
 
-... and 600 more ...
+... and 597 more ...
 
 ---
-*Last updated: 2026-11-03 17:43:46 UTC*
+*Last updated: 2026-11-03 17:47:23 UTC*
 *Packages with verified BBS status: 211*
