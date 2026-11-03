@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 206 (8%)
+- **Successfully Built:** 213 (8%)
 - **Failed:** 3 (0%)
-- **In Progress:** 186
-- **Not Started:** 1990
+- **In Progress:** 180
+- **Not Started:** 1989
 
-**Progress:** 8%
+**Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (206)
+## Successfully Built Packages (213)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 
-*... and 156 more ...*
+*... and 163 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,7 +84,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (186)
+## In Progress (180)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -136,9 +136,9 @@
 - ⏳ `Icens`
 - ⏳ `Informeasure`
 
-... and 136 more ...
+... and 130 more ...
 
-## Not Yet Started (1990)
+## Not Yet Started (1989)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 1940 more ...
+... and 1939 more ...
 
 ---
-*Last updated: 2026-11-03 04:04:36 UTC*
+*Last updated: 2026-11-03 04:05:57 UTC*
 *Packages with verified BBS status: 130*
