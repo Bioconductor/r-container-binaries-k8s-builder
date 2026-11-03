@@ -2863,7 +2863,6 @@
   "MLInterfaces": [
     "SummarizedExperiment"
   ],
-  "MLP": [],
   "MLSeq": [
     "DESeq2",
     "SummarizedExperiment"
@@ -5511,7 +5510,6 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "baySeq": [],
   "bcSeq": [],
   "beachmat.hdf5": [
     "HDF5Array"
@@ -6101,9 +6099,7 @@
     "DOSE",
     "ggtree"
   ],
-  "clusterSeq": [
-    "baySeq"
-  ],
+  "clusterSeq": [],
   "clustifyr": [
     "fgsea",
     "SingleCellExperiment",
@@ -6123,7 +6119,6 @@
   "cn.mops": [
     "Rsamtools"
   ],
-  "cnvGSA": [],
   "coMethDMR": [
     "bumphunter",
     "GenomicFeatures",
@@ -6262,10 +6257,8 @@
     "SummarizedExperiment",
     "cigarillo"
   ],
-  "crisprBase": [],
   "crisprBowtie": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -6274,7 +6267,6 @@
   ],
   "crisprBwa": [
     "BSgenome",
-    "crisprBase",
     "rtracklayer",
     "Rsamtools",
     "GenomicAlignments",
@@ -6282,7 +6274,6 @@
     "cigarillo"
   ],
   "crisprDesign": [
-    "crisprBase",
     "BSgenome",
     "crisprBowtie",
     "GenomicFeatures",
@@ -6296,7 +6287,6 @@
   ],
   "crisprShiny": [
     "BSgenome",
-    "crisprBase",
     "crisprDesign",
     "crisprViz",
     "rtracklayer",
@@ -6314,7 +6304,6 @@
     "cigarillo"
   ],
   "crisprVerse": [
-    "crisprBase",
     "crisprBowtie",
     "crisprDesign",
     "crisprViz",
@@ -6333,7 +6322,6 @@
     "cigarillo"
   ],
   "crisprViz": [
-    "crisprBase",
     "crisprDesign",
     "BSgenome",
     "GenomicFeatures",
@@ -6984,9 +6972,7 @@
     "SingleCellExperiment",
     "SummarizedExperiment"
   ],
-  "esetVis": [
-    "MLP"
-  ],
+  "esetVis": [],
   "eudysbiome": [
     "Rsamtools"
   ],
@@ -9289,7 +9275,6 @@
     "ggtree"
   ],
   "ppcseq": [],
-  "pqsfinder": [],
   "pram": [
     "GenomicAlignments",
     "rtracklayer",
@@ -9525,7 +9510,6 @@
     "rtracklayer",
     "cigarillo"
   ],
-  "ramr": [],
   "ramwas": [
     "GenomicAlignments",
     "Rsamtools",
@@ -9649,8 +9633,7 @@
   ],
   "rhdf5client": [],
   "riboSeqR": [
-    "Rsamtools",
-    "baySeq"
+    "Rsamtools"
   ],
   "ribosomeProfilingQC": [
     "BSgenome",
@@ -9681,7 +9664,6 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "rigvf": [],
   "rmspc": [
     "rtracklayer",
     "Rsamtools",
@@ -10171,7 +10153,6 @@
     "SummarizedExperiment"
   ],
   "segmentSeq": [
-    "baySeq",
     "ShortRead",
     "Rsamtools",
     "GenomicAlignments",
