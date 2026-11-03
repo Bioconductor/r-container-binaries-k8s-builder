@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 16 (0%)
+- **Successfully Built:** 19 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 336
+- **In Progress:** 333
 - **Not Started:** 2085
 
 **Progress:** 0%
@@ -16,11 +16,12 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (16)
+## Successfully Built Packages (19)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
 | [AMOUNTAIN](https://bioconductor.org/packages/3.24/bioc/html/AMOUNTAIN.html) | [log](logs/AMOUNTAIN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AMOUNTAIN) |
+| [ANCOMBC](https://bioconductor.org/packages/3.24/bioc/html/ANCOMBC.html) | [log](logs/ANCOMBC/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ANCOMBC) |
 | [ARRmNormalization](https://bioconductor.org/packages/3.24/bioc/html/ARRmNormalization.html) | [log](logs/ARRmNormalization/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ARRmNormalization) |
 | [ASAFE](https://bioconductor.org/packages/3.24/bioc/html/ASAFE.html) | [log](logs/ASAFE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASAFE) |
 | [ASEB](https://bioconductor.org/packages/3.24/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ASEB) |
@@ -33,12 +34,13 @@
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
+| [GRENITS](https://bioconductor.org/packages/3.24/bioc/html/GRENITS.html) | [log](logs/GRENITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GRENITS) |
+| [GSALightning](https://bioconductor.org/packages/3.24/bioc/html/GSALightning.html) | [log](logs/GSALightning/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSALightning) |
 | [REBET](https://bioconductor.org/packages/3.24/bioc/html/REBET.html) | [log](logs/REBET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/REBET) |
 | [qvalue](https://bioconductor.org/packages/3.24/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/qvalue) |
 | [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 
-## In Progress (336)
-- ⏳ `ANCOMBC`
+## In Progress (333)
 - ⏳ `BADER`
 - ⏳ `BenchHub`
 - ⏳ `BiocBaseUtils`
@@ -88,8 +90,9 @@
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 - ⏳ `GPA`
+- ⏳ `GSAR`
 
-... and 286 more ...
+... and 283 more ...
 
 ## Not Yet Started (2085)
 - ⏸️ `ABSSeq`
@@ -146,5 +149,5 @@
 ... and 2035 more ...
 
 ---
-*Last updated: 2026-11-03 03:03:49 UTC*
-*Packages with verified BBS status: 16*
+*Last updated: 2026-11-03 03:05:54 UTC*
+*Packages with verified BBS status: 19*
