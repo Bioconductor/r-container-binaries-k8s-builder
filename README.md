@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1194 (48%)
+- **Successfully Built:** 1199 (49%)
 - **Failed:** 5 (0%)
-- **In Progress:** 229
+- **In Progress:** 224
 - **Not Started:** 1009
 
 **Progress:** 49%
@@ -16,7 +16,7 @@
 ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1194)
+## Successfully Built Packages (1199)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1144 more ...*
+*... and 1149 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,9 +84,9 @@
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
-| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
+| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (229)
+## In Progress (224)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `ALDEx2`
@@ -95,7 +95,6 @@
 - ⏳ `BUMHMM`
 - ⏳ `BUSseq`
 - ⏳ `BioNAR`
-- ⏳ `Bioc.gff`
 - ⏳ `BiocNeighbors`
 - ⏳ `BiocSingular`
 - ⏳ `BreastSubtypeR`
@@ -137,8 +136,9 @@
 - ⏳ `GraphExperiment`
 - ⏳ `HERON`
 - ⏳ `HIPPO`
+- ⏳ `HiCBricks`
 
-... and 179 more ...
+... and 174 more ...
 
 ## Not Yet Started (1009)
 - ⏸️ `ACE`
@@ -195,5 +195,5 @@
 ... and 959 more ...
 
 ---
-*Last updated: 2026-11-03 15:09:33 UTC*
+*Last updated: 2026-11-03 15:11:57 UTC*
 *Packages with verified BBS status: 195*
