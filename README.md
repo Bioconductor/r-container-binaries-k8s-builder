@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 618 (25%)
+- **Successfully Built:** 624 (26%)
 - **Failed:** 9 (0%)
 - **In Progress:** 77
-- **Not Started:** 1681
+- **Not Started:** 1675
 
 **Progress:** 26%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (618)
+## Successfully Built Packages (624)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 568 more ...*
+*... and 574 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,13 +93,16 @@
 ## In Progress (77)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
+- ⏳ `Biostrings`
 - ⏳ `CCPlotR`
 - ⏳ `ClustAll`
-- ⏳ `DEsingle`
 - ⏳ `DeepPINCS`
+- ⏳ `DelayedArray`
 - ⏳ `ExiMiR`
 - ⏳ `GEOsubmission`
 - ⏳ `GSCA`
+- ⏳ `GenomeInfoDb`
+- ⏳ `GenomicRanges`
 - ⏳ `HGC`
 - ⏳ `Heatplus`
 - ⏳ `INTACT`
@@ -111,7 +114,6 @@
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OrderedList`
 - ⏳ `RGSEA`
-- ⏳ `RNAdecay`
 - ⏳ `ROSeq`
 - ⏳ `RProtoBufLib`
 - ⏳ `RTopper`
@@ -127,12 +129,9 @@
 - ⏳ `TargetDecoy`
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
-- ⏳ `alabaster.bumpy`
 - ⏳ `cola`
-- ⏳ `dcGSA`
 - ⏳ `deltaGseg`
 - ⏳ `diffuStats`
-- ⏳ `drugfindR`
 - ⏳ `factDesign`
 - ⏳ `faers`
 - ⏳ `fgsea`
@@ -140,11 +139,12 @@
 - ⏳ `geva`
 - ⏳ `ggtree`
 - ⏳ `graph`
+- ⏳ `h5mread`
 - ⏳ `hopach`
 
 ... and 27 more ...
 
-## Not Yet Started (1681)
+## Not Yet Started (1675)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1631 more ...
+... and 1625 more ...
 
 ---
-*Last updated: 2026-11-03 06:51:01 UTC*
+*Last updated: 2026-11-03 06:53:09 UTC*
 *Packages with verified BBS status: 176*
