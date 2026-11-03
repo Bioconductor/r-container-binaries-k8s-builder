@@ -8,8 +8,8 @@
 - **Total Packages:** 2437
 - **Successfully Built:** 1776 (72%)
 - **Failed:** 8 (0%)
-- **In Progress:** 124
-- **Not Started:** 529
+- **In Progress:** 125
+- **Not Started:** 528
 
 **Progress:** 73%
 ```
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (124)
+## In Progress (125)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -139,11 +139,11 @@
 - ⏳ `PathoStat`
 - ⏳ `Pigengene`
 - ⏳ `RCM`
-- ⏳ `RPA`
+- ⏳ `RFLOMICS`
 
-... and 74 more ...
+... and 75 more ...
 
-## Not Yet Started (529)
+## Not Yet Started (528)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -195,8 +195,8 @@
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
 
-... and 479 more ...
+... and 478 more ...
 
 ---
-*Last updated: 2026-11-03 22:32:54 UTC*
+*Last updated: 2026-11-03 22:34:07 UTC*
 *Packages with verified BBS status: 221*
