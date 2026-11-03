@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 608 (25%)
+- **Successfully Built:** 613 (25%)
 - **Failed:** 9 (0%)
-- **In Progress:** 84
-- **Not Started:** 1684
+- **In Progress:** 80
+- **Not Started:** 1683
 
-**Progress:** 25%
+**Progress:** 26%
 ```
-████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (608)
+## Successfully Built Packages (613)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 558 more ...*
+*... and 563 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,21 +83,20 @@
 | [BAGS](https://bioconductor.org/packages/3.23/bioc/html/BAGS.html) | [log](logs/BAGS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BAGS) | Compilation failed:  ‘BAGS’ |
 | [COMPASS](https://bioconductor.org/packages/3.23/bioc/html/COMPASS.html) | [log](logs/COMPASS/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COMPASS) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
-| [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
-| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust |
+| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (84)
+## In Progress (80)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
 - ⏳ `CCPlotR`
 - ⏳ `CellMapper`
 - ⏳ `ClustAll`
 - ⏳ `DEsingle`
-- ⏳ `DFplyr`
 - ⏳ `DeepPINCS`
 - ⏳ `ExiMiR`
 - ⏳ `GEOsubmission`
@@ -126,11 +125,11 @@
 - ⏳ `STATegRa`
 - ⏳ `ScreenR`
 - ⏳ `Seqinfo`
+- ⏳ `SparseArray`
 - ⏳ `TPP`
 - ⏳ `TargetDecoy`
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
-- ⏳ `alabaster.base`
 - ⏳ `cola`
 - ⏳ `consensus`
 - ⏳ `dcGSA`
@@ -141,10 +140,11 @@
 - ⏳ `fgsea`
 - ⏳ `geneRecommender`
 - ⏳ `geva`
+- ⏳ `ggtree`
 
-... and 34 more ...
+... and 30 more ...
 
-## Not Yet Started (1684)
+## Not Yet Started (1683)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1634 more ...
+... and 1633 more ...
 
 ---
-*Last updated: 2026-11-03 06:48:01 UTC*
+*Last updated: 2026-11-03 06:49:35 UTC*
 *Packages with verified BBS status: 176*
