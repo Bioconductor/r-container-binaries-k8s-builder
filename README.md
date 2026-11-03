@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 141 (5%)
+- **Successfully Built:** 143 (5%)
 - **Failed:** 2 (0%)
-- **In Progress:** 241
+- **In Progress:** 239
 - **Not Started:** 2001
 
-**Progress:** 5%
+**Progress:** 6%
 ```
-██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (141)
+## Successfully Built Packages (143)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 91 more ...*
+*... and 93 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [rsemmed](https://bioconductor.org/packages/3.23/bioc/html/rsemmed.html) | [log](logs/rsemmed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rsemmed) |
-| [sagenhaft](https://bioconductor.org/packages/3.23/bioc/html/sagenhaft.html) | [log](logs/sagenhaft/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sagenhaft) |
 | [scFeatureFilter](https://bioconductor.org/packages/3.23/bioc/html/scFeatureFilter.html) | [log](logs/scFeatureFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scFeatureFilter) |
 | [scLANE](https://bioconductor.org/packages/3.23/bioc/html/scLANE.html) | [log](logs/scLANE/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scLANE) |
 | [scToppR](https://bioconductor.org/packages/3.23/bioc/html/scToppR.html) | [log](logs/scToppR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scToppR) |
@@ -72,7 +70,9 @@
 | [ssize](https://bioconductor.org/packages/3.23/bioc/html/ssize.html) | [log](logs/ssize/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssize) |
 | [ssrch](https://bioconductor.org/packages/3.23/bioc/html/ssrch.html) | [log](logs/ssrch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ssrch) |
 | [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
+| [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
+| [treeio](https://bioconductor.org/packages/3.23/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/treeio) |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 
@@ -83,7 +83,7 @@
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 
-## In Progress (241)
+## In Progress (239)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -135,7 +135,7 @@
 - ⏳ `INDEED`
 - ⏳ `INPower`
 
-... and 191 more ...
+... and 189 more ...
 
 ## Not Yet Started (2001)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1951 more ...
 
 ---
-*Last updated: 2026-11-03 03:44:41 UTC*
-*Packages with verified BBS status: 117*
+*Last updated: 2026-11-03 03:47:02 UTC*
+*Packages with verified BBS status: 119*
