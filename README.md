@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 519 (21%)
+- **Successfully Built:** 520 (21%)
 - **Failed:** 5 (0%)
-- **In Progress:** 124
-- **Not Started:** 1789
+- **In Progress:** 125
+- **Not Started:** 1787
 
 **Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (519)
+## Successfully Built Packages (520)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 
-*... and 469 more ...*
+*... and 470 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (124)
+## In Progress (125)
 - ⏳ `ANF`
 - ⏳ `BUS`
 - ⏳ `BioMVCClass`
@@ -128,7 +128,6 @@
 - ⏳ `ROTS`
 - ⏳ `RTCA`
 - ⏳ `RUVcorr`
-- ⏳ `Rfastp`
 - ⏳ `Rnits`
 - ⏳ `Rsubread`
 - ⏳ `S4Vectors`
@@ -137,10 +136,11 @@
 - ⏳ `SharedObject`
 - ⏳ `SpeCond`
 - ⏳ `TPP`
+- ⏳ `TRONCO`
 
-... and 74 more ...
+... and 75 more ...
 
-## Not Yet Started (1789)
+## Not Yet Started (1787)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -192,8 +192,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1739 more ...
+... and 1737 more ...
 
 ---
-*Last updated: 2026-11-03 06:17:48 UTC*
+*Last updated: 2026-11-03 06:19:30 UTC*
 *Packages with verified BBS status: 158*
