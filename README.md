@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 97 (4%)
-- **Failed:** 1 (0%)
-- **In Progress:** 273
+- **Successfully Built:** 98 (4%)
+- **Failed:** 2 (0%)
+- **In Progress:** 271
 - **Not Started:** 2014
 
 **Progress:** 4%
@@ -16,7 +16,7 @@
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (97)
+## Successfully Built Packages (98)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 47 more ...*
+*... and 48 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [SpaceMarkers](https://bioconductor.org/packages/3.23/bioc/html/SpaceMarkers.html) | [log](logs/SpaceMarkers/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpaceMarkers) |
 | [TrajectoryGeometry](https://bioconductor.org/packages/3.23/bioc/html/TrajectoryGeometry.html) | [log](logs/TrajectoryGeometry/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/TrajectoryGeometry) |
 | [VERSO](https://bioconductor.org/packages/3.23/bioc/html/VERSO.html) | [log](logs/VERSO/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/VERSO) |
 | [VennDetail](https://bioconductor.org/packages/3.23/bioc/html/VennDetail.html) | [log](logs/VennDetail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/VennDetail) |
@@ -66,6 +65,7 @@
 | [globalSeq](https://bioconductor.org/packages/3.23/bioc/html/globalSeq.html) | [log](logs/globalSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/globalSeq) |
 | [hierinf](https://bioconductor.org/packages/3.23/bioc/html/hierinf.html) | [log](logs/hierinf/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/hierinf) |
 | [imageTCGA](https://bioconductor.org/packages/3.23/bioc/html/imageTCGA.html) | [log](logs/imageTCGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/imageTCGA) |
+| [limma](https://bioconductor.org/packages/3.23/bioc/html/limma.html) | [log](logs/limma/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/limma) |
 | [mzID](https://bioconductor.org/packages/3.23/bioc/html/mzID.html) | [log](logs/mzID/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mzID) |
 | [pathifier](https://bioconductor.org/packages/3.23/bioc/html/pathifier.html) | [log](logs/pathifier/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pathifier) |
 | [qvalue](https://bioconductor.org/packages/3.23/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/qvalue) |
@@ -76,13 +76,14 @@
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 
-## Failed Packages (1)
+## Failed Packages (2)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 
-## In Progress (273)
+## In Progress (271)
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
@@ -134,7 +135,7 @@
 - ⏳ `INDEED`
 - ⏳ `INPower`
 
-... and 223 more ...
+... and 221 more ...
 
 ## Not Yet Started (2014)
 - ⏸️ `ABSSeq`
@@ -191,5 +192,5 @@
 ... and 1964 more ...
 
 ---
-*Last updated: 2026-11-03 03:25:45 UTC*
-*Packages with verified BBS status: 82*
+*Last updated: 2026-11-03 03:27:29 UTC*
+*Packages with verified BBS status: 84*
