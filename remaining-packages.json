@@ -23,11 +23,9 @@
     "txdbmaker",
     "BSgenome"
   ],
-  "APL": [],
   "ASSIGN": [
     "sva"
   ],
-  "ASURAT": [],
   "ASpli": [
     "GenomicFeatures",
     "GenomicAlignments",
@@ -446,7 +444,6 @@
   "CelliD": [
     "fgsea"
   ],
-  "Cepo": [],
   "CexoR": [
     "Rsamtools",
     "rtracklayer",
@@ -645,7 +642,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "flowAI",
     "flowWorkspace",
     "Rgraphviz"
   ],
@@ -658,7 +654,6 @@
   "CytoPipeline": [
     "ggcyto",
     "PeacoQC",
-    "flowAI",
     "flowWorkspace",
     "Rgraphviz"
   ],
@@ -666,7 +661,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "flowAI",
     "flowWorkspace",
     "Rgraphviz"
   ],
@@ -1524,7 +1518,6 @@
     "QFeatures",
     "PSMatch"
   ],
-  "MAPFX": [],
   "MAST": [],
   "MBECS": [
     "sva"
@@ -1534,7 +1527,6 @@
     "CytoPipeline",
     "ggcyto",
     "PeacoQC",
-    "flowAI",
     "flowWorkspace",
     "Rgraphviz"
   ],
@@ -1614,7 +1606,6 @@
   "MMUPHin": [
     "maaslin3"
   ],
-  "MOFA2": [],
   "MOGAMUN": [
     "RCy3"
   ],
@@ -1674,7 +1665,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "MetMashR": [],
   "MetaCyto": [],
   "MetaPhOR": [
     "clusterProfiler",
@@ -2138,7 +2128,6 @@
   ],
   "RFLOMICS": [
     "clusterProfiler",
-    "MOFA2",
     "enrichplot",
     "ggtree"
   ],
@@ -2505,7 +2494,6 @@
   "SVP": [
     "ggtree"
   ],
-  "Sconify": [],
   "Seqtometry": [],
   "ShortRead": [
     "Rsamtools",
@@ -2561,7 +2549,6 @@
     "ensembldb"
   ],
   "SpNeigh": [],
-  "SpaceTrooper": [],
   "SparseSignatures": [
     "BSgenome",
     "rtracklayer",
@@ -2905,7 +2892,6 @@
   "aggregateBioVar": [],
   "airpart": [],
   "alabaster": [
-    "alabaster.matrix",
     "alabaster.se",
     "alabaster.sce",
     "alabaster.spatial",
@@ -2922,33 +2908,25 @@
     "Rsamtools"
   ],
   "alabaster.mae": [
-    "alabaster.se",
-    "alabaster.matrix"
+    "alabaster.se"
   ],
-  "alabaster.matrix": [],
   "alabaster.sce": [
-    "alabaster.se",
-    "alabaster.matrix"
+    "alabaster.se"
   ],
-  "alabaster.se": [
-    "alabaster.matrix"
-  ],
+  "alabaster.se": [],
   "alabaster.sfe": [
     "alabaster.sce",
     "alabaster.spatial",
-    "alabaster.se",
-    "alabaster.matrix"
+    "alabaster.se"
   ],
   "alabaster.spatial": [
     "alabaster.sce",
-    "alabaster.se",
-    "alabaster.matrix"
+    "alabaster.se"
   ],
   "alabaster.vcf": [
     "VariantAnnotation",
     "alabaster.se",
     "Rsamtools",
-    "alabaster.matrix",
     "rtracklayer",
     "BSgenome",
     "GenomicFeatures",
@@ -3061,7 +3039,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "beachmat.hdf5": [],
   "beachmat.tiledb": [],
   "bedbaser": [
     "rtracklayer",
@@ -3324,7 +3301,6 @@
     "Rsamtools",
     "GenomicAlignments"
   ],
-  "chihaya": [],
   "chimeraviz": [
     "Gviz",
     "ensembldb",
@@ -3444,7 +3420,6 @@
     "GenomicAlignments",
     "VariantAnnotation"
   ],
-  "combi": [],
   "compEpiTools": [
     "Rsamtools",
     "GenomicFeatures",
@@ -3589,7 +3564,6 @@
     "TOAST",
     "EpiDISH"
   ],
-  "cytoMEM": [],
   "cytofQC": [
     "CATALYST"
   ],
@@ -3991,12 +3965,9 @@
     "QFeatures",
     "PSMatch"
   ],
-  "flowAI": [],
-  "flowBeads": [],
   "flowBin": [
     "flowFP"
   ],
-  "flowCHIC": [],
   "flowCut": [
     "flowDensity"
   ],
@@ -5441,9 +5412,7 @@
   "scBubbletree": [
     "ggtree"
   ],
-  "scClassify": [
-    "Cepo"
-  ],
+  "scClassify": [],
   "scConform": [
     "Rgraphviz"
   ],
@@ -5682,7 +5651,6 @@
     "scDblFinder",
     "TSCAN",
     "TrajectoryUtils",
-    "alabaster.matrix",
     "alabaster.se",
     "GenomicFeatures",
     "rtracklayer",
