@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1951 (81%)
+- **Successfully Built:** 1956 (82%)
 - **Failed:** 19 (0%)
-- **In Progress:** 72
+- **In Progress:** 67
 - **Not Started:** 343
 
 **Progress:** 82%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████░░░░░░░░░
 ```
 
-## Successfully Built Packages (1951)
+## Successfully Built Packages (1956)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,14 +46,13 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1901 more ...*
+*... and 1906 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [velociraptor](https://bioconductor.org/packages/3.23/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/velociraptor) |
-| [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.23/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.23/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/viper) |
+| [visiumStitched](https://bioconductor.org/packages/3.23/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.23/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vissE) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
@@ -73,6 +72,7 @@
 | [yamss](https://bioconductor.org/packages/3.23/bioc/html/yamss.html) | [log](logs/yamss/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/yamss) |
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 | [zellkonverter](https://bioconductor.org/packages/3.23/bioc/html/zellkonverter.html) | [log](logs/zellkonverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zellkonverter) |
+| [zenith](https://bioconductor.org/packages/3.23/bioc/html/zenith.html) | [log](logs/zenith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zenith) |
 | [zinbwave](https://bioconductor.org/packages/3.23/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
@@ -100,13 +100,12 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (72)
+## In Progress (67)
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
 - ⏳ `CODEX`
 - ⏳ `CellBarcode`
-- ⏳ `CexoR`
 - ⏳ `ChIPComp`
 - ⏳ `ChIPanalyser`
 - ⏳ `ChIPseqR`
@@ -143,7 +142,6 @@
 - ⏳ `chromVAR`
 - ⏳ `condiments`
 - ⏳ `dar`
-- ⏳ `fCCAC`
 - ⏳ `famat`
 - ⏳ `gDR`
 - ⏳ `goatea`
@@ -151,8 +149,10 @@
 - ⏳ `hicVennDiagram`
 - ⏳ `iSEEtree`
 - ⏳ `lefser`
+- ⏳ `metagene2`
+- ⏳ `methylKit`
 
-... and 22 more ...
+... and 17 more ...
 
 ## Not Yet Started (343)
 - ⏸️ `AHMassBank`
@@ -209,5 +209,5 @@
 ... and 293 more ...
 
 ---
-*Last updated: 2026-11-03 15:06:34 UTC*
-*Packages with verified BBS status: 228*
+*Last updated: 2026-11-03 15:08:53 UTC*
+*Packages with verified BBS status: 230*
