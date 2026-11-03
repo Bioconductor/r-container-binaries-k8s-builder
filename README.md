@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 98 (4%)
 - **Failed:** 2 (0%)
-- **In Progress:** 271
-- **Not Started:** 2014
+- **In Progress:** 284
+- **Not Started:** 2001
 
 **Progress:** 4%
 ```
@@ -83,7 +83,8 @@
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 
-## In Progress (271)
+## In Progress (284)
+- ⏳ `ABSSeq`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
@@ -95,6 +96,7 @@
 - ⏳ `BufferedMatrix`
 - ⏳ `CGEN`
 - ⏳ `Chicago`
+- ⏳ `DEqMS`
 - ⏳ `DNABarcodes`
 - ⏳ `DeMAND`
 - ⏳ `EnhancedVolcano`
@@ -115,6 +117,7 @@
 - ⏳ `GSAR`
 - ⏳ `GSEAmining`
 - ⏳ `GSgalgoR`
+- ⏳ `GWAS.BAYES`
 - ⏳ `GeneGA`
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
@@ -131,14 +134,10 @@
 - ⏳ `Herper`
 - ⏳ `HilbertVis`
 - ⏳ `HuBMAPR`
-- ⏳ `IMPCdata`
-- ⏳ `INDEED`
-- ⏳ `INPower`
 
-... and 221 more ...
+... and 234 more ...
 
-## Not Yet Started (2014)
-- ⏸️ `ABSSeq`
+## Not Yet Started (2001)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -188,9 +187,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
+- ⏸️ `BCRANK`
 
-... and 1964 more ...
+... and 1951 more ...
 
 ---
-*Last updated: 2026-11-03 03:27:29 UTC*
+*Last updated: 2026-11-03 03:29:38 UTC*
 *Packages with verified BBS status: 84*
