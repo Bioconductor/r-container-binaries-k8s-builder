@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 55 (2%)
+- **Successfully Built:** 57 (2%)
 - **Failed:** 1 (0%)
-- **In Progress:** 308
+- **In Progress:** 306
 - **Not Started:** 2021
 
 **Progress:** 2%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (55)
+## Successfully Built Packages (57)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [ModCon](https://bioconductor.org/packages/3.23/bioc/html/ModCon.html) | [log](logs/ModCon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ModCon) |
 | [MultiMed](https://bioconductor.org/packages/3.23/bioc/html/MultiMed.html) | [log](logs/MultiMed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MultiMed) |
 
-*... and 5 more ...*
+*... and 7 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [OmnipathR](https://bioconductor.org/packages/3.23/bioc/html/OmnipathR.html) | [log](logs/OmnipathR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/OmnipathR) |
 | [OpenStats](https://bioconductor.org/packages/3.23/bioc/html/OpenStats.html) | [log](logs/OpenStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/OpenStats) |
 | [PTMods](https://bioconductor.org/packages/3.23/bioc/html/PTMods.html) | [log](logs/PTMods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/PTMods) |
 | [Path2PPI](https://bioconductor.org/packages/3.23/bioc/html/Path2PPI.html) | [log](logs/Path2PPI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Path2PPI) |
@@ -65,6 +64,7 @@
 | [VennDetail](https://bioconductor.org/packages/3.23/bioc/html/VennDetail.html) | [log](logs/VennDetail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/VennDetail) |
 | [a4Reporting](https://bioconductor.org/packages/3.23/bioc/html/a4Reporting.html) | [log](logs/a4Reporting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/a4Reporting) |
 | [acde](https://bioconductor.org/packages/3.23/bioc/html/acde.html) | [log](logs/acde/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/acde) |
+| [affxparser](https://bioconductor.org/packages/3.23/bioc/html/affxparser.html) | [log](logs/affxparser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/affxparser) |
 | [affyio](https://bioconductor.org/packages/3.23/bioc/html/affyio.html) | [log](logs/affyio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/affyio) |
 | [agilp](https://bioconductor.org/packages/3.23/bioc/html/agilp.html) | [log](logs/agilp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/agilp) |
 | [bugsigdbr](https://bioconductor.org/packages/3.23/bioc/html/bugsigdbr.html) | [log](logs/bugsigdbr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/bugsigdbr) |
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (308)
+## In Progress (306)
 - ⏳ `AWAggregator`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -134,7 +134,7 @@
 - ⏳ `GPA`
 - ⏳ `GRENITS`
 
-... and 258 more ...
+... and 256 more ...
 
 ## Not Yet Started (2021)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1971 more ...
 
 ---
-*Last updated: 2026-11-03 02:41:39 UTC*
-*Packages with verified BBS status: 56*
+*Last updated: 2026-11-03 02:44:54 UTC*
+*Packages with verified BBS status: 57*
