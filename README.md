@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 219 (9%)
+- **Successfully Built:** 221 (9%)
 - **Failed:** 3 (0%)
 - **In Progress:** 174
-- **Not Started:** 1989
+- **Not Started:** 1987
 
 **Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (219)
+## Successfully Built Packages (221)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [COSNet](https://bioconductor.org/packages/3.23/bioc/html/COSNet.html) | [log](logs/COSNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COSNet) |
 | [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 
-*... and 169 more ...*
+*... and 171 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,6 +86,7 @@
 
 ## In Progress (174)
 - ⏳ `ABSSeq`
+- ⏳ `AnVILAz`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocMaintainerApp`
@@ -134,11 +135,10 @@
 - ⏳ `ISoLDE`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
-- ⏳ `IsoCorrectoR`
 
 ... and 124 more ...
 
-## Not Yet Started (1989)
+## Not Yet Started (1987)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -171,7 +171,6 @@
 - ⏸️ `AlphaBeta`
 - ⏸️ `AlpsNMR`
 - ⏸️ `AnVIL`
-- ⏸️ `AnVILAz`
 - ⏸️ `AnVILGCP`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILWorkflow`
@@ -189,9 +188,10 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
+- ⏸️ `BEAT`
 
-... and 1939 more ...
+... and 1937 more ...
 
 ---
-*Last updated: 2026-11-03 04:09:57 UTC*
+*Last updated: 2026-11-03 04:11:18 UTC*
 *Packages with verified BBS status: 131*

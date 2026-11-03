@@ -580,23 +580,17 @@
     "mixOmics",
     "BiocParallel"
   ],
-  "AnVIL": [
-    "GCPtools"
-  ],
+  "AnVIL": [],
   "AnVILAz": [],
   "AnVILBilling": [],
-  "AnVILGCP": [
-    "GCPtools"
-  ],
+  "AnVILGCP": [],
   "AnVILPublish": [
     "AnVIL",
-    "AnVILGCP",
-    "GCPtools"
+    "AnVILGCP"
   ],
   "AnVILWorkflow": [
     "AnVILGCP",
-    "AnVIL",
-    "GCPtools"
+    "AnVIL"
   ],
   "Anaquin": [
     "DESeq2",
@@ -1577,7 +1571,6 @@
   "BiocAzul": [
     "AnVIL",
     "AnVILPublish",
-    "GCPtools",
     "AnVILGCP"
   ],
   "BiocBook": [
@@ -6176,7 +6169,6 @@
     "BiocGenerics",
     "XVector"
   ],
-  "GCPtools": [],
   "GDCRNATools": [
     "edgeR",
     "DESeq2",
@@ -6299,7 +6291,6 @@
     "SummarizedExperiment",
     "TCGAutils",
     "Rhtslib",
-    "GCPtools",
     "BiocGenerics",
     "Biobase",
     "DelayedArray",
@@ -18340,7 +18331,6 @@
     "GenomeInfoDb",
     "GenomicRanges",
     "rtracklayer",
-    "GCPtools",
     "BiocGenerics",
     "S4Vectors",
     "IRanges",
@@ -18527,7 +18517,6 @@
     "EBarrays",
     "minet",
     "graphite",
-    "GCPtools",
     "ggtree",
     "graph",
     "dir.expiry",
@@ -19059,7 +19048,6 @@
     "S4Vectors",
     "SummarizedExperiment",
     "TCGAutils",
-    "GCPtools",
     "BiocGenerics",
     "Biobase",
     "DelayedArray",
@@ -19173,7 +19161,6 @@
     "biomaRt",
     "genefilter",
     "KEGGREST",
-    "GCPtools",
     "RBGL",
     "DelayedArray",
     "S4Arrays",
@@ -19335,7 +19322,6 @@
     "Biobase",
     "BiocGenerics",
     "KEGGREST",
-    "GCPtools",
     "DelayedArray",
     "S4Arrays",
     "GenomeInfoDb",
@@ -27702,7 +27688,6 @@
     "cigarillo",
     "Rhtslib"
   ],
-  "mitch": [],
   "mitoClone2": [
     "GenomicRanges",
     "deepSNV",
@@ -35086,7 +35071,6 @@
     "RaggedExperiment",
     "S4Vectors",
     "TCGAutils",
-    "GCPtools",
     "BiocGenerics",
     "IRanges",
     "Seqinfo",
