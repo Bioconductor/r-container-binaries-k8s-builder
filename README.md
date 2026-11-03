@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1666 (68%)
+- **Successfully Built:** 1667 (68%)
 - **Failed:** 7 (0%)
 - **In Progress:** 147
-- **Not Started:** 617
+- **Not Started:** 616
 
 **Progress:** 68%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1666)
+## Successfully Built Packages (1667)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1616 more ...*
+*... and 1617 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -142,7 +142,7 @@
 
 ... and 97 more ...
 
-## Not Yet Started (617)
+## Not Yet Started (616)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -194,8 +194,8 @@
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 
-... and 567 more ...
+... and 566 more ...
 
 ---
-*Last updated: 2026-11-03 19:43:53 UTC*
+*Last updated: 2026-11-03 19:45:45 UTC*
 *Packages with verified BBS status: 214*
