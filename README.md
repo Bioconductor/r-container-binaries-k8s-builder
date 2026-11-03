@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 79 (3%)
+- **Successfully Built:** 82 (3%)
 - **Failed:** 0 (0%)
-- **In Progress:** 286
+- **In Progress:** 283
 - **Not Started:** 2072
 
 **Progress:** 3%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (79)
+## Successfully Built Packages (82)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,12 +46,10 @@
 | [GSEAmining](https://bioconductor.org/packages/3.24/bioc/html/GSEAmining.html) | [log](logs/GSEAmining/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSEAmining) |
 | [GSgalgoR](https://bioconductor.org/packages/3.24/bioc/html/GSgalgoR.html) | [log](logs/GSgalgoR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSgalgoR) |
 
-*... and 29 more ...*
+*... and 32 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [bugsigdbr](https://bioconductor.org/packages/3.24/bioc/html/bugsigdbr.html) | [log](logs/bugsigdbr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/bugsigdbr) |
-| [drawProteins](https://bioconductor.org/packages/3.24/bioc/html/drawProteins.html) | [log](logs/drawProteins/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/drawProteins) |
 | [easyreporting](https://bioconductor.org/packages/3.24/bioc/html/easyreporting.html) | [log](logs/easyreporting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/easyreporting) |
 | [eds](https://bioconductor.org/packages/3.24/bioc/html/eds.html) | [log](logs/eds/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/eds) |
 | [epivizrServer](https://bioconductor.org/packages/3.24/bioc/html/epivizrServer.html) | [log](logs/epivizrServer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/epivizrServer) |
@@ -60,6 +58,8 @@
 | [gesel](https://bioconductor.org/packages/3.24/bioc/html/gesel.html) | [log](logs/gesel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/gesel) |
 | [graper](https://bioconductor.org/packages/3.24/bioc/html/graper.html) | [log](logs/graper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/graper) |
 | [hypeR](https://bioconductor.org/packages/3.24/bioc/html/hypeR.html) | [log](logs/hypeR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/hypeR) |
+| [iSeq](https://bioconductor.org/packages/3.24/bioc/html/iSeq.html) | [log](logs/iSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/iSeq) |
+| [messina](https://bioconductor.org/packages/3.24/bioc/html/messina.html) | [log](logs/messina/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/messina) |
 | [metahdep](https://bioconductor.org/packages/3.24/bioc/html/metahdep.html) | [log](logs/metahdep/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/metahdep) |
 | [mistyR](https://bioconductor.org/packages/3.24/bioc/html/mistyR.html) | [log](logs/mistyR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/mistyR) |
 | [mitch](https://bioconductor.org/packages/3.24/bioc/html/mitch.html) | [log](logs/mitch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/mitch) |
@@ -76,7 +76,7 @@
 | [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
-## In Progress (286)
+## In Progress (283)
 - ⏳ `BADER`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -128,7 +128,7 @@
 - ⏳ `HPAanalyze`
 - ⏳ `HPiP`
 
-... and 236 more ...
+... and 233 more ...
 
 ## Not Yet Started (2072)
 - ⏸️ `ABSSeq`
@@ -185,5 +185,5 @@
 ... and 2022 more ...
 
 ---
-*Last updated: 2026-11-03 03:33:42 UTC*
-*Packages with verified BBS status: 75*
+*Last updated: 2026-11-03 03:35:20 UTC*
+*Packages with verified BBS status: 77*
