@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 698 (28%)
+- **Successfully Built:** 703 (28%)
 - **Failed:** 5 (0%)
-- **In Progress:** 43
+- **In Progress:** 38
 - **Not Started:** 1691
 
-**Progress:** 28%
+**Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (698)
+## Successfully Built Packages (703)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 648 more ...*
+*... and 653 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,14 +86,11 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (43)
+## In Progress (38)
 - ⏳ `ANF`
 - ⏳ `BUS`
 - ⏳ `BumpyMatrix`
-- ⏳ `CardinalIO`
-- ⏳ `CellMapper`
 - ⏳ `ComplexHeatmap`
-- ⏳ `DFplyr`
 - ⏳ `DirichletMultinomial`
 - ⏳ `EnrichDO`
 - ⏳ `ExploreModelMatrix`
@@ -105,13 +102,11 @@
 - ⏳ `QRscore`
 - ⏳ `RTCA`
 - ⏳ `RUVcorr`
-- ⏳ `RcwlPipelines`
 - ⏳ `S4Arrays`
 - ⏳ `STRprofilerR`
 - ⏳ `Seqinfo`
 - ⏳ `Spectra`
 - ⏳ `XVector`
-- ⏳ `alabaster.base`
 - ⏳ `ctsGE`
 - ⏳ `dStruct`
 - ⏳ `derfinderHelper`
@@ -186,5 +181,5 @@
 ... and 1641 more ...
 
 ---
-*Last updated: 2026-11-03 08:58:04 UTC*
+*Last updated: 2026-11-03 08:59:11 UTC*
 *Packages with verified BBS status: 183*

@@ -1640,10 +1640,7 @@
     "SparseArray",
     "XVector"
   ],
-  "Cardinal": [
-    "CardinalIO"
-  ],
-  "CardinalIO": [],
+  "Cardinal": [],
   "Category": [
     "AnnotationDbi",
     "GSEABase",
@@ -1706,7 +1703,6 @@
     "Seqinfo",
     "XVector"
   ],
-  "CellMapper": [],
   "CellMentor": [
     "SingleR",
     "SingleCellExperiment",
@@ -2617,7 +2613,6 @@
     "Biostrings",
     "XVector"
   ],
-  "DFplyr": [],
   "DMCFB": [
     "SummarizedExperiment",
     "GenomicRanges",
@@ -8273,10 +8268,7 @@
     "AnnotationDbi",
     "KEGGREST"
   ],
-  "RcwlPipelines": [],
-  "ReUseData": [
-    "RcwlPipelines"
-  ],
+  "ReUseData": [],
   "ReactomeGSA": [
     "BiocSingular",
     "SummarizedExperiment",
@@ -9448,8 +9440,7 @@
     "Spectra"
   ],
   "SpectraStash": [
-    "Spectra",
-    "alabaster.base"
+    "Spectra"
   ],
   "SpectralTAD": [
     "HiCcompare",
@@ -10795,7 +10786,6 @@
     "XVector"
   ],
   "alabaster": [
-    "alabaster.base",
     "alabaster.matrix",
     "alabaster.ranges",
     "alabaster.se",
@@ -10829,13 +10819,10 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "alabaster.base": [],
   "alabaster.bumpy": [
-    "BumpyMatrix",
-    "alabaster.base"
+    "BumpyMatrix"
   ],
   "alabaster.files": [
-    "alabaster.base",
     "Rsamtools",
     "Seqinfo",
     "GenomicRanges",
@@ -10844,7 +10831,6 @@
   ],
   "alabaster.mae": [
     "MultiAssayExperiment",
-    "alabaster.base",
     "alabaster.se",
     "SummarizedExperiment",
     "alabaster.ranges",
@@ -10859,7 +10845,6 @@
     "XVector"
   ],
   "alabaster.matrix": [
-    "alabaster.base",
     "DelayedArray",
     "S4Arrays",
     "SparseArray",
@@ -10869,12 +10854,10 @@
   ],
   "alabaster.ranges": [
     "GenomicRanges",
-    "alabaster.base",
     "Seqinfo"
   ],
   "alabaster.sce": [
     "SingleCellExperiment",
-    "alabaster.base",
     "alabaster.se",
     "SummarizedExperiment",
     "alabaster.ranges",
@@ -10890,7 +10873,6 @@
   ],
   "alabaster.se": [
     "SummarizedExperiment",
-    "alabaster.base",
     "alabaster.ranges",
     "alabaster.matrix",
     "GenomicRanges",
@@ -10904,7 +10886,6 @@
   ],
   "alabaster.sfe": [
     "SpatialFeatureExperiment",
-    "alabaster.base",
     "alabaster.sce",
     "alabaster.spatial",
     "SingleCellExperiment",
@@ -10929,7 +10910,6 @@
   ],
   "alabaster.spatial": [
     "SpatialExperiment",
-    "alabaster.base",
     "alabaster.sce",
     "SingleCellExperiment",
     "alabaster.se",
@@ -10947,12 +10927,10 @@
   ],
   "alabaster.string": [
     "Biostrings",
-    "alabaster.base",
     "XVector",
     "Seqinfo"
   ],
   "alabaster.vcf": [
-    "alabaster.base",
     "VariantAnnotation",
     "alabaster.se",
     "alabaster.string",
@@ -11260,7 +11238,6 @@
   "augere.de": [
     "alabaster.se",
     "SummarizedExperiment",
-    "alabaster.base",
     "alabaster.ranges",
     "alabaster.matrix",
     "GenomicRanges",
@@ -11276,7 +11253,6 @@
     "augere.de",
     "alabaster.se",
     "SummarizedExperiment",
-    "alabaster.base",
     "alabaster.ranges",
     "alabaster.matrix",
     "GenomicRanges",
@@ -11292,7 +11268,6 @@
     "augere.de",
     "alabaster.se",
     "SummarizedExperiment",
-    "alabaster.base",
     "alabaster.ranges",
     "alabaster.matrix",
     "GenomicRanges",
@@ -12305,7 +12280,6 @@
     "SingleCellExperiment",
     "chevreulProcess",
     "chevreulPlot",
-    "alabaster.base",
     "ComplexHeatmap",
     "wiggleplotr",
     "scater",
@@ -13910,9 +13884,7 @@
     "GenomicAlignments",
     "cigarillo"
   ],
-  "drugfindR": [
-    "DFplyr"
-  ],
+  "drugfindR": [],
   "dyebias": [
     "marray"
   ],
@@ -19157,8 +19129,7 @@
   ],
   "quantMSImageR": [
     "Cardinal",
-    "ComplexHeatmap",
-    "CardinalIO"
+    "ComplexHeatmap"
   ],
   "quantiseqr": [
     "SummarizedExperiment",
@@ -21092,7 +21063,6 @@
     "ResidualMatrix",
     "ScaledMatrix",
     "beachmat",
-    "alabaster.base",
     "alabaster.matrix",
     "alabaster.se",
     "S4Arrays",
