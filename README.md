@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 222 (9%)
+- **Successfully Built:** 232 (9%)
 - **Failed:** 2 (0%)
-- **In Progress:** 211
+- **In Progress:** 201
 - **Not Started:** 2002
 
 **Progress:** 9%
@@ -16,7 +16,7 @@
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (222)
+## Successfully Built Packages (232)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,17 +46,16 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 
-*... and 172 more ...*
+*... and 182 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [onlineFDR](https://bioconductor.org/packages/3.24/bioc/html/onlineFDR.html) | [log](logs/onlineFDR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/onlineFDR) |
-| [parody](https://bioconductor.org/packages/3.24/bioc/html/parody.html) | [log](logs/parody/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/parody) |
 | [pgca](https://bioconductor.org/packages/3.24/bioc/html/pgca.html) | [log](logs/pgca/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/pgca) |
 | [phosphonormalizer](https://bioconductor.org/packages/3.24/bioc/html/phosphonormalizer.html) | [log](logs/phosphonormalizer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/phosphonormalizer) |
 | [phylobar](https://bioconductor.org/packages/3.24/bioc/html/phylobar.html) | [log](logs/phylobar/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/phylobar) |
 | [planet](https://bioconductor.org/packages/3.24/bioc/html/planet.html) | [log](logs/planet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/planet) |
 | [preprocessCore](https://bioconductor.org/packages/3.24/bioc/html/preprocessCore.html) | [log](logs/preprocessCore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/preprocessCore) |
+| [quantsmooth](https://bioconductor.org/packages/3.24/bioc/html/quantsmooth.html) | [log](logs/quantsmooth/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/quantsmooth) |
 | [qvalue](https://bioconductor.org/packages/3.24/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/qvalue) |
 | [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 | [rWikiPathways](https://bioconductor.org/packages/3.24/bioc/html/rWikiPathways.html) | [log](logs/rWikiPathways/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rWikiPathways) |
@@ -74,6 +73,7 @@
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
+| [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 
 ## Failed Packages (2)
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (211)
+## In Progress (201)
 - ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -100,15 +100,11 @@
 - ⏳ `DNAcopy`
 - ⏳ `DepInfeR`
 - ⏳ `DepecheR`
-- ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
 - ⏳ `FRGEpistasis`
 - ⏳ `Fancy`
 - ⏳ `FitHiC`
 - ⏳ `GAprediction`
-- ⏳ `GEM`
-- ⏳ `GENIE3`
-- ⏳ `GEOfastq`
 - ⏳ `GIGSEA`
 - ⏳ `GenProSeq`
 - ⏳ `HGC`
@@ -134,8 +130,12 @@
 - ⏳ `LPE`
 - ⏳ `LedPred`
 - ⏳ `Linnorm`
+- ⏳ `M3C`
+- ⏳ `MACSQuantifyR`
+- ⏳ `MBAmethyl`
+- ⏳ `MODA`
 
-... and 161 more ...
+... and 151 more ...
 
 ## Not Yet Started (2002)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1952 more ...
 
 ---
-*Last updated: 2026-11-03 04:34:17 UTC*
-*Packages with verified BBS status: 117*
+*Last updated: 2026-11-03 04:36:45 UTC*
+*Packages with verified BBS status: 119*
