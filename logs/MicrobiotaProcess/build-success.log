@@ -1,0 +1,55 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''MicrobiotaProcess'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'MicrobiotaProcess'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/MicrobiotaProcess_1.24.0.tar.gz'
+Content type 'application/gzip' length 5067736 bytes (4.8 MB)
+==================================================
+downloaded 4.8 MB
+
+* installing *source* package ‘MicrobiotaProcess’ ...
+** this is package ‘MicrobiotaProcess’ version ‘1.24.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘taxonomy<-’ with signature ‘x="MPSE",value="taxonomyTable"’: no definition for class “taxonomyTable”
+Creating a generic function for ‘rownames<-’ from package ‘base’ in package ‘MicrobiotaProcess’
+in method for ‘get_alltaxadf’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_taxadf’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_alphaindex’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_NRI_NTI’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_rarecurve’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_upset’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘get_vennlist’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+in method for ‘drop_taxa’ with signature ‘"phyloseq"’: no definition for class “phyloseq”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MicrobiotaProcess’ as ‘MicrobiotaProcess_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MicrobiotaProcess)
+
+The downloaded source packages are in
+	‘/tmp/RtmpUnuTjP/downloaded_packages’
+Old packages: 'BreastSubtypeR', 'future', 'litedown', 'mirai', 'qs2', 'rsvd',
+  'curl', 'diffobj', 'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv',
+  'nlme', 'survival'
+
+real	0m59.646s
+user	0m52.966s
+sys	0m4.445s
