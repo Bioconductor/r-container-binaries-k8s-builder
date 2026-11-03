@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1214 (49%)
+- **Successfully Built:** 1215 (49%)
 - **Failed:** 5 (0%)
-- **In Progress:** 236
-- **Not Started:** 982
+- **In Progress:** 256
+- **Not Started:** 961
 
 **Progress:** 50%
 ```
 █████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1214)
+## Successfully Built Packages (1215)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBase](https://bioconductor.org/packages/3.24/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBase) |
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 
-*... and 1164 more ...*
+*... and 1165 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (236)
+## In Progress (256)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
@@ -105,11 +105,13 @@
 - ⏳ `CAEN`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
+- ⏳ `CNTools`
 - ⏳ `CNVPanelizer`
 - ⏳ `CPSM`
 - ⏳ `CSOA`
 - ⏳ `CaDrA`
 - ⏳ `CalibraCurve`
+- ⏳ `Category`
 - ⏳ `CellTrails`
 - ⏳ `Cepo`
 - ⏳ `ClusterFoldSimilarity`
@@ -117,12 +119,14 @@
 - ⏳ `CrcBiomeScreen`
 - ⏳ `CyTOFpower`
 - ⏳ `DESeq2`
+- ⏳ `DNEA`
 - ⏳ `DOSE`
 - ⏳ `DiPPER`
 - ⏳ `DifferentialRegulation`
 - ⏳ `DiscoRhythm`
 - ⏳ `Dune`
 - ⏳ `EnrichmentBrowser`
+- ⏳ `EpiDISH`
 - ⏳ `ExpoRiskR`
 - ⏳ `FuseSOM`
 - ⏳ `GBScleanR`
@@ -131,16 +135,12 @@
 - ⏳ `GENESIS`
 - ⏳ `GEOquery`
 - ⏳ `GOexpress`
-- ⏳ `GSVA`
-- ⏳ `GenomicSuperSignature`
-- ⏳ `GenomicTuples`
-- ⏳ `GeoDiff`
-- ⏳ `GeoTcgaData`
-- ⏳ `GrafGen`
+- ⏳ `GSRI`
+- ⏳ `GeneMeta`
 
-... and 186 more ...
+... and 206 more ...
 
-## Not Yet Started (982)
+## Not Yet Started (961)
 - ⏸️ `ACE`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -192,8 +192,8 @@
 - ⏸️ `CBN2Path`
 - ⏸️ `CBNplot`
 
-... and 932 more ...
+... and 911 more ...
 
 ---
-*Last updated: 2026-11-03 15:16:46 UTC*
+*Last updated: 2026-11-03 15:20:22 UTC*
 *Packages with verified BBS status: 196*
