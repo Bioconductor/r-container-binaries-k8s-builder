@@ -1,0 +1,352 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GSEAmining'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GSEAmining'
+also installing the dependencies ‘fontBitstreamVera’, ‘fontLiberation’, ‘fontquiver’, ‘gdtools’, ‘tweenr’, ‘polyclip’, ‘litedown’, ‘ggiraph’, ‘ggforce’, ‘SnowballC’, ‘markdown’, ‘DOSE’, ‘ggfun’, ‘ggnewscale’, ‘ggtangle’, ‘ggtree’, ‘scatterpie’, ‘tidydr’, ‘janeaustenr’, ‘tokenizers’, ‘gridtext’, ‘enrichit’, ‘enrichplot’, ‘GO.db’, ‘GOSemSim’, ‘gson’, ‘NLP’, ‘slam’, ‘tidytext’, ‘dendextend’, ‘ggwordcloud’, ‘clusterProfiler’, ‘tm’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/fontBitstreamVera_0.1.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/fontLiberation_0.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/fontquiver_0.2.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/gdtools_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tweenr_2.0.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/polyclip_1.10-7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/litedown_0.11.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggiraph_0.9.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggforce_0.5.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/SnowballC_0.7.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/markdown_2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DOSE_4.7.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggfun_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggnewscale_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggtangle_0.1.4.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/ggtree_4.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/scatterpie_0.2.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tidydr_0.0.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/janeaustenr_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tokenizers_0.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/gridtext_0.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/enrichit_0.2.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/enrichplot_1.99.8.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/annotation/src/contrib/GO.db_3.23.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GOSemSim_2.39.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/gson_0.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/NLP_0.3-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/slam_0.1-56.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tidytext_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/dendextend_1.19.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggwordcloud_0.6.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/clusterProfiler_4.21.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tm_0.7-20.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GSEAmining_1.23.0.tar.gz'
+* installing *binary* package ‘fontBitstreamVera’ ...
+* package ‘fontBitstreamVera’ successfully unpacked and SHA256 sums checked
+* ‘fontBitstreamVera’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontBitstreamVera’ as ‘fontBitstreamVera_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontBitstreamVera)
+* installing *binary* package ‘fontLiberation’ ...
+* package ‘fontLiberation’ successfully unpacked and SHA256 sums checked
+* ‘fontLiberation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontLiberation’ as ‘fontLiberation_0.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontLiberation)
+* installing *binary* package ‘tweenr’ ...
+* package ‘tweenr’ successfully unpacked and SHA256 sums checked
+* ‘tweenr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tweenr’ as ‘tweenr_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tweenr)
+* installing *binary* package ‘polyclip’ ...
+* package ‘polyclip’ successfully unpacked and SHA256 sums checked
+* ‘polyclip’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polyclip’ as ‘polyclip_1.10-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polyclip)
+* installing *binary* package ‘litedown’ ...
+* package ‘litedown’ successfully unpacked and SHA256 sums checked
+* ‘litedown’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘litedown’ as ‘litedown_0.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (litedown)
+* installing *binary* package ‘SnowballC’ ...
+* package ‘SnowballC’ successfully unpacked and SHA256 sums checked
+* ‘SnowballC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SnowballC’ as ‘SnowballC_0.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SnowballC)
+* installing *binary* package ‘ggfun’ ...
+* package ‘ggfun’ successfully unpacked and SHA256 sums checked
+* ‘ggfun’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggfun’ as ‘ggfun_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggfun)
+* installing *binary* package ‘ggnewscale’ ...
+* package ‘ggnewscale’ successfully unpacked and SHA256 sums checked
+* ‘ggnewscale’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggnewscale’ as ‘ggnewscale_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggnewscale)
+* installing *binary* package ‘janeaustenr’ ...
+* package ‘janeaustenr’ successfully unpacked and SHA256 sums checked
+* ‘janeaustenr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘janeaustenr’ as ‘janeaustenr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (janeaustenr)
+* installing *binary* package ‘enrichit’ ...
+* package ‘enrichit’ successfully unpacked and SHA256 sums checked
+* ‘enrichit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘enrichit’ as ‘enrichit_0.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (enrichit)
+* installing *source* package ‘GO.db’ ...
+** this is package ‘GO.db’ version ‘3.23.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GO.db’ as ‘GO.db_3.23.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GO.db)
+* installing *binary* package ‘gson’ ...
+* package ‘gson’ successfully unpacked and SHA256 sums checked
+* ‘gson’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gson’ as ‘gson_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gson)
+* installing *binary* package ‘NLP’ ...
+* package ‘NLP’ successfully unpacked and SHA256 sums checked
+* ‘NLP’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘NLP’ as ‘NLP_0.3-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NLP)
+* installing *binary* package ‘slam’ ...
+* package ‘slam’ successfully unpacked and SHA256 sums checked
+* ‘slam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘slam’ as ‘slam_0.1-56_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (slam)
+* installing *binary* package ‘dendextend’ ...
+* package ‘dendextend’ successfully unpacked and SHA256 sums checked
+* ‘dendextend’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘dendextend’ as ‘dendextend_1.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dendextend)
+* installing *binary* package ‘fontquiver’ ...
+* package ‘fontquiver’ successfully unpacked and SHA256 sums checked
+* ‘fontquiver’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fontquiver’ as ‘fontquiver_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fontquiver)
+* installing *binary* package ‘ggforce’ ...
+* package ‘ggforce’ successfully unpacked and SHA256 sums checked
+* ‘ggforce’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggforce’ as ‘ggforce_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggforce)
+* installing *binary* package ‘markdown’ ...
+* package ‘markdown’ successfully unpacked and SHA256 sums checked
+* ‘markdown’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *binary* package ‘ggtangle’ ...
+* package ‘ggtangle’ successfully unpacked and SHA256 sums checked
+* ‘ggtangle’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggtangle’ as ‘ggtangle_0.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtangle)
+* installing *binary* package ‘tidydr’ ...
+* package ‘tidydr’ successfully unpacked and SHA256 sums checked
+* ‘tidydr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidydr’ as ‘tidydr_0.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidydr)
+* installing *binary* package ‘tokenizers’ ...
+* package ‘tokenizers’ successfully unpacked and SHA256 sums checked
+* ‘tokenizers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tokenizers’ as ‘tokenizers_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tokenizers)
+* installing *source* package ‘GOSemSim’ ...
+** this is package ‘GOSemSim’ version ‘2.39.4’
+** package ‘GOSemSim’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c ICmethod.cpp -o ICmethod.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GOSemSim.so ICmethod.o RcppExports.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-GOSemSim/00new/GOSemSim/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GOSemSim’ as ‘GOSemSim_2.39.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GOSemSim)
+* installing *binary* package ‘tm’ ...
+* package ‘tm’ successfully unpacked and SHA256 sums checked
+* ‘tm’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tm’ as ‘tm_0.7-20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tm)
+* installing *binary* package ‘gdtools’ ...
+* package ‘gdtools’ successfully unpacked and SHA256 sums checked
+* ‘gdtools’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gdtools’ as ‘gdtools_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gdtools)
+* installing *source* package ‘DOSE’ ...
+** this is package ‘DOSE’ version ‘4.7.3’
+** package ‘DOSE’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DOSE’ as ‘DOSE_4.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DOSE)
+* installing *binary* package ‘scatterpie’ ...
+* package ‘scatterpie’ successfully unpacked and SHA256 sums checked
+* ‘scatterpie’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scatterpie’ as ‘scatterpie_0.2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scatterpie)
+* installing *binary* package ‘gridtext’ ...
+* package ‘gridtext’ successfully unpacked and SHA256 sums checked
+* ‘gridtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gridtext’ as ‘gridtext_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridtext)
+* installing *binary* package ‘tidytext’ ...
+* package ‘tidytext’ successfully unpacked and SHA256 sums checked
+* ‘tidytext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidytext’ as ‘tidytext_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidytext)
+* installing *binary* package ‘ggiraph’ ...
+* package ‘ggiraph’ successfully unpacked and SHA256 sums checked
+* ‘ggiraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggiraph’ as ‘ggiraph_0.9.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggiraph)
+* installing *binary* package ‘ggwordcloud’ ...
+* package ‘ggwordcloud’ successfully unpacked and SHA256 sums checked
+* ‘ggwordcloud’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggwordcloud’ as ‘ggwordcloud_0.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggwordcloud)
+* installing *source* package ‘ggtree’ ...
+** this is package ‘ggtree’ version ‘4.3.0’
+** package ‘ggtree’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+  there is no package called ‘ggplotify’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘ggtree’
+* removing ‘/tmp/library/ggtree’
+* installing *source* package ‘GSEAmining’ ...
+** this is package ‘GSEAmining’ version ‘1.23.0’
+** package ‘GSEAmining’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSEAmining’ as ‘GSEAmining_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEAmining)
+ERROR: dependency ‘ggtree’ is not available for package ‘enrichplot’
+Perhaps try a variation of:
+install.packages('ggtree')
+* removing ‘/tmp/library/enrichplot’
+ERROR: dependency ‘enrichplot’ is not available for package ‘clusterProfiler’
+Perhaps try a variation of:
+install.packages('enrichplot')
+* removing ‘/tmp/library/clusterProfiler’
+
+The downloaded source packages are in
+	‘/tmp/RtmpCTRCMg/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘ggtree’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘enrichplot’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘clusterProfiler’ had non-zero exit status
+
+real	1m41.799s
+user	1m29.730s
+sys	0m14.050s

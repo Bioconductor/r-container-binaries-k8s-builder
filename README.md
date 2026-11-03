@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 19 (0%)
+- **Successfully Built:** 42 (1%)
 - **Failed:** 0 (0%)
-- **In Progress:** 333
+- **In Progress:** 310
 - **Not Started:** 2085
 
-**Progress:** 0%
+**Progress:** 1%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (19)
+## Successfully Built Packages (42)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -33,16 +33,38 @@
 | [BG2](https://bioconductor.org/packages/3.24/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.24/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
+| [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [GRENITS](https://bioconductor.org/packages/3.24/bioc/html/GRENITS.html) | [log](logs/GRENITS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GRENITS) |
 | [GSALightning](https://bioconductor.org/packages/3.24/bioc/html/GSALightning.html) | [log](logs/GSALightning/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSALightning) |
+| [GSAR](https://bioconductor.org/packages/3.24/bioc/html/GSAR.html) | [log](logs/GSAR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSAR) |
+| [GSEAmining](https://bioconductor.org/packages/3.24/bioc/html/GSEAmining.html) | [log](logs/GSEAmining/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSEAmining) |
+| [GSgalgoR](https://bioconductor.org/packages/3.24/bioc/html/GSgalgoR.html) | [log](logs/GSgalgoR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GSgalgoR) |
+| [GeneGA](https://bioconductor.org/packages/3.24/bioc/html/GeneGA.html) | [log](logs/GeneGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GeneGA) |
+| [GeneOverlap](https://bioconductor.org/packages/3.24/bioc/html/GeneOverlap.html) | [log](logs/GeneOverlap/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GeneOverlap) |
+| [GeneticsPed](https://bioconductor.org/packages/3.24/bioc/html/GeneticsPed.html) | [log](logs/GeneticsPed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GeneticsPed) |
+| [GladiaTOX](https://bioconductor.org/packages/3.24/bioc/html/GladiaTOX.html) | [log](logs/GladiaTOX/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GladiaTOX) |
+| [GraphAlignment](https://bioconductor.org/packages/3.24/bioc/html/GraphAlignment.html) | [log](logs/GraphAlignment/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/GraphAlignment) |
+| [HDTD](https://bioconductor.org/packages/3.24/bioc/html/HDTD.html) | [log](logs/HDTD/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HDTD) |
+| [HMMcopy](https://bioconductor.org/packages/3.24/bioc/html/HMMcopy.html) | [log](logs/HMMcopy/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/HMMcopy) |
+| [OmnipathR](https://bioconductor.org/packages/3.24/bioc/html/OmnipathR.html) | [log](logs/OmnipathR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/OmnipathR) |
 | [REBET](https://bioconductor.org/packages/3.24/bioc/html/REBET.html) | [log](logs/REBET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/REBET) |
+| [affyio](https://bioconductor.org/packages/3.24/bioc/html/affyio.html) | [log](logs/affyio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/affyio) |
+| [agilp](https://bioconductor.org/packages/3.24/bioc/html/agilp.html) | [log](logs/agilp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/agilp) |
+| [alabaster.schemas](https://bioconductor.org/packages/3.24/bioc/html/alabaster.schemas.html) | [log](logs/alabaster.schemas/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/alabaster.schemas) |
+| [drawProteins](https://bioconductor.org/packages/3.24/bioc/html/drawProteins.html) | [log](logs/drawProteins/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/drawProteins) |
+| [easyreporting](https://bioconductor.org/packages/3.24/bioc/html/easyreporting.html) | [log](logs/easyreporting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/easyreporting) |
+| [eds](https://bioconductor.org/packages/3.24/bioc/html/eds.html) | [log](logs/eds/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/eds) |
+| [epivizrServer](https://bioconductor.org/packages/3.24/bioc/html/epivizrServer.html) | [log](logs/epivizrServer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/epivizrServer) |
+| [fCI](https://bioconductor.org/packages/3.24/bioc/html/fCI.html) | [log](logs/fCI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/fCI) |
+| [graper](https://bioconductor.org/packages/3.24/bioc/html/graper.html) | [log](logs/graper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/graper) |
+| [phosphonormalizer](https://bioconductor.org/packages/3.24/bioc/html/phosphonormalizer.html) | [log](logs/phosphonormalizer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/phosphonormalizer) |
+| [phylobar](https://bioconductor.org/packages/3.24/bioc/html/phylobar.html) | [log](logs/phylobar/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/phylobar) |
 | [qvalue](https://bioconductor.org/packages/3.24/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/qvalue) |
 | [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 
-## In Progress (333)
+## In Progress (310)
 - ⏳ `BADER`
-- ⏳ `BenchHub`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocFileCache`
 - ⏳ `BiocGenerics`
@@ -90,9 +112,10 @@
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 - ⏳ `GPA`
-- ⏳ `GSAR`
+- ⏳ `HGC`
+- ⏳ `HIBAG`
 
-... and 283 more ...
+... and 260 more ...
 
 ## Not Yet Started (2085)
 - ⏸️ `ABSSeq`
@@ -149,5 +172,5 @@
 ... and 2035 more ...
 
 ---
-*Last updated: 2026-11-03 03:09:05 UTC*
-*Packages with verified BBS status: 19*
+*Last updated: 2026-11-03 03:20:15 UTC*
+*Packages with verified BBS status: 42*

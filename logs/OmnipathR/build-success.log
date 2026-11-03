@@ -1,0 +1,186 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''OmnipathR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'OmnipathR'
+also installing the dependencies ‘tidygraph’, ‘graphlayouts’, ‘mlr’, ‘BBmisc’, ‘lhs’, ‘fastmatch’, ‘deSolve’, ‘logger’, ‘ggraph’, ‘gprofiler2’, ‘mlrMBO’, ‘parallelMap’, ‘ParamHelpers’, ‘R.matlab’, ‘SBMLR’, ‘sigmajs’, ‘smoof’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/tidygraph_1.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/graphlayouts_1.2.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/mlr_2.19.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/BBmisc_1.13.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/lhs_1.3.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/fastmatch_1.1-8.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/deSolve_1.42.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/logger_0.4.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggraph_2.2.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/gprofiler2_0.2.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/mlrMBO_1.1.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/parallelMap_1.5.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ParamHelpers_1.14.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/R.matlab_3.8.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/SBMLR_2.9.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/sigmajs_0.1.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/smoof_1.7.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/OmnipathR_4.1.1.tar.gz'
+* installing *binary* package ‘tidygraph’ ...
+* package ‘tidygraph’ successfully unpacked and SHA256 sums checked
+* ‘tidygraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘tidygraph’ as ‘tidygraph_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidygraph)
+* installing *binary* package ‘graphlayouts’ ...
+* package ‘graphlayouts’ successfully unpacked and SHA256 sums checked
+* ‘graphlayouts’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘graphlayouts’ as ‘graphlayouts_1.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (graphlayouts)
+* installing *binary* package ‘BBmisc’ ...
+* package ‘BBmisc’ successfully unpacked and SHA256 sums checked
+* ‘BBmisc’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘BBmisc’ as ‘BBmisc_1.13.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BBmisc)
+* installing *binary* package ‘lhs’ ...
+* package ‘lhs’ successfully unpacked and SHA256 sums checked
+* ‘lhs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lhs’ as ‘lhs_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lhs)
+* installing *binary* package ‘fastmatch’ ...
+* package ‘fastmatch’ successfully unpacked and SHA256 sums checked
+* ‘fastmatch’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fastmatch’ as ‘fastmatch_1.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastmatch)
+* installing *binary* package ‘deSolve’ ...
+* package ‘deSolve’ successfully unpacked and SHA256 sums checked
+* ‘deSolve’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘deSolve’ as ‘deSolve_1.42_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deSolve)
+* installing *binary* package ‘logger’ ...
+* package ‘logger’ successfully unpacked and SHA256 sums checked
+* ‘logger’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘logger’ as ‘logger_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logger)
+* installing *binary* package ‘gprofiler2’ ...
+* package ‘gprofiler2’ successfully unpacked and SHA256 sums checked
+* ‘gprofiler2’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gprofiler2’ as ‘gprofiler2_0.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gprofiler2)
+* installing *binary* package ‘R.matlab’ ...
+* package ‘R.matlab’ successfully unpacked and SHA256 sums checked
+* ‘R.matlab’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘R.matlab’ as ‘R.matlab_3.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.matlab)
+* installing *binary* package ‘sigmajs’ ...
+* package ‘sigmajs’ successfully unpacked and SHA256 sums checked
+* ‘sigmajs’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘sigmajs’ as ‘sigmajs_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sigmajs)
+* installing *binary* package ‘ggraph’ ...
+* package ‘ggraph’ successfully unpacked and SHA256 sums checked
+* ‘ggraph’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggraph’ as ‘ggraph_2.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggraph)
+* installing *binary* package ‘parallelMap’ ...
+* package ‘parallelMap’ successfully unpacked and SHA256 sums checked
+* ‘parallelMap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘parallelMap’ as ‘parallelMap_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelMap)
+* installing *binary* package ‘ParamHelpers’ ...
+* package ‘ParamHelpers’ successfully unpacked and SHA256 sums checked
+* ‘ParamHelpers’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ParamHelpers’ as ‘ParamHelpers_1.14.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ParamHelpers)
+* installing *source* package ‘SBMLR’ ...
+** this is package ‘SBMLR’ version ‘2.9.0’
+** package ‘SBMLR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SBMLR’ as ‘SBMLR_2.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SBMLR)
+* installing *source* package ‘OmnipathR’ ...
+** this is package ‘OmnipathR’ version ‘4.1.1’
+** package ‘OmnipathR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘OmnipathR’ as ‘OmnipathR_4.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OmnipathR)
+* installing *binary* package ‘mlr’ ...
+* package ‘mlr’ successfully unpacked and SHA256 sums checked
+* ‘mlr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlr’ as ‘mlr_2.19.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlr)
+* installing *binary* package ‘smoof’ ...
+* package ‘smoof’ successfully unpacked and SHA256 sums checked
+* ‘smoof’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘smoof’ as ‘smoof_1.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (smoof)
+* installing *binary* package ‘mlrMBO’ ...
+* package ‘mlrMBO’ successfully unpacked and SHA256 sums checked
+* ‘mlrMBO’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mlrMBO’ as ‘mlrMBO_1.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mlrMBO)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpuo1jrG/downloaded_packages’
+
+real	0m32.832s
+user	0m26.180s
+sys	0m6.931s

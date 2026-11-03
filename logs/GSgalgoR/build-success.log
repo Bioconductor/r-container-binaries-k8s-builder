@@ -1,0 +1,513 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''GSgalgoR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'GSgalgoR'
+also installing the dependencies ‘fracdiff’, ‘lmtest’, ‘urca’, ‘Deriv’, ‘forecast’, ‘doBy’, ‘SparseM’, ‘MatrixModels’, ‘carData’, ‘pbkrtest’, ‘quantreg’, ‘corrplot’, ‘car’, ‘statmod’, ‘ggsci’, ‘cowplot’, ‘ggsignif’, ‘polynom’, ‘rstatix’, ‘exactRankTests’, ‘mco’, ‘biomaRt’, ‘iC10’, ‘AIMS’, ‘amap’, ‘impute’, ‘mclust’, ‘limma’, ‘SuppDists’, ‘survivalROC’, ‘bootstrap’, ‘ggpubr’, ‘maxstat’, ‘ggtext’, ‘matchingR’, ‘nsga2R’, ‘genefu’, ‘survcomp’, ‘survminer’, ‘breastCancerTRANSBIG’, ‘breastCancerUPP’, ‘iC10TrainingData’, ‘pamr’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/fracdiff_1.5-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/lmtest_0.9-40.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/urca_1.3-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/Deriv_4.3.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/forecast_9.0.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/doBy_4.7.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/SparseM_1.84-2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/MatrixModels_0.5-4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/carData_3.0-6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/pbkrtest_0.5.5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/quantreg_6.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/corrplot_0.95.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/car_3.1-5.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/statmod_1.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggsci_5.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/cowplot_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggsignif_0.6.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/polynom_1.4-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/rstatix_1.1.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/exactRankTests_0.8-37.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/mco_1.17.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/biomaRt_2.69.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/iC10_2.0.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/AIMS_1.45.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/amap_0.8-20.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/impute_1.87.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/mclust_6.1.3.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/limma_3.99.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/SuppDists_1.1-9.9.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/survivalROC_1.0.3.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/bootstrap_2019.6.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggpubr_1.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/maxstat_0.7-26.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ggtext_0.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/matchingR_2.0.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/nsga2R_1.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/genefu_2.45.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/survcomp_1.63.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/survminer_0.5.2.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/breastCancerTRANSBIG_1.51.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/data/experiment/src/contrib/breastCancerUPP_1.51.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/iC10TrainingData_2.0.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/pamr_1.57.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/GSgalgoR_1.23.0.tar.gz'
+* installing *binary* package ‘fracdiff’ ...
+* package ‘fracdiff’ successfully unpacked and SHA256 sums checked
+* ‘fracdiff’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘fracdiff’ as ‘fracdiff_1.5-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fracdiff)
+* installing *binary* package ‘lmtest’ ...
+* package ‘lmtest’ successfully unpacked and SHA256 sums checked
+* ‘lmtest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lmtest’ as ‘lmtest_0.9-40_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmtest)
+* installing *binary* package ‘urca’ ...
+* package ‘urca’ successfully unpacked and SHA256 sums checked
+* ‘urca’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘urca’ as ‘urca_1.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (urca)
+* installing *binary* package ‘Deriv’ ...
+* package ‘Deriv’ successfully unpacked and SHA256 sums checked
+* ‘Deriv’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Deriv’ as ‘Deriv_4.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Deriv)
+* installing *binary* package ‘SparseM’ ...
+* package ‘SparseM’ successfully unpacked and SHA256 sums checked
+* ‘SparseM’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.84-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *binary* package ‘MatrixModels’ ...
+* package ‘MatrixModels’ successfully unpacked and SHA256 sums checked
+* ‘MatrixModels’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘MatrixModels’ as ‘MatrixModels_0.5-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixModels)
+* installing *binary* package ‘carData’ ...
+* package ‘carData’ successfully unpacked and SHA256 sums checked
+* ‘carData’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘carData’ as ‘carData_3.0-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (carData)
+* installing *binary* package ‘corrplot’ ...
+* package ‘corrplot’ successfully unpacked and SHA256 sums checked
+* ‘corrplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘corrplot’ as ‘corrplot_0.95_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corrplot)
+* installing *binary* package ‘statmod’ ...
+* package ‘statmod’ successfully unpacked and SHA256 sums checked
+* ‘statmod’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘statmod’ as ‘statmod_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statmod)
+* installing *binary* package ‘ggsci’ ...
+* package ‘ggsci’ successfully unpacked and SHA256 sums checked
+* ‘ggsci’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsci’ as ‘ggsci_5.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsci)
+* installing *binary* package ‘cowplot’ ...
+* package ‘cowplot’ successfully unpacked and SHA256 sums checked
+* ‘cowplot’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘cowplot’ as ‘cowplot_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cowplot)
+* installing *binary* package ‘ggsignif’ ...
+* package ‘ggsignif’ successfully unpacked and SHA256 sums checked
+* ‘ggsignif’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsignif’ as ‘ggsignif_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsignif)
+* installing *binary* package ‘polynom’ ...
+* package ‘polynom’ successfully unpacked and SHA256 sums checked
+* ‘polynom’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘polynom’ as ‘polynom_1.4-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polynom)
+* installing *binary* package ‘exactRankTests’ ...
+* package ‘exactRankTests’ successfully unpacked and SHA256 sums checked
+* ‘exactRankTests’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘exactRankTests’ as ‘exactRankTests_0.8-37_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (exactRankTests)
+* installing *binary* package ‘mco’ ...
+* package ‘mco’ successfully unpacked and SHA256 sums checked
+* ‘mco’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mco’ as ‘mco_1.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mco)
+* installing *source* package ‘biomaRt’ ...
+** this is package ‘biomaRt’ version ‘2.69.3’
+** package ‘biomaRt’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘biomaRt’ as ‘biomaRt_2.69.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomaRt)
+* installing *source* package ‘AIMS’ ...
+** this is package ‘AIMS’ version ‘1.45.0’
+** package ‘AIMS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘AIMS’ as ‘AIMS_1.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AIMS)
+* installing *binary* package ‘amap’ ...
+* package ‘amap’ successfully unpacked and SHA256 sums checked
+* ‘amap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘amap’ as ‘amap_0.8-20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (amap)
+* installing *source* package ‘impute’ ...
+** this is package ‘impute’ version ‘1.87.0’
+** package ‘impute’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gfortran  -fpic  -g -O2  -c knnimpute.f -o knnimpute.o
+knnimpute.f:99:72:
+
+   99 | 20                        pos(k1+1) = pos(k1)
+      |                                                                             1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+knnimpute.f:113:72:
+
+  113 | 35                        pos(k1+1) = pos(k1)
+      |                                                                             1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 35 at (1)
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o impute.so knnimpute.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-impute/00new/impute/libs
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘impute’ as ‘impute_1.87.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (impute)
+* installing *binary* package ‘mclust’ ...
+* package ‘mclust’ successfully unpacked and SHA256 sums checked
+* ‘mclust’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘mclust’ as ‘mclust_6.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mclust)
+* installing *binary* package ‘SuppDists’ ...
+* package ‘SuppDists’ successfully unpacked and SHA256 sums checked
+* ‘SuppDists’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘SuppDists’ as ‘SuppDists_1.1-9.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SuppDists)
+* installing *binary* package ‘survivalROC’ ...
+* package ‘survivalROC’ successfully unpacked and SHA256 sums checked
+* ‘survivalROC’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘survivalROC’ as ‘survivalROC_1.0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survivalROC)
+* installing *binary* package ‘bootstrap’ ...
+* package ‘bootstrap’ successfully unpacked and SHA256 sums checked
+* ‘bootstrap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘bootstrap’ as ‘bootstrap_2019.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bootstrap)
+* installing *binary* package ‘ggtext’ ...
+* package ‘ggtext’ successfully unpacked and SHA256 sums checked
+* ‘ggtext’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggtext’ as ‘ggtext_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtext)
+* installing *binary* package ‘matchingR’ ...
+* package ‘matchingR’ successfully unpacked and SHA256 sums checked
+* ‘matchingR’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘matchingR’ as ‘matchingR_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (matchingR)
+* installing *source* package ‘breastCancerTRANSBIG’ ...
+** this is package ‘breastCancerTRANSBIG’ version ‘1.51.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breastCancerTRANSBIG’ as ‘breastCancerTRANSBIG_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerTRANSBIG)
+* installing *source* package ‘breastCancerUPP’ ...
+** this is package ‘breastCancerUPP’ version ‘1.51.0’
+** using staged installation
+** data
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘breastCancerUPP’ as ‘breastCancerUPP_1.51.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (breastCancerUPP)
+* installing *binary* package ‘iC10TrainingData’ ...
+* package ‘iC10TrainingData’ successfully unpacked and SHA256 sums checked
+* ‘iC10TrainingData’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iC10TrainingData’ as ‘iC10TrainingData_2.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iC10TrainingData)
+* installing *binary* package ‘pamr’ ...
+* package ‘pamr’ successfully unpacked and SHA256 sums checked
+* ‘pamr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pamr’ as ‘pamr_1.57_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pamr)
+* installing *binary* package ‘forecast’ ...
+* package ‘forecast’ successfully unpacked and SHA256 sums checked
+* ‘forecast’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘forecast’ as ‘forecast_9.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (forecast)
+* installing *binary* package ‘quantreg’ ...
+* package ‘quantreg’ successfully unpacked and SHA256 sums checked
+* ‘quantreg’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘quantreg’ as ‘quantreg_6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantreg)
+* installing *binary* package ‘iC10’ ...
+* package ‘iC10’ successfully unpacked and SHA256 sums checked
+* ‘iC10’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘iC10’ as ‘iC10_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iC10)
+* installing *source* package ‘limma’ ...
+** this is package ‘limma’ version ‘3.99.3’
+** package ‘limma’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_exports.c -o R_exports.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c awreml.c -o awreml.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dupcor.c -o dupcor.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gls.c -o gls.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lm.c -o lm.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c normexp.c -o normexp.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c poisson.c -o poisson.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c qr.c -o qr.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c threads.c -o threads.o
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c weighted_lowess.c -o weighted_lowess.o
+gcc -std=gnu2x -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o limma.so R_exports.o awreml.o dupcor.o gls.o init.o lm.o normexp.o poisson.o qr.o threads.o weighted_lowess.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-limma/00new/limma/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘limma’ as ‘limma_3.99.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (limma)
+* installing *binary* package ‘maxstat’ ...
+* package ‘maxstat’ successfully unpacked and SHA256 sums checked
+* ‘maxstat’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘maxstat’ as ‘maxstat_0.7-26_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maxstat)
+* installing *binary* package ‘nsga2R’ ...
+* package ‘nsga2R’ successfully unpacked and SHA256 sums checked
+* ‘nsga2R’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘nsga2R’ as ‘nsga2R_1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nsga2R)
+* installing *source* package ‘survcomp’ ...
+** this is package ‘survcomp’ version ‘1.63.0’
+** package ‘survcomp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+gcc -std=gnu2x -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c concordance.index.c -o concordance.index.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c foo_mrmr_ensemble_surv.cpp -o foo_mrmr_ensemble_surv.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c foo_mrmr_surv.cpp -o foo_mrmr_surv.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c survcomp_init.cpp -o survcomp_init.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o survcomp.so concordance.index.o foo_mrmr_ensemble_surv.o foo_mrmr_surv.o survcomp_init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-survcomp/00new/survcomp/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘survcomp’ as ‘survcomp_1.63.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survcomp)
+* installing *binary* package ‘doBy’ ...
+* package ‘doBy’ successfully unpacked and SHA256 sums checked
+* ‘doBy’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘doBy’ as ‘doBy_4.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doBy)
+* installing *source* package ‘genefu’ ...
+** this is package ‘genefu’ version ‘2.45.0’
+** package ‘genefu’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘limma::logsumexp’ by ‘mclust::logsumexp’ when loading ‘genefu’
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘genefu’ as ‘genefu_2.45.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genefu)
+* installing *source* package ‘GSgalgoR’ ...
+** this is package ‘GSgalgoR’ version ‘1.23.0’
+** package ‘GSgalgoR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘GSgalgoR’ as ‘GSgalgoR_1.23.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSgalgoR)
+* installing *binary* package ‘pbkrtest’ ...
+* package ‘pbkrtest’ successfully unpacked and SHA256 sums checked
+* ‘pbkrtest’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘pbkrtest’ as ‘pbkrtest_0.5.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbkrtest)
+* installing *binary* package ‘car’ ...
+* package ‘car’ successfully unpacked and SHA256 sums checked
+* ‘car’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘car’ as ‘car_3.1-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (car)
+* installing *binary* package ‘rstatix’ ...
+* package ‘rstatix’ successfully unpacked and SHA256 sums checked
+* ‘rstatix’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rstatix’ as ‘rstatix_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rstatix)
+* installing *binary* package ‘ggpubr’ ...
+* package ‘ggpubr’ successfully unpacked and SHA256 sums checked
+* ‘ggpubr’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggpubr’ as ‘ggpubr_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggpubr)
+* installing *binary* package ‘survminer’ ...
+* package ‘survminer’ successfully unpacked and SHA256 sums checked
+* ‘survminer’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘survminer’ as ‘survminer_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survminer)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZ24Dk0/downloaded_packages’
+
+real	1m28.738s
+user	1m13.828s
+sys	0m18.205s

@@ -1,0 +1,142 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''phylobar'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'phylobar'
+also installing the dependencies ‘ca’, ‘gclus’, ‘qap’, ‘registry’, ‘TSP’, ‘phangorn’, ‘DESeq2’, ‘miaViz’, ‘seriation’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ca_0.72.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/gclus_1.3.3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/qap_0.1-3.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/registry_0.5-1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/TSP_1.2.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/phangorn_2.12.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/DESeq2_1.53.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/miaViz_1.21.7.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/seriation_1.6.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/phylobar_0.99.12.tar.gz'
+* installing *binary* package ‘ca’ ...
+* package ‘ca’ successfully unpacked and SHA256 sums checked
+* ‘ca’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ca’ as ‘ca_0.72_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ca)
+* installing *binary* package ‘gclus’ ...
+* package ‘gclus’ successfully unpacked and SHA256 sums checked
+* ‘gclus’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘gclus’ as ‘gclus_1.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gclus)
+* installing *binary* package ‘qap’ ...
+* package ‘qap’ successfully unpacked and SHA256 sums checked
+* ‘qap’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘qap’ as ‘qap_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qap)
+* installing *binary* package ‘registry’ ...
+* package ‘registry’ successfully unpacked and SHA256 sums checked
+* ‘registry’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘registry’ as ‘registry_0.5-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (registry)
+* installing *binary* package ‘TSP’ ...
+* package ‘TSP’ successfully unpacked and SHA256 sums checked
+* ‘TSP’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘TSP’ as ‘TSP_1.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TSP)
+* installing *binary* package ‘phangorn’ ...
+* package ‘phangorn’ successfully unpacked and SHA256 sums checked
+* ‘phangorn’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phangorn’ as ‘phangorn_2.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phangorn)
+* installing *source* package ‘DESeq2’ ...
+** this is package ‘DESeq2’ version ‘1.53.6’
+** package ‘DESeq2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c DESeq2.cpp -o DESeq2.o
+g++ -std=gnu++20 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/mnt/library/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++20 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DESeq2.so DESeq2.o RcppExports.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/library/00LOCK-DESeq2/00new/DESeq2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘DESeq2’ as ‘DESeq2_1.53.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DESeq2)
+* installing *source* package ‘miaViz’ ...
+** this is package ‘miaViz’ version ‘1.21.7’
+** package ‘miaViz’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘miaViz’ as ‘miaViz_1.21.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (miaViz)
+* installing *binary* package ‘seriation’ ...
+* package ‘seriation’ successfully unpacked and SHA256 sums checked
+* ‘seriation’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘seriation’ as ‘seriation_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seriation)
+* installing *source* package ‘phylobar’ ...
+** this is package ‘phylobar’ version ‘0.99.12’
+** package ‘phylobar’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘phylobar’ as ‘phylobar_0.99.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phylobar)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp73Cg8R/downloaded_packages’
+
+real	1m37.638s
+user	1m25.148s
+sys	0m9.988s
