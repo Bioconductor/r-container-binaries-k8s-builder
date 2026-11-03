@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 630 (26%)
+- **Successfully Built:** 641 (26%)
 - **Failed:** 9 (0%)
-- **In Progress:** 83
-- **Not Started:** 1663
+- **In Progress:** 113
+- **Not Started:** 1622
 
-**Progress:** 26%
+**Progress:** 27%
 ```
 █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (630)
+## Successfully Built Packages (641)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BEclear](https://bioconductor.org/packages/3.23/bioc/html/BEclear.html) | [log](logs/BEclear/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BEclear) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 
-*... and 580 more ...*
+*... and 591 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,32 +88,39 @@
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (83)
+## In Progress (113)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
+- ⏳ `BCRANK`
+- ⏳ `BRAIN`
 - ⏳ `CCPlotR`
 - ⏳ `ClustAll`
-- ⏳ `DeepPINCS`
-- ⏳ `DelayedDataFrame`
-- ⏳ `DelayedMatrixStats`
-- ⏳ `DelayedRandomArray`
+- ⏳ `DECIPHER`
 - ⏳ `ExiMiR`
 - ⏳ `GEOsubmission`
 - ⏳ `GSCA`
-- ⏳ `GenomicRanges`
+- ⏳ `GeneRegionScan`
 - ⏳ `HDF5Array`
 - ⏳ `HGC`
 - ⏳ `Heatplus`
 - ⏳ `INTACT`
 - ⏳ `InteractiveComplexHeatmap`
+- ⏳ `KEGGREST`
+- ⏳ `LACHESIS`
 - ⏳ `LPE`
+- ⏳ `MEDME`
+- ⏳ `MSstatsPTM`
 - ⏳ `MVCClass`
 - ⏳ `MetaDICT`
 - ⏳ `MetaboCoreUtils`
+- ⏳ `NanoStringNCTools`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OrderedList`
+- ⏳ `PWMEnrich`
+- ⏳ `PhyloProfile`
+- ⏳ `R4RNA`
 - ⏳ `RGSEA`
 - ⏳ `ROSeq`
 - ⏳ `RProtoBufLib`
@@ -124,27 +131,20 @@
 - ⏳ `Rmagpie`
 - ⏳ `Rnits`
 - ⏳ `Rvisdiff`
+- ⏳ `SELEX`
 - ⏳ `SIMAT`
 - ⏳ `STATegRa`
 - ⏳ `ScaledMatrix`
 - ⏳ `ScreenR`
+- ⏳ `Structstrings`
+- ⏳ `SynMut`
 - ⏳ `TPP`
 - ⏳ `TargetDecoy`
 - ⏳ `TileDBArray`
-- ⏳ `ZarrArray`
-- ⏳ `a4Classif`
-- ⏳ `adverSCarial`
-- ⏳ `affyContam`
-- ⏳ `beachmat`
-- ⏳ `deltaGseg`
-- ⏳ `diffuStats`
-- ⏳ `factDesign`
-- ⏳ `faers`
-- ⏳ `fgsea`
 
-... and 33 more ...
+... and 63 more ...
 
-## Not Yet Started (1663)
+## Not Yet Started (1622)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -181,12 +181,10 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BCRANK`
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BRAIN`
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
@@ -195,9 +193,11 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
+- ⏸️ `BadRegionFinder`
+- ⏸️ `Banksy`
 
-... and 1613 more ...
+... and 1572 more ...
 
 ---
-*Last updated: 2026-11-03 06:56:38 UTC*
+*Last updated: 2026-11-03 07:00:44 UTC*
 *Packages with verified BBS status: 176*
