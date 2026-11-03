@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1708 (70%)
+- **Successfully Built:** 1711 (70%)
 - **Failed:** 7 (0%)
-- **In Progress:** 151
+- **In Progress:** 148
 - **Not Started:** 571
 
 **Progress:** 70%
@@ -16,7 +16,7 @@
 ███████████████████████████████████░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1708)
+## Successfully Built Packages (1711)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1658 more ...*
+*... and 1661 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (151)
+## In Progress (148)
 - ⏳ `ADAPT`
 - ⏳ `ADaCGH2`
 - ⏳ `AGDEX`
@@ -112,7 +112,6 @@
 - ⏳ `EGSEA`
 - ⏳ `EMTscore`
 - ⏳ `ERSSA`
-- ⏳ `ExperimentHub`
 - ⏳ `FinfoMDS`
 - ⏳ `GDCRNATools`
 - ⏳ `GExPipe`
@@ -139,8 +138,9 @@
 - ⏳ `MoonlightR`
 - ⏳ `MultiBaC`
 - ⏳ `NBAMSeq`
+- ⏳ `NetActivity`
 
-... and 101 more ...
+... and 98 more ...
 
 ## Not Yet Started (571)
 - ⏸️ `AHMassBank`
@@ -197,5 +197,5 @@
 ... and 521 more ...
 
 ---
-*Last updated: 2026-11-03 20:25:46 UTC*
+*Last updated: 2026-11-03 20:27:23 UTC*
 *Packages with verified BBS status: 214*
