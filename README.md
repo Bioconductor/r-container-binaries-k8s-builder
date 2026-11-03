@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1715 (71%)
+- **Successfully Built:** 1727 (72%)
 - **Failed:** 18 (0%)
-- **In Progress:** 96
-- **Not Started:** 556
+- **In Progress:** 87
+- **Not Started:** 553
 
-**Progress:** 72%
+**Progress:** 73%
 ```
 ████████████████████████████████████░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1715)
+## Successfully Built Packages (1727)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 
-*... and 1665 more ...*
+*... and 1677 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -96,15 +96,15 @@
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Build failed with unknown error |
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (96)
+## In Progress (87)
 - ⏳ `ADImpute`
 - ⏳ `CNTools`
 - ⏳ `ClassifyR`
 - ⏳ `CrcBiomeScreen`
-- ⏳ `EpiDISH`
+- ⏳ `DEGraph`
 - ⏳ `ExperimentSubset`
 - ⏳ `FEAST`
 - ⏳ `Heatplus`
@@ -122,7 +122,6 @@
 - ⏳ `MAIT`
 - ⏳ `MEDME`
 - ⏳ `PDATK`
-- ⏳ `PICB`
 - ⏳ `QTLExperiment`
 - ⏳ `RFGeneRank`
 - ⏳ `RNAsense`
@@ -130,8 +129,6 @@
 - ⏳ `ReUseData`
 - ⏳ `ReactomePA`
 - ⏳ `ShortRead`
-- ⏳ `SpatialDecon`
-- ⏳ `SpatialOmicsOverlay`
 - ⏳ `SpotClean`
 - ⏳ `SpotSweeper`
 - ⏳ `StatescopeR`
@@ -140,20 +137,23 @@
 - ⏳ `UCell`
 - ⏳ `VDJdive`
 - ⏳ `VplotR`
+- ⏳ `XDE`
 - ⏳ `a4Base`
 - ⏳ `alabaster.sfe`
 - ⏳ `anansi`
-- ⏳ `anglemania`
-- ⏳ `bandle`
 - ⏳ `benchdamic`
 - ⏳ `breakpointR`
 - ⏳ `categoryCompare`
 - ⏳ `celaref`
 - ⏳ `clustSIGNAL`
+- ⏳ `clusterProfiler`
+- ⏳ `concordexR`
+- ⏳ `cytomapper`
+- ⏳ `decontX`
 
-... and 46 more ...
+... and 37 more ...
 
-## Not Yet Started (556)
+## Not Yet Started (553)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -205,8 +205,8 @@
 - ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 
-... and 506 more ...
+... and 503 more ...
 
 ---
-*Last updated: 2026-11-03 12:09:30 UTC*
+*Last updated: 2026-11-03 12:11:51 UTC*
 *Packages with verified BBS status: 225*
