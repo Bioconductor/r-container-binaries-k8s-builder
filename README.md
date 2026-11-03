@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1933 (81%)
+- **Successfully Built:** 1936 (81%)
 - **Failed:** 18 (0%)
-- **In Progress:** 87
+- **In Progress:** 84
 - **Not Started:** 347
 
 **Progress:** 81%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1933)
+## Successfully Built Packages (1936)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1883 more ...*
+*... and 1886 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -99,11 +99,10 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (87)
+## In Progress (84)
 - ⏳ `BEAT`
 - ⏳ `BSgenomeForge`
 - ⏳ `Basic4Cseq`
-- ⏳ `BulkSignalR`
 - ⏳ `CODEX`
 - ⏳ `CellBarcode`
 - ⏳ `ChIPComp`
@@ -112,7 +111,6 @@
 - ⏳ `ChIPsim`
 - ⏳ `DMRcaller`
 - ⏳ `DspikeIn`
-- ⏳ `EWCE`
 - ⏳ `FastqCleaner`
 - ⏳ `GOTHiC`
 - ⏳ `GOaGO`
@@ -139,7 +137,6 @@
 - ⏳ `Statial`
 - ⏳ `TEKRABber`
 - ⏳ `UCell`
-- ⏳ `a4Base`
 - ⏳ `benchdamic`
 - ⏳ `broadSeq`
 - ⏳ `categoryCompare`
@@ -150,8 +147,11 @@
 - ⏳ `crisprBowtie`
 - ⏳ `crisprBwa`
 - ⏳ `dar`
+- ⏳ `debrowser`
+- ⏳ `diffHic`
+- ⏳ `famat`
 
-... and 37 more ...
+... and 34 more ...
 
 ## Not Yet Started (347)
 - ⏸️ `AHMassBank`
@@ -208,5 +208,5 @@
 ... and 297 more ...
 
 ---
-*Last updated: 2026-11-03 14:45:52 UTC*
+*Last updated: 2026-11-03 14:48:07 UTC*
 *Packages with verified BBS status: 227*
