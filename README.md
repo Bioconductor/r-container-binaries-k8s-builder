@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 738 (30%)
+- **Successfully Built:** 741 (30%)
 - **Failed:** 5 (0%)
-- **In Progress:** 35
+- **In Progress:** 32
 - **Not Started:** 1659
 
 **Progress:** 30%
@@ -16,7 +16,7 @@
 ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (738)
+## Successfully Built Packages (741)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 688 more ...*
+*... and 691 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [timeOmics](https://bioconductor.org/packages/3.24/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timeOmics) |
 | [timescape](https://bioconductor.org/packages/3.24/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/timescape) |
 | [tkWidgets](https://bioconductor.org/packages/3.24/bioc/html/tkWidgets.html) | [log](logs/tkWidgets/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tkWidgets) |
 | [tomoseqr](https://bioconductor.org/packages/3.24/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tomoseqr) |
 | [topconfects](https://bioconductor.org/packages/3.24/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/topconfects) |
+| [treeio](https://bioconductor.org/packages/3.24/bioc/html/treeio.html) | [log](logs/treeio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/treeio) |
 | [trio](https://bioconductor.org/packages/3.24/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/trio) |
 | [tripr](https://bioconductor.org/packages/3.24/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (35)
+## In Progress (32)
 - ⏳ `ANF`
 - ⏳ `BumpyMatrix`
 - ⏳ `ComplexHeatmap`
@@ -98,7 +98,6 @@
 - ⏳ `IHW`
 - ⏳ `INDEED`
 - ⏳ `MSstatsResponse`
-- ⏳ `QRscore`
 - ⏳ `RTCA`
 - ⏳ `ReUseData`
 - ⏳ `S4Arrays`
@@ -115,13 +114,11 @@
 - ⏳ `hyperdraw`
 - ⏳ `islify`
 - ⏳ `marray`
-- ⏳ `metaSeq`
 - ⏳ `netresponse`
 - ⏳ `nucleoSim`
 - ⏳ `rcellminer`
 - ⏳ `rpx`
 - ⏳ `toppgene`
-- ⏳ `treeio`
 
 ## Not Yet Started (1659)
 - ⏸️ `ACE`
@@ -178,5 +175,5 @@
 ... and 1609 more ...
 
 ---
-*Last updated: 2026-11-03 09:47:58 UTC*
-*Packages with verified BBS status: 183*
+*Last updated: 2026-11-03 09:54:06 UTC*
+*Packages with verified BBS status: 184*
