@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 282 (11%)
+- **Successfully Built:** 283 (11%)
 - **Failed:** 4 (0%)
-- **In Progress:** 126
+- **In Progress:** 125
 - **Not Started:** 1973
 
-**Progress:** 11%
+**Progress:** 12%
 ```
-█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (282)
+## Successfully Built Packages (283)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
 
-*... and 232 more ...*
+*... and 233 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (126)
+## In Progress (125)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILGCP`
 - ⏳ `BiocGenerics`
@@ -137,7 +137,7 @@
 - ⏳ `RNAdecay`
 - ⏳ `RProtoBufLib`
 
-... and 76 more ...
+... and 75 more ...
 
 ## Not Yet Started (1973)
 - ⏸️ `ABarray`
@@ -194,5 +194,5 @@
 ... and 1923 more ...
 
 ---
-*Last updated: 2026-11-03 04:34:23 UTC*
+*Last updated: 2026-11-03 04:35:23 UTC*
 *Packages with verified BBS status: 137*
