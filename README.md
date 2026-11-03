@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 109 (4%)
+- **Successfully Built:** 121 (5%)
 - **Failed:** 2 (0%)
-- **In Progress:** 273
+- **In Progress:** 261
 - **Not Started:** 2001
 
-**Progress:** 4%
+**Progress:** 5%
 ```
 ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (109)
+## Successfully Built Packages (121)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,11 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 59 more ...*
+*... and 71 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [ggkegg](https://bioconductor.org/packages/3.23/bioc/html/ggkegg.html) | [log](logs/ggkegg/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ggkegg) |
-| [globalSeq](https://bioconductor.org/packages/3.23/bioc/html/globalSeq.html) | [log](logs/globalSeq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/globalSeq) |
-| [hierinf](https://bioconductor.org/packages/3.23/bioc/html/hierinf.html) | [log](logs/hierinf/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/hierinf) |
-| [imageTCGA](https://bioconductor.org/packages/3.23/bioc/html/imageTCGA.html) | [log](logs/imageTCGA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/imageTCGA) |
-| [limma](https://bioconductor.org/packages/3.23/bioc/html/limma.html) | [log](logs/limma/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/limma) |
+| [lmdme](https://bioconductor.org/packages/3.23/bioc/html/lmdme.html) | [log](logs/lmdme/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/lmdme) |
 | [metapod](https://bioconductor.org/packages/3.23/bioc/html/metapod.html) | [log](logs/metapod/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/metapod) |
 | [mgsa](https://bioconductor.org/packages/3.23/bioc/html/mgsa.html) | [log](logs/mgsa/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mgsa) |
 | [miRBaseConverter](https://bioconductor.org/packages/3.23/bioc/html/miRBaseConverter.html) | [log](logs/miRBaseConverter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/miRBaseConverter) |
@@ -68,8 +64,12 @@
 | [ompBAM](https://bioconductor.org/packages/3.23/bioc/html/ompBAM.html) | [log](logs/ompBAM/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ompBAM) |
 | [pathifier](https://bioconductor.org/packages/3.23/bioc/html/pathifier.html) | [log](logs/pathifier/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/pathifier) |
 | [qvalue](https://bioconductor.org/packages/3.23/bioc/html/qvalue.html) | [log](logs/qvalue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/qvalue) |
+| [rnaseqcomp](https://bioconductor.org/packages/3.23/bioc/html/rnaseqcomp.html) | [log](logs/rnaseqcomp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rnaseqcomp) |
 | [rpx](https://bioconductor.org/packages/3.23/bioc/html/rpx.html) | [log](logs/rpx/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rpx) |
+| [rsemmed](https://bioconductor.org/packages/3.23/bioc/html/rsemmed.html) | [log](logs/rsemmed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rsemmed) |
+| [sagenhaft](https://bioconductor.org/packages/3.23/bioc/html/sagenhaft.html) | [log](logs/sagenhaft/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sagenhaft) |
 | [seqLogo](https://bioconductor.org/packages/3.23/bioc/html/seqLogo.html) | [log](logs/seqLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seqLogo) |
+| [seqcombo](https://bioconductor.org/packages/3.23/bioc/html/seqcombo.html) | [log](logs/seqcombo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/seqcombo) |
 | [shiny.gosling](https://bioconductor.org/packages/3.23/bioc/html/shiny.gosling.html) | [log](logs/shiny.gosling/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/shiny.gosling) |
 | [sights](https://bioconductor.org/packages/3.23/bioc/html/sights.html) | [log](logs/sights/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/sights) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
@@ -83,7 +83,7 @@
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 
-## In Progress (273)
+## In Progress (261)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -122,7 +122,6 @@
 - ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
 - ⏳ `GladiaTOX`
-- ⏳ `GraphAlignment`
 - ⏳ `HDTD`
 - ⏳ `HGC`
 - ⏳ `HIBAG`
@@ -131,11 +130,12 @@
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `Heatplus`
-- ⏳ `Herper`
 - ⏳ `HilbertVis`
-- ⏳ `HuBMAPR`
+- ⏳ `IMPCdata`
+- ⏳ `INDEED`
+- ⏳ `INPower`
 
-... and 223 more ...
+... and 211 more ...
 
 ## Not Yet Started (2001)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1951 more ...
 
 ---
-*Last updated: 2026-11-03 03:35:08 UTC*
-*Packages with verified BBS status: 95*
+*Last updated: 2026-11-03 03:37:43 UTC*
+*Packages with verified BBS status: 100*
