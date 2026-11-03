@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 57 (2%)
+- **Successfully Built:** 59 (2%)
 - **Failed:** 1 (0%)
-- **In Progress:** 306
+- **In Progress:** 304
 - **Not Started:** 2021
 
 **Progress:** 2%
@@ -16,7 +16,7 @@
 █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (57)
+## Successfully Built Packages (59)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -35,6 +35,8 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.23/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBaseUtils) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.23/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBuildReporter) |
 | [BiocFileCache](https://bioconductor.org/packages/3.23/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocFileCache) |
+| [CARNIVAL](https://bioconductor.org/packages/3.23/bioc/html/CARNIVAL.html) | [log](logs/CARNIVAL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CARNIVAL) |
+| [EnMCB](https://bioconductor.org/packages/3.23/bioc/html/EnMCB.html) | [log](logs/EnMCB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/EnMCB) |
 | [HPAanalyze](https://bioconductor.org/packages/3.23/bioc/html/HPAanalyze.html) | [log](logs/HPAanalyze/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPAanalyze) |
 | [HPiP](https://bioconductor.org/packages/3.23/bioc/html/HPiP.html) | [log](logs/HPiP/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/HPiP) |
 | [MassArray](https://bioconductor.org/packages/3.23/bioc/html/MassArray.html) | [log](logs/MassArray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MassArray) |
@@ -43,10 +45,8 @@
 | [MeLSI](https://bioconductor.org/packages/3.23/bioc/html/MeLSI.html) | [log](logs/MeLSI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MeLSI) |
 | [MeasurementError.cor](https://bioconductor.org/packages/3.23/bioc/html/MeasurementError.cor.html) | [log](logs/MeasurementError.cor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MeasurementError.cor) |
 | [Mergeomics](https://bioconductor.org/packages/3.23/bioc/html/Mergeomics.html) | [log](logs/Mergeomics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Mergeomics) |
-| [ModCon](https://bioconductor.org/packages/3.23/bioc/html/ModCon.html) | [log](logs/ModCon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ModCon) |
-| [MultiMed](https://bioconductor.org/packages/3.23/bioc/html/MultiMed.html) | [log](logs/MultiMed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MultiMed) |
 
-*... and 7 more ...*
+*... and 9 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (306)
+## In Progress (304)
 - ⏳ `AWAggregator`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -94,7 +94,6 @@
 - ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
 - ⏳ `BufferedMatrix`
-- ⏳ `CARNIVAL`
 - ⏳ `CFAssay`
 - ⏳ `CGEN`
 - ⏳ `CONSTANd`
@@ -117,7 +116,6 @@
 - ⏳ `DynDoc`
 - ⏳ `EBSeq`
 - ⏳ `EmpiricalBrownsMethod`
-- ⏳ `EnMCB`
 - ⏳ `EnhancedVolcano`
 - ⏳ `FGNet`
 - ⏳ `FRGEpistasis`
@@ -133,8 +131,10 @@
 - ⏳ `GLAD`
 - ⏳ `GPA`
 - ⏳ `GRENITS`
+- ⏳ `GSALightning`
+- ⏳ `GSAR`
 
-... and 256 more ...
+... and 254 more ...
 
 ## Not Yet Started (2021)
 - ⏸️ `ABSSeq`
@@ -191,5 +191,5 @@
 ... and 1971 more ...
 
 ---
-*Last updated: 2026-11-03 02:51:01 UTC*
-*Packages with verified BBS status: 57*
+*Last updated: 2026-11-03 02:57:23 UTC*
+*Packages with verified BBS status: 59*
