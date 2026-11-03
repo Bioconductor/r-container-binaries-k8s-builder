@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 312 (13%)
+- **Successfully Built:** 316 (13%)
 - **Failed:** 4 (0%)
-- **In Progress:** 103
-- **Not Started:** 1966
+- **In Progress:** 106
+- **Not Started:** 1959
 
 **Progress:** 13%
 ```
 ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (312)
+## Successfully Built Packages (316)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -41,12 +41,12 @@
 | [BiocBaseUtils](https://bioconductor.org/packages/3.23/bioc/html/BiocBaseUtils.html) | [log](logs/BiocBaseUtils/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBaseUtils) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.23/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocBuildReporter) |
 | [BiocFileCache](https://bioconductor.org/packages/3.23/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocFileCache) |
+| [BiocGenerics](https://bioconductor.org/packages/3.23/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocGenerics) |
 | [BiocMaintainerApp](https://bioconductor.org/packages/3.23/bioc/html/BiocMaintainerApp.html) | [log](logs/BiocMaintainerApp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocMaintainerApp) |
+| [BiocParallel](https://bioconductor.org/packages/3.23/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.23/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocStyle) |
-| [BiocVersion](https://bioconductor.org/packages/3.23/bioc/html/BiocVersion.html) | [log](logs/BiocVersion/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocVersion) |
-| [BridgeDbR](https://bioconductor.org/packages/3.23/bioc/html/BridgeDbR.html) | [log](logs/BridgeDbR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BridgeDbR) |
 
-*... and 262 more ...*
+*... and 266 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,12 +85,11 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (103)
+## In Progress (106)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILGCP`
-- ⏳ `BiocGenerics`
-- ⏳ `BiocParallel`
 - ⏳ `CGEN`
+- ⏳ `COMPASS`
 - ⏳ `Chicago`
 - ⏳ `DNAcycP2`
 - ⏳ `DeMAND`
@@ -115,6 +114,7 @@
 - ⏳ `LPE`
 - ⏳ `Linnorm`
 - ⏳ `M3C`
+- ⏳ `MANOR`
 - ⏳ `MBAmethyl`
 - ⏳ `MBCB`
 - ⏳ `MBttest`
@@ -127,19 +127,19 @@
 - ⏳ `RNAdecay`
 - ⏳ `RProtoBufLib`
 - ⏳ `RSeqAn`
+- ⏳ `Rhdf5lib`
 - ⏳ `Rhtslib`
+- ⏳ `Rigraphlib`
 - ⏳ `TreeAndLeaf`
 - ⏳ `Wrench`
 - ⏳ `alevinQC`
 - ⏳ `assorthead`
 - ⏳ `banocc`
 - ⏳ `biobtreeR`
-- ⏳ `biocroxytest`
-- ⏳ `biocthis`
 
-... and 53 more ...
+... and 56 more ...
 
-## Not Yet Started (1966)
+## Not Yet Started (1959)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -191,8 +191,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BEclear`
 
-... and 1916 more ...
+... and 1909 more ...
 
 ---
-*Last updated: 2026-11-03 04:44:39 UTC*
-*Packages with verified BBS status: 140*
+*Last updated: 2026-11-03 04:46:24 UTC*
+*Packages with verified BBS status: 142*
