@@ -1,0 +1,61 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''splicelogic'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'splicelogic'
+also installing the dependency ‘wiggleplotr’
+
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/wiggleplotr_1.36.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/splicelogic_1.0.1.tar.gz'
+* installing *source* package ‘wiggleplotr’ ...
+** this is package ‘wiggleplotr’ version ‘1.36.0’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘wiggleplotr’ as ‘wiggleplotr_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wiggleplotr)
+* installing *source* package ‘splicelogic’ ...
+** this is package ‘splicelogic’ version ‘1.0.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘splicelogic’ as ‘splicelogic_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splicelogic)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBLRwlW/downloaded_packages’
+Old packages: 'future', 'litedown', 'mirai', 'qs2', 'rsvd', 'curl', 'diffobj',
+  'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2', 'tinytex', 'usethis',
+  'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv', 'nlme', 'survival'
+
+real	0m23.841s
+user	0m18.345s
+sys	0m4.364s

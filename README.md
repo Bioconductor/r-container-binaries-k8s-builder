@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1848 (77%)
+- **Successfully Built:** 1861 (78%)
 - **Failed:** 18 (0%)
-- **In Progress:** 105
-- **Not Started:** 414
+- **In Progress:** 133
+- **Not Started:** 373
 
 **Progress:** 78%
 ```
 ███████████████████████████████████████░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1848)
+## Successfully Built Packages (1861)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 1798 more ...*
+*... and 1811 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,7 +85,7 @@
 | [ClustIRR](https://bioconductor.org/packages/3.23/bioc/html/ClustIRR.html) | [log](logs/ClustIRR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClustIRR) | Syntax error in 'string', line 2, column 20 to column 21, parsing error: |
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
-| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar |
+| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -97,21 +97,30 @@
 | [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust |
 | [scMET](https://bioconductor.org/packages/3.23/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scMET) | Build failed with unknown error |
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (105)
+## In Progress (133)
+- ⏳ `BEAT`
+- ⏳ `BSgenomeForge`
+- ⏳ `Basic4Cseq`
 - ⏳ `BulkSignalR`
+- ⏳ `CODEX`
 - ⏳ `CellBarcode`
+- ⏳ `ChIPComp`
+- ⏳ `ChIPanalyser`
 - ⏳ `ChIPseqR`
 - ⏳ `ChIPsim`
 - ⏳ `DMCHMM`
+- ⏳ `DMRcaller`
 - ⏳ `DeconvoBuddies`
 - ⏳ `DspikeIn`
 - ⏳ `EWCE`
 - ⏳ `ExCluster`
 - ⏳ `FastqCleaner`
+- ⏳ `GOTHiC`
 - ⏳ `GOaGO`
 - ⏳ `GenomicFeatures`
+- ⏳ `GreyListChIP`
 - ⏳ `HiCPotts`
 - ⏳ `HiTC`
 - ⏳ `HicAggR`
@@ -119,41 +128,32 @@
 - ⏳ `IWTomics`
 - ⏳ `IdeoViz`
 - ⏳ `InTAD`
+- ⏳ `MEDIPS`
 - ⏳ `MGnifyR`
+- ⏳ `MMDiff2`
+- ⏳ `MethylSeekR`
 - ⏳ `MicrobiomeProfiler`
 - ⏳ `MicrobiotaProcess`
 - ⏳ `MoonlightR`
+- ⏳ `Motif2Site`
 - ⏳ `MotifDb`
+- ⏳ `MotifPeeker`
+- ⏳ `ORFhunteR`
 - ⏳ `OTUbase`
 - ⏳ `PAST`
 - ⏳ `PMScanR`
 - ⏳ `PanomiR`
 - ⏳ `RSVSim`
 - ⏳ `SCANVIS`
+- ⏳ `SCOPE`
 - ⏳ `SMTrackR`
 - ⏳ `STADyUM`
+- ⏳ `SparseSignatures`
 - ⏳ `SpliceImpactR`
-- ⏳ `Statial`
-- ⏳ `TEKRABber`
-- ⏳ `UCell`
-- ⏳ `a4Base`
-- ⏳ `ballgown`
-- ⏳ `basecallQC`
-- ⏳ `bedbaser`
-- ⏳ `benchdamic`
-- ⏳ `broadSeq`
-- ⏳ `categoryCompare`
-- ⏳ `chipenrich`
-- ⏳ `chipseq`
-- ⏳ `concordexR`
-- ⏳ `condiments`
-- ⏳ `consensusSeekeR`
-- ⏳ `dada2`
-- ⏳ `dar`
 
-... and 55 more ...
+... and 83 more ...
 
-## Not Yet Started (414)
+## Not Yet Started (373)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -163,12 +163,9 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `BBCAnalyzer`
-- ⏸️ `BEAT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
-- ⏸️ `Basic4Cseq`
 - ⏸️ `BgeeCall`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `CAFE`
@@ -179,14 +176,11 @@
 - ⏸️ `CNViz`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
-- ⏸️ `CODEX`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPComp`
 - ⏸️ `ChIPQC`
-- ⏸️ `ChIPanalyser`
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `ChIPseeker`
@@ -197,16 +191,22 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DAMEfinder`
 - ⏸️ `DEScan2`
-- ⏸️ `DMRcaller`
 - ⏸️ `DMRcate`
 - ⏸️ `DNAfusion`
 - ⏸️ `DOTSeq`
 - ⏸️ `DOtools`
 - ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
+- ⏸️ `Damsel`
+- ⏸️ `DegCre`
+- ⏸️ `DegNorm`
+- ⏸️ `DiffBind`
+- ⏸️ `DominoEffect`
+- ⏸️ `DuplexDiscovereR`
+- ⏸️ `EDASeq`
 
-... and 364 more ...
+... and 323 more ...
 
 ---
-*Last updated: 2026-11-03 14:14:23 UTC*
+*Last updated: 2026-11-03 14:18:39 UTC*
 *Packages with verified BBS status: 226*
