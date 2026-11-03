@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 393 (16%)
+- **Successfully Built:** 397 (16%)
 - **Failed:** 4 (0%)
-- **In Progress:** 164
-- **Not Started:** 1876
+- **In Progress:** 163
+- **Not Started:** 1873
 
 **Progress:** 16%
 ```
 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (393)
+## Successfully Built Packages (397)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BiocBook](https://bioconductor.org/packages/3.24/bioc/html/BiocBook.html) | [log](logs/BiocBook/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBook) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.24/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBuildReporter) |
 
-*... and 343 more ...*
+*... and 347 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [seqLogo](https://bioconductor.org/packages/3.24/bioc/html/seqLogo.html) | [log](logs/seqLogo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/seqLogo) |
 | [seqcombo](https://bioconductor.org/packages/3.24/bioc/html/seqcombo.html) | [log](logs/seqcombo/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/seqcombo) |
 | [shiny.gosling](https://bioconductor.org/packages/3.24/bioc/html/shiny.gosling.html) | [log](logs/shiny.gosling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/shiny.gosling) |
 | [shinybiocloader](https://bioconductor.org/packages/3.24/bioc/html/shinybiocloader.html) | [log](logs/shinybiocloader/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/shinybiocloader) |
@@ -72,6 +71,7 @@
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
+| [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
@@ -85,7 +85,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (164)
+## In Progress (163)
 - ⏳ `ACME`
 - ⏳ `AIMS`
 - ⏳ `ANF`
@@ -114,7 +114,6 @@
 - ⏳ `GenProSeq`
 - ⏳ `GeneExpressionSignature`
 - ⏳ `GeneSelectMMD`
-- ⏳ `HGC`
 - ⏳ `HIREewas`
 - ⏳ `HTqPCR`
 - ⏳ `HybridMTest`
@@ -136,10 +135,11 @@
 - ⏳ `MiPP`
 - ⏳ `Mulcom`
 - ⏳ `NOISeq`
+- ⏳ `NanoStringDiff`
 
-... and 114 more ...
+... and 113 more ...
 
-## Not Yet Started (1876)
+## Not Yet Started (1873)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -191,8 +191,8 @@
 - ⏸️ `BREW3R.r`
 - ⏸️ `BSgenome`
 
-... and 1826 more ...
+... and 1823 more ...
 
 ---
-*Last updated: 2026-11-03 05:30:39 UTC*
-*Packages with verified BBS status: 145*
+*Last updated: 2026-11-03 05:31:59 UTC*
+*Packages with verified BBS status: 146*
