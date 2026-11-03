@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 261 (10%)
+- **Successfully Built:** 263 (10%)
 - **Failed:** 2 (0%)
-- **In Progress:** 174
-- **Not Started:** 2000
+- **In Progress:** 173
+- **Not Started:** 1999
 
 **Progress:** 10%
 ```
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (261)
+## Successfully Built Packages (263)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 
-*... and 211 more ...*
+*... and 213 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (174)
+## In Progress (173)
 - ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -117,11 +117,11 @@
 - ⏳ `HuBMAPR`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
-- ⏳ `INPower`
 - ⏳ `INTACT`
 - ⏳ `ISAnalytics`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
+- ⏳ `IntramiRExploreR`
 - ⏳ `KBoost`
 - ⏳ `KinSwingR`
 - ⏳ `LBE`
@@ -135,9 +135,9 @@
 - ⏳ `MPFE`
 - ⏳ `MSstatsConvert`
 
-... and 124 more ...
+... and 123 more ...
 
-## Not Yet Started (2000)
+## Not Yet Started (1999)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -189,8 +189,8 @@
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 
-... and 1950 more ...
+... and 1949 more ...
 
 ---
-*Last updated: 2026-11-03 04:42:48 UTC*
+*Last updated: 2026-11-03 04:44:08 UTC*
 *Packages with verified BBS status: 125*
