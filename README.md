@@ -7,8 +7,8 @@
 ## Summary
 - **Total Packages:** 2385
 - **Successfully Built:** 325 (13%)
-- **Failed:** 4 (0%)
-- **In Progress:** 152
+- **Failed:** 5 (0%)
+- **In Progress:** 151
 - **Not Started:** 1904
 
 **Progress:** 13%
@@ -76,16 +76,17 @@
 | [wppi](https://bioconductor.org/packages/3.23/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.23/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/xmapbridge) |
 
-## Failed Packages (4)
+## Failed Packages (5)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (152)
+## In Progress (151)
 - ⏳ `ABSSeq`
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
@@ -137,7 +138,7 @@
 - ⏳ `MVCClass`
 - ⏳ `MantelCorr`
 
-... and 102 more ...
+... and 101 more ...
 
 ## Not Yet Started (1904)
 - ⏸️ `ABarray`
@@ -194,5 +195,5 @@
 ... and 1854 more ...
 
 ---
-*Last updated: 2026-11-03 04:52:31 UTC*
-*Packages with verified BBS status: 142*
+*Last updated: 2026-11-03 04:53:45 UTC*
+*Packages with verified BBS status: 143*
