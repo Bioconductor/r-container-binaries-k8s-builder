@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 176 (7%)
+- **Successfully Built:** 196 (8%)
 - **Failed:** 3 (0%)
-- **In Progress:** 210
-- **Not Started:** 1996
+- **In Progress:** 194
+- **Not Started:** 1992
 
-**Progress:** 7%
+**Progress:** 8%
 ```
-███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (176)
+## Successfully Built Packages (196)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 
-*... and 126 more ...*
+*... and 146 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,7 +84,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (210)
+## In Progress (194)
 - ⏳ `ABSSeq`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
@@ -119,7 +119,6 @@
 - ⏳ `GSgalgoR`
 - ⏳ `GWAS.BAYES`
 - ⏳ `GeneGA`
-- ⏳ `GeneOverlap`
 - ⏳ `GeneticsPed`
 - ⏳ `GladiaTOX`
 - ⏳ `HDTD`
@@ -135,10 +134,11 @@
 - ⏳ `ISAnalytics`
 - ⏳ `ISoLDE`
 - ⏳ `Icens`
+- ⏳ `Informeasure`
 
-... and 160 more ...
+... and 144 more ...
 
-## Not Yet Started (1996)
+## Not Yet Started (1992)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 1946 more ...
+... and 1942 more ...
 
 ---
-*Last updated: 2026-11-03 04:00:52 UTC*
+*Last updated: 2026-11-03 04:02:15 UTC*
 *Packages with verified BBS status: 130*
