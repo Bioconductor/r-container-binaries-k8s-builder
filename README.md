@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 481 (20%)
+- **Successfully Built:** 487 (20%)
 - **Failed:** 9 (0%)
-- **In Progress:** 133
-- **Not Started:** 1762
+- **In Progress:** 129
+- **Not Started:** 1760
 
 **Progress:** 20%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (481)
+## Successfully Built Packages (487)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 
-*... and 431 more ...*
+*... and 437 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (133)
+## In Progress (129)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
 - ⏳ `CGEN`
@@ -130,7 +130,6 @@
 - ⏳ `RLMM`
 - ⏳ `RNAdecay`
 - ⏳ `ROSeq`
-- ⏳ `ROTS`
 - ⏳ `RProtoBufLib`
 - ⏳ `RTopper`
 - ⏳ `ReadqPCR`
@@ -141,10 +140,11 @@
 - ⏳ `Rvisdiff`
 - ⏳ `S4Vectors`
 - ⏳ `SIMAT`
+- ⏳ `STATegRa`
 
-... and 83 more ...
+... and 79 more ...
 
-## Not Yet Started (1762)
+## Not Yet Started (1760)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUScorrect`
 - ⏸️ `BUSpaRse`
 
-... and 1712 more ...
+... and 1710 more ...
 
 ---
-*Last updated: 2026-11-03 05:54:35 UTC*
+*Last updated: 2026-11-03 05:55:40 UTC*
 *Packages with verified BBS status: 165*
