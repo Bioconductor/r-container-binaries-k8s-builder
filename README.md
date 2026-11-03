@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 797 (33%)
+- **Successfully Built:** 816 (34%)
 - **Failed:** 12 (0%)
-- **In Progress:** 142
-- **Not Started:** 1434
+- **In Progress:** 125
+- **Not Started:** 1432
 
-**Progress:** 33%
+**Progress:** 34%
 ```
-████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (797)
+## Successfully Built Packages (816)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 747 more ...*
+*... and 766 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -93,11 +93,10 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (142)
+## In Progress (125)
 - ⏳ `AlphaBeta`
 - ⏳ `AnnotationFilter`
 - ⏳ `BCRANK`
-- ⏳ `BRAIN`
 - ⏳ `BREW3R.r`
 - ⏳ `BiFET`
 - ⏳ `CCPlotR`
@@ -111,6 +110,7 @@
 - ⏳ `GMRP`
 - ⏳ `GOexpress`
 - ⏳ `GSCA`
+- ⏳ `GeDi`
 - ⏳ `GenProSeq`
 - ⏳ `GeneMeta`
 - ⏳ `GeneRegionScan`
@@ -139,15 +139,15 @@
 - ⏳ `MVCClass`
 - ⏳ `MetaDICT`
 - ⏳ `MetaboCoreUtils`
-- ⏳ `MouseFM`
 - ⏳ `MsDataHub`
 - ⏳ `NanoStringNCTools`
-- ⏳ `NetSAM`
 - ⏳ `OmicsMLRepoR`
+- ⏳ `OncoScore`
+- ⏳ `OrderedList`
 
-... and 92 more ...
+... and 75 more ...
 
-## Not Yet Started (1434)
+## Not Yet Started (1432)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -199,8 +199,8 @@
 - ⏸️ `BayesSpace`
 - ⏸️ `BgeeCall`
 
-... and 1384 more ...
+... and 1382 more ...
 
 ---
-*Last updated: 2026-11-03 07:49:00 UTC*
+*Last updated: 2026-11-03 07:52:15 UTC*
 *Packages with verified BBS status: 186*
