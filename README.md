@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 161 (6%)
+- **Successfully Built:** 163 (6%)
 - **Failed:** 3 (0%)
 - **In Progress:** 223
-- **Not Started:** 1998
+- **Not Started:** 1996
 
 **Progress:** 6%
 ```
 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (161)
+## Successfully Built Packages (163)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Clomial](https://bioconductor.org/packages/3.23/bioc/html/Clomial.html) | [log](logs/Clomial/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Clomial) |
 | [ClusterJudge](https://bioconductor.org/packages/3.23/bioc/html/ClusterJudge.html) | [log](logs/ClusterJudge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClusterJudge) |
 
-*... and 111 more ...*
+*... and 113 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,7 +97,6 @@
 - ⏳ `BufferedMatrix`
 - ⏳ `CGEN`
 - ⏳ `Chicago`
-- ⏳ `DEqMS`
 - ⏳ `DNABarcodes`
 - ⏳ `DeMAND`
 - ⏳ `DeepPINCS`
@@ -135,10 +134,11 @@
 - ⏳ `HilbertVis`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
+- ⏳ `INPower`
 
 ... and 173 more ...
 
-## Not Yet Started (1998)
+## Not Yet Started (1996)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -190,8 +190,8 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 
-... and 1948 more ...
+... and 1946 more ...
 
 ---
-*Last updated: 2026-11-03 03:52:54 UTC*
+*Last updated: 2026-11-03 03:55:16 UTC*
 *Packages with verified BBS status: 129*
