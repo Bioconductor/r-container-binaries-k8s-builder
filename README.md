@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1496 (61%)
+- **Successfully Built:** 1501 (61%)
 - **Failed:** 7 (0%)
-- **In Progress:** 176
+- **In Progress:** 171
 - **Not Started:** 758
 
 **Progress:** 61%
@@ -16,7 +16,7 @@
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1496)
+## Successfully Built Packages (1501)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlphaMissenseR](https://bioconductor.org/packages/3.24/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlphaMissenseR) |
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 
-*... and 1446 more ...*
+*... and 1451 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (176)
+## In Progress (171)
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
 - ⏳ `APL`
@@ -103,7 +103,6 @@
 - ⏳ `CATALYST`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
-- ⏳ `CSOA`
 - ⏳ `CellMixS`
 - ⏳ `CellTrails`
 - ⏳ `ClusterFoldSimilarity`
@@ -114,7 +113,6 @@
 - ⏳ `DifferentialRegulation`
 - ⏳ `Dune`
 - ⏳ `EGSEA`
-- ⏳ `EnrichmentBrowser`
 - ⏳ `ExpoRiskR`
 - ⏳ `GBScleanR`
 - ⏳ `GDSAnnotator`
@@ -139,8 +137,10 @@
 - ⏳ `M3Drop`
 - ⏳ `MAST`
 - ⏳ `MICSQTL`
+- ⏳ `MLInterfaces`
+- ⏳ `MouseFM`
 
-... and 126 more ...
+... and 121 more ...
 
 ## Not Yet Started (758)
 - ⏸️ `ADAPT`
@@ -197,5 +197,5 @@
 ... and 708 more ...
 
 ---
-*Last updated: 2026-11-03 17:10:22 UTC*
+*Last updated: 2026-11-03 17:14:11 UTC*
 *Packages with verified BBS status: 205*
