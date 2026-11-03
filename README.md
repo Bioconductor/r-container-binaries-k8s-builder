@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 44 (1%)
+- **Successfully Built:** 46 (1%)
 - **Failed:** 1 (0%)
-- **In Progress:** 318
-- **Not Started:** 2022
+- **In Progress:** 317
+- **Not Started:** 2021
 
 **Progress:** 1%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (44)
+## Successfully Built Packages (46)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -26,6 +26,7 @@
 | [ASEB](https://bioconductor.org/packages/3.23/bioc/html/ASEB.html) | [log](logs/ASEB/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASEB) |
 | [ASGSCA](https://bioconductor.org/packages/3.23/bioc/html/ASGSCA.html) | [log](logs/ASGSCA/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASGSCA) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
+| [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
 | [BeadDataPackR](https://bioconductor.org/packages/3.23/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BeadDataPackR) |
@@ -63,6 +64,7 @@
 | [VennDetail](https://bioconductor.org/packages/3.23/bioc/html/VennDetail.html) | [log](logs/VennDetail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/VennDetail) |
 | [a4Reporting](https://bioconductor.org/packages/3.23/bioc/html/a4Reporting.html) | [log](logs/a4Reporting/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/a4Reporting) |
 | [acde](https://bioconductor.org/packages/3.23/bioc/html/acde.html) | [log](logs/acde/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/acde) |
+| [bugsigdbr](https://bioconductor.org/packages/3.23/bioc/html/bugsigdbr.html) | [log](logs/bugsigdbr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/bugsigdbr) |
 | [genArise](https://bioconductor.org/packages/3.23/bioc/html/genArise.html) | [log](logs/genArise/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/genArise) |
 
 ## Failed Packages (1)
@@ -71,10 +73,9 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (318)
+## In Progress (317)
 - ⏳ `ANCOMBC`
 - ⏳ `AWAggregator`
-- ⏳ `AlphaMissenseR`
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BADER`
@@ -122,10 +123,11 @@
 - ⏳ `GGPA`
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
+- ⏳ `GPA`
 
-... and 268 more ...
+... and 267 more ...
 
-## Not Yet Started (2022)
+## Not Yet Started (2021)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -177,8 +179,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 1972 more ...
+... and 1971 more ...
 
 ---
-*Last updated: 2026-11-03 02:34:17 UTC*
-*Packages with verified BBS status: 45*
+*Last updated: 2026-11-03 02:36:28 UTC*
+*Packages with verified BBS status: 47*
