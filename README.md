@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 512 (21%)
+- **Successfully Built:** 519 (21%)
 - **Failed:** 5 (0%)
-- **In Progress:** 128
-- **Not Started:** 1792
+- **In Progress:** 124
+- **Not Started:** 1789
 
 **Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (512)
+## Successfully Built Packages (519)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 
-*... and 462 more ...*
+*... and 469 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (128)
+## In Progress (124)
 - ⏳ `ANF`
 - ⏳ `BUS`
 - ⏳ `BioMVCClass`
@@ -105,7 +105,6 @@
 - ⏳ `GeneSelectMMD`
 - ⏳ `GraphAT`
 - ⏳ `HTqPCR`
-- ⏳ `HybridMTest`
 - ⏳ `IHW`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
@@ -117,11 +116,7 @@
 - ⏳ `MSstatsResponse`
 - ⏳ `MantelCorr`
 - ⏳ `MeLSI`
-- ⏳ `MethPed`
 - ⏳ `MethylMix`
-- ⏳ `MiChip`
-- ⏳ `NOISeq`
-- ⏳ `NanoStringDiff`
 - ⏳ `NormqPCR`
 - ⏳ `OPWeight`
 - ⏳ `OncoSimulR`
@@ -133,14 +128,19 @@
 - ⏳ `ROTS`
 - ⏳ `RTCA`
 - ⏳ `RUVcorr`
+- ⏳ `Rfastp`
 - ⏳ `Rnits`
 - ⏳ `Rsubread`
 - ⏳ `S4Vectors`
 - ⏳ `SPEM`
+- ⏳ `SUITOR`
+- ⏳ `SharedObject`
+- ⏳ `SpeCond`
+- ⏳ `TPP`
 
-... and 78 more ...
+... and 74 more ...
 
-## Not Yet Started (1792)
+## Not Yet Started (1789)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
@@ -192,8 +192,8 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 
-... and 1742 more ...
+... and 1739 more ...
 
 ---
-*Last updated: 2026-11-03 06:16:33 UTC*
+*Last updated: 2026-11-03 06:17:48 UTC*
 *Packages with verified BBS status: 158*
