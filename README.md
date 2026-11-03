@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 278 (11%)
+- **Successfully Built:** 282 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 159
+- **In Progress:** 155
 - **Not Started:** 1998
 
 **Progress:** 11%
@@ -16,7 +16,7 @@
 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (278)
+## Successfully Built Packages (282)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
 | [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 
-*... and 228 more ...*
+*... and 232 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (159)
+## In Progress (155)
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -109,17 +109,13 @@
 - ⏳ `HVP`
 - ⏳ `Harman`
 - ⏳ `Heatplus`
-- ⏳ `Herper`
-- ⏳ `HuBMAPR`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
-- ⏳ `ISAnalytics`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
 - ⏳ `KBoost`
 - ⏳ `KinSwingR`
 - ⏳ `LBE`
-- ⏳ `LPE`
 - ⏳ `LedPred`
 - ⏳ `Linnorm`
 - ⏳ `M3C`
@@ -134,8 +130,12 @@
 - ⏳ `MeLSI`
 - ⏳ `Mergeomics`
 - ⏳ `MethylMix`
+- ⏳ `ModCon`
+- ⏳ `NetPathMiner`
+- ⏳ `NuPoP`
+- ⏳ `OPWeight`
 
-... and 109 more ...
+... and 105 more ...
 
 ## Not Yet Started (1998)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1948 more ...
 
 ---
-*Last updated: 2026-11-03 04:53:41 UTC*
+*Last updated: 2026-11-03 04:55:32 UTC*
 *Packages with verified BBS status: 129*
