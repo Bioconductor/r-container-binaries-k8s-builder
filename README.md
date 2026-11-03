@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 336 (13%)
+- **Successfully Built:** 344 (14%)
 - **Failed:** 4 (0%)
-- **In Progress:** 106
+- **In Progress:** 98
 - **Not Started:** 1991
 
-**Progress:** 13%
+**Progress:** 14%
 ```
-██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (336)
+## Successfully Built Packages (344)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -43,14 +43,13 @@
 | [BioCartaImage](https://bioconductor.org/packages/3.24/bioc/html/BioCartaImage.html) | [log](logs/BioCartaImage/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BioCartaImage) |
 | [BiocBuildReporter](https://bioconductor.org/packages/3.24/bioc/html/BiocBuildReporter.html) | [log](logs/BiocBuildReporter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocBuildReporter) |
 | [BiocFileCache](https://bioconductor.org/packages/3.24/bioc/html/BiocFileCache.html) | [log](logs/BiocFileCache/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocFileCache) |
+| [BiocGenerics](https://bioconductor.org/packages/3.24/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocGenerics) |
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
-| [BiocStyle](https://bioconductor.org/packages/3.24/bioc/html/BiocStyle.html) | [log](logs/BiocStyle/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocStyle) |
 
-*... and 286 more ...*
+*... and 294 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [scTHI](https://bioconductor.org/packages/3.24/bioc/html/scTHI.html) | [log](logs/scTHI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scTHI) |
 | [scToppR](https://bioconductor.org/packages/3.24/bioc/html/scToppR.html) | [log](logs/scToppR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scToppR) |
 | [scatterHatch](https://bioconductor.org/packages/3.24/bioc/html/scatterHatch.html) | [log](logs/scatterHatch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scatterHatch) |
 | [seahtrue](https://bioconductor.org/packages/3.24/bioc/html/seahtrue.html) | [log](logs/seahtrue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/seahtrue) |
@@ -70,6 +69,7 @@
 | [statTarget](https://bioconductor.org/packages/3.24/bioc/html/statTarget.html) | [log](logs/statTarget/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/statTarget) |
 | [switchBox](https://bioconductor.org/packages/3.24/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/switchBox) |
 | [tidysbml](https://bioconductor.org/packages/3.24/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tidysbml) |
+| [topconfects](https://bioconductor.org/packages/3.24/bioc/html/topconfects.html) | [log](logs/topconfects/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/topconfects) |
 | [ttgsea](https://bioconductor.org/packages/3.24/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ttgsea) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
@@ -85,10 +85,9 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (106)
+## In Progress (98)
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
-- ⏳ `BiocGenerics`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
@@ -99,7 +98,6 @@
 - ⏳ `DepecheR`
 - ⏳ `FRGEpistasis`
 - ⏳ `Fancy`
-- ⏳ `GAprediction`
 - ⏳ `GenProSeq`
 - ⏳ `HGC`
 - ⏳ `HIREewas`
@@ -124,20 +122,22 @@
 - ⏳ `QRscore`
 - ⏳ `RDRToolbox`
 - ⏳ `RProtoBufLib`
-- ⏳ `Rcollectl`
 - ⏳ `Rhtslib`
 - ⏳ `Rsubread`
 - ⏳ `SCFA`
-- ⏳ `SNPRelate`
 - ⏳ `SUITOR`
 - ⏳ `antiProfiles`
 - ⏳ `bacon`
 - ⏳ `barmixR`
 - ⏳ `brendaDb`
-- ⏳ `clst`
 - ⏳ `csdR`
+- ⏳ `ctsGE`
+- ⏳ `dearseq`
+- ⏳ `decontam`
+- ⏳ `demuxmix`
+- ⏳ `diffuStats`
 
-... and 56 more ...
+... and 48 more ...
 
 ## Not Yet Started (1991)
 - ⏸️ `ABarray`
@@ -194,5 +194,5 @@
 ... and 1941 more ...
 
 ---
-*Last updated: 2026-11-03 05:16:45 UTC*
-*Packages with verified BBS status: 135*
+*Last updated: 2026-11-03 05:18:17 UTC*
+*Packages with verified BBS status: 137*
