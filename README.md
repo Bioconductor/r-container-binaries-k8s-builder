@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 344 (14%)
+- **Successfully Built:** 345 (14%)
 - **Failed:** 4 (0%)
-- **In Progress:** 98
-- **Not Started:** 1991
+- **In Progress:** 116
+- **Not Started:** 1972
 
 **Progress:** 14%
 ```
 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (344)
+## Successfully Built Packages (345)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocGenerics](https://bioconductor.org/packages/3.24/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocGenerics) |
 | [BiocParallel](https://bioconductor.org/packages/3.24/bioc/html/BiocParallel.html) | [log](logs/BiocParallel/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocParallel) |
 
-*... and 294 more ...*
+*... and 295 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,22 +85,30 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (98)
+## In Progress (116)
 - ⏳ `BUS`
+- ⏳ `Biobase`
 - ⏳ `BiocBaseUtils`
+- ⏳ `BiocBook`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
+- ⏳ `BrowserViz`
+- ⏳ `ChemmineOB`
+- ⏳ `ChemmineR`
 - ⏳ `ClusterJudge`
 - ⏳ `DCATS`
 - ⏳ `DEsingle`
 - ⏳ `DNAcopy`
 - ⏳ `DepecheR`
+- ⏳ `EBImage`
 - ⏳ `FRGEpistasis`
+- ⏳ `FamAgg`
 - ⏳ `Fancy`
 - ⏳ `GenProSeq`
 - ⏳ `HGC`
 - ⏳ `HIREewas`
+- ⏳ `IHW`
 - ⏳ `INDEED`
 - ⏳ `INTACT`
 - ⏳ `Icens`
@@ -121,25 +129,17 @@
 - ⏳ `PathNet`
 - ⏳ `QRscore`
 - ⏳ `RDRToolbox`
-- ⏳ `RProtoBufLib`
+- ⏳ `RGSEA`
 - ⏳ `Rhtslib`
 - ⏳ `Rsubread`
+- ⏳ `S4Vectors`
 - ⏳ `SCFA`
 - ⏳ `SUITOR`
-- ⏳ `antiProfiles`
-- ⏳ `bacon`
-- ⏳ `barmixR`
-- ⏳ `brendaDb`
-- ⏳ `csdR`
-- ⏳ `ctsGE`
-- ⏳ `dearseq`
-- ⏳ `decontam`
-- ⏳ `demuxmix`
-- ⏳ `diffuStats`
+- ⏳ `SharedObject`
 
-... and 48 more ...
+... and 66 more ...
 
-## Not Yet Started (1991)
+## Not Yet Started (1972)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -191,8 +191,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1941 more ...
+... and 1922 more ...
 
 ---
-*Last updated: 2026-11-03 05:18:17 UTC*
+*Last updated: 2026-11-03 05:19:44 UTC*
 *Packages with verified BBS status: 137*
