@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 84 (3%)
 - **Failed:** 1 (0%)
-- **In Progress:** 279
-- **Not Started:** 2021
+- **In Progress:** 285
+- **Not Started:** 2015
 
 **Progress:** 3%
 ```
@@ -82,7 +82,7 @@
 |---------|-----|------------|------------------|
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 
-## In Progress (279)
+## In Progress (285)
 - ⏳ `AnVILBase`
 - ⏳ `AnVILBilling`
 - ⏳ `BiocGenerics`
@@ -93,7 +93,9 @@
 - ⏳ `BridgeDbR`
 - ⏳ `BufferedMatrix`
 - ⏳ `CGEN`
+- ⏳ `CNAnorm`
 - ⏳ `Chicago`
+- ⏳ `DEGseq`
 - ⏳ `DNABarcodes`
 - ⏳ `DeMAND`
 - ⏳ `EnhancedVolcano`
@@ -131,12 +133,10 @@
 - ⏳ `Herper`
 - ⏳ `HilbertVis`
 - ⏳ `HuBMAPR`
-- ⏳ `IMPCdata`
-- ⏳ `INDEED`
 
-... and 229 more ...
+... and 235 more ...
 
-## Not Yet Started (2021)
+## Not Yet Started (2015)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -188,8 +188,8 @@
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
 
-... and 1971 more ...
+... and 1965 more ...
 
 ---
-*Last updated: 2026-11-03 03:06:14 UTC*
+*Last updated: 2026-11-03 03:09:27 UTC*
 *Packages with verified BBS status: 73*
