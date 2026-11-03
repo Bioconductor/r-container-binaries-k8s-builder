@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1039 (42%)
+- **Successfully Built:** 1054 (43%)
 - **Failed:** 5 (0%)
-- **In Progress:** 316
-- **Not Started:** 1077
+- **In Progress:** 302
+- **Not Started:** 1076
 
-**Progress:** 42%
+**Progress:** 43%
 ```
 █████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1039)
+## Successfully Built Packages (1054)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 
-*... and 989 more ...*
+*... and 1004 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (316)
+## In Progress (302)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `ALDEx2`
@@ -97,14 +97,12 @@
 - ⏳ `BRAIN`
 - ⏳ `BUMHMM`
 - ⏳ `BUSseq`
-- ⏳ `Banksy`
 - ⏳ `BioNAR`
 - ⏳ `BioNet`
 - ⏳ `Bioc.gff`
 - ⏳ `BiocSklearn`
 - ⏳ `BreastSubtypeR`
 - ⏳ `CAEN`
-- ⏳ `CARDspa`
 - ⏳ `CCPlotR`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
@@ -113,7 +111,6 @@
 - ⏳ `CSOA`
 - ⏳ `CaDrA`
 - ⏳ `CalibraCurve`
-- ⏳ `CatsCradle`
 - ⏳ `CellBench`
 - ⏳ `CellTrails`
 - ⏳ `ClusterFoldSimilarity`
@@ -137,10 +134,13 @@
 - ⏳ `GENESIS`
 - ⏳ `GEOquery`
 - ⏳ `GRmetrics`
+- ⏳ `GWENA`
+- ⏳ `GenomicSuperSignature`
+- ⏳ `GenomicTuples`
 
-... and 266 more ...
+... and 252 more ...
 
-## Not Yet Started (1077)
+## Not Yet Started (1076)
 - ⏸️ `ACE`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -192,8 +192,8 @@
 - ⏸️ `BloodGen3Module`
 - ⏸️ `CAFE`
 
-... and 1027 more ...
+... and 1026 more ...
 
 ---
-*Last updated: 2026-11-03 13:40:51 UTC*
+*Last updated: 2026-11-03 13:44:11 UTC*
 *Packages with verified BBS status: 191*
