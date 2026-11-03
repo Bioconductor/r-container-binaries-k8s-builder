@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1667 (68%)
+- **Successfully Built:** 1669 (68%)
 - **Failed:** 7 (0%)
-- **In Progress:** 147
-- **Not Started:** 616
+- **In Progress:** 171
+- **Not Started:** 590
 
 **Progress:** 68%
 ```
 ██████████████████████████████████░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1667)
+## Successfully Built Packages (1669)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [Aerith](https://bioconductor.org/packages/3.24/bioc/html/Aerith.html) | [log](logs/Aerith/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Aerith) |
 | [AffiXcan](https://bioconductor.org/packages/3.24/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AffiXcan) |
 
-*... and 1617 more ...*
+*... and 1619 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,10 +85,10 @@
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scMET](https://bioconductor.org/packages/3.24/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
-| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
+| [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (147)
+## In Progress (171)
 - ⏳ `ADAPT`
 - ⏳ `AGDEX`
 - ⏳ `ASICS`
@@ -97,6 +97,9 @@
 - ⏳ `BatchVaria`
 - ⏳ `BioNERO`
 - ⏳ `CATALYST`
+- ⏳ `CEMiTool`
+- ⏳ `CaMutQC`
+- ⏳ `CeTF`
 - ⏳ `CellMentor`
 - ⏳ `CellMixS`
 - ⏳ `CellTrails`
@@ -110,14 +113,16 @@
 - ⏳ `ERSSA`
 - ⏳ `ExperimentHub`
 - ⏳ `FinfoMDS`
+- ⏳ `GDCRNATools`
+- ⏳ `GExPipe`
+- ⏳ `GOaGO`
+- ⏳ `GSEAlens`
 - ⏳ `GeneMeta`
 - ⏳ `GenomicScores`
 - ⏳ `GlobalAncova`
 - ⏳ `GrafGen`
 - ⏳ `HTSFilter`
 - ⏳ `HarmonizR`
-- ⏳ `HiCBricks`
-- ⏳ `HiCExperiment`
 - ⏳ `HiCParser`
 - ⏳ `HiCcompare`
 - ⏳ `HybridExpress`
@@ -126,23 +131,18 @@
 - ⏳ `LRDE`
 - ⏳ `M3Drop`
 - ⏳ `MBECS`
+- ⏳ `MIRit`
 - ⏳ `MLSeq`
 - ⏳ `MSnID`
+- ⏳ `MetaPhOR`
 - ⏳ `MetaboAnnotation`
+- ⏳ `MicrobiomeProfiler`
+- ⏳ `MoonlightR`
 - ⏳ `MultiBaC`
-- ⏳ `MultiRNAflow`
-- ⏳ `NBAMSeq`
-- ⏳ `NetActivity`
-- ⏳ `PAA`
-- ⏳ `POMA`
-- ⏳ `POWSC`
-- ⏳ `PROMISE`
-- ⏳ `PROPS`
-- ⏳ `PathoStat`
 
-... and 97 more ...
+... and 121 more ...
 
-## Not Yet Started (616)
+## Not Yet Started (590)
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
 - ⏸️ `AMARETTO`
@@ -176,7 +176,6 @@
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
-- ⏸️ `CEMiTool`
 - ⏸️ `CMEnt`
 - ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
@@ -188,14 +187,15 @@
 - ⏸️ `CSSQ`
 - ⏸️ `CTdata`
 - ⏸️ `CTexploreR`
-- ⏸️ `CaMutQC`
-- ⏸️ `CeTF`
 - ⏸️ `CellBarcode`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
+- ⏸️ `ChIPQC`
+- ⏸️ `ChIPanalyser`
+- ⏸️ `ChIPexoQual`
 
-... and 566 more ...
+... and 540 more ...
 
 ---
-*Last updated: 2026-11-03 19:45:45 UTC*
+*Last updated: 2026-11-03 19:48:49 UTC*
 *Packages with verified BBS status: 214*
