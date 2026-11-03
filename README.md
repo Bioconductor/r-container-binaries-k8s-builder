@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 551 (23%)
+- **Successfully Built:** 556 (23%)
 - **Failed:** 9 (0%)
-- **In Progress:** 89
-- **Not Started:** 1736
+- **In Progress:** 88
+- **Not Started:** 1732
 
 **Progress:** 23%
 ```
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (551)
+## Successfully Built Packages (556)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 
-*... and 501 more ...*
+*... and 506 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -90,7 +90,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (89)
+## In Progress (88)
 - ⏳ `AlphaBeta`
 - ⏳ `AnVILGCP`
 - ⏳ `CGHcall`
@@ -109,19 +109,16 @@
 - ⏳ `MetaDICT`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OrderedList`
-- ⏳ `QRscore`
 - ⏳ `RGSEA`
 - ⏳ `RNAdecay`
 - ⏳ `ROSeq`
 - ⏳ `RProtoBufLib`
 - ⏳ `RTopper`
 - ⏳ `ReadqPCR`
-- ⏳ `RedisParam`
 - ⏳ `Rmagpie`
 - ⏳ `Rnits`
 - ⏳ `Rtpca`
 - ⏳ `Rvisdiff`
-- ⏳ `S4Vectors`
 - ⏳ `SIMAT`
 - ⏳ `STATegRa`
 - ⏳ `ScreenR`
@@ -130,21 +127,24 @@
 - ⏳ `Wrench`
 - ⏳ `a4Classif`
 - ⏳ `affyContam`
+- ⏳ `bioassayR`
 - ⏳ `compcodeR`
 - ⏳ `consensus`
 - ⏳ `dcGSA`
 - ⏳ `deltaGseg`
 - ⏳ `diffuStats`
 - ⏳ `diggit`
+- ⏳ `eiR`
 - ⏳ `erccdashboard`
 - ⏳ `factDesign`
 - ⏳ `faers`
 - ⏳ `fgsea`
-- ⏳ `flowcatchR`
+- ⏳ `fmcsR`
+- ⏳ `frmaTools`
 
-... and 39 more ...
+... and 38 more ...
 
-## Not Yet Started (1736)
+## Not Yet Started (1732)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUSpaRse`
 - ⏸️ `BUSseq`
 
-... and 1686 more ...
+... and 1682 more ...
 
 ---
-*Last updated: 2026-11-03 06:21:55 UTC*
+*Last updated: 2026-11-03 06:22:57 UTC*
 *Packages with verified BBS status: 171*
