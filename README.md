@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 934 (38%)
+- **Successfully Built:** 939 (38%)
 - **Failed:** 5 (0%)
-- **In Progress:** 101
+- **In Progress:** 96
 - **Not Started:** 1397
 
 **Progress:** 38%
@@ -16,7 +16,7 @@
 ███████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (934)
+## Successfully Built Packages (939)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 884 more ...*
+*... and 889 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (101)
+## In Progress (96)
 - ⏳ `AnnotationHub`
 - ⏳ `BLMA`
 - ⏳ `BRAIN`
@@ -95,7 +95,6 @@
 - ⏳ `CCPlotR`
 - ⏳ `CoCiteStats`
 - ⏳ `DOSE`
-- ⏳ `ExploreModelMatrix`
 - ⏳ `GenomicTuples`
 - ⏳ `GeoDiff`
 - ⏳ `GrafGen`
@@ -104,9 +103,6 @@
 - ⏳ `IWTomics`
 - ⏳ `InteractiveComplexHeatmap`
 - ⏳ `LymphoSeq`
-- ⏳ `PIPETS`
-- ⏳ `PhyloProfile`
-- ⏳ `Qtlizer`
 - ⏳ `R4RNA`
 - ⏳ `Rcpi`
 - ⏳ `ResidualMatrix`
@@ -137,8 +133,12 @@
 - ⏳ `biomaRt`
 - ⏳ `chromDraw`
 - ⏳ `cigarillo`
+- ⏳ `cleaver`
+- ⏳ `cnvGSA`
+- ⏳ `coRdon`
+- ⏳ `cogeqc`
 
-... and 51 more ...
+... and 46 more ...
 
 ## Not Yet Started (1397)
 - ⏸️ `ACE`
@@ -195,5 +195,5 @@
 ... and 1347 more ...
 
 ---
-*Last updated: 2026-11-03 13:05:12 UTC*
+*Last updated: 2026-11-03 13:06:26 UTC*
 *Packages with verified BBS status: 187*
