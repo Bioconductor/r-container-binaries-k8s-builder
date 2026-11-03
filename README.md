@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2104 (88%)
+- **Successfully Built:** 2105 (88%)
 - **Failed:** 21 (0%)
-- **In Progress:** 106
+- **In Progress:** 105
 - **Not Started:** 154
 
 **Progress:** 89%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2104)
+## Successfully Built Packages (2105)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 2054 more ...*
+*... and 2055 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (106)
+## In Progress (105)
 - ⏳ `AHMassBank`
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
@@ -128,7 +128,6 @@
 - ⏳ `GenomicFiles`
 - ⏳ `HistoImagePlot`
 - ⏳ `MEDIPS`
-- ⏳ `MungeSumstats`
 - ⏳ `MutSeqR`
 - ⏳ `MutationalPatterns`
 - ⏳ `OMICsPCA`
@@ -153,8 +152,9 @@
 - ⏳ `Uniquorn`
 - ⏳ `VariantTools`
 - ⏳ `ZygosityPredictor`
+- ⏳ `alabaster.vcf`
 
-... and 56 more ...
+... and 55 more ...
 
 ## Not Yet Started (154)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 104 more ...
 
 ---
-*Last updated: 2026-11-03 22:02:01 UTC*
+*Last updated: 2026-11-03 22:12:03 UTC*
 *Packages with verified BBS status: 233*
