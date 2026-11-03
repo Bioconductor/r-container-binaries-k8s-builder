@@ -1,0 +1,107 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''Statial'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'Statial'
+also installing the dependencies ‘coxme’, ‘scam’, ‘spicyR’, ‘ggsurvfit’, ‘lisaClust’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/coxme_2.2-22.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/scam_1.2-23.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/spicyR_1.24.1.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/ggsurvfit_1.2.1.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/lisaClust_1.20.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/Statial_1.14.0.tar.gz'
+* installing *binary* package ‘coxme’ ...
+* package ‘coxme’ successfully unpacked and SHA256 sums checked
+* ‘coxme’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘coxme’ as ‘coxme_2.2-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coxme)
+* installing *binary* package ‘scam’ ...
+* package ‘scam’ successfully unpacked and SHA256 sums checked
+* ‘scam’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scam’ as ‘scam_1.2-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scam)
+* installing *binary* package ‘ggsurvfit’ ...
+* package ‘ggsurvfit’ successfully unpacked and SHA256 sums checked
+* ‘ggsurvfit’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ggsurvfit’ as ‘ggsurvfit_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsurvfit)
+* installing *source* package ‘Statial’ ...
+** this is package ‘Statial’ version ‘1.14.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘Statial’ as ‘Statial_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Statial)
+* installing *source* package ‘spicyR’ ...
+** this is package ‘spicyR’ version ‘1.24.1’
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘spicyR’ as ‘spicyR_1.24.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spicyR)
+* installing *source* package ‘lisaClust’ ...
+** this is package ‘lisaClust’ version ‘1.20.0’
+** using staged installation
+Warning in person1(given = given[[i]], family = family[[i]], middle = middle[[i]],  :
+  It is recommended to use ‘given’ instead of ‘middle’.
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘lisaClust’ as ‘lisaClust_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lisaClust)
+
+The downloaded source packages are in
+	‘/tmp/RtmpvnwKlz/downloaded_packages’
+Old packages: 'BreastSubtypeR', 'future', 'litedown', 'mirai', 'qs2', 'rsvd',
+  'curl', 'diffobj', 'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv',
+  'nlme', 'survival'
+
+real	1m32.271s
+user	1m18.795s
+sys	0m10.706s
