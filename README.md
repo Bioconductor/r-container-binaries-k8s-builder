@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1155 (47%)
+- **Successfully Built:** 1164 (47%)
 - **Failed:** 5 (0%)
-- **In Progress:** 230
-- **Not Started:** 1047
+- **In Progress:** 246
+- **Not Started:** 1022
 
 **Progress:** 47%
 ```
 ███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1155)
+## Successfully Built Packages (1164)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AnVILBilling](https://bioconductor.org/packages/3.24/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILBilling) |
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 
-*... and 1105 more ...*
+*... and 1114 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [treekoR](https://bioconductor.org/packages/3.24/bioc/html/treekoR.html) | [log](logs/treekoR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/treekoR) |
 | [trio](https://bioconductor.org/packages/3.24/bioc/html/trio.html) | [log](logs/trio/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/trio) |
 | [triplex](https://bioconductor.org/packages/3.24/bioc/html/triplex.html) | [log](logs/triplex/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/triplex) |
 | [tripr](https://bioconductor.org/packages/3.24/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/tripr) |
@@ -70,6 +69,7 @@
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
+| [webbioc](https://bioconductor.org/packages/3.24/bioc/html/webbioc.html) | [log](logs/webbioc/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/webbioc) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (230)
+## In Progress (246)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `ALDEx2`
@@ -96,7 +96,6 @@
 - ⏳ `BUMHMM`
 - ⏳ `BUSseq`
 - ⏳ `BioNAR`
-- ⏳ `BioNet`
 - ⏳ `Bioc.gff`
 - ⏳ `BiocNeighbors`
 - ⏳ `BiocSingular`
@@ -105,6 +104,7 @@
 - ⏳ `CAEN`
 - ⏳ `CDI`
 - ⏳ `CHETAH`
+- ⏳ `CHRONOS`
 - ⏳ `CNVPanelizer`
 - ⏳ `CPSM`
 - ⏳ `CSOA`
@@ -130,17 +130,17 @@
 - ⏳ `GDSArray`
 - ⏳ `GENESIS`
 - ⏳ `GEOquery`
+- ⏳ `GOexpress`
 - ⏳ `GRmetrics`
 - ⏳ `GWENA`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GenomicTuples`
 - ⏳ `GeoDiff`
 - ⏳ `GeoTcgaData`
-- ⏳ `GloScope`
 
-... and 180 more ...
+... and 196 more ...
 
-## Not Yet Started (1047)
+## Not Yet Started (1022)
 - ⏸️ `ACE`
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
@@ -192,8 +192,8 @@
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 
-... and 997 more ...
+... and 972 more ...
 
 ---
-*Last updated: 2026-11-03 14:54:16 UTC*
-*Packages with verified BBS status: 193*
+*Last updated: 2026-11-03 14:56:58 UTC*
+*Packages with verified BBS status: 194*
