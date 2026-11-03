@@ -8,8 +8,8 @@
 - **Total Packages:** 2437
 - **Successfully Built:** 290 (11%)
 - **Failed:** 2 (0%)
-- **In Progress:** 147
-- **Not Started:** 1998
+- **In Progress:** 148
+- **Not Started:** 1997
 
 **Progress:** 11%
 ```
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (147)
+## In Progress (148)
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocGenerics`
@@ -119,6 +119,7 @@
 - ⏳ `Linnorm`
 - ⏳ `MBAmethyl`
 - ⏳ `MODA`
+- ⏳ `MSTree`
 - ⏳ `MSstatsConvert`
 - ⏳ `MSstatsResponse`
 - ⏳ `MantelCorr`
@@ -133,11 +134,10 @@
 - ⏳ `PathNet`
 - ⏳ `PepsNMR`
 - ⏳ `PhenoGeneRanker`
-- ⏳ `ProtGenerics`
 
-... and 97 more ...
+... and 98 more ...
 
-## Not Yet Started (1998)
+## Not Yet Started (1997)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -189,8 +189,8 @@
 - ⏸️ `BERT`
 - ⏸️ `BLMA`
 
-... and 1948 more ...
+... and 1947 more ...
 
 ---
-*Last updated: 2026-11-03 04:57:42 UTC*
+*Last updated: 2026-11-03 04:59:32 UTC*
 *Packages with verified BBS status: 129*
