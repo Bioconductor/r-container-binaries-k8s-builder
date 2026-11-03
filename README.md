@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 2096 (87%)
 - **Failed:** 21 (0%)
-- **In Progress:** 112
-- **Not Started:** 156
+- **In Progress:** 113
+- **Not Started:** 155
 
 **Progress:** 88%
 ```
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (112)
+## In Progress (113)
 - ⏳ `AHMassBank`
 - ⏳ `APAlyzer`
 - ⏳ `ATACseqTFEA`
@@ -133,6 +133,7 @@
 - ⏳ `GenVisR`
 - ⏳ `GenomicFiles`
 - ⏳ `HelloRanges`
+- ⏳ `HistoImagePlot`
 - ⏳ `MEDIPS`
 - ⏳ `Moonlight2R`
 - ⏳ `MungeSumstats`
@@ -152,11 +153,10 @@
 - ⏳ `RiboDiPA`
 - ⏳ `SEMPLR`
 - ⏳ `SNPhood`
-- ⏳ `SigsPack`
 
-... and 62 more ...
+... and 63 more ...
 
-## Not Yet Started (156)
+## Not Yet Started (155)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -190,7 +190,6 @@
 - ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `HistoImagePlot`
 - ⏸️ `IntEREst`
 - ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
@@ -207,9 +206,10 @@
 - ⏸️ `REDseq`
 - ⏸️ `REMP`
 - ⏸️ `RESOLVE`
+- ⏸️ `RNAAgeCalc`
 
-... and 106 more ...
+... and 105 more ...
 
 ---
-*Last updated: 2026-11-03 21:01:56 UTC*
+*Last updated: 2026-11-03 21:03:33 UTC*
 *Packages with verified BBS status: 233*
