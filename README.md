@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2114 (88%)
+- **Successfully Built:** 2116 (88%)
 - **Failed:** 21 (0%)
-- **In Progress:** 105
+- **In Progress:** 103
 - **Not Started:** 145
 
 **Progress:** 89%
@@ -16,7 +16,7 @@
 ████████████████████████████████████████████░░░░░░
 ```
 
-## Successfully Built Packages (2114)
+## Successfully Built Packages (2116)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2064 more ...*
+*... and 2066 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (105)
+## In Progress (103)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
@@ -121,7 +121,6 @@
 - ⏳ `EpiTxDb`
 - ⏳ `EventPointer`
 - ⏳ `ExperimentHubData`
-- ⏳ `FLAMES`
 - ⏳ `FindIT2`
 - ⏳ `GA4GHclient`
 - ⏳ `HistoImagePlot`
@@ -153,8 +152,9 @@
 - ⏳ `VariantTools`
 - ⏳ `ZygosityPredictor`
 - ⏳ `alabaster`
+- ⏳ `annotatr`
 
-... and 55 more ...
+... and 53 more ...
 
 ## Not Yet Started (145)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 95 more ...
 
 ---
-*Last updated: 2026-11-03 22:45:35 UTC*
+*Last updated: 2026-11-03 22:53:09 UTC*
 *Packages with verified BBS status: 234*
