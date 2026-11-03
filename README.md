@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1377 (56%)
+- **Successfully Built:** 1381 (56%)
 - **Failed:** 6 (0%)
-- **In Progress:** 194
-- **Not Started:** 860
+- **In Progress:** 197
+- **Not Started:** 853
 
 **Progress:** 56%
 ```
 ████████████████████████████░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1377)
+## Successfully Built Packages (1381)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AlpsNMR](https://bioconductor.org/packages/3.24/bioc/html/AlpsNMR.html) | [log](logs/AlpsNMR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AlpsNMR) |
 | [AnVIL](https://bioconductor.org/packages/3.24/bioc/html/AnVIL.html) | [log](logs/AnVIL/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVIL) |
 
-*... and 1327 more ...*
+*... and 1331 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -85,15 +85,16 @@
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
+| [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
 
-## In Progress (194)
+## In Progress (197)
 - ⏳ `ADAMgui`
 - ⏳ `ADImpute`
 - ⏳ `AGDEX`
 - ⏳ `APL`
 - ⏳ `AUCell`
 - ⏳ `AnnotationHub`
+- ⏳ `ArrayExpress`
 - ⏳ `BUSseq`
 - ⏳ `BioCor`
 - ⏳ `BioNAR`
@@ -115,7 +116,6 @@
 - ⏳ `EGSEA`
 - ⏳ `EnrichmentBrowser`
 - ⏳ `ExpoRiskR`
-- ⏳ `FuseSOM`
 - ⏳ `GBScleanR`
 - ⏳ `GDSAnnotator`
 - ⏳ `GENESIS`
@@ -127,9 +127,9 @@
 - ⏳ `GlobalAncova`
 - ⏳ `GrafGen`
 - ⏳ `GraphExperiment`
-- ⏳ `HERON`
 - ⏳ `HIPPO`
 - ⏳ `HiCBricks`
+- ⏳ `ITALICS`
 - ⏳ `IWTomics`
 - ⏳ `InterCellar`
 - ⏳ `InteractionSet`
@@ -139,9 +139,9 @@
 - ⏳ `LACE`
 - ⏳ `LRDE`
 
-... and 144 more ...
+... and 147 more ...
 
-## Not Yet Started (860)
+## Not Yet Started (853)
 - ⏸️ `ADAPT`
 - ⏸️ `ADaCGH2`
 - ⏸️ `AHMassBank`
@@ -155,7 +155,6 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
 - ⏸️ `AnnotationHubData`
-- ⏸️ `ArrayExpress`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
@@ -192,9 +191,10 @@
 - ⏸️ `CBNplot`
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
+- ⏸️ `CEMiTool`
 
-... and 810 more ...
+... and 803 more ...
 
 ---
-*Last updated: 2026-11-03 16:17:16 UTC*
+*Last updated: 2026-11-03 16:20:04 UTC*
 *Packages with verified BBS status: 202*
