@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 209 (8%)
+- **Successfully Built:** 214 (8%)
 - **Failed:** 2 (0%)
-- **In Progress:** 223
+- **In Progress:** 218
 - **Not Started:** 2003
 
 **Progress:** 8%
@@ -16,7 +16,7 @@
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (209)
+## Successfully Built Packages (214)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 | [BufferedMatrixMethods](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrixMethods.html) | [log](logs/BufferedMatrixMethods/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrixMethods) |
 
-*... and 159 more ...*
+*... and 164 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (223)
+## In Progress (218)
 - ⏳ `BADER`
 - ⏳ `BEclear`
 - ⏳ `BUS`
@@ -92,11 +92,8 @@
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
-- ⏳ `Clomial`
 - ⏳ `ClusterJudge`
-- ⏳ `ComPrAn`
 - ⏳ `CytoGLMM`
-- ⏳ `DART`
 - ⏳ `DCATS`
 - ⏳ `DEGseq`
 - ⏳ `DEqMS`
@@ -129,13 +126,16 @@
 - ⏳ `Harman`
 - ⏳ `Heatplus`
 - ⏳ `Herper`
-- ⏳ `HilbertVis`
 - ⏳ `HuBMAPR`
 - ⏳ `IMPCdata`
 - ⏳ `INDEED`
 - ⏳ `INPower`
+- ⏳ `INTACT`
+- ⏳ `ISAnalytics`
+- ⏳ `Icens`
+- ⏳ `Informeasure`
 
-... and 173 more ...
+... and 168 more ...
 
 ## Not Yet Started (2003)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1953 more ...
 
 ---
-*Last updated: 2026-11-03 04:26:03 UTC*
+*Last updated: 2026-11-03 04:31:49 UTC*
 *Packages with verified BBS status: 116*
