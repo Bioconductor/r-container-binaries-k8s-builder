@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 221 (9%)
+- **Successfully Built:** 227 (9%)
 - **Failed:** 3 (0%)
-- **In Progress:** 174
-- **Not Started:** 1987
+- **In Progress:** 170
+- **Not Started:** 1985
 
 **Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (221)
+## Successfully Built Packages (227)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -29,7 +29,9 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 | [AlphaMissenseR](https://bioconductor.org/packages/3.23/bioc/html/AlphaMissenseR.html) | [log](logs/AlphaMissenseR/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AlphaMissenseR) |
+| [AnVILAz](https://bioconductor.org/packages/3.23/bioc/html/AnVILAz.html) | [log](logs/AnVILAz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILAz) |
 | [AnVILBase](https://bioconductor.org/packages/3.23/bioc/html/AnVILBase.html) | [log](logs/AnVILBase/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBase) |
+| [AnVILBilling](https://bioconductor.org/packages/3.23/bioc/html/AnVILBilling.html) | [log](logs/AnVILBilling/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILBilling) |
 | [BADER](https://bioconductor.org/packages/3.23/bioc/html/BADER.html) | [log](logs/BADER/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BADER) |
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BaseSpaceR](https://bioconductor.org/packages/3.23/bioc/html/BaseSpaceR.html) | [log](logs/BaseSpaceR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BaseSpaceR) |
@@ -43,10 +45,8 @@
 | [CFAssay](https://bioconductor.org/packages/3.23/bioc/html/CFAssay.html) | [log](logs/CFAssay/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CFAssay) |
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
 | [CONSTANd](https://bioconductor.org/packages/3.23/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CONSTANd) |
-| [COSNet](https://bioconductor.org/packages/3.23/bioc/html/COSNet.html) | [log](logs/COSNet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/COSNet) |
-| [CausalR](https://bioconductor.org/packages/3.23/bioc/html/CausalR.html) | [log](logs/CausalR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CausalR) |
 
-*... and 171 more ...*
+*... and 177 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,10 +84,10 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (174)
+## In Progress (170)
 - ⏳ `ABSSeq`
-- ⏳ `AnVILAz`
-- ⏳ `AnVILBilling`
+- ⏳ `AnVIL`
+- ⏳ `AnVILGCP`
 - ⏳ `BiocGenerics`
 - ⏳ `BiocMaintainerApp`
 - ⏳ `BiocParallel`
@@ -136,9 +136,9 @@
 - ⏳ `Icens`
 - ⏳ `Informeasure`
 
-... and 124 more ...
+... and 120 more ...
 
-## Not Yet Started (1987)
+## Not Yet Started (1985)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -170,8 +170,6 @@
 - ⏸️ `AllelicImbalance`
 - ⏸️ `AlphaBeta`
 - ⏸️ `AlpsNMR`
-- ⏸️ `AnVIL`
-- ⏸️ `AnVILGCP`
 - ⏸️ `AnVILPublish`
 - ⏸️ `AnVILWorkflow`
 - ⏸️ `Anaquin`
@@ -189,9 +187,11 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BCRANK`
 - ⏸️ `BEAT`
+- ⏸️ `BERT`
+- ⏸️ `BEclear`
 
-... and 1937 more ...
+... and 1935 more ...
 
 ---
-*Last updated: 2026-11-03 04:11:18 UTC*
-*Packages with verified BBS status: 131*
+*Last updated: 2026-11-03 04:12:31 UTC*
+*Packages with verified BBS status: 133*
