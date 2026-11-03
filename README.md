@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2072 (86%)
+- **Successfully Built:** 2073 (86%)
 - **Failed:** 21 (0%)
 - **In Progress:** 97
-- **Not Started:** 195
+- **Not Started:** 194
 
 **Progress:** 87%
 ```
 ███████████████████████████████████████████░░░░░░░
 ```
 
-## Successfully Built Packages (2072)
+## Successfully Built Packages (2073)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 | [ASURAT](https://bioconductor.org/packages/3.23/bioc/html/ASURAT.html) | [log](logs/ASURAT/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASURAT) |
 
-*... and 2022 more ...*
+*... and 2023 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -127,7 +127,6 @@
 - ⏳ `GOTHiC`
 - ⏳ `GenVisR`
 - ⏳ `GenomicFiles`
-- ⏳ `Guitar`
 - ⏳ `HelloRanges`
 - ⏳ `IVAS`
 - ⏳ `InPAS`
@@ -153,10 +152,11 @@
 - ⏳ `StructuralVariantAnnotation`
 - ⏳ `TAPseq`
 - ⏳ `TEKRABber`
+- ⏳ `TRESS`
 
 ... and 47 more ...
 
-## Not Yet Started (195)
+## Not Yet Started (194)
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -208,8 +208,8 @@
 - ⏸️ `MethylAid`
 - ⏸️ `NADfinder`
 
-... and 145 more ...
+... and 144 more ...
 
 ---
-*Last updated: 2026-11-03 19:36:15 UTC*
+*Last updated: 2026-11-03 19:38:41 UTC*
 *Packages with verified BBS status: 233*
