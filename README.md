@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 232 (9%)
+- **Successfully Built:** 237 (9%)
 - **Failed:** 2 (0%)
-- **In Progress:** 201
-- **Not Started:** 2002
+- **In Progress:** 197
+- **Not Started:** 2001
 
 **Progress:** 9%
 ```
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (232)
+## Successfully Built Packages (237)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 
-*... and 182 more ...*
+*... and 187 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [pgca](https://bioconductor.org/packages/3.24/bioc/html/pgca.html) | [log](logs/pgca/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/pgca) |
 | [phosphonormalizer](https://bioconductor.org/packages/3.24/bioc/html/phosphonormalizer.html) | [log](logs/phosphonormalizer/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/phosphonormalizer) |
 | [phylobar](https://bioconductor.org/packages/3.24/bioc/html/phylobar.html) | [log](logs/phylobar/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/phylobar) |
 | [planet](https://bioconductor.org/packages/3.24/bioc/html/planet.html) | [log](logs/planet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/planet) |
@@ -60,6 +59,7 @@
 | [rBiopaxParser](https://bioconductor.org/packages/3.24/bioc/html/rBiopaxParser.html) | [log](logs/rBiopaxParser/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rBiopaxParser) |
 | [rWikiPathways](https://bioconductor.org/packages/3.24/bioc/html/rWikiPathways.html) | [log](logs/rWikiPathways/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rWikiPathways) |
 | [rsemmed](https://bioconductor.org/packages/3.24/bioc/html/rsemmed.html) | [log](logs/rsemmed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/rsemmed) |
+| [scFeatureFilter](https://bioconductor.org/packages/3.24/bioc/html/scFeatureFilter.html) | [log](logs/scFeatureFilter/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scFeatureFilter) |
 | [scatterHatch](https://bioconductor.org/packages/3.24/bioc/html/scatterHatch.html) | [log](logs/scatterHatch/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scatterHatch) |
 | [seahtrue](https://bioconductor.org/packages/3.24/bioc/html/seahtrue.html) | [log](logs/seahtrue/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/seahtrue) |
 | [semisup](https://bioconductor.org/packages/3.24/bioc/html/semisup.html) | [log](logs/semisup/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/semisup) |
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (201)
+## In Progress (197)
 - ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -131,13 +131,13 @@
 - ⏳ `LedPred`
 - ⏳ `Linnorm`
 - ⏳ `M3C`
-- ⏳ `MACSQuantifyR`
 - ⏳ `MBAmethyl`
 - ⏳ `MODA`
+- ⏳ `MPFE`
 
-... and 151 more ...
+... and 147 more ...
 
-## Not Yet Started (2002)
+## Not Yet Started (2001)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -189,8 +189,8 @@
 - ⏸️ `BEAT`
 - ⏸️ `BERT`
 
-... and 1952 more ...
+... and 1951 more ...
 
 ---
-*Last updated: 2026-11-03 04:36:45 UTC*
-*Packages with verified BBS status: 119*
+*Last updated: 2026-11-03 04:38:13 UTC*
+*Packages with verified BBS status: 120*
