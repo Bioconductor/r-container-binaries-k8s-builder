@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 15 (0%)
+- **Successfully Built:** 21 (0%)
 - **Failed:** 0 (0%)
-- **In Progress:** 336
-- **Not Started:** 2034
+- **In Progress:** 332
+- **Not Started:** 2032
 
 **Progress:** 0%
 ```
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (15)
+## Successfully Built Packages (21)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -35,8 +35,14 @@
 | [MassArray](https://bioconductor.org/packages/3.23/bioc/html/MassArray.html) | [log](logs/MassArray/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MassArray) |
 | [MassSpecWavelet](https://bioconductor.org/packages/3.23/bioc/html/MassSpecWavelet.html) | [log](logs/MassSpecWavelet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MassSpecWavelet) |
 | [MatrixGenerics](https://bioconductor.org/packages/3.23/bioc/html/MatrixGenerics.html) | [log](logs/MatrixGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MatrixGenerics) |
+| [MeLSI](https://bioconductor.org/packages/3.23/bioc/html/MeLSI.html) | [log](logs/MeLSI/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MeLSI) |
+| [MeasurementError.cor](https://bioconductor.org/packages/3.23/bioc/html/MeasurementError.cor.html) | [log](logs/MeasurementError.cor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MeasurementError.cor) |
+| [Mergeomics](https://bioconductor.org/packages/3.23/bioc/html/Mergeomics.html) | [log](logs/Mergeomics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/Mergeomics) |
+| [ModCon](https://bioconductor.org/packages/3.23/bioc/html/ModCon.html) | [log](logs/ModCon/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ModCon) |
+| [MultiMed](https://bioconductor.org/packages/3.23/bioc/html/MultiMed.html) | [log](logs/MultiMed/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/MultiMed) |
+| [NTW](https://bioconductor.org/packages/3.23/bioc/html/NTW.html) | [log](logs/NTW/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/NTW) |
 
-## In Progress (336)
+## In Progress (332)
 - ⏳ `ANCOMBC`
 - ⏳ `AWAggregator`
 - ⏳ `AnVILBase`
@@ -88,9 +94,9 @@
 - ⏳ `GIGSEA`
 - ⏳ `GLAD`
 
-... and 286 more ...
+... and 282 more ...
 
-## Not Yet Started (2034)
+## Not Yet Started (2032)
 - ⏸️ `ABSSeq`
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
@@ -142,8 +148,8 @@
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 
-... and 1984 more ...
+... and 1982 more ...
 
 ---
-*Last updated: 2026-11-03 02:26:18 UTC*
-*Packages with verified BBS status: 15*
+*Last updated: 2026-11-03 02:28:24 UTC*
+*Packages with verified BBS status: 21*
