@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 692 (29%)
+- **Successfully Built:** 699 (29%)
 - **Failed:** 10 (0%)
-- **In Progress:** 155
-- **Not Started:** 1528
+- **In Progress:** 150
+- **Not Started:** 1526
 
 **Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (692)
+## Successfully Built Packages (699)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.23/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILPublish) |
 | [AnVILWorkflow](https://bioconductor.org/packages/3.23/bioc/html/AnVILWorkflow.html) | [log](logs/AnVILWorkflow/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AnVILWorkflow) |
 
-*... and 642 more ...*
+*... and 649 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -91,22 +91,22 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (155)
+## In Progress (150)
 - ⏳ `AlphaBeta`
-- ⏳ `AnnotationDbi`
 - ⏳ `AnnotationFilter`
 - ⏳ `BCRANK`
 - ⏳ `BRAIN`
 - ⏳ `BREW3R.r`
 - ⏳ `BiFET`
+- ⏳ `BiocAzul`
 - ⏳ `CCPlotR`
 - ⏳ `CNVMetrics`
 - ⏳ `CSAR`
 - ⏳ `ClustAll`
 - ⏳ `DECIPHER`
-- ⏳ `EnrichedHeatmap`
 - ⏳ `ExiMiR`
 - ⏳ `FELLA`
+- ⏳ `GENESIS`
 - ⏳ `GEOsubmission`
 - ⏳ `GMRP`
 - ⏳ `GSCA`
@@ -143,9 +143,9 @@
 - ⏳ `R4RNA`
 - ⏳ `RCM`
 
-... and 105 more ...
+... and 100 more ...
 
-## Not Yet Started (1528)
+## Not Yet Started (1526)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -197,8 +197,8 @@
 - ⏸️ `BatchSVG`
 - ⏸️ `Battlefield`
 
-... and 1478 more ...
+... and 1476 more ...
 
 ---
-*Last updated: 2026-11-03 07:13:19 UTC*
+*Last updated: 2026-11-03 07:15:40 UTC*
 *Packages with verified BBS status: 184*
