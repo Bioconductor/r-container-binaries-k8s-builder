@@ -1,0 +1,50 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''beer'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'beer'
+also installing the dependency ‘rjags’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/latest/src/contrib/rjags_4-18.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/beer_1.15.1.tar.gz'
+* installing *binary* package ‘rjags’ ...
+* package ‘rjags’ successfully unpacked and SHA256 sums checked
+* ‘rjags’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘rjags’ as ‘rjags_4-18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjags)
+* installing *source* package ‘beer’ ...
+** this is package ‘beer’ version ‘1.15.1’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘beer’ as ‘beer_1.15.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beer)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTdChrB/downloaded_packages’
+Old packages: 'future', 'litedown', 'mirai', 'qs2', 'rsvd', 'curl', 'diffobj',
+  'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2', 'tinytex', 'usethis',
+  'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv', 'nlme', 'survival'
+
+real	0m33.289s
+user	0m28.864s
+sys	0m3.486s

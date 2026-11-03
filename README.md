@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1123 (47%)
-- **Failed:** 14 (0%)
-- **In Progress:** 163
-- **Not Started:** 1085
+- **Successfully Built:** 1148 (48%)
+- **Failed:** 15 (0%)
+- **In Progress:** 230
+- **Not Started:** 992
 
-**Progress:** 47%
+**Progress:** 48%
 ```
-███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░
+████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1123)
+## Successfully Built Packages (1148)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AffiXcan](https://bioconductor.org/packages/3.23/bioc/html/AffiXcan.html) | [log](logs/AffiXcan/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffiXcan) |
 | [AffyRNADegradation](https://bioconductor.org/packages/3.23/bioc/html/AffyRNADegradation.html) | [log](logs/AffyRNADegradation/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AffyRNADegradation) |
 
-*... and 1073 more ...*
+*... and 1098 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -76,7 +76,7 @@
 | [zFPKM](https://bioconductor.org/packages/3.23/bioc/html/zFPKM.html) | [log](logs/zFPKM/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zFPKM) |
 | [zitools](https://bioconductor.org/packages/3.23/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/zitools) |
 
-## Failed Packages (14)
+## Failed Packages (15)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
@@ -91,24 +91,39 @@
 | [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
-| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
-| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
-| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes |
+| [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust |
+| [runibic](https://bioconductor.org/packages/3.23/bioc/html/runibic.html) | [log](logs/runibic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/runibic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
+| [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR |
+| [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (163)
+## In Progress (230)
+- ⏳ `ADImpute`
+- ⏳ `APL`
+- ⏳ `ASURAT`
 - ⏳ `Anaquin`
 - ⏳ `BiFET`
+- ⏳ `CDI`
+- ⏳ `CHETAH`
 - ⏳ `CNTools`
 - ⏳ `CNVMetrics`
+- ⏳ `COTAN`
+- ⏳ `CTexploreR`
+- ⏳ `CellBench`
+- ⏳ `CellMentor`
+- ⏳ `CellTrails`
+- ⏳ `Cepo`
 - ⏳ `ClassifyR`
+- ⏳ `CuratedAtlasQueryR`
 - ⏳ `DECIPHER`
 - ⏳ `DEFormats`
 - ⏳ `DEGreport`
 - ⏳ `DELocal`
 - ⏳ `DEWSeq`
+- ⏳ `DeeDeeExperiment`
+- ⏳ `DifferentialRegulation`
+- ⏳ `ERSSA`
 - ⏳ `EpiDISH`
 - ⏳ `ExiMiR`
-- ⏳ `FlowSOM`
 - ⏳ `GMRP`
 - ⏳ `GNET2`
 - ⏳ `GOexpress`
@@ -124,39 +139,22 @@
 - ⏳ `GenomicScores`
 - ⏳ `GenomicSuperSignature`
 - ⏳ `GeoTcgaData`
+- ⏳ `GloScope`
 - ⏳ `GrafGen`
+- ⏳ `GraphExperiment`
 - ⏳ `HGC`
+- ⏳ `HIPPO`
 - ⏳ `Heatplus`
 - ⏳ `HiCBricks`
 - ⏳ `IFAA`
-- ⏳ `INTACT`
-- ⏳ `IWTomics`
-- ⏳ `IgGeneUsage`
-- ⏳ `ImageArray`
-- ⏳ `InterCellar`
-- ⏳ `InteractionSet`
-- ⏳ `LACHESIS`
-- ⏳ `LOLA`
-- ⏳ `LRcell`
-- ⏳ `Lheuristic`
-- ⏳ `LinkHD`
-- ⏳ `MACSr`
-- ⏳ `MAPFX`
-- ⏳ `MEDME`
-- ⏳ `MGFR`
-- ⏳ `MOFA2`
-- ⏳ `MOMA`
 
-... and 113 more ...
+... and 180 more ...
 
-## Not Yet Started (1085)
+## Not Yet Started (992)
 - ⏸️ `ACE`
-- ⏸️ `ADImpute`
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
-- ⏸️ `APL`
 - ⏸️ `ASSIGN`
-- ⏸️ `ASURAT`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `ATACseqTFEA`
@@ -176,7 +174,6 @@
 - ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
-- ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Banksy`
@@ -200,9 +197,13 @@
 - ⏸️ `BiocPkgDash`
 - ⏸️ `BiocPkgTools`
 - ⏸️ `BulkSignalR`
+- ⏸️ `CAFE`
+- ⏸️ `CAGEfightR`
+- ⏸️ `CAGEr`
+- ⏸️ `CAMERA`
 
-... and 1035 more ...
+... and 942 more ...
 
 ---
-*Last updated: 2026-11-03 09:14:08 UTC*
-*Packages with verified BBS status: 209*
+*Last updated: 2026-11-03 09:20:38 UTC*
+*Packages with verified BBS status: 210*
