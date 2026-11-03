@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 237 (9%)
+- **Successfully Built:** 242 (9%)
 - **Failed:** 2 (0%)
-- **In Progress:** 197
+- **In Progress:** 192
 - **Not Started:** 2001
 
-**Progress:** 9%
+**Progress:** 10%
 ```
-████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (237)
+## Successfully Built Packages (242)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocWorkflowTools](https://bioconductor.org/packages/3.24/bioc/html/BiocWorkflowTools.html) | [log](logs/BiocWorkflowTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BiocWorkflowTools) |
 | [BufferedMatrix](https://bioconductor.org/packages/3.24/bioc/html/BufferedMatrix.html) | [log](logs/BufferedMatrix/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BufferedMatrix) |
 
-*... and 187 more ...*
+*... and 192 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -83,7 +83,7 @@
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 
-## In Progress (197)
+## In Progress (192)
 - ⏳ `BEclear`
 - ⏳ `BUS`
 - ⏳ `BiocBaseUtils`
@@ -135,7 +135,7 @@
 - ⏳ `MODA`
 - ⏳ `MPFE`
 
-... and 147 more ...
+... and 142 more ...
 
 ## Not Yet Started (2001)
 - ⏸️ `ABarray`
@@ -192,5 +192,5 @@
 ... and 1951 more ...
 
 ---
-*Last updated: 2026-11-03 04:38:13 UTC*
+*Last updated: 2026-11-03 04:39:27 UTC*
 *Packages with verified BBS status: 120*
