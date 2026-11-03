@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 227 (9%)
+- **Successfully Built:** 234 (9%)
 - **Failed:** 3 (0%)
-- **In Progress:** 170
+- **In Progress:** 163
 - **Not Started:** 1985
 
 **Progress:** 9%
@@ -16,7 +16,7 @@
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (227)
+## Successfully Built Packages (234)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [CNAnorm](https://bioconductor.org/packages/3.23/bioc/html/CNAnorm.html) | [log](logs/CNAnorm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CNAnorm) |
 | [CONSTANd](https://bioconductor.org/packages/3.23/bioc/html/CONSTANd.html) | [log](logs/CONSTANd/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/CONSTANd) |
 
-*... and 177 more ...*
+*... and 184 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -84,7 +84,7 @@
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (170)
+## In Progress (163)
 - ⏳ `ABSSeq`
 - ⏳ `AnVIL`
 - ⏳ `AnVILGCP`
@@ -101,7 +101,6 @@
 - ⏳ `DeepPINCS`
 - ⏳ `EnhancedVolcano`
 - ⏳ `FRGEpistasis`
-- ⏳ `FitHiC`
 - ⏳ `GAprediction`
 - ⏳ `GEM`
 - ⏳ `GENIE3`
@@ -120,7 +119,6 @@
 - ⏳ `GWAS.BAYES`
 - ⏳ `GeneGA`
 - ⏳ `GeneticsPed`
-- ⏳ `GladiaTOX`
 - ⏳ `HDTD`
 - ⏳ `HGC`
 - ⏳ `HIBAG`
@@ -135,8 +133,10 @@
 - ⏳ `ISoLDE`
 - ⏳ `Icens`
 - ⏳ `Informeasure`
+- ⏳ `IsoCorrectoR`
+- ⏳ `LBE`
 
-... and 120 more ...
+... and 113 more ...
 
 ## Not Yet Started (1985)
 - ⏸️ `ABarray`
@@ -193,5 +193,5 @@
 ... and 1935 more ...
 
 ---
-*Last updated: 2026-11-03 04:12:31 UTC*
+*Last updated: 2026-11-03 04:13:48 UTC*
 *Packages with verified BBS status: 133*
