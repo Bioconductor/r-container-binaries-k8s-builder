@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 353 (14%)
+- **Successfully Built:** 359 (15%)
 - **Failed:** 6 (0%)
 - **In Progress:** 123
-- **Not Started:** 1903
+- **Not Started:** 1897
 
 **Progress:** 15%
 ```
 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (353)
+## Successfully Built Packages (359)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [BiocGenerics](https://bioconductor.org/packages/3.23/bioc/html/BiocGenerics.html) | [log](logs/BiocGenerics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocGenerics) |
 | [BiocHail](https://bioconductor.org/packages/3.23/bioc/html/BiocHail.html) | [log](logs/BiocHail/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BiocHail) |
 
-*... and 303 more ...*
+*... and 309 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -97,9 +97,7 @@
 - ⏳ `CGEN`
 - ⏳ `ChemmineOB`
 - ⏳ `ChemmineR`
-- ⏳ `CytoGLMM`
 - ⏳ `DEsingle`
-- ⏳ `DNAcycP2`
 - ⏳ `DeepPINCS`
 - ⏳ `DepInfeR`
 - ⏳ `EBImage`
@@ -138,10 +136,12 @@
 - ⏳ `RLMM`
 - ⏳ `RNAdecay`
 - ⏳ `RProtoBufLib`
+- ⏳ `RSeqAn`
+- ⏳ `RedisParam`
 
 ... and 73 more ...
 
-## Not Yet Started (1903)
+## Not Yet Started (1897)
 - ⏸️ `ABarray`
 - ⏸️ `ACE`
 - ⏸️ `ACME`
@@ -193,8 +193,8 @@
 - ⏸️ `BOBaFIT`
 - ⏸️ `BRAIN`
 
-... and 1853 more ...
+... and 1847 more ...
 
 ---
-*Last updated: 2026-11-03 05:17:05 UTC*
+*Last updated: 2026-11-03 05:18:19 UTC*
 *Packages with verified BBS status: 148*
