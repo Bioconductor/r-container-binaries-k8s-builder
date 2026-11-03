@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 1438 (60%)
+- **Successfully Built:** 1457 (61%)
 - **Failed:** 16 (0%)
 - **In Progress:** 188
-- **Not Started:** 743
+- **Not Started:** 724
 
-**Progress:** 60%
+**Progress:** 61%
 ```
 ██████████████████████████████░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1438)
+## Successfully Built Packages (1457)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.23/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.23/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/AWAggregator) |
 
-*... and 1388 more ...*
+*... and 1407 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -88,7 +88,7 @@
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
-| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI |
+| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [ppcseq](https://bioconductor.org/packages/3.23/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [rqubic](https://bioconductor.org/packages/3.23/bioc/html/rqubic.html) | [log](logs/rqubic/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/rqubic) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
@@ -101,7 +101,6 @@
 - ⏳ `ADImpute`
 - ⏳ `ASSIGN`
 - ⏳ `AssessORF`
-- ⏳ `BASiCS`
 - ⏳ `BERT`
 - ⏳ `Banksy`
 - ⏳ `BatChef`
@@ -110,7 +109,6 @@
 - ⏳ `BioNERO`
 - ⏳ `CARDspa`
 - ⏳ `CNTools`
-- ⏳ `CNVMetrics`
 - ⏳ `CTSV`
 - ⏳ `CatsCradle`
 - ⏳ `CellBench`
@@ -118,6 +116,7 @@
 - ⏳ `CelliD`
 - ⏳ `CiteFuse`
 - ⏳ `ClassifyR`
+- ⏳ `ClustIRR`
 - ⏳ `CoGAPS`
 - ⏳ `Coralysis`
 - ⏳ `DELocal`
@@ -129,6 +128,7 @@
 - ⏳ `EpiDISH`
 - ⏳ `GOexpress`
 - ⏳ `GOpro`
+- ⏳ `GOstats`
 - ⏳ `GRmetrics`
 - ⏳ `GSVA`
 - ⏳ `GeneMeta`
@@ -151,7 +151,7 @@
 
 ... and 138 more ...
 
-## Not Yet Started (743)
+## Not Yet Started (724)
 - ⏸️ `AHMassBank`
 - ⏸️ `APAlyzer`
 - ⏸️ `ASpli`
@@ -177,7 +177,6 @@
 - ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `BioGA`
-- ⏸️ `BioMVCClass`
 - ⏸️ `BiocCheck`
 - ⏸️ `BiocPkgDash`
 - ⏸️ `BiocPkgTools`
@@ -202,9 +201,10 @@
 - ⏸️ `CONFESS`
 - ⏸️ `CRISPRball`
 - ⏸️ `CRISPRseek`
+- ⏸️ `CSSQ`
 
-... and 693 more ...
+... and 674 more ...
 
 ---
-*Last updated: 2026-11-03 10:54:25 UTC*
+*Last updated: 2026-11-03 10:58:54 UTC*
 *Packages with verified BBS status: 219*
