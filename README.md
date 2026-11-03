@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 859 (35%)
+- **Successfully Built:** 866 (35%)
 - **Failed:** 5 (0%)
-- **In Progress:** 96
-- **Not Started:** 1477
+- **In Progress:** 110
+- **Not Started:** 1456
 
 **Progress:** 35%
 ```
 █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (859)
+## Successfully Built Packages (866)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILGCP](https://bioconductor.org/packages/3.24/bioc/html/AnVILGCP.html) | [log](logs/AnVILGCP/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILGCP) |
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 
-*... and 809 more ...*
+*... and 816 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,22 +86,30 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (96)
+## In Progress (110)
+- ⏳ `AnnotationDbi`
+- ⏳ `AssessORF`
 - ⏳ `BRAIN`
 - ⏳ `CCPlotR`
-- ⏳ `CGRphylo2`
+- ⏳ `DuckDBArray`
+- ⏳ `DuckDBGRanges`
+- ⏳ `DuckDBSpatial`
 - ⏳ `ExploreModelMatrix`
+- ⏳ `FELLA`
 - ⏳ `FamAgg`
-- ⏳ `GeneRegionScan`
+- ⏳ `GenomAutomorphism`
 - ⏳ `GenomicTuples`
+- ⏳ `GeomxTools`
 - ⏳ `GrafGen`
 - ⏳ `HiCBricks`
 - ⏳ `HilbertCurve`
 - ⏳ `IWTomics`
 - ⏳ `InteractiveComplexHeatmap`
-- ⏳ `MEDME`
+- ⏳ `KEGGemUP`
+- ⏳ `MOFA2`
+- ⏳ `MSstatsLiP`
+- ⏳ `MSstatsShiny`
 - ⏳ `PIPETS`
-- ⏳ `PWMEnrich`
 - ⏳ `PhyloProfile`
 - ⏳ `Qtlizer`
 - ⏳ `R4RNA`
@@ -120,27 +128,19 @@
 - ⏳ `TnT`
 - ⏳ `ZarrArray`
 - ⏳ `adverSCarial`
+- ⏳ `alabaster.matrix`
 - ⏳ `alabaster.ranges`
 - ⏳ `alabaster.string`
 - ⏳ `altcdfenvs`
-- ⏳ `bamsignals`
 - ⏳ `baySeq`
 - ⏳ `bcSeq`
 - ⏳ `beachmat`
 - ⏳ `cellmig`
-- ⏳ `chromDraw`
-- ⏳ `cigarillo`
-- ⏳ `cleaver`
-- ⏳ `cnvGSA`
-- ⏳ `coRdon`
-- ⏳ `cogeqc`
-- ⏳ `cola`
-- ⏳ `convert`
-- ⏳ `epialleleR`
+- ⏳ `chihaya`
 
-... and 46 more ...
+... and 60 more ...
 
-## Not Yet Started (1477)
+## Not Yet Started (1456)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -163,12 +163,10 @@
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
 - ⏸️ `Anaquin`
-- ⏸️ `AnnotationDbi`
 - ⏸️ `AnnotationForge`
 - ⏸️ `AnnotationHub`
 - ⏸️ `AnnotationHubData`
 - ⏸️ `ArrayExpress`
-- ⏸️ `AssessORF`
 - ⏸️ `BASiCS`
 - ⏸️ `BASiCStan`
 - ⏸️ `BBCAnalyzer`
@@ -191,9 +189,11 @@
 - ⏸️ `BatChef`
 - ⏸️ `BatchQC`
 - ⏸️ `BatchSVG`
+- ⏸️ `BatchVaria`
+- ⏸️ `Battlefield`
 
-... and 1427 more ...
+... and 1406 more ...
 
 ---
-*Last updated: 2026-11-03 12:39:31 UTC*
+*Last updated: 2026-11-03 12:42:08 UTC*
 *Packages with verified BBS status: 186*
