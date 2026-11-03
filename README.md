@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 503 (20%)
+- **Successfully Built:** 512 (21%)
 - **Failed:** 5 (0%)
-- **In Progress:** 137
+- **In Progress:** 128
 - **Not Started:** 1792
 
-**Progress:** 20%
+**Progress:** 21%
 ```
 ██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (503)
+## Successfully Built Packages (512)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [BeadDataPackR](https://bioconductor.org/packages/3.24/bioc/html/BeadDataPackR.html) | [log](logs/BeadDataPackR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BeadDataPackR) |
 | [BenchHub](https://bioconductor.org/packages/3.24/bioc/html/BenchHub.html) | [log](logs/BenchHub/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/BenchHub) |
 
-*... and 453 more ...*
+*... and 462 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [sizepower](https://bioconductor.org/packages/3.24/bioc/html/sizepower.html) | [log](logs/sizepower/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sizepower) |
 | [snm](https://bioconductor.org/packages/3.24/bioc/html/snm.html) | [log](logs/snm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snm) |
 | [snpStats](https://bioconductor.org/packages/3.24/bioc/html/snpStats.html) | [log](logs/snpStats/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/snpStats) |
 | [sparsenetgls](https://bioconductor.org/packages/3.24/bioc/html/sparsenetgls.html) | [log](logs/sparsenetgls/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/sparsenetgls) |
@@ -71,6 +70,7 @@
 | [variancePartition](https://bioconductor.org/packages/3.24/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/variancePartition) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
+| [wavFeatExt](https://bioconductor.org/packages/3.24/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.24/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/weaver) |
 | [widgetTools](https://bioconductor.org/packages/3.24/bioc/html/widgetTools.html) | [log](logs/widgetTools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/widgetTools) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
@@ -86,13 +86,12 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (137)
+## In Progress (128)
 - ⏳ `ANF`
 - ⏳ `BUS`
 - ⏳ `BioMVCClass`
 - ⏳ `BiocBaseUtils`
 - ⏳ `BiocMaintainerApp`
-- ⏳ `BiocVersion`
 - ⏳ `BridgeDbR`
 - ⏳ `CNORode`
 - ⏳ `DEsingle`
@@ -134,11 +133,12 @@
 - ⏳ `ROTS`
 - ⏳ `RTCA`
 - ⏳ `RUVcorr`
-- ⏳ `Rhtslib`
 - ⏳ `Rnits`
 - ⏳ `Rsubread`
+- ⏳ `S4Vectors`
+- ⏳ `SPEM`
 
-... and 87 more ...
+... and 78 more ...
 
 ## Not Yet Started (1792)
 - ⏸️ `ABarray`
@@ -195,5 +195,5 @@
 ... and 1742 more ...
 
 ---
-*Last updated: 2026-11-03 06:14:44 UTC*
-*Packages with verified BBS status: 157*
+*Last updated: 2026-11-03 06:16:33 UTC*
+*Packages with verified BBS status: 158*
