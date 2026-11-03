@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 717 (29%)
+- **Successfully Built:** 725 (29%)
 - **Failed:** 5 (0%)
-- **In Progress:** 48
-- **Not Started:** 1667
+- **In Progress:** 43
+- **Not Started:** 1664
 
 **Progress:** 29%
 ```
 ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (717)
+## Successfully Built Packages (725)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AnVILPublish](https://bioconductor.org/packages/3.24/bioc/html/AnVILPublish.html) | [log](logs/AnVILPublish/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILPublish) |
 | [AnVILVRS](https://bioconductor.org/packages/3.24/bioc/html/AnVILVRS.html) | [log](logs/AnVILVRS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AnVILVRS) |
 
-*... and 667 more ...*
+*... and 675 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -86,7 +86,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (48)
+## In Progress (43)
 - ⏳ `ANF`
 - ⏳ `BUS`
 - ⏳ `BumpyMatrix`
@@ -110,20 +110,15 @@
 - ⏳ `XVector`
 - ⏳ `ctsGE`
 - ⏳ `dStruct`
+- ⏳ `ddPCRclust`
 - ⏳ `derfinderHelper`
 - ⏳ `diffuStats`
 - ⏳ `dks`
 - ⏳ `drugfindR`
 - ⏳ `erccdashboard`
-- ⏳ `flowBeads`
-- ⏳ `flowCHIC`
-- ⏳ `flowClean`
 - ⏳ `flowClust`
+- ⏳ `flowCut`
 - ⏳ `flowFP`
-- ⏳ `flowMatch`
-- ⏳ `flowMeans`
-- ⏳ `flowPloidy`
-- ⏳ `flowSpecs`
 - ⏳ `hyperdraw`
 - ⏳ `islify`
 - ⏳ `magrene`
@@ -136,7 +131,7 @@
 - ⏳ `toppgene`
 - ⏳ `treeio`
 
-## Not Yet Started (1667)
+## Not Yet Started (1664)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -188,8 +183,8 @@
 - ⏸️ `Banksy`
 - ⏸️ `Basic4Cseq`
 
-... and 1617 more ...
+... and 1614 more ...
 
 ---
-*Last updated: 2026-11-03 09:03:15 UTC*
+*Last updated: 2026-11-03 09:04:36 UTC*
 *Packages with verified BBS status: 183*
