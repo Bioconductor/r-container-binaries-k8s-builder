@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 567 (23%)
+- **Successfully Built:** 574 (24%)
 - **Failed:** 9 (0%)
-- **In Progress:** 103
-- **Not Started:** 1706
+- **In Progress:** 107
+- **Not Started:** 1695
 
 **Progress:** 24%
 ```
 ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (567)
+## Successfully Built Packages (574)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,16 +46,14 @@
 | [BG2](https://bioconductor.org/packages/3.23/bioc/html/BG2.html) | [log](logs/BG2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BG2) |
 | [BUS](https://bioconductor.org/packages/3.23/bioc/html/BUS.html) | [log](logs/BUS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/BUS) |
 
-*... and 517 more ...*
+*... and 524 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [swfdr](https://bioconductor.org/packages/3.23/bioc/html/swfdr.html) | [log](logs/swfdr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/swfdr) |
-| [switchBox](https://bioconductor.org/packages/3.23/bioc/html/switchBox.html) | [log](logs/switchBox/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/switchBox) |
-| [synapsis](https://bioconductor.org/packages/3.23/bioc/html/synapsis.html) | [log](logs/synapsis/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synapsis) |
 | [systemPipeShiny](https://bioconductor.org/packages/3.23/bioc/html/systemPipeShiny.html) | [log](logs/systemPipeShiny/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/systemPipeShiny) |
 | [ternarynet](https://bioconductor.org/packages/3.23/bioc/html/ternarynet.html) | [log](logs/ternarynet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ternarynet) |
 | [tidysbml](https://bioconductor.org/packages/3.23/bioc/html/tidysbml.html) | [log](logs/tidysbml/build-success.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tidysbml) |
+| [timeOmics](https://bioconductor.org/packages/3.23/bioc/html/timeOmics.html) | [log](logs/timeOmics/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timeOmics) |
 | [timecourse](https://bioconductor.org/packages/3.23/bioc/html/timecourse.html) | [log](logs/timecourse/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timecourse) |
 | [timescape](https://bioconductor.org/packages/3.23/bioc/html/timescape.html) | [log](logs/timescape/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/timescape) |
 | [tomoseqr](https://bioconductor.org/packages/3.23/bioc/html/tomoseqr.html) | [log](logs/tomoseqr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tomoseqr) |
@@ -65,7 +63,9 @@
 | [tripr](https://bioconductor.org/packages/3.23/bioc/html/tripr.html) | [log](logs/tripr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tripr) |
 | [ttgsea](https://bioconductor.org/packages/3.23/bioc/html/ttgsea.html) | [log](logs/ttgsea/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ttgsea) |
 | [twilight](https://bioconductor.org/packages/3.23/bioc/html/twilight.html) | [log](logs/twilight/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twilight) |
+| [twoddpcr](https://bioconductor.org/packages/3.23/bioc/html/twoddpcr.html) | [log](logs/twoddpcr/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/twoddpcr) |
 | [tximport](https://bioconductor.org/packages/3.23/bioc/html/tximport.html) | [log](logs/tximport/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/tximport) |
+| [updateObject](https://bioconductor.org/packages/3.23/bioc/html/updateObject.html) | [log](logs/updateObject/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/updateObject) |
 | [variancePartition](https://bioconductor.org/packages/3.23/bioc/html/variancePartition.html) | [log](logs/variancePartition/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/variancePartition) |
 | [vbmp](https://bioconductor.org/packages/3.23/bioc/html/vbmp.html) | [log](logs/vbmp/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vbmp) |
 | [veloviz](https://bioconductor.org/packages/3.23/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/veloviz) |
@@ -90,17 +90,20 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (103)
+## In Progress (107)
 - ⏳ `AlphaBeta`
 - ⏳ `AlpsNMR`
 - ⏳ `AnVILGCP`
+- ⏳ `BumpyMatrix`
 - ⏳ `CGHcall`
 - ⏳ `CIMICE`
 - ⏳ `CellMapper`
+- ⏳ `ComplexHeatmap`
 - ⏳ `DEsingle`
 - ⏳ `DFplyr`
 - ⏳ `DeepPINCS`
 - ⏳ `DepecheR`
+- ⏳ `DirichletMultinomial`
 - ⏳ `ExiMiR`
 - ⏳ `GEOsubmission`
 - ⏳ `GSCA`
@@ -114,8 +117,6 @@
 - ⏳ `MetaboCoreUtils`
 - ⏳ `OmicsMLRepoR`
 - ⏳ `OrderedList`
-- ⏳ `PLSDAbatch`
-- ⏳ `Pedixplorer`
 - ⏳ `RGSEA`
 - ⏳ `RNAdecay`
 - ⏳ `ROSeq`
@@ -127,9 +128,11 @@
 - ⏳ `Rnits`
 - ⏳ `Rtpca`
 - ⏳ `Rvisdiff`
+- ⏳ `S4Arrays`
 - ⏳ `SIMAT`
 - ⏳ `STATegRa`
 - ⏳ `ScreenR`
+- ⏳ `Seqinfo`
 - ⏳ `TPP`
 - ⏳ `TargetDecoy`
 - ⏳ `UCSC.utils`
@@ -138,13 +141,10 @@
 - ⏳ `affyContam`
 - ⏳ `alabaster.base`
 - ⏳ `compcodeR`
-- ⏳ `consensus`
-- ⏳ `dcGSA`
-- ⏳ `deltaGseg`
 
-... and 53 more ...
+... and 57 more ...
 
-## Not Yet Started (1706)
+## Not Yet Started (1695)
 - ⏸️ `ACE`
 - ⏸️ `ADAM`
 - ⏸️ `ADAMgui`
@@ -196,8 +196,8 @@
 - ⏸️ `BUSseq`
 - ⏸️ `BaalChIP`
 
-... and 1656 more ...
+... and 1645 more ...
 
 ---
-*Last updated: 2026-11-03 06:25:45 UTC*
-*Packages with verified BBS status: 171*
+*Last updated: 2026-11-03 06:28:11 UTC*
+*Packages with verified BBS status: 174*
