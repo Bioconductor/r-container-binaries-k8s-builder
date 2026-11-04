@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2211 (92%)
+- **Successfully Built:** 2216 (92%)
 - **Failed:** 21 (0%)
-- **In Progress:** 46
+- **In Progress:** 41
 - **Not Started:** 107
 
 **Progress:** 93%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2211)
+## Successfully Built Packages (2216)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2161 more ...*
+*... and 2166 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,17 +102,15 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (46)
+## In Progress (41)
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `EpiTxDb`
 - ⏳ `FRASER`
 - ⏳ `GARS`
 - ⏳ `GenomicPlot`
-- ⏳ `IntEREst`
 - ⏳ `MetaboSignal`
 - ⏳ `ORFik`
-- ⏳ `QuasR`
 - ⏳ `RAIDS`
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
@@ -121,11 +119,8 @@
 - ⏳ `SOMNiBUS`
 - ⏳ `StructuralVariantAnnotation`
 - ⏳ `VariantTools`
-- ⏳ `biovizBase`
 - ⏳ `biscuiteer`
-- ⏳ `cBioPortalData`
 - ⏳ `chevreulPlot`
-- ⏳ `circRNAprofiler`
 - ⏳ `conumee`
 - ⏳ `crisprDesign`
 - ⏳ `decemedip`
@@ -205,5 +200,5 @@
 ... and 57 more ...
 
 ---
-*Last updated: 2026-11-04 02:36:01 UTC*
+*Last updated: 2026-11-04 02:43:07 UTC*
 *Packages with verified BBS status: 238*
