@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1857 (76%)
+- **Successfully Built:** 1866 (76%)
 - **Failed:** 8 (0%)
-- **In Progress:** 68
+- **In Progress:** 59
 - **Not Started:** 504
 
 **Progress:** 76%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1857)
+## Successfully Built Packages (1866)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1807 more ...*
+*... and 1816 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [velociraptor](https://bioconductor.org/packages/3.24/bioc/html/velociraptor.html) | [log](logs/velociraptor/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/velociraptor) |
 | [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
+| [vsclust](https://bioconductor.org/packages/3.24/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.24/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vsn) |
 | [wSIR](https://bioconductor.org/packages/3.24/bioc/html/wSIR.html) | [log](logs/wSIR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wSIR) |
 | [waddR](https://bioconductor.org/packages/3.24/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/waddR) |
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (68)
+## In Progress (59)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -98,14 +98,12 @@
 - ⏳ `BasicSTARRseq`
 - ⏳ `CRISPRball`
 - ⏳ `CTexploreR`
-- ⏳ `CaMutQC`
 - ⏳ `CeTF`
 - ⏳ `ClustIRR`
 - ⏳ `CrispRVariants`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
 - ⏳ `GSEAlens`
-- ⏳ `GeneMeta`
 - ⏳ `GlobalAncova`
 - ⏳ `HiCDOC`
 - ⏳ `HiSpaR`
@@ -117,12 +115,10 @@
 - ⏳ `PROMISE`
 - ⏳ `PanomiR`
 - ⏳ `Pigengene`
-- ⏳ `RFLOMICS`
 - ⏳ `ShortRead`
 - ⏳ `SpectralTAD`
 - ⏳ `SurfR`
 - ⏳ `TCseq`
-- ⏳ `TraianProt`
 - ⏳ `VplotR`
 - ⏳ `a4`
 - ⏳ `bandle`
@@ -133,15 +129,19 @@
 - ⏳ `exploreSE`
 - ⏳ `famat`
 - ⏳ `flowGate`
-- ⏳ `goatea`
-- ⏳ `iSEEtree`
 - ⏳ `mastR`
 - ⏳ `methylclock`
 - ⏳ `miRSM`
 - ⏳ `miRspongeR`
 - ⏳ `microbiome`
+- ⏳ `microbiomeExplorer`
+- ⏳ `mitology`
+- ⏳ `mosaics`
+- ⏳ `muscat`
+- ⏳ `netSmooth`
+- ⏳ `omicRexposome`
 
-... and 18 more ...
+... and 9 more ...
 
 ## Not Yet Started (504)
 - ⏸️ `AHMassBank`
@@ -198,5 +198,5 @@
 ... and 454 more ...
 
 ---
-*Last updated: 2026-11-04 01:00:22 UTC*
-*Packages with verified BBS status: 222*
+*Last updated: 2026-11-04 01:13:56 UTC*
+*Packages with verified BBS status: 223*
