@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2196 (92%)
+- **Successfully Built:** 2197 (92%)
 - **Failed:** 21 (0%)
 - **In Progress:** 58
-- **Not Started:** 110
+- **Not Started:** 109
 
 **Progress:** 92%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2196)
+## Successfully Built Packages (2197)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2146 more ...*
+*... and 2147 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -104,7 +104,6 @@
 
 ## In Progress (58)
 - ⏳ `APAlyzer`
-- ⏳ `BindingSiteFinder`
 - ⏳ `CCAFE`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CircSeqAlignTk`
@@ -114,6 +113,7 @@
 - ⏳ `GenomicPlot`
 - ⏳ `IntEREst`
 - ⏳ `MEDIPS`
+- ⏳ `MetaboSignal`
 - ⏳ `ORFik`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
@@ -156,7 +156,7 @@
 
 ... and 8 more ...
 
-## Not Yet Started (110)
+## Not Yet Started (109)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -188,7 +188,6 @@
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
-- ⏸️ `MetaboSignal`
 - ⏸️ `NADfinder`
 - ⏸️ `OGRE`
 - ⏸️ `Pviz`
@@ -207,9 +206,10 @@
 - ⏸️ `SPLINTER`
 - ⏸️ `SingleMoleculeFootprinting`
 - ⏸️ `SomaticSignatures`
+- ⏸️ `TFHAZ`
 
-... and 60 more ...
+... and 59 more ...
 
 ---
-*Last updated: 2026-11-04 01:42:37 UTC*
+*Last updated: 2026-11-04 01:43:31 UTC*
 *Packages with verified BBS status: 236*
