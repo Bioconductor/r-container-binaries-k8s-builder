@@ -8,8 +8,8 @@
 - **Total Packages:** 2437
 - **Successfully Built:** 1885 (77%)
 - **Failed:** 8 (0%)
-- **In Progress:** 119
-- **Not Started:** 425
+- **In Progress:** 120
+- **Not Started:** 424
 
 **Progress:** 77%
 ```
@@ -89,13 +89,14 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (119)
+## In Progress (120)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BSgenome`
 - ⏳ `BamScale`
 - ⏳ `BiSeq`
 - ⏳ `CAMERA`
+- ⏳ `CCPROMISE`
 - ⏳ `CNEr`
 - ⏳ `CRISPRball`
 - ⏳ `CTexploreR`
@@ -139,11 +140,10 @@
 - ⏳ `RSVSim`
 - ⏳ `SCANVIS`
 - ⏳ `SMTrackR`
-- ⏳ `SpliceImpactR`
 
-... and 69 more ...
+... and 70 more ...
 
-## Not Yet Started (425)
+## Not Yet Started (424)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -164,7 +164,6 @@
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
 - ⏸️ `CCAFE`
-- ⏸️ `CCPROMISE`
 - ⏸️ `CMEnt`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
@@ -194,9 +193,10 @@
 - ⏸️ `DSS`
 - ⏸️ `DaMiRseq`
 - ⏸️ `Damsel`
+- ⏸️ `DegCre`
 
-... and 375 more ...
+... and 374 more ...
 
 ---
-*Last updated: 2026-11-04 01:53:29 UTC*
+*Last updated: 2026-11-04 01:54:35 UTC*
 *Packages with verified BBS status: 224*
