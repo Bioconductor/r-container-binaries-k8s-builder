@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2173 (91%)
+- **Successfully Built:** 2174 (91%)
 - **Failed:** 21 (0%)
-- **In Progress:** 73
-- **Not Started:** 118
+- **In Progress:** 75
+- **Not Started:** 115
 
-**Progress:** 91%
+**Progress:** 92%
 ```
-█████████████████████████████████████████████░░░░░
+██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2173)
+## Successfully Built Packages (2174)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2123 more ...*
+*... and 2124 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (73)
+## In Progress (75)
 - ⏳ `APAlyzer`
 - ⏳ `BUSpaRse`
 - ⏳ `BindingSiteFinder`
@@ -128,6 +128,7 @@
 - ⏳ `RITAN`
 - ⏳ `RareVariantVis`
 - ⏳ `RiboDiPA`
+- ⏳ `SMITE`
 - ⏳ `SOMNiBUS`
 - ⏳ `SigsPack`
 - ⏳ `StructuralVariantAnnotation`
@@ -142,7 +143,6 @@
 - ⏳ `conumee`
 - ⏳ `crisprDesign`
 - ⏳ `deconvR`
-- ⏳ `derfinder`
 - ⏳ `dmrseq`
 - ⏳ `epiRomics`
 - ⏳ `epivizrStandalone`
@@ -154,9 +154,9 @@
 - ⏳ `lineagespot`
 - ⏳ `magpie`
 
-... and 23 more ...
+... and 25 more ...
 
-## Not Yet Started (118)
+## Not Yet Started (115)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -206,10 +206,10 @@
 - ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
 - ⏸️ `Rqc`
-- ⏸️ `SMITE`
+- ⏸️ `SPLINTER`
 
-... and 68 more ...
+... and 65 more ...
 
 ---
-*Last updated: 2026-11-04 00:53:24 UTC*
+*Last updated: 2026-11-04 00:54:36 UTC*
 *Packages with verified BBS status: 235*
