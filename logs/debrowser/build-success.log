@@ -1,0 +1,71 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''debrowser'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/2026-10-28
+Bioconductor version 3.24 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'debrowser'
+also installing the dependencies ‘billboarder’, ‘shinymanager’, ‘ipaddress’, ‘scrypt’
+
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/billboarder_0.5.2.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/shinymanager_1.2.0.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/ipaddress_1.0.4.tar.gz'
+trying URL 'https://p3m.dev/cran/__linux__/noble/2026-10-28/src/contrib/scrypt_0.1.6.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.24/bioc/src/contrib/debrowser_1.41.2.tar.gz'
+* installing *binary* package ‘billboarder’ ...
+* package ‘billboarder’ successfully unpacked and SHA256 sums checked
+* ‘billboarder’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘billboarder’ as ‘billboarder_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (billboarder)
+* installing *binary* package ‘ipaddress’ ...
+* package ‘ipaddress’ successfully unpacked and SHA256 sums checked
+* ‘ipaddress’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘ipaddress’ as ‘ipaddress_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ipaddress)
+* installing *binary* package ‘scrypt’ ...
+* package ‘scrypt’ successfully unpacked and SHA256 sums checked
+* ‘scrypt’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scrypt’ as ‘scrypt_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scrypt)
+* installing *source* package ‘debrowser’ ...
+** this is package ‘debrowser’ version ‘1.41.2’
+** package ‘debrowser’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘debrowser’ as ‘debrowser_1.41.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (debrowser)
+* installing *binary* package ‘shinymanager’ ...
+* package ‘shinymanager’ successfully unpacked and SHA256 sums checked
+* ‘shinymanager’ was already a binary package and will not be rebuilt
+* SHA256 sums
+* creating tarball
+packaged installation of ‘shinymanager’ as ‘shinymanager_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinymanager)
+
+The downloaded source packages are in
+	‘/tmp/RtmpsPbEGs/downloaded_packages’
+
+real	0m50.610s
+user	0m42.913s
+sys	0m5.470s
