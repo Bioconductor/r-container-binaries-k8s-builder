@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1848 (75%)
+- **Successfully Built:** 1849 (75%)
 - **Failed:** 8 (0%)
-- **In Progress:** 75
-- **Not Started:** 506
+- **In Progress:** 76
+- **Not Started:** 504
 
 **Progress:** 76%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1848)
+## Successfully Built Packages (1849)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1798 more ...*
+*... and 1799 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (75)
+## In Progress (76)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -103,6 +103,8 @@
 - ⏳ `CeTF`
 - ⏳ `ClustIRR`
 - ⏳ `CrispRVariants`
+- ⏳ `CytoMDS`
+- ⏳ `CytoPipelineGUI`
 - ⏳ `GSEAlens`
 - ⏳ `GeneMeta`
 - ⏳ `GlobalAncova`
@@ -138,12 +140,10 @@
 - ⏳ `flowGate`
 - ⏳ `flowVS`
 - ⏳ `goatea`
-- ⏳ `iSEEtree`
-- ⏳ `imcRtools`
 
-... and 25 more ...
+... and 26 more ...
 
-## Not Yet Started (506)
+## Not Yet Started (504)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -195,8 +195,8 @@
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `CoverageView`
 
-... and 456 more ...
+... and 454 more ...
 
 ---
-*Last updated: 2026-11-04 00:27:17 UTC*
+*Last updated: 2026-11-04 00:28:25 UTC*
 *Packages with verified BBS status: 222*
