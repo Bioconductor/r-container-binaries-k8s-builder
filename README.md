@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2176 (91%)
+- **Successfully Built:** 2183 (91%)
 - **Failed:** 21 (0%)
-- **In Progress:** 75
+- **In Progress:** 68
 - **Not Started:** 113
 
 **Progress:** 92%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2176)
+## Successfully Built Packages (2183)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2126 more ...*
+*... and 2133 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,44 +102,37 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (75)
+## In Progress (68)
 - ⏳ `APAlyzer`
-- ⏳ `BUSpaRse`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CCAFE`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `DaMiRseq`
-- ⏳ `DspikeIn`
 - ⏳ `ENmix`
 - ⏳ `EpiTxDb`
-- ⏳ `ExperimentHubData`
 - ⏳ `FRASER`
 - ⏳ `GA4GHshiny`
 - ⏳ `GenomicPlot`
 - ⏳ `IntEREst`
 - ⏳ `MEDIPS`
 - ⏳ `MethylAid`
-- ⏳ `MutationalPatterns`
 - ⏳ `ORFik`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
 - ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `RareVariantVis`
-- ⏳ `RiboDiPA`
 - ⏳ `SMITE`
 - ⏳ `SOMNiBUS`
 - ⏳ `SigsPack`
 - ⏳ `StructuralVariantAnnotation`
 - ⏳ `TFutils`
 - ⏳ `VariantTools`
-- ⏳ `alabaster`
 - ⏳ `biovizBase`
 - ⏳ `cBioPortalData`
 - ⏳ `chevreulPlot`
 - ⏳ `circRNAprofiler`
-- ⏳ `coMethDMR`
 - ⏳ `conumee`
 - ⏳ `crisprDesign`
 - ⏳ `deconvR`
@@ -153,8 +146,15 @@
 - ⏳ `lineagespot`
 - ⏳ `magpie`
 - ⏳ `methylCC`
+- ⏳ `methylumi`
+- ⏳ `mitoClone2`
+- ⏳ `mosdef`
+- ⏳ `musicatk`
+- ⏳ `mygene`
+- ⏳ `myvariant`
+- ⏳ `parati`
 
-... and 25 more ...
+... and 18 more ...
 
 ## Not Yet Started (113)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 63 more ...
 
 ---
-*Last updated: 2026-11-04 00:59:57 UTC*
+*Last updated: 2026-11-04 01:13:33 UTC*
 *Packages with verified BBS status: 236*
