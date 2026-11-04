@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1872 (76%)
+- **Successfully Built:** 1873 (76%)
 - **Failed:** 8 (0%)
-- **In Progress:** 55
+- **In Progress:** 54
 - **Not Started:** 502
 
 **Progress:** 77%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1872)
+## Successfully Built Packages (1873)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,11 +46,10 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1822 more ...*
+*... and 1823 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [veloviz](https://bioconductor.org/packages/3.24/bioc/html/veloviz.html) | [log](logs/veloviz/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/veloviz) |
 | [vidger](https://bioconductor.org/packages/3.24/bioc/html/vidger.html) | [log](logs/vidger/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vidger) |
 | [viper](https://bioconductor.org/packages/3.24/bioc/html/viper.html) | [log](logs/viper/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/viper) |
 | [vissE](https://bioconductor.org/packages/3.24/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/vissE) |
@@ -66,6 +65,7 @@
 | [wpm](https://bioconductor.org/packages/3.24/bioc/html/wpm.html) | [log](logs/wpm/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wpm) |
 | [wppi](https://bioconductor.org/packages/3.24/bioc/html/wppi.html) | [log](logs/wppi/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/wppi) |
 | [xCell2](https://bioconductor.org/packages/3.24/bioc/html/xCell2.html) | [log](logs/xCell2/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xCell2) |
+| [xcms](https://bioconductor.org/packages/3.24/bioc/html/xcms.html) | [log](logs/xcms/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcms) |
 | [xcore](https://bioconductor.org/packages/3.24/bioc/html/xcore.html) | [log](logs/xcore/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xcore) |
 | [xenLite](https://bioconductor.org/packages/3.24/bioc/html/xenLite.html) | [log](logs/xenLite/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xenLite) |
 | [xmapbridge](https://bioconductor.org/packages/3.24/bioc/html/xmapbridge.html) | [log](logs/xmapbridge/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/xmapbridge) |
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (55)
+## In Progress (54)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -141,7 +141,7 @@
 - ⏳ `pogos`
 - ⏳ `postNet`
 
-... and 5 more ...
+... and 4 more ...
 
 ## Not Yet Started (502)
 - ⏸️ `AHMassBank`
@@ -198,5 +198,5 @@
 ... and 452 more ...
 
 ---
-*Last updated: 2026-11-04 01:27:08 UTC*
-*Packages with verified BBS status: 223*
+*Last updated: 2026-11-04 01:28:02 UTC*
+*Packages with verified BBS status: 224*
