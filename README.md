@@ -8,8 +8,8 @@
 - **Total Packages:** 2437
 - **Successfully Built:** 1873 (76%)
 - **Failed:** 8 (0%)
-- **In Progress:** 54
-- **Not Started:** 502
+- **In Progress:** 61
+- **Not Started:** 495
 
 **Progress:** 77%
 ```
@@ -89,13 +89,14 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (54)
+## In Progress (61)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
 - ⏳ `BaalChIP`
 - ⏳ `BamScale`
 - ⏳ `BasicSTARRseq`
+- ⏳ `CAMERA`
 - ⏳ `CRISPRball`
 - ⏳ `CTexploreR`
 - ⏳ `CeTF`
@@ -109,6 +110,7 @@
 - ⏳ `HiSpaR`
 - ⏳ `HybridExpress`
 - ⏳ `MDTS`
+- ⏳ `MetaboAnnotatoR`
 - ⏳ `MsQuality`
 - ⏳ `PICB`
 - ⏳ `PROMISE`
@@ -124,10 +126,13 @@
 - ⏳ `bandle`
 - ⏳ `breakpointR`
 - ⏳ `cTRAP`
+- ⏳ `cliqueMS`
 - ⏳ `clusterSeq`
+- ⏳ `cosmiq`
 - ⏳ `deltaCaptureC`
 - ⏳ `famat`
 - ⏳ `flowGate`
+- ⏳ `lcmsPlot`
 - ⏳ `mastR`
 - ⏳ `methylclock`
 - ⏳ `miRSM`
@@ -135,15 +140,10 @@
 - ⏳ `miaDash`
 - ⏳ `microbiome`
 - ⏳ `microbiomeExplorer`
-- ⏳ `mosaics`
-- ⏳ `netSmooth`
-- ⏳ `omicRexposome`
-- ⏳ `pogos`
-- ⏳ `postNet`
 
-... and 4 more ...
+... and 11 more ...
 
-## Not Yet Started (502)
+## Not Yet Started (495)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -165,7 +165,6 @@
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
 - ⏸️ `CAGEr`
-- ⏸️ `CAMERA`
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 - ⏸️ `CMEnt`
@@ -194,9 +193,10 @@
 - ⏸️ `Cogito`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `CoverageView`
+- ⏸️ `DAMEfinder`
 
-... and 452 more ...
+... and 445 more ...
 
 ---
-*Last updated: 2026-11-04 01:28:02 UTC*
+*Last updated: 2026-11-04 01:29:07 UTC*
 *Packages with verified BBS status: 224*
