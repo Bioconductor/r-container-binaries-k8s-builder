@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1870 (76%)
+- **Successfully Built:** 1871 (76%)
 - **Failed:** 8 (0%)
-- **In Progress:** 57
+- **In Progress:** 56
 - **Not Started:** 502
 
 **Progress:** 77%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1870)
+## Successfully Built Packages (1871)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1820 more ...*
+*... and 1821 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,7 +89,7 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (57)
+## In Progress (56)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
 - ⏳ `BASiCStan`
@@ -109,7 +109,6 @@
 - ⏳ `HiSpaR`
 - ⏳ `HybridExpress`
 - ⏳ `MDTS`
-- ⏳ `MetaPhOR`
 - ⏳ `MsQuality`
 - ⏳ `PICB`
 - ⏳ `PROMISE`
@@ -140,8 +139,9 @@
 - ⏳ `muscat`
 - ⏳ `netSmooth`
 - ⏳ `omicRexposome`
+- ⏳ `pogos`
 
-... and 7 more ...
+... and 6 more ...
 
 ## Not Yet Started (502)
 - ⏸️ `AHMassBank`
@@ -198,5 +198,5 @@
 ... and 452 more ...
 
 ---
-*Last updated: 2026-11-04 01:21:29 UTC*
+*Last updated: 2026-11-04 01:22:06 UTC*
 *Packages with verified BBS status: 223*
