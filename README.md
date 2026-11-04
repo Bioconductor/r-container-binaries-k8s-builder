@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2174 (91%)
+- **Successfully Built:** 2176 (91%)
 - **Failed:** 21 (0%)
-- **In Progress:** 77
+- **In Progress:** 75
 - **Not Started:** 113
 
 **Progress:** 92%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2174)
+## Successfully Built Packages (2176)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,15 +46,15 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2124 more ...*
+*... and 2126 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
-| [visiumStitched](https://bioconductor.org/packages/3.23/bioc/html/visiumStitched.html) | [log](logs/visiumStitched/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/visiumStitched) |
 | [vissE](https://bioconductor.org/packages/3.23/bioc/html/vissE.html) | [log](logs/vissE/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vissE) |
 | [vmrseq](https://bioconductor.org/packages/3.23/bioc/html/vmrseq.html) | [log](logs/vmrseq/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vmrseq) |
 | [vsclust](https://bioconductor.org/packages/3.23/bioc/html/vsclust.html) | [log](logs/vsclust/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsclust) |
 | [vsn](https://bioconductor.org/packages/3.23/bioc/html/vsn.html) | [log](logs/vsn/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vsn) |
+| [vtpnet](https://bioconductor.org/packages/3.23/bioc/html/vtpnet.html) | [log](logs/vtpnet/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/vtpnet) |
 | [waddR](https://bioconductor.org/packages/3.23/bioc/html/waddR.html) | [log](logs/waddR/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/waddR) |
 | [wavFeatExt](https://bioconductor.org/packages/3.23/bioc/html/wavFeatExt.html) | [log](logs/wavFeatExt/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/wavFeatExt) |
 | [weaver](https://bioconductor.org/packages/3.23/bioc/html/weaver.html) | [log](logs/weaver/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/weaver) |
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (77)
+## In Progress (75)
 - ⏳ `APAlyzer`
 - ⏳ `BUSpaRse`
 - ⏳ `BindingSiteFinder`
@@ -147,14 +147,14 @@
 - ⏳ `epiRomics`
 - ⏳ `epivizrStandalone`
 - ⏳ `funtooNorm`
-- ⏳ `gDNAx`
 - ⏳ `gmapR`
 - ⏳ `iNETgrate`
 - ⏳ `icetea`
 - ⏳ `lineagespot`
 - ⏳ `magpie`
+- ⏳ `methylCC`
 
-... and 27 more ...
+... and 25 more ...
 
 ## Not Yet Started (113)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 63 more ...
 
 ---
-*Last updated: 2026-11-04 00:55:34 UTC*
-*Packages with verified BBS status: 235*
+*Last updated: 2026-11-04 00:59:15 UTC*
+*Packages with verified BBS status: 236*
