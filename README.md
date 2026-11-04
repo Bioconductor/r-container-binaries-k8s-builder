@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2153 (90%)
+- **Successfully Built:** 2165 (90%)
 - **Failed:** 21 (0%)
-- **In Progress:** 90
+- **In Progress:** 78
 - **Not Started:** 121
 
 **Progress:** 91%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2153)
+## Successfully Built Packages (2165)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2103 more ...*
+*... and 2115 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,22 +102,17 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (90)
+## In Progress (78)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
-- ⏳ `BgeeCall`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CCAFE`
 - ⏳ `ChIPpeakAnno`
-- ⏳ `DOTSeq`
 - ⏳ `DaMiRseq`
-- ⏳ `DegNorm`
 - ⏳ `DspikeIn`
-- ⏳ `ELViS`
 - ⏳ `ENmix`
 - ⏳ `EpiTxDb`
-- ⏳ `EventPointer`
 - ⏳ `ExperimentHubData`
 - ⏳ `FRASER`
 - ⏳ `GA4GHshiny`
@@ -128,11 +123,9 @@
 - ⏳ `ORFik`
 - ⏳ `QuasR`
 - ⏳ `RAIDS`
-- ⏳ `RCAS`
 - ⏳ `REMP`
 - ⏳ `RITAN`
 - ⏳ `RareVariantVis`
-- ⏳ `Rhisat2`
 - ⏳ `RiboDiPA`
 - ⏳ `SOMNiBUS`
 - ⏳ `SigsPack`
@@ -144,7 +137,6 @@
 - ⏳ `alabaster`
 - ⏳ `biovizBase`
 - ⏳ `cBioPortalData`
-- ⏳ `casper`
 - ⏳ `chevreulPlot`
 - ⏳ `circRNAprofiler`
 - ⏳ `coMethDMR`
@@ -153,8 +145,16 @@
 - ⏳ `deconvR`
 - ⏳ `derfinder`
 - ⏳ `dmrseq`
+- ⏳ `epiRomics`
+- ⏳ `epivizrStandalone`
+- ⏳ `fcScan`
+- ⏳ `funtooNorm`
+- ⏳ `gDNAx`
+- ⏳ `gmapR`
+- ⏳ `goseq`
+- ⏳ `iNETgrate`
 
-... and 40 more ...
+... and 28 more ...
 
 ## Not Yet Started (121)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 71 more ...
 
 ---
-*Last updated: 2026-11-04 00:21:59 UTC*
+*Last updated: 2026-11-04 00:43:14 UTC*
 *Packages with verified BBS status: 235*
