@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2437
-- **Successfully Built:** 1883 (77%)
+- **Successfully Built:** 1885 (77%)
 - **Failed:** 8 (0%)
-- **In Progress:** 51
-- **Not Started:** 495
+- **In Progress:** 119
+- **Not Started:** 425
 
 **Progress:** 77%
 ```
 ██████████████████████████████████████░░░░░░░░░░░░
 ```
 
-## Successfully Built Packages (1883)
+## Successfully Built Packages (1885)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [AUCell](https://bioconductor.org/packages/3.24/bioc/html/AUCell.html) | [log](logs/AUCell/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AUCell) |
 | [AWAggregator](https://bioconductor.org/packages/3.24/bioc/html/AWAggregator.html) | [log](logs/AWAggregator/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/AWAggregator) |
 
-*... and 1833 more ...*
+*... and 1835 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -89,61 +89,61 @@
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (51)
+## In Progress (119)
 - ⏳ `ADaCGH2`
 - ⏳ `ASICS`
+- ⏳ `BSgenome`
 - ⏳ `BamScale`
+- ⏳ `BiSeq`
 - ⏳ `CAMERA`
+- ⏳ `CNEr`
 - ⏳ `CRISPRball`
 - ⏳ `CTexploreR`
 - ⏳ `CeTF`
+- ⏳ `CellBarcode`
+- ⏳ `ChIPseqR`
+- ⏳ `ChIPsim`
+- ⏳ `ChromHeatMap`
+- ⏳ `ChromSCape`
 - ⏳ `ClustIRR`
+- ⏳ `CoverageView`
 - ⏳ `CytoMDS`
 - ⏳ `CytoPipelineGUI`
+- ⏳ `DMCFB`
+- ⏳ `DMCHMM`
+- ⏳ `DeconvoBuddies`
+- ⏳ `ExCluster`
+- ⏳ `FastqCleaner`
 - ⏳ `GSEAlens`
+- ⏳ `GenomicFeatures`
 - ⏳ `GlobalAncova`
 - ⏳ `HiCDOC`
+- ⏳ `HiCPotts`
 - ⏳ `HiSpaR`
-- ⏳ `HybridExpress`
+- ⏳ `HiTC`
+- ⏳ `HicAggR`
+- ⏳ `IdeoViz`
+- ⏳ `InTAD`
 - ⏳ `MDTS`
 - ⏳ `MetaboAnnotatoR`
+- ⏳ `MotifDb`
 - ⏳ `MsQuality`
+- ⏳ `OTUbase`
+- ⏳ `PAST`
 - ⏳ `PICB`
-- ⏳ `PROMISE`
+- ⏳ `PMScanR`
 - ⏳ `PanomiR`
 - ⏳ `Pigengene`
-- ⏳ `SurfR`
-- ⏳ `VplotR`
-- ⏳ `XDE`
-- ⏳ `a4`
-- ⏳ `bandle`
-- ⏳ `breakpointR`
-- ⏳ `cTRAP`
-- ⏳ `cliqueMS`
-- ⏳ `clusterSeq`
-- ⏳ `cosmiq`
-- ⏳ `deltaCaptureC`
-- ⏳ `famat`
-- ⏳ `flowGate`
-- ⏳ `lcmsPlot`
-- ⏳ `methylclock`
-- ⏳ `miRSM`
-- ⏳ `miaDash`
-- ⏳ `microbiome`
-- ⏳ `microbiomeExplorer`
-- ⏳ `mosaics`
-- ⏳ `ncGTW`
-- ⏳ `netSmooth`
-- ⏳ `omicRexposome`
-- ⏳ `pogos`
-- ⏳ `postNet`
-- ⏳ `prebs`
-- ⏳ `queeems`
-- ⏳ `ramwas`
+- ⏳ `PostChicago`
+- ⏳ `RBPEqBind`
+- ⏳ `RSVSim`
+- ⏳ `SCANVIS`
+- ⏳ `SMTrackR`
+- ⏳ `SpliceImpactR`
 
-... and 1 more ...
+... and 69 more ...
 
-## Not Yet Started (495)
+## Not Yet Started (425)
 - ⏸️ `AHMassBank`
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
@@ -154,13 +154,11 @@
 - ⏸️ `BBCAnalyzer`
 - ⏸️ `BEAT`
 - ⏸️ `BOBaFIT`
-- ⏸️ `BSgenome`
 - ⏸️ `BSgenomeForge`
 - ⏸️ `BUSpaRse`
 - ⏸️ `BadRegionFinder`
 - ⏸️ `Basic4Cseq`
 - ⏸️ `BgeeCall`
-- ⏸️ `BiSeq`
 - ⏸️ `BindingSiteFinder`
 - ⏸️ `CAFE`
 - ⏸️ `CAGEfightR`
@@ -168,14 +166,12 @@
 - ⏸️ `CCAFE`
 - ⏸️ `CCPROMISE`
 - ⏸️ `CMEnt`
-- ⏸️ `CNEr`
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNVrd2`
 - ⏸️ `COCOA`
 - ⏸️ `CODEX`
 - ⏸️ `CRISPRseek`
 - ⏸️ `CSSQ`
-- ⏸️ `CellBarcode`
 - ⏸️ `CexoR`
 - ⏸️ `ChAMP`
 - ⏸️ `ChIPQC`
@@ -183,20 +179,24 @@
 - ⏸️ `ChIPexoQual`
 - ⏸️ `ChIPpeakAnno`
 - ⏸️ `ChIPseeker`
-- ⏸️ `ChIPseqR`
-- ⏸️ `ChIPsim`
-- ⏸️ `ChromHeatMap`
-- ⏸️ `ChromSCape`
 - ⏸️ `CircSeqAlignTk`
 - ⏸️ `CleanUpRNAseq`
 - ⏸️ `ClonalSim`
 - ⏸️ `Cogito`
 - ⏸️ `CopyNumberPlots`
-- ⏸️ `CoverageView`
 - ⏸️ `DAMEfinder`
+- ⏸️ `DEScan2`
+- ⏸️ `DMRcaller`
+- ⏸️ `DMRcate`
+- ⏸️ `DNAfusion`
+- ⏸️ `DOTSeq`
+- ⏸️ `DOtools`
+- ⏸️ `DSS`
+- ⏸️ `DaMiRseq`
+- ⏸️ `Damsel`
 
-... and 445 more ...
+... and 375 more ...
 
 ---
-*Last updated: 2026-11-04 01:49:46 UTC*
+*Last updated: 2026-11-04 01:53:29 UTC*
 *Packages with verified BBS status: 224*
