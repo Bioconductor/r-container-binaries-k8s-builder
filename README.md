@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2216 (92%)
+- **Successfully Built:** 2217 (92%)
 - **Failed:** 21 (0%)
-- **In Progress:** 41
-- **Not Started:** 107
+- **In Progress:** 50
+- **Not Started:** 97
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2216)
+## Successfully Built Packages (2217)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2166 more ...*
+*... and 2167 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,30 +102,39 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (41)
+## In Progress (50)
+- ⏳ `ChIPexoQual`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CircSeqAlignTk`
 - ⏳ `EpiTxDb`
 - ⏳ `FRASER`
 - ⏳ `GARS`
+- ⏳ `GNOSIS`
 - ⏳ `GenomicPlot`
+- ⏳ `Gviz`
 - ⏳ `MetaboSignal`
 - ⏳ `ORFik`
 - ⏳ `RAIDS`
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `RITAN`
+- ⏳ `Rqc`
 - ⏳ `SMITE`
 - ⏳ `SOMNiBUS`
+- ⏳ `SingleMoleculeFootprinting`
 - ⏳ `StructuralVariantAnnotation`
 - ⏳ `VariantTools`
+- ⏳ `bioCancer`
 - ⏳ `biscuiteer`
+- ⏳ `canceR`
+- ⏳ `cbaf`
 - ⏳ `chevreulPlot`
 - ⏳ `conumee`
 - ⏳ `crisprDesign`
 - ⏳ `decemedip`
-- ⏳ `epivizrStandalone`
+- ⏳ `ggbio`
 - ⏳ `gmapR`
+- ⏳ `karyoploteR`
 - ⏳ `magpie`
 - ⏳ `methylCC`
 - ⏳ `methylclock`
@@ -145,7 +154,7 @@
 - ⏳ `sitadela`
 - ⏳ `tximeta`
 
-## Not Yet Started (107)
+## Not Yet Started (97)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -157,20 +166,17 @@
 - ⏸️ `CNVfilteR`
 - ⏸️ `CNViz`
 - ⏸️ `ChAMP`
-- ⏸️ `ChIPexoQual`
 - ⏸️ `CopyNumberPlots`
 - ⏸️ `DEScan2`
 - ⏸️ `DMRcate`
 - ⏸️ `Damsel`
 - ⏸️ `DuplexDiscovereR`
 - ⏸️ `ELMER`
-- ⏸️ `GNOSIS`
 - ⏸️ `GUIDEseq`
 - ⏸️ `GeneStructureTools`
 - ⏸️ `GeneTonic`
 - ⏸️ `GenomicInteractions`
 - ⏸️ `GenomicOZone`
-- ⏸️ `Gviz`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
 - ⏸️ `IsoformSwitchAnalyzeR`
@@ -191,14 +197,17 @@
 - ⏸️ `RiboCrypt`
 - ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
-- ⏸️ `Rqc`
 - ⏸️ `SPLINTER`
-- ⏸️ `SingleMoleculeFootprinting`
 - ⏸️ `SomaticSignatures`
 - ⏸️ `TFHAZ`
+- ⏸️ `TVTB`
+- ⏸️ `VariantFiltering`
+- ⏸️ `YAPSA`
+- ⏸️ `affycoretools`
+- ⏸️ `annoLinker`
 
-... and 57 more ...
+... and 47 more ...
 
 ---
-*Last updated: 2026-11-04 02:43:07 UTC*
+*Last updated: 2026-11-04 02:44:15 UTC*
 *Packages with verified BBS status: 238*
