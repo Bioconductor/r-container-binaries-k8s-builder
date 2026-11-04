@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2183 (91%)
+- **Successfully Built:** 2185 (91%)
 - **Failed:** 21 (0%)
-- **In Progress:** 70
+- **In Progress:** 68
 - **Not Started:** 111
 
 **Progress:** 92%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2183)
+## Successfully Built Packages (2185)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2133 more ...*
+*... and 2135 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,13 +102,12 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (70)
+## In Progress (68)
 - ⏳ `APAlyzer`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CCAFE`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CircSeqAlignTk`
-- ⏳ `DaMiRseq`
 - ⏳ `ENmix`
 - ⏳ `EpiTxDb`
 - ⏳ `FRASER`
@@ -123,7 +122,6 @@
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `RITAN`
-- ⏳ `RareVariantVis`
 - ⏳ `SMITE`
 - ⏳ `SOMNiBUS`
 - ⏳ `SigsPack`
@@ -153,8 +151,10 @@
 - ⏳ `mosdef`
 - ⏳ `musicatk`
 - ⏳ `mygene`
+- ⏳ `myvariant`
+- ⏳ `parati`
 
-... and 20 more ...
+... and 18 more ...
 
 ## Not Yet Started (111)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 61 more ...
 
 ---
-*Last updated: 2026-11-04 01:14:36 UTC*
+*Last updated: 2026-11-04 01:20:59 UTC*
 *Packages with verified BBS status: 236*
