@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 2221 (93%)
 - **Failed:** 21 (0%)
-- **In Progress:** 46
-- **Not Started:** 97
+- **In Progress:** 53
+- **Not Started:** 90
 
 **Progress:** 94%
 ```
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (46)
+## In Progress (53)
 - ⏳ `ChIPexoQual`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CircSeqAlignTk`
@@ -117,10 +117,13 @@
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `RITAN`
+- ⏳ `RiboCrypt`
+- ⏳ `RnBeads`
 - ⏳ `Rqc`
 - ⏳ `SMITE`
 - ⏳ `SOMNiBUS`
 - ⏳ `SingleMoleculeFootprinting`
+- ⏳ `TFHAZ`
 - ⏳ `VariantTools`
 - ⏳ `bioCancer`
 - ⏳ `biscuiteer`
@@ -132,9 +135,11 @@
 - ⏳ `decemedip`
 - ⏳ `ggbio`
 - ⏳ `karyoploteR`
+- ⏳ `lumi`
 - ⏳ `magpie`
 - ⏳ `methylCC`
 - ⏳ `methylclock`
+- ⏳ `missMethyl`
 - ⏳ `mitoClone2`
 - ⏳ `mosdef`
 - ⏳ `musicatk`
@@ -148,9 +153,10 @@
 - ⏳ `shinyDSP`
 - ⏳ `shinyepico`
 - ⏳ `sitadela`
-- ⏳ `tximeta`
 
-## Not Yet Started (97)
+... and 3 more ...
+
+## Not Yet Started (90)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -190,20 +196,20 @@
 - ⏸️ `RNAmodR.ML`
 - ⏸️ `RNAmodR.RiboMethSeq`
 - ⏸️ `ReportingTools`
-- ⏸️ `RiboCrypt`
-- ⏸️ `RnBeads`
 - ⏸️ `RnaSeqSampleSize`
 - ⏸️ `SPLINTER`
 - ⏸️ `SomaticSignatures`
-- ⏸️ `TFHAZ`
 - ⏸️ `TVTB`
 - ⏸️ `VariantFiltering`
 - ⏸️ `YAPSA`
 - ⏸️ `affycoretools`
 - ⏸️ `annoLinker`
+- ⏸️ `arrayMvout`
+- ⏸️ `bigmelon`
+- ⏸️ `biomvRCNS`
 
-... and 47 more ...
+... and 40 more ...
 
 ---
-*Last updated: 2026-11-04 02:57:29 UTC*
+*Last updated: 2026-11-04 02:58:34 UTC*
 *Packages with verified BBS status: 238*
