@@ -8,8 +8,8 @@
 - **Total Packages:** 2385
 - **Successfully Built:** 2167 (90%)
 - **Failed:** 21 (0%)
-- **In Progress:** 78
-- **Not Started:** 119
+- **In Progress:** 79
+- **Not Started:** 118
 
 **Progress:** 91%
 ```
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (78)
+## In Progress (79)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
@@ -154,9 +154,9 @@
 - ⏳ `gDNAx`
 - ⏳ `gmapR`
 
-... and 28 more ...
+... and 29 more ...
 
-## Not Yet Started (119)
+## Not Yet Started (118)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -208,8 +208,8 @@
 - ⏸️ `Rqc`
 - ⏸️ `SMITE`
 
-... and 69 more ...
+... and 68 more ...
 
 ---
-*Last updated: 2026-11-04 00:45:37 UTC*
+*Last updated: 2026-11-04 00:46:24 UTC*
 *Packages with verified BBS status: 235*
