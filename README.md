@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2203 (92%)
+- **Successfully Built:** 2204 (92%)
 - **Failed:** 21 (0%)
 - **In Progress:** 52
-- **Not Started:** 109
+- **Not Started:** 108
 
 **Progress:** 93%
 ```
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2203)
+## Successfully Built Packages (2204)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2153 more ...*
+*... and 2154 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -128,6 +128,7 @@
 - ⏳ `circRNAprofiler`
 - ⏳ `conumee`
 - ⏳ `crisprDesign`
+- ⏳ `decemedip`
 - ⏳ `deconvR`
 - ⏳ `dmrseq`
 - ⏳ `epiRomics`
@@ -152,11 +153,10 @@
 - ⏳ `scmeth`
 - ⏳ `shinyDSP`
 - ⏳ `shinyepico`
-- ⏳ `sitadela`
 
 ... and 2 more ...
 
-## Not Yet Started (109)
+## Not Yet Started (108)
 - ⏸️ `ASpli`
 - ⏸️ `ATACseqQC`
 - ⏸️ `AgiMicroRna`
@@ -208,8 +208,8 @@
 - ⏸️ `SomaticSignatures`
 - ⏸️ `TFHAZ`
 
-... and 59 more ...
+... and 58 more ...
 
 ---
-*Last updated: 2026-11-04 01:56:23 UTC*
+*Last updated: 2026-11-04 01:57:07 UTC*
 *Packages with verified BBS status: 238*
