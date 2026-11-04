@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2167 (90%)
+- **Successfully Built:** 2173 (91%)
 - **Failed:** 21 (0%)
-- **In Progress:** 79
+- **In Progress:** 73
 - **Not Started:** 118
 
 **Progress:** 91%
@@ -16,7 +16,7 @@
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2167)
+## Successfully Built Packages (2173)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2117 more ...*
+*... and 2123 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,9 +102,8 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (79)
+## In Progress (73)
 - ⏳ `APAlyzer`
-- ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CCAFE`
@@ -133,8 +132,6 @@
 - ⏳ `SigsPack`
 - ⏳ `StructuralVariantAnnotation`
 - ⏳ `TFutils`
-- ⏳ `UPDhmm`
-- ⏳ `VCFArray`
 - ⏳ `VariantTools`
 - ⏳ `alabaster`
 - ⏳ `biovizBase`
@@ -149,12 +146,15 @@
 - ⏳ `dmrseq`
 - ⏳ `epiRomics`
 - ⏳ `epivizrStandalone`
-- ⏳ `fcScan`
 - ⏳ `funtooNorm`
 - ⏳ `gDNAx`
 - ⏳ `gmapR`
+- ⏳ `iNETgrate`
+- ⏳ `icetea`
+- ⏳ `lineagespot`
+- ⏳ `magpie`
 
-... and 29 more ...
+... and 23 more ...
 
 ## Not Yet Started (118)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 68 more ...
 
 ---
-*Last updated: 2026-11-04 00:46:24 UTC*
+*Last updated: 2026-11-04 00:53:24 UTC*
 *Packages with verified BBS status: 235*
