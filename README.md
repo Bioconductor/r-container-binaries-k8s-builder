@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2139 (89%)
+- **Successfully Built:** 2153 (90%)
 - **Failed:** 21 (0%)
-- **In Progress:** 101
+- **In Progress:** 87
 - **Not Started:** 124
 
-**Progress:** 90%
+**Progress:** 91%
 ```
 █████████████████████████████████████████████░░░░░
 ```
 
-## Successfully Built Packages (2139)
+## Successfully Built Packages (2153)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2089 more ...*
+*... and 2103 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (101)
+## In Progress (87)
 - ⏳ `APAlyzer`
 - ⏳ `BBCAnalyzer`
 - ⏳ `BUSpaRse`
@@ -125,36 +125,36 @@
 - ⏳ `MEDIPS`
 - ⏳ `MethylAid`
 - ⏳ `MutationalPatterns`
-- ⏳ `OMICsPCA`
 - ⏳ `ORFik`
 - ⏳ `QuasR`
-- ⏳ `R453Plus1Toolbox`
 - ⏳ `RAIDS`
 - ⏳ `RCAS`
 - ⏳ `REMP`
 - ⏳ `RITAN`
-- ⏳ `RTCGAToolbox`
 - ⏳ `RareVariantVis`
 - ⏳ `Rhisat2`
 - ⏳ `RiboDiPA`
-- ⏳ `SNPhood`
 - ⏳ `SOMNiBUS`
 - ⏳ `SigsPack`
 - ⏳ `StructuralVariantAnnotation`
 - ⏳ `TFutils`
 - ⏳ `UPDhmm`
-- ⏳ `Uniquorn`
 - ⏳ `VCFArray`
 - ⏳ `VariantTools`
 - ⏳ `alabaster`
 - ⏳ `biovizBase`
-- ⏳ `cardelino`
 - ⏳ `casper`
 - ⏳ `chevreulPlot`
 - ⏳ `circRNAprofiler`
 - ⏳ `coMethDMR`
+- ⏳ `conumee`
+- ⏳ `crisprDesign`
+- ⏳ `deconvR`
+- ⏳ `derfinder`
+- ⏳ `dmrseq`
+- ⏳ `epiRomics`
 
-... and 51 more ...
+... and 37 more ...
 
 ## Not Yet Started (124)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 74 more ...
 
 ---
-*Last updated: 2026-11-03 23:58:50 UTC*
+*Last updated: 2026-11-04 00:21:00 UTC*
 *Packages with verified BBS status: 235*
