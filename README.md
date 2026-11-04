@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2190 (91%)
+- **Successfully Built:** 2191 (91%)
 - **Failed:** 21 (0%)
-- **In Progress:** 64
+- **In Progress:** 63
 - **Not Started:** 110
 
 **Progress:** 92%
@@ -16,7 +16,7 @@
 ██████████████████████████████████████████████░░░░
 ```
 
-## Successfully Built Packages (2190)
+## Successfully Built Packages (2191)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 | [ASSIGN](https://bioconductor.org/packages/3.23/bioc/html/ASSIGN.html) | [log](logs/ASSIGN/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSIGN) |
 
-*... and 2140 more ...*
+*... and 2141 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (64)
+## In Progress (63)
 - ⏳ `APAlyzer`
 - ⏳ `BindingSiteFinder`
 - ⏳ `CCAFE`
@@ -110,7 +110,6 @@
 - ⏳ `CircSeqAlignTk`
 - ⏳ `EpiTxDb`
 - ⏳ `FRASER`
-- ⏳ `GA4GHshiny`
 - ⏳ `GARS`
 - ⏳ `GenomicPlot`
 - ⏳ `IntEREst`
@@ -153,8 +152,9 @@
 - ⏳ `myvariant`
 - ⏳ `quantro`
 - ⏳ `recount`
+- ⏳ `recountmethylation`
 
-... and 14 more ...
+... and 13 more ...
 
 ## Not Yet Started (110)
 - ⏸️ `ASpli`
@@ -211,5 +211,5 @@
 ... and 60 more ...
 
 ---
-*Last updated: 2026-11-04 01:36:07 UTC*
+*Last updated: 2026-11-04 01:36:47 UTC*
 *Packages with verified BBS status: 236*
