@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2218 (92%)
+- **Successfully Built:** 2221 (93%)
 - **Failed:** 21 (0%)
-- **In Progress:** 49
+- **In Progress:** 46
 - **Not Started:** 97
 
-**Progress:** 93%
+**Progress:** 94%
 ```
-██████████████████████████████████████████████░░░░
+███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2218)
+## Successfully Built Packages (2221)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2168 more ...*
+*... and 2171 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (49)
+## In Progress (46)
 - ⏳ `ChIPexoQual`
 - ⏳ `ChIPpeakAnno`
 - ⏳ `CircSeqAlignTk`
@@ -113,7 +113,6 @@
 - ⏳ `GenomicPlot`
 - ⏳ `Gviz`
 - ⏳ `MetaboSignal`
-- ⏳ `ORFik`
 - ⏳ `RAIDS`
 - ⏳ `REMP`
 - ⏳ `RESOLVE`
@@ -122,7 +121,6 @@
 - ⏳ `SMITE`
 - ⏳ `SOMNiBUS`
 - ⏳ `SingleMoleculeFootprinting`
-- ⏳ `StructuralVariantAnnotation`
 - ⏳ `VariantTools`
 - ⏳ `bioCancer`
 - ⏳ `biscuiteer`
@@ -137,7 +135,6 @@
 - ⏳ `magpie`
 - ⏳ `methylCC`
 - ⏳ `methylclock`
-- ⏳ `methylumi`
 - ⏳ `mitoClone2`
 - ⏳ `mosdef`
 - ⏳ `musicatk`
@@ -208,5 +205,5 @@
 ... and 47 more ...
 
 ---
-*Last updated: 2026-11-04 02:51:08 UTC*
+*Last updated: 2026-11-04 02:57:29 UTC*
 *Packages with verified BBS status: 238*
