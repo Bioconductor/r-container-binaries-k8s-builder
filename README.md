@@ -6,17 +6,17 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2234 (93%)
+- **Successfully Built:** 2235 (93%)
 - **Failed:** 21 (0%)
 - **In Progress:** 48
-- **Not Started:** 82
+- **Not Started:** 81
 
 **Progress:** 94%
 ```
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2234)
+## Successfully Built Packages (2235)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2184 more ...*
+*... and 2185 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -112,9 +112,9 @@
 - ⏳ `GNOSIS`
 - ⏳ `GUIDEseq`
 - ⏳ `Gviz`
+- ⏳ `IsoformSwitchAnalyzeR`
 - ⏳ `MetaboSignal`
 - ⏳ `REDseq`
-- ⏳ `REMP`
 - ⏳ `RESOLVE`
 - ⏳ `RITAN`
 - ⏳ `RNAAgeCalc`
@@ -152,7 +152,7 @@
 - ⏳ `svaRetro`
 - ⏳ `vulcan`
 
-## Not Yet Started (82)
+## Not Yet Started (81)
 - ⏸️ `ASpli`
 - ⏸️ `AgiMicroRna`
 - ⏸️ `AllelicImbalance`
@@ -174,7 +174,6 @@
 - ⏸️ `GenomicOZone`
 - ⏸️ `HiCDCPlus`
 - ⏸️ `HiCaptuRe`
-- ⏸️ `IsoformSwitchAnalyzeR`
 - ⏸️ `MAGAR`
 - ⏸️ `MEAL`
 - ⏸️ `MEAT`
@@ -203,9 +202,10 @@
 - ⏸️ `chimeraviz`
 - ⏸️ `cicero`
 - ⏸️ `comapr`
+- ⏸️ `compEpiTools`
 
-... and 32 more ...
+... and 31 more ...
 
 ---
-*Last updated: 2026-11-05 16:46:23 UTC*
+*Last updated: 2026-11-05 16:47:26 UTC*
 *Packages with verified BBS status: 238*
