@@ -86,7 +86,7 @@
 | [ClustIRR](https://bioconductor.org/packages/3.23/bioc/html/ClustIRR.html) | [log](logs/ClustIRR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ClustIRR) | Syntax error in 'string', line 2, column 20 to column 21, parsing error: |
 | [GOfuncR](https://bioconductor.org/packages/3.23/bioc/html/GOfuncR.html) | [log](logs/GOfuncR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/GOfuncR) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.23/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
-| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar |
+| [SpiecEasi](https://bioconductor.org/packages/3.23/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
 | [adductomicsR](https://bioconductor.org/packages/3.23/bioc/html/adductomicsR.html) | [log](logs/adductomicsR/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/adductomicsR) | Missing dependency: smoother<br>[CRAN Package 'smoother'](https://cran.r-project.org/web/packages/smoother/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [cellmig](https://bioconductor.org/packages/3.23/bioc/html/cellmig.html) | [log](logs/cellmig/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/cellmig) | Syntax error in 'string', line 8, column 15 to column 16, parsing error: |
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Error: object ‘id’ is not exported by 'namespace:dplyr' |
@@ -211,5 +211,5 @@
 ... and 40 more ...
 
 ---
-*Last updated: 2026-11-05 12:40:17 UTC*
+*Last updated: 2026-11-05 12:46:51 UTC*
 *Packages with verified BBS status: 238*
