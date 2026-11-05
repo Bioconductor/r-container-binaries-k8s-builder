@@ -1,0 +1,62 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE);
+  p <- .libPaths();
+  p <- c('\''/tmp/library'\'', '\''/mnt/library'\'', p);
+  .libPaths(p);
+  if(BiocManager::install('\''scanMiRApp'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/noble/latest
+Bioconductor version 3.23 (BiocManager 1.30.27), R 4.6.1 (2026-06-24)
+Installing package(s) 'scanMiRApp'
+also installing the dependency ‘scanMiRData’
+
+trying URL 'https://bioconductor.org/packages/3.23/data/experiment/src/contrib/scanMiRData_1.18.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.23/bioc/src/contrib/scanMiRApp_1.18.0.tar.gz'
+* installing *source* package ‘scanMiRData’ ...
+** this is package ‘scanMiRData’ version ‘1.18.0’
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scanMiRData’ as ‘scanMiRData_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scanMiRData)
+* installing *source* package ‘scanMiRApp’ ...
+** this is package ‘scanMiRApp’ version ‘1.18.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* SHA256 sums
+* creating tarball
+packaged installation of ‘scanMiRApp’ as ‘scanMiRApp_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scanMiRApp)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpz6UmKM/downloaded_packages’
+Old packages: 'BreastSubtypeR', 'ChIPseeker', 'datawizard', 'future',
+  'litedown', 'mirai', 'OmnipathR', 'qs2', 'Rmpi', 'rsvd', 'StanHeaders',
+  'curl', 'diffobj', 'gert', 'knitr', 'openssl', 'rmarkdown', 'roxygen2',
+  'tinytex', 'usethis', 'xfun', 'foreign', 'KernSmooth', 'lattice', 'mgcv',
+  'nlme', 'survival'
+
+real	1m13.483s
+user	1m1.188s
+sys	0m6.783s
