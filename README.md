@@ -6,9 +6,9 @@
 
 ## Summary
 - **Total Packages:** 2385
-- **Successfully Built:** 2232 (93%)
+- **Successfully Built:** 2234 (93%)
 - **Failed:** 21 (0%)
-- **In Progress:** 50
+- **In Progress:** 48
 - **Not Started:** 82
 
 **Progress:** 94%
@@ -16,7 +16,7 @@
 ███████████████████████████████████████████████░░░
 ```
 
-## Successfully Built Packages (2232)
+## Successfully Built Packages (2234)
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -46,7 +46,7 @@
 | [ASICS](https://bioconductor.org/packages/3.23/bioc/html/ASICS.html) | [log](logs/ASICS/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASICS) |
 | [ASSET](https://bioconductor.org/packages/3.23/bioc/html/ASSET.html) | [log](logs/ASSET/build-success.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/ASSET) |
 
-*... and 2182 more ...*
+*... and 2184 more ...*
 
 | Package | Log | BBS Status |
 |---------|-----|------------|
@@ -102,7 +102,7 @@
 | [scRecover](https://bioconductor.org/packages/3.23/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.23/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (50)
+## In Progress (48)
 - ⏳ `ATACseqQC`
 - ⏳ `ChIPexoQual`
 - ⏳ `DEScan2`
@@ -123,7 +123,6 @@
 - ⏳ `RnaSeqSampleSize`
 - ⏳ `Rqc`
 - ⏳ `SMITE`
-- ⏳ `SOMNiBUS`
 - ⏳ `SingleMoleculeFootprinting`
 - ⏳ `TFHAZ`
 - ⏳ `bioCancer`
@@ -151,7 +150,6 @@
 - ⏳ `sitadela`
 - ⏳ `svaNUMT`
 - ⏳ `svaRetro`
-- ⏳ `tximeta`
 - ⏳ `vulcan`
 
 ## Not Yet Started (82)
@@ -209,5 +207,5 @@
 ... and 32 more ...
 
 ---
-*Last updated: 2026-11-05 16:44:43 UTC*
+*Last updated: 2026-11-05 16:46:23 UTC*
 *Packages with verified BBS status: 238*
