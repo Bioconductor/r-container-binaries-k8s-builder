@@ -60,11 +60,21 @@ echo "${JOBS}" | while read -r JOB_NAME PKG; do
     mkdir -p "${LOG_DIR}"
     TMP_LOG="${LOG_DIR}/temp.log"
 
-    # Copy logs from PVC via bioc pod
+    # Pods killed by activeDeadlineSeconds report reason DeadlineExceeded;
+    # the Job then fails with BackoffLimitExceeded once retries run out.
+    DEADLINE_PODS=$(kubectl get pods -n ${NAMESPACE} -l job-name="${JOB_NAME}" \
+                    -o jsonpath='{range .items[?(@.status.reason=="DeadlineExceeded")]}{.metadata.name}{"\n"}{end}' 2>/dev/null | grep -c . || true)
+
+    # Copy logs from PVC via bioc pod. Bounded so a stalled NFS mount
+    # cannot hang this workflow run.
     echo "  Copying logs from cluster..."
-    if ! kubectl cp "${BIOC_POD}:/mnt/logs/${PKG}.log" "${TMP_LOG}" -n ${NAMESPACE} >/dev/null 2>&1; then
+    if ! timeout 120 kubectl cp "${BIOC_POD}:/mnt/logs/${PKG}.log" "${TMP_LOG}" -n ${NAMESPACE} >/dev/null 2>&1; then
         echo "  Log file not found, marking as failed..."
-        echo "Build failed: Log file missing" > "${LOG_DIR}/build-fail.log"
+        if [ "${DEADLINE_PODS}" -gt 0 ]; then
+            echo "Build failed: ${DEADLINE_PODS} pod attempt(s) exceeded activeDeadlineSeconds (possible NFS hang); log file missing" > "${LOG_DIR}/build-fail.log"
+        else
+            echo "Build failed: Log file missing" > "${LOG_DIR}/build-fail.log"
+        fi
         rm -f "${TMP_LOG}"
         echo "$PKG" >> "${FAILED_PKGS}"
     else
@@ -82,7 +92,15 @@ echo "${JOBS}" | while read -r JOB_NAME PKG; do
             echo "  Build succeeded with verified packaging"
             echo "$PKG" >> "${SUCCESS_PKGS}"
         else
-            mv "${TMP_LOG}" "${LOG_DIR}/build-fail.log"
+            # The log may be from an earlier attempt if a later one was
+            # killed by the deadline before it could publish its own.
+            if [ "${DEADLINE_PODS}" -gt 0 ]; then
+                echo "Build failed: ${DEADLINE_PODS} pod attempt(s) exceeded activeDeadlineSeconds (possible NFS hang); log below may be from an earlier attempt" > "${LOG_DIR}/build-fail.log"
+                cat "${TMP_LOG}" >> "${LOG_DIR}/build-fail.log"
+                rm -f "${TMP_LOG}"
+            else
+                mv "${TMP_LOG}" "${LOG_DIR}/build-fail.log"
+            fi
             echo "  Build failed or package verification failed"
             echo "$PKG" >> "${FAILED_PKGS}"
         fi

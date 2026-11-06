@@ -64,6 +64,10 @@ jobs:
         if: steps.cycle_check.outputs.skip != 'true'
         env:
           RCLONE_CONF: ${{secrets.RCLONE_CONF}}
+          # Optional repository variables; empty falls back to script defaults.
+          BUILD_POD_DEADLINE_SECONDS: ${{ vars.BUILD_POD_DEADLINE_SECONDS }}
+          BUILD_CPU_REQUEST: ${{ vars.BUILD_CPU_REQUEST }}
+          BUILD_MEMORY_REQUEST: ${{ vars.BUILD_MEMORY_REQUEST }}
         id: build
         run: |
           set -euxo pipefail
