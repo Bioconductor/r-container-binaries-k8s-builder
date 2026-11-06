@@ -123,7 +123,7 @@ spec:
             fi
             rm -rf "\${stage}"
             cp -r "\${TEMP_LIBRARY}/\${name}" "\${stage}"
-            if [ -e "\${dest}" ]; then
+            if [ -e "\${dest}" ] && [ "\${name}" = "${PKG}" ]; then
               mv -T "\${dest}" "\${old}"
             fi
             if mv -T "\${stage}" "\${dest}"; then
