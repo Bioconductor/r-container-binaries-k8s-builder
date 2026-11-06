@@ -7,8 +7,8 @@
 ## Summary
 - **Total Packages:** 2437
 - **Successfully Built:** 1916 (78%)
-- **Failed:** 8 (0%)
-- **In Progress:** 91
+- **Failed:** 9 (0%)
+- **In Progress:** 90
 - **Not Started:** 422
 
 **Progress:** 78%
@@ -76,24 +76,24 @@
 | [zinbwave](https://bioconductor.org/packages/3.24/bioc/html/zinbwave.html) | [log](logs/zinbwave/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zinbwave) |
 | [zitools](https://bioconductor.org/packages/3.24/bioc/html/zitools.html) | [log](logs/zitools/build-success.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/zitools) |
 
-## Failed Packages (8)
+## Failed Packages (9)
 
 | Package | Log | BBS Status | Failure Reasons |
 |---------|-----|------------|------------------|
+| [CAMERA](https://bioconductor.org/packages/3.24/bioc/html/CAMERA.html) | [log](logs/CAMERA/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/CAMERA) | Build failed: Log file missing |
 | [Cepo](https://bioconductor.org/packages/3.24/bioc/html/Cepo.html) | [log](logs/Cepo/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/Cepo) | Build failed with unknown error |
 | [RbowtieCuda](https://bioconductor.org/packages/3.24/bioc/html/RbowtieCuda.html) | [log](logs/RbowtieCuda/build-fail.log) | Not Found | Compilation failed:  ‘RbowtieCuda’ |
-| [SpiecEasi](https://bioconductor.org/packages/3.24/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar<br>[CRAN Package 'pulsar'](https://cran.r-project.org/web/packages/pulsar/index.html) archived on 2026-08-22 as issues were not corrected in time. |
+| [SpiecEasi](https://bioconductor.org/packages/3.24/bioc/html/SpiecEasi.html) | [log](logs/SpiecEasi/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/SpiecEasi) | Missing dependency: pulsar |
 | [immunotation](https://bioconductor.org/packages/3.24/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/immunotation) | Error in getURL(url, read_method = "html") : 'getURL()' failed: |
 | [ppcseq](https://bioconductor.org/packages/3.24/bioc/html/ppcseq.html) | [log](logs/ppcseq/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/ppcseq) | Syntax error in 'string', line 23, column 7 to column 8, parsing error: |
 | [scMET](https://bioconductor.org/packages/3.24/bioc/html/scMET.html) | [log](logs/scMET/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scMET) | Syntax error in 'string', line 66, column 16 to column 17, parsing error: |
 | [scRecover](https://bioconductor.org/packages/3.24/bioc/html/scRecover.html) | [log](logs/scRecover/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.24/bioc-LATEST/scRecover) | Missing dependency: preseqR<br>[CRAN Package 'preseqR'](https://cran.r-project.org/web/packages/preseqR/index.html) archived on 2026-05-27 as email to the maintainer is undeliverable. |
 | [synergyfinder](https://bioconductor.org/packages/3.24/bioc/html/synergyfinder.html) | [log](logs/synergyfinder/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.24/bioc-LATEST/synergyfinder) | Missing dependency: SpatialExtremes<br>[CRAN Package 'SpatialExtremes'](https://cran.r-project.org/web/packages/SpatialExtremes/index.html) archived on 2026-10-21 as issues were not corrected despite reminders. |
 
-## In Progress (91)
+## In Progress (90)
 - ⏳ `ADaCGH2`
 - ⏳ `BSgenome`
 - ⏳ `BiSeq`
-- ⏳ `CAMERA`
 - ⏳ `CCPROMISE`
 - ⏳ `CNEr`
 - ⏳ `CRISPRball`
@@ -140,8 +140,9 @@
 - ⏳ `chipseq`
 - ⏳ `cliqueMS`
 - ⏳ `consensusSeekeR`
+- ⏳ `cosmiq`
 
-... and 41 more ...
+... and 40 more ...
 
 ## Not Yet Started (422)
 - ⏸️ `AHMassBank`
@@ -198,5 +199,5 @@
 ... and 372 more ...
 
 ---
-*Last updated: 2026-11-05 17:00:23 UTC*
-*Packages with verified BBS status: 225*
+*Last updated: 2026-11-06 16:41:29 UTC*
+*Packages with verified BBS status: 226*
