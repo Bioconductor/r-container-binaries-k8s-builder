@@ -101,11 +101,19 @@ spec:
 
           # Write the build log to local disk while R runs, so an NFS stall
           # cannot block the build's own output; publish it on exit.
+          # handle_k8s_jobs.sh needs the log to judge the build, so failing
+          # to publish it fails the pod (and Kubernetes retries) even when the
+          # build itself succeeded. A failed build keeps its own exit status.
           publish_log() {
+            local rc=\$?
             if [ -f "\${LOCAL_LOG}" ]; then
-              cp "\${LOCAL_LOG}" "\${STAGEDIR}/${PKG}.log.\${STAGE_TAG}" &&
-                mv -f "\${STAGEDIR}/${PKG}.log.\${STAGE_TAG}" "\${LOGDIR}/${PKG}.log" || true
+              if ! { cp "\${LOCAL_LOG}" "\${STAGEDIR}/${PKG}.log.\${STAGE_TAG}" &&
+                     mv -f "\${STAGEDIR}/${PKG}.log.\${STAGE_TAG}" "\${LOGDIR}/${PKG}.log"; }; then
+                echo "Error: failed to publish build log" >&2
+                [ "\${rc}" -ne 0 ] || rc=1
+              fi
             fi
+            exit "\${rc}"
           }
           trap publish_log EXIT
 
@@ -125,11 +133,17 @@ spec:
             cp -r "\${TEMP_LIBRARY}/\${name}" "\${stage}"
             # rename(2) refuses to replace a non-empty directory, so losing a
             # race with another publisher fails here instead of overwriting.
+            # Any other rename error (e.g. NFS I/O) fails the build so it is
+            # retried rather than succeeding without publishing.
             if mv -T "\${stage}" "\${dest}"; then
               echo "Published \${name}"
-            else
+            elif [ -d "\${dest}" ]; then
               echo "Skipping \${name}: published concurrently by another job"
-              rm -rf "\${stage}"
+              rm -rf "\${stage}" || true
+            else
+              echo "Error: failed to publish \${name} to shared library" >&2
+              rm -rf "\${stage}" || true
+              return 1
             fi
           }
 
