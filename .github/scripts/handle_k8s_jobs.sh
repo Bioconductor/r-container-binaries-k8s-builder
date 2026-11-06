@@ -92,7 +92,15 @@ echo "${JOBS}" | while read -r JOB_NAME PKG; do
             echo "  Build succeeded with verified packaging"
             echo "$PKG" >> "${SUCCESS_PKGS}"
         else
-            mv "${TMP_LOG}" "${LOG_DIR}/build-fail.log"
+            # The log may be from an earlier attempt if a later one was
+            # killed by the deadline before it could publish its own.
+            if [ "${DEADLINE_PODS}" -gt 0 ]; then
+                echo "Build failed: ${DEADLINE_PODS} pod attempt(s) exceeded activeDeadlineSeconds (possible NFS hang); log below may be from an earlier attempt" > "${LOG_DIR}/build-fail.log"
+                cat "${TMP_LOG}" >> "${LOG_DIR}/build-fail.log"
+                rm -f "${TMP_LOG}"
+            else
+                mv "${TMP_LOG}" "${LOG_DIR}/build-fail.log"
+            fi
             echo "  Build failed or package verification failed"
             echo "$PKG" >> "${FAILED_PKGS}"
         fi

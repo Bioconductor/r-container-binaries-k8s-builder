@@ -37,23 +37,29 @@ A package directory in `/mnt/library` is immutable once published. Pods
 publish with a copy-then-rename protocol (`publish_pkg` in
 `.github/scripts/dispatch_k8s_job.sh`):
 
-1. If `/mnt/library/<pkg>` already exists and `<pkg>` is not the package
-   this job builds, skip it. The first published copy wins.
-2. Otherwise copy to a hidden staging directory
-   `/mnt/library/.staging-<pkg>-<pod>` on the same filesystem.
-3. For the job's own package only (a retry after a partial publish), rename
-   the existing directory aside to `.old-<pkg>-<pod>`.
-4. `mv -T` the staging directory to `/mnt/library/<pkg>`. `rename(2)` is
+1. If `/mnt/library/<pkg>` already exists, skip it, including when `<pkg>`
+   is the package this job builds. The first published copy wins. Because
+   publishing is atomic, an existing directory is always a complete install
+   (from an earlier attempt of this job, or installed on demand by another
+   job through `Suggests`), so there is nothing to repair by replacing it.
+2. Otherwise copy to a per-pod staging directory
+   `/mnt/.staging/library-<pkg>-<pod>`. It is on the same volume, so the
+   rename below is atomic, but outside every directory that R scans or
+   `finish_cycle` syncs.
+3. `mv -T` the staging directory to `/mnt/library/<pkg>`. `rename(2)` is
    atomic on one NFS export and refuses to replace a non-empty directory,
    so if another pod published first, discard the staging copy.
-5. Remove `.old-*` best effort; open files keep it busy on NFS until closed.
 
-Hidden names are ignored by R's library scanning (`list.files()` excludes dot
-files), so staging directories are never seen as installed packages.
+Replacing an existing directory was rejected: NFS has no atomic directory
+swap (`RENAME_EXCHANGE`), so a replace takes two renames and leaves
+`/mnt/library/<pkg>` missing in between, or indefinitely if the pod is
+killed between them.
 
 The same stage-then-rename approach applies to tarballs in `/mnt/tarballs`
-and logs in `/mnt/logs`, so `finish_cycle` and `handle_k8s_jobs.sh` never
-read a partially written file.
+and logs in `/mnt/logs`, also staged in `/mnt/.staging`, so `finish_cycle`
+and `handle_k8s_jobs.sh` never read a partially written file and
+`finish_cycle`'s `rclone copy` of `/mnt/tarballs` never uploads a staging
+leftover.
 
 ## Alternatives Considered
 
@@ -77,15 +83,14 @@ read a partially written file.
 ## Consequences
 
 - Readers never see a truncated or half-written package, tarball, or log.
-  An in-progress `library()` keeps reading the old inodes even when a package
-  is replaced.
+  A published package path never disappears or changes once it exists.
 - A dependency is never refreshed by a later build in the same cycle; the
   first successful copy is used for the rest of the cycle. That matches the
   existing intent (one build per cycle), but if a dependency was published
   broken, it must be deleted from `/mnt/library` by hand.
-- Interrupted pods can leave `.staging-*` or `.old-*` directories in
-  `/mnt/library`. They are invisible to R and harmless, but they use space
-  until the volume is deleted with the namespace at the end of the cycle.
+- Interrupted pods can leave partial copies in `/mnt/.staging`. Nothing
+  reads or syncs that directory; the files use space until the volume is
+  deleted with the namespace at the end of the cycle.
 - This does not fix an unhealthy NFS server. The companion change, a
   pod-level `activeDeadlineSeconds` on build Jobs (default 3600 s, the BBS
   `INSTALL_timeout` for bioc software builds), makes hung builds fail and

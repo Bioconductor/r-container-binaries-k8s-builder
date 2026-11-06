@@ -89,51 +89,48 @@ spec:
           export SHARED_LIBRARY="/mnt/library"
           export TARDIR="/mnt/tarballs"
           export LOGDIR="/mnt/logs"
+          # Staging area on the same volume (so rename is atomic) but outside
+          # every directory that is read or synced (library, tarballs, logs).
+          STAGEDIR="/mnt/.staging"
           # Unique per pod; names staging paths on the shared volume.
           STAGE_TAG="\$(hostname)"
           LOCAL_LOG="/tmp/${PKG}.log"
 
           # Create directories
-          mkdir -p \${TARDIR} \${LOGDIR} \${TEMP_LIBRARY} \${SHARED_LIBRARY}
+          mkdir -p \${TARDIR} \${LOGDIR} \${TEMP_LIBRARY} \${SHARED_LIBRARY} \${STAGEDIR}
 
           # Write the build log to local disk while R runs, so an NFS stall
           # cannot block the build's own output; publish it on exit.
           publish_log() {
             if [ -f "\${LOCAL_LOG}" ]; then
-              cp "\${LOCAL_LOG}" "\${LOGDIR}/.${PKG}.log.\${STAGE_TAG}" &&
-                mv -f "\${LOGDIR}/.${PKG}.log.\${STAGE_TAG}" "\${LOGDIR}/${PKG}.log" || true
+              cp "\${LOCAL_LOG}" "\${STAGEDIR}/${PKG}.log.\${STAGE_TAG}" &&
+                mv -f "\${STAGEDIR}/${PKG}.log.\${STAGE_TAG}" "\${LOGDIR}/${PKG}.log" || true
             fi
           }
           trap publish_log EXIT
 
           # Publish a package into the shared library atomically (ADR 0001):
-          # copy to a hidden staging dir, then rename into place. Never write
-          # into an existing package dir; other pods may have its files open
-          # (e.g. EnsDb.* SQLite databases).
+          # copy to a staging dir, then rename into place. A published package
+          # dir is never modified or replaced; other pods may have its files
+          # open (e.g. EnsDb.* SQLite databases). First published copy wins.
           publish_pkg() {
             local name="\$1"
             local dest="\${SHARED_LIBRARY}/\${name}"
-            local stage="\${SHARED_LIBRARY}/.staging-\${name}-\${STAGE_TAG}"
-            local old="\${SHARED_LIBRARY}/.old-\${name}-\${STAGE_TAG}"
-            # Dependencies already published by another job are left alone;
-            # only the package this job builds may replace an existing copy.
-            if [ -e "\${dest}" ] && [ "\${name}" != "${PKG}" ]; then
+            local stage="\${STAGEDIR}/library-\${name}-\${STAGE_TAG}"
+            if [ -e "\${dest}" ]; then
               echo "Skipping \${name}: already in shared library"
               return 0
             fi
             rm -rf "\${stage}"
             cp -r "\${TEMP_LIBRARY}/\${name}" "\${stage}"
-            if [ -e "\${dest}" ] && [ "\${name}" = "${PKG}" ]; then
-              mv -T "\${dest}" "\${old}"
-            fi
+            # rename(2) refuses to replace a non-empty directory, so losing a
+            # race with another publisher fails here instead of overwriting.
             if mv -T "\${stage}" "\${dest}"; then
               echo "Published \${name}"
             else
               echo "Skipping \${name}: published concurrently by another job"
               rm -rf "\${stage}"
             fi
-            # Best effort: open files in the old copy may keep it busy.
-            rm -rf "\${old}" || true
           }
 
           # Record initial temp library state (should be empty)
@@ -161,8 +158,8 @@ spec:
           cd ~/
           echo "Tarballs Detected: \$(ls *.tar.gz)"
           for tarball in *.tar.gz; do
-            cp "\${tarball}" "\${TARDIR}/.\${tarball}.\${STAGE_TAG}"
-            mv -f "\${TARDIR}/.\${tarball}.\${STAGE_TAG}" "\${TARDIR}/\${tarball}"
+            cp "\${tarball}" "\${STAGEDIR}/\${tarball}.\${STAGE_TAG}"
+            mv -f "\${STAGEDIR}/\${tarball}.\${STAGE_TAG}" "\${TARDIR}/\${tarball}"
             rm -f "\${tarball}"
           done
           echo "Build artifacts stored in \${TARDIR}"
