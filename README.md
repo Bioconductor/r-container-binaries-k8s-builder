@@ -92,7 +92,7 @@
 | [geneXtendeR](https://bioconductor.org/packages/3.23/bioc/html/geneXtendeR.html) | [log](logs/geneXtendeR/build-fail.log) | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/geneXtendeR) | Error: object ‘id’ is not exported by 'namespace:dplyr' |
 | [iBBiG](https://bioconductor.org/packages/3.23/bioc/html/iBBiG.html) | [log](logs/iBBiG/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/iBBiG) | Missing dependency: biclust |
 | [immunotation](https://bioconductor.org/packages/3.23/bioc/html/immunotation.html) | [log](logs/immunotation/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/immunotation) | Build failed with unknown error |
-| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI |
+| [moanin](https://bioconductor.org/packages/3.23/bioc/html/moanin.html) | [log](logs/moanin/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/moanin) | Missing dependency: NMI<br>[CRAN Package 'NMI'](https://cran.r-project.org/web/packages/NMI/index.html) archived on 2026-05-18 as email to the maintainer is undeliverable. |
 | [mosbi](https://bioconductor.org/packages/3.23/bioc/html/mosbi.html) | [log](logs/mosbi/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/mosbi) | Missing dependency: biclust<br>[CRAN Package 'biclust'](https://cran.r-project.org/web/packages/biclust/index.html) archived on 2025-12-19 as issues were not corrected despite reminders. |
 | [myvariant](https://bioconductor.org/packages/3.23/bioc/html/myvariant.html) | N/A | [OK](https://bioconductor.org/checkResults/3.23/bioc-LATEST/myvariant) | Log file not found |
 | [nearBynding](https://bioconductor.org/packages/3.23/bioc/html/nearBynding.html) | [log](logs/nearBynding/build-fail.log) | [ERROR](https://bioconductor.org/checkResults/3.23/bioc-LATEST/nearBynding) | Error: object ‘filter’ is not exported by 'namespace:plyranges' |
@@ -204,5 +204,5 @@
 ... and 30 more ...
 
 ---
-*Last updated: 2026-11-08 10:17:10 UTC*
+*Last updated: 2026-11-08 10:24:18 UTC*
 *Packages with verified BBS status: 240*
