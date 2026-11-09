@@ -166,3 +166,35 @@ git add logs/dispatched-packages.txt
 git commit -m "Reset dispatched packages"
 git push
 ```
+
+### Builds stall with many pods `Pending` and a few idle `Running`
+Every build pod requests CPU (default `1`), so a handful of pods stuck in
+NFS I/O can use up the node's capacity while the rest of the queue waits with
+`0/1 nodes are available: 1 Insufficient cpu`. Check whether running build
+pods are actually doing work:
+
+```bash
+kubectl top pods -n <namespace> | grep pkg-
+kubectl exec -n <namespace> <pod> -- ps -eo pid,stat,wchan:22,etime,comm | awk 'NR==1 || $2 ~ /D/'
+```
+
+Processes in state `D` waiting in `rpc_wait_bit_killable` or
+`wait_on_page_bit_common` are blocked on the NFS server. Build pods have an
+`activeDeadlineSeconds` limit, so they are failed and retried automatically,
+but a pod stuck in kernel I/O may stay `Terminating` until the NFS server
+answers or the node is rebooted. Check the health of the NFS server backing
+the `nfs-client` StorageClass.
+
+### Tuning build jobs
+These optional repository variables (Settings → Secrets and variables →
+Actions → Variables) are read by `run.yaml` and passed to
+`dispatch_k8s_job.sh`:
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `BUILD_POD_DEADLINE_SECONDS` | `3600` | Max run time of one build pod attempt (time spent `Pending` is not counted). Matches the BBS `INSTALL_timeout` for bioc software builds |
+| `BUILD_CPU_REQUEST` | `1` | CPU request per build pod; lower values allow more concurrent builds per node |
+| `BUILD_MEMORY_REQUEST` | `4Gi` | Memory request per build pod |
+
+Packages are published to the shared library atomically; see
+[ADR 0001](docs/adr/0001-atomic-publish-to-shared-nfs-library.md).
