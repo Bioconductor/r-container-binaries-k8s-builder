@@ -20,7 +20,8 @@ biocver <- as.character(BiocManager::version())
 writeLines(biocver, "/mnt/bioc_version")
 
 # Get R version directly
-r_version <- paste0(R.version$major, ".", R.version$minor, ".", R.version$patch)
+# R.version$minor already holds "minor.patch" (e.g. "6.1")
+r_version <- paste(R.version$major, R.version$minor, sep = ".")
 writeLines(r_version, "/mnt/r_version")
 
 # Get container name from environment variables
